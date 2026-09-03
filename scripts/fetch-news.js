@@ -220,7 +220,13 @@ async function main() {
     process.exit(1);
   }
 
-  const parser = new RSSParser();
+  const parser = new RSSParser({
+    timeout: 15000,
+    headers: {
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+      "Accept": "application/rss+xml, application/xml, text/xml, */*"
+    }
+  });
   const allItems = [];
 
   // 2. Procesar cada fuente activa

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>KellgreatNews</title>
+
+  <script>
+    (function () {
+      try {
+        var theme = localStorage.getItem("kellgreat-theme");
+
+        if (theme !== "light" && theme !== "dark") {
+          theme = "dark";
+        }
+
+        document.documentElement.dataset.theme = theme;
+      } catch (error) {
+        document.documentElement.dataset.theme = "dark";
+      }
+    })();
+  </script>
+
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+
+  <header class="topbar">
+    <button id="brandButton" class="brand-button" type="button" aria-haspopup="true" aria-expanded="false">
+      <div class="brand">
+        <div class="avatar">K</div>
+
+        <div class="brand-text">
+          <span class="app-name">KellgreatNews</span>
+          <span class="app-sub">Resúmenes claros</span>
+        </div>
+      </div>
+    </button>
+
+    <div id="date" class="date-badge"></div>
+
+    <div id="themeMenu" class="theme-menu" role="menu">
+      <div class="theme-menu-title">Apariencia</div>
+
+      <button class="theme-option" type="button" data-theme="dark" role="menuitem">
+        🌙 Modo oscuro
+      </button>
+
+      <button class="theme-option" type="button" data-theme="light" role="menuitem">
+        ☀️ Modo claro
+      </button>
+    </div>
+  </header>
+
+  <nav class="tabs">
+    <button data-filter="todo" class="active">Todo</button>
+    <button data-filter="anclados">Anclados</button>
+    <button data-filter="youtube">YouTube</button>
+    <button data-filter="web">Web</button>
+    <button data-filter="favoritos">Favoritos</button>
+  </nav>
+
+  <main class="container">
+    <section id="feed" class="feed"></section>
+  </main>
+
+  <script src="./app.js"></script>
+</body>
+  </html>

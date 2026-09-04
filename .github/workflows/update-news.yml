@@ -1,63 +1,40 @@
-# ============================================================
-# KellgreatNews - Actualización automática de noticias
-# ============================================================
-# Este workflow:
-# 1. Se ejecuta cada hora automáticamente
-# 2. Descarga noticias de las fuentes configuradas
-# 3. Las traduce y resume
-# 4. Guarda el resultado en web/news.json
-# 5. Hace commit automático al repositorio
-# ============================================================
-
 name: Actualizar noticias
 
 on:
   schedule:
-    # Ejecutar cada hora (en el minuto 0 de cada hora)
     - cron: '0 * * * *'
-  
-  # Permitir ejecución manual desde la pestaña "Actions"
   workflow_dispatch:
 
-# Permisos para poder hacer commit al repositorio
 permissions:
   contents: write
 
 jobs:
   update-news:
     runs-on: ubuntu-latest
-    
+
     steps:
-      # Paso 1: Descargar el código del repositorio
       - name: Checkout del código
         uses: actions/checkout@v4
-      
-      # Paso 2: Configurar Node.js versión 20
+
       - name: Configurar Node.js
         uses: actions/setup-node@v4
         with:
           node-version: '20'
-      
-      # Paso 3: Instalar las dependencias del proyecto
+
       - name: Instalar dependencias
         run: npm install
-      
-      # Paso 4: Ejecutar el script principal
-      # Este paso descarga, traduce y resume las noticias
+
       - name: Descargar, traducir y resumir noticias
         run: node scripts/fetch-news.js
 
-      # Paso 4.5: Ping de mantenimiento (mantiene el repo activo)
       - name: Ping de mantenimiento
         run: echo "Manteniendo repositorio activo: $(date)"
-      
-      # Paso 5: Configurar identidad de git para commits automáticos
+
       - name: Configurar identidad de git
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-      
-      # Paso 6: Hacer commit solo si hay cambios reales
+
       - name: Commit y push de novedades
         run: |
           git add web/news.json

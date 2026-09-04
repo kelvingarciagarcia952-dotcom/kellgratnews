@@ -5,13 +5,59 @@
       "nombre": "Huawei Central",
       "tipo": "rss_web",
       "url": "https://huaweicentral.com/feed",
+      "rss2json_url": "https://api.rss2json.com/v1/api.json?rss_url=https://huaweicentral.com/feed",
+      "idioma": "en",
       "activo": true,
       "prioridad": 1,
-      "limite": 10
+      "limite": 8
+    },
+    {
+      "id": "google_news_es",
+      "nombre": "Google News ES",
+      "tipo": "rss_web",
+      "url": "https://news.google.com/rss/search?q=tecnologia&hl=es-419&gl=ES&ceid=ES:es-419",
+      "rss2json_url": "https://api.rss2json.com/v1/api.json?rss_url=https://news.google.com/rss/search?q=tecnologia&hl=es-419&gl=ES&ceid=ES:es-419",
+      "idioma": "es",
+      "activo": true,
+      "prioridad": 2,
+      "limite": 6
+    },
+    {
+      "id": "bbc_mundo",
+      "nombre": "BBC Mundo",
+      "tipo": "rss_web",
+      "url": "https://feeds.bbci.co.uk/mundo/rss.xml",
+      "rss2json_url": "https://api.rss2json.com/v1/api.json?rss_url=https://feeds.bbci.co.uk/mundo/rss.xml",
+      "idioma": "es",
+      "activo": true,
+      "prioridad": 3,
+      "limite": 5
+    },
+    {
+      "id": "xataka",
+      "nombre": "Xataka",
+      "tipo": "rss_web",
+      "url": "https://www.xataka.com/feed",
+      "rss2json_url": "https://api.rss2json.com/v1/api.json?rss_url=https://www.xataka.com/feed",
+      "idioma": "es",
+      "activo": true,
+      "prioridad": 4,
+      "limite": 4
+    },
+    {
+      "id": "genbeta",
+      "nombre": "Genbeta",
+      "tipo": "rss_web",
+      "url": "https://www.genbeta.com/feed",
+      "rss2json_url": "https://api.rss2json.com/v1/api.json?rss_url=https://www.genbeta.com/feed",
+      "idioma": "es",
+      "activo": true,
+      "prioridad": 5,
+      "limite": 3
     }
   ],
   "configuracion": {
-    "limite_global": 25,
+    "limite_global": 30,
     "frecuencia_minutos": 60,
     "idioma_destino": "es"
   }

@@ -137,6 +137,11 @@ async function main() {
   const limit = (config.configuracion && config.configuracion.limite_global) || 30;
   const finalItems = all.slice(0, limit);
 
+  if (finalItems.length === 0) {
+    console.log('sin noticias nuevas: se conserva el news.json anterior');
+    return;
+  }
+
   const output = {
     updated_at: new Date().toISOString(),
     items: finalItems

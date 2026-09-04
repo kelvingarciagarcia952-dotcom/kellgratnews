@@ -28,7 +28,7 @@ jobs:
         run: node scripts/fetch-news.js
 
       - name: Ping de mantenimiento
-        run: echo "Manteniendo repositorio activo: $(date)"
+        run: 'echo "Manteniendo repositorio activo" && date'
 
       - name: Configurar identidad de git
         run: |

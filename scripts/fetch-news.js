@@ -1,23 +1,12 @@
 // ============================================================
-// KellgreatNews - Descarga, traducción y resumen de noticias
-// ============================================================
-// Este script:
-// 1. Lee sources.json para saber qué fuentes procesar
-// 2. Descarga el RSS de cada fuente activa
-// 3. Traduce títulos y descripciones al español
-// 4. Genera resúmenes cortos y largos
-// 5. Guarda todo en web/news.json
+// KellgreatNews - Descarga, traducción y resumen (v2 con rss2json + multi-fuente)
 // ============================================================
 
-import RSSParser from 'rss-parser';
 import fs from 'fs';
 import path from 'path';
 import crypto from 'crypto';
 import { fileURLToPath } from 'url';
 
-// ------------------------------------------------------------
-// Configuración de rutas
-// ------------------------------------------------------------
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const rootDir = path.join(__dirname, '..');
@@ -25,27 +14,21 @@ const rootDir = path.join(__dirname, '..');
 const SOURCES_FILE = path.join(rootDir, 'sources.json');
 const OUTPUT_FILE = path.join(rootDir, 'web', 'news.json');
 
-// Cantidad máxima de oraciones a incluir en el resumen largo
 const MAX_SENTENCES_FOR_SUMMARY = 4;
-
-// Pausa entre peticiones de traducción (para no saturar la API)
 const TRANSLATE_DELAY_MS = 500;
 
 // ------------------------------------------------------------
-// Utilidades básicas
+// Utilidades
 // ------------------------------------------------------------
 
-// Pausa la ejecución durante los milisegundos indicados
 function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
 }
 
-// Genera un ID único y estable a partir de una URL
 function generateId(url) {
   return crypto.createHash('md5').update(url).digest('hex').substring(0, 12);
 }
 
-// Elimina etiquetas HTML y entidades comunes de un texto
 function stripHtml(html) {
   if (!html) return '';
   return html
@@ -67,21 +50,69 @@ function stripHtml(html) {
     .trim();
 }
 
-// Divide un texto en oraciones individuales
 function splitSentences(text) {
   if (!text) return [];
   return text
     .split(/(?<=[.!?])\s+/)
     .map(s => s.trim())
-    .filter(s => s.length > 20); // Ignorar fragmentos muy cortos
+    .filter(s => s.length > 20);
 }
 
 // ------------------------------------------------------------
-// Traducción automática (inglés → español)
+// Descarga: usa rss2json si está configurado, sino RSS directo
 // ------------------------------------------------------------
 
-// Opción principal: Google Translate (endpoint no oficial, sin API key)
-async function translateWithGoogle(text, sourceLang = 'en', targetLang = 'es') {
+async function fetchItemsFromRSS2JSON(rss2jsonUrl) {
+  const response = await fetch(rss2jsonUrl, {
+    headers: { "User-Agent": "KellgreatNews/1.0" }
+  });
+  
+  if (!response.ok) {
+    throw new Error(`HTTP ${response.status}`);
+  }
+  
+  const data = await response.json();
+  
+  if (data.status !== 'ok') {
+    throw new Error(`rss2json: ${data.message || 'error'}`);
+  }
+  
+  return data.items || [];
+}
+
+async function fetchItemsFromRSS(url) {
+  const { default: RSSParser } = await import('rss-parser');
+  const parser = new RSSParser({
+    timeout: 15000,
+    headers: {
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+      "Accept": "application/rss+xml, application/xml, text/xml, */*"
+    }
+  });
+  
+  const feed = await parser.parseURL(url);
+  return feed.items || [];
+}
+
+async function fetchItems(source) {
+  // Intentar rss2json primero (más robusto)
+  if (source.rss2json_url) {
+    try {
+      return await fetchItemsFromRSS2JSON(source.rss2json_url);
+    } catch (error) {
+      console.warn(`  ⚠ rss2json falló para ${source.nombre}: ${error.message}`);
+    }
+  }
+  
+  // Fallback a RSS directo
+  return await fetchItemsFromRSS(source.url);
+}
+
+// ------------------------------------------------------------
+// Traducción (solo si el idioma no es español)
+// ------------------------------------------------------------
+
+async function translateWithGoogle(text, sourceLang, targetLang) {
   const url = `https://translate.googleapis.com/translate_a/single?client=gtx&sl=${sourceLang}&tl=${targetLang}&dt=t&q=${encodeURIComponent(text)}`;
   const response = await fetch(url);
   if (!response.ok) throw new Error(`HTTP ${response.status}`);
@@ -89,11 +120,10 @@ async function translateWithGoogle(text, sourceLang = 'en', targetLang = 'es') {
   if (Array.isArray(data) && Array.isArray(data[0])) {
     return data[0].map(item => item[0]).join('');
   }
-  throw new Error('Formato de respuesta inesperado');
+  throw new Error('Formato inesperado');
 }
 
-// Opción de respaldo: MyMemory API (gratuita, sin API key)
-async function translateWithMyMemory(text, sourceLang = 'en', targetLang = 'es') {
+async function translateWithMyMemory(text, sourceLang, targetLang) {
   const url = `https://api.mymemory.translated.net/get?q=${encodeURIComponent(text)}&langpair=${sourceLang}|${targetLang}`;
   const response = await fetch(url);
   if (!response.ok) throw new Error(`HTTP ${response.status}`);
@@ -101,16 +131,154 @@ async function translateWithMyMemory(text, sourceLang = 'en', targetLang = 'es')
   if (data.responseStatus === 200 && data.responseData) {
     return data.responseData.translatedText;
   }
-  throw new Error('MyMemory no pudo traducir');
+  throw new Error('MyMemory falló');
 }
 
-// Función principal de traducción con fallback automático
-async function translateText(text, sourceLang = 'en', targetLang = 'es') {
+async function translateText(text, sourceLang, targetLang) {
+  // Si ya está en el idioma destino, no traducir
+  if (sourceLang === targetLang) return text;
   if (!text || text.trim().length === 0) return text;
 
-  // Intento 1: Google Translate
   try {
     return await translateWithGoogle(text, sourceLang, targetLang);
+  } catch (error) {
+    console.warn(`  ⚠ Google falló: ${error.message}`);
+  }
+
+  try {
+    return await translateWithMyMemory(text, sourceLang, targetLang);
+  } catch (error) {
+    console.warn(`  ⚠ MyMemory falló: ${error.message}`);
+  }
+
+  return text;
+}
+
+// ------------------------------------------------------------
+// Procesamiento de noticia
+// ------------------------------------------------------------
+
+async function processItem(item, source, targetLang) {
+  const title = stripHtml(item.title || '');
+  const description = item.contentSnippet || stripHtml(item.content || item.summary || item.description || '');
+  const link = item.link || '';
+  const pubDate = item.isoDate || item.pubDate || new Date().toISOString();
+  
+  const sourceLang = source.idioma || 'en';
+
+  const translatedTitle = await translateText(title, sourceLang, targetLang);
+  if (sourceLang !== targetLang) await sleep(TRANSLATE_DELAY_MS);
+
+  const sentences = splitSentences(description);
+  const toTranslate = sentences.slice(0, MAX_SENTENCES_FOR_SUMMARY);
+
+  const translatedSentences = [];
+  for (const sentence of toTranslate) {
+    const t = await translateText(sentence, sourceLang, targetLang);
+    translatedSentences.push(t);
+    if (sourceLang !== targetLang) await sleep(TRANSLATE_DELAY_MS);
+  }
+
+  return {
+    id: generateId(link),
+    fuente_id: source.id,
+    fuente_nombre: source.nombre,
+    tipo: source.tipo || 'web',
+    titulo: translatedTitle,
+    enlace: link,
+    fecha: pubDate,
+    resumen_corto: translatedSentences[0] || translatedTitle,
+    resumen_largo: translatedSentences.join(' ') || translatedTitle
+  };
+}
+
+// ------------------------------------------------------------
+// Procesamiento de fuente
+// ------------------------------------------------------------
+
+async function processSource(source, targetLang) {
+  console.log(`\n→ Procesando: ${source.nombre} (${source.idioma || 'en'})`);
+
+  try {
+    const items = await fetchItems(source);
+    console.log(`  ✓ ${items.length} artículos descargados`);
+    
+    const limited = items.slice(0, source.limite || 10);
+    const processed = [];
+    
+    for (const item of limited) {
+      try {
+        const p = await processItem(item, source, targetLang);
+        processed.push(p);
+      } catch (error) {
+        console.error(`  ✗ Error item: ${error.message}`);
+      }
+    }
+    
+    console.log(`  ✓ ${processed.length} noticias procesadas`);
+    return processed;
+  } catch (error) {
+    console.error(`  ✗ Error fuente: ${error.message}`);
+    return [];
+  }
+}
+
+// ------------------------------------------------------------
+// Main
+// ------------------------------------------------------------
+
+async function main() {
+  console.log('═══════════════════════════════════════════');
+  console.log('KellgreatNews v2 - Multi-fuente + rss2json');
+  console.log(`Hora: ${new Date().toISOString()}`);
+  console.log('═══════════════════════════════════════════');
+
+  let config;
+  try {
+    config = JSON.parse(fs.readFileSync(SOURCES_FILE, 'utf-8'));
+  } catch (error) {
+    console.error('✗ Error sources.json:', error.message);
+    process.exit(1);
+  }
+
+  const targetLang = config.configuracion?.idioma_destino || 'es';
+  const allItems = [];
+
+  for (const source of config.sources) {
+    if (!source.activo) {
+      console.log(`⊘ Inactiva: ${source.nombre}`);
+      continue;
+    }
+    const items = await processSource(source, targetLang);
+    allItems.push(...items);
+  }
+
+  allItems.sort((a, b) => new Date(b.fecha) - new Date(a.fecha));
+
+  const globalLimit = config.configuracion?.limite_global || 30;
+  const finalItems = allItems.slice(0, globalLimit);
+
+  const output = {
+    updated_at: new Date().toISOString(),
+    items: finalItems
+  };
+
+  const webDir = path.dirname(OUTPUT_FILE);
+  if (!fs.existsSync(webDir)) {
+    fs.mkdirSync(webDir, { recursive: true });
+  }
+
+  fs.writeFileSync(OUTPUT_FILE, JSON.stringify(output, null, 2), 'utf-8');
+
+  console.log('\n═══════════════════════════════════════════');
+  console.log(`✓ ${finalItems.length} noticias guardadas`);
+  console.log('═══════════════════════════════════════════');
+}
+
+main().catch(error => {
+  console.error('✗ Error fatal:', error);
+  process.exit(1);
+});    return await translateWithGoogle(text, sourceLang, targetLang);
   } catch (error) {
     console.warn(`  ⚠ Google Translate falló, probando MyMemory: ${error.message}`);
   }

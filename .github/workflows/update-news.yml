@@ -46,6 +46,10 @@ jobs:
       # Este paso descarga, traduce y resume las noticias
       - name: Descargar, traducir y resumir noticias
         run: node scripts/fetch-news.js
+
+      # Paso 4.5: Ping de mantenimiento (mantiene el repo activo)
+      - name: Ping de mantenimiento
+        run: echo "Manteniendo repositorio activo: $(date)"
       
       # Paso 5: Configurar identidad de git para commits automáticos
       - name: Configurar identidad de git

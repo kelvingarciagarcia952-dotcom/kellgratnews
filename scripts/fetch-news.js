@@ -164,8 +164,13 @@ async function main() {
     for (const i of items) all.push(i);
   }
 
+  const MAX_AGE_DAYS = 14;
+  const cutoff = Date.now() - MAX_AGE_DAYS * 24 * 60 * 60 * 1000;
+
   const seen = new Set();
   const unique = all.filter(function (it) {
+    const t = new Date(it.fecha).getTime();
+    if (isNaN(t) || t < cutoff) return false;
     const key = it.titulo.toLowerCase().trim();
     if (seen.has(key)) return false;
     seen.add(key);
@@ -173,7 +178,6 @@ async function main() {
   });
 
   unique.sort(function (a, b) { return new Date(b.fecha) - new Date(a.fecha); });
-
   const limit = (config.configuracion && config.configuracion.limite_global) || 30;
   const finalItems = unique.slice(0, limit);
   // BLINDAJE: nunca sobrescribir con feed vacío

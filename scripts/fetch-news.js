@@ -35,12 +35,25 @@ function stripHtml(html) {
     .trim();
 }
 
-function splitSentences(text) {
-  if (!text) return [];
-  return text
-    .split(/(?<=[.!?])\s+/)
-    .map(function (s) { return s.trim(); })
-    .filter(function (s) { return s.length > 20; });
+async function fetchArticleText(url) {
+  const res = await fetch(url, {
+    headers: {
+      'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36'
+    },
+    signal: AbortSignal.timeout(10000)
+  });
+  if (!res.ok) throw new Error('HTTP ' + res.status);
+  const html = await res.text();
+  const paragraphs = [];
+  const re = /<p[^>]*>([\s\S]*?)<\/p>/gi;
+  let m;
+  while ((m = re.exec(html)) !== null) {
+    const text = stripHtml(m[1]);
+    if (text.length > 60) paragraphs.push(text);
+    if (paragraphs.length >= 4) break;
+  }
+  if (paragraphs.length === 0) throw new Error('sin parrafos');
+  return paragraphs.join(' ');
 }
 
 async function translate(text, from, to) {
@@ -110,9 +123,22 @@ async function processItem(item, source, targetLang) {
   }
 
   await sleep(DELAY_MS);
-  const sentences = splitSentences(description).slice(0, MAX_SENTENCES);
+  let sentences = splitSentences(description);
+
+  if (sentences.length < 2 && link) {
+    try {
+      console.log('  feed tacaño: leyendo el artículo completo');
+      const articleText = await fetchArticleText(link);
+      const more = splitSentences(articleText);
+      if (more.length > sentences.length) sentences = more;
+    } catch (e) {
+      console.warn('  artículo bloqueado, usando fragmento: ' + e.message);
+    }
+  }
+
+  const toTranslate = sentences.slice(0, MAX_SENTENCES);
   const translated = [];
-  for (const s of sentences) {
+  for (const s of toTranslate) {
     translated.push(await translate(s, from, targetLang));
     await sleep(DELAY_MS);
   }

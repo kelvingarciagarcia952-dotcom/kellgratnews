@@ -10,8 +10,8 @@ const rootDir = path.join(__dirname, '..');
 
 const SOURCES_FILE = path.join(rootDir, 'sources.json');
 const OUTPUT_FILE = path.join(rootDir, 'web', 'news.json');
-const MAX_SENTENCES = 4;
-const DELAY_MS = 500;
+const MAX_SENTENCES = 3;
+const DELAY_MS = 800;
 
 function sleep(ms) {
   return new Promise(function (resolve) { setTimeout(resolve, ms); });
@@ -33,6 +33,13 @@ function stripHtml(html) {
     .replace(/&#0?39;/gi, "'")
     .replace(/\s+/g, ' ')
     .trim();
+}
+function splitSentences(text) {
+  if (!text) return [];
+  return text
+    .split(/(?<=[.!?])\s+/)
+    .map(function (s) { return s.trim(); })
+    .filter(function (s) { return s.length > 20; });
 }
 
 async function fetchArticleText(url) {

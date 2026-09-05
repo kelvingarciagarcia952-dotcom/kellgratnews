@@ -89,18 +89,40 @@ async function fetchTelegram(source) {
   return items;
         }
 
+async function translateWithGoogle(text, from, to) {
+  const url = 'https://translate.googleapis.com/translate_a/single?client=gtx&sl=' + from + '&tl=' + to + '&dt=t&q=' + encodeURIComponent(text);
+  const res = await fetch(url);
+  if (!res.ok) throw new Error('HTTP ' + res.status);
+  const data = await res.json();
+  if (Array.isArray(data) && Array.isArray(data[0])) {
+    return data[0].map(function (x) { return x[0]; }).join('');
+  }
+  throw new Error('formato');
+}
+
+async function translateWithMyMemory(text, from, to) {
+  const url = 'https://api.mymemory.translated.net/get?q=' + encodeURIComponent(text) + '&langpair=' + from + '|' + to;
+  const res = await fetch(url);
+  if (!res.ok) throw new Error('HTTP ' + res.status);
+  const data = await res.json();
+  if (data.responseStatus === 200 && data.responseData && data.responseData.translatedText) {
+    return data.responseData.translatedText;
+  }
+  throw new Error('mymemory');
+}
+
 async function translate(text, from, to) {
   if (from === to) return text;
   if (!text || !text.trim()) return text;
+
   try {
-    const url = 'https://translate.googleapis.com/translate_a/single?client=gtx&sl=' + from + '&tl=' + to + '&dt=t&q=' + encodeURIComponent(text);
-    const res = await fetch(url);
-    if (!res.ok) throw new Error('HTTP ' + res.status);
-    const data = await res.json();
-    if (Array.isArray(data) && Array.isArray(data[0])) {
-      return data[0].map(function (x) { return x[0]; }).join('');
-    }
-    throw new Error('formato');
+    return await translateWithGoogle(text, from, to);
+  } catch (e) {
+    // Google saturado: segunda puerta
+  }
+
+  try {
+    return await translateWithMyMemory(text, from, to);
   } catch (e) {
     console.warn('  traduccion falló, usando original: ' + e.message);
     return text;

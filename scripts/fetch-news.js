@@ -102,9 +102,14 @@ async function processItem(item, source, targetLang) {
   const pubDate = item.isoDate || item.pubDate || new Date().toISOString();
   const from = source.idioma || 'en';
 
-  const titulo = await translate(title, from, targetLang);
-  await sleep(DELAY_MS);
+  let titulo = await translate(title, from, targetLang);
 
+  const suffix = ' - ' + source.nombre;
+  if (titulo.endsWith(suffix)) {
+    titulo = titulo.slice(0, -suffix.length);
+  }
+
+  await sleep(DELAY_MS);
   const sentences = splitSentences(description).slice(0, MAX_SENTENCES);
   const translated = [];
   for (const s of sentences) {
@@ -159,11 +164,18 @@ async function main() {
     for (const i of items) all.push(i);
   }
 
-  all.sort(function (a, b) { return new Date(b.fecha) - new Date(a.fecha); });
+  const seen = new Set();
+  const unique = all.filter(function (it) {
+    const key = it.titulo.toLowerCase().trim();
+    if (seen.has(key)) return false;
+    seen.add(key);
+    return true;
+  });
+
+  unique.sort(function (a, b) { return new Date(b.fecha) - new Date(a.fecha); });
 
   const limit = (config.configuracion && config.configuracion.limite_global) || 30;
-  const finalItems = all.slice(0, limit);
-
+  const finalItems = unique.slice(0, limit);
   // BLINDAJE: nunca sobrescribir con feed vacío
   if (finalItems.length === 0) {
     console.log('sin noticias nuevas: se conserva el news.json anterior');

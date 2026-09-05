@@ -2,6 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import crypto from 'crypto';
 import { fileURLToPath } from 'url';
+import RSSParser from 'rss-parser';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -60,19 +61,45 @@ async function translate(text, from, to) {
   }
 }
 
+// ------------------------------------------------------------
+// DOBLE PUERTA: rss2json primero, RSS directo como respaldo
+// ------------------------------------------------------------
+
 async function fetchItems(source) {
-  const res = await fetch(source.rss2json_url);
-  if (!res.ok) throw new Error('HTTP ' + res.status);
-  const data = await res.json();
-  if (data.status !== 'ok') throw new Error('rss2json: ' + (data.message || 'error'));
-  return data.items || [];
+  // Puerta 1: rss2json
+  if (source.rss2json_url) {
+    try {
+      const res = await fetch(source.rss2json_url);
+      if (res.ok) {
+        const data = await res.json();
+        if (data.status === 'ok' && (data.items || []).length > 0) {
+          console.log('  entrada via rss2json');
+          return data.items;
+        }
+      }
+    } catch (e) {
+      console.warn('  rss2json falló: ' + e.message);
+    }
+  }
+
+  // Puerta 2: RSS directo con User-Agent de navegador
+  const parser = new RSSParser({
+    timeout: 15000,
+    headers: {
+      'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36',
+      'Accept': 'application/rss+xml, application/xml, text/xml, */*'
+    }
+  });
+  const feed = await parser.parseURL(source.url);
+  console.log('  entrada via RSS directo');
+  return feed.items || [];
 }
 
 async function processItem(item, source, targetLang) {
   const title = stripHtml(item.title || '');
-  const description = stripHtml(item.description || item.content || '');
+  const description = stripHtml(item.description || item.contentSnippet || item.content || '');
   const link = item.link || '';
-  const pubDate = item.pubDate || new Date().toISOString();
+  const pubDate = item.isoDate || item.pubDate || new Date().toISOString();
   const from = source.idioma || 'en';
 
   const titulo = await translate(title, from, targetLang);
@@ -121,7 +148,7 @@ async function processSource(source, targetLang) {
 }
 
 async function main() {
-  console.log('=== KellgreatNews v2 ===');
+  console.log('=== KellgreatNews v2.2 doble puerta ===');
   const config = JSON.parse(fs.readFileSync(SOURCES_FILE, 'utf-8'));
   const targetLang = (config.configuracion && config.configuracion.idioma_destino) || 'es';
   const all = [];
@@ -137,6 +164,7 @@ async function main() {
   const limit = (config.configuracion && config.configuracion.limite_global) || 30;
   const finalItems = all.slice(0, limit);
 
+  // BLINDAJE: nunca sobrescribir con feed vacío
   if (finalItems.length === 0) {
     console.log('sin noticias nuevas: se conserva el news.json anterior');
     return;

@@ -55,6 +55,32 @@ async function fetchArticleText(url) {
   if (paragraphs.length === 0) throw new Error('sin parrafos');
   return paragraphs.join(' ');
 }
+async function fetchTelegram(source) {
+  const url = 'https://t.me/s/' + source.telegram_user;
+  const res = await fetch(url, {
+    headers: {
+      'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36'
+    },
+    signal: AbortSignal.timeout(10000)
+  });
+  if (!res.ok) throw new Error('HTTP ' + res.status);
+  const html = await res.text();
+
+  const items = [];
+  const re = /data-post="([^"]+)"[\s\S]*?<div class="tgme_widget_message_text[^>]*>([\s\S]*?)<\/div>[\s\S]*?<time datetime="([^"]+)"/g;
+  let m;
+  while ((m = re.exec(html)) !== null) {
+    const text = stripHtml(m[2]);
+    if (text.length < 20) continue;
+    items.push({
+      title: text.length > 120 ? text.slice(0, 120) : text,
+      description: text,
+      link: 'https://t.me/' + m[1],
+      pubDate: m[3]
+    });
+  }
+  return items;
+        }
 
 async function translate(text, from, to) {
   if (from === to) return text;
@@ -159,7 +185,9 @@ async function processItem(item, source, targetLang) {
 async function processSource(source, targetLang) {
   console.log('Procesando: ' + source.nombre);
   try {
-    const items = await fetchItems(source);
+    const items = source.tipo === 'telegram'
+      ? await fetchTelegram(source)
+      : await fetchItems(source);
     console.log('  descargados: ' + items.length);
     const limited = items.slice(0, source.limite || 10);
     const out = [];

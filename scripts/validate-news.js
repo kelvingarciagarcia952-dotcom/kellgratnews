@@ -294,10 +294,10 @@ function validateItem(item, index) {
     return errors;
   }
 
+  // Corregido: acepta version numérica o string
   if (
-    !safeString(
-      item.analisis.version
-    )
+    item.analisis.version === undefined ||
+    item.analisis.version === null
   ) {
     errors.push(
       `item ${index}: falta versión del análisis`
@@ -885,3 +885,4 @@ try {
 
   process.exit(1);
 }
+

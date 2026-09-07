@@ -9,278 +9,1044 @@ const __dirname = path.dirname(__filename);
 const rootDir = path.join(__dirname, '..');
 
 const SOURCES_FILE = path.join(rootDir, 'sources.json');
-const OUTPUT_FILE = path.join(rootDir, 'web', 'news.json');
+const OUTPUT_FILE = path.join(rootDir, 'src', 'news.json');
+
 const MAX_SENTENCES = 3;
-const DELAY_MS = 800;
+const MAX_TITLE_LENGTH = 220;
+const MAX_DESCRIPTION_LENGTH = 5000;
+
+const ARTICLE_TIMEOUT_MS = 12000;
+const FEED_TIMEOUT_MS = 15000;
+const TRANSLATE_TIMEOUT_MS = 9000;
+
+const DELAY_MS = 250;
+const MAX_AGE_DAYS = 14;
+
+const USER_AGENT =
+  'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 ' +
+  '(KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 KellgreatNews/3.0';
+
+const parser = new RSSParser({
+  timeout: FEED_TIMEOUT_MS,
+  headers: {
+    'User-Agent': USER_AGENT,
+    Accept:
+      'application/rss+xml, application/xml, text/xml, application/json, */*'
+  }
+});
 
 function sleep(ms) {
-  return new Promise(function (resolve) { setTimeout(resolve, ms); });
+  return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
-function generateId(url) {
-  return crypto.createHash('md5').update(url).digest('hex').substring(0, 12);
+function safeString(value, fallback = '') {
+  return typeof value === 'string' ? value : fallback;
 }
 
 function stripHtml(html) {
   if (!html) return '';
+
   return String(html)
+    .replace(/<script[\s\S]*?<\/script>/gi, ' ')
+    .replace(/<style[\s\S]*?<\/style>/gi, ' ')
+    .replace(/<br\s*\/?\s*>/gi, ' ')
     .replace(/<[^>]*>/g, ' ')
+    .replace(
+      /&#(x?[0-9a-f]+);/gi,
+      (_, code) => {
+        const isHex = code[0]?.toLowerCase() === 'x';
+        const value = Number.parseInt(
+          isHex ? code.slice(1) : code,
+          isHex ? 16 : 10
+        );
+
+        return Number.isFinite(value)
+          ? String.fromCodePoint(value)
+          : ' ';
+      }
+    )
     .replace(/&nbsp;/gi, ' ')
     .replace(/&amp;/gi, '&')
     .replace(/&lt;/gi, '<')
     .replace(/&gt;/gi, '>')
     .replace(/&quot;/gi, '"')
+    .replace(/&apos;/gi, "'")
     .replace(/&#0?39;/gi, "'")
     .replace(/\s+/g, ' ')
     .trim();
 }
+
+function normalizeText(text, maxLength = Infinity) {
+  const cleaned = stripHtml(text)
+    .replace(/[\u0000-\u0008\u000B\u000C\u000E-\u001F\u007F]/g, ' ')
+    .replace(/\s+/g, ' ')
+    .trim();
+
+  return maxLength === Infinity
+    ? cleaned
+    : cleaned.slice(0, maxLength).trim();
+}
+
 function splitSentences(text) {
   if (!text) return [];
-  return text
-    .split(/(?<=[.!?])\s+/)
-    .map(function (s) { return s.trim(); })
-    .filter(function (s) { return s.length > 20; });
+
+  return normalizeText(text)
+    .split(/(?<=[.!?。！？])\s+/)
+    .map((sentence) => sentence.trim())
+    .filter((sentence) => sentence.length >= 25);
+}
+
+function normalizeUrl(url) {
+  const value = safeString(url).trim();
+
+  if (!value) return '';
+
+  try {
+    const parsed = new URL(value);
+
+    if (!['http:', 'https:'].includes(parsed.protocol)) {
+      return '';
+    }
+
+    parsed.hash = '';
+
+    return parsed.toString();
+  } catch {
+    return '';
+  }
+}
+
+function generateId(url, fallback = '') {
+  const seed =
+    normalizeUrl(url) ||
+    normalizeText(fallback).toLowerCase();
+
+  return crypto
+    .createHash('sha256')
+    .update(seed)
+    .digest('hex')
+    .slice(0, 16);
+}
+
+function getDate(value) {
+  if (!value) return '';
+
+  const date = new Date(value);
+
+  return Number.isNaN(date.getTime())
+    ? ''
+    : date.toISOString();
+}
+
+async function fetchJson(url, timeoutMs = FEED_TIMEOUT_MS) {
+  const res = await fetch(url, {
+    headers: {
+      'User-Agent': USER_AGENT,
+      Accept: 'application/json, text/plain, */*'
+    },
+    signal: AbortSignal.timeout(timeoutMs)
+  });
+
+  if (!res.ok) {
+    throw new Error(`HTTP ${res.status}`);
+  }
+
+  return res.json();
 }
 
 async function fetchArticleText(url) {
-  const res = await fetch(url, {
+  const safeUrl = normalizeUrl(url);
+
+  if (!safeUrl) {
+    throw new Error('URL inválida');
+  }
+
+  const res = await fetch(safeUrl, {
     headers: {
-      'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36'
+      'User-Agent': USER_AGENT,
+      Accept:
+        'text/html,application/xhtml+xml;q=0.9,*/*;q=0.8'
     },
-    signal: AbortSignal.timeout(10000)
+    redirect: 'follow',
+    signal: AbortSignal.timeout(ARTICLE_TIMEOUT_MS)
   });
-  if (!res.ok) throw new Error('HTTP ' + res.status);
+
+  if (!res.ok) {
+    throw new Error(`HTTP ${res.status}`);
+  }
+
   const html = await res.text();
   const paragraphs = [];
-  const re = /<p[^>]*>([\s\S]*?)<\/p>/gi;
-  let m;
-  while ((m = re.exec(html)) !== null) {
-    const text = stripHtml(m[1]);
-    if (text.length > 60) paragraphs.push(text);
-    if (paragraphs.length >= 4) break;
+
+  const re = /<p\b[^>]*>([\s\S]*?)<\/p>/gi;
+
+  let match;
+
+  while ((match = re.exec(html)) !== null) {
+    const text = normalizeText(match[1], 1200);
+
+    if (text.length >= 80) {
+      paragraphs.push(text);
+    }
+
+    if (paragraphs.length >= 6) {
+      break;
+    }
   }
-  if (paragraphs.length === 0) throw new Error('sin parrafos');
-  return paragraphs.join(' ');
+
+  if (paragraphs.length === 0) {
+    throw new Error('sin párrafos');
+  }
+
+  return paragraphs
+    .join(' ')
+    .slice(0, MAX_DESCRIPTION_LENGTH);
 }
+
 async function fetchTelegram(source) {
-  const url = 'https://t.me/s/' + source.telegram_user;
+  const username = safeString(source.telegram_user)
+    .replace(/^@+/, '')
+    .trim();
+
+  if (!username) {
+    throw new Error('telegram_user ausente');
+  }
+
+  const url = `https://t.me/s/${encodeURIComponent(username)}`;
+
   const res = await fetch(url, {
     headers: {
-      'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36'
+      'User-Agent': USER_AGENT,
+      Accept:
+        'text/html,application/xhtml+xml;q=0.9,*/*;q=0.8'
     },
-    signal: AbortSignal.timeout(10000)
+    redirect: 'follow',
+    signal: AbortSignal.timeout(ARTICLE_TIMEOUT_MS)
   });
-  if (!res.ok) throw new Error('HTTP ' + res.status);
+
+  if (!res.ok) {
+    throw new Error(`HTTP ${res.status}`);
+  }
+
   const html = await res.text();
 
   const items = [];
-  const re = /data-post="([^"]+)"[\s\S]*?<div class="tgme_widget_message_text[^>]*>([\s\S]*?)<\/div>[\s\S]*?<time datetime="([^"]+)"/g;
-  let m;
-  while ((m = re.exec(html)) !== null) {
-    const text = stripHtml(m[2]);
-    if (text.length < 20) continue;
+
+  const re =
+    /data-post="([^"<>]+)"[\s\S]*?<div class="tgme_widget_message_text[^>]*>([\s\S]*?)<\/div>[\s\S]*?<time[^>]*datetime="([^"]+)"/gi;
+
+  let match;
+
+  while ((match = re.exec(html)) !== null) {
+    const text = normalizeText(
+      match[2],
+      MAX_DESCRIPTION_LENGTH
+    );
+
+    const pubDate = getDate(match[3]);
+
+    if (text.length < 20) {
+      continue;
+    }
+
+    const postPath = match[1].split('/');
+    const postId = postPath.at(-1) || '';
+
+    const link = postId
+      ? `https://t.me/${username}/${postId}`
+      : `https://t.me/${username}`;
+
     items.push({
-      title: text.length > 120 ? text.slice(0, 120) : text,
+      title: text.slice(0, MAX_TITLE_LENGTH),
       description: text,
-      link: 'https://t.me/' + m[1],
-      pubDate: m[3]
+      link,
+      pubDate
     });
   }
+
   return items;
-        }
-
-async function translateWithGoogle(text, from, to) {
-  const url = 'https://translate.googleapis.com/translate_a/single?client=gtx&sl=' + from + '&tl=' + to + '&dt=t&q=' + encodeURIComponent(text);
-  const res = await fetch(url);
-  if (!res.ok) throw new Error('HTTP ' + res.status);
-  const data = await res.json();
-  if (Array.isArray(data) && Array.isArray(data[0])) {
-    return data[0].map(function (x) { return x[0]; }).join('');
-  }
-  throw new Error('formato');
 }
 
-async function translateWithMyMemory(text, from, to) {
-  const url = 'https://api.mymemory.translated.net/get?q=' + encodeURIComponent(text) + '&langpair=' + from + '|' + to;
-  const res = await fetch(url);
-  if (!res.ok) throw new Error('HTTP ' + res.status);
-  const data = await res.json();
-  if (data.responseStatus === 200 && data.responseData && data.responseData.translatedText) {
-    return data.responseData.translatedText;
-  }
-  throw new Error('mymemory');
-}
+async function fetchRssDirect(source) {
+  const url = normalizeUrl(source.url);
 
-async function translate(text, from, to) {
-  if (from === to) return text;
-  if (!text || !text.trim()) return text;
-
-  try {
-    return await translateWithGoogle(text, from, to);
-  } catch (e) {
-    // Google saturado: segunda puerta
+  if (!url) {
+    throw new Error('URL RSS inválida');
   }
 
-  try {
-    return await translateWithMyMemory(text, from, to);
-  } catch (e) {
-    console.warn('  traduccion falló, usando original: ' + e.message);
-    return text;
-  }
-}
+  const feed = await parser.parseURL(url);
 
-// ------------------------------------------------------------
-// DOBLE PUERTA: rss2json primero, RSS directo como respaldo
-// ------------------------------------------------------------
-
-async function fetchItems(source) {
-  // Puerta 1: rss2json
-  if (source.rss2json_url) {
-    try {
-      const res = await fetch(source.rss2json_url);
-      if (res.ok) {
-        const data = await res.json();
-        if (data.status === 'ok' && (data.items || []).length > 0) {
-          console.log('  entrada via rss2json');
-          return data.items;
-        }
-      }
-    } catch (e) {
-      console.warn('  rss2json falló: ' + e.message);
-    }
-  }
-
-  // Puerta 2: RSS directo con User-Agent de navegador
-  const parser = new RSSParser({
-    timeout: 15000,
-    headers: {
-      'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36',
-      'Accept': 'application/rss+xml, application/xml, text/xml, */*'
-    }
-  });
-  const feed = await parser.parseURL(source.url);
-  console.log('  entrada via RSS directo');
   return feed.items || [];
 }
 
-async function processItem(item, source, targetLang) {
-  const title = stripHtml(item.title || '');
-  const description = stripHtml(item.description || item.contentSnippet || item.content || '');
-  const link = item.link || '';
-  const pubDate = item.isoDate || item.pubDate || new Date().toISOString();
-  const from = source.idioma || 'en';
+async function fetchRss2Json(source) {
+  const url = normalizeUrl(source.rss2json_url);
 
-  let titulo = await translate(title, from, targetLang);
-
-  const suffix = ' - ' + source.nombre;
-  if (titulo.endsWith(suffix)) {
-    titulo = titulo.slice(0, -suffix.length);
+  if (!url) {
+    throw new Error('rss2json_url inválida');
   }
 
-  await sleep(DELAY_MS);
-  let sentences = splitSentences(description);
+  const data = await fetchJson(url);
 
-  if (sentences.length < 2 && link) {
+  if (
+    data?.status !== 'ok' ||
+    !Array.isArray(data.items) ||
+    data.items.length === 0
+  ) {
+    throw new Error(
+      'respuesta RSS2JSON sin elementos'
+    );
+  }
+
+  return data.items;
+}
+
+async function fetchItems(source) {
+  try {
+    const items = await fetchRssDirect(source);
+
+    console.log('  entrada via RSS directo');
+
+    return items;
+  } catch (directError) {
+    console.warn(
+      `  RSS directo falló: ${directError.message}`
+    );
+  }
+
+  if (source.rss2json_url) {
     try {
-      console.log('  feed tacaño: leyendo el artículo completo');
-      const articleText = await fetchArticleText(link);
-      const more = splitSentences(articleText);
-      if (more.length > sentences.length) sentences = more;
-    } catch (e) {
-      console.warn('  artículo bloqueado, usando fragmento: ' + e.message);
+      const items = await fetchRss2Json(source);
+
+      console.log(
+        '  entrada via rss2json (respaldo)'
+      );
+
+      return items;
+    } catch (fallbackError) {
+      console.warn(
+        `  rss2json también falló: ${fallbackError.message}`
+      );
     }
   }
 
-  const toTranslate = sentences.slice(0, MAX_SENTENCES);
-  const translated = [];
-  for (const s of toTranslate) {
-    translated.push(await translate(s, from, targetLang));
+  throw new Error(
+    'todas las puertas RSS fallaron'
+  );
+}
+
+async function translateWithGoogle(text, from, to) {
+  const url =
+    'https://translate.googleapis.com/translate_a/single' +
+    '?client=gtx' +
+    `&sl=${encodeURIComponent(from)}` +
+    `&tl=${encodeURIComponent(to)}` +
+    '&dt=t&q=' +
+    encodeURIComponent(text);
+
+  const res = await fetch(url, {
+    headers: {
+      'User-Agent': USER_AGENT
+    },
+    signal: AbortSignal.timeout(
+      TRANSLATE_TIMEOUT_MS
+    )
+  });
+
+  if (!res.ok) {
+    throw new Error(`HTTP ${res.status}`);
+  }
+
+  const data = await res.json();
+
+  if (Array.isArray(data?.[0])) {
+    return data[0]
+      .map((part) => part?.[0] || '')
+      .join('')
+      .trim();
+  }
+
+  throw new Error(
+    'formato de traducción no válido'
+  );
+}
+
+async function translateWithMyMemory(text, from, to) {
+  const url =
+    'https://api.mymemory.translated.net/get?q=' +
+    encodeURIComponent(text) +
+    `&langpair=${encodeURIComponent(from)}%7C${encodeURIComponent(to)}`;
+
+  const res = await fetch(url, {
+    headers: {
+      'User-Agent': USER_AGENT
+    },
+    signal: AbortSignal.timeout(
+      TRANSLATE_TIMEOUT_MS
+    )
+  });
+
+  if (!res.ok) {
+    throw new Error(`HTTP ${res.status}`);
+  }
+
+  const data = await res.json();
+
+  const translated =
+    data?.responseData?.translatedText;
+
+  if (
+    data?.responseStatus === 200 &&
+    typeof translated === 'string' &&
+    translated.trim()
+  ) {
+    return translated.trim();
+  }
+
+  throw new Error(
+    'MyMemory no devolvió traducción'
+  );
+}
+
+async function translate(text, from, to) {
+  const value = normalizeText(text);
+
+  if (!value || from === to) {
+    return value;
+  }
+
+  try {
+    return await translateWithGoogle(
+      value,
+      from,
+      to
+    );
+  } catch (googleError) {
+    console.warn(
+      `  Google Translate falló: ${googleError.message}`
+    );
+  }
+
+  try {
+    return await translateWithMyMemory(
+      value,
+      from,
+      to
+    );
+  } catch (memoryError) {
+    console.warn(
+      `  MyMemory falló: ${memoryError.message}; se usa original`
+    );
+
+    return value;
+  }
+}
+
+function removeSourceSuffix(title, sourceName) {
+  const suffix =
+    ` - ${safeString(sourceName).trim()}`;
+
+  if (
+    suffix.length > 3 &&
+    title
+      .toLowerCase()
+      .endsWith(suffix.toLowerCase())
+  ) {
+    return title
+      .slice(0, -suffix.length)
+      .trim();
+  }
+
+  return title;
+}
+
+function buildRawDescription(item) {
+  return normalizeText(
+    item.description ||
+      item.contentSnippet ||
+      item.content ||
+      item.summary ||
+      item['content:encoded'] ||
+      ''
+  );
+}
+
+async function processItem(
+  item,
+  source,
+  targetLang
+) {
+  const originalTitle = normalizeText(
+    item.title,
+    MAX_TITLE_LENGTH
+  );
+
+  if (!originalTitle) {
+    throw new Error(
+      'noticia sin título'
+    );
+  }
+
+  const link = normalizeUrl(
+    item.link ||
+      item.guid ||
+      ''
+  );
+
+  if (
+    !link &&
+    source.tipo !== 'telegram'
+  ) {
+    throw new Error(
+      'noticia sin enlace válido'
+    );
+  }
+
+  const from = safeString(
+    source.idioma || 'en'
+  ).toLowerCase();
+
+  const pubDate =
+    getDate(
+      item.isoDate ||
+        item.pubDate ||
+        item.published ||
+        item.date
+    ) ||
+    new Date().toISOString();
+
+  let originalDescription =
+    buildRawDescription(
+      item
+    ).slice(
+      0,
+      MAX_DESCRIPTION_LENGTH
+    );
+
+  if (
+    splitSentences(
+      originalDescription
+    ).length < 2 &&
+    link
+  ) {
+    try {
+      console.log(
+        '  feed tacaño: leyendo artículo'
+      );
+
+      const articleText =
+        await fetchArticleText(
+          link
+        );
+
+      if (
+        articleText.length >
+        originalDescription.length
+      ) {
+        originalDescription =
+          articleText;
+      }
+    } catch (error) {
+      console.warn(
+        `  artículo no accesible: ${error.message}`
+      );
+    }
+  }
+
+  const sentences =
+    splitSentences(
+      originalDescription
+    ).slice(
+      0,
+      MAX_SENTENCES
+    );
+
+  const translatedTitle =
+    removeSourceSuffix(
+      await translate(
+        originalTitle,
+        from,
+        targetLang
+      ),
+      source.nombre
+    ).slice(
+      0,
+      MAX_TITLE_LENGTH
+    );
+
+  const translatedSentences = [];
+
+  for (const sentence of sentences) {
+    translatedSentences.push(
+      await translate(
+        sentence,
+        from,
+        targetLang
+      )
+    );
+
     await sleep(DELAY_MS);
   }
 
+  const finalTitle =
+    translatedTitle ||
+    originalTitle;
+
+  const shortSummary =
+    (
+      translatedSentences[0] ||
+      finalTitle
+    )
+      .slice(0, 500)
+      .trim();
+
+  const longSummary =
+    (
+      translatedSentences.join(' ') ||
+      finalTitle
+    )
+      .slice(0, 1500)
+      .trim();
+
   return {
-    id: generateId(link),
-    fuente_id: source.id,
-    fuente_nombre: source.nombre,
-    tipo: source.tipo || 'web',
-    titulo: titulo,
-    enlace: link,
+    id: generateId(
+      link,
+      `${source.id}:${originalTitle}`
+    ),
+
+    fuente_id: safeString(
+      source.id
+    ),
+
+    fuente_nombre: safeString(
+      source.nombre
+    ),
+
+    tipo: safeString(
+      source.tipo || 'web'
+    ),
+
+    categoria: safeString(
+      source.categoria ||
+        'tecnologia'
+    ),
+
+    idioma_original: from,
+
+    prioridad_fuente:
+      Number.isFinite(
+        Number(source.prioridad)
+      )
+        ? Number(source.prioridad)
+        : 3,
+
+    titulo: finalTitle,
+
+    titulo_original:
+      originalTitle,
+
+    enlace:
+      link ||
+      `https://t.me/${safeString(
+        source.telegram_user
+      ).replace(/^@+/, '')}`,
+
     fecha: pubDate,
-    resumen_corto: translated[0] || titulo,
-    resumen_largo: translated.join(' ') || titulo
+
+    resumen_corto:
+      shortSummary,
+
+    resumen_largo:
+      longSummary,
+
+    texto_original:
+      originalDescription.slice(
+        0,
+        MAX_DESCRIPTION_LENGTH
+      ),
+
+    analisis: null
   };
 }
 
-async function processSource(source, targetLang) {
-  console.log('Procesando: ' + source.nombre);
+async function processSource(
+  source,
+  targetLang
+) {
+  console.log(
+    `Procesando: ${source.nombre}`
+  );
+
   try {
-    const items = source.tipo === 'telegram'
-      ? await fetchTelegram(source)
-      : await fetchItems(source);
-    console.log('  descargados: ' + items.length);
-    const limited = items.slice(0, source.limite || 10);
-    const out = [];
-    for (const item of limited) {
+    const items =
+      source.tipo === 'telegram'
+        ? await fetchTelegram(
+            source
+          )
+        : await fetchItems(
+            source
+          );
+
+    console.log(
+      `  descargados: ${items.length}`
+    );
+
+    const limit = Math.max(
+      0,
+      Number(source.limite) || 10
+    );
+
+    const limited =
+      items.slice(0, limit);
+
+    const output = [];
+
+    for (
+      const item of limited
+    ) {
       try {
-        out.push(await processItem(item, source, targetLang));
-      } catch (e) {
-        console.error('  error item: ' + e.message);
+        output.push(
+          await processItem(
+            item,
+            source,
+            targetLang
+          )
+        );
+      } catch (error) {
+        console.warn(
+          `  noticia descartada: ${error.message}`
+        );
       }
     }
-    console.log('  procesados: ' + out.length);
-    return out;
-  } catch (e) {
-    console.error('  error fuente ' + source.nombre + ': ' + e.message);
+
+    console.log(
+      `  procesados: ${output.length}`
+    );
+
+    return output;
+  } catch (error) {
+    console.error(
+      `  error fuente ${source.nombre}: ${error.message}`
+    );
+
     return [];
   }
 }
 
-async function main() {
-  console.log('=== KellgreatNews v2.2 doble puerta ===');
-  const config = JSON.parse(fs.readFileSync(SOURCES_FILE, 'utf-8'));
-  const targetLang = (config.configuracion && config.configuracion.idioma_destino) || 'es';
-  const all = [];
+function dedupeItems(items) {
+  const seenUrls =
+    new Set();
 
-  for (const source of config.sources) {
-    if (!source.activo) continue;
-    const items = await processSource(source, targetLang);
-    for (const i of items) all.push(i);
+  const seenTitles =
+    new Set();
+
+  const cutoff =
+    Date.now() -
+    MAX_AGE_DAYS *
+      24 *
+      60 *
+      60 *
+      1000;
+
+  return items.filter(
+    (item) => {
+      const date =
+        new Date(
+          item.fecha
+        ).getTime();
+
+      if (
+        !Number.isFinite(date) ||
+        date < cutoff
+      ) {
+        return false;
+      }
+
+      const urlKey =
+        normalizeUrl(
+          item.enlace
+        ).toLowerCase();
+
+      const titleKey =
+        normalizeText(
+          item.titulo
+        )
+          .toLowerCase()
+          .normalize('NFD')
+          .replace(
+            /[\u0300-\u036f]/g,
+            ''
+          );
+
+      if (
+        urlKey &&
+        seenUrls.has(urlKey)
+      ) {
+        return false;
+      }
+
+      if (
+        titleKey &&
+        seenTitles.has(titleKey)
+      ) {
+        return false;
+      }
+
+      if (urlKey) {
+        seenUrls.add(
+          urlKey
+        );
+      }
+
+      if (titleKey) {
+        seenTitles.add(
+          titleKey
+        );
+      }
+
+      return true;
+    }
+  );
+}
+
+function readExistingOutput() {
+  try {
+    if (
+      !fs.existsSync(
+        OUTPUT_FILE
+      )
+    ) {
+      return null;
+    }
+
+    const existing =
+      JSON.parse(
+        fs.readFileSync(
+          OUTPUT_FILE,
+          'utf-8'
+        )
+      );
+
+    return existing &&
+      Array.isArray(
+        existing.items
+      )
+      ? existing
+      : null;
+  } catch {
+    return null;
+  }
+}
+
+function writeOutputAtomically(
+  output
+) {
+  const webDir =
+    path.dirname(
+      OUTPUT_FILE
+    );
+
+  if (
+    !fs.existsSync(
+      webDir
+    )
+  ) {
+    fs.mkdirSync(
+      webDir,
+      {
+        recursive: true
+      }
+    );
   }
 
-  const MAX_AGE_DAYS = 14;
-  const cutoff = Date.now() - MAX_AGE_DAYS * 24 * 60 * 60 * 1000;
+  const tempFile =
+    `${OUTPUT_FILE}.tmp`;
 
-  const seen = new Set();
-  const unique = all.filter(function (it) {
-    const t = new Date(it.fecha).getTime();
-    if (isNaN(t) || t < cutoff) return false;
-    const key = it.titulo.toLowerCase().trim();
-    if (seen.has(key)) return false;
-    seen.add(key);
-    return true;
-  });
+  fs.writeFileSync(
+    tempFile,
+    JSON.stringify(
+      output,
+      null,
+      2
+    ),
+    'utf-8'
+  );
 
-  unique.sort(function (a, b) { return new Date(b.fecha) - new Date(a.fecha); });
-  const limit = (config.configuracion && config.configuracion.limite_global) || 30;
-  const finalItems = unique.slice(0, limit);
-  // BLINDAJE: nunca sobrescribir con feed vacío
-  if (finalItems.length === 0) {
-    console.log('sin noticias nuevas: se conserva el news.json anterior');
+  fs.renameSync(
+    tempFile,
+    OUTPUT_FILE
+  );
+}
+
+async function main() {
+  console.log(
+    '=== KellgreatNews v3 — captura robusta ==='
+  );
+
+  if (
+    !fs.existsSync(
+      SOURCES_FILE
+    )
+  ) {
+    throw new Error(
+      'No existe sources.json'
+    );
+  }
+
+  const config =
+    JSON.parse(
+      fs.readFileSync(
+        SOURCES_FILE,
+        'utf-8'
+      )
+    );
+
+  if (
+    !Array.isArray(
+      config.sources
+    )
+  ) {
+    throw new Error(
+      'sources.json no contiene un array sources'
+    );
+  }
+
+  const targetLang =
+    safeString(
+      config.configuracion
+        ?.idioma_destino ||
+        'es'
+    ).toLowerCase();
+
+  const globalLimit =
+    Math.max(
+      1,
+      Number(
+        config.configuracion
+          ?.limite_global
+      ) || 60
+    );
+
+  const all = [];
+
+  let activeSources = 0;
+  let successfulSources = 0;
+
+  for (
+    const source of
+      config.sources
+  ) {
+    if (
+      !source?.activo
+    ) {
+      continue;
+    }
+
+    activeSources += 1;
+
+    const items =
+      await processSource(
+        source,
+        targetLang
+      );
+
+    if (
+      items.length > 0
+    ) {
+      successfulSources += 1;
+    }
+
+    all.push(
+      ...items
+    );
+  }
+
+  console.log(
+    `Fuentes activas: ${activeSources}; con resultados: ${successfulSources}`
+  );
+
+  const unique =
+    dedupeItems(all);
+
+  unique.sort(
+    (a, b) =>
+      new Date(
+        b.fecha
+      ).getTime() -
+      new Date(
+        a.fecha
+      ).getTime()
+  );
+
+  const finalItems =
+    unique.slice(
+      0,
+      globalLimit
+    );
+
+  const previous =
+    readExistingOutput();
+
+  if (
+    finalItems.length === 0
+  ) {
+    console.warn(
+      'Sin noticias válidas: se conserva src/news.json anterior'
+    );
+
+    return;
+  }
+
+  if (
+    activeSources > 0 &&
+    successfulSources === 0 &&
+    previous?.items?.length > 0
+  ) {
+    console.warn(
+      'Todas las fuentes fallaron: se conserva src/news.json anterior'
+    );
+
     return;
   }
 
   const output = {
-    updated_at: new Date().toISOString(),
+    schema_version: 3,
+
+    updated_at:
+      new Date().toISOString(),
+
+    source_stats: {
+      active_sources:
+        activeSources,
+
+      successful_sources:
+        successfulSources,
+
+      collected_items:
+        all.length,
+
+      final_items:
+        finalItems.length
+    },
+
     items: finalItems
   };
 
-  const webDir = path.dirname(OUTPUT_FILE);
-  if (!fs.existsSync(webDir)) fs.mkdirSync(webDir, { recursive: true });
-  fs.writeFileSync(OUTPUT_FILE, JSON.stringify(output, null, 2), 'utf-8');
-  console.log('guardadas: ' + finalItems.length + ' noticias');
+  writeOutputAtomically(
+    output
+  );
+
+  console.log(
+    `guardadas: ${finalItems.length} noticias en src/news.json`
+  );
 }
 
-main().catch(function (e) {
-  console.error('error fatal: ' + e);
-  process.exit(1);
-});
+main().catch(
+  (error) => {
+    console.error(
+      `error fatal: ${error.message}`
+    );
+
+    process.exit(1);
+  }
+);

@@ -1,39 +1,3 @@
-// ============================================================
-// KellgreatNews - Validador final de noticias v1
-// ============================================================
-//
-// Flujo:
-//
-//   fetch-news.js
-//        ↓
-//   web/news.json
-//        ↓
-//   analyze-news.js
-//        ↓
-//   summarize.js
-//        ↓
-//   validate-news.js  ← este módulo
-//        ↓
-//   web/news.json
-//
-// Responsabilidades:
-//   - Validar estructura general
-//   - Validar campos obligatorios
-//   - Validar URLs
-//   - Validar fechas
-//   - Validar títulos y contenido
-//   - Revisar análisis generado
-//   - Rechazar spam grave
-//   - Rechazar contenido excesivamente defectuoso
-//   - Eliminar duplicados confirmados
-//   - Ordenar por relevancia/calidad/fecha
-//   - Limitar resultados
-//   - Proteger el archivo existente ante fallos graves
-//
-// No utiliza servicios externos.
-//
-// ============================================================
-
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
@@ -42,76 +6,47 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const rootDir = path.join(__dirname, '..');
 
-const DATA_FILE = path.join(
+const INPUT_FILE = path.join(
   rootDir,
   'web',
   'news.json'
 );
 
-const MIN_TITLE_LENGTH = 8;
-const MAX_TITLE_LENGTH = 220;
-
-const MIN_SUMMARY_LENGTH = 15;
-const MIN_CONTENT_LENGTH = 20;
-
-const MIN_VALID_SCORE = 25;
-const MIN_QUALITY_FOR_PRIORITY = 45;
-
-const MAX_AGE_DAYS = 14;
-const MAX_FUTURE_DAYS = 2;
-
 const DEFAULT_LIMIT = 60;
+const MIN_FINAL_SCORE = 25;
+const DESTRUCTIVE_CHANGE_RATIO = 0.20;
 
-function safeText(value) {
+function safeString(value, fallback = '') {
   return typeof value === 'string'
-    ? value.trim()
-    : '';
-}
-
-function isFiniteNumber(value) {
-  return (
-    typeof value === 'number' &&
-    Number.isFinite(value)
-  );
-}
-
-function clamp(value, min, max) {
-  return Math.max(
-    min,
-    Math.min(max, value)
-  );
+    ? value
+    : fallback;
 }
 
 function normalizeText(text) {
-  return safeText(text)
+  return safeString(text)
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
+function normalizeTitle(title) {
+  return normalizeText(title)
     .toLowerCase()
     .normalize('NFD')
-    .replace(
-      /[\u0300-\u036f]/g,
-      ''
-    )
-    .replace(
-      /[^\p{L}\p{N}\s]/gu,
-      ' '
-    )
-    .replace(
-      /\s+/g,
-      ' '
-    )
+    .replace(/[\u0300-\u036f]/g, '')
+    .replace(/[^\p{L}\p{N}\s]/gu, ' ')
+    .replace(/\s+/g, ' ')
     .trim();
 }
 
 function normalizeUrl(url) {
-  const value =
-    safeText(url);
+  const value = safeString(url).trim();
 
   if (!value) {
     return '';
   }
 
   try {
-    const parsed =
-      new URL(value);
+    const parsed = new URL(value);
 
     if (
       parsed.protocol !== 'http:' &&
@@ -128,573 +63,324 @@ function normalizeUrl(url) {
   }
 }
 
-function parseDate(value) {
-  if (!value) {
-    return null;
-  }
-
-  const date =
-    new Date(value);
-
-  if (
-    Number.isNaN(
-      date.getTime()
-    )
-  ) {
-    return null;
-  }
-
-  return date;
-}
-
-function isDateAcceptable(date) {
-  if (!date) {
-    return false;
-  }
-
-  const now =
-    Date.now();
-
-  const minimum =
-    now -
-    MAX_AGE_DAYS *
-      24 *
-      60 *
-      60 *
-      1000;
-
-  const maximum =
-    now +
-    MAX_FUTURE_DAYS *
-      24 *
-      60 *
-      60 *
-      1000;
-
-  const time =
-    date.getTime();
+function validDate(value) {
+  const date = new Date(value);
 
   return (
-    time >= minimum &&
-    time <= maximum
+    !Number.isNaN(date.getTime()) &&
+    date.getTime() > 0
   );
 }
 
-function dedupeStrings(values) {
-  return [
-    ...new Set(
-      values.filter(
-        (value) =>
-          typeof value ===
-          'string' &&
-          value.trim()
-      )
-    )
-  ];
+function clamp(value, min, max) {
+  return Math.max(
+    min,
+    Math.min(max, value)
+  );
 }
 
-function readData() {
-  if (
-    !fs.existsSync(
-      DATA_FILE
+function calculateFinalScore(item) {
+  const analysis =
+    item.analisis || {};
+
+  const calidad =
+    Number.isFinite(
+      Number(analysis.calidad)
     )
-  ) {
-    throw new Error(
-      `No existe ${DATA_FILE}`
-    );
-  }
+      ? Number(analysis.calidad)
+      : 50;
 
-  let data;
+  const relevancia =
+    Number.isFinite(
+      Number(analysis.relevancia)
+    )
+      ? Number(analysis.relevancia)
+      : 50;
 
-  try {
-    data =
-      JSON.parse(
-        fs.readFileSync(
-          DATA_FILE,
-          'utf-8'
+  const confiabilidad =
+    Number.isFinite(
+      Number(
+        analysis.confiabilidad_fuente
+      )
+    )
+      ? Number(
+          analysis.confiabilidad_fuente
         )
-      );
-  } catch (error) {
-    throw new Error(
-      `JSON inválido: ${error.message}`
-    );
+      : 50;
+
+  let score =
+    calidad * 0.35 +
+    relevancia * 0.40 +
+    confiabilidad * 0.25;
+
+  const clickbait =
+    analysis.clickbait || {};
+
+  const spam =
+    analysis.spam || {};
+
+  if (clickbait.detected === true) {
+    score -=
+      Number(clickbait.penalty) || 10;
+  }
+
+  if (spam.detected === true) {
+    score -=
+      Number(spam.penalty) || 20;
   }
 
   if (
-    !data ||
-    typeof data !== 'object'
+    analysis.reporte?.detectado === true
   ) {
-    throw new Error(
-      'news.json no contiene un objeto válido'
-    );
+    score +=
+      Number(
+        analysis.reporte.bonus
+      ) || 5;
   }
 
-  if (
-    !Array.isArray(
-      data.items
-    )
-  ) {
-    throw new Error(
-      'news.json no contiene un array items'
-    );
-  }
-
-  return data;
+  return Math.round(
+    clamp(score, 0, 100) * 100
+  ) / 100;
 }
 
 function validateContainer(data) {
   const errors = [];
 
   if (
+    !data ||
+    typeof data !== 'object'
+  ) {
+    errors.push(
+      'El JSON raíz no es un objeto'
+    );
+
+    return errors;
+  }
+
+  if (
     typeof data.schema_version !==
     'number'
   ) {
     errors.push(
-      'schema_version ausente o inválido'
+      'Falta schema_version válida'
     );
   }
 
   if (
-    data.items.length === 0
+    !Array.isArray(data.items)
   ) {
     errors.push(
-      'el array items está vacío'
+      'items no es un array'
     );
   }
 
   return errors;
 }
 
-function validateTitle(title) {
-  const value =
-    safeText(title);
-
-  if (!value) {
-    return {
-      valid: false,
-      reason:
-        'título vacío'
-    };
-  }
+function validateItem(item, index) {
+  const errors = [];
 
   if (
-    value.length <
-    MIN_TITLE_LENGTH
+    !item ||
+    typeof item !== 'object'
   ) {
-    return {
-      valid: false,
-      reason:
-        'título demasiado corto'
-    };
-  }
-
-  if (
-    value.length >
-    MAX_TITLE_LENGTH
-  ) {
-    return {
-      valid: false,
-      reason:
-        'título demasiado largo'
-    };
-  }
-
-  return {
-    valid: true,
-    reason: null
-  };
-}
-
-function validateSummary(
-  summary
-) {
-  const value =
-    safeText(summary);
-
-  if (!value) {
-    return false;
-  }
-
-  return (
-    value.length >=
-    MIN_SUMMARY_LENGTH
-  );
-}
-
-function validateContent(
-  item
-) {
-  const contentCandidates = [
-    item.texto_original,
-    item.resumen_largo,
-    item.resumen_corto
-  ];
-
-  return contentCandidates.some(
-    (value) =>
-      safeText(value).length >=
-      MIN_CONTENT_LENGTH
-  );
-}
-
-function validateLink(
-  item
-) {
-  const link =
-    normalizeUrl(
-      item.enlace
+    errors.push(
+      `item ${index}: no es un objeto`
     );
 
-  if (link) {
-    return {
-      valid: true,
-      link
-    };
+    return errors;
   }
 
-  /*
-   * Telegram puede tener una URL
-   * de respaldo construida por fetch-news.
-   */
+  if (!safeString(item.id)) {
+    errors.push(
+      `item ${index}: falta id`
+    );
+  }
+
   if (
-    item.tipo ===
-    'telegram'
+    !safeString(item.titulo)
   ) {
-    const fallback =
-      safeText(
-        item.enlace
-      );
+    errors.push(
+      `item ${index}: falta título`
+    );
+  }
+
+  if (
+    normalizeText(item.titulo).length <
+    8
+  ) {
+    errors.push(
+      `item ${index}: título demasiado corto`
+    );
+  }
+
+  if (
+    normalizeText(item.titulo).length >
+    220
+  ) {
+    errors.push(
+      `item ${index}: título demasiado largo`
+    );
+  }
+
+  const link =
+    normalizeUrl(item.enlace);
+
+  if (!link) {
+    errors.push(
+      `item ${index}: enlace inválido`
+    );
+  }
+
+  if (
+    !safeString(item.fuente_id)
+  ) {
+    errors.push(
+      `item ${index}: falta fuente_id`
+    );
+  }
+
+  if (
+    !safeString(item.fuente_nombre)
+  ) {
+    errors.push(
+      `item ${index}: falta fuente_nombre`
+    );
+  }
+
+  if (
+    !safeString(item.categoria)
+  ) {
+    errors.push(
+      `item ${index}: falta categoría`
+    );
+  }
+
+  if (!validDate(item.fecha)) {
+    errors.push(
+      `item ${index}: fecha inválida`
+    );
+  }
+
+  if (
+    !normalizeText(
+      item.resumen_corto
+    )
+  ) {
+    errors.push(
+      `item ${index}: falta resumen_corto`
+    );
+  }
+
+  if (
+    !normalizeText(
+      item.resumen_largo
+    )
+  ) {
+    errors.push(
+      `item ${index}: falta resumen_largo`
+    );
+  }
+
+  if (
+    !item.analisis ||
+    typeof item.analisis !==
+      'object'
+  ) {
+    errors.push(
+      `item ${index}: falta analisis`
+    );
+
+    return errors;
+  }
+
+  if (
+    !safeString(
+      item.analisis.version
+    )
+  ) {
+    errors.push(
+      `item ${index}: falta versión del análisis`
+    );
+  }
+
+  const numericFields = [
+    'calidad',
+    'relevancia',
+    'confiabilidad_fuente'
+  ];
+
+  for (const field of numericFields) {
+    const value =
+      Number(item.analisis[field]);
 
     if (
-      fallback.startsWith(
-        'https://t.me/'
-      )
+      !Number.isFinite(value) ||
+      value < 0 ||
+      value > 100
     ) {
-      return {
-        valid: true,
-        link: fallback
-      };
+      errors.push(
+        `item ${index}: ${field} inválido`
+      );
     }
   }
 
-  return {
-    valid: false,
-    link: ''
-  };
+  return errors;
 }
 
-function validateSource(
-  item
-) {
-  if (
-    !safeText(
-      item.fuente_id
-    )
-  ) {
-    return false;
-  }
-
-  if (
-    !safeText(
-      item.fuente_nombre
-    )
-  ) {
-    return false;
-  }
-
-  return true;
-}
-
-function validateDateField(
-  item
-) {
-  const date =
-    parseDate(
-      item.fecha
-    );
-
-  if (!date) {
-    return {
-      valid: false,
-      date: null,
-      reason:
-        'fecha inválida'
-    };
-  }
-
-  if (
-    !isDateAcceptable(
-      date
-    )
-  ) {
-    return {
-      valid: false,
-      date,
-      reason:
-        'fecha fuera del intervalo permitido'
-    };
-  }
-
-  return {
-    valid: true,
-    date,
-    reason: null
-  };
-}
-
-function validateAnalysis(
-  analysis
-) {
-  if (
-    !analysis ||
-    typeof analysis !==
-      'object'
-  ) {
-    return {
-      valid: false,
-      reason:
-        'análisis ausente'
-    };
-  }
-
-  if (
-    !Number.isInteger(
-      analysis.version
-    )
-  ) {
-    return {
-      valid: false,
-      reason:
-        'versión del análisis inválida'
-    };
-  }
-
-  if (
-    !safeText(
-      analysis.categoria
-    )
-  ) {
-    return {
-      valid: false,
-      reason:
-        'categoría ausente'
-    };
-  }
-
-  if (
-    !safeText(
-      analysis.idioma_detectado
-    )
-  ) {
-    return {
-      valid: false,
-      reason:
-        'idioma detectado ausente'
-    };
-  }
-
-  if (
-    !isFiniteNumber(
-      analysis.calidad
-    )
-  ) {
-    return {
-      valid: false,
-      reason:
-        'calidad inválida'
-    };
-  }
-
-  if (
-    !isFiniteNumber(
-      analysis.relevancia
-    )
-  ) {
-    return {
-      valid: false,
-      reason:
-        'relevancia inválida'
-    };
-  }
-
-  if (
-    !isFiniteNumber(
-      analysis.confiabilidad_fuente
-    )
-  ) {
-    return {
-      valid: false,
-      reason:
-        'confiabilidad inválida'
-    };
-  }
-
-  if (
-    analysis.calidad < 0 ||
-    analysis.calidad > 100
-  ) {
-    return {
-      valid: false,
-      reason:
-        'calidad fuera de rango'
-    };
-  }
-
-  if (
-    analysis.relevancia < 0 ||
-    analysis.relevancia > 100
-  ) {
-    return {
-      valid: false,
-      reason:
-        'relevancia fuera de rango'
-    };
-  }
-
-  if (
-    analysis.confiabilidad_fuente <
-      0 ||
-    analysis.confiabilidad_fuente >
-      100
-  ) {
-    return {
-      valid: false,
-      reason:
-        'confiabilidad fuera de rango'
-    };
-  }
-
-  return {
-    valid: true,
-    reason: null
-  };
-}
-
-function calculateFinalScore(
-  item
-) {
-  const analysis =
-    item.analisis;
-
-  if (!analysis) {
-    return 0;
-  }
-
-  const quality =
-    clamp(
-      Number(
-        analysis.calidad
-      ) || 0,
-      0,
-      100
-    );
-
-  const relevance =
-    clamp(
-      Number(
-        analysis.relevancia
-      ) || 0,
-      0,
-      100
-    );
-
-  const reliability =
-    clamp(
-      Number(
-        analysis.confiabilidad_fuente
-      ) || 0,
-      0,
-      100
-    );
-
-  let score =
-    quality * 0.35 +
-    relevance * 0.40 +
-    reliability * 0.25;
-
-  if (
-    analysis.clickbait
-      ?.detected
-  ) {
-    score -=
-      Number(
-        analysis.clickbait
-          ?.score || 0
-      ) * 0.15;
-  }
-
-  if (
-    analysis.spam
-      ?.detected
-  ) {
-    score -= 35;
-  }
-
-  if (
-    analysis.content_type ===
-    'report'
-  ) {
-    score += 4;
-  }
-
-  return clamp(
-    Math.round(score),
-    0,
-    100
-  );
-}
-
-function normalizeItem(
-  item
-) {
+function normalizeItem(item) {
   const normalized = {
     ...item
   };
 
-  normalized.titulo =
-    safeText(
-      item.titulo
-    ).slice(
-      0,
-      MAX_TITLE_LENGTH
-    );
-
-  normalized.titulo_original =
-    safeText(
-      item.titulo_original
-    ).slice(
-      0,
-      MAX_TITLE_LENGTH
-    );
+  normalized.id =
+    safeString(item.id);
 
   normalized.fuente_id =
-    safeText(
-      item.fuente_id
-    );
+    safeString(item.fuente_id);
 
   normalized.fuente_nombre =
-    safeText(
-      item.fuente_nombre
-    );
+    safeString(item.fuente_nombre);
 
   normalized.tipo =
-    safeText(
-      item.tipo ||
-      'web'
+    safeString(
+      item.tipo || 'web'
+    );
+
+  normalized.subtipo =
+    safeString(
+      item.subtipo || ''
+    );
+
+  normalized.grupo_fuente =
+    safeString(
+      item.grupo_fuente || ''
+    );
+
+  normalized.nivel_fuente =
+    safeString(
+      item.nivel_fuente || ''
     );
 
   normalized.categoria =
-    safeText(
-      item.categoria ||
-      item.analisis
-        ?.categoria ||
-      'tecnologia'
+    safeString(
+      item.categoria || 'tecnologia'
     );
 
   normalized.idioma_original =
-    safeText(
-      item.idioma_original ||
-      'unknown'
+    safeString(
+      item.idioma_original || 'es'
+    );
+
+  normalized.titulo =
+    normalizeText(
+      item.titulo
+    );
+
+  normalized.titulo_original =
+    normalizeText(
+      item.titulo_original ||
+      item.titulo
     );
 
   normalized.enlace =
@@ -702,48 +388,44 @@ function normalizeItem(
       item.enlace
     );
 
-  const date =
-    parseDate(
-      item.fecha
-    );
-
   normalized.fecha =
-    date
-      ? date.toISOString()
+    validDate(item.fecha)
+      ? new Date(
+          item.fecha
+        ).toISOString()
       : '';
 
   normalized.resumen_corto =
-    safeText(
+    normalizeText(
       item.resumen_corto
-    ).slice(
-      0,
-      500
     );
 
   normalized.resumen_largo =
-    safeText(
+    normalizeText(
       item.resumen_largo
-    ).slice(
-      0,
-      1500
     );
 
   normalized.texto_original =
-    safeText(
+    normalizeText(
       item.texto_original
-    ).slice(
-      0,
-      5000
     );
 
-  normalized.tags =
-    Array.isArray(
-      item.tags
+  normalized.analizar =
+    item.analizar !== false;
+
+  normalized.resumir =
+    item.resumir !== false;
+
+  normalized.prioridad_fuente =
+    Number.isFinite(
+      Number(
+        item.prioridad_fuente
+      )
     )
-      ? dedupeStrings(
-          item.tags
-        ).slice(0, 15)
-      : [];
+      ? Number(
+          item.prioridad_fuente
+        )
+      : 3;
 
   normalized.final_score =
     calculateFinalScore(
@@ -753,203 +435,168 @@ function normalizeItem(
   return normalized;
 }
 
-function shouldReject(
-  item
-) {
-  const title =
-    validateTitle(
-      item.titulo
-    );
-
-  if (!title.valid) {
-    return {
-      reject: true,
-      reason:
-        title.reason
-    };
-  }
-
-  if (
-    !validateContent(
-      item
-    )
-  ) {
-    return {
-      reject: true,
-      reason:
-        'contenido insuficiente'
-    };
-  }
-
-  const link =
-    validateLink(
-      item
-    );
-
-  if (!link.valid) {
-    return {
-      reject: true,
-      reason:
-        'enlace inválido o ausente'
-    };
-  }
-
-  if (
-    !validateSource(
-      item
-    )
-  ) {
-    return {
-      reject: true,
-      reason:
-        'fuente inválida'
-    };
-  }
-
-  const date =
-    validateDateField(
-      item
-    );
-
-  if (!date.valid) {
-    return {
-      reject: true,
-      reason:
-        date.reason
-    };
-  }
-
+function shouldReject(item) {
   const analysis =
-    validateAnalysis(
-      item.analisis
-    );
+    item.analisis || {};
 
-  if (!analysis.valid) {
-    return {
-      reject: true,
-      reason:
-        analysis.reason
-    };
+  const spam =
+    analysis.spam || {};
+
+  const finalScore =
+    Number(item.final_score);
+
+  if (
+    spam.detected === true &&
+    Number(spam.confidence || 0) >= 80
+  ) {
+    return 'spam de alta confianza';
   }
 
   if (
-    item.analisis.spam
-      ?.detected &&
-    Number(
-      item.analisis.spam
-        ?.score || 0
-    ) >= 75
+    Number.isFinite(finalScore) &&
+    finalScore < MIN_FINAL_SCORE
   ) {
-    return {
-      reject: true,
-      reason:
-        'spam de alta confianza'
-    };
+    return 'puntuación final demasiado baja';
   }
 
-  if (
-    item.final_score <
-    MIN_VALID_SCORE
-  ) {
-    return {
-      reject: true,
-      reason:
-        `puntuación final demasiado baja (${item.final_score})`
-    };
-  }
-
-  /*
-   * No rechazamos automáticamente una noticia
-   * solo por tener clickbait moderado.
-   */
-  return {
-    reject: false,
-    reason: null
-  };
+  return null;
 }
 
-function buildDuplicateKey(
-  item
-) {
-  const url =
-    normalizeUrl(
-      item.enlace
-    );
+function removeAnalyzedDuplicates(items) {
+  const duplicateIds =
+    new Set();
 
-  if (url) {
-    return `url:${url
-      .toLowerCase()
-      .replace(/\/$/,
-        '')}`;
+  for (const item of items) {
+    const duplicate =
+      item.analisis?.duplicado;
+
+    if (
+      duplicate &&
+      (
+        duplicate === true ||
+        duplicate.detected === true
+      )
+    ) {
+      duplicateIds.add(
+        item.id
+      );
+    }
   }
 
-  const title =
-    normalizeText(
-      item.titulo
-    );
-
-  return `title:${title}`;
+  return items.filter(
+    item => !duplicateIds.has(item.id)
+  );
 }
 
-function removeDuplicates(
-  items
-) {
-  const seen =
+function removeExactDuplicates(items) {
+  const byUrl =
+    new Map();
+
+  const byTitle =
     new Map();
 
   const result = [];
 
-  for (
-    const item of
-      items
-  ) {
-    const key =
-      buildDuplicateKey(
-        item
+  function better(a, b) {
+    const scoreA =
+      Number(a.final_score) || 0;
+
+    const scoreB =
+      Number(b.final_score) || 0;
+
+    if (scoreA !== scoreB) {
+      return scoreA >= scoreB
+        ? a
+        : b;
+    }
+
+    const dateA =
+      new Date(a.fecha).getTime();
+
+    const dateB =
+      new Date(b.fecha).getTime();
+
+    return dateA >= dateB
+      ? a
+      : b;
+  }
+
+  for (const item of items) {
+    const urlKey =
+      normalizeUrl(
+        item.enlace
+      ).toLowerCase();
+
+    const titleKey =
+      normalizeTitle(
+        item.titulo
       );
 
+    let existing = null;
+
     if (
-      !key ||
-      !seen.has(key)
+      urlKey &&
+      byUrl.has(urlKey)
     ) {
-      if (key) {
-        seen.set(
-          key,
+      existing =
+        byUrl.get(urlKey);
+    }
+
+    if (
+      !existing &&
+      titleKey &&
+      byTitle.has(titleKey)
+    ) {
+      existing =
+        byTitle.get(titleKey);
+    }
+
+    if (!existing) {
+      result.push(item);
+
+      const index =
+        result.length - 1;
+
+      if (urlKey) {
+        byUrl.set(
+          urlKey,
           item
         );
       }
 
-      result.push(
-        item
-      );
+      if (titleKey) {
+        byTitle.set(
+          titleKey,
+          item
+        );
+      }
 
       continue;
     }
 
-    const existing =
-      seen.get(key);
-
-    /*
-     * Conservamos la noticia
-     * con mejor puntuación final.
-     */
-    if (
-      item.final_score >
-      existing.final_score
-    ) {
-      const index =
-        result.indexOf(
-          existing
-        );
-
-      if (index >= 0) {
-        result[index] =
-          item;
-      }
-
-      seen.set(
-        key,
+    const winner =
+      better(
+        existing,
         item
+      );
+
+    const existingIndex =
+      result.indexOf(existing);
+
+    result[existingIndex] =
+      winner;
+
+    if (urlKey) {
+      byUrl.set(
+        urlKey,
+        winner
+      );
+    }
+
+    if (titleKey) {
+      byTitle.set(
+        titleKey,
+        winner
       );
     }
   }
@@ -957,68 +604,48 @@ function removeDuplicates(
   return result;
 }
 
-function removeAnalyzedDuplicates(
-  items
-) {
-  return items.filter(
-    (item) =>
-      !item.analisis
-        ?.duplicate
-        ?.detected
-  );
-}
-
-function sortItems(
-  items
-) {
+function sortFinalItems(items) {
   return [...items].sort(
     (a, b) => {
-      const scoreDiff =
-        (b.final_score || 0) -
-        (a.final_score || 0);
+      const scoreA =
+        Number(a.final_score) || 0;
+
+      const scoreB =
+        Number(b.final_score) || 0;
 
       if (
-        scoreDiff !== 0
+        scoreA !== scoreB
       ) {
-        return scoreDiff;
+        return scoreB - scoreA;
       }
 
-      const qualityDiff =
-        (
-          b.analisis
-            ?.calidad ||
-          0
-        ) -
-        (
-          a.analisis
-            ?.calidad ||
-          0
-        );
+      const qualityA =
+        Number(
+          a.analisis?.calidad
+        ) || 0;
+
+      const qualityB =
+        Number(
+          b.analisis?.calidad
+        ) || 0;
 
       if (
-        qualityDiff !== 0
+        qualityA !== qualityB
       ) {
-        return qualityDiff;
+        return qualityB - qualityA;
       }
 
       return (
-        new Date(
-          b.fecha
-        ).getTime() -
-        new Date(
-          a.fecha
-        ).getTime()
+        new Date(b.fecha).getTime() -
+        new Date(a.fecha).getTime()
       );
     }
   );
 }
 
-function writeAtomically(
-  file,
-  data
-) {
+function atomicWrite(filePath, data) {
   const tempFile =
-    `${file}.tmp`;
+    `${filePath}.tmp`;
 
   fs.writeFileSync(
     tempFile,
@@ -1027,342 +654,234 @@ function writeAtomically(
       null,
       2
     ),
-    'utf-8'
+    'utf8'
   );
 
   fs.renameSync(
     tempFile,
-    file
+    filePath
   );
-}
-
-function buildStats(
-  originalCount,
-  validItems,
-  rejectedCount,
-  duplicateCount
-) {
-  const qualityValues =
-    validItems.map(
-      (item) =>
-        Number(
-          item.analisis
-            ?.calidad || 0
-        )
-    );
-
-  const relevanceValues =
-    validItems.map(
-      (item) =>
-        Number(
-          item.analisis
-            ?.relevancia || 0
-        )
-    );
-
-  const finalValues =
-    validItems.map(
-      (item) =>
-        Number(
-          item.final_score || 0
-        )
-    );
-
-  const average = (
-    values
-  ) => {
-    if (
-      values.length === 0
-    ) {
-      return 0;
-    }
-
-    return Math.round(
-      values.reduce(
-        (sum, value) =>
-          sum +
-          value,
-        0
-      ) /
-        values.length
-    );
-  };
-
-  return {
-    input_items:
-      originalCount,
-
-    valid_items:
-      validItems.length,
-
-    rejected_items:
-      rejectedCount,
-
-    duplicate_items:
-      duplicateCount,
-
-    average_quality:
-      average(
-        qualityValues
-      ),
-
-    average_relevance:
-      average(
-        relevanceValues
-      ),
-
-    average_final_score:
-      average(
-        finalValues
-      )
-  };
 }
 
 function main() {
   console.log(
-    '=== KellgreatNews — Validator v1 ==='
+    '=== KellgreatNews — validación final ==='
   );
 
+  if (!fs.existsSync(INPUT_FILE)) {
+    throw new Error(
+      'No existe web/news.json'
+    );
+  }
+
   const data =
-    readData();
+    JSON.parse(
+      fs.readFileSync(
+        INPUT_FILE,
+        'utf8'
+      )
+    );
 
   const containerErrors =
-    validateContainer(
-      data
-    );
+    validateContainer(data);
 
   if (
     containerErrors.length > 0
   ) {
-    throw new Error(
-      containerErrors.join(
-        '; '
-      )
-    );
-  }
-
-  const validItems = [];
-  let rejectedCount = 0;
-
-  for (
-    let index = 0;
-    index < data.items.length;
-    index += 1
-  ) {
-    const normalized =
-      normalizeItem(
-        data.items[index]
-      );
-
-    const validation =
-      shouldReject(
-        normalized
-      );
-
-    if (
-      validation.reject
+    for (
+      const error of containerErrors
     ) {
-      console.warn(
-        `  descartada #${index}: ${validation.reason}`
+      console.error(
+        `ERROR: ${error}`
       );
-
-      rejectedCount += 1;
-
-      continue;
     }
 
-    validItems.push(
-      normalized
-    );
+    process.exit(1);
   }
 
-  /*
-   * Primero eliminamos duplicados
-   * que el analizador ya detectó.
-   */
-  const withoutAnalyzedDuplicates =
+  const originalItems =
+    data.items;
+
+  const originalCount =
+    originalItems.length;
+
+  const validItems = [];
+  const rejected = [];
+
+  originalItems.forEach(
+    (item, index) => {
+      const errors =
+        validateItem(
+          item,
+          index
+        );
+
+      if (
+        errors.length > 0
+      ) {
+        rejected.push({
+          index,
+          reason:
+            errors.join('; ')
+        });
+
+        return;
+      }
+
+      const normalized =
+        normalizeItem(item);
+
+      const rejection =
+        shouldReject(
+          normalized
+        );
+
+      if (rejection) {
+        rejected.push({
+          index,
+          reason: rejection
+        });
+
+        return;
+      }
+
+      validItems.push(
+        normalized
+      );
+    }
+  );
+
+  let finalItems =
     removeAnalyzedDuplicates(
       validItems
     );
 
-  const analyzedDuplicateCount =
-    validItems.length -
-    withoutAnalyzedDuplicates.length;
-
-  /*
-   * Después eliminamos duplicados
-   * exactos por URL/título.
-   */
-  const uniqueItems =
-    removeDuplicates(
-      withoutAnalyzedDuplicates
+  finalItems =
+    removeExactDuplicates(
+      finalItems
     );
 
-  const exactDuplicateCount =
-    withoutAnalyzedDuplicates.length -
-    uniqueItems.length;
-
-  const totalDuplicateCount =
-    analyzedDuplicateCount +
-    exactDuplicateCount;
-
-  /*
-   * Orden:
-   * 1. puntuación final
-   * 2. calidad
-   * 3. fecha
-   */
-  const sorted =
-    sortItems(
-      uniqueItems
+  finalItems =
+    sortFinalItems(
+      finalItems
     );
 
-  const requestedLimit =
+  const configuredLimit =
     Number(
-      data.configuracion
-        ?.limite_global
+      data.configuracion?.limite_global
     );
 
-  const limit =
+  const maxItems =
     Number.isFinite(
-      requestedLimit
+      configuredLimit
     ) &&
-    requestedLimit > 0
+    configuredLimit > 0
       ? Math.floor(
-          requestedLimit
+          configuredLimit
         )
       : DEFAULT_LIMIT;
 
-  const finalItems =
-    sorted.slice(
+  finalItems =
+    finalItems.slice(
       0,
-      limit
+      maxItems
     );
 
-  /*
-   * Protección crítica:
-   *
-   * Si había noticias válidas antes pero
-   * después de validar queda un lote vacío,
-   * NO destruimos el archivo.
-   */
   if (
     finalItems.length === 0
   ) {
     console.error(
-      'No quedaron noticias válidas. Se conserva web/news.json sin modificar.'
+      'VALIDACIÓN CANCELADA: el resultado quedó vacío.'
     );
 
     process.exit(1);
   }
 
-  /*
-   * Protección adicional contra un desastre
-   * de validación:
-   *
-   * si entra un lote considerable y sale
-   * casi completamente destruido, no lo
-   * publicamos automáticamente.
-   */
-  const originalCount =
-    data.items.length;
+  const minimumAllowed =
+    originalCount >= 10
+      ? Math.max(
+          3,
+          Math.floor(
+            originalCount *
+              DESTRUCTIVE_CHANGE_RATIO
+          )
+        )
+      : 0;
 
   if (
     originalCount >= 10 &&
     finalItems.length <
-      Math.max(
-        3,
-        Math.floor(
-          originalCount *
-            0.20
-        )
-      )
+      minimumAllowed
   ) {
     console.error(
-      `Validación demasiado destructiva: ${finalItems.length}/${originalCount} noticias sobrevivieron.`
+      'VALIDACIÓN CANCELADA: ' +
+      'la limpieza eliminaría una proporción excesiva de noticias.'
     );
 
     console.error(
-      'Se conserva web/news.json sin modificar.'
+      `Originales: ${originalCount} | ` +
+      `Finales: ${finalItems.length} | ` +
+      `Mínimo permitido: ${minimumAllowed}`
     );
 
     process.exit(1);
   }
 
-  const stats =
-    buildStats(
-      originalCount,
-      finalItems,
-      rejectedCount,
-      totalDuplicateCount
-    );
-
   const output = {
     ...data,
 
-    schema_version:
-      Math.max(
-        Number(
-          data.schema_version ||
-            3
-        ),
-        3
-      ),
-
-    validated_at:
+    updated_at:
       new Date().toISOString(),
 
-    validation_stats:
-      stats,
+    validation: {
+      version: '1.1',
+
+      executed_at:
+        new Date().toISOString(),
+
+      original_items:
+        originalCount,
+
+      rejected_items:
+        rejected.length,
+
+      final_items:
+        finalItems.length,
+
+      limit:
+        maxItems,
+
+      status: 'ok'
+    },
 
     items:
       finalItems
   };
 
-  writeAtomically(
-    DATA_FILE,
+  atomicWrite(
+    INPUT_FILE,
     output
   );
 
   console.log(
-    `Noticias de entrada: ${originalCount}`
+    `OK: ${finalItems.length} noticias válidas`
   );
 
   console.log(
-    `Noticias válidas: ${finalItems.length}`
+    `Descartadas: ${rejected.length}`
   );
 
   console.log(
-    `Descartadas: ${rejectedCount}`
-  );
-
-  console.log(
-    `Duplicados eliminados: ${totalDuplicateCount}`
-  );
-
-  console.log(
-    `Calidad media: ${stats.average_quality}/100`
-  );
-
-  console.log(
-    `Relevancia media: ${stats.average_relevance}/100`
-  );
-
-  console.log(
-    `Puntuación final media: ${stats.average_final_score}/100`
-  );
-
-  console.log(
-    'Validación completada correctamente.'
+    `Límite global: ${maxItems}`
   );
 }
-  
+
 try {
   main();
 } catch (error) {
   console.error(
-    `Error fatal en validate-news.js: ${error.message}`
+    `ERROR FATAL: ${error.message}`
   );
 
   process.exit(1);
-    }
+}

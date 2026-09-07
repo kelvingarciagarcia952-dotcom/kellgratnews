@@ -191,7 +191,6 @@ const SIGNAL_WORDS = new Set([
   'announced',
   'announces',
   'confirmed',
-  'confirmed',
   'reveals',
   'revealed',
   'launch',
@@ -930,72 +929,4 @@ export function getSummaryStats(
           )
         : 0
   };
-}
-
-function isDirectExecution() {
-  if (
-    !process.argv[1]
-  ) {
-    return false;
-  }
-
-  const currentFile =
-    pathToFileURL(
-      process.argv[1]
-    ).href;
-
-  return (
-    currentFile ===
-    import.meta.url
-  );
-}
-
-function pathToFileURL(
-  filePath
-) {
-  const normalized =
-    path
-      .resolve(
-        filePath
-      )
-      .replace(
-        /\\/g,
-        '/'
-      );
-
-  return new URL(
-    `file://${normalized}`
-  );
-}
-
-if (
-  isDirectExecution()
-) {
-  console.log(
-    '=== KellgreatNews — Motor de resumen extractivo v2 ==='
-  );
-
-  console.log(
-    'Funciones disponibles:'
-  );
-
-  console.log(
-    '  generateSummary(text, maxSentences, maxLength)'
-  );
-
-  console.log(
-    '  generateShortSummary(text)'
-  );
-
-  console.log(
-    '  generateLongSummary(text, maxSentences)'
-  );
-
-  console.log(
-    '  scoreTextSentences(text)'
-  );
-
-  console.log(
-    '  getSummaryStats(text)'
-  );
   }

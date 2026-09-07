@@ -23,20 +23,20 @@ const DELAY_MS = 250;
 const MAX_AGE_DAYS = 14;
 
 const USER_AGENT =
-  'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 ' +
-  '(KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 KellgreatNews/3.0';
+  'Mozilla/5.0 (Windows NT 10.0; Win64; x64) ' +
+  'AppleWebKit/537.36 (KHTML, like Gecko) ' +
+  'Chrome/126.0.0.0 Safari/537.36 KellgreatNews/3.0';
 
 const parser = new RSSParser({
   timeout: FEED_TIMEOUT_MS,
   headers: {
     'User-Agent': USER_AGENT,
-    Accept:
-      'application/rss+xml, application/xml, text/xml, application/json, */*'
+    Accept: 'application/rss+xml, application/xml, text/xml, application/json, */*'
   }
 });
 
 function sleep(ms) {
-  return new Promise((resolve) => setTimeout(resolve, ms));
+  return new Promise(resolve => setTimeout(resolve, ms));
 }
 
 function safeString(value, fallback = '') {
@@ -51,20 +51,15 @@ function stripHtml(html) {
     .replace(/<style[\s\S]*?<\/style>/gi, ' ')
     .replace(/<br\s*\/?\s*>/gi, ' ')
     .replace(/<[^>]*>/g, ' ')
-    .replace(
-      /&#(x?[0-9a-f]+);/gi,
-      (_, code) => {
-        const isHex = code[0]?.toLowerCase() === 'x';
-        const value = Number.parseInt(
-          isHex ? code.slice(1) : code,
-          isHex ? 16 : 10
-        );
+    .replace(/&#(x?[0-9a-f]+);/gi, (_, code) => {
+      const isHex = code[0]?.toLowerCase() === 'x';
+      const raw = isHex ? code.slice(1) : code;
+      const value = Number.parseInt(raw, isHex ? 16 : 10);
 
-        return Number.isFinite(value)
-          ? String.fromCodePoint(value)
-          : ' ';
-      }
-    )
+      return Number.isFinite(value)
+        ? String.fromCodePoint(value)
+        : ' ';
+    })
     .replace(/&nbsp;/gi, ' ')
     .replace(/&amp;/gi, '&')
     .replace(/&lt;/gi, '<')
@@ -92,8 +87,8 @@ function splitSentences(text) {
 
   return normalizeText(text)
     .split(/(?<=[.!?。！？])\s+/)
-    .map((sentence) => sentence.trim())
-    .filter((sentence) => sentence.length >= 25);
+    .map(sentence => sentence.trim())
+    .filter(sentence => sentence.length >= 25);
 }
 
 function normalizeUrl(url) {
@@ -133,13 +128,15 @@ function getDate(value) {
 
   const date = new Date(value);
 
-  return Number.isNaN(date.getTime())
-    ? ''
-    : date.toISOString();
+  if (Number.isNaN(date.getTime())) {
+    return '';
+  }
+
+  return date.toISOString();
 }
 
 async function fetchJson(url, timeoutMs = FEED_TIMEOUT_MS) {
-  const res = await fetch(url, {
+  const response = await fetch(url, {
     headers: {
       'User-Agent': USER_AGENT,
       Accept: 'application/json, text/plain, */*'
@@ -147,11 +144,11 @@ async function fetchJson(url, timeoutMs = FEED_TIMEOUT_MS) {
     signal: AbortSignal.timeout(timeoutMs)
   });
 
-  if (!res.ok) {
-    throw new Error(`HTTP ${res.status}`);
+  if (!response.ok) {
+    throw new Error(`HTTP ${response.status}`);
   }
 
-  return res.json();
+  return response.json();
 }
 
 async function fetchArticleText(url) {
@@ -161,28 +158,27 @@ async function fetchArticleText(url) {
     throw new Error('URL inválida');
   }
 
-  const res = await fetch(safeUrl, {
+  const response = await fetch(safeUrl, {
     headers: {
       'User-Agent': USER_AGENT,
-      Accept:
-        'text/html,application/xhtml+xml;q=0.9,*/*;q=0.8'
+      Accept: 'text/html,application/xhtml+xml;q=0.9,*/*;q=0.8'
     },
     redirect: 'follow',
     signal: AbortSignal.timeout(ARTICLE_TIMEOUT_MS)
   });
 
-  if (!res.ok) {
-    throw new Error(`HTTP ${res.status}`);
+  if (!response.ok) {
+    throw new Error(`HTTP ${response.status}`);
   }
 
-  const html = await res.text();
-  const paragraphs = [];
+  const html = await response.text();
 
-  const re = /<p\b[^>]*>([\s\S]*?)<\/p>/gi;
+  const paragraphs = [];
+  const paragraphRegex = /<p\b[^>]*>([\s\S]*?)<\/p>/gi;
 
   let match;
 
-  while ((match = re.exec(html)) !== null) {
+  while ((match = paragraphRegex.exec(html)) !== null) {
     const text = normalizeText(match[1], 1200);
 
     if (text.length >= 80) {
@@ -214,30 +210,29 @@ async function fetchTelegram(source) {
 
   const url = `https://t.me/s/${encodeURIComponent(username)}`;
 
-  const res = await fetch(url, {
+  const response = await fetch(url, {
     headers: {
       'User-Agent': USER_AGENT,
-      Accept:
-        'text/html,application/xhtml+xml;q=0.9,*/*;q=0.8'
+      Accept: 'text/html,application/xhtml+xml;q=0.9,*/*;q=0.8'
     },
     redirect: 'follow',
     signal: AbortSignal.timeout(ARTICLE_TIMEOUT_MS)
   });
 
-  if (!res.ok) {
-    throw new Error(`HTTP ${res.status}`);
+  if (!response.ok) {
+    throw new Error(`HTTP ${response.status}`);
   }
 
-  const html = await res.text();
+  const html = await response.text();
 
   const items = [];
 
-  const re =
+  const postRegex =
     /data-post="([^"<>]+)"[\s\S]*?<div class="tgme_widget_message_text[^>]*>([\s\S]*?)<\/div>[\s\S]*?<time[^>]*datetime="([^"]+)"/gi;
 
   let match;
 
-  while ((match = re.exec(html)) !== null) {
+  while ((match = postRegex.exec(html)) !== null) {
     const text = normalizeText(
       match[2],
       MAX_DESCRIPTION_LENGTH
@@ -276,7 +271,9 @@ async function fetchRssDirect(source) {
 
   const feed = await parser.parseURL(url);
 
-  return feed.items || [];
+  return Array.isArray(feed.items)
+    ? feed.items
+    : [];
 }
 
 async function fetchRss2Json(source) {
@@ -293,9 +290,7 @@ async function fetchRss2Json(source) {
     !Array.isArray(data.items) ||
     data.items.length === 0
   ) {
-    throw new Error(
-      'respuesta RSS2JSON sin elementos'
-    );
+    throw new Error('respuesta RSS2JSON sin elementos');
   }
 
   return data.items;
@@ -305,7 +300,7 @@ async function fetchItems(source) {
   try {
     const items = await fetchRssDirect(source);
 
-    console.log('  entrada via RSS directo');
+    console.log('  entrada vía RSS directo');
 
     return items;
   } catch (directError) {
@@ -318,9 +313,7 @@ async function fetchItems(source) {
     try {
       const items = await fetchRss2Json(source);
 
-      console.log(
-        '  entrada via rss2json (respaldo)'
-      );
+      console.log('  entrada vía rss2json (respaldo)');
 
       return items;
     } catch (fallbackError) {
@@ -330,45 +323,39 @@ async function fetchItems(source) {
     }
   }
 
-  throw new Error(
-    'todas las puertas RSS fallaron'
-  );
+  throw new Error('todas las puertas RSS fallaron');
 }
 
 async function translateWithGoogle(text, from, to) {
   const url =
-    'https://translate.googleapis.com/translate_a/single' +
-    '?client=gtx' +
+    'https://translate.googleapis.com/translate_a/single?' +
+    'client=gtx' +
     `&sl=${encodeURIComponent(from)}` +
     `&tl=${encodeURIComponent(to)}` +
     '&dt=t&q=' +
     encodeURIComponent(text);
 
-  const res = await fetch(url, {
+  const response = await fetch(url, {
     headers: {
       'User-Agent': USER_AGENT
     },
-    signal: AbortSignal.timeout(
-      TRANSLATE_TIMEOUT_MS
-    )
+    signal: AbortSignal.timeout(TRANSLATE_TIMEOUT_MS)
   });
 
-  if (!res.ok) {
-    throw new Error(`HTTP ${res.status}`);
+  if (!response.ok) {
+    throw new Error(`HTTP ${response.status}`);
   }
 
-  const data = await res.json();
+  const data = await response.json();
 
   if (Array.isArray(data?.[0])) {
     return data[0]
-      .map((part) => part?.[0] || '')
+      .map(part => part?.[0] || '')
       .join('')
       .trim();
   }
 
-  throw new Error(
-    'formato de traducción no válido'
-  );
+  throw new Error('formato de traducción no válido');
 }
 
 async function translateWithMyMemory(text, from, to) {
@@ -377,23 +364,20 @@ async function translateWithMyMemory(text, from, to) {
     encodeURIComponent(text) +
     `&langpair=${encodeURIComponent(from)}%7C${encodeURIComponent(to)}`;
 
-  const res = await fetch(url, {
+  const response = await fetch(url, {
     headers: {
       'User-Agent': USER_AGENT
     },
-    signal: AbortSignal.timeout(
-      TRANSLATE_TIMEOUT_MS
-    )
+    signal: AbortSignal.timeout(TRANSLATE_TIMEOUT_MS)
   });
 
-  if (!res.ok) {
-    throw new Error(`HTTP ${res.status}`);
+  if (!response.ok) {
+    throw new Error(`HTTP ${response.status}`);
   }
 
-  const data = await res.json();
+  const data = await response.json();
 
-  const translated =
-    data?.responseData?.translatedText;
+  const translated = data?.responseData?.translatedText;
 
   if (
     data?.responseStatus === 200 &&
@@ -403,9 +387,7 @@ async function translateWithMyMemory(text, from, to) {
     return translated.trim();
   }
 
-  throw new Error(
-    'MyMemory no devolvió traducción'
-  );
+  throw new Error('MyMemory no devolvió traducción');
 }
 
 async function translate(text, from, to) {
@@ -416,11 +398,7 @@ async function translate(text, from, to) {
   }
 
   try {
-    return await translateWithGoogle(
-      value,
-      from,
-      to
-    );
+    return await translateWithGoogle(value, from, to);
   } catch (googleError) {
     console.warn(
       `  Google Translate falló: ${googleError.message}`
@@ -428,14 +406,10 @@ async function translate(text, from, to) {
   }
 
   try {
-    return await translateWithMyMemory(
-      value,
-      from,
-      to
-    );
+    return await translateWithMyMemory(value, from, to);
   } catch (memoryError) {
     console.warn(
-      `  MyMemory falló: ${memoryError.message}; se usa original`
+      `  MyMemory falló: ${memoryError.message}; se conserva original`
     );
 
     return value;
@@ -443,18 +417,19 @@ async function translate(text, from, to) {
 }
 
 function removeSourceSuffix(title, sourceName) {
-  const suffix =
-    ` - ${safeString(sourceName).trim()}`;
+  const source = safeString(sourceName).trim();
+
+  if (!source) {
+    return title;
+  }
+
+  const suffix = ` - ${source}`;
 
   if (
     suffix.length > 3 &&
-    title
-      .toLowerCase()
-      .endsWith(suffix.toLowerCase())
+    title.toLowerCase().endsWith(suffix.toLowerCase())
   ) {
-    return title
-      .slice(0, -suffix.length)
-      .trim();
+    return title.slice(0, -suffix.length).trim();
   }
 
   return title;
@@ -463,88 +438,63 @@ function removeSourceSuffix(title, sourceName) {
 function buildRawDescription(item) {
   return normalizeText(
     item.description ||
-      item.contentSnippet ||
-      item.content ||
-      item.summary ||
-      item['content:encoded'] ||
-      ''
+    item.contentSnippet ||
+    item.content ||
+    item.summary ||
+    item['content:encoded'] ||
+    ''
   );
 }
 
-async function processItem(
-  item,
-  source,
-  targetLang
-) {
+async function processItem(item, source, targetLang) {
   const originalTitle = normalizeText(
     item.title,
     MAX_TITLE_LENGTH
   );
 
   if (!originalTitle) {
-    throw new Error(
-      'noticia sin título'
-    );
+    throw new Error('noticia sin título');
   }
 
   const link = normalizeUrl(
     item.link ||
-      item.guid ||
-      ''
+    item.guid ||
+    ''
   );
 
-  if (
-    !link &&
-    source.tipo !== 'telegram'
-  ) {
-    throw new Error(
-      'noticia sin enlace válido'
-    );
+  if (!link && source.tipo !== 'telegram') {
+    throw new Error('noticia sin enlace válido');
   }
 
   const from = safeString(
-    source.idioma || 'en'
+    source.idioma_original ||
+    source.idioma ||
+    'en'
   ).toLowerCase();
 
   const pubDate =
     getDate(
       item.isoDate ||
-        item.pubDate ||
-        item.published ||
-        item.date
+      item.pubDate ||
+      item.published ||
+      item.date
     ) ||
     new Date().toISOString();
 
-  let originalDescription =
-    buildRawDescription(
-      item
-    ).slice(
-      0,
-      MAX_DESCRIPTION_LENGTH
-    );
+  let originalDescription = buildRawDescription(item)
+    .slice(0, MAX_DESCRIPTION_LENGTH);
 
   if (
-    splitSentences(
-      originalDescription
-    ).length < 2 &&
+    splitSentences(originalDescription).length < 2 &&
     link
   ) {
     try {
-      console.log(
-        '  feed tacaño: leyendo artículo'
-      );
+      console.log('  feed tacaño: leyendo artículo');
 
-      const articleText =
-        await fetchArticleText(
-          link
-        );
+      const articleText = await fetchArticleText(link);
 
-      if (
-        articleText.length >
-        originalDescription.length
-      ) {
-        originalDescription =
-          articleText;
+      if (articleText.length > originalDescription.length) {
+        originalDescription = articleText;
       }
     } catch (error) {
       console.warn(
@@ -553,26 +503,18 @@ async function processItem(
     }
   }
 
-  const sentences =
-    splitSentences(
-      originalDescription
-    ).slice(
-      0,
-      MAX_SENTENCES
-    );
+  const sentences = splitSentences(
+    originalDescription
+  ).slice(0, MAX_SENTENCES);
 
-  const translatedTitle =
-    removeSourceSuffix(
-      await translate(
-        originalTitle,
-        from,
-        targetLang
-      ),
-      source.nombre
-    ).slice(
-      0,
-      MAX_TITLE_LENGTH
-    );
+  const translatedTitle = removeSourceSuffix(
+    await translate(
+      originalTitle,
+      from,
+      targetLang
+    ),
+    source.nombre
+  ).slice(0, MAX_TITLE_LENGTH);
 
   const translatedSentences = [];
 
@@ -614,31 +556,41 @@ async function processItem(
       `${source.id}:${originalTitle}`
     ),
 
-    fuente_id: safeString(
-      source.id
-    ),
-
-    fuente_nombre: safeString(
-      source.nombre
-    ),
+    fuente_id: safeString(source.id),
+    fuente_nombre: safeString(source.nombre),
 
     tipo: safeString(
       source.tipo || 'web'
     ),
 
+    subtipo: safeString(
+      source.subtipo || ''
+    ),
+
+    grupo_fuente: safeString(
+      source.grupo_fuente || ''
+    ),
+
+    nivel_fuente: safeString(
+      source.nivel_fuente || ''
+    ),
+
     categoria: safeString(
-      source.categoria ||
-        'tecnologia'
+      source.categoria || 'tecnologia'
     ),
 
     idioma_original: from,
 
     prioridad_fuente:
-      Number.isFinite(
-        Number(source.prioridad)
-      )
+      Number.isFinite(Number(source.prioridad))
         ? Number(source.prioridad)
         : 3,
+
+    analizar:
+      source.analizar !== false,
+
+    resumir:
+      source.resumir !== false,
 
     titulo: finalTitle,
 
@@ -669,10 +621,7 @@ async function processItem(
   };
 }
 
-async function processSource(
-  source,
-  targetLang
-) {
+async function processSource(source, targetLang) {
   console.log(
     `Procesando: ${source.nombre}`
   );
@@ -680,12 +629,8 @@ async function processSource(
   try {
     const items =
       source.tipo === 'telegram'
-        ? await fetchTelegram(
-            source
-          )
-        : await fetchItems(
-            source
-          );
+        ? await fetchTelegram(source)
+        : await fetchItems(source);
 
     console.log(
       `  descargados: ${items.length}`
@@ -696,14 +641,14 @@ async function processSource(
       Number(source.limite) || 10
     );
 
-    const limited =
-      items.slice(0, limit);
+    const limited = items.slice(
+      0,
+      limit
+    );
 
     const output = [];
 
-    for (
-      const item of limited
-    ) {
+    for (const item of limited) {
       try {
         output.push(
           await processItem(
@@ -734,11 +679,8 @@ async function processSource(
 }
 
 function dedupeItems(items) {
-  const seenUrls =
-    new Set();
-
-  const seenTitles =
-    new Set();
+  const seenUrls = new Set();
+  const seenTitles = new Set();
 
   const cutoff =
     Date.now() -
@@ -748,74 +690,56 @@ function dedupeItems(items) {
       60 *
       1000;
 
-  return items.filter(
-    (item) => {
-      const date =
-        new Date(
-          item.fecha
-        ).getTime();
+  return items.filter(item => {
+    const date =
+      new Date(item.fecha).getTime();
 
-      if (
-        !Number.isFinite(date) ||
-        date < cutoff
-      ) {
-        return false;
-      }
-
-      const urlKey =
-        normalizeUrl(
-          item.enlace
-        ).toLowerCase();
-
-      const titleKey =
-        normalizeText(
-          item.titulo
-        )
-          .toLowerCase()
-          .normalize('NFD')
-          .replace(
-            /[\u0300-\u036f]/g,
-            ''
-          );
-
-      if (
-        urlKey &&
-        seenUrls.has(urlKey)
-      ) {
-        return false;
-      }
-
-      if (
-        titleKey &&
-        seenTitles.has(titleKey)
-      ) {
-        return false;
-      }
-
-      if (urlKey) {
-        seenUrls.add(
-          urlKey
-        );
-      }
-
-      if (titleKey) {
-        seenTitles.add(
-          titleKey
-        );
-      }
-
-      return true;
+    if (
+      !Number.isFinite(date) ||
+      date < cutoff
+    ) {
+      return false;
     }
-  );
+
+    const urlKey =
+      normalizeUrl(item.enlace)
+        .toLowerCase();
+
+    const titleKey =
+      normalizeText(item.titulo)
+        .toLowerCase()
+        .normalize('NFD')
+        .replace(/[\u0300-\u036f]/g, '');
+
+    if (
+      urlKey &&
+      seenUrls.has(urlKey)
+    ) {
+      return false;
+    }
+
+    if (
+      titleKey &&
+      seenTitles.has(titleKey)
+    ) {
+      return false;
+    }
+
+    if (urlKey) {
+      seenUrls.add(urlKey);
+    }
+
+    if (titleKey) {
+      seenTitles.add(titleKey);
+    }
+
+    return true;
+  });
 }
 
 function readExistingOutput() {
   try {
-    if (
-      !fs.existsSync(
-        OUTPUT_FILE
-      )
-    ) {
+    if (!fs.existsSync(OUTPUT_FILE)) {
       return null;
     }
 
@@ -827,35 +751,25 @@ function readExistingOutput() {
         )
       );
 
-    return existing &&
-      Array.isArray(
-        existing.items
-      )
-      ? existing
-      : null;
+    return (
+      existing &&
+      Array.isArray(existing.items)
+        ? existing
+        : null
+    );
   } catch {
     return null;
   }
 }
 
-function writeOutputAtomically(
-  output
-) {
+function writeOutputAtomically(output) {
   const webDir =
-    path.dirname(
-      OUTPUT_FILE
-    );
+    path.dirname(OUTPUT_FILE);
 
-  if (
-    !fs.existsSync(
-      webDir
-    )
-  ) {
+  if (!fs.existsSync(webDir)) {
     fs.mkdirSync(
       webDir,
-      {
-        recursive: true
-      }
+      { recursive: true }
     );
   }
 
@@ -883,11 +797,7 @@ async function main() {
     '=== KellgreatNews v3 — captura robusta ==='
   );
 
-  if (
-    !fs.existsSync(
-      SOURCES_FILE
-    )
-  ) {
+  if (!fs.existsSync(SOURCES_FILE)) {
     throw new Error(
       'No existe sources.json'
     );
@@ -901,29 +811,26 @@ async function main() {
       )
     );
 
-  if (
-    !Array.isArray(
-      config.sources
-    )
-  ) {
+  if (!Array.isArray(config.sources)) {
     throw new Error(
       'sources.json no contiene un array sources'
     );
   }
 
+  const configuracion =
+    config.configuracion || {};
+
   const targetLang =
     safeString(
-      config.configuracion
-        ?.idioma_destino ||
-        'es'
+      configuracion.idioma_destino ||
+      'es'
     ).toLowerCase();
 
   const globalLimit =
     Math.max(
       1,
       Number(
-        config.configuracion
-          ?.limite_global
+        configuracion.limite_global
       ) || 60
     );
 
@@ -932,13 +839,8 @@ async function main() {
   let activeSources = 0;
   let successfulSources = 0;
 
-  for (
-    const source of
-      config.sources
-  ) {
-    if (
-      !source?.activo
-    ) {
+  for (const source of config.sources) {
+    if (!source?.activo) {
       continue;
     }
 
@@ -950,19 +852,16 @@ async function main() {
         targetLang
       );
 
-    if (
-      items.length > 0
-    ) {
+    if (items.length > 0) {
       successfulSources += 1;
     }
 
-    all.push(
-      ...items
-    );
+    all.push(...items);
   }
 
   console.log(
-    `Fuentes activas: ${activeSources}; con resultados: ${successfulSources}`
+    `Fuentes activas: ${activeSources}; ` +
+    `con resultados: ${successfulSources}`
   );
 
   const unique =
@@ -970,12 +869,8 @@ async function main() {
 
   unique.sort(
     (a, b) =>
-      new Date(
-        b.fecha
-      ).getTime() -
-      new Date(
-        a.fecha
-      ).getTime()
+      new Date(b.fecha).getTime() -
+      new Date(a.fecha).getTime()
   );
 
   const finalItems =
@@ -987,9 +882,7 @@ async function main() {
   const previous =
     readExistingOutput();
 
-  if (
-    finalItems.length === 0
-  ) {
+  if (finalItems.length === 0) {
     console.warn(
       'Sin noticias válidas: se conserva web/news.json anterior'
     );
@@ -1003,7 +896,8 @@ async function main() {
     previous?.items?.length > 0
   ) {
     console.warn(
-      'Todas las fuentes fallaron: se conserva web/news.json anterior'
+      'Todas las fuentes fallaron: ' +
+      'se conserva web/news.json anterior'
     );
 
     return;
@@ -1015,6 +909,8 @@ async function main() {
     updated_at:
       new Date().toISOString(),
 
+    configuracion,
+
     source_stats: {
       active_sources:
         activeSources,
@@ -1025,28 +921,28 @@ async function main() {
       collected_items:
         all.length,
 
+      deduplicated_items:
+        unique.length,
+
       final_items:
         finalItems.length
     },
 
-    items: finalItems
+    items:
+      finalItems
   };
 
-  writeOutputAtomically(
-    output
-  );
+  writeOutputAtomically(output);
 
   console.log(
     `guardadas: ${finalItems.length} noticias en web/news.json`
   );
 }
 
-main().catch(
-  (error) => {
-    console.error(
-      `error fatal: ${error.message}`
-    );
+main().catch(error => {
+  console.error(
+    `error fatal: ${error.message}`
+  );
 
-    process.exit(1);
-  }
-);
+  process.exit(1);
+});

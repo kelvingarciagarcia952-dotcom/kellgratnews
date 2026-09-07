@@ -1041,14 +1041,14 @@ function calculateQuality(
   }
 
   if (
-    analysis.entities.length >=
+    (analysis.entidades || []).length >=
     1
   ) {
     score += 5;
   }
 
   if (
-    analysis.numbers.length >=
+    (analysis.cifras_detectadas || []).length >=
     1
   ) {
     score += 5;
@@ -1128,11 +1128,11 @@ function calculateRelevance(
     `${title} ${description}`;
 
   const importantEntities =
-    analysis.entities.length;
+    (analysis.entidades || []).length;
 
   const categoryScore =
     Object.values(
-      analysis.category_scores
+      analysis.category_scores || {}
     ).reduce(
       (sum, value) =>
         sum + value,
@@ -2194,5 +2194,5 @@ try {
     `Error fatal en analyze-news.js: ${error.message}`
   );
   process.exit(1);
-      }
-    
+}
+

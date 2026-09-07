@@ -3,15 +3,26 @@ import path from 'path';
 import crypto from 'crypto';
 import { fileURLToPath } from 'url';
 
+import {
+  generateShortSummary,
+  generateLongSummary
+} from './summarize.js';
+
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const rootDir = path.join(__dirname, '..');
 
-const INPUT_FILE = path.join(rootDir, 'web', 'news.json');
+const INPUT_FILE = path.join(
+  rootDir,
+  'web',
+  'news.json'
+);
+
 const OUTPUT_FILE = INPUT_FILE;
 
 const MIN_TITLE_LENGTH = 8;
 const MIN_TEXT_LENGTH = 20;
+const SUMMARY_MAX_LENGTH = 1500;
 
 const CATEGORY_RULES = {
   inteligencia_artificial: [
@@ -436,7 +447,10 @@ const COMPANY_PATTERNS = [
 
 function readJson(file) {
   return JSON.parse(
-    fs.readFileSync(file, 'utf-8')
+    fs.readFileSync(
+      file,
+      'utf-8'
+    )
   );
 }
 
@@ -450,9 +464,18 @@ function normalizeText(text) {
   return safeText(text)
     .toLowerCase()
     .normalize('NFD')
-    .replace(/[\u0300-\u036f]/g, '')
-    .replace(/[^\p{L}\p{N}\s]/gu, ' ')
-    .replace(/\s+/g, ' ')
+    .replace(
+      /[\u0300-\u036f]/g,
+      ''
+    )
+    .replace(
+      /[^\p{L}\p{N}\s]/gu,
+      ' '
+    )
+    .replace(
+      /\s+/g,
+      ' '
+    )
     .trim();
 }
 
@@ -469,11 +492,18 @@ function unique(values) {
   return [...new Set(values)];
 }
 
-function countMatches(text, patterns) {
+function countMatches(
+  text,
+  patterns
+) {
   let count = 0;
 
-  for (const pattern of patterns) {
-    if (pattern.test(text)) {
+  for (
+    const pattern of patterns
+  ) {
+    if (
+      pattern.test(text)
+    ) {
       count += 1;
     }
   }
@@ -481,21 +511,18 @@ function countMatches(text, patterns) {
   return count;
 }
 
-function containsAny(text, terms) {
-  const normalized = normalizeText(text);
-
-  return terms.some((term) =>
-    normalized.includes(
-      normalizeText(term)
-    )
-  );
-}
-
-function detectLanguage(text, declaredLanguage) {
-  const value = normalizeText(text);
+function detectLanguage(
+  text,
+  declaredLanguage
+) {
+  const value =
+    normalizeText(text);
 
   if (!value) {
-    return declaredLanguage || 'unknown';
+    return (
+      declaredLanguage ||
+      'unknown'
+    );
   }
 
   const spanishSignals = [
@@ -535,16 +562,31 @@ function detectLanguage(text, declaredLanguage) {
   let esScore = 0;
   let enScore = 0;
 
-  const padded = ` ${value} `;
+  const padded =
+    ` ${value} `;
 
-  for (const signal of spanishSignals) {
-    if (padded.includes(signal)) {
+  for (
+    const signal of
+      spanishSignals
+  ) {
+    if (
+      padded.includes(
+        signal
+      )
+    ) {
       esScore += 1;
     }
   }
 
-  for (const signal of englishSignals) {
-    if (padded.includes(signal)) {
+  for (
+    const signal of
+      englishSignals
+  ) {
+    if (
+      padded.includes(
+        signal
+      )
+    ) {
       enScore += 1;
     }
   }
@@ -553,7 +595,10 @@ function detectLanguage(text, declaredLanguage) {
     esScore === 0 &&
     enScore === 0
   ) {
-    return declaredLanguage || 'unknown';
+    return (
+      declaredLanguage ||
+      'unknown'
+    );
   }
 
   return esScore >= enScore
@@ -562,50 +607,72 @@ function detectLanguage(text, declaredLanguage) {
 }
 
 function detectCategories(news) {
-  const text = normalizeText(
-    [
-      news.titulo,
-      news.titulo_original,
-      news.resumen_largo,
-      news.texto_original
-    ]
-      .filter(Boolean)
-      .join(' ')
-  );
+  const text =
+    normalizeText(
+      [
+        news.titulo,
+        news.titulo_original,
+        news.resumen_largo,
+        news.texto_original
+      ]
+        .filter(Boolean)
+        .join(' ')
+    );
 
   const scores = {};
 
-  for (const [category, terms] of Object.entries(
-    CATEGORY_RULES
-  )) {
+  for (
+    const [
+      category,
+      terms
+    ] of Object.entries(
+      CATEGORY_RULES
+    )
+  ) {
     let score = 0;
 
-    for (const term of terms) {
+    for (
+      const term of terms
+    ) {
       const normalizedTerm =
-        normalizeText(term);
+        normalizeText(
+          term
+        );
 
       if (
         normalizedTerm &&
-        text.includes(normalizedTerm)
+        text.includes(
+          normalizedTerm
+        )
       ) {
-        score += normalizedTerm.includes(' ')
-          ? 2
-          : 1;
+        score +=
+          normalizedTerm.includes(
+            ' '
+          )
+            ? 2
+            : 1;
       }
     }
 
-    if (score > 0) {
-      scores[category] = score;
+    if (
+      score > 0
+    ) {
+      scores[category] =
+        score;
     }
   }
 
-  const ordered = Object.entries(
-    scores
-  ).sort(
-    (a, b) => b[1] - a[1]
-  );
+  const ordered =
+    Object.entries(
+      scores
+    ).sort(
+      (a, b) =>
+        b[1] - a[1]
+    );
 
-  if (ordered.length === 0) {
+  if (
+    ordered.length === 0
+  ) {
     return {
       primary:
         news.categoria ||
@@ -616,55 +683,87 @@ function detectCategories(news) {
   }
 
   return {
-    primary: ordered[0][0],
-    secondary: ordered
-      .slice(1, 4)
-      .map(([category]) => category),
-    scores: Object.fromEntries(
+    primary:
+      ordered[0][0],
+
+    secondary:
       ordered
-    )
+        .slice(1, 4)
+        .map(
+          ([category]) =>
+            category
+        ),
+
+    scores:
+      Object.fromEntries(
+        ordered
+      )
   };
 }
 
 function detectEntities(text) {
-  const source = safeText(text);
+  const source =
+    safeText(text);
+
   const found = [];
 
-  for (const entity of KNOWN_ENTITIES) {
-    const escaped = entity.replace(
-      /[.*+?^${}()|[\]\\]/g,
-      '\\$&'
-    );
+  for (
+    const entity of
+      KNOWN_ENTITIES
+  ) {
+    const escaped =
+      entity.replace(
+        /[.*+?^${}()|[\]\\]/g,
+        '\\$&'
+      );
 
-    const regex = new RegExp(
-      `\\b${escaped}\\b`,
-      'i'
-    );
+    const regex =
+      new RegExp(
+        `\\b${escaped}\\b`,
+        'i'
+      );
 
-    if (regex.test(source)) {
-      found.push(entity);
+    if (
+      regex.test(
+        source
+      )
+    ) {
+      found.push(
+        entity
+      );
     }
   }
 
-  for (const pattern of COMPANY_PATTERNS) {
+  for (
+    const pattern of
+      COMPANY_PATTERNS
+  ) {
     const matches =
-      source.match(pattern) || [];
+      source.match(
+        pattern
+      ) || [];
 
-    for (const match of matches) {
+    for (
+      const match of
+        matches
+    ) {
       found.push(
         match.trim()
       );
     }
   }
 
-  return unique(found).slice(
+  return unique(
+    found
+  ).slice(
     0,
     20
   );
 }
 
 function detectNumbers(text) {
-  const value = safeText(text);
+  const value =
+    safeText(text);
 
   const matches =
     value.match(
@@ -672,26 +771,37 @@ function detectNumbers(text) {
     ) || [];
 
   return unique(
-    matches.map((item) =>
-      item.trim()
+    matches.map(
+      (item) =>
+        item.trim()
     )
-  ).slice(0, 20);
+  ).slice(
+    0,
+    20
+  );
 }
 
-function detectClickbait(title, text) {
+function detectClickbait(
+  title,
+  text
+) {
   const combined =
     `${title} ${text}`;
 
   const matches =
     CLICKBAIT_PATTERNS.filter(
       (pattern) =>
-        pattern.test(combined)
+        pattern.test(
+          combined
+        )
     );
 
-  let score = Math.min(
-    100,
-    matches.length * 25
-  );
+  let score =
+    Math.min(
+      100,
+      matches.length *
+        25
+    );
 
   const uppercaseLetters =
     (
@@ -726,20 +836,25 @@ function detectClickbait(title, text) {
 
   if (
     title.length < 20 &&
-    /[!?]/.test(title)
+    /[!?]/.test(
+      title
+    )
   ) {
     score += 10;
   }
 
-  score = Math.min(
-    100,
-    score
-  );
+  score =
+    Math.min(
+      100,
+      score
+    );
 
   return {
     detected:
       score >= 35,
+
     score,
+
     signals:
       matches.map(
         (pattern) =>
@@ -752,7 +867,9 @@ function detectSpam(text) {
   const matches =
     SPAM_PATTERNS.filter(
       (pattern) =>
-        pattern.test(text)
+        pattern.test(
+          text
+        )
     );
 
   const urlCount =
@@ -763,9 +880,12 @@ function detectSpam(text) {
     ).length;
 
   let score =
-    matches.length * 30;
+    matches.length *
+    30;
 
-  if (urlCount >= 4) {
+  if (
+    urlCount >= 4
+  ) {
     score += 30;
   }
 
@@ -780,20 +900,24 @@ function detectSpam(text) {
     score += 25;
   }
 
-  score = Math.min(
-    100,
-    score
-  );
+  score =
+    Math.min(
+      100,
+      score
+    );
 
   return {
     detected:
       score >= 40,
+
     score,
+
     signals:
       matches.map(
         (pattern) =>
           pattern.source
       ),
+
     url_count:
       urlCount
   };
@@ -903,11 +1027,13 @@ function calculateQuality(
   }
 
   if (
-    text.length >= 150
+    text.length >=
+    150
   ) {
     score += 15;
   } else if (
-    text.length >= 60
+    text.length >=
+    60
   ) {
     score += 7;
   } else {
@@ -915,13 +1041,15 @@ function calculateQuality(
   }
 
   if (
-    analysis.entities.length >= 1
+    analysis.entities.length >=
+    1
   ) {
     score += 5;
   }
 
   if (
-    analysis.numbers.length >= 1
+    analysis.numbers.length >=
+    1
   ) {
     score += 5;
   }
@@ -934,16 +1062,19 @@ function calculateQuality(
   }
 
   if (
-    analysis.clickbait.detected
+    analysis.clickbait
+      .detected
   ) {
     score -= Math.round(
-      analysis.clickbait.score *
+      analysis.clickbait
+        .score *
         0.25
     );
   }
 
   if (
-    analysis.spam.detected
+    analysis.spam
+      .detected
   ) {
     score -= 30;
   }
@@ -1039,26 +1170,29 @@ function calculateRelevance(
   if (
     FACTUAL_SIGNAL_PATTERNS.some(
       (pattern) =>
-        pattern.test(fullText)
+        pattern.test(
+          fullText
+        )
     )
   ) {
     score += 8;
   }
 
   if (
-    analysis.spam.detected
+    analysis.spam
+      .detected
   ) {
     score -= 30;
   }
 
   if (
-    analysis.clickbait.score >=
-    75
+    analysis.clickbait
+      .score >= 75
   ) {
     score -= 15;
   } else if (
-    analysis.clickbait.score >=
-    40
+    analysis.clickbait
+      .score >= 40
   ) {
     score -= 7;
   }
@@ -1123,14 +1257,15 @@ function calculateReliability(
   }
 
   if (
-    analysis.spam.detected
+    analysis.spam
+      .detected
   ) {
     score -= 35;
   }
 
   if (
-    analysis.clickbait.score >=
-    75
+    analysis.clickbait
+      .score >= 75
   ) {
     score -= 15;
   }
@@ -1144,7 +1279,9 @@ function calculateReliability(
   );
 }
 
-function buildFingerprint(news) {
+function buildFingerprint(
+  news
+) {
   const source =
     normalizeText(
       news.fuente_id ||
@@ -1185,7 +1322,9 @@ function similarity(
 
   let intersection = 0;
 
-  for (const token of setA) {
+  for (
+    const token of setA
+  ) {
     if (
       setB.has(token)
     ) {
@@ -1199,12 +1338,16 @@ function similarity(
       ...setB
     ]).size;
 
-  if (union === 0) {
+  if (
+    union === 0
+  ) {
     return 0;
   }
 
-  return intersection /
-    union;
+  return (
+    intersection /
+    union
+  );
 }
 
 function detectDuplicates(
@@ -1261,7 +1404,8 @@ function detectDuplicates(
       index,
       tokenize(
         `${item.titulo} ${
-          item.resumen_largo || ''
+          item.resumen_largo ||
+          ''
         }`
       )
     );
@@ -1316,6 +1460,7 @@ function detectDuplicates(
       ) {
         bestSimilarity =
           score;
+
         bestIndex =
           previous;
       }
@@ -1325,7 +1470,8 @@ function detectDuplicates(
       bestSimilarity >= 0.78 &&
       bestIndex >= 0
     ) {
-      items[index].__duplicate = {
+      items[index]
+        .__duplicate = {
         detected: true,
         type: 'similar',
         similarity:
@@ -1363,10 +1509,124 @@ function classifyDuplicate(
       'similar',
     similarity:
       Number(
-        duplicate.similarity || 1
+        duplicate.similarity ||
+        1
       ),
     similar_to:
       duplicate.similar_to
+  };
+}
+
+/*
+ * ------------------------------------------------------------
+ * GENERACIÓN DEL RESUMEN
+ * ------------------------------------------------------------
+ *
+ * fetch-news.js ya produce un resumen inicial traducido.
+ * Aquí lo refinamos usando summarize.js.
+ *
+ * Prioridad:
+ *
+ * 1. resumen_largo traducido
+ * 2. resumen_corto traducido
+ * 3. texto_original como último recurso
+ *
+ * De esta forma no reemplazamos automáticamente
+ * el contenido traducido por texto original en inglés.
+ */
+function regenerateSummaries(
+  news
+) {
+  const translatedText =
+    safeText(
+      news.resumen_largo ||
+      news.resumen_corto
+    );
+
+  const originalText =
+    safeText(
+      news.texto_original
+    );
+
+  const sourceText =
+    translatedText ||
+    originalText;
+
+  if (!sourceText) {
+    return {
+      short:
+        safeText(
+          news.titulo
+        ),
+
+      long:
+        safeText(
+          news.titulo
+        ),
+
+      generated: false,
+
+      input_language:
+        news.idioma_original ||
+        'unknown'
+    };
+  }
+
+  let short =
+    generateShortSummary(
+      sourceText
+    );
+
+  let long =
+    generateLongSummary(
+      sourceText,
+      4
+    );
+
+  /*
+   * Si el motor no encuentra suficiente
+   * información, conservamos el resultado
+   * anterior en lugar de degradarlo.
+   */
+  if (!short) {
+    short =
+      safeText(
+        news.resumen_corto ||
+        news.titulo
+      );
+  }
+
+  if (!long) {
+    long =
+      safeText(
+        news.resumen_largo ||
+        short ||
+        news.titulo
+      );
+  }
+
+  return {
+    short:
+      short.slice(
+        0,
+        500
+      ),
+
+    long:
+      long.slice(
+        0,
+        SUMMARY_MAX_LENGTH
+      ),
+
+    generated: true,
+
+    input_language:
+      translatedText
+        ? 'translated'
+        : (
+            news.idioma_original ||
+            'unknown'
+          )
   };
 }
 
@@ -1374,6 +1634,20 @@ function analyzeNews(
   news,
   index
 ) {
+  /*
+   * Primero refinamos el resumen.
+   */
+  const summaries =
+    regenerateSummaries(
+      news
+    );
+
+  news.resumen_corto =
+    summaries.short;
+
+  news.resumen_largo =
+    summaries.long;
+
   const title =
     safeText(
       news.titulo
@@ -1457,12 +1731,20 @@ function analyzeNews(
     );
 
   const analysis = {
-    version: 1,
+    version: 2,
 
     processed_at:
       new Date().toISOString(),
 
     index,
+
+    resumen: {
+      generado:
+        summaries.generated,
+
+      origen:
+        summaries.input_language
+    },
 
     idioma_detectado:
       detectedLanguage,
@@ -1492,8 +1774,10 @@ function analyzeNews(
     clickbait: {
       detected:
         clickbait.detected,
+
       score:
         clickbait.score,
+
       signals:
         clickbait.signals
     },
@@ -1501,10 +1785,13 @@ function analyzeNews(
     spam: {
       detected:
         spam.detected,
+
       score:
         spam.score,
+
       signals:
         spam.signals,
+
       url_count:
         spam.url_count
     },
@@ -1513,8 +1800,7 @@ function analyzeNews(
 
     relevancia: 0,
 
-    confiabilidad_fuente:
-      0,
+    confiabilidad_fuente: 0,
 
     readability,
 
@@ -1558,6 +1844,7 @@ function validateNewsObject(
   ) {
     return {
       valid: false,
+
       reason:
         `item ${index} no es un objeto`
     };
@@ -1574,6 +1861,7 @@ function validateNewsObject(
   ) {
     return {
       valid: false,
+
       reason:
         `item ${index} tiene título demasiado corto`
     };
@@ -1597,6 +1885,7 @@ function validateNewsObject(
   ) {
     return {
       valid: false,
+
       reason:
         `item ${index} no tiene contenido suficiente`
     };
@@ -1663,13 +1952,14 @@ function writeAtomically(
 
 function main() {
   console.log(
-    '=== KellgreatNews — Article Analyzer v1 ==='
+    '=== KellgreatNews — Article Analyzer v2 ==='
   );
 
   const data =
     readExistingData();
 
   const validItems = [];
+
   let rejected = 0;
 
   for (
@@ -1713,6 +2003,11 @@ function main() {
     return;
   }
 
+  /*
+   * Detectamos duplicados antes del análisis
+   * para que el resultado quede registrado
+   * en cada noticia.
+   */
   detectDuplicates(
     validItems
   );
@@ -1738,12 +2033,6 @@ function main() {
 
     delete item.__duplicate;
 
-    /*
-     * Compatibilidad:
-     * conservamos todos los campos
-     * originales y solamente añadimos/
-     * reemplazamos "analisis".
-     */
     item.analisis =
       analysis;
   }
@@ -1770,6 +2059,14 @@ function main() {
         item.analisis
           ?.spam
           ?.detected
+    ).length;
+
+  const generatedSummaryCount =
+    validItems.filter(
+      (item) =>
+        item.analisis
+          ?.resumen
+          ?.generado
     ).length;
 
   const averageQuality =
@@ -1806,7 +2103,8 @@ function main() {
     schema_version:
       Math.max(
         Number(
-          data.schema_version || 3
+          data.schema_version ||
+          3
         ),
         3
       ),
@@ -1832,6 +2130,9 @@ function main() {
 
       spam_items:
         spamCount,
+
+      summaries_generated:
+        generatedSummaryCount,
 
       average_quality:
         averageQuality,
@@ -1867,6 +2168,10 @@ function main() {
 
   console.log(
     `Spam detectado: ${spamCount}`
+  );
+
+  console.log(
+    `Resúmenes regenerados: ${generatedSummaryCount}`
   );
 
   console.log(

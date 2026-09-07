@@ -19,16 +19,38 @@ jobs:
       - name: Configurar Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: '24'
+          cache: 'npm'
 
       - name: Instalar dependencias
         run: npm install
 
-      - name: Descargar, traducir y resumir noticias
-        run: node scripts/fetch-news.js
+      - name: Ejecutar pipeline completo de noticias
+        run: npm run update
 
-      - name: Ping de mantenimiento
-        run: 'echo "Manteniendo repositorio activo" && date'
+      - name: Mostrar resumen de generación
+        run: |
+          node -e "
+          const fs = require('fs');
+          const path = 'web/news.json';
+
+          if (!fs.existsSync(path)) {
+            console.error('ERROR: no existe web/news.json');
+            process.exit(1);
+          }
+
+          const data = JSON.parse(fs.readFileSync(path, 'utf8'));
+
+          console.log('=== RESUMEN ===');
+          console.log('Noticias:', Array.isArray(data.items) ? data.items.length : 0);
+          console.log('Schema:', data.schema_version ?? 'N/A');
+          console.log('Actualizado:', data.updated_at ?? 'N/A');
+
+          if (data.validation) {
+            console.log('Validación:', data.validation.status ?? 'N/A');
+            console.log('Descartadas:', data.validation.rejected_items ?? 0);
+          }
+          "
 
       - name: Configurar identidad de git
         run: |
@@ -38,6 +60,7 @@ jobs:
       - name: Commit y push de novedades
         run: |
           git add web/news.json
+
           if git diff --staged --quiet; then
             echo "No hay cambios nuevos, omitiendo commit"
           else

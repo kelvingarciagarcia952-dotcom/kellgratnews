@@ -20,7 +20,6 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '24'
-          cache: 'npm'
 
       - name: Instalar dependencias
         run: npm install
@@ -28,7 +27,7 @@ jobs:
       - name: Ejecutar pipeline completo de noticias
         run: npm run update
 
-      - name: Mostrar resumen de generación
+      - name: Verificar web/news.json
         run: |
           node -e "
           const fs = require('fs');
@@ -41,15 +40,34 @@ jobs:
 
           const data = JSON.parse(fs.readFileSync(path, 'utf8'));
 
-          console.log('=== RESUMEN ===');
-          console.log('Noticias:', Array.isArray(data.items) ? data.items.length : 0);
+          if (!Array.isArray(data.items)) {
+            console.error('ERROR: web/news.json no contiene un array items');
+            process.exit(1);
+          }
+
+          console.log('=== RESUMEN FINAL ===');
+          console.log('Noticias:', data.items.length);
           console.log('Schema:', data.schema_version ?? 'N/A');
           console.log('Actualizado:', data.updated_at ?? 'N/A');
+
+          if (data.source_stats) {
+            console.log('Fuentes activas:', data.source_stats.active_sources ?? 'N/A');
+            console.log('Fuentes con resultados:', data.source_stats.successful_sources ?? 'N/A');
+            console.log('Noticias recolectadas:', data.source_stats.collected_items ?? 'N/A');
+          }
 
           if (data.validation) {
             console.log('Validación:', data.validation.status ?? 'N/A');
             console.log('Descartadas:', data.validation.rejected_items ?? 0);
+            console.log('Límite:', data.validation.limit ?? 'N/A');
           }
+
+          if (data.items.length === 0) {
+            console.error('ERROR: no hay noticias en el archivo final');
+            process.exit(1);
+          }
+
+          console.log('web/news.json válido y con contenido.');
           "
 
       - name: Configurar identidad de git

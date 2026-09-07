@@ -9,7 +9,7 @@ const __dirname = path.dirname(__filename);
 const rootDir = path.join(__dirname, '..');
 
 const SOURCES_FILE = path.join(rootDir, 'sources.json');
-const OUTPUT_FILE = path.join(rootDir, 'src', 'news.json');
+const OUTPUT_FILE = path.join(rootDir, 'web', 'news.json');
 
 const MAX_SENTENCES = 3;
 const MAX_TITLE_LENGTH = 220;
@@ -991,7 +991,7 @@ async function main() {
     finalItems.length === 0
   ) {
     console.warn(
-      'Sin noticias válidas: se conserva src/news.json anterior'
+      'Sin noticias válidas: se conserva web/news.json anterior'
     );
 
     return;
@@ -1003,7 +1003,7 @@ async function main() {
     previous?.items?.length > 0
   ) {
     console.warn(
-      'Todas las fuentes fallaron: se conserva src/news.json anterior'
+      'Todas las fuentes fallaron: se conserva web/news.json anterior'
     );
 
     return;
@@ -1037,7 +1037,7 @@ async function main() {
   );
 
   console.log(
-    `guardadas: ${finalItems.length} noticias en src/news.json`
+    `guardadas: ${finalItems.length} noticias en web/news.json`
   );
 }
 

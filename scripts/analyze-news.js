@@ -7,7 +7,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const rootDir = path.join(__dirname, '..');
 
-const INPUT_FILE = path.join(rootDir, 'src', 'news.json');
+const INPUT_FILE = path.join(rootDir, 'web', 'news.json');
 const OUTPUT_FILE = INPUT_FILE;
 
 const MIN_TITLE_LENGTH = 8;
@@ -259,7 +259,6 @@ const CATEGORY_RULES = {
     'tech',
     'innovation',
     'innovación',
-    'innovation',
     'device',
     'dispositivo',
     'gadget',
@@ -512,11 +511,9 @@ function detectLanguage(text, declaredLanguage) {
     ' para ',
     ' con ',
     ' por ',
-    ' los ',
     ' noticias ',
-    ' tecnología ',
-    ' bateria ',
-    ' bateria'
+    ' tecnologia ',
+    ' bateria '
   ];
 
   const englishSignals = [
@@ -610,7 +607,9 @@ function detectCategories(news) {
 
   if (ordered.length === 0) {
     return {
-      primary: news.categoria || 'tecnologia',
+      primary:
+        news.categoria ||
+        'tecnologia',
       secondary: [],
       scores: {}
     };
@@ -738,12 +737,14 @@ function detectClickbait(title, text) {
   );
 
   return {
-    detected: score >= 35,
+    detected:
+      score >= 35,
     score,
-    signals: matches.map(
-      (pattern) =>
-        pattern.source
-    )
+    signals:
+      matches.map(
+        (pattern) =>
+          pattern.source
+      )
   };
 }
 
@@ -785,13 +786,16 @@ function detectSpam(text) {
   );
 
   return {
-    detected: score >= 40,
+    detected:
+      score >= 40,
     score,
-    signals: matches.map(
-      (pattern) =>
-        pattern.source
-    ),
-    url_count: urlCount
+    signals:
+      matches.map(
+        (pattern) =>
+          pattern.source
+      ),
+    url_count:
+      urlCount
   };
 }
 
@@ -859,9 +863,12 @@ function calculateReadability(
   }
 
   return {
-    words: words.length,
+    words:
+      words.length,
+
     sentences:
       sentences.length,
+
     average_words_per_sentence:
       Number(
         (
@@ -879,9 +886,10 @@ function calculateQuality(
 ) {
   let score = 50;
 
-  const title = safeText(
-    news.titulo
-  );
+  const title =
+    safeText(
+      news.titulo
+    );
 
   if (
     title.length >=
@@ -982,7 +990,7 @@ function calculateRelevance(
   const description =
     normalizeText(
       news.resumen_largo ||
-        news.texto_original
+      news.texto_original
     );
 
   const fullText =
@@ -1140,7 +1148,7 @@ function buildFingerprint(news) {
   const source =
     normalizeText(
       news.fuente_id ||
-        news.fuente_nombre
+      news.fuente_nombre
     );
 
   const title =
@@ -1171,6 +1179,7 @@ function similarity(
 
   const setA =
     new Set(tokensA);
+
   const setB =
     new Set(tokensB);
 
@@ -1316,19 +1325,18 @@ function detectDuplicates(
       bestSimilarity >= 0.78 &&
       bestIndex >= 0
     ) {
-      items[index].__duplicate =
-        {
-          detected: true,
-          type: 'similar',
-          similarity:
-            Number(
-              bestSimilarity.toFixed(
-                3
-              )
-            ),
-          similar_to:
-            bestIndex
-        };
+      items[index].__duplicate = {
+        detected: true,
+        type: 'similar',
+        similarity:
+          Number(
+            bestSimilarity.toFixed(
+              3
+            )
+          ),
+        similar_to:
+          bestIndex
+      };
     }
   }
 }
@@ -1623,7 +1631,7 @@ function readExistingData() {
     )
   ) {
     throw new Error(
-      'src/news.json no contiene un array items válido'
+      'web/news.json no contiene un array items válido'
     );
   }
 
@@ -1690,11 +1698,9 @@ function main() {
       continue;
     }
 
-    validItems.push(
-      {
-        ...item
-      }
-    );
+    validItems.push({
+      ...item
+    });
   }
 
   if (
@@ -1883,7 +1889,5 @@ try {
     `Error fatal en analyze-news.js: ${error.message}`
   );
 
-  process.exit(
-    1
-  );
+  process.exit(1);
     }

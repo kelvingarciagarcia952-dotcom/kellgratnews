@@ -468,7 +468,7 @@ function removeAnalyzedDuplicates(items) {
 
   for (const item of items) {
     const duplicate =
-      item.analisis?.duplicado;
+      item.analisis?.duplicate;
 
     if (
       duplicate &&

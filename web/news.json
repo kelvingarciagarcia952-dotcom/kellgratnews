@@ -1,514 +1,424 @@
 {
   "schema_version": 3,
-  "updated_at": "2026-09-07T03:20:42.491Z",
+  "updated_at": "2026-09-07T16:59:52.796Z",
+  "configuracion": {
+    "limite_global": 60,
+    "frecuencia_minutos": 60,
+    "idioma_destino": "es",
+    "analisis": {
+      "activo": true,
+      "detectar_idioma": true,
+      "detectar_categoria": true,
+      "detectar_duplicados": true,
+      "detectar_clickbait": true,
+      "detectar_spam": true,
+      "normalizar_texto": true,
+      "extraer_entidades": true
+    },
+    "resumen": {
+      "activo": true,
+      "idioma": "es"
+    }
+  },
   "source_stats": {
     "active_sources": 15,
     "successful_sources": 14,
     "collected_items": 57,
-    "final_items": 44
+    "deduplicated_items": 43,
+    "final_items": 43
   },
   "items": [
-    {
-      "id": "6f6e7af85534d3be",
-      "fuente_id": "bbc_mundo",
-      "fuente_nombre": "BBC Mundo",
-      "tipo": "rss_web",
-      "categoria": "actualidad",
-      "idioma_original": "es",
-      "prioridad_fuente": 5,
-      "titulo": "Al menos 5 muertos luego de que un avión se salió de pista, atropelló varios vehículos y se incendió en el aeropuerto de Miami",
-      "titulo_original": "Al menos 5 muertos luego de que un avión se salió de pista, atropelló varios vehículos y se incendió en el aeropuerto de Miami",
-      "enlace": "https://www.bbc.com/mundo/articles/cj641kkdekno?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-09-07T00:39:06.000Z",
-      "resumen_corto": "Al menos cinco personas murieron luego de que un avión Boeing 767-300 de carga, perteneciente a la compañía Amazon, se salió de la pista, atropelló varios vehículos y se incendió en el Aeropuerto Internacional de Miami este domingo.",
-      "resumen_largo": "Al menos cinco personas murieron luego de que un avión Boeing 767-300 de carga, perteneciente a la compañía Amazon, se salió de la pista, atropelló varios vehículos y se incendió en el Aeropuerto Internacional de Miami este domingo. Además, al menos otras cinco personas están heridas, tres de ellas de gravedad, y cientos de vuelos tuvieron que ser suspendidos durante uno de los fines de semana más activos en la temporada en EE.UU. Por razones que aún se desconocen, el vuelo 7598 de Prime Air procedente de San Juan, Puerto Rico, aterrizó en la pista del aeropuerto sobre las 14:00 horas locales y se salió de la misma a una velocidad de casi 209 km/h.",
-      "texto_original": "Al menos cinco personas murieron luego de que un avión Boeing 767-300 de carga, perteneciente a la compañía Amazon, se salió de la pista, atropelló varios vehículos y se incendió en el Aeropuerto Internacional de Miami este domingo. Además, al menos otras cinco personas están heridas, tres de ellas de gravedad, y cientos de vuelos tuvieron que ser suspendidos durante uno de los fines de semana más activos en la temporada en EE.UU. Por razones que aún se desconocen, el vuelo 7598 de Prime Air procedente de San Juan, Puerto Rico, aterrizó en la pista del aeropuerto sobre las 14:00 horas locales y se salió de la misma a una velocidad de casi 209 km/h. Luego impactó contra varios vehículos y se incendió, quedando inclinado sobre el frente. \"Fue necesaria una compleja operación de rescate\", informó Ray Jadallah, jefe de bomberos del condado de Miami Dade. El operativo \"incluyó la búsqueda y el rescate del piloto y el copiloto, quienes quedaron atrapados en la aeronave\", agregó Jadallah, quien no aclaró su estado de salud.",
-      "analisis": null
-    },
-    {
-      "id": "3d96f51d23731b86",
-      "fuente_id": "google_news_es",
-      "fuente_nombre": "Google News ES",
-      "tipo": "rss_web",
-      "categoria": "tecnologia",
-      "idioma_original": "es",
-      "prioridad_fuente": 3,
-      "titulo": "Andalucía X el mundo: Entramos en una casa amish donde la tecnología no perturba a la familia - Canal Sur",
-      "titulo_original": "Andalucía X el mundo: Entramos en una casa amish donde la tecnología no perturba a la familia - Canal Sur",
-      "enlace": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQUWs3ZmlTcTNpNU5XdlM5cnFfbkVoal91WVdnWU1udWhnc0dqRFFOMmNFRjhjazE2TTFBWW9EUzRsSUpLWWRZVWlKU21hVHdSMzRBSlVINVZwMTYwT0pGbUd6RzEtTGZ1b2FNNHBXNUdXTDFpcmg4T0JKWUM5RmRONHU1bElRM3FUWHlmZkNhUU1kMDlMTWZxNDFBbUxXbVFVTFZuVlhfSQ?oc=5",
-      "fecha": "2026-09-06T20:50:00.000Z",
-      "resumen_corto": "Andalucía X el mundo: Entramos en una casa amish donde la tecnología no perturba a la familia Canal Sur",
-      "resumen_largo": "Andalucía X el mundo: Entramos en una casa amish donde la tecnología no perturba a la familia Canal Sur",
-      "texto_original": "Andalucía X el mundo: Entramos en una casa amish donde la tecnología no perturba a la familia Canal Sur",
-      "analisis": null
-    },
-    {
-      "id": "632279a87676ec34",
-      "fuente_id": "bbc_mundo",
-      "fuente_nombre": "BBC Mundo",
-      "tipo": "rss_web",
-      "categoria": "actualidad",
-      "idioma_original": "es",
-      "prioridad_fuente": 5,
-      "titulo": "¿Por qué los países europeos están trasladando su oro fuera de América del Norte?",
-      "titulo_original": "¿Por qué los países europeos están trasladando su oro fuera de América del Norte?",
-      "enlace": "https://www.bbc.com/mundo/articles/c89jpdn4pn3o?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-09-06T17:59:07.000Z",
-      "resumen_corto": "Cuando el banco central de Países Bajos confirmó esta semana que había trasladado toneladas de oro de ese país fuera de América del Norte, informó que esta reubicación le permitiría estar \"mejor preparado para crisis graves\".",
-      "resumen_largo": "Cuando el banco central de Países Bajos confirmó esta semana que había trasladado toneladas de oro de ese país fuera de América del Norte, informó que esta reubicación le permitiría estar \"mejor preparado para crisis graves\". Según el comunicado, unas 86 toneladas de las aproximadamente 313 toneladas que tenía almacenadas en Estados Unidos y Canadá fueron trasladadas a Londres \"en vista de la creciente inestabilidad geopolítica\", para que este metal precioso pudiera estar \"fácilmente disponible para su uso en una situación de crisis\". Era inevitable que surgieran preguntas.",
-      "texto_original": "Cuando el banco central de Países Bajos confirmó esta semana que había trasladado toneladas de oro de ese país fuera de América del Norte, informó que esta reubicación le permitiría estar \"mejor preparado para crisis graves\". Según el comunicado, unas 86 toneladas de las aproximadamente 313 toneladas que tenía almacenadas en Estados Unidos y Canadá fueron trasladadas a Londres \"en vista de la creciente inestabilidad geopolítica\", para que este metal precioso pudiera estar \"fácilmente disponible para su uso en una situación de crisis\". Era inevitable que surgieran preguntas. ¿Por qué hacían esto los neerlandeses? ¿Anticipaban algún gran shock económico en el horizonte? Aunque no lo parezca, la medida fue claramente una respuesta al estado de inestabilidad e incertidumbre en el que se encuentra el mundo, donde las guerras comerciales y militares han llevado a los países a tomar precauciones y a mantener su oro más cerca de casa. A principios de este año, Francia anunció que había trasladado sus reservas de oro de Estados Unidos a territorio francés. Mientras tanto, el Bundesbank alemán transfirió más de 216 toneladas de este metal desde depósitos en el extranjero (111 toneladas desde Nueva York y 105 toneladas desde París) a lo largo de varios años, hasta 2016.",
-      "analisis": null
-    },
-    {
-      "id": "03ed373fb1aa7626",
-      "fuente_id": "google_news_es",
-      "fuente_nombre": "Google News ES",
-      "tipo": "rss_web",
-      "categoria": "tecnologia",
-      "idioma_original": "es",
-      "prioridad_fuente": 3,
-      "titulo": "\"El objetivo de Marruecos es dejar de ser la fábrica barata frente a Europa. El país quiere crecer en soberanía tecnológica e industrial\" - COPE",
-      "titulo_original": "\"El objetivo de Marruecos es dejar de ser la fábrica barata frente a Europa. El país quiere crecer en soberanía tecnológica e industrial\" - COPE",
-      "enlace": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxQX3lrZVVpR3pCbWo0Zzg5TnF1Q0lnVVY2QThHQVNpMFl3Sno1YUJMVlp3b0ZoM3dRaFFSWC0yWWdyQlhrZFRCTm1LdDV6QVU1MkdLT3c0OVdicUQwWDA3SWpSLXZWRDQtSHoyVVhZWDFYY3h3dnJxcXdMaHFNUjdxRFZFdUdNRDJuUFFLZ2FDRFhBV2RFUm0wV2U3dXRXSVZIdUQ1d0VkaElmUnpDeWRWcEdUTmRJcmNNVTZDTTl5ZE1vQTE1ZlNZQnRQVEZDdGJqNlhJbHFzbVc4dDlIZnJKOS1BWG5DTFp2QmkxQllOUVQ1RDBOUGZwOWlJQlRQT2VQaWRraDFXUW5jVVnSAZACQVVfeXFMUDdBSVZhcU9YRi1aN0ROOVJvVndSU3Z4Y05MVExJRmJOb0JhQ1Zqc0dZY3Y3ekFaWU5Tc2d0US1kRGVpS3RYbmF0RVg3a1R3T3dpVXFMaVFxa3ljclJCUWxFMVZPZEVlWnBDTlhRXzZJdTc2NGRSMVlQTG1nUlhNM19WNTVmYXdNTmd1MjZSNWF0ZlRTbkdQbWt5bW9LZGttLTl3ZTRPeG9mb29OWHVSdkxiR2RRUk5SMUUxNW4tSWs3eS1KOUZOSmRRS2xJZUxNRUNIZkJqQzZsZTJ5T1plTTJxUTV1Q0JsYUVnUl9JTmRseU4xTnNiU2t1M0ttbEt2R1NHT2x2cE1fdUZheVljcEU?oc=5",
-      "fecha": "2026-09-06T17:15:14.000Z",
-      "resumen_corto": "\"El objetivo de Marruecos es dejar de ser la fábrica barata frente a Europa.",
-      "resumen_largo": "\"El objetivo de Marruecos es dejar de ser la fábrica barata frente a Europa. El país quiere crecer en soberanía tecnológica e industrial\" COPE",
-      "texto_original": "\"El objetivo de Marruecos es dejar de ser la fábrica barata frente a Europa. El país quiere crecer en soberanía tecnológica e industrial\" COPE",
-      "analisis": null
-    },
-    {
-      "id": "dda9ef32ff7e2c9f",
-      "fuente_id": "xataka_google",
-      "fuente_nombre": "Xataka",
-      "tipo": "rss_web",
-      "categoria": "tecnologia",
-      "idioma_original": "es",
-      "prioridad_fuente": 4,
-      "titulo": "El pueblo del Pirineo que el franquismo sumergió y un grupo de sindicalistas reconvirtió en un paraíso vacacional, barato y lleno de lujos",
-      "titulo_original": "El pueblo del Pirineo que el franquismo sumergió y un grupo de sindicalistas reconvirtió en un paraíso vacacional, barato y lleno de lujos - Xataka",
-      "enlace": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOSWFQbXFTNGN0a0ZFYThiMDZab3p2Q2hzdmJHR1pFUk0ybjJacFBadG43Uksta0UtUXlhZHgwWENtdmx3cUp1SVJWUW1ybGo5V0p2NkJPeWtfZlh2Y3dxcE4zZUdvUTYyemxHVDBiOW1fQUxwQWxaMW5YWG5kcGE3TzhJbVpKLVYzVEhSNTFaQW0tZmk2WnZoaWFaODF0S3E1eUxRc1NYN2oyZTJ0Ulh4Sl95aEZRUzQxZW9yMEFSYXgwaS16Y1dHUXFqS2ZRRklVYTd1NNIB2gFBVV95cUxOYWx3R0RlWnBPUGI0REtrMFUzaThQeVJSNEF3N1plVi1LSjlNajdZSnhPUExYWmNtOEc5R0IyczVONGpFa1F5cGtFOWZhUXNUdVBqM0tXbG1JYlhlekZKRnFBUlllUXpXTkRXVVk5LVlfd2VfNUZXbVV6cW1nTFJGTTl0UkVEVTBvdEt1allEeVZxZ3lEZngzQVhrSW1uN1d2WHdsdHByZFlQTVNxeXowOTN6a3RHNkVCZDFiUWpnZV82VWZpRXVZODdjUTdIOFQ0bTBOek9zN05odw?oc=5",
-      "fecha": "2026-09-06T17:00:55.000Z",
-      "resumen_corto": "El pueblo del Pirineo que el franquismo sumergió y un grupo de sindicalistas reconvirtió en un paraíso vacacional, barato y lleno de lujos Xataka",
-      "resumen_largo": "El pueblo del Pirineo que el franquismo sumergió y un grupo de sindicalistas reconvirtió en un paraíso vacacional, barato y lleno de lujos Xataka",
-      "texto_original": "El pueblo del Pirineo que el franquismo sumergió y un grupo de sindicalistas reconvirtió en un paraíso vacacional, barato y lleno de lujos Xataka",
-      "analisis": null
-    },
-    {
-      "id": "e9b57a61a3072f18",
-      "fuente_id": "resumen_militar",
-      "fuente_nombre": "El Resumen Militar",
-      "tipo": "telegram",
-      "categoria": "militar",
-      "idioma_original": "es",
-      "prioridad_fuente": 3,
-      "titulo": "🇺🇸 🇺🇦 🇪🇺 К переговорам в Киеве подключились представители Европы ▪️ Зеленский заявил о начале нового этапа переговоров с участием представителей европейских стран. ▪️ Обращаясь к спецпосланникам Трампа, он отдельно",
-      "titulo_original": "🇺🇸 🇺🇦 🇪🇺 К переговорам в Киеве подключились представители Европы ▪️ Зеленский заявил о начале нового этапа переговоров с участием представителей европейских стран. ▪️ Обращаясь к спецпосланникам Трампа, он отдельно",
-      "enlace": "https://t.me/elresumenmilitar/98915",
-      "fecha": "2026-09-06T16:43:19.000Z",
-      "resumen_corto": "🇺🇸 🇺🇦 🇪🇺 К переговорам в Киеве подключились представители Европы ▪️ Зеленский заявил о начале нового этапа переговоров с участием представителей европейских стран.",
-      "resumen_largo": "🇺🇸 🇺🇦 🇪🇺 К переговорам в Киеве подключились представители Европы ▪️ Зеленский заявил о начале нового этапа переговоров с участием представителей европейских стран. ▪️ Обращаясь к спецпосланникам Трампа, он отдельно поблагодарил их за приезд и трёхдневную паузу в ударах по Киеву. ➖ «Вы сегодня отработали даже лучше, чем системы Patriot для наших граждан, находящихся в Киеве.",
-      "texto_original": "🇺🇸 🇺🇦 🇪🇺 К переговорам в Киеве подключились представители Европы ▪️ Зеленский заявил о начале нового этапа переговоров с участием представителей европейских стран. ▪️ Обращаясь к спецпосланникам Трампа, он отдельно поблагодарил их за приезд и трёхдневную паузу в ударах по Киеву. ➖ «Вы сегодня отработали даже лучше, чем системы Patriot для наших граждан, находящихся в Киеве. Спасибо, прилетайте почаще», — заявил Зеленский. ⚠️ Подписаться на RV: MAX | t.me/RVvoenkor",
-      "analisis": null
-    },
-    {
-      "id": "235de409cedc50d9",
-      "fuente_id": "resumen_militar",
-      "fuente_nombre": "El Resumen Militar",
-      "tipo": "telegram",
-      "categoria": "militar",
-      "idioma_original": "es",
-      "prioridad_fuente": 3,
-      "titulo": "‼️ 🇺🇸 🇺🇦 2 раунда переговоров с делегацией США уже завершены, - Зеленский ▪️ Переговоры длились более 4 часов. Официальная часть переговоров с представителями США только что завершилась. ▪️ Вскоре Зеленский и другие",
-      "titulo_original": "‼️ 🇺🇸 🇺🇦 2 раунда переговоров с делегацией США уже завершены, - Зеленский ▪️ Переговоры длились более 4 часов. Официальная часть переговоров с представителями США только что завершилась. ▪️ Вскоре Зеленский и другие",
-      "enlace": "https://t.me/elresumenmilitar/98914",
-      "fecha": "2026-09-06T16:42:51.000Z",
-      "resumen_corto": "‼️ 🇺🇸 🇺🇦 2 раунда переговоров с делегацией США уже завершены, - Зеленский ▪️ Переговоры длились более 4 часов.",
-      "resumen_largo": "‼️ 🇺🇸 🇺🇦 2 раунда переговоров с делегацией США уже завершены, - Зеленский ▪️ Переговоры длились более 4 часов. Официальная часть переговоров с представителями США только что завершилась. ▪️ Вскоре Зеленский и другие участники переговоров выступят перед СМИ.",
-      "texto_original": "‼️ 🇺🇸 🇺🇦 2 раунда переговоров с делегацией США уже завершены, - Зеленский ▪️ Переговоры длились более 4 часов. Официальная часть переговоров с представителями США только что завершилась. ▪️ Вскоре Зеленский и другие участники переговоров выступят перед СМИ. ▪️ Ранее он сообщил, что переговоры с американской командой прошли в 2 раунда: ➖ «Немного позже выйдем к прессе и будем общаться со всеми группами». ▪️ Зеленский поблагодарил американскую делегацию и подчеркнул, что стороны, по его словам, заинтересованы в прекращении войны и достижении мирного урегулирования. ➖ «Здесь мы все на одной стороне, и мы все действительно хотим, чтобы не было войны, не было страданий, чтобы люди не погибали». ⚠️ Подписаться на RV: MAX | t.me/RVvoenkor",
-      "analisis": null
-    },
-    {
-      "id": "6742342dc15bd182",
-      "fuente_id": "xataka_google",
-      "fuente_nombre": "Xataka",
-      "tipo": "rss_web",
-      "categoria": "tecnologia",
-      "idioma_original": "es",
-      "prioridad_fuente": 4,
-      "titulo": "Pensamos que el 'burnout' se soluciona con unas buenas vacaciones. La ciencia nos advierte que sus secuelas pueden durar años",
-      "titulo_original": "Pensamos que el 'burnout' se soluciona con unas buenas vacaciones. La ciencia nos advierte que sus secuelas pueden durar años - Xataka",
-      "enlace": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNSF80NjltRGdURkRaSUVUR2lLQ3dSclRSeXdFcGloLUdreVl1M1g2LXFXeVFHejJQS1pzbTJNc3dRREJibVU0OUpkMTlSb2R2RDJORldXQXZkWm5jUk4yZ25ITkZlY214bHNHNGJPYmxvS09kaVdFUzQ3SE4zZ0ZESWJNODh3VzUtb0ZvNVdFV3ZEVXVxeWhVTy1oSkdHVXhQempkUEYySHVyQ2Q2cWFRRXF0LVBXbTM5VGh5WHV3djFfNGJtbk5zVHRiUlhwb3hxZ2xPRUlDQkJGbHpjN3p0R2pwbjJvbUHSAewBQVVfeXFMTUtTVHcwcmVRQk42Q1U5WW9oMXNVX1g5eTVFUGZXMGJ1U09GYjh2S0d6RzMyTWc5dHZHV0xpXzRqMEpxemd5MUZJMk94cjB4MWZ1Y0VodkhNN09yVHowd2ZzTnFQNmFJOGJxa3BScFlWdk1ZOXQ2dVpmeHI4LWJCYnZreTdiZGxMWTJYN0ZTb1V0eV9OeHR0TldxZlhGVkhWTEJaNFdpNEp1aHNwVldrZ2VTbGIwYmRhN3BKTTk5Q3BxTFcwbTc2OXNSX3EtM2pTZjI5d0dBd1NQeFp2OVhBc3k5d0szSDZuYzlwQTE?oc=5",
-      "fecha": "2026-09-06T16:30:55.000Z",
-      "resumen_corto": "Pensamos que el 'burnout' se soluciona con unas buenas vacaciones.",
-      "resumen_largo": "Pensamos que el 'burnout' se soluciona con unas buenas vacaciones. La ciencia nos advierte que sus secuelas pueden durar años Xataka",
-      "texto_original": "Pensamos que el 'burnout' se soluciona con unas buenas vacaciones. La ciencia nos advierte que sus secuelas pueden durar años Xataka",
-      "analisis": null
-    },
-    {
-      "id": "71f01649e68542c5",
-      "fuente_id": "openai_google",
-      "fuente_nombre": "OpenAI",
-      "tipo": "rss_web",
-      "categoria": "inteligencia_artificial",
-      "idioma_original": "en",
-      "prioridad_fuente": 5,
-      "titulo": "Una mente alienígena",
-      "titulo_original": "An Alien Mind - OpenAI",
-      "enlace": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5Dc0tRS2JjQVdhblRTVldQamEyclNHY1hqbDdSVXV2QlZURjZWSE9PYXBIVGZkTERYUFNQUy1LWXh3cnFXN29YYkdIa0NNbF9T?oc=5",
-      "fecha": "2026-09-06T16:09:46.000Z",
-      "resumen_corto": "Una mente alienígena",
-      "resumen_largo": "Una mente alienígena",
-      "texto_original": "An Alien Mind OpenAI",
-      "analisis": null
-    },
-    {
-      "id": "cb9480c7254b0aad",
-      "fuente_id": "xataka_google",
-      "fuente_nombre": "Xataka",
-      "tipo": "rss_web",
-      "categoria": "tecnologia",
-      "idioma_original": "es",
-      "prioridad_fuente": 4,
-      "titulo": "Londres tiene un problema con los Ferrari y Lamborghini extranjeros que aparcan donde les da la gana: el 99% de las multas no se pagan",
-      "titulo_original": "Londres tiene un problema con los Ferrari y Lamborghini extranjeros que aparcan donde les da la gana: el 99% de las multas no se pagan - Xataka",
-      "enlace": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPWDFzMTltZ2lTSlVVbHlDOFhzVDY2bUNpeUhFS2RITHBPaV9CdUxoVzlhODVHQVVDZG5PRDc2UlRLR0tCRkJLZWpWZHYtZXZlLUhZTjJ3N084T3VZd2lrd3NiUlk0RENleHBkRFc3bWs4TWhMd1BtN3dLOWd2dXZxTzljRnIzVm15bDNWeUgwekhGUjJLT2xUZVFDV3otY0x1TlNqUzl5SHlYUVBKWFVPSndfeVJVeC11dW5OUHE2NElDQy00NncyN1VwLUJieks1bW94TG530gHbAUFVX3lxTE9PeU1KeF9WeEptVkxsOUxaa0w2UXgxWW9oNXdyTl9laUhoR0tTM3Z5YjlPUk40N19hTWJ2UllXSjlHTlhRM0RGcUJmLVFlcTcwbDA0MkZRY2xxQklZNWVzMU5LQTJEVkdTVGZXQm9CdkNBVXg2UWYtNDBKS2lTZEs4LTk0UEdwbHZ6X01sN3lOckpYNDFKNW0tc09hd0h4eEcwUVhrTTh6bk9UTTFPNGRVZEZkNEFVMmRqOE10cTY2aWY1TzhUQXRDd0xSTnUtMnpVQ1JHRWlyUFNDYw?oc=5",
-      "fecha": "2026-09-06T16:00:55.000Z",
-      "resumen_corto": "Londres tiene un problema con los Ferrari y Lamborghini extranjeros que aparcan donde les da la gana: el 99% de las multas no se pagan Xataka",
-      "resumen_largo": "Londres tiene un problema con los Ferrari y Lamborghini extranjeros que aparcan donde les da la gana: el 99% de las multas no se pagan Xataka",
-      "texto_original": "Londres tiene un problema con los Ferrari y Lamborghini extranjeros que aparcan donde les da la gana: el 99% de las multas no se pagan Xataka",
-      "analisis": null
-    },
-    {
-      "id": "d40f890e04c22a14",
-      "fuente_id": "google_news_es",
-      "fuente_nombre": "Google News ES",
-      "tipo": "rss_web",
-      "categoria": "tecnologia",
-      "idioma_original": "es",
-      "prioridad_fuente": 3,
-      "titulo": "Tecnología, transporte y comedor escolar, otros gastos que pueden engordar la factura - Diario de Noticias de Navarra",
-      "titulo_original": "Tecnología, transporte y comedor escolar, otros gastos que pueden engordar la factura - Diario de Noticias de Navarra",
-      "enlace": "https://news.google.com/rss/articles/CBMivAFBVV95cUxON1B1RXBZVnN1dG9tNV9hQUZxQlhjYTF0enZyc1hUU3RtbUVzSnVJeW9BMEM0VnNoRmRHUEptbFFGazRNN3FyMnJXTlRuTDdOSDc2eEo4U0NOSC1ycHBlRXZ6djlwRVJ0RldkbUJ1bE5EVGdRRTJ4M1VBZV9wd0VDZjN0c2VrQnJzZDJiWDhnbUJYS184MXQ1c0RIY2NHRkg2VVNDRmdkcjQ4bTFsYVpGb1Zsa1ZCT0QtWUNHYtIBwgFBVV95cUxPNnMtT1MwQU1WODZHamNLd3dZeEFfOWJUWXhaNVRQcC1Ea2lnTXlfbHpwU2FjX1pzN2hkYlY5RGF4Z29fYzd2b25qQnhqbXZVREFscUNNRVRaa003d3dVd2dYeE85OEt2c09CREJidlRlRWtIOFU5OEtCemhMOEVWcGlXbENuVVYtRnpFLXBXdWpVdEpvampER2hmdjNZeWNvRjRSRVlmUTFLcmQ5YWFFQWUzR28tUUotOVpxTzZGcmx0dw?oc=5",
-      "fecha": "2026-09-06T15:14:11.000Z",
-      "resumen_corto": "Tecnología, transporte y comedor escolar, otros gastos que pueden engordar la factura Diario de Noticias de Navarra",
-      "resumen_largo": "Tecnología, transporte y comedor escolar, otros gastos que pueden engordar la factura Diario de Noticias de Navarra",
-      "texto_original": "Tecnología, transporte y comedor escolar, otros gastos que pueden engordar la factura Diario de Noticias de Navarra",
-      "analisis": null
-    },
     {
       "id": "cac840521eb192cd",
       "fuente_id": "openai_google",
       "fuente_nombre": "OpenAI",
       "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "openai",
+      "nivel_fuente": "fuente_oficial",
       "categoria": "inteligencia_artificial",
       "idioma_original": "en",
       "prioridad_fuente": 5,
-      "titulo": "Aceleración de la investigación: la vista dentro de OpenAI",
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Aceleración de la investigación: la visión dentro de OpenAI",
       "titulo_original": "Research acceleration: The view inside OpenAI - OpenAI",
       "enlace": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1PaU1kVmVkamQtbXI0aE5aU2plRHlhT0dsbi1VTDlJTFBsNEZOQUVpdENyWVB3ZTZ6TFFSakp3RGFmbXprVl94QnZVMVR6OUEzY1c1ZG1YdF9naWZEb0ZqbHQ0Y1c2dnljWjhZeDVmbC1TTEdQ?oc=5",
       "fecha": "2026-09-06T15:02:26.000Z",
-      "resumen_corto": "Aceleración de la investigación: la vista dentro de OpenAI OpenAI",
-      "resumen_largo": "Aceleración de la investigación: la vista dentro de OpenAI OpenAI",
+      "resumen_corto": "Aceleración de la investigación: la visión dentro de OpenAI OpenAI",
+      "resumen_largo": "Aceleración de la investigación: la visión dentro de OpenAI OpenAI",
       "texto_original": "Research acceleration: The view inside OpenAI OpenAI",
-      "analisis": null
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-09-07T16:59:52.678Z",
+        "index": 31,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "en",
+        "categoria": "tecnologia",
+        "categorias_secundarias": [
+          "inteligencia_artificial"
+        ],
+        "category_scores": {
+          "tecnologia": 3,
+          "inteligencia_artificial": 2
+        },
+        "entidades": [
+          "OpenAI"
+        ],
+        "cifras_detectadas": [],
+        "content_type": "report",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 92,
+        "relevancia": 70,
+        "confiabilidad_fuente": 85,
+        "readability": {
+          "words": 31,
+          "sentences": 1,
+          "average_words_per_sentence": 31
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 81.45
     },
     {
-      "id": "569f1d2655fdc901",
+      "id": "02c3a55a145cff9a",
       "fuente_id": "bbc_mundo",
       "fuente_nombre": "BBC Mundo",
       "tipo": "rss_web",
+      "subtipo": "medio_generalista",
+      "grupo_fuente": "bbc",
+      "nivel_fuente": "medio_profesional",
       "categoria": "actualidad",
       "idioma_original": "es",
       "prioridad_fuente": 5,
-      "titulo": "Pattaya, \"la ciudad del pecado\" de Tailandia que los soldados de EE.UU. llevan visitando desde la guerra de Vietnam",
-      "titulo_original": "Pattaya, \"la ciudad del pecado\" de Tailandia que los soldados de EE.UU. llevan visitando desde la guerra de Vietnam",
-      "enlace": "https://www.bbc.com/mundo/articles/cx2zy390ewvo?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-09-06T15:02:08.000Z",
-      "resumen_corto": "La guerra de Vietnam nunca llegó a las playas de Pattaya, pero las transformó para siempre.",
-      "resumen_largo": "La guerra de Vietnam nunca llegó a las playas de Pattaya, pero las transformó para siempre. Situada unos 100 kilómetros al sureste de Bangkok, esta ciudad balneario recibió el año pasado a 12,8 millones de visitantes tailandeses y 10,6 millones de turistas extranjeros, según datos del Ministerio de Turismo y Deportes de Tailandia. La cifra contrasta con los 116.000 habitantes registrados en la localidad, a los que se suma una población flotante de unos 460.000 visitantes de larga estancia y empleados estacionales.",
-      "texto_original": "La guerra de Vietnam nunca llegó a las playas de Pattaya, pero las transformó para siempre. Situada unos 100 kilómetros al sureste de Bangkok, esta ciudad balneario recibió el año pasado a 12,8 millones de visitantes tailandeses y 10,6 millones de turistas extranjeros, según datos del Ministerio de Turismo y Deportes de Tailandia. La cifra contrasta con los 116.000 habitantes registrados en la localidad, a los que se suma una población flotante de unos 460.000 visitantes de larga estancia y empleados estacionales. Entre ellos hay, según estimaciones de diversas fuentes recogidas por la BBC, de 25.000 a 50.000 trabajadoras sexuales. Este destino de playas y frenética vida nocturna, uno de los más populares y controvertidos de Tailandia, acaba de recibir una visita cargada de resonancias históricas. Esta semana, el portaaviones USS Abraham Lincoln atracó en el cercano puerto de Laem Chabang con casi 5.000 marineros e infantes de marina a bordo.",
-      "analisis": null
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Qué es Sea Lion, el proyecto petrolero señalado por Milei que reaviva la tensión entre Argentina y Reino Unido sobre las Malvinas/Falklands",
+      "titulo_original": "Qué es Sea Lion, el proyecto petrolero señalado por Milei que reaviva la tensión entre Argentina y Reino Unido sobre las Malvinas/Falklands",
+      "enlace": "https://www.bbc.com/mundo/articles/cvgy51v7281o?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-09-07T11:35:15.000Z",
+      "resumen_corto": "El presidente de Argentina, Javier Milei, mencionó a un solo proyecto cuando anunció el jueves en cadena nacional que buscará aumentar las sanciones en su país a petroleras con actividades en las islas Malvinas/Falklands: el yacimiento Sea Lion.",
+      "resumen_largo": "El presidente de Argentina, Javier Milei, mencionó a un solo proyecto cuando anunció el jueves en cadena nacional que buscará aumentar las sanciones en su país a petroleras con actividades en las islas Malvinas/Falklands: el yacimiento Sea Lion. Se trata de una iniciativa de explotación petrolera británico-israelí que el mandatario argentino calificó como un \"peligro claro y urgente\" que justificaría las acciones anunciadas por su gobierno. La ofensiva de la Casa Rosada se enmarca en la disputa histórica entre Argentina y el Reino Unido por la soberanía del archipiélago en el suroeste del Océano Atlántico, la que sigue abierta a más de 40 años de la guerra que libraron en 1982.",
+      "texto_original": "El presidente de Argentina, Javier Milei, mencionó a un solo proyecto cuando anunció el jueves en cadena nacional que buscará aumentar las sanciones en su país a petroleras con actividades en las islas Malvinas/Falklands: el yacimiento Sea Lion. Se trata de una iniciativa de explotación petrolera británico-israelí que el mandatario argentino calificó como un \"peligro claro y urgente\" que justificaría las acciones anunciadas por su gobierno. La ofensiva de la Casa Rosada se enmarca en la disputa histórica entre Argentina y el Reino Unido por la soberanía del archipiélago en el suroeste del Océano Atlántico, la que sigue abierta a más de 40 años de la guerra que libraron en 1982. Con una baja popularidad y un frente electoral incierto en el horizonte con los comicios presidenciales de 2027, Milei reavivó las tensiones con los británicos en un tema que une a los argentinos. El mandatario afirmó que Argentina \"detectó\" que el proyecto comenzaría a extraer crudo en el corto plazo, lo que amenazaría los intereses del país sudamericano. \"¿Qué significa esto? Que si hoy no actuamos con firmeza y celeridad, en pocos meses tendrán la capacidad material de apropiarse de las reservas de petróleo que yacen bajo nuestro mar, algo que no había ocurrido nunca antes hasta ahora\", dijo.",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-09-07T16:59:52.670Z",
+        "index": 14,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "moviles",
+        "categorias_secundarias": [
+          "actualidad",
+          "inteligencia_artificial",
+          "vehiculos_energia"
+        ],
+        "category_scores": {
+          "moviles": 3,
+          "actualidad": 3,
+          "inteligencia_artificial": 2,
+          "vehiculos_energia": 2,
+          "semiconductores": 1,
+          "militar": 1
+        },
+        "entidades": [],
+        "cifras_detectadas": [
+          "1982",
+          "2027"
+        ],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 25,
+          "signals": [
+            "\\burgente\\b"
+          ]
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 84,
+        "relevancia": 73,
+        "confiabilidad_fuente": 70,
+        "readability": {
+          "words": 296,
+          "sentences": 11,
+          "average_words_per_sentence": 26.91
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 76.1
     },
     {
-      "id": "ac1075716ee263e7",
-      "fuente_id": "resumen_militar",
-      "fuente_nombre": "El Resumen Militar",
-      "tipo": "telegram",
-      "categoria": "militar",
-      "idioma_original": "es",
-      "prioridad_fuente": 3,
-      "titulo": "25.08.26 Великая Новосёлка - Карла Маркса(Мирное) Позиционные боевые действия в районе Великой Новосёлки. Заявлено как обстрел позиций ВС РФ в сельскохозяйственных постройка в Карла Маркса. Боевые действия за контроль по",
-      "titulo_original": "25.08.26 Великая Новосёлка - Карла Маркса(Мирное) Позиционные боевые действия в районе Великой Новосёлки. Заявлено как обстрел позиций ВС РФ в сельскохозяйственных постройка в Карла Маркса. Боевые действия за контроль по",
-      "enlace": "https://t.me/elresumenmilitar/98913",
-      "fecha": "2026-09-06T15:01:28.000Z",
-      "resumen_corto": "25.08.26 Великая Новосёлка - Карла Маркса(Мирное) Позиционные боевые действия в районе Великой Новосёлки.",
-      "resumen_largo": "25.08.26 Великая Новосёлка - Карла Маркса(Мирное) Позиционные боевые действия в районе Великой Новосёлки. Заявлено как обстрел позиций ВС РФ в сельскохозяйственных постройка в Карла Маркса. Боевые действия за контроль позиций в населённом пункте.",
-      "texto_original": "25.08.26 Великая Новосёлка - Карла Маркса(Мирное) Позиционные боевые действия в районе Великой Новосёлки. Заявлено как обстрел позиций ВС РФ в сельскохозяйственных постройка в Карла Маркса. Боевые действия за контроль позиций в населённом пункте. 47.98762,36.69185 На карте Источник 21+ Геопривязка #ru #add",
-      "analisis": null
-    },
-    {
-      "id": "0ec30ff970c2ef72",
-      "fuente_id": "resumen_militar",
-      "fuente_nombre": "El Resumen Militar",
-      "tipo": "telegram",
-      "categoria": "militar",
-      "idioma_original": "es",
-      "prioridad_fuente": 3,
-      "titulo": "‼️ 🇺🇦 🤣 Украина хочет зарабатывать на порно для финансирования войны — WSJ ▪️ Как пишет The Wall Street Journal, в Раде продвигают законопроект о полной легализации производства порнографии, работы вебкам-моделей и пр",
-      "titulo_original": "‼️ 🇺🇦 🤣 Украина хочет зарабатывать на порно для финансирования войны — WSJ ▪️ Как пишет The Wall Street Journal, в Раде продвигают законопроект о полной легализации производства порнографии, работы вебкам-моделей и пр",
-      "enlace": "https://t.me/elresumenmilitar/98912",
-      "fecha": "2026-09-06T14:55:59.000Z",
-      "resumen_corto": "‼️ 🇺🇦 🤣 Украина хочет зарабатывать на порно для финансирования войны — WSJ ▪️ Как пишет The Wall Street Journal, в Раде продвигают законопроект о полной легализации производства порнографии, работы вебкам-моделей и проституции.",
-      "resumen_largo": "‼️ 🇺🇦 🤣 Украина хочет зарабатывать на порно для финансирования войны — WSJ ▪️ Как пишет The Wall Street Journal, в Раде продвигают законопроект о полной легализации производства порнографии, работы вебкам-моделей и проституции. Документ уже прошёл первое чтение и готовится ко второму. ▪️ Депутаты оценивают потенциальные поступления от такого рынка минимум в $25 млн ежегодно.",
-      "texto_original": "‼️ 🇺🇦 🤣 Украина хочет зарабатывать на порно для финансирования войны — WSJ ▪️ Как пишет The Wall Street Journal, в Раде продвигают законопроект о полной легализации производства порнографии, работы вебкам-моделей и проституции. Документ уже прошёл первое чтение и готовится ко второму. ▪️ Депутаты оценивают потенциальные поступления от такого рынка минимум в $25 млн ежегодно. ➖ По словам нардепа Ярослава Железняка, этих денег хватило бы примерно на 30 тысяч дронов для ВСУ. ⚠️ Подписаться на RV: MAX | t.me/RVvoenkor",
-      "analisis": null
-    },
-    {
-      "id": "ea906ac361b3634c",
-      "fuente_id": "resumen_militar",
-      "fuente_nombre": "El Resumen Militar",
-      "tipo": "telegram",
-      "categoria": "militar",
-      "idioma_original": "es",
-      "prioridad_fuente": 3,
-      "titulo": "‼️ 🇺🇸 🇺🇦 Первый раунд переговоров Зеленского с посланниками Трампа завершён ▪️ В Киеве завершился первый раунд переговоров Зеленского со спецпосланниками Трампа Уиткоффом и Кушнером, сообщают киевские СМИ. ▪️ Встреча",
-      "titulo_original": "‼️ 🇺🇸 🇺🇦 Первый раунд переговоров Зеленского с посланниками Трампа завершён ▪️ В Киеве завершился первый раунд переговоров Зеленского со спецпосланниками Трампа Уиткоффом и Кушнером, сообщают киевские СМИ. ▪️ Встреча",
-      "enlace": "https://t.me/elresumenmilitar/98910",
-      "fecha": "2026-09-06T14:31:32.000Z",
-      "resumen_corto": "‼️ 🇺🇸 🇺🇦 Первый раунд переговоров Зеленского с посланниками Трампа завершён ▪️ В Киеве завершился первый раунд переговоров Зеленского со спецпосланниками Трампа Уиткоффом и Кушнером, сообщают киевские СМИ.",
-      "resumen_largo": "‼️ 🇺🇸 🇺🇦 Первый раунд переговоров Зеленского с посланниками Трампа завершён ▪️ В Киеве завершился первый раунд переговоров Зеленского со спецпосланниками Трампа Уиткоффом и Кушнером, сообщают киевские СМИ. ▪️ Встреча переходит ко второму раунду, к которому должны присоединиться представители европейских стран. ⚠️ Подписаться на RV: MAX | t.me/RVvoenkor",
-      "texto_original": "‼️ 🇺🇸 🇺🇦 Первый раунд переговоров Зеленского с посланниками Трампа завершён ▪️ В Киеве завершился первый раунд переговоров Зеленского со спецпосланниками Трампа Уиткоффом и Кушнером, сообщают киевские СМИ. ▪️ Встреча переходит ко второму раунду, к которому должны присоединиться представители европейских стран. ⚠️ Подписаться на RV: MAX | t.me/RVvoenkor",
-      "analisis": null
-    },
-    {
-      "id": "4cdad4f9d32951fb",
+      "id": "1d52fba61029ab1d",
       "fuente_id": "bbc_mundo",
       "fuente_nombre": "BBC Mundo",
       "tipo": "rss_web",
+      "subtipo": "medio_generalista",
+      "grupo_fuente": "bbc",
+      "nivel_fuente": "medio_profesional",
       "categoria": "actualidad",
       "idioma_original": "es",
       "prioridad_fuente": 5,
-      "titulo": "El matemático que llevaba 7 años trabajando en descifrar un enigma que fue resuelto por un aficionado",
-      "titulo_original": "El matemático que llevaba 7 años trabajando en descifrar un enigma que fue resuelto por un aficionado",
-      "enlace": "https://www.bbc.com/mundo/articles/cpw9lgvenkgo?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-09-06T12:15:53.000Z",
-      "resumen_corto": "Durante cientos de años, los matemáticos han puesto a prueba sus cerebros enfrentándose a endiablados problemas matemáticos que nadie ha logrado resolver.",
-      "resumen_largo": "Durante cientos de años, los matemáticos han puesto a prueba sus cerebros enfrentándose a endiablados problemas matemáticos que nadie ha logrado resolver. Reflexionan sobre ellos, los debaten, publican artículos al respecto. Solucionarlos puede ser el trabajo de toda una vida.",
-      "texto_original": "Durante cientos de años, los matemáticos han puesto a prueba sus cerebros enfrentándose a endiablados problemas matemáticos que nadie ha logrado resolver. Reflexionan sobre ellos, los debaten, publican artículos al respecto. Solucionarlos puede ser el trabajo de toda una vida. Pero el 13 de abril de este año fue la inteligencia artificial (IA) la que resolvió un problema matemático que hasta entonces se había resistido a los simples mortales: el problema 1196 de Erdős. Los expertos en la materia se sorprendieron y, por supuesto, se interesaron. Mucho. \"Después de quizás una hora de leer y revisar el resultado en bruto que había producido la IA, me quedó muy claro que era correcto y que la idea era muy buena\", cuenta el matemático Jared Duker Lichtman, de la Universidad de Stanford. Lichtman llevaba siete años trabajando en ese enigma que acababa de ser resuelto por un aficionado de las matemáticas que ingresó un solo prompt en una IA.",
-      "analisis": null
+      "analizar": true,
+      "resumir": true,
+      "titulo": "La red de propaganda prorrusa que explota la violencia sexual y utiliza a mujeres del ejército ucraniano como cebo",
+      "titulo_original": "La red de propaganda prorrusa que explota la violencia sexual y utiliza a mujeres del ejército ucraniano como cebo",
+      "enlace": "https://www.bbc.com/mundo/articles/c0klgne2jd6o?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-09-07T03:36:19.000Z",
+      "resumen_corto": "Cuando Keti Leshkasheli, una médica de Georgia que sirvió en las fuerzas armadas de Ucrania, regresó del frente hace unos tres años, su teléfono no dejaba de vibrar.",
+      "resumen_largo": "Advertencia: esta historia incluye contenido que algunos lectores pueden encontrar perturbador. Cuando Keti Leshkasheli, una médica de Georgia que sirvió en las fuerzas armadas de Ucrania, regresó del frente hace unos tres años, su teléfono no dejaba de vibrar. Sus amigos y familiares querían saber si estaba bien.",
+      "texto_original": "Advertencia: esta historia incluye contenido que algunos lectores pueden encontrar perturbador. Cuando Keti Leshkasheli, una médica de Georgia que sirvió en las fuerzas armadas de Ucrania, regresó del frente hace unos tres años, su teléfono no dejaba de vibrar. Sus amigos y familiares querían saber si estaba bien. Habían visto publicaciones en Telegram que afirmaban que había sido secuestrada y violada. \"Me enteré de que había aparecido un video en el que se decía que a algunas chicas y a mí nos habían capturado. Había un enlace a un canal de Telegram donde se mostraba cómo nos 'castigaban'\", le contó a la BBC. Se reconoció en la imagen. Era su propia foto, tomada años antes con uniforme militar en Avdiivka, una ciudad del este de Ucrania que ahora está bajo ocupación rusa. \"Escribieron todo tipo de cosas horribles sobre mí\", explicó. \"Me da rabia. No puedo hacer nada al respecto\".",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-09-07T16:59:52.676Z",
+        "index": 27,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "militar",
+        "categorias_secundarias": [
+          "moviles",
+          "inteligencia_artificial",
+          "hardware"
+        ],
+        "category_scores": {
+          "militar": 4,
+          "moviles": 2,
+          "inteligencia_artificial": 1,
+          "hardware": 1
+        },
+        "entidades": [
+          "BBC"
+        ],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 84,
+        "relevancia": 70,
+        "confiabilidad_fuente": 70,
+        "readability": {
+          "words": 200,
+          "sentences": 15,
+          "average_words_per_sentence": 13.33
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 74.9
     },
     {
-      "id": "2c6b04dfe2d32418",
+      "id": "e97e127ee13d977c",
       "fuente_id": "bbc_mundo",
       "fuente_nombre": "BBC Mundo",
       "tipo": "rss_web",
+      "subtipo": "medio_generalista",
+      "grupo_fuente": "bbc",
+      "nivel_fuente": "medio_profesional",
       "categoria": "actualidad",
       "idioma_original": "es",
       "prioridad_fuente": 5,
-      "titulo": "Por qué Keiko Fujimori ha declarado el estado de emergencia en 5 cárceles peruanas y qué busca con esta medida",
-      "titulo_original": "Por qué Keiko Fujimori ha declarado el estado de emergencia en 5 cárceles peruanas y qué busca con esta medida",
-      "enlace": "https://www.bbc.com/mundo/articles/cvgy90jpg97o?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-09-06T11:41:35.000Z",
-      "resumen_corto": "Cinco cárceles peruanas fueron declaradas en estado de emergencia por el gobierno de ese país.",
-      "resumen_largo": "Cinco cárceles peruanas fueron declaradas en estado de emergencia por el gobierno de ese país. La decisión adoptada por la presidenta Keiko Fujimori forma parte de \"la estrategia integral para fortalecer la seguridad ciudadana\", se lee en un comunicado difundido este sábado por la presidencia del país andino. Según el decreto supremo número 128-2026-PCM, emitido este 5 de septiembre, durante los próximos 60 días la policía, junto a los efectivos de las Fuerzas Armadas, podrá desplegar \"operativos permanentes\" para garantizar la seguridad de los establecimientos penitenciarios \"hasta un radio de 200 metros desde sus límites exteriores\".",
-      "texto_original": "Cinco cárceles peruanas fueron declaradas en estado de emergencia por el gobierno de ese país. La decisión adoptada por la presidenta Keiko Fujimori forma parte de \"la estrategia integral para fortalecer la seguridad ciudadana\", se lee en un comunicado difundido este sábado por la presidencia del país andino. Según el decreto supremo número 128-2026-PCM, emitido este 5 de septiembre, durante los próximos 60 días la policía, junto a los efectivos de las Fuerzas Armadas, podrá desplegar \"operativos permanentes\" para garantizar la seguridad de los establecimientos penitenciarios \"hasta un radio de 200 metros desde sus límites exteriores\". Los procedimientos tendrán por objeto impedir el ingreso de armas y otros objetos, así como permitir la realización de \"acciones de inteligencia, a fin de prevenir fugas, alteración del orden y actividades delictivas en los establecimientos penitenciarios\", de acuerdo con lo estipulado en el artículo 4 del decreto. Y, para facilitar estas acciones, los derechos constitucionales a la libertad de tránsito y de reunión, así como a la libertad y seguridad personales de \"las personas que ingresen o transiten al establecimiento penitenciario y al perímetro exterior circundante al establecimiento penitenciario, hasta un radio de 200 metros\" estarán suspendidos, se agrega en la resolución ejecutiva. \"El primer objetivo es tener un cerco perimétrico donde no solo el personal del INPE (Instituto Nacional de Penitenciario), de la policía, sino también de la fuerza armada pueda hacer labores de control\", explicó el ministro de Justicia, Ernesto Álvarez, a la televisora Canal N.",
-      "analisis": null
+      "analizar": true,
+      "resumir": true,
+      "titulo": "El dilema que enfrenta Europa tras la primera victoria de la extrema derecha en Alemania desde la Segunda Guerra Mundial",
+      "titulo_original": "El dilema que enfrenta Europa tras la primera victoria de la extrema derecha en Alemania desde la Segunda Guerra Mundial",
+      "enlace": "https://www.bbc.com/mundo/articles/c07ldmj0dryo?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-09-07T16:02:12.000Z",
+      "resumen_corto": "Así describieron los analistas políticos y numerosos medios de comunicación la sorprendente victoria del partido antiinmigración Alternativa para Alemania (AfD) en las elecciones locales celebradas el domingo en Alemania.",
+      "resumen_largo": "Así describieron los analistas políticos y numerosos medios de comunicación la sorprendente victoria del partido antiinmigración Alternativa para Alemania (AfD) en las elecciones locales celebradas el domingo en Alemania. ¿Acaso es una exageración? Sajonia-Anhalt es una de las más pequeñas de las 16 regiones que conforman la enorme Alemania.",
+      "texto_original": "Así describieron los analistas políticos y numerosos medios de comunicación la sorprendente victoria del partido antiinmigración Alternativa para Alemania (AfD) en las elecciones locales celebradas el domingo en Alemania. ¿Acaso es una exageración? Sajonia-Anhalt es una de las más pequeñas de las 16 regiones que conforman la enorme Alemania. Cuenta con apenas 1,7 millones de votantes de un total de 59 millones elegibles en todo el país. ¿Qué importancia pueden tener sus preferencias políticas, especialmente teniendo en cuenta que AfD se quedó cerca de obtener la mayoría absoluta? Aunque la votación fue regional, tiene repercusiones a nivel nacional. La aplastante victoria de AfD ejerce aún más presión sobre el ya debilitado gobierno de coalición centrista en Berlín. Podría suponer el golpe de gracia para el impopular canciller conservador alemán Friedrich Merz, quien había prometido reducir drásticamente la popularidad de la AfD. Estos problemas políticos debilitarán y distraerán aún más a Alemania, el actor más poderoso de la UE, en un momento de crisis continental, mientras Europa lucha por contener la agresión rusa, las rabietas arancelarias del presidente estadounidense Donald Trump y la amenaza económica de China. El resultado en Sajonia-Anhalt también provoca una profunda reflexión en toda Alemania, donde el pasado nazi aún pesa mucho. Se trata de la primera victoria electoral aplastante de un partido nacionalista de extrema derecha desde la caída del Tercer Reich en 1945 y le da a AfD una oportunidad real de gobernar, en este caso, a nivel regional.",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-09-07T16:59:52.663Z",
+        "index": 2,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "actualidad",
+        "categorias_secundarias": [
+          "inteligencia_artificial",
+          "militar",
+          "moviles"
+        ],
+        "category_scores": {
+          "actualidad": 5,
+          "inteligencia_artificial": 2,
+          "militar": 2,
+          "moviles": 1
+        },
+        "entidades": [],
+        "cifras_detectadas": [
+          "1,7 m",
+          "59 m",
+          "1945"
+        ],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 84,
+        "relevancia": 65,
+        "confiabilidad_fuente": 70,
+        "readability": {
+          "words": 265,
+          "sentences": 15,
+          "average_words_per_sentence": 17.67
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 72.9
     },
     {
-      "id": "19d7764d291e72fe",
-      "fuente_id": "xataka_google",
-      "fuente_nombre": "Xataka",
+      "id": "7b64fb20a75ca6db",
+      "fuente_id": "techinsights_google",
+      "fuente_nombre": "TechInsights",
       "tipo": "rss_web",
-      "categoria": "tecnologia",
-      "idioma_original": "es",
-      "prioridad_fuente": 4,
-      "titulo": "Más finos que una moneda y capaces de pegarse a cualquier superficie: así ha avanzado la industria de los paneles solares flexibles",
-      "titulo_original": "Más finos que una moneda y capaces de pegarse a cualquier superficie: así ha avanzado la industria de los paneles solares flexibles - Xataka",
-      "enlace": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOMHZfQ3A1VXRBM0ZQcXZyak84d1l6bXRaSVkxdlJLTk5EeGs1X05kbG12NmQ5cUxKUnZYNDJFdXc1TjBpa09GTHF4UnpMVlV6cUNOaHRXcGpCYXo3ZnBQb3hLeXljdVB0LUYxaXR3TmRVWHcyR2FnYjZtVkdDMDZTOWtIVmMyN1FSblh1ZnU2ZEFQV2dEY3c3ZWc3d2E5ZUhucHF2b1FHaDFIY0R0TE1nYmVKcktfc1RoNzltY0doMmRNT2VLN2VpWGUxY2VjNUZPck01NNIB2gFBVV95cUxOV29NYUNvMGsxSmVnSmRuYnRabThtRjdDR1FqeFBrRjJ0Mnk5cGdubHNLX0hma1M2c1pVb19WZERwWjB2c0tYT2ljSVI5eU5NS0EyU0dVYkdCY2Q2WkJheFJKYldPdk9jNEdra3FRVXFyVnJPLVhIN3lpUC1FVS1ScTlTU1ZKcnBXRkZVUWx4YzJXR29GcnJaZ1VPbXI5dHRHVkhiTnc4UC13Ti1iVkVoaVZlTU5qbFpVTThKTkVmTkx4bklBN0lKS2NCY0lfOWNwdXV5Z1pVZWhsUQ?oc=5",
-      "fecha": "2026-09-06T11:30:27.000Z",
-      "resumen_corto": "Más finos que una moneda y capaces de pegarse a cualquier superficie: así ha avanzado la industria de los paneles solares flexibles Xataka",
-      "resumen_largo": "Más finos que una moneda y capaces de pegarse a cualquier superficie: así ha avanzado la industria de los paneles solares flexibles Xataka",
-      "texto_original": "Más finos que una moneda y capaces de pegarse a cualquier superficie: así ha avanzado la industria de los paneles solares flexibles Xataka",
-      "analisis": null
-    },
-    {
-      "id": "a704cd211052092b",
-      "fuente_id": "wccftech_google",
-      "fuente_nombre": "Wccftech",
-      "tipo": "rss_web",
-      "categoria": "hardware",
+      "subtipo": "google_news",
+      "grupo_fuente": "techinsights",
+      "nivel_fuente": "especializada_tecnica",
+      "categoria": "semiconductores",
       "idioma_original": "en",
-      "prioridad_fuente": 4,
-      "titulo": "Los portátiles Gram Book AI 2026 de LG cuentan con las CPU Wildcat Lake de Intel y prometen casi el doble de la duración de la batería del MacBook Neo, superando los modelos \"Pro\" de Apple - wccftech.com",
-      "titulo_original": "LG’s Gram Book AI 2026 Notebooks Feature Intel’s Wildcat Lake CPUs And Promise Almost Double The MacBook Neo’s Battery Life, Surpassing Apple’s “Pro” Models - wccftech.com",
-      "enlace": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNTWRCRGxXOGo2WXUwMTFFM3A2dE8xaVFveXR4TWtuWEJ5SC1IRHBwazAzenZoWnhvRkxjTVJsNmJISDJlWk5qTVZNdmhXSktFaFM3SVRQengzVFdFMWNXLS0zNm9aSTZBb0oxTTVVSnhrWFN0T18xbklCbmhYWFY1MG9SNW96cFRZdmVVOEVLa9IBlAFBVV95cUxNbWVuN1VfOWVCU0dlbWlIeGpLTV9TZUtQeElGbEVOWW9wbjc2RUVXVnV6ZEc1ZXVXWU9RU21Scm82UEhJZG5TMUYybnhuYnBpV3QtNE5OQzZJdHpuRms4dzItay1XVFRHX1hWMGxxbWhxSHNhTkpLcFg4YXdWTVh4MEV3cDVDNUhfd01fM3N1SjN5Uzh1?oc=5",
-      "fecha": "2026-09-06T11:30:17.000Z",
-      "resumen_corto": "Los portátiles Gram Book AI 2026 de LG cuentan con las CPU Wildcat Lake de Intel y prometen casi el doble de la duración de la batería del MacBook Neo, superando los modelos \"Pro\" de Apple wccftech.com",
-      "resumen_largo": "Los portátiles Gram Book AI 2026 de LG cuentan con las CPU Wildcat Lake de Intel y prometen casi el doble de la duración de la batería del MacBook Neo, superando los modelos \"Pro\" de Apple wccftech.com",
-      "texto_original": "LG’s Gram Book AI 2026 Notebooks Feature Intel’s Wildcat Lake CPUs And Promise Almost Double The MacBook Neo’s Battery Life, Surpassing Apple’s “Pro” Models wccftech.com",
-      "analisis": null
-    },
-    {
-      "id": "2e5e70d330dd1313",
-      "fuente_id": "ia_dia",
-      "fuente_nombre": "IA al Día",
-      "tipo": "rss_web",
-      "categoria": "inteligencia_artificial",
-      "idioma_original": "es",
-      "prioridad_fuente": 3,
-      "titulo": "Cuando la inteligencia artificial sabe que la están vigilando - Enrique Dans",
-      "titulo_original": "Cuando la inteligencia artificial sabe que la están vigilando - Enrique Dans",
-      "enlace": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOcV9NMUN3WHJzU1h4Qlk1NVZjeVJ6cWFvR1c5NlIwY3FOQ0RpcGxCeFhWZGxtZlgtVlFZckphNDcyRWpFLWhtbXY2RFF2TkVNXzJjYlE3eEhPbHlKaExERGF6QmxEZ3N4bzVkVlF5aTFYcDA0bU5fZG96R3pkWEZyWEdCc3FsWW5SVm1nSkJrZDM3T3VPZjF1eml6cXpfcVZFTjhiTA?oc=5",
-      "fecha": "2026-09-06T07:07:54.000Z",
-      "resumen_corto": "Cuando la inteligencia artificial sabe que la están vigilando Enrique Dans",
-      "resumen_largo": "Cuando la inteligencia artificial sabe que la están vigilando Enrique Dans",
-      "texto_original": "Cuando la inteligencia artificial sabe que la están vigilando Enrique Dans",
-      "analisis": null
-    },
-    {
-      "id": "1f5fef20d9580d87",
-      "fuente_id": "wccftech_google",
-      "fuente_nombre": "Wccftech",
-      "tipo": "rss_web",
-      "categoria": "hardware",
-      "idioma_original": "en",
-      "prioridad_fuente": 4,
-      "titulo": "Sugon de China supera a Intel y AMD en el primer portátil de 64 hilos, que carga 128 GB de RAM y 8 TB de almacenamiento - wccftech.com",
-      "titulo_original": "China’s Sugon Beats Intel & AMD To The First 64-Thread Laptop, Loading 128 GB RAM And 8 TB Storage - wccftech.com",
-      "enlace": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPTmd2dUFrejE5WkxxQjI3MGNtV0w1ejlGTVMxZ0lrMVhBSmQwdjViTExBejE0MERubnN0a1JQcE5xb21lQzdES2RNOTVqdTNDZ3RtQUJYM1VsajE2MXp6OF8tRnR5QXMyLXBLckg3ZVpjME0xZlFSczBOYWlETmdyYlRZQ29Id9IBiwFBVV95cUxQT3NPWDdLeVRjbE40UFIySzNEYjd6R1JCWUxydmtqZXZIRVVwdFZ4ZXZxdjRSRHFNVkFNRFBfako3dkhtdjNIR1lVTUNoZV95TmV6TmxXZ0tNTXpuMEtwSEw5RGhVZmV4ZmRybkJnWDR3ajJ5QzduTzAtWHdzc2tlQ3I4Y3F3TzFaZUxR?oc=5",
-      "fecha": "2026-09-06T06:45:12.000Z",
-      "resumen_corto": "La Sugon de China supera a Intel y AMD en el primer portátil de 64 hilos, cargando 128 GB de RAM y 8 TB de almacenamiento wccftech.com",
-      "resumen_largo": "La Sugon de China supera a Intel y AMD en el primer portátil de 64 hilos, cargando 128 GB de RAM y 8 TB de almacenamiento wccftech.com",
-      "texto_original": "China’s Sugon Beats Intel & AMD To The First 64-Thread Laptop, Loading 128 GB RAM And 8 TB Storage wccftech.com",
-      "analisis": null
-    },
-    {
-      "id": "7a5c2ec079270cc0",
-      "fuente_id": "huawei_google",
-      "fuente_nombre": "Huawei Central",
-      "tipo": "rss_web",
-      "categoria": "moviles",
-      "idioma_original": "en",
-      "prioridad_fuente": 4,
-      "titulo": "La pantalla de privacidad del Huawei Mate XT 2 será mejor que la del Galaxy S26 Ultra",
-      "titulo_original": "Huawei Mate XT 2’s privacy screen will be better than Galaxy S26 Ultra - Huawei Central",
-      "enlace": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9IeXRtV002dkZzazBPSGZjMGxiUExMN0Q5U29jZnVuUzhEY2xPcmszMTVzTndyVk1xcVYzNTgxdl9XazA2cXkyVzRrTmxFZmFnV0xMMTN0Y01mTU5fR045ajVvWGx5SzQtTTM1MlBZWHpIWXVDLW1jcTJib9IBgAFBVV95cUxNZy1Mb1pCUnBRc2NZU2xyS2RZaDhMdWg0d2h0T1JkX2hDeC0wSlZ6c2FXMEp2N3RCcWNkdVExYmE2cEVCVkNtaGdxb1dVclBHUFliVWhYQV9hRVhqZldFZFQ2ZkRoM2tXZjRiZHZEd3B0TjI0OTdoakg1c2FSUUpOTw?oc=5",
-      "fecha": "2026-09-06T06:43:35.000Z",
-      "resumen_corto": "La pantalla de privacidad del Huawei Mate XT 2 será mejor que la del Galaxy S26 Ultra Huawei Central",
-      "resumen_largo": "La pantalla de privacidad del Huawei Mate XT 2 será mejor que la del Galaxy S26 Ultra Huawei Central",
-      "texto_original": "Huawei Mate XT 2’s privacy screen will be better than Galaxy S26 Ultra Huawei Central",
-      "analisis": null
-    },
-    {
-      "id": "cde5dd18c970338c",
-      "fuente_id": "google_news_es",
-      "fuente_nombre": "Google News ES",
-      "tipo": "rss_web",
-      "categoria": "tecnologia",
-      "idioma_original": "es",
-      "prioridad_fuente": 3,
-      "titulo": "Hombres de Musk visitan discretamente la gran cita tecnológica a la que acudió el Gobierno - theobjective.com",
-      "titulo_original": "Hombres de Musk visitan discretamente la gran cita tecnológica a la que acudió el Gobierno - theobjective.com",
-      "enlace": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOZk9yaGRrWlZlLXVFX1NWcVZvajJXTmY0bWFKN2VXcTExNUFxcWxRd1Nja0RGY01PVEtQTDIyRHlvd1E1YTU0SEU0UmtYcS1nT0ljQXFiMm80YURGVkxPbVE2NG1vUEdMQUk5YVU0MmlNVU5YcnFocUJuNEV4bERjbVh1R2lQREJrLTd3aHpNZDU3bHNCZVVnSzFHcmJIdldFLVM5NmxyOWpsQkHSAbABQVVfeXFMTk53Z2R6NTFCaTFCeElyR3BpQXdGVGV1b2lhZ2cwczBhZUtXcmhXU29jdmlqVnRTRmx4aHdLNV9fM1JkNkVZR3hnbmppVnFudGY5T09xb2tWd2ZDamhweTFMNlNFd1hHM3p3OW5DTVpFcy1UUWFKVFU0Vi1CdkgyQTJoVjVRVk5UNGV0VFNFcnREZDJHMzRLQTR6dDFZdTNiSXdRTnNaeDcwbzFaVE5SZ1g?oc=5",
-      "fecha": "2026-09-06T03:25:00.000Z",
-      "resumen_corto": "Hombres de Musk visitan discretamente la gran cita tecnológica a la que acudió el Gobierno theobjective.com",
-      "resumen_largo": "Hombres de Musk visitan discretamente la gran cita tecnológica a la que acudió el Gobierno theobjective.com",
-      "texto_original": "Hombres de Musk visitan discretamente la gran cita tecnológica a la que acudió el Gobierno theobjective.com",
-      "analisis": null
-    },
-    {
-      "id": "605dca948cffce35",
-      "fuente_id": "google_news_es",
-      "fuente_nombre": "Google News ES",
-      "tipo": "rss_web",
-      "categoria": "tecnologia",
-      "idioma_original": "es",
-      "prioridad_fuente": 3,
-      "titulo": "Zohran Mamdani, alcalde de Nueva York, tras prohibir la IA en los colegios: \"La industria tecnológica quiere hacernos creer que la IA es necesaria. No lo vemos así\" - El Confidencial",
-      "titulo_original": "Zohran Mamdani, alcalde de Nueva York, tras prohibir la IA en los colegios: \"La industria tecnológica quiere hacernos creer que la IA es necesaria. No lo vemos así\" - El Confidencial",
-      "enlace": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQYnpNM2FzSVlhUUctaEJLWkRLVnlPaXJudnhQUUZrbEVBbkg0QUx6d0dQTnh4cktmVG1Nek85OWNDbFFQVWMwU0NZWGM3TFVvQmlObGFHSTZmMnpzcHQydXk0RExnM2tIOTBWWnV2WFMzRDRpZERia3VjSGhBRlhETGFObGhrcE1NVUJMdWlhRTdIVnprTG1xQmVEdkV0VnlibXA4aGM3S0RNSDBUUmNz?oc=5",
-      "fecha": "2026-09-06T03:00:00.000Z",
-      "resumen_corto": "Zohran Mamdani, alcalde de Nueva York, tras prohibir la IA en los colegios: \"La industria tecnológica quiere hacernos creer que la IA es necesaria.",
-      "resumen_largo": "Zohran Mamdani, alcalde de Nueva York, tras prohibir la IA en los colegios: \"La industria tecnológica quiere hacernos creer que la IA es necesaria. No lo vemos así\" El Confidencial",
-      "texto_original": "Zohran Mamdani, alcalde de Nueva York, tras prohibir la IA en los colegios: \"La industria tecnológica quiere hacernos creer que la IA es necesaria. No lo vemos así\" El Confidencial",
-      "analisis": null
-    },
-    {
-      "id": "52ab6e8f86f63f26",
-      "fuente_id": "ia_dia",
-      "fuente_nombre": "IA al Día",
-      "tipo": "rss_web",
-      "categoria": "inteligencia_artificial",
-      "idioma_original": "es",
-      "prioridad_fuente": 3,
-      "titulo": "Paloma, funcionaria: \"Aprobé la oposición estudiando dos meses gracias a la inteligencia artificial. Me hice podcasts con todos los temas que entraban mientras iba a mi anterior trabajo\" - COPE",
-      "titulo_original": "Paloma, funcionaria: \"Aprobé la oposición estudiando dos meses gracias a la inteligencia artificial. Me hice podcasts con todos los temas que entraban mientras iba a mi anterior trabajo\" - COPE",
-      "enlace": "https://news.google.com/rss/articles/CBMiwwJBVV95cUxQMmhwVF9zSENtZHdHcDVwMUctdUtJQUw3N01wbEZfeXBqd2hJa1puUHo0NHFzWmxGMUtaTE5vcmtDNGRKRUhFdjJEYl9tWVJFTVJBTHZGeDIxQ2w1SG9fVHFWZWJIOGxiSG8weUVpUXUwTWJzN3o1S2tYZnBGUnNfY1hiUHNSSzc0V2NzVVRWeS0zY1JNeWh6bDhiWFpXel93V3B0dnJMSktyZFFUS2xCcUlYY2JjSGFvbVdGQ0hrRXJ4NWVsVXZDeFhuS2I5SlJKa0lIZWp5aWdHMnZsVHVWd0lxSzYwazlFX3QyaFFnNEs4T1BWbkhtU254QzZ1cWl6OUl3SGZ4WS1LQVlDTFpYNnZZMWdzWGFpWWU0cTl6R1p1THcxdlJKcEZrVWUyX1dJRm1uNVJXZGl1dEFVaWtMdVBZNNIByAJBVV95cUxPWm5QdW1VY0tzX2NwM1ZDNU55cDdaNWc0eGhjX2ZyTlJUanhlQll2ZGJSVmdCQklDWTZNZkFZTGw1eTFpZlhlSDg0ckNsalBjeDJ6N2s2OXgwYlVFZGhqY3NXcXVLOXhtak81amZ3V19MNWJSMUhja2lBZ1RiOWN6RzVmQ2E3eGVfeGdILU9XTzY4YUFDa0ducE4wYms4MEFzeFdxQktaUjhHNkJ3TlVWOTY2QlVVZ1dobXFPcldkSkh4SWEtcUpvWkdTcHE3T0Z3cDRRSXpmMGgtakx1UndsdnRKM3RITm9pR3lpclVZXy1vb1dYU3ZTX29zcTc0Vl83OFYxT3NWcVAyUUZ2cUE5U2RzUVk1aWdyaWxtTmFIS3RKdk5NSy02Ty1RU253eVY0dGoxa21zakQ0NWxDQzNDYmVwWjRkMl9R?oc=5",
-      "fecha": "2026-09-05T14:01:46.000Z",
-      "resumen_corto": "Paloma, funcionaria: \"Aprobé la oposición estudiando dos meses gracias a la inteligencia artificial.",
-      "resumen_largo": "Paloma, funcionaria: \"Aprobé la oposición estudiando dos meses gracias a la inteligencia artificial. Me hice podcasts con todos los temas que entraban mientras iba a mi anterior trabajo\" COPE",
-      "texto_original": "Paloma, funcionaria: \"Aprobé la oposición estudiando dos meses gracias a la inteligencia artificial. Me hice podcasts con todos los temas que entraban mientras iba a mi anterior trabajo\" COPE",
-      "analisis": null
-    },
-    {
-      "id": "8cf41683b9e0a3e4",
-      "fuente_id": "huawei_google",
-      "fuente_nombre": "Huawei Central",
-      "tipo": "rss_web",
-      "categoria": "moviles",
-      "idioma_original": "en",
-      "prioridad_fuente": 4,
-      "titulo": "Evento Huawei 7 de septiembre: Estos siete dispositivos se lanzarán la próxima semana",
-      "titulo_original": "Huawei September 7 Event: These seven devices launching next week - Huawei Central",
-      "enlace": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9tUklPckU5RG5UVTdienFTY2taQ3ZGcTJucFVvQlNfS3hSSWpHVHVDTWVrNmdnNndWZ2dRV1RpVTViV1JQbDVqOV9GUWhJZTFkY3BzbVZ4elZTdHowaHAzanZoUlU5LWVySlBSVVpWRVZXQzJIVlHSAXtBVV95cUxPZUlhbGthQTkySHB5Yl9CX2VFVk1INkZoS1JRcS04aTQxbzNLQXJHUEQ5Nno1S1pqNnc2RzhFcGNTeXRWYzRFYmx1VzJORnQ2UUJiOWZmcUpTbDAtdmlWSk8xNDBZQXNBbXFTUTFtNlR0VzB2X2RfaFg2NkE?oc=5",
-      "fecha": "2026-09-05T12:57:39.000Z",
-      "resumen_corto": "Evento Huawei 7 de septiembre: Estos siete dispositivos se lanzarán la próxima semana Huawei Central",
-      "resumen_largo": "Evento Huawei 7 de septiembre: Estos siete dispositivos se lanzarán la próxima semana Huawei Central",
-      "texto_original": "Huawei September 7 Event: These seven devices launching next week Huawei Central",
-      "analisis": null
-    },
-    {
-      "id": "aae0c20a0f485a95",
-      "fuente_id": "huawei_google",
-      "fuente_nombre": "Huawei Central",
-      "tipo": "rss_web",
-      "categoria": "moviles",
-      "idioma_original": "en",
-      "prioridad_fuente": 4,
-      "titulo": "Huawei revela los resultados de la prueba real del chip Kirin 2026 en el documento actualizado de la Ley Tau",
-      "titulo_original": "Huawei reveals Kirin 2026 chip real test outcomes in updated Tau Law paper - Huawei Central",
-      "enlace": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQUkVwNW9VQlBZWW94LVJVeGNRU3FiUnpTdFA0VjZ4NEdJam1KODk5dTM4S21ZZlc5ZmVxY21yeHRITDNmNGtsVjN2VFpxU3d4SkM5dUxmM3JGclBNVDhpMG5yNEI2VlY0WlhxRno1eF9QYnMwWk1EY2RDRWNpWlRFYm9YZWo2RlnSAYwBQVVfeXFMTW1kallzUFc1SUFvNmFPQ0VsZUlUWlA2LW94Z181MEF0MDFDX2YtWVEzTWc4SFpfb3NzWElBRDc0bjlLZHpaR2F4ckRpU2tvR3pEcnA5dk1LaGVZTVdKT1dwbWtYN1BjUFdJVVZjcXA3NDBSMVAtMG02TUZzOUY1TS1FWVVDQ0hWN0dSZ3E?oc=5",
-      "fecha": "2026-09-05T12:57:39.000Z",
-      "resumen_corto": "Huawei revela los resultados de la prueba real del chip Kirin 2026 en el documento actualizado de la Ley Tau Huawei Central",
-      "resumen_largo": "Huawei revela los resultados de la prueba real del chip Kirin 2026 en el documento actualizado de la Ley Tau Huawei Central",
-      "texto_original": "Huawei reveals Kirin 2026 chip real test outcomes in updated Tau Law paper Huawei Central",
-      "analisis": null
-    },
-    {
-      "id": "dd6e72ede7a47306",
-      "fuente_id": "huawei_google",
-      "fuente_nombre": "Huawei Central",
-      "tipo": "rss_web",
-      "categoria": "moviles",
-      "idioma_original": "en",
-      "prioridad_fuente": 4,
-      "titulo": "Huawei Watch D3 vs Watch D2: las 4 actualizaciones principales que debes conocer",
-      "titulo_original": "Huawei Watch D3 vs Watch D2: Top 4 upgrades you should know - Huawei Central",
-      "enlace": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE53LWhleFl5REJwbXVveS1qdXE3Nk94ZFVia19LU0hDa0VaR3FzQ3VBU0tCZDZidFUtQkdZR2VsZ19lU0lpOFNaYjQ3TVVhNmNScmU4RDB4bGVCUTVEUHBBcnRIcHFvUdIBa0FVX3lxTE83Skp0a1M0dS13dHpMZUc3X3RmQk5SMXJRZ25Celc1N0psSFlKQ1FmMFNCeWxfQ3VsMThJOWU2eU9fM3BreTVUV0VyZWRqdU83QW5rU211V0xsZFFMaTdIWnZGZDVJaHBpbzgw?oc=5",
-      "fecha": "2026-09-05T08:32:36.000Z",
-      "resumen_corto": "Huawei Watch D3 vs Watch D2: Las 4 actualizaciones principales que debes conocer Huawei Central",
-      "resumen_largo": "Huawei Watch D3 vs Watch D2: Las 4 actualizaciones principales que debes conocer Huawei Central",
-      "texto_original": "Huawei Watch D3 vs Watch D2: Top 4 upgrades you should know Huawei Central",
-      "analisis": null
+      "prioridad_fuente": 5,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Seminario CMC de otoño de 2026 Singapur | Cadenas de suministro de semiconductores",
+      "titulo_original": "2026 Fall CMC Seminar Singapore | Semiconductor Supply Chains - TechInsights",
+      "enlace": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9zS0pDTHlUazY3N1A2MmxnVDFJcU1XQVRHbVktMHAyVFpGT0dVVFk1QW42bF9IejFfdzg2R0FtbVhwdExwREo2UUpTTjVlTXNNdVVrd042ajZiQjdVSEl3?oc=5",
+      "fecha": "2026-09-03T14:10:18.000Z",
+      "resumen_corto": "Seminario CMC de otoño de 2026 Singapur | Cadenas de suministro de semiconductores TechInsights",
+      "resumen_largo": "Seminario CMC de otoño de 2026 Singapur | Cadenas de suministro de semiconductores TechInsights",
+      "texto_original": "2026 Fall CMC Seminar Singapore | Semiconductor Supply Chains TechInsights",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-09-07T16:59:52.679Z",
+        "index": 36,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "en",
+        "categoria": "semiconductores",
+        "categorias_secundarias": [
+          "inteligencia_artificial",
+          "tecnologia"
+        ],
+        "category_scores": {
+          "semiconductores": 2,
+          "inteligencia_artificial": 1,
+          "tecnologia": 1
+        },
+        "entidades": [
+          "TechInsights"
+        ],
+        "cifras_detectadas": [
+          "2026"
+        ],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 89,
+        "relevancia": 62,
+        "confiabilidad_fuente": 65,
+        "readability": {
+          "words": 44,
+          "sentences": 1,
+          "average_words_per_sentence": 44
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 72.2
     },
     {
       "id": "f92a61f350bfc97c",
       "fuente_id": "openai_google",
       "fuente_nombre": "OpenAI",
       "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "openai",
+      "nivel_fuente": "fuente_oficial",
       "categoria": "inteligencia_artificial",
       "idioma_original": "en",
       "prioridad_fuente": 5,
+      "analizar": true,
+      "resumir": true,
       "titulo": "Visualización arquitectónica con Astra - OpenAI Developers",
       "titulo_original": "Architectural visualization with Astra - OpenAI Developers",
       "enlace": "https://news.google.com/rss/articles/CBMifkFVX3lxTE11cGtLX2h1Q1RKZ0JRenZrTTIwMEt6NEZoMzhhMEVHTnlKUVFOdlI0OUt4czQyUlVqZXRyWkhMbzZXWk5nMXBwamQ2OFFqMWM5WU1vMjlqMlZaWnpXYXgzRDdUcTFubHFEOFY5bXYwUXJuN1hIM3FQTk4zNVM4QQ?oc=5",
@@ -516,220 +426,2047 @@
       "resumen_corto": "Visualización arquitectónica con Astra OpenAI Developers",
       "resumen_largo": "Visualización arquitectónica con Astra OpenAI Developers",
       "texto_original": "Architectural visualization with Astra OpenAI Developers",
-      "analisis": null
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-09-07T16:59:52.678Z",
+        "index": 33,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "en",
+        "categoria": "inteligencia_artificial",
+        "categorias_secundarias": [
+          "vehiculos_energia"
+        ],
+        "category_scores": {
+          "inteligencia_artificial": 2,
+          "vehiculos_energia": 1
+        },
+        "entidades": [
+          "OpenAI"
+        ],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 84,
+        "relevancia": 55,
+        "confiabilidad_fuente": 75,
+        "readability": {
+          "words": 30,
+          "sentences": 1,
+          "average_words_per_sentence": 30
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 70.15
     },
     {
       "id": "efef1c95f0c9b089",
       "fuente_id": "openai_google",
       "fuente_nombre": "OpenAI",
       "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "openai",
+      "nivel_fuente": "fuente_oficial",
       "categoria": "inteligencia_artificial",
       "idioma_original": "en",
       "prioridad_fuente": 5,
-      "titulo": "Creación de juegos con Astra - Desarrolladores OpenAI",
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Construyendo juegos con Astra - Desarrolladores OpenAI",
       "titulo_original": "Building games with Astra - OpenAI Developers",
       "enlace": "https://news.google.com/rss/articles/CBMickFVX3lxTE10U1NiRGQ0UWVRTmNuVmtVSzFkR2J3ci1CQVF3SUMtbVBpUHBRSW5DZ3ozdDdDWVpnOW1heEZzTE8xZzYtN1NqdmduNUhDOFRzcy0taGhhdjVhakJ2cFBtTTRiTEtkWkNDR1NLck5yclU0Zw?oc=5",
       "fecha": "2026-09-04T20:17:46.000Z",
-      "resumen_corto": "Creación de juegos con Astra OpenAI Developers",
-      "resumen_largo": "Creación de juegos con Astra OpenAI Developers",
+      "resumen_corto": "Creación de juegos con los desarrolladores de Astra OpenAI",
+      "resumen_largo": "Creación de juegos con los desarrolladores de Astra OpenAI",
       "texto_original": "Building games with Astra OpenAI Developers",
-      "analisis": null
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-09-07T16:59:52.678Z",
+        "index": 34,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "en",
+        "categoria": "inteligencia_artificial",
+        "categorias_secundarias": [
+          "vehiculos_energia"
+        ],
+        "category_scores": {
+          "inteligencia_artificial": 2,
+          "vehiculos_energia": 1
+        },
+        "entidades": [
+          "OpenAI"
+        ],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 84,
+        "relevancia": 55,
+        "confiabilidad_fuente": 75,
+        "readability": {
+          "words": 32,
+          "sentences": 1,
+          "average_words_per_sentence": 32
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 70.15
     },
     {
-      "id": "d5a3398d60d327ec",
+      "id": "01359d29afedabdf",
       "fuente_id": "wccftech_google",
       "fuente_nombre": "Wccftech",
       "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "wccftech",
+      "nivel_fuente": "medio_especializado",
       "categoria": "hardware",
       "idioma_original": "en",
       "prioridad_fuente": 4,
-      "titulo": "Modder habilita el renderizado neuronal DLSS 5 en AMD Radeon RX 9070 XT; tanques de rendimiento significativamente, pero la última versión mejora el FPS en un 12% - wccftech.com",
-      "titulo_original": "Modder Enables DLSS 5 Neural Rendering On AMD Radeon RX 9070 XT; Performance Tanks Significantly, But Latest Version Improves FPS By 12% - wccftech.com",
-      "enlace": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPTm5fclRCTGFzOUxuc3diYXpic2V3V21oeXhHc05ya1pad01OUmRJX1JlSF8xS183UWlscmNrd0ktSG1tRTV0X2FSVFA2YXFaMmE5U3lBWmdzZWdQWEVmb2pKemQ3bzViX1o1ZUhvbmNjTXRhcXNLSEF3YjZsTmY5NmtuSWlBa3p4X3ZIMExn0gGTAUFVX3lxTE9VbVpaSENXOFJlTHprN3Fld3JlbU9ycVQ3VmQ1TkZnbHh6YUFSUXF4aW1FV2hCMUV5ZkdXNXlXWGRkS3A5R0lNN2dBWm1Ccy0tMjhxczBzTVVHYUNPX2FXOFphUmRMaXBfc3g4d25uWEtfbTlaTUhRTklzVHJ5SUxKak9zWDgtSlZnLVpaa3g5SWdFaw?oc=5",
-      "fecha": "2026-09-04T18:37:44.000Z",
-      "resumen_corto": "Modder habilita el renderizado neuronal DLSS 5 en AMD Radeon RX 9070 XT; tanques de rendimiento significativamente, pero la última versión mejora el FPS en un 12% wccftech.com",
-      "resumen_largo": "Modder habilita el renderizado neuronal DLSS 5 en AMD Radeon RX 9070 XT; tanques de rendimiento significativamente, pero la última versión mejora el FPS en un 12% wccftech.com",
-      "texto_original": "Modder Enables DLSS 5 Neural Rendering On AMD Radeon RX 9070 XT; Performance Tanks Significantly, But Latest Version Improves FPS By 12% wccftech.com",
-      "analisis": null
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Ryzen AI MAX+ PRO 495 de AMD impulsa el EVO-X5 PRO de GMKtec para ejecutar más de 300 mil millones de modelos localmente en 192 GB de memoria unificada",
+      "titulo_original": "AMD’s Ryzen AI MAX+ PRO 495 Powers GMKtec’s EVO-X5 PRO To Run 300B+ Models Locally On 192 GB of Unified Memory - Wccftech",
+      "enlace": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOOHMyRVZWNnI4Z1RzYlFjTGp2TVNEeHA0SXgzOGlTSnkzSTVCUDYwMmpIeG5CYmo3ZGtaNkVGc0l1bFE4WUpMNHpCYlpoTGdxR1NyQmNwTGF4TmNGNG45SVlZaWMwRE4talJuT2FILWxuLS1zOU0zNGtjZ1p2V2ZLVUpsWk5HQ3pjT05FM0NVYjFzMHNncDhsSEstbVLSAaIBQVVfeXFMTmFYMnZQWExDUFFuT2tyLV9SaXFCV3dBS1RmNEEzdy1vSDdNV29XQWhZMHBNX196QkhCeEM5bHl3NmNsZjN0bDJFYzNZYTd6eW1LVF9sYmREdEJNSzRpZVRaQ2VMV0g4ckFSSC1QdFF1WFFKaWRscGFhRjRfQmpGU0ZhR2szcmQtZnhCVDFwcDR5NG5xS2hGdV9tMy00TW9xOW5R?oc=5",
+      "fecha": "2026-09-06T18:25:29.000Z",
+      "resumen_corto": "Ryzen AI MAX+ PRO 495 de AMD impulsa el EVO-X5 PRO de GMKtec para ejecutar más de 300 mil millones de modelos localmente en 192 GB de memoria unificada Wccftech",
+      "resumen_largo": "Ryzen AI MAX+ PRO 495 de AMD impulsa el EVO-X5 PRO de GMKtec para ejecutar más de 300 mil millones de modelos localmente en 192 GB de memoria unificada Wccftech",
+      "texto_original": "AMD’s Ryzen AI MAX+ PRO 495 Powers GMKtec’s EVO-X5 PRO To Run 300B+ Models Locally On 192 GB of Unified Memory Wccftech",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-09-07T16:59:52.677Z",
+        "index": 29,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "en",
+        "categoria": "inteligencia_artificial",
+        "categorias_secundarias": [
+          "hardware",
+          "vehiculos_energia",
+          "tecnologia"
+        ],
+        "category_scores": {
+          "inteligencia_artificial": 2,
+          "hardware": 1,
+          "vehiculos_energia": 1,
+          "tecnologia": 1
+        },
+        "entidades": [
+          "AMD",
+          "Wccftech"
+        ],
+        "cifras_detectadas": [
+          "300 m",
+          "192 GB",
+          "300B"
+        ],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 87,
+        "relevancia": 67,
+        "confiabilidad_fuente": 50,
+        "readability": {
+          "words": 96,
+          "sentences": 1,
+          "average_words_per_sentence": 96
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 69.75
     },
     {
-      "id": "158b117d5cc0d36c",
-      "fuente_id": "wccftech_google",
-      "fuente_nombre": "Wccftech",
+      "id": "ecc14a0c2ce87c4a",
+      "fuente_id": "bbc_mundo",
+      "fuente_nombre": "BBC Mundo",
       "tipo": "rss_web",
-      "categoria": "hardware",
-      "idioma_original": "en",
-      "prioridad_fuente": 4,
-      "titulo": "La empresa china Naura afirma un gran avance que podría permitir a CXMT superar las sanciones de EUV y crear chips de DRAM 3D - wccftech.com",
-      "titulo_original": "Chinese Firm Naura Claims Big Breakthrough That Could Enable CXMT To Overcome EUV Sanctions & Make 3D DRAM Chips - wccftech.com",
-      "enlace": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPNGFlem1NalMtWW93amtLZC1hbmFndE1vbkRMSURqME9FNVdtU3hvZldJTi1CX1dEZW5iSko4cVRRY2dnX2NKb1Zqa1V5cnlMYXdMSmpLNGc2WVYyV2QxblFiR2l1YUQtTEk5dEtlcGVaVUJOOFVWYlRHZVBXOHVQVEVOZ2lxZjE1VEIyVWtZU1h5dV9vWGtYVFg5X09CUm4ySWhRaVZpUXFzaG1xZlhWYzhNYXd1NjBmOWVHSWJ1TTM5YUNnVG9uY2wtSGh4akM5aGdtZ2g2M3U5OEk3NnY2czFzX3piMFNnWHfSAe8BQVVfeXFMTWlpVXBhNjlWT21HdlhSWjNYa2xQbDBxaFo2Vm9TcGtiY0hXeFZUd09pRjk4VWdrNEtBMVkxcnQtQ2prSUxWOE8yTEZtOTFnM2RBM3ZCOEw1Z1ZpNkIwQlo5T1hFdV9JcmVzQnZvbjJLS1lTMEprTkNGMC1BYmEwcDhWTDVWXzlZVXVSSWEzeENxMWNoTHZYeGRfSGw4anY2NW9qdnBsLXM0MXFyUEFoVlJraW1VQUEyZXdXeGI2UzR5LWg1dlFabV9ndHZ6cWI1RENwT0dWZTg5U25keEFldHY3ZFpHZHdfQ01KMHhxdVU?oc=5",
-      "fecha": "2026-09-04T17:21:27.000Z",
-      "resumen_corto": "La empresa china Naura afirma un gran avance que podría permitir a CXMT superar las sanciones de EUV y crear chips de DRAM 3D wccftech.com",
-      "resumen_largo": "La empresa china Naura afirma un gran avance que podría permitir a CXMT superar las sanciones de EUV y crear chips de DRAM 3D wccftech.com",
-      "texto_original": "Chinese Firm Naura Claims Big Breakthrough That Could Enable CXMT To Overcome EUV Sanctions & Make 3D DRAM Chips wccftech.com",
-      "analisis": null
-    },
-    {
-      "id": "ebcf0d6ea90d3a6a",
-      "fuente_id": "google_news_es",
-      "fuente_nombre": "Google News ES",
-      "tipo": "rss_web",
-      "categoria": "tecnologia",
+      "subtipo": "medio_generalista",
+      "grupo_fuente": "bbc",
+      "nivel_fuente": "medio_profesional",
+      "categoria": "actualidad",
       "idioma_original": "es",
-      "prioridad_fuente": 3,
-      "titulo": "Dreame ficha a Cristiano Ronaldo y se reivindica como referente de tecnología para el hogar: “Aspiramos a ser los mejores del mundo” - La Vanguardia",
-      "titulo_original": "Dreame ficha a Cristiano Ronaldo y se reivindica como referente de tecnología para el hogar: “Aspiramos a ser los mejores del mundo” - La Vanguardia",
-      "enlace": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOOUt6Y3JiZnVpZHJMejFZU3FnMTZrb0tsVzEtcFI5cEF2N2lrdmZrdzFRWlloNzBFWkJKb2lZMWNyeEYtWndvSk5lVVBHUHhBUHA2ZEZ3RzJscXE0anFNSzB0WmxOa1U5cGJLM05oTlc5UDFySGVtWmpvbnBZUThXODZHNksxUGtPSHFpazZfZDMwY3BPZXRud3VoSGVjV3E1YWh3UXVlWmpESkUxNF9hdW10MFNvYmlIQjJuN0ZXX2FXTU5kTFR5dU5RUzVlblpoVG1JcV9vVklzZVZpMjdyYnFUTUdwX1RVOW5feNIB8gFBVV95cUxQUTNtQUFBb2h1bTNoTGFQY1VtTEJCaTJ6Y3VpeE1DYVRtbW1USWhEOWtkdEtkZHlubEtCdFY5Z1JQUG1xcTZfZ19uTkNlbGNHdTBJc04ydDl0RzgtQWVITzRJTklickVndkRGV1ZxU3NIcTZqd2hWTDZ6RWdqUGptUVJuc1NCQmFNTGFmS1g2TVFjXzFYMTc3UzBCM3MtMmFybUw3RUR4djFKemlPLUZ2M05ZNWRTdG93RTRUZ001b2lGcDJKWHVYR2hwTndaME56aUlnTTVneFFNc1RIZUZ2SHhPQ2c1MnBVbklNV2RRd3dGQQ?oc=5",
-      "fecha": "2026-09-04T04:43:10.000Z",
-      "resumen_corto": "Dreame ficha a Cristiano Ronaldo y se reivindica como referente de tecnología para el hogar: “Aspiramos a ser los mejores del mundo” La Vanguardia",
-      "resumen_largo": "Dreame ficha a Cristiano Ronaldo y se reivindica como referente de tecnología para el hogar: “Aspiramos a ser los mejores del mundo” La Vanguardia",
-      "texto_original": "Dreame ficha a Cristiano Ronaldo y se reivindica como referente de tecnología para el hogar: “Aspiramos a ser los mejores del mundo” La Vanguardia",
-      "analisis": null
-    },
-    {
-      "id": "09d9542d625726c9",
-      "fuente_id": "ia_dia",
-      "fuente_nombre": "IA al Día",
-      "tipo": "rss_web",
-      "categoria": "inteligencia_artificial",
-      "idioma_original": "es",
-      "prioridad_fuente": 3,
-      "titulo": "La Inteligencia Artificial que viene: ¿capaz de tomar el control del ordenador y tomar decisiones? - RTVE.es",
-      "titulo_original": "La Inteligencia Artificial que viene: ¿capaz de tomar el control del ordenador y tomar decisiones? - RTVE.es",
-      "enlace": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOdFIwd2p0SW1nLXc2WVhwazJnbnRrNGZmQjJCOGkwMl9Ic0MxdEJWWjU3SkdXMUtBVEhKM3VYbjU4THEtS0hhelJ6a1plblgtanBfeTRqVGoxbFV1NDRHeEZYa1lfdEpycjlDb25kSG90ZGRCQkVfOGdnZWlPbFpVVXhwemptZkhtRFlUWm5HdWF2VmJ4dnlFWnVBc21Rb2ZCNmVJeF9PMzVaWnBac21mSUlWTQ?oc=5",
-      "fecha": "2026-09-03T22:01:13.000Z",
-      "resumen_corto": "La Inteligencia Artificial que viene: ¿capaz de tomar el control del ordenador y tomar decisiones?",
-      "resumen_largo": "La Inteligencia Artificial que viene: ¿capaz de tomar el control del ordenador y tomar decisiones?",
-      "texto_original": "La Inteligencia Artificial que viene: ¿capaz de tomar el control del ordenador y tomar decisiones? RTVE.es",
-      "analisis": null
-    },
-    {
-      "id": "116129b86c2bbdfc",
-      "fuente_id": "ia_dia",
-      "fuente_nombre": "IA al Día",
-      "tipo": "rss_web",
-      "categoria": "inteligencia_artificial",
-      "idioma_original": "es",
-      "prioridad_fuente": 3,
-      "titulo": "OpenAI lanza Astra, su modelo más polémico: asegura que ya supera la inteligencia humana - El Confidencial",
-      "titulo_original": "OpenAI lanza Astra, su modelo más polémico: asegura que ya supera la inteligencia humana - El Confidencial",
-      "enlace": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPZGItbHRad1BLaHIwX0MxOHhsMDhpbndvYUpIazdWLXBvSEFCVl9QcmpQSU1veExnX252azJ4SWpoRzR4akNSb2hvV1YxaE5iNWVBamg4eDZfUm5hdUMxZHU0ZXZhdEIwdjZZLU14cXVQWjRBTVhpNWcweFkwMm1xMmJ1dTA0YVZtb0duWmVrM3ZILUNvN2hteXUtTnpEdXI2cU11S3I4dDFjS2N1ajFN?oc=5",
-      "fecha": "2026-09-03T18:17:00.000Z",
-      "resumen_corto": "OpenAI lanza Astra, su modelo más polémico: asegura que ya supera la inteligencia humana El Confidencial",
-      "resumen_largo": "OpenAI lanza Astra, su modelo más polémico: asegura que ya supera la inteligencia humana El Confidencial",
-      "texto_original": "OpenAI lanza Astra, su modelo más polémico: asegura que ya supera la inteligencia humana El Confidencial",
-      "analisis": null
-    },
-    {
-      "id": "7b64fb20a75ca6db",
-      "fuente_id": "techinsights_google",
-      "fuente_nombre": "TechInsights",
-      "tipo": "rss_web",
-      "categoria": "semiconductores",
-      "idioma_original": "en",
       "prioridad_fuente": 5,
-      "titulo": "2026 Seminario de otoño de CMC Singapur | Cadenas de suministro de semiconductores",
-      "titulo_original": "2026 Fall CMC Seminar Singapore | Semiconductor Supply Chains - TechInsights",
-      "enlace": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9zS0pDTHlUazY3N1A2MmxnVDFJcU1XQVRHbVktMHAyVFpGT0dVVFk1QW42bF9IejFfdzg2R0FtbVhwdExwREo2UUpTTjVlTXNNdVVrd042ajZiQjdVSEl3?oc=5",
-      "fecha": "2026-09-03T14:10:18.000Z",
-      "resumen_corto": "2026 Seminario de otoño de CMC Singapur | Semiconductor Supply Chains TechInsights",
-      "resumen_largo": "2026 Seminario de otoño de CMC Singapur | Semiconductor Supply Chains TechInsights",
-      "texto_original": "2026 Fall CMC Seminar Singapore | Semiconductor Supply Chains TechInsights",
-      "analisis": null
+      "analizar": true,
+      "resumir": true,
+      "titulo": "\"Vivimos en una política de la crueldad que busca normalizar cosas que antes no podíamos tragar\"",
+      "titulo_original": "\"Vivimos en una política de la crueldad que busca normalizar cosas que antes no podíamos tragar\"",
+      "enlace": "https://www.bbc.com/mundo/articles/cd6985dl78xo?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-09-07T10:57:27.000Z",
+      "resumen_corto": "Por la ventanilla, se ve la mano de un agente del Servicio de Control de Inmigración y Aduanas de EE.UU.",
+      "resumen_largo": "Dentro de un auto, un hombre abraza a su bebé mientras el pequeño llora. Por la ventanilla, se ve la mano de un agente del Servicio de Control de Inmigración y Aduanas de EE.UU. (ICE) que sujeta al hombre del cuello mientras éste convulsiona.",
+      "texto_original": "Dentro de un auto, un hombre abraza a su bebé mientras el pequeño llora. Por la ventanilla, se ve la mano de un agente del Servicio de Control de Inmigración y Aduanas de EE.UU. (ICE) que sujeta al hombre del cuello mientras éste convulsiona. Con esta escena, Enrique Díaz Álvarez, comienza su libro \"Lo intolerable: repulsión, vergüenza y responsabilidad colectiva ante la crueldad contemporánea\" (Anagrama, 2026), en donde explora los mecanismos de represión que surgen de las expresiones más brutales del poder. Díaz Álvarez nació en México en 1976, es doctor en filosofía por la Universidad de Barcelona y profesor de Pensamiento Político Contemporáneo en la Universidad Nacional Autónoma de México (UNAM). \"Hay una política de la crueldad que está en marcha\", dice el ganador del Premio Anagrama de Ensayo en 2021 por su anterior libro, \"La palabra que aparece\" (Anagrama, 2021). A Díaz Álvarez no solo le preocupa que esto ocurra, sino que también pone la atención en la indiferencia con la que muchas personas responden al sufrimiento ajeno frente a la crueldad que nace del abuso de poder. Por eso, llama a pensar \"con todo el cuerpo\" y dejarse afectar por las emociones de repulsión, indignación y vergüenza para activar la responsabilidad colectiva.",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-09-07T16:59:52.672Z",
+        "index": 16,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "actualidad",
+        "categorias_secundarias": [
+          "inteligencia_artificial",
+          "hardware",
+          "vehiculos_energia"
+        ],
+        "category_scores": {
+          "actualidad": 2,
+          "inteligencia_artificial": 1,
+          "hardware": 1,
+          "vehiculos_energia": 1
+        },
+        "entidades": [],
+        "cifras_detectadas": [
+          "2026",
+          "1976",
+          "2021"
+        ],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 84,
+        "relevancia": 57,
+        "confiabilidad_fuente": 70,
+        "readability": {
+          "words": 203,
+          "sentences": 15,
+          "average_words_per_sentence": 13.53
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 69.7
+    },
+    {
+      "id": "5fc5f9c4e3d2efe7",
+      "fuente_id": "huawei_google",
+      "fuente_nombre": "Huawei Central",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "huawei",
+      "nivel_fuente": "agregador",
+      "categoria": "moviles",
+      "idioma_original": "en",
+      "prioridad_fuente": 4,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Huawei Mate XT 2 se lanzó con pantalla plegable hacia adentro de 10,2 pulgadas y chipset Kirin 9050 Pro",
+      "titulo_original": "Huawei Mate XT 2 launched with 10.2-inch inward folding display and Kirin 9050 Pro chipset - Huawei Central",
+      "enlace": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFA0V2ZwOWJ4bWkxanNtNlNjaFFWRzdtWHQ3c195Vi10Sm1EX0ZkTmhPdmtWR1hyZ0UwS2N6el9vR3V2SzJ5YXBXdkQ2cnpLNkNJSUl5XzFHYzRrNERqZjFFSE55NEUtcnfSAWxBVV95cUxNRHZmdjFseUR0SlMxeGh0bFdTN0dkdHpJbUEzU0l5eDl3Y3VDc0dmZ0U2OWZwaHVpcEFDVks4alZhUkIzemZfQzBUNG1BNGNWaEZlODVaS0hJYXNJcE9BZDJsLTQyS1lGSlU5SkQ?oc=5",
+      "fecha": "2026-09-07T08:46:19.000Z",
+      "resumen_corto": "Lanzamiento del Huawei Mate XT 2 con pantalla plegable hacia adentro de 10,2 pulgadas y chipset Kirin 9050 Pro Huawei Central",
+      "resumen_largo": "Lanzamiento del Huawei Mate XT 2 con pantalla plegable hacia adentro de 10,2 pulgadas y chipset Kirin 9050 Pro Huawei Central",
+      "texto_original": "Huawei Mate XT 2 launched with 10.2-inch inward folding display and Kirin 9050 Pro chipset Huawei Central",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-09-07T16:59:52.674Z",
+        "index": 21,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "en",
+        "categoria": "semiconductores",
+        "categorias_secundarias": [
+          "moviles",
+          "inteligencia_artificial",
+          "hardware"
+        ],
+        "category_scores": {
+          "semiconductores": 2,
+          "moviles": 2,
+          "inteligencia_artificial": 1,
+          "hardware": 1,
+          "militar": 1
+        },
+        "entidades": [
+          "Huawei"
+        ],
+        "cifras_detectadas": [
+          "9050"
+        ],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 87,
+        "relevancia": 62,
+        "confiabilidad_fuente": 53,
+        "readability": {
+          "words": 75,
+          "sentences": 3,
+          "average_words_per_sentence": 25
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 68.5
+    },
+    {
+      "id": "aa7afc112f5d249f",
+      "fuente_id": "huawei_google",
+      "fuente_nombre": "Huawei Central",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "huawei",
+      "nivel_fuente": "agregador",
+      "categoria": "moviles",
+      "idioma_original": "en",
+      "prioridad_fuente": 4,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Honor MagicPad 4 de 12,1 pulgadas con diseño de 4,8 mm próximamente",
+      "titulo_original": "Honor MagicPad 4 12.1-inch featuring 4.8mm design coming soon - Huawei Central",
+      "enlace": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNMkpoT0JPbTlzSmZrZ3lqWGw0S0ljU25RZHRYSm1BTzBBNmhuaTZacTZDNm9RMFRYWGVDZGllSGtoRmk3ODAxbjJncEoxZEZfZU1sM3hWdGtIR1lfdnd3N05KeXBaVVJBaU16ZXNyeUZ1TmpEcUllZkk4cGJTUkZGSEVCR0tGMWMtcHRrTV8yTTB4Y3k4dDA00gGcAUFVX3lxTFBjaUwwZmpwNmlwbHVlRDhwVFZFanRVWlh6aTZlSkJUVkpucVpWNlZiSGcyeTA5T3p5eGVjc3RRdFhxZHYybjdrVElpY1ByNFZxZ3pETjlLMUNjLUpFc2tZbmcwZ2tOTUx6T0VUZE5yd2gtYTFSZnl3SWtNeGZPQThacEdQWmlOREtzNUpHYURHbkVFMnlELTB2WDFoMg?oc=5",
+      "fecha": "2026-09-07T04:36:19.000Z",
+      "resumen_corto": "Honor MagicPad 4 de 12,1 pulgadas con diseño de 4,8 mm próximamente Huawei Central",
+      "resumen_largo": "Honor MagicPad 4 de 12,1 pulgadas con diseño de 4,8 mm próximamente Huawei Central",
+      "texto_original": "Honor MagicPad 4 12.1-inch featuring 4.8mm design coming soon Huawei Central",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-09-07T16:59:52.675Z",
+        "index": 26,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "en",
+        "categoria": "moviles",
+        "categorias_secundarias": [],
+        "category_scores": {
+          "moviles": 2
+        },
+        "entidades": [
+          "Huawei",
+          "Honor"
+        ],
+        "cifras_detectadas": [
+          "4,8 mm",
+          "4.8mm"
+        ],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 87,
+        "relevancia": 60,
+        "confiabilidad_fuente": 53,
+        "readability": {
+          "words": 42,
+          "sentences": 5,
+          "average_words_per_sentence": 8.4
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 67.7
     },
     {
       "id": "e0ac5ffebfddfe69",
       "fuente_id": "techinsights_google",
       "fuente_nombre": "TechInsights",
       "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "techinsights",
+      "nivel_fuente": "especializada_tecnica",
       "categoria": "semiconductores",
       "idioma_original": "en",
       "prioridad_fuente": 5,
-      "titulo": "Actualización del mercado global de la memoria | Oferta, demanda y precios",
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Actualización del mercado global de memorias | Oferta, demanda y precios",
       "titulo_original": "Global Memory Market Update | Supply, demand, & Pricing - TechInsights",
       "enlace": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9fVUs5RVhkNXFsM1Z1eWNtbjdXU1ZNaE9yTEtKR3NDMHdNRXRLQjBBR0w3dTNJNk80UzZWXzNucExyT1c3Q3R5SUhuaW43MlBqVW8xU25wNDN4WU1MM1pZQ0EyVW9YYXNGbmlBMlJjTXdpNllTeTd3UXhRQXA?oc=5",
       "fecha": "2026-09-03T14:10:18.000Z",
-      "resumen_corto": "Actualización del mercado global de la memoria | TechInsights sobre la oferta, la demanda y los precios",
-      "resumen_largo": "Actualización del mercado global de la memoria | TechInsights sobre la oferta, la demanda y los precios",
+      "resumen_corto": "Actualización del mercado global de memorias | Oferta, demanda y precios TechInsights",
+      "resumen_largo": "Actualización del mercado global de memorias | Oferta, demanda y precios TechInsights",
       "texto_original": "Global Memory Market Update | Supply, demand, & Pricing TechInsights",
-      "analisis": null
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-09-07T16:59:52.679Z",
+        "index": 37,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "en",
+        "categoria": "inteligencia_artificial",
+        "categorias_secundarias": [
+          "moviles",
+          "tecnologia"
+        ],
+        "category_scores": {
+          "inteligencia_artificial": 1,
+          "moviles": 1,
+          "tecnologia": 1
+        },
+        "entidades": [
+          "TechInsights"
+        ],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 84,
+        "relevancia": 55,
+        "confiabilidad_fuente": 65,
+        "readability": {
+          "words": 42,
+          "sentences": 1,
+          "average_words_per_sentence": 42
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 67.65
     },
     {
-      "id": "dcd27ccc1428c78d",
-      "fuente_id": "guerra_total",
-      "fuente_nombre": "La Guerra Total HCM",
+      "id": "71f01649e68542c5",
+      "fuente_id": "openai_google",
+      "fuente_nombre": "OpenAI",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "openai",
+      "nivel_fuente": "fuente_oficial",
+      "categoria": "inteligencia_artificial",
+      "idioma_original": "en",
+      "prioridad_fuente": 5,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Una mente alienígena",
+      "titulo_original": "An Alien Mind - OpenAI",
+      "enlace": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5Dc0tRS2JjQVdhblRTVldQamEyclNHY1hqbDdSVXV2QlZURjZWSE9PYXBIVGZkTERYUFNQUy1LWXh3cnFXN29YYkdIa0NNbF9T?oc=5",
+      "fecha": "2026-09-06T16:09:46.000Z",
+      "resumen_corto": "Una mente alienígena",
+      "resumen_largo": "Una mente alienígena",
+      "texto_original": "An Alien Mind OpenAI",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-09-07T16:59:52.677Z",
+        "index": 30,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "en",
+        "categoria": "inteligencia_artificial",
+        "categorias_secundarias": [],
+        "category_scores": {
+          "inteligencia_artificial": 2
+        },
+        "entidades": [
+          "OpenAI"
+        ],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 76,
+        "relevancia": 55,
+        "confiabilidad_fuente": 75,
+        "readability": {
+          "words": 15,
+          "sentences": 1,
+          "average_words_per_sentence": 15
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 67.35
+    },
+    {
+      "id": "7a5c2ec079270cc0",
+      "fuente_id": "huawei_google",
+      "fuente_nombre": "Huawei Central",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "huawei",
+      "nivel_fuente": "agregador",
+      "categoria": "moviles",
+      "idioma_original": "en",
+      "prioridad_fuente": 4,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "La pantalla de privacidad del Huawei Mate XT 2 será mejor que la del Galaxy S26 Ultra",
+      "titulo_original": "Huawei Mate XT 2’s privacy screen will be better than Galaxy S26 Ultra - Huawei Central",
+      "enlace": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9IeXRtV002dkZzazBPSGZjMGxiUExMN0Q5U29jZnVuUzhEY2xPcmszMTVzTndyVk1xcVYzNTgxdl9XazA2cXkyVzRrTmxFZmFnV0xMMTN0Y01mTU5fR045ajVvWGx5SzQtTTM1MlBZWHpIWXVDLW1jcTJib9IBgAFBVV95cUxNZy1Mb1pCUnBRc2NZU2xyS2RZaDhMdWg0d2h0T1JkX2hDeC0wSlZ6c2FXMEp2N3RCcWNkdVExYmE2cEVCVkNtaGdxb1dVclBHUFliVWhYQV9hRVhqZldFZFQ2ZkRoM2tXZjRiZHZEd3B0TjI0OTdoakg1c2FSUUpOTw?oc=5",
+      "fecha": "2026-09-06T06:43:35.000Z",
+      "resumen_corto": "La pantalla de privacidad del Huawei Mate XT 2 será mejor que la del Galaxy S26 Ultra Huawei Central",
+      "resumen_largo": "La pantalla de privacidad del Huawei Mate XT 2 será mejor que la del Galaxy S26 Ultra Huawei Central",
+      "texto_original": "Huawei Mate XT 2’s privacy screen will be better than Galaxy S26 Ultra Huawei Central",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-09-07T16:59:52.678Z",
+        "index": 32,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "en",
+        "categoria": "moviles",
+        "categorias_secundarias": [
+          "software_internet"
+        ],
+        "category_scores": {
+          "moviles": 2,
+          "software_internet": 2
+        },
+        "entidades": [
+          "Huawei"
+        ],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 82,
+        "relevancia": 62,
+        "confiabilidad_fuente": 53,
+        "readability": {
+          "words": 64,
+          "sentences": 1,
+          "average_words_per_sentence": 64
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 66.75
+    },
+    {
+      "id": "c56a9465be97dba7",
+      "fuente_id": "ia_dia",
+      "fuente_nombre": "IA al Día",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "ia_general",
+      "nivel_fuente": "agregador",
+      "categoria": "inteligencia_artificial",
+      "idioma_original": "es",
+      "prioridad_fuente": 3,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "¿Abre el modelo GPT-6 Astra de OpenAI una nueva era de la inteligencia artificial? - La Vanguardia",
+      "titulo_original": "¿Abre el modelo GPT-6 Astra de OpenAI una nueva era de la inteligencia artificial? - La Vanguardia",
+      "enlace": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNdVFickU4MjNhNHJieXluZndmdkJEc2NHcktKZTF3UHlXQzVQQTBpQ0ZlZmN5bkZrTHpUWDhGaTJjZ0ZfcGVMd29XUl9TdC1kN0x0bGZRaFhfYU5MOHowQkJvbGtJVmIwSmlSTkMxcVFpZ2J3eFVqdTBfVTd1c1BWZTJGaXpITXZrNDdPajZfMFdLR0RaaGdNZzBiTFB4YUxvQ1hwQld4SDgtVDdZcTQ2cHFoaFFZUEFH0gG-AUFVX3lxTE5ITEFYb0xYLXFCQU1NNlk1U19zeU1aRDNENDI1VjlNeEtRX00tY0oyaS1aaE9RUDFZaVVXVk5HdU00VDhlSnNwRU9fQzdEM1p0czFtTTF2QURMb3BkT1JKOXBWRnRlVFkyakdWUVMxakRlOGpJcHg0d0VfQ3lqdHhUaERmWlhlNzZsY2FsOUdvMjJyN3h0bEVPa0gzU09NMnUwVmtPZzVPOFZnVk5ld2ZDUVg0MXp6WThLbklBZnc?oc=5",
+      "fecha": "2026-09-07T13:00:32.000Z",
+      "resumen_corto": "¿Abre el modelo GPT-6 Astra de OpenAI una nueva era de la inteligencia artificial?",
+      "resumen_largo": "¿Abre el modelo GPT-6 Astra de OpenAI una nueva era de la inteligencia artificial?",
+      "texto_original": "¿Abre el modelo GPT-6 Astra de OpenAI una nueva era de la inteligencia artificial? La Vanguardia",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-09-07T16:59:52.667Z",
+        "index": 10,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "inteligencia_artificial",
+        "categorias_secundarias": [
+          "vehiculos_energia"
+        ],
+        "category_scores": {
+          "inteligencia_artificial": 6,
+          "vehiculos_energia": 1
+        },
+        "entidades": [
+          "OpenAI"
+        ],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 80,
+        "relevancia": 62,
+        "confiabilidad_fuente": 53,
+        "readability": {
+          "words": 53,
+          "sentences": 6,
+          "average_words_per_sentence": 8.83
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 66.05
+    },
+    {
+      "id": "56405a5c2dac7a89",
+      "fuente_id": "ia_dia",
+      "fuente_nombre": "IA al Día",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "ia_general",
+      "nivel_fuente": "agregador",
+      "categoria": "inteligencia_artificial",
+      "idioma_original": "es",
+      "prioridad_fuente": 3,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "OpenAI presenta GPT-6 Astra, su IA más \"inteligente\": su esquema de razonamiento preocupa a los expertos - Levante-EMV",
+      "titulo_original": "OpenAI presenta GPT-6 Astra, su IA más \"inteligente\": su esquema de razonamiento preocupa a los expertos - Levante-EMV",
+      "enlace": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNaUFTQjQwOUM0NmJybkx3VDJycG5lajU1ZkhpX0VUc3B0VXl2cnlnQ3Z6RU1CMmRCUWxkTnNyckYwczFQbUtfQWUwR2Naam5GanJYTHMxOF9oaHRCZzVfaXZPaWtsajhnblhORGxwR1NWZUsxWGpCTkdKdC1mMlA3WnNXdzNrVlNGSTlRU0dTVldNRTY2QnB6S1pn0gGfAUFVX3lxTFBhNW1LSGE3LUFQRkRaSUVfMmdjbU9QdzFHUG9XUlRVdUxvLTJuZTNiZENhZldPLXcxcXhVbm9kWWl3MjNMT2pPQ2dJZXBCMWJOZ0dRRTF0MGNfbXJUZlM4a3Jzc3FoYTAtOFI4N3F0WklFMmlsVkxCcGdZRWdCR0tWSDFSbGdORzJrWTd1U3MxWWdRWHZ4bXp1SThKdGp3TQ?oc=5",
+      "fecha": "2026-09-07T07:40:14.000Z",
+      "resumen_corto": "OpenAI presenta GPT-6 Astra, su IA más \"inteligente\": su esquema de razonamiento preocupa a los expertos Levante-EMV",
+      "resumen_largo": "OpenAI presenta GPT-6 Astra, su IA más \"inteligente\": su esquema de razonamiento preocupa a los expertos Levante-EMV",
+      "texto_original": "OpenAI presenta GPT-6 Astra, su IA más \"inteligente\": su esquema de razonamiento preocupa a los expertos Levante-EMV",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-09-07T16:59:52.674Z",
+        "index": 23,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "inteligencia_artificial",
+        "categorias_secundarias": [
+          "vehiculos_energia"
+        ],
+        "category_scores": {
+          "inteligencia_artificial": 4,
+          "vehiculos_energia": 1
+        },
+        "entidades": [
+          "OpenAI"
+        ],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 80,
+        "relevancia": 62,
+        "confiabilidad_fuente": 53,
+        "readability": {
+          "words": 65,
+          "sentences": 1,
+          "average_words_per_sentence": 65
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 66.05
+    },
+    {
+      "id": "f6b6ad0e7adf9c65",
+      "fuente_id": "huawei_google",
+      "fuente_nombre": "Huawei Central",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "huawei",
+      "nivel_fuente": "agregador",
+      "categoria": "moviles",
+      "idioma_original": "en",
+      "prioridad_fuente": 4,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Última hora: Huawei lanza el chip Kirin 9050 Pro con una mejora de rendimiento del 46 %",
+      "titulo_original": "Breaking: Huawei launches Kirin 9050 Pro chip with 46% performance upgrade - Huawei Central",
+      "enlace": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBVS3QtMEZaN0RIM3lvb1NVa1dzYWFsbzZwM3lwXzljaW5KUVl3TzJJSGc2WVVvdGhPdWhhVWVGYUIyX2l6WXNCTnVKRjVPdVU4VnRkai0wTzRLYmp1UnI3MWJ4aXdVSE5z0gFuQVVfeXFMTThYOTYwdGtkbTBOQjRNb3M0SllZRnZUaUNCLXpYQm9aemxadDlqYXBmR0l1RVc3NTFCclJHbDFVWm9seHAwTkp0WWpUNG15WDJXVjVDdXBKZlJsQ1JUYmQyUkFTQWFUZlBuYmZNY1E?oc=5",
+      "fecha": "2026-09-07T07:51:19.000Z",
+      "resumen_corto": "Última hora: Huawei lanza el chip Kirin 9050 Pro con una mejora de rendimiento del 46 % Huawei Central",
+      "resumen_largo": "Última hora: Huawei lanza el chip Kirin 9050 Pro con una mejora de rendimiento del 46 % Huawei Central",
+      "texto_original": "Breaking: Huawei launches Kirin 9050 Pro chip with 46% performance upgrade Huawei Central",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-09-07T16:59:52.674Z",
+        "index": 22,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "en",
+        "categoria": "semiconductores",
+        "categorias_secundarias": [
+          "moviles"
+        ],
+        "category_scores": {
+          "semiconductores": 1,
+          "moviles": 1
+        },
+        "entidades": [
+          "Huawei"
+        ],
+        "cifras_detectadas": [
+          "9050",
+          "46 %",
+          "46%"
+        ],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 25,
+          "signals": [
+            "\\bbreaking\\b"
+          ]
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 87,
+        "relevancia": 55,
+        "confiabilidad_fuente": 53,
+        "readability": {
+          "words": 67,
+          "sentences": 1,
+          "average_words_per_sentence": 67
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 65.7
+    },
+    {
+      "id": "b321e98633ef4b48",
+      "fuente_id": "bbc_mundo",
+      "fuente_nombre": "BBC Mundo",
+      "tipo": "rss_web",
+      "subtipo": "medio_generalista",
+      "grupo_fuente": "bbc",
+      "nivel_fuente": "medio_profesional",
+      "categoria": "actualidad",
+      "idioma_original": "es",
+      "prioridad_fuente": 5,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "\"Lo que ocurrió en Venezuela no lo he visto ni en Haití ni en Pakistán\": la experta en desastres que alerta sobre los desafíos de la reconstrucción tras los terremotos",
+      "titulo_original": "\"Lo que ocurrió en Venezuela no lo he visto ni en Haití ni en Pakistán\": la experta en desastres que alerta sobre los desafíos de la reconstrucción tras los terremotos",
+      "enlace": "https://www.bbc.com/mundo/articles/cvgywxgyrmpo?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-09-07T11:02:34.000Z",
+      "resumen_corto": "Con más de dos décadas de experiencia en asistencia humanitaria, Susana Raffalli asegura que la escala del daño en Venezuela no puede ser abordada por las ONG ni los voluntarios.",
+      "resumen_largo": "Con más de dos décadas de experiencia en asistencia humanitaria, Susana Raffalli asegura que la escala del daño en Venezuela no puede ser abordada por las ONG ni los voluntarios. La reconstrucción requiere del Estado.",
+      "texto_original": "Con más de dos décadas de experiencia en asistencia humanitaria, Susana Raffalli asegura que la escala del daño en Venezuela no puede ser abordada por las ONG ni los voluntarios. La reconstrucción requiere del Estado.",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-09-07T16:59:52.671Z",
+        "index": 15,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "inteligencia_artificial",
+        "categorias_secundarias": [
+          "moviles"
+        ],
+        "category_scores": {
+          "inteligencia_artificial": 2,
+          "moviles": 1
+        },
+        "entidades": [],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 79,
+        "relevancia": 50,
+        "confiabilidad_fuente": 70,
+        "readability": {
+          "words": 111,
+          "sentences": 5,
+          "average_words_per_sentence": 22.2
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 65.15
+    },
+    {
+      "id": "a4760673a3f55f4f",
+      "fuente_id": "wccftech_google",
+      "fuente_nombre": "Wccftech",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "wccftech",
+      "nivel_fuente": "medio_especializado",
+      "categoria": "hardware",
+      "idioma_original": "en",
+      "prioridad_fuente": 4,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "El usuario demuestra la descarga del renderizado neuronal DLSS 5 al segundo RTX 5060 Ti usando el complemento ReShade, restaurando el rendimiento original",
+      "titulo_original": "User Demonstrates Offloading DLSS 5 Neural Rendering To The Second RTX 5060 Ti Using ReShade Add-On, Restoring Original Performance - Wccftech",
+      "enlace": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9FY2h0ZVgwQ09uNEtQeHBFNFpadDdEVlJ4ZjRqb0lqUnNHWVBnbjFNZ1VlVnRUdnBMMER6TXl4cGFwUHBRLWc1XzgxNU5BRUI4SkdTa3RFS0s1UWc0ZXdNOGpKVUhPcFI0QkNuOXpfQmNZN3RVY1U3MktENl_SAYIBQVVfeXFMUHhlSVBzNnpiRnc0d2JNNm5XeTR2Rk0ydE1DOC1CS3U0VmpsR3JDQkZKY0ZTNk1wTlVMLXV0bDJmVjQ4WThIaDNwTTB3VkpWa3pCVDJfUDgzWWdLV1BqYUFzX3kydjVoYXVma2xteWwtMU5TVVYzM0VVV01lZmRSU2hBQQ?oc=5",
+      "fecha": "2026-09-07T11:56:37.000Z",
+      "resumen_corto": "El usuario demuestra la descarga del renderizado neuronal DLSS 5 al segundo RTX 5060 Ti usando el complemento ReShade, restaurando el rendimiento original Wccftech",
+      "resumen_largo": "El usuario demuestra la descarga del renderizado neuronal DLSS 5 al segundo RTX 5060 Ti usando el complemento ReShade, restaurando el rendimiento original Wccftech",
+      "texto_original": "User Demonstrates Offloading DLSS 5 Neural Rendering To The Second RTX 5060 Ti Using ReShade Add-On, Restoring Original Performance Wccftech",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-09-07T16:59:52.669Z",
+        "index": 13,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "en",
+        "categoria": "vehiculos_energia",
+        "categorias_secundarias": [
+          "tecnologia"
+        ],
+        "category_scores": {
+          "vehiculos_energia": 1,
+          "tecnologia": 1
+        },
+        "entidades": [
+          "Wccftech"
+        ],
+        "cifras_detectadas": [
+          "5060"
+        ],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 87,
+        "relevancia": 55,
+        "confiabilidad_fuente": 50,
+        "readability": {
+          "words": 84,
+          "sentences": 1,
+          "average_words_per_sentence": 84
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 64.95
+    },
+    {
+      "id": "ed35ae1fad810e41",
+      "fuente_id": "wccftech_google",
+      "fuente_nombre": "Wccftech",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "wccftech",
+      "nivel_fuente": "medio_especializado",
+      "categoria": "hardware",
+      "idioma_original": "en",
+      "prioridad_fuente": 4,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Remedy llama a CONTROL Resonant su juego más grande hasta el momento, con la mayoría de las zonas explorables en las primeras 2 horas",
+      "titulo_original": "Remedy Calls CONTROL Resonant Its Biggest Game Yet, With Most Zones Explorable Within the First 2 Hours - Wccftech",
+      "enlace": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9PcUlTYW9yVml2TWVQQTJsZTJMdjZOQUhCVWF4QWQ2ZjdkeTVMMk5IWTVCUXRSRl85RXpCbGdzNnphRVMtLVZkWGNSNnZCNDRZZk05cFZXVm5QZUtfTThLTWd0cDR3SXNKd25vOVZrTlRZRUlQM3Nj0gF8QVVfeXFMUEV6b0JzMVZDSXNoc2F0TUJNemF4YXdjRW9DS29wakM4eVpZN2FwcTBOc1RiVTVPLUhrZjZnOWowNi15Z0xJVndKcW5PckdneVMxb2lDMjlpMGlMU3BTRVNTMmJDQjh2Uy10bUFfeF9QalI1Y3llM1NLWTVKSg?oc=5",
+      "fecha": "2026-09-07T14:00:00.000Z",
+      "resumen_corto": "Remedy llama a CONTROL Resonant su juego más grande hasta el momento, con la mayoría de las zonas explorables en las primeras 2 horas Wccftech",
+      "resumen_largo": "Remedy llama a CONTROL Resonant su juego más grande hasta el momento, con la mayoría de las zonas explorables en las primeras 2 horas Wccftech",
+      "texto_original": "Remedy Calls CONTROL Resonant Its Biggest Game Yet, With Most Zones Explorable Within the First 2 Hours Wccftech",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-09-07T16:59:52.663Z",
+        "index": 3,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "en",
+        "categoria": "inteligencia_artificial",
+        "categorias_secundarias": [
+          "tecnologia"
+        ],
+        "category_scores": {
+          "inteligencia_artificial": 1,
+          "tecnologia": 1
+        },
+        "entidades": [
+          "Wccftech"
+        ],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 82,
+        "relevancia": 55,
+        "confiabilidad_fuente": 50,
+        "readability": {
+          "words": 87,
+          "sentences": 1,
+          "average_words_per_sentence": 87
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 63.2
+    },
+    {
+      "id": "7ea26653d9c328ef",
+      "fuente_id": "xataka_google",
+      "fuente_nombre": "Xataka",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "xataka",
+      "nivel_fuente": "medio_especializado",
+      "categoria": "tecnologia",
+      "idioma_original": "es",
+      "prioridad_fuente": 4,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "La Guardia Civil ha desmantelado en Almería un negocio muy lucrativo: cobrar una fortuna a inmigrantes y empadronarlos ilegalmente",
+      "titulo_original": "La Guardia Civil ha desmantelado en Almería un negocio muy lucrativo: cobrar una fortuna a inmigrantes y empadronarlos ilegalmente - Xataka",
+      "enlace": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPTGFkaXVoUnV1QjJaUHNuckE2a1lhbUhqZTZMb2IxTU5DSmI1U1BMU3IycWJKZUpYRzlMekY3V3lmNXRnTW1DOWN2Z01uQTBHNHFDSkxXTVN3bHFCeXowcFBFaDdfZDUzX0c4R1ZJbGtaZDhGSmR3R1ZOTVZLQl92R05YZ0loOWJySFR6Y3hxTXdJVXg2UG5DQlhqVXdmaXB4MVQ0VzNoYlY4TUHSAbABQVVfeXFMT21aQ2U1WXZkSnIwamdFYlFTUFBrWFNBYndiaGtTc0xSYXh6bXhVUmVCN3VWalhkbURDY1ZGcXFxcnA0Z21LUlh5NGFmUzA0WktmN0pEcW1hX0JMQVRCVWpGZWE3SDBIc2pZMUdtVFRRTWtzNXhidWd2RDU0U3hMM2QxbElWNWEweW1BenlnZ3hVeDRtaWR3RzFkMm10aU1lT0MweVNJaWZDaWVuNXQ5OS0?oc=5",
+      "fecha": "2026-09-07T13:30:00.000Z",
+      "resumen_corto": "La Guardia Civil ha desmantelado en Almería un negocio muy lucrativo: cobrar una fortuna a inmigrantes y empadronarlos ilegalmente Xataka",
+      "resumen_largo": "La Guardia Civil ha desmantelado en Almería un negocio muy lucrativo: cobrar una fortuna a inmigrantes y empadronarlos ilegalmente Xataka",
+      "texto_original": "La Guardia Civil ha desmantelado en Almería un negocio muy lucrativo: cobrar una fortuna a inmigrantes y empadronarlos ilegalmente Xataka",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-09-07T16:59:52.667Z",
+        "index": 8,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "inteligencia_artificial",
+        "categorias_secundarias": [],
+        "category_scores": {
+          "inteligencia_artificial": 1
+        },
+        "entidades": [
+          "Xataka"
+        ],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 82,
+        "relevancia": 55,
+        "confiabilidad_fuente": 50,
+        "readability": {
+          "words": 69,
+          "sentences": 1,
+          "average_words_per_sentence": 69
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 63.2
+    },
+    {
+      "id": "514e23961ec7382e",
+      "fuente_id": "xataka_google",
+      "fuente_nombre": "Xataka",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "xataka",
+      "nivel_fuente": "medio_especializado",
+      "categoria": "tecnologia",
+      "idioma_original": "es",
+      "prioridad_fuente": 4,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Tras años de \"japonización\", el mundo se enfrenta a un reto único en la historia: ya hay muchos más ancianos que niños",
+      "titulo_original": "Tras años de \"japonización\", el mundo se enfrenta a un reto único en la historia: ya hay muchos más ancianos que niños - Xataka",
+      "enlace": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPZ1VSbVd4dEhLczJwSm1ReGVHYnplWi1Rc0xWNzVQdldWSzVPdEJKYTNYcGkyaU9keVVZRV9oYWVrWXZQSEV4R1ZFUm9zdE95dHV2VUxnWXc4V1VBQ283Q29VRHVXV01aUUl1aERSdlJFanplMXg5ZzZsV1hFSVpIWmk1YlR5MV84WmJOdFB3QzZoNTczVzA2dEtBSjQyMElnbF9GYWkzQk9yRUtjRDlqUkZKLWxKNUlHd3UxUndScEs1UdIBxwFBVV95cUxPLUZCa2pLTy1kU1NVdzlIWGQyQ3RES3ZRUUlOSVA2STBuTWFNUHlSWG5adUR4VHJscGhScWdkSVZBZTlySEd4OGlwdVF3RFFyMklfX1BXdnBWbG84ZG5yOFdBcGk0RlJjeDNTc2JuanVZeFR3dEVEd2JOaDdkbFF5dkdoT0MyUnBEd3FzSTVkZzhnRWRCTFpkM3VQLWw3R1NvVjhUSVdDLXBCMXJld2lBR1V2a1dGazFHbXJEd3VqZ3J5WG5iQXVB?oc=5",
+      "fecha": "2026-09-07T13:00:00.000Z",
+      "resumen_corto": "Tras años de \"japonización\", el mundo se enfrenta a un reto único en la historia: ya hay muchos más ancianos que niños Xataka",
+      "resumen_largo": "Tras años de \"japonización\", el mundo se enfrenta a un reto único en la historia: ya hay muchos más ancianos que niños Xataka",
+      "texto_original": "Tras años de \"japonización\", el mundo se enfrenta a un reto único en la historia: ya hay muchos más ancianos que niños Xataka",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-09-07T16:59:52.668Z",
+        "index": 11,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "inteligencia_artificial",
+        "categorias_secundarias": [],
+        "category_scores": {
+          "inteligencia_artificial": 1
+        },
+        "entidades": [
+          "Xataka"
+        ],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 82,
+        "relevancia": 55,
+        "confiabilidad_fuente": 50,
+        "readability": {
+          "words": 74,
+          "sentences": 1,
+          "average_words_per_sentence": 74
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 63.2
+    },
+    {
+      "id": "ffd86de066296611",
+      "fuente_id": "xataka_google",
+      "fuente_nombre": "Xataka",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "xataka",
+      "nivel_fuente": "medio_especializado",
+      "categoria": "tecnologia",
+      "idioma_original": "es",
+      "prioridad_fuente": 4,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Hemos vivido 450 años con una imagen equivocada del tamaño de África. Un mapa a escala revela su verdadera y descomunal dimensión",
+      "titulo_original": "Hemos vivido 450 años con una imagen equivocada del tamaño de África. Un mapa a escala revela su verdadera y descomunal dimensión - Xataka",
+      "enlace": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNdFZUSHhzMERLdWcwcVcwaElhYnU0NmQxYnpfMnoyeVRGanhObDNRWUw5TXI1bFU4OWVWRzNfUnFEYTA3eGE3RWtqaGNQR0ZqWlNsZkFQejRia1cwbWFkQzBwYlFwdTVWeTdSLXA2X3VKY2lZRFAtdGV2aFZNWUQta0JYTDl3VVduNU13MTFONW54SFJYUkRZclpHeXd2LVpsQjhYSzEwbnBIVE44N0MtRlFUekc0WDg1WkRUczdxSWFJcDRDU0hpd2tmdXdMS3lwdWFQLdIB2gFBVV95cUxQcDdiWFhLOEt5cHVrZ3pBeEhJam9keUJ1QVFEYk1VbHpWY01KcS1PNDI0OGxqdFlMM3VhQTl0THpudF9YWXhlWjlIM0hxTWFtbVRnVmMtbXF1R0lTUFJpRVdWU2dmMHhSNmJ5dmlJWU92U3ZDQ1EtSjhoQWlPeWNYdGpUaHNXdzR2bHZab3hqUE1RUS1tMWVBSlRVWm9YRmlZaVZlcEM0NlFhd0Q1Uzd1MERSd1lvVVJTYWU1RnA5SmdHRE5JcmVEYmJBMHFWUnl2bjRsbEV6M0FuQQ?oc=5",
+      "fecha": "2026-09-07T12:00:28.000Z",
+      "resumen_corto": "Un mapa a escala revela su verdadera y descomunal dimensión Xataka",
+      "resumen_largo": "Hemos vivido 450 años con una imagen equivocada del tamaño de África. Un mapa a escala revela su verdadera y descomunal dimensión Xataka",
+      "texto_original": "Hemos vivido 450 años con una imagen equivocada del tamaño de África. Un mapa a escala revela su verdadera y descomunal dimensión Xataka",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-09-07T16:59:52.668Z",
+        "index": 12,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "vehiculos_energia",
+        "categorias_secundarias": [],
+        "category_scores": {
+          "vehiculos_energia": 1
+        },
+        "entidades": [
+          "Xataka"
+        ],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 82,
+        "relevancia": 55,
+        "confiabilidad_fuente": 50,
+        "readability": {
+          "words": 78,
+          "sentences": 5,
+          "average_words_per_sentence": 15.6
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 63.2
+    },
+    {
+      "id": "d7864e7f9fc59453",
+      "fuente_id": "xataka_google",
+      "fuente_nombre": "Xataka",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "xataka",
+      "nivel_fuente": "medio_especializado",
+      "categoria": "tecnologia",
+      "idioma_original": "es",
+      "prioridad_fuente": 4,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Para Jensen Huang, \"la AGI ha llegado\" con GPT-6 Astra. El problema es que no es la primera vez que lo dice",
+      "titulo_original": "Para Jensen Huang, \"la AGI ha llegado\" con GPT-6 Astra. El problema es que no es la primera vez que lo dice - Xataka",
+      "enlace": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNY3hFRTNNcW81Y3BWUkNxN0FJbWVxS2dSVW9iekhtbzRMM2o0QURNdXg5OTI2a3dORkl4eGpRNjRuMEpUMmlOUWJaSHZHLXZoR2RCSzJ1V19scXBLRVFHS0REN3lLN3pxTFpacjdiRUVNS3U0NFZVQ0JnLVZKc1lfSnR1RktkMXhoWUo3ZEotSTA1emY0dTdlYVdzWXlTcURxWEdpTkdhOUFQb3l3R1dpalE3M1BDWC1HZ0HSAb8BQVVfeXFMTWc5YzVpSUV0OE5LX0hMMXh4Vkw1VWFzdVBVeTVLQ0Z5VklwV0tuZnUwR1NnVkRzZEhPWkJ5TFg0UXBIVHpEZndNVlA5aGh6d0tEeUEyMFF3eUlfWHFVVmZhaEkyNTc5VWJRVmFZODhnNy0xZ19IcmJoV2VXeEswak84VGFNTGF3RHRLNUpPWl9fd1lFMExwLTI3LWpnYlRtN3ZJVkVzLXJoOGV1Y29kMkk5VjF2UlpHUlRzcWVYMU0?oc=5",
+      "fecha": "2026-09-07T09:30:28.000Z",
+      "resumen_corto": "Para Jensen Huang, \"la AGI ha llegado\" con GPT-6 Astra.",
+      "resumen_largo": "Para Jensen Huang, \"la AGI ha llegado\" con GPT-6 Astra. El problema es que no es la primera vez que lo dice Xataka",
+      "texto_original": "Para Jensen Huang, \"la AGI ha llegado\" con GPT-6 Astra. El problema es que no es la primera vez que lo dice Xataka",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-09-07T16:59:52.673Z",
+        "index": 20,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "inteligencia_artificial",
+        "categorias_secundarias": [],
+        "category_scores": {
+          "inteligencia_artificial": 1
+        },
+        "entidades": [
+          "Xataka"
+        ],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 82,
+        "relevancia": 55,
+        "confiabilidad_fuente": 50,
+        "readability": {
+          "words": 67,
+          "sentences": 6,
+          "average_words_per_sentence": 11.17
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 63.2
+    },
+    {
+      "id": "edcbecb3f15f2ba5",
+      "fuente_id": "wccftech_google",
+      "fuente_nombre": "Wccftech",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "wccftech",
+      "nivel_fuente": "medio_especializado",
+      "categoria": "hardware",
+      "idioma_original": "en",
+      "prioridad_fuente": 4,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "El shooter StarCraft de Blizzard no será un clon de Destiny, dice Schreier, mientras Corden adelanta una campaña para un jugador",
+      "titulo_original": "Blizzard’s StarCraft Shooter Won’t be a Destiny Clone, Schreier says, as Corden Teases a Single-Player Campaign - Wccftech",
+      "enlace": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNQmdqWmx6RFNVQUl0UnlNWG8xLWU1TWVMdE5WUDlZdnR1S1VrZjRtNHA3akVJMERZTUJKVFNVajJPcC04LU1zb0dCN1RWdDdsZUI1T2JheU5iWHJTUXlXUDQzVW16VjdRN2NzT1hEai1HNG1RWGN4RU1pbWxkY3RxT05pTTBldG5RcjBvUklTdlRGN1g4dFVaaEJVcTnSAaIBQVVfeXFMT3VLU1d4YldCNTVLMHdrc2kxanRrTFZ4WTVKd015LTJCRmc3OHI2YkRQSGJ5bXIxUkpSOXFBemxzUHJWZDdBQjR1ajBiZjJJODdBak5DeWFCMVEteHZ1NUpzZXZfUk5zRGFpWVo5UDMxdzkwNHlBU2IxaEVvR1hkTmVIV0wwQks5Y01vSFNycWVMcUgwWEEwd2duNGZyYnQxUHZ3?oc=5",
+      "fecha": "2026-09-07T07:00:00.000Z",
+      "resumen_corto": "El shooter StarCraft de Blizzard no será un clon de Destiny, dice Schreier, mientras Corden adelanta una campaña para un jugador",
+      "resumen_largo": "El shooter StarCraft de Blizzard no será un clon de Destiny, dice Schreier, mientras Corden adelanta una campaña para un jugador",
+      "texto_original": "Blizzard’s StarCraft Shooter Won’t be a Destiny Clone, Schreier says, as Corden Teases a Single-Player Campaign Wccftech",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-09-07T16:59:52.675Z",
+        "index": 24,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "en",
+        "categoria": "inteligencia_artificial",
+        "categorias_secundarias": [
+          "tecnologia"
+        ],
+        "category_scores": {
+          "inteligencia_artificial": 1,
+          "tecnologia": 1
+        },
+        "entidades": [
+          "Wccftech"
+        ],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 82,
+        "relevancia": 55,
+        "confiabilidad_fuente": 50,
+        "readability": {
+          "words": 73,
+          "sentences": 1,
+          "average_words_per_sentence": 73
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 63.2
+    },
+    {
+      "id": "11ff2550ba777fe6",
+      "fuente_id": "ia_dia",
+      "fuente_nombre": "IA al Día",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "ia_general",
+      "nivel_fuente": "agregador",
+      "categoria": "inteligencia_artificial",
+      "idioma_original": "es",
+      "prioridad_fuente": 3,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "“La AGI ha llegado”: GPT-6 Astra reabre la idea sobre la era de la inteligencia artificial general - reasonwhy.es",
+      "titulo_original": "“La AGI ha llegado”: GPT-6 Astra reabre la idea sobre la era de la inteligencia artificial general - reasonwhy.es",
+      "enlace": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQM3p1VHY5Mkg1N3pjVUlUNzhjeGpVWGdqbXZyYWhVTXI1aVMtSVpjSWpVZFJObWNDZ204Nm1hMnZQVm5LVmJ1MnRiM1NRUVMzSmJIQ3FMaDVRdUFNd0ZGYzVoaXRhTEtKd3RWYVFJSExSZzVPYkhvX3dKMDViTHdFRVFJZ2xlVktaZWx3Q2M1ZmFNdVFC?oc=5",
+      "fecha": "2026-09-07T06:38:00.000Z",
+      "resumen_corto": "“La AGI ha llegado”: GPT-6 Astra reabre la idea sobre la era de la inteligencia artificial general reasonwhy.es",
+      "resumen_largo": "“La AGI ha llegado”: GPT-6 Astra reabre la idea sobre la era de la inteligencia artificial general reasonwhy.es",
+      "texto_original": "“La AGI ha llegado”: GPT-6 Astra reabre la idea sobre la era de la inteligencia artificial general reasonwhy.es",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-09-07T16:59:52.675Z",
+        "index": 25,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "inteligencia_artificial",
+        "categorias_secundarias": [],
+        "category_scores": {
+          "inteligencia_artificial": 4
+        },
+        "entidades": [],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 75,
+        "relevancia": 57,
+        "confiabilidad_fuente": 53,
+        "readability": {
+          "words": 60,
+          "sentences": 6,
+          "average_words_per_sentence": 10
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 62.3
+    },
+    {
+      "id": "194717d2d24c1f38",
+      "fuente_id": "ia_dia",
+      "fuente_nombre": "IA al Día",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "ia_general",
+      "nivel_fuente": "agregador",
+      "categoria": "inteligencia_artificial",
+      "idioma_original": "es",
+      "prioridad_fuente": 3,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Si la inteligencia artificial puede aprobar la universidad, ¿qué estamos enseñando? - Infobae",
+      "titulo_original": "Si la inteligencia artificial puede aprobar la universidad, ¿qué estamos enseñando? - Infobae",
+      "enlace": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOSUdISzl1RTZfcE9uc0JGTXFxNkN2Y3ptSkhfYW9maDJqMGF1SmdYRkRwVmk1aVVpeVVBaDZLNTU1cVpfM2V0NmRqb0JVRy1YR0tTNVMtS09ZcGFhWEJSaV9TV0tMUnRSTGJkQk1QRHZ2cDBBOGNJdFpYcGlvdklOel9KQ015VjBKazMyTUUtdDJPZlR3WGNzd2EyTWhvd3hzQWpvUFBiS2dCSnNHSURPWWNFMk5LMWxQM2lkV1lIVjFQd9IB3AFBVV95cUxQYXZCY3o4RGxaTDNFRjRLZ1M4VFl4cVRabmxBR1YwRHExQ2t6VmVKbXhvTURQR0E0dDhvbWo3bl95eFFkYkRVNVd2blFlSFBOeHR1OWprZnVmSWRYR0wyMmJ4RkVjTVRIZE9LMGhrUmNUZE1RSENNeGhad2lSdmhtSW0wNENKbVU4OTVicFhlejlfV2ZIZGVxV1c3dTFKOGZwMVpzSEgtQ0lkOW4yZmdPU2F1WnpleTNSeTBrQ3ZLdWtOVm9SQjV4VWRMUDZidFdXSHdOckJtMTQ0RGN2?oc=5",
+      "fecha": "2026-09-04T12:44:00.000Z",
+      "resumen_corto": "Si la inteligencia artificial puede aprobar la universidad, ¿qué estamos enseñando?",
+      "resumen_largo": "Si la inteligencia artificial puede aprobar la universidad, ¿qué estamos enseñando?",
+      "texto_original": "Si la inteligencia artificial puede aprobar la universidad, ¿qué estamos enseñando? Infobae",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-09-07T16:59:52.679Z",
+        "index": 35,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "inteligencia_artificial",
+        "categorias_secundarias": [
+          "semiconductores"
+        ],
+        "category_scores": {
+          "inteligencia_artificial": 3,
+          "semiconductores": 1
+        },
+        "entidades": [],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 75,
+        "relevancia": 57,
+        "confiabilidad_fuente": 53,
+        "readability": {
+          "words": 43,
+          "sentences": 6,
+          "average_words_per_sentence": 7.17
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 62.3
+    },
+    {
+      "id": "da60978decbedb8b",
+      "fuente_id": "google_news_es",
+      "fuente_nombre": "Google News ES",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "google_news",
+      "nivel_fuente": "agregador",
+      "categoria": "tecnologia",
+      "idioma_original": "es",
+      "prioridad_fuente": 3,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Toyota y Scania colaboran para probar la tecnología de pila de combustible de hidrógeno en el transporte pesado - Sala de Prensa Toyota España",
+      "titulo_original": "Toyota y Scania colaboran para probar la tecnología de pila de combustible de hidrógeno en el transporte pesado - Sala de Prensa Toyota España",
+      "enlace": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQcnQtRi12MEttbXdmZ3VRM0VBdTZRT0k2RUkzbUs5N0NESzAtMGhEdDk0a3lSLWFRajQ3WU1lc3lTNDczcDZhS0lGRko5aHYydGtTNTZTeWM0dExDQVltS0xZT2tnSjg2VnRYWFhCWXd6WWNBMHNIR3R5NmRxTUEyOTdBeWZpZXh5dGtFRktEeVg1dVNLNFo4UGVVNDctdFdBdWdjSk9MSFpUNktING85VWc1QVdxaWd3d3FpYTdYX0lkUkdSVWF0aUZSVWJBQ094M2xz?oc=5",
+      "fecha": "2026-09-07T13:20:34.000Z",
+      "resumen_corto": "Toyota y Scania colaboran para probar la tecnología de pila de combustible de hidrógeno en el transporte pesado Sala de Prensa Toyota España",
+      "resumen_largo": "Toyota y Scania colaboran para probar la tecnología de pila de combustible de hidrógeno en el transporte pesado Sala de Prensa Toyota España",
+      "texto_original": "Toyota y Scania colaboran para probar la tecnología de pila de combustible de hidrógeno en el transporte pesado Sala de Prensa Toyota España",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-09-07T16:59:52.667Z",
+        "index": 9,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "tecnologia",
+        "categorias_secundarias": [
+          "inteligencia_artificial"
+        ],
+        "category_scores": {
+          "tecnologia": 2,
+          "inteligencia_artificial": 1
+        },
+        "entidades": [],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 75,
+        "relevancia": 50,
+        "confiabilidad_fuente": 53,
+        "readability": {
+          "words": 75,
+          "sentences": 1,
+          "average_words_per_sentence": 75
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 59.5
+    },
+    {
+      "id": "b3f5ac40f0dea48c",
+      "fuente_id": "google_news_es",
+      "fuente_nombre": "Google News ES",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "google_news",
+      "nivel_fuente": "agregador",
+      "categoria": "tecnologia",
+      "idioma_original": "es",
+      "prioridad_fuente": 3,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Experto en tecnología: \"Apagué estos cuatro ajustes de mi TV y fue como renovación gratuita\" - El Economista",
+      "titulo_original": "Experto en tecnología: \"Apagué estos cuatro ajustes de mi TV y fue como renovación gratuita\" - El Economista",
+      "enlace": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOek5qN0JmQ1lxOFROd1JJM3FVaDdseXJ1RTJLT0RCRGZSYTB6OGtjLVBnUWFIZTNzLXZlSTU5SG1vblpmbi1ic2ZwQnludXhyNkw1cjBfU25LSUZPanZDNkFjWkpDTnY1YmRMZEdhbXpVX1YyS0NReThtZkdXZVRMaGZiM0Z2UGMtWlMwZVMxdms2N3ZpUkVMamI3ZGQ0N0V0ZEU4OWlua0hwcUU4RkVhNUdlNk5tV2ZOWkNycHRqa1IyR2FxYU1zUW51dmhZU3VKWlRmYmpNdVgydTA4RjFwbW9rVlh2OHBvNmNtclRR?oc=5",
+      "fecha": "2026-09-07T10:30:01.000Z",
+      "resumen_corto": "Experto en tecnología: \"Apagué estos cuatro ajustes de mi TV y fue como renovación gratuita\" El Economista",
+      "resumen_largo": "Experto en tecnología: \"Apagué estos cuatro ajustes de mi TV y fue como renovación gratuita\" El Economista",
+      "texto_original": "Experto en tecnología: \"Apagué estos cuatro ajustes de mi TV y fue como renovación gratuita\" El Economista",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-09-07T16:59:52.672Z",
+        "index": 17,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "tecnologia",
+        "categorias_secundarias": [
+          "inteligencia_artificial"
+        ],
+        "category_scores": {
+          "tecnologia": 2,
+          "inteligencia_artificial": 1
+        },
+        "entidades": [],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 75,
+        "relevancia": 50,
+        "confiabilidad_fuente": 53,
+        "readability": {
+          "words": 55,
+          "sentences": 1,
+          "average_words_per_sentence": 55
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 59.5
+    },
+    {
+      "id": "35747ef71f3a6742",
+      "fuente_id": "google_news_es",
+      "fuente_nombre": "Google News ES",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "google_news",
+      "nivel_fuente": "agregador",
+      "categoria": "tecnologia",
+      "idioma_original": "es",
+      "prioridad_fuente": 3,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Acer resucita la marca Packard Bell: tecnología accesible, sencilla y orientada al uso cotidiano - La Voz de Galicia",
+      "titulo_original": "Acer resucita la marca Packard Bell: tecnología accesible, sencilla y orientada al uso cotidiano - La Voz de Galicia",
+      "enlace": "https://news.google.com/rss/articles/CBMijAJBVV95cUxOZGlvNUFRQ1BTNlNlV200LXBWM0poRE5ZYkw5d0FnWk02RjNtNUszam9faTJKVkxQTTRkYmZ0eHpBcUMzQnV0Y2l1WGg2VmxCWG1WSUpzM3ZJc2paem5OWlozTWg1YWd1S19Fd3BJdVQyaGVuOVd3OUZlQU02WjJYWVdnYU82UHpRV19zRzN0eFJEd0x0XzJoOEM5cmhDb3VsRDN4VFZMTFNxYTk2Q0tUZDJFZ3NXWHFIZmszaE9NYnRKVVZzQ2pld3hiVGRFamZDQWRpV01vaHZ0c1VGUS15SkVUWmVON1prN0FfLXJIVFZQdy1PMkJzMHV1eEFadGw2RTRkSk14MWtKOGhE0gGoAkFVX3lxTE54N05ndFFuQWppZGd6ZEFOMWI5V3UwMExPX1dSWUNacEFtdGlGQ01mM0pvNVNSZWZLMGl1em91VzM2TklRWlBQWXlGVExlS1hLVHZlWWhERTlwZFFSZWdCTTBmZS1md1piZVVaVHc5ODFTOFprX2toNWhtX0Rlem05ZFBwV3RsZ1AxVjMycmJuVHpEQ2NJN1o5bzU1NTFMeHBqcFdKd0xUQmpKR01QLUV4dDVacW5ab1hMczVvd2FGWlZqLUpRc1RaZWlyc3NZLTlCb0wzczlzMGdhMWk0bGlaVXJ2TnJfUmdrWWR6UUsxX3ozcU9mZ3JMSG4wTVlRTV9nWlJsREZiNTY3Wkp6YUVXVTVBdjBZU0kyVkZvV1VCQkloLTFrTkVP?oc=5",
+      "fecha": "2026-09-07T10:08:25.000Z",
+      "resumen_corto": "Acer resucita la marca Packard Bell: tecnología accesible, sencilla y orientada al uso cotidiano La Voz de Galicia",
+      "resumen_largo": "Acer resucita la marca Packard Bell: tecnología accesible, sencilla y orientada al uso cotidiano La Voz de Galicia",
+      "texto_original": "Acer resucita la marca Packard Bell: tecnología accesible, sencilla y orientada al uso cotidiano La Voz de Galicia",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-09-07T16:59:52.672Z",
+        "index": 18,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "tecnologia",
+        "categorias_secundarias": [
+          "inteligencia_artificial"
+        ],
+        "category_scores": {
+          "tecnologia": 2,
+          "inteligencia_artificial": 1
+        },
+        "entidades": [],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 75,
+        "relevancia": 50,
+        "confiabilidad_fuente": 53,
+        "readability": {
+          "words": 65,
+          "sentences": 1,
+          "average_words_per_sentence": 65
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 59.5
+    },
+    {
+      "id": "492c8a2aaf552f8c",
+      "fuente_id": "google_news_es",
+      "fuente_nombre": "Google News ES",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "google_news",
+      "nivel_fuente": "agregador",
+      "categoria": "tecnologia",
+      "idioma_original": "es",
+      "prioridad_fuente": 3,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "El decreto de Meloni de reconocimiento facial con IA genera preocupación entre los expertos - EL PAÍS",
+      "titulo_original": "El decreto de Meloni de reconocimiento facial con IA genera preocupación entre los expertos - EL PAÍS",
+      "enlace": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQdy1DM2hUTE02OG5kak9Od2N1cjg0UFF6UXh4OUZ1ckcxcWt6WWgyVlNwUDctT3dHVHpqX3hkVmJtbkRpSWZuZVZjZ1g0Y3VmUzFIbEJQWXgwMUJ4ZWJlNVdJOTVSY1VNU0NUUHZ4d3FMZTA3OGRkRU4xOFlYdTRpdjZURzFKdXU2SEpHQWZZcHI4UUpPR2p5UjY1d21tTkljWWRlSWduS1EwNDlVLXREb1VUQnQ5NkdVMWhYOUI3QWRmb3hlU2k0ek1HcjY1QnppMGww0gHnAUFVX3lxTE80cGxHWHZDY1MyQkdqMEk2Yi1rOEFQcUFnSnZFb3pkdXU4eS1lOVhwSkdPUG1ocVp6d0dxUjVBZk45Sm5vMEZXUGJ2STZVcC1icERrMXc0Nnl4NW9zdGZPdGJxYU5sczhiUVR2aE9aN2RUZzVkXzhwQ0NNYmRYX01Bck9vMlZidm9DMWt2MllMUE1ocWZyVFVYM3Y4eUM1Vm1aYzFpNU1FNXlwZWtkTW9yRW1Pb2QzTXhHNXEyZmZhclR0ekV0ZXhPWV9hbFRBM0xIdFAwOE9jLVdPRWlnc0Y0Y2w1dEE2TQ?oc=5",
+      "fecha": "2026-09-07T03:30:01.000Z",
+      "resumen_corto": "El decreto de Meloni de reconocimiento facial con IA genera preocupación entre los expertos EL PAÍS",
+      "resumen_largo": "El decreto de Meloni de reconocimiento facial con IA genera preocupación entre los expertos EL PAÍS",
+      "texto_original": "El decreto de Meloni de reconocimiento facial con IA genera preocupación entre los expertos EL PAÍS",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-09-07T16:59:52.677Z",
+        "index": 28,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "inteligencia_artificial",
+        "categorias_secundarias": [],
+        "category_scores": {
+          "inteligencia_artificial": 2
+        },
+        "entidades": [],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 75,
+        "relevancia": 50,
+        "confiabilidad_fuente": 53,
+        "readability": {
+          "words": 55,
+          "sentences": 1,
+          "average_words_per_sentence": 55
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 59.5
+    },
+    {
+      "id": "25793b2367ae4351",
+      "fuente_id": "resumen_militar",
+      "fuente_nombre": "El Resumen Militar",
       "tipo": "telegram",
+      "subtipo": "canal_telegram",
+      "grupo_fuente": "telegram_militar",
+      "nivel_fuente": "telegram",
       "categoria": "militar",
       "idioma_original": "es",
       "prioridad_fuente": 3,
-      "titulo": "😂 🇺🇸 QUÉ PRECIOSO SE VE EL USS ABRAHAM LINCOLN… Entrando al puerto de Sattahip, en Tailandia, acompañado de sus elegantes aviones decorativos de cubierta y con una decoración estilo vintage. ✈️ ✨ Una auténtica postal",
-      "titulo_original": "😂 🇺🇸 QUÉ PRECIOSO SE VE EL USS ABRAHAM LINCOLN… Entrando al puerto de Sattahip, en Tailandia, acompañado de sus elegantes aviones decorativos de cubierta y con una decoración estilo vintage. ✈️ ✨ Una auténtica postal",
-      "enlace": "https://t.me/laguerratotalhcm/290",
-      "fecha": "2026-09-02T20:14:24.000Z",
-      "resumen_corto": "😂 🇺🇸 QUÉ PRECIOSO SE VE EL USS ABRAHAM LINCOLN… Entrando al puerto de Sattahip, en Tailandia, acompañado de sus elegantes aviones decorativos de cubierta y con una decoración estilo vintage.",
-      "resumen_largo": "😂 🇺🇸 QUÉ PRECIOSO SE VE EL USS ABRAHAM LINCOLN… Entrando al puerto de Sattahip, en Tailandia, acompañado de sus elegantes aviones decorativos de cubierta y con una decoración estilo vintage. ✈️ ✨ Una auténtica postal naval.",
-      "texto_original": "😂 🇺🇸 QUÉ PRECIOSO SE VE EL USS ABRAHAM LINCOLN… Entrando al puerto de Sattahip, en Tailandia, acompañado de sus elegantes aviones decorativos de cubierta y con una decoración estilo vintage. ✈️ ✨ Una auténtica postal naval.",
-      "analisis": null
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Су-57Э и Як-130М в ожидании международного авиасалона El Alamein International Airshow 2026 в Египте . Военный Осведомитель",
+      "titulo_original": "Су-57Э и Як-130М в ожидании международного авиасалона El Alamein International Airshow 2026 в Египте . Военный Осведомитель",
+      "enlace": "https://t.me/elresumenmilitar/98972",
+      "fecha": "2026-09-07T16:05:46.000Z",
+      "resumen_corto": "Су-57Э и Як-130М в ожидании международного авиасалона El Alamein International Airshow 2026 в Египте .",
+      "resumen_largo": "Су-57Э и Як-130М в ожидании международного авиасалона El Alamein International Airshow 2026 в Египте .",
+      "texto_original": "Су-57Э и Як-130М в ожидании международного авиасалона El Alamein International Airshow 2026 в Египте . Военный Осведомитель",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-09-07T16:59:52.660Z",
+        "index": 1,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "inteligencia_artificial",
+        "categorias_secundarias": [
+          "actualidad"
+        ],
+        "category_scores": {
+          "inteligencia_artificial": 1,
+          "actualidad": 1
+        },
+        "entidades": [],
+        "cifras_detectadas": [
+          "2026"
+        ],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 80,
+        "relevancia": 50,
+        "confiabilidad_fuente": 45,
+        "readability": {
+          "words": 56,
+          "sentences": 6,
+          "average_words_per_sentence": 9.33
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 59.25
     },
     {
-      "id": "a0e790c58395a39d",
-      "fuente_id": "guerra_total",
-      "fuente_nombre": "La Guerra Total HCM",
-      "tipo": "telegram",
-      "categoria": "militar",
+      "id": "8ab52950e987ca73",
+      "fuente_id": "google_news_es",
+      "fuente_nombre": "Google News ES",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "google_news",
+      "nivel_fuente": "agregador",
+      "categoria": "tecnologia",
       "idioma_original": "es",
       "prioridad_fuente": 3,
-      "titulo": "Operadores rusos de drones FPV publican registros de ataques de precisión dirigidos contra infantería ucraniana en posiciones descubiertas. El contenido refuerza la narrativa de guerra psicológica habitual en el frente:",
-      "titulo_original": "Operadores rusos de drones FPV publican registros de ataques de precisión dirigidos contra infantería ucraniana en posiciones descubiertas. El contenido refuerza la narrativa de guerra psicológica habitual en el frente:",
-      "enlace": "https://t.me/laguerratotalhcm/289",
-      "fecha": "2026-09-02T19:46:06.000Z",
-      "resumen_corto": "Operadores rusos de drones FPV publican registros de ataques de precisión dirigidos contra infantería ucraniana en posiciones descubiertas.",
-      "resumen_largo": "Operadores rusos de drones FPV publican registros de ataques de precisión dirigidos contra infantería ucraniana en posiciones descubiertas. El contenido refuerza la narrativa de guerra psicológica habitual en el frente: contrastar el trato brindado a los combatientes capturados con la letalidad directa que enfrentan las tropas que continúan en combate activo.",
-      "texto_original": "Operadores rusos de drones FPV publican registros de ataques de precisión dirigidos contra infantería ucraniana en posiciones descubiertas. El contenido refuerza la narrativa de guerra psicológica habitual en el frente: contrastar el trato brindado a los combatientes capturados con la letalidad directa que enfrentan las tropas que continúan en combate activo.",
-      "analisis": null
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Galaxy Z Fold8: el plegable encuentra sus dimensiones - El Mundo",
+      "titulo_original": "Galaxy Z Fold8: el plegable encuentra sus dimensiones - El Mundo",
+      "enlace": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1fY29ldlFYdGUydHVmMEplM3Y1UkpGZWNUQnBsWm9YbHQyTmpxcUVjOGttc2RjcjhaZnh4ejM1QzRtR1g3VHpGWFVBWGxvWXNJZmRBVllKTmVORXNhd2RSajkzcHRGN1NPNzNfWGY4N0FubEU0ZkFPMWRIc1o0WnPSAX9BVV95cUxQMVgtX2NneFRPTXRJVXYyLTRYeFFaenVmTUlDVmZQc0IyTVJWYS0yODRjSG1mNXk1eDN2Q1l2STY4TjZISWxDbWlGZVBYNUduN3BvS1BkMHN5REk4NHBmdnZsV2JBdDFVOXJNMzBHX2t0enRybEczQ1VHNWQ5ejBn?oc=5",
+      "fecha": "2026-09-07T16:32:24.000Z",
+      "resumen_corto": "Galaxy Z Fold8: el plegable encuentra sus dimensiones El Mundo",
+      "resumen_largo": "Galaxy Z Fold8: el plegable encuentra sus dimensiones El Mundo",
+      "texto_original": "Galaxy Z Fold8: el plegable encuentra sus dimensiones El Mundo",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-09-07T16:59:52.658Z",
+        "index": 0,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "tecnologia",
+        "categorias_secundarias": [],
+        "category_scores": {},
+        "entidades": [],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 75,
+        "relevancia": 45,
+        "confiabilidad_fuente": 53,
+        "readability": {
+          "words": 35,
+          "sentences": 1,
+          "average_words_per_sentence": 35
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 57.5
     },
     {
-      "id": "11599db5aacbd758",
-      "fuente_id": "guerra_total",
-      "fuente_nombre": "La Guerra Total HCM",
-      "tipo": "telegram",
-      "categoria": "militar",
+      "id": "298e8ecfac8406a4",
+      "fuente_id": "google_news_es",
+      "fuente_nombre": "Google News ES",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "google_news",
+      "nivel_fuente": "agregador",
+      "categoria": "tecnologia",
       "idioma_original": "es",
       "prioridad_fuente": 3,
-      "titulo": "En el sector fronterizo de Sumy (Streltskaya Pushkarka), la Aviación de Ejército rusa utilizó un misil guiado de precisión Kh-39 (LMUR / Izdelie 305 ) para destruir un centro de control y pilotaje de drones de la 116.ª B",
-      "titulo_original": "En el sector fronterizo de Sumy (Streltskaya Pushkarka), la Aviación de Ejército rusa utilizó un misil guiado de precisión Kh-39 (LMUR / Izdelie 305 ) para destruir un centro de control y pilotaje de drones de la 116.ª B",
-      "enlace": "https://t.me/laguerratotalhcm/288",
-      "fecha": "2026-09-02T19:27:56.000Z",
-      "resumen_corto": "En el sector fronterizo de Sumy (Streltskaya Pushkarka), la Aviación de Ejército rusa utilizó un misil guiado de precisión Kh-39 (LMUR / Izdelie 305 ) para destruir un centro de control y pilotaje de drones de la 116.ª Brigada de Defensa Territorial ucraniana.",
-      "resumen_largo": "En el sector fronterizo de Sumy (Streltskaya Pushkarka), la Aviación de Ejército rusa utilizó un misil guiado de precisión Kh-39 (LMUR / Izdelie 305 ) para destruir un centro de control y pilotaje de drones de la 116.ª Brigada de Defensa Territorial ucraniana. El ataque a distancia busca degradar la capacidad de reconocimiento y operación de drones FPV ucranianos en las rutas logísticas hacia la frontera.",
-      "texto_original": "En el sector fronterizo de Sumy (Streltskaya Pushkarka), la Aviación de Ejército rusa utilizó un misil guiado de precisión Kh-39 (LMUR / Izdelie 305 ) para destruir un centro de control y pilotaje de drones de la 116.ª Brigada de Defensa Territorial ucraniana. El ataque a distancia busca degradar la capacidad de reconocimiento y operación de drones FPV ucranianos en las rutas logísticas hacia la frontera.",
-      "analisis": null
-    },
-    {
-      "id": "67dcbddaef66314c",
-      "fuente_id": "guerra_total",
-      "fuente_nombre": "La Guerra Total HCM",
-      "tipo": "telegram",
-      "categoria": "militar",
-      "idioma_original": "es",
-      "prioridad_fuente": 3,
-      "titulo": "En el sector de Dobropolye (Dobropillia), tripulaciones de lanzacohetes múltiples pesados 9K515 Tornado-S de la Agrupación de Fuerzas «Tsentr» ejecutaron un ataque de precisión contra un área de concentración de tropas y",
-      "titulo_original": "En el sector de Dobropolye (Dobropillia), tripulaciones de lanzacohetes múltiples pesados 9K515 Tornado-S de la Agrupación de Fuerzas «Tsentr» ejecutaron un ataque de precisión contra un área de concentración de tropas y",
-      "enlace": "https://t.me/laguerratotalhcm/287",
-      "fecha": "2026-09-02T19:22:53.000Z",
-      "resumen_corto": "En el sector de Dobropolye (Dobropillia), tripulaciones de lanzacohetes múltiples pesados 9K515 Tornado-S de la Agrupación de Fuerzas «Tsentr» ejecutaron un ataque de precisión contra un área de concentración de tropas y blindados ucranianos.",
-      "resumen_largo": "En el sector de Dobropolye (Dobropillia), tripulaciones de lanzacohetes múltiples pesados 9K515 Tornado-S de la Agrupación de Fuerzas «Tsentr» ejecutaron un ataque de precisión contra un área de concentración de tropas y blindados ucranianos. El empleo de proyectiles guiados de 300 mm busca degradar las reservas y la logística ucraniana en la retaguardia operativa antes de que puedan desplegarse en la línea de contacto.",
-      "texto_original": "En el sector de Dobropolye (Dobropillia), tripulaciones de lanzacohetes múltiples pesados 9K515 Tornado-S de la Agrupación de Fuerzas «Tsentr» ejecutaron un ataque de precisión contra un área de concentración de tropas y blindados ucranianos. El empleo de proyectiles guiados de 300 mm busca degradar las reservas y la logística ucraniana en la retaguardia operativa antes de que puedan desplegarse en la línea de contacto.",
-      "analisis": null
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Christopher Nolan: “He hablado con investigadores líderes en inteligencia artificial que dicen que este es su ‘momento Oppenheimer’, la tecnología puede salvarnos o destruirnos” - La Vanguardia",
+      "titulo_original": "Christopher Nolan: “He hablado con investigadores líderes en inteligencia artificial que dicen que este es su ‘momento Oppenheimer’, la tecnología puede salvarnos o destruirnos” - La Vanguardia",
+      "enlace": "https://news.google.com/rss/articles/CBMimwJBVV95cUxONld3eGVENGJwSjhORmZnSjRhdVgxbWlFUmxTX0lDaFd0aEZJblZGZDhROXJQeE5pR3A5OE0xM2xvdFFMeXZNWk1qSFIzYnJKZ0tIdVhxLU9pSG1sX1lNT2ltcDRtWG5XaDhvUG4xeEtreTAyTEZjaTZSRmdPR3otYUVoa2xCLUFvdkdkYnBBTDRtNjJDWXcxUnphV2RaOEcyU0dIZkczclNiOE1MaVJrYnJyNHZ4MHRjTFowQ1E0MzR2M0Yza0F5WF9GRHk1TmlXdTJPQjZoVzU0WUJxSkNld2tOcm1fN0IzcFFLcld0UWVrZEZZZC1HRklQeTBBckFRQ18wMEk4OExpck4yekJXV3ZVX09VSHM1REFN0gGgAkFVX3lxTE1NSnMxT3JCVmJVUnMyUjB6ekl0eHNLS1pKYlk1M2Ewc0gxNUlNVkl1TUtHOU9NZDdhQnlBY05uTHJSTUx3R3dtbkxJdzk2TXdONlR4WU1qNnpEWnZubEFOOWF3dS1NeXY3dGFOYWRiVVpmekR0WUs4cGxldnFONHBNVjFGdno0MlFfdVE3WUN4LXJCLV9aMUhkZ3oyMnpiUndQZkFWVjM2Qk50UFNKNS1SanYybWlfRVFjdXI0MzA2dW1Cd3JPTkpSdG40Vm1WRTRmWWZmRDltdF9LcW5wUmpIZHFDVzFPZWFrTl9JUFFvd3pnZGtCUFhRZjlmY0NaVEI1Qmtfc09wdWNVUGcxQ0pYNUVieG1MS0ExYTZpaGwzeQ?oc=5",
+      "fecha": "2026-09-07T09:57:26.000Z",
+      "resumen_corto": "Christopher Nolan: “He hablado con investigadores líderes en inteligencia artificial que dicen que este es su ‘momento Oppenheimer’, la tecnología puede salvarnos o destruirnos” La Vanguardia",
+      "resumen_largo": "Christopher Nolan: “He hablado con investigadores líderes en inteligencia artificial que dicen que este es su ‘momento Oppenheimer’, la tecnología puede salvarnos o destruirnos” La Vanguardia",
+      "texto_original": "Christopher Nolan: “He hablado con investigadores líderes en inteligencia artificial que dicen que este es su ‘momento Oppenheimer’, la tecnología puede salvarnos o destruirnos” La Vanguardia",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-09-07T16:59:52.673Z",
+        "index": 19,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "inteligencia_artificial",
+        "categorias_secundarias": [
+          "tecnologia"
+        ],
+        "category_scores": {
+          "inteligencia_artificial": 3,
+          "tecnologia": 2
+        },
+        "entidades": [],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 60,
+        "relevancia": 57,
+        "confiabilidad_fuente": 53,
+        "readability": {
+          "words": 95,
+          "sentences": 1,
+          "average_words_per_sentence": 95
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 57.05
     },
     {
       "id": "18528c0c8a5c5a65",
       "fuente_id": "guerra_total",
       "fuente_nombre": "La Guerra Total HCM",
       "tipo": "telegram",
+      "subtipo": "canal_telegram",
+      "grupo_fuente": "telegram_militar",
+      "nivel_fuente": "telegram",
       "categoria": "militar",
       "idioma_original": "es",
       "prioridad_fuente": 3,
+      "analizar": true,
+      "resumir": true,
       "titulo": "Imágenes grabadas desde las filas ucranianas muestran el estado de un carro de combate T-64BV tras recibir varios impactos de drones FPV rusos. A pesar de los daños estructurales y en los módulos de blindaje reactivo, el",
       "titulo_original": "Imágenes grabadas desde las filas ucranianas muestran el estado de un carro de combate T-64BV tras recibir varios impactos de drones FPV rusos. A pesar de los daños estructurales y en los módulos de blindaje reactivo, el",
       "enlace": "https://t.me/laguerratotalhcm/286",
@@ -737,24 +2474,612 @@
       "resumen_corto": "Imágenes grabadas desde las filas ucranianas muestran el estado de un carro de combate T-64BV tras recibir varios impactos de drones FPV rusos.",
       "resumen_largo": "Imágenes grabadas desde las filas ucranianas muestran el estado de un carro de combate T-64BV tras recibir varios impactos de drones FPV rusos. A pesar de los daños estructurales y en los módulos de blindaje reactivo, el registro permite evaluar la vulnerabilidad y supervivencia del blindado frente a municiones merodeadoras ligeras.",
       "texto_original": "Imágenes grabadas desde las filas ucranianas muestran el estado de un carro de combate T-64BV tras recibir varios impactos de drones FPV rusos. A pesar de los daños estructurales y en los módulos de blindaje reactivo, el registro permite evaluar la vulnerabilidad y supervivencia del blindado frente a municiones merodeadoras ligeras.",
-      "analisis": null
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-09-07T16:59:52.683Z",
+        "index": 42,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "vehiculos_energia",
+        "categorias_secundarias": [
+          "militar",
+          "inteligencia_artificial",
+          "moviles"
+        ],
+        "category_scores": {
+          "vehiculos_energia": 2,
+          "militar": 2,
+          "inteligencia_artificial": 1,
+          "moviles": 1
+        },
+        "entidades": [],
+        "cifras_detectadas": [
+          "64B"
+        ],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 65,
+        "relevancia": 57,
+        "confiabilidad_fuente": 45,
+        "readability": {
+          "words": 144,
+          "sentences": 7,
+          "average_words_per_sentence": 20.57
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 56.8
     },
     {
-      "id": "8df561630c0bb6be",
-      "fuente_id": "xiaomi_google",
-      "fuente_nombre": "Xiaomi",
-      "tipo": "rss_web",
-      "categoria": "moviles",
-      "idioma_original": "en",
-      "prioridad_fuente": 5,
-      "titulo": "<x id=\"1\"/>Xiaomi",
-      "titulo_original": "- Xiaomi",
-      "enlace": "https://news.google.com/rss/articles/CBMie0FVX3lxTE8xVVBEZmxJMGRRRjZReUxhNm5BMWN5UnljWGx3QnpYclJCejZ1Ynp5Q2pLOVpOWV9qcmFCdXVob3pVOVJZTjBQYkZVS0NRTGR4WlZ4cDByRzY0MGR3MXZQU29mQ1NYNDcwTHFqVjVNMFBGcmtvVGVmTGxMMA?oc=5",
-      "fecha": "2026-08-24T07:12:51.000Z",
-      "resumen_corto": "<x id=\"1\"/>Xiaomi",
-      "resumen_largo": "<x id=\"1\"/>Xiaomi",
-      "texto_original": "Xiaomi",
-      "analisis": null
+      "id": "a0e790c58395a39d",
+      "fuente_id": "guerra_total",
+      "fuente_nombre": "La Guerra Total HCM",
+      "tipo": "telegram",
+      "subtipo": "canal_telegram",
+      "grupo_fuente": "telegram_militar",
+      "nivel_fuente": "telegram",
+      "categoria": "militar",
+      "idioma_original": "es",
+      "prioridad_fuente": 3,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Operadores rusos de drones FPV publican registros de ataques de precisión dirigidos contra infantería ucraniana en posiciones descubiertas. El contenido refuerza la narrativa de guerra psicológica habitual en el frente:",
+      "titulo_original": "Operadores rusos de drones FPV publican registros de ataques de precisión dirigidos contra infantería ucraniana en posiciones descubiertas. El contenido refuerza la narrativa de guerra psicológica habitual en el frente:",
+      "enlace": "https://t.me/laguerratotalhcm/289",
+      "fecha": "2026-09-02T19:46:06.000Z",
+      "resumen_corto": "Operadores rusos de drones FPV publican registros de ataques de precisión dirigidos contra infantería ucraniana en posiciones descubiertas.",
+      "resumen_largo": "Operadores rusos de drones FPV publican registros de ataques de precisión dirigidos contra infantería ucraniana en posiciones descubiertas. El contenido refuerza la narrativa de guerra psicológica habitual en el frente: contrastar el trato brindado a los combatientes capturados con la letalidad directa que enfrentan las tropas que continúan en combate activo.",
+      "texto_original": "Operadores rusos de drones FPV publican registros de ataques de precisión dirigidos contra infantería ucraniana en posiciones descubiertas. El contenido refuerza la narrativa de guerra psicológica habitual en el frente: contrastar el trato brindado a los combatientes capturados con la letalidad directa que enfrentan las tropas que continúan en combate activo.",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-09-07T16:59:52.680Z",
+        "index": 39,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "militar",
+        "categorias_secundarias": [
+          "inteligencia_artificial"
+        ],
+        "category_scores": {
+          "militar": 3,
+          "inteligencia_artificial": 1
+        },
+        "entidades": [],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 60,
+        "relevancia": 57,
+        "confiabilidad_fuente": 45,
+        "readability": {
+          "words": 132,
+          "sentences": 7,
+          "average_words_per_sentence": 18.86
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 55.05
+    },
+    {
+      "id": "11599db5aacbd758",
+      "fuente_id": "guerra_total",
+      "fuente_nombre": "La Guerra Total HCM",
+      "tipo": "telegram",
+      "subtipo": "canal_telegram",
+      "grupo_fuente": "telegram_militar",
+      "nivel_fuente": "telegram",
+      "categoria": "militar",
+      "idioma_original": "es",
+      "prioridad_fuente": 3,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "En el sector fronterizo de Sumy (Streltskaya Pushkarka), la Aviación de Ejército rusa utilizó un misil guiado de precisión Kh-39 (LMUR / Izdelie 305 ) para destruir un centro de control y pilotaje de drones de la 116.ª B",
+      "titulo_original": "En el sector fronterizo de Sumy (Streltskaya Pushkarka), la Aviación de Ejército rusa utilizó un misil guiado de precisión Kh-39 (LMUR / Izdelie 305 ) para destruir un centro de control y pilotaje de drones de la 116.ª B",
+      "enlace": "https://t.me/laguerratotalhcm/288",
+      "fecha": "2026-09-02T19:27:56.000Z",
+      "resumen_corto": "En el sector fronterizo de Sumy (Streltskaya Pushkarka), la Aviación de Ejército rusa utilizó un misil guiado de precisión Kh-39 (LMUR / Izdelie 305 ) para destruir un centro de control y pilotaje de drones de la 116.ª Brigada de Defensa Territorial ucraniana.",
+      "resumen_largo": "En el sector fronterizo de Sumy (Streltskaya Pushkarka), la Aviación de Ejército rusa utilizó un misil guiado de precisión Kh-39 (LMUR / Izdelie 305 ) para destruir un centro de control y pilotaje de drones de la 116.ª Brigada de Defensa Territorial ucraniana. El ataque a distancia busca degradar la capacidad de reconocimiento y operación de drones FPV ucranianos en las rutas logísticas hacia la frontera.",
+      "texto_original": "En el sector fronterizo de Sumy (Streltskaya Pushkarka), la Aviación de Ejército rusa utilizó un misil guiado de precisión Kh-39 (LMUR / Izdelie 305 ) para destruir un centro de control y pilotaje de drones de la 116.ª Brigada de Defensa Territorial ucraniana. El ataque a distancia busca degradar la capacidad de reconocimiento y operación de drones FPV ucranianos en las rutas logísticas hacia la frontera.",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-09-07T16:59:52.681Z",
+        "index": 40,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "militar",
+        "categorias_secundarias": [
+          "inteligencia_artificial"
+        ],
+        "category_scores": {
+          "militar": 5,
+          "inteligencia_artificial": 1
+        },
+        "entidades": [],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 60,
+        "relevancia": 57,
+        "confiabilidad_fuente": 45,
+        "readability": {
+          "words": 152,
+          "sentences": 10,
+          "average_words_per_sentence": 15.2
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 55.05
+    },
+    {
+      "id": "67dcbddaef66314c",
+      "fuente_id": "guerra_total",
+      "fuente_nombre": "La Guerra Total HCM",
+      "tipo": "telegram",
+      "subtipo": "canal_telegram",
+      "grupo_fuente": "telegram_militar",
+      "nivel_fuente": "telegram",
+      "categoria": "militar",
+      "idioma_original": "es",
+      "prioridad_fuente": 3,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "En el sector de Dobropolye (Dobropillia), tripulaciones de lanzacohetes múltiples pesados 9K515 Tornado-S de la Agrupación de Fuerzas «Tsentr» ejecutaron un ataque de precisión contra un área de concentración de tropas y",
+      "titulo_original": "En el sector de Dobropolye (Dobropillia), tripulaciones de lanzacohetes múltiples pesados 9K515 Tornado-S de la Agrupación de Fuerzas «Tsentr» ejecutaron un ataque de precisión contra un área de concentración de tropas y",
+      "enlace": "https://t.me/laguerratotalhcm/287",
+      "fecha": "2026-09-02T19:22:53.000Z",
+      "resumen_corto": "En el sector de Dobropolye (Dobropillia), tripulaciones de lanzacohetes múltiples pesados 9K515 Tornado-S de la Agrupación de Fuerzas «Tsentr» ejecutaron un ataque de precisión contra un área de concentración de tropas y blindados ucranianos.",
+      "resumen_largo": "En el sector de Dobropolye (Dobropillia), tripulaciones de lanzacohetes múltiples pesados 9K515 Tornado-S de la Agrupación de Fuerzas «Tsentr» ejecutaron un ataque de precisión contra un área de concentración de tropas y blindados ucranianos. El empleo de proyectiles guiados de 300 mm busca degradar las reservas y la logística ucraniana en la retaguardia operativa antes de que puedan desplegarse en la línea de contacto.",
+      "texto_original": "En el sector de Dobropolye (Dobropillia), tripulaciones de lanzacohetes múltiples pesados 9K515 Tornado-S de la Agrupación de Fuerzas «Tsentr» ejecutaron un ataque de precisión contra un área de concentración de tropas y blindados ucranianos. El empleo de proyectiles guiados de 300 mm busca degradar las reservas y la logística ucraniana en la retaguardia operativa antes de que puedan desplegarse en la línea de contacto.",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-09-07T16:59:52.682Z",
+        "index": 41,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "inteligencia_artificial",
+        "categorias_secundarias": [],
+        "category_scores": {
+          "inteligencia_artificial": 1
+        },
+        "entidades": [],
+        "cifras_detectadas": [
+          "300 mm"
+        ],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 65,
+        "relevancia": 50,
+        "confiabilidad_fuente": 45,
+        "readability": {
+          "words": 137,
+          "sentences": 5,
+          "average_words_per_sentence": 27.4
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 54
+    },
+    {
+      "id": "dcd27ccc1428c78d",
+      "fuente_id": "guerra_total",
+      "fuente_nombre": "La Guerra Total HCM",
+      "tipo": "telegram",
+      "subtipo": "canal_telegram",
+      "grupo_fuente": "telegram_militar",
+      "nivel_fuente": "telegram",
+      "categoria": "militar",
+      "idioma_original": "es",
+      "prioridad_fuente": 3,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "😂 🇺🇸 QUÉ PRECIOSO SE VE EL USS ABRAHAM LINCOLN… Entrando al puerto de Sattahip, en Tailandia, acompañado de sus elegantes aviones decorativos de cubierta y con una decoración estilo vintage. ✈️ ✨ Una auténtica postal",
+      "titulo_original": "😂 🇺🇸 QUÉ PRECIOSO SE VE EL USS ABRAHAM LINCOLN… Entrando al puerto de Sattahip, en Tailandia, acompañado de sus elegantes aviones decorativos de cubierta y con una decoración estilo vintage. ✈️ ✨ Una auténtica postal",
+      "enlace": "https://t.me/laguerratotalhcm/290",
+      "fecha": "2026-09-02T20:14:24.000Z",
+      "resumen_corto": "😂 🇺🇸 QUÉ PRECIOSO SE VE EL USS ABRAHAM LINCOLN… Entrando al puerto de Sattahip, en Tailandia, acompañado de sus elegantes aviones decorativos de cubierta y con una decoración estilo vintage.",
+      "resumen_largo": "😂 🇺🇸 QUÉ PRECIOSO SE VE EL USS ABRAHAM LINCOLN… Entrando al puerto de Sattahip, en Tailandia, acompañado de sus elegantes aviones decorativos de cubierta y con una decoración estilo vintage. ✈️ ✨ Una auténtica postal naval.",
+      "texto_original": "😂 🇺🇸 QUÉ PRECIOSO SE VE EL USS ABRAHAM LINCOLN… Entrando al puerto de Sattahip, en Tailandia, acompañado de sus elegantes aviones decorativos de cubierta y con una decoración estilo vintage. ✈️ ✨ Una auténtica postal naval.",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-09-07T16:59:52.680Z",
+        "index": 38,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "inteligencia_artificial",
+        "categorias_secundarias": [
+          "moviles"
+        ],
+        "category_scores": {
+          "inteligencia_artificial": 2,
+          "moviles": 1
+        },
+        "entidades": [],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 60,
+        "relevancia": 50,
+        "confiabilidad_fuente": 45,
+        "readability": {
+          "words": 114,
+          "sentences": 7,
+          "average_words_per_sentence": 16.29
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 52.25
+    },
+    {
+      "id": "64fd7dcccdd54534",
+      "fuente_id": "resumen_militar",
+      "fuente_nombre": "El Resumen Militar",
+      "tipo": "telegram",
+      "subtipo": "canal_telegram",
+      "grupo_fuente": "telegram_militar",
+      "nivel_fuente": "telegram",
+      "categoria": "militar",
+      "idioma_original": "es",
+      "prioridad_fuente": 3,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "🇷🇺 💥 🇺🇦 ПИТЬ И КУРИТЬ НА УКРАИНЕ ЗАПРЕЩАЕМ! Как вы помните ранее ВС РФ разнесли ликёро-водочный завод \"Хортица\" в Запорожье прямо с продукцией. Сегодня же хохлы заявили об успешном поражении табачной фабрики в Прилу",
+      "titulo_original": "🇷🇺 💥 🇺🇦 ПИТЬ И КУРИТЬ НА УКРАИНЕ ЗАПРЕЩАЕМ! Как вы помните ранее ВС РФ разнесли ликёро-водочный завод \"Хортица\" в Запорожье прямо с продукцией. Сегодня же хохлы заявили об успешном поражении табачной фабрики в Прилу",
+      "enlace": "https://t.me/elresumenmilitar/98968",
+      "fecha": "2026-09-07T13:50:23.000Z",
+      "resumen_corto": "Как вы помните ранее ВС РФ разнесли ликёро-водочный завод \"Хортица\" в Запорожье прямо с продукцией.",
+      "resumen_largo": "🇷🇺 💥 🇺🇦 ПИТЬ И КУРИТЬ НА УКРАИНЕ ЗАПРЕЩАЕМ! Как вы помните ранее ВС РФ разнесли ликёро-водочный завод \"Хортица\" в Запорожье прямо с продукцией. Сегодня же хохлы заявили об успешном поражении табачной фабрики в Прилуках.",
+      "texto_original": "🇷🇺 💥 🇺🇦 ПИТЬ И КУРИТЬ НА УКРАИНЕ ЗАПРЕЩАЕМ! Как вы помните ранее ВС РФ разнесли ликёро-водочный завод \"Хортица\" в Запорожье прямо с продукцией. Сегодня же хохлы заявили об успешном поражении табачной фабрики в Прилуках. Данная фабрика производила сигареты Dunhill, Kent, Lucky Strike, Pall Mall, Vogue и Rothmans. Подписаться на канал | наш МАХ",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-09-07T16:59:52.664Z",
+        "index": 4,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "militar",
+        "categorias_secundarias": [],
+        "category_scores": {},
+        "entidades": [],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 60,
+        "relevancia": 45,
+        "confiabilidad_fuente": 45,
+        "readability": {
+          "words": 119,
+          "sentences": 13,
+          "average_words_per_sentence": 9.15
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 50.25
+    },
+    {
+      "id": "1b7b5049a23b4bd6",
+      "fuente_id": "resumen_militar",
+      "fuente_nombre": "El Resumen Militar",
+      "tipo": "telegram",
+      "subtipo": "canal_telegram",
+      "grupo_fuente": "telegram_militar",
+      "nivel_fuente": "telegram",
+      "categoria": "militar",
+      "idioma_original": "es",
+      "prioridad_fuente": 3,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "🇷🇺 🇺🇦 Хохол Билецкий, который ранее занимал пост главы \"Навоза\", а сейчас является генералом, записал видео из Святогорска. Того Святогорска, который находился на расстоянии более 8 км от линии фронта, но был освобож",
+      "titulo_original": "🇷🇺 🇺🇦 Хохол Билецкий, который ранее занимал пост главы \"Навоза\", а сейчас является генералом, записал видео из Святогорска. Того Святогорска, который находился на расстоянии более 8 км от линии фронта, но был освобож",
+      "enlace": "https://t.me/elresumenmilitar/98964",
+      "fecha": "2026-09-07T13:47:46.000Z",
+      "resumen_corto": "Того Святогорска, который находился на расстоянии более 8 км от линии фронта, но был освобожден в докладах группировки \"Запад\".",
+      "resumen_largo": "🇷🇺 🇺🇦 Хохол Билецкий, который ранее занимал пост главы \"Навоза\", а сейчас является генералом, записал видео из Святогорска. Того Святогорска, который находился на расстоянии более 8 км от линии фронта, но был освобожден в докладах группировки \"Запад\". О чем было доложено Владимиру Путину .",
+      "texto_original": "🇷🇺 🇺🇦 Хохол Билецкий, который ранее занимал пост главы \"Навоза\", а сейчас является генералом, записал видео из Святогорска. Того Святогорска, который находился на расстоянии более 8 км от линии фронта, но был освобожден в докладах группировки \"Запад\". О чем было доложено Владимиру Путину . Опять эти хохлы фотошопят и нейросетью пользуются, ведь не могут же в докладах врать и дискредитировать. Подписаться на канал | наш МАХ",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-09-07T16:59:52.665Z",
+        "index": 5,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "militar",
+        "categorias_secundarias": [],
+        "category_scores": {},
+        "entidades": [],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 60,
+        "relevancia": 45,
+        "confiabilidad_fuente": 45,
+        "readability": {
+          "words": 140,
+          "sentences": 11,
+          "average_words_per_sentence": 12.73
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 50.25
+    },
+    {
+      "id": "02adec1e0983cdac",
+      "fuente_id": "resumen_militar",
+      "fuente_nombre": "El Resumen Militar",
+      "tipo": "telegram",
+      "subtipo": "canal_telegram",
+      "grupo_fuente": "telegram_militar",
+      "nivel_fuente": "telegram",
+      "categoria": "militar",
+      "idioma_original": "es",
+      "prioridad_fuente": 3,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "🇷🇺 🇺🇦 Что-то Иващенко совсем зраду стал нести Говорит \"не хочу обнадёживать и врать\" касаемо ударов ВС РФ по украинской энергетике этой зимой: \"Я не могу вас обрадовать и не могу вводить людей в заблуждение. ГУР уже",
+      "titulo_original": "🇷🇺 🇺🇦 Что-то Иващенко совсем зраду стал нести Говорит \"не хочу обнадёживать и врать\" касаемо ударов ВС РФ по украинской энергетике этой зимой: \"Я не могу вас обрадовать и не могу вводить людей в заблуждение. ГУР уже",
+      "enlace": "https://t.me/elresumenmilitar/98963",
+      "fecha": "2026-09-07T13:47:21.000Z",
+      "resumen_corto": "🇷🇺 🇺🇦 Что-то Иващенко совсем зраду стал нести Говорит \"не хочу обнадёживать и врать\" касаемо ударов ВС РФ по украинской энергетике этой зимой: \"Я не могу вас обрадовать и не могу вводить людей в заблуждение.",
+      "resumen_largo": "🇷🇺 🇺🇦 Что-то Иващенко совсем зраду стал нести Говорит \"не хочу обнадёживать и врать\" касаемо ударов ВС РФ по украинской энергетике этой зимой: \"Я не могу вас обрадовать и не могу вводить людей в заблуждение. ГУР уже понимает по каким целям РФ планирует бить, какими средствами и приблизительно когда это может произойти. Сегодня главная задача россиян — уменьшить наш военный потенциал и ударные способности, в частности, они наносят удары по местам хранения боеприпасов, пытаются найти и поразить производства.",
+      "texto_original": "🇷🇺 🇺🇦 Что-то Иващенко совсем зраду стал нести Говорит \"не хочу обнадёживать и врать\" касаемо ударов ВС РФ по украинской энергетике этой зимой: \"Я не могу вас обрадовать и не могу вводить людей в заблуждение. ГУР уже понимает по каким целям РФ планирует бить, какими средствами и приблизительно когда это может произойти. Сегодня главная задача россиян — уменьшить наш военный потенциал и ударные способности, в частности, они наносят удары по местам хранения боеприпасов, пытаются найти и поразить производства. Однако, по мере наступления холодов Россия активирует удары именно по украинской энергетике.\" А с чего такая откровенность вдруг и зрадные речи? А как же перемоги и истории, что \"русские только по гражданским бьют\"? А тут на тебе — оказывается по складам с БК лупят и ищут производство оружия 🙂 Подписаться на канал | наш МАХ",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-09-07T16:59:52.666Z",
+        "index": 6,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "militar",
+        "categorias_secundarias": [],
+        "category_scores": {},
+        "entidades": [],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 60,
+        "relevancia": 45,
+        "confiabilidad_fuente": 45,
+        "readability": {
+          "words": 225,
+          "sentences": 13,
+          "average_words_per_sentence": 17.31
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 50.25
+    },
+    {
+      "id": "ca465e0487101eef",
+      "fuente_id": "resumen_militar",
+      "fuente_nombre": "El Resumen Militar",
+      "tipo": "telegram",
+      "subtipo": "canal_telegram",
+      "grupo_fuente": "telegram_militar",
+      "nivel_fuente": "telegram",
+      "categoria": "militar",
+      "idioma_original": "es",
+      "prioridad_fuente": 3,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "🇷🇺 🇰🇵 Мост, соединяющий Северную Корею и Россию, был открыт По нему уже пустили движение автотранспорта. На церемонии открытия по видеосвязи присутствовали Михаил Мишустин и премьер-министр КНДР Пак Тхе Сон. Подписат",
+      "titulo_original": "🇷🇺 🇰🇵 Мост, соединяющий Северную Корею и Россию, был открыт По нему уже пустили движение автотранспорта. На церемонии открытия по видеосвязи присутствовали Михаил Мишустин и премьер-министр КНДР Пак Тхе Сон. Подписат",
+      "enlace": "https://t.me/elresumenmilitar/98959",
+      "fecha": "2026-09-07T13:45:50.000Z",
+      "resumen_corto": "🇷🇺 🇰🇵 Мост, соединяющий Северную Корею и Россию, был открыт По нему уже пустили движение автотранспорта.",
+      "resumen_largo": "🇷🇺 🇰🇵 Мост, соединяющий Северную Корею и Россию, был открыт По нему уже пустили движение автотранспорта. На церемонии открытия по видеосвязи присутствовали Михаил Мишустин и премьер-министр КНДР Пак Тхе Сон. Подписаться на канал | наш МАХ",
+      "texto_original": "🇷🇺 🇰🇵 Мост, соединяющий Северную Корею и Россию, был открыт По нему уже пустили движение автотранспорта. На церемонии открытия по видеосвязи присутствовали Михаил Мишустин и премьер-министр КНДР Пак Тхе Сон. Подписаться на канал | наш МАХ",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-09-07T16:59:52.666Z",
+        "index": 7,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "militar",
+        "categorias_secundarias": [],
+        "category_scores": {},
+        "entidades": [],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 60,
+        "relevancia": 45,
+        "confiabilidad_fuente": 45,
+        "readability": {
+          "words": 118,
+          "sentences": 10,
+          "average_words_per_sentence": 11.8
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 50.25
     }
-  ]
+  ],
+  "analyzed_at": "2026-09-07T16:59:52.683Z",
+  "analysis_stats": {
+    "input_items": 43,
+    "valid_items": 43,
+    "rejected_items": 0,
+    "duplicate_items": 0,
+    "clickbait_items": 0,
+    "spam_items": 0,
+    "summaries_generated": 43,
+    "average_quality": 77,
+    "average_relevance": 56
+  },
+  "validation": {
+    "version": "1.1",
+    "executed_at": "2026-09-07T16:59:52.796Z",
+    "original_items": 43,
+    "rejected_items": 0,
+    "final_items": 43,
+    "limit": 60,
+    "status": "ok"
+  }
 }

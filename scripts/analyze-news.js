@@ -2193,6 +2193,6 @@ try {
   console.error(
     `Error fatal en analyze-news.js: ${error.message}`
   );
-
   process.exit(1);
+      }
     

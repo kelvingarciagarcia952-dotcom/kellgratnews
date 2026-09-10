@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "updated_at": "2026-09-10T01:03:54.447Z",
+  "updated_at": "2026-09-10T05:56:51.074Z",
   "configuracion": {
     "limite_global": 60,
     "frecuencia_minutos": 60,
@@ -22,52 +22,602 @@
   },
   "source_stats": {
     "active_sources": 15,
-    "successful_sources": 14,
-    "collected_items": 57,
-    "deduplicated_items": 48,
-    "final_items": 48
+    "successful_sources": 15,
+    "collected_items": 63,
+    "deduplicated_items": 51,
+    "final_items": 51
   },
   "items": [
     {
-      "id": "7811724e86a7e7df",
-      "fuente_id": "openai_google",
-      "fuente_nombre": "OpenAI",
+      "id": "1f790ca7d4819506",
+      "fuente_id": "huawei_central",
+      "fuente_nombre": "Huawei Central",
       "tipo": "rss_web",
-      "subtipo": "google_news",
-      "grupo_fuente": "openai",
-      "nivel_fuente": "fuente_oficial",
-      "categoria": "inteligencia_artificial",
+      "subtipo": "medio_especializado",
+      "grupo_fuente": "huawei",
+      "nivel_fuente": "secundaria_especializada",
+      "categoria": "moviles",
       "idioma_original": "en",
       "prioridad_fuente": 5,
       "analizar": true,
       "resumir": true,
-      "titulo": "Investigación de restablecimientos inesperados del límite de uso",
-      "titulo_original": "Investigating unexpected usage limit resets - OpenAI",
-      "enlace": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5Ya2Q4TGdNbDZIMlBSWHBjdkZUbmlaRnlsenJIMDVCekFFdXVOS01HVFpXbERIa052MEQxNTBRZy1TNzdLR1JCREhlY3NNVy1PUDU4TlY2d1RMZ1E1Qkp3MGdUR3c3dTFfNFVaZ1MxNA?oc=5",
-      "fecha": "2026-09-09T17:57:17.000Z",
-      "resumen_corto": "La investigación del límite de uso inesperado restablece OpenAI",
-      "resumen_largo": "La investigación del límite de uso inesperado restablece OpenAI",
-      "texto_original": "Investigating unexpected usage limit resets OpenAI",
+      "titulo": "Huawei y Apple impulsarán las ventas mundiales de dispositivos plegables en un 37% en 2027: informe",
+      "titulo_original": "Huawei, Apple to boost global foldable sales by 37% in 2027: Report",
+      "enlace": "https://www.huaweicentral.com/huawei-apple-to-boost-global-foldable-sales-by-37-in-2027-report/",
+      "fecha": "2026-09-10T04:41:53.000Z",
+      "resumen_corto": "Un nuevo informe de Counterpoint predice que Apple, Huawei y Samsung llevarán el gráfico global de ventas plegables a un nuevo máximo para 2027.",
+      "resumen_largo": "Un nuevo informe de Counterpoint predice que Apple, Huawei y Samsung llevarán el gráfico global de ventas plegables a un nuevo máximo para 2027. La predicción llega cuando Cupertino lanza el primer iPhone plegable: iPhone DUO con un diseño similar al Pura X Max. Counterpoint dijo que el mercado mundial de productos plegables en general puede enviar más de 100 […] The post Huawei y Apple impulsarán las ventas globales de productos plegables en un 37% en 2027: informe apareció por primera vez en Huawei Central.",
+      "texto_original": "A new report by Counterpoint predicts that Apple, Huawei, and Samsung will take the global foldable sales graph to a new high by 2027. The prediction comes as Cupertino launches the first iPhone fold – iPhone DUO with a Pura X Max-like design. Counterpoint said the overall global foldable market can ship more than 100 […] The post Huawei, Apple to boost global foldable sales by 37% in 2027: Report appeared first on Huawei Central.",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-10T01:03:54.271Z",
-        "index": 10,
+        "processed_at": "2026-09-10T05:56:50.886Z",
+        "index": 2,
         "resumen": {
           "generado": true,
           "origen": "translated"
         },
         "idioma_detectado": "es",
         "idioma_original": "en",
+        "categoria": "moviles",
+        "categorias_secundarias": [
+          "inteligencia_artificial",
+          "vehiculos_energia",
+          "software_internet"
+        ],
+        "category_scores": {
+          "moviles": 3,
+          "inteligencia_artificial": 2,
+          "vehiculos_energia": 1,
+          "software_internet": 1,
+          "tecnologia": 1
+        },
+        "entidades": [
+          "Huawei",
+          "Samsung",
+          "Apple",
+          "iPhone"
+        ],
+        "cifras_detectadas": [
+          "37%",
+          "2027"
+        ],
+        "content_type": "report",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 97,
+        "relevancia": 80,
+        "confiabilidad_fuente": 75,
+        "readability": {
+          "words": 158,
+          "sentences": 7,
+          "average_words_per_sentence": 22.57
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 84.7
+    },
+    {
+      "id": "93eb69ba5c84dab0",
+      "fuente_id": "huawei_central",
+      "fuente_nombre": "Huawei Central",
+      "tipo": "rss_web",
+      "subtipo": "medio_especializado",
+      "grupo_fuente": "huawei",
+      "nivel_fuente": "secundaria_especializada",
+      "categoria": "moviles",
+      "idioma_original": "en",
+      "prioridad_fuente": 5,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "La serie Huawei Mate 80 continúa mostrando fuertes ventas y pronto alcanzará los 9 millones",
+      "titulo_original": "Huawei Mate 80 series continues to show strong sales, soon to hit 9 million",
+      "enlace": "https://www.huaweicentral.com/huawei-mate-80-series-sales-soon-to-hit-9-million/",
+      "fecha": "2026-09-09T12:13:33.000Z",
+      "resumen_corto": "Huawei Mate 80 se ha convertido en una de las series de teléfonos líderes en el mercado de ventas de teléfonos inteligentes de China, y el buque insignia se acerca ahora a la marca de los 9 millones.",
+      "resumen_largo": "Huawei Mate 80 se ha convertido en una de las series de teléfonos líderes en el mercado de ventas de teléfonos inteligentes de China, y el buque insignia se acerca ahora a la marca de los 9 millones. Y quién sabe, podría completar la meta de 10 millones antes de la presentación de los nuevos teléfonos Mate. Según el informe de ventas de RDObservation, la serie Huawei Mate 80 es […] La serie posterior Huawei Mate 80 continúa mostrando fuertes ventas, y pronto alcanzará los 9 millones apareció por primera vez en Huawei Central.",
+      "texto_original": "Huawei Mate 80 has become one of the leading phone series in China’s smartphone sales market, and the flagship is now approaching the 9 million mark. And who knows, it might complete the 10 million goal before the new Mate phones’ unveiling. According to the sales report from RDObservation, the Huawei Mate 80 series is […] The post Huawei Mate 80 series continues to show strong sales, soon to hit 9 million appeared first on Huawei Central.",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-09-10T05:56:50.905Z",
+        "index": 27,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "en",
+        "categoria": "moviles",
+        "categorias_secundarias": [
+          "inteligencia_artificial",
+          "vehiculos_energia",
+          "software_internet"
+        ],
+        "category_scores": {
+          "moviles": 5,
+          "inteligencia_artificial": 1,
+          "vehiculos_energia": 1,
+          "software_internet": 1
+        },
+        "entidades": [
+          "Huawei",
+          "Meta"
+        ],
+        "cifras_detectadas": [
+          "9 m",
+          "10 m"
+        ],
+        "content_type": "report",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 97,
+        "relevancia": 75,
+        "confiabilidad_fuente": 75,
+        "readability": {
+          "words": 159,
+          "sentences": 7,
+          "average_words_per_sentence": 22.71
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 82.7
+    },
+    {
+      "id": "e2a71d1b324dec4b",
+      "fuente_id": "bbc_mundo",
+      "fuente_nombre": "BBC Mundo",
+      "tipo": "rss_web",
+      "subtipo": "medio_generalista",
+      "grupo_fuente": "bbc",
+      "nivel_fuente": "medio_profesional",
+      "categoria": "actualidad",
+      "idioma_original": "es",
+      "prioridad_fuente": 5,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Trump promete darle US$5.000 a cada adulto estadounidense si los republicanos ganan las elecciones de medio término",
+      "titulo_original": "Trump promete darle US$5.000 a cada adulto estadounidense si los republicanos ganan las elecciones de medio término",
+      "enlace": "https://www.bbc.com/mundo/articles/cj06y0qm11lo?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-09-10T03:13:27.000Z",
+      "resumen_corto": "El presidente de Estados Unidos, Donald Trump, prometió este miércoles pagarle US$5.000 a cada estadounidense adulto si los republicanos ganan ambas cámaras del Congreso en las próximas elecciones de medio término.",
+      "resumen_largo": "El presidente de Estados Unidos, Donald Trump, prometió este miércoles pagarle US$5.000 a cada estadounidense adulto si los republicanos ganan ambas cámaras del Congreso en las próximas elecciones de medio término. \"Si los republicanos ganan la Cámara de Representantes y el Senado de EE.UU., gracias a nuestro tremendo éxito económico (...) entregaré un dividendo de US$5.000 a cada ciudadano adulto\", declaró al inaugurar la Convención Nacional Republicana en Dallas, Texas. El mandatario añadió que será \"muy parecido a cuando una empresa exitosa\" paga dividendos a sus inversores.",
+      "texto_original": "El presidente de Estados Unidos, Donald Trump, prometió este miércoles pagarle US$5.000 a cada estadounidense adulto si los republicanos ganan ambas cámaras del Congreso en las próximas elecciones de medio término. \"Si los republicanos ganan la Cámara de Representantes y el Senado de EE.UU., gracias a nuestro tremendo éxito económico (...) entregaré un dividendo de US$5.000 a cada ciudadano adulto\", declaró al inaugurar la Convención Nacional Republicana en Dallas, Texas. El mandatario añadió que será \"muy parecido a cuando una empresa exitosa\" paga dividendos a sus inversores. La única condición, según Trump, es que el dinero debe gastarse dentro del país. La BBC solicitó más información a la Casa Blanca, sin respuesta al momento de publicar este artículo. Podría tratarse de la primera vez que un presidente estadounidense ofrece un pago de este tipo en el contexto de un llamado para incentivar la participación en las urnas el 3 de noviembre.",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-09-10T05:56:50.894Z",
+        "index": 11,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
         "categoria": "inteligencia_artificial",
         "categorias_secundarias": [
-          "tecnologia"
+          "actualidad",
+          "vehiculos_energia"
         ],
         "category_scores": {
           "inteligencia_artificial": 2,
-          "tecnologia": 2
+          "actualidad": 2,
+          "vehiculos_energia": 1
         },
         "entidades": [
-          "OpenAI"
+          "BBC"
+        ],
+        "cifras_detectadas": [
+          "$5.000"
+        ],
+        "content_type": "report",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 25,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 97,
+        "relevancia": 62,
+        "confiabilidad_fuente": 80,
+        "readability": {
+          "words": 221,
+          "sentences": 23,
+          "average_words_per_sentence": 9.61
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 78.75
+    },
+    {
+      "id": "f626394455aa8b7f",
+      "fuente_id": "bbc_mundo",
+      "fuente_nombre": "BBC Mundo",
+      "tipo": "rss_web",
+      "subtipo": "medio_generalista",
+      "grupo_fuente": "bbc",
+      "nivel_fuente": "medio_profesional",
+      "categoria": "actualidad",
+      "idioma_original": "es",
+      "prioridad_fuente": 5,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Drones, ciberataques y desinformación: la \"guerra híbrida\" de la que se acusa a Rusia en Europa",
+      "titulo_original": "Drones, ciberataques y desinformación: la \"guerra híbrida\" de la que se acusa a Rusia en Europa",
+      "enlace": "https://www.bbc.com/mundo/articles/c5yw3wqw35no?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-09-10T04:01:42.000Z",
+      "resumen_corto": "Las tensiones entre Rusia y Occidente se han intensificado luego de que Alemania culpara directamente a Moscú del ataque con drones perpetrado el mes pasado en el aeropuerto de Leipzig/Halle.",
+      "resumen_largo": "Las tensiones entre Rusia y Occidente se han intensificado luego de que Alemania culpara directamente a Moscú del ataque con drones perpetrado el mes pasado en el aeropuerto de Leipzig/Halle. El ministro del Interior alemán, Alexander Dobrindt, afirmó que el despliegue de un dron cargado de explosivos seguía el \"patrón bien establecido de las operaciones híbridas rusas en Europa\": el uso de tácticas militares y no militares para ejercer presión sin un conflicto abierto. En respuesta, Alemania y Rusia han cerrado los centros culturales del otro, incluido el consulado ruso en Bonn.",
+      "texto_original": "Las tensiones entre Rusia y Occidente se han intensificado luego de que Alemania culpara directamente a Moscú del ataque con drones perpetrado el mes pasado en el aeropuerto de Leipzig/Halle. El ministro del Interior alemán, Alexander Dobrindt, afirmó que el despliegue de un dron cargado de explosivos seguía el \"patrón bien establecido de las operaciones híbridas rusas en Europa\": el uso de tácticas militares y no militares para ejercer presión sin un conflicto abierto. En respuesta, Alemania y Rusia han cerrado los centros culturales del otro, incluido el consulado ruso en Bonn. El embajador de Estados Unidos ante la OTAN, Matthew Whitaker, describió el incidente en el aeropuerto de Leipzig/Halle —que ha sido utilizado en operaciones logísticas de apoyo a Kyiv— como una de las acciones híbridas más preocupantes que ha presenciado Europa. Whitaker añadió que es importante \"expresar firmemente que este tipo de acciones son inaceptables\" y que no las tolerarán. Esto forma parte de un patrón más amplio de acciones que se han vuelto cada vez más comunes en toda Europa desde la invasión a gran escala de Ucrania por parte de Rusia en febrero de 2022, según analistas.",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-09-10T05:56:50.888Z",
+        "index": 3,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "militar",
+        "categorias_secundarias": [
+          "inteligencia_artificial",
+          "vehiculos_energia"
+        ],
+        "category_scores": {
+          "militar": 7,
+          "inteligencia_artificial": 1,
+          "vehiculos_energia": 1
+        },
+        "entidades": [],
+        "cifras_detectadas": [
+          "2022"
+        ],
+        "content_type": "report",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 92,
+        "relevancia": 65,
+        "confiabilidad_fuente": 80,
+        "readability": {
+          "words": 249,
+          "sentences": 10,
+          "average_words_per_sentence": 24.9
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 78.2
+    },
+    {
+      "id": "776b01aa8a63e32e",
+      "fuente_id": "huawei_central",
+      "fuente_nombre": "Huawei Central",
+      "tipo": "rss_web",
+      "subtipo": "medio_especializado",
+      "grupo_fuente": "huawei",
+      "nivel_fuente": "secundaria_especializada",
+      "categoria": "moviles",
+      "idioma_original": "en",
+      "prioridad_fuente": 5,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Se estrena el iPhone Duo, lo que marca la entrada de Apple en la carrera de los dispositivos plegables",
+      "titulo_original": "iPhone Duo debuts, marking Apple’s entry in foldable race",
+      "enlace": "https://www.huaweicentral.com/iphone-duo-debuts-marking-apples-entry-in-foldable-race/",
+      "fecha": "2026-09-10T03:07:17.000Z",
+      "resumen_corto": "El 9 de septiembre debutó el iPhone Duo de Apple, abriendo un nuevo capítulo en el mercado de los plegables.",
+      "resumen_largo": "El 9 de septiembre debutó el iPhone Duo de Apple, abriendo un nuevo capítulo en el mercado de los plegables. El dispositivo hace honor a su nombre y presenta dos iPhones anchos en un diseño versátil y duradero. Pero, ¿es lo suficientemente fuerte como para rivalizar con otras marcas de pliegues?",
+      "texto_original": "On September 9, Apple’s iPhone Duo debuted, opening a new chapter in the foldable market. The device lives up to its name, featuring two wide iPhones in a versatile, durable design. But is it strong enough to rival other fold brands? Let’s check. The first-ever iPhone foldable has a 7.6-inch inner screen that looks like […] The post iPhone Duo debuts, marking Apple’s entry in foldable race appeared first on Huawei Central.",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-09-10T05:56:50.895Z",
+        "index": 12,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "en",
+        "categoria": "moviles",
+        "categorias_secundarias": [
+          "vehiculos_energia",
+          "tecnologia",
+          "software_internet"
+        ],
+        "category_scores": {
+          "moviles": 3,
+          "vehiculos_energia": 2,
+          "tecnologia": 2,
+          "software_internet": 1
+        },
+        "entidades": [
+          "Huawei",
+          "Apple",
+          "iPhone",
+          "Honor"
+        ],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 84,
+        "relevancia": 80,
+        "confiabilidad_fuente": 65,
+        "readability": {
+          "words": 120,
+          "sentences": 10,
+          "average_words_per_sentence": 12
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 77.65
+    },
+    {
+      "id": "d56b1856d75d0750",
+      "fuente_id": "huawei_central",
+      "fuente_nombre": "Huawei Central",
+      "tipo": "rss_web",
+      "subtipo": "medio_especializado",
+      "grupo_fuente": "huawei",
+      "nivel_fuente": "secundaria_especializada",
+      "categoria": "moviles",
+      "idioma_original": "en",
+      "prioridad_fuente": 5,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "El video de unboxing de Honor Magic 9 Pro Max se filtró semanas antes del lanzamiento",
+      "titulo_original": "Honor Magic 9 Pro Max unboxing video leaked weeks before launch",
+      "enlace": "https://www.huaweicentral.com/honor-magic-9-pro-max-unboxing-video-leaked-weeks-before-launch/",
+      "fecha": "2026-09-09T11:29:09.000Z",
+      "resumen_corto": "La serie Honor Magic 9 presentará un nuevo modelo Pro Max en un esquema de color Moss Green y, justo después de su primer adelanto, varios informantes publicaron un video de unboxing de este buque insignia.",
+      "resumen_largo": "La serie Honor Magic 9 presentará un nuevo modelo Pro Max en un esquema de color Moss Green y, justo después de su primer adelanto, varios informantes publicaron un video de unboxing de este buque insignia. Es hora de ver cómo se verá el próximo teléfono en la vida real. De muchos clips, un video de 3 minutos mostró el unboxing […] El video posterior al unboxing del Honor Magic 9 Pro Max filtrado semanas antes del lanzamiento apareció por primera vez en Huawei Central.",
+      "texto_original": "Honor Magic 9 series will introduce a new Pro Max model in a Moss Green color scheme, and right after its first teaser, several tipsters dropped an unboxing video of this flagship. It’s time to see how the upcoming handset will look in real life. Out of many clips, a 3-minute video showed the unboxing […] The post Honor Magic 9 Pro Max unboxing video leaked weeks before launch appeared first on Huawei Central.",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-09-10T05:56:50.906Z",
+        "index": 28,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "en",
+        "categoria": "moviles",
+        "categorias_secundarias": [
+          "vehiculos_energia",
+          "inteligencia_artificial",
+          "hardware"
+        ],
+        "category_scores": {
+          "moviles": 5,
+          "vehiculos_energia": 2,
+          "inteligencia_artificial": 1,
+          "hardware": 1,
+          "software_internet": 1
+        },
+        "entidades": [
+          "Huawei",
+          "Honor"
+        ],
+        "cifras_detectadas": [
+          "3 m"
+        ],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 89,
+        "relevancia": 75,
+        "confiabilidad_fuente": 65,
+        "readability": {
+          "words": 162,
+          "sentences": 7,
+          "average_words_per_sentence": 23.14
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 77.4
+    },
+    {
+      "id": "bee22c7a5ffda1ec",
+      "fuente_id": "huawei_central",
+      "fuente_nombre": "Huawei Central",
+      "tipo": "rss_web",
+      "subtipo": "medio_especializado",
+      "grupo_fuente": "huawei",
+      "nivel_fuente": "secundaria_especializada",
+      "categoria": "moviles",
+      "idioma_original": "en",
+      "prioridad_fuente": 5,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Honor Magic 9 Pro Max incluirá la batería más grande de 8800 mAh",
+      "titulo_original": "Honor Magic 9 Pro Max to pack the largest 8800mAh battery",
+      "enlace": "https://www.huaweicentral.com/honor-magic-9-pro-max-to-pack-the-largest-8800mah-battery/",
+      "fecha": "2026-09-09T09:55:48.000Z",
+      "resumen_corto": "Honor Magic 9 Pro Max traerá varias actualizaciones impresionantes y una de ellas podría ser la batería.",
+      "resumen_largo": "Honor Magic 9 Pro Max traerá varias actualizaciones impresionantes y una de ellas podría ser la batería. Una nueva filtración indica que el teléfono inteligente puede tener la mayor capacidad celular: ¡8800 mAh para un buque insignia hasta la fecha! Aquí están los detalles: el filtrador de Weibo DigitalChatStation informó que el Honor Magic 9 Pro Max contará con […] La publicación Honor Magic 9 Pro Max con la batería más grande de 8800 mAh apareció por primera vez en Huawei Central.",
+      "texto_original": "Honor Magic 9 Pro Max will bring several impressive upgrades and one of these could be the battery. A new leak indicates that the smartphone may pack the largest cell capacity – 8800mAh for a flagship to date! Here are the details: Weibo leaker DigitalChatStation reported that the Honor Magic 9 Pro Max will feature […] The post Honor Magic 9 Pro Max to pack the largest 8800mAh battery appeared first on Huawei Central.",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-09-10T05:56:50.907Z",
+        "index": 29,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "en",
+        "categoria": "moviles",
+        "categorias_secundarias": [
+          "inteligencia_artificial",
+          "baterias_energia",
+          "vehiculos_energia"
+        ],
+        "category_scores": {
+          "moviles": 5,
+          "inteligencia_artificial": 2,
+          "baterias_energia": 2,
+          "vehiculos_energia": 1,
+          "software_internet": 1
+        },
+        "entidades": [
+          "Huawei",
+          "Honor"
+        ],
+        "cifras_detectadas": [
+          "8800 mAh",
+          "8800mAh"
+        ],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 89,
+        "relevancia": 75,
+        "confiabilidad_fuente": 65,
+        "readability": {
+          "words": 158,
+          "sentences": 7,
+          "average_words_per_sentence": 22.57
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 77.4
+    },
+    {
+      "id": "529126d47ffa9e6b",
+      "fuente_id": "xataka_google",
+      "fuente_nombre": "Xataka",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "xataka",
+      "nivel_fuente": "medio_especializado",
+      "categoria": "tecnologia",
+      "idioma_original": "es",
+      "prioridad_fuente": 4,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "El Apple iPhone Duo es oficial: el teléfono plegable de Apple ya está aquí y viene para cambiarlo todo",
+      "titulo_original": "El Apple iPhone Duo es oficial: el teléfono plegable de Apple ya está aquí y viene para cambiarlo todo - Xataka",
+      "enlace": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOQ2wwbjV3Y2p6Xy1CMzNrczBYNWZDcXJTSkNTcDJWWklIOUhTZkNBVEpoWUJFNGdOQ1pyUm40YzIxTzFTVWJTeDBuczNfWWFOMUVELXpoUHFlVG1jazZmajMwUFFIWk5mb00wdjYtenRWdlJBWk96Yzk0S1M4RWY0ZEpMeEpCYl9FNFHSAY8BQVVfeXFMTnM2WmtWSEZaN2hiNXh1MjhKVTBhUldOYUotekhOZW50cGtENldNOWVSUnU0RVpGR3FiazI0UTdaYWs2V1pqR3M3bXhhUHlzdl9FcUhzX29BQzNqYXFCN3UyMmdQVXczRWQ1N3JQU2ZvZ0tVWW1JZzhYd1ZJMmpHVXd6c1daLTZFRnY4M01kdFk?oc=5",
+      "fecha": "2026-09-09T18:09:00.000Z",
+      "resumen_corto": "El Apple iPhone Duo es oficial: el teléfono plegable de Apple ya está aquí y viene para cambiarlo todo Xataka",
+      "resumen_largo": "El Apple iPhone Duo es oficial: el teléfono plegable de Apple ya está aquí y viene para cambiarlo todo Xataka",
+      "texto_original": "El Apple iPhone Duo es oficial: el teléfono plegable de Apple ya está aquí y viene para cambiarlo todo Xataka",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-09-10T05:56:50.900Z",
+        "index": 21,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "moviles",
+        "categorias_secundarias": [
+          "inteligencia_artificial",
+          "software_internet"
+        ],
+        "category_scores": {
+          "moviles": 3,
+          "inteligencia_artificial": 1,
+          "software_internet": 1
+        },
+        "entidades": [
+          "Apple",
+          "iPhone",
+          "Xataka"
         ],
         "cifras_detectadas": [],
         "content_type": "report",
@@ -82,13 +632,13 @@
           "signals": [],
           "url_count": 0
         },
-        "calidad": 92,
-        "relevancia": 70,
-        "confiabilidad_fuente": 85,
+        "calidad": 90,
+        "relevancia": 75,
+        "confiabilidad_fuente": 60,
         "readability": {
-          "words": 32,
+          "words": 69,
           "sentences": 1,
-          "average_words_per_sentence": 32
+          "average_words_per_sentence": 69
         },
         "duplicate": {
           "detected": false,
@@ -97,49 +647,42 @@
           "similar_to": null
         }
       },
-      "final_score": 81.45
+      "final_score": 76.5
     },
     {
-      "id": "131c2b3d462ca225",
-      "fuente_id": "bbc_mundo",
-      "fuente_nombre": "BBC Mundo",
+      "id": "98100207c0f4973d",
+      "fuente_id": "openai_google",
+      "fuente_nombre": "OpenAI",
       "tipo": "rss_web",
-      "subtipo": "medio_generalista",
-      "grupo_fuente": "bbc",
-      "nivel_fuente": "medio_profesional",
-      "categoria": "actualidad",
-      "idioma_original": "es",
+      "subtipo": "google_news",
+      "grupo_fuente": "openai",
+      "nivel_fuente": "fuente_oficial",
+      "categoria": "inteligencia_artificial",
+      "idioma_original": "en",
       "prioridad_fuente": 5,
       "analizar": true,
       "resumir": true,
-      "titulo": "OpenAI asegura haber resuelto en 88 horas un problema matemático sin respuesta durante 90 años (y las acusaciones de plagio en su contra)",
-      "titulo_original": "OpenAI asegura haber resuelto en 88 horas un problema matemático sin respuesta durante 90 años (y las acusaciones de plagio en su contra)",
-      "enlace": "https://www.bbc.com/mundo/articles/c39md3dd34lo?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-09-09T17:23:10.000Z",
-      "resumen_corto": "OpenAI dijo haberle encontrado en unas pocas horas la solución de un problema matemático avanzado que llevaba décadas sin resolverse, usando un nuevo modelo de inteligencia artificial (IA) y miles de bots.",
-      "resumen_largo": "OpenAI dijo haberle encontrado en unas pocas horas la solución de un problema matemático avanzado que llevaba décadas sin resolverse, usando un nuevo modelo de inteligencia artificial (IA) y miles de bots. El creador de ChatGPT anunció el martes que, al concentrar un grupo de aproximadamente 10.000 agentes de IA que realizan tareas de forma relativamente autónoma, lograron resolver un problema matemático notoriamente difícil en tan solo 88 horas. El problema formaba parte de las ecuaciones de Navier-Stokes, que describen el movimiento de los fluidos.",
-      "texto_original": "OpenAI dijo haberle encontrado en unas pocas horas la solución de un problema matemático avanzado que llevaba décadas sin resolverse, usando un nuevo modelo de inteligencia artificial (IA) y miles de bots. El creador de ChatGPT anunció el martes que, al concentrar un grupo de aproximadamente 10.000 agentes de IA que realizan tareas de forma relativamente autónoma, lograron resolver un problema matemático notoriamente difícil en tan solo 88 horas. El problema formaba parte de las ecuaciones de Navier-Stokes, que describen el movimiento de los fluidos. Durante 90 años, aspectos importantes de los problemas carecían de una demostración, el argumento que sustenta una ecuación matemática correcta. OpenAI calificó la solución que halló de \"hito\" y dijo que era una prueba de que las herramientas de IA están mejorando rápidamente. La solución de OpenAI aún no ha sido verificada de forma independiente ni aceptada públicamente por el Clay Mathematics Institute, una organización con sede en EE.UU. que organiza el Premio del Milenio, ofreciendo una gran suma de dinero a los primeros en resolver determinados enigmas matemáticos.",
+      "titulo": "No se puede abrir el proyecto ChatGPT compartido mediante un enlace directo - Estado de OpenAI",
+      "titulo_original": "Unable to open shared ChatGPT Project using direct link - OpenAI Status",
+      "enlace": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9OU29OWGhLS1JZcmxIV0locEZ6N1pNWFhHcDlObVFKdlNYdnZnQ3dFc0dTS3RRZ2FfQ09BT3psbDhtSmZKZk95eW5pVHZkMFBqdm9UbnVvM2MwaDYzT0J0T19QdER1SnFmYmprWUJNOA?oc=5",
+      "fecha": "2026-09-09T23:55:05.000Z",
+      "resumen_corto": "No se puede abrir el proyecto ChatGPT compartido mediante el enlace directo Estado de OpenAI",
+      "resumen_largo": "No se puede abrir el proyecto ChatGPT compartido mediante el enlace directo Estado de OpenAI",
+      "texto_original": "Unable to open shared ChatGPT Project using direct link OpenAI Status",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-10T01:03:54.273Z",
-        "index": 12,
+        "processed_at": "2026-09-10T05:56:50.896Z",
+        "index": 16,
         "resumen": {
           "generado": true,
           "origen": "translated"
         },
         "idioma_detectado": "es",
-        "idioma_original": "es",
+        "idioma_original": "en",
         "categoria": "inteligencia_artificial",
-        "categorias_secundarias": [
-          "vehiculos_energia",
-          "moviles",
-          "hardware"
-        ],
+        "categorias_secundarias": [],
         "category_scores": {
-          "inteligencia_artificial": 7,
-          "vehiculos_energia": 4,
-          "moviles": 1,
-          "hardware": 1
+          "inteligencia_artificial": 5
         },
         "entidades": [
           "OpenAI",
@@ -159,12 +702,12 @@
           "url_count": 0
         },
         "calidad": 84,
-        "relevancia": 83,
-        "confiabilidad_fuente": 70,
+        "relevancia": 67,
+        "confiabilidad_fuente": 75,
         "readability": {
-          "words": 239,
-          "sentences": 14,
-          "average_words_per_sentence": 17.07
+          "words": 50,
+          "sentences": 1,
+          "average_words_per_sentence": 50
         },
         "duplicate": {
           "detected": false,
@@ -173,51 +716,53 @@
           "similar_to": null
         }
       },
-      "final_score": 80.1
+      "final_score": 74.95
     },
     {
-      "id": "2d2fb4c30bf7dba5",
-      "fuente_id": "xiaomi_google",
-      "fuente_nombre": "Xiaomi",
+      "id": "4abccec0b50d4ac8",
+      "fuente_id": "huawei_central",
+      "fuente_nombre": "Huawei Central",
       "tipo": "rss_web",
-      "subtipo": "google_news",
-      "grupo_fuente": "xiaomi",
-      "nivel_fuente": "fuente_oficial",
+      "subtipo": "medio_especializado",
+      "grupo_fuente": "huawei",
+      "nivel_fuente": "secundaria_especializada",
       "categoria": "moviles",
       "idioma_original": "en",
       "prioridad_fuente": 5,
       "analizar": true,
       "resumir": true,
-      "titulo": "Todas las especificaciones y características de REDMI Note 17 Pro Max 5G | Xiaomi Global",
-      "titulo_original": "All Specs, Features of REDMI Note 17 Pro Max 5G | Xiaomi Global - Xiaomi",
-      "enlace": "https://news.google.com/rss/articles/CBMia0FVX3lxTE92TDRpc1J6WkxxZ3dqaHAyR2ZJUUlvYTJ6WFNMdDZTTjRXenk4eWpqZHZManRUMWNucTVMU3NQUFZ6YnRFNGc5c0F4ZW5HV09qV3BCTVVYMDByTFoyaXNYQm1NQVgzMG5obHdj?oc=5",
-      "fecha": "2026-08-27T10:48:21.000Z",
-      "resumen_corto": "Todas las especificaciones y características de REDMI Note 17 Pro Max 5G | Xiaomi Global Xiaomi",
-      "resumen_largo": "Todas las especificaciones y características de REDMI Note 17 Pro Max 5G | Xiaomi Global Xiaomi",
-      "texto_original": "All Specs, Features of REDMI Note 17 Pro Max 5G | Xiaomi Global Xiaomi",
+      "titulo": "Huawei refuta el correo electrónico de la campaña de influencia triple del Mate XT 2",
+      "titulo_original": "Huawei refutes Mate XT 2 tri-fold influencer campaign email",
+      "enlace": "https://www.huaweicentral.com/huawei-refutes-mate-xt-2-tri-fold-influencer-campaign-email/",
+      "fecha": "2026-09-09T12:33:08.000Z",
+      "resumen_corto": "El lunes, Huawei lanzó el Mate XT 2 triple y un correo electrónico sobre el nuevo plegable se está volviendo viral en las redes sociales como parte de una campaña paga que Huawei ha refutado.",
+      "resumen_largo": "El lunes, Huawei lanzó el Mate XT 2 triple y un correo electrónico sobre el nuevo plegable se está volviendo viral en las redes sociales como parte de una campaña paga que Huawei ha refutado. Una campaña de influencia no autorizada en las redes sociales hizo circular un correo electrónico diciendo que Huawei proporcionará los materiales de video originales del Mate XT 2, y […] La publicación Huawei refuta el correo electrónico de la campaña triple de influencia del Mate XT 2 apareció por primera vez en Huawei Central.",
+      "texto_original": "On Monday, Huawei launched the Mate XT 2 tri-fold, and an email about the new foldable is now going viral on social media as part of a paid campaign that Huawei has refuted. An unauthorized influencer campaign on social media circulated an email saying Huawei will provide the original Mate XT 2 video materials, and […] The post Huawei refutes Mate XT 2 tri-fold influencer campaign email appeared first on Huawei Central.",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-10T01:03:54.299Z",
-        "index": 47,
+        "processed_at": "2026-09-10T05:56:50.904Z",
+        "index": 26,
         "resumen": {
           "generado": true,
           "origen": "translated"
         },
         "idioma_detectado": "es",
         "idioma_original": "en",
-        "categoria": "moviles",
+        "categoria": "inteligencia_artificial",
         "categorias_secundarias": [
-          "inteligencia_artificial",
-          "vehiculos_energia"
+          "moviles",
+          "vehiculos_energia",
+          "semiconductores"
         ],
         "category_scores": {
+          "inteligencia_artificial": 2,
           "moviles": 2,
-          "inteligencia_artificial": 1,
-          "vehiculos_energia": 1
+          "vehiculos_energia": 2,
+          "semiconductores": 1,
+          "software_internet": 1
         },
         "entidades": [
-          "Xiaomi",
-          "Redmi"
+          "Huawei"
         ],
         "cifras_detectadas": [],
         "content_type": "news",
@@ -233,12 +778,12 @@
           "url_count": 0
         },
         "calidad": 84,
-        "relevancia": 67,
-        "confiabilidad_fuente": 75,
+        "relevancia": 70,
+        "confiabilidad_fuente": 65,
         "readability": {
-          "words": 52,
-          "sentences": 1,
-          "average_words_per_sentence": 52
+          "words": 158,
+          "sentences": 5,
+          "average_words_per_sentence": 31.6
         },
         "duplicate": {
           "detected": false,
@@ -247,7 +792,7 @@
           "similar_to": null
         }
       },
-      "final_score": 74.95
+      "final_score": 73.65
     },
     {
       "id": "665027b1f23b29ff",
@@ -271,8 +816,8 @@
       "texto_original": "El gobierno de Estados Unidos lo ha calificado como el \"acto criminal más atroz cometido en suelo estadounidense en la historia moderna\". Sin embargo, un cuarto de siglo después, el juicio contra el presunto cerebro de los atentados aún no ha comenzado y las familias de las víctimas temen que se agote el tiempo para que se haga justicia. El hermano de Tom Resta, John, y su esposa, Sylvia —quien estaba embarazada de siete meses—, se encuentran entre las casi 3.000 personas que perdieron la vida el 11 de septiembre de 2001, cuando unos secuestradores estrellaron aviones contra el World Trade Center de Nueva York y el Pentágono, en Virginia. Un cuarto avión se estrelló en un campo de Pensilvania después de que los pasajeros se rebelaran. La pareja había estado preparando la habitación de su futuro bebé, decorándola con personajes del programa infantil Blue's Clues, pocos días antes del 11-S. Habían soñado con tener un hijo y adoraban a los niños de sus amigos y familiares. El día de los atentados, ambos trabajaban como operadores financieros en la planta 92 de la Torre Norte del World Trade Center. \"Después de tanto tiempo, todavía se me hace un nudo en la garganta\", declaró Resta a la BBC entre lágrimas. Aunque han pasado 25 años, afirmó que el 11-S está \"casi constantemente\" en su mente.",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-10T01:03:54.276Z",
-        "index": 16,
+        "processed_at": "2026-09-10T05:56:50.902Z",
+        "index": 23,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -339,17 +884,17 @@
       "prioridad_fuente": 5,
       "analizar": true,
       "resumir": true,
-      "titulo": "La ventana de política de IA está abierta. Necesitamos actuar. -openai.com",
-      "titulo_original": "The AI policy window is open. We need to act. - openai.com",
+      "titulo": "La ventana de política de IA está abierta. Necesitamos actuar. -OpenAI",
+      "titulo_original": "The AI policy window is open. We need to act. - OpenAI",
       "enlace": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE16Nk92bjU2QkFrUWR3enpvc2JRd2RDR2JMRDJpb0RvbFdpOEVDTEtfbVBvbm5NTllaOUNmR1ZDTmtoYXFLalVMSlBtZEpqckZaaTJfMw?oc=5",
       "fecha": "2026-09-09T23:56:53.000Z",
       "resumen_corto": "La ventana de política de IA está abierta.",
       "resumen_largo": "La ventana de política de IA está abierta.",
-      "texto_original": "The AI policy window is open. We need to act. openai.com",
+      "texto_original": "The AI policy window is open. We need to act. OpenAI",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-10T01:03:54.261Z",
-        "index": 1,
+        "processed_at": "2026-09-10T05:56:50.896Z",
+        "index": 15,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -384,9 +929,9 @@
         "relevancia": 62,
         "confiabilidad_fuente": 75,
         "readability": {
-          "words": 32,
-          "sentences": 12,
-          "average_words_per_sentence": 2.67
+          "words": 29,
+          "sentences": 9,
+          "average_words_per_sentence": 3.22
         },
         "duplicate": {
           "detected": false,
@@ -410,17 +955,17 @@
       "prioridad_fuente": 5,
       "analizar": true,
       "resumir": true,
-      "titulo": "GPT-6 Astra: La próxima generación en inteligencia para el trabajo - openai.com",
-      "titulo_original": "GPT-6 Astra: The next generation in intelligence for work - openai.com",
+      "titulo": "GPT-6 Astra: La próxima generación en inteligencia para el trabajo",
+      "titulo_original": "GPT-6 Astra: The next generation in intelligence for work - OpenAI",
       "enlace": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5CMVNUYU5VZ0ZwQm56OGo4bVhKSmtEU1dLT01wR0hmbzE2ektwRS1LNnVqRkVha3ZzLXJyVE9GdHpMREM5dnRXS1Q2MHJoNGV3RFVLZ3VvZ3dwcGphbnI2RWx4dnFBMWM0Zmc?oc=5",
       "fecha": "2026-09-09T21:47:05.000Z",
-      "resumen_corto": "GPT-6 Astra: La próxima generación en inteligencia para el trabajo openai.com",
-      "resumen_largo": "GPT-6 Astra: La próxima generación en inteligencia para el trabajo openai.com",
-      "texto_original": "GPT-6 Astra: The next generation in intelligence for work openai.com",
+      "resumen_corto": "GPT-6 Astra: La próxima generación en inteligencia para el trabajo OpenAI",
+      "resumen_largo": "GPT-6 Astra: La próxima generación en inteligencia para el trabajo OpenAI",
+      "texto_original": "GPT-6 Astra: The next generation in intelligence for work OpenAI",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-10T01:03:54.266Z",
-        "index": 5,
+        "processed_at": "2026-09-10T05:56:50.897Z",
+        "index": 17,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -452,9 +997,9 @@
         "relevancia": 62,
         "confiabilidad_fuente": 75,
         "readability": {
-          "words": 47,
-          "sentences": 6,
-          "average_words_per_sentence": 7.83
+          "words": 41,
+          "sentences": 1,
+          "average_words_per_sentence": 41
         },
         "duplicate": {
           "detected": false,
@@ -478,17 +1023,17 @@
       "prioridad_fuente": 5,
       "analizar": true,
       "resumir": true,
-      "titulo": "Tecnología, mercados y materiales de memoria | Charla informal",
-      "titulo_original": "Memory Technology, Markets & Materials | Fireside Chat - TechInsights",
+      "titulo": "Tecnología, mercados y materiales de memoria | Charla informal - techinsights.com",
+      "titulo_original": "Memory Technology, Markets & Materials | Fireside Chat - techinsights.com",
       "enlace": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOX1FsTzBkUmk2V0RfN203aFBvVTVMU2dUdmoyQWlWeW1wLWxoQjF6YVV0QVFYU3BfU2pxVTBXMkMyTFNnM0thNElweVVDOXcwZ3NXbGJfdnJzNmNYRDB0aEVwMHhhc1IyQWpGbFJSSDB2ZGhPUmFRZXFXcWxmRzkwcGJRMVRYUktSa0JUcDBBd3NOVmNkd3NYNHN0bnpZaGpvcDhtQ1pYY2ZTdFBpZjZsWWRDNHVNNDZyNFdN?oc=5",
       "fecha": "2026-09-09T14:37:27.000Z",
-      "resumen_corto": "Tecnología, mercados y materiales de memoria | Charla informal: Información técnica",
-      "resumen_largo": "Tecnología, mercados y materiales de memoria | Charla informal: Información técnica",
-      "texto_original": "Memory Technology, Markets & Materials | Fireside Chat TechInsights",
+      "resumen_corto": "Tecnología, mercados y materiales de memoria | Charla informal techinsights.com",
+      "resumen_largo": "Tecnología, mercados y materiales de memoria | Charla informal techinsights.com",
+      "texto_original": "Memory Technology, Markets & Materials | Fireside Chat techinsights.com",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-10T01:03:54.277Z",
-        "index": 17,
+        "processed_at": "2026-09-10T05:56:50.903Z",
+        "index": 25,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -526,9 +1071,9 @@
         "relevancia": 67,
         "confiabilidad_fuente": 65,
         "readability": {
-          "words": 36,
-          "sentences": 1,
-          "average_words_per_sentence": 36
+          "words": 40,
+          "sentences": 6,
+          "average_words_per_sentence": 6.67
         },
         "duplicate": {
           "detected": false,
@@ -552,17 +1097,17 @@
       "prioridad_fuente": 5,
       "analizar": true,
       "resumir": true,
-      "titulo": "Rumores del Apple iPhone 18: Pro, A20 y vista previa plegable",
-      "titulo_original": "Apple iPhone 18 Rumors: Pro, A20 and Foldable Preview - TechInsights",
+      "titulo": "Rumores del Apple iPhone 18: Pro, A20 y vista previa plegable - techinsights.com",
+      "titulo_original": "Apple iPhone 18 Rumors: Pro, A20 and Foldable Preview - techinsights.com",
       "enlace": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNcnlQQjJmTXMwS1NZR0p5M1lOTWdEeW4tVlJqVFkyU1pMdUJmMU10OVFKN2JDS3BUZllWZy13SW15U3VpOFpBOWxDeFY3ODl6UzdIYTRZbGo2Q1BQemRPWW5HM1JnSDBDSGo4cUNBWTNxZ2haQnp6bEJVOXZfTkdoUi1vbw?oc=5",
       "fecha": "2026-09-08T17:29:42.000Z",
-      "resumen_corto": "Rumores del Apple iPhone 18: Pro, A20 y vista previa plegable TechInsights",
-      "resumen_largo": "Rumores del Apple iPhone 18: Pro, A20 y vista previa plegable TechInsights",
-      "texto_original": "Apple iPhone 18 Rumors: Pro, A20 and Foldable Preview TechInsights",
+      "resumen_corto": "Rumores del Apple iPhone 18: Pro, A20 y vista previa plegable techinsights.com",
+      "resumen_largo": "Rumores del Apple iPhone 18: Pro, A20 y vista previa plegable techinsights.com",
+      "texto_original": "Apple iPhone 18 Rumors: Pro, A20 and Foldable Preview techinsights.com",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-10T01:03:54.289Z",
-        "index": 34,
+        "processed_at": "2026-09-10T05:56:50.911Z",
+        "index": 37,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -604,9 +1149,9 @@
         "relevancia": 67,
         "confiabilidad_fuente": 65,
         "readability": {
-          "words": 47,
-          "sentences": 1,
-          "average_words_per_sentence": 47
+          "words": 53,
+          "sentences": 6,
+          "average_words_per_sentence": 8.83
         },
         "duplicate": {
           "detected": false,
@@ -616,83 +1161,6 @@
         }
       },
       "final_score": 72.45
-    },
-    {
-      "id": "3edea61a5fe1b8d7",
-      "fuente_id": "wccftech_google",
-      "fuente_nombre": "Wccftech",
-      "tipo": "rss_web",
-      "subtipo": "google_news",
-      "grupo_fuente": "wccftech",
-      "nivel_fuente": "medio_especializado",
-      "categoria": "hardware",
-      "idioma_original": "en",
-      "prioridad_fuente": 4,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "SMIC supera a TSMC y Samsung con un aumento del 20%, superando a GlobalFoundries como la tercera fundición más grande del mundo",
-      "titulo_original": "SMIC Outgrows TSMC and Samsung With 20% Surge, Overtaking GlobalFoundries as World’s Third-Largest Foundry - Wccftech",
-      "enlace": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPcHRhZmxURjFuMmVmalAxLWlyQUtDVTl3SHJ0bVU3Wklnc0ltWHQtbElIVkZNVEFWenlINGhuckxMempjQ3d6ZmJHVXNqVVJ2QjhzRGhJZmtSd1N2QWtkajFaRVVLa0xWNU9SX3VXR0NQdHpRUDNtbXVYeWkzV1NnYmhpTFV2aEs0b2dvT21FVTVuaE5zT2hhX1h0ZTFyeGlOMFlLbElnbGozS2UwaExDZ1E2T1lSWXo2Nmd2SmJNa1ZxMWvSAcgBQVVfeXFMTzA3NldyWG1sbkQzSS03MGhZdldReXJwbklNc2x5ZEZLTjhMdWpRaXI0R1VaalQ2SThDQVNjUmFzZDFvdEVaUXVUbF9SM3pYbGVWb1NSdlBHeHRzNTBiWUJJdWM2TTR4bUZaVl8tR09CRnBpazRNcWFuUnpINHFCa1lpVjB3YVhyeFIxTHVMVHZfUGZwWkxicUJLbGJId2FkNGVQMEdmQlpOTFVIaTVPaDdhdlMzc2s3RjJLZUotMUdTS3UtXzNxMkU?oc=5",
-      "fecha": "2026-09-09T18:21:50.000Z",
-      "resumen_corto": "SMIC supera a TSMC y Samsung con un aumento del 20 %, superando a GlobalFoundries como la tercera fundición más grande del mundo Wccftech",
-      "resumen_largo": "SMIC supera a TSMC y Samsung con un aumento del 20 %, superando a GlobalFoundries como la tercera fundición más grande del mundo Wccftech",
-      "texto_original": "SMIC Outgrows TSMC and Samsung With 20% Surge, Overtaking GlobalFoundries as World’s Third-Largest Foundry Wccftech",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-09-10T01:03:54.270Z",
-        "index": 7,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "en",
-        "categoria": "semiconductores",
-        "categorias_secundarias": [
-          "tecnologia"
-        ],
-        "category_scores": {
-          "semiconductores": 3,
-          "tecnologia": 1
-        },
-        "entidades": [
-          "Samsung",
-          "TSMC",
-          "SMIC",
-          "Wccftech"
-        ],
-        "cifras_detectadas": [
-          "20%",
-          "20 %"
-        ],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 87,
-        "relevancia": 72,
-        "confiabilidad_fuente": 50,
-        "readability": {
-          "words": 78,
-          "sentences": 1,
-          "average_words_per_sentence": 78
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 71.75
     },
     {
       "id": "181c4834eb8ef54d",
@@ -716,8 +1184,8 @@
       "texto_original": "Las fuerzas militares de Estados Unidos se encuentran en el centro de una lucha de dos frentes. En primer lugar, está el intento del presidente Donald Trump de arrebatar el estrecho de Ormuz a Irán; la última fase de su guerra estancada en el Golfo, que está atrayendo fuerzas y equipos estadounidenses de todo el mundo. La segunda es una guerra cultural interna en la que el secretario de Defensa, Pete Hegseth, está llevando a cabo una prometida reorganización en el Pentágono, lo que ha provocado amargas recriminaciones y una serie de dimisiones, incluida la del máximo responsable civil del Ejército estadounidense la semana pasada. Esta agitación ha suscitado interrogantes que podrían definir el legado del segundo mandato de Trump. ¿Se está llevando al ejército estadounidense a un punto que podría poner en riesgo la seguridad global? ¿Y están estos cambios dejando vulnerable la extraordinaria red global de alianzas de Estados Unidos? Uno de sus líderes políticos de mayor rango, Dan Driscoll, dimitió como Secretario del Ejército de Estados Unidos. Driscoll no es precisamente un nombre conocido en Estados Unidos, y mucho menos fuera de él. Pero su partida fue importante. Representó el último giro en la lucha de poder dentro de los muros del Pentágono, una fortaleza inexpugnable, por el futuro de la fuerza militar más formidable del mundo.",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-10T01:03:54.268Z",
-        "index": 6,
+        "processed_at": "2026-09-10T05:56:50.899Z",
+        "index": 19,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -770,83 +1238,6 @@
       "final_score": 71.15
     },
     {
-      "id": "25e473f2dbfdf99d",
-      "fuente_id": "huawei_google",
-      "fuente_nombre": "Huawei Central",
-      "tipo": "rss_web",
-      "subtipo": "google_news",
-      "grupo_fuente": "huawei",
-      "nivel_fuente": "agregador",
-      "categoria": "moviles",
-      "idioma_original": "en",
-      "prioridad_fuente": 4,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "Honor Magic 9 Pro Max incluirá la batería más grande de 8800 mAh",
-      "titulo_original": "Honor Magic 9 Pro Max to pack the largest 8800mAh battery - Huawei Central",
-      "enlace": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOczdfcG4yY1FiQ0dXUXZvdkRPNmswNnRUZmFia29MNEM4VFFPOHB5aE1IaGV0ZmJoSzZMTW9IakFpOFhqYU9vUVZCQTVxc2tSOF9UOWpIR2JiVlY5MkJiMkZfUm50YXlQck5xcTFscDktTUozM1pkcU9JMFpGb1pzcWtqX1BZUTBQV3ZSWXdCX2dBZ9IBlwFBVV95cUxPaVUtWTlWSnlBd01JNWtkb0dabFhPTkg1WGhpRndiVV9vbWJiZ201cE44cmlUMnNLM1R1QkVKT2Z5dW9iRldQckM5Z04wZ004VFIwT1d4M3NPNFVzRGNsMmRBTk9VMUVvTDB4RXF4VTR5eHRpbmZIalo4TlBjX2NCazVvSG9qOG5ETzRDQ3Z1Q3ZSNXpnckxF?oc=5",
-      "fecha": "2026-09-09T10:09:50.000Z",
-      "resumen_corto": "Honor Magic 9 Pro Max incluirá la batería más grande de 8800 mAh Huawei Central",
-      "resumen_largo": "Honor Magic 9 Pro Max incluirá la batería más grande de 8800 mAh Huawei Central",
-      "texto_original": "Honor Magic 9 Pro Max to pack the largest 8800mAh battery Huawei Central",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-09-10T01:03:54.283Z",
-        "index": 24,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "en",
-        "categoria": "moviles",
-        "categorias_secundarias": [
-          "baterias_energia",
-          "inteligencia_artificial"
-        ],
-        "category_scores": {
-          "moviles": 2,
-          "baterias_energia": 2,
-          "inteligencia_artificial": 1
-        },
-        "entidades": [
-          "Huawei",
-          "Honor"
-        ],
-        "cifras_detectadas": [
-          "8800 mAh",
-          "8800mAh"
-        ],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 87,
-        "relevancia": 67,
-        "confiabilidad_fuente": 53,
-        "readability": {
-          "words": 56,
-          "sentences": 1,
-          "average_words_per_sentence": 56
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 70.5
-    },
-    {
       "id": "cd48f3b78bfb039e",
       "fuente_id": "openai_google",
       "fuente_nombre": "OpenAI",
@@ -859,17 +1250,17 @@
       "prioridad_fuente": 5,
       "analizar": true,
       "resumir": true,
-      "titulo": "Paul Christiano se une a la junta directiva de la Fundación OpenAI - openai.com",
-      "titulo_original": "Paul Christiano joins OpenAI Foundation Board - openai.com",
+      "titulo": "Paul Christiano se une a la junta directiva de la Fundación OpenAI",
+      "titulo_original": "Paul Christiano joins OpenAI Foundation Board - OpenAI",
       "enlace": "https://news.google.com/rss/articles/CBMie0FVX3lxTE92N0pvbkFoYU91cHFZcFNEZE1QQVVQdXVtNkFPVFZVNllTTXpUTGl6bGZXNFVFWFpJaXFJNTZjblB2c0JPV3hKMWFabDV2Z3AtcVY3NkgzekxzZ1E4VUxrTzZsMVlEX081NjcxcGF0c25TTzYwMEdPWmNTdw?oc=5",
       "fecha": "2026-09-09T23:57:33.000Z",
-      "resumen_corto": "Paul Christiano se une a la junta directiva de la Fundación OpenAI openai.com",
-      "resumen_largo": "Paul Christiano se une a la junta directiva de la Fundación OpenAI openai.com",
-      "texto_original": "Paul Christiano joins OpenAI Foundation Board openai.com",
+      "resumen_corto": "Paul Christiano se une a la junta directiva de la Fundación OpenAI OpenAI",
+      "resumen_largo": "Paul Christiano se une a la junta directiva de la Fundación OpenAI OpenAI",
+      "texto_original": "Paul Christiano joins OpenAI Foundation Board OpenAI",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-10T01:03:54.259Z",
-        "index": 0,
+        "processed_at": "2026-09-10T05:56:50.896Z",
+        "index": 14,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -901,9 +1292,9 @@
         "relevancia": 55,
         "confiabilidad_fuente": 75,
         "readability": {
-          "words": 43,
-          "sentences": 6,
-          "average_words_per_sentence": 7.17
+          "words": 37,
+          "sentences": 1,
+          "average_words_per_sentence": 37
         },
         "duplicate": {
           "detected": false,
@@ -936,8 +1327,8 @@
       "texto_original": "Product Manager（Financial） BYD",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-10T01:03:54.291Z",
-        "index": 38,
+        "processed_at": "2026-09-10T05:56:50.914Z",
+        "index": 42,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -988,52 +1379,54 @@
       "final_score": 70.15
     },
     {
-      "id": "19173247db34a489",
-      "fuente_id": "resumen_militar",
-      "fuente_nombre": "El Resumen Militar",
-      "tipo": "telegram",
-      "subtipo": "canal_telegram",
-      "grupo_fuente": "telegram_militar",
-      "nivel_fuente": "telegram",
-      "categoria": "militar",
+      "id": "c9127f1c1e53174d",
+      "fuente_id": "xataka_google",
+      "fuente_nombre": "Xataka",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "xataka",
+      "nivel_fuente": "medio_especializado",
+      "categoria": "tecnologia",
       "idioma_original": "es",
-      "prioridad_fuente": 3,
+      "prioridad_fuente": 4,
       "analizar": true,
       "resumir": true,
-      "titulo": "🇺🇦 3,500 Colombian and Brazilian women have reportedly signed contracts with the Ukrainian Armed Forces, following their husbands. Most of the female mercenaries were convicted in their home countries of drug trafficki",
-      "titulo_original": "🇺🇦 3,500 Colombian and Brazilian women have reportedly signed contracts with the Ukrainian Armed Forces, following their husbands. Most of the female mercenaries were convicted in their home countries of drug trafficki",
-      "enlace": "https://t.me/elresumenmilitar/99176",
-      "fecha": "2026-09-09T12:52:06.000Z",
-      "resumen_corto": "🇺🇦 3,500 Colombian and Brazilian women have reportedly signed contracts with the Ukrainian Armed Forces, following their husbands.",
-      "resumen_largo": "🇺🇦 3,500 Colombian and Brazilian women have reportedly signed contracts with the Ukrainian Armed Forces, following their husbands. Most of the female mercenaries were convicted in their home countries of drug trafficking and prostitution. According to SHOT, hospitals in South America have begun allowing female employees to take leave to serve in Ukraine.",
-      "texto_original": "🇺🇦 3,500 Colombian and Brazilian women have reportedly signed contracts with the Ukrainian Armed Forces, following their husbands. Most of the female mercenaries were convicted in their home countries of drug trafficking and prostitution. According to SHOT, hospitals in South America have begun allowing female employees to take leave to serve in Ukraine. The main reason behind the mass movement is husbands who were killed while serving as mercenaries or who are currently being held captive awaiting exchange. In addition to medical personnel, women are also appearing in the Ukrainian Armed Forces as snipers and reconnaissance personnel despite having no combat experience. Most are Latin American women who were previously involved in illegal activities at home. The Ukrainian Armed Forces regularly replenish their ranks with mercenaries from other countries, but they are reportedly being killed at a similar rate in fighting against Russian forces. Thus, around 5,000 foreigners have been killed near Kupyansk since the beginning of 2026 . Their main motivation for going to the frontline is money, which they often reportedly never receive, nor do their relatives after their deaths. One of the latest groups of Colombian assault troops was left to die by Ukrainian forces without food or water. #info #meta #nationalism #Colombia",
+      "titulo": "iPhone Duo, iPhone 18 Pro, Apple Watch Series 12, Apple Watch Ultra 4, AirPods 5 y todas las novedades del evento de Apple",
+      "titulo_original": "iPhone Duo, iPhone 18 Pro, Apple Watch Series 12, Apple Watch Ultra 4, AirPods 5 y todas las novedades del evento de Apple - Xataka",
+      "enlace": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPcnkyOXFsRk1jdFhuX3ZySUMzQmVrOUM4Y254MDlJdnB0aTFsaEtWVzRfVzVkUVZQbVdjTC1jYURGSWFSZUo0SEp2OTZVWjJQQ3BuQXpUNUE2OHR2MlZXMFI2ZGZLTkNtYXdGdEE3OUR4Wjl1bFRCdHRZNVUzWGZWY0Qzc2xoT2F0emNyaEJ3Zk82MHBsMEJlcmx6c2V4TXU5cEdUYnlRbXVsNXpDbFNab0RzUDBYZ2JmYjBTcmRzdW1Qd0tKbXQwcFVPbmhFSHZ1Q2fSAdcBQVVfeXFMT0dHNVppVVUxeFJxT2ozVVdJVGx3RV8wRG56VTl5dTJMTHUtQmdLMFM4VlNfWGQzLVE3ckdoZnVFb1NJbm9IVndfSTFPbnZxOWlXZFF5a0JtWndlRmZLZjA1ME9vTmFlU2RhS0I0eVRoNHZQcTNEMnY1OW8wRGZfeDBiMlFTanJSUFFXbV9uaVNYeXNSaVgxdzY5YnpYVEJQRlF0bGNIM20tMGh3SzVzU3pPdW12NUxQWTBfbklpV2VxazJ0SURUSzU0dFplMXplclBkdW1JMFk?oc=5",
+      "fecha": "2026-09-09T20:42:00.000Z",
+      "resumen_corto": "iPhone Duo, iPhone 18 Pro, Apple Watch Series 12, Apple Watch Ultra 4, AirPods 5 y todas las novedades del evento de Apple Xataka",
+      "resumen_largo": "iPhone Duo, iPhone 18 Pro, Apple Watch Series 12, Apple Watch Ultra 4, AirPods 5 y todas las novedades del evento de Apple Xataka",
+      "texto_original": "iPhone Duo, iPhone 18 Pro, Apple Watch Series 12, Apple Watch Ultra 4, AirPods 5 y todas las novedades del evento de Apple Xataka",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-10T01:03:54.282Z",
-        "index": 22,
+        "processed_at": "2026-09-10T05:56:50.897Z",
+        "index": 18,
         "resumen": {
           "generado": true,
           "origen": "translated"
         },
-        "idioma_detectado": "en",
+        "idioma_detectado": "es",
         "idioma_original": "es",
-        "categoria": "inteligencia_artificial",
+        "categoria": "moviles",
         "categorias_secundarias": [
+          "inteligencia_artificial",
           "vehiculos_energia",
           "software_internet"
         ],
         "category_scores": {
-          "inteligencia_artificial": 2,
+          "moviles": 2,
+          "inteligencia_artificial": 1,
           "vehiculos_energia": 1,
           "software_internet": 1
         },
         "entidades": [
-          "Meta"
+          "Apple",
+          "iPhone",
+          "Xataka"
         ],
-        "cifras_detectadas": [
-          "2026"
-        ],
-        "content_type": "report",
+        "cifras_detectadas": [],
+        "content_type": "news",
         "clickbait": {
           "detected": false,
           "score": 0,
@@ -1045,13 +1438,13 @@
           "signals": [],
           "url_count": 0
         },
-        "calidad": 78,
-        "relevancia": 70,
-        "confiabilidad_fuente": 55,
+        "calidad": 82,
+        "relevancia": 67,
+        "confiabilidad_fuente": 50,
         "readability": {
-          "words": 291,
-          "sentences": 17,
-          "average_words_per_sentence": 17.12
+          "words": 89,
+          "sentences": 1,
+          "average_words_per_sentence": 89
         },
         "duplicate": {
           "detected": false,
@@ -1060,7 +1453,7 @@
           "similar_to": null
         }
       },
-      "final_score": 69.05
+      "final_score": 68
     },
     {
       "id": "dceb6cbcf97b33ef",
@@ -1084,8 +1477,8 @@
       "texto_original": "A Mathematician Working On The Navier-Stokes Millennium Prize Problem Now Wonders If OpenAI Stole His Notes That He Stored In Codex [Updated] Wccftech",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-10T01:03:54.290Z",
-        "index": 36,
+        "processed_at": "2026-09-10T05:56:50.913Z",
+        "index": 40,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -1160,8 +1553,8 @@
       "texto_original": "Honor Magic 9 Pro Max will feature dual 200MP sensors and 500mm camera kit Huawei Central",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-10T01:03:54.286Z",
-        "index": 29,
+        "processed_at": "2026-09-10T05:56:50.910Z",
+        "index": 33,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -1224,17 +1617,17 @@
       "prioridad_fuente": 5,
       "analizar": true,
       "resumir": true,
-      "titulo": "Actualización del mercado global de memorias | Oferta, demanda y precios",
-      "titulo_original": "Global Memory Market Update | Supply, demand, & Pricing - TechInsights",
+      "titulo": "Actualización del mercado global de memorias | Oferta, demanda y precios - techinsights.com",
+      "titulo_original": "Global Memory Market Update | Supply, demand, & Pricing - techinsights.com",
       "enlace": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9fVUs5RVhkNXFsM1Z1eWNtbjdXU1ZNaE9yTEtKR3NDMHdNRXRLQjBBR0w3dTNJNk80UzZWXzNucExyT1c3Q3R5SUhuaW43MlBqVW8xU25wNDN4WU1MM1pZQ0EyVW9YYXNGbmlBMlJjTXdpNllTeTd3UXhRQXA?oc=5",
       "fecha": "2026-09-08T17:29:42.000Z",
-      "resumen_corto": "Actualización del mercado global de memorias | Oferta, demanda y precios TechInsights",
-      "resumen_largo": "Actualización del mercado global de memorias | Oferta, demanda y precios TechInsights",
-      "texto_original": "Global Memory Market Update | Supply, demand, & Pricing TechInsights",
+      "resumen_corto": "Actualización del mercado global de memorias | Oferta, demanda y precios techinsights.com",
+      "resumen_largo": "Actualización del mercado global de memorias | Oferta, demanda y precios techinsights.com",
+      "texto_original": "Global Memory Market Update | Supply, demand, & Pricing techinsights.com",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-10T01:03:54.289Z",
-        "index": 35,
+        "processed_at": "2026-09-10T05:56:50.912Z",
+        "index": 38,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -1271,9 +1664,9 @@
         "relevancia": 55,
         "confiabilidad_fuente": 65,
         "readability": {
-          "words": 42,
-          "sentences": 1,
-          "average_words_per_sentence": 42
+          "words": 48,
+          "sentences": 6,
+          "average_words_per_sentence": 8
         },
         "duplicate": {
           "detected": false,
@@ -1306,8 +1699,8 @@
       "texto_original": "Global / English Xiaomi",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-10T01:03:54.291Z",
-        "index": 39,
+        "processed_at": "2026-09-10T05:56:50.914Z",
+        "index": 43,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -1377,8 +1770,8 @@
       "texto_original": "Financial Accountant BYD",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-10T01:03:54.298Z",
-        "index": 46,
+        "processed_at": "2026-09-10T05:56:50.921Z",
+        "index": 50,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -1450,8 +1843,8 @@
       "texto_original": "NVIDIA RTX 5070 Reportedly Gets GB205 Replaced By Bigger GB203 Die In A New Variant Wccftech",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-10T01:03:54.290Z",
-        "index": 37,
+        "processed_at": "2026-09-10T05:56:50.914Z",
+        "index": 41,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -1527,8 +1920,8 @@
       "texto_original": "Un exinvestigador de OpenAI y Anthropic dimite y alerta sobre los riesgos de la Inteligencia Artificial: \"Podría matarnos a todos\" MARCA",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-10T01:03:54.285Z",
-        "index": 26,
+        "processed_at": "2026-09-10T05:56:50.909Z",
+        "index": 31,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -1574,79 +1967,6 @@
       "final_score": 66.05
     },
     {
-      "id": "a2750f81404269c1",
-      "fuente_id": "google_news_es",
-      "fuente_nombre": "Google News ES",
-      "tipo": "rss_web",
-      "subtipo": "google_news",
-      "grupo_fuente": "google_news",
-      "nivel_fuente": "agregador",
-      "categoria": "tecnologia",
-      "idioma_original": "es",
-      "prioridad_fuente": 3,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "Experto en tecnología: \"Activé tres ajustes de Android y prácticamente desaparecieron las llamadas spam\" - eleconomista.es",
-      "titulo_original": "Experto en tecnología: \"Activé tres ajustes de Android y prácticamente desaparecieron las llamadas spam\" - eleconomista.es",
-      "enlace": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQdzVRYUhlQWVQRHpkbnpDUmIwOWNZUkpwdFpuT3V5cGtfMkVlOXE3QTdjVkRFNXlheElsZTJYZ3ZhN2ZIeXBaSkhyb2VlT19Bd1hodEJrX3lpNFZrSVN0aHpxSzlKVWF1YjNybnRvYURPLS10VV9GZVVqVkR0WHk4dFpmQ1NsLUlUaE44NkNQdGhOTUYySk5MQ1VDZ2JoRVVJUVYwNWVPM3FJbVo2THdzcUdsY0Y0TEpfZmlONXl6Unc3Y2tEcVFDdjVJMVZtLUppQWhFdERLR0dKZXUzNGdjaW91YmIyR0x4V2IyTXRZWEM1dGctbjBPdlBLZVhEZw?oc=5",
-      "fecha": "2026-09-09T08:13:57.000Z",
-      "resumen_corto": "Experto en tecnología: \"Activé tres ajustes de Android y prácticamente desaparecieron las llamadas spam\" eleconomista.es",
-      "resumen_largo": "Experto en tecnología: \"Activé tres ajustes de Android y prácticamente desaparecieron las llamadas spam\" eleconomista.es",
-      "texto_original": "Experto en tecnología: \"Activé tres ajustes de Android y prácticamente desaparecieron las llamadas spam\" eleconomista.es",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-09-10T01:03:54.286Z",
-        "index": 28,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "es",
-        "categoria": "tecnologia",
-        "categorias_secundarias": [
-          "inteligencia_artificial",
-          "moviles"
-        ],
-        "category_scores": {
-          "tecnologia": 2,
-          "inteligencia_artificial": 1,
-          "moviles": 1
-        },
-        "entidades": [
-          "Android"
-        ],
-        "cifras_detectadas": [],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 80,
-        "relevancia": 62,
-        "confiabilidad_fuente": 53,
-        "readability": {
-          "words": 60,
-          "sentences": 6,
-          "average_words_per_sentence": 10
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 66.05
-    },
-    {
       "id": "b3cefd617cb13c03",
       "fuente_id": "huawei_google",
       "fuente_nombre": "Huawei Central",
@@ -1668,8 +1988,8 @@
       "texto_original": "Honor confirms Magic 9 series launch for September 28 Huawei Central",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-10T01:03:54.287Z",
-        "index": 31,
+        "processed_at": "2026-09-10T05:56:50.910Z",
+        "index": 34,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -1716,226 +2036,7 @@
       "final_score": 65.95
     },
     {
-      "id": "c56af186178a90a3",
-      "fuente_id": "resumen_militar",
-      "fuente_nombre": "El Resumen Militar",
-      "tipo": "telegram",
-      "subtipo": "canal_telegram",
-      "grupo_fuente": "telegram_militar",
-      "nivel_fuente": "telegram",
-      "categoria": "militar",
-      "idioma_original": "es",
-      "prioridad_fuente": 3,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "Ukrainian sources report an attack on the Novy Urengoy Condensate Preparation and Transportation Plant in Russia’s Yamalo-Nenets Autonomous Okrug. The facility is located more than 3,000 km from the Ukrainian border . 🔵",
-      "titulo_original": "Ukrainian sources report an attack on the Novy Urengoy Condensate Preparation and Transportation Plant in Russia’s Yamalo-Nenets Autonomous Okrug. The facility is located more than 3,000 km from the Ukrainian border . 🔵",
-      "enlace": "https://t.me/elresumenmilitar/99186",
-      "fecha": "2026-09-09T14:18:05.000Z",
-      "resumen_corto": "Ukrainian sources report an attack on the Novy Urengoy Condensate Preparation and Transportation Plant in Russia’s Yamalo-Nenets Autonomous Okrug.",
-      "resumen_largo": "Ukrainian sources report an attack on the Novy Urengoy Condensate Preparation and Transportation Plant in Russia’s Yamalo-Nenets Autonomous Okrug. The facility is located more than 3,000 km from the Ukrainian border . 🔵 Military Summary 📱 Новости России | Военные Сводки",
-      "texto_original": "Ukrainian sources report an attack on the Novy Urengoy Condensate Preparation and Transportation Plant in Russia’s Yamalo-Nenets Autonomous Okrug. The facility is located more than 3,000 km from the Ukrainian border . 🔵 Military Summary 📱 Новости России | Военные Сводки",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-09-10T01:03:54.279Z",
-        "index": 19,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "en",
-        "idioma_original": "es",
-        "categoria": "inteligencia_artificial",
-        "categorias_secundarias": [
-          "militar",
-          "vehiculos_energia"
-        ],
-        "category_scores": {
-          "inteligencia_artificial": 2,
-          "militar": 2,
-          "vehiculos_energia": 1
-        },
-        "entidades": [],
-        "cifras_detectadas": [
-          "3,000 km"
-        ],
-        "content_type": "report",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 73,
-        "relevancia": 65,
-        "confiabilidad_fuente": 55,
-        "readability": {
-          "words": 137,
-          "sentences": 10,
-          "average_words_per_sentence": 13.7
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 65.3
-    },
-    {
-      "id": "ee11c43fc37c80f1",
-      "fuente_id": "ia_dia",
-      "fuente_nombre": "IA al Día",
-      "tipo": "rss_web",
-      "subtipo": "google_news",
-      "grupo_fuente": "ia_general",
-      "nivel_fuente": "agregador",
-      "categoria": "inteligencia_artificial",
-      "idioma_original": "es",
-      "prioridad_fuente": 3,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "OpenAI asegura haber resuelto en 88 horas un problema matemático sin respuesta durante 90 años (y las acusaciones de plagio en su contra) - bbc.com",
-      "titulo_original": "OpenAI asegura haber resuelto en 88 horas un problema matemático sin respuesta durante 90 años (y las acusaciones de plagio en su contra) - bbc.com",
-      "enlace": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1mY0VORlJWMTNTWTl1ZHplQW1GOTJLcnhCRmVWX25NTlp5STJPUFU1M2NRQzRfT2FlNENLSi01TERpTWVScDhCckdiSnRQUzE4ZGN4SUVmUU9LMjTSAWBBVV95cUxObXZRNVhTbGhqMFZKVjBaS2RrNW1SNnN5V3pac0ZYZjNkbzBMQ0lYdXdCQ3Rad3ZWMkV2UUdPOTJac2RRSTA3bkpVV0hCa2pZZjUtOUo2MXJib0NhLTdYTHE?oc=5",
-      "fecha": "2026-09-09T17:27:27.000Z",
-      "resumen_corto": "OpenAI asegura haber resuelto en 88 horas un problema matemático sin respuesta durante 90 años (y las acusaciones de plagio en su contra) bbc.com",
-      "resumen_largo": "OpenAI asegura haber resuelto en 88 horas un problema matemático sin respuesta durante 90 años (y las acusaciones de plagio en su contra) bbc.com",
-      "texto_original": "OpenAI asegura haber resuelto en 88 horas un problema matemático sin respuesta durante 90 años (y las acusaciones de plagio en su contra) bbc.com",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-09-10T01:03:54.272Z",
-        "index": 11,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "es",
-        "categoria": "inteligencia_artificial",
-        "categorias_secundarias": [
-          "moviles"
-        ],
-        "category_scores": {
-          "inteligencia_artificial": 2,
-          "moviles": 1
-        },
-        "entidades": [
-          "OpenAI",
-          "BBC"
-        ],
-        "cifras_detectadas": [],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 80,
-        "relevancia": 60,
-        "confiabilidad_fuente": 53,
-        "readability": {
-          "words": 85,
-          "sentences": 6,
-          "average_words_per_sentence": 14.17
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 65.25
-    },
-    {
-      "id": "b88213c06279e2d8",
-      "fuente_id": "google_news_es",
-      "fuente_nombre": "Google News ES",
-      "tipo": "rss_web",
-      "subtipo": "google_news",
-      "grupo_fuente": "google_news",
-      "nivel_fuente": "agregador",
-      "categoria": "tecnologia",
-      "idioma_original": "es",
-      "prioridad_fuente": 3,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "Así es el iPhone Duo, el primer móvil plegable de Apple - elpais.com",
-      "titulo_original": "Así es el iPhone Duo, el primer móvil plegable de Apple - elpais.com",
-      "enlace": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOTFo0QjNpdlFpaXZ1UEY5VWhGNnZiU1R3T0NZWXAtcnRzcVVOZDlwSUo0YWl6RVh0cWhsUTh5U3ByU1FsRUZiR2ZidmRvN0xYYjJBcW9QakNzbHM1XzJrengwaS1LdFBLZHFrc0ZBTGNua0ZBaFdRenROeGw4VWVrd3ZvTGVBZU9YYmNzeVJxaUZrQUU3WG5xYlRvSFZCZXNrRU1HUXZuUXZ2Wm5PTGFZd2QwbWZKdUpfb2JNSmVqM3hvcU3SAdcBQVVfeXFMT2xIS19wRXpDcnRsZlJuNzhBUWMwdHl6SlRIWEk2S1ZveHJxekFQUmdtVmE3WjZuTnBCT1E4STV1N3Y1emJjWDB2RFBYN1UxSzNmYjRjS0x5OXlXX3RPaUpBRXFVZUxwSno5UVdLTm5rYnBpdEt2YmlsaF9jMjV2RHc3M3UtYm1WbnRhT0E1OXhNb2tHNnBYSnVqRDlPcFl1S0xFdnV2XzdmWmNQRENYX0RBdWRlUGVIeUFZZlpNSG4zeHRURGVHT01QaWY1WXZQTmxqWjFLa3c?oc=5",
-      "fecha": "2026-09-09T16:57:18.000Z",
-      "resumen_corto": "Así es el iPhone Duo, el primer móvil plegable de Apple elpais.com",
-      "resumen_largo": "Así es el iPhone Duo, el primer móvil plegable de Apple elpais.com",
-      "texto_original": "Así es el iPhone Duo, el primer móvil plegable de Apple elpais.com",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-09-10T01:03:54.274Z",
-        "index": 14,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "es",
-        "categoria": "inteligencia_artificial",
-        "categorias_secundarias": [
-          "moviles",
-          "software_internet"
-        ],
-        "category_scores": {
-          "inteligencia_artificial": 1,
-          "moviles": 1,
-          "software_internet": 1
-        },
-        "entidades": [
-          "Apple",
-          "iPhone"
-        ],
-        "cifras_detectadas": [],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 80,
-        "relevancia": 60,
-        "confiabilidad_fuente": 53,
-        "readability": {
-          "words": 45,
-          "sentences": 6,
-          "average_words_per_sentence": 7.5
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 65.25
-    },
-    {
-      "id": "23a3b47d5011f8b5",
+      "id": "f496466bbd797e35",
       "fuente_id": "xataka_google",
       "fuente_nombre": "Xataka",
       "tipo": "rss_web",
@@ -1947,17 +2048,17 @@
       "prioridad_fuente": 4,
       "analizar": true,
       "resumir": true,
-      "titulo": "Por primera vez, el iPhone más caro no es el mejor iPhone",
-      "titulo_original": "Por primera vez, el iPhone más caro no es el mejor iPhone - Xataka",
-      "enlace": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBPYm9LdTVvNWNtSFIzRTEyVXpwYnlHU1BSS1NhWUNIUm9YX0FkUXlhOGFJYVVSOU5qRnlDby1uYjg2OVZ0aG82dy1QcFE1Tzg0VzBqX09haGUycGFidDJrbmk1N3FaemtVN2VxMmtnRTBnS09YWHhWTHB30gF_QVVfeXFMTXY2QzhsZ0dJc1lDYng5Y3p6V1htMVVEWVJiT0xIR09tclR1TmR6TGNMdUYzRWJTX0x3b05mU0hnVVRGMnpkRjN6TV9GVEJRdzF0ak1ud2ExUlpsZHJ5cldkRDBuU05tMVZRY3NJYk1WeTBoamVWbFJzU19YMlRRYw?oc=5",
-      "fecha": "2026-09-09T18:20:00.000Z",
-      "resumen_corto": "Por primera vez, el iPhone más caro no es el mejor iPhone Xataka",
-      "resumen_largo": "Por primera vez, el iPhone más caro no es el mejor iPhone Xataka",
-      "texto_original": "Por primera vez, el iPhone más caro no es el mejor iPhone Xataka",
+      "titulo": "¿Qué iPhone comprar tras la keynote de Apple? Así son los nuevos iPhone 18 Pro, iPhone 18 Pro Max y iPhone Duo",
+      "titulo_original": "¿Qué iPhone comprar tras la keynote de Apple? Así son los nuevos iPhone 18 Pro, iPhone 18 Pro Max y iPhone Duo - Xataka",
+      "enlace": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPaDd4b0RyWFBqRmJJXzVJWG52Q0RicFNqTkJ5czhsWHd3Z0k3S0txNFpHckJBTlhuZHJKYmplamJjcUJ4SnZkU2I2U0k0OGo3ekZUajlCSGcycG5IZVVhdkdZa3hlRkpYRU1BZlp5dGItQXp0bW9pQnE3Q3V1S3B0S3JaSHROekFTT1B0UHU1ckhBeUJwVzhqNF9La2JhVDh4eWdOTEFGVVl6UE1sZnRvRk9mcHdyYk9IS1o00gHAAUFVX3lxTE1fdVdPbUpseUtPSFV0bTdLSzI1WXY1RjdFZXBxS3NXak5mVW84VVd2cW9wOER2UW9uMHhTdmZjOGZCZ0tBNlhoQmhqY0dKcU1weHNYcEdQNjlhbG1kTk1ockFxWm9qREtlenpOaWxqc1RYM0hjczVaRUljRjdYVVJXNnVtcHREclpCZC1LYnNnQjhCZ0dXbkptcGV6TnRzeW0ybnFNbzF3SWYwV1JOdUlwWVRXRWU3YUtoS19UdEpGNg?oc=5",
+      "fecha": "2026-09-09T19:17:00.000Z",
+      "resumen_corto": "Así son los nuevos iPhone 18 Pro, iPhone 18 Pro Max y iPhone Duo Xataka",
+      "resumen_largo": "¿Qué iPhone comprar tras la keynote de Apple? Así son los nuevos iPhone 18 Pro, iPhone 18 Pro Max y iPhone Duo Xataka",
+      "texto_original": "¿Qué iPhone comprar tras la keynote de Apple? Así son los nuevos iPhone 18 Pro, iPhone 18 Pro Max y iPhone Duo Xataka",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-10T01:03:54.270Z",
-        "index": 8,
+        "processed_at": "2026-09-10T05:56:50.899Z",
+        "index": 20,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -1966,13 +2067,16 @@
         "idioma_original": "es",
         "categoria": "moviles",
         "categorias_secundarias": [
-          "vehiculos_energia"
+          "vehiculos_energia",
+          "software_internet"
         ],
         "category_scores": {
           "moviles": 1,
-          "vehiculos_energia": 1
+          "vehiculos_energia": 1,
+          "software_internet": 1
         },
         "entidades": [
+          "Apple",
           "iPhone",
           "Xataka"
         ],
@@ -1993,153 +2097,9 @@
         "relevancia": 60,
         "confiabilidad_fuente": 50,
         "readability": {
-          "words": 44,
-          "sentences": 1,
-          "average_words_per_sentence": 44
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 65.2
-    },
-    {
-      "id": "063991c9f6830dd2",
-      "fuente_id": "xataka_google",
-      "fuente_nombre": "Xataka",
-      "tipo": "rss_web",
-      "subtipo": "google_news",
-      "grupo_fuente": "xataka",
-      "nivel_fuente": "medio_especializado",
-      "categoria": "tecnologia",
-      "idioma_original": "es",
-      "prioridad_fuente": 4,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "Apple Watch Series 12 y Ultra 4: el gran salto está en salud, pero ahora también pueden recordar lo que hemos hablado",
-      "titulo_original": "Apple Watch Series 12 y Ultra 4: el gran salto está en salud, pero ahora también pueden recordar lo que hemos hablado - Xataka",
-      "enlace": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNSzhQMUtNM0xLaVowXzFValU2cDhfdXZZU3plVndIYlBJQXVDY2ZWZ1d6TUI0SWRYMWdyTlZNWExkallUc1Y2aFRSWC03dk5WUTRDTjRvdmRPOGdJeFMtNURNblNhSW8xNVAzWmtLR0kyLURvc0c3OER1YWRfa2ZDOC12YnBzQkhRdE91bEZ5eDBCV3ZYU2dNbHVWZkhfV2lQQThsbjhmWS3SAa4BQVVfeXFMUFZWTXd4dEVxUEthSktwYTBFaVVWM1h5c19aQ1lXZ0J4a1NtMnlXYW5kRHlPUkxYZWxIamxUb1hvY2xEcUZURDA2RHlLTG0tLVI2bEFzY3FvekxhMUw3WlltSUFHSjhUejUtbURCNzY0MUZ1SlpPYW13REVrbHNUVVRaZHBza0VNQ1VZd0kxTGw4dklIRDRpcmN4LUN0ZlFEZzZGbndTQzJCdDR1Z01R?oc=5",
-      "fecha": "2026-09-09T18:03:00.000Z",
-      "resumen_corto": "Apple Watch Series 12 y Ultra 4: el gran salto está en salud, pero ahora también pueden recordar lo que hemos hablado Xataka",
-      "resumen_largo": "Apple Watch Series 12 y Ultra 4: el gran salto está en salud, pero ahora también pueden recordar lo que hemos hablado Xataka",
-      "texto_original": "Apple Watch Series 12 y Ultra 4: el gran salto está en salud, pero ahora también pueden recordar lo que hemos hablado Xataka",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-09-10T01:03:54.271Z",
-        "index": 9,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "es",
-        "categoria": "moviles",
-        "categorias_secundarias": [
-          "software_internet"
-        ],
-        "category_scores": {
-          "moviles": 1,
-          "software_internet": 1
-        },
-        "entidades": [
-          "Apple",
-          "Xataka"
-        ],
-        "cifras_detectadas": [],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 82,
-        "relevancia": 60,
-        "confiabilidad_fuente": 50,
-        "readability": {
-          "words": 84,
-          "sentences": 1,
-          "average_words_per_sentence": 84
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 65.2
-    },
-    {
-      "id": "d9212c833323b91c",
-      "fuente_id": "xataka_google",
-      "fuente_nombre": "Xataka",
-      "tipo": "rss_web",
-      "subtipo": "google_news",
-      "grupo_fuente": "xataka",
-      "nivel_fuente": "medio_especializado",
-      "categoria": "tecnologia",
-      "idioma_original": "es",
-      "prioridad_fuente": 4,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "Nuevos iPhone 18 Pro y iPhone 18 Pro Max: aun a la sombra del plegable, siguen siendo los mejores iPhones",
-      "titulo_original": "Nuevos iPhone 18 Pro y iPhone 18 Pro Max: aun a la sombra del plegable, siguen siendo los mejores iPhones - Xataka",
-      "enlace": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQbHBGbXlrS3JwZExQWGRmLWhyNXpkd1lOMF9GZTI5b2UtTm1hRjN6SWpMb0NzYWpUX0xiajFreF9UZ3lSTzlQa0ZYbXhwamVLZ2prMkJyUEZxSVBQNDVYcm9tMVVWNmFzT3pCaFFQd1pwdE1jemRJTXNDVzBZY3p6SmEtdkJWZGxjbHphTkhKV3pTZVBIYnBUNW9zUml5T1hI0gGmAUFVX3lxTE01Mk1CbDRCV2ptWWs3S1ZEZkxZZlBXX3daZDdFa0tTWk8xcnFTNkhJZXlfU1lvdmYxY0lRVE4xNHhMb0lGV1VlNXJnNEZzS2hhRzI3TzRPRkZvMV9PNk9SREZ4ME1XTmVtb1lGeFJoZXk4T0tJZndETG1HV0V4WHJvLVhibGpTMEVNdnVKaWVlYU9tQUZTX09rcnhaX3A4N1RoZVJLbHc?oc=5",
-      "fecha": "2026-09-09T17:21:00.000Z",
-      "resumen_corto": "Nuevos iPhone 18 Pro y iPhone 18 Pro Max: aun a la sombra del plegable, siguen siendo los mejores iPhones Xataka",
-      "resumen_largo": "Nuevos iPhone 18 Pro y iPhone 18 Pro Max: aun a la sombra del plegable, siguen siendo los mejores iPhones Xataka",
-      "texto_original": "Nuevos iPhone 18 Pro y iPhone 18 Pro Max: aun a la sombra del plegable, siguen siendo los mejores iPhones Xataka",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-09-10T01:03:54.273Z",
-        "index": 13,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "es",
-        "categoria": "moviles",
-        "categorias_secundarias": [
-          "vehiculos_energia"
-        ],
-        "category_scores": {
-          "moviles": 1,
-          "vehiculos_energia": 1
-        },
-        "entidades": [
-          "iPhone",
-          "Xataka"
-        ],
-        "cifras_detectadas": [],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 82,
-        "relevancia": 60,
-        "confiabilidad_fuente": 50,
-        "readability": {
-          "words": 79,
-          "sentences": 1,
-          "average_words_per_sentence": 79
+          "words": 83,
+          "sentences": 5,
+          "average_words_per_sentence": 16.6
         },
         "duplicate": {
           "detected": false,
@@ -2172,8 +2132,8 @@
       "texto_original": "iPhone plegable, iPhone 18 Pro y más: sigue la keynote de Apple en directo [finalizado] Xataka",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-10T01:03:54.274Z",
-        "index": 15,
+        "processed_at": "2026-09-10T05:56:50.900Z",
+        "index": 22,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -2224,77 +2184,6 @@
       "final_score": 65.2
     },
     {
-      "id": "bee608aa0ae3d0b9",
-      "fuente_id": "bbc_mundo",
-      "fuente_nombre": "BBC Mundo",
-      "tipo": "rss_web",
-      "subtipo": "medio_generalista",
-      "grupo_fuente": "bbc",
-      "nivel_fuente": "medio_profesional",
-      "categoria": "actualidad",
-      "idioma_original": "es",
-      "prioridad_fuente": 5,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "\"Una montaña rusa de emociones\": miembros del jurado del caso Lindsay Clancy hablan sobre el desacuerdo que llevó a la anulación del juicio",
-      "titulo_original": "\"Una montaña rusa de emociones\": miembros del jurado del caso Lindsay Clancy hablan sobre el desacuerdo que llevó a la anulación del juicio",
-      "enlace": "https://www.bbc.com/mundo/articles/cx2zx7lwrk3o?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-09-09T22:14:10.000Z",
-      "resumen_corto": "Miembros del jurado en el proceso contra Lindsay Clancy hicieron sus primeras declaraciones públicas y hablaron sobre las deliberaciones secretas y lo que llevó al estancamiento y a la anulación del juicio.",
-      "resumen_largo": "Miembros del jurado en el proceso contra Lindsay Clancy hicieron sus primeras declaraciones públicas y hablaron sobre las deliberaciones secretas y lo que llevó al estancamiento y a la anulación del juicio. Tres mujeres del jurado, incluida la presidenta del mismo, le dijeron a la cadena NBC que el panel estaba dispuesto a emitir un veredicto de no culpabilidad por enfermedad mental, pero un miembro del jurado no estuvo de acuerdo. La presidenta del jurado dijo que el hombre \"admitió tener dudas razonables\" sobre la responsabilidad penal de Clancy, pero no accedió a emitir un veredicto de no culpabilidad.",
-      "texto_original": "Miembros del jurado en el proceso contra Lindsay Clancy hicieron sus primeras declaraciones públicas y hablaron sobre las deliberaciones secretas y lo que llevó al estancamiento y a la anulación del juicio. Tres mujeres del jurado, incluida la presidenta del mismo, le dijeron a la cadena NBC que el panel estaba dispuesto a emitir un veredicto de no culpabilidad por enfermedad mental, pero un miembro del jurado no estuvo de acuerdo. La presidenta del jurado dijo que el hombre \"admitió tener dudas razonables\" sobre la responsabilidad penal de Clancy, pero no accedió a emitir un veredicto de no culpabilidad. Clancy no ha negado que mató a sus tres hijos, pero sus abogados argumentaron que en aquel momento sufría de psicosis posparto. La fiscalía, por su parte, sostuvo que tomó una decisión premeditada. No se han hecho públicas las identidades de las nueve mujeres y los tres hombres que integraron el jurado, y el juez prohibió fotografiarlos o filmarlos durante el juicio para preservar su anonimato. Pero en Estados Unidos, una vez se acaba un caso, cualquier miembro del jurado puede decidir si desea o no hablar públicamente sobre él y sus deliberaciones.",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-09-10T01:03:54.265Z",
-        "index": 4,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "es",
-        "categoria": "inteligencia_artificial",
-        "categorias_secundarias": [
-          "vehiculos_energia",
-          "actualidad"
-        ],
-        "category_scores": {
-          "inteligencia_artificial": 1,
-          "vehiculos_energia": 1,
-          "actualidad": 1
-        },
-        "entidades": [],
-        "cifras_detectadas": [],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 79,
-        "relevancia": 50,
-        "confiabilidad_fuente": 70,
-        "readability": {
-          "words": 267,
-          "sentences": 11,
-          "average_words_per_sentence": 24.27
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 65.15
-    },
-    {
       "id": "ea4491b01a007b1e",
       "fuente_id": "bbc_mundo",
       "fuente_nombre": "BBC Mundo",
@@ -2316,8 +2205,8 @@
       "texto_original": "En mi caso comenzó con un dolor leve. Durante un verano progresó rápidamente hasta convertirse en un dolor punzante en el brazo que se irradiaba por mi mano izquierda cada vez que golpeaba una pelota de tenis o, incluso, cuando intentaba abrir una puerta. Tenía 18 años en ese momento y jugar tenis en competiciones era una parte importante de mi vida, pero acababa de sufrir una lesión que me aquejaría durante años de este deporte. Ahora, casi dos décadas después, podría aumentar mi riesgo de desarrollar artrosis de muñeca, un problema común en la mediana edad y la vejez. Nuestras muñecas son extraordinariamente adaptables. Tienen la fuerza para permitirnos levantar objetos pesados, la flexibilidad para permitirnos golpear pelotas desviadas en deportes de raqueta y la precisión necesaria para realizar tareas como pintar. Desde teclear hasta sostener una taza de café, unas muñecas funcionales son esenciales para la vida cotidiana. El problema es que se dañan con facilidad. Pero podemos hacer algo al respecto, eso sí: es importante empezar cuanto antes. Aquí te explicamos cómo proteger las muñecas para que puedas seguir disfrutándolas durante muchos años.",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-10T01:03:54.284Z",
-        "index": 25,
+        "processed_at": "2026-09-10T05:56:50.909Z",
+        "index": 30,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -2387,8 +2276,8 @@
       "texto_original": "Fragile 16-Pin Connectors Keep Melting RTX 5090s & Other GPUs, But Teclab Proves Old 8-Pin Connectors Can Handle The Load Just Fine Wccftech",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-10T01:03:54.288Z",
-        "index": 32,
+        "processed_at": "2026-09-10T05:56:50.911Z",
+        "index": 35,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -2441,6 +2330,70 @@
       "final_score": 64.95
     },
     {
+      "id": "13ff426e273b37a4",
+      "fuente_id": "resumen_militar",
+      "fuente_nombre": "El Resumen Militar",
+      "tipo": "telegram",
+      "subtipo": "canal_telegram",
+      "grupo_fuente": "telegram_militar",
+      "nivel_fuente": "telegram",
+      "categoria": "militar",
+      "idioma_original": "es",
+      "prioridad_fuente": 3,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "— ❗️ 🇸🇦 / 🇾🇪 CONFIRMED: Ansarallah (the Houthis) have liberated the coastal town of Al-Khukha @Middle_East_Spectator",
+      "titulo_original": "— ❗️ 🇸🇦 / 🇾🇪 CONFIRMED: Ansarallah (the Houthis) have liberated the coastal town of Al-Khukha @Middle_East_Spectator",
+      "enlace": "https://t.me/elresumenmilitar/99205",
+      "fecha": "2026-09-10T03:53:33.000Z",
+      "resumen_corto": "— ❗️ 🇸🇦 / 🇾🇪 CONFIRMED: Ansarallah (the Houthis) have liberated the coastal town of Al-Khukha @Middle_East_Spectator",
+      "resumen_largo": "— ❗️ 🇸🇦 / 🇾🇪 CONFIRMED: Ansarallah (the Houthis) have liberated the coastal town of Al-Khukha @Middle_East_Spectator",
+      "texto_original": "— ❗️ 🇸🇦 / 🇾🇪 CONFIRMED: Ansarallah (the Houthis) have liberated the coastal town of Al-Khukha @Middle_East_Spectator",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-09-10T05:56:50.890Z",
+        "index": 7,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "en",
+        "idioma_original": "es",
+        "categoria": "militar",
+        "categorias_secundarias": [],
+        "category_scores": {},
+        "entidades": [],
+        "cifras_detectadas": [],
+        "content_type": "report",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 83,
+        "relevancia": 53,
+        "confiabilidad_fuente": 55,
+        "readability": {
+          "words": 65,
+          "sentences": 1,
+          "average_words_per_sentence": 65
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 64
+    },
+    {
       "id": "5f2165edb7970afe",
       "fuente_id": "huawei_google",
       "fuente_nombre": "Huawei Central",
@@ -2462,8 +2415,8 @@
       "texto_original": "Kirin chip’s phoenix-like return marks new milestone for others: Huawei Huawei Central",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-10T01:03:54.285Z",
-        "index": 27,
+        "processed_at": "2026-09-10T05:56:50.910Z",
+        "index": 32,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -2514,6 +2467,79 @@
       "final_score": 63.95
     },
     {
+      "id": "7d70b80f4e5d4ed2",
+      "fuente_id": "resumen_militar",
+      "fuente_nombre": "El Resumen Militar",
+      "tipo": "telegram",
+      "subtipo": "canal_telegram",
+      "grupo_fuente": "telegram_militar",
+      "nivel_fuente": "telegram",
+      "categoria": "militar",
+      "idioma_original": "es",
+      "prioridad_fuente": 3,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "— 🇸🇦 / 🇾🇪 BREAKING: Initial reports that the coastal city of Al-Khukha has been captured by Ansarallah The Houthis apparently drove immediately into the city after capturing Hays, which was abandoned by PLC forces. H",
+      "titulo_original": "— 🇸🇦 / 🇾🇪 BREAKING: Initial reports that the coastal city of Al-Khukha has been captured by Ansarallah The Houthis apparently drove immediately into the city after capturing Hays, which was abandoned by PLC forces. H",
+      "enlace": "https://t.me/elresumenmilitar/99204",
+      "fecha": "2026-09-10T03:53:24.000Z",
+      "resumen_corto": "— 🇸🇦 / 🇾🇪 BREAKING: Initial reports that the coastal city of Al-Khukha has been captured by Ansarallah The Houthis apparently drove immediately into the city after capturing Hays, which was abandoned by PLC forces.",
+      "resumen_largo": "— 🇸🇦 / 🇾🇪 BREAKING: Initial reports that the coastal city of Al-Khukha has been captured by Ansarallah The Houthis apparently drove immediately into the city after capturing Hays, which was abandoned by PLC forces. However, so far, the liberation of Al-Khukha cannot be completely confirmed with certainty, and clarity will be given in the coming hours.",
+      "texto_original": "— 🇸🇦 / 🇾🇪 BREAKING: Initial reports that the coastal city of Al-Khukha has been captured by Ansarallah The Houthis apparently drove immediately into the city after capturing Hays, which was abandoned by PLC forces. However, so far, the liberation of Al-Khukha cannot be completely confirmed with certainty, and clarity will be given in the coming hours. @Middle_East_Spectator",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-09-10T05:56:50.891Z",
+        "index": 8,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "en",
+        "idioma_original": "es",
+        "categoria": "inteligencia_artificial",
+        "categorias_secundarias": [
+          "vehiculos_energia",
+          "software_internet"
+        ],
+        "category_scores": {
+          "inteligencia_artificial": 2,
+          "vehiculos_energia": 1,
+          "software_internet": 1
+        },
+        "entidades": [],
+        "cifras_detectadas": [],
+        "content_type": "report",
+        "clickbait": {
+          "detected": false,
+          "score": 25,
+          "signals": [
+            "\\bbreaking\\b"
+          ]
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 68,
+        "relevancia": 65,
+        "confiabilidad_fuente": 55,
+        "readability": {
+          "words": 177,
+          "sentences": 8,
+          "average_words_per_sentence": 22.13
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 63.55
+    },
+    {
       "id": "ae60a1b4b8474cd9",
       "fuente_id": "google_news_es",
       "fuente_nombre": "Google News ES",
@@ -2526,17 +2552,17 @@
       "prioridad_fuente": 3,
       "analizar": true,
       "resumir": true,
-      "titulo": "Meta lanza su primer agente de inteligencia artificial, Muse - elmundo.es",
-      "titulo_original": "Meta lanza su primer agente de inteligencia artificial, Muse - elmundo.es",
+      "titulo": "Meta lanza su primer agente de inteligencia artificial, Muse - El Mundo",
+      "titulo_original": "Meta lanza su primer agente de inteligencia artificial, Muse - El Mundo",
       "enlace": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1SMTlPYmZNbWVjY2IxTnB1OUtxWGNtVWh0NHE4ZDJfT1pLajVNbVBpZDJIc1lKYjlMM00xVHZFVUFZWDlFdGVFbHAtWHlUdHFUQTFkTWhyR2wtQ1hMQmFXbVJfcEszaW9HVl9rdnZlXzRaMHY4TGFYMFhuZFl5ZEHSAX9BVV95cUxNNmw5ekRaaWtoN0Y2b20yQkpZTEQ1SHdXbEpHTDdrVGkxVVVwbENEcjVSWE93di1WNVl1Q19KV0MxWTY0a2M1QWhoa2Z1d0RTSU5udWpWY0NhQVhVRmk2QUZUY3RjM1NQM1A0bVRCalNiZWNlQ3VYZmhISWtrREFj?oc=5",
       "fecha": "2026-09-08T21:32:00.000Z",
-      "resumen_corto": "Meta lanza su primer agente de inteligencia artificial, Muse elmundo.es",
-      "resumen_largo": "Meta lanza su primer agente de inteligencia artificial, Muse elmundo.es",
-      "texto_original": "Meta lanza su primer agente de inteligencia artificial, Muse elmundo.es",
+      "resumen_corto": "Meta lanza su primer agente de inteligencia artificial, Muse El Mundo",
+      "resumen_largo": "Meta lanza su primer agente de inteligencia artificial, Muse El Mundo",
+      "texto_original": "Meta lanza su primer agente de inteligencia artificial, Muse El Mundo",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-10T01:03:54.288Z",
-        "index": 33,
+        "processed_at": "2026-09-10T05:56:50.911Z",
+        "index": 36,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -2569,8 +2595,8 @@
         "confiabilidad_fuente": 53,
         "readability": {
           "words": 40,
-          "sentences": 6,
-          "average_words_per_sentence": 6.67
+          "sentences": 1,
+          "average_words_per_sentence": 40
         },
         "duplicate": {
           "detected": false,
@@ -2582,44 +2608,51 @@
       "final_score": 63.25
     },
     {
-      "id": "2b33246719641910",
-      "fuente_id": "google_news_es",
-      "fuente_nombre": "Google News ES",
+      "id": "7bccc915ecc14822",
+      "fuente_id": "wccftech_google",
+      "fuente_nombre": "Wccftech",
       "tipo": "rss_web",
       "subtipo": "google_news",
-      "grupo_fuente": "google_news",
-      "nivel_fuente": "agregador",
-      "categoria": "tecnologia",
-      "idioma_original": "es",
-      "prioridad_fuente": 3,
+      "grupo_fuente": "wccftech",
+      "nivel_fuente": "medio_especializado",
+      "categoria": "hardware",
+      "idioma_original": "en",
+      "prioridad_fuente": 4,
       "analizar": true,
       "resumir": true,
-      "titulo": "Berdea SAT apuesta por la innovación y la tecnología aplicada al agro en el 'Demo Day' - Ideal",
-      "titulo_original": "Berdea SAT apuesta por la innovación y la tecnología aplicada al agro en el 'Demo Day' - Ideal",
-      "enlace": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPT1Y5alBlUWI4RG9CNUthWlU4U2MyWHZYVS1mN3Y3QngwOHV5eDBXY0hGRzZVcVljOVY1WktFTG5LalpoT1k1S3BZTlU2enl5NnFOaVRWTmtrRVJRejFCZUctRFZNS0FmVC0tdm5CcGJzT25NTXYzazZDOVNmWDZiZk55Z2ZOZi15RXNwU1pyNjNPNmlpRFdSblRaM1g1QVhyakF1ZGxfSXZpZThJWHkw0gG0AUFVX3lxTE5vTFh1UUtWbk5xZVNCNExjUHJPWWoxRy1OcXhBTkFVcW1Qd2x6M0E3aEN0eXFaUmNqOHRpLVRCcWpmZldUd2dhZ3RjWThnNlE5MWE3RF8zSEZiaDNHMnoxTDV2VllMTFJFNjhNWHNIV3ZSejZuVUxsVkY3a1lfTFRMXzRRdnZVbVdPZnlZckQ2Q2lpdno1M19HZUZlQlNtRHdhbUk0SmFkLUVtcXBLZVVHSFZfYw?oc=5",
-      "fecha": "2026-09-09T23:20:06.000Z",
-      "resumen_corto": "Berdea SAT apuesta por la innovación y la tecnología aplicada al agro en el 'Demo Day' Ideal",
-      "resumen_largo": "Berdea SAT apuesta por la innovación y la tecnología aplicada al agro en el 'Demo Day' Ideal",
-      "texto_original": "Berdea SAT apuesta por la innovación y la tecnología aplicada al agro en el 'Demo Day' Ideal",
+      "titulo": "Microsoft estaba construyendo lentamente su reputación por mejorar Windows 11, pero la desperdicia toda con el último movimiento que utiliza el fondo de pantalla de su escritorio como espacio publicitario",
+      "titulo_original": "Microsoft Was Slowly Building Its Reputation For Improving Windows 11, But Wastes It All Away With The Latest Move That Uses Your Desktop Wallpaper As Ad Space - Wccftech",
+      "enlace": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPVWZ3S21lNzRDTWVkVVF5M3E3eXlzXzAyUjBJOEtDVHlvblkwZ3IwRUFjTkl3dEFRRUluYjZETE1jOHdjUVpDSzJjV3pHd2JfTE1Zd01FR0w0NHdoZ0pfMnhrQ2JJX3duek1YOFZ1akVmWjdNc0RCdEdGdzIxbmNRNXhLTzNiVzFC0gGOAUFVX3lxTE10aUc3bmdYSGZwWC1nUUMtVnRHdWh6eWQ4cFY4bHhOeTRBNC1falZndEszZ0FPakN5WW5BQjYwY191OTluUGZjVG1nVWtzaVMyWjFnNHJBU1dxQnlOR0Q2YmljekRDVHJkaEdwWTJXODhJVnExb2RmT3BqM1BBQk5DSE4wekdUdU5ZaThVMXc?oc=5",
+      "fecha": "2026-09-08T17:19:13.000Z",
+      "resumen_corto": "Microsoft estaba construyendo lentamente su reputación por mejorar Windows 11, pero lo desperdicia todo con el último movimiento que utiliza el fondo de pantalla de su escritorio como espacio publicitario Wccftech",
+      "resumen_largo": "Microsoft estaba construyendo lentamente su reputación por mejorar Windows 11, pero lo desperdicia todo con el último movimiento que utiliza el fondo de pantalla de su escritorio como espacio publicitario Wccftech",
+      "texto_original": "Microsoft Was Slowly Building Its Reputation For Improving Windows 11, But Wastes It All Away With The Latest Move That Uses Your Desktop Wallpaper As Ad Space Wccftech",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-10T01:03:54.262Z",
-        "index": 2,
+        "processed_at": "2026-09-10T05:56:50.913Z",
+        "index": 39,
         "resumen": {
           "generado": true,
           "origen": "translated"
         },
         "idioma_detectado": "es",
-        "idioma_original": "es",
-        "categoria": "tecnologia",
+        "idioma_original": "en",
+        "categoria": "inteligencia_artificial",
         "categorias_secundarias": [
-          "inteligencia_artificial"
+          "hardware",
+          "software_internet",
+          "tecnologia"
         ],
         "category_scores": {
-          "tecnologia": 3,
-          "inteligencia_artificial": 1
+          "inteligencia_artificial": 1,
+          "hardware": 1,
+          "software_internet": 1,
+          "tecnologia": 1
         },
-        "entidades": [],
+        "entidades": [
+          "Microsoft",
+          "Wccftech"
+        ],
         "cifras_detectadas": [],
         "content_type": "news",
         "clickbait": {
@@ -2629,19 +2662,17 @@
         },
         "spam": {
           "detected": false,
-          "score": 30,
-          "signals": [
-            "\\bapuesta\\b"
-          ],
+          "score": 0,
+          "signals": [],
           "url_count": 0
         },
-        "calidad": 75,
-        "relevancia": 57,
-        "confiabilidad_fuente": 53,
+        "calidad": 67,
+        "relevancia": 67,
+        "confiabilidad_fuente": 50,
         "readability": {
-          "words": 55,
+          "words": 116,
           "sentences": 1,
-          "average_words_per_sentence": 55
+          "average_words_per_sentence": 116
         },
         "duplicate": {
           "detected": false,
@@ -2650,10 +2681,10 @@
           "similar_to": null
         }
       },
-      "final_score": 62.3
+      "final_score": 62.75
     },
     {
-      "id": "6a8cc445039c51fd",
+      "id": "505371bb450df0af",
       "fuente_id": "ia_dia",
       "fuente_nombre": "IA al Día",
       "tipo": "rss_web",
@@ -2665,30 +2696,34 @@
       "prioridad_fuente": 3,
       "analizar": true,
       "resumir": true,
-      "titulo": "La inteligencia artificial cambia la cara de la industria cosmética - expansion.com",
-      "titulo_original": "La inteligencia artificial cambia la cara de la industria cosmética - expansion.com",
-      "enlace": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOWDZlM2dUUVhrYVZaZ09BWkZCUDNEa2RzMUNJSXR0Y0UtR3lsRHRhcVY4UERmcXpWc0hXT1RjU0lDN3pEek9WNkFjSkFldWdsMkRSaldMSGF6VU9qVmdMUWlyUExoUVhtWC1iazhpRXFXc3JQZy1raWxRZE44ZlVzVEVEQkhDaTlxWW400gGLAUFVX3lxTFBHVENVZ3ZobmZrZEp0dHktYVozZjIxM0EyWnJmS0RjR3VJYXlSdU03Z1E5UmNVd3R3bm5qeER4RUZhYlh4VnZnNTBPa2NGRzJLSElsUE0tTmZzVmFFa1BNZElJSy1HZDRoOW5NRV9wUUJzTE5nTU5sZGk1QVBhb1RHckRYQjhqRVB6c28?oc=5",
-      "fecha": "2026-09-09T23:11:00.000Z",
-      "resumen_corto": "La inteligencia artificial cambia la cara de la industria cosmética expansion.com",
-      "resumen_largo": "La inteligencia artificial cambia la cara de la industria cosmética expansion.com",
-      "texto_original": "La inteligencia artificial cambia la cara de la industria cosmética expansion.com",
+      "titulo": "De la innovación a la acción: así impulsa BNEW la nueva economía - La Vanguardia",
+      "titulo_original": "De la innovación a la acción: así impulsa BNEW la nueva economía - La Vanguardia",
+      "enlace": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPYVhyalpHVjI2eEtQNGZ1OURjUlpKNzdQcUptRVBDQzZLeV9meDY5TzNHSWVKdm5TT0l4ZWg2ekluTllVMFctazg0eWJMWEhORlNPUngwNTU1dkZmdF9GU1JtZG8ybXFkcF90cTR1SHBBOGliMElVVVFMOVVFQVVFYUhNUmtRclkzLTFrdGNlVEEyWmVldWhJb2J5R2hxbDVJUmN3NmYxeUlMemJRSVNv0gG0AUFVX3lxTE5maXBGUTdtNzA2RjFRSXRVNFpPREhkeWRKTVhnWTgtemlfendENnFFUVEtRDZiSEEzNzU2NFhUZ1lIUGZwdXVndjdZMGk4dDVVQUtTdXFzMTVCS19uQzdUcVRTaWp0aHE2TFVhcjZpY21VYVVyNFI2SXduRUpqdlNIaFFZRVhnQklmUlY0blUtZVlHeFM2OGlXMHplS01MaDhmQlVWYVQwNlRhbjZ0bDUtRDBPOQ?oc=5",
+      "fecha": "2026-09-10T03:50:00.000Z",
+      "resumen_corto": "De la innovación a la acción: así impulsa BNEW la nueva economía La Vanguardia",
+      "resumen_largo": "De la innovación a la acción: así impulsa BNEW la nueva economía La Vanguardia",
+      "texto_original": "De la innovación a la acción: así impulsa BNEW la nueva economía La Vanguardia",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-10T01:03:54.263Z",
-        "index": 3,
+        "processed_at": "2026-09-10T05:56:50.892Z",
+        "index": 9,
         "resumen": {
           "generado": true,
           "origen": "translated"
         },
         "idioma_detectado": "es",
         "idioma_original": "es",
-        "categoria": "inteligencia_artificial",
+        "categoria": "actualidad",
         "categorias_secundarias": [
-          "vehiculos_energia"
+          "inteligencia_artificial",
+          "vehiculos_energia",
+          "tecnologia"
         ],
         "category_scores": {
-          "inteligencia_artificial": 3,
-          "vehiculos_energia": 1
+          "actualidad": 2,
+          "inteligencia_artificial": 1,
+          "vehiculos_energia": 1,
+          "tecnologia": 1
         },
         "entidades": [],
         "cifras_detectadas": [],
@@ -2709,8 +2744,8 @@
         "confiabilidad_fuente": 53,
         "readability": {
           "words": 40,
-          "sentences": 6,
-          "average_words_per_sentence": 6.67
+          "sentences": 1,
+          "average_words_per_sentence": 40
         },
         "duplicate": {
           "detected": false,
@@ -2722,44 +2757,44 @@
       "final_score": 62.3
     },
     {
-      "id": "740810b87dbb1524",
-      "fuente_id": "ia_dia",
-      "fuente_nombre": "IA al Día",
+      "id": "cab5936ab6469216",
+      "fuente_id": "google_news_es",
+      "fuente_nombre": "Google News ES",
       "tipo": "rss_web",
       "subtipo": "google_news",
-      "grupo_fuente": "ia_general",
+      "grupo_fuente": "google_news",
       "nivel_fuente": "agregador",
-      "categoria": "inteligencia_artificial",
+      "categoria": "tecnologia",
       "idioma_original": "es",
       "prioridad_fuente": 3,
       "analizar": true,
       "resumir": true,
-      "titulo": "La Inteligencia Artificial consigue resolver un problema matemático histórico que la comunidad científica llevaba años tratando de descifrar - antena3.com",
-      "titulo_original": "La Inteligencia Artificial consigue resolver un problema matemático histórico que la comunidad científica llevaba años tratando de descifrar - antena3.com",
-      "enlace": "https://news.google.com/rss/articles/CBMitAJBVV95cUxOVXBVVExhWEJRalNiVDBjWmxXSGliYnczcXpDX3I5OFprQnJaaGg2bnlOQm9pbndWM0xNSE9zQVozeXhIN1JuWTJ1R3ZiVHpDSFNOeDF6Y0Fkek96TkFQLVFpc3FTLVJTcDM5Y1dqMFFQVDhPX3p0MWtwaHhERG1RbUNMdUFVOFdxQllMLS1uNXJnNGpUZEV2cUxfNmd5WXBiQ3R4RlI5UlplOVZ2MUdqQ0pHc29mdlA3MHRILWJScEI0blhhNE83eUJRRExyZzNweGc0aGZsTUFwRjRoOTFvVXZhNVNUMi1XZEFrc2llaUJZcmFpa3dvSHp3RjFQMXU0bndJNElvMk9EUDNpTmpzVXEzNzM2Mk1HV1ZMQnZUb2ljSjVLUVdHeHZVbDNiTWZsdDRsUtIBtAJBVV95cUxNSlY1S2k0YVJUWmNTdVl3OUczTjg5WE0wSG5LWFJBeGdKZXFJYmJWRVZ0RXZiNWRPMFNFZGtfUG1iWHppUWdvQjFEcV9rdmRkUU0ySTVrRHRKb2JXR1hDS3hJQzdWQ0s3ci1NcjN5WnctdHFxMUtBYkFmcHZFT0pYVkNOajRiWGpxY2ZsOTh1ZWVKaldRVzQ2cmotUzBQZFFhenhUTjlWMmhBS3RrUGdtVEpLcy04ZE5HOWxGb0RlQmI3RDNvOXE2V0dMc1RiaERCZVo2NGlYLXphbmlXR3E1SXoxamVaMlJxQmtWVGhvUTRTOXd2RENWUHM1T19MMXoxRWFYaDNRMThyREZLUzVNTFRxRFE0TV9JdUxTNV9XVEtuTWZicGRhdHFBejBXWDRNYW5veQ?oc=5",
-      "fecha": "2026-09-09T06:52:28.000Z",
-      "resumen_corto": "La Inteligencia Artificial consigue resolver un problema matemático histórico que la comunidad científica llevaba años tratando de descifrar antena3.com",
-      "resumen_largo": "La Inteligencia Artificial consigue resolver un problema matemático histórico que la comunidad científica llevaba años tratando de descifrar antena3.com",
-      "texto_original": "La Inteligencia Artificial consigue resolver un problema matemático histórico que la comunidad científica llevaba años tratando de descifrar antena3.com",
+      "titulo": "El colegio público de Zaragoza galardonado por ser referente en tecnología: de las aulas prefabricadas al éxito educativo nacional - heraldo.es",
+      "titulo_original": "El colegio público de Zaragoza galardonado por ser referente en tecnología: de las aulas prefabricadas al éxito educativo nacional - heraldo.es",
+      "enlace": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQUGxrWTEyNWhXNktSejgxVDQ2WlVtUC03WG0teTFiOEN4b0FjYUlMSzR3dEpmYmRKWWQ2ejc4M1l1SFFMRjJKWEZybzVOVERZaVF1UGJCV0ZxVndkQVR4blpiQkxJbU94WkhuTjU5MHk4QnY4dDhEUGtBUGRmSGhaXzV1MGpqa3Bkd1lPNzZ2VFRfaHNCOVQ5eERrLUpQR0Q2bDVkLVpvcWRZdDJ3a3JjaUg2S3g5VHhnR1RDMU1CeXFZXzZMYmVZeGJqbHcwZ3liajk2eUNKSUwxeFM2QUVFS1B4ZGxKa2FfUUhMdHJkRmhGWW5ldDlWVtIB_gFBVV95cUxQdzFHS2FPbXVNbl9HODRyRm0wejMtWFQ5NG9jLUlURElBQTJ5RGRhNGY4b3FvVG5tU1FUTjdoOTg1R2dOb0tReXFDTFhEQkw5a2JhNEZRT2E1VWVFLTJNTnR6QkdXV3l4WEtrMW01eGNvV3NaUUZENDFjaVpERXkwdVNVTlpPQ014eDlhTGNmd3Y5NUMzb21PUUQ3RzFlZTVrQ1c3WXlMczNhV3J6aHlEVVM1Yl9nTEsydlJmVzViX0lydy14eFFiOEpmZ0VpOVIzVllJRkJyYlQ4cTU1N1RjajBiT1p2amVWUnFzLURUcWlTSFQ5MFlwMXpnXzlsdw?oc=5",
+      "fecha": "2026-09-10T03:00:00.000Z",
+      "resumen_corto": "El colegio público de Zaragoza galardonado por ser referente en tecnología: de las aulas prefabricadas al éxito educativo nacional heraldo.es",
+      "resumen_largo": "El colegio público de Zaragoza galardonado por ser referente en tecnología: de las aulas prefabricadas al éxito educativo nacional heraldo.es",
+      "texto_original": "El colegio público de Zaragoza galardonado por ser referente en tecnología: de las aulas prefabricadas al éxito educativo nacional heraldo.es",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-10T01:03:54.287Z",
-        "index": 30,
+        "processed_at": "2026-09-10T05:56:50.895Z",
+        "index": 13,
         "resumen": {
           "generado": true,
           "origen": "translated"
         },
         "idioma_detectado": "es",
         "idioma_original": "es",
-        "categoria": "inteligencia_artificial",
+        "categoria": "tecnologia",
         "categorias_secundarias": [
-          "moviles",
-          "vehiculos_energia"
+          "inteligencia_artificial",
+          "semiconductores"
         ],
         "category_scores": {
-          "inteligencia_artificial": 3,
-          "moviles": 1,
-          "vehiculos_energia": 1
+          "tecnologia": 2,
+          "inteligencia_artificial": 1,
+          "semiconductores": 1
         },
         "entidades": [],
         "cifras_detectadas": [],
@@ -2779,9 +2814,75 @@
         "relevancia": 57,
         "confiabilidad_fuente": 53,
         "readability": {
-          "words": 80,
+          "words": 75,
           "sentences": 6,
-          "average_words_per_sentence": 13.33
+          "average_words_per_sentence": 12.5
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 62.3
+    },
+    {
+      "id": "aa854647a8ecfd38",
+      "fuente_id": "ia_dia",
+      "fuente_nombre": "IA al Día",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "ia_general",
+      "nivel_fuente": "agregador",
+      "categoria": "inteligencia_artificial",
+      "idioma_original": "es",
+      "prioridad_fuente": 3,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Investigadores de Anthropic alertan de que la inteligencia artificial podría aniquilar a la humanidad en diez años - RTVE.es",
+      "titulo_original": "Investigadores de Anthropic alertan de que la inteligencia artificial podría aniquilar a la humanidad en diez años - RTVE.es",
+      "enlace": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPSFRvdzJBODFibjNHQlpHbmtxNmUtVXJqaWpjOENjNVRKakJTZ3YtZktWU1Ntb1E4bXV1RlQ2QWE2Q21JRUh5V0xTb3dvSjB4azhOcy1sWEprRjBIR1pRc2JrRzBxVmo5RmF6RjhXb2hfWVVCZDRRM0dnSWFTcHpJYWdfaF9vVzhFRG1IclI0U1VKa0ZuZWRHYUdtTDkxZlNRbmc?oc=5",
+      "fecha": "2026-09-09T14:59:50.000Z",
+      "resumen_corto": "Investigadores de Anthropic alertan de que la inteligencia artificial podría aniquilar a la humanidad en diez años RTVE.es",
+      "resumen_largo": "Investigadores de Anthropic alertan de que la inteligencia artificial podría aniquilar a la humanidad en diez años RTVE.es",
+      "texto_original": "Investigadores de Anthropic alertan de que la inteligencia artificial podría aniquilar a la humanidad en diez años RTVE.es",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-09-10T05:56:50.902Z",
+        "index": 24,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "inteligencia_artificial",
+        "categorias_secundarias": [],
+        "category_scores": {
+          "inteligencia_artificial": 4
+        },
+        "entidades": [],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 75,
+        "relevancia": 57,
+        "confiabilidad_fuente": 53,
+        "readability": {
+          "words": 60,
+          "sentences": 6,
+          "average_words_per_sentence": 10
         },
         "duplicate": {
           "detected": false,
@@ -2814,8 +2915,8 @@
       "texto_original": "La inteligencia artificial impulsa la medicina aumentada en la nueva era sanitaria iSanidad",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-10T01:03:54.291Z",
-        "index": 40,
+        "processed_at": "2026-09-10T05:56:50.915Z",
+        "index": 44,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -2862,7 +2963,7 @@
       "final_score": 62.3
     },
     {
-      "id": "c6d0b3fcb1054e6a",
+      "id": "44159b54f1381231",
       "fuente_id": "google_news_es",
       "fuente_nombre": "Google News ES",
       "tipo": "rss_web",
@@ -2874,17 +2975,17 @@
       "prioridad_fuente": 3,
       "analizar": true,
       "resumir": true,
-      "titulo": "Un investigador de Anthropic dimite y alerta del peligro de la IA: “Puede matarnos antes de 2030” - elpais.com",
-      "titulo_original": "Un investigador de Anthropic dimite y alerta del peligro de la IA: “Puede matarnos antes de 2030” - elpais.com",
-      "enlace": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNVWRYNTRGeTE5X3NZTFNFc0RvNlFjcDNNUUkyVUkyRnhDTFM4bjhKMmNNdUxuVURFbFQ5aEsxVDlhUVA5OXpKTFd0X2tUblptUnczTjdzSXQ0UXViODByY2ZpZm94Z0o3LWhtbG9Ub1ZuWFN4dHVqLXdlLUNCTDc5NThiV0xTU1JDUzl5Z2lHbzNyR3pBc3RMZDhHaF9RU1N0SFh0Z2VyRzVFTzg4dFBxbEU1dlo4OXBmNnE5TGtteWdMVnAxTHJnVDhPY2wwWjdU0gHkAUFVX3lxTFB5YjhNVjNobGhaOVJZMWF0VVZLTVJMUUZoem9EYzR4VHppZjljY19vdlFqSFVJYWxjMS1jeVlOdFdRNVhwOGp0M3VZVTVqOWFXQl9RR3lQbkRiSldLSFdta01CdElEUDI2TFc5TXFQdGEtN0R0ZjY5eVZCRm5vWHF5UjZYUXJ5VEhaNG1kUXFPTzloS3hEZGtLNXJGNFh0QjNrNlF3MXZmbEp3RzJ6ZGQyczNHWlpkY2tWbzB4dWtTcENxUkFqQXFzdUl6R3BacVBId2ZLdkVHSFY4QVB6cjlPNkxXdw?oc=5",
-      "fecha": "2026-09-09T11:01:45.000Z",
-      "resumen_corto": "Un investigador de Anthropic dimite y alerta del peligro de la IA: “Puede matarnos antes de 2030” elpais.com",
-      "resumen_largo": "Un investigador de Anthropic dimite y alerta del peligro de la IA: “Puede matarnos antes de 2030” elpais.com",
-      "texto_original": "Un investigador de Anthropic dimite y alerta del peligro de la IA: “Puede matarnos antes de 2030” elpais.com",
+      "titulo": "Cómo los anillos inteligentes han llegado a millones de dedos - La Vanguardia",
+      "titulo_original": "Cómo los anillos inteligentes han llegado a millones de dedos - La Vanguardia",
+      "enlace": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNVWtacEY2MEIxdUVkWFQzSXdFRVJYOHVfemNPODlESVVfODlQcjFwem9ZZm1NbDVCaE5FRld2ZnNNdDJGWlBXelhzdkNKWWRKZnl1b1M2S1lEVXdSQ3VLN3dySDRoNzhJMGU0Ui1vQjA5ZXBjbFp4RXdlMTFYTDdjX2ZFNU9sLUt5VTh3LWlQN2piSWV1Y0lJ0gGcAUFVX3lxTFBwaXFwU21ZckYzSHhRTEI1Z3FuTHVEaE1SaXlyZDdTMTJBWkstbjAzX2lkV2cxYWhOM241TWZnUXA5VnFFSktFdDlrZjBXZW4xUlFMeE1JTkJLanRKTmh4YVhoMWYwZTd1VkRFcTd6cWVkLVVFRzFqOXFtS2RJMTZ0QmZqVXVSOUR0MUtEcnJvTVd1bW9vLWdHZWhVRQ?oc=5",
+      "fecha": "2026-09-10T05:02:48.000Z",
+      "resumen_corto": "Cómo los anillos inteligentes han llegado a millones de dedos La Vanguardia",
+      "resumen_largo": "Cómo los anillos inteligentes han llegado a millones de dedos La Vanguardia",
+      "texto_original": "Cómo los anillos inteligentes han llegado a millones de dedos La Vanguardia",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-10T01:03:54.283Z",
-        "index": 23,
+        "processed_at": "2026-09-10T05:56:50.880Z",
+        "index": 0,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -2894,12 +2995,10 @@
         "categoria": "inteligencia_artificial",
         "categorias_secundarias": [],
         "category_scores": {
-          "inteligencia_artificial": 3
+          "inteligencia_artificial": 1
         },
         "entidades": [],
-        "cifras_detectadas": [
-          "2030"
-        ],
+        "cifras_detectadas": [],
         "content_type": "news",
         "clickbait": {
           "detected": false,
@@ -2912,13 +3011,13 @@
           "signals": [],
           "url_count": 0
         },
-        "calidad": 80,
+        "calidad": 75,
         "relevancia": 50,
         "confiabilidad_fuente": 53,
         "readability": {
-          "words": 60,
-          "sentences": 6,
-          "average_words_per_sentence": 10
+          "words": 45,
+          "sentences": 1,
+          "average_words_per_sentence": 45
         },
         "duplicate": {
           "detected": false,
@@ -2927,7 +3026,142 @@
           "similar_to": null
         }
       },
-      "final_score": 61.25
+      "final_score": 59.5
+    },
+    {
+      "id": "57112b5934b54864",
+      "fuente_id": "google_news_es",
+      "fuente_nombre": "Google News ES",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "google_news",
+      "nivel_fuente": "agregador",
+      "categoria": "tecnologia",
+      "idioma_original": "es",
+      "prioridad_fuente": 3,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Suiza instala en un lago 1.400 paneles solares encadenados a pesas en el fondo: durante seis meses se vacía de agua y se anclan en una plataforma - MARCA",
+      "titulo_original": "Suiza instala en un lago 1.400 paneles solares encadenados a pesas en el fondo: durante seis meses se vacía de agua y se anclan en una plataforma - MARCA",
+      "enlace": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQYjYydEN4Y2R6N2s3NE5UYTVHSnJvSmQ3WEc2a0Zya280VEtKTkZSQUE0SlBudnFHSkhFQmdRMjdITFZjallsT1NqUDI0cGtMUnlTM25obEowNnRvMXRXOFdCVlBZdWlPZEZueVZOVTFQdTcyR0ZGREdRSWlCdTdVbVBtVzJpSEpPcmJzRGNEaVlRREVPWTgwLXZrc3hwUGdRRHRhZUxxNG1ZV0o4M0ttZEQ5ZXRaZ201OXVfTDBOQkFKeHI3emY2blY0cGpvMEFtYjROdmhFSnRwanJmc0xxUndLYVpHYTl6NkI1NlZodW9XTjjSAfMBQVVfeXFMTmpsVi1VT2d5OE1qOEdfTVF0VDRwWDNiWWZzckxoWGd4ZFVQRlFXaHh2OEd5aVBCT1NYanJrclVOOU5BNmhIbzA2bkhHYlhmMUsyZ2N3Q3dfUmpWLWVuLWwwaW1JQkNjb1dDQmEwV1VXd1luWF91eFNhQWJLUHdQSm9GUDhJc3B3T0I2VkFPeGNBcFRQT2JKdEVFRGpWb0VCV3Y3OVRzNGozb2M0ZnN3SnptQjhyZnB0eG5qTGVCczk4TUhONHV1a0o4RTZZYzc1VVByUUFjUWFtbVZvVjlMWk9hVmwtMzlvdVF2elJyWDBRTHR3?oc=5",
+      "fecha": "2026-09-10T04:49:27.000Z",
+      "resumen_corto": "Suiza instala en un lago 1.400 paneles solares encadenados a pesas en el fondo: durante seis meses se vacía de agua y se anclan en una plataforma MARCA",
+      "resumen_largo": "Suiza instala en un lago 1.400 paneles solares encadenados a pesas en el fondo: durante seis meses se vacía de agua y se anclan en una plataforma MARCA",
+      "texto_original": "Suiza instala en un lago 1.400 paneles solares encadenados a pesas en el fondo: durante seis meses se vacía de agua y se anclan en una plataforma MARCA",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-09-10T05:56:50.882Z",
+        "index": 1,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "inteligencia_artificial",
+        "categorias_secundarias": [],
+        "category_scores": {
+          "inteligencia_artificial": 1
+        },
+        "entidades": [],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 75,
+        "relevancia": 50,
+        "confiabilidad_fuente": 53,
+        "readability": {
+          "words": 90,
+          "sentences": 6,
+          "average_words_per_sentence": 15
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 59.5
+    },
+    {
+      "id": "077517d75dfee1e8",
+      "fuente_id": "google_news_es",
+      "fuente_nombre": "Google News ES",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "google_news",
+      "nivel_fuente": "agregador",
+      "categoria": "tecnologia",
+      "idioma_original": "es",
+      "prioridad_fuente": 3,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Teradyne en la conferencia Goldman Sachs Communacopia + Tecnología: la IA amplía su alcance - Investing.com España",
+      "titulo_original": "Teradyne en la conferencia Goldman Sachs Communacopia + Tecnología: la IA amplía su alcance - Investing.com España",
+      "enlace": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOUzlSUmhfSkRLb3JIMVpzMW9rWFAyUmZLb1BacXlrQ3Q4Y3BkVlJMYlhwcVgtNlBld3RRNnBVQkRUUy1MaWR2QkdFV2ZCN2Q4V0doQUFvUmtpNGxrTkFWZVdNWGY2b2NnVS1FaExDaG5BUEdfQ1BEWmJacUtOejVFSE5nTGhGanJ4REZzRkczTTJ5dVYxd2MwMWxDeHJPcTlFbjNENDE0c1RyaW1KYnBIMElMX01pd3NXYXQzMDRaaGl0SFJKVktUbmlwNmphU0FlZUdvZDlDRUpYT2VP?oc=5",
+      "fecha": "2026-09-10T03:35:00.000Z",
+      "resumen_corto": "Teradyne en la conferencia Goldman Sachs Communacopia + Tecnología: la IA amplía su alcance Investing.com España",
+      "resumen_largo": "Teradyne en la conferencia Goldman Sachs Communacopia + Tecnología: la IA amplía su alcance Investing.com España",
+      "texto_original": "Teradyne en la conferencia Goldman Sachs Communacopia + Tecnología: la IA amplía su alcance Investing.com España",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-09-10T05:56:50.892Z",
+        "index": 10,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "tecnologia",
+        "categorias_secundarias": [
+          "inteligencia_artificial"
+        ],
+        "category_scores": {
+          "tecnologia": 2,
+          "inteligencia_artificial": 1
+        },
+        "entidades": [],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 75,
+        "relevancia": 50,
+        "confiabilidad_fuente": 53,
+        "readability": {
+          "words": 55,
+          "sentences": 6,
+          "average_words_per_sentence": 9.17
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 59.5
     },
     {
       "id": "48ee4a9c2926c842",
@@ -2951,8 +3185,8 @@
       "texto_original": "🏰 Koporie, una joya medieval escondida en la región de Leningrado La fortaleza de Koporie es uno de esos lugares donde la historia medieval rusa todavía se puede tocar con las manos. Se encuentra en el suroeste de la región de Leningrado y es considerada uno de los ejemplos mejor conservados de arquitectura defensiva medieval de Rusia. 📖 La fortaleza aparece mencionada por primera vez en las crónicas de Nóvgorod en 1240, cuando los caballeros de Livonia levantaron allí una fortificación de madera. Apenas un año después fue destruida por las tropas de Alejandro Nevski. En 1280 comenzó a levantarse en el mismo lugar una fortaleza rusa de piedra. ⚔️ Durante los siglos siguientes, Koporie cambió varias veces de manos en las guerras entre Rusia y Suecia. Finalmente regresó al control ruso durante el reinado de Pedro el Grande. Hoy siguen en pie sus gruesas murallas y cuatro torres circulares, construidas sobre una formación natural de piedra caliza. Es un sitio poco conocido fuera de Rusia, pero perfecto para entender cómo se protegían las fronteras del noroeste ruso hace más de siete siglos. #Rusia #Koporie #HistoriaRusa #Leningrado #Fortalezas Apóyanos pulsando 👉 'BOOST' 👈 🖥 https://vamosarusia.com 💬 @vamosarusia",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-10T01:03:54.296Z",
-        "index": 43,
+        "processed_at": "2026-09-10T05:56:50.919Z",
+        "index": 47,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -3004,7 +3238,7 @@
       "final_score": 56.8
     },
     {
-      "id": "29f0bb006a69d076",
+      "id": "a9b471c53fcce67c",
       "fuente_id": "resumen_militar",
       "fuente_nombre": "El Resumen Militar",
       "tipo": "telegram",
@@ -3016,17 +3250,81 @@
       "prioridad_fuente": 3,
       "analizar": true,
       "resumir": true,
-      "titulo": "🇷🇺 🇻🇳 Russian President Vladimir Putin is holding talks with Vietnamese President and Communist Party General Secretary To Lam at the Kremlin in Moscow. The two leaders are discussing the further development of the R",
-      "titulo_original": "🇷🇺 🇻🇳 Russian President Vladimir Putin is holding talks with Vietnamese President and Communist Party General Secretary To Lam at the Kremlin in Moscow. The two leaders are discussing the further development of the R",
-      "enlace": "https://t.me/elresumenmilitar/99184",
-      "fecha": "2026-09-09T12:52:46.000Z",
-      "resumen_corto": "🇷🇺 🇻🇳 Russian President Vladimir Putin is holding talks with Vietnamese President and Communist Party General Secretary To Lam at the Kremlin in Moscow.",
-      "resumen_largo": "🇷🇺 🇻🇳 Russian President Vladimir Putin is holding talks with Vietnamese President and Communist Party General Secretary To Lam at the Kremlin in Moscow. The two leaders are discussing the further development of the Russia-Vietnam comprehensive strategic partnership , including trade, energy, science and education, as well as security and defense cooperation . A package of bilateral agreements is expected to be adopted following the talks.",
-      "texto_original": "🇷🇺 🇻🇳 Russian President Vladimir Putin is holding talks with Vietnamese President and Communist Party General Secretary To Lam at the Kremlin in Moscow. The two leaders are discussing the further development of the Russia-Vietnam comprehensive strategic partnership , including trade, energy, science and education, as well as security and defense cooperation . A package of bilateral agreements is expected to be adopted following the talks.",
+      "titulo": "— ❗️ 🇸🇦 / 🇾🇪 Visual confirmation of the Houthis driving through Yakhtal @Middle_East_Spectator",
+      "titulo_original": "— ❗️ 🇸🇦 / 🇾🇪 Visual confirmation of the Houthis driving through Yakhtal @Middle_East_Spectator",
+      "enlace": "https://t.me/elresumenmilitar/99208",
+      "fecha": "2026-09-10T03:58:03.000Z",
+      "resumen_corto": "— ❗️ 🇸🇦 / 🇾🇪 Visual confirmation of the Houthis driving through Yakhtal @Middle_East_Spectator",
+      "resumen_largo": "— ❗️ 🇸🇦 / 🇾🇪 Visual confirmation of the Houthis driving through Yakhtal @Middle_East_Spectator",
+      "texto_original": "— ❗️ 🇸🇦 / 🇾🇪 Visual confirmation of the Houthis driving through Yakhtal @Middle_East_Spectator",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-10T01:03:54.281Z",
-        "index": 21,
+        "processed_at": "2026-09-10T05:56:50.888Z",
+        "index": 4,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "en",
+        "idioma_original": "es",
+        "categoria": "militar",
+        "categorias_secundarias": [],
+        "category_scores": {},
+        "entidades": [],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 75,
+        "relevancia": 45,
+        "confiabilidad_fuente": 45,
+        "readability": {
+          "words": 50,
+          "sentences": 1,
+          "average_words_per_sentence": 50
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 55.5
+    },
+    {
+      "id": "5283ccc1232e1307",
+      "fuente_id": "resumen_militar",
+      "fuente_nombre": "El Resumen Militar",
+      "tipo": "telegram",
+      "subtipo": "canal_telegram",
+      "grupo_fuente": "telegram_militar",
+      "nivel_fuente": "telegram",
+      "categoria": "militar",
+      "idioma_original": "es",
+      "prioridad_fuente": 3,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "— ❗️ 🇸🇦 / 🇾🇪 Saudi-backed PLC fighters present in Mokha: ‘I swear to God, we will not withdraw from Mokha. By God’s will, I’m waiting for them [Houthis] and we’ll fight.’ @Middle_East_Spectator",
+      "titulo_original": "— ❗️ 🇸🇦 / 🇾🇪 Saudi-backed PLC fighters present in Mokha: ‘I swear to God, we will not withdraw from Mokha. By God’s will, I’m waiting for them [Houthis] and we’ll fight.’ @Middle_East_Spectator",
+      "enlace": "https://t.me/elresumenmilitar/99206",
+      "fecha": "2026-09-10T03:54:21.000Z",
+      "resumen_corto": "— ❗️ 🇸🇦 / 🇾🇪 Saudi-backed PLC fighters present in Mokha: ‘I swear to God, we will not withdraw from Mokha.",
+      "resumen_largo": "— ❗️ 🇸🇦 / 🇾🇪 Saudi-backed PLC fighters present in Mokha: ‘I swear to God, we will not withdraw from Mokha. By God’s will, I’m waiting for them [Houthis] and we’ll fight.’ @Middle_East_Spectator",
+      "texto_original": "— ❗️ 🇸🇦 / 🇾🇪 Saudi-backed PLC fighters present in Mokha: ‘I swear to God, we will not withdraw from Mokha. By God’s will, I’m waiting for them [Houthis] and we’ll fight.’ @Middle_East_Spectator",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-09-10T05:56:50.890Z",
+        "index": 6,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -3035,17 +3333,11 @@
         "idioma_original": "es",
         "categoria": "inteligencia_artificial",
         "categorias_secundarias": [
-          "vehiculos_energia",
-          "software_internet",
           "militar"
         ],
         "category_scores": {
           "inteligencia_artificial": 1,
-          "vehiculos_energia": 1,
-          "software_internet": 1,
-          "militar": 1,
-          "tecnologia": 1,
-          "actualidad": 1
+          "militar": 1
         },
         "entidades": [],
         "cifras_detectadas": [],
@@ -3062,12 +3354,12 @@
           "url_count": 0
         },
         "calidad": 60,
-        "relevancia": 57,
+        "relevancia": 50,
         "confiabilidad_fuente": 45,
         "readability": {
-          "words": 174,
-          "sentences": 9,
-          "average_words_per_sentence": 19.33
+          "words": 109,
+          "sentences": 10,
+          "average_words_per_sentence": 10.9
         },
         "duplicate": {
           "detected": false,
@@ -3076,7 +3368,7 @@
           "similar_to": null
         }
       },
-      "final_score": 55.05
+      "final_score": 52.25
     },
     {
       "id": "ad0412674da06b58",
@@ -3100,8 +3392,8 @@
       "texto_original": "« 📌 Para tener en cuenta / En memoria Efectivos del Centro de Operaciones Especiales (TsSN) del FSB de Rusia caídos durante la liberación de rehenes en la Escuela N.º 1 de la ciudad de Beslán: ▪️ Teniente coronel Dmitri Aleksándrovich Razumovski - Héroe de Rusia (póstumo) ▪️ Teniente coronel Oleg Guennádievich Ilyín - Héroe de Rusia (póstumo) ▪️ Mayor Aleksandr Valentínovich Perov - Héroe de Rusia (póstumo) ▪️ Teniente Andréi Alekséyevich Turkin - Héroe de Rusia (póstumo) ▪️ Mayor Andréi Vitálievich Velko - Caballero de la Orden «Por el Mérito a la Patria» de IV clase (póstumo) ▪️ Mayor Román Víktorovich Katasónov - Caballero de la Orden «Por el Mérito a la Patria» de IV clase (póstumo) ▪️ Mayor Mijaíl Borísovich Kuznetsov - Caballero de la Orden «Por el Mérito a la Patria» de IV clase (póstumo) ▪️ Mayor Viacheslav Vladímirovich Maliárov - Caballero de la Orden «Por el Mérito a la Patria» de IV clase (póstumo) ▪️ Suboficial ( Práporshchik ) Oleg Viacheslávovich Loskov - Caballero de la Orden «Por el Mérito a la Patria» de IV clase (póstumo) ▪️ Suboficial ( Práporshchik ) Denís Yevguénievich Pudovkin - Caballero de la Orden «Por el Mérito a la Patria» de IV clase (póstumo)",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-10T01:03:54.293Z",
-        "index": 41,
+        "processed_at": "2026-09-10T05:56:50.916Z",
+        "index": 45,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -3169,8 +3461,8 @@
       "texto_original": "En el sector de Oréjov (Zaporiyia), destacamentos de asalto del 71.º Regimiento de Fusileros Motorizados de la Guardia (42.ª División) intensifican las acciones de limpieza sobre la red de trincheras y búnkeres ucranianos. Para superar las fortificaciones subterráneas, la infantería rusa recurre a tácticas de zapadores, aproximándose a pie hasta los accesos para detonar minas antitanque pesadas TM-62 a modo de cargas de demolición concentradas, provocando el colapso estructural inmediato de los puntos de apoyo ( opórniks ).",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-10T01:03:54.294Z",
-        "index": 42,
+        "processed_at": "2026-09-10T05:56:50.917Z",
+        "index": 46,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -3240,8 +3532,8 @@
       "texto_original": "En Kramatorsk , la aviación táctica rusa ejecutó un ataque de precisión contra la sede del departamento local de la Policía Nacional de Ucrania, identificada como punto de despliegue temporal ( PVD ) y centro de coordinación de unidades ucranianas. Los registros posteriores al impacto muestran la destrucción estructural del inmueble, en el marco de la campaña de bombardeos sobre las instalaciones de mando y concentración de tropas en el eje Slaviansk-Kramatorsk.",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-10T01:03:54.297Z",
-        "index": 44,
+        "processed_at": "2026-09-10T05:56:50.920Z",
+        "index": 48,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -3309,8 +3601,8 @@
       "texto_original": "😂 🇺🇸 QUÉ PRECIOSO SE VE EL USS ABRAHAM LINCOLN… Entrando al puerto de Sattahip, en Tailandia, acompañado de sus elegantes aviones decorativos de cubierta y con una decoración estilo vintage. ✈️ ✨ Una auténtica postal naval.",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-10T01:03:54.298Z",
-        "index": 45,
+        "processed_at": "2026-09-10T05:56:50.921Z",
+        "index": 49,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -3357,7 +3649,7 @@
       "final_score": 52.25
     },
     {
-      "id": "cd283cefb1e76c0c",
+      "id": "bdba8940c70af0b3",
       "fuente_id": "resumen_militar",
       "fuente_nombre": "El Resumen Militar",
       "tipo": "telegram",
@@ -3369,17 +3661,17 @@
       "prioridad_fuente": 3,
       "analizar": true,
       "resumir": true,
-      "titulo": "🇪🇺 🇺🇦 The New-York Times пишет, что ЕС возмущён наглостью хохлов, которые уже просят новый кредит для закрытия дыры в военном бюджете Речь идёт о сумме в $27 миллиардов. У европейских чиновников возникли вопросы к Ки",
-      "titulo_original": "🇪🇺 🇺🇦 The New-York Times пишет, что ЕС возмущён наглостью хохлов, которые уже просят новый кредит для закрытия дыры в военном бюджете Речь идёт о сумме в $27 миллиардов. У европейских чиновников возникли вопросы к Ки",
-      "enlace": "https://t.me/elresumenmilitar/99188",
-      "fecha": "2026-09-09T14:18:23.000Z",
-      "resumen_corto": "🇪🇺 🇺🇦 The New-York Times пишет, что ЕС возмущён наглостью хохлов, которые уже просят новый кредит для закрытия дыры в военном бюджете Речь идёт о сумме в $27 миллиардов.",
-      "resumen_largo": "🇪🇺 🇺🇦 The New-York Times пишет, что ЕС возмущён наглостью хохлов, которые уже просят новый кредит для закрытия дыры в военном бюджете Речь идёт о сумме в $27 миллиардов. У европейских чиновников возникли вопросы к Киеву по поводу масштабов дефицита украинского оборонного бюджета. В ЕС теперь пытаются понять, откуда образовалась дыра и действительно ли Украине нужна вся запрошенная сумма.",
-      "texto_original": "🇪🇺 🇺🇦 The New-York Times пишет, что ЕС возмущён наглостью хохлов, которые уже просят новый кредит для закрытия дыры в военном бюджете Речь идёт о сумме в $27 миллиардов. У европейских чиновников возникли вопросы к Киеву по поводу масштабов дефицита украинского оборонного бюджета. В ЕС теперь пытаются понять, откуда образовалась дыра и действительно ли Украине нужна вся запрошенная сумма. \"Военные расходы Украины за первые восемь месяцев 2026 года выросли более чем на 17%. Одновременно из-за атак на промышленность и экспортную инфраструктуру Киев недополучает около половины ожидаемых доходов. Теперь Украина просит ЕС ускорить выдачу согласованного кредита более чем на $100 млрд. Это может осложнить отношения с союзниками и оставить Киеву меньше средств на 2027 год.\" Пригрели змею на шее 🙂 Подписаться на канал | наш МАХ",
+      "titulo": "— ❗️ 🇸🇦 / 🇾🇪 BREAKING: Ansarallah (the Houthis) have captured Yakhtal, just north of Mokha The process of liberating Mokha city from Saudi-backed mercenary forces has begun. @Middle_East_Spectator",
+      "titulo_original": "— ❗️ 🇸🇦 / 🇾🇪 BREAKING: Ansarallah (the Houthis) have captured Yakhtal, just north of Mokha The process of liberating Mokha city from Saudi-backed mercenary forces has begun. @Middle_East_Spectator",
+      "enlace": "https://t.me/elresumenmilitar/99207",
+      "fecha": "2026-09-10T03:57:57.000Z",
+      "resumen_corto": "— ❗️ 🇸🇦 / 🇾🇪 BREAKING: Ansarallah (the Houthis) have captured Yakhtal, just north of Mokha The process of liberating Mokha city from Saudi-backed mercenary forces has begun.",
+      "resumen_largo": "— ❗️ 🇸🇦 / 🇾🇪 BREAKING: Ansarallah (the Houthis) have captured Yakhtal, just north of Mokha The process of liberating Mokha city from Saudi-backed mercenary forces has begun.",
+      "texto_original": "— ❗️ 🇸🇦 / 🇾🇪 BREAKING: Ansarallah (the Houthis) have captured Yakhtal, just north of Mokha The process of liberating Mokha city from Saudi-backed mercenary forces has begun. @Middle_East_Spectator",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-10T01:03:54.278Z",
-        "index": 18,
+        "processed_at": "2026-09-10T05:56:50.889Z",
+        "index": 5,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -3390,82 +3682,14 @@
         "categorias_secundarias": [],
         "category_scores": {},
         "entidades": [],
-        "cifras_detectadas": [
-          "$27",
-          "2026",
-          "17%",
-          "$100",
-          "2027"
-        ],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 25,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 65,
-        "relevancia": 45,
-        "confiabilidad_fuente": 45,
-        "readability": {
-          "words": 220,
-          "sentences": 14,
-          "average_words_per_sentence": 15.71
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 52
-    },
-    {
-      "id": "550fbe9938fe43f4",
-      "fuente_id": "resumen_militar",
-      "fuente_nombre": "El Resumen Militar",
-      "tipo": "telegram",
-      "subtipo": "canal_telegram",
-      "grupo_fuente": "telegram_militar",
-      "nivel_fuente": "telegram",
-      "categoria": "militar",
-      "idioma_original": "es",
-      "prioridad_fuente": 3,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "🇷🇺 🇺🇦 УСТУПОК НЕ БУДЕТ Песков прокомментировал вчерашнее нытьё Зеленского о прекращении атак судов в Чёрном море и не только: \"Готовность Зеленского к компромиссам появилась после заявления Путина о том, что Киев отк",
-      "titulo_original": "🇷🇺 🇺🇦 УСТУПОК НЕ БУДЕТ Песков прокомментировал вчерашнее нытьё Зеленского о прекращении атак судов в Чёрном море и не только: \"Готовность Зеленского к компромиссам появилась после заявления Путина о том, что Киев отк",
-      "enlace": "https://t.me/elresumenmilitar/99185",
-      "fecha": "2026-09-09T13:51:41.000Z",
-      "resumen_corto": "🇷🇺 🇺🇦 УСТУПОК НЕ БУДЕТ Песков прокомментировал вчерашнее нытьё Зеленского о прекращении атак судов в Чёрном море и не только: \"Готовность Зеленского к компромиссам появилась после заявления Путина о том, что Киев открыл ящик Пандоры.",
-      "resumen_largo": "🇷🇺 🇺🇦 УСТУПОК НЕ БУДЕТ Песков прокомментировал вчерашнее нытьё Зеленского о прекращении атак судов в Чёрном море и не только: \"Готовность Зеленского к компромиссам появилась после заявления Путина о том, что Киев открыл ящик Пандоры. Киев знает, на какие уступки нужно пойти, чтобы выйти на урегулирование конфликта.\" Сколько бы теперь просроченный не скулил , а уничтожение портов, складов и экономики Украины продолжится. Подписаться на канал | наш МАХ",
-      "texto_original": "🇷🇺 🇺🇦 УСТУПОК НЕ БУДЕТ Песков прокомментировал вчерашнее нытьё Зеленского о прекращении атак судов в Чёрном море и не только: \"Готовность Зеленского к компромиссам появилась после заявления Путина о том, что Киев открыл ящик Пандоры. Киев знает, на какие уступки нужно пойти, чтобы выйти на урегулирование конфликта.\" Сколько бы теперь просроченный не скулил , а уничтожение портов, складов и экономики Украины продолжится. Подписаться на канал | наш МАХ",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-09-10T01:03:54.279Z",
-        "index": 20,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "es",
-        "categoria": "militar",
-        "categorias_secundarias": [],
-        "category_scores": {},
-        "entidades": [],
         "cifras_detectadas": [],
         "content_type": "news",
         "clickbait": {
           "detected": false,
-          "score": 0,
-          "signals": []
+          "score": 25,
+          "signals": [
+            "\\bbreaking\\b"
+          ]
         },
         "spam": {
           "detected": false,
@@ -3477,9 +3701,9 @@
         "relevancia": 45,
         "confiabilidad_fuente": 45,
         "readability": {
-          "words": 174,
-          "sentences": 8,
-          "average_words_per_sentence": 21.75
+          "words": 119,
+          "sentences": 6,
+          "average_words_per_sentence": 19.83
         },
         "duplicate": {
           "detected": false,
@@ -3491,24 +3715,24 @@
       "final_score": 50.25
     }
   ],
-  "analyzed_at": "2026-09-10T01:03:54.299Z",
+  "analyzed_at": "2026-09-10T05:56:50.921Z",
   "analysis_stats": {
-    "input_items": 48,
-    "valid_items": 48,
+    "input_items": 51,
+    "valid_items": 51,
     "rejected_items": 0,
     "duplicate_items": 0,
     "clickbait_items": 0,
     "spam_items": 0,
-    "summaries_generated": 48,
-    "average_quality": 78,
-    "average_relevance": 59
+    "summaries_generated": 51,
+    "average_quality": 79,
+    "average_relevance": 60
   },
   "validation": {
     "version": "1.1",
-    "executed_at": "2026-09-10T01:03:54.447Z",
-    "original_items": 48,
+    "executed_at": "2026-09-10T05:56:51.074Z",
+    "original_items": 51,
     "rejected_items": 0,
-    "final_items": 48,
+    "final_items": 51,
     "limit": 60,
     "status": "ok"
   }

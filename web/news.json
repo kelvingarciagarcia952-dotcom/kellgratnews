@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "updated_at": "2026-09-14T18:29:19.163Z",
+  "updated_at": "2026-09-14T22:24:43.401Z",
   "configuracion": {
     "limite_global": 60,
     "frecuencia_minutos": 60,
@@ -22,12 +22,88 @@
   },
   "source_stats": {
     "active_sources": 15,
-    "successful_sources": 15,
-    "collected_items": 63,
+    "successful_sources": 14,
+    "collected_items": 60,
     "deduplicated_items": 50,
     "final_items": 50
   },
   "items": [
+    {
+      "id": "935db376b1733f4d",
+      "fuente_id": "bbc_mundo",
+      "fuente_nombre": "BBC Mundo",
+      "tipo": "rss_web",
+      "subtipo": "medio_generalista",
+      "grupo_fuente": "bbc",
+      "nivel_fuente": "medio_profesional",
+      "categoria": "actualidad",
+      "idioma_original": "es",
+      "prioridad_fuente": 5,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Un ministro de Netanyahu pide retirar la ciudadanía israelí a dos cineastas por su documental sobre las muertes de civiles en Gaza",
+      "titulo_original": "Un ministro de Netanyahu pide retirar la ciudadanía israelí a dos cineastas por su documental sobre las muertes de civiles en Gaza",
+      "enlace": "https://www.bbc.com/mundo/articles/cr2kw42vn1x7o?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-09-14T20:50:41.000Z",
+      "resumen_corto": "El ministro Miki Zohar acusa de \"traición contra el Estado\" a los cineastas Yuval Abraham y Rachel Szor, ganadores de un Oscar en 2025 por su trabajo anterior, el documental No Other Land .",
+      "resumen_largo": "El ministro de Cultura de Israel ha pedido que se retire la ciudadanía a los codirectores israelíes del documental Naza , en el que se acusa al ejército israelí de asesinatos masivos de civiles en Gaza. El ministro Miki Zohar acusa de \"traición contra el Estado\" a los cineastas Yuval Abraham y Rachel Szor, ganadores de un Oscar en 2025 por su trabajo anterior, el documental No Other Land . Naza , cuyo título proviene de un acrónimo militar hebreo que significa \"daño colateral\", recoge los testimonios de 24 oficiales de inteligencia y militares israelíes no identificados.",
+      "texto_original": "El ministro de Cultura de Israel ha pedido que se retire la ciudadanía a los codirectores israelíes del documental Naza , en el que se acusa al ejército israelí de asesinatos masivos de civiles en Gaza. El ministro Miki Zohar acusa de \"traición contra el Estado\" a los cineastas Yuval Abraham y Rachel Szor, ganadores de un Oscar en 2025 por su trabajo anterior, el documental No Other Land . Naza , cuyo título proviene de un acrónimo militar hebreo que significa \"daño colateral\", recoge los testimonios de 24 oficiales de inteligencia y militares israelíes no identificados. Estos describen los sistemas de selección de objetivos basados en inteligencia artificial que el ejército israelí utilizó para bombardear Gaza durante la guerra que siguió al ataque de Hamás del 7 de octubre de 2023. En aquel ataque sobre territorio israelí, unas 1.200 personas perdieron la vida y 251 fueron tomadas como rehenes. Desde entonces, más de 73.000 palestinos —incluidos más de 20.000 niños— han muerto en la campaña de las Fuerzas de Defensa de Israel (FDI), según cifras del Ministerio de Salud de Gaza, administrado por Hamás, que la ONU da por válidas.",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-09-14T22:24:43.213Z",
+        "index": 2,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "militar",
+        "categorias_secundarias": [
+          "inteligencia_artificial",
+          "vehiculos_energia",
+          "moviles"
+        ],
+        "category_scores": {
+          "militar": 5,
+          "inteligencia_artificial": 4,
+          "vehiculos_energia": 2,
+          "moviles": 1
+        },
+        "entidades": [],
+        "cifras_detectadas": [
+          "2025",
+          "2023"
+        ],
+        "content_type": "report",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 92,
+        "relevancia": 65,
+        "confiabilidad_fuente": 80,
+        "readability": {
+          "words": 246,
+          "sentences": 13,
+          "average_words_per_sentence": 18.92
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 78.2
+    },
     {
       "id": "29b91bc5686f27da",
       "fuente_id": "huawei_central",
@@ -50,8 +126,8 @@
       "texto_original": "Honor MagicOS 11 is in the making and will debut tomorrow at the company’s developer conference, and ahead of its launch, one of the officials revealed a special Power Saving feature coming with the new software iteration. Let’s check how it works. XiaoFangge, the Honor Product Maintenance and Upgrade Manager, stated that MagicOS 11 will […] The post Honor MagicOS 11 will introduce new Power Saving feature appeared first on Huawei Central.",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-14T18:29:18.987Z",
-        "index": 15,
+        "processed_at": "2026-09-14T22:24:43.226Z",
+        "index": 20,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -132,8 +208,8 @@
       "texto_original": "Huawei Mate 90 Pro Max could match Honor in terms of brightness, as the top flagship is rumored to feature a 10000-nit dual-layer OLED screen. If it is true, the company will mark a new achievement in the smartphone industry. Here are the details. DigitalChatStation reported that the high-end Huawei Mate 90 series models (Pro […] The post Huawei Mate 90 Pro Max likely to feature 10000-nit display brightness appeared first on Huawei Central.",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-14T18:29:18.988Z",
-        "index": 16,
+        "processed_at": "2026-09-14T22:24:43.227Z",
+        "index": 21,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -211,8 +287,8 @@
       "texto_original": "Honor has shared another teaser for the Magic 9 series, resolving the battery pack mystery to some extent as the top-tier lineup will feature 11000mAh cell capacity. That’s the largest battery capacity to date in the history of the flagship phone industry. The company has dropped the battery teaser for the Honor Magic 9 series, […] The post Honor Magic 9 series to break records with 11000mAh battery appeared first on Huawei Central.",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-14T18:29:18.996Z",
-        "index": 23,
+        "processed_at": "2026-09-14T22:24:43.237Z",
+        "index": 30,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -291,8 +367,8 @@
       "texto_original": "Este artículo contiene detalles, incluidas descripciones de violencia, que pueden ser perturbadores para algunos lectores. Amy dice que, de no haber sido por la intervención de su familia y amigos, se habría casado con el hombre que la había maltratado física y psicológicamente durante gran parte de su relación. Christopher Malcolm, un violador en serie que fue encarcelado recientemente por sus crímenes, le infligió lesiones que cambiaron su vida. Según contó, en una ocasión le dejó la cara \"llena de moretones\" justo antes de que visitara a su padre, que padecía una enfermedad terminal, por el Día del Padre. Amy, nombre ficticio, narró a la BBC que permanecer en la relación era a menudo una forma de calmar la violencia y sobrevivir. Mientras Malcolm estuviera en libertad, no se sentía lo suficientemente segura como para denunciarlo a la policía.",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-14T18:29:18.991Z",
-        "index": 18,
+        "processed_at": "2026-09-14T22:24:43.232Z",
+        "index": 25,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -343,84 +419,6 @@
       "final_score": 77
     },
     {
-      "id": "4056a943e6235ab8",
-      "fuente_id": "bbc_mundo",
-      "fuente_nombre": "BBC Mundo",
-      "tipo": "rss_web",
-      "subtipo": "medio_generalista",
-      "grupo_fuente": "bbc",
-      "nivel_fuente": "medio_profesional",
-      "categoria": "actualidad",
-      "idioma_original": "es",
-      "prioridad_fuente": 5,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "\"Los empleados estamos aterrados\": la advertencia de un exinvestigador de Anthropic a la BBC sobre los riesgos de la IA (y por qué genera críticas)",
-      "titulo_original": "\"Los empleados estamos aterrados\": la advertencia de un exinvestigador de Anthropic a la BBC sobre los riesgos de la IA (y por qué genera críticas)",
-      "enlace": "https://www.bbc.com/mundo/articles/c4gq5lq8jzvo?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-09-13T17:55:22.000Z",
-      "resumen_corto": "Un investigador de inteligencia artificial (IA) que abandonó la empresa Anthropic ha declarado que las personas que trabajan en esta tecnología sentían un \"miedo genuino\" ante la velocidad de sus avances y lo que esto podría suponer para la humanidad.",
-      "resumen_largo": "Un investigador de inteligencia artificial (IA) que abandonó la empresa Anthropic ha declarado que las personas que trabajan en esta tecnología sentían un \"miedo genuino\" ante la velocidad de sus avances y lo que esto podría suponer para la humanidad. \"Creo que, si no frenamos el ritmo actual de progreso, existe una gran probabilidad de que todos muramos en un futuro inmediato\", afirmó. Jacob Coxon hizo estas declaraciones a la BBC después de que su publicación sobre los peligros de la IA —difundida tras su renuncia— se hiciera viral en un contexto de creciente preocupación por la seguridad en el sector.",
-      "texto_original": "Un investigador de inteligencia artificial (IA) que abandonó la empresa Anthropic ha declarado que las personas que trabajan en esta tecnología sentían un \"miedo genuino\" ante la velocidad de sus avances y lo que esto podría suponer para la humanidad. \"Creo que, si no frenamos el ritmo actual de progreso, existe una gran probabilidad de que todos muramos en un futuro inmediato\", afirmó. Jacob Coxon hizo estas declaraciones a la BBC después de que su publicación sobre los peligros de la IA —difundida tras su renuncia— se hiciera viral en un contexto de creciente preocupación por la seguridad en el sector. El antiguo jefe de Coxon, Dario Amodei (director de Anthropic), pidió recientemente que se ralentizara el desarrollo de la IA, aunque algunos han cuestionado las motivaciones que hay detrás de esta petición. Los líderes de dos empresas rivales de IA, Sam Altman (de OpenAI) y Elon Musk (de xAI), han expresado su acuerdo con la propuesta de Amodei de ralentizar el ritmo y establecer regulaciones en todo el sector, así como de implementar una supervisión independiente del desarrollo de modelos de IA. En un artículo publicado el sábado, Amodei señaló que el desarrollo de esta tecnología no estaba en entredicho, pero que los riesgos asociados a ella eran \"graves\" y que era necesario conceder tiempo a empresas y gobiernos para abordarlos.",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-09-14T18:29:19.001Z",
-        "index": 31,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "es",
-        "categoria": "inteligencia_artificial",
-        "categorias_secundarias": [
-          "tecnologia",
-          "semiconductores",
-          "hardware"
-        ],
-        "category_scores": {
-          "inteligencia_artificial": 6,
-          "tecnologia": 2,
-          "semiconductores": 1,
-          "hardware": 1,
-          "software_internet": 1,
-          "actualidad": 1
-        },
-        "entidades": [
-          "OpenAI",
-          "BBC"
-        ],
-        "cifras_detectadas": [],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 84,
-        "relevancia": 75,
-        "confiabilidad_fuente": 70,
-        "readability": {
-          "words": 275,
-          "sentences": 10,
-          "average_words_per_sentence": 27.5
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 76.9
-    },
-    {
       "id": "fb2a375281709503",
       "fuente_id": "openai_google",
       "fuente_nombre": "OpenAI",
@@ -433,16 +431,16 @@
       "prioridad_fuente": 5,
       "analizar": true,
       "resumir": true,
-      "titulo": "Escalar rápidamente el almacenamiento en línea para atender a más de mil millones de usuarios de ChatGPT - openai.com",
-      "titulo_original": "Rapidly scaling online storage to serve over 1 billion ChatGPT users - openai.com",
+      "titulo": "Escalar rápidamente el almacenamiento en línea para atender a más de mil millones de usuarios de ChatGPT",
+      "titulo_original": "Rapidly scaling online storage to serve over 1 billion ChatGPT users - OpenAI",
       "enlace": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1XMnIxNjBrMVh1OXY0VlNzWGlBTFZBU1dVMDdmLTVkVWo5TlJnTkFObzFzN1NOUEExUWl6ejl0Q0x1LV9fQmFoRVNUb2x3bW1DTVJZMjRBU3AyMy16ZlVkZWcxYlBnMFVfbWRBNTNjSUNmSEJWZ0NN?oc=5",
       "fecha": "2026-09-11T17:00:07.000Z",
-      "resumen_corto": "Escalar rápidamente el almacenamiento en línea para atender a más de mil millones de usuarios de ChatGPT openai.com",
-      "resumen_largo": "Escalar rápidamente el almacenamiento en línea para atender a más de mil millones de usuarios de ChatGPT openai.com",
-      "texto_original": "Rapidly scaling online storage to serve over 1 billion ChatGPT users openai.com",
+      "resumen_corto": "Escalar rápidamente el almacenamiento en línea para atender a más de mil millones de usuarios de ChatGPT OpenAI",
+      "resumen_largo": "Escalar rápidamente el almacenamiento en línea para atender a más de mil millones de usuarios de ChatGPT OpenAI",
+      "texto_original": "Rapidly scaling online storage to serve over 1 billion ChatGPT users OpenAI",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-14T18:29:19.005Z",
+        "processed_at": "2026-09-14T22:24:43.242Z",
         "index": 40,
         "resumen": {
           "generado": true,
@@ -483,9 +481,9 @@
         "relevancia": 67,
         "confiabilidad_fuente": 75,
         "readability": {
-          "words": 61,
-          "sentences": 6,
-          "average_words_per_sentence": 10.17
+          "words": 55,
+          "sentences": 1,
+          "average_words_per_sentence": 55
         },
         "duplicate": {
           "detected": false,
@@ -497,7 +495,7 @@
       "final_score": 76.7
     },
     {
-      "id": "60960aceb6761e1d",
+      "id": "7e24d9d771208936",
       "fuente_id": "bbc_mundo",
       "fuente_nombre": "BBC Mundo",
       "tipo": "rss_web",
@@ -509,16 +507,16 @@
       "prioridad_fuente": 5,
       "analizar": true,
       "resumir": true,
-      "titulo": "Los líderes de Escocia, Irlanda del Norte y Gales se unen para reclamar su derecho de independencia de Reino Unido",
-      "titulo_original": "Los líderes de Escocia, Irlanda del Norte y Gales se unen para reclamar su derecho de independencia de Reino Unido",
-      "enlace": "https://www.bbc.com/mundo/articles/cqzjz0pjedxro?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-09-14T16:51:10.000Z",
-      "resumen_corto": "Los primeros ministros de Gales, Escocia e Irlanda del Norte firmaron este lunes un documento para reclamar su derecho a la independencia de Reino Unido.",
-      "resumen_largo": "Los primeros ministros de Gales, Escocia e Irlanda del Norte firmaron este lunes un documento para reclamar su derecho a la independencia de Reino Unido. Los tres líderes nacionalistas desean que sus países abandonen el Reino Unido y en el acuerdo firmado piden que ningún gobierno de Westminster (la sede política del gobierno británico en Londres) tiene derecho a \"bloquear la democracia\". Pero mientras que John Swinney, de Escocia, y Michelle O'Neill, de Irlanda del Norte, pidieron referendos en una rueda de prensa conjunta, Rhun ap Iorwerth, de Gales, se negó a dar un calendario para celebrar uno en su país.",
-      "texto_original": "Los primeros ministros de Gales, Escocia e Irlanda del Norte firmaron este lunes un documento para reclamar su derecho a la independencia de Reino Unido. Los tres líderes nacionalistas desean que sus países abandonen el Reino Unido y en el acuerdo firmado piden que ningún gobierno de Westminster (la sede política del gobierno británico en Londres) tiene derecho a \"bloquear la democracia\". Pero mientras que John Swinney, de Escocia, y Michelle O'Neill, de Irlanda del Norte, pidieron referendos en una rueda de prensa conjunta, Rhun ap Iorwerth, de Gales, se negó a dar un calendario para celebrar uno en su país. Es la primera vez desde que comenzó la descentralización que Gales, Escocia e Irlanda del Norte tienen ministros principales que desean abandonar el Reino Unido. El memorando de entendimiento dice: \"Para quienes nos observan desde estas islas, para quienes nos observan desde todo el mundo, no podría haber una señal más clara de que el tiempo de Westminster está llegando a su fin\". \"Ningún gobierno de Westminster tiene derecho a bloquear la democracia ni a socavar el principio de que nuestro pueblo decidirá su propio futuro\".",
+      "titulo": "Por qué preocupa que la IA pueda amenazar a la humanidad y qué tan real es ese temor",
+      "titulo_original": "Por qué preocupa que la IA pueda amenazar a la humanidad y qué tan real es ese temor",
+      "enlace": "https://www.bbc.com/mundo/articles/cqkg0dvwm99vo?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-09-14T19:00:29.000Z",
+      "resumen_corto": "En las últimas semanas, las advertencias sobre los peligros potenciales de la IA han impulsado llamados a la acción coordinada para desacelerar el desarrollo de esta tecnología.",
+      "resumen_largo": "En las últimas semanas, las advertencias sobre los peligros potenciales de la IA han impulsado llamados a la acción coordinada para desacelerar el desarrollo de esta tecnología. Las afirmaciones de investigadores actuales y anteriores de que la IA pondrá en peligro a la humanidad -uno de ellos incluso sugiere que hay más de un 10% de probabilidades de que \"mate a todos los humanos\"- han hecho saltar las alarmas. Los principales desarrolladores, OpenAI y Anthropic, han instado a los legisladores a regularlo, aunque algunos sugieren, quizás con cierto cinismo, que esta medida pretende afianzar su dominio sobre sus rivales.",
+      "texto_original": "En las últimas semanas, las advertencias sobre los peligros potenciales de la IA han impulsado llamados a la acción coordinada para desacelerar el desarrollo de esta tecnología. Las afirmaciones de investigadores actuales y anteriores de que la IA pondrá en peligro a la humanidad -uno de ellos incluso sugiere que hay más de un 10% de probabilidades de que \"mate a todos los humanos\"- han hecho saltar las alarmas. Los principales desarrolladores, OpenAI y Anthropic, han instado a los legisladores a regularlo, aunque algunos sugieren, quizás con cierto cinismo, que esta medida pretende afianzar su dominio sobre sus rivales. En cualquier caso, las acusaciones de gran repercusión han causado preocupación. Algunos investigadores de IA afirman que existen señales preocupantes de que sus sistemas están desarrollando sus capacidades y potencia con demasiada rapidez. Evan Hubinger acaparó los títulares de las noticias al afirmar que existe una probabilidad superior al 10 % de que la IA \"pueda acabar con todos los humanos\" en la próxima década.",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-14T18:29:18.976Z",
+        "processed_at": "2026-09-14T22:24:43.215Z",
         "index": 4,
         "resumen": {
           "generado": true,
@@ -526,19 +524,28 @@
         },
         "idioma_detectado": "es",
         "idioma_original": "es",
-        "categoria": "actualidad",
+        "categoria": "inteligencia_artificial",
         "categorias_secundarias": [
-          "inteligencia_artificial",
-          "semiconductores"
+          "vehiculos_energia",
+          "tecnologia",
+          "moviles"
         ],
         "category_scores": {
-          "actualidad": 3,
-          "inteligencia_artificial": 2,
-          "semiconductores": 1
+          "inteligencia_artificial": 4,
+          "vehiculos_energia": 2,
+          "tecnologia": 2,
+          "moviles": 1,
+          "militar": 1,
+          "actualidad": 1
         },
-        "entidades": [],
-        "cifras_detectadas": [],
-        "content_type": "report",
+        "entidades": [
+          "OpenAI"
+        ],
+        "cifras_detectadas": [
+          "10%",
+          "10 %"
+        ],
+        "content_type": "news",
         "clickbait": {
           "detected": false,
           "score": 0,
@@ -550,13 +557,13 @@
           "signals": [],
           "url_count": 0
         },
-        "calidad": 87,
-        "relevancia": 65,
-        "confiabilidad_fuente": 80,
+        "calidad": 89,
+        "relevancia": 70,
+        "confiabilidad_fuente": 70,
         "readability": {
-          "words": 256,
+          "words": 236,
           "sentences": 10,
-          "average_words_per_sentence": 25.6
+          "average_words_per_sentence": 23.6
         },
         "duplicate": {
           "detected": false,
@@ -565,7 +572,7 @@
           "similar_to": null
         }
       },
-      "final_score": 76.45
+      "final_score": 76.65
     },
     {
       "id": "427b3e7db8f7bc13",
@@ -589,8 +596,8 @@
       "texto_original": "After the standard model, Honor Magic 9 Super Edition has appeared in a new leak revealing key specs, including battery, camera, cooling technology, and more. The latest information clarifies which model will feature the teased battery capacity. DigitalChatStation has now brought highlights of the Honor Magic 9 Super Edition, such as the battery, display, camera, […] The post Honor Magic 9 Super Edition leak covers cooling tech, big battery, camera appeared first on Huawei Central.",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-14T18:29:18.994Z",
-        "index": 20,
+        "processed_at": "2026-09-14T22:24:43.235Z",
+        "index": 27,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -647,6 +654,78 @@
       "final_score": 75.65
     },
     {
+      "id": "e0739b862c17b75f",
+      "fuente_id": "openai_google",
+      "fuente_nombre": "OpenAI",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "openai",
+      "nivel_fuente": "fuente_oficial",
+      "categoria": "inteligencia_artificial",
+      "idioma_original": "en",
+      "prioridad_fuente": 5,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Errores elevados que afectan al modo de trabajo en ChatGPT - Estado OpenAI",
+      "titulo_original": "Elevated errors affecting Work Mode in ChatGPT - OpenAI Status",
+      "enlace": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5Qd1MtNU5aMDJCUlpISUlWQW80WTdHQjlibkgzNWJpN3JtWHFldG1yUkN1N0kwd21XemFNT2lMTU1YX1FHSTJORGxTYlZlRm11LV9lOURZLXlVdTY3XzlkRFd4NFBXdmE4clAwcUt3Zw?oc=5",
+      "fecha": "2026-09-14T07:08:00.000Z",
+      "resumen_corto": "Errores elevados que afectan al modo de trabajo en el estado de OpenAI de ChatGPT",
+      "resumen_largo": "Errores elevados que afectan al modo de trabajo en el estado de OpenAI de ChatGPT",
+      "texto_original": "Elevated errors affecting Work Mode in ChatGPT OpenAI Status",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-09-14T22:24:43.239Z",
+        "index": 33,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "en",
+        "categoria": "inteligencia_artificial",
+        "categorias_secundarias": [
+          "vehiculos_energia"
+        ],
+        "category_scores": {
+          "inteligencia_artificial": 4,
+          "vehiculos_energia": 1
+        },
+        "entidades": [
+          "OpenAI",
+          "ChatGPT"
+        ],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 84,
+        "relevancia": 67,
+        "confiabilidad_fuente": 75,
+        "readability": {
+          "words": 43,
+          "sentences": 1,
+          "average_words_per_sentence": 43
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 74.95
+    },
+    {
       "id": "ded15e0cf563c52c",
       "fuente_id": "openai_google",
       "fuente_nombre": "OpenAI",
@@ -668,8 +747,8 @@
       "texto_original": "Elevated error rates for Codex and ChatGPT Work OpenAI Status",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-14T18:29:18.999Z",
-        "index": 29,
+        "processed_at": "2026-09-14T22:24:43.239Z",
+        "index": 35,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -719,80 +798,6 @@
       "final_score": 74.95
     },
     {
-      "id": "5fa7b9d111e70545",
-      "fuente_id": "openai_google",
-      "fuente_nombre": "OpenAI",
-      "tipo": "rss_web",
-      "subtipo": "google_news",
-      "grupo_fuente": "openai",
-      "nivel_fuente": "fuente_oficial",
-      "categoria": "inteligencia_artificial",
-      "idioma_original": "en",
-      "prioridad_fuente": 5,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "Errores elevados para los usuarios de ChatGPT en Europa - Estado de OpenAI",
-      "titulo_original": "Elevated errors for ChatGPT users in Europe - OpenAI Status",
-      "enlace": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1EWllZQVdzWUwtS3I3SVl6c0xTSThPVUQ1a1haZ29ibU5Pbl80c2EzN0gyVFhYSzdVaG9meFlSaTk0MTdiV3g0TVdDOFdwb0owV2YtZDBYQlZBMFJORjFyUE9majFxNDlEakk2S1BWZw?oc=5",
-      "fecha": "2026-09-13T16:56:41.000Z",
-      "resumen_corto": "Errores elevados para los usuarios de ChatGPT en Europa Estado de OpenAI",
-      "resumen_largo": "Errores elevados para los usuarios de ChatGPT en Europa Estado de OpenAI",
-      "texto_original": "Elevated errors for ChatGPT users in Europe OpenAI Status",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-09-14T18:29:19.002Z",
-        "index": 33,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "en",
-        "categoria": "inteligencia_artificial",
-        "categorias_secundarias": [
-          "moviles",
-          "vehiculos_energia"
-        ],
-        "category_scores": {
-          "inteligencia_artificial": 4,
-          "moviles": 1,
-          "vehiculos_energia": 1
-        },
-        "entidades": [
-          "OpenAI",
-          "ChatGPT"
-        ],
-        "cifras_detectadas": [],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 84,
-        "relevancia": 67,
-        "confiabilidad_fuente": 75,
-        "readability": {
-          "words": 43,
-          "sentences": 1,
-          "average_words_per_sentence": 43
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 74.95
-    },
-    {
       "id": "f260516494a38aeb",
       "fuente_id": "bbc_mundo",
       "fuente_nombre": "BBC Mundo",
@@ -814,8 +819,8 @@
       "texto_original": "Cuando los futbolistas de Argentina mostraron una pancarta sobre las Malvinas/Falklands al vencer a Inglaterra en la semifinal del Mundial en julio, era difícil imaginar la significación que esas islas ganarían menos de dos meses después. Nada indica que fuese ese incidente lo que puso al archipiélago de nuevo en el escenario geopolítico —aunque el respaldo a la selección argentina por parte de la Casa Blanca, que enmarcó la pancarta dentro de la libertad de expresión, quizás era una señal de lo que vendría. De hecho, el presidente Donald Trump jugó luego un rol clave en avivar la disputa de Argentina con Reino Unido por la soberanía de las islas, al sugerir que podría revisar la tradicional posición neutral de Estados Unidos en este tema. \"Siempre reviso todas las posturas\", respondió Trump cuando la BBC le preguntó al respecto en una rueda de prensa hace más de dos semanas. El comentario fue ambiguo, al igual que otro posterior donde Trump insinuó al medio británico GB News que evitaría respaldar a Reino Unido en un eventual conflicto con Argentina por las islas, debido a una falta de apoyo que percibe de Londres en la guerra con Irán. Pero eso bastó para que el presidente argentino, Javier Milei, afirmara —mencionando a Trump— que \"en el mundo corren vientos de cambio favorables\" al reclamo de soberanía de su país sobre las islas y anunciara sanciones económicas a las empresas que exploten petróleo en ese territorio británico de ultramar.",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-14T18:29:18.990Z",
-        "index": 17,
+        "processed_at": "2026-09-14T22:24:43.230Z",
+        "index": 23,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -891,8 +896,8 @@
       "texto_original": "Standard Honor Magic 9 announced in four new colors Huawei Central",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-14T18:29:18.999Z",
-        "index": 28,
+        "processed_at": "2026-09-14T22:24:43.239Z",
+        "index": 34,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -965,8 +970,8 @@
       "texto_original": "Huawei showcased the world’s first wide flat-screen phone – Pura X View, and since then, the device has become a hot topic in the market, resulting in booming sales. Perhaps the new handset will soon set a record in shipments. Here are the details. Weibo tipster @DigitalChatStation noted that the Huawei Pura X View is […] The post Huawei Pura X View sales performance continues to grow appeared first on Huawei Central.",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-14T18:29:18.998Z",
-        "index": 26,
+        "processed_at": "2026-09-14T22:24:43.238Z",
+        "index": 32,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -1020,151 +1025,6 @@
       "final_score": 73.65
     },
     {
-      "id": "8211244911b45b36",
-      "fuente_id": "openai_google",
-      "fuente_nombre": "OpenAI",
-      "tipo": "rss_web",
-      "subtipo": "google_news",
-      "grupo_fuente": "openai",
-      "nivel_fuente": "fuente_oficial",
-      "categoria": "inteligencia_artificial",
-      "idioma_original": "en",
-      "prioridad_fuente": 5,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "Repensar las habilidades y las indicaciones para GPT-6 Astra - Desarrolladores de OpenAI",
-      "titulo_original": "Rethinking skills and prompts for GPT-6 Astra - OpenAI Developers",
-      "enlace": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNQ2lyVmlzSHNObFZ2RnNfRERxZWJpSW52NHVMejIxdWJhQnJ2TmMwelBsLVlBdW9fN3d5bEx1LUtxM0NnS3cxODhmM2dacmstejRVNnc2OGZYUnVpODYwVEZMRkthajY5VldkWng2N3R1TVNWMGt3SWgwTXRwZ1NHdVc0N0Jid28?oc=5",
-      "fecha": "2026-09-11T17:29:33.000Z",
-      "resumen_corto": "Repensar las habilidades y las indicaciones para los desarrolladores de GPT-6 Astra OpenAI",
-      "resumen_largo": "Repensar las habilidades y las indicaciones para los desarrolladores de GPT-6 Astra OpenAI",
-      "texto_original": "Rethinking skills and prompts for GPT-6 Astra OpenAI Developers",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-09-14T18:29:19.005Z",
-        "index": 39,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "en",
-        "categoria": "inteligencia_artificial",
-        "categorias_secundarias": [
-          "vehiculos_energia"
-        ],
-        "category_scores": {
-          "inteligencia_artificial": 3,
-          "vehiculos_energia": 1
-        },
-        "entidades": [
-          "OpenAI"
-        ],
-        "cifras_detectadas": [],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 84,
-        "relevancia": 62,
-        "confiabilidad_fuente": 75,
-        "readability": {
-          "words": 50,
-          "sentences": 1,
-          "average_words_per_sentence": 50
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 72.95
-    },
-    {
-      "id": "23d9502e8ccc1132",
-      "fuente_id": "techinsights_google",
-      "fuente_nombre": "TechInsights",
-      "tipo": "rss_web",
-      "subtipo": "google_news",
-      "grupo_fuente": "techinsights",
-      "nivel_fuente": "especializada_tecnica",
-      "categoria": "semiconductores",
-      "idioma_original": "en",
-      "prioridad_fuente": 5,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "Tecnología de memoria, mercados y materiales | Fireside Chat",
-      "titulo_original": "Memory Technology, Markets & Materials | Fireside Chat - TechInsights",
-      "enlace": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOX1FsTzBkUmk2V0RfN203aFBvVTVMU2dUdmoyQWlWeW1wLWxoQjF6YVV0QVFYU3BfU2pxVTBXMkMyTFNnM0thNElweVVDOXcwZ3NXbGJfdnJzNmNYRDB0aEVwMHhhc1IyQWpGbFJSSDB2ZGhPUmFRZXFXcWxmRzkwcGJRMVRYUktSa0JUcDBBd3NOVmNkd3NYNHN0bnpZaGpvcDhtQ1pYY2ZTdFBpZjZsWWRDNHVNNDZyNFdN?oc=5",
-      "fecha": "2026-09-10T14:38:07.000Z",
-      "resumen_corto": "Tecnología de memoria, mercados y materiales | Fireside Chat TechInsights",
-      "resumen_largo": "Tecnología de memoria, mercados y materiales | Fireside Chat TechInsights",
-      "texto_original": "Memory Technology, Markets & Materials | Fireside Chat TechInsights",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-09-14T18:29:19.006Z",
-        "index": 42,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "en",
-        "categoria": "tecnologia",
-        "categorias_secundarias": [
-          "inteligencia_artificial",
-          "moviles"
-        ],
-        "category_scores": {
-          "tecnologia": 4,
-          "inteligencia_artificial": 1,
-          "moviles": 1
-        },
-        "entidades": [
-          "TechInsights",
-          "Memory Technology"
-        ],
-        "cifras_detectadas": [],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 84,
-        "relevancia": 67,
-        "confiabilidad_fuente": 65,
-        "readability": {
-          "words": 34,
-          "sentences": 1,
-          "average_words_per_sentence": 34
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 72.45
-    },
-    {
       "id": "ad8e7df2870ade43",
       "fuente_id": "techinsights_google",
       "fuente_nombre": "TechInsights",
@@ -1177,22 +1037,22 @@
       "prioridad_fuente": 5,
       "analizar": true,
       "resumir": true,
-      "titulo": "Apple iPhone 18 Rumors: Pro, A20 y vista previa plegable",
-      "titulo_original": "Apple iPhone 18 Rumors: Pro, A20 and Foldable Preview - TechInsights",
+      "titulo": "Apple iPhone 18 Rumors: Pro, A20 y vista previa plegable - techinsights.com",
+      "titulo_original": "Apple iPhone 18 Rumors: Pro, A20 and Foldable Preview - techinsights.com",
       "enlace": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNcnlQQjJmTXMwS1NZR0p5M1lOTWdEeW4tVlJqVFkyU1pMdUJmMU10OVFKN2JDS3BUZllWZy13SW15U3VpOFpBOWxDeFY3ODl6UzdIYTRZbGo2Q1BQemRPWW5HM1JnSDBDSGo4cUNBWTNxZ2haQnp6bEJVOXZfTkdoUi1vbw?oc=5",
       "fecha": "2026-09-09T14:37:27.000Z",
-      "resumen_corto": "Apple iPhone 18 Rumors: Pro, A20 y Foldable Preview TechInsights",
-      "resumen_largo": "Apple iPhone 18 Rumors: Pro, A20 y Foldable Preview TechInsights",
-      "texto_original": "Apple iPhone 18 Rumors: Pro, A20 and Foldable Preview TechInsights",
+      "resumen_corto": "Rumores del iPhone 18 de Apple: Pro, A20 y vista previa plegable techinsights.com",
+      "resumen_largo": "Rumores del iPhone 18 de Apple: Pro, A20 y vista previa plegable techinsights.com",
+      "texto_original": "Apple iPhone 18 Rumors: Pro, A20 and Foldable Preview techinsights.com",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-14T18:29:19.007Z",
-        "index": 43,
+        "processed_at": "2026-09-14T22:24:43.242Z",
+        "index": 42,
         "resumen": {
           "generado": true,
           "origen": "translated"
         },
-        "idioma_detectado": "en",
+        "idioma_detectado": "es",
         "idioma_original": "en",
         "categoria": "inteligencia_artificial",
         "categorias_secundarias": [
@@ -1229,9 +1089,9 @@
         "relevancia": 67,
         "confiabilidad_fuente": 65,
         "readability": {
-          "words": 42,
-          "sentences": 1,
-          "average_words_per_sentence": 42
+          "words": 52,
+          "sentences": 6,
+          "average_words_per_sentence": 8.67
         },
         "duplicate": {
           "detected": false,
@@ -1241,81 +1101,6 @@
         }
       },
       "final_score": 72.45
-    },
-    {
-      "id": "f900d5257af3becf",
-      "fuente_id": "bbc_mundo",
-      "fuente_nombre": "BBC Mundo",
-      "tipo": "rss_web",
-      "subtipo": "medio_generalista",
-      "grupo_fuente": "bbc",
-      "nivel_fuente": "medio_profesional",
-      "categoria": "actualidad",
-      "idioma_original": "es",
-      "prioridad_fuente": 5,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "China rechaza la idea de que está en una \"competencia maliciosa\" con EE.UU. por el control de la IA",
-      "titulo_original": "China rechaza la idea de que está en una \"competencia maliciosa\" con EE.UU. por el control de la IA",
-      "enlace": "https://www.bbc.com/mundo/articles/c95y4jd0ygddo?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-09-14T16:09:54.000Z",
-      "resumen_corto": "China ha criticado duramente lo que denominó \"narrativas amenazantes\" sobre la gobernanza de la inteligencia artificial y ha advertido contra \"la confrontación y la competencia maliciosa\".",
-      "resumen_largo": "China ha criticado duramente lo que denominó \"narrativas amenazantes\" sobre la gobernanza de la inteligencia artificial y ha advertido contra \"la confrontación y la competencia maliciosa\". Esto se produce tras los llamados del CEO de Anthropic, Dario Amodei, para que se ralentice el desarrollo de la IA, pero de una manera que impida que China tome la delantera en esta carrera. Durante la última semana, expertos del sector en los principales laboratorios de inteligencia artificial de EE.UU.",
-      "texto_original": "China ha criticado duramente lo que denominó \"narrativas amenazantes\" sobre la gobernanza de la inteligencia artificial y ha advertido contra \"la confrontación y la competencia maliciosa\". Esto se produce tras los llamados del CEO de Anthropic, Dario Amodei, para que se ralentice el desarrollo de la IA, pero de una manera que impida que China tome la delantera en esta carrera. Durante la última semana, expertos del sector en los principales laboratorios de inteligencia artificial de EE.UU. han estado advirtiendo en términos extremadamente contundentes sobre la amenaza potencial que supone la IA, y algunos incluso afirman que podría acabar con la humanidad. Pero el presidente de Estados Unidos, Donald Trump, ha dicho que su prioridad es asegurarse de que su país desarrolle la tecnología más rápido que China. El lunes, el portavoz del Ministerio de Asuntos Exteriores chino, Guo Jiakun, les dijo a los periodistas que \"los discursos de amenaza, confrontación y competencia maliciosa solo sirven para perturbar el proceso de gobernanza global de la IA y no benefician a nadie\". \"Todas las partes deberían trabajar juntas para impulsar la IA de una manera abierta, inclusiva, beneficiosa para todos y orientada hacia el bien común\", añadió.",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-09-14T18:29:18.979Z",
-        "index": 6,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "es",
-        "categoria": "inteligencia_artificial",
-        "categorias_secundarias": [
-          "tecnologia",
-          "actualidad",
-          "moviles"
-        ],
-        "category_scores": {
-          "inteligencia_artificial": 5,
-          "tecnologia": 2,
-          "actualidad": 2,
-          "moviles": 1,
-          "hardware": 1,
-          "vehiculos_energia": 1
-        },
-        "entidades": [],
-        "cifras_detectadas": [],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 79,
-        "relevancia": 65,
-        "confiabilidad_fuente": 70,
-        "readability": {
-          "words": 228,
-          "sentences": 17,
-          "average_words_per_sentence": 13.41
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 71.15
     },
     {
       "id": "218b8b9874893116",
@@ -1339,8 +1124,8 @@
       "texto_original": "Honor MagicOS 11 will introduce new Power Saving feature Huawei Central",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-14T18:29:18.986Z",
-        "index": 14,
+        "processed_at": "2026-09-14T22:24:43.225Z",
+        "index": 19,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -1394,6 +1179,74 @@
       "final_score": 70.5
     },
     {
+      "id": "4ef2878439d4930e",
+      "fuente_id": "openai_google",
+      "fuente_nombre": "OpenAI",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "openai",
+      "nivel_fuente": "fuente_oficial",
+      "categoria": "inteligencia_artificial",
+      "idioma_original": "en",
+      "prioridad_fuente": 5,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Preguntas frecuentes sobre el retiro y la migración de GPT personalizados - Centro de ayuda de OpenAI",
+      "titulo_original": "Custom GPT retirement and migration FAQ - OpenAI Help Center",
+      "enlace": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQMzU2eXpCVGpLbE92cU9rWlYwbGtnWjk0MDlBRFRVVmVHaUNuVDBpaW5mY1h5cjRGOE44YlpZSFdzMnVBYThXdEMzTXJuRzVETlItWmgzRHBETmJ4MWwxWkN1S1hKamw2eElfQ2xNWkxJeFNRS2J3ZzV2eDM0ODRIUWpnbjZOMDFyNTk5eA?oc=5",
+      "fecha": "2026-09-12T00:57:00.000Z",
+      "resumen_corto": "Preguntas frecuentes personalizadas sobre el retiro y la migración de GPT Centro de ayuda de OpenAI",
+      "resumen_largo": "Preguntas frecuentes personalizadas sobre el retiro y la migración de GPT Centro de ayuda de OpenAI",
+      "texto_original": "Custom GPT retirement and migration FAQ OpenAI Help Center",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-09-14T22:24:43.241Z",
+        "index": 39,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "en",
+        "categoria": "inteligencia_artificial",
+        "categorias_secundarias": [],
+        "category_scores": {
+          "inteligencia_artificial": 3
+        },
+        "entidades": [
+          "OpenAI"
+        ],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 84,
+        "relevancia": 55,
+        "confiabilidad_fuente": 75,
+        "readability": {
+          "words": 48,
+          "sentences": 1,
+          "average_words_per_sentence": 48
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 70.15
+    },
+    {
       "id": "ca3120235522b497",
       "fuente_id": "wccftech_google",
       "fuente_nombre": "Wccftech",
@@ -1415,8 +1268,8 @@
       "texto_original": "NVIDIA Intros RTX PRO 5500 Blackwell Graphics Card, Features Same Core Count As The 5090 But With 2.6x The VRAM Wccftech",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-14T18:29:18.994Z",
-        "index": 21,
+        "processed_at": "2026-09-14T22:24:43.236Z",
+        "index": 29,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -1474,7 +1327,7 @@
       "final_score": 69.75
     },
     {
-      "id": "a86bdb1742cf2678",
+      "id": "83a79c67db523d41",
       "fuente_id": "wccftech_google",
       "fuente_nombre": "Wccftech",
       "tipo": "rss_web",
@@ -1486,35 +1339,35 @@
       "prioridad_fuente": 4,
       "analizar": true,
       "resumir": true,
-      "titulo": "El tirador de StarCraft de Blizzard rechaza el modelo de servicio en vivo, ya que el director Dan Hay promete un juego basado en la narrativa con un final definitivo",
-      "titulo_original": "Blizzard’s StarCraft Shooter Rejects Live Service Model, as Director Dan Hay Promises a Narrative-Driven Game With Definitive Ending - Wccftech",
-      "enlace": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPNGhweGxHcUhHS3BFOGFhUjhBTW1uNXhka3pNZFpHaENBYVJNc2t3ZV9VenZWTTJ0Vllla01lM0c4akg2TXZhdUFMM0lTZzJXeVFkVVZJZlAwS2ZHbXVEZko4VnBvd0lBYm55V21iWnJncnR2N3poMm9UZ2hwSWlwTWZ3a9IBiAFBVV95cUxOTjVKTWg3dDROUmlEUWhZZUJXRnRNNDhCY3dIam1PR3c1cEFZRGNlMjAyRWdFVl9ORWctSHJOZ3Z1UmFEblpYVXZlTjBZMEZSTmdSM3gzZ3ZGN0p2WWZyamJna3pqR01rZTdxejJxWWEyZGxuSDJlS2tiYW0wY1RRTEpCdHJWSk1j?oc=5",
-      "fecha": "2026-09-14T08:00:00.000Z",
-      "resumen_corto": "El tirador de StarCraft de Blizzard rechaza el modelo de servicio en vivo, ya que el director Dan Hay promete un juego basado en la narrativa con tecnología Wccftech de final definitivo",
-      "resumen_largo": "El tirador de StarCraft de Blizzard rechaza el modelo de servicio en vivo, ya que el director Dan Hay promete un juego basado en la narrativa con tecnología Wccftech de final definitivo",
-      "texto_original": "Blizzard’s StarCraft Shooter Rejects Live Service Model, as Director Dan Hay Promises a Narrative-Driven Game With Definitive Ending Wccftech",
+      "titulo": "Daniel Vávra sostiene que NVIDIA DLSS 5 es el futuro, ya que permite que KCD2 alcance la estética prevista",
+      "titulo_original": "Daniel Vávra Maintains That NVIDIA DLSS 5 Is the Future, as It Allows KCD2 to Reach the Intended Aesthetics - Wccftech",
+      "enlace": "https://news.google.com/rss/articles/CBMickFVX3lxTE9TX0tWbUg5YWE0OHB6eG42ajdONm5YWlQweGh1OUl6YzdBQTBDcVVHa1ozcGFpQWFiZ0tNbFcyYTU0VU5SNmFLdVlfdThlUVNwb2lSUVh0VFNKbUhNREJxNi1WNEhURFp0U3RaaVpjc19YZ9IBd0FVX3lxTE91ckVIbkdtSnhnQUFzNVJzbHhZcWJ0WlF1YVdSS2IxWVBENTNBVko1SXJ5dzFpMGZmR0JEWERORUp3dVBycWRkcDJDMlhZaTctU2JMLWJGckFVaGItdy1rYm9IU0tISFJFa1A0bXRTUWtNdi1KaHdN?oc=5",
+      "fecha": "2026-09-14T13:30:00.000Z",
+      "resumen_corto": "Daniel Vávra sostiene que NVIDIA DLSS 5 es el futuro, ya que permite que KCD2 alcance la estética prevista Wccftech",
+      "resumen_largo": "Daniel Vávra sostiene que NVIDIA DLSS 5 es el futuro, ya que permite que KCD2 alcance la estética prevista Wccftech",
+      "texto_original": "Daniel Vávra Maintains That NVIDIA DLSS 5 Is the Future, as It Allows KCD2 to Reach the Intended Aesthetics Wccftech",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-14T18:29:18.996Z",
-        "index": 24,
+        "processed_at": "2026-09-14T22:24:43.219Z",
+        "index": 12,
         "resumen": {
           "generado": true,
           "origen": "translated"
         },
         "idioma_detectado": "es",
         "idioma_original": "en",
-        "categoria": "tecnologia",
+        "categoria": "inteligencia_artificial",
         "categorias_secundarias": [
-          "inteligencia_artificial",
-          "moviles"
+          "vehiculos_energia",
+          "tecnologia"
         ],
         "category_scores": {
-          "tecnologia": 3,
-          "inteligencia_artificial": 1,
-          "moviles": 1
+          "inteligencia_artificial": 2,
+          "vehiculos_energia": 1,
+          "tecnologia": 1
         },
         "entidades": [
-          "Vivo",
+          "NVIDIA",
           "Wccftech"
         ],
         "cifras_detectadas": [],
@@ -1534,9 +1387,9 @@
         "relevancia": 67,
         "confiabilidad_fuente": 50,
         "readability": {
-          "words": 94,
+          "words": 74,
           "sentences": 1,
-          "average_words_per_sentence": 94
+          "average_words_per_sentence": 74
         },
         "duplicate": {
           "detected": false,
@@ -1548,7 +1401,78 @@
       "final_score": 68
     },
     {
-      "id": "d95750902169e8c6",
+      "id": "001ce61d107f8c02",
+      "fuente_id": "bbc_mundo",
+      "fuente_nombre": "BBC Mundo",
+      "tipo": "rss_web",
+      "subtipo": "medio_generalista",
+      "grupo_fuente": "bbc",
+      "nivel_fuente": "medio_profesional",
+      "categoria": "actualidad",
+      "idioma_original": "es",
+      "prioridad_fuente": 5,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Las jaulas en las que eran encerrados los migrantes en el \"Alcatraz de los caimanes\" de Florida",
+      "titulo_original": "Las jaulas en las que eran encerrados los migrantes en el \"Alcatraz de los caimanes\" de Florida",
+      "enlace": "https://www.bbc.com/mundo/articles/ckrer3p31z8wo?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-09-14T21:19:06.000Z",
+      "resumen_corto": "afirman que descubrieron que el centro de detención infringía las normas básicas de higiene, atención médica, alimentación y seguridad de los migrantes.",
+      "resumen_largo": "Los inspectores del gobierno de EE.UU. afirman que descubrieron que el centro de detención infringía las normas básicas de higiene, atención médica, alimentación y seguridad de los migrantes.",
+      "texto_original": "Los inspectores del gobierno de EE.UU. afirman que descubrieron que el centro de detención infringía las normas básicas de higiene, atención médica, alimentación y seguridad de los migrantes.",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-09-14T22:24:43.210Z",
+        "index": 1,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "inteligencia_artificial",
+        "categorias_secundarias": [
+          "software_internet",
+          "actualidad"
+        ],
+        "category_scores": {
+          "inteligencia_artificial": 2,
+          "software_internet": 1,
+          "actualidad": 1
+        },
+        "entidades": [],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 79,
+        "relevancia": 57,
+        "confiabilidad_fuente": 70,
+        "readability": {
+          "words": 83,
+          "sentences": 7,
+          "average_words_per_sentence": 11.86
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 67.95
+    },
+    {
+      "id": "0ecfa30c0d52dc5c",
       "fuente_id": "wccftech_google",
       "fuente_nombre": "Wccftech",
       "tipo": "rss_web",
@@ -1560,42 +1484,41 @@
       "prioridad_fuente": 4,
       "analizar": true,
       "resumir": true,
-      "titulo": "Apple reemplazó el MacBook Air Retina de 6 años de un cliente utilizado como dispositivo secundario con un MacBook Air M5 de forma gratuita después de que el usuario solicitara un servicio de batería y pantalla",
-      "titulo_original": "Apple Replaced A Customer’s 6-Year-Old Retina MacBook Air Used As A Secondary Device With An M5 MacBook Air For Free After The User Requested A Battery And Screen Service - Wccftech",
-      "enlace": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPUlU2aEJCbE9FTkV1WFFGYmhOOWl6Q05RYnNtTEgzNENDOWR4RlFsazhyZV8xSUZoSjYzMjU4c0I0RjRlUDhiY2J0a0xlV09OZ1l6ei12TlpOWnU5d2pRTDZ5UVV0UFhPVG5wQ1hBR29nMXp4blJlTWllYkFKSTVqYTVfcDJtMW9WTjlwTlhoZkpid9IBlwFBVV95cUxNX1YzZmdzallFUjA0dlFLa0d5SVZNRGZmTHZiTEpPTDFfMkptX3NmOGZ3Rzc1ejVLUnBVVnlqOFo4N1hzc3ktYUVxMmZ1ckZCeEMxSXFMcHI2OFJFWEF5cTVia2xZc2paeXpSYS1VdHRKZ0g1bUJiS0hGTmJ0dlJCMENjTjJyaEJtaHVqZExNbklBc3NXeVc0?oc=5",
-      "fecha": "2026-09-13T16:31:55.000Z",
-      "resumen_corto": "Apple reemplazó el MacBook Air Retina de 6 años de un cliente utilizado como dispositivo secundario con un MacBook Air M5 de forma gratuita después de que el usuario solicitara un servicio de batería y pantalla Wccftech",
-      "resumen_largo": "Apple reemplazó el MacBook Air Retina de 6 años de un cliente utilizado como dispositivo secundario con un MacBook Air M5 de forma gratuita después de que el usuario solicitara un servicio de batería y pantalla Wccftech",
-      "texto_original": "Apple Replaced A Customer’s 6-Year-Old Retina MacBook Air Used As A Secondary Device With An M5 MacBook Air For Free After The User Requested A Battery And Screen Service Wccftech",
+      "titulo": "La empresa china de chips Empyrean dice que redujo el tiempo de diseño de circuitos en un 75% utilizando IA genética en medio de la carrera hacia el diseño de semiconductores de IA genética",
+      "titulo_original": "Chinese Chip Firm Empyrean Says It Slashed Circuit Design Time By 75% Using Agentic AI Amidst Race To Agentic AI Semiconductor Design - Wccftech",
+      "enlace": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNa0ZKVE5PNmZ1NUdPRFRTejREOW8wM3JReGc3YThSbWdhcHJ6NVprWXEtbmJfb1FZZkVkWWUtQ2wwcS15QVFxWWtja2t4YzE5YWZuOUZhZ01OZ3d5X2c5RmRnR2RDd3RRWWdwbXZIbzItbG5pVzBmbVA4TnV4MTRPNlduREJtTk91c25MRUpzY0dEdWhvLTh5Rmwxd2I1TEtvMFUtR2dWOHRObUtxQUNFaUZpRUE3emt6RnlNMHdCS3hmYTMtbHFoYWtZVnVxWjV6aEtRSHNELVlsaWZlWWlr0gHkAUFVX3lxTFA3cENtUWRZbnVYejQ4Z19mNnBkcGw0dFJNbkdwWTVzZkhGdl9ZWnJKOHBySkEtUlpocHh0V3hwcHkxcGRmd0QxWHpRYi1MR0VrRHZsSFhCY3JVSDZROW1ZeVo3MGd0X3ZmR1pmeXg1bkFORUpvZi1URC1wY0Eza1pQcFY3NHROUHpYbWM4bkJ0V2hETElBYUFDTzFVSXNtTEpwRHNfVy1mRy05NExmWUdiTFZqOGN1NzA3ZXNVMmR3QmRYTmxkS09EbnJmbXJxdFNRRFktRG11QzlueWxiaTFGLWxmUQ?oc=5",
+      "fecha": "2026-09-14T12:32:22.000Z",
+      "resumen_corto": "La empresa china de chips Empyrean dice que redujo el tiempo de diseño de circuitos en un 75% utilizando Agentic AI en medio de la carrera hacia Agentic AI Semiconductor Design Wccftech",
+      "resumen_largo": "La empresa china de chips Empyrean dice que redujo el tiempo de diseño de circuitos en un 75% utilizando Agentic AI en medio de la carrera hacia Agentic AI Semiconductor Design Wccftech",
+      "texto_original": "Chinese Chip Firm Empyrean Says It Slashed Circuit Design Time By 75% Using Agentic AI Amidst Race To Agentic AI Semiconductor Design Wccftech",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-14T18:29:19.003Z",
-        "index": 34,
+        "processed_at": "2026-09-14T22:24:43.220Z",
+        "index": 13,
         "resumen": {
           "generado": true,
           "origen": "translated"
         },
         "idioma_detectado": "es",
         "idioma_original": "en",
-        "categoria": "tecnologia",
+        "categoria": "inteligencia_artificial",
         "categorias_secundarias": [
-          "inteligencia_artificial",
-          "baterias_energia",
-          "vehiculos_energia"
+          "semiconductores",
+          "vehiculos_energia",
+          "tecnologia"
         ],
         "category_scores": {
-          "tecnologia": 3,
-          "inteligencia_artificial": 2,
-          "baterias_energia": 2,
+          "inteligencia_artificial": 4,
+          "semiconductores": 4,
           "vehiculos_energia": 1,
-          "software_internet": 1
+          "tecnologia": 1
         },
         "entidades": [
-          "Apple",
-          "Wccftech"
+          "Wccftech",
+          "AI Semiconductor"
         ],
         "cifras_detectadas": [
-          "5 M"
+          "75%"
         ],
         "content_type": "news",
         "clickbait": {
@@ -1613,9 +1536,9 @@
         "relevancia": 75,
         "confiabilidad_fuente": 50,
         "readability": {
-          "words": 121,
+          "words": 90,
           "sentences": 1,
-          "average_words_per_sentence": 121
+          "average_words_per_sentence": 90
         },
         "duplicate": {
           "detected": false,
@@ -1639,16 +1562,16 @@
       "prioridad_fuente": 5,
       "analizar": true,
       "resumir": true,
-      "titulo": "Actualización del mercado global de la memoria | Oferta, demanda y precios",
-      "titulo_original": "Global Memory Market Update | Supply, demand, & Pricing - TechInsights",
+      "titulo": "Actualización del mercado global de la memoria | Oferta, demanda y precios - techinsights.com",
+      "titulo_original": "Global Memory Market Update | Supply, demand, & Pricing - techinsights.com",
       "enlace": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9fVUs5RVhkNXFsM1Z1eWNtbjdXU1ZNaE9yTEtKR3NDMHdNRXRLQjBBR0w3dTNJNk80UzZWXzNucExyT1c3Q3R5SUhuaW43MlBqVW8xU25wNDN4WU1MM1pZQ0EyVW9YYXNGbmlBMlJjTXdpNllTeTd3UXhRQXA?oc=5",
       "fecha": "2026-09-10T14:38:07.000Z",
-      "resumen_corto": "Actualización del mercado global de la memoria | TechInsights sobre la oferta, la demanda y los precios",
-      "resumen_largo": "Actualización del mercado global de la memoria | TechInsights sobre la oferta, la demanda y los precios",
-      "texto_original": "Global Memory Market Update | Supply, demand, & Pricing TechInsights",
+      "resumen_corto": "Actualización del mercado global de la memoria | Oferta, demanda y precios techinsights.com",
+      "resumen_largo": "Actualización del mercado global de la memoria | Oferta, demanda y precios techinsights.com",
+      "texto_original": "Global Memory Market Update | Supply, demand, & Pricing techinsights.com",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-14T18:29:19.006Z",
+        "processed_at": "2026-09-14T22:24:43.242Z",
         "index": 41,
         "resumen": {
           "generado": true,
@@ -1686,9 +1609,9 @@
         "relevancia": 55,
         "confiabilidad_fuente": 65,
         "readability": {
-          "words": 46,
-          "sentences": 1,
-          "average_words_per_sentence": 46
+          "words": 48,
+          "sentences": 6,
+          "average_words_per_sentence": 8
         },
         "duplicate": {
           "detected": false,
@@ -1721,7 +1644,7 @@
       "texto_original": "Global / English Xiaomi",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-14T18:29:19.008Z",
+        "processed_at": "2026-09-14T22:24:43.244Z",
         "index": 45,
         "resumen": {
           "generado": true,
@@ -1771,7 +1694,80 @@
       "final_score": 67.35
     },
     {
-      "id": "3e9a206be3d0e997",
+      "id": "253ddd7d3a52cc6e",
+      "fuente_id": "google_news_es",
+      "fuente_nombre": "Google News ES",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "google_news",
+      "nivel_fuente": "agregador",
+      "categoria": "tecnologia",
+      "idioma_original": "es",
+      "prioridad_fuente": 3,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Tesla presentará el deportivo Roadster el próximo 1 de octubre, con tecnología de SpaceX - El Economista",
+      "titulo_original": "Tesla presentará el deportivo Roadster el próximo 1 de octubre, con tecnología de SpaceX - El Economista",
+      "enlace": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNVTFIZG00bGVCeU1BeVV2MTZlaXFVV0FINzA4bFlZNW55RHJtMnpiY00wWmJ3N3ZBZWdINElJUDVLU2tEenUxajByRmk3VC1qQXNRX0w4OEo2Ml8xc283QWkta0JpVk84SG9OTUNxXzhFelpwX09kMFRMXzQ0OE5leXFtdmdwank1aHpkVnpXOG45eEFWOHU5aHVlOGdXTTNZenEyeW40R1FheVhuVkRkWEIyeno0WklsQmlXVEZCdmhNM04tcVdWVVlUY3NteFB1N3B6RHkyMkh3bndjWEN6ZXFqdnfSAc8BQVVfeXFMUFo4OHVBVzAxVXVsZ1ZmWW8zT1pTX2JZUGFXWHJJdFBPampmRi1jNDNVeDJVSjFQZW5QVU9ORlhrOGhfaVVaYmVaakNkYnRha0lVdlp5NTI1YktFZ1gwZGpPN3ZtNENEclNDUmRES0lRb2hvbkFLUV9xeTRnMFpjZVQ2WUtTVEUwOFZDNjNGcjRFWVlWR1ZvdHlwa3NNcnRyOGtXU3VSOGVuZ2kxeTdRVkJmbWowazRhMHlJeUtUQmYwU1VyMjJ2TTQwU3cyaHdn?oc=5",
+      "fecha": "2026-09-14T17:18:28.000Z",
+      "resumen_corto": "Tesla presentará el deportivo Roadster el próximo 1 de octubre, con tecnología de SpaceX El Economista",
+      "resumen_largo": "Tesla presentará el deportivo Roadster el próximo 1 de octubre, con tecnología de SpaceX El Economista",
+      "texto_original": "Tesla presentará el deportivo Roadster el próximo 1 de octubre, con tecnología de SpaceX El Economista",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-09-14T22:24:43.217Z",
+        "index": 7,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "tecnologia",
+        "categorias_secundarias": [
+          "inteligencia_artificial",
+          "vehiculos_energia"
+        ],
+        "category_scores": {
+          "tecnologia": 2,
+          "inteligencia_artificial": 1,
+          "vehiculos_energia": 1
+        },
+        "entidades": [
+          "Tesla"
+        ],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 80,
+        "relevancia": 62,
+        "confiabilidad_fuente": 53,
+        "readability": {
+          "words": 50,
+          "sentences": 1,
+          "average_words_per_sentence": 50
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 66.05
+    },
+    {
+      "id": "37d1061c07e3f284",
       "fuente_id": "ia_dia",
       "fuente_nombre": "IA al Día",
       "tipo": "rss_web",
@@ -1783,17 +1779,17 @@
       "prioridad_fuente": 3,
       "analizar": true,
       "resumir": true,
-      "titulo": "El alarmante llamado de Dario Amodei, el director de Anthropic, para ralentizar el desarrollo de la inteligencia artificial - BBC",
-      "titulo_original": "El alarmante llamado de Dario Amodei, el director de Anthropic, para ralentizar el desarrollo de la inteligencia artificial - BBC",
-      "enlace": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBCaHJhSFAySWluMl9mdF9fdzZsQ3NibjNVVTlSdnhCZk1qVjE2Q1EtTnoweXc3bDJoZFVGNkNTckVtMVF3bUhHLUFSNlc5YW5SQ3RKTU5tTnNIYWvSAWBBVV95cUxOcmY3Q1R2aGYxSXMtUkh6S25idEx3R1FWYThCLUdicEJJSE0yMGM0NDdralplWS1oOFh2S2VpY1NiMy1pZjRwTWJyQnplbWJ3azE0RVdBUHJRZVNqbVQ3TUU?oc=5",
-      "fecha": "2026-09-13T08:21:04.000Z",
-      "resumen_corto": "El alarmante llamado de Dario Amodei, el director de Anthropic, para ralentizar el desarrollo de la inteligencia artificial BBC Los líderes de la inteligencia artificial piden frenar su desarrollo ante el temor de perder el control Reason Why El temor a la IA pasa factura a las grandes tecnológicas en Bolsa El Diario Vasco",
-      "resumen_largo": "El alarmante llamado de Dario Amodei, el director de Anthropic, para ralentizar el desarrollo de la inteligencia artificial BBC Los líderes de la inteligencia artificial piden frenar su desarrollo ante el temor de perder el control Reason Why El temor a la IA pasa factura a las grandes tecnológicas en Bolsa El Diario Vasco",
-      "texto_original": "El alarmante llamado de Dario Amodei, el director de Anthropic, para ralentizar el desarrollo de la inteligencia artificial BBC Los líderes de la inteligencia artificial piden frenar su desarrollo ante el temor de perder el control Reason Why El temor a la IA pasa factura a las grandes tecnológicas en Bolsa El Diario Vasco",
+      "titulo": "China lanza una alerta sobre los riesgos de la IA en pleno debate sobre los límites de su desarrollo - lavanguardia.com",
+      "titulo_original": "China lanza una alerta sobre los riesgos de la IA en pleno debate sobre los límites de su desarrollo - lavanguardia.com",
+      "enlace": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNODVmajJqRzJwMjR4VDh6d2VYR3hPLVV6MXhXb2MzZmsxM1JKRkhNNXh0clVGT0xmeFdlSHRlWm1RMThCWlgzaTkwN1BFMXlKT0thTVk0S1JpY3czMmxtbi1qUFl0SUs2MGNQYUtTelloenh0VGRNZ0VYTXRLeTB1a2VMdVg1b2wxM3BrWU5jZV80cW8xMFdfeVFraHB1cjVwOHNIUUFjLUJVa3AzR1FxQllySXRRU19ocXdpVmx2b0lmaXA3ZjB2dTV30gHPAUFVX3lxTFA2V3B1ajlsQmtaRW5TUGdrYmlraHgwM05LN0dudjA1RzJWX2xoLXhKUlIwY0JBQ0JLenJtamxfeW5penBnZ3p2c3lFbm92Q0NRalF4a0p0UzUxU2tMVnA3OEprVjRpSnBKY2x6VWNMS3dodGhkbjdpeUdvQnczaG5fanE4U1lFUnNMWDBfUkIzUHEyRWRYdmVMaG9LcXhhLUlKTHduNGFITG8yUlRWUndLR0wyaEVzbFU1ZkR4REpEcENlNDhFc0FzdURzdm8tTQ?oc=5",
+      "fecha": "2026-09-14T07:36:27.000Z",
+      "resumen_corto": "China lanza una alerta sobre los riesgos de la IA en pleno debate sobre los límites de su desarrollo lavanguardia.com El alarmante llamado de Dario Amodei, el director de Anthropic, para ralentizar el desarrollo de la inteligencia artificial BBC El precio de poner freno a la inteligencia artificial: las grandes tecnológicas exigen límites que ninguna quiere asumir Cadena SER",
+      "resumen_largo": "China lanza una alerta sobre los riesgos de la IA en pleno debate sobre los límites de su desarrollo lavanguardia.com El alarmante llamado de Dario Amodei, el director de Anthropic, para ralentizar el desarrollo de la inteligencia artificial BBC El precio de poner freno a la inteligencia artificial: las grandes tecnológicas exigen límites que ninguna quiere asumir Cadena SER",
+      "texto_original": "China lanza una alerta sobre los riesgos de la IA en pleno debate sobre los límites de su desarrollo lavanguardia.com El alarmante llamado de Dario Amodei, el director de Anthropic, para ralentizar el desarrollo de la inteligencia artificial BBC El precio de poner freno a la inteligencia artificial: las grandes tecnológicas exigen límites que ninguna quiere asumir Cadena SER",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-14T18:29:19.003Z",
-        "index": 35,
+        "processed_at": "2026-09-14T22:24:43.237Z",
+        "index": 31,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -1828,9 +1824,9 @@
         "relevancia": 62,
         "confiabilidad_fuente": 53,
         "readability": {
-          "words": 126,
-          "sentences": 1,
-          "average_words_per_sentence": 126
+          "words": 159,
+          "sentences": 6,
+          "average_words_per_sentence": 26.5
         },
         "duplicate": {
           "detected": false,
@@ -1863,8 +1859,8 @@
       "texto_original": "Honor Magic 9/ Super Edition live images leaked in new colors Huawei Central",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-14T18:29:19.004Z",
-        "index": 37,
+        "processed_at": "2026-09-14T22:24:43.241Z",
+        "index": 38,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -1935,8 +1931,8 @@
       "texto_original": "Honor confirms Magic 9 series launch for September 28 Huawei Central",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-14T18:29:19.007Z",
-        "index": 44,
+        "processed_at": "2026-09-14T22:24:43.243Z",
+        "index": 43,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -1983,76 +1979,6 @@
       "final_score": 65.95
     },
     {
-      "id": "f745d1ef07e4c09a",
-      "fuente_id": "xataka_google",
-      "fuente_nombre": "Xataka",
-      "tipo": "rss_web",
-      "subtipo": "google_news",
-      "grupo_fuente": "xataka",
-      "nivel_fuente": "medio_especializado",
-      "categoria": "tecnologia",
-      "idioma_original": "es",
-      "prioridad_fuente": 4,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "Lo plantaron en 1825 como alimento: 200 años después, se ha convertido en un árbol invasor que se combate con drones e insectos",
-      "titulo_original": "Lo plantaron en 1825 como alimento: 200 años después, se ha convertido en un árbol invasor que se combate con drones e insectos - Xataka",
-      "enlace": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQQkp0d2pVTXBoeDExRjZHVm1vUlg1MEktYkpqLXZjTGlhb01KSi1weGZtYUdGSFl6NVZRSzNXRVNmRWhYckhLdUJacVdIV0cwVTE1S3BtQVlKRDJOa2ttOFJCMXB3VnJ6blRPSGxuTkRpZTI1RDBKN1RMMmw0elNYeFVzMDlmQ1FOSjF3Wi1tc2k1S094TDRsakJvNmE1NTJPdFp3elBHMlh6TWx0MWEwaDBYVnByc3ozeGVKYXNuZGp0WlRCQVhTeU9PN3RrZHdFZTdHVEx30gHbAUFVX3lxTE9POUw0cG9CYS1WT1JudnY1aHk1NnV5dVdkSWNEMGh6LUVSel9YYTVRS2ZqTFB4YlZWVEt0T1MtNXRlVDltWlhjMjlWU21NMGpiQ1JYaWVXR2QzREZxZzNkbC1sNHNmaGZsY0hwQjZKLXlJUnVueWxsandaUnNFdEJ6eVNuOWhNZWo5Y0lTVjRhbmJZSlRST0dTV2MwWlF6ellTZlJjOEdGbUY0RlhJaTJib1JTTjFRZ0JBVU5lc1JmaUtOMTZuVHdGb051QlJoRUhnRGU4dW9GY1Zsaw?oc=5",
-      "fecha": "2026-09-14T16:17:00.000Z",
-      "resumen_corto": "Lo plantaron en 1825 como alimento: 200 años después, se ha convertido en un árbol invasor que se combate con drones e insectos Xataka",
-      "resumen_largo": "Lo plantaron en 1825 como alimento: 200 años después, se ha convertido en un árbol invasor que se combate con drones e insectos Xataka",
-      "texto_original": "Lo plantaron en 1825 como alimento: 200 años después, se ha convertido en un árbol invasor que se combate con drones e insectos Xataka",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-09-14T18:29:18.977Z",
-        "index": 5,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "es",
-        "categoria": "militar",
-        "categorias_secundarias": [],
-        "category_scores": {
-          "militar": 2
-        },
-        "entidades": [
-          "Xataka"
-        ],
-        "cifras_detectadas": [
-          "1825"
-        ],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 87,
-        "relevancia": 55,
-        "confiabilidad_fuente": 50,
-        "readability": {
-          "words": 79,
-          "sentences": 1,
-          "average_words_per_sentence": 79
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 64.95
-    },
-    {
       "id": "c48c2b1963d99fb0",
       "fuente_id": "wccftech_google",
       "fuente_nombre": "Wccftech",
@@ -2074,8 +2000,8 @@
       "texto_original": "HKC Launches World’s First 43.8-inch 4K Ultrawide Monitor With A 24:9 Aspect Ratio Wccftech",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-14T18:29:18.981Z",
-        "index": 8,
+        "processed_at": "2026-09-14T22:24:43.219Z",
+        "index": 11,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -2126,118 +2052,52 @@
       "final_score": 64.95
     },
     {
-      "id": "d3f5c9e3555da365",
-      "fuente_id": "xataka_google",
-      "fuente_nombre": "Xataka",
-      "tipo": "rss_web",
-      "subtipo": "google_news",
-      "grupo_fuente": "xataka",
-      "nivel_fuente": "medio_especializado",
-      "categoria": "tecnologia",
-      "idioma_original": "es",
-      "prioridad_fuente": 4,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "Si la pregunta es si los coches eran \"más baratos\" respecto a tu salario en 1975 que ahora, nosotros hemos hecho cuentas",
-      "titulo_original": "Si la pregunta es si los coches eran \"más baratos\" respecto a tu salario en 1975 que ahora, nosotros hemos hecho cuentas - Xataka",
-      "enlace": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPTTV0NXNlaDhGTmVKeWhmUnJ5dGlaY2xDamEyM2h0azVMSVppeXNRQWJFekhtZ284XzVmY3h1bU1QWDlncWVueVpVUENxUml1dUFWaExLZGNYSFVXb0NCNUlCWDYwZzVCMDVfUUdUaFQ1OU81Q3preElGT1RZTEdPQXZoTTVSQkl2ejJ6dEpPUTJtVjRmWldNYXByZzEzSGY0VFFEYjhJRXNFNDR5a2JoNldNRTh1X0Mzd3NUaWZxQlZ4b3RxRmfSAcsBQVVfeXFMTmZUUF9ST0hQd3dHNFFVbWx2a1dKVFJVMU44T2w3ZjQzT0E2c081ckJQSHBiTVFCbWlYYlRMOHp2a2J4VlF6dFlKb3ZTUTBOVFpNdGVTbVNzdE4wTmF3d1hXaFRlMFFaZFFlVDNVbUZFWm8wVFFfRngzemRKbHgzMS05RlBHbUNHUzN2R1hiZWtNUkU0M1NadjJ5UnhXd2lrRXU2cmQ4YWpJTDhRSWtIN0VvTEx4OEpRMXMwYkhtZUpxRjU3aXRsNUoxUHM?oc=5",
-      "fecha": "2026-09-14T07:31:00.000Z",
-      "resumen_corto": "Si la pregunta es si los coches eran \"más baratos\" respecto a tu salario en 1975 que ahora, nosotros hemos hecho cuentas Xataka",
-      "resumen_largo": "Si la pregunta es si los coches eran \"más baratos\" respecto a tu salario en 1975 que ahora, nosotros hemos hecho cuentas Xataka",
-      "texto_original": "Si la pregunta es si los coches eran \"más baratos\" respecto a tu salario en 1975 que ahora, nosotros hemos hecho cuentas Xataka",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-09-14T18:29:18.997Z",
-        "index": 25,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "es",
-        "categoria": "vehiculos_energia",
-        "categorias_secundarias": [],
-        "category_scores": {
-          "vehiculos_energia": 2
-        },
-        "entidades": [
-          "Xataka"
-        ],
-        "cifras_detectadas": [
-          "1975"
-        ],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 87,
-        "relevancia": 55,
-        "confiabilidad_fuente": 50,
-        "readability": {
-          "words": 79,
-          "sentences": 1,
-          "average_words_per_sentence": 79
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 64.95
-    },
-    {
-      "id": "fb6fa908a0986895",
-      "fuente_id": "ia_dia",
-      "fuente_nombre": "IA al Día",
-      "tipo": "rss_web",
-      "subtipo": "google_news",
-      "grupo_fuente": "ia_general",
-      "nivel_fuente": "agregador",
-      "categoria": "inteligencia_artificial",
+      "id": "4e224b2ff543780b",
+      "fuente_id": "guerra_total",
+      "fuente_nombre": "La Guerra Total HCM",
+      "tipo": "telegram",
+      "subtipo": "canal_telegram",
+      "grupo_fuente": "telegram_militar",
+      "nivel_fuente": "telegram",
+      "categoria": "militar",
       "idioma_original": "es",
       "prioridad_fuente": 3,
       "analizar": true,
       "resumir": true,
-      "titulo": "Iñaki López, ante su primera entrevista con una inteligencia artificial: \"¿Tenéis plan de acabar con la raza humana antes de 2030?\" - LaSexta",
-      "titulo_original": "Iñaki López, ante su primera entrevista con una inteligencia artificial: \"¿Tenéis plan de acabar con la raza humana antes de 2030?\" - LaSexta",
-      "enlace": "https://news.google.com/rss/articles/CBMilAJBVV95cUxQNWFvbmUzLU14V2tUdVpqdXN0WlNMcDZCZVRWN0JVbmplbno4QlZraGU1ZXN4endhWWVXX2VsMzBHOC1qeF9NU3hKaHZrU1pGNVNpS1REMVdjT0NMeFY3RmJ0SkNEdWxNX2tIUGRTSzZEODlYeVNIMFc3Vnp6RlMtX1hxaG9fSm5xZnVTeUFhYktXS1FnR2dFeXYwX2pGRVZTQ0taaTJsNEFTQ2M3TXg5UzN0NndTVDJucVFZWFY5ZlhrcjFWT0FXNzRvYTNfZTZjSS04UHdCU3pSUTN1MHJnUHAyUHV2X3VNRlJ5N3h4VU93NEdXSzlHTWZ4OGxRWDNaWEw1WnUzWXd1dXBWYm1tSzFNNXDSAZQCQVVfeXFMT19hbnctQTNoX1NySXVLOE9DT1FJc0ZGa2pVcUVPdFRoM2thU0REcjFNSVFhX2hWTHl5OTR2TGpMYUFtZ0ZBaS1lZWpwa0RDYzZOZEZSRmJCRlZNSVJMc2dtNlZueFRuTW05MkthbjgwTF93V0lWV3RJbm1wdm45U2ZPdTk5NUFYUldUOENwR05IR3dPRXhtSnRya1ZQYXZxRjNCamtQSnl0WlFsalJpcXZvY1h5R3ZoVGJNaUNIOW4xSWtNS0FJMzBmRzFVYjRHVmFpYXZIb3dLd1MtWFh2cm9qaV9xQmc3YTJxdGNpRDN3WDJHaVB5Z2Z3MDdKZ2M2YUxNbl9mNVhfT3VsTmRNdDZhYmZG?oc=5",
-      "fecha": "2026-09-14T18:03:48.000Z",
-      "resumen_corto": "Iñaki López, ante su primera entrevista con una inteligencia artificial: \"¿Tenéis plan de acabar con la raza humana antes de 2030?\" LaSexta",
-      "resumen_largo": "Iñaki López, ante su primera entrevista con una inteligencia artificial: \"¿Tenéis plan de acabar con la raza humana antes de 2030?\" LaSexta",
-      "texto_original": "Iñaki López, ante su primera entrevista con una inteligencia artificial: \"¿Tenéis plan de acabar con la raza humana antes de 2030?\" LaSexta",
+      "titulo": "Zelenski rechaza ceder el Donbás a cambio de la paz. Tras conversaciones con los enviados estadounidenses Steve Witkoff y Jared Kushner, Kiev declaró que no está dispuesta a entregar el Donbás. Zelenski calificó el asunt",
+      "titulo_original": "Zelenski rechaza ceder el Donbás a cambio de la paz. Tras conversaciones con los enviados estadounidenses Steve Witkoff y Jared Kushner, Kiev declaró que no está dispuesta a entregar el Donbás. Zelenski calificó el asunt",
+      "enlace": "https://t.me/laguerratotalhcm/305",
+      "fecha": "2026-09-06T20:25:05.000Z",
+      "resumen_corto": "Tras conversaciones con los enviados estadounidenses Steve Witkoff y Jared Kushner, Kiev declaró que no está dispuesta a entregar el Donbás.",
+      "resumen_largo": "Zelenski rechaza ceder el Donbás a cambio de la paz. Tras conversaciones con los enviados estadounidenses Steve Witkoff y Jared Kushner, Kiev declaró que no está dispuesta a entregar el Donbás. Zelenski calificó el asunto como \"la cuestión central de toda la guerra\", insistiendo en que, sin posiciones sólidas de las Fuerzas Armadas de Ucrania, Rusia solo impondrá ultimátums.",
+      "texto_original": "Zelenski rechaza ceder el Donbás a cambio de la paz. Tras conversaciones con los enviados estadounidenses Steve Witkoff y Jared Kushner, Kiev declaró que no está dispuesta a entregar el Donbás. Zelenski calificó el asunto como \"la cuestión central de toda la guerra\", insistiendo en que, sin posiciones sólidas de las Fuerzas Armadas de Ucrania, Rusia solo impondrá ultimátums. EE. UU. planea aumentar la producción de sistemas Patriot. Estados Unidos tiene la intención de incrementar la fabricación de misiles para los sistemas Patriot el próximo año. Kushner informó de que el presidente Trump ordenó la preparación de documentos para establecer la paz, manifestando su esperanza de retomar negociaciones trilaterales (Rusia-EE. UU.-Ucrania). Zelenski sostiene que las fuerzas ucranianas se han reforzado en el este y prevé una nueva movilización rusa tras los comicios. No lo sé Rick...",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-14T18:29:18.972Z",
-        "index": 1,
+        "processed_at": "2026-09-14T22:24:43.246Z",
+        "index": 46,
         "resumen": {
           "generado": true,
           "origen": "translated"
         },
         "idioma_detectado": "es",
         "idioma_original": "es",
-        "categoria": "inteligencia_artificial",
+        "categoria": "militar",
         "categorias_secundarias": [
-          "vehiculos_energia"
+          "actualidad",
+          "inteligencia_artificial",
+          "semiconductores"
         ],
         "category_scores": {
-          "inteligencia_artificial": 3,
+          "militar": 4,
+          "actualidad": 2,
+          "inteligencia_artificial": 1,
+          "semiconductores": 1,
+          "moviles": 1,
           "vehiculos_energia": 1
         },
         "entidades": [],
-        "cifras_detectadas": [
-          "2030"
-        ],
-        "content_type": "news",
+        "cifras_detectadas": [],
+        "content_type": "report",
         "clickbait": {
           "detected": false,
           "score": 0,
@@ -2249,13 +2109,13 @@
           "signals": [],
           "url_count": 0
         },
-        "calidad": 80,
-        "relevancia": 57,
-        "confiabilidad_fuente": 53,
+        "calidad": 68,
+        "relevancia": 65,
+        "confiabilidad_fuente": 55,
         "readability": {
-          "words": 90,
-          "sentences": 6,
-          "average_words_per_sentence": 15
+          "words": 211,
+          "sentences": 20,
+          "average_words_per_sentence": 10.55
         },
         "duplicate": {
           "detected": false,
@@ -2264,7 +2124,7 @@
           "similar_to": null
         }
       },
-      "final_score": 64.05
+      "final_score": 63.55
     },
     {
       "id": "918dc3b3955eca1a",
@@ -2283,13 +2143,13 @@
       "titulo_original": "Código rojo en la IA: el vértigo paraliza a las tecnológicas y OpenAI suspende la salida a Bolsa - EL PAÍS",
       "enlace": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOVXhyZEN4SGl6cXJsaUFlSnd5ZTRkejNxTkI0SE9nam9GUld2SVNMeU1wVlhpNF82T3lrMC1vQWtiQVU3T1Y2WnRkNlczUUZBQ0RPY2twWWl2cUlaMnF1MDJ4X2lRZEJLekcxRzRqb0xJeFVDNHNkWnhGOC1LeHpTSGxvTHYzcGRPYVVOWFFWYnJqMVRYOTUtYWtVbXJGc3FpYjF3OHV2bVlQNDRnODlRR1BwQzdaT0NsX0NXdHNuVFlzSXBDLURXUzNLRW1QcDVPNVFGQndKMmrSAewBQVVfeXFMT01WeEVraEduMHY3eEhSa1V6YTk4TW9yYWZNMFplNURLRUxOUDhzNGNNRURuMzdVWVhkU3EyWEZzbG9ZM1g3OFdYWDJ5MHBDUzdmMFViVjVlcExfT0ZManFTb19FYkEwb2ZrMWQzZ3c3NHFVWDNlZVdUT3FsTmZQSEV1UHdGaWZnZDlOWWY2OWRvWVgxdlQzNkJnSzN1bXlOT05IUktOUzRtaGdRNUEzcEZrVmhLdV9DRHI2MjIwaVhVZVRsS2tEMHM3UzFlOXBNbUs1cGNTTzllMzZxWG1HaWw1UHpYZDFBRklmelQ?oc=5",
       "fecha": "2026-09-13T17:52:09.000Z",
-      "resumen_corto": "Código rojo en la IA: el vértigo paraliza a las tecnológicas y OpenAI suspende la salida a Bolsa EL PAÍS",
-      "resumen_largo": "Código rojo en la IA: el vértigo paraliza a las tecnológicas y OpenAI suspende la salida a Bolsa EL PAÍS",
-      "texto_original": "Código rojo en la IA: el vértigo paraliza a las tecnológicas y OpenAI suspende la salida a Bolsa EL PAÍS",
+      "resumen_corto": "Código rojo en la IA: el vértigo paraliza a las tecnológicas y OpenAI suspende la salida a Bolsa EL PAÍS Al interior de las conversaciones sobre el fin del mundo en las empresas de IA The New York Times Quién gana cuando los dueños de la IA piden que los regulen eldiario.es",
+      "resumen_largo": "Código rojo en la IA: el vértigo paraliza a las tecnológicas y OpenAI suspende la salida a Bolsa EL PAÍS Al interior de las conversaciones sobre el fin del mundo en las empresas de IA The New York Times Quién gana cuando los dueños de la IA piden que los regulen eldiario.es",
+      "texto_original": "Código rojo en la IA: el vértigo paraliza a las tecnológicas y OpenAI suspende la salida a Bolsa EL PAÍS Al interior de las conversaciones sobre el fin del mundo en las empresas de IA The New York Times Quién gana cuando los dueños de la IA piden que los regulen eldiario.es",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-14T18:29:19.002Z",
-        "index": 32,
+        "processed_at": "2026-09-14T22:24:43.240Z",
+        "index": 37,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -2321,9 +2181,9 @@
         "relevancia": 55,
         "confiabilidad_fuente": 53,
         "readability": {
-          "words": 55,
-          "sentences": 1,
-          "average_words_per_sentence": 55
+          "words": 124,
+          "sentences": 4,
+          "average_words_per_sentence": 31
         },
         "duplicate": {
           "detected": false,
@@ -2335,7 +2195,7 @@
       "final_score": 63.25
     },
     {
-      "id": "f4520b502499b4fe",
+      "id": "19732be62cf20efa",
       "fuente_id": "xataka_google",
       "fuente_nombre": "Xataka",
       "tipo": "rss_web",
@@ -2347,17 +2207,17 @@
       "prioridad_fuente": 4,
       "analizar": true,
       "resumir": true,
-      "titulo": "Lo que hagas entre los 45 y los 65 años podría librarte de 13 años de demencia",
-      "titulo_original": "Lo que hagas entre los 45 y los 65 años podría librarte de 13 años de demencia - Xataka",
-      "enlace": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQWU9MejR4U2YyRVllOXpva013emt3Z05Ca2tDTDEtaGx3OWZGNU5TNHlKQ0tSZnFqYnNaNU9lNk1ZWW9MXzloWU8tY1lST0VRblY0WWlUSTRhYzhKN2V4OWNnRmZWdTFsbHdrcDRBa3lpVndHVnMxQzZidFR1UjlEVTdPNzNqX3I0Ql9MS2VyaWpHZlhxV0xrM9IBngFBVV95cUxOcHBKT1RTR3VaTzVlOEYzdnR0OGhGY1RXelNTM1lXVElldGptOU1xSlV5Vl8wVjZ5Z01PZVpDcXloVE9OY3FqN21VUUhMcU9WVWhwZE9VZk9LU1c3eFpsNnV0YUNqckFCcXhCZ1c0cVNQUUtXaGc1NFVZbFozbGlGNXVKd2pQWEYtZ2k1ODFkeDV5RkFXSVg3dk9Ud1pYdw?oc=5",
-      "fecha": "2026-09-14T16:01:00.000Z",
-      "resumen_corto": "Lo que hagas entre los 45 y los 65 años podría librarte de 13 años de demencia Xataka",
-      "resumen_largo": "Lo que hagas entre los 45 y los 65 años podría librarte de 13 años de demencia Xataka",
-      "texto_original": "Lo que hagas entre los 45 y los 65 años podría librarte de 13 años de demencia Xataka",
+      "titulo": "\"Repugnante y despreciable\": estrenada hace 48 años, es una de las películas más censuradas de la historia del cine - xataka.com",
+      "titulo_original": "\"Repugnante y despreciable\": estrenada hace 48 años, es una de las películas más censuradas de la historia del cine - xataka.com",
+      "enlace": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOQmdicEZFalVnNXE4WW1yb0lKQUdicjZMQU56aEFDOUZnaWszY1BPakhjOTBaRjRzM1ZpanVEUURwbU56M3dzU1FFZDhlV084M3I0YUpBSnpIZC1TTVJnOGpuR2pPSkllZlU4dnhYNmtEdjhCVEZmeHNuNzZkbzJ4QWVZbkc2NEFZQnhHNW9tblpON194LUUwcFB6Mmp4QzkxOUdsSnJvTzdSTVFEclB2NkcteVrSAboBQVVfeXFMTl9Va0dzbHlrVjZTY0dUejZrQ1pKU20zQU1xdklwZVlfQU1CaFRaOGtmTjNQcDRYMmh3VHVKcTdkbjF4TFYzelFRV3BHQ0x6LWZkLVNORXFVN1RmNjExeWJUaldtSVF6QlI4UzJ1X0RaQlYwVklYVXpBOWl5cmpTSHc4NU1MQUM5cmVIS0E0cGtFVFZxdS1ueFNUb0JiVWlpZV9zVkx6QVBNWHBHcWtIeWZXZGxDOTA1Y0FR?oc=5",
+      "fecha": "2026-09-14T16:47:00.000Z",
+      "resumen_corto": "\"Repugnante y despreciable\": estrenada hace 48 años, es una de las películas más censuradas de la historia del cine xataka.com",
+      "resumen_largo": "\"Repugnante y despreciable\": estrenada hace 48 años, es una de las películas más censuradas de la historia del cine xataka.com",
+      "texto_original": "\"Repugnante y despreciable\": estrenada hace 48 años, es una de las películas más censuradas de la historia del cine xataka.com",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-14T18:29:18.979Z",
-        "index": 7,
+        "processed_at": "2026-09-14T22:24:43.217Z",
+        "index": 8,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -2389,9 +2249,9 @@
         "relevancia": 55,
         "confiabilidad_fuente": 50,
         "readability": {
-          "words": 54,
-          "sentences": 1,
-          "average_words_per_sentence": 54
+          "words": 75,
+          "sentences": 6,
+          "average_words_per_sentence": 12.5
         },
         "duplicate": {
           "detected": false,
@@ -2403,7 +2263,7 @@
       "final_score": 63.2
     },
     {
-      "id": "ac09dce3c2c779ce",
+      "id": "b57691970b6694a0",
       "fuente_id": "xataka_google",
       "fuente_nombre": "Xataka",
       "tipo": "rss_web",
@@ -2415,17 +2275,17 @@
       "prioridad_fuente": 4,
       "analizar": true,
       "resumir": true,
-      "titulo": "La guerra de Ucrania acaba de tener un duelo a muerte en el mar sin precedentes en la historia. Y ninguno de los dos era humano",
-      "titulo_original": "La guerra de Ucrania acaba de tener un duelo a muerte en el mar sin precedentes en la historia. Y ninguno de los dos era humano - Xataka",
-      "enlace": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPTlJFWUNucEZKRDVMZjVkNkkyaHQxWm9sMGs4X0JZY0F5dDVndng1ZzlyQWlxcXk2TEdySVVZYVZxZ3VzYlZ5UjFud1Zka0g4U3RoSjlHdXVDN0hpX0RLTHd2UXpKbExyNC03SDBWblEyX2l6V2cxaUxna18tYzQwU1Vrc3JtbXh3dHdlb2dGMTBqSGxfU1lPMmNqcjJHYU4wUVBEem4wVmdTRWhmSWtxSHZwSllKZ9IBuwFBVV95cUxNWktOZUlWSk5fRU9hbllkT1VQM2JGN2pLVi12ODRIa1hCWjVIenZDNmxNY0d3MXBFZG4zbEJrSG8zVU9MQWN3azd5OF81dkwwb051YXNfaWdmTUl5VUJRZVp4TllJdFVVTElQQ0tUODduQ0puLXhnTEdnUEc0NjFoaXA1Y09tb0pEQnR6b1IxXzczdEctSktMQzFBdlRsQklmT29lWlJvMmtjQ0pHLTZaRmJVazFBWEpXdGVj?oc=5",
-      "fecha": "2026-09-14T08:31:01.000Z",
-      "resumen_corto": "La guerra de Ucrania acaba de tener un duelo a muerte en el mar sin precedentes en la historia.",
-      "resumen_largo": "La guerra de Ucrania acaba de tener un duelo a muerte en el mar sin precedentes en la historia. Y ninguno de los dos era humano Xataka",
-      "texto_original": "La guerra de Ucrania acaba de tener un duelo a muerte en el mar sin precedentes en la historia. Y ninguno de los dos era humano Xataka",
+      "titulo": "Mañana Francia registrará una de las anomalías de calor más salvajes de Europa. El aire que va a provocarlo está hoy sobre el Guadalquivir - xataka.com",
+      "titulo_original": "Mañana Francia registrará una de las anomalías de calor más salvajes de Europa. El aire que va a provocarlo está hoy sobre el Guadalquivir - xataka.com",
+      "enlace": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQVjZreXhwZUpkcUdRYXBoNTViWHdveGFlYnBCSTAzWFBLNHh0ZWhGV0RQMEdGSEFPd1E3WVVnMmt5aWdjbFl3NjRaajVtLXUyc3pHTXdCc3B3bmxBaXRiTVNLcmlnN2FsaUJvMlAzeFBOSTFtTWhwTVVzWXM4bGk3WC1sbl9yc1ZUdlRha180MFBkZVVMUE5UczJBTkhSblVFd1ZTUEREUFRmQTVibktlMVV6QUw4NjVPSGZDVzBRSGFRRmZiWUFkVFVRNUdGR3ctRWZnVUtoempLS3pOWlJtc2hQONIB6AFBVV95cUxNSXRtUzBDcGpoTWlxc0puMFpLbzlXbFplTmJZRVRpTERQNjFHNHZBVHRYTnYwVHppMVBQR3ZDd1FxbS03T3F0dDhuRGJNdVZYQnBWblR5LUM1ZFFSRmpoVlVuTDlHd3pxQ2FtRVg0YUI0RWNMbF80bTg1WEl6X1ExVUN2LXczR3hQRng2WjkydGlfUzVQVEdua1E5WnphYW1aTEYxUXNQOEliMlA0aUZsTTAwbDVURl83UmNLdk9ud3dNcWVRNGFud2w3a3ZZWjhCWkRTdW8wR2pNZ2hQRXBFbVhqWlVVV2lx?oc=5",
+      "fecha": "2026-09-14T14:31:00.000Z",
+      "resumen_corto": "Mañana Francia registrará una de las anomalías de calor más salvajes de Europa.",
+      "resumen_largo": "Mañana Francia registrará una de las anomalías de calor más salvajes de Europa. El aire que va a provocarlo está hoy sobre el Guadalquivir xataka.com",
+      "texto_original": "Mañana Francia registrará una de las anomalías de calor más salvajes de Europa. El aire que va a provocarlo está hoy sobre el Guadalquivir xataka.com",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-14T18:29:18.995Z",
-        "index": 22,
+        "processed_at": "2026-09-14T22:24:43.219Z",
+        "index": 10,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -2434,11 +2294,11 @@
         "idioma_original": "es",
         "categoria": "inteligencia_artificial",
         "categorias_secundarias": [
-          "militar"
+          "vehiculos_energia"
         ],
         "category_scores": {
-          "inteligencia_artificial": 1,
-          "militar": 1
+          "inteligencia_artificial": 2,
+          "vehiculos_energia": 1
         },
         "entidades": [
           "Xataka"
@@ -2460,9 +2320,9 @@
         "relevancia": 55,
         "confiabilidad_fuente": 50,
         "readability": {
-          "words": 73,
-          "sentences": 6,
-          "average_words_per_sentence": 12.17
+          "words": 86,
+          "sentences": 10,
+          "average_words_per_sentence": 8.6
         },
         "duplicate": {
           "detected": false,
@@ -2472,6 +2332,281 @@
         }
       },
       "final_score": 63.2
+    },
+    {
+      "id": "c81f73173d765aae",
+      "fuente_id": "xataka_google",
+      "fuente_nombre": "Xataka",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "xataka",
+      "nivel_fuente": "medio_especializado",
+      "categoria": "tecnologia",
+      "idioma_original": "es",
+      "prioridad_fuente": 4,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "“Deben corregirlo si no quieren convertirse en un meme”: Madrid ya sabe qué pasa si metes 22 coches de Fórmula 1 en un PAU - xataka.com",
+      "titulo_original": "“Deben corregirlo si no quieren convertirse en un meme”: Madrid ya sabe qué pasa si metes 22 coches de Fórmula 1 en un PAU - xataka.com",
+      "enlace": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQeDBfNXN5R284SVJqcEZCeEdVdVZNRnBZZVZpN2V3ZmlqYjJLN19xbFloNGowNlJZY1hoRDVIaHN2djlDZEItTFI2b01xS0tkMk9XaWlQV25UekhqeDdkYkh1UTdIaTdPdmRFcmxGSjBKN2stVGNHa19wb3d3ZGYxQ2JwY3J2WkdORUJ0UkhZQmxHQnJsWnhkM01zbjRKNFNlZXBwdjhyUkxtMVdlTWNrMFlFeF9lVmhVX1lLTkNmR08zNVNUWEFR0gHMAUFVX3lxTE5WbjVuMXo1WFNXbVVKamZuVEVUazcxYzYxZVkzVUNwVXpTY2RZMEFDcmQ3QWNvNE5SRXFVbXZicGxyRHlSbWI1SWc0dkNZWTNaMk5aWjVCQmdRMjZqUFdoX3ZtMkh2Sm9taGZraEVXNi1kQW1IbkFET0ZxTzRRUjZHMjdLMmNvNmN6dVZpc3ZnaUpsalE5U0hRcjgzZWJuNjRESHpUa0Q0ZlRueFZkRUs1dDFacWY1dm5WOHpzbEw4SnZhVDlCZjdZb2dHNA?oc=5",
+      "fecha": "2026-09-14T10:47:00.000Z",
+      "resumen_corto": "“Deben corregirlo si no quieren convertirse en un meme”: Madrid ya sabe qué pasa si metes 22 coches de Fórmula 1 en un PAU xataka.com",
+      "resumen_largo": "“Deben corregirlo si no quieren convertirse en un meme”: Madrid ya sabe qué pasa si metes 22 coches de Fórmula 1 en un PAU xataka.com",
+      "texto_original": "“Deben corregirlo si no quieren convertirse en un meme”: Madrid ya sabe qué pasa si metes 22 coches de Fórmula 1 en un PAU xataka.com",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-09-14T22:24:43.231Z",
+        "index": 24,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "vehiculos_energia",
+        "categorias_secundarias": [],
+        "category_scores": {
+          "vehiculos_energia": 2
+        },
+        "entidades": [
+          "Xataka"
+        ],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 82,
+        "relevancia": 55,
+        "confiabilidad_fuente": 50,
+        "readability": {
+          "words": 75,
+          "sentences": 6,
+          "average_words_per_sentence": 12.5
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 63.2
+    },
+    {
+      "id": "39fb2766fab97e8d",
+      "fuente_id": "xataka_google",
+      "fuente_nombre": "Xataka",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "xataka",
+      "nivel_fuente": "medio_especializado",
+      "categoria": "tecnologia",
+      "idioma_original": "es",
+      "prioridad_fuente": 4,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Mejores móviles baratos 2026: cuál comprar y 7 modelos recomendados por menos de 170 euros - xataka.com",
+      "titulo_original": "Mejores móviles baratos 2026: cuál comprar y 7 modelos recomendados por menos de 170 euros - xataka.com",
+      "enlace": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1MYWhCWGwzeHN4d01ld29jUHl1V0tfd20yRnR4TFhvM0d4eUhIRndRZkNPRnVnU2FyLUh0c3Jla012bUFnVlpmR2hXYmlRR29rM0RkN0ZHNmRoRnJMb2hISHkzanphUzDSAWxBVV95cUxNeTA2UFRid1VVYmwzWk9saDJMWWQ2Y2JvdEpnSnV4S29DWk9zY1VQZk9WblJ5SHRYZXRaQWg1elY0UHlBSmZLOEJhVzFIczJuMllSclh2VW02bkQ2ZFhiR2lRMGZMSm9YYlRwaTY?oc=5",
+      "fecha": "2026-09-14T15:17:00.000Z",
+      "resumen_corto": "Mejores móviles baratos 2026: cuál comprar y 7 modelos recomendados por menos de 170 euros xataka.com",
+      "resumen_largo": "Mejores móviles baratos 2026: cuál comprar y 7 modelos recomendados por menos de 170 euros xataka.com",
+      "texto_original": "Mejores móviles baratos 2026: cuál comprar y 7 modelos recomendados por menos de 170 euros xataka.com",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-09-14T22:24:43.218Z",
+        "index": 9,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "tecnologia",
+        "categorias_secundarias": [],
+        "category_scores": {},
+        "entidades": [
+          "Xataka"
+        ],
+        "cifras_detectadas": [
+          "2026",
+          "7 m"
+        ],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 87,
+        "relevancia": 50,
+        "confiabilidad_fuente": 50,
+        "readability": {
+          "words": 70,
+          "sentences": 6,
+          "average_words_per_sentence": 11.67
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 62.95
+    },
+    {
+      "id": "5671497e7f0380b5",
+      "fuente_id": "ia_dia",
+      "fuente_nombre": "IA al Día",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "ia_general",
+      "nivel_fuente": "agregador",
+      "categoria": "inteligencia_artificial",
+      "idioma_original": "es",
+      "prioridad_fuente": 3,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "25 prestigiosos matemáticos coinciden: La inteligencia artificial representa un riesgo que amenaza al trabajo intelectual - National Geographic España",
+      "titulo_original": "25 prestigiosos matemáticos coinciden: La inteligencia artificial representa un riesgo que amenaza al trabajo intelectual - National Geographic España",
+      "enlace": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxON1I2Nnl0UEZlS1gwc01NZEtMbERkUGF6dEg5dHlKbkJYY0ROMkpDcy1xWEc3WjJLbE9nMGZvcWRFZVg4M19OaEoxdjVuNlZ6My1uSUtUdnlwUnlpNlJGNHlKcjFDc2R5RktRbWl4bWhqNkdQTjIxQWNvUWJKMmFFMnZlVHh1S3BHdVFCNlRnTlFMdERQZEtvX1ZFSTNraHFzSXNKbHBFZ1JWV2hwVVBuYTdIc0JLSnBDc2ZYc0syM2JHSkg3S3NLVUE5dkFNV08tMUNvWFdEVWMtYU5zOTVoRGxEWFFUQUtydEZLV29OeUktYWM?oc=5",
+      "fecha": "2026-09-14T11:00:00.000Z",
+      "resumen_corto": "25 prestigiosos matemáticos coinciden: La inteligencia artificial representa un riesgo que amenaza al trabajo intelectual National Geographic España",
+      "resumen_largo": "25 prestigiosos matemáticos coinciden: La inteligencia artificial representa un riesgo que amenaza al trabajo intelectual National Geographic España",
+      "texto_original": "25 prestigiosos matemáticos coinciden: La inteligencia artificial representa un riesgo que amenaza al trabajo intelectual National Geographic España",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-09-14T22:24:43.228Z",
+        "index": 22,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "inteligencia_artificial",
+        "categorias_secundarias": [
+          "moviles"
+        ],
+        "category_scores": {
+          "inteligencia_artificial": 3,
+          "moviles": 2
+        },
+        "entidades": [],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 75,
+        "relevancia": 57,
+        "confiabilidad_fuente": 53,
+        "readability": {
+          "words": 70,
+          "sentences": 1,
+          "average_words_per_sentence": 70
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 62.3
+    },
+    {
+      "id": "3b58e9b0013bf5b9",
+      "fuente_id": "ia_dia",
+      "fuente_nombre": "IA al Día",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "ia_general",
+      "nivel_fuente": "agregador",
+      "categoria": "inteligencia_artificial",
+      "idioma_original": "es",
+      "prioridad_fuente": 3,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Así se utiliza la inteligencia artificial para 'hacer trampas' en los ensayos clínicos - elmundo.es",
+      "titulo_original": "Así se utiliza la inteligencia artificial para 'hacer trampas' en los ensayos clínicos - elmundo.es",
+      "enlace": "https://news.google.com/rss/articles/CBMieEFVX3lxTFA5QXl6WV9LT21Gd2otY3JrcFFVZXVWYzBoV1ZETXJyWU5nNWZVdTZ5bUphVTI3MjdMUWxHc3pLZkFtaVpEcE1qcDJ2OXhJZXlNQWc3YnFMRzBYZTJHQ3oxUU5SenJIRVNoRDBYVDlLNDRPbzdfa1U5TtIBeEFVX3lxTFB6cTE1VnZUMDZLUU4wcXU1QnZuaW1xa2o0S3piYVpkOTYxWjRWZUlmZ1hSdEdySzJ1c1FYbDhZNFNMVnZxV1NmT2hpRk1xTlg0RVEwUmdwSWo1alA5UDR6cUhyWVpTOEcyT1VnT0RuUHZzZjhaTmJwNg?oc=5",
+      "fecha": "2026-09-14T09:15:59.000Z",
+      "resumen_corto": "Así se utiliza la inteligencia artificial para 'hacer trampas' en los ensayos clínicos elmundo.es",
+      "resumen_largo": "Así se utiliza la inteligencia artificial para 'hacer trampas' en los ensayos clínicos elmundo.es",
+      "texto_original": "Así se utiliza la inteligencia artificial para 'hacer trampas' en los ensayos clínicos elmundo.es",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-09-14T22:24:43.235Z",
+        "index": 28,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "inteligencia_artificial",
+        "categorias_secundarias": [
+          "hardware"
+        ],
+        "category_scores": {
+          "inteligencia_artificial": 3,
+          "hardware": 1
+        },
+        "entidades": [],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 75,
+        "relevancia": 57,
+        "confiabilidad_fuente": 53,
+        "readability": {
+          "words": 55,
+          "sentences": 6,
+          "average_words_per_sentence": 9.17
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 62.3
     },
     {
       "id": "6ebafa32a656f5ba",
@@ -2495,8 +2630,8 @@
       "texto_original": "'Bold Machina': el ejercicio de la OTAN para poner a prueba la última tecnología militar RTVE.es",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-14T18:29:19.000Z",
-        "index": 30,
+        "processed_at": "2026-09-14T22:24:43.240Z",
+        "index": 36,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -2566,8 +2701,8 @@
       "texto_original": "Más del 20% de la flota de Ayvens en España ya incorpora tecnología electrificada El Periódico",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-14T18:29:18.970Z",
-        "index": 0,
+        "processed_at": "2026-09-14T22:24:43.216Z",
+        "index": 6,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -2616,7 +2751,7 @@
       "final_score": 61.25
     },
     {
-      "id": "1da4e1e448a77c27",
+      "id": "ccd22525be3aceba",
       "fuente_id": "ia_dia",
       "fuente_nombre": "IA al Día",
       "tipo": "rss_web",
@@ -2628,17 +2763,17 @@
       "prioridad_fuente": 3,
       "analizar": true,
       "resumir": true,
-      "titulo": "Catalunya creará un registro de sistemas de IA para regular su impacto en el mercado laboral - El Periódico",
-      "titulo_original": "Catalunya creará un registro de sistemas de IA para regular su impacto en el mercado laboral - El Periódico",
-      "enlace": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOdGhkeGxhNndaUkZhdm9Dc3lvaXR0MGlqSEtLNlZCX1NEbmRRQkZxNUpBdXc3ZHdMNG1XalRNUzllSHUzeDJrUE1IeFkybi1JU0s3M3BNMXhjdE5wYnljWUdBRjV1djVldjVIMmlQSTdNR1A0VGxjTTgtUWlhNEVFRTYwX0Y0OVRMTlhDenVSWS1aRzE2b2RRa2tzZXZsb0tBT2ZzdWpRY1U1ajFiUUHSAa4BQVVfeXFMTjU0WkdFOXUzMVVyRWwwZlU0SFNNZVFkWmV6NE9FUWpWbG8yTnRkMDNpOWdZWjItT05ZbFlNcHJmVWJfYmZtbmkwVldyQ2ZLSVhqYi1hYUVSd2RMaGRnZ3oxUXY0emJ4VXBIaEVmMFRuT2xWWkx2RFVhVXVlZndMMlB2Q2ZuZ09JdTczRGo5LXRfZ0w4a0QwMEUzUTNVQXAtRi1ERTRheTJ5SnlVUUxR?oc=5",
-      "fecha": "2026-09-14T17:53:31.000Z",
-      "resumen_corto": "Catalunya creará un registro de sistemas de IA para regular su impacto en el mercado laboral El Periódico",
-      "resumen_largo": "Catalunya creará un registro de sistemas de IA para regular su impacto en el mercado laboral El Periódico",
-      "texto_original": "Catalunya creará un registro de sistemas de IA para regular su impacto en el mercado laboral El Periódico",
+      "titulo": "Control inteligente - El Diario Vasco",
+      "titulo_original": "Control inteligente - El Diario Vasco",
+      "enlace": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPUDZpMktVXzJsRnM5WGlZTTZxcFMzNWlZSHJERHZmZU5FWFZ6Q2RlNWVualF4d002SHJWM19nQjVyREl4b282cUozMGROSzA1aEdnNWVVZU85T3psN2RveFR4N0w5OHM5Skg2SUE4amhUMjZNM1lTeWNFaUo0VUhhaHpqeEXSAYoBQVVfeXFMTmR5akZmXzFiaUh4S29YMlJmZjRGSVlMQmVOV3hmUk8yclhIT1h2Zzd2LXdGZFZEaTE5TkJ0TEIyYU41TWVTSnMxNnVsTHk2VS1RMkpWZDY3anZ1VkZqQTdqT1hHdkNwcnZHUVZraHR3OXFuSFo4MTBnOWdHZTF0SEQ4NGc3Y0RFb1Fn?oc=5",
+      "fecha": "2026-09-14T22:03:26.000Z",
+      "resumen_corto": "Control inteligente El Diario Vasco",
+      "resumen_largo": "Control inteligente El Diario Vasco",
+      "texto_original": "Control inteligente El Diario Vasco",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-14T18:29:18.973Z",
-        "index": 2,
+        "processed_at": "2026-09-14T22:24:43.206Z",
+        "index": 0,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -2648,6 +2783,144 @@
         "categoria": "inteligencia_artificial",
         "categorias_secundarias": [],
         "category_scores": {
+          "inteligencia_artificial": 1
+        },
+        "entidades": [],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 75,
+        "relevancia": 50,
+        "confiabilidad_fuente": 53,
+        "readability": {
+          "words": 20,
+          "sentences": 1,
+          "average_words_per_sentence": 20
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 59.5
+    },
+    {
+      "id": "2da28593f6d5e770",
+      "fuente_id": "google_news_es",
+      "fuente_nombre": "Google News ES",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "google_news",
+      "nivel_fuente": "agregador",
+      "categoria": "tecnologia",
+      "idioma_original": "es",
+      "prioridad_fuente": 3,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "China tiene un plan para ganar la carrera mundial de la IA (y el jefe de sus espías avisa de los riesgos) - elconfidencial.com",
+      "titulo_original": "China tiene un plan para ganar la carrera mundial de la IA (y el jefe de sus espías avisa de los riesgos) - elconfidencial.com",
+      "enlace": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQZTYwb1p3SVhjYktSa1VuTzIwMVd6QmM2eFg5azBONDh3TWpReTZuY0hUSkJyOTlIazJNU2o2Ti1CRHE5R3VvWFQ2TVhmWjFqQkYzRWhqVVp0ZGdDRUw0TmdVTjhqQk5BYWdZcnRUUGp0Y2lnMS1xQlFMaTRMclI3UVBJTXFPRFN4d1I3ekxhS0JmWkltT2tPRmZ2STFqTDNnZU0wdjZOeHhrelU?oc=5",
+      "fecha": "2026-09-14T20:34:00.000Z",
+      "resumen_corto": "China tiene un plan para ganar la carrera mundial de la IA (y el jefe de sus espías avisa de los riesgos) elconfidencial.com",
+      "resumen_largo": "China tiene un plan para ganar la carrera mundial de la IA (y el jefe de sus espías avisa de los riesgos) elconfidencial.com",
+      "texto_original": "China tiene un plan para ganar la carrera mundial de la IA (y el jefe de sus espías avisa de los riesgos) elconfidencial.com",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-09-14T22:24:43.214Z",
+        "index": 3,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "inteligencia_artificial",
+        "categorias_secundarias": [
+          "vehiculos_energia"
+        ],
+        "category_scores": {
+          "inteligencia_artificial": 1,
+          "vehiculos_energia": 1
+        },
+        "entidades": [],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 75,
+        "relevancia": 50,
+        "confiabilidad_fuente": 53,
+        "readability": {
+          "words": 75,
+          "sentences": 6,
+          "average_words_per_sentence": 12.5
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 59.5
+    },
+    {
+      "id": "335f0f67ebb9a92d",
+      "fuente_id": "google_news_es",
+      "fuente_nombre": "Google News ES",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "google_news",
+      "nivel_fuente": "agregador",
+      "categoria": "tecnologia",
+      "idioma_original": "es",
+      "prioridad_fuente": 3,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Las alertas sobre la IA sacuden unos mercados dependientes de la tecnología - lavanguardia.com",
+      "titulo_original": "Las alertas sobre la IA sacuden unos mercados dependientes de la tecnología - lavanguardia.com",
+      "enlace": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNX2hYOXlDRUV6NFl3WDd0ZkhLb2I1VHU2LVlhS3ZwV3YzaHBpd01udDNuWHhYZTNZM3ZjVmxObFRwYTNzUnpyRWFqeC0tS0xOYnQ4Q3VocEVRYWZ4TGphaXl1T2R5ejBleFB4NWxsS2Y4eUtob0VMMVFaenVaWVcyQjNVQ0VsVVhaRUsyREs2b0V4Y0Z6RnJRMVFGWjl5MElzNGpFbGtTRTNaYU10bk1XRzZBd1ozUGZkd0HSAb8BQVVfeXFMTjVfcndGQWw0OThYaUpVU21CY1FpbjY3TDkzVzFiM3ZQajhobHpKcURlSDNIaEMyVVl0dWxuclVTTGZ0dGxmcHE5SFpMQklteUxuMHhHMHJPMXFFTEx2Qi0wd0tYNUYtN3k1QkMxMjRxUGhsa0VhcGJNWVRKN0ZaODlDLTFEYW5RSkFpcHNXRFBxTHduQWlpUU5WcEh0MVRLYjVzNHdlZkltVkxjQXpYZGNWV0c0RnEwQmFrZGp0Ykk?oc=5",
+      "fecha": "2026-09-14T18:23:43.000Z",
+      "resumen_corto": "Las alertas sobre la IA sacuden unos mercados dependientes de la tecnología lavanguardia.com",
+      "resumen_largo": "Las alertas sobre la IA sacuden unos mercados dependientes de la tecnología lavanguardia.com",
+      "texto_original": "Las alertas sobre la IA sacuden unos mercados dependientes de la tecnología lavanguardia.com",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-09-14T22:24:43.216Z",
+        "index": 5,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "tecnologia",
+        "categorias_secundarias": [
+          "inteligencia_artificial"
+        ],
+        "category_scores": {
+          "tecnologia": 2,
           "inteligencia_artificial": 1
         },
         "entidades": [],
@@ -2669,277 +2942,8 @@
         "confiabilidad_fuente": 53,
         "readability": {
           "words": 50,
-          "sentences": 1,
-          "average_words_per_sentence": 50
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 59.5
-    },
-    {
-      "id": "388ca1cfa534e0b9",
-      "fuente_id": "google_news_es",
-      "fuente_nombre": "Google News ES",
-      "tipo": "rss_web",
-      "subtipo": "google_news",
-      "grupo_fuente": "google_news",
-      "nivel_fuente": "agregador",
-      "categoria": "tecnologia",
-      "idioma_original": "es",
-      "prioridad_fuente": 3,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "El tocadiscos ultrasilencioso (y ultracaro) que usa el magnetismo para mover el plato sin tocarlo - El Confidencial",
-      "titulo_original": "El tocadiscos ultrasilencioso (y ultracaro) que usa el magnetismo para mover el plato sin tocarlo - El Confidencial",
-      "enlace": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQOEdwRjNFSmp0dzJOWkhaQ054cklucnVIYnJGNUNWYkswWlFELXdHWTlQS1NwdEdyTUxLRGJQYkt2WG81aVpYX1U1Ti1oaUdCbVVjem1ULVVRSG1GYUNRa2dmTy1ycVlUYllpQnI1YVgwREdKMkdCc0R2ZWkwTlpyTWpIS1BjV0RuaXk2Qldpc2o3R0VyUjk1WnFlMUJnSFBOY3RXTFNIMTJPT05oREhrcjhSLWlNWUZoSEFwRHdUbXM4NUha?oc=5",
-      "fecha": "2026-09-14T17:26:00.000Z",
-      "resumen_corto": "El tocadiscos ultrasilencioso (y ultracaro) que usa el magnetismo para mover el plato sin tocarlo El Confidencial",
-      "resumen_largo": "El tocadiscos ultrasilencioso (y ultracaro) que usa el magnetismo para mover el plato sin tocarlo El Confidencial",
-      "texto_original": "El tocadiscos ultrasilencioso (y ultracaro) que usa el magnetismo para mover el plato sin tocarlo El Confidencial",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-09-14T18:29:18.974Z",
-        "index": 3,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "es",
-        "categoria": "inteligencia_artificial",
-        "categorias_secundarias": [
-          "moviles",
-          "vehiculos_energia"
-        ],
-        "category_scores": {
-          "inteligencia_artificial": 1,
-          "moviles": 1,
-          "vehiculos_energia": 1
-        },
-        "entidades": [],
-        "cifras_detectadas": [],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 75,
-        "relevancia": 50,
-        "confiabilidad_fuente": 53,
-        "readability": {
-          "words": 60,
-          "sentences": 1,
-          "average_words_per_sentence": 60
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 59.5
-    },
-    {
-      "id": "316205c95bc49bab",
-      "fuente_id": "google_news_es",
-      "fuente_nombre": "Google News ES",
-      "tipo": "rss_web",
-      "subtipo": "google_news",
-      "grupo_fuente": "google_news",
-      "nivel_fuente": "agregador",
-      "categoria": "tecnologia",
-      "idioma_original": "es",
-      "prioridad_fuente": 3,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "Al interior de las conversaciones sobre el fin del mundo en las empresas de IA - The New York Times",
-      "titulo_original": "Al interior de las conversaciones sobre el fin del mundo en las empresas de IA - The New York Times",
-      "enlace": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQVlJZSVJjWXhNNlY1S3h3VzFyMEx2UXNjcEhtN0xDT0ZnQk1hQllCNTBralRNRk4yNVRQUWppMVR0a3FxR3luRzBhb0E2R1otLVd6d0RPbUZrelNZMzR2aDk2ZDkxbjZaNlA3bmdZWWJvMzBYNjhsdi1tblRjN1E5dEtUU1h1dW9FcEVob0JGTk9Oa1JsOU1ENXlmekNvQkE4TmdUVzhTMFVJRmlQbDV6TUFubw?oc=5",
-      "fecha": "2026-09-14T06:00:05.000Z",
-      "resumen_corto": "Al interior de las conversaciones sobre el fin del mundo en las empresas de IA The New York Times",
-      "resumen_largo": "Al interior de las conversaciones sobre el fin del mundo en las empresas de IA The New York Times",
-      "texto_original": "Al interior de las conversaciones sobre el fin del mundo en las empresas de IA The New York Times",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-09-14T18:29:18.998Z",
-        "index": 27,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "es",
-        "categoria": "inteligencia_artificial",
-        "categorias_secundarias": [],
-        "category_scores": {
-          "inteligencia_artificial": 1
-        },
-        "entidades": [],
-        "cifras_detectadas": [],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 75,
-        "relevancia": 50,
-        "confiabilidad_fuente": 53,
-        "readability": {
-          "words": 65,
-          "sentences": 1,
-          "average_words_per_sentence": 65
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 59.5
-    },
-    {
-      "id": "0d4d66af45376ddf",
-      "fuente_id": "google_news_es",
-      "fuente_nombre": "Google News ES",
-      "tipo": "rss_web",
-      "subtipo": "google_news",
-      "grupo_fuente": "google_news",
-      "nivel_fuente": "agregador",
-      "categoria": "tecnologia",
-      "idioma_original": "es",
-      "prioridad_fuente": 3,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "La resistencia contra la IA gana fuerza - EL PAÍS",
-      "titulo_original": "La resistencia contra la IA gana fuerza - EL PAÍS",
-      "enlace": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPeF85ZlJvdzhXZ1FNbm5ROG9MWHF1ckdtSGNyaFJCcmRXSmxRZllsYkxtSWZTU3lBN3ZTRHZyQXFmWWhQZ1h3WG1tOHdoQVdIcWE1cVpMWnRSRXhBX0t2YjNaQXJNVzZlejlQY05QeGphX0dGVUZ0RTR2TFM0cGtwNHo2SzdaWE54MHVsaVFB0gGiAUFVX3lxTE5mZl9UbTNIbVN6MndfSEZXZllPcDV1OURuQmNGMWd0MjhVNTdHaFV6ZVhOeHphU0dxVV9DTGlNQzJyZzhzMmpBWlh5Ni1TQWwwSkxnRHpsN3hqM19Ha1NycXgwLWpSMDl2UF9OWEY0YWl2czBRRlR6SGpZMGRhRUZQSGpJS1p2QlpvN2J2WnlwVFM5MzZYZXplZm5hNWV6RnMxdw?oc=5",
-      "fecha": "2026-09-13T03:30:01.000Z",
-      "resumen_corto": "La resistencia contra la IA gana fuerza EL PAÍS",
-      "resumen_largo": "La resistencia contra la IA gana fuerza EL PAÍS",
-      "texto_original": "La resistencia contra la IA gana fuerza EL PAÍS",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-09-14T18:29:19.004Z",
-        "index": 36,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "es",
-        "categoria": "inteligencia_artificial",
-        "categorias_secundarias": [],
-        "category_scores": {
-          "inteligencia_artificial": 2
-        },
-        "entidades": [],
-        "cifras_detectadas": [],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 75,
-        "relevancia": 50,
-        "confiabilidad_fuente": 53,
-        "readability": {
-          "words": 25,
-          "sentences": 1,
-          "average_words_per_sentence": 25
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 59.5
-    },
-    {
-      "id": "9ac12531ac0da3f2",
-      "fuente_id": "ia_dia",
-      "fuente_nombre": "IA al Día",
-      "tipo": "rss_web",
-      "subtipo": "google_news",
-      "grupo_fuente": "ia_general",
-      "nivel_fuente": "agregador",
-      "categoria": "inteligencia_artificial",
-      "idioma_original": "es",
-      "prioridad_fuente": 3,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "“Hay que nacionalizar la inteligencia artificial” - pagina12.com.ar",
-      "titulo_original": "“Hay que nacionalizar la inteligencia artificial” - pagina12.com.ar",
-      "enlace": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPalo4empDak1XOFBTOGpQZGk1bW9zV1ZRWFphVXI2OEtRSjY3dGNTRngyLTBfNlVheDZmWGZzTU5yMEZOQ0x5TmZNN29oQlNycGt5YWJKWWlGajVYUExnMlZOTHN1N21tclJGdU0xemF0c1l2b3hrNHZmRGhHc21vWlcya3AwOEdLMVVkWTZDVjc?oc=5",
-      "fecha": "2026-09-12T00:45:20.000Z",
-      "resumen_corto": "“Hay que nacionalizar la inteligencia artificial” pagina12.com.ar",
-      "resumen_largo": "“Hay que nacionalizar la inteligencia artificial” pagina12.com.ar",
-      "texto_original": "“Hay que nacionalizar la inteligencia artificial” pagina12.com.ar",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-09-14T18:29:19.004Z",
-        "index": 38,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "es",
-        "categoria": "inteligencia_artificial",
-        "categorias_secundarias": [],
-        "category_scores": {
-          "inteligencia_artificial": 3
-        },
-        "entidades": [],
-        "cifras_detectadas": [],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 75,
-        "relevancia": 50,
-        "confiabilidad_fuente": 53,
-        "readability": {
-          "words": 35,
-          "sentences": 11,
-          "average_words_per_sentence": 3.18
+          "sentences": 6,
+          "average_words_per_sentence": 8.33
         },
         "duplicate": {
           "detected": false,
@@ -2972,8 +2976,8 @@
       "texto_original": "— 🇸🇦 / 🇾🇪 WATCH: Yemen’s Armed Forces (Ansarallah) have uploaded 40 minutes of high-quality footage from the Mokha campaign @Middle_East_Spectator",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-14T18:29:18.985Z",
-        "index": 12,
+        "processed_at": "2026-09-14T22:24:43.224Z",
+        "index": 17,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -3043,8 +3047,8 @@
       "texto_original": "Operadores rusos de sistemas no tripulados ( BPS ) consolidan un perfil táctico multidominio al neutralizar objetivos en superficie y en vuelo. Los registros operativos documentan cómo las tripulaciones de drones FPV no solo baten carros y transportes acorazados, sino que destruyen plataformas terrestres no tripuladas ( UGV ) utilizadas para evacuación y abastecimiento, además de ejecutar intercepciones cinéticas aire-aire contra drones ucranianos en pleno trayecto.",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-14T18:29:19.010Z",
-        "index": 47,
+        "processed_at": "2026-09-14T22:24:43.248Z",
+        "index": 48,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -3116,8 +3120,8 @@
       "texto_original": "Apple has recently launched the iPhone Duo – its first foldable, and while it is unclear how much this product will boost the company’s revenue, it is definitely increasing the Huawei Pura X Max sales. A tipster has revealed new details on this subject. FixedFocus on Weibo reveals that Huawei Pura X Max sales increased […] The post Huawei Pura X Max shows 76.5% sales boom after iPhone Duo launch appeared first on Huawei Central.",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-14T18:29:18.992Z",
-        "index": 19,
+        "processed_at": "2026-09-14T22:24:43.233Z",
+        "index": 26,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -3179,6 +3183,83 @@
       "final_score": 56.85
     },
     {
+      "id": "20d28b8e0798635e",
+      "fuente_id": "guerra_total",
+      "fuente_nombre": "La Guerra Total HCM",
+      "tipo": "telegram",
+      "subtipo": "canal_telegram",
+      "grupo_fuente": "telegram_militar",
+      "nivel_fuente": "telegram",
+      "categoria": "militar",
+      "idioma_original": "es",
+      "prioridad_fuente": 3,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "La aviación táctica rusa (VKS) intensifica la campaña de interdicción en el Donbás atacando la infraestructura de transporte en Kramatorsk . Cazabombarderos de precisión emplearon bombas aéreas pesadas de 1,5 toneladas —",
+      "titulo_original": "La aviación táctica rusa (VKS) intensifica la campaña de interdicción en el Donbás atacando la infraestructura de transporte en Kramatorsk . Cazabombarderos de precisión emplearon bombas aéreas pesadas de 1,5 toneladas —",
+      "enlace": "https://t.me/laguerratotalhcm/306",
+      "fecha": "2026-09-08T00:12:20.000Z",
+      "resumen_corto": "Cazabombarderos de precisión emplearon bombas aéreas pesadas de 1,5 toneladas —previsiblemente FAB-1500 equipadas con módulos de planeo y corrección ( UMPK )— para batir un puente clave de la ciudad.",
+      "resumen_largo": "La aviación táctica rusa (VKS) intensifica la campaña de interdicción en el Donbás atacando la infraestructura de transporte en Kramatorsk . Cazabombarderos de precisión emplearon bombas aéreas pesadas de 1,5 toneladas —previsiblemente FAB-1500 equipadas con módulos de planeo y corrección ( UMPK )— para batir un puente clave de la ciudad. El impacto directo busca fracturar las líneas de comunicación terrestres ( LOC ) y estrangular la movilidad de refuerzos y suministros en el cinturón defensivo de Kramatorsk-Slaviansk.",
+      "texto_original": "La aviación táctica rusa (VKS) intensifica la campaña de interdicción en el Donbás atacando la infraestructura de transporte en Kramatorsk . Cazabombarderos de precisión emplearon bombas aéreas pesadas de 1,5 toneladas —previsiblemente FAB-1500 equipadas con módulos de planeo y corrección ( UMPK )— para batir un puente clave de la ciudad. El impacto directo busca fracturar las líneas de comunicación terrestres ( LOC ) y estrangular la movilidad de refuerzos y suministros en el cinturón defensivo de Kramatorsk-Slaviansk.",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-09-14T22:24:43.244Z",
+        "index": 44,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "inteligencia_artificial",
+        "categorias_secundarias": [
+          "semiconductores",
+          "moviles",
+          "hardware"
+        ],
+        "category_scores": {
+          "inteligencia_artificial": 1,
+          "semiconductores": 1,
+          "moviles": 1,
+          "hardware": 1,
+          "vehiculos_energia": 1,
+          "militar": 1
+        },
+        "entidades": [],
+        "cifras_detectadas": [
+          "1500"
+        ],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 65,
+        "relevancia": 57,
+        "confiabilidad_fuente": 45,
+        "readability": {
+          "words": 159,
+          "sentences": 9,
+          "average_words_per_sentence": 17.67
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 56.8
+    },
+    {
       "id": "c22c7ffe8ccf588d",
       "fuente_id": "guerra_total",
       "fuente_nombre": "La Guerra Total HCM",
@@ -3200,8 +3281,8 @@
       "texto_original": "Registros operacionales muestran el empleo de misiles de crucero tácticos ligeros «Banderol» disparados desde drones de reconocimiento y ataque Orion ( Inojódets ) contra puntos de despliegue temporal ( PVD ) de las fuerzas ucranianas. La integración de estas municiones de precisión de alcance extendido en plataformas aéreas MALE permite batir cuarteles, depósitos e instalaciones en la retaguardia táctica eludiendo la cobertura de los sistemas antiaéreos de corto alcance en la línea de contacto.",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-14T18:29:19.009Z",
-        "index": 46,
+        "processed_at": "2026-09-14T22:24:43.247Z",
+        "index": 47,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -3269,8 +3350,8 @@
       "texto_original": "Ataque directo a la cúpula de seguridad ucraniana: reportes preliminares indican el impacto de un dron de ataque ruso contra el complejo central del Servicio de Seguridad de Ucrania ( SBU ) en la calle Volodymyrska, en pleno centro de Kiev. El ataque contra este objetivo estratégico y de alto valor institucional —situado en el distrito gubernamental frente a la Catedral de Santa Sofía— refleja una penetración crítica en el anillo defensivo más protegido del país, apuntando directamente a la sede neurálgica de la contrainteligencia y las operaciones especiales ucranianas.",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-14T18:29:19.011Z",
-        "index": 48,
+        "processed_at": "2026-09-14T22:24:43.249Z",
+        "index": 49,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -3319,79 +3400,6 @@
       "final_score": 55.05
     },
     {
-      "id": "58e438ff697d8141",
-      "fuente_id": "guerra_total",
-      "fuente_nombre": "La Guerra Total HCM",
-      "tipo": "telegram",
-      "subtipo": "canal_telegram",
-      "grupo_fuente": "telegram_militar",
-      "nivel_fuente": "telegram",
-      "categoria": "militar",
-      "idioma_original": "es",
-      "prioridad_fuente": 3,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "El Ministerio de Defensa de Rusia reporta el control de Ízhevka (Izhivka) por parte de unidades de la Agrupación de Fuerzas «Sur» en la República Popular de Donetsk. El avance sobre esta localidad refuerza la presión tác",
-      "titulo_original": "El Ministerio de Defensa de Rusia reporta el control de Ízhevka (Izhivka) por parte de unidades de la Agrupación de Fuerzas «Sur» en la República Popular de Donetsk. El avance sobre esta localidad refuerza la presión tác",
-      "enlace": "https://t.me/laguerratotalhcm/300",
-      "fecha": "2026-09-03T23:27:28.000Z",
-      "resumen_corto": "El Ministerio de Defensa de Rusia reporta el control de Ízhevka (Izhivka) por parte de unidades de la Agrupación de Fuerzas «Sur» en la República Popular de Donetsk.",
-      "resumen_largo": "El Ministerio de Defensa de Rusia reporta el control de Ízhevka (Izhivka) por parte de unidades de la Agrupación de Fuerzas «Sur» en la República Popular de Donetsk. El avance sobre esta localidad refuerza la presión táctica sobre el flanco meridional del bastión de Konstantínovka, erosionando las posiciones intermedias ucranianas y comprometiendo las rutas de enlace secundarias en el sector central del frente de Donetsk.",
-      "texto_original": "El Ministerio de Defensa de Rusia reporta el control de Ízhevka (Izhivka) por parte de unidades de la Agrupación de Fuerzas «Sur» en la República Popular de Donetsk. El avance sobre esta localidad refuerza la presión táctica sobre el flanco meridional del bastión de Konstantínovka, erosionando las posiciones intermedias ucranianas y comprometiendo las rutas de enlace secundarias en el sector central del frente de Donetsk.",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-09-14T18:29:19.012Z",
-        "index": 49,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "es",
-        "categoria": "inteligencia_artificial",
-        "categorias_secundarias": [
-          "semiconductores",
-          "vehiculos_energia",
-          "militar"
-        ],
-        "category_scores": {
-          "inteligencia_artificial": 1,
-          "semiconductores": 1,
-          "vehiculos_energia": 1,
-          "militar": 1
-        },
-        "entidades": [],
-        "cifras_detectadas": [],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 60,
-        "relevancia": 57,
-        "confiabilidad_fuente": 45,
-        "readability": {
-          "words": 150,
-          "sentences": 7,
-          "average_words_per_sentence": 21.43
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 55.05
-    },
-    {
       "id": "6b5d5a0c8488ef4d",
       "fuente_id": "resumen_militar",
       "fuente_nombre": "El Resumen Militar",
@@ -3413,8 +3421,8 @@
       "texto_original": "‼️ 🇬🇧 Лидеры Шотландии, Уэльса и Северной Ирландии подписали меморандум о праве на выход из состава Британии — Sky News ▪️ Документ закрепляет позицию регионов о праве на самоопределение и возможное проведение референдумов о независимости. ▪️ В меморандуме также говорится, что Шотландия, Уэльс и Северная Ирландия видят своё будущее в составе Европейского союза. ⚠️ Подписаться на RV: MAX | t.me/RVvoenkor",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-14T18:29:18.982Z",
-        "index": 9,
+        "processed_at": "2026-09-14T22:24:43.221Z",
+        "index": 14,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -3479,8 +3487,8 @@
       "texto_original": "14.09.26 Березнеговатое - Калуга Боевые действия в глубине обороны ВСУ. Заявлено как успешное поражение барражирующим боеприпасом ВС РФ радиолокационной станции ВСУ в районе населённого пункта Калуга в Николаевской области. Удаление от зоны контроля ВС РФ 75 км. 47.37147,32.90782 На карте Источник #ua #add",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-14T18:29:18.985Z",
-        "index": 13,
+        "processed_at": "2026-09-14T22:24:43.225Z",
+        "index": 18,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -3546,8 +3554,8 @@
       "texto_original": "‼️ 🇷🇺 🫡 Враг атаковал Севастополь: сбиты 18 БПЛА, поврежден детский сад ▪️ Военные, ПВО и мобильные огневые группы отразили атаку противника. ▪️ По предварительным данным пострадавших нет, сообщает губернатор Развожаев. ▪️ Спасательной службой Севастополя зафиксировано: ➖ В результате отражения атаки БПЛА на территории образовательного центра «Бухта Казачья» произошло возгорание кровли детского сада «Маяк детства». Пожар был оперативно локализован силами пожарных подразделений Черноморского флота. На момент инцидента все дети находились в укрытии. ▪️ Воспитанники детсада находятся в школе вместе с воспитателями. В детсаду спецслужбы проводят все необходимые мероприятия. ▪️ Также на конечной остановке в Голландии осколками сбитого БПЛА повредило крышу и два окна в автобусе маршрута №46 . Никто не пострадал. ⚠️ Подписаться на RV: MAX | t.me/RVvoenkor",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-14T18:29:18.983Z",
-        "index": 10,
+        "processed_at": "2026-09-14T22:24:43.222Z",
+        "index": 15,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -3610,8 +3618,8 @@
       "texto_original": "⚡️ Обстановка на Запорожском направлении 🔸 Подразделения группировки войск \"Восток\" заняли сады западнее Червоной Криницы, а также установили полный огневой контроль над трассой Орехов-Преображенка-Омельник, тем самым отрезав пути снабжения подразделений ВСУ в городе. 💥 Операторы БпЛА мастерски разбирают укрытия противника в северной части Преображенки, а также ликвидируют военную технику ВСУ в районе заказника \"Выгон Чабанка\". @voin_dv | @voin_dv в MAX",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-14T18:29:18.984Z",
-        "index": 11,
+        "processed_at": "2026-09-14T22:24:43.223Z",
+        "index": 16,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -3653,7 +3661,7 @@
       "final_score": 50.25
     }
   ],
-  "analyzed_at": "2026-09-14T18:29:19.013Z",
+  "analyzed_at": "2026-09-14T22:24:43.249Z",
   "analysis_stats": {
     "input_items": 50,
     "valid_items": 50,
@@ -3667,7 +3675,7 @@
   },
   "validation": {
     "version": "1.1",
-    "executed_at": "2026-09-14T18:29:19.163Z",
+    "executed_at": "2026-09-14T22:24:43.401Z",
     "original_items": 50,
     "rejected_items": 0,
     "final_items": 50,

@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "updated_at": "2026-09-18T13:32:07.875Z",
+  "updated_at": "2026-09-18T17:41:31.337Z",
   "configuracion": {
     "limite_global": 60,
     "frecuencia_minutos": 60,
@@ -22,54 +22,57 @@
   },
   "source_stats": {
     "active_sources": 15,
-    "successful_sources": 14,
-    "collected_items": 57,
-    "deduplicated_items": 45,
-    "final_items": 45
+    "successful_sources": 8,
+    "collected_items": 33,
+    "deduplicated_items": 27,
+    "final_items": 27
   },
   "items": [
     {
-      "id": "87f8b6069061dfcb",
-      "fuente_id": "openai_google",
-      "fuente_nombre": "OpenAI",
+      "id": "11547defd13c6de6",
+      "fuente_id": "bbc_mundo",
+      "fuente_nombre": "BBC Mundo",
       "tipo": "rss_web",
-      "subtipo": "google_news",
-      "grupo_fuente": "openai",
-      "nivel_fuente": "fuente_oficial",
-      "categoria": "inteligencia_artificial",
-      "idioma_original": "en",
+      "subtipo": "medio_generalista",
+      "grupo_fuente": "bbc",
+      "nivel_fuente": "medio_profesional",
+      "categoria": "actualidad",
+      "idioma_original": "es",
       "prioridad_fuente": 5,
       "analizar": true,
       "resumir": true,
-      "titulo": "IA para despachos de abogados: investigación jurídica y flujos de trabajo",
-      "titulo_original": "AI for Law Firms: Legal Research and Workflows - OpenAI",
-      "enlace": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFAzTjREeFlsQ2RUOGJncndYNUpaTzNqM0JWWS12bE1yaG9WMjBrSTRmY3BPeHRSa044TTdORjNzV0NOY0dyTG9kdk9oLUgxVWR1OF9mWFE0NA?oc=5",
-      "fecha": "2026-09-17T17:30:43.000Z",
-      "resumen_corto": "IA para despachos de abogados: investigación jurídica y flujos de trabajo OpenAI",
-      "resumen_largo": "IA para despachos de abogados: investigación jurídica y flujos de trabajo OpenAI",
-      "texto_original": "AI for Law Firms: Legal Research and Workflows OpenAI",
+      "titulo": "Qué muestra el códice Azcatitlan que se exhibe por primera vez en México tras estar casi dos siglos en Francia",
+      "titulo_original": "Qué muestra el códice Azcatitlan que se exhibe por primera vez en México tras estar casi dos siglos en Francia",
+      "enlace": "https://www.bbc.com/mundo/articles/c52e04mxg0pzo?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-09-18T16:41:09.000Z",
+      "resumen_corto": "El Códice Azcatitlan salió de México hace casi dos siglos y por primera vez vuelve al país para ser exhibido ante público en el famoso Museo Nacional de Antropología de la capital.",
+      "resumen_largo": "El Códice Azcatitlan salió de México hace casi dos siglos y por primera vez vuelve al país para ser exhibido ante público en el famoso Museo Nacional de Antropología de la capital. Se trata de uno de los documentos que retratan, primordialmente con pictografías, los hitos del pueblo mexica (también conocido como azteca): su origen en el mítico Aztlán, su peregrinaje hacia la tierra donde fundaron Tenochtitlan (1325), sus gobernantes a lo largo de los siglos y los primeros años de la colonia española. Junto con otros códices de su tipo, es uno de los documentos con los que los historiadores han estudiado el periodo prehispánico de esta y otras culturas originarias de Mesoamérica, que abarca la región centro y sureste de lo que hoy es México.",
+      "texto_original": "El Códice Azcatitlan salió de México hace casi dos siglos y por primera vez vuelve al país para ser exhibido ante público en el famoso Museo Nacional de Antropología de la capital. Se trata de uno de los documentos que retratan, primordialmente con pictografías, los hitos del pueblo mexica (también conocido como azteca): su origen en el mítico Aztlán, su peregrinaje hacia la tierra donde fundaron Tenochtitlan (1325), sus gobernantes a lo largo de los siglos y los primeros años de la colonia española. Junto con otros códices de su tipo, es uno de los documentos con los que los historiadores han estudiado el periodo prehispánico de esta y otras culturas originarias de Mesoamérica, que abarca la región centro y sureste de lo que hoy es México. El Códice Azcatitlan ha estado desde la década de 1840 en Francia, donde a finales del siglo XIX fue entregado a la Biblioteca Nacional de ese país. Su regreso a México llega tras una cumbre celebrada el año pasado entre la presidenta de México, Claudia Sheinbuam, y su homólogo francés, Emmanuel Macron, en la que acordaron un intercambio de códices antiguos para ser exhibidos temporalmente en ambos países. \"Azcatitlan tiene ilustraciones a color que siguen la historia [mexica] hasta la Conquista y los primeros tiempos del periodo colonial\", destacó este jueves la historiadora y secretaria de Cultura federal, Claudia Curiel, al inaugurar la exposición.",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-18T13:32:07.763Z",
-        "index": 24,
+        "processed_at": "2026-09-18T17:41:31.228Z",
+        "index": 1,
         "resumen": {
           "generado": true,
           "origen": "translated"
         },
         "idioma_detectado": "es",
-        "idioma_original": "en",
+        "idioma_original": "es",
         "categoria": "inteligencia_artificial",
         "categorias_secundarias": [
-          "tecnologia"
+          "vehiculos_energia",
+          "actualidad"
         ],
         "category_scores": {
-          "inteligencia_artificial": 3,
-          "tecnologia": 3
+          "inteligencia_artificial": 2,
+          "vehiculos_energia": 1,
+          "actualidad": 1
         },
-        "entidades": [
-          "OpenAI"
+        "entidades": [],
+        "cifras_detectadas": [
+          "1325",
+          "1840"
         ],
-        "cifras_detectadas": [],
         "content_type": "report",
         "clickbait": {
           "detected": false,
@@ -83,12 +86,12 @@
           "url_count": 0
         },
         "calidad": 92,
-        "relevancia": 70,
-        "confiabilidad_fuente": 85,
+        "relevancia": 65,
+        "confiabilidad_fuente": 80,
         "readability": {
-          "words": 39,
-          "sentences": 1,
-          "average_words_per_sentence": 39
+          "words": 311,
+          "sentences": 10,
+          "average_words_per_sentence": 31.1
         },
         "duplicate": {
           "detected": false,
@@ -97,7 +100,7 @@
           "similar_to": null
         }
       },
-      "final_score": 81.45
+      "final_score": 78.2
     },
     {
       "id": "3c2036e5944b3652",
@@ -121,8 +124,8 @@
       "texto_original": "CATL Partners with BME to Advance Battery Pack Manufacturing in Egypt Through Technology Licensing CATL",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-18T13:32:07.767Z",
-        "index": 34,
+        "processed_at": "2026-09-18T17:41:31.237Z",
+        "index": 18,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -176,75 +179,6 @@
       "final_score": 78.15
     },
     {
-      "id": "0600646aca64174e",
-      "fuente_id": "openai_google",
-      "fuente_nombre": "OpenAI",
-      "tipo": "rss_web",
-      "subtipo": "google_news",
-      "grupo_fuente": "openai",
-      "nivel_fuente": "fuente_oficial",
-      "categoria": "inteligencia_artificial",
-      "idioma_original": "en",
-      "prioridad_fuente": 5,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "Usar la biblioteca para administrar archivos en ChatGPT - Centro de ayuda de OpenAI",
-      "titulo_original": "Using Library to manage files in ChatGPT - OpenAI Help Center",
-      "enlace": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNTFdQTUdUT1NJV3VfcWJwOHpBX18xem5ZZjBWT3luSmZnbE9uZ1lPUVN6bElGOTBlNjB4Yml4WGwyeVpZNmxXZUF0YTQ4bEJ1RWxsU3VlUGhHd2xObk45Z0dHV292a21MUHJwc3NaUXU4d3pIMXFyV1JjZjFJMHBDY0pKWS1mT1hxUm1yS01R?oc=5",
-      "fecha": "2026-09-18T01:18:34.000Z",
-      "resumen_corto": "Usar la biblioteca para administrar archivos en ChatGPT Centro de ayuda de OpenAI",
-      "resumen_largo": "Usar la biblioteca para administrar archivos en ChatGPT Centro de ayuda de OpenAI",
-      "texto_original": "Using Library to manage files in ChatGPT OpenAI Help Center",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-09-18T13:32:07.758Z",
-        "index": 12,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "en",
-        "categoria": "inteligencia_artificial",
-        "categorias_secundarias": [],
-        "category_scores": {
-          "inteligencia_artificial": 4
-        },
-        "entidades": [
-          "OpenAI",
-          "ChatGPT"
-        ],
-        "cifras_detectadas": [],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 84,
-        "relevancia": 67,
-        "confiabilidad_fuente": 75,
-        "readability": {
-          "words": 43,
-          "sentences": 1,
-          "average_words_per_sentence": 43
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 74.95
-    },
-    {
       "id": "9fcdb38d705a0e0f",
       "fuente_id": "bbc_mundo",
       "fuente_nombre": "BBC Mundo",
@@ -266,8 +200,8 @@
       "texto_original": "Shakira no es la primera artista en realizar una residencia musical, pero con la que llevará a cabo en Madrid pretende redefinir el concepto. Para los 12 conciertos que la barranquillera ofrecerá a partir de este viernes y hasta el 11 de octubre en el marco de su gira \"Las Mujeres Ya No Lloran World Tour\", se ha levantado una auténtica ciudad al sur de la capital española. En sus 220.000 metros cuadrados, el llamado Macondo Park ofrecerá mucho más que un espacio donde disfrutar de éxitos como \"Hips Don't Lie\", \"Waka Waka\", \"Dai Dai\" o \"Ciega, Sordomuda\". \"Concebida como algo más que un concierto, la residencia transformará el recinto en un destino cultural inmersivo: una ciudad paralela dentro de Madrid donde la música, el arte y la comunidad se unirán\", explicó Live Nation España, la productora que organiza los conciertos. En similares términos se pronunció Stefani Fachini De Araujo, asociada en la firma de arquitectos danesa Bjarke Ingels Group (BIG) y quien participó en el diseño del Macondo Park. \"Es una ciudad efímera, un lugar donde las múltiples expresiones de la cultura latina convergen en torno a la residencia artística de Shakira\", declaró a BBC Mundo.",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-18T13:32:07.755Z",
-        "index": 6,
+        "processed_at": "2026-09-18T17:41:31.235Z",
+        "index": 11,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -341,8 +275,8 @@
       "texto_original": "AMD Notifies Partners of 10% Price Hike As Increased TSMC Wafer Costs Could Squeeze Ryzen CPU Lineup For Q4 2026 Wccftech",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-18T13:32:07.765Z",
-        "index": 29,
+        "processed_at": "2026-09-18T17:41:31.237Z",
+        "index": 16,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -402,83 +336,6 @@
       "final_score": 72.95
     },
     {
-      "id": "f64d8e75d2e62768",
-      "fuente_id": "bbc_mundo",
-      "fuente_nombre": "BBC Mundo",
-      "tipo": "rss_web",
-      "subtipo": "medio_generalista",
-      "grupo_fuente": "bbc",
-      "nivel_fuente": "medio_profesional",
-      "categoria": "actualidad",
-      "idioma_original": "es",
-      "prioridad_fuente": 5,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "\"Los hispanos se sienten traicionados\": el mensaje a Trump de la congresista republicana María Elvira Salazar en plena ola de arrestos y deportaciones",
-      "titulo_original": "\"Los hispanos se sienten traicionados\": el mensaje a Trump de la congresista republicana María Elvira Salazar en plena ola de arrestos y deportaciones",
-      "enlace": "https://www.bbc.com/mundo/articles/c64g7jz9yzvno?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-09-17T20:49:52.000Z",
-      "resumen_corto": "La congresista republicana María Elvira Salazar le dijo este jueves al presidente Donald Trump que sus esfuerzos para hacer cumplir las leyes migratorias en EE.UU.",
-      "resumen_largo": "La congresista republicana María Elvira Salazar le dijo este jueves al presidente Donald Trump que sus esfuerzos para hacer cumplir las leyes migratorias en EE.UU. \"han ido demasiado lejos\". En un mensaje de video, subrayó que los votantes hispanos que contribuyeron a llevar a Trump a la Casa Blanca en 2024 \"se sienten traicionados hoy\".",
-      "texto_original": "La congresista republicana María Elvira Salazar le dijo este jueves al presidente Donald Trump que sus esfuerzos para hacer cumplir las leyes migratorias en EE.UU. \"han ido demasiado lejos\". En un mensaje de video, subrayó que los votantes hispanos que contribuyeron a llevar a Trump a la Casa Blanca en 2024 \"se sienten traicionados hoy\". El video se enmarca en la campaña de las elecciones de medio mandato o midterms del próximo 3 de noviembre, en las que Salazar busca ser reelegida como representante de Florida en la Cámara de Representantes. Sus declaraciones suponen un distanciamiento poco habitual de una legisladora republicana respecto a una de las principales políticas de Trump, a pocas semanas de unos comicios en los que la oposición demócrata aspira a recuperar el control del Congreso. María Elvira Salazar es una figura conservadora y una de las voces republicanas más visibles del sur de Florida, así como una de las más fervientes seguidoras de Donald Trump desde su primer mandato (2017-21). Sin embargo, en los últimos meses ha marcado distancias con las políticas migratorias del gobierno de Trump, que podrían poner en riesgo la mayoría republicana entre los votantes —muchos de ellos de origen latinoamericano— de los distritos que la congresista representa en Miami.",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-09-18T13:32:07.760Z",
-        "index": 16,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "es",
-        "categoria": "actualidad",
-        "categorias_secundarias": [
-          "inteligencia_artificial",
-          "moviles",
-          "vehiculos_energia"
-        ],
-        "category_scores": {
-          "actualidad": 5,
-          "inteligencia_artificial": 2,
-          "moviles": 1,
-          "vehiculos_energia": 1,
-          "militar": 1
-        },
-        "entidades": [],
-        "cifras_detectadas": [
-          "2024",
-          "2017"
-        ],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 84,
-        "relevancia": 65,
-        "confiabilidad_fuente": 70,
-        "readability": {
-          "words": 243,
-          "sentences": 14,
-          "average_words_per_sentence": 17.36
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 72.9
-    },
-    {
       "id": "23d9502e8ccc1132",
       "fuente_id": "techinsights_google",
       "fuente_nombre": "TechInsights",
@@ -500,8 +357,8 @@
       "texto_original": "Memory Technology, Markets & Materials | Fireside Chat TechInsights",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-18T13:32:07.763Z",
-        "index": 22,
+        "processed_at": "2026-09-18T17:41:31.236Z",
+        "index": 15,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -574,8 +431,8 @@
       "texto_original": "2026 Fall CMC Seminar Singapore | Semiconductor Supply Chains TechInsights",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-18T13:32:07.763Z",
-        "index": 21,
+        "processed_at": "2026-09-18T17:41:31.236Z",
+        "index": 14,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -649,8 +506,8 @@
       "texto_original": "CATL Launches TECTRANS II at IAA Transportation 2026 to Accelerate Global Commercial Vehicle Electrification CATL",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-18T13:32:07.768Z",
-        "index": 39,
+        "processed_at": "2026-09-18T17:41:31.238Z",
+        "index": 21,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -701,392 +558,29 @@
       "final_score": 71.9
     },
     {
-      "id": "f6210021aa3a8361",
-      "fuente_id": "openai_google",
-      "fuente_nombre": "OpenAI",
+      "id": "bbe4787ae2708163",
+      "fuente_id": "bbc_mundo",
+      "fuente_nombre": "BBC Mundo",
       "tipo": "rss_web",
-      "subtipo": "google_news",
-      "grupo_fuente": "openai",
-      "nivel_fuente": "fuente_oficial",
-      "categoria": "inteligencia_artificial",
-      "idioma_original": "en",
-      "prioridad_fuente": 5,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "Presentamos Astra para el Derecho",
-      "titulo_original": "Introducing Astra for Law - OpenAI",
-      "enlace": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE02Q2I5Zkx2QXlObXZrY2g3Q0Fxa1c1SXJVT0VfZXdhc1JuOTBOeUJEeWpsdWxocHlUakhpeDRoWFdOejV6TWEzeDZINW5XcUpw?oc=5",
-      "fecha": "2026-09-17T20:15:16.000Z",
-      "resumen_corto": "Presentamos Astra para Law OpenAI",
-      "resumen_largo": "Presentamos Astra para Law OpenAI",
-      "texto_original": "Introducing Astra for Law OpenAI",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-09-18T13:32:07.761Z",
-        "index": 18,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "en",
-        "categoria": "inteligencia_artificial",
-        "categorias_secundarias": [],
-        "category_scores": {
-          "inteligencia_artificial": 2
-        },
-        "entidades": [
-          "OpenAI"
-        ],
-        "cifras_detectadas": [],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 84,
-        "relevancia": 55,
-        "confiabilidad_fuente": 75,
-        "readability": {
-          "words": 24,
-          "sentences": 1,
-          "average_words_per_sentence": 24
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 70.15
-    },
-    {
-      "id": "1ec8e02803b06a0a",
-      "fuente_id": "openai_google",
-      "fuente_nombre": "OpenAI",
-      "tipo": "rss_web",
-      "subtipo": "google_news",
-      "grupo_fuente": "openai",
-      "nivel_fuente": "fuente_oficial",
-      "categoria": "inteligencia_artificial",
-      "idioma_original": "en",
-      "prioridad_fuente": 5,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "Inyecciones rápidas autogeneradas en resúmenes de compactación - Blog de alineación de OpenAI",
-      "titulo_original": "Self-generated prompt injections in compaction summaries - OpenAI Alignment Blog",
-      "enlace": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNVWNYM0dsaXJQSnMwclNmTFVHVmlGUUpIdy13UFRXMl9UREVJNzk5d0tYMDZrMVJVT2JpdGNud3pPT0ZMM3Q2alhibnZRd1VqSzBpMUhsdEdQVnYwM0VWMkpsd3phX1E5QmZJSkZDUnI4d3lmRTA1SWZiOFgwTW9Ea3YxRGR3czl3S1FoVXVDRjhuNWw1RkdkRWJKaHRYblZ1TDZGQWhzZVIxZw?oc=5",
-      "fecha": "2026-09-16T22:50:14.000Z",
-      "resumen_corto": "Inyecciones rápidas autogeneradas en resúmenes de compactación OpenAI Alignment Blog",
-      "resumen_largo": "Inyecciones rápidas autogeneradas en resúmenes de compactación OpenAI Alignment Blog",
-      "texto_original": "Self-generated prompt injections in compaction summaries OpenAI Alignment Blog",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-09-18T13:32:07.767Z",
-        "index": 37,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "en",
-        "categoria": "inteligencia_artificial",
-        "categorias_secundarias": [
-          "vehiculos_energia"
-        ],
-        "category_scores": {
-          "inteligencia_artificial": 2,
-          "vehiculos_energia": 1
-        },
-        "entidades": [
-          "OpenAI"
-        ],
-        "cifras_detectadas": [],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 84,
-        "relevancia": 55,
-        "confiabilidad_fuente": 75,
-        "readability": {
-          "words": 42,
-          "sentences": 1,
-          "average_words_per_sentence": 42
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 70.15
-    },
-    {
-      "id": "33f6f6c48cbec2b1",
-      "fuente_id": "huawei_google",
-      "fuente_nombre": "Huawei Central",
-      "tipo": "rss_web",
-      "subtipo": "google_news",
-      "grupo_fuente": "huawei",
-      "nivel_fuente": "agregador",
-      "categoria": "moviles",
-      "idioma_original": "en",
-      "prioridad_fuente": 4,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "Honor MagicOS 11: tiempo de implementación y dispositivos elegibles",
-      "titulo_original": "Honor MagicOS 11: Rollout Time and Eligible Devices - Huawei Central",
-      "enlace": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQanRLVkRSMmJuNmJVeFFtcXR6TWRUSVVqYU1wcnU3cXQyTUNuTEhIeF82N1kxT3dHNC1mUlZpakQ4V2xiQTlMODRMcUNxZG9CY2NJb2ZSRmxNUnhPM0tWalNfaW1DbjdfMURmeWN5WjdxMTlBUzA0dlBmVGhrdks5NjVGcW44VVM20gGOAUFVX3lxTE5yS3ZmMkY3U3gxQldqZVFpLWZaVm9ucWQ4QV9US1RlWmplQm9oZjh1ZWdGTk9GcXpuSk93RzUtNktTT3BQZWxoR1V1Z0J2d3RYNDRqVkU1Wk5taFh4WTk2eE44dEh4eHEwWlBJQjhkUWMyRDhfMXppVXhfeUdkNjExcnU2cGh6VFUyQ3lVcXc?oc=5",
-      "fecha": "2026-09-17T11:23:12.000Z",
-      "resumen_corto": "Honor MagicOS 11: tiempo de implementación y dispositivos elegibles Huawei Central",
-      "resumen_largo": "Honor MagicOS 11: tiempo de implementación y dispositivos elegibles Huawei Central",
-      "texto_original": "Honor MagicOS 11: Rollout Time and Eligible Devices Huawei Central",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-09-18T13:32:07.765Z",
-        "index": 31,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "en",
-        "categoria": "moviles",
-        "categorias_secundarias": [
-          "tecnologia",
-          "vehiculos_energia"
-        ],
-        "category_scores": {
-          "moviles": 2,
-          "tecnologia": 2,
-          "vehiculos_energia": 1
-        },
-        "entidades": [
-          "Huawei",
-          "Honor"
-        ],
-        "cifras_detectadas": [],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 82,
-        "relevancia": 67,
-        "confiabilidad_fuente": 53,
-        "readability": {
-          "words": 40,
-          "sentences": 1,
-          "average_words_per_sentence": 40
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 68.75
-    },
-    {
-      "id": "804d2dcbca239c50",
-      "fuente_id": "huawei_google",
-      "fuente_nombre": "Huawei Central",
-      "tipo": "rss_web",
-      "subtipo": "google_news",
-      "grupo_fuente": "huawei",
-      "nivel_fuente": "agregador",
-      "categoria": "moviles",
-      "idioma_original": "en",
-      "prioridad_fuente": 4,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "La serie Huawei Mate 90 utilizará las nuevas cámaras principal y con zoom SmartSens LOFIC 3.0",
-      "titulo_original": "Huawei Mate 90 series to use new SmartSens LOFIC 3.0 main and zoom cameras - Huawei Central",
-      "enlace": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9DVzYtaktiNWlENGdoemJJQUxMdXJUVExuSTQ4bEVGekJUS3U3SmdnX3ZtdWxTSkxGS3pCb0RnclJ3SThPcXdCV0NVSGhsRUJ0TkM5b2xsU1l4Z2VpT0JyM29qTUc5QktIZUJid9IBckFVX3lxTFBUeGRxOGY2QXY1bXR5NWZzU09qaVdfUm10TTBnalZhckRIeHFBdHg1UHFYeUxhcDRXdkZ1bHFDdEh3TTFtVWNHeWNwTHVIcjZCbjJPNndwdnU5TEFHam04eEJQeElRc1c5ekhoSWh6OUk5UQ?oc=5",
-      "fecha": "2026-09-17T10:31:46.000Z",
-      "resumen_corto": "La serie Huawei Mate 90 utilizará las nuevas cámaras principales y con zoom SmartSens LOFIC 3.0 Huawei Central",
-      "resumen_largo": "La serie Huawei Mate 90 utilizará las nuevas cámaras principales y con zoom SmartSens LOFIC 3.0 Huawei Central",
-      "texto_original": "Huawei Mate 90 series to use new SmartSens LOFIC 3.0 main and zoom cameras Huawei Central",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-09-18T13:32:07.766Z",
-        "index": 32,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "en",
-        "categoria": "moviles",
-        "categorias_secundarias": [
-          "inteligencia_artificial",
-          "vehiculos_energia"
-        ],
-        "category_scores": {
-          "moviles": 2,
-          "inteligencia_artificial": 1,
-          "vehiculos_energia": 1
-        },
-        "entidades": [
-          "Huawei"
-        ],
-        "cifras_detectadas": [
-          "3.0 m"
-        ],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 87,
-        "relevancia": 62,
-        "confiabilidad_fuente": 53,
-        "readability": {
-          "words": 66,
-          "sentences": 6,
-          "average_words_per_sentence": 11
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 68.5
-    },
-    {
-      "id": "dcd5800cdc7a0307",
-      "fuente_id": "huawei_google",
-      "fuente_nombre": "Huawei Central",
-      "tipo": "rss_web",
-      "subtipo": "google_news",
-      "grupo_fuente": "huawei",
-      "nivel_fuente": "agregador",
-      "categoria": "moviles",
-      "idioma_original": "en",
-      "prioridad_fuente": 4,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "Comienza la venta del Huawei Watch Ultimate 2 Blancanieves y variantes DESCENTE",
-      "titulo_original": "Huawei Watch Ultimate 2 Snow White and DESCENTE variants sale begins - Huawei Central",
-      "enlace": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOU3RMc0pjOVVKcjBXREllM0RhalZndnQ2c1pBZWFMTDhmSVlLMGJwS3NkWXltU2hQdFc4Z3J2dDRhQVo5LTJKSVNveTQxRjc3QVdxRmFMeG10VFRPRVBhMnFtUUJtZDdVNmxmR0x6YU1YMmdjZWpGdHNnOEpDTF8tRC1uSlk4VjM0QmdUbXFVUk15eHR4RFNmMExGMzQteW9Y0gGmAUFVX3lxTE15cVk4WmdrcFhrbjhBTXhkLU1VWXN2QUs5WGZOZHRSblJhejVmS1VkN1dONnZ0bFZYby1sLUdPM3pQcDVkQmpjUHFXV2g1aFdYT0x5eVVROGdocTZ4RGlTSFVYSUwzb2EtdnNGY05wNDN0aTlkQUpLdGNzVXV2Q0hDNGFrQnZxUVNEeEd2bnh0SjZHM2F2aEI0OFFGZjdBOFhEeV9FQ2c?oc=5",
-      "fecha": "2026-09-17T02:49:46.000Z",
-      "resumen_corto": "Comienza la venta del Huawei Watch Ultimate 2 Blancanieves y variantes DESCENTE Huawei Central",
-      "resumen_largo": "Comienza la venta del Huawei Watch Ultimate 2 Blancanieves y variantes DESCENTE Huawei Central",
-      "texto_original": "Huawei Watch Ultimate 2 Snow White and DESCENTE variants sale begins Huawei Central",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-09-18T13:32:07.767Z",
-        "index": 36,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "en",
-        "categoria": "moviles",
-        "categorias_secundarias": [
-          "inteligencia_artificial",
-          "vehiculos_energia"
-        ],
-        "category_scores": {
-          "moviles": 3,
-          "inteligencia_artificial": 1,
-          "vehiculos_energia": 1
-        },
-        "entidades": [
-          "Huawei"
-        ],
-        "cifras_detectadas": [
-          "2 B"
-        ],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 87,
-        "relevancia": 62,
-        "confiabilidad_fuente": 53,
-        "readability": {
-          "words": 55,
-          "sentences": 1,
-          "average_words_per_sentence": 55
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 68.5
-    },
-    {
-      "id": "9eee82d76dbe95c8",
-      "fuente_id": "xataka_google",
-      "fuente_nombre": "Xataka",
-      "tipo": "rss_web",
-      "subtipo": "google_news",
-      "grupo_fuente": "xataka",
-      "nivel_fuente": "medio_especializado",
-      "categoria": "tecnologia",
+      "subtipo": "medio_generalista",
+      "grupo_fuente": "bbc",
+      "nivel_fuente": "medio_profesional",
+      "categoria": "actualidad",
       "idioma_original": "es",
-      "prioridad_fuente": 4,
+      "prioridad_fuente": 5,
       "analizar": true,
       "resumir": true,
-      "titulo": "Carrefour está liquidando esta smart TV QLED de Xiaomi a 149 euros: con Google TV, HDR10+ y compatible con AirPlay",
-      "titulo_original": "Carrefour está liquidando esta smart TV QLED de Xiaomi a 149 euros: con Google TV, HDR10+ y compatible con AirPlay - Xataka",
-      "enlace": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNcXNDOGZmNTVxRWtFM215QWIyVlhwR0ZvQTZmVER1RG51TTlvNGNQZkV6ODJlY0FSQWlrenBMSlBHRC1QQVdHTnRmUTVzUnZCN2R4TjZHWjVyNDNhUGdZcnpZdzR1OG9Qamd4bG5vWVFmcXFRcXpXNGpEbTY1NDVFSlNueVV4LTN0aG5ySjlEMXpFWndqX0dCWnk1anM4bFNRWlN6Z09OQkNCT1RGX1UtT3ZTeURpd3JncmxHeHBQUzJJU2k4RjJ2SE9mTdIB0AFBVV95cUxOQmhQSU9OenlnMXpzUmlfNU9EbEZJZ2k3WGJjV1dOMmpZYkRMVzNvdUNkYVAzVklrdWxBU19MSzl2aHRrZW04amROQ3lPTWQ4Tkdfd0hsMkJYVjlDaGtfb0NXVkYxUE1KTUJVZUUzNTFXZG1zTUl3eFotZ2tzNk1VXy1QTUplSEQyUFJ2TlBhR0hFR3lOQ2xKTktoT0dOcHpkbXQta2lheVhzLTNPS3JnV2JoY1pTZXlfSW52UjBVYU5oLXBXNUU4YjNuVG0xRGgy?oc=5",
-      "fecha": "2026-09-17T13:16:11.000Z",
-      "resumen_corto": "Carrefour está liquidando esta smart TV QLED de Xiaomi a 149 euros: con Google TV, HDR10+ y compatible con AirPlay Xataka",
-      "resumen_largo": "Carrefour está liquidando esta smart TV QLED de Xiaomi a 149 euros: con Google TV, HDR10+ y compatible con AirPlay Xataka",
-      "texto_original": "Carrefour está liquidando esta smart TV QLED de Xiaomi a 149 euros: con Google TV, HDR10+ y compatible con AirPlay Xataka",
+      "titulo": "\"No tengo duda de que lo planeó\": la explicación del miembro del jurado que impidió exculpar a Lindsay Clancy, la madre que mató a sus 3 hijos",
+      "titulo_original": "\"No tengo duda de que lo planeó\": la explicación del miembro del jurado que impidió exculpar a Lindsay Clancy, la madre que mató a sus 3 hijos",
+      "enlace": "https://www.bbc.com/mundo/articles/cv1j4k6w2g7xo?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-09-18T16:28:29.000Z",
+      "resumen_corto": "\"Basándome en todas las pruebas físicas, los testigos clave y lo que presentó la fiscalía, pensé que había pruebas suficientes de que ella sabía exactamente lo que estaba haciendo y que lo planeó\", dijo Michael Desronvil en un comunicado a CBS News, socio estadounidense de la BBC.",
+      "resumen_largo": "El único miembro del jurado que se opuso al veredicto en el juicio de Lindsay Clancy declaró que \"no tenía ninguna duda\" de que ella era penalmente responsable del asesinato de sus tres hijos. \"Basándome en todas las pruebas físicas, los testigos clave y lo que presentó la fiscalía, pensé que había pruebas suficientes de que ella sabía exactamente lo que estaba haciendo y que lo planeó\", dijo Michael Desronvil en un comunicado a CBS News, socio estadounidense de la BBC. El juez declaró nulo el juicio el pasado 4 de septiembre después de que el jurado no lograra llegar a un veredicto unánime tras casi 40 horas de deliberación.",
+      "texto_original": "El único miembro del jurado que se opuso al veredicto en el juicio de Lindsay Clancy declaró que \"no tenía ninguna duda\" de que ella era penalmente responsable del asesinato de sus tres hijos. \"Basándome en todas las pruebas físicas, los testigos clave y lo que presentó la fiscalía, pensé que había pruebas suficientes de que ella sabía exactamente lo que estaba haciendo y que lo planeó\", dijo Michael Desronvil en un comunicado a CBS News, socio estadounidense de la BBC. El juez declaró nulo el juicio el pasado 4 de septiembre después de que el jurado no lograra llegar a un veredicto unánime tras casi 40 horas de deliberación. Clancy admitió los asesinatos, pero sus abogados argumentaron que sufría de psicosis posparto. Clancy, de 36 años, fue acusada de tres delitos de asesinato en primer grado tras estrangular a Cora, de cinco años, Dawson, de tres, y Callan, de ocho meses, en su casa familiar de Massachusetts, antes de saltar por la ventana del segundo piso. Para que Clancy fuera declarada culpable, el jurado tenía que estar convencido unánimemente, más allá de toda duda razonable, de que ella mató intencionadamente a sus hijos y de que no lo hizo como consecuencia de una afección rara y grave, conocida como psicosis posparto.",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-18T13:32:07.764Z",
-        "index": 27,
+        "processed_at": "2026-09-18T17:41:31.229Z",
+        "index": 2,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -1095,20 +589,18 @@
         "idioma_original": "es",
         "categoria": "inteligencia_artificial",
         "categorias_secundarias": [
-          "moviles",
-          "hardware",
-          "vehiculos_energia"
+          "semiconductores",
+          "militar",
+          "actualidad"
         ],
         "category_scores": {
-          "inteligencia_artificial": 2,
-          "moviles": 1,
-          "hardware": 1,
-          "vehiculos_energia": 1
+          "inteligencia_artificial": 1,
+          "semiconductores": 1,
+          "militar": 1,
+          "actualidad": 1
         },
         "entidades": [
-          "Xiaomi",
-          "Google",
-          "Xataka"
+          "BBC"
         ],
         "cifras_detectadas": [],
         "content_type": "news",
@@ -1123,13 +615,13 @@
           "signals": [],
           "url_count": 0
         },
-        "calidad": 82,
-        "relevancia": 67,
-        "confiabilidad_fuente": 50,
+        "calidad": 84,
+        "relevancia": 62,
+        "confiabilidad_fuente": 70,
         "readability": {
-          "words": 79,
-          "sentences": 1,
-          "average_words_per_sentence": 79
+          "words": 300,
+          "sentences": 10,
+          "average_words_per_sentence": 30
         },
         "duplicate": {
           "detected": false,
@@ -1138,10 +630,10 @@
           "similar_to": null
         }
       },
-      "final_score": 68
+      "final_score": 71.7
     },
     {
-      "id": "8a9a2dc42f799ce2",
+      "id": "037eaa5fa4650c57",
       "fuente_id": "wccftech_google",
       "fuente_nombre": "Wccftech",
       "tipo": "rss_web",
@@ -1153,17 +645,17 @@
       "prioridad_fuente": 4,
       "analizar": true,
       "resumir": true,
-      "titulo": "El CEO de Intel, Lip-Bu Tan, reafirma el cronograma de producción en volumen de Intel 14A a medida que la densidad de defectos del nodo se acerca al objetivo",
-      "titulo_original": "Intel CEO Lip-Bu Tan Reaffirms Intel 14A Volume Production Timeline as Node’s Defect Density Races Toward Target - Wccftech",
-      "enlace": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOZkFhUFhMZ2RvZUtBWkMzSTllanZMTXR1aktnblY5aGJDRmt4MjliS0FXYkNGdC1zZFFfekg0UkJ2NHUxdXpidWg4SVlyTDcycDliNlJBSmYzTy1aSkZIOHp5QW03c2VrejBzUVYwLU1xWXJlZE9vSkd5VFliQnl2eHFEWWlERUVrb3UxMmc1WFI3V0loZmd6dVpDNFpGVXVCajltUnc2R1Fza2R3RElGM1lWamI3SzQ2UXNRV0JTMUs0dGpCNUliQVlheW5hX0pSd3lFTU1vb1XSAd4BQVVfeXFMT0F1Z1JTLVdlU0NEX0YtVDl2RWM3eDdaNk9MM3luZkNFZktwUjBHalVvSmNtX2V2eXk4WGNQc2tOOGtnZGJzUl9ZODR2d3A3V0NJU05qTGJUekxvZWUzTjdPeTlKMUpwRjg4UElfSHVWODFBREh0ZGZSb3dnLTlKRnhQdTVBeFVkdkdnTzlWa0gteTA3STVySTAxSUl3U1BFOGdva25EVUdaUzNhUjNDYkN0WHhjMzVvd0ZmLXRmQ0M0SzhCZUp2YXJNdXFSOFVqN0hCMFNMNXdpdnNvWjhR?oc=5",
-      "fecha": "2026-09-16T19:43:10.000Z",
-      "resumen_corto": "El CEO de Intel, Lip-Bu Tan, reafirma el cronograma de producción en volumen de Intel 14A a medida que la densidad de defectos del nodo avanza hacia el objetivo Wccftech",
-      "resumen_largo": "El CEO de Intel, Lip-Bu Tan, reafirma el cronograma de producción en volumen de Intel 14A a medida que la densidad de defectos del nodo avanza hacia el objetivo Wccftech",
-      "texto_original": "Intel CEO Lip-Bu Tan Reaffirms Intel 14A Volume Production Timeline as Node’s Defect Density Races Toward Target Wccftech",
+      "titulo": "Dark Souls 3 de FromSoftware da un salto de próxima generación con Path Tracing y NVIDIA DLSS 5, mientras un nuevo vídeo muestra imágenes de nivel de remake",
+      "titulo_original": "FromSoftware’s Dark Souls 3 Gets Next-Gen Leap With Path Tracing and NVIDIA DLSS 5, As New Video Showcases Remake-Level Visuals - Wccftech",
+      "enlace": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNcFBHaERlWlh3RzhraDJKOTdrLUNkN090N1hKZ1VqcXBNVmZtSzhPNU1xZkVSRWdMd1RDNkFsVk52SnNJaHdHZXBkSTNOd1JhbGtYYzV3SmF2U3VRWjc4S1NrRmZZNDdhVzloT0FmT3QwVmZzeTNPQjhmMWdUMEhfZU4zRW45aE1zd2xneNIBkgFBVV95cUxPdVBmMHh0MUpZazlHallkZGN0NnJ5MGlpU21HcmUzMjRxb0ZrX1NYYmJEUTQ5bGZUUjctT1FSOTJyYkF5bjJZVzk5QmNubkxNcGxiMWs5TFZXRG83UHRMWlVhbXdqaEFBLXk1TFZTZVlHbjNDNzc3NW9mcmM3T1dIdC02cGdPUDR4RWdWcXRjZ3dIUQ?oc=5",
+      "fecha": "2026-09-18T14:45:30.000Z",
+      "resumen_corto": "Dark Souls 3 de FromSoftware da un salto de próxima generación con Path Tracing y NVIDIA DLSS 5, mientras un nuevo video muestra imágenes de nivel de remake Wccftech",
+      "resumen_largo": "Dark Souls 3 de FromSoftware da un salto de próxima generación con Path Tracing y NVIDIA DLSS 5, mientras un nuevo video muestra imágenes de nivel de remake Wccftech",
+      "texto_original": "FromSoftware’s Dark Souls 3 Gets Next-Gen Leap With Path Tracing and NVIDIA DLSS 5, As New Video Showcases Remake-Level Visuals Wccftech",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-18T13:32:07.768Z",
-        "index": 38,
+        "processed_at": "2026-09-18T17:41:31.230Z",
+        "index": 3,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -1172,18 +664,19 @@
         "idioma_original": "en",
         "categoria": "inteligencia_artificial",
         "categorias_secundarias": [
-          "hardware",
-          "militar",
-          "tecnologia"
+          "vehiculos_energia",
+          "software_internet",
+          "militar"
         ],
         "category_scores": {
           "inteligencia_artificial": 1,
-          "hardware": 1,
+          "vehiculos_energia": 1,
+          "software_internet": 1,
           "militar": 1,
           "tecnologia": 1
         },
         "entidades": [
-          "Intel",
+          "NVIDIA",
           "Wccftech"
         ],
         "cifras_detectadas": [],
@@ -1203,9 +696,9 @@
         "relevancia": 67,
         "confiabilidad_fuente": 50,
         "readability": {
-          "words": 92,
+          "words": 96,
           "sentences": 1,
-          "average_words_per_sentence": 92
+          "average_words_per_sentence": 96
         },
         "duplicate": {
           "detected": false,
@@ -1217,7 +710,7 @@
       "final_score": 68
     },
     {
-      "id": "87fed3cf12eef5eb",
+      "id": "eb930545a1d30cb4",
       "fuente_id": "bbc_mundo",
       "fuente_nombre": "BBC Mundo",
       "tipo": "rss_web",
@@ -1229,33 +722,31 @@
       "prioridad_fuente": 5,
       "analizar": true,
       "resumir": true,
-      "titulo": "Por qué mancharte las manos con tierra tiene beneficios para tu salud",
-      "titulo_original": "Por qué mancharte las manos con tierra tiene beneficios para tu salud",
-      "enlace": "https://www.bbc.com/mundo/articles/c9dr7emvd5ejo?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-09-18T09:48:57.000Z",
-      "resumen_corto": "El contacto directo con la tierra, la hierba, los árboles o el musgo aporta numerosos beneficios para la salud, tanto para nuestra piel como para el sistema inmunitario en general.",
-      "resumen_largo": "El contacto directo con la tierra, la hierba, los árboles o el musgo aporta numerosos beneficios para la salud, tanto para nuestra piel como para el sistema inmunitario en general. Todos los días, casi religiosamente, doy un largo paseo por el parque más cercano a mi casa. Allí puedo contemplar una gran variedad de especies de árboles y disfrutar de flores fragantes que cambian constantemente con la primavera, todo ello acompañado por el alegre canto de los pájaros.",
-      "texto_original": "El contacto directo con la tierra, la hierba, los árboles o el musgo aporta numerosos beneficios para la salud, tanto para nuestra piel como para el sistema inmunitario en general. Todos los días, casi religiosamente, doy un largo paseo por el parque más cercano a mi casa. Allí puedo contemplar una gran variedad de especies de árboles y disfrutar de flores fragantes que cambian constantemente con la primavera, todo ello acompañado por el alegre canto de los pájaros. La experiencia sensorial suele limitarse a eso: por más que se me ensucien los zapatos, casi siempre vuelvo a casa con las manos limpias. Sin embargo, las investigaciones sugieren que tocar los árboles, los arbustos y la tierra por los que paso habitualmente tiene ventajas importantes. Mira Grönroos, ecóloga e investigadora sobre la relación entre naturaleza y salud en el Instituto Finlandés de Medio Ambiente, pidió a varios participantes que se frotaran las manos con tierra, turba y musgo durante 20 segundos como parte de un experimento.",
+      "titulo": "\"Descubrí que tenía una enfermedad rara gracias a una cita de Tinder\"",
+      "titulo_original": "\"Descubrí que tenía una enfermedad rara gracias a una cita de Tinder\"",
+      "enlace": "https://www.bbc.com/mundo/articles/cw4gq8qy138vo?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-09-18T14:29:56.000Z",
+      "resumen_corto": "Cuando la comunicadora Maria Paula Vieira decidió meterse en Tinder poco antes de la pandemia de covid-19, buscaba, como tantas otras personas, conocer a alguien interesante en la aplicación de citas.",
+      "resumen_largo": "Cuando la comunicadora Maria Paula Vieira decidió meterse en Tinder poco antes de la pandemia de covid-19, buscaba, como tantas otras personas, conocer a alguien interesante en la aplicación de citas. Entre los muchos perfiles que vio estaba el de Lucas, en aquel momento estudiante de Medicina. Hicieron match y empezaron a intercambiar mensajes.",
+      "texto_original": "Cuando la comunicadora Maria Paula Vieira decidió meterse en Tinder poco antes de la pandemia de covid-19, buscaba, como tantas otras personas, conocer a alguien interesante en la aplicación de citas. Entre los muchos perfiles que vio estaba el de Lucas, en aquel momento estudiante de Medicina. Hicieron match y empezaron a intercambiar mensajes. \"Fue tan fácil conversar con él que nos hicimos amigos\", afirma Maria Paula, quien hoy tiene 33 años. El aislamiento durante la pandemia hizo que hablaran cada vez más. Hasta que un día, Maria decidió contarle que tenía una discapacidad causada por problemas de salud para los que llevaba casi 30 años buscando un diagnóstico. Maria le contó que sufría dolores crónicos desde la infancia y que llevaba años pasando por médicos y hospitales en busca de una respuesta. \"Por las afinidades que teníamos, tuve muchas ganas de saber más sobre aquello\", cuenta por su parte Lucas, de 32 años.",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-18T13:32:07.756Z",
-        "index": 7,
+        "processed_at": "2026-09-18T17:41:31.231Z",
+        "index": 4,
         "resumen": {
           "generado": true,
           "origen": "translated"
         },
         "idioma_detectado": "es",
         "idioma_original": "es",
-        "categoria": "tecnologia",
+        "categoria": "inteligencia_artificial",
         "categorias_secundarias": [
-          "inteligencia_artificial",
-          "moviles",
+          "software_internet",
           "vehiculos_energia"
         ],
         "category_scores": {
-          "tecnologia": 2,
-          "inteligencia_artificial": 1,
-          "moviles": 1,
+          "inteligencia_artificial": 2,
+          "software_internet": 2,
           "vehiculos_energia": 1
         },
         "entidades": [],
@@ -1276,9 +767,9 @@
         "relevancia": 57,
         "confiabilidad_fuente": 70,
         "readability": {
-          "words": 230,
-          "sentences": 10,
-          "average_words_per_sentence": 23
+          "words": 202,
+          "sentences": 12,
+          "average_words_per_sentence": 16.83
         },
         "duplicate": {
           "detected": false,
@@ -1311,8 +802,8 @@
       "texto_original": "El peso colombiano se ha caracterizado históricamente más por su devaluación que apreciación. Ahora acumula una racha al alza poco habitual.",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-18T13:32:07.752Z",
-        "index": 3,
+        "processed_at": "2026-09-18T17:41:31.234Z",
+        "index": 10,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -1361,150 +852,6 @@
       "final_score": 66.9
     },
     {
-      "id": "5f28d271f0df692d",
-      "fuente_id": "huawei_google",
-      "fuente_nombre": "Huawei Central",
-      "tipo": "rss_web",
-      "subtipo": "google_news",
-      "grupo_fuente": "huawei",
-      "nivel_fuente": "agregador",
-      "categoria": "moviles",
-      "idioma_original": "en",
-      "prioridad_fuente": 4,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "La IA china aún no ha avanzado lo suficiente como para hacer frente a los riesgos de seguridad, dice Huawei",
-      "titulo_original": "Chinese AI not advanced enough yet to deal with safety risks, says Huawei - Huawei Central",
-      "enlace": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNNl9XVXQ0ZUZJSU9mTWhLaFZLam9pUHRXZzE5dlZlTF9UeExDa2ZGaGNpTVVuOTkxek9XUk5GZkR4cWNMMDUzN1ZUVndzMDI2WVJaZ1lSRVVPV1RFQUVJVXBiMExDU21uejhaczd1LTZyUUJWbV8tNlFfMThVekNEcndEUlJoZHVUZEYxSFMwVGtOSS02ZlA3LW1abmY1bHFMTGdOcjJB0gGrAUFVX3lxTFBxbmVZWktrRWxxSUlpdXlCREZVYTdFRDRTdGc0LXAwVld5bWY5Tk9ibWJScWNPUUtWWHpEZ1hzdnkzZndMaF85RHUxR2E4S3VqTDMzYTA5TmZjeFgzTHpaWEpoZTFiNE1va2tNcl9VYmFHTk02RGFhUi1QQW4wN19QdkY5UEZsUGFZS2tFX21qb0xIRDFtS0ZsSVJwbHZoZ2tST0pDY3d2TmNEZw?oc=5",
-      "fecha": "2026-09-17T11:48:12.000Z",
-      "resumen_corto": "La IA china aún no ha avanzado lo suficiente como para hacer frente a los riesgos de seguridad, dice Huawei Huawei Central",
-      "resumen_largo": "La IA china aún no ha avanzado lo suficiente como para hacer frente a los riesgos de seguridad, dice Huawei Huawei Central",
-      "texto_original": "Chinese AI not advanced enough yet to deal with safety risks, says Huawei Huawei Central",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-09-18T13:32:07.765Z",
-        "index": 30,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "en",
-        "categoria": "inteligencia_artificial",
-        "categorias_secundarias": [
-          "moviles",
-          "software_internet"
-        ],
-        "category_scores": {
-          "inteligencia_artificial": 2,
-          "moviles": 1,
-          "software_internet": 1
-        },
-        "entidades": [
-          "Huawei"
-        ],
-        "cifras_detectadas": [],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 82,
-        "relevancia": 62,
-        "confiabilidad_fuente": 53,
-        "readability": {
-          "words": 69,
-          "sentences": 1,
-          "average_words_per_sentence": 69
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 66.75
-    },
-    {
-      "id": "fe2e37c9654ebc18",
-      "fuente_id": "google_news_es",
-      "fuente_nombre": "Google News ES",
-      "tipo": "rss_web",
-      "subtipo": "google_news",
-      "grupo_fuente": "google_news",
-      "nivel_fuente": "agregador",
-      "categoria": "tecnologia",
-      "idioma_original": "es",
-      "prioridad_fuente": 3,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "OpenAI revela otros seis incidentes con agentes de IA descontrolados - EL PAÍS",
-      "titulo_original": "OpenAI revela otros seis incidentes con agentes de IA descontrolados - EL PAÍS",
-      "enlace": "https://news.google.com/rss/articles/CBMitAFBVV95cUxORW9UM0hjeV84Q1pkd1BVUXM4ZzRSN3AwelNpNnlTcm1aSGtjbjdzeEc3dHQweWpPV0VPbHFKMkN2YnVncnZyVl9oLWczTmphZ044WmFsMHQ3SkNLbUNhSXB3Yk5Rd0RyY2xSTVZyNFk4bGE3dTZOZU1ycGc1YVI1a0ZJd0tmcWVraWtkdGFBeFREWS1fNWh1ZWd1ekwwRk9WMGZ1Qk9ielBuODJ2ajFTMGJTenrSAcgBQVVfeXFMTmRVN3FuaVJBZzVfS1VjNkJrd2dwcTdrak11OWRWZW01WEVLUkJyRm5BelZkXzh1eHZRdGhPelo5RWRudkJULTItMGVQSFpKWHZ3aU5KRFpwc1JENDI0Z19UNk53UnlPUnl2ckljZmdwWWNDaWxXVElTLW1BUUxTOGNySVJNX01SOVdtdzVKaFU4cGxFWGp4Sk9jYTF2SGd0NGZGUDU0V3d1YUhpUTBia3FBSHJDZnRHcGZZLWZaNEhSUUlvdTRKZUc?oc=5",
-      "fecha": "2026-09-17T06:32:03.000Z",
-      "resumen_corto": "OpenAI revela otros seis incidentes con agentes de IA descontrolados EL PAÍS",
-      "resumen_largo": "OpenAI revela otros seis incidentes con agentes de IA descontrolados EL PAÍS",
-      "texto_original": "OpenAI revela otros seis incidentes con agentes de IA descontrolados EL PAÍS",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-09-18T13:32:07.767Z",
-        "index": 35,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "es",
-        "categoria": "inteligencia_artificial",
-        "categorias_secundarias": [
-          "vehiculos_energia"
-        ],
-        "category_scores": {
-          "inteligencia_artificial": 3,
-          "vehiculos_energia": 1
-        },
-        "entidades": [
-          "OpenAI"
-        ],
-        "cifras_detectadas": [],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 80,
-        "relevancia": 62,
-        "confiabilidad_fuente": 53,
-        "readability": {
-          "words": 45,
-          "sentences": 1,
-          "average_words_per_sentence": 45
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 66.05
-    },
-    {
       "id": "9982ae8abafbd76f",
       "fuente_id": "wccftech_google",
       "fuente_nombre": "Wccftech",
@@ -1526,8 +873,8 @@
       "texto_original": "Sony’s Project Canis PS6 Handheld Leaks Unveil 540p Base Rendering, Yet PSSR 3.0 Nearly Matches PS5 Pro Power Wccftech",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-18T13:32:07.766Z",
-        "index": 33,
+        "processed_at": "2026-09-18T17:41:31.237Z",
+        "index": 17,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -1601,8 +948,8 @@
       "texto_original": "iPhone 18 Pro Max Vapor Chamber Cooling Said To Match That Of Android Gaming Smartphones, New Test Shows Devices With Dedicated Cooling Fans Also Run Hotter Wccftech",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-18T13:32:07.759Z",
-        "index": 14,
+        "processed_at": "2026-09-18T17:41:31.236Z",
+        "index": 13,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -1657,227 +1004,6 @@
       "final_score": 65.95
     },
     {
-      "id": "435d8f9c87035163",
-      "fuente_id": "google_news_es",
-      "fuente_nombre": "Google News ES",
-      "tipo": "rss_web",
-      "subtipo": "google_news",
-      "grupo_fuente": "google_news",
-      "nivel_fuente": "agregador",
-      "categoria": "tecnologia",
-      "idioma_original": "es",
-      "prioridad_fuente": 3,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "3.000 hectáreas de suelo industrial para atraer inversiones: la apuesta de Navarra para fabricar baterías, hidrógeno verde y tecnología renovable - Diario de Navarra",
-      "titulo_original": "3.000 hectáreas de suelo industrial para atraer inversiones: la apuesta de Navarra para fabricar baterías, hidrógeno verde y tecnología renovable - Diario de Navarra",
-      "enlace": "https://news.google.com/rss/articles/CBMitgJBVV95cUxNR3FMQW5TeE5DTm9VazBWU3lGaXZPeVlKWVZ2WlRJZU9aYm4zeDk0V3paMVk1cm43TEhZWXJCYTNJQmZwUXN6OERlemJZeXdSenhtSER6NWlSN3ozTnhVUW44dDZRYTN6T0ViTlFueHhLajE5SmMtZ1BSaU8wZU5UalBfdUlxUFZTcW9MTy1NRVBFY1dETU82WldEeXVZNzRTajJIOVJhcjNBZUw5UE5TbVl2a2pJUVFwcmZod1BrVGNaWV82Q24ySEhnVGh5UWNvY0NfeGRhMlhkZzMyYTI0b0loaXZRWmZaMjA0MkhNQTVfWnNoLWptZ1VDdE1tUnNsellxUzhtb0g4OFRIeTNwLWJQYkRVUzE4WDZoRWhfYXpOYTcyLW5zbUktMHVqVnlkNVNNanZR?oc=5",
-      "fecha": "2026-09-18T10:44:14.000Z",
-      "resumen_corto": "3.000 hectáreas de suelo industrial para atraer inversiones: la apuesta de Navarra para fabricar baterías, hidrógeno verde y tecnología renovable Diario de Navarra",
-      "resumen_largo": "3.000 hectáreas de suelo industrial para atraer inversiones: la apuesta de Navarra para fabricar baterías, hidrógeno verde y tecnología renovable Diario de Navarra",
-      "texto_original": "3.000 hectáreas de suelo industrial para atraer inversiones: la apuesta de Navarra para fabricar baterías, hidrógeno verde y tecnología renovable Diario de Navarra",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-09-18T13:32:07.752Z",
-        "index": 4,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "es",
-        "categoria": "baterias_energia",
-        "categorias_secundarias": [
-          "tecnologia",
-          "inteligencia_artificial",
-          "semiconductores"
-        ],
-        "category_scores": {
-          "baterias_energia": 3,
-          "tecnologia": 2,
-          "inteligencia_artificial": 1,
-          "semiconductores": 1,
-          "vehiculos_energia": 1
-        },
-        "entidades": [],
-        "cifras_detectadas": [],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 30,
-          "signals": [
-            "\\bapuesta\\b"
-          ],
-          "url_count": 0
-        },
-        "calidad": 75,
-        "relevancia": 65,
-        "confiabilidad_fuente": 53,
-        "readability": {
-          "words": 90,
-          "sentences": 6,
-          "average_words_per_sentence": 15
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 65.5
-    },
-    {
-      "id": "5d1c5da5121674d6",
-      "fuente_id": "resumen_militar",
-      "fuente_nombre": "El Resumen Militar",
-      "tipo": "telegram",
-      "subtipo": "canal_telegram",
-      "grupo_fuente": "telegram_militar",
-      "nivel_fuente": "telegram",
-      "categoria": "militar",
-      "idioma_original": "es",
-      "prioridad_fuente": 3,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "🇷🇺 Russian forces strike De Novo data center in Kiev Following attacks on BeMobile and Kyivstar, the De Novo facility was targeted. This center hosts critical banking, government, and infrastructure data on a VMware Ia",
-      "titulo_original": "🇷🇺 Russian forces strike De Novo data center in Kiev Following attacks on BeMobile and Kyivstar, the De Novo facility was targeted. This center hosts critical banking, government, and infrastructure data on a VMware Ia",
-      "enlace": "https://t.me/elresumenmilitar/99685",
-      "fecha": "2026-09-17T23:07:44.000Z",
-      "resumen_corto": "🇷🇺 Russian forces strike De Novo data center in Kiev Following attacks on BeMobile and Kyivstar, the De Novo facility was targeted.",
-      "resumen_largo": "🇷🇺 Russian forces strike De Novo data center in Kiev Following attacks on BeMobile and Kyivstar, the De Novo facility was targeted. This center hosts critical banking, government, and infrastructure data on a VMware IaaS stack. While damage extent is unknown, such strikes degrade state registries and financial processing.",
-      "texto_original": "🇷🇺 Russian forces strike De Novo data center in Kiev Following attacks on BeMobile and Kyivstar, the De Novo facility was targeted. This center hosts critical banking, government, and infrastructure data on a VMware IaaS stack. While damage extent is unknown, such strikes degrade state registries and financial processing. However, since 2022, Ukrainian law permits migrating critical databases to EU/US clouds (AWS, Azure), and De Novo maintains backup servers in Poland. @Slavyangrad",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-09-18T13:32:07.758Z",
-        "index": 13,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "en",
-        "idioma_original": "es",
-        "categoria": "inteligencia_artificial",
-        "categorias_secundarias": [
-          "software_internet",
-          "vehiculos_energia",
-          "militar"
-        ],
-        "category_scores": {
-          "inteligencia_artificial": 2,
-          "software_internet": 2,
-          "vehiculos_energia": 1,
-          "militar": 1,
-          "actualidad": 1
-        },
-        "entidades": [],
-        "cifras_detectadas": [
-          "2022"
-        ],
-        "content_type": "report",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 73,
-        "relevancia": 65,
-        "confiabilidad_fuente": 55,
-        "readability": {
-          "words": 172,
-          "sentences": 11,
-          "average_words_per_sentence": 15.64
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 65.3
-    },
-    {
-      "id": "7ceb3a7fa6914580",
-      "fuente_id": "bbc_mundo",
-      "fuente_nombre": "BBC Mundo",
-      "tipo": "rss_web",
-      "subtipo": "medio_generalista",
-      "grupo_fuente": "bbc",
-      "nivel_fuente": "medio_profesional",
-      "categoria": "actualidad",
-      "idioma_original": "es",
-      "prioridad_fuente": 5,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "Por qué a Putin le importan las elecciones legislativas en Rusia, pese a que no habrá sorpresas",
-      "titulo_original": "Por qué a Putin le importan las elecciones legislativas en Rusia, pese a que no habrá sorpresas",
-      "enlace": "https://www.bbc.com/mundo/articles/cqgl75nenp3no?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-09-18T02:05:34.000Z",
-      "resumen_corto": "Las elecciones de este fin de semana prometen volver a dejar un Parlamento controlado por Rusia Unida, el partido gobernante, y compuesto por legisladores muy leales a Vladimir Putin.",
-      "resumen_largo": "El sistema de poder en Rusia suele denominarse \"democracia controlada\" (donde el Kremlin es quien dirige). Las elecciones de este fin de semana prometen volver a dejar un Parlamento controlado por Rusia Unida, el partido gobernante, y compuesto por legisladores muy leales a Vladimir Putin. \"Tenemos nuestro propio sistema político, nuestro propio proceso político\", explicó recientemente el portavoz del Kremlin, Dmitry Peskov.",
-      "texto_original": "El sistema de poder en Rusia suele denominarse \"democracia controlada\" (donde el Kremlin es quien dirige). Las elecciones de este fin de semana prometen volver a dejar un Parlamento controlado por Rusia Unida, el partido gobernante, y compuesto por legisladores muy leales a Vladimir Putin. \"Tenemos nuestro propio sistema político, nuestro propio proceso político\", explicó recientemente el portavoz del Kremlin, Dmitry Peskov. Eso significa que no habrá sorpresas para el Kremlin. Ningún imprevisto. Entonces, ¿no hay nada que contar? Para el Kremlin, la elección de 450 diputados a la Duma, la cámara baja del Parlamento, es importante. Se trata de las primeras elecciones parlamentarias que se celebran aquí desde la invasión a gran escala de Ucrania por parte de Rusia.",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-09-18T13:32:07.757Z",
-        "index": 11,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "es",
-        "categoria": "inteligencia_artificial",
-        "categorias_secundarias": [
-          "vehiculos_energia"
-        ],
-        "category_scores": {
-          "inteligencia_artificial": 1,
-          "vehiculos_energia": 1
-        },
-        "entidades": [],
-        "cifras_detectadas": [],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 79,
-        "relevancia": 50,
-        "confiabilidad_fuente": 70,
-        "readability": {
-          "words": 185,
-          "sentences": 12,
-          "average_words_per_sentence": 15.42
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 65.15
-    },
-    {
       "id": "4e224b2ff543780b",
       "fuente_id": "guerra_total",
       "fuente_nombre": "La Guerra Total HCM",
@@ -1899,8 +1025,8 @@
       "texto_original": "Zelenski rechaza ceder el Donbás a cambio de la paz. Tras conversaciones con los enviados estadounidenses Steve Witkoff y Jared Kushner, Kiev declaró que no está dispuesta a entregar el Donbás. Zelenski calificó el asunto como \"la cuestión central de toda la guerra\", insistiendo en que, sin posiciones sólidas de las Fuerzas Armadas de Ucrania, Rusia solo impondrá ultimátums. EE. UU. planea aumentar la producción de sistemas Patriot. Estados Unidos tiene la intención de incrementar la fabricación de misiles para los sistemas Patriot el próximo año. Kushner informó de que el presidente Trump ordenó la preparación de documentos para establecer la paz, manifestando su esperanza de retomar negociaciones trilaterales (Rusia-EE. UU.-Ucrania). Zelenski sostiene que las fuerzas ucranianas se han reforzado en el este y prevé una nueva movilización rusa tras los comicios. No lo sé Rick...",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-18T13:32:07.771Z",
-        "index": 42,
+        "processed_at": "2026-09-18T17:41:31.240Z",
+        "index": 24,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -1953,282 +1079,7 @@
       "final_score": 63.55
     },
     {
-      "id": "d0b6ff4b1cafdc8e",
-      "fuente_id": "google_news_es",
-      "fuente_nombre": "Google News ES",
-      "tipo": "rss_web",
-      "subtipo": "google_news",
-      "grupo_fuente": "google_news",
-      "nivel_fuente": "agregador",
-      "categoria": "tecnologia",
-      "idioma_original": "es",
-      "prioridad_fuente": 3,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "Estos son los mejores chollos de Amazon en tecnología que hemos encontrado hoy, 18 de septiembre - Xataka",
-      "titulo_original": "Estos son los mejores chollos de Amazon en tecnología que hemos encontrado hoy, 18 de septiembre - Xataka",
-      "enlace": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPUElhM0t6SG95T3pkNVNmVEU0WXZiekQwd041ZnhfVGRJRkxXZW8tTzRfdUplbjZOaUx5T1RvMnBBN2hYenJkZVVNUFkxT1publNMWjJ2bXdJVGh5b1lPRi1KRElOVy13eTRIRi0wZjlsSTR1TTFyRjhaQ3JJaGpHSEJMTVpzdEhpSnFEOFEwN0I1bFBUZXFWUXF1TVl4NDZJY2xnVERJMUViSnA5WG13WNIBtgFBVV95cUxNY0l2N0dSU3FseGYzWnBSTjJtdV9HcXE3ZWxYbDZKTlRqY1dlb2FKdUhKZW1iNjhtOFhScjFaMzd6S21pMVBKNHN3QmtWa2FDRUhqLVprdUp0Nm1DSGdNR0hXTTZ6TDRJMVdXSnp5RnR2UzYyMGl4VUdnMU81amR2VnlBSjZsUTRjTzNVUjNNN1czN3NreEk2RkV3Ym52SExlMXBVQmVDYmhSeDFKTmo2WjRLSFFwdw?oc=5",
-      "fecha": "2026-09-18T13:20:11.000Z",
-      "resumen_corto": "Estos son los mejores chollos de Amazon en tecnología que hemos encontrado hoy, 18 de septiembre Xataka",
-      "resumen_largo": "Estos son los mejores chollos de Amazon en tecnología que hemos encontrado hoy, 18 de septiembre Xataka",
-      "texto_original": "Estos son los mejores chollos de Amazon en tecnología que hemos encontrado hoy, 18 de septiembre Xataka",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-09-18T13:32:07.748Z",
-        "index": 0,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "es",
-        "categoria": "tecnologia",
-        "categorias_secundarias": [
-          "inteligencia_artificial"
-        ],
-        "category_scores": {
-          "tecnologia": 2,
-          "inteligencia_artificial": 1
-        },
-        "entidades": [
-          "Xataka"
-        ],
-        "cifras_detectadas": [],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 80,
-        "relevancia": 55,
-        "confiabilidad_fuente": 53,
-        "readability": {
-          "words": 65,
-          "sentences": 1,
-          "average_words_per_sentence": 65
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 63.25
-    },
-    {
-      "id": "20590e2182394d96",
-      "fuente_id": "xataka_google",
-      "fuente_nombre": "Xataka",
-      "tipo": "rss_web",
-      "subtipo": "google_news",
-      "grupo_fuente": "xataka",
-      "nivel_fuente": "medio_especializado",
-      "categoria": "tecnologia",
-      "idioma_original": "es",
-      "prioridad_fuente": 4,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "\"Está usted intentando acceder a un sitio web ilegal\": algo extraño está pasando con Archive.today en España y apunta en una dirección",
-      "titulo_original": "\"Está usted intentando acceder a un sitio web ilegal\": algo extraño está pasando con Archive.today en España y apunta en una dirección - Xataka",
-      "enlace": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPbkRGSlFNOXhVLUVFMTI2VjNrV29FcEZjaVBfSjItQXpZaTk4YVF4bnhzajlKUXlabnp4TF9tbUVMbkdBRjhIV2tvRFMteThFQjZmQ3psLXpWQVdxRUFtVVpyaDlsdWdqdlRVbDhIOE4ycFd0ZTB1Z2FhNUxfbUphcWNFYU81RVJfc2U0TjZaTW1hdnE5WlBPUUpHellVclhtZXhocGFDR0w3QVpGWmhFN2ltNUhwanBXeVZRWUVzaUY5ZUx3Sk5ZTmV4dTV4T1dBX0JwOWRobFpQSlN4M2c0VGY3OVUyeDNaalNsT1pDVdIB9AFBVV95cUxOLVVta2hCSWoxR0ZYalRVdUt1TThueU15Mmh1M1A2bEY3Yk5YZkMxbWVaTWJVZDJKaFkzMW1uV1RGUnNuVkQzbnZ1RjlnZWxLaXpmMVJ1Nm5RdmFINWhuTXhzdnA2dmVEZzExS2ctUGdDWDRpdG9TR3FHemxBaEpiNVNMMUwtOTVXa1RYbGZCTkluWUhjZ3o2S2ZPV1FuUEhNdU9hdVcwN1RZcXhyUU1jVFNlZXVnNmZuWjV4VGZQLWQ0TER2Vmh5WmNyYmFydFY2X1BrcEdUSDZJOVc1OHczbXZwYzl4cXVjbGNVZW9aUHRvaFpM?oc=5",
-      "fecha": "2026-09-18T08:46:00.000Z",
-      "resumen_corto": "\"Está usted intentando acceder a un sitio web ilegal\": algo extraño está pasando con Archive.today en España y apunta en una dirección Xataka",
-      "resumen_largo": "\"Está usted intentando acceder a un sitio web ilegal\": algo extraño está pasando con Archive.today en España y apunta en una dirección Xataka",
-      "texto_original": "\"Está usted intentando acceder a un sitio web ilegal\": algo extraño está pasando con Archive.today en España y apunta en una dirección Xataka",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-09-18T13:32:07.756Z",
-        "index": 9,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "es",
-        "categoria": "software_internet",
-        "categorias_secundarias": [],
-        "category_scores": {
-          "software_internet": 1
-        },
-        "entidades": [
-          "Xataka"
-        ],
-        "cifras_detectadas": [],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 82,
-        "relevancia": 55,
-        "confiabilidad_fuente": 50,
-        "readability": {
-          "words": 94,
-          "sentences": 6,
-          "average_words_per_sentence": 15.67
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 63.2
-    },
-    {
-      "id": "6c522ff1bd35a56f",
-      "fuente_id": "xataka_google",
-      "fuente_nombre": "Xataka",
-      "tipo": "rss_web",
-      "subtipo": "google_news",
-      "grupo_fuente": "xataka",
-      "nivel_fuente": "medio_especializado",
-      "categoria": "tecnologia",
-      "idioma_original": "es",
-      "prioridad_fuente": 4,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "Hoy en Lidl esta cafetera espresso por 99 euros: con 19 bares y diseño en acero inoxidable",
-      "titulo_original": "Hoy en Lidl esta cafetera espresso por 99 euros: con 19 bares y diseño en acero inoxidable - Xataka",
-      "enlace": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPWFVCYWhxRkgwdjNIX0lNLWphc095eG00US1ycDFQV0JURTItSFVYbWtMYWxqU0Y5d1dqRVB1RFZYbm02bmVJeFhSSTNybkc2RFloY1RrQUJGdXJoYkRKeTNZMUkydDBuTnFNVzZZcWJtdUNZVC1zNUZLNFZ6cVZ4VUpkSlFPb0MweVdncjg0XzV4VWlCUnp6U0RnNmdqbUJkQVdCZVBKTElHQdIBrwFBVV95cUxPbkRjYTI5VHZQb1Nja1hmXzZFTW85Q0JfOWlMdUcwaFAxLVZ1VWJqWFBVanA3M2YxbFNJV3JWSXNDLUhhcTdVWDgzMjVERDY3YjZPSmd0Z2YwXy1XaEhqY1JwcFVXNFJfbVBDMU9GdDZWeWFlMmUyQ2xFUjZQbWhxeVdqVU1SWTJ4OURxUlhzWVBvOVFsSVRBNlV2Z3g3MF9zV3NwX000NVUxY2Qzb1hJ?oc=5",
-      "fecha": "2026-09-18T06:16:08.000Z",
-      "resumen_corto": "Hoy en Lidl esta cafetera espresso por 99 euros: con 19 bares y diseño en acero inoxidable Xataka",
-      "resumen_largo": "Hoy en Lidl esta cafetera espresso por 99 euros: con 19 bares y diseño en acero inoxidable Xataka",
-      "texto_original": "Hoy en Lidl esta cafetera espresso por 99 euros: con 19 bares y diseño en acero inoxidable Xataka",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-09-18T13:32:07.757Z",
-        "index": 10,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "es",
-        "categoria": "tecnologia",
-        "categorias_secundarias": [],
-        "category_scores": {},
-        "entidades": [
-          "Xataka"
-        ],
-        "cifras_detectadas": [
-          "19 b"
-        ],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 87,
-        "relevancia": 50,
-        "confiabilidad_fuente": 50,
-        "readability": {
-          "words": 64,
-          "sentences": 1,
-          "average_words_per_sentence": 64
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 62.95
-    },
-    {
-      "id": "9a4666e2f32eac4e",
-      "fuente_id": "xataka_google",
-      "fuente_nombre": "Xataka",
-      "tipo": "rss_web",
-      "subtipo": "google_news",
-      "grupo_fuente": "xataka",
-      "nivel_fuente": "medio_especializado",
-      "categoria": "tecnologia",
-      "idioma_original": "es",
-      "prioridad_fuente": 4,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "Alguien construyó un ordenador con 460 válvulas de vacío de los años 50 y 60. Tarda 15 minutos en calentarse, pero funciona",
-      "titulo_original": "Alguien construyó un ordenador con 460 válvulas de vacío de los años 50 y 60. Tarda 15 minutos en calentarse, pero funciona - Xataka",
-      "enlace": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQSjZtOTdpMkdWVVNKSEhWUVFqclBOOUtoUVRoQk1ZSUtvckxKSDljby1uSUgtOURuTEpEOVpmdEZXdjdPSWRuTkZfTzFUbkdZVzVkczNaS0d6SURXMTFGZ19ob1NwZGFiazVjSzF1d29SMldzOHhKNG5wWWNIeGR1ZzQ5SmltbDd5OUZ6SGVRaWg2WGVYYjRRUEYtOGJ5QThadUgwZ2NXYkVITzZtNVVtRkFkamRBOHBUTzNvczVqbjBCWFo5d29NNNIBzgFBVV95cUxNTUNwTVVXZjJMeFdYcTQ4Q3lsTUVMS1FRb1hSNkFfaFNiMmtOUzBCb0tLVU9lUTRva1NFUVFraGMxb0FDWHJVbklKeDhVNmlVb1VsNUlpbkhTRFIzSjVOUmNILXpsQ3U3dXN3RkxKYkRDckxZdG44WDBSUllYWEtmLUg4Wm5wRnMwZkZsOHRVel9sRG5Fc0M5U0o1MzZneGxYSHE2VnNqYnN5LWh2TFBjeUJUWEx6aGlSamtweTJybllhcDhyUjdjRFBneXRiZw?oc=5",
-      "fecha": "2026-09-17T21:05:00.000Z",
-      "resumen_corto": "Alguien construyó un ordenador con 460 válvulas de vacío de los años 50 y 60.",
-      "resumen_largo": "Alguien construyó un ordenador con 460 válvulas de vacío de los años 50 y 60. Tarda 15 minutos en calentarse, pero funciona Xataka",
-      "texto_original": "Alguien construyó un ordenador con 460 válvulas de vacío de los años 50 y 60. Tarda 15 minutos en calentarse, pero funciona Xataka",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-09-18T13:32:07.759Z",
-        "index": 15,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "es",
-        "categoria": "tecnologia",
-        "categorias_secundarias": [],
-        "category_scores": {},
-        "entidades": [
-          "Xataka"
-        ],
-        "cifras_detectadas": [
-          "15 m"
-        ],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 87,
-        "relevancia": 50,
-        "confiabilidad_fuente": 50,
-        "readability": {
-          "words": 68,
-          "sentences": 6,
-          "average_words_per_sentence": 11.33
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 62.95
-    },
-    {
-      "id": "939fb8b84f126dc0",
+      "id": "ce73f2ab8baf22b5",
       "fuente_id": "ia_dia",
       "fuente_nombre": "IA al Día",
       "tipo": "rss_web",
@@ -2240,17 +1091,17 @@
       "prioridad_fuente": 3,
       "analizar": true,
       "resumir": true,
-      "titulo": "Carlos del Castillo presenta ‘Inteligencia artificial: cartografía de una revolución’, en imágenes - elDiario.es",
-      "titulo_original": "Carlos del Castillo presenta ‘Inteligencia artificial: cartografía de una revolución’, en imágenes - elDiario.es",
-      "enlace": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPUnNYLTJjTHo2dzNielhubmZPYTBJbjRxcGwwS19LUlY2d18yeDFYeF9jWTBxUTVSSktPUksya011dzQxOFdpLWVjdzFGT1ZxVUFMS2lnaGtyYm0tdUJWeHlFeXpLYVlLWmtoWV9wdWQtMk00TFJFRjBIQ2NNWmJVUW5KUlk3b2trYWJnR1NfalRnTlZFUFd1VWR2TXRXbmYyLXdsdGVlYnVaSGhYYVVjRmJyQkw4NElXNjZBVUhFcmhZQm8xb2lv0gHMAUFVX3lxTE50NFlTVF9rbW1FY2g3bDVWTFQ2NW4zdlZ4Zm9uNXlIYlh3cHAzNEdPeV8yWFdaXzNrRjhrTlFURkdJTEZsS2hFbDR1MmNQSzdNTXBnVllYYmF4YWtpZ2F0aUNfdTF1TnFfYi0zalhSVktLdW9LSDN6SmpVQ2NJcm91UlNRUnU4S1FtcEZKSFlJTno4TXVWaHZZU1dISzM3SjVmbGVRLUFhNXhlckdrY29lRlNEa050QkhVOE1oX0VDVGhpVExsRkQzcllkTQ?oc=5",
-      "fecha": "2026-09-18T11:28:32.000Z",
-      "resumen_corto": "Carlos del Castillo presenta ‘Inteligencia artificial: cartografía de una revolución’, en imágenes elDiario.es",
-      "resumen_largo": "Carlos del Castillo presenta ‘Inteligencia artificial: cartografía de una revolución’, en imágenes elDiario.es",
-      "texto_original": "Carlos del Castillo presenta ‘Inteligencia artificial: cartografía de una revolución’, en imágenes elDiario.es",
+      "titulo": "Una IA que ya cambia nuestras vidas: los riesgos, los empleos en juego y el uso emocional de la inteligencia artificial, en el nuevo episodio de \"3x3N\" - antena3.com",
+      "titulo_original": "Una IA que ya cambia nuestras vidas: los riesgos, los empleos en juego y el uso emocional de la inteligencia artificial, en el nuevo episodio de \"3x3N\" - antena3.com",
+      "enlace": "https://news.google.com/rss/articles/CBMilgJBVV95cUxQek5lSWFXWDNVX004UmMtaTBYNXlUeEF4dnJidUU4VWtCam9OVFFzUGhBRmd3TEJ1YzNFcjJ6UkhMZ194OGFsZmhkLVh3LTRPN0h3bDVPeWNnTDhrQnF0X2RoUURJZnNyX3JXdFFHVF9hdTc0M3R5MFJ6emd4b3hTRW9NWHVLVlBaeExiRlV1eHBJbV9kQm1CUVQ0ZmhaNDNKZmJ0cG16OFZWQnpVWE1nVlJZSS10S0ZaVVlYbEhjMXQtRXpKYU11MFAzVGdUa1dJYU81aTV0NnN0cnNoVGxTTFJmcWpKWnBIeHFrQ2NBeTlaWEdNSG12OVRiVEZnZTNNVm5fRGM0c0ZzTXdtR2tyZklyZUt6UdIBlgJBVV95cUxOVTVORzlzeE1YM0hleFZncXNIZVZ6XzdPdmk0ZW9zNi1BWUU1N1B2WkVwb3dWOTg4WmlVRnQ5T3FtUlNFWW5zRmxOX0hEbXRuYVU5bUNzdzVhMUFwTzVTRFd1YUdnSTRkUXVLSlNoZUdCbzdwbnZUSFREQXMxMUk5RXNodFNYUmV4Tm9wSkpKcjR4bEljUWNyeVRsMldNa2FON0E3VUZxVWtCN1NTWTN5LUhQS1k1UUhLLVMwcEppUnBCb2FkQnRoWnM4NzlYY3B5R2JTeDRyUllSaDZaV29HbXlkQXlvZWl0X2dUdjlTUWJzOVZJOUpnbVRQZGZTb0dVTjdjdUstcmxodlBHa0pHSHdSblI3Zw?oc=5",
+      "fecha": "2026-09-18T17:09:01.000Z",
+      "resumen_corto": "Una IA que ya cambia nuestras vidas: los riesgos, los empleos en juego y el uso emocional de la inteligencia artificial, en el nuevo episodio de \"3x3N\" antena3.com",
+      "resumen_largo": "Una IA que ya cambia nuestras vidas: los riesgos, los empleos en juego y el uso emocional de la inteligencia artificial, en el nuevo episodio de \"3x3N\" antena3.com",
+      "texto_original": "Una IA que ya cambia nuestras vidas: los riesgos, los empleos en juego y el uso emocional de la inteligencia artificial, en el nuevo episodio de \"3x3N\" antena3.com",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-18T13:32:07.751Z",
-        "index": 2,
+        "processed_at": "2026-09-18T17:41:31.225Z",
+        "index": 0,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -2263,7 +1114,7 @@
         ],
         "category_scores": {
           "inteligencia_artificial": 3,
-          "vehiculos_energia": 2
+          "vehiculos_energia": 1
         },
         "entidades": [],
         "cifras_detectadas": [],
@@ -2283,9 +1134,9 @@
         "relevancia": 57,
         "confiabilidad_fuente": 53,
         "readability": {
-          "words": 55,
+          "words": 95,
           "sentences": 6,
-          "average_words_per_sentence": 9.17
+          "average_words_per_sentence": 15.83
         },
         "duplicate": {
           "detected": false,
@@ -2297,78 +1148,7 @@
       "final_score": 62.3
     },
     {
-      "id": "93431497afb1d003",
-      "fuente_id": "google_news_es",
-      "fuente_nombre": "Google News ES",
-      "tipo": "rss_web",
-      "subtipo": "google_news",
-      "grupo_fuente": "google_news",
-      "nivel_fuente": "agregador",
-      "categoria": "tecnologia",
-      "idioma_original": "es",
-      "prioridad_fuente": 3,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "Tendios democratiza la IA para que ayuntamientos de cualquier tamaño puedan acceder a tecnología experta en... - OkDiario",
-      "titulo_original": "Tendios democratiza la IA para que ayuntamientos de cualquier tamaño puedan acceder a tecnología experta en... - OkDiario",
-      "enlace": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNUDIyakdCUUZ0dkYxWkVveFI0SHI5LWZPaU8wejMwNUVTbDVZMU5PcTN1Wnk0NndQZHNlemJDdDVjZ3dzaG5veGo0ZlUwYjNQWlBLOUhhc19OdWlGYmZLYjlpRWxhcVFtUWJCc3VmZWlQNVM0VjA0ZkRrSzVqZC1remRiYnVMdU5uZDZkcEtIakkzTTRqX01PRFZHX2V5NVpBM3hYVmZJZllMRW5DTmlRMEZlby1OUUVyUTFTc0FHNTdGRkc0RGxycFdjeDdqall5QnpoTkdmdWUwcGp3dDhNRzk2M1QtZ9IB6wFBVV95cUxQNjRTYzcxbDRCN09KT25qZzBMWmRKR3daa0Z4ZWk1SENBNTB4M1Y3T2Q0aVFhVVVYVFB1S2RtR2R0czBWUUdTMGFvMHhUZTQ3U3h4T2hnMXFXMS1WR2pKYmpTUTJhSmlvN1dGemJiOW1tZVRpaENfeFduTVFlTGhkZkRnOW1HZUk4QUpkaDVwT2VPZGN5cVltMGQzUnBQUHgwdTh3cV9pZm9qaHBKdjltVTAxdDQ3eEtVNWFPUUxqdGlZdnk2NUIzNjhFSC00UzY0SkVBdC1aVk1Ya05ReC1YdXNvQlplNnpxZGlJ?oc=5",
-      "fecha": "2026-09-18T09:02:48.000Z",
-      "resumen_corto": "Tendios democratiza la IA para que ayuntamientos de cualquier tamaño puedan acceder a tecnología experta en...",
-      "resumen_largo": "Tendios democratiza la IA para que ayuntamientos de cualquier tamaño puedan acceder a tecnología experta en...",
-      "texto_original": "Tendios democratiza la IA para que ayuntamientos de cualquier tamaño puedan acceder a tecnología experta en... OkDiario",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-09-18T13:32:07.756Z",
-        "index": 8,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "es",
-        "categoria": "tecnologia",
-        "categorias_secundarias": [
-          "inteligencia_artificial",
-          "moviles"
-        ],
-        "category_scores": {
-          "tecnologia": 2,
-          "inteligencia_artificial": 1,
-          "moviles": 1
-        },
-        "entidades": [],
-        "cifras_detectadas": [],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 75,
-        "relevancia": 57,
-        "confiabilidad_fuente": 53,
-        "readability": {
-          "words": 58,
-          "sentences": 6,
-          "average_words_per_sentence": 9.67
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 62.3
-    },
-    {
-      "id": "1cf927c6e40b89f6",
+      "id": "0f69354e49a0196a",
       "fuente_id": "ia_dia",
       "fuente_nombre": "IA al Día",
       "tipo": "rss_web",
@@ -2380,85 +1160,17 @@
       "prioridad_fuente": 3,
       "analizar": true,
       "resumir": true,
-      "titulo": "El Foro La Toja 2026 pone el foco en la inteligencia artificial y las relaciones entre España y Marruecos - ABC",
-      "titulo_original": "El Foro La Toja 2026 pone el foco en la inteligencia artificial y las relaciones entre España y Marruecos - ABC",
-      "enlace": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQOUxFcFlUVjBmTHY2NURPemt2c3UxLTd5NUVaYWZWVUo1cm9ETHktMUN3NVVKNU1BVmx0WnNKSjdiQ19YSmpvQ2tDMURRUHIzc3dzbnJ4SFpTeV9oM2xtQWtRMVM0aGRwX0UwWDViYXBVekRmNVk3M3B2LUg0R2dud1JHQ2dMcXlXV0x2X0tlNW9mQ09jdWRWUTZ0RnpMMHBvUTZHRU41ckvSAa4BQVVfeXFMTW91NTV2UGJWd3dwTVBuemZtbUZqNE5oMEdDUkpteEZOUHIwYmduRWlKSlFIRXdvZjZRV08xNXE4R003UDNuYXZubFVYaFRhbUloRXZBWGxXMmo2MGN6WTdvQVJqd1dtSEZ5a2xaWmthLXg3akFaYzB5bzRnZEJOREx3Y1psanRmcWxLZ2EzeVZIdW1EMTczNzNxVDVXVVNqVExCQjgtekcwaURsMHhB?oc=5",
-      "fecha": "2026-09-17T16:28:30.000Z",
-      "resumen_corto": "El Foro La Toja 2026 pone el foco en la inteligencia artificial y las relaciones entre España y Marruecos ABC",
-      "resumen_largo": "El Foro La Toja 2026 pone el foco en la inteligencia artificial y las relaciones entre España y Marruecos ABC",
-      "texto_original": "El Foro La Toja 2026 pone el foco en la inteligencia artificial y las relaciones entre España y Marruecos ABC",
+      "titulo": "¿Se parará el avance de la inteligencia artificial? - ultimahora.es",
+      "titulo_original": "¿Se parará el avance de la inteligencia artificial? - ultimahora.es",
+      "enlace": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNVHA0MkFEV2FybW5HaGQ0aXdaXy1vdk1jaDduVUlscjllTy1JYlkzMzlVZG1ickR0TmdOS19nUC1VdDFfc3NUZC1uYTkyNVRDYjNGbU0zNFpUMnVDSlhBZU1aRnpfb3BVMkQ4VjQ3QWpEVTUxck55dkVuQWdtUVlwTnZJT3Jmb0xIT2VfZk5faTVKUGJQTDk1bDBob3N2X0dUMmVPeW52ZG5odw?oc=5",
+      "fecha": "2026-09-18T05:40:47.000Z",
+      "resumen_corto": "¿Se parará el avance de la inteligencia artificial?",
+      "resumen_largo": "¿Se parará el avance de la inteligencia artificial?",
+      "texto_original": "¿Se parará el avance de la inteligencia artificial? ultimahora.es",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-18T13:32:07.764Z",
-        "index": 26,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "es",
-        "categoria": "inteligencia_artificial",
-        "categorias_secundarias": [],
-        "category_scores": {
-          "inteligencia_artificial": 3
-        },
-        "entidades": [],
-        "cifras_detectadas": [
-          "2026"
-        ],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 80,
-        "relevancia": 50,
-        "confiabilidad_fuente": 53,
-        "readability": {
-          "words": 65,
-          "sentences": 1,
-          "average_words_per_sentence": 65
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 61.25
-    },
-    {
-      "id": "7ef00c1ba11c8206",
-      "fuente_id": "ia_dia",
-      "fuente_nombre": "IA al Día",
-      "tipo": "rss_web",
-      "subtipo": "google_news",
-      "grupo_fuente": "ia_general",
-      "nivel_fuente": "agregador",
-      "categoria": "inteligencia_artificial",
-      "idioma_original": "es",
-      "prioridad_fuente": 3,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "Inteligencia artificial con los pies en la tierra - Cadena SER",
-      "titulo_original": "Inteligencia artificial con los pies en la tierra - Cadena SER",
-      "enlace": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNNDU3UU8wdWVaSllKOVhxTFliYmxDUjJ4VEpINl9jSHV5clJIaThvUVkyalhSeDN4TDN4dldWdXpaQ2tjRUxiWFhfa2lib2RmWXAxc0owVDFXb0lXU2lxd3Z6LUxkQ05nTDBnU2c3cGF5ekdmVHV1RXp3c3BCZklzb2p2bkMxSmJ5RkxWemJibVZmOVZ5Y0xmaXZ2dHNhQndpTEZmSXJtd3pNMzjSAb8BQVVfeXFMT0pTaTBXZUEtRjZzVk15RVFScWdfLUdMc2MzS3dmb0dpdWVmd2xsNUxvdzA3SXdSa2pEY2xZblBKajlQVkN6R2RNT3otY3o1WURxUmRFcXJJLWJ4eFFjZG1YZXUwVEpFNzhmV3NyYTRCYWZDZVVsQzBFd3o3eGJRZUdoWTJWX2M4ZG1vYWNfdE0tUkUxVEFrSjVGNmxmQjlzQkRZYnNsakdJM0dodDJ4c2pkZGMyVDJnN002a1hHUFU?oc=5",
-      "fecha": "2026-09-18T12:16:20.000Z",
-      "resumen_corto": "Inteligencia artificial con los pies en la tierra Cadena SER",
-      "resumen_largo": "Inteligencia artificial con los pies en la tierra Cadena SER",
-      "texto_original": "Inteligencia artificial con los pies en la tierra Cadena SER",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-09-18T13:32:07.749Z",
-        "index": 1,
+        "processed_at": "2026-09-18T17:41:31.235Z",
+        "index": 12,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -2488,9 +1200,9 @@
         "relevancia": 50,
         "confiabilidad_fuente": 53,
         "readability": {
-          "words": 40,
-          "sentences": 1,
-          "average_words_per_sentence": 40
+          "words": 23,
+          "sentences": 9,
+          "average_words_per_sentence": 2.56
         },
         "duplicate": {
           "detected": false,
@@ -2502,145 +1214,7 @@
       "final_score": 59.5
     },
     {
-      "id": "3081388b2ab00a8a",
-      "fuente_id": "google_news_es",
-      "fuente_nombre": "Google News ES",
-      "tipo": "rss_web",
-      "subtipo": "google_news",
-      "grupo_fuente": "google_news",
-      "nivel_fuente": "agregador",
-      "categoria": "tecnologia",
-      "idioma_original": "es",
-      "prioridad_fuente": 3,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "Daron Acemoglu, Nobel de Economía: “El debate sobre la amenaza existencial de la IA esconde riesgos más inmediatos” - elDiario.es",
-      "titulo_original": "Daron Acemoglu, Nobel de Economía: “El debate sobre la amenaza existencial de la IA esconde riesgos más inmediatos” - elDiario.es",
-      "enlace": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPMFRmclRuVmVqLVdMUjFNVWplRE1PbUdEeE9uTEJib2tlMXg5Xy1SWm1nRWw5bF8tRUNDMDZwUDY2d19BRTl1aVNza1ZkVTFhdzlWT0pFeEhQMUZVMzBVekRKTlpsN25qTWMwNFRiSExKbkMzRllIZ09aZXlKbjdQOWctX3dRRUxDWnhGcEFVTkdieHVFaUNkU1JJeEZzS3B1Q1VNbHBKajZhVkFlUEV0Y1JpUnUtWlJIa1NXN2VwcDl4SF9MTVQ1aGlLSERnbVQ0NHRJ0gHYAUFVX3lxTFBCVU9QRGpzQ200U0I1d2ZQLVpvaGJtVjFuMFhKU2ZvNzE1S1NVcXBzX1I2REZkc3hHUHpoUUFjUTVSY2p0Q1U5TzE5OEs4Tko1a21wM0pjQnZ5dm8yaGxFWkFZYlM3OURzWVk2NEdHM2lQQWg2eUt3Y3gwNzhLeENwVS1mMGduN29kekl6Uko1WnR0b0pMM1JhUFdSeWxQc1g4SDhWbW4xV0kwUkZQQWtjYUNTamZzcG5nZExtT3A5OG1sNmUtRFU4Y1dBbDNYU1h6UE5sMXA2bQ?oc=5",
-      "fecha": "2026-09-17T20:31:54.000Z",
-      "resumen_corto": "Daron Acemoglu, Nobel de Economía: “El debate sobre la amenaza existencial de la IA esconde riesgos más inmediatos” elDiario.es",
-      "resumen_largo": "Daron Acemoglu, Nobel de Economía: “El debate sobre la amenaza existencial de la IA esconde riesgos más inmediatos” elDiario.es",
-      "texto_original": "Daron Acemoglu, Nobel de Economía: “El debate sobre la amenaza existencial de la IA esconde riesgos más inmediatos” elDiario.es",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-09-18T13:32:07.761Z",
-        "index": 17,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "es",
-        "categoria": "actualidad",
-        "categorias_secundarias": [
-          "inteligencia_artificial"
-        ],
-        "category_scores": {
-          "actualidad": 2,
-          "inteligencia_artificial": 1
-        },
-        "entidades": [],
-        "cifras_detectadas": [],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 75,
-        "relevancia": 50,
-        "confiabilidad_fuente": 53,
-        "readability": {
-          "words": 65,
-          "sentences": 6,
-          "average_words_per_sentence": 10.83
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 59.5
-    },
-    {
-      "id": "14a4f1c0cefb77c5",
-      "fuente_id": "google_news_es",
-      "fuente_nombre": "Google News ES",
-      "tipo": "rss_web",
-      "subtipo": "google_news",
-      "grupo_fuente": "google_news",
-      "nivel_fuente": "agregador",
-      "categoria": "tecnologia",
-      "idioma_original": "es",
-      "prioridad_fuente": 3,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "Tecnocapitalismo: así está cambiando la tecnología las estructuras de poder en el mundo - The Conversation",
-      "titulo_original": "Tecnocapitalismo: así está cambiando la tecnología las estructuras de poder en el mundo - The Conversation",
-      "enlace": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOS0RxeHNGVDVMeDl4UlJuVkNla1pSQjY0X0lOLU1YaXdqUFJhZk8wZ3h6NVdaRFNyelhFbmE0YlVYbUFLU3MyX1U0TXpLVGZoaFcxYV9FcUZISnpveUVLZTI1VElYY1U2SE9UU1ZXdVJ2T29FY3B1aGJyWm5TdTZDcnlOTFJMNXM5eWpRRl9VV0g1TFpBRlJPMUNob2xjQ0Fzd2F1VU5jUWVZdXlOWVNrci14OE5MekMxYldUWnJn?oc=5",
-      "fecha": "2026-09-17T16:30:05.000Z",
-      "resumen_corto": "Tecnocapitalismo: así está cambiando la tecnología las estructuras de poder en el mundo The Conversation",
-      "resumen_largo": "Tecnocapitalismo: así está cambiando la tecnología las estructuras de poder en el mundo The Conversation",
-      "texto_original": "Tecnocapitalismo: así está cambiando la tecnología las estructuras de poder en el mundo The Conversation",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-09-18T13:32:07.764Z",
-        "index": 25,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "es",
-        "categoria": "tecnologia",
-        "categorias_secundarias": [
-          "inteligencia_artificial"
-        ],
-        "category_scores": {
-          "tecnologia": 2,
-          "inteligencia_artificial": 1
-        },
-        "entidades": [],
-        "cifras_detectadas": [],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 75,
-        "relevancia": 50,
-        "confiabilidad_fuente": 53,
-        "readability": {
-          "words": 55,
-          "sentences": 1,
-          "average_words_per_sentence": 55
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 59.5
-    },
-    {
-      "id": "0f3a01e1d4986e85",
+      "id": "2ed472e44d522112",
       "fuente_id": "ia_dia",
       "fuente_nombre": "IA al Día",
       "tipo": "rss_web",
@@ -2652,17 +1226,17 @@
       "prioridad_fuente": 3,
       "analizar": true,
       "resumir": true,
-      "titulo": "La Inteligencia Artificial avanza hacia soluciones útiles para las personas - Diario Sur",
-      "titulo_original": "La Inteligencia Artificial avanza hacia soluciones útiles para las personas - Diario Sur",
-      "enlace": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQOFQxNTNWZGlQSTItS1IwWnRPbHpyQ3FQZTNrcnJLcDN4TUhLb3NzUmc4NTZKTnJVZnQyMkY5NnktTGtBdzZhLUZ3T29fM3pYQXc3NHpndVdCeXBFZ3Ntbm5Ma3Rxenp6cVdZZlpCU1hMaTJWNTBpRmI2Z3kzVzJDMGtvOFFob3FRWTN1Tm90R2h5dXVWazhDUlVGRWNITG1hOThsLTBMeXdSUmNHeUh0UzNwUQ?oc=5",
-      "fecha": "2026-09-17T12:45:33.000Z",
-      "resumen_corto": "La Inteligencia Artificial avanza hacia soluciones útiles para las personas Diario Sur",
-      "resumen_largo": "La Inteligencia Artificial avanza hacia soluciones útiles para las personas Diario Sur",
-      "texto_original": "La Inteligencia Artificial avanza hacia soluciones útiles para las personas Diario Sur",
+      "titulo": "Alberto Granados: \"En la inteligencia artificial estamos pasando de la discusión filosófica a la de negocio\" - El Español",
+      "titulo_original": "Alberto Granados: \"En la inteligencia artificial estamos pasando de la discusión filosófica a la de negocio\" - El Español",
+      "enlace": "https://news.google.com/rss/articles/CBMijwJBVV95cUxNNnhlS1FTdGdEZ09xT3JCdGFvem05VDB2QzFlSUVlTFpWZ2I2WFI3MVZ5bDA2MXFfWUNaUTN6S0EwRGY3OFRmYXVrTTBURzJPSUNCaGlWVWNTQUdjNWt6Z2hUSHBieXVqM2E3b2FhUGl4RVIzWHNJU2NKMDBESHlCaXBzdUNlZnFvZWhzMENWUnU3ekJIU0dNX2gwMWhQaVJVMWRwalJLYXFaRl94R1RkSDlLZjZkY0JJcTRYOS1QcUx1SGRWLUd4bmFyb1phTkhtTEpNNGYySGF0dTVvWmxwNWtZMkt3M1RZemd6ay1QbklSajRseUEwZ2dQOWVYNEtpc0s4UDNBNFUyUURkVGRn0gGUAkFVX3lxTE1qWFFLMUJwMFJjaHlydUNEWHc2NG01ZVN4YjR0Vmk4Yk15NjhEY3dHT2dHa2F2T3ZYZHBoUFB2S3hqazh6RWRXaEtvRGRBOFdxUlY3bjR2MnNDZHRpX3hMeGNHQ2hpYU1tYnRCc3FIV3BRN1Vodjc4SEtSREMtQmJKbTd4OGlNQzJza3JTLUhrZzJMel95ckI3OG5GdU1sTFVHdUhMRmU5UmtTa1FMNFF6MjVLQmdkbUFoQ0FvTW5tSWNrYWh0dDdLSGxqc0hTS2dYeWt6cENWZVctY292bU1nR3pBMjFDX3dHRExuMmpxQ2htaGtRbnF4dGJ2c2pSNGFGaUlFcUpzNEVIOWtlc0RhR3Fsdw?oc=5",
+      "fecha": "2026-09-17T03:00:00.000Z",
+      "resumen_corto": "Alberto Granados: \"En la inteligencia artificial estamos pasando de la discusión filosófica a la de negocio\" El Español",
+      "resumen_largo": "Alberto Granados: \"En la inteligencia artificial estamos pasando de la discusión filosófica a la de negocio\" El Español",
+      "texto_original": "Alberto Granados: \"En la inteligencia artificial estamos pasando de la discusión filosófica a la de negocio\" El Español",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-18T13:32:07.764Z",
-        "index": 28,
+        "processed_at": "2026-09-18T17:41:31.238Z",
+        "index": 19,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -2692,9 +1266,75 @@
         "relevancia": 50,
         "confiabilidad_fuente": 53,
         "readability": {
-          "words": 55,
+          "words": 50,
           "sentences": 1,
-          "average_words_per_sentence": 55
+          "average_words_per_sentence": 50
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 59.5
+    },
+    {
+      "id": "369e897e6d1059b6",
+      "fuente_id": "ia_dia",
+      "fuente_nombre": "IA al Día",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "ia_general",
+      "nivel_fuente": "agregador",
+      "categoria": "inteligencia_artificial",
+      "idioma_original": "es",
+      "prioridad_fuente": 3,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Los catetos contra la inteligencia artificial - ABC",
+      "titulo_original": "Los catetos contra la inteligencia artificial - ABC",
+      "enlace": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNNkF4MzdyMDktcUhOX2pSWGVzTmlGYTVMcWI4a1lRUnE4VmxWMWtBazk1cVc4VkVoODJIV3VEU3gxcmpFdjdHbXMxcnU4N0RPclVsYmw1ZUp6ZWxUbnJFVDRmdVlXdEtfczhkN2NnZjhiOU5GMm1GVUxCcGl4d0o5cm01Rm8ta1dFVDZ5TGdLbTZoUHFfWGZyaEctMTY3aTTSAaQBQVVfeXFMTWZhLTRkZ0hvUFNsQ1AtYUF4cUxnaUtzTFUtTUllVXVlRnJUZ3ZGdDlaRmNjS09uQlhkemtuVzgzMXNxUDJ5bW9RLWdZUi1XY3EyMUVjNVJpRWtVNUkwMlM1bmpORGo5b0RsdHRveFh4QjN5T1JoLVN3UEJsMFhQV05ST20yUjVtdVdlX3dXcWQ3RHZUZEtyaDltZ3ZBYTV1LWxrdTA?oc=5",
+      "fecha": "2026-09-16T16:53:03.000Z",
+      "resumen_corto": "Los catetos contra la inteligencia artificial ABC",
+      "resumen_largo": "Los catetos contra la inteligencia artificial ABC",
+      "texto_original": "Los catetos contra la inteligencia artificial ABC",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-09-18T17:41:31.238Z",
+        "index": 20,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "inteligencia_artificial",
+        "categorias_secundarias": [],
+        "category_scores": {
+          "inteligencia_artificial": 3
+        },
+        "entidades": [],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 75,
+        "relevancia": 50,
+        "confiabilidad_fuente": 53,
+        "readability": {
+          "words": 30,
+          "sentences": 1,
+          "average_words_per_sentence": 30
         },
         "duplicate": {
           "detected": false,
@@ -2727,8 +1367,8 @@
       "texto_original": "Operadores rusos de sistemas no tripulados ( BPS ) consolidan un perfil táctico multidominio al neutralizar objetivos en superficie y en vuelo. Los registros operativos documentan cómo las tripulaciones de drones FPV no solo baten carros y transportes acorazados, sino que destruyen plataformas terrestres no tripuladas ( UGV ) utilizadas para evacuación y abastecimiento, además de ejecutar intercepciones cinéticas aire-aire contra drones ucranianos en pleno trayecto.",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-18T13:32:07.773Z",
-        "index": 44,
+        "processed_at": "2026-09-18T17:41:31.242Z",
+        "index": 26,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -2779,149 +1419,6 @@
       "final_score": 58.25
     },
     {
-      "id": "59dd6904275ae908",
-      "fuente_id": "resumen_militar",
-      "fuente_nombre": "El Resumen Militar",
-      "tipo": "telegram",
-      "subtipo": "canal_telegram",
-      "grupo_fuente": "telegram_militar",
-      "nivel_fuente": "telegram",
-      "categoria": "militar",
-      "idioma_original": "es",
-      "prioridad_fuente": 3,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "El Resumen Militar pinned a photo",
-      "titulo_original": "El Resumen Militar pinned a photo",
-      "enlace": "https://t.me/elresumenmilitar/99684",
-      "fecha": "2026-09-17T19:03:25.000Z",
-      "resumen_corto": "El Resumen Militar pinned a photo",
-      "resumen_largo": "El Resumen Militar pinned a photo",
-      "texto_original": "El Resumen Militar pinned a photo",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-09-18T13:32:07.761Z",
-        "index": 19,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "es",
-        "categoria": "militar",
-        "categorias_secundarias": [],
-        "category_scores": {
-          "militar": 1
-        },
-        "entidades": [],
-        "cifras_detectadas": [],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 75,
-        "relevancia": 50,
-        "confiabilidad_fuente": 45,
-        "readability": {
-          "words": 20,
-          "sentences": 1,
-          "average_words_per_sentence": 20
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 57.5
-    },
-    {
-      "id": "96a86fdae9d34c66",
-      "fuente_id": "resumen_militar",
-      "fuente_nombre": "El Resumen Militar",
-      "tipo": "telegram",
-      "subtipo": "canal_telegram",
-      "grupo_fuente": "telegram_militar",
-      "nivel_fuente": "telegram",
-      "categoria": "militar",
-      "idioma_original": "es",
-      "prioridad_fuente": 3,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "‼️ Las fuerzas armadas de Rusia continúan sus asaltos en el frente, mientras ucrania concentra todos sus esfuerzos en ganar tiempo antes del invierno, la IA está a la orden del día para falsificar información. https://ww",
-      "titulo_original": "‼️ Las fuerzas armadas de Rusia continúan sus asaltos en el frente, mientras ucrania concentra todos sus esfuerzos en ganar tiempo antes del invierno, la IA está a la orden del día para falsificar información. https://ww",
-      "enlace": "https://t.me/elresumenmilitar/99683",
-      "fecha": "2026-09-17T19:03:22.000Z",
-      "resumen_corto": "https://www.youtube.com/live/16avEPG0RcE?si=BJzcUSsM-g6kmmFb 📢 📦 Ropa Con Diseños Únicos 📦 📢 TRENCHES CLOTHING: https://trenchesclothing.store ⚠️ Apoya el canal si quieres y tienes la capacidad: ⚠️ 🟥 Rutube: https://rutube.ru/channel/48627964/ 🟦 Twitter: https://twitter.com/ElResumenM 🟧 Canal De Telegram: https://t.me/elresumenmilitar 🟩 Rumble: https://rumble.com/user/ElResumenMilitar 🟣 TWITCH: https://www.twitch.tv/elresumengaming 🟠 Instagram: https://www.instagram.com/elresumenmi ...",
-      "resumen_largo": "‼️ Las fuerzas armadas de Rusia continúan sus asaltos en el frente, mientras ucrania concentra todos sus esfuerzos en ganar tiempo antes del invierno, la IA está a la orden del día para falsificar información. https://www.youtube.com/live/16avEPG0RcE?si=BJzcUSsM-g6kmmFb 📢 📦 Ropa Con Diseños Únicos 📦 📢 TRENCHES CLOTHING: https://trenchesclothing.store ⚠️ Apoya el canal si quieres y tienes la capacidad: ⚠️ 🟥 Rutube: https://rutube.ru/channel/48627964/ 🟦 Twitter: https://twitter.com/ElResumenM 🟧 Canal De Telegram: https://t.me/elresumenmilitar 🟩 Rumble: https://rumble.com/user/ElResumenMilitar 🟣 TWITCH: https://www.twitch.tv/elresumengaming 🟠 Instagram: https://www.instagram.com/elresumenmi ... 🔴 Tiktok: https://www.tiktok.com/@elmesumenmilitar",
-      "texto_original": "‼️ Las fuerzas armadas de Rusia continúan sus asaltos en el frente, mientras ucrania concentra todos sus esfuerzos en ganar tiempo antes del invierno, la IA está a la orden del día para falsificar información. https://www.youtube.com/live/16avEPG0RcE?si=BJzcUSsM-g6kmmFb 📢 📦 Ropa Con Diseños Únicos 📦 📢 TRENCHES CLOTHING: https://trenchesclothing.store ⚠️ Apoya el canal si quieres y tienes la capacidad: ⚠️ 🟥 Rutube: https://rutube.ru/channel/48627964/ 🟦 Twitter: https://twitter.com/ElResumenM 🟧 Canal De Telegram: https://t.me/elresumenmilitar 🟩 Rumble: https://rumble.com/user/ElResumenMilitar 🟣 TWITCH: https://www.twitch.tv/elresumengaming 🟠 Instagram: https://www.instagram.com/elresumenmi ... 🔴 Tiktok: https://www.tiktok.com/@elmesumenmilitar",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-09-18T13:32:07.762Z",
-        "index": 20,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "es",
-        "categoria": "militar",
-        "categorias_secundarias": [
-          "inteligencia_artificial",
-          "hardware",
-          "vehiculos_energia"
-        ],
-        "category_scores": {
-          "militar": 3,
-          "inteligencia_artificial": 1,
-          "hardware": 1,
-          "vehiculos_energia": 1
-        },
-        "entidades": [],
-        "cifras_detectadas": [
-          "6km",
-          "4862",
-          "7964"
-        ],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 30,
-          "signals": [],
-          "url_count": 28
-        },
-        "calidad": 65,
-        "relevancia": 57,
-        "confiabilidad_fuente": 45,
-        "readability": {
-          "words": 277,
-          "sentences": 48,
-          "average_words_per_sentence": 5.77
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 56.8
-    },
-    {
       "id": "20d28b8e0798635e",
       "fuente_id": "guerra_total",
       "fuente_nombre": "La Guerra Total HCM",
@@ -2943,8 +1440,8 @@
       "texto_original": "La aviación táctica rusa (VKS) intensifica la campaña de interdicción en el Donbás atacando la infraestructura de transporte en Kramatorsk . Cazabombarderos de precisión emplearon bombas aéreas pesadas de 1,5 toneladas —previsiblemente FAB-1500 equipadas con módulos de planeo y corrección ( UMPK )— para batir un puente clave de la ciudad. El impacto directo busca fracturar las líneas de comunicación terrestres ( LOC ) y estrangular la movilidad de refuerzos y suministros en el cinturón defensivo de Kramatorsk-Slaviansk.",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-18T13:32:07.770Z",
-        "index": 41,
+        "processed_at": "2026-09-18T17:41:31.240Z",
+        "index": 23,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -2999,70 +1496,6 @@
       "final_score": 56.8
     },
     {
-      "id": "7bb802136f1356fa",
-      "fuente_id": "resumen_militar",
-      "fuente_nombre": "El Resumen Militar",
-      "tipo": "telegram",
-      "subtipo": "canal_telegram",
-      "grupo_fuente": "telegram_militar",
-      "nivel_fuente": "telegram",
-      "categoria": "militar",
-      "idioma_original": "es",
-      "prioridad_fuente": 3,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "🇷🇺 🇺🇦 Герани и Дань-Т поразили цели в Днепропетровске Подписаться на канал | наш МАХ",
-      "titulo_original": "🇷🇺 🇺🇦 Герани и Дань-Т поразили цели в Днепропетровске Подписаться на канал | наш МАХ",
-      "enlace": "https://t.me/elresumenmilitar/99678",
-      "fecha": "2026-09-17T18:52:50.000Z",
-      "resumen_corto": "🇷🇺 🇺🇦 Герани и Дань-Т поразили цели в Днепропетровске Подписаться на канал | наш МАХ",
-      "resumen_largo": "🇷🇺 🇺🇦 Герани и Дань-Т поразили цели в Днепропетровске Подписаться на канал | наш МАХ",
-      "texto_original": "🇷🇺 🇺🇦 Герани и Дань-Т поразили цели в Днепропетровске Подписаться на канал | наш МАХ",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-09-18T13:32:07.763Z",
-        "index": 23,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "es",
-        "categoria": "militar",
-        "categorias_secundarias": [],
-        "category_scores": {},
-        "entidades": [],
-        "cifras_detectadas": [],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 75,
-        "relevancia": 45,
-        "confiabilidad_fuente": 45,
-        "readability": {
-          "words": 45,
-          "sentences": 1,
-          "average_words_per_sentence": 45
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 55.5
-    },
-    {
       "id": "c22c7ffe8ccf588d",
       "fuente_id": "guerra_total",
       "fuente_nombre": "La Guerra Total HCM",
@@ -3084,8 +1517,8 @@
       "texto_original": "Registros operacionales muestran el empleo de misiles de crucero tácticos ligeros «Banderol» disparados desde drones de reconocimiento y ataque Orion ( Inojódets ) contra puntos de despliegue temporal ( PVD ) de las fuerzas ucranianas. La integración de estas municiones de precisión de alcance extendido en plataformas aéreas MALE permite batir cuarteles, depósitos e instalaciones en la retaguardia táctica eludiendo la cobertura de los sistemas antiaéreos de corto alcance en la línea de contacto.",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-18T13:32:07.772Z",
-        "index": 43,
+        "processed_at": "2026-09-18T17:41:31.241Z",
+        "index": 25,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -3153,8 +1586,8 @@
       "texto_original": "En el eje Konstantínovka-Slaviansk , reportes de combates posicionales confirman un nuevo empuje táctico ruso. El registro de fuego de artillería ucraniano contra posiciones en las inmediaciones de Popásnoye y Stenki ratifica la presencia avanzada de destacamentos rusos en dicho sector, consolidando una ganancia territorial superior a 1 km a lo largo de la línea del frente y estrechando la presión sobre los accesos orientales de Konstantínovka.",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-18T13:32:07.769Z",
-        "index": 40,
+        "processed_at": "2026-09-18T17:41:31.239Z",
+        "index": 22,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -3205,7 +1638,7 @@
       "final_score": 54
     },
     {
-      "id": "b256be204af6d172",
+      "id": "5facd91fa4c90c8e",
       "fuente_id": "resumen_militar",
       "fuente_nombre": "El Resumen Militar",
       "tipo": "telegram",
@@ -3217,16 +1650,16 @@
       "prioridad_fuente": 3,
       "analizar": true,
       "resumir": true,
-      "titulo": "‼️ 🇷🇺 Атаман Центрального казачьего войска обратился к казакам ➖ «Я часто слышал разговоры о том, что политика это не наше казачье дело, что мы не должны участвовать в работе политических партий, не должны ходить на вы",
-      "titulo_original": "‼️ 🇷🇺 Атаман Центрального казачьего войска обратился к казакам ➖ «Я часто слышал разговоры о том, что политика это не наше казачье дело, что мы не должны участвовать в работе политических партий, не должны ходить на вы",
-      "enlace": "https://t.me/elresumenmilitar/99686",
-      "fecha": "2026-09-18T10:16:06.000Z",
-      "resumen_corto": "‼️ 🇷🇺 Атаман Центрального казачьего войска обратился к казакам ➖ «Я часто слышал разговоры о том, что политика это не наше казачье дело, что мы не должны участвовать в работе политических партий, не должны ходить на выборы, что за нас все все решили и ничего мы не изменим.",
-      "resumen_largo": "‼️ 🇷🇺 Атаман Центрального казачьего войска обратился к казакам ➖ «Я часто слышал разговоры о том, что политика это не наше казачье дело, что мы не должны участвовать в работе политических партий, не должны ходить на выборы, что за нас все все решили и ничего мы не изменим. На самом деле это – в корне неверная позиция. ▪️ Я считаю, что мы как граждане России должны и имеем полное право участвовать в политической жизни нашей страны.",
-      "texto_original": "‼️ 🇷🇺 Атаман Центрального казачьего войска обратился к казакам ➖ «Я часто слышал разговоры о том, что политика это не наше казачье дело, что мы не должны участвовать в работе политических партий, не должны ходить на выборы, что за нас все все решили и ничего мы не изменим. На самом деле это – в корне неверная позиция. ▪️ Я считаю, что мы как граждане России должны и имеем полное право участвовать в политической жизни нашей страны. Завтра начинается голосование по выборам депутатов в Госдуму и законодательные органы власти ряда субъектов России. Я предлагаю и прошу всех вас прийти на избирательные участки и проголосовать» , - заявил А. Фадюхин. ⚠️ Подписаться на RV: MAX | t.me/RVvoenkor",
+      "titulo": "💬 В Европе начали жаловаться на Россию 💬 и снова навострили взор на Калининград ✍️ В Европе очень активно начали обсуждать Калининград. Эти угрозы России, а также призывы к захвату российской области, звучат все чаще.",
+      "titulo_original": "💬 В Европе начали жаловаться на Россию 💬 и снова навострили взор на Калининград ✍️ В Европе очень активно начали обсуждать Калининград. Эти угрозы России, а также призывы к захвату российской области, звучат все чаще.",
+      "enlace": "https://t.me/elresumenmilitar/99714",
+      "fecha": "2026-09-18T14:29:35.000Z",
+      "resumen_corto": "💬 В Европе начали жаловаться на Россию 💬 и снова навострили взор на Калининград ✍️ В Европе очень активно начали обсуждать Калининград.",
+      "resumen_largo": "💬 В Европе начали жаловаться на Россию 💬 и снова навострили взор на Калининград ✍️ В Европе очень активно начали обсуждать Калининград. Эти угрозы России, а также призывы к захвату российской области, звучат все чаще. Также в западных СМИ вроде Bloomberg пишут, что атаки России на Европу становятся все более дерзкими и опасными.",
+      "texto_original": "💬 В Европе начали жаловаться на Россию 💬 и снова навострили взор на Калининград ✍️ В Европе очень активно начали обсуждать Калининград. Эти угрозы России, а также призывы к захвату российской области, звучат все чаще. Также в западных СМИ вроде Bloomberg пишут, что атаки России на Европу становятся все более дерзкими и опасными. Появление жертв — лишь вопрос времени . ▪️ О каких атаках речь? ▪️ За последние месяцы российские гибридные атаки стали происходить всё глубже в Европе. Дроны фиксируются у энергообъектов и аэропортов, происходят поджоги, кибератаки и попытки повредить критическую инфраструктуру. ▪️ Особенно выросло давление на оборонные предприятия и логистику, связанные с поддержкой Украины. ▪️ Но растет не только количество атак, но и готовность России идти на больший риск. ▪️ Особенно показательна атака дронов на железнодорожную станцию у украинско-польской границы. В этот момент там находились чиновники США и ЕС. Такие действия раньше считались фактически табу. ▪️ Европейские чиновники боятся, что появление жертв среди гражданского населения — лишь вопрос времени. ▪️ Из всех указанных европейским ресурсом «российских атак» подтвердить можно лишь три, и все они были связаны с Украиной, а именно атака на КПП «Ягодин», удар дронов по сухогрузам и атаки на приграничные с Молдавией КПП. Всё остальное, что Европа представляет, как российские нападения на европейские объекты, – это домыслы без какого-либо подтверждения. С Лейпцигом даже партия «Альтернатива за Германию» требует доказательств у Мерца. ❗️ То, что Европа начала активно рассуждать о «неминуемых грядущих жертвах», – так себе признак для европейцев, которые как будто готовят какую-то провокацию против России. Полноценная война против Калининграда выглядит маловероятной, но проведение диверсии, в которой обвинили бы Россию и усилили давление, – такое вполне может быть. 🤙 Архангел Спецназа ! ❗️ 🤙 Если не грузит видео - смотрите у нас в MAX",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-18T13:32:07.753Z",
+        "processed_at": "2026-09-18T17:41:31.232Z",
         "index": 5,
         "resumen": {
           "generado": true,
@@ -3255,9 +1688,265 @@
         "relevancia": 45,
         "confiabilidad_fuente": 45,
         "readability": {
-          "words": 209,
-          "sentences": 12,
-          "average_words_per_sentence": 17.42
+          "words": 320,
+          "sentences": 28,
+          "average_words_per_sentence": 11.43
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 50.25
+    },
+    {
+      "id": "14bc40b0b603b4fa",
+      "fuente_id": "resumen_militar",
+      "fuente_nombre": "El Resumen Militar",
+      "tipo": "telegram",
+      "subtipo": "canal_telegram",
+      "grupo_fuente": "telegram_militar",
+      "nivel_fuente": "telegram",
+      "categoria": "militar",
+      "idioma_original": "es",
+      "prioridad_fuente": 3,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "🇷🇺 ПРОДОЛЖАЕМ ОСВОБОЖДЕНИЕ ДОНБАССА ⚡️ Подразделения группировки войск «Центр» в результате решительных действий полностью освободили ЗОЛОТОЙ КОЛОДЕЗЬ. Штурмовые группы прорвали оборону противника, выбили украинские фо",
+      "titulo_original": "🇷🇺 ПРОДОЛЖАЕМ ОСВОБОЖДЕНИЕ ДОНБАССА ⚡️ Подразделения группировки войск «Центр» в результате решительных действий полностью освободили ЗОЛОТОЙ КОЛОДЕЗЬ. Штурмовые группы прорвали оборону противника, выбили украинские фо",
+      "enlace": "https://t.me/elresumenmilitar/99713",
+      "fecha": "2026-09-18T14:27:28.000Z",
+      "resumen_corto": "💥 Противник понёс значительные потери в живой силе и технике: свыше 970 военнослужащих, более 26 единиц бронетехники, свыше 44 автомобилей и более 23 артиллерийских систем.",
+      "resumen_largo": "🇷🇺 ПРОДОЛЖАЕМ ОСВОБОЖДЕНИЕ ДОНБАССА ⚡️ Подразделения группировки войск «Центр» в результате решительных действий полностью освободили ЗОЛОТОЙ КОЛОДЕЗЬ. Штурмовые группы прорвали оборону противника, выбили украинские формирования с занимаемых позиций, зачистили населённый пункт и закрепились на новых рубежах. 💥 Противник понёс значительные потери в живой силе и технике: свыше 970 военнослужащих, более 26 единиц бронетехники, свыше 44 автомобилей и более 23 артиллерийских систем.",
+      "texto_original": "🇷🇺 ПРОДОЛЖАЕМ ОСВОБОЖДЕНИЕ ДОНБАССА ⚡️ Подразделения группировки войск «Центр» в результате решительных действий полностью освободили ЗОЛОТОЙ КОЛОДЕЗЬ. Штурмовые группы прорвали оборону противника, выбили украинские формирования с занимаемых позиций, зачистили населённый пункт и закрепились на новых рубежах. 💥 Противник понёс значительные потери в живой силе и технике: свыше 970 военнослужащих, более 26 единиц бронетехники, свыше 44 автомобилей и более 23 артиллерийских систем. Также уничтожено свыше 188 БПЛА и НРТК. 📌 Ещё один рубеж пройден, ещё один населённый пункт освобождён. «Центр» не сбавляет темп и продолжает освобождать населённые пункты один за другим. ✅ Подписывайтесь на нас в MAX @btr80",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-09-18T17:41:31.232Z",
+        "index": 6,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "militar",
+        "categorias_secundarias": [],
+        "category_scores": {},
+        "entidades": [],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 60,
+        "relevancia": 45,
+        "confiabilidad_fuente": 45,
+        "readability": {
+          "words": 184,
+          "sentences": 13,
+          "average_words_per_sentence": 14.15
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 50.25
+    },
+    {
+      "id": "cde14d2f8f3e1e91",
+      "fuente_id": "resumen_militar",
+      "fuente_nombre": "El Resumen Militar",
+      "tipo": "telegram",
+      "subtipo": "canal_telegram",
+      "grupo_fuente": "telegram_militar",
+      "nivel_fuente": "telegram",
+      "categoria": "militar",
+      "idioma_original": "es",
+      "prioridad_fuente": 3,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Последствия ударов ВСУ по предприятию \"Атлант Аэро\" в Таганроге Ростовской области на опубликованном противником спутниковом снимке. В результате попаданий тяжелые повреждения получили несколько производственных и складс",
+      "titulo_original": "Последствия ударов ВСУ по предприятию \"Атлант Аэро\" в Таганроге Ростовской области на опубликованном противником спутниковом снимке. В результате попаданий тяжелые повреждения получили несколько производственных и складс",
+      "enlace": "https://t.me/elresumenmilitar/99712",
+      "fecha": "2026-09-18T14:27:05.000Z",
+      "resumen_corto": "Последствия ударов ВСУ по предприятию \"Атлант Аэро\" в Таганроге Ростовской области на опубликованном противником спутниковом снимке.",
+      "resumen_largo": "Последствия ударов ВСУ по предприятию \"Атлант Аэро\" в Таганроге Ростовской области на опубликованном противником спутниковом снимке. В результате попаданий тяжелые повреждения получили несколько производственных и складских помещений. Заявляется, что для удара использовались ракеты \"Нептун\".",
+      "texto_original": "Последствия ударов ВСУ по предприятию \"Атлант Аэро\" в Таганроге Ростовской области на опубликованном противником спутниковом снимке. В результате попаданий тяжелые повреждения получили несколько производственных и складских помещений. Заявляется, что для удара использовались ракеты \"Нептун\". Завод \"Атлант Аэро\" занимается производством беспилотников серии \"Молния\" и комплектующих к ним. Военный Осведомитель",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-09-18T17:41:31.233Z",
+        "index": 7,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "militar",
+        "categorias_secundarias": [],
+        "category_scores": {},
+        "entidades": [],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 60,
+        "relevancia": 45,
+        "confiabilidad_fuente": 45,
+        "readability": {
+          "words": 125,
+          "sentences": 11,
+          "average_words_per_sentence": 11.36
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 50.25
+    },
+    {
+      "id": "a8cc419fb4c5b9eb",
+      "fuente_id": "resumen_militar",
+      "fuente_nombre": "El Resumen Militar",
+      "tipo": "telegram",
+      "subtipo": "canal_telegram",
+      "grupo_fuente": "telegram_militar",
+      "nivel_fuente": "telegram",
+      "categoria": "militar",
+      "idioma_original": "es",
+      "prioridad_fuente": 3,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Противник публикует фото уничтоженной ПУ ЗРК С-400 в Брянской области в ~90 км от границы с Украиной. Заявляется, что это была пусковая установка, используемая для запуска баллистических ракет РМ-48У , которые в последни",
+      "titulo_original": "Противник публикует фото уничтоженной ПУ ЗРК С-400 в Брянской области в ~90 км от границы с Украиной. Заявляется, что это была пусковая установка, используемая для запуска баллистических ракет РМ-48У , которые в последни",
+      "enlace": "https://t.me/elresumenmilitar/99711",
+      "fecha": "2026-09-18T14:26:41.000Z",
+      "resumen_corto": "Противник публикует фото уничтоженной ПУ ЗРК С-400 в Брянской области в ~90 км от границы с Украиной.",
+      "resumen_largo": "Противник публикует фото уничтоженной ПУ ЗРК С-400 в Брянской области в ~90 км от границы с Украиной. Заявляется, что это была пусковая установка, используемая для запуска баллистических ракет РМ-48У , которые в последние месяцы регулярно применяются ВС РФ для ударов по Киеву. По словам ГУР Украины, для применения по наземным целям было переоборудовано до 17 пусковых установок ЗРК С-400.",
+      "texto_original": "Противник публикует фото уничтоженной ПУ ЗРК С-400 в Брянской области в ~90 км от границы с Украиной. Заявляется, что это была пусковая установка, используемая для запуска баллистических ракет РМ-48У , которые в последние месяцы регулярно применяются ВС РФ для ударов по Киеву. По словам ГУР Украины, для применения по наземным целям было переоборудовано до 17 пусковых установок ЗРК С-400. Военный Осведомитель",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-09-18T17:41:31.233Z",
+        "index": 8,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "militar",
+        "categorias_secundarias": [],
+        "category_scores": {},
+        "entidades": [],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 60,
+        "relevancia": 45,
+        "confiabilidad_fuente": 45,
+        "readability": {
+          "words": 146,
+          "sentences": 10,
+          "average_words_per_sentence": 14.6
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 50.25
+    },
+    {
+      "id": "afe3f71bf13e3e6e",
+      "fuente_id": "resumen_militar",
+      "fuente_nombre": "El Resumen Militar",
+      "tipo": "telegram",
+      "subtipo": "canal_telegram",
+      "grupo_fuente": "telegram_militar",
+      "nivel_fuente": "telegram",
+      "categoria": "militar",
+      "idioma_original": "es",
+      "prioridad_fuente": 3,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Уничтожение РЛС П-19 (или ее макета) ударом реактивной \"Герань-4 сикер\" и удар по стоявшей рядом купольной системе РЭБ в районе поселка Широкое Днепропетровской области. Также в кадре есть удар, как заявляется, по сменив",
+      "titulo_original": "Уничтожение РЛС П-19 (или ее макета) ударом реактивной \"Герань-4 сикер\" и удар по стоявшей рядом купольной системе РЭБ в районе поселка Широкое Днепропетровской области. Также в кадре есть удар, как заявляется, по сменив",
+      "enlace": "https://t.me/elresumenmilitar/99704",
+      "fecha": "2026-09-18T14:25:48.000Z",
+      "resumen_corto": "Уничтожение РЛС П-19 (или ее макета) ударом реактивной \"Герань-4 сикер\" и удар по стоявшей рядом купольной системе РЭБ в районе поселка Широкое Днепропетровской области.",
+      "resumen_largo": "Уничтожение РЛС П-19 (или ее макета) ударом реактивной \"Герань-4 сикер\" и удар по стоявшей рядом купольной системе РЭБ в районе поселка Широкое Днепропетровской области. Также в кадре есть удар, как заявляется, по сменившей позицию РЛС 79К6 \"Пеликан \" в окрестностях села Дальник Одесской области, но кадров объективного контроля уже нет. Аналогичную систему дополнительного прикрытия бревнами своих РЛС противник уже использовал ранее.",
+      "texto_original": "Уничтожение РЛС П-19 (или ее макета) ударом реактивной \"Герань-4 сикер\" и удар по стоявшей рядом купольной системе РЭБ в районе поселка Широкое Днепропетровской области. Также в кадре есть удар, как заявляется, по сменившей позицию РЛС 79К6 \"Пеликан \" в окрестностях села Дальник Одесской области, но кадров объективного контроля уже нет. Аналогичную систему дополнительного прикрытия бревнами своих РЛС противник уже использовал ранее. Военный Осведомитель",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-09-18T17:41:31.234Z",
+        "index": 9,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "militar",
+        "categorias_secundarias": [],
+        "category_scores": {},
+        "entidades": [],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 60,
+        "relevancia": 45,
+        "confiabilidad_fuente": 45,
+        "readability": {
+          "words": 175,
+          "sentences": 10,
+          "average_words_per_sentence": 17.5
         },
         "duplicate": {
           "detected": false,
@@ -3269,24 +1958,24 @@
       "final_score": 50.25
     }
   ],
-  "analyzed_at": "2026-09-18T13:32:07.773Z",
+  "analyzed_at": "2026-09-18T17:41:31.242Z",
   "analysis_stats": {
-    "input_items": 45,
-    "valid_items": 45,
+    "input_items": 27,
+    "valid_items": 27,
     "rejected_items": 0,
     "duplicate_items": 0,
     "clickbait_items": 0,
     "spam_items": 0,
-    "summaries_generated": 45,
-    "average_quality": 78,
-    "average_relevance": 59
+    "summaries_generated": 27,
+    "average_quality": 74,
+    "average_relevance": 58
   },
   "validation": {
     "version": "1.1",
-    "executed_at": "2026-09-18T13:32:07.875Z",
-    "original_items": 45,
+    "executed_at": "2026-09-18T17:41:31.337Z",
+    "original_items": 27,
     "rejected_items": 0,
-    "final_items": 45,
+    "final_items": 27,
     "limit": 60,
     "status": "ok"
   }

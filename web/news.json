@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "updated_at": "2026-09-23T19:35:14.890Z",
+  "updated_at": "2026-09-23T22:49:41.891Z",
   "configuracion": {
     "limite_global": 60,
     "frecuencia_minutos": 60,
@@ -22,63 +22,59 @@
   },
   "source_stats": {
     "active_sources": 15,
-    "successful_sources": 15,
-    "collected_items": 63,
-    "deduplicated_items": 43,
-    "final_items": 43
+    "successful_sources": 14,
+    "collected_items": 57,
+    "deduplicated_items": 39,
+    "final_items": 39
   },
   "items": [
     {
-      "id": "f6dc42b3ecaf67ee",
-      "fuente_id": "huawei_central",
-      "fuente_nombre": "Huawei Central",
+      "id": "1a23b30899511add",
+      "fuente_id": "bbc_mundo",
+      "fuente_nombre": "BBC Mundo",
       "tipo": "rss_web",
-      "subtipo": "medio_especializado",
-      "grupo_fuente": "huawei",
-      "nivel_fuente": "secundaria_especializada",
-      "categoria": "moviles",
-      "idioma_original": "en",
+      "subtipo": "medio_generalista",
+      "grupo_fuente": "bbc",
+      "nivel_fuente": "medio_profesional",
+      "categoria": "actualidad",
+      "idioma_original": "es",
       "prioridad_fuente": 5,
       "analizar": true,
       "resumir": true,
-      "titulo": "Honor MagicPad 4 con pantalla de 165Hz se lanzará el 28 de septiembre",
-      "titulo_original": "Honor MagicPad 4 with 165Hz screen launching on September 28",
-      "enlace": "https://www.huaweicentral.com/honor-magicpad-4-with-165hz-screen-launching-on-september-28/",
-      "fecha": "2026-09-23T12:11:34.000Z",
-      "resumen_corto": "Honor anunció hoy oficialmente la tableta MagicPad 4, confirmando su debut el 28 de septiembre junto con los teléfonos inteligentes de la serie Magic 9.",
-      "resumen_largo": "Honor anunció hoy oficialmente la tableta MagicPad 4, confirmando su debut el 28 de septiembre junto con los teléfonos inteligentes de la serie Magic 9. La compañía también mantuvo el dispositivo de pantalla grande en el estante de pedidos anticipados con dos variantes de almacenamiento RAM +. El gigante tecnológico llama a Honor MagicPad 4, una tableta sin bordes que puede romper las limitaciones del papel, […] La publicación Honor MagicPad 4 con pantalla de 165 Hz que se lanzará el 28 de septiembre apareció por primera vez en Huawei Central.",
-      "texto_original": "Honor today officially announced the MagicPad 4 tablet, confirming its debut on September 28 alongside the Magic 9 series smartphones. The company has also kept the large-screen device on the pre-order rack with two RAM + storage variants. The tech giant calls Honor MagicPad 4, a borderless tablet that can break the limitations of paper, […] The post Honor MagicPad 4 with 165Hz screen launching on September 28 appeared first on Huawei Central .",
+      "titulo": "La polémica en Francia por el autor al que acusan de haber escrito con IA su premiada novela",
+      "titulo_original": "La polémica en Francia por el autor al que acusan de haber escrito con IA su premiada novela",
+      "enlace": "https://www.bbc.com/mundo/articles/cmje8gqd3zjwo?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-09-23T21:23:46.000Z",
+      "resumen_corto": "El panorama de la literatura en Francia está conmocionado después de que se acusara a un autor canadiense-haitiano, considerado una promesa del género, de usar inteligencia artificial (IA) para escribir su primera novela.",
+      "resumen_largo": "El panorama de la literatura en Francia está conmocionado después de que se acusara a un autor canadiense-haitiano, considerado una promesa del género, de usar inteligencia artificial (IA) para escribir su primera novela. Thélyson Orélien, de 38 años, acaba de recibir el Premio de Novela Fnac, el primero de la temporada de galardones literarios, por su obra C'était ça ou mourir (\"Era eso o morir\"). También es finalista de los premios anuales más prestigiosos de la lengua francesa, el Goncourt y el Renaudot, que se entregarán próximamente.",
+      "texto_original": "El panorama de la literatura en Francia está conmocionado después de que se acusara a un autor canadiense-haitiano, considerado una promesa del género, de usar inteligencia artificial (IA) para escribir su primera novela. Thélyson Orélien, de 38 años, acaba de recibir el Premio de Novela Fnac, el primero de la temporada de galardones literarios, por su obra C'était ça ou mourir (\"Era eso o morir\"). También es finalista de los premios anuales más prestigiosos de la lengua francesa, el Goncourt y el Renaudot, que se entregarán próximamente. Pero el martes, un grupo poco conocido llamado Balance ton Claude (\"Denuncia a tu Claude\", en referencia al asistente de IA de Anthropic) dijo que el libro fue escrito \"casi en su totalidad\" por IA, una acusación que el autor negó después. \"Probamos varios pasajes, de diferentes partes del manuscrito, y llegamos al mismo resultado: 100% IA\", dijo el grupo en X. Según el grupo, de cuyos miembros se sabe muy poco, la detección fue realizada por un programa llamado Pangram, que, según afirman, es \"de lejos el más preciso\", con una probabilidad casi insignificante de cometer un error.",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-23T19:35:14.765Z",
-        "index": 18,
+        "processed_at": "2026-09-23T22:49:41.728Z",
+        "index": 6,
         "resumen": {
           "generado": true,
           "origen": "translated"
         },
         "idioma_detectado": "es",
-        "idioma_original": "en",
-        "categoria": "moviles",
+        "idioma_original": "es",
+        "categoria": "inteligencia_artificial",
         "categorias_secundarias": [
-          "tecnologia",
-          "inteligencia_artificial",
-          "hardware"
+          "moviles",
+          "hardware",
+          "vehiculos_energia"
         ],
         "category_scores": {
-          "moviles": 9,
-          "tecnologia": 3,
-          "inteligencia_artificial": 1,
+          "inteligencia_artificial": 6,
+          "moviles": 1,
           "hardware": 1,
-          "baterias_energia": 1,
-          "vehiculos_energia": 1,
-          "software_internet": 1
+          "vehiculos_energia": 1
         },
         "entidades": [
-          "Huawei",
-          "Honor"
+          "Claude"
         ],
         "cifras_detectadas": [
-          "4 w"
+          "100%"
         ],
         "content_type": "report",
         "clickbait": {
@@ -93,12 +89,12 @@
           "url_count": 0
         },
         "calidad": 97,
-        "relevancia": 83,
-        "confiabilidad_fuente": 75,
+        "relevancia": 70,
+        "confiabilidad_fuente": 80,
         "readability": {
-          "words": 152,
-          "sentences": 7,
-          "average_words_per_sentence": 21.71
+          "words": 225,
+          "sentences": 10,
+          "average_words_per_sentence": 22.5
         },
         "duplicate": {
           "detected": false,
@@ -107,7 +103,7 @@
           "similar_to": null
         }
       },
-      "final_score": 85.9
+      "final_score": 81.95
     },
     {
       "id": "034b22380d5ec8bd",
@@ -131,8 +127,8 @@
       "texto_original": "Reportero de la revista The New Yorker desde 1998, es biógrafo del Che Guevara y autor de perfiles de Hugo Chávez, Fidel Castro y Gabriel García Márquez. Ha informado sobre la región desde la década de 1980 con un método que se ha convertido en su sello personal: sumergirse durante meses en el terreno y convivir estrechamente con las personas sobre las que escribe. Y él sostiene que ahora todo el continente americano vive una especie de limbo debido a la \"dinámica de un hombre que llegó a la Casa Blanca y puso su personalidad y sus intereses por encima de los de su país\" en referencia al presidente Donald Trump. \"Lo próximo que veremos será una acción militar directa de Estados Unidos en distintos países, supuestamente contra el narcotráfico. Todo esto es preocupante en términos del respeto a la soberanía entre las naciones\", opina en diálogo con BBC Brasil. En ese sentido, este martes Trump dijo en su discurso en Naciones Unidas que \"si es necesario, Estados Unidos usará su incomparable poderío militar para garantizar los intereses nacionales en la región\", citando como ejemplo la captura del presidente venezolanos Nicolás Maduro el 3 de enero. Pero Anderson afirma que no son solo países latinomericanos se encuentran bajo una presión constante por parte de Trump. Según el periodista, el estilo de Trump está moldeando a los líderes del continente, muchos de los cuales buscan la aprobación del presidente estadounidense.",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-23T19:35:14.758Z",
-        "index": 8,
+        "processed_at": "2026-09-23T22:49:41.737Z",
+        "index": 16,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -188,87 +184,6 @@
       "final_score": 78.75
     },
     {
-      "id": "06ccc97e47ef148b",
-      "fuente_id": "huawei_central",
-      "fuente_nombre": "Huawei Central",
-      "tipo": "rss_web",
-      "subtipo": "medio_especializado",
-      "grupo_fuente": "huawei",
-      "nivel_fuente": "secundaria_especializada",
-      "categoria": "moviles",
-      "idioma_original": "en",
-      "prioridad_fuente": 5,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "La filtración del cronograma de lanzamiento de la serie Honor 700 hace su debut",
-      "titulo_original": "Honor 700 series launch timeline leak makes a debut",
-      "enlace": "https://www.huaweicentral.com/honor-700-series-launch-timeline-leak-makes-a-debut/",
-      "fecha": "2026-09-23T09:04:29.000Z",
-      "resumen_corto": "Además de los teléfonos insignia Magic 9, la serie Honor 700 está en proceso y su cronograma de lanzamiento apareció en una nueva filtración.",
-      "resumen_largo": "Además de los teléfonos insignia Magic 9, la serie Honor 700 está en proceso y su cronograma de lanzamiento apareció en una nueva filtración. Quizás la gama media siga en este caso a sus predecesores y aparezca en escena en noviembre de 2026. SmartPikachu reveló que el cronograma de lanzamiento de la serie Honor 700 podría ser […] La filtración posterior al cronograma de lanzamiento de la serie Honor 700 hace su debut apareció por primera vez en Huawei Central.",
-      "texto_original": "Besides the Magic 9 flagship phones, the Honor 700 series is in the making and its launch timeline has appeared in a new leak. Perhaps the mid-range lineup will follow its predecessors in this case and show up on the stage by November 2026. SmartPikachu revealed that the Honor 700 series launch timeline could be […] The post Honor 700 series launch timeline leak makes a debut appeared first on Huawei Central .",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-09-23T19:35:14.772Z",
-        "index": 30,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "en",
-        "categoria": "moviles",
-        "categorias_secundarias": [
-          "inteligencia_artificial",
-          "hardware",
-          "vehiculos_energia"
-        ],
-        "category_scores": {
-          "moviles": 4,
-          "inteligencia_artificial": 1,
-          "hardware": 1,
-          "vehiculos_energia": 1,
-          "software_internet": 1
-        },
-        "entidades": [
-          "Huawei",
-          "Honor"
-        ],
-        "cifras_detectadas": [
-          "2026"
-        ],
-        "content_type": "opinion",
-        "clickbait": {
-          "detected": false,
-          "score": 25,
-          "signals": [
-            "\\brevealed\\b"
-          ]
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 89,
-        "relevancia": 75,
-        "confiabilidad_fuente": 65,
-        "readability": {
-          "words": 146,
-          "sentences": 7,
-          "average_words_per_sentence": 20.86
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 77.4
-    },
-    {
       "id": "c6ae34e9391dd271",
       "fuente_id": "huawei_google",
       "fuente_nombre": "Huawei Central",
@@ -290,8 +205,8 @@
       "texto_original": "Huawei Kirin 9050 Pro outperforms Apple’s 3nm chip in tests: Report Huawei Central",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-23T19:35:14.774Z",
-        "index": 33,
+        "processed_at": "2026-09-23T22:49:41.746Z",
+        "index": 30,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -347,29 +262,29 @@
       "final_score": 75.8
     },
     {
-      "id": "ff2869675e3dc409",
-      "fuente_id": "huawei_central",
-      "fuente_nombre": "Huawei Central",
+      "id": "253cabc44e7d3269",
+      "fuente_id": "openai_google",
+      "fuente_nombre": "OpenAI",
       "tipo": "rss_web",
-      "subtipo": "medio_especializado",
-      "grupo_fuente": "huawei",
-      "nivel_fuente": "secundaria_especializada",
-      "categoria": "moviles",
+      "subtipo": "google_news",
+      "grupo_fuente": "openai",
+      "nivel_fuente": "fuente_oficial",
+      "categoria": "inteligencia_artificial",
       "idioma_original": "en",
       "prioridad_fuente": 5,
       "analizar": true,
       "resumir": true,
-      "titulo": "Huawei Smart Lock 2 Pro Enjoy Edition próximamente con reconocimiento facial 3D AI 3.0",
-      "titulo_original": "Huawei Smart Lock 2 Pro Enjoy Edition coming soon with AI 3D Face Recognition 3.0",
-      "enlace": "https://www.huaweicentral.com/huawei-smart-lock-2-pro-enjoy-edition/",
-      "fecha": "2026-09-23T11:57:41.000Z",
-      "resumen_corto": "Huawei ha anunciado Smart Door Lock 2 Pro Enjoy Edition y lo lanzará pronto en el mercado de consumo.",
-      "resumen_largo": "Huawei ha anunciado Smart Door Lock 2 Pro Enjoy Edition y lo lanzará pronto en el mercado de consumo. El producto para el hogar inteligente se encuentra actualmente en fase de preventa con un precio asequible. Los compradores pueden obtener más descuentos gracias a los subsidios chinos.",
-      "texto_original": "Huawei has announced the Smart Door Lock 2 Pro Enjoy Edition and will launch it soon in the consumer market. The smart home product is currently in the pre-sale phase with an affordable price. Buyers can get further discounts via Chinese subsidies. The tech giant has several Smart Door Lock products with significant features and […] The post Huawei Smart Lock 2 Pro Enjoy Edition coming soon with AI 3D Face Recognition 3.0 appeared first on Huawei Central .",
+      "titulo": "Declaraciones de Sam Altman en el Consejo de Seguridad de las Naciones Unidas",
+      "titulo_original": "Sam Altman’s remarks at the United Nations Security Council - OpenAI",
+      "enlace": "https://news.google.com/rss/articles/CBMickFVX3lxTE5KSllHMS1Cb2QyZVQ5QVh2SEJzamI0N2tfSjE0OGJYQ2hzdERiMldGZnpGZ3AtYUk2NU1FNGVLNGEwcU9pQUJUa0F4V0lZVXVfd1RGbGZQZF81b29EMWFoYUp5X051YkNsYjJmclJLR3Z4dw?oc=5",
+      "fecha": "2026-09-23T20:56:16.000Z",
+      "resumen_corto": "Declaraciones de Sam Altman en el Consejo de Seguridad de las Naciones Unidas OpenAI",
+      "resumen_largo": "Declaraciones de Sam Altman en el Consejo de Seguridad de las Naciones Unidas OpenAI",
+      "texto_original": "Sam Altman’s remarks at the United Nations Security Council OpenAI",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-23T19:35:14.766Z",
-        "index": 21,
+        "processed_at": "2026-09-23T22:49:41.730Z",
+        "index": 7,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -378,313 +293,11 @@
         "idioma_original": "en",
         "categoria": "inteligencia_artificial",
         "categorias_secundarias": [
-          "moviles",
-          "vehiculos_energia",
           "software_internet"
         ],
         "category_scores": {
           "inteligencia_artificial": 2,
-          "moviles": 2,
-          "vehiculos_energia": 1,
-          "software_internet": 1,
-          "tecnologia": 1
-        },
-        "entidades": [
-          "Huawei"
-        ],
-        "cifras_detectadas": [],
-        "content_type": "report",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 92,
-        "relevancia": 62,
-        "confiabilidad_fuente": 75,
-        "readability": {
-          "words": 133,
-          "sentences": 11,
-          "average_words_per_sentence": 12.09
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 75.75
-    },
-    {
-      "id": "826077b3990bfaba",
-      "fuente_id": "huawei_central",
-      "fuente_nombre": "Huawei Central",
-      "tipo": "rss_web",
-      "subtipo": "medio_especializado",
-      "grupo_fuente": "huawei",
-      "nivel_fuente": "secundaria_especializada",
-      "categoria": "moviles",
-      "idioma_original": "en",
-      "prioridad_fuente": 5,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "Honor Magic 9 Super Edition da un lugar difícil a los buques insignia en las pruebas de batería",
-      "titulo_original": "Honor Magic 9 Super Edition giving tough spot to flagships in battery tests",
-      "enlace": "https://www.huaweicentral.com/honor-magic-9-super-edition-battery-tests/",
-      "fecha": "2026-09-23T07:29:03.000Z",
-      "resumen_corto": "Honor Magic 9 Super Edition todavía está detrás del muro de avances; Mientras tanto, algunos informantes han realizado pruebas de batería del nuevo smartphone.",
-      "resumen_largo": "Honor Magic 9 Super Edition todavía está detrás del muro de avances; Mientras tanto, algunos informantes han realizado pruebas de batería del nuevo smartphone. Parece que la capacidad de la celda gigante del próximo teléfono ya está dando una dura competencia a muchos buques insignia. Varios informantes han realizado recientemente pruebas de batería para Honor Magic 9 Super Edition […] La publicación Honor Magic 9 Super Edition dando un lugar difícil a los buques insignia en las pruebas de batería apareció por primera vez en Huawei Central.",
-      "texto_original": "Honor Magic 9 Super Edition is still behind the teaser wall; meanwhile, some tipsters have performed battery tests of the new smartphone. It looks like the jumbo cell capacity of the upcoming handset is already giving tough competition to many flagships. Several tipsters have recently conducted battery tests for the Honor Magic 9 Super Edition […] The post Honor Magic 9 Super Edition giving tough spot to flagships in battery tests appeared first on Huawei Central .",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-09-23T19:35:14.773Z",
-        "index": 32,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "en",
-        "categoria": "moviles",
-        "categorias_secundarias": [
-          "baterias_energia",
-          "inteligencia_artificial",
-          "hardware"
-        ],
-        "category_scores": {
-          "moviles": 6,
-          "baterias_energia": 2,
-          "inteligencia_artificial": 1,
-          "hardware": 1,
-          "vehiculos_energia": 1,
-          "software_internet": 1
-        },
-        "entidades": [
-          "Huawei",
-          "Honor"
-        ],
-        "cifras_detectadas": [],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 84,
-        "relevancia": 75,
-        "confiabilidad_fuente": 65,
-        "readability": {
-          "words": 175,
-          "sentences": 7,
-          "average_words_per_sentence": 25
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 75.65
-    },
-    {
-      "id": "f9e150a77fdebb18",
-      "fuente_id": "openai_google",
-      "fuente_nombre": "OpenAI",
-      "tipo": "rss_web",
-      "subtipo": "google_news",
-      "grupo_fuente": "openai",
-      "nivel_fuente": "fuente_oficial",
-      "categoria": "inteligencia_artificial",
-      "idioma_original": "en",
-      "prioridad_fuente": 5,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "Tasas de error elevadas para ChatGPT en los planes Plus y Pro. -OpenAI",
-      "titulo_original": "Elevated Error Rates for ChatGPT across Plus and Pro plans. - OpenAI",
-      "enlace": "https://news.google.com/rss/articles/CBMib0FVX3lxTE80d3FmUURIa1NBcVdUTmRQd0xsblY5enR0V2syTjQ5ZENDbmtkZk1jMVJZdDVTeUgwaXJ5aWlxOGEtUUtKN21rVXQ4R3J4dmhDbktPampETjh1Yk1jWjJnSVBOSkJNS1N0R0pRS1pnSQ?oc=5",
-      "fecha": "2026-09-23T09:13:00.000Z",
-      "resumen_corto": "Tasas de error elevadas para ChatGPT en los planes Plus y Pro.",
-      "resumen_largo": "Tasas de error elevadas para ChatGPT en los planes Plus y Pro.",
-      "texto_original": "Elevated Error Rates for ChatGPT across Plus and Pro plans. OpenAI",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-09-23T19:35:14.771Z",
-        "index": 29,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "en",
-        "categoria": "inteligencia_artificial",
-        "categorias_secundarias": [
-          "vehiculos_energia"
-        ],
-        "category_scores": {
-          "inteligencia_artificial": 4,
-          "vehiculos_energia": 1
-        },
-        "entidades": [
-          "OpenAI",
-          "ChatGPT"
-        ],
-        "cifras_detectadas": [],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 84,
-        "relevancia": 67,
-        "confiabilidad_fuente": 75,
-        "readability": {
-          "words": 50,
-          "sentences": 6,
-          "average_words_per_sentence": 8.33
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 74.95
-    },
-    {
-      "id": "b08c30db64505fc4",
-      "fuente_id": "huawei_central",
-      "fuente_nombre": "Huawei Central",
-      "tipo": "rss_web",
-      "subtipo": "medio_especializado",
-      "grupo_fuente": "huawei",
-      "nivel_fuente": "secundaria_especializada",
-      "categoria": "moviles",
-      "idioma_original": "en",
-      "prioridad_fuente": 5,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "Huawei Pura X View obtiene gestos de deslizamiento hacia abajo personalizables",
-      "titulo_original": "Huawei Pura X View gets customizable swipe-down gestures",
-      "enlace": "https://www.huaweicentral.com/huawei-pura-x-view-gets-customizable-swipe-down-gestures/",
-      "fecha": "2026-09-23T10:06:41.000Z",
-      "resumen_corto": "Esta adición mejora la interacción del usuario con el dispositivo, haciendo que el acceso a Celia, el Centro de notificaciones y el Panel de control sea más conveniente.",
-      "resumen_largo": "Huawei Pura X View ahora obtiene nuevos gestos de deslizamiento hacia abajo personalizables para la pantalla de inicio. Esta adición mejora la interacción del usuario con el dispositivo, haciendo que el acceso a Celia, el Centro de notificaciones y el Panel de control sea más conveniente. Los gestos personalizables de deslizar hacia abajo en la pantalla de inicio debutaron con el teléfono triple plegable Mate XT 2 este mes.",
-      "texto_original": "Huawei Pura X View is now getting new customizable swipe-down gestures for the home screen. This addition enhances user interaction with the device, making access to Celia, the Notification Center, and the Control Panel more convenient. Customizable home-screen swipe-down gestures debuted with the Mate XT 2 triple foldable phone this month. It enables users to […] The post Huawei Pura X View gets customizable swipe-down gestures appeared first on Huawei Central .",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-09-23T19:35:14.769Z",
-        "index": 26,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "en",
-        "categoria": "moviles",
-        "categorias_secundarias": [
-          "tecnologia",
-          "inteligencia_artificial",
-          "vehiculos_energia"
-        ],
-        "category_scores": {
-          "moviles": 5,
-          "tecnologia": 2,
-          "inteligencia_artificial": 1,
-          "vehiculos_energia": 1,
-          "software_internet": 1
-        },
-        "entidades": [
-          "Huawei"
-        ],
-        "cifras_detectadas": [],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 84,
-        "relevancia": 70,
-        "confiabilidad_fuente": 65,
-        "readability": {
-          "words": 150,
-          "sentences": 8,
-          "average_words_per_sentence": 18.75
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 73.65
-    },
-    {
-      "id": "ea9c9764ec1f48bb",
-      "fuente_id": "openai_google",
-      "fuente_nombre": "OpenAI",
-      "tipo": "rss_web",
-      "subtipo": "google_news",
-      "grupo_fuente": "openai",
-      "nivel_fuente": "fuente_oficial",
-      "categoria": "inteligencia_artificial",
-      "idioma_original": "en",
-      "prioridad_fuente": 5,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "OpenAI amplía el acceso cibernético a Ucrania para la defensa civil",
-      "titulo_original": "OpenAI extends cyber access to Ukraine for civilian defense - OpenAI",
-      "enlace": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPU2NIQXp3NEUzaFBIbmpKLWhlcW5KcUlBT3YwLWpwYWpXQmhjRnRhOVY5WFFjVzhIanBzRkJ4czZqV2ZhTGN4cG9KRVRybUFqYnJKQ2d6ZFVRQjFnVUJZTndwZU1uWFlWZGd6VWp0M2hpVDdIMmkya28zanE1TnJtTjlHMWM1TkRHVGNBMFBn?oc=5",
-      "fecha": "2026-09-23T12:09:23.000Z",
-      "resumen_corto": "OpenAI amplía el acceso cibernético a Ucrania para la defensa civil OpenAI",
-      "resumen_largo": "OpenAI amplía el acceso cibernético a Ucrania para la defensa civil OpenAI",
-      "texto_original": "OpenAI extends cyber access to Ukraine for civilian defense OpenAI",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-09-23T19:35:14.765Z",
-        "index": 19,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "en",
-        "categoria": "inteligencia_artificial",
-        "categorias_secundarias": [
-          "militar"
-        ],
-        "category_scores": {
-          "inteligencia_artificial": 3,
-          "militar": 2
+          "software_internet": 2
         },
         "entidades": [
           "OpenAI"
@@ -720,6 +333,74 @@
       "final_score": 72.95
     },
     {
+      "id": "63555c43ef9c2e34",
+      "fuente_id": "openai_google",
+      "fuente_nombre": "OpenAI",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "openai",
+      "nivel_fuente": "fuente_oficial",
+      "categoria": "inteligencia_artificial",
+      "idioma_original": "en",
+      "prioridad_fuente": 5,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Airbnb amplía el acceso a los modelos de frontera GPT-6 Astra y OpenAI",
+      "titulo_original": "Airbnb widens access to GPT-6 Astra and OpenAI frontier models - OpenAI",
+      "enlace": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9JX21aTWVHSG9paXFVQ0hiajZqU095SWY3YVhRbzNPSWZmRWFYSXREY3NRTUp0U283dGhyTjVCUXdtNl9kUzZIeU1JbjhzdUtFRGhpREdZRQ?oc=5",
+      "fecha": "2026-09-23T20:07:15.000Z",
+      "resumen_corto": "Airbnb amplía el acceso a los modelos de frontera GPT-6 Astra y OpenAI OpenAI",
+      "resumen_largo": "Airbnb amplía el acceso a los modelos de frontera GPT-6 Astra y OpenAI OpenAI",
+      "texto_original": "Airbnb widens access to GPT-6 Astra and OpenAI frontier models OpenAI",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-09-23T22:49:41.730Z",
+        "index": 8,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "en",
+        "categoria": "inteligencia_artificial",
+        "categorias_secundarias": [],
+        "category_scores": {
+          "inteligencia_artificial": 4
+        },
+        "entidades": [
+          "OpenAI"
+        ],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 84,
+        "relevancia": 62,
+        "confiabilidad_fuente": 75,
+        "readability": {
+          "words": 49,
+          "sentences": 1,
+          "average_words_per_sentence": 49
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 72.95
+    },
+    {
       "id": "7b64fb20a75ca6db",
       "fuente_id": "techinsights_google",
       "fuente_nombre": "TechInsights",
@@ -741,8 +422,8 @@
       "texto_original": "2026 Fall CMC Seminar Singapore | Semiconductor Supply Chains TechInsights",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-23T19:35:14.776Z",
-        "index": 42,
+        "processed_at": "2026-09-23T22:49:41.749Z",
+        "index": 38,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -795,220 +476,6 @@
       "final_score": 72.2
     },
     {
-      "id": "26cfc9922816ae27",
-      "fuente_id": "huawei_central",
-      "fuente_nombre": "Huawei Central",
-      "tipo": "rss_web",
-      "subtipo": "medio_especializado",
-      "grupo_fuente": "huawei",
-      "nivel_fuente": "secundaria_especializada",
-      "categoria": "moviles",
-      "idioma_original": "en",
-      "prioridad_fuente": 5,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "El fundador de Huawei, Ren Zhengfei, pone fin a los rumores de desaparición",
-      "titulo_original": "Huawei Founder Ren Zhengfei puts an end to disappearance rumors",
-      "enlace": "https://www.huaweicentral.com/huawei-founder-ren-zhengfei-puts-an-end-to-disappearance-rumors/",
-      "fecha": "2026-09-23T11:28:44.000Z",
-      "resumen_corto": "El fundador de Huawei, Ren Zhengfei, ha marcado el fin de los rumores de desaparición y apareció en Shenzhen para cerrar una nueva cooperación estratégica con Dongfeng Motor y algunos otros altos representantes de la empresa.",
-      "resumen_largo": "El fundador de Huawei, Ren Zhengfei, ha marcado el fin de los rumores de desaparición y apareció en Shenzhen para cerrar una nueva cooperación estratégica con Dongfeng Motor y algunos otros altos representantes de la empresa. Feng Changjun, director general y subsecretario del comité del partido de Dongfeng Motor, visitó Shenzhen el 22 de septiembre. Durante […] La publicación El fundador de Huawei, Ren Zhengfei, pone fin a los rumores de desaparición apareció por primera vez en Huawei Central.",
-      "texto_original": "Huawei Founder Ren Zhengfei has now marked the end of the disappearance rumors and appeared in Shenzhen to lock in a new strategic cooperation with Dongfeng Motor and some other senior representatives of the company. Feng Changjun, General Manager and Deputy Secretary of the Party Committee of Dongfeng Motor, visited Shenzhen on September 22. During […] The post Huawei Founder Ren Zhengfei puts an end to disappearance rumors appeared first on Huawei Central .",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-09-23T19:35:14.767Z",
-        "index": 22,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "en",
-        "categoria": "vehiculos_energia",
-        "categorias_secundarias": [
-          "moviles",
-          "software_internet"
-        ],
-        "category_scores": {
-          "vehiculos_energia": 2,
-          "moviles": 1,
-          "software_internet": 1
-        },
-        "entidades": [
-          "Huawei"
-        ],
-        "cifras_detectadas": [],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 84,
-        "relevancia": 62,
-        "confiabilidad_fuente": 65,
-        "readability": {
-          "words": 157,
-          "sentences": 7,
-          "average_words_per_sentence": 22.43
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 70.45
-    },
-    {
-      "id": "7651afb88d6f234e",
-      "fuente_id": "openai_google",
-      "fuente_nombre": "OpenAI",
-      "tipo": "rss_web",
-      "subtipo": "google_news",
-      "grupo_fuente": "openai",
-      "nivel_fuente": "fuente_oficial",
-      "categoria": "inteligencia_artificial",
-      "idioma_original": "en",
-      "prioridad_fuente": 5,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "Presentamos MentalHealthBench",
-      "titulo_original": "Introducing MentalHealthBench - OpenAI",
-      "enlace": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBWMWZSZnd6UUh0UDZ3UEY0M2lKYjVXcUVWVlIzNWpYd3ZiY0Z0ZDlzb0xWSHVhTG5QejZXRnBzV0pJd2hVVW9EcXJVLW5IRzN6YUh0TzRQbUNJVWhtc0x3Q3NhVXd6dw?oc=5",
-      "fecha": "2026-09-23T19:15:34.000Z",
-      "resumen_corto": "Presentamos MentalHealthBench OpenAI",
-      "resumen_largo": "Presentamos MentalHealthBench OpenAI",
-      "texto_original": "Introducing MentalHealthBench OpenAI",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-09-23T19:35:14.751Z",
-        "index": 1,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "en",
-        "idioma_original": "en",
-        "categoria": "inteligencia_artificial",
-        "categorias_secundarias": [],
-        "category_scores": {
-          "inteligencia_artificial": 2
-        },
-        "entidades": [
-          "OpenAI"
-        ],
-        "cifras_detectadas": [],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 84,
-        "relevancia": 55,
-        "confiabilidad_fuente": 75,
-        "readability": {
-          "words": 14,
-          "sentences": 1,
-          "average_words_per_sentence": 14
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 70.15
-    },
-    {
-      "id": "bff28d9c46e535f2",
-      "fuente_id": "xiaomi_google",
-      "fuente_nombre": "Xiaomi",
-      "tipo": "rss_web",
-      "subtipo": "google_news",
-      "grupo_fuente": "xiaomi",
-      "nivel_fuente": "fuente_oficial",
-      "categoria": "moviles",
-      "idioma_original": "en",
-      "prioridad_fuente": 5,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "Serie Xiaomi MiMo-V2.6: 3 nuevos modelos lanzados oficialmente - Xiaomi MiMo",
-      "titulo_original": "Xiaomi MiMo-V2.6 Series: 3 New Models Officially Released - Xiaomi MiMo Home",
-      "enlace": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9QOHVZd2k2VGxmYW5fTEYzOVRuc1k3WTB4RGotQkl2eE84bzdIVU9iSmI5dVliQWpkRGF3YWlhaVBKNWZYZmtKcEhyUEt1eUFoNlZRNWxPbGtTWFE?oc=5",
-      "fecha": "2026-09-23T19:12:03.000Z",
-      "resumen_corto": "Serie Xiaomi MiMo-V2.6: 3 nuevos modelos lanzados oficialmente Xiaomi MiMo",
-      "resumen_largo": "Serie Xiaomi MiMo-V2.6: 3 nuevos modelos lanzados oficialmente Xiaomi MiMo",
-      "texto_original": "Xiaomi MiMo-V2.6 Series: 3 New Models Officially Released Xiaomi MiMo Home",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-09-23T19:35:14.752Z",
-        "index": 2,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "en",
-        "idioma_original": "en",
-        "categoria": "inteligencia_artificial",
-        "categorias_secundarias": [
-          "moviles",
-          "vehiculos_energia"
-        ],
-        "category_scores": {
-          "inteligencia_artificial": 1,
-          "moviles": 1,
-          "vehiculos_energia": 1
-        },
-        "entidades": [
-          "Xiaomi"
-        ],
-        "cifras_detectadas": [],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 84,
-        "relevancia": 55,
-        "confiabilidad_fuente": 75,
-        "readability": {
-          "words": 47,
-          "sentences": 6,
-          "average_words_per_sentence": 7.83
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 70.15
-    },
-    {
       "id": "9ff05f8ed3038b57",
       "fuente_id": "openai_google",
       "fuente_nombre": "OpenAI",
@@ -1024,14 +491,14 @@
       "titulo": "Dos años de OpenAI Academy",
       "titulo_original": "Two years of OpenAI Academy - OpenAI",
       "enlace": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9pTm1fMjdaS1JxMVFYTGo5Q2gxTVdWVmNRZWFsNmNLU2RnMWl6LTVlXzAwWWl1RnRjVEdxSG5NSHFzSkZodk8zNjk0ZmYwZjFkQXVhOGUyajF2LW5WOWx6MUZRTQ?oc=5",
-      "fecha": "2026-09-23T14:01:57.000Z",
+      "fecha": "2026-09-23T19:50:34.000Z",
       "resumen_corto": "Dos años de OpenAI Academy OpenAI",
       "resumen_largo": "Dos años de OpenAI Academy OpenAI",
       "texto_original": "Two years of OpenAI Academy OpenAI",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-23T19:35:14.764Z",
-        "index": 16,
+        "processed_at": "2026-09-23T22:49:41.730Z",
+        "index": 9,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -1077,6 +544,147 @@
       "final_score": 70.15
     },
     {
+      "id": "7651afb88d6f234e",
+      "fuente_id": "openai_google",
+      "fuente_nombre": "OpenAI",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "openai",
+      "nivel_fuente": "fuente_oficial",
+      "categoria": "inteligencia_artificial",
+      "idioma_original": "en",
+      "prioridad_fuente": 5,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Presentamos MentalHealthBench",
+      "titulo_original": "Introducing MentalHealthBench - OpenAI",
+      "enlace": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBWMWZSZnd6UUh0UDZ3UEY0M2lKYjVXcUVWVlIzNWpYd3ZiY0Z0ZDlzb0xWSHVhTG5QejZXRnBzV0pJd2hVVW9EcXJVLW5IRzN6YUh0TzRQbUNJVWhtc0x3Q3NhVXd6dw?oc=5",
+      "fecha": "2026-09-23T19:15:34.000Z",
+      "resumen_corto": "Presentamos MentalHealthBench OpenAI",
+      "resumen_largo": "Presentamos MentalHealthBench OpenAI",
+      "texto_original": "Introducing MentalHealthBench OpenAI",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-09-23T22:49:41.731Z",
+        "index": 10,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "en",
+        "idioma_original": "en",
+        "categoria": "inteligencia_artificial",
+        "categorias_secundarias": [],
+        "category_scores": {
+          "inteligencia_artificial": 2
+        },
+        "entidades": [
+          "OpenAI"
+        ],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 84,
+        "relevancia": 55,
+        "confiabilidad_fuente": 75,
+        "readability": {
+          "words": 14,
+          "sentences": 1,
+          "average_words_per_sentence": 14
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 70.15
+    },
+    {
+      "id": "49a78ebc25f4e315",
+      "fuente_id": "xiaomi_google",
+      "fuente_nombre": "Xiaomi",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "xiaomi",
+      "nivel_fuente": "fuente_oficial",
+      "categoria": "moviles",
+      "idioma_original": "en",
+      "prioridad_fuente": 5,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Todas las especificaciones y características de Xiaomi Smart Band 11 | Xiaomi Global",
+      "titulo_original": "All Specs, Features of Xiaomi Smart Band 11 | Xiaomi Global - Xiaomi",
+      "enlace": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE0zZWZtVHBUT05JWF9Gekh0emYzVU9lMm5PYVBNUkVPRXBmV1dQczNEeU1EcWVOWmhFRU5ta203djk5WkhnUHViSnh5dDBDOV9aZXJ3dTBBYmtLamY1bVdMMU5UenM3dw?oc=5",
+      "fecha": "2026-09-23T12:38:40.000Z",
+      "resumen_corto": "Todas las especificaciones y características de Xiaomi Smart Band 11 | Xiaomi Global Xiaomi",
+      "resumen_largo": "Todas las especificaciones y características de Xiaomi Smart Band 11 | Xiaomi Global Xiaomi",
+      "texto_original": "All Specs, Features of Xiaomi Smart Band 11 | Xiaomi Global Xiaomi",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-09-23T22:49:41.743Z",
+        "index": 24,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "en",
+        "categoria": "inteligencia_artificial",
+        "categorias_secundarias": [
+          "moviles",
+          "vehiculos_energia"
+        ],
+        "category_scores": {
+          "inteligencia_artificial": 1,
+          "moviles": 1,
+          "vehiculos_energia": 1
+        },
+        "entidades": [
+          "Xiaomi"
+        ],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 84,
+        "relevancia": 55,
+        "confiabilidad_fuente": 75,
+        "readability": {
+          "words": 47,
+          "sentences": 1,
+          "average_words_per_sentence": 47
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 70.15
+    },
+    {
       "id": "a12b43a586ae3914",
       "fuente_id": "catl_google",
       "fuente_nombre": "CATL",
@@ -1098,8 +706,8 @@
       "texto_original": "CATL Debrecen Kicks Off Trial Operations in its New Cell Building CATL",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-23T19:35:14.774Z",
-        "index": 36,
+        "processed_at": "2026-09-23T22:49:41.746Z",
+        "index": 32,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -1162,8 +770,8 @@
       "prioridad_fuente": 5,
       "analizar": true,
       "resumir": true,
-      "titulo": "El dramático desahucio de la anciana Maricarmen de 87 años que expone la gravedad de la crisis de vivienda en España",
-      "titulo_original": "El dramático desahucio de la anciana Maricarmen de 87 años que expone la gravedad de la crisis de vivienda en España",
+      "titulo": "El dramático desahucio de la anciana Maricarmen a los 87 años que expone la gravedad de la crisis de vivienda en España",
+      "titulo_original": "El dramático desahucio de la anciana Maricarmen a los 87 años que expone la gravedad de la crisis de vivienda en España",
       "enlace": "https://www.bbc.com/mundo/articles/cw5y4znkpl4lo?at_medium=RSS&at_campaign=rss",
       "fecha": "2026-09-23T17:06:54.000Z",
       "resumen_corto": "Maricarmen, inquilina de un piso de 92 metros cuadrados en el acomodado barrio de Retiro, en el centro de Madrid, fue desalojada este miércoles al no poder hacer frente a la subida de alquiler exigida por la empresa de inversión propietaria del inmueble.",
@@ -1171,8 +779,8 @@
       "texto_original": "El desahucio de una mujer de 87 años del apartamento donde residía alquilada desde hace siete décadas ha puesto el foco sobre la gravedad de la crisis de la vivienda en España. Maricarmen, inquilina de un piso de 92 metros cuadrados en el acomodado barrio de Retiro, en el centro de Madrid, fue desalojada este miércoles al no poder hacer frente a la subida de alquiler exigida por la empresa de inversión propietaria del inmueble. Después de un litigio de varios años en el que la justicia falló a favor de la empresa propietaria del inmueble, la comisión judicial ejecutó el desahucio al cuarto intento. Maricarmen, que tiene movilidad reducida y una discapacidad del 50%, salió de la vivienda en camilla, fue trasladada al hospital y, tras una revisión médica, decidió alojarse con familiares. Frente a la puerta del edificio, decenas de activistas se concentraron para intentar impedir el desahucio, mostrar su apoyo a la mujer y protestar contra la situación del mercado inmobiliario en España, marcada por un acceso cada vez más difícil a la vivienda y el encarecimiento de los alquileres. Beatriz Duro, abogada de Maricarmen, criticó: \"Aquí se van pasando la pelota y nadie asume la responsabilidad y todo el mundo dice que es el de al lado\".",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-23T19:35:14.755Z",
-        "index": 4,
+        "processed_at": "2026-09-23T22:49:41.733Z",
+        "index": 12,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -1213,9 +821,9 @@
         "relevancia": 57,
         "confiabilidad_fuente": 70,
         "readability": {
-          "words": 247,
+          "words": 249,
           "sentences": 10,
-          "average_words_per_sentence": 24.7
+          "average_words_per_sentence": 24.9
         },
         "duplicate": {
           "detected": false,
@@ -1248,8 +856,8 @@
       "texto_original": "Honor confirms Snapdragon 8 Elite Gen 6 chipset for Magic 9 flagship Huawei Central",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-23T19:35:14.774Z",
-        "index": 35,
+        "processed_at": "2026-09-23T22:49:41.746Z",
+        "index": 31,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -1301,6 +909,72 @@
       "final_score": 68.75
     },
     {
+      "id": "25415ee48f47eee1",
+      "fuente_id": "ia_dia",
+      "fuente_nombre": "IA al Día",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "ia_general",
+      "nivel_fuente": "agregador",
+      "categoria": "inteligencia_artificial",
+      "idioma_original": "es",
+      "prioridad_fuente": 3,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Así se alimenta y se 'enfría' centro de datos de inteligencia artificial - El Correo",
+      "titulo_original": "Así se alimenta y se 'enfría' centro de datos de inteligencia artificial - El Correo",
+      "enlace": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOX2VoQV85RFVESTFDVHNDTHZUelIta2d5NkozYVRKaDVja1Ryd1VRa3hQOURrd2s4U28wNkFTR1FsdmJYNW5Wa1VDRGlKYTJIQmtJT3hBUERFNy15LURtV01MMVdfWVRaa3J1LXNqTzY1RUlCUDBOSTlKQVJXeEt4bE1CM3RuWFBybTNMUzRMT054blpmaFJnT05jaHhkZENYU3ZuRllBdjNIZDRVZ29zVDdqSDhYSWoz0gG-AUFVX3lxTE9keU9fWmloMVFDRzUyV0NOYW1VTFVyUWJqWUllM2N1LWdMeWctb3FJMndUWERHZGprUXlvWWxiRG14N1dJV0tLeC12OGVXdmtORFFfNEdQX01DSU5tQXpRRTdVbmxlTEFWSkF1c2dpRmFwSDBGR2twcVpYMHF2eVdUQUJmX3JzclBydkszWndpUTh0bGl1a3haUzgzSy1BUUNYV3pJVUZjSFVHZXdybTRGTVdfdVlqaTQxUURxRmc?oc=5",
+      "fecha": "2026-09-23T22:16:35.000Z",
+      "resumen_corto": "Así se alimenta y se 'enfría' centro de datos de inteligencia artificial El Correo",
+      "resumen_largo": "Así se alimenta y se 'enfría' centro de datos de inteligencia artificial El Correo",
+      "texto_original": "Así se alimenta y se 'enfría' centro de datos de inteligencia artificial El Correo",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-09-23T22:49:41.722Z",
+        "index": 1,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "inteligencia_artificial",
+        "categorias_secundarias": [],
+        "category_scores": {
+          "inteligencia_artificial": 3
+        },
+        "entidades": [],
+        "cifras_detectadas": [],
+        "content_type": "report",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 83,
+        "relevancia": 58,
+        "confiabilidad_fuente": 63,
+        "readability": {
+          "words": 40,
+          "sentences": 1,
+          "average_words_per_sentence": 40
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 68
+    },
+    {
       "id": "b01e00ffc9928acc",
       "fuente_id": "bbc_mundo",
       "fuente_nombre": "BBC Mundo",
@@ -1313,17 +987,17 @@
       "prioridad_fuente": 5,
       "analizar": true,
       "resumir": true,
-      "titulo": "Xi Jinping viaja a EE.UU.: el \"príncipe\" que lo perdió todo antes de convertirse en el líder más poderoso de China",
-      "titulo_original": "Xi Jinping viaja a EE.UU.: el \"príncipe\" que lo perdió todo antes de convertirse en el líder más poderoso de China",
+      "titulo": "Xi Jinping llega a EE.UU.: el \"príncipe\" que lo perdió todo antes de convertirse en el líder más poderoso de China",
+      "titulo_original": "Xi Jinping llega a EE.UU.: el \"príncipe\" que lo perdió todo antes de convertirse en el líder más poderoso de China",
       "enlace": "https://www.bbc.com/mundo/articles/c8ly4pqd2zlko?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-09-23T09:16:28.000Z",
-      "resumen_corto": "El presidente de China, Xi Jinping, llegará este miércoles a Washington DC en la que será su primera visita de Estado a Estados Unidos en 11 años.",
-      "resumen_largo": "El presidente de China, Xi Jinping, llegará este miércoles a Washington DC en la que será su primera visita de Estado a Estados Unidos en 11 años. Pero su primer contacto con ese país se dio mucho antes de que se convirtiera en el líder más poderoso de China en generaciones. Cuatro décadas atrás, Xi era un funcionario de un condado del norte de China y visitó el Medio Oeste de Estados Unidos durante un viaje de estudios.",
-      "texto_original": "El presidente de China, Xi Jinping, llegará este miércoles a Washington DC en la que será su primera visita de Estado a Estados Unidos en 11 años. Pero su primer contacto con ese país se dio mucho antes de que se convirtiera en el líder más poderoso de China en generaciones. Cuatro décadas atrás, Xi era un funcionario de un condado del norte de China y visitó el Medio Oeste de Estados Unidos durante un viaje de estudios. En aquel entonces pasó varios días en Iowa aprendiendo sobre agricultura, visitando granjas y alojándose con una familia local. Los medios estatales chinos destacaron su estancia en aquel hogar y su amistad con Terry Branstad, por entonces gobernador de Iowa y posteriormente embajador de Washington en China durante la presidencia de Donald Trump, para destacar los vínculos personales de Xi con Estados Unidos. Hoy, la relación entre Estados Unidos y China poco tiene que ver con la de entonces. Ahora está marcada por la competencia entre ambas naciones por la influencia global, los aranceles recíprocos, los controles tecnológicos y la rivalidad militar.",
+      "fecha": "2026-09-23T22:10:49.000Z",
+      "resumen_corto": "El presidente de China, Xi Jinping, llegó este miércoles a Washington en la que es su primera visita de Estado a EE.UU.",
+      "resumen_largo": "El presidente de China, Xi Jinping, llegó este miércoles a Washington en la que es su primera visita de Estado a EE.UU. Pero su primer contacto con ese país se dio mucho antes de que se convirtiera en el líder más poderoso de China en generaciones. Cuatro décadas atrás, Xi era un funcionario de un condado del norte de China y visitó el Medio Oeste de Estados Unidos durante un viaje de estudios.",
+      "texto_original": "El presidente de China, Xi Jinping, llegó este miércoles a Washington en la que es su primera visita de Estado a EE.UU. en 11 años. Pero su primer contacto con ese país se dio mucho antes de que se convirtiera en el líder más poderoso de China en generaciones. Cuatro décadas atrás, Xi era un funcionario de un condado del norte de China y visitó el Medio Oeste de Estados Unidos durante un viaje de estudios. En aquel entonces pasó varios días en Iowa aprendiendo sobre agricultura, visitando granjas y alojándose con una familia local. Los medios estatales chinos destacaron su estancia en aquel hogar y su amistad con Terry Branstad, por entonces gobernador de Iowa y posteriormente embajador de Washington en China durante la presidencia de Donald Trump, para destacar los vínculos personales de Xi con Estados Unidos. Hoy, la relación entre Estados Unidos y China poco tiene que ver con la de entonces. Ahora está marcada por la competencia entre ambas naciones por la influencia global, los aranceles recíprocos, los controles tecnológicos y la rivalidad militar.",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-23T19:35:14.771Z",
-        "index": 28,
+        "processed_at": "2026-09-23T22:49:41.725Z",
+        "index": 3,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -1361,9 +1035,9 @@
         "relevancia": 57,
         "confiabilidad_fuente": 70,
         "readability": {
-          "words": 214,
-          "sentences": 15,
-          "average_words_per_sentence": 14.27
+          "words": 203,
+          "sentences": 19,
+          "average_words_per_sentence": 10.68
         },
         "duplicate": {
           "detected": false,
@@ -1373,6 +1047,149 @@
         }
       },
       "final_score": 67.95
+    },
+    {
+      "id": "0e4dcbf8c53ae11e",
+      "fuente_id": "ia_dia",
+      "fuente_nombre": "IA al Día",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "ia_general",
+      "nivel_fuente": "agregador",
+      "categoria": "inteligencia_artificial",
+      "idioma_original": "es",
+      "prioridad_fuente": 3,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "El último chip de Qualcomm permitirá que los auriculares hablen con la inteligencia artificial sin pasar por el móvil - El Mundo",
+      "titulo_original": "El último chip de Qualcomm permitirá que los auriculares hablen con la inteligencia artificial sin pasar por el móvil - El Mundo",
+      "enlace": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOSGF4SDgtSE9uV25XMDh4UEIxMV9fQWZOQnRiVWwwNmhfNjVjS3VLRWZRS0xKcFgwM0tmN3NvMHAyalRFWTZSa1kwbnBhelkzMnlYdGZnZzV6ekFiX2k1U3VZWmY2SmJZOUgxTmpPOWVBWnlXX2FFNUUwOVNZaUY1Z283WllZajdCWFhBbHh30gGOAUFVX3lxTFBNcVM5OUFGT25GeDB5SENpWDBoZmRuM1VNRmZaaUZyZ2NScXprVm1fQTFIdkVDdXFZZVR1OGhuUjlJTE5XUTNRM0RBUGgwYWlTZjNLSXd1Ukh5WmFyVUktczFubm5EUW8tVHg4VFpKLUg0YU8tazk0VDNLMWtpcWpmeTZ2aGJFenZLRzg4TkE?oc=5",
+      "fecha": "2026-09-23T22:12:00.000Z",
+      "resumen_corto": "El último chip de Qualcomm permitirá que los auriculares hablen con la inteligencia artificial sin pasar por el móvil El Mundo",
+      "resumen_largo": "El último chip de Qualcomm permitirá que los auriculares hablen con la inteligencia artificial sin pasar por el móvil El Mundo",
+      "texto_original": "El último chip de Qualcomm permitirá que los auriculares hablen con la inteligencia artificial sin pasar por el móvil El Mundo",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-09-23T22:49:41.723Z",
+        "index": 2,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "inteligencia_artificial",
+        "categorias_secundarias": [
+          "semiconductores"
+        ],
+        "category_scores": {
+          "inteligencia_artificial": 3,
+          "semiconductores": 1
+        },
+        "entidades": [
+          "Qualcomm"
+        ],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 80,
+        "relevancia": 62,
+        "confiabilidad_fuente": 53,
+        "readability": {
+          "words": 80,
+          "sentences": 1,
+          "average_words_per_sentence": 80
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 66.05
+    },
+    {
+      "id": "9291716131bac5b3",
+      "fuente_id": "huawei_google",
+      "fuente_nombre": "Huawei Central",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "huawei",
+      "nivel_fuente": "agregador",
+      "categoria": "moviles",
+      "idioma_original": "en",
+      "prioridad_fuente": 4,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "La filtración del cronograma de lanzamiento de la serie Honor 700 hace su debut",
+      "titulo_original": "Honor 700 series launch timeline leak makes a debut - Huawei Central",
+      "enlace": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNZTRPWlNzNk40NUJaVHA3SXVWWlZ6VGY1LXgzM3FQQ29uWVBRbC16WFBWX1N4Nnk5WFp0Y1FUcXNwb2J5UVBmTVByMEFFVC1aZ2ZiZjJ1bVE0Z2U1WTNzUUNhbUpRRVkySVloX05ZNnozeVV5OUdmWjh0Nzl2SWxncktnX085bFlLb0HSAY8BQVVfeXFMTklwaUJBb2VXMmdwbkVFVTItTi1QRXJjMnRFcHRHWGROaDYtX0luTU10cnJHUE1QY2stMG5ma0tLYU1vcFMzaHl1QTJZdG83emRoSTRLZlU2UENPZWZWeE5IS0RiM3h5TEJaRkYyZzVvc3RXdnVoNllGMUpETHIxYV9HajBYLW9qX3NqTUFFaGM?oc=5",
+      "fecha": "2026-09-23T09:26:45.000Z",
+      "resumen_corto": "La filtración del cronograma de lanzamiento de la serie Honor 700 hace su debut Huawei Central",
+      "resumen_largo": "La filtración del cronograma de lanzamiento de la serie Honor 700 hace su debut Huawei Central",
+      "texto_original": "Honor 700 series launch timeline leak makes a debut Huawei Central",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-09-23T22:49:41.745Z",
+        "index": 28,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "en",
+        "categoria": "moviles",
+        "categorias_secundarias": [
+          "hardware"
+        ],
+        "category_scores": {
+          "moviles": 2,
+          "hardware": 1
+        },
+        "entidades": [
+          "Huawei",
+          "Honor"
+        ],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 82,
+        "relevancia": 60,
+        "confiabilidad_fuente": 53,
+        "readability": {
+          "words": 51,
+          "sentences": 1,
+          "average_words_per_sentence": 51
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 65.95
     },
     {
       "id": "161466356eccc6b8",
@@ -1387,17 +1204,17 @@
       "prioridad_fuente": 4,
       "analizar": true,
       "resumir": true,
-      "titulo": "Comprar la NVIDIA Shield TV Pro fue todo un acierto: con ella disparé el rendimiento de mi tele y es el TV box que siempre recomiendo",
-      "titulo_original": "Comprar la NVIDIA Shield TV Pro fue todo un acierto: con ella disparé el rendimiento de mi tele y es el TV box que siempre recomiendo - Xataka",
+      "titulo": "Comprar la NVIDIA Shield TV Pro fue todo un acierto: con ella disparé el rendimiento de mi tele y es el TV box que siempre recomiendo - xataka.com",
+      "titulo_original": "Comprar la NVIDIA Shield TV Pro fue todo un acierto: con ella disparé el rendimiento de mi tele y es el TV box que siempre recomiendo - xataka.com",
       "enlace": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPSHI1dHRmXzB6RmhGUDFiNVFGeVJsd1FUclF3ZndpQTdXUzlLQnptc184bG9mUDB5Rm81ZU5xc0NmMy1DTzhZenNyOG1ydzlJMy1iVjlhWFA1TlJQVXZ0OVBWYTlrTzloUFhvNl9vOU40UkdWWVhnR3FRRFdSbGxjRVNFZ0V1bzdKV1dNZ1NxQTEzVEdEZk0zZ0R4ai1NMjhoNXJ5X01EWkJqbTZNVEQ1U2daS0pjVTFOTlFUNExZWFBEYlRRaXhDUVhUX2FodWNaS2dqejB3TU3SAd4BQVVfeXFMUGI2b2k4UFdmTVlyd1ZFTGQ1bkJ2NWRHcGpnQTNQcFg3WkxhTVN4OU5FeFFONVpYb2pSWjBEUy04bGFwV3VOUmZnYWNHYkZXaWVmak9sbGN4TzNMR0pmbmRJaVUwWXFZODh0VWZfeG5vQXNOODJuRFhZMEFhRk91Y3hRTzM3Nk5Cd1o2OG50d0laYjk5bkoxY1VPWkVqLWVKM2tiVWxoaGliTHJGWnQwVlZlc1NRTUdFNDNUYmxVcXRNQnhPUTVxeHlCVDR3MVlEV0h4aE1EcUpXeU91a2NR?oc=5",
       "fecha": "2026-09-23T16:47:01.000Z",
-      "resumen_corto": "Comprar la NVIDIA Shield TV Pro fue todo un acierto: con ella disparé el rendimiento de mi tele y es el TV box que siempre recomiendo Xataka",
-      "resumen_largo": "Comprar la NVIDIA Shield TV Pro fue todo un acierto: con ella disparé el rendimiento de mi tele y es el TV box que siempre recomiendo Xataka",
-      "texto_original": "Comprar la NVIDIA Shield TV Pro fue todo un acierto: con ella disparé el rendimiento de mi tele y es el TV box que siempre recomiendo Xataka",
+      "resumen_corto": "Comprar la NVIDIA Shield TV Pro fue todo un acierto: con ella disparé el rendimiento de mi tele y es el TV box que siempre recomiendo xataka.com",
+      "resumen_largo": "Comprar la NVIDIA Shield TV Pro fue todo un acierto: con ella disparé el rendimiento de mi tele y es el TV box que siempre recomiendo xataka.com",
+      "texto_original": "Comprar la NVIDIA Shield TV Pro fue todo un acierto: con ella disparé el rendimiento de mi tele y es el TV box que siempre recomiendo xataka.com",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-23T19:35:14.755Z",
-        "index": 5,
+        "processed_at": "2026-09-23T22:49:41.734Z",
+        "index": 14,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -1430,81 +1247,9 @@
         "relevancia": 60,
         "confiabilidad_fuente": 50,
         "readability": {
-          "words": 84,
-          "sentences": 1,
-          "average_words_per_sentence": 84
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 65.2
-    },
-    {
-      "id": "1c534f2b579293df",
-      "fuente_id": "xataka_google",
-      "fuente_nombre": "Xataka",
-      "tipo": "rss_web",
-      "subtipo": "google_news",
-      "grupo_fuente": "xataka",
-      "nivel_fuente": "medio_especializado",
-      "categoria": "tecnologia",
-      "idioma_original": "es",
-      "prioridad_fuente": 4,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "Apple está explorando un rival de Whoop. Lo interesante no es lo que tendrá, sino lo que le quitará al Apple Watch",
-      "titulo_original": "Apple está explorando un rival de Whoop. Lo interesante no es lo que tendrá, sino lo que le quitará al Apple Watch - Xataka",
-      "enlace": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPdHc5R1JZV1dHT3VNUG10eGVJeHpmN042aVlhNmdpSHMzd1phYTlWY0pOMVAyU3pQbFdRSk5iNl9MdGhaLVhNYUJ5UkdpRHNwQVpQaG5lMHJNR2U1T0lHYzd0VXRYWnZxaUs2Njd6dDRJelhJVTlWdXlyZUEtWDM4dE1sUEJrb05QcDJWc19aRWc0TjN3UlNpelBVZ2VZY3I5eWh1MTBqRDY0cTJHaDM4RnJ5ckJDMDM1RWZsQVlMbUNLM1NKaXVr0gHMAUFVX3lxTE40ZHlCY3JzNDB6X1VJMzJ3b3V4WXduRmFReUJmYkljcVV2Tkltei1EeTUyZVF2bmg3TXdZN29HZDlDZl9QeGZ5YU5KaEhpODMyUGFHMFA0a2djVFlaZFFTOTlaLWVLRTgwak1VZk5IbUNmazI2aGtaRTlKWmRPZEF4MEYzRFZGN1RzRGhCenN4cXRINEpCaWVTdHptUnU1M2xxb3RJZngyVmlpa1BqOS1McW1CVUpJOW1ReUtRZ2oydEpqTUl6NVZYR0pQUA?oc=5",
-      "fecha": "2026-09-23T16:17:01.000Z",
-      "resumen_corto": "Lo interesante no es lo que tendrá, sino lo que le quitará al Apple Watch Xataka",
-      "resumen_largo": "Apple está explorando un rival de Whoop. Lo interesante no es lo que tendrá, sino lo que le quitará al Apple Watch Xataka",
-      "texto_original": "Apple está explorando un rival de Whoop. Lo interesante no es lo que tendrá, sino lo que le quitará al Apple Watch Xataka",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-09-23T19:35:14.756Z",
-        "index": 6,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "es",
-        "categoria": "moviles",
-        "categorias_secundarias": [
-          "software_internet"
-        ],
-        "category_scores": {
-          "moviles": 1,
-          "software_internet": 1
-        },
-        "entidades": [
-          "Apple",
-          "Xataka"
-        ],
-        "cifras_detectadas": [],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 82,
-        "relevancia": 60,
-        "confiabilidad_fuente": 50,
-        "readability": {
-          "words": 64,
-          "sentences": 5,
-          "average_words_per_sentence": 12.8
+          "words": 90,
+          "sentences": 6,
+          "average_words_per_sentence": 15
         },
         "duplicate": {
           "detected": false,
@@ -1528,8 +1273,8 @@
       "prioridad_fuente": 5,
       "analizar": true,
       "resumir": true,
-      "titulo": "Los jubilados que deciden gastarse su dinero en lugar de dejárselo en herencia a sus hijo",
-      "titulo_original": "Los jubilados que deciden gastarse su dinero en lugar de dejárselo en herencia a sus hijo",
+      "titulo": "Los jubilados que deciden gastarse su dinero en lugar de dejárselo en herencia a sus hijos",
+      "titulo_original": "Los jubilados que deciden gastarse su dinero en lugar de dejárselo en herencia a sus hijos",
       "enlace": "https://www.bbc.com/mundo/articles/cqwyzd6g18y3o?at_medium=RSS&at_campaign=rss",
       "fecha": "2026-09-23T16:03:30.000Z",
       "resumen_corto": "Felizmente jubilada, Sarah Moorhouse está usando su pensión privada \"para viajar y hacer cosas agradables cuando quiere\".",
@@ -1537,8 +1282,8 @@
       "texto_original": "Felizmente jubilada, Sarah Moorhouse está usando su pensión privada \"para viajar y hacer cosas agradables cuando quiere\". Mientras otros jubilados con una pensión mensual decente quizá escojan ahorrar y dejarles una herencia a sus hijos, Sarah, de 64 años, y su marido, Geoff, prefieren gastar su dinero viviendo la vida al máximo. \"Estuvimos en Cambridgeshire, que nos pareció precioso. Vamos a menudo a una casa rural en el Distrito de los Lagos, y estamos planeando ir a Norfolk\". La pareja se va de vacaciones cuatro o cinco veces al año, gastando cientos de dólares cada vez que lo hace porque, en opinión de Sarah, \"solo se tiene una oportunidad de vivir\". Hace poco vendieron su descapotable clásico Sunbeam Alpine, pero solo para reemplazarlo por uno más moderno y deportivo de dos plazas, un Mazda MX-5. \"Tengo una edad en la que asisto a los funerales de amigos y conocidos, y creo que simplemente hay que vivir la vida y disfrutarla mientras se pueda, porque es un bien muy preciado\", sostiene.",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-23T19:35:14.756Z",
-        "index": 7,
+        "processed_at": "2026-09-23T22:49:41.735Z",
+        "index": 15,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -1587,75 +1332,6 @@
       "final_score": 65.15
     },
     {
-      "id": "666b2b020f0544ae",
-      "fuente_id": "bbc_mundo",
-      "fuente_nombre": "BBC Mundo",
-      "tipo": "rss_web",
-      "subtipo": "medio_generalista",
-      "grupo_fuente": "bbc",
-      "nivel_fuente": "medio_profesional",
-      "categoria": "actualidad",
-      "idioma_original": "es",
-      "prioridad_fuente": 5,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "Por qué el café estimula mucho a algunas personas y tiene pocos efectos en otras",
-      "titulo_original": "Por qué el café estimula mucho a algunas personas y tiene pocos efectos en otras",
-      "enlace": "https://www.bbc.com/mundo/articles/cvj64p0je3d5o?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-09-23T10:17:11.000Z",
-      "resumen_corto": "\"El café simplemente no me hace mucho efecto\", dice Emily, de 20 años, mientras sale de una cafetería en el centro de Londres a las 6 de la tarde.",
-      "resumen_largo": "\"El café simplemente no me hace mucho efecto\", dice Emily, de 20 años, mientras sale de una cafetería en el centro de Londres a las 6 de la tarde. \"Normalmente tomo dos tazas al día y quizá también una bebida energética. Y luego puedo beber refresco de cola toda la noche y sentirme perfectamente bien\".",
-      "texto_original": "\"El café simplemente no me hace mucho efecto\", dice Emily, de 20 años, mientras sale de una cafetería en el centro de Londres a las 6 de la tarde. \"Normalmente tomo dos tazas al día y quizá también una bebida energética. Y luego puedo beber refresco de cola toda la noche y sentirme perfectamente bien\". Todos tenemos un amigo como Emily. Ese que puede tomarse un espresso doble o incluso una bebida energética por la noche y aun así quedarse dormido una hora más tarde sin problemas. Sin embargo, para muchas personas, los efectos de la cafeína pueden durar mucho más tiempo. ¿Por qué algunas personas pueden tomar café antes de acostarse y dormir profundamente, mientras que otras pasan la noche despiertas mirando al techo? La cafeína es, con diferencia, la sustancia psicoactiva más consumida en el mundo.",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-09-23T19:35:14.769Z",
-        "index": 25,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "es",
-        "categoria": "inteligencia_artificial",
-        "categorias_secundarias": [
-          "tecnologia"
-        ],
-        "category_scores": {
-          "inteligencia_artificial": 1,
-          "tecnologia": 1
-        },
-        "entidades": [],
-        "cifras_detectadas": [],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 79,
-        "relevancia": 50,
-        "confiabilidad_fuente": 70,
-        "readability": {
-          "words": 177,
-          "sentences": 12,
-          "average_words_per_sentence": 14.75
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 65.15
-    },
-    {
       "id": "0208eb5f89e250ab",
       "fuente_id": "wccftech_google",
       "fuente_nombre": "Wccftech",
@@ -1677,8 +1353,8 @@
       "texto_original": "Leaker Claims Xbox Helix Beats PS6 by 40% in TFLOPS on Paper, but Pricing May Decide the Real Winner Wccftech",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-23T19:35:14.765Z",
-        "index": 20,
+        "processed_at": "2026-09-23T22:49:41.744Z",
+        "index": 26,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -1731,45 +1407,186 @@
       "final_score": 64.95
     },
     {
-      "id": "e094da31676e7400",
-      "fuente_id": "google_news_es",
-      "fuente_nombre": "Google News ES",
+      "id": "b89cb2a448cc3cad",
+      "fuente_id": "wccftech_google",
+      "fuente_nombre": "Wccftech",
       "tipo": "rss_web",
       "subtipo": "google_news",
-      "grupo_fuente": "google_news",
+      "grupo_fuente": "wccftech",
+      "nivel_fuente": "medio_especializado",
+      "categoria": "hardware",
+      "idioma_original": "en",
+      "prioridad_fuente": 4,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Artista 3D compra RTX 5090 en el mercado de segunda mano y descubre que es el ASUS ROG Astral White OC del 30 aniversario firmado por Jensen Huang",
+      "titulo_original": "3D Artist Buys RTX 5090 From Second Hand Market, Discovers It’s the Jensen Huang-Signed 30th Anniversary ASUS ROG Astral White OC - Wccftech",
+      "enlace": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPVjM5N2lnUEd4SUR1N3NBZjdVX3Q2RGhnbDktMGtSMmdrR2piMVFVU0Z3TmVqclNvZ2dzTDA2RGVibHNnWFVUemJETTJjc2NrbllkNExfNFdsaDBzV1NiMEo0ZkxIVzFxU0NDOWQ1dVRKVng4ZXQteVFnUk82dGZocVlSVDM4ZVFucXRHM0w4MF_SAZYBQVVfeXFMT3dlakMwd3N3WU9PTjN3MldYb3lZQVlCVEprNU1iWENieC15Mm5uemtZdU51cHJoaS1rbjloY1RmbEFGS0F5V0xQUVJuZEJibWZPNzlDWk5wSDRmbnI4cmNnRFZrRGRFTDJlWTRWcmIwckY1OE45RHJiYnBWampxdk9PbEtJa2RtWWw5YTBPcXVLY3k0X1d3?oc=5",
+      "fecha": "2026-09-22T15:28:18.000Z",
+      "resumen_corto": "Artista 3D compra RTX 5090 en el mercado de segunda mano y descubre que es el ASUS ROG Astral White OC del 30 aniversario firmado por Jensen Huang Wccftech",
+      "resumen_largo": "Artista 3D compra RTX 5090 en el mercado de segunda mano y descubre que es el ASUS ROG Astral White OC del 30 aniversario firmado por Jensen Huang Wccftech",
+      "texto_original": "3D Artist Buys RTX 5090 From Second Hand Market, Discovers It’s the Jensen Huang-Signed 30th Anniversary ASUS ROG Astral White OC Wccftech",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-09-23T22:49:41.748Z",
+        "index": 36,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "en",
+        "categoria": "tecnologia",
+        "categorias_secundarias": [],
+        "category_scores": {
+          "tecnologia": 1
+        },
+        "entidades": [
+          "Wccftech"
+        ],
+        "cifras_detectadas": [
+          "5090"
+        ],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 87,
+        "relevancia": 55,
+        "confiabilidad_fuente": 50,
+        "readability": {
+          "words": 99,
+          "sentences": 1,
+          "average_words_per_sentence": 99
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 64.95
+    },
+    {
+      "id": "424640c8500c45da",
+      "fuente_id": "huawei_google",
+      "fuente_nombre": "Huawei Central",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "huawei",
       "nivel_fuente": "agregador",
-      "categoria": "tecnologia",
+      "categoria": "moviles",
+      "idioma_original": "en",
+      "prioridad_fuente": 4,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "El fundador de Huawei, Ren Zhengfei, pone fin a los rumores de desaparición",
+      "titulo_original": "Huawei Founder Ren Zhengfei puts an end to disappearance rumors - Huawei Central",
+      "enlace": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNWW9NSVJmUkh1b1NwaFB5eHVlNlFtS1hsdUJvTHJ4X25fWldzQnF3UnZhZEpDa0RscEhOandIUnhRRlJCQnQwTjJwT0NkRlc4d29HUElwYWxkV2U4YzFwRTNaNmN3VUdTdDVRUnVmTDlHWndtYnk3OVZzUFh2U2IxZUEyNkRXWVFUWE5ObVJqM0s2MFJTRnVOMTRB0gGfAUFVX3lxTE9JUmc2aVFWaG53VlQzN3A3NlN4eFRwWDU3UnVTRWVLdmxsR3l6V1k3NHAtd3RmTU1TYUQxckdlZl85M2pYWkpIV1hoVWJrc2ZwazdaOUZMeHQ3SlEwc0d5NS1KYlFYZEczWmd2UEhwVV82VmFpd1NZamQwQ0NpRHY0bjM3NEJ3bnNHbW9XNl9pMWNnd2d2N29RaFlvWFdfMA?oc=5",
+      "fecha": "2026-09-23T11:45:46.000Z",
+      "resumen_corto": "El fundador de Huawei, Ren Zhengfei, pone fin a los rumores de desaparición Huawei Central",
+      "resumen_largo": "El fundador de Huawei, Ren Zhengfei, pone fin a los rumores de desaparición Huawei Central",
+      "texto_original": "Huawei Founder Ren Zhengfei puts an end to disappearance rumors Huawei Central",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-09-23T22:49:41.744Z",
+        "index": 27,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "en",
+        "categoria": "moviles",
+        "categorias_secundarias": [
+          "software_internet"
+        ],
+        "category_scores": {
+          "moviles": 1,
+          "software_internet": 1
+        },
+        "entidades": [
+          "Huawei"
+        ],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 82,
+        "relevancia": 55,
+        "confiabilidad_fuente": 53,
+        "readability": {
+          "words": 51,
+          "sentences": 1,
+          "average_words_per_sentence": 51
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 63.95
+    },
+    {
+      "id": "17fbd68258fabf8d",
+      "fuente_id": "ia_dia",
+      "fuente_nombre": "IA al Día",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "ia_general",
+      "nivel_fuente": "agregador",
+      "categoria": "inteligencia_artificial",
       "idioma_original": "es",
       "prioridad_fuente": 3,
       "analizar": true,
       "resumir": true,
-      "titulo": "Estos son los mejores chollos en tecnología que hemos encontrado en Amazon hoy, 23 de septiembre - Xataka",
-      "titulo_original": "Estos son los mejores chollos en tecnología que hemos encontrado en Amazon hoy, 23 de septiembre - Xataka",
-      "enlace": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQZ2Fkb3ZMNk9aei1yYmFNdGQzbEUyMmtmN0kyWlJGWFdRMVRrTzloWWx3dG1Lck1yX24ybGh3UWtDUTBrWlU2dDhOY2g5MXFrbHd5WTk1eDlMbzBaWmdaYi1uSWZnbGFLcWRVbHM0MDlqYlVuZmxEZU81VEQxWnBoUkRFclpsLWtNalB4OGx5R3NaM3ZGTDdTc3dYOVdGWDIwRHFtWkNxN0UwVUFtNlRJUNIBtgFBVV95cUxNbEQ0eFBTVVFkV2Z6OHRTUnRTamFUZGJZMEphREZHQ1JwOE9hcHlQNUtTWEpqUGZlamp1TVpnSFFiU29EQ0c3N1laMUpOaTFTYWZzd0taX2diTGZQbEtqdWlMNTVWV0Z0TWFfeC1OMVNXUFh2cHRKbXU5eFk2bTZ2eEhubzZHUkI2QXczaEo5RVdlZ29oV21XSFoxXzkzY21YaXdmQVNScU5xTEJOTm1kNDktUjlDQQ?oc=5",
-      "fecha": "2026-09-23T13:47:01.000Z",
-      "resumen_corto": "Estos son los mejores chollos en tecnología que hemos encontrado en Amazon hoy, 23 de septiembre Xataka",
-      "resumen_largo": "Estos son los mejores chollos en tecnología que hemos encontrado en Amazon hoy, 23 de septiembre Xataka",
-      "texto_original": "Estos son los mejores chollos en tecnología que hemos encontrado en Amazon hoy, 23 de septiembre Xataka",
+      "titulo": "La polémica en Francia por el autor al que acusan de haber escrito con IA su premiada novela - BBC",
+      "titulo_original": "La polémica en Francia por el autor al que acusan de haber escrito con IA su premiada novela - BBC",
+      "enlace": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9EZG9RdWlqZ1RNX0dCc1NLT0FDZkJEZ3ZEdDR2VUtTRjB1bndGRGFWV2I3MUtLYzd0NW9hWS01LWhoNnpMSjRFN3U3VkNaT29CbGtSS2JLT0piYUFj0gFiQVVfeXFMTk9rTnhSdFc2MVRNcFhLQnByQVVUanM5OXdReE41NTZXbWNlYzMxRDk3NmYtdVM1Y2ItcWFvQ3NTTGg0Qm5BcFJIbGU4bkh1cFcyZDJSLUY3LXBrUGc2aDJnNkE?oc=5",
+      "fecha": "2026-09-23T21:33:45.000Z",
+      "resumen_corto": "La polémica en Francia por el autor al que acusan de haber escrito con IA su premiada novela BBC",
+      "resumen_largo": "La polémica en Francia por el autor al que acusan de haber escrito con IA su premiada novela BBC",
+      "texto_original": "La polémica en Francia por el autor al que acusan de haber escrito con IA su premiada novela BBC",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-23T19:35:14.764Z",
-        "index": 17,
+        "processed_at": "2026-09-23T22:49:41.726Z",
+        "index": 5,
         "resumen": {
           "generado": true,
           "origen": "translated"
         },
         "idioma_detectado": "es",
         "idioma_original": "es",
-        "categoria": "tecnologia",
+        "categoria": "inteligencia_artificial",
         "categorias_secundarias": [
-          "inteligencia_artificial"
+          "vehiculos_energia"
         ],
         "category_scores": {
-          "tecnologia": 2,
-          "inteligencia_artificial": 1
+          "inteligencia_artificial": 1,
+          "vehiculos_energia": 1
         },
         "entidades": [
-          "Xataka"
+          "BBC"
         ],
         "cifras_detectadas": [],
         "content_type": "news",
@@ -1788,9 +1605,9 @@
         "relevancia": 55,
         "confiabilidad_fuente": 53,
         "readability": {
-          "words": 65,
+          "words": 60,
           "sentences": 1,
-          "average_words_per_sentence": 65
+          "average_words_per_sentence": 60
         },
         "duplicate": {
           "detected": false,
@@ -1802,7 +1619,7 @@
       "final_score": 63.25
     },
     {
-      "id": "aa39d31deae9eef4",
+      "id": "6c75d909f08d88ca",
       "fuente_id": "xataka_google",
       "fuente_nombre": "Xataka",
       "tipo": "rss_web",
@@ -1814,30 +1631,27 @@
       "prioridad_fuente": 4,
       "analizar": true,
       "resumir": true,
-      "titulo": "Volkswagen ya recibe más pedidos de coches eléctricos que de gasolina y diésel en Alemania. Y eso les ha obligado a cambiar de plan",
-      "titulo_original": "Volkswagen ya recibe más pedidos de coches eléctricos que de gasolina y diésel en Alemania. Y eso les ha obligado a cambiar de plan - Xataka",
-      "enlace": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOMlBqTi03bDdreWpRckdQLWlJaHZxSl93aE9zZ2JWb1FmY21xRjM0N0U1dW9GaTBzMVBwckt0WkotUXI5eHhVODhPa3dMZ1NuSGRMM2RMYWZOMlFYcGFVRWVJTVVqV3NLN0pIOWR4VU1yQTZLeHpiUDBEOU1aNHBSMUdLNkk3MWJ0OTdRWEdjMW9aRWp6UDlFYTYxSzFaWjFVMTg3ZEI4eE1US0Q5a1ZTSEZxSnZsTm10ZVdmcjRhbUFhenljSnlVRWlhM1Jfd3Z2czR3R3ZTZ9IB3AFBVV95cUxQZ2Y0T3JjdEFySWtyZ1BkZGZJNFhaUkdUNEtsUUV1VGVnZE43RXh4UUJLN25yTHVrYWhMUVdZT2lucW52X0N6ZnZQY1NpemtDcXhHaHZOczVSUnd6VnF2RGxFVW1vVHA4NV83NERqWkFnbkZBS0FuN1NzdjlqNXBtQ3h0QkpNSDVDRktEanNlN3p4cUg0U180anVqbjJWS1lKa0l1MWRMckNHM1dfMFRkc3d3bHdXRll5V2ZWa0tBa3NxLUZJTms5T2tsR2JfTTQ0SlRSUmJKamU1aGlL?oc=5",
-      "fecha": "2026-09-23T17:17:01.000Z",
-      "resumen_corto": "Volkswagen ya recibe más pedidos de coches eléctricos que de gasolina y diésel en Alemania.",
-      "resumen_largo": "Volkswagen ya recibe más pedidos de coches eléctricos que de gasolina y diésel en Alemania. Y eso les ha obligado a cambiar de plan Xataka",
-      "texto_original": "Volkswagen ya recibe más pedidos de coches eléctricos que de gasolina y diésel en Alemania. Y eso les ha obligado a cambiar de plan Xataka",
+      "titulo": "Las empresas han encontrado otra forma de atraer talento: ofrecer acciones junto al sueldo para compartir beneficios y riesgos - xataka.com",
+      "titulo_original": "Las empresas han encontrado otra forma de atraer talento: ofrecer acciones junto al sueldo para compartir beneficios y riesgos - xataka.com",
+      "enlace": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOZTNRRktmRFo0QTRzQWJvT2NJTEJSNi1LMVVxTWdENzdJTEtXNlZFOXZMYV9fOV9majEwMnJ4UDZCOFVwaXZQMTdJaUgzS1lzNlNUTUVUUm5tV3hNWFR1ZDc1OHhyaUc4dGZaV1dPU0NRZ2dibzBTamlMdU93UWM2YWhpVGp1d0hkcFFyTUUwUnlUejFCbzg0V2pOZEw4Y1lwdFZYYVhwTjZuVnBRR1JJZ3A1LXFkVGZxVERwbHZnT2Jpa0hERmJMb21xQdIB0AFBVV95cUxQYm9FM3JPaHlBQW02dVVGOXdRUzNfeHJSbHVfUDl1MDlLREV1UlJPVm9nbXllVWo1bVdrS19wa3JHZ0JHdjVia2l0Z3cxZ1E3VXJ5aVJYY1F0dVlwUDViWGxZenQ2TTJENEpnMjQ5cUg5UXlxRFR5R21aWVlUNklWTTV5eUxXVzROaE00RDdDVllrQXRfam9INTl5OUo5cThVanNlZGNoNFcybWR4WGF3bkVpUUJzRjBDWHFoWHpZeWNRamIzdUhFT0VkdDUwd3kt?oc=5",
+      "fecha": "2026-09-23T17:45:00.000Z",
+      "resumen_corto": "Las empresas han encontrado otra forma de atraer talento: ofrecer acciones junto al sueldo para compartir beneficios y riesgos xataka.com",
+      "resumen_largo": "Las empresas han encontrado otra forma de atraer talento: ofrecer acciones junto al sueldo para compartir beneficios y riesgos xataka.com",
+      "texto_original": "Las empresas han encontrado otra forma de atraer talento: ofrecer acciones junto al sueldo para compartir beneficios y riesgos xataka.com",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-23T19:35:14.753Z",
-        "index": 3,
+        "processed_at": "2026-09-23T22:49:41.731Z",
+        "index": 11,
         "resumen": {
           "generado": true,
           "origen": "translated"
         },
         "idioma_detectado": "es",
         "idioma_original": "es",
-        "categoria": "vehiculos_energia",
-        "categorias_secundarias": [
-          "inteligencia_artificial"
-        ],
+        "categoria": "moviles",
+        "categorias_secundarias": [],
         "category_scores": {
-          "vehiculos_energia": 2,
-          "inteligencia_artificial": 1
+          "moviles": 1
         },
         "entidades": [
           "Xataka"
@@ -1859,9 +1673,77 @@
         "relevancia": 55,
         "confiabilidad_fuente": 50,
         "readability": {
-          "words": 73,
+          "words": 90,
           "sentences": 6,
-          "average_words_per_sentence": 12.17
+          "average_words_per_sentence": 15
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 63.2
+    },
+    {
+      "id": "59395d176bc81744",
+      "fuente_id": "xataka_google",
+      "fuente_nombre": "Xataka",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "xataka",
+      "nivel_fuente": "medio_especializado",
+      "categoria": "tecnologia",
+      "idioma_original": "es",
+      "prioridad_fuente": 4,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "En China, los padres helicóptero no compran móviles a sus hijos, les compran un smartwatch para tenerlos controlados - xataka.com",
+      "titulo_original": "En China, los padres helicóptero no compran móviles a sus hijos, les compran un smartwatch para tenerlos controlados - xataka.com",
+      "enlace": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNSWRoWU5VX0lZdWFlbl9xUXRjOWJhdjc1Y2xzX3RwM0RTMFhrbW10U1RvaERVbE1MdFR1X1hOeE0taS1nYzFkeU5GdkhjcjFaT25oUWp5YlJwcGJPVWxwOEpDTWo4U2tldTUwaDBwbmJBREFPSUJRV1hTU1pmTTRkSmFvc2hYTVh1WXJyMFBMT0lBdG9LSlRDQjR6eFJvTkd0S1hSQ3g1Ti16UzFkVUQ4NmJNR2UwcUNmNTBFZXVzQ2dLaG5PVEpWdU1DN01PNDJVbTFpczM0ZHA5ZmVLUDVJTF9B0gHnAUFVX3lxTE9NYVBncXBkbzRabHVZQVk4WVI2LUstbkNGdm5FVTVZVXRNZFRldHplekV3SkQyVnpNdlVVWUVGY3RiQVFNZU1SLUNJRUJPOUdFWnhEX0pvQ0ZRcU5tWnhCR3NwWmV0QmxUZF9zY1gwQ2hHUmoyM3ZJMm5TeWpTWDVFalpYVVI0cDRLRmU5RjE3UExwdnlxbmk0TXc4TElTS2VLSk44enJiaU1xX0FfZENWUk5nbnk5Mi1OUnloaDlrUUUxSjN5cUxzcGVxX18yVVBTYW05V3BwcHFlbW1salo0d1pPZlpNQQ?oc=5",
+      "fecha": "2026-09-23T17:01:02.000Z",
+      "resumen_corto": "En China, los padres helicóptero no compran móviles a sus hijos, les compran un smartwatch para tenerlos controlados xataka.com",
+      "resumen_largo": "En China, los padres helicóptero no compran móviles a sus hijos, les compran un smartwatch para tenerlos controlados xataka.com",
+      "texto_original": "En China, los padres helicóptero no compran móviles a sus hijos, les compran un smartwatch para tenerlos controlados xataka.com",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-09-23T22:49:41.733Z",
+        "index": 13,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "moviles",
+        "categorias_secundarias": [],
+        "category_scores": {
+          "moviles": 2
+        },
+        "entidades": [
+          "Xataka"
+        ],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 82,
+        "relevancia": 55,
+        "confiabilidad_fuente": 50,
+        "readability": {
+          "words": 80,
+          "sentences": 6,
+          "average_words_per_sentence": 13.33
         },
         "duplicate": {
           "detected": false,
@@ -1885,17 +1767,17 @@
       "prioridad_fuente": 4,
       "analizar": true,
       "resumir": true,
-      "titulo": "Como los Palma DHS-1, pero más económicos: unos auriculares que pasan de abiertos a cerrados con un solo giro y son 'made in Spain'",
-      "titulo_original": "Como los Palma DHS-1, pero más económicos: unos auriculares que pasan de abiertos a cerrados con un solo giro y son 'made in Spain' - Xataka",
+      "titulo": "Como los Palma DHS-1, pero más económicos: unos auriculares que pasan de abiertos a cerrados con un solo giro y son 'made in Spain' - xataka.com",
+      "titulo_original": "Como los Palma DHS-1, pero más económicos: unos auriculares que pasan de abiertos a cerrados con un solo giro y son 'made in Spain' - xataka.com",
       "enlace": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPZnA5SkdJY01wdEZBZk9RV3AtZzZQWDM3Y25jN29feUtwajRYOEluT1dzSEtPOEdrT1VXWTRfVm5pY0tONTFVMzdVV1VnVm1qeTRoSkswejkwSmhxR0lrNTh4djdLUVgyb0RZT3kwM0d6WUl0ZUN6ZG5xaWs2THZFQnUxWEpobTJoODFoQVZJc2RNczhRWHFWRi1lb2tMQzJYM01sTmRJdVZrdThpTXh6bVhCWlhDazRtYTNmamtuRGdtUWpKNVp6R2Fpa9IB0AFBVV95cUxPQTJLejZWZ2dqa0FaS0d0NjlwY3cyWi13VnR6TE1VWm9BV2NlVHFDV3Z3TlplMlgyOUJZZm1SSHJ2VE42SEZ5WE5wSjRSeGpabVpTYXZ4cnVuV2FQdDRXRmx0Zm9aVTZJckVNN0cwX3k3RmVzODdkbDVIWGVJM1hNdFZqb0xQYVYxMDY0Mm9GLThzM0pnemJBU1pTbm5jUUJCY2xpQ3BibE80T1FCU2dpMFVxM1N4YUsyQWdidTVkQUpOX25Db29hbHgyRUQtSGgw?oc=5",
       "fecha": "2026-09-23T15:47:01.000Z",
-      "resumen_corto": "Como los Palma DHS-1, pero más económicos: unos auriculares que pasan de abiertos a cerrados con un solo giro y son 'made in Spain' Xataka",
-      "resumen_largo": "Como los Palma DHS-1, pero más económicos: unos auriculares que pasan de abiertos a cerrados con un solo giro y son 'made in Spain' Xataka",
-      "texto_original": "Como los Palma DHS-1, pero más económicos: unos auriculares que pasan de abiertos a cerrados con un solo giro y son 'made in Spain' Xataka",
+      "resumen_corto": "Como los Palma DHS-1, pero más económicos: unos auriculares que pasan de abiertos a cerrados con un solo giro y son 'made in Spain' xataka.com",
+      "resumen_largo": "Como los Palma DHS-1, pero más económicos: unos auriculares que pasan de abiertos a cerrados con un solo giro y son 'made in Spain' xataka.com",
+      "texto_original": "Como los Palma DHS-1, pero más económicos: unos auriculares que pasan de abiertos a cerrados con un solo giro y son 'made in Spain' xataka.com",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-23T19:35:14.759Z",
-        "index": 9,
+        "processed_at": "2026-09-23T22:49:41.737Z",
+        "index": 17,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -1927,80 +1809,9 @@
         "relevancia": 55,
         "confiabilidad_fuente": 50,
         "readability": {
-          "words": 99,
-          "sentences": 1,
-          "average_words_per_sentence": 99
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 63.2
-    },
-    {
-      "id": "199f93f584239bc1",
-      "fuente_id": "wccftech_google",
-      "fuente_nombre": "Wccftech",
-      "tipo": "rss_web",
-      "subtipo": "google_news",
-      "grupo_fuente": "wccftech",
-      "nivel_fuente": "medio_especializado",
-      "categoria": "hardware",
-      "idioma_original": "en",
-      "prioridad_fuente": 4,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "Stellar Blade aún no está terminado 2 años después del lanzamiento, dice Kim Hyung-tae, mientras Shift Up persigue el manual del desierto carmesí",
-      "titulo_original": "Stellar Blade Isn’t Finished Yet 2 Years After Launch, Kim Hyung-tae Says, as Shift Up Chases the Crimson Desert Playbook - Wccftech",
-      "enlace": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPaGY3WVEtRWZQdWVYcGVQRFJFNmNpRXEweUU3NnFoWjdYemlvSVhmUEdleGM1YWJGdUkxaWdUbWVUN1RoWmFXTlhMdGZZYS1OZWxnQ2ZJa244NmZwWDlrWW00YXl1eTQ5RjhiblhLTGhORVJoVUM1YWQ2U0NETklmbk90WTZCS29N0gGOAUFVX3lxTFBCckszRXkxODd4dUYweUZkUERsVEMzRHM2OGZWN1NHaERocEEyOGVKWGJ4MFFmV0VwTlhFejItbGk2QjJMU1JKcmVMdmR0ZmdfLWVtSVByQkptZERzLTVkRzY3RWZOVXoxMHhtOUdaWHpMbG1RZE1tZDFoQ09lZlZGUnRQbEJMSDJ4eFYxbkE?oc=5",
-      "fecha": "2026-09-23T10:23:10.000Z",
-      "resumen_corto": "Stellar Blade aún no está terminado 2 años después del lanzamiento, dice Kim Hyung-tae, mientras Shift Up persigue el libro de jugadas Crimson Desert Wccftech",
-      "resumen_largo": "Stellar Blade aún no está terminado 2 años después del lanzamiento, dice Kim Hyung-tae, mientras Shift Up persigue el libro de jugadas Crimson Desert Wccftech",
-      "texto_original": "Stellar Blade Isn’t Finished Yet 2 Years After Launch, Kim Hyung-tae Says, as Shift Up Chases the Crimson Desert Playbook Wccftech",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-09-23T19:35:14.768Z",
-        "index": 24,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "en",
-        "categoria": "vehiculos_energia",
-        "categorias_secundarias": [
-          "tecnologia"
-        ],
-        "category_scores": {
-          "vehiculos_energia": 1,
-          "tecnologia": 1
-        },
-        "entidades": [
-          "Wccftech"
-        ],
-        "cifras_detectadas": [],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 82,
-        "relevancia": 55,
-        "confiabilidad_fuente": 50,
-        "readability": {
-          "words": 100,
-          "sentences": 1,
-          "average_words_per_sentence": 100
+          "words": 105,
+          "sentences": 6,
+          "average_words_per_sentence": 17.5
         },
         "duplicate": {
           "detected": false,
@@ -2033,8 +1844,8 @@
       "texto_original": "The Blood of Dawnwalker Director Promises Performance Improvements On PC, Yet Doesn’t Understand Demands For 120+ FPS Wccftech",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-23T19:35:14.770Z",
-        "index": 27,
+        "processed_at": "2026-09-23T22:49:41.745Z",
+        "index": 29,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -2083,116 +1894,41 @@
       "final_score": 63.2
     },
     {
-      "id": "cdcaf5d9af5d4e9f",
-      "fuente_id": "wccftech_google",
-      "fuente_nombre": "Wccftech",
+      "id": "6fdf7a2d522c5338",
+      "fuente_id": "ia_dia",
+      "fuente_nombre": "IA al Día",
       "tipo": "rss_web",
       "subtipo": "google_news",
-      "grupo_fuente": "wccftech",
-      "nivel_fuente": "medio_especializado",
-      "categoria": "hardware",
-      "idioma_original": "en",
-      "prioridad_fuente": 4,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "Tim Sweeney defiende la purga de Halo de 230 trabajos de Xbox y dice que los mejores estudios merecen los proyectos con mayor potencial",
-      "titulo_original": "Tim Sweeney Defends Xbox’s 230-job Halo Purge, Saying Top Studios Deserve the Projects with the Most Potential - Wccftech",
-      "enlace": "https://news.google.com/rss/articles/CBMifEFVX3lxTFB3NjF5Snh1OGtJN1hFLTFrbXFZaUdvOTZsQmNvOTJUdzFsNzNnQ0JDbFIta3d2MWRXQkJMbHhWcEhiQlZEelUzWmZMdUtzYi13Sk5MRE40SWNZaHRWVUNLaU9yNWd6Q0ZHdklHZ0VXTEY1ZmlCNE5nZFVaYk7SAYIBQVVfeXFMTmpPdnVKM252Y2xVQll4RnM0aERZeS1wbFRBbVZLVV9vNU95UjkzcHFEM21DTzV4aGFha1VYTmhDcGMwZnVydWJsalpFWmlfRVlXel9YMy11NlhVM0JuZ2staTg3cWQwaGJnZlF5ejNSeURWZlRKdllwNVh5M0VXdDdVUQ?oc=5",
-      "fecha": "2026-09-23T09:00:00.000Z",
-      "resumen_corto": "Tim Sweeney defiende la purga de Halo de 230 trabajos de Xbox y dice que los mejores estudios merecen los proyectos con mayor potencial",
-      "resumen_largo": "Tim Sweeney defiende la purga de Halo de 230 trabajos de Xbox y dice que los mejores estudios merecen los proyectos con mayor potencial",
-      "texto_original": "Tim Sweeney Defends Xbox’s 230-job Halo Purge, Saying Top Studios Deserve the Projects with the Most Potential Wccftech",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-09-23T19:35:14.772Z",
-        "index": 31,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "en",
-        "categoria": "inteligencia_artificial",
-        "categorias_secundarias": [
-          "moviles",
-          "tecnologia"
-        ],
-        "category_scores": {
-          "inteligencia_artificial": 1,
-          "moviles": 1,
-          "tecnologia": 1
-        },
-        "entidades": [
-          "Wccftech"
-        ],
-        "cifras_detectadas": [],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 82,
-        "relevancia": 55,
-        "confiabilidad_fuente": 50,
-        "readability": {
-          "words": 95,
-          "sentences": 1,
-          "average_words_per_sentence": 95
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 63.2
-    },
-    {
-      "id": "746e39b0fba3cbe2",
-      "fuente_id": "google_news_es",
-      "fuente_nombre": "Google News ES",
-      "tipo": "rss_web",
-      "subtipo": "google_news",
-      "grupo_fuente": "google_news",
+      "grupo_fuente": "ia_general",
       "nivel_fuente": "agregador",
-      "categoria": "tecnologia",
+      "categoria": "inteligencia_artificial",
       "idioma_original": "es",
       "prioridad_fuente": 3,
       "analizar": true,
       "resumir": true,
-      "titulo": "Defensa apuesta por una IA responsable: tecnología propia y control humano - ABC",
-      "titulo_original": "Defensa apuesta por una IA responsable: tecnología propia y control humano - ABC",
-      "enlace": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPald2Vmw2RGdza1Y4OE84QzNHeFhMWVFSdjFoZS1zTDU1WE5kbFA1NUpQSF9Yb1lhc3FLbWpWeXlFMk9CXzExZ3dmMk5vTHJsbXBhNXJSakhTOWE1dlpQNTVfdWF5cm1BOV9pbFFWRUptdldSV3FGR0JQS2FUYVJTRmJoZll4U2V4YXlrOTRRT0pYUk85VG9OeVIwSk0zMzNjWHRrSDRiQXDSAa4BQVVfeXFMTVdGTzVvdTRmN2VtcUtpQTBRelJsWG50dTlkUnBNSmFPY3dFNUJkV0MxVkdLUUFoNDY5ZGo2UGstTm1ndThQVElFVjRjYUtwcmlmX1hFb0k4VDZraWlrVlhhcExwN3cyS0V1WG16OEMyOGRFREZwWXJwaXZOc2VMQk1LY1h3ZGxUdEtEdmpHTkw1enFOaEttVWgtbXl5NllhVW9XMk9jTi1oQlVBNjNn?oc=5",
-      "fecha": "2026-09-23T15:15:22.000Z",
-      "resumen_corto": "Defensa apuesta por una IA responsable: tecnología propia y control humano ABC",
-      "resumen_largo": "Defensa apuesta por una IA responsable: tecnología propia y control humano ABC",
-      "texto_original": "Defensa apuesta por una IA responsable: tecnología propia y control humano ABC",
+      "titulo": "Terminator, Astroboy y Optimus: qué significan las referencias que usó Milei para hablar de Inteligencia Artificial - Infobae",
+      "titulo_original": "Terminator, Astroboy y Optimus: qué significan las referencias que usó Milei para hablar de Inteligencia Artificial - Infobae",
+      "enlace": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNbUltSlJxSkJ1WklvTmllQ2tFV3FYSjY2SHJmVm5ENEg3Um9CT3Z3WDdzeVU0Ty1Ya3cxTExXb01OTnRtcG9rU2RIUWpZYW8xUmU1QlNnNVFVSXJvbVU1Y05QdWpmTDk3NFY2dGlzeklwWk1pOGlJQkM4ajY3U3BWSERpcnZvSkhCMG1MWG9MVURBTno3OVM1Rk9SS2diWXFNajlfVjlaZjdaMmRyQUZJa05UTWJ6U3hyQVhTQ1lPcFRoNm9VUzRtczBfbmRzMC1SZWhHS21nUTlfX3NMaS1TSVR5WkRLTTFWcmVFNGtLZ9IBigJBVV95cUxNMWR1UktvN2NTWUNqRlVrLXVlZVhpWnBWbzFxdURpSWtWd0NPRkVYVU1OeXZqejVCTXdlZE4xVFRVYnMzMW8wcGVaNzc4NlM4eENDVUlPSU0yalo0QjB0QlRvd3VadFo2bnhSQ2hKTHY3UnNYNmRvUVZXaVZSN0o4ZW9IY0NTUEVldnEyYXBrcjJjSjFMT0RKNlVUWXR2RFVSOUJCUThfekpsLVRhT2ZqQUJIaWRJbUpvSF92bWVsUWNmSjJYeUluNl82bl9IN1N0Y1J1cnJfa1FVTkhQc3JPR3NIcmMtc25vNFBzZVRmUURsV3ZzUWw0UDVSRG4xbzJ4NmlSUWtWcTBGUQ?oc=5",
+      "fecha": "2026-09-23T22:26:15.000Z",
+      "resumen_corto": "Terminator, Astroboy y Optimus: qué significan las referencias que usó Milei para hablar de Inteligencia Artificial Infobae",
+      "resumen_largo": "Terminator, Astroboy y Optimus: qué significan las referencias que usó Milei para hablar de Inteligencia Artificial Infobae",
+      "texto_original": "Terminator, Astroboy y Optimus: qué significan las referencias que usó Milei para hablar de Inteligencia Artificial Infobae",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-23T19:35:14.759Z",
-        "index": 10,
+        "processed_at": "2026-09-23T22:49:41.720Z",
+        "index": 0,
         "resumen": {
           "generado": true,
           "origen": "translated"
         },
         "idioma_detectado": "es",
         "idioma_original": "es",
-        "categoria": "tecnologia",
+        "categoria": "inteligencia_artificial",
         "categorias_secundarias": [
-          "inteligencia_artificial",
           "militar"
         ],
         "category_scores": {
-          "tecnologia": 2,
-          "inteligencia_artificial": 1,
+          "inteligencia_artificial": 3,
           "militar": 1
         },
         "entidades": [],
@@ -2205,19 +1941,17 @@
         },
         "spam": {
           "detected": false,
-          "score": 30,
-          "signals": [
-            "\\bapuesta\\b"
-          ],
+          "score": 0,
+          "signals": [],
           "url_count": 0
         },
         "calidad": 75,
         "relevancia": 57,
         "confiabilidad_fuente": 53,
         "readability": {
-          "words": 50,
+          "words": 75,
           "sentences": 1,
-          "average_words_per_sentence": 50
+          "average_words_per_sentence": 75
         },
         "duplicate": {
           "detected": false,
@@ -2229,42 +1963,44 @@
       "final_score": 62.3
     },
     {
-      "id": "c7fbde6498f10594",
-      "fuente_id": "ia_dia",
-      "fuente_nombre": "IA al Día",
+      "id": "eeabe049eb90182c",
+      "fuente_id": "google_news_es",
+      "fuente_nombre": "Google News ES",
       "tipo": "rss_web",
       "subtipo": "google_news",
-      "grupo_fuente": "ia_general",
+      "grupo_fuente": "google_news",
       "nivel_fuente": "agregador",
-      "categoria": "inteligencia_artificial",
+      "categoria": "tecnologia",
       "idioma_original": "es",
       "prioridad_fuente": 3,
       "analizar": true,
       "resumir": true,
-      "titulo": "La Inteligencia Artificial, la nueva aliada de la ultraderecha para llegar al poder - EL PAÍS",
-      "titulo_original": "La Inteligencia Artificial, la nueva aliada de la ultraderecha para llegar al poder - EL PAÍS",
-      "enlace": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPVDlQa1oyRkRMWmZVMElhdXBWNWRZRFNZM3NOLVVHV0o2TWV3R29xVFZZT2pJcGpGRUxkM2pfX1dVaWJVaGR0Y1M4QnhjckRSdm90Znp6V1VoVjlwZmV4elFodTNzWWpsZ2RjaWRZakJYMUptMkhfSTRWQU1hX2o5OHN1b2VPdjBzZzFNak53ZlpReVBJWWZ6cHVXNTRTQi1HTy1fSzB1OWVtcXdNVTlNdXRIbnE5ZlJsdDllYmx3UV8xQdIB1gFBVV95cUxNdEY1b19hdEJzWXJoY05UTVROSTVwelczZFFKUEg4Q1M5X2JIWUZscU5rQkN1VlBzSGxra0VyZEZoQm1wN0NQN01Rdkd2VEdWSWdteV9LSGxLQUwtZ0tlX1NNcTJIS2N6MV9qTDR0YmMwa3pZT3FPRVZkamZ5aTZVTzl1b1NRSGlmRElZYXpjSk5semI1TjdBNG51REVVUkhqVlZfZ0ZnT3lHRkd3Q28yZ0UxVEJlYmtIZ05iUVNXejdXZjJuM2xCdmVoRmFnMkpYYTNJbFdR?oc=5",
-      "fecha": "2026-09-23T03:30:00.000Z",
-      "resumen_corto": "La Inteligencia Artificial, la nueva aliada de la ultraderecha para llegar al poder EL PAÍS",
-      "resumen_largo": "La Inteligencia Artificial, la nueva aliada de la ultraderecha para llegar al poder EL PAÍS",
-      "texto_original": "La Inteligencia Artificial, la nueva aliada de la ultraderecha para llegar al poder EL PAÍS",
+      "titulo": "Casa gratis para universitarios que conviven con mayores solos: \"Ella me ayuda con la tecnología y yo le enseño catalán\" - El Periódico",
+      "titulo_original": "Casa gratis para universitarios que conviven con mayores solos: \"Ella me ayuda con la tecnología y yo le enseño catalán\" - El Periódico",
+      "enlace": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOMmpnRmNRVjluR2xnbnFpYW1DNXBfXzVFMnJhQjJuSW9HN3VCN3d3RWNYTGZzZUxxZGtnVEs3akpKckJ5NWRESVRYYkZ6NUotX0szaDdEb2F6TTNJMkRxTnVBN1JZUWRnR01DVXBxaVVKTGpKRG02OVMyS2k4LWVUWUNyU0ppc09lTzVESnVybTUycGNnT241N2NlaEh0ZXdWWXNwaTZjQy1iVjZXMmcxOWhMczQ2a2J3eEd0bTRERmxPWFZGYmdJeF9fSmExZFZfbFVVR0Y4dXVvUdIB2gFBVV95cUxNeDZ1OHJMYXNMYzJ5UVV6UWY0RGZiZUlhTzUzUnczNGNNam8wb3Zwb0FQcnFRZUtqNGl1NlNRYXFmdkdaMnh1RHVrSVhiYnFjWEU2azVXTTZ5eEZfRDdNY0J2blc4d3NXN0R1YXV3THN5T2lILThtYWZsamZ5WXo2U0p1eks4QXVQbUo1SEhvXzEwa2pyWWxTYkw1TlRGRFRsN25mY0RIN25mZkQzRGp2alhOS05RY0pDbVJ3X19YODNMUDR5Z2NuYkpUTjJYdlNrWjRpcE0tNy1SUQ?oc=5",
+      "fecha": "2026-09-23T15:00:36.000Z",
+      "resumen_corto": "Casa gratis para universitarios que conviven con mayores solos: \"Ella me ayuda con la tecnología y yo le enseño catalán\" El Periódico",
+      "resumen_largo": "Casa gratis para universitarios que conviven con mayores solos: \"Ella me ayuda con la tecnología y yo le enseño catalán\" El Periódico",
+      "texto_original": "Casa gratis para universitarios que conviven con mayores solos: \"Ella me ayuda con la tecnología y yo le enseño catalán\" El Periódico",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-23T19:35:14.775Z",
-        "index": 38,
+        "processed_at": "2026-09-23T22:49:41.738Z",
+        "index": 18,
         "resumen": {
           "generado": true,
           "origen": "translated"
         },
         "idioma_detectado": "es",
         "idioma_original": "es",
-        "categoria": "inteligencia_artificial",
+        "categoria": "tecnologia",
         "categorias_secundarias": [
-          "vehiculos_energia"
+          "inteligencia_artificial",
+          "moviles"
         ],
         "category_scores": {
-          "inteligencia_artificial": 4,
-          "vehiculos_energia": 1
+          "tecnologia": 2,
+          "inteligencia_artificial": 1,
+          "moviles": 1
         },
         "entidades": [],
         "cifras_detectadas": [],
@@ -2284,9 +2020,9 @@
         "relevancia": 57,
         "confiabilidad_fuente": 53,
         "readability": {
-          "words": 45,
+          "words": 80,
           "sentences": 1,
-          "average_words_per_sentence": 45
+          "average_words_per_sentence": 80
         },
         "duplicate": {
           "detected": false,
@@ -2319,8 +2055,8 @@
       "texto_original": "Lorena Saus, CEO de Ascires: \"No basta con tener la mejor tecnología. Hay que saber utilizarla muy bien\" Levante-EMV",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-23T19:35:14.776Z",
-        "index": 41,
+        "processed_at": "2026-09-23T22:49:41.749Z",
+        "index": 37,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -2369,29 +2105,100 @@
       "final_score": 62.3
     },
     {
-      "id": "7f8dc8acfbf11b74",
-      "fuente_id": "ia_dia",
-      "fuente_nombre": "IA al Día",
+      "id": "793dc9c7995aa965",
+      "fuente_id": "wccftech_google",
+      "fuente_nombre": "Wccftech",
       "tipo": "rss_web",
       "subtipo": "google_news",
-      "grupo_fuente": "ia_general",
+      "grupo_fuente": "wccftech",
+      "nivel_fuente": "medio_especializado",
+      "categoria": "hardware",
+      "idioma_original": "en",
+      "prioridad_fuente": 4,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "La tecnología \"Offset PoP\" del Snapdragon 8 Elite Extreme Gen 6 se basa en envases más antiguos, pero las pruebas muestran que la temperatura tarda más del doble de tiempo en alcanzar el umbral máximo",
+      "titulo_original": "Snapdragon 8 Elite Extreme Gen 6’s “Offset PoP” Technology Is Based On Older Packaging, But Tests Show It Takes More Than 2x The Time For Temperature To Reach Maximum Threshold - Wccftech",
+      "enlace": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQTTlRMTluQ0kyNkRtN3VUWVdrcEQ5TXN4cDVrdGdXSGVSXzRvSmVGbktDbEtDOTRFUF9kVmxBUGw5OFVCakNKeVItLTZJQmVLbkVHNzUwOUREaVBIa25qZnhqeW5RM2FIUDZXdWFreWdyWE9RZms4R0tuSTh6Skdoc1lNRmtsMW5xcldBd1dkZ2o0UdIBlwFBVV95cUxOTTRrOGFqOVpwMXRCY19ib096Z2F3U1VEM2tOcEh2WGpPcy16Qk9ObVFRRjU0SnlUWThrS3Z1eGtSZkkzLTdTTTdJRzBKMl82SWFENU93eUl0Q0gzWW5HODM3eVdfOXgzYjFyTF83QVVac0h4TzdUWmdRZTMzdUdlcEh0bko5ejdYU3hKdUxIQWh4cjJNYUtB?oc=5",
+      "fecha": "2026-09-23T12:21:25.000Z",
+      "resumen_corto": "La tecnología \"Offset PoP\" del Snapdragon 8 Elite Extreme Gen 6 se basa en envases más antiguos, pero las pruebas muestran que la temperatura tarda más del doble de tiempo en alcanzar el umbral máximo Wccftech",
+      "resumen_largo": "La tecnología \"Offset PoP\" del Snapdragon 8 Elite Extreme Gen 6 se basa en envases más antiguos, pero las pruebas muestran que la temperatura tarda más del doble de tiempo en alcanzar el umbral máximo Wccftech",
+      "texto_original": "Snapdragon 8 Elite Extreme Gen 6’s “Offset PoP” Technology Is Based On Older Packaging, But Tests Show It Takes More Than 2x The Time For Temperature To Reach Maximum Threshold Wccftech",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-09-23T22:49:41.743Z",
+        "index": 25,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "en",
+        "categoria": "tecnologia",
+        "categorias_secundarias": [
+          "inteligencia_artificial"
+        ],
+        "category_scores": {
+          "tecnologia": 4,
+          "inteligencia_artificial": 1
+        },
+        "entidades": [
+          "Wccftech"
+        ],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 67,
+        "relevancia": 62,
+        "confiabilidad_fuente": 50,
+        "readability": {
+          "words": 128,
+          "sentences": 1,
+          "average_words_per_sentence": 128
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 60.75
+    },
+    {
+      "id": "00139dc61eef1a9d",
+      "fuente_id": "google_news_es",
+      "fuente_nombre": "Google News ES",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "google_news",
       "nivel_fuente": "agregador",
-      "categoria": "inteligencia_artificial",
+      "categoria": "tecnologia",
       "idioma_original": "es",
       "prioridad_fuente": 3,
       "analizar": true,
       "resumir": true,
-      "titulo": "El mal uso de la inteligencia artificial se cuela en la justicia - rtpa.es",
-      "titulo_original": "El mal uso de la inteligencia artificial se cuela en la justicia - rtpa.es",
-      "enlace": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQSHN3eEhDTWJXNnNmbjUtWUdIRlBvMGlSUm9xZmx0SEwwS1FxTGU5TUdGWmtDTUV1cXZHMDhINlNnZS1aTWZucEV1SHVSZnRqYlJvZWZmNkh6NGtpT2plTzh1NE1SS29nRi1YSzd5RzduVS1DS0o3TnBUUmlXTWExRjRHYy1maTBObFNRSGdXNFlyVHp1NGctSlJVY2ZobDl3dGVLalFyUXlPYWNuRWNUNFQ4SDFsWmRkZUFlZFl3eHAwX3J3UlQxbEpqWdIB0AFBVV95cUxOMm5PRU5FY0lKLUd1bXhHbVdyOGpfdHdraGNrZGlfVmFnamRoSHY0NmZsWm9zbHhFaTZoMGhXRThZc2Z5VUZTQjMwTWkwY0lSckxvbmZXTm1PYjJ4aXNHM0E0TFFUYkVIZ0N6Q1hRbkhKS1RGMXlhWk95MkV1N3dmR1RTV09mMkNtVG5jYVJ6dXdJSVV0akplNFhLY3lSY1plYmpzOFNFdWNyNEViaFVuQTlNVzhiSHZ6WDdxSFFlRUpCNTdrOXZOOE1OVl9PMGQ4?oc=5",
-      "fecha": "2026-09-23T19:24:00.000Z",
-      "resumen_corto": "El mal uso de la inteligencia artificial se cuela en la justicia rtpa.es",
-      "resumen_largo": "El mal uso de la inteligencia artificial se cuela en la justicia rtpa.es",
-      "texto_original": "El mal uso de la inteligencia artificial se cuela en la justicia rtpa.es",
+      "titulo": "EEUU vs China: ¿por qué la IA enfrenta a las dos superpotencias? - Expansión",
+      "titulo_original": "EEUU vs China: ¿por qué la IA enfrenta a las dos superpotencias? - Expansión",
+      "enlace": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOUHNzX00zNDR4NW9aM0laQ01oUjdSUWp3dU4tUFBNODFfRTBNZVBEUXhzUzU5bW5pcU82TTUxa0VKVEVyZlhMOGNLUmUxRE10R2hmcXhnOGRTV2dKdWtLbE02WFlPalFYd05pTGpQRTExVC1MdEh3eGpoVHN6MGxoUVIxTmxzV1BDeEdCdXh0MVlmZ9IBkgFBVV95cUxQRkVSaTFaSzJlM2hZMTVvZE9oZnljeFVqbFExbWFfQm9vdExVdEIzcmxvSEw5ZHFfWmpvRHE4QUFFUjQwengwU2lkMXdtVHllMXlfbTZETUZpRVlOb1A1QnRYNU9kaVRDQ2RVcTF6b042STltRWpHS0tld0otVndwcFVCT2lWSWFYOUVGVFF4X0o3Zw?oc=5",
+      "fecha": "2026-09-23T22:08:00.000Z",
+      "resumen_corto": "EEUU vs China: ¿por qué la IA enfrenta a las dos superpotencias?",
+      "resumen_largo": "EEUU vs China: ¿por qué la IA enfrenta a las dos superpotencias?",
+      "texto_original": "EEUU vs China: ¿por qué la IA enfrenta a las dos superpotencias? Expansión",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-23T19:35:14.750Z",
-        "index": 0,
+        "processed_at": "2026-09-23T22:49:41.726Z",
+        "index": 4,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -2401,7 +2208,7 @@
         "categoria": "inteligencia_artificial",
         "categorias_secundarias": [],
         "category_scores": {
-          "inteligencia_artificial": 3
+          "inteligencia_artificial": 1
         },
         "entidades": [],
         "cifras_detectadas": [],
@@ -2421,141 +2228,9 @@
         "relevancia": 50,
         "confiabilidad_fuente": 53,
         "readability": {
-          "words": 35,
+          "words": 43,
           "sentences": 6,
-          "average_words_per_sentence": 5.83
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 59.5
-    },
-    {
-      "id": "152104ccdf1f881b",
-      "fuente_id": "ia_dia",
-      "fuente_nombre": "IA al Día",
-      "tipo": "rss_web",
-      "subtipo": "google_news",
-      "grupo_fuente": "ia_general",
-      "nivel_fuente": "agregador",
-      "categoria": "inteligencia_artificial",
-      "idioma_original": "es",
-      "prioridad_fuente": 3,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "Acusan al fenómeno de la temporada literaria francesa de utilizar inteligencia artificial para escribir su novela - La Voz de Galicia",
-      "titulo_original": "Acusan al fenómeno de la temporada literaria francesa de utilizar inteligencia artificial para escribir su novela - La Voz de Galicia",
-      "enlace": "https://news.google.com/rss/articles/CBMiigJBVV95cUxNRE84b1c4MFN6NFZsWU5rLTlqdDZQZUJVZmFoWEo1WkotV19VSDBwZW9HM3BRTzNrMHpEUFVaNU8wQVRGS1UweXI3cndpRHVJcnJSOG5WU2lrbUFQdlBIOFJYWXR3MEdKQWFQUHUwSzBaV1dNX01QbnhIcmdoQTdlXzJrdlN0cW1RMkliaHdTR0xpZW5qV245Sm5RU1NPSzFTV25WOHdSYXZxU19JZUlYSHBFZzFXQnRTS2xpbmNCanMxZHBQVmNud09FWU5VMDAtWnRCaFFFakRQN2JkdFZfLXZFRlZUN1htaDdCMGVVQXZXVkI2TmdFNWswWXM2WUFqaWlHLUJDUThOZ9IBpgJBVV95cUxNVDN0Z3RBb2lwcC1JblVtYnd5Rm1XRVRpeHQ5MlhfR3J3ckQ4bVd1d1UwNFNZV1AyLWpHeVJ3eE9vT01hMFJnWHRONU9nZ0plUzYzNGp6bm9OS01ZLWFZRzdqSEtEZ3laWWgyUU1hVVE5MVRMU1BvWDFzWGw4cnFGVE9VYVZERkVKYnRMSy02di12bVllNGRIZzJvdmNKSlQtVTJYVlJyNUhycnJjVE4ybXdwY1RpbnMwZHR2SDJCZGIyREtLZjBtbWFHUXdrZWhUcE1TMURqR0tiY2xuVFM4aUdTQkVldFJyX3d0aEQ5aVVydTh4d1VURDNBeWRlUW1IbldxVEdKY1ZxX01pSEpUSXhfNk1PaWliOGpvYUh4dkNUQUtTSlE?oc=5",
-      "fecha": "2026-09-23T11:01:45.000Z",
-      "resumen_corto": "Acusan al fenómeno de la temporada literaria francesa de utilizar inteligencia artificial para escribir su novela La Voz de Galicia",
-      "resumen_largo": "Acusan al fenómeno de la temporada literaria francesa de utilizar inteligencia artificial para escribir su novela La Voz de Galicia",
-      "texto_original": "Acusan al fenómeno de la temporada literaria francesa de utilizar inteligencia artificial para escribir su novela La Voz de Galicia",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-09-23T19:35:14.767Z",
-        "index": 23,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "es",
-        "categoria": "inteligencia_artificial",
-        "categorias_secundarias": [],
-        "category_scores": {
-          "inteligencia_artificial": 3
-        },
-        "entidades": [],
-        "cifras_detectadas": [],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 75,
-        "relevancia": 50,
-        "confiabilidad_fuente": 53,
-        "readability": {
-          "words": 65,
-          "sentences": 1,
-          "average_words_per_sentence": 65
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 59.5
-    },
-    {
-      "id": "a21bea61c651ee87",
-      "fuente_id": "ia_dia",
-      "fuente_nombre": "IA al Día",
-      "tipo": "rss_web",
-      "subtipo": "google_news",
-      "grupo_fuente": "ia_general",
-      "nivel_fuente": "agregador",
-      "categoria": "inteligencia_artificial",
-      "idioma_original": "es",
-      "prioridad_fuente": 3,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "Ni cenó en un restaurante peruano ni posó con Orlando Bloom: la inteligencia artificial pasea a Brad Pitt por la hostelería donostiarra - El Diario Vasco",
-      "titulo_original": "Ni cenó en un restaurante peruano ni posó con Orlando Bloom: la inteligencia artificial pasea a Brad Pitt por la hostelería donostiarra - El Diario Vasco",
-      "enlace": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNYkkxYVRMd19QOWdoMHhqUTRaT1NoRi1ac0FReG1UTlJRVDlIQnpLYkhDRXR6bjVCa1Iwbk5iel80bndzQkpLSVozX2RRSExjR2M1X2NpQi1vT0drTkp5TlVUUGJ6VFFidGh5OWpsSFNRb2ZudDJyQV9wX3ZIbGtTNTI5XzZDdllDU21zN2JUU1ZMQ05SS0padldMOHZ3SUtPMHlYbGJCN2FZeWh5Z1NNNk1HMUNyMWI3MjNrbXlFcFYxQ1NWYnlSYS1KQ23SAdIBQVVfeXFMT2ZvTWRvVkpyMHhmTnBaZTNkWHBvTlY4Umc4eWp4dlJBYVdDY0FlZnJzMXEyYWZHc1V4QXpWR0w2U2kyZEpQWGsybldzczNJVHRsOC1SNnRRcFBQX1pDT0s2SmpqaVBjdXhLc3FGNFdndktGOEVFR2lzYTlZZFdiYnNkUFhoeGxYRkY3ZFlQUUhwdTFZN25EQ3hibjl6SzMyUHpPcXc1bnp5R2RwU2pFVXI1Vy13R2JXZ09RY2RpRWFVc3dQNnBqbmtPSkNoR3UtaHlR?oc=5",
-      "fecha": "2026-09-23T05:08:23.000Z",
-      "resumen_corto": "Ni cenó en un restaurante peruano ni posó con Orlando Bloom: la inteligencia artificial pasea a Brad Pitt por la hostelería donostiarra El Diario Vasco",
-      "resumen_largo": "Ni cenó en un restaurante peruano ni posó con Orlando Bloom: la inteligencia artificial pasea a Brad Pitt por la hostelería donostiarra El Diario Vasco",
-      "texto_original": "Ni cenó en un restaurante peruano ni posó con Orlando Bloom: la inteligencia artificial pasea a Brad Pitt por la hostelería donostiarra El Diario Vasco",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-09-23T19:35:14.774Z",
-        "index": 34,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "es",
-        "categoria": "inteligencia_artificial",
-        "categorias_secundarias": [],
-        "category_scores": {
-          "inteligencia_artificial": 3
-        },
-        "entidades": [],
-        "cifras_detectadas": [],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 75,
-        "relevancia": 50,
-        "confiabilidad_fuente": 53,
-        "readability": {
-          "words": 85,
-          "sentences": 1,
-          "average_words_per_sentence": 85
+          "average_words_per_sentence": 7.17
         },
         "duplicate": {
           "detected": false,
@@ -2588,8 +2263,8 @@
       "texto_original": "El apocalipsis de la IA ya ha empezado (pero no es el que te están contando) EL PAÍS",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-23T19:35:14.775Z",
-        "index": 37,
+        "processed_at": "2026-09-23T22:49:41.747Z",
+        "index": 33,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -2654,8 +2329,8 @@
       "texto_original": "Ascires inaugura oficialmente su hospital en València \"con tecnología avanzada, IA y equipos multidisciplinares\" Valencia Plaza",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-23T19:35:14.775Z",
-        "index": 39,
+        "processed_at": "2026-09-23T22:49:41.747Z",
+        "index": 34,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -2723,8 +2398,8 @@
       "texto_original": "Ascires concentra la alta tecnología en su hospital de Valencia con un quirófano único en Europa ABC",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-23T19:35:14.776Z",
-        "index": 40,
+        "processed_at": "2026-09-23T22:49:41.748Z",
+        "index": 35,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -2771,6 +2446,77 @@
       "final_score": 59.5
     },
     {
+      "id": "3b0142a7ac70d827",
+      "fuente_id": "resumen_militar",
+      "fuente_nombre": "El Resumen Militar",
+      "tipo": "telegram",
+      "subtipo": "canal_telegram",
+      "grupo_fuente": "telegram_militar",
+      "nivel_fuente": "telegram",
+      "categoria": "militar",
+      "idioma_original": "es",
+      "prioridad_fuente": 3,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "🇮🇷 🇺🇸 Iranian President Masoud Pezeshkian: Trump must know that the resistance of the Iranian people will only increase in the face of sanctions, increased pressure, increased bullying. We will never bow our head or",
+      "titulo_original": "🇮🇷 🇺🇸 Iranian President Masoud Pezeshkian: Trump must know that the resistance of the Iranian people will only increase in the face of sanctions, increased pressure, increased bullying. We will never bow our head or",
+      "enlace": "https://t.me/elresumenmilitar/100050",
+      "fecha": "2026-09-23T14:52:12.000Z",
+      "resumen_corto": "🇮🇷 🇺🇸 Iranian President Masoud Pezeshkian: Trump must know that the resistance of the Iranian people will only increase in the face of sanctions, increased pressure, increased bullying.",
+      "resumen_largo": "🇮🇷 🇺🇸 Iranian President Masoud Pezeshkian: Trump must know that the resistance of the Iranian people will only increase in the face of sanctions, increased pressure, increased bullying. We will never bow our head or bend the knee.",
+      "texto_original": "🇮🇷 🇺🇸 Iranian President Masoud Pezeshkian: Trump must know that the resistance of the Iranian people will only increase in the face of sanctions, increased pressure, increased bullying. We will never bow our head or bend the knee. 🔴 @DDGeopolitics",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-09-23T22:49:41.739Z",
+        "index": 19,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "en",
+        "idioma_original": "es",
+        "categoria": "actualidad",
+        "categorias_secundarias": [
+          "inteligencia_artificial",
+          "vehiculos_energia"
+        ],
+        "category_scores": {
+          "actualidad": 2,
+          "inteligencia_artificial": 1,
+          "vehiculos_energia": 1
+        },
+        "entidades": [],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 60,
+        "relevancia": 57,
+        "confiabilidad_fuente": 45,
+        "readability": {
+          "words": 142,
+          "sentences": 8,
+          "average_words_per_sentence": 17.75
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 55.05
+    },
+    {
       "id": "88b2dce41ac7acbd",
       "fuente_id": "resumen_militar",
       "fuente_nombre": "El Resumen Militar",
@@ -2792,8 +2538,8 @@
       "texto_original": "🇺🇸 🇮🇷 Marco Rubio: I think the Iranians are under this illusion that Democrats are going to win in November and Trump will no longer be able to do things against them. I just don't think they understand our system very well. 🐻 Everyone with a brain understands your system very well - it's a war uniparty 🔴 @DDGeopolitics",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-23T19:35:14.761Z",
-        "index": 11,
+        "processed_at": "2026-09-23T22:49:41.740Z",
+        "index": 20,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -2865,8 +2611,8 @@
       "texto_original": "🇮🇷 Iranian President Masoud Pezeshkian: They are committing genocide by using the so-called technologies that they have at their disposal. Then, they label others as terrorists. Are we the sources of instability? We only seek to live independently. 🔴 @DDGeopolitics",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-23T19:35:14.762Z",
-        "index": 13,
+        "processed_at": "2026-09-23T22:49:41.741Z",
+        "index": 22,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -2936,8 +2682,8 @@
       "texto_original": "🇮🇷 Iranian President Masoud Pezeshkian: We will not bow our head and give up the right that is inherently ours. We say it clearly: no nuclear weapons, and no limitations to peaceful nuclear technology. 🔴 @DDGeopolitics",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-23T19:35:14.763Z",
-        "index": 14,
+        "processed_at": "2026-09-23T22:49:41.742Z",
+        "index": 23,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -3009,8 +2755,8 @@
       "texto_original": "‼️ 🇷🇺 Все цели СВО будут достигнуты. Люди проголосовали за бойцов на передовой , — Путин ▪️ Рекордное количество проголосовавших на выборах говорит о том, что народ России поддерживает усилия властей по укреплению страны. ▪️ Враг пытался помешать и сорвать выборы, в том числе пытаясь прорвать систему ПВО Москвы и других регионов, но очереди на участках говорили о том, что запугать Россию невозможно . ▪️ Президент поблагодарил сограждан за активное участие в избирательной кампании. ⚠️ Подписаться на RV: MAX | t.me/RVvoenkor",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-23T19:35:14.761Z",
-        "index": 12,
+        "processed_at": "2026-09-23T22:49:41.741Z",
+        "index": 21,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -3050,90 +2796,26 @@
         }
       },
       "final_score": 50.25
-    },
-    {
-      "id": "911236a44b3ae794",
-      "fuente_id": "resumen_militar",
-      "fuente_nombre": "El Resumen Militar",
-      "tipo": "telegram",
-      "subtipo": "canal_telegram",
-      "grupo_fuente": "telegram_militar",
-      "nivel_fuente": "telegram",
-      "categoria": "militar",
-      "idioma_original": "es",
-      "prioridad_fuente": 3,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "‼️ 🇺🇦 🏴‍☠ 100 000 семей в Киеве и области без интернета из-за российской атаки , - Минцифры ▪️ Специалисты оценивают масштабы повреждений и ремонтируют сети. ▪️ Ранее провайдеры \"Паутина\" и UTELS сообщили о повреждени",
-      "titulo_original": "‼️ 🇺🇦 🏴‍☠ 100 000 семей в Киеве и области без интернета из-за российской атаки , - Минцифры ▪️ Специалисты оценивают масштабы повреждений и ремонтируют сети. ▪️ Ранее провайдеры \"Паутина\" и UTELS сообщили о повреждени",
-      "enlace": "https://t.me/elresumenmilitar/100044",
-      "fecha": "2026-09-23T14:22:41.000Z",
-      "resumen_corto": "‼️ 🇺🇦 🏴‍☠ 100 000 семей в Киеве и области без интернета из-за российской атаки , - Минцифры ▪️ Специалисты оценивают масштабы повреждений и ремонтируют сети.",
-      "resumen_largo": "‼️ 🇺🇦 🏴‍☠ 100 000 семей в Киеве и области без интернета из-за российской атаки , - Минцифры ▪️ Специалисты оценивают масштабы повреждений и ремонтируют сети. ▪️ Ранее провайдеры \"Паутина\" и UTELS сообщили о повреждении своих дата-центров в результате сегодняшних обстрелов. ⚠️ Подписаться на RV: MAX | t.me/RVvoenkor",
-      "texto_original": "‼️ 🇺🇦 🏴‍☠ 100 000 семей в Киеве и области без интернета из-за российской атаки , - Минцифры ▪️ Специалисты оценивают масштабы повреждений и ремонтируют сети. ▪️ Ранее провайдеры \"Паутина\" и UTELS сообщили о повреждении своих дата-центров в результате сегодняшних обстрелов. ⚠️ Подписаться на RV: MAX | t.me/RVvoenkor",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-09-23T19:35:14.763Z",
-        "index": 15,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "es",
-        "categoria": "militar",
-        "categorias_secundarias": [],
-        "category_scores": {},
-        "entidades": [],
-        "cifras_detectadas": [],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 15,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 60,
-        "relevancia": 45,
-        "confiabilidad_fuente": 45,
-        "readability": {
-          "words": 122,
-          "sentences": 10,
-          "average_words_per_sentence": 12.2
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 50.25
     }
   ],
-  "analyzed_at": "2026-09-23T19:35:14.776Z",
+  "analyzed_at": "2026-09-23T22:49:41.749Z",
   "analysis_stats": {
-    "input_items": 43,
-    "valid_items": 43,
+    "input_items": 39,
+    "valid_items": 39,
     "rejected_items": 0,
     "duplicate_items": 0,
     "clickbait_items": 0,
     "spam_items": 0,
-    "summaries_generated": 43,
-    "average_quality": 80,
-    "average_relevance": 58
+    "summaries_generated": 39,
+    "average_quality": 79,
+    "average_relevance": 57
   },
   "validation": {
     "version": "1.1",
-    "executed_at": "2026-09-23T19:35:14.890Z",
-    "original_items": 43,
+    "executed_at": "2026-09-23T22:49:41.891Z",
+    "original_items": 39,
     "rejected_items": 0,
-    "final_items": 43,
+    "final_items": 39,
     "limit": 60,
     "status": "ok"
   }

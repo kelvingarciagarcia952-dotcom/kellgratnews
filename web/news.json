@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "updated_at": "2026-09-24T18:25:07.786Z",
+  "updated_at": "2026-09-24T22:06:45.029Z",
   "configuracion": {
     "limite_global": 60,
     "frecuencia_minutos": 60,
@@ -22,168 +22,12 @@
   },
   "source_stats": {
     "active_sources": 15,
-    "successful_sources": 11,
-    "collected_items": 46,
-    "deduplicated_items": 31,
-    "final_items": 31
+    "successful_sources": 15,
+    "collected_items": 63,
+    "deduplicated_items": 45,
+    "final_items": 45
   },
   "items": [
-    {
-      "id": "e92e2759e318859c",
-      "fuente_id": "bbc_mundo",
-      "fuente_nombre": "BBC Mundo",
-      "tipo": "rss_web",
-      "subtipo": "medio_generalista",
-      "grupo_fuente": "bbc",
-      "nivel_fuente": "medio_profesional",
-      "categoria": "actualidad",
-      "idioma_original": "es",
-      "prioridad_fuente": 5,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "Qué son los agentes de la IA, los poderosos sistemas que realizaron en Australia el \"primer ataque\" a un portal de un gobierno",
-      "titulo_original": "Qué son los agentes de la IA, los poderosos sistemas que realizaron en Australia el \"primer ataque\" a un portal de un gobierno",
-      "enlace": "https://www.bbc.com/mundo/articles/c6zxz1z7zejro?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-09-24T10:39:18.000Z",
-      "resumen_corto": "Se llaman agentes de inteligencia artificial (IA) y aunque a nivel técnico no existe una definición única de qué son, un consenso es que son sistemas que pueden pensar, actuar, iterar (autocorregirse).",
-      "resumen_largo": "Ante un objetivo, evalúan soluciones y deciden cuál es la mejor, planifican, se coordinan y la ejecutan con enorme eficacia. Tanto, que preocupan a muchos expertos. Se llaman agentes de inteligencia artificial (IA) y aunque a nivel técnico no existe una definición única de qué son, un consenso es que son sistemas que pueden pensar, actuar, iterar (autocorregirse).",
-      "texto_original": "Ante un objetivo, evalúan soluciones y deciden cuál es la mejor, planifican, se coordinan y la ejecutan con enorme eficacia. Enormísima. Tanto, que preocupan a muchos expertos. Se llaman agentes de inteligencia artificial (IA) y aunque a nivel técnico no existe una definición única de qué son, un consenso es que son sistemas que pueden pensar, actuar, iterar (autocorregirse). Su nivel de autonomía es tal que, según algunos expertos, incluso podrían acceder por su cuenta a sistemas que contienen datos sensibles. El primer ministro de ese país, Anthony Albanese, afirmó este jueves que un agente de IA desarrollado por OpenAI \"se infiltró\" en un portal de estadísticas del gobierno. Según explicó, el sistema accedió sin autorización a una web que contenía datos \"no confidenciales\" de Medicare, el sistema público de salud del país. Albanese añadió que otros tres sistemas gubernamentales podrían haberse visto afectados, aunque no ofreció más detalles.",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-09-24T18:25:07.638Z",
-        "index": 14,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "es",
-        "categoria": "inteligencia_artificial",
-        "categorias_secundarias": [
-          "vehiculos_energia",
-          "software_internet",
-          "actualidad"
-        ],
-        "category_scores": {
-          "inteligencia_artificial": 7,
-          "vehiculos_energia": 3,
-          "software_internet": 1,
-          "actualidad": 1
-        },
-        "entidades": [
-          "OpenAI"
-        ],
-        "cifras_detectadas": [],
-        "content_type": "report",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 92,
-        "relevancia": 70,
-        "confiabilidad_fuente": 80,
-        "readability": {
-          "words": 203,
-          "sentences": 12,
-          "average_words_per_sentence": 16.92
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 80.2
-    },
-    {
-      "id": "9ab06a2e89288887",
-      "fuente_id": "wccftech_google",
-      "fuente_nombre": "Wccftech",
-      "tipo": "rss_web",
-      "subtipo": "google_news",
-      "grupo_fuente": "wccftech",
-      "nivel_fuente": "medio_especializado",
-      "categoria": "hardware",
-      "idioma_original": "en",
-      "prioridad_fuente": 4,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "NVIDIA Smooth Motion ahora se ejecuta en GPU de la serie RTX 30 gracias al mod NVSmooth30, la computadora portátil RTX 3050 y el funcionamiento confirmado de RTX 3080",
-      "titulo_original": "NVIDIA Smooth Motion Now Runs on RTX 30 Series GPUs Thanks to NVSmooth30 Mod, RTX 3050 Laptop and RTX 3080 Confirmed Working - Wccftech",
-      "enlace": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNaWw1Wmt3czh6QWlDOENkSS1EbWdydEVVcDVlMDJ4MjRkWFZOTHR2YjlCbXBHa0YzOXBrVzNfWHBYOENIc1dBVjd1Ymo0czBDZHoxSFRjZTFwd21sb2JLLWxrSnN2Ynh5M2Y5b2UzclZoVVJzNUxpVGsxbTg5SEg0Rm0tTTlEbFlweUE3UTZtNjdzZWhyQk9Ca0g5MzE2NldVd2RxUXRwT0hBTVFCT2ViN1lYVGFpWThwM3NrYmF0Tk96WlBUM2NST0VwRFB3M1lOM2lpN1YxcVRTUU1FYkHSAeMBQVVfeXFMTV9TbU5LRlVEa3BqSlBGWVR2ZFA0RHFfS0tQSmJfQzM0djBaZ28ycEstOGNuby1KemJ0dUstZFdqUlRMYjlESS1wX0tpTkcyV0ZaUXAzaDA5cFd1LUQyRWFrZEhlZkp5NW5LUmt5QkhNX0kyc2VUZEZTRlVudU4zazJXbVU0ZVZUOVJRdjFRaWFoT2VKVnY4akxHS1dEWGtOTWI4UzBvc2RJcVNBXzBucWR6dDZ0OGJ5Z3BVMFdRaWhSZzVYVVFTRm1TQ3NodkZFUEJXdjhrOHB5bHBfYXlVMl9BOGc?oc=5",
-      "fecha": "2026-09-23T22:00:00.000Z",
-      "resumen_corto": "NVIDIA Smooth Motion ahora se ejecuta en GPU de la serie RTX 30 gracias al mod NVSmooth30, la computadora portátil RTX 3050 y el funcionamiento confirmado de RTX 3080 Wccftech",
-      "resumen_largo": "NVIDIA Smooth Motion ahora se ejecuta en GPU de la serie RTX 30 gracias al mod NVSmooth30, la computadora portátil RTX 3050 y el funcionamiento confirmado de RTX 3080 Wccftech",
-      "texto_original": "NVIDIA Smooth Motion Now Runs on RTX 30 Series GPUs Thanks to NVSmooth30 Mod, RTX 3050 Laptop and RTX 3080 Confirmed Working Wccftech",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-09-24T18:25:07.646Z",
-        "index": 24,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "en",
-        "categoria": "hardware",
-        "categorias_secundarias": [
-          "inteligencia_artificial",
-          "semiconductores",
-          "tecnologia"
-        ],
-        "category_scores": {
-          "hardware": 3,
-          "inteligencia_artificial": 1,
-          "semiconductores": 1,
-          "tecnologia": 1
-        },
-        "entidades": [
-          "NVIDIA",
-          "Wccftech"
-        ],
-        "cifras_detectadas": [
-          "3050",
-          "3080",
-          "30 M",
-          "3080 W"
-        ],
-        "content_type": "report",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 95,
-        "relevancia": 75,
-        "confiabilidad_fuente": 60,
-        "readability": {
-          "words": 99,
-          "sentences": 1,
-          "average_words_per_sentence": 99
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 78.25
-    },
     {
       "id": "98cbfa066d2bdf58",
       "fuente_id": "bbc_mundo",
@@ -206,8 +50,8 @@
       "texto_original": "María* tiene un tic en el ojo derecho. Desde que los agentes de ICE aparecieron en las calles de Doral, ese movimiento involuntario se volvió casi constante, hasta que un día sintió que la mitad de su rostro se paralizaba. Doral es uno de los 34 municipios del condado de Miami-Dade, en el sur de Florida, y durante siete años ha sido el hogar de María, su esposo y sus hijas. También es la ciudad con la mayor población venezolana de Estados Unidos y una de las más custodiadas durante los últimos meses por el Servicio de Inmigración y Control de Aduanas (ICE, por sus siglas en inglés), en medio de la promesa del gobierno del presidente Donald Trump de ejecutar el mayor operativo de deportación en la historia del país. Con un caso de asilo pendiente, esta mujer venezolana de 52 años cambió su rutina para minimizar la posibilidad de toparse con patrullas de ICE en las esquinas de Doral, temerosa de ser detenida si las autoridades vinculan su estatus migratorio con la placa de su auto. \"Nosotros pedimos asilo afirmativo y el caso nunca cambió de estatus porque no hemos tenido ni siquiera la entrevista. Pero el caso está activo\", explica. Asilo afirmativo significa que María solicitó voluntariamente esta protección. Las leyes vigentes establecen que ella y su familia deberían estar protegidos contra la deportación mientras esperan la decisión de un juez o de un oficial de migración sobre su caso.",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-24T18:25:07.627Z",
-        "index": 3,
+        "processed_at": "2026-09-24T22:06:44.914Z",
+        "index": 15,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -281,8 +125,8 @@
       "texto_original": "Huawei is still leading the GlobalData 5G RAN competition in 2026. The tech giant has appeared as the sole leader in the latest ranking for its advanced 5G RAN solutions and related innovative products. Notably, it’s the company’s eighth year as a winner. GlobalData recently published its 2026 5G RAN Competitiveness Assessment report, in which […] The post Huawei continues to lead GlobalData 5G RAN for eighth year appeared first on Huawei Central .",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-24T18:25:07.634Z",
-        "index": 10,
+        "processed_at": "2026-09-24T22:06:44.915Z",
+        "index": 18,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -337,6 +181,84 @@
       "final_score": 77.5
     },
     {
+      "id": "c6ae34e9391dd271",
+      "fuente_id": "huawei_google",
+      "fuente_nombre": "Huawei Central",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "huawei",
+      "nivel_fuente": "agregador",
+      "categoria": "moviles",
+      "idioma_original": "en",
+      "prioridad_fuente": 4,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Huawei Kirin 9050 Pro supera al chip de 3 nm de Apple en las pruebas: Informe",
+      "titulo_original": "Huawei Kirin 9050 Pro outperforms Apple’s 3nm chip in tests: Report - Huawei Central",
+      "enlace": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNazlGQVVMVlVwelVha3lYTWkxN1NqdVdOcmhTNkZsSkFuVFdBLXlnZmN6NnNVd1o1RXp1MjFVbXV1V0RuWUNEMHc2TkVmTEVHYnVUZFBVTk5Pc3RGUkx0X2l0cThVZ0FtRFItUmJYOG5wRXNjSWV1Z3hJTG9wczNWQXEyNzhJR29ncVpqemw3bnJBbG82TW03OWZXQlDSAaIBQVVfeXFMT3MzOU5mY3RyS05fV1JLRlJ6VU83M3pWX2pBeHJ2TEZoaUJlcGlQd3c5YndVTlJTWFBmRkI4bTNWR1NEV09UYml1RHpqV2xMdm10enJVb3RkT19DRWRXak1DLWVSYmQzZk5DNHJRY3ZTc0h6QlkxXzRaeFZ3RzBkc0pRWGpmQ0ZNSFRHV0FLcUhlcXBGYXQ4ZzF3NU9CMm9UejNR?oc=5",
+      "fecha": "2026-09-23T07:11:45.000Z",
+      "resumen_corto": "Huawei Kirin 9050 Pro supera al chip de 3 nm de Apple en las pruebas: Informe Huawei Central",
+      "resumen_largo": "Huawei Kirin 9050 Pro supera al chip de 3 nm de Apple en las pruebas: Informe Huawei Central",
+      "texto_original": "Huawei Kirin 9050 Pro outperforms Apple’s 3nm chip in tests: Report Huawei Central",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-09-24T22:06:44.925Z",
+        "index": 41,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "en",
+        "categoria": "semiconductores",
+        "categorias_secundarias": [
+          "moviles",
+          "software_internet"
+        ],
+        "category_scores": {
+          "semiconductores": 2,
+          "moviles": 1,
+          "software_internet": 1
+        },
+        "entidades": [
+          "Huawei",
+          "Apple"
+        ],
+        "cifras_detectadas": [
+          "9050",
+          "3 nm",
+          "3nm"
+        ],
+        "content_type": "report",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 95,
+        "relevancia": 67,
+        "confiabilidad_fuente": 63,
+        "readability": {
+          "words": 58,
+          "sentences": 1,
+          "average_words_per_sentence": 58
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 75.8
+    },
+    {
       "id": "30edc37aa00ff91b",
       "fuente_id": "huawei_central",
       "fuente_nombre": "Huawei Central",
@@ -358,8 +280,8 @@
       "texto_original": "Huawei recently held its Connect 2026 Conference, where its rapid AI chip development is contributing to China’s progress in the tech industry, helping it to catch up with the US. Some analysts have shared their opinions on this subject. Let’s check. Paul Triolo – tech policy expert at DGA-Albright Stonebridge said Huawei has managed its […] The post Huawei chip development shows China’s rapid progress to catch up with US appeared first on Huawei Central .",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-24T18:25:07.644Z",
-        "index": 20,
+        "processed_at": "2026-09-24T22:06:44.921Z",
+        "index": 27,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -432,14 +354,14 @@
       "titulo": "ChatGPT Ads se expande al sudeste asiático y Taiwán",
       "titulo_original": "ChatGPT Ads expands to Southeast Asia and Taiwan - OpenAI",
       "enlace": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9kRFFhNDJrSUZUWmtDYnlqaXBCemhTVkdJb093MnRhZWpXQU9zenZsSG9zQWhMbXExWGUyZEd3eE9NRktQdkFncE9VQ2o3OWswdU05clNqcVltV1ZHOHFUd0dXeng0SnVlUFlZNy1Lb2dkRE9iQXc?oc=5",
-      "fecha": "2026-09-24T02:09:06.000Z",
+      "fecha": "2026-09-23T08:38:27.000Z",
       "resumen_corto": "ChatGPT Ads se expande al sudeste asiático y Taiwán OpenAI",
       "resumen_largo": "ChatGPT Ads se expande al sudeste asiático y Taiwán OpenAI",
       "texto_original": "ChatGPT Ads expands to Southeast Asia and Taiwan OpenAI",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-24T18:25:07.645Z",
-        "index": 22,
+        "processed_at": "2026-09-24T22:06:44.925Z",
+        "index": 40,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -486,6 +408,145 @@
       "final_score": 74.95
     },
     {
+      "id": "f5fff3f4260fcb6a",
+      "fuente_id": "ia_dia",
+      "fuente_nombre": "IA al Día",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "ia_general",
+      "nivel_fuente": "agregador",
+      "categoria": "inteligencia_artificial",
+      "idioma_original": "es",
+      "prioridad_fuente": 3,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Australia abre una investigación tras la infiltración de OpenAI en su sistema de salud - El Periódico",
+      "titulo_original": "Australia abre una investigación tras la infiltración de OpenAI en su sistema de salud - El Periódico",
+      "enlace": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOYmtmREF0TFpRS2x1czltaENrNkJYclQ3UFpodS00aVoyV0E5eV92UkZFQjhBcGVVZXdrUkpWQmk3cEFYWGVGOHhPTUdEaFlxYTVHYUl2cjh6ZDNWbERDZngwdnRWSlJjTHdmREh0NFVwSmJ4V0hCUndSZko5b3hnd3NqVjhianBXMXVLN2tNNGFSTFVPTHF2S0VKXzlSY1BaaU03QUtsOU14NGw0LTdZSDk1cVBEVkdtdVVENWV30gG-AUFVX3lxTE1HbG1qb3dJMHFFaFZxU0dmQVNNenJHZGN5aFRMWkhzSW1MMWtMMzlvWG1sQ1Rtek1PQ1VlZlFrVWl1V3plSmpfOXhVa0hEVkMtUDBmWWp2QzlfZ1M4ODE4WEdINlgzRDJ5RnMwRmdJOXhid3NHQnE0Ry1IVG1mQVkyX2JocFctenJhYWZpUU85eVQzRm81WDFibW1XbUlqX0JMMmRuWXR1MGU3V05QaWh6T2R2a3Z4YjdKbGl4dUE?oc=5",
+      "fecha": "2026-09-24T08:47:51.000Z",
+      "resumen_corto": "Australia abre una investigación tras la infiltración de OpenAI en su sistema de salud El Periódico",
+      "resumen_largo": "Australia abre una investigación tras la infiltración de OpenAI en su sistema de salud El Periódico",
+      "texto_original": "Australia abre una investigación tras la infiltración de OpenAI en su sistema de salud El Periódico",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-09-24T22:06:44.920Z",
+        "index": 25,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "inteligencia_artificial",
+        "categorias_secundarias": [
+          "tecnologia"
+        ],
+        "category_scores": {
+          "inteligencia_artificial": 3,
+          "tecnologia": 2
+        },
+        "entidades": [
+          "OpenAI"
+        ],
+        "cifras_detectadas": [],
+        "content_type": "report",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 88,
+        "relevancia": 70,
+        "confiabilidad_fuente": 63,
+        "readability": {
+          "words": 50,
+          "sentences": 1,
+          "average_words_per_sentence": 50
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 74.55
+    },
+    {
+      "id": "fd1520cefaaaba9b",
+      "fuente_id": "ia_dia",
+      "fuente_nombre": "IA al Día",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "ia_general",
+      "nivel_fuente": "agregador",
+      "categoria": "inteligencia_artificial",
+      "idioma_original": "es",
+      "prioridad_fuente": 3,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Un agente de inteligencia artificial de OpenAI accede sin permiso a datos del sistema de salud de Australia - RTVE.es",
+      "titulo_original": "Un agente de inteligencia artificial de OpenAI accede sin permiso a datos del sistema de salud de Australia - RTVE.es",
+      "enlace": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQMW1IcUx4c2tBeUlza2h5UGoxRENNVjUxVjJXQkFLS3AwOGFlUEFpdXJmQ2hXWE05T05jUHBmX2dNZFZwQkdCdzYtYUNYVk5XbFpuQzNNdnRocFlxV3M5cXZLR0gzalpvU0VXOV85MjZUZjkzWk42VEFFNlFid1dNT3R6MGRxd1J0WVUzZFJEdVhXZ3FjWGl0Tk9uaTZNblpyOWN3RVROdkZ6VWZMRnhWcHJqRTRBbUVKNTlHVXpFaFNTc2FxNEFoQUxqSWN3MTdJMjVqWUxWSnpuRWdOTHc?oc=5",
+      "fecha": "2026-09-24T07:11:00.000Z",
+      "resumen_corto": "Un agente de inteligencia artificial de OpenAI accede sin permiso a datos del sistema de salud de Australia RTVE.es",
+      "resumen_largo": "Un agente de inteligencia artificial de OpenAI accede sin permiso a datos del sistema de salud de Australia RTVE.es",
+      "texto_original": "Un agente de inteligencia artificial de OpenAI accede sin permiso a datos del sistema de salud de Australia RTVE.es",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-09-24T22:06:44.922Z",
+        "index": 28,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "inteligencia_artificial",
+        "categorias_secundarias": [],
+        "category_scores": {
+          "inteligencia_artificial": 5
+        },
+        "entidades": [
+          "OpenAI"
+        ],
+        "cifras_detectadas": [],
+        "content_type": "report",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 88,
+        "relevancia": 70,
+        "confiabilidad_fuente": 63,
+        "readability": {
+          "words": 65,
+          "sentences": 6,
+          "average_words_per_sentence": 10.83
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 74.55
+    },
+    {
       "id": "0f3c44c0dfc6858e",
       "fuente_id": "huawei_central",
       "fuente_nombre": "Huawei Central",
@@ -507,8 +568,8 @@
       "texto_original": "After the Nova 16 Pro, the Huawei Watch Fit 5 series has received a new Pop Mart Hirono Edition. The co-branded smartwatch version is available for reservation through authorized e-commerce channels at special discounts. Here are the details. Hirono is a Chinese designer toy character. It is Pop Mart’s introspective boy character with a tired […] The post Huawei Watch Fit 5 gets a Pop Mart Hirono Edition appeared first on Huawei Central .",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-24T18:25:07.637Z",
-        "index": 13,
+        "processed_at": "2026-09-24T22:06:44.918Z",
+        "index": 21,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -582,8 +643,8 @@
       "texto_original": "Sam Altman’s remarks at the United Nations Security Council OpenAI",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-24T18:25:07.646Z",
-        "index": 25,
+        "processed_at": "2026-09-24T22:06:44.923Z",
+        "index": 32,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -653,8 +714,8 @@
       "texto_original": "Airbnb widens access to GPT-6 Astra and OpenAI frontier models OpenAI",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-24T18:25:07.647Z",
-        "index": 26,
+        "processed_at": "2026-09-24T22:06:44.923Z",
+        "index": 33,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -721,8 +782,8 @@
       "texto_original": "Quizás en otro momento de la historia, un presidente de Estados Unidos que hablara ante las Naciones Unidas de usar su \"poderío militar sin igual\" para defender sus intereses en América Latina, o de ganarse un \"botín\" en uno de sus países, habría generado rechazos de gobiernos de izquierda y derecha de la región por igual. Pero el presidente estadounidense que dice esas cosas hoy es Donald Trump, y a lo largo de Latinoamérica gobiernan varios exponentes de una nueva derecha que, lejos de criticarlo, se alinean con él ante los ojos del mundo. Esa realidad política ha quedado plasmada esta semana en Nueva York, en el marco de la Asamblea General de la ONU, donde Trump presentó el activo músculo de EE.UU. en el hemisferio como un logro suyo, mientras enfrenta crecientes retos en otras partes. Por ejemplo, citó en su discurso del martes ante la ONU el ataque militar que ordenó en Venezuela para arrestar al presidente Nicolás Maduro en enero y el control que EE.UU. obtuvo de parte de las vastas reservas petroleras de ese país, porque \"al vencedor le corresponde el botín\". \"Nuestras acciones en Venezuela son prueba de que EE.UU. ya no permitirá que las amenazas contra América se afiancen en ningún lugar del hemisferio occidental\", advirtió. \"Y, si es necesario, usaremos nuestro poderío militar sin igual para salvaguardar los intereses nacionales vitales de EE.UU.\". Después, Trump escuchó elogios de presidentes latinoamericanos el resto del día.",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-24T18:25:07.636Z",
-        "index": 12,
+        "processed_at": "2026-09-24T22:06:44.917Z",
+        "index": 20,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -774,75 +835,6 @@
       "final_score": 71.15
     },
     {
-      "id": "daed8e3b35bcd56a",
-      "fuente_id": "bbc_mundo",
-      "fuente_nombre": "BBC Mundo",
-      "tipo": "rss_web",
-      "subtipo": "medio_generalista",
-      "grupo_fuente": "bbc",
-      "nivel_fuente": "medio_profesional",
-      "categoria": "actualidad",
-      "idioma_original": "es",
-      "prioridad_fuente": 5,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "Por qué más mujeres sufren ataques de migraña que los hombres (y qué puede ayudar a calmar el dolor)",
-      "titulo_original": "Por qué más mujeres sufren ataques de migraña que los hombres (y qué puede ayudar a calmar el dolor)",
-      "enlace": "https://www.bbc.com/mundo/articles/c6kgw48w4xygo?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-09-24T09:39:54.000Z",
-      "resumen_corto": "Estar acostado en una habitación oscura mientras un dolor implacable perfora la frente es una situación dolorosamente familiar para muchas personas que sufren de migraña.",
-      "resumen_largo": "Estar acostado en una habitación oscura mientras un dolor implacable perfora la frente es una situación dolorosamente familiar para muchas personas que sufren de migraña. Esta afección debilitante puede tener un enorme impacto en las relaciones personales, el trabajo y la salud mental. Además, afecta especialmente a las mujeres: tienen tres veces más probabilidades que los hombres de sufrir ataques de migraña.",
-      "texto_original": "Estar acostado en una habitación oscura mientras un dolor implacable perfora la frente es una situación dolorosamente familiar para muchas personas que sufren de migraña. Esta afección debilitante puede tener un enorme impacto en las relaciones personales, el trabajo y la salud mental. Además, afecta especialmente a las mujeres: tienen tres veces más probabilidades que los hombres de sufrir ataques de migraña. Pero, ¿qué provoca la aparición de la migraña y qué se puede hacer para ayudar a controlarla? La migraña afecta aproximadamente a una de cada siete personas en todo el mundo, lo que equivale a más de mil millones de personas, según la organización benéfica Migraine Trust . Se trata de una afección neurológica de origen genético que hace que el cerebro sea más sensible a los cambios.",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-09-24T18:25:07.641Z",
-        "index": 17,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "es",
-        "categoria": "inteligencia_artificial",
-        "categorias_secundarias": [
-          "moviles"
-        ],
-        "category_scores": {
-          "inteligencia_artificial": 2,
-          "moviles": 1
-        },
-        "entidades": [],
-        "cifras_detectadas": [],
-        "content_type": "report",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 87,
-        "relevancia": 50,
-        "confiabilidad_fuente": 80,
-        "readability": {
-          "words": 194,
-          "sentences": 10,
-          "average_words_per_sentence": 19.4
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 70.45
-    },
-    {
       "id": "7651afb88d6f234e",
       "fuente_id": "openai_google",
       "fuente_nombre": "OpenAI",
@@ -864,8 +856,8 @@
       "texto_original": "Introducing MentalHealthBench OpenAI",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-24T18:25:07.644Z",
-        "index": 21,
+        "processed_at": "2026-09-24T22:06:44.922Z",
+        "index": 29,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -932,8 +924,8 @@
       "texto_original": "All Specs, Features of Xiaomi Smart Band 11 | Xiaomi Global Xiaomi",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-24T18:25:07.647Z",
-        "index": 27,
+        "processed_at": "2026-09-24T22:06:44.924Z",
+        "index": 36,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -1005,8 +997,8 @@
       "texto_original": "CATL Debrecen Kicks Off Trial Operations in its New Cell Building CATL",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-24T18:25:07.647Z",
-        "index": 28,
+        "processed_at": "2026-09-24T22:06:44.926Z",
+        "index": 42,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -1057,45 +1049,56 @@
       "final_score": 70.15
     },
     {
-      "id": "7371c2df8543a29c",
-      "fuente_id": "ia_dia",
-      "fuente_nombre": "IA al Día",
+      "id": "92bfae0991a87a69",
+      "fuente_id": "wccftech_google",
+      "fuente_nombre": "Wccftech",
       "tipo": "rss_web",
       "subtipo": "google_news",
-      "grupo_fuente": "ia_general",
-      "nivel_fuente": "agregador",
-      "categoria": "inteligencia_artificial",
-      "idioma_original": "es",
-      "prioridad_fuente": 3,
+      "grupo_fuente": "wccftech",
+      "nivel_fuente": "medio_especializado",
+      "categoria": "hardware",
+      "idioma_original": "en",
+      "prioridad_fuente": 4,
       "analizar": true,
       "resumir": true,
-      "titulo": "Hiberus alcanza el top 1 en el estudio Value for Money de Whitelane 2026 y se sitúa en el top 2 en Inteligencia Artificial - heraldo.es",
-      "titulo_original": "Hiberus alcanza el top 1 en el estudio Value for Money de Whitelane 2026 y se sitúa en el top 2 en Inteligencia Artificial - heraldo.es",
-      "enlace": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNZEoyNzBFUk9wV2dqSzdDZmJqN09aQzA1S0F5Y2J5RHhoTzRDcFNXVkdweWVVaFRVV1lIR3ZZN0RoT2JleDNxUUZTZEF5NkcxbGRmVzVZZ1doaEdoek1HLTY5M01hT240ZHY4SnJjOFFFLWUwY0pCTk1XUmF4Q1E5NmxHeVhwQzlIaVJfeGlnSjgzQi1mdEM0VWVxcEcwRmdPUTRBMkNOUXRQQWxhXzJibzlGZXZKVm9ZWUhmaUY1ZkgyeHhaT1JjdGIwZndmeXc4VGg5ZTFQVlpXSzFKeXYzUTFYV01MR2xOOWpsa01rOG9qRXhOYjZJ0gH8AUFVX3lxTFB5ZlpTeGlrTXZjNDJfUTZuelFycXNzd1RNMEJXM08wSUNYSlBsem8xVDhsb2ZXeEsyQ2ZyX0FSQ3k3aFB2aTM4b1hiV0x4eXp4RFNSZFZnLUQ5aExqbi1pX0diY1NNM0JqdlFqODFkTGxnZEl5dXU5bWVKX3VzM0RhemFLQlNJYUxwUzB6X3pHMDNTLVMxYzBsUHlhTzVBVkhwamRnc3hxRlduWjRBNWwtZFpNOUZEQ1dPRDZadk56UkZNVnN0LXRlaDd5YXYtMjM1QTBOc013UGtCQ3M5ODZtY3VLQU5MT3ZDMHozRzV1Yzg1RnYxcklVTWVENg?oc=5",
-      "fecha": "2026-09-24T16:44:48.000Z",
-      "resumen_corto": "Hiberus alcanza el top 1 en el estudio Value for Money de Whitelane 2026 y se sitúa en el top 2 en Inteligencia Artificial heraldo.es",
-      "resumen_largo": "Hiberus alcanza el top 1 en el estudio Value for Money de Whitelane 2026 y se sitúa en el top 2 en Inteligencia Artificial heraldo.es",
-      "texto_original": "Hiberus alcanza el top 1 en el estudio Value for Money de Whitelane 2026 y se sitúa en el top 2 en Inteligencia Artificial heraldo.es",
+      "titulo": "Se rumorea que TSMC ha comenzado la producción piloto de chips de 1,4 nm mientras se apresura hacia la producción en volumen de 2028",
+      "titulo_original": "TSMC Rumored To Have Started Pilot Production of 1.4nm Chips as it Races To 2028 Volume Production - Wccftech",
+      "enlace": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNM0F4a05Xa3pGN1BHOWhBQkpGVzlZMHk4eUNiX3F0S1FCcXZncWx5QWZpc0lpbjBLYk1iQm5GV25jUi12TURuSldvSVpPbGJLYWxsVjhPQjBKYmlRVndtb0o0SER5V2xlbGpaVzVNSk84SjNqTTZyM2pBRks4b21iRjdOdExid0NyanV2Q2VVdjAySS1SLXlKMTc5N0twY0g4Rkt1SWlfX2RRUEdjMVJoNkpDN0dLX1dOdWZFZdIBwgFBVV95cUxNeUxBZmNPOGdhai1hV1dfWGJsOU1IeUREcFBURUVJVkE4QVRhYkl1U3ppV3VPenNzNnBlSENEenR0aVBiZTkzTkkzNmxqMHIyRkNxcFo5QXNqZy1uWExmNEJ4Z3BFUmNJVVFOX3FmeXk4R2EyQ29JYlc4Vmp1VkR4X3MxUEdrNlRaOXpKZ0JpZVptRm53ZXRSd0hWdTNNRkNiQkgzNEowazFxcG9QREJBQmZ6dkNSNmJiMFJ1M1REclJ4Zw?oc=5",
+      "fecha": "2026-09-24T15:29:10.000Z",
+      "resumen_corto": "Se rumorea que TSMC ha comenzado la producción piloto de chips de 1,4 nm mientras se apresura hacia la producción en volumen de 2028 Wccftech",
+      "resumen_largo": "Se rumorea que TSMC ha comenzado la producción piloto de chips de 1,4 nm mientras se apresura hacia la producción en volumen de 2028 Wccftech",
+      "texto_original": "TSMC Rumored To Have Started Pilot Production of 1.4nm Chips as it Races To 2028 Volume Production Wccftech",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-24T18:25:07.625Z",
-        "index": 2,
+        "processed_at": "2026-09-24T22:06:44.911Z",
+        "index": 10,
         "resumen": {
           "generado": true,
           "origen": "translated"
         },
         "idioma_detectado": "es",
-        "idioma_original": "es",
-        "categoria": "inteligencia_artificial",
-        "categorias_secundarias": [],
-        "category_scores": {
-          "inteligencia_artificial": 3
-        },
-        "entidades": [],
-        "cifras_detectadas": [
-          "2026"
+        "idioma_original": "en",
+        "categoria": "semiconductores",
+        "categorias_secundarias": [
+          "inteligencia_artificial",
+          "tecnologia"
         ],
-        "content_type": "report",
+        "category_scores": {
+          "semiconductores": 5,
+          "inteligencia_artificial": 1,
+          "tecnologia": 1
+        },
+        "entidades": [
+          "TSMC",
+          "Wccftech"
+        ],
+        "cifras_detectadas": [
+          "1,4 nm",
+          "2028",
+          "1.4nm",
+          "2028 W"
+        ],
+        "content_type": "news",
         "clickbait": {
           "detected": false,
           "score": 0,
@@ -1107,13 +1110,13 @@
           "signals": [],
           "url_count": 0
         },
-        "calidad": 88,
-        "relevancia": 58,
-        "confiabilidad_fuente": 63,
+        "calidad": 87,
+        "relevancia": 67,
+        "confiabilidad_fuente": 50,
         "readability": {
-          "words": 70,
-          "sentences": 6,
-          "average_words_per_sentence": 11.67
+          "words": 67,
+          "sentences": 3,
+          "average_words_per_sentence": 22.33
         },
         "duplicate": {
           "detected": false,
@@ -1146,8 +1149,8 @@
       "texto_original": "Apple iPhone 18 Pro Max Teardown: A20 Pro, X80 and Apple N1 TechInsights",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-24T18:25:07.648Z",
-        "index": 30,
+        "processed_at": "2026-09-24T22:06:44.926Z",
+        "index": 44,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -1221,8 +1224,8 @@
       "texto_original": "La empresa propietaria del inmueble del que fue desalojada una anciana de 87 años en Madrid está en el centro del debate sobre la crisis de la vivienda en España . Maricarmen Abascal vivía desde hace 70 años en la casa, pagaba el alquiler cada mes y, por su edad y minusvalía, se ha convertido en una de las figuras más simbólicas de la problemática de los desahucios que se producen cada año en el país europeo. El desalojo de la mujer expone la gravedad de la situación habitacional en España, donde el precio de los alquileres ha subido exponencialmente en los últimos años debido a una combinación de factores: escasez de oferta, aumento de la población en las principales capitales y la presión de los apartamentos turísticos de corta duración. El número 46 de la calle Alcalde Sainz de Baranda, donde vivía Maricarmen, se encuentra en el cotizado distrito de Retiro, una de las zonas más caras de Madrid. Después de un litigio de varios años en el que la justicia finalmente falló a favor de Urbagestión Desarrollo e Inversión SL, la empresa propietaria del inmueble, la comisión judicial ejecutó el desalojo el miércoles. Frente a la puerta del edificio, decenas de activistas se concentraron para intentar impedir, sin éxito, el cuarto intento de desahucio.",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-24T18:25:07.623Z",
-        "index": 0,
+        "processed_at": "2026-09-24T22:06:44.908Z",
+        "index": 4,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -1271,6 +1274,77 @@
       "final_score": 67.95
     },
     {
+      "id": "18542572efa2a46e",
+      "fuente_id": "huawei_google",
+      "fuente_nombre": "Huawei Central",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "huawei",
+      "nivel_fuente": "agregador",
+      "categoria": "moviles",
+      "idioma_original": "en",
+      "prioridad_fuente": 4,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Honor MagicPad 4 con pantalla de 165 Hz se lanzará el 28 de septiembre",
+      "titulo_original": "Honor MagicPad 4 with 165Hz screen launching on September 28 - Huawei Central",
+      "enlace": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPZDJMakMzQTd6ejZ6clAzQXZTYVhQbmxiemVUeUtXcW1sOXRxaW40UVZhN1NMV1hmVTVBeXVaUlpGVHJpMndxcXYxX2h5RzJJd0F3NXBFWlVaSVJDM0lIQW9lZ0dEcDZHT2hBbW45MVNMNnVnOFFLYVdTcFFtRjZqb1VhYWhtN0V0SjVGeGxHSDJLN2JZeWfSAZsBQVVfeXFMTzF0eXVQZDhINm9NQWdYcW4wZ21WVjZiOE55cUM3YndFSmswYnVRSktSal9xV2hNeklKLU5SWndHU2E4c0xwQkN4WmZOWFc5S2NmbDk3YjZ6bkZNU3o5Tm9lRVZSWjl3dE1iUXVmSFVrVDlwaWVCSWMzTzEtc1pnQ3FmNnhlUUJUMWEzTFc1Y29CajJrN1FTcl9qVGs?oc=5",
+      "fecha": "2026-09-23T12:21:45.000Z",
+      "resumen_corto": "Honor MagicPad 4 con pantalla de 165 Hz se lanzará el 28 de septiembre Huawei Central",
+      "resumen_largo": "Honor MagicPad 4 con pantalla de 165 Hz se lanzará el 28 de septiembre Huawei Central",
+      "texto_original": "Honor MagicPad 4 with 165Hz screen launching on September 28 Huawei Central",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-09-24T22:06:44.924Z",
+        "index": 37,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "en",
+        "categoria": "moviles",
+        "categorias_secundarias": [],
+        "category_scores": {
+          "moviles": 2
+        },
+        "entidades": [
+          "Huawei",
+          "Honor"
+        ],
+        "cifras_detectadas": [
+          "4 w"
+        ],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 87,
+        "relevancia": 60,
+        "confiabilidad_fuente": 53,
+        "readability": {
+          "words": 43,
+          "sentences": 1,
+          "average_words_per_sentence": 43
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 67.7
+    },
+    {
       "id": "d75e2911c82aed1f",
       "fuente_id": "huawei_central",
       "fuente_nombre": "Huawei Central",
@@ -1292,8 +1366,8 @@
       "texto_original": "A senior Huawei official accidentally gave a glimpse of one of the Mate 90 models. While the company hasn’t revealed any teaser or launch announcement for the flagship smartphone lineup yet, the latest leak suggests that the 2026 Mate devices are inching closer to their unveiling stage. Richard Yu, the Chairman of Huawei Consumer Business […] The post Senior Huawei official accidentally leaks a Mate 90 model appeared first on Huawei Central .",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-24T18:25:07.642Z",
-        "index": 18,
+        "processed_at": "2026-09-24T22:06:44.920Z",
+        "index": 24,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -1355,6 +1429,364 @@
       "final_score": 66.55
     },
     {
+      "id": "9291716131bac5b3",
+      "fuente_id": "huawei_google",
+      "fuente_nombre": "Huawei Central",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "huawei",
+      "nivel_fuente": "agregador",
+      "categoria": "moviles",
+      "idioma_original": "en",
+      "prioridad_fuente": 4,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "La filtración del cronograma de lanzamiento de la serie Honor 700 hace su debut",
+      "titulo_original": "Honor 700 series launch timeline leak makes a debut - Huawei Central",
+      "enlace": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNZTRPWlNzNk40NUJaVHA3SXVWWlZ6VGY1LXgzM3FQQ29uWVBRbC16WFBWX1N4Nnk5WFp0Y1FUcXNwb2J5UVBmTVByMEFFVC1aZ2ZiZjJ1bVE0Z2U1WTNzUUNhbUpRRVkySVloX05ZNnozeVV5OUdmWjh0Nzl2SWxncktnX085bFlLb0HSAY8BQVVfeXFMTklwaUJBb2VXMmdwbkVFVTItTi1QRXJjMnRFcHRHWGROaDYtX0luTU10cnJHUE1QY2stMG5ma0tLYU1vcFMzaHl1QTJZdG83emRoSTRLZlU2UENPZWZWeE5IS0RiM3h5TEJaRkYyZzVvc3RXdnVoNllGMUpETHIxYV9HajBYLW9qX3NqTUFFaGM?oc=5",
+      "fecha": "2026-09-23T09:26:45.000Z",
+      "resumen_corto": "La filtración del cronograma de lanzamiento de la serie Honor 700 hace su debut Huawei Central",
+      "resumen_largo": "La filtración del cronograma de lanzamiento de la serie Honor 700 hace su debut Huawei Central",
+      "texto_original": "Honor 700 series launch timeline leak makes a debut Huawei Central",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-09-24T22:06:44.925Z",
+        "index": 39,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "en",
+        "categoria": "moviles",
+        "categorias_secundarias": [
+          "hardware"
+        ],
+        "category_scores": {
+          "moviles": 2,
+          "hardware": 1
+        },
+        "entidades": [
+          "Huawei",
+          "Honor"
+        ],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 82,
+        "relevancia": 60,
+        "confiabilidad_fuente": 53,
+        "readability": {
+          "words": 51,
+          "sentences": 1,
+          "average_words_per_sentence": 51
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 65.95
+    },
+    {
+      "id": "82d050fb23750ca4",
+      "fuente_id": "bbc_mundo",
+      "fuente_nombre": "BBC Mundo",
+      "tipo": "rss_web",
+      "subtipo": "medio_generalista",
+      "grupo_fuente": "bbc",
+      "nivel_fuente": "medio_profesional",
+      "categoria": "actualidad",
+      "idioma_original": "es",
+      "prioridad_fuente": 5,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Cómo la hermética comunidad Amish combate el brote de sarampión más mortal de la historia reciente en EE.UU.",
+      "titulo_original": "Cómo la hermética comunidad Amish combate el brote de sarampión más mortal de la historia reciente en EE.UU.",
+      "enlace": "https://www.bbc.com/mundo/articles/cwe9e73e8x04o?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-09-24T21:18:10.000Z",
+      "resumen_corto": "Mientras Pensilvania lucha contra el brote de sarampión más mortífero de la historia reciente, la supervisora clínica conduce 48,3 kilómetros, a veces a diario, hasta un rincón rural del estado en el que viven muchos amish.",
+      "resumen_largo": "Durante los últimos meses, la enfermera Dale Weiser ha estado haciendo visitas domiciliarias inesperadas. Mientras Pensilvania lucha contra el brote de sarampión más mortífero de la historia reciente, la supervisora clínica conduce 48,3 kilómetros, a veces a diario, hasta un rincón rural del estado en el que viven muchos amish. Weiser dice que cuando entra en las casas de desconocidos, trata ser lo más respetuosa y discreta que puede mientras vacuna a decenas de miembros de las familias contra el sarampión, a veces alrededor de la mesa de la cocina.",
+      "texto_original": "Durante los últimos meses, la enfermera Dale Weiser ha estado haciendo visitas domiciliarias inesperadas. Mientras Pensilvania lucha contra el brote de sarampión más mortífero de la historia reciente, la supervisora clínica conduce 48,3 kilómetros, a veces a diario, hasta un rincón rural del estado en el que viven muchos amish. Weiser dice que cuando entra en las casas de desconocidos, trata ser lo más respetuosa y discreta que puede mientras vacuna a decenas de miembros de las familias contra el sarampión, a veces alrededor de la mesa de la cocina. \"Muchas de las personas con las que me encuentro no tienen seguro médico. No tienen mucha interacción con el sistema de salud y simplemente no han visto la necesidad de vacunarse\", dijo Weiser, quien trabaja para el Departamento de Salud del Condado de Chester. \"Cuando empiezas a hablar con ellos, respondes a sus preguntas y generas confianza, muchas veces toman una decisión diferente.\" Las vacunaciones a domicilio forman parte de la estrategia de los departamentos de salud del condado y del estado para fomentar la inmunización en el área, que además incluye una comunidad amish que se abstiene de muchos aspectos de la vida moderna, incluido el contacto regular con el sistema médico occidental.",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-09-24T22:06:44.904Z",
+        "index": 0,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "inteligencia_artificial",
+        "categorias_secundarias": [
+          "hardware"
+        ],
+        "category_scores": {
+          "inteligencia_artificial": 1,
+          "hardware": 1
+        },
+        "entidades": [],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 79,
+        "relevancia": 50,
+        "confiabilidad_fuente": 70,
+        "readability": {
+          "words": 258,
+          "sentences": 15,
+          "average_words_per_sentence": 17.2
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 65.15
+    },
+    {
+      "id": "0d5c73ac59a41810",
+      "fuente_id": "bbc_mundo",
+      "fuente_nombre": "BBC Mundo",
+      "tipo": "rss_web",
+      "subtipo": "medio_generalista",
+      "grupo_fuente": "bbc",
+      "nivel_fuente": "medio_profesional",
+      "categoria": "actualidad",
+      "idioma_original": "es",
+      "prioridad_fuente": 5,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "\"No sabía que mi pareja me violaba mientras dormía\"",
+      "titulo_original": "\"No sabía que mi pareja me violaba mientras dormía\"",
+      "enlace": "https://www.bbc.com/mundo/articles/cm4gjv80vr4zo?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-09-24T19:05:41.000Z",
+      "resumen_corto": "El novio de Adelle Overton durante 13 años, Steven Uden, parecía ser la pareja perfecta.",
+      "resumen_largo": "\"Para mí, hasta el mismo día antes de que admitiera lo que había hecho, fue la mejor relación que he tenido en mi vida\". El novio de Adelle Overton durante 13 años, Steven Uden, parecía ser la pareja perfecta. Se conocieron en el rodaje de una película de zombis y compartían muchos intereses.",
+      "texto_original": "\"Para mí, hasta el mismo día antes de que admitiera lo que había hecho, fue la mejor relación que he tenido en mi vida\". El novio de Adelle Overton durante 13 años, Steven Uden, parecía ser la pareja perfecta. Se conocieron en el rodaje de una película de zombis y compartían muchos intereses. Ella asegura que Uden era amable y cariñoso, e incluso dejó de trabajar para convertirse en su cuidador cuando quedó discapacitada. \"Era maravilloso. Lo amaba profundamente y creo que aún lo sigo queriendo un poco\", dice Overton, sentada en el sofá de su casa en Derby, Inglaterra. Overton confiaba en Uden, pero esa confianza quedó destruida cuando él admitió que la había violado mientras ella dormía.",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-09-24T22:06:44.905Z",
+        "index": 1,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "vehiculos_energia",
+        "categorias_secundarias": [
+          "inteligencia_artificial"
+        ],
+        "category_scores": {
+          "vehiculos_energia": 2,
+          "inteligencia_artificial": 1
+        },
+        "entidades": [],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 79,
+        "relevancia": 50,
+        "confiabilidad_fuente": 70,
+        "readability": {
+          "words": 142,
+          "sentences": 11,
+          "average_words_per_sentence": 12.91
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 65.15
+    },
+    {
+      "id": "6a3ced2388208769",
+      "fuente_id": "wccftech_google",
+      "fuente_nombre": "Wccftech",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "wccftech",
+      "nivel_fuente": "medio_especializado",
+      "categoria": "hardware",
+      "idioma_original": "en",
+      "prioridad_fuente": 4,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "La caja de coleccionista de GTA VI de Rockstar de 400 dólares cuesta 4 veces más que la edición de coleccionista de Red Dead 2, pero aún se envía sin el juego",
+      "titulo_original": "Rockstar’s $400 GTA VI Collector’s Box Costs 4X a Red Dead 2 Collector’s Edition, yet Still Ships without the Game - Wccftech",
+      "enlace": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOUlVGazZKajVuODFqblk2UDM0RlNYVzNtODVsOEIyaURqcnVRNzFrczV6YXpUa0VNdTAwWnMxUThsN0dFczAtTzk3TTJtWGxzNHhzcjMxNW9TZFd6a19kTGs0TDFRZjRUWWstSF9ObnQ4WTRta2IxM2VELUVOZUhYY09lZGRROW1HZXfSAY8BQVVfeXFMT2hiY1lEYTFZWHROYmY4TE16UE95MUxYZjF0TXdaaXU4UmI1dE9nbzBfb2ZVNmpQdXFaVVlxRmpMcVpqVmEzTk1RZHU1R2VGcm83RWlsQlNDbTQzZFZyRlhHU0tSTUFsZTd0RlplWmszUXY1TlMtMDFuT1pvS0VFdlNidVN2SGJvb1M0ZnFEUnc?oc=5",
+      "fecha": "2026-09-24T17:00:08.000Z",
+      "resumen_corto": "La caja de coleccionista de GTA VI de Rockstar de 400 dólares cuesta 4 veces más que la edición de coleccionista de Red Dead 2, pero aún se envía sin el juego Wccftech",
+      "resumen_largo": "La caja de coleccionista de GTA VI de Rockstar de 400 dólares cuesta 4 veces más que la edición de coleccionista de Red Dead 2, pero aún se envía sin el juego Wccftech",
+      "texto_original": "Rockstar’s $400 GTA VI Collector’s Box Costs 4X a Red Dead 2 Collector’s Edition, yet Still Ships without the Game Wccftech",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-09-24T22:06:44.909Z",
+        "index": 6,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "en",
+        "categoria": "inteligencia_artificial",
+        "categorias_secundarias": [
+          "tecnologia"
+        ],
+        "category_scores": {
+          "inteligencia_artificial": 1,
+          "tecnologia": 1
+        },
+        "entidades": [
+          "Wccftech"
+        ],
+        "cifras_detectadas": [
+          "$400"
+        ],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 87,
+        "relevancia": 55,
+        "confiabilidad_fuente": 50,
+        "readability": {
+          "words": 93,
+          "sentences": 1,
+          "average_words_per_sentence": 93
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 64.95
+    },
+    {
+      "id": "f3a3bc4b6cd16216",
+      "fuente_id": "xataka_google",
+      "fuente_nombre": "Xataka",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "xataka",
+      "nivel_fuente": "medio_especializado",
+      "categoria": "tecnologia",
+      "idioma_original": "es",
+      "prioridad_fuente": 4,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Aunque renovar SSD en 2026 es prohibitivo, a Xbox Series llegan nuevas tarjetas de expansión a unos precios que sorprenden",
+      "titulo_original": "Aunque renovar SSD en 2026 es prohibitivo, a Xbox Series llegan nuevas tarjetas de expansión a unos precios que sorprenden - Xataka",
+      "enlace": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxObHNCT0dXaks5bjAwRGFib0lfU1o2YjBGLWljelhxcXRJN000UEdOMjRIQVJ2THItSXFRN3Q2bGc2dzI4aUZPVGp4cTdMNjZ2blpzcXZEbGZJeDhscXR4S2d5eWJnZWZqZjVJWnI3aDJwdVo5SmMxaWxKZlhaY3k3MGVGeG1leWY4LTFQbG10YjJFc2R6QXFWTWRMSE5KU05td1B4VnJYWmd6TXlNQnBCRDhBa1dIRjdBa2hyN2tITXNsSEVvaWdUZE1YeVhzSzUxdnhKWNIB2gFBVV95cUxNSUYwSGhCTHdISXAzX3daX3lfbnZ5VXhkcThuX2lQaWFUYmFTaHBDYTJCaFgwdVJkclh3MU1CYzF1UWRicW1xOURmUTdpdmF1TVB4MG85TE1XZ3d0Um5Pcl8tMjFjdGc5d2xab1N4TmZsMzhNd1U1T2NyTFNfbVhwRDlCd3dKZzczNVRBQnV5MVhuTU5XcE50VlB5UU9VbmxtOXpzRGtsLS1CcThUenlQUGNCa2txV0tZRVRCalNzcW1FTGpKc09sUnlXd2lDOUcwVmlBcGs2c1BOdw?oc=5",
+      "fecha": "2026-09-24T16:45:10.000Z",
+      "resumen_corto": "Aunque renovar SSD en 2026 es prohibitivo, a Xbox Series llegan nuevas tarjetas de expansión a unos precios que sorprenden Xataka",
+      "resumen_largo": "Aunque renovar SSD en 2026 es prohibitivo, a Xbox Series llegan nuevas tarjetas de expansión a unos precios que sorprenden Xataka",
+      "texto_original": "Aunque renovar SSD en 2026 es prohibitivo, a Xbox Series llegan nuevas tarjetas de expansión a unos precios que sorprenden Xataka",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-09-24T22:06:44.910Z",
+        "index": 7,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "moviles",
+        "categorias_secundarias": [
+          "hardware",
+          "vehiculos_energia"
+        ],
+        "category_scores": {
+          "moviles": 1,
+          "hardware": 1,
+          "vehiculos_energia": 1
+        },
+        "entidades": [
+          "Xataka"
+        ],
+        "cifras_detectadas": [
+          "2026"
+        ],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 87,
+        "relevancia": 55,
+        "confiabilidad_fuente": 50,
+        "readability": {
+          "words": 79,
+          "sentences": 1,
+          "average_words_per_sentence": 79
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 64.95
+    },
+    {
       "id": "2828a77cb0f56115",
       "fuente_id": "wccftech_google",
       "fuente_nombre": "Wccftech",
@@ -1376,8 +1808,8 @@
       "texto_original": "Xbox Is Being “Reverse Acquired” by the Publishers It Spent $76.5 Billion On, and It Was Utterly Inevitable Wccftech",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-24T18:25:07.628Z",
-        "index": 4,
+        "processed_at": "2026-09-24T22:06:44.914Z",
+        "index": 16,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -1429,6 +1861,77 @@
       "final_score": 64.95
     },
     {
+      "id": "424640c8500c45da",
+      "fuente_id": "huawei_google",
+      "fuente_nombre": "Huawei Central",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "huawei",
+      "nivel_fuente": "agregador",
+      "categoria": "moviles",
+      "idioma_original": "en",
+      "prioridad_fuente": 4,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "El fundador de Huawei, Ren Zhengfei, pone fin a los rumores de desaparición",
+      "titulo_original": "Huawei Founder Ren Zhengfei puts an end to disappearance rumors - Huawei Central",
+      "enlace": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNWW9NSVJmUkh1b1NwaFB5eHVlNlFtS1hsdUJvTHJ4X25fWldzQnF3UnZhZEpDa0RscEhOandIUnhRRlJCQnQwTjJwT0NkRlc4d29HUElwYWxkV2U4YzFwRTNaNmN3VUdTdDVRUnVmTDlHWndtYnk3OVZzUFh2U2IxZUEyNkRXWVFUWE5ObVJqM0s2MFJTRnVOMTRB0gGfAUFVX3lxTE9JUmc2aVFWaG53VlQzN3A3NlN4eFRwWDU3UnVTRWVLdmxsR3l6V1k3NHAtd3RmTU1TYUQxckdlZl85M2pYWkpIV1hoVWJrc2ZwazdaOUZMeHQ3SlEwc0d5NS1KYlFYZEczWmd2UEhwVV82VmFpd1NZamQwQ0NpRHY0bjM3NEJ3bnNHbW9XNl9pMWNnd2d2N29RaFlvWFdfMA?oc=5",
+      "fecha": "2026-09-23T11:45:46.000Z",
+      "resumen_corto": "El fundador de Huawei, Ren Zhengfei, pone fin a los rumores de desaparición Huawei Central",
+      "resumen_largo": "El fundador de Huawei, Ren Zhengfei, pone fin a los rumores de desaparición Huawei Central",
+      "texto_original": "Huawei Founder Ren Zhengfei puts an end to disappearance rumors Huawei Central",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-09-24T22:06:44.925Z",
+        "index": 38,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "en",
+        "categoria": "moviles",
+        "categorias_secundarias": [
+          "software_internet"
+        ],
+        "category_scores": {
+          "moviles": 1,
+          "software_internet": 1
+        },
+        "entidades": [
+          "Huawei"
+        ],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 82,
+        "relevancia": 55,
+        "confiabilidad_fuente": 53,
+        "readability": {
+          "words": 51,
+          "sentences": 1,
+          "average_words_per_sentence": 51
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 63.95
+    },
+    {
       "id": "cfbbbf398dc0e6a7",
       "fuente_id": "huawei_central",
       "fuente_nombre": "Huawei Central",
@@ -1450,8 +1953,8 @@
       "texto_original": "Honor Magic 9 series still has some days left before stepping onto the stage, and ahead of that, the company’s CEO has revealed what to expect from the top-tier smartphone lineup in terms of price. Let’s take a look at the official cost details. Li Jian, the CEO of Honor Devices, shared a new post […] The post Honor CEO announces Magic 9 series price ahead of its debut appeared first on Huawei Central .",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-24T18:25:07.635Z",
-        "index": 11,
+        "processed_at": "2026-09-24T22:06:44.916Z",
+        "index": 19,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -1509,47 +2012,116 @@
       "final_score": 63.6
     },
     {
-      "id": "70702567cdcb3121",
-      "fuente_id": "wccftech_google",
-      "fuente_nombre": "Wccftech",
+      "id": "e094da31676e7400",
+      "fuente_id": "google_news_es",
+      "fuente_nombre": "Google News ES",
       "tipo": "rss_web",
       "subtipo": "google_news",
-      "grupo_fuente": "wccftech",
-      "nivel_fuente": "medio_especializado",
-      "categoria": "hardware",
-      "idioma_original": "en",
-      "prioridad_fuente": 4,
+      "grupo_fuente": "google_news",
+      "nivel_fuente": "agregador",
+      "categoria": "tecnologia",
+      "idioma_original": "es",
+      "prioridad_fuente": 3,
       "analizar": true,
       "resumir": true,
-      "titulo": "CD Projekt Red advierte que las elecciones de The Witcher 4 perseguirán a los jugadores con consecuencias ambiguas que dejarán una marca duradera",
-      "titulo_original": "CD Projekt Red Warns The Witcher 4 Choices Will Haunt Players With Ambiguous Consequences That Leave a Lasting Mark - Wccftech",
-      "enlace": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNRFNEYzZ1UjJPbUdWSVBKVEtuV19Zbnl1eXlLWDA0UnRteVBURkZfaXh6eG5qRGpYRUNCVnVZLUNIWjZJLUZxMTVXVDdUNk94SDN0Wm1BTlFBT2dpUUZlcUpTVDRMYTByZlZjOUJyWl9CYWtzcGRzUnNLSlVwdXBuUjFlMkzSAYoBQVVfeXFMT0FxdGhoTDFmUXF3REdMRzN1Y3kya2IxYV8tdF9QQWkzUnVyeXdLWlZ0N2ZrSDNSRkpqMFh5aG9GT3NTendDc0NLc2lLSTJpcDRBRWFLODF3MThpcVhBdlhDRW8tWTNsY29LZi0xRWFlZVZaX3gtNW9nUjVUZEZnNGtNS0dMbDBZT0dn?oc=5",
-      "fecha": "2026-09-24T10:24:18.000Z",
-      "resumen_corto": "CD Projekt Red advierte que las elecciones de The Witcher 4 perseguirán a los jugadores con consecuencias ambiguas que dejarán una marca duradera",
-      "resumen_largo": "CD Projekt Red advierte que las elecciones de The Witcher 4 perseguirán a los jugadores con consecuencias ambiguas que dejarán una marca duradera",
-      "texto_original": "CD Projekt Red Warns The Witcher 4 Choices Will Haunt Players With Ambiguous Consequences That Leave a Lasting Mark Wccftech",
+      "titulo": "Estos son los mejores chollos en tecnología que hemos encontrado en Amazon hoy, 23 de septiembre - Xataka",
+      "titulo_original": "Estos son los mejores chollos en tecnología que hemos encontrado en Amazon hoy, 23 de septiembre - Xataka",
+      "enlace": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQZ2Fkb3ZMNk9aei1yYmFNdGQzbEUyMmtmN0kyWlJGWFdRMVRrTzloWWx3dG1Lck1yX24ybGh3UWtDUTBrWlU2dDhOY2g5MXFrbHd5WTk1eDlMbzBaWmdaYi1uSWZnbGFLcWRVbHM0MDlqYlVuZmxEZU81VEQxWnBoUkRFclpsLWtNalB4OGx5R3NaM3ZGTDdTc3dYOVdGWDIwRHFtWkNxN0UwVUFtNlRJUNIBtgFBVV95cUxNbEQ0eFBTVVFkV2Z6OHRTUnRTamFUZGJZMEphREZHQ1JwOE9hcHlQNUtTWEpqUGZlamp1TVpnSFFiU29EQ0c3N1laMUpOaTFTYWZzd0taX2diTGZQbEtqdWlMNTVWV0Z0TWFfeC1OMVNXUFh2cHRKbXU5eFk2bTZ2eEhubzZHUkI2QXczaEo5RVdlZ29oV21XSFoxXzkzY21YaXdmQVNScU5xTEJOTm1kNDktUjlDQQ?oc=5",
+      "fecha": "2026-09-23T13:47:01.000Z",
+      "resumen_corto": "Estos son los mejores chollos en tecnología que hemos encontrado en Amazon hoy, 23 de septiembre Xataka",
+      "resumen_largo": "Estos son los mejores chollos en tecnología que hemos encontrado en Amazon hoy, 23 de septiembre Xataka",
+      "texto_original": "Estos son los mejores chollos en tecnología que hemos encontrado en Amazon hoy, 23 de septiembre Xataka",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-24T18:25:07.639Z",
-        "index": 15,
+        "processed_at": "2026-09-24T22:06:44.924Z",
+        "index": 35,
         "resumen": {
           "generado": true,
           "origen": "translated"
         },
         "idioma_detectado": "es",
-        "idioma_original": "en",
-        "categoria": "inteligencia_artificial",
+        "idioma_original": "es",
+        "categoria": "tecnologia",
         "categorias_secundarias": [
-          "militar",
-          "tecnologia"
+          "inteligencia_artificial"
         ],
         "category_scores": {
-          "inteligencia_artificial": 1,
-          "militar": 1,
-          "tecnologia": 1
+          "tecnologia": 2,
+          "inteligencia_artificial": 1
         },
         "entidades": [
-          "Wccftech"
+          "Xataka"
+        ],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 80,
+        "relevancia": 55,
+        "confiabilidad_fuente": 53,
+        "readability": {
+          "words": 65,
+          "sentences": 1,
+          "average_words_per_sentence": 65
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 63.25
+    },
+    {
+      "id": "eb12986c078bde1a",
+      "fuente_id": "xataka_google",
+      "fuente_nombre": "Xataka",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "xataka",
+      "nivel_fuente": "medio_especializado",
+      "categoria": "tecnologia",
+      "idioma_original": "es",
+      "prioridad_fuente": 4,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "No solo merecen la pena los móviles o portátiles reacondicionados. Estas freidoras de aire Ninja con casi 10 litros son una ganga",
+      "titulo_original": "No solo merecen la pena los móviles o portátiles reacondicionados. Estas freidoras de aire Ninja con casi 10 litros son una ganga - Xataka",
+      "enlace": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNY0Y3T080YmhhczF5VFFlODQ5UW1seXUwc1RmWG5QX2pVcGNBanltZTVDaEFMcnI2M1hsNGNmWTd5RFNGOE9kdEJ3TVg3LTRyU2N3bHJUbjdlYlc2cDVaVVlBNm9Pdi1kYVJTcC01MGJqQXpkNTlhck1VR2NRWTNDR01ESEoza0JIc3ZhNkJ0dkJ0MVo4THFGMnBGMU1RQm5pQ1F6UXA1Z3RJTTN2Vm5uYkxvYlFoMDE2SjVzQVlaWndiMzQ4eWV2ZXdSaXBZTENNWkQ00gHYAUFVX3lxTE15cmpNS1VVM2FkTFB1T3lQQXpoS3g5SldMMGNidmd4LWYyZUN6RWNIZTV2ZkF3MlBRSlJhN01nWjF2bzhRajhPeXNDbXJ5anJhNWR3RVVzNmo0WkJlcy0zUndnX00wblJkSGhzel9OU0tHZTl3dG9zVFVrYW5RTW9tMm5fRnVyYnVPVWZNSEtZY1N0TENuYkxrRTJ2REpoNEY3UFRyWkduWm91OUM0Mzh5b040VzZ5Q0p4cnl0SEd0MkZUY1dqWXMwNFFON0RGYUxjSjVBQVBnMw?oc=5",
+      "fecha": "2026-09-24T17:45:09.000Z",
+      "resumen_corto": "Estas freidoras de aire Ninja con casi 10 litros son una ganga Xataka",
+      "resumen_largo": "No solo merecen la pena los móviles o portátiles reacondicionados. Estas freidoras de aire Ninja con casi 10 litros son una ganga Xataka",
+      "texto_original": "No solo merecen la pena los móviles o portátiles reacondicionados. Estas freidoras de aire Ninja con casi 10 litros son una ganga Xataka",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-09-24T22:06:44.906Z",
+        "index": 2,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "hardware",
+        "categorias_secundarias": [
+          "inteligencia_artificial"
+        ],
+        "category_scores": {
+          "hardware": 2,
+          "inteligencia_artificial": 1
+        },
+        "entidades": [
+          "Xataka"
         ],
         "cifras_detectadas": [],
         "content_type": "news",
@@ -1568,9 +2140,9 @@
         "relevancia": 55,
         "confiabilidad_fuente": 50,
         "readability": {
-          "words": 91,
-          "sentences": 1,
-          "average_words_per_sentence": 91
+          "words": 82,
+          "sentences": 5,
+          "average_words_per_sentence": 16.4
         },
         "duplicate": {
           "detected": false,
@@ -1582,42 +2154,113 @@
       "final_score": 63.2
     },
     {
-      "id": "6fdf7a2d522c5338",
-      "fuente_id": "ia_dia",
-      "fuente_nombre": "IA al Día",
+      "id": "460ae9238a1c4233",
+      "fuente_id": "google_news_es",
+      "fuente_nombre": "Google News ES",
       "tipo": "rss_web",
       "subtipo": "google_news",
-      "grupo_fuente": "ia_general",
+      "grupo_fuente": "google_news",
       "nivel_fuente": "agregador",
-      "categoria": "inteligencia_artificial",
+      "categoria": "tecnologia",
       "idioma_original": "es",
       "prioridad_fuente": 3,
       "analizar": true,
       "resumir": true,
-      "titulo": "Terminator, Astroboy y Optimus: qué significan las referencias que usó Milei para hablar de Inteligencia Artificial - Infobae",
-      "titulo_original": "Terminator, Astroboy y Optimus: qué significan las referencias que usó Milei para hablar de Inteligencia Artificial - Infobae",
-      "enlace": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNbUltSlJxSkJ1WklvTmllQ2tFV3FYSjY2SHJmVm5ENEg3Um9CT3Z3WDdzeVU0Ty1Ya3cxTExXb01OTnRtcG9rU2RIUWpZYW8xUmU1QlNnNVFVSXJvbVU1Y05QdWpmTDk3NFY2dGlzeklwWk1pOGlJQkM4ajY3U3BWSERpcnZvSkhCMG1MWG9MVURBTno3OVM1Rk9SS2diWXFNajlfVjlaZjdaMmRyQUZJa05UTWJ6U3hyQVhTQ1lPcFRoNm9VUzRtczBfbmRzMC1SZWhHS21nUTlfX3NMaS1TSVR5WkRLTTFWcmVFNGtLZ9IBigJBVV95cUxNMWR1UktvN2NTWUNqRlVrLXVlZVhpWnBWbzFxdURpSWtWd0NPRkVYVU1OeXZqejVCTXdlZE4xVFRVYnMzMW8wcGVaNzc4NlM4eENDVUlPSU0yalo0QjB0QlRvd3VadFo2bnhSQ2hKTHY3UnNYNmRvUVZXaVZSN0o4ZW9IY0NTUEVldnEyYXBrcjJjSjFMT0RKNlVUWXR2RFVSOUJCUThfekpsLVRhT2ZqQUJIaWRJbUpvSF92bWVsUWNmSjJYeUluNl82bl9IN1N0Y1J1cnJfa1FVTkhQc3JPR3NIcmMtc25vNFBzZVRmUURsV3ZzUWw0UDVSRG4xbzJ4NmlSUWtWcTBGUQ?oc=5",
-      "fecha": "2026-09-23T23:16:00.000Z",
-      "resumen_corto": "Terminator, Astroboy y Optimus: qué significan las referencias que usó Milei para hablar de Inteligencia Artificial Infobae",
-      "resumen_largo": "Terminator, Astroboy y Optimus: qué significan las referencias que usó Milei para hablar de Inteligencia Artificial Infobae",
-      "texto_original": "Terminator, Astroboy y Optimus: qué significan las referencias que usó Milei para hablar de Inteligencia Artificial Infobae",
+      "titulo": "César Bona, educador: \"Antes la tecnología nos ayudaba a ser autónomos y ahora mismo tenemos una tecnología que piensa por nosotros\" - Cadena SER",
+      "titulo_original": "César Bona, educador: \"Antes la tecnología nos ayudaba a ser autónomos y ahora mismo tenemos una tecnología que piensa por nosotros\" - Cadena SER",
+      "enlace": "https://news.google.com/rss/articles/CBMijwJBVV95cUxObXBGXzY4NGRVTFdGcHRoQ3hCVXdRNzdPelRsSzdtR0xkaVpTV3lKOVJMYWVCREs4dEpTc19ydkdOajJQTVgwdXY1aWRlWE96SHprc2VKSk9QMklmc1ZtLXpqcWY3dXluVWxwNzJDME5yTlNHY3MyTzgwUGYzMWNkaW1SVUw4UDhwdHRoUU95Ml94SjhUNUx5b3VHNEliZHE0OWwzU0ZUWmFjQnU0TVB4aldSZkduZTZPUDU3bFhCTzVfQkotY0tpWVN0SFh1c0FRVnczMHpzQlNCSFFoWV9CVGl0bXVGRW5ZNlh5TjJoR2huMnNtUXpDLW56R0JnNE5hV2NrZWtWZGJnV0tvTjhv0gGjAkFVX3lxTE5lX1pVVmR3c19qSUZDa21oaDFsYWI4MjdLVXVwdExBbTlBTEppMDcxUHhxVDRSU25wRHhhalZWcFR4QUk3RC12WWtkWEpFQjNXWHlXRzdrT1NuZUNFQ2NwM0ZVUm1Gd1MxakFIczEtNlF1ZFNfdXM0TDc1Z2FHeWpRLWZCVDhNekctN0V1VEdYNXliQlhkMTBtcm1VWWFfU01kbVp0VWljSlVqZ1daQktSZ2cxQVlvR2QxLWctRmVUdjA0cWFxUHZKMmZmTDdCQVllZ2NwWEFraG1MdHJYWnlFX0NMS2FpYTB0TmRfdnZoYjMtRUtxV2x5ZEtOR0psdjZ4QTVVcS05N3dGMkhCVlFNQTFvNm5BUENSanhDQkk3dXdnbw?oc=5",
+      "fecha": "2026-09-24T17:04:40.000Z",
+      "resumen_corto": "César Bona, educador: \"Antes la tecnología nos ayudaba a ser autónomos y ahora mismo tenemos una tecnología que piensa por nosotros\" Cadena SER",
+      "resumen_largo": "César Bona, educador: \"Antes la tecnología nos ayudaba a ser autónomos y ahora mismo tenemos una tecnología que piensa por nosotros\" Cadena SER",
+      "texto_original": "César Bona, educador: \"Antes la tecnología nos ayudaba a ser autónomos y ahora mismo tenemos una tecnología que piensa por nosotros\" Cadena SER",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-24T18:25:07.645Z",
-        "index": 23,
+        "processed_at": "2026-09-24T22:06:44.908Z",
+        "index": 5,
         "resumen": {
           "generado": true,
           "origen": "translated"
         },
         "idioma_detectado": "es",
         "idioma_original": "es",
-        "categoria": "inteligencia_artificial",
+        "categoria": "tecnologia",
         "categorias_secundarias": [
-          "militar"
+          "inteligencia_artificial",
+          "vehiculos_energia"
         ],
         "category_scores": {
-          "inteligencia_artificial": 3,
-          "militar": 1
+          "tecnologia": 2,
+          "inteligencia_artificial": 1,
+          "vehiculos_energia": 1
+        },
+        "entidades": [],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 75,
+        "relevancia": 57,
+        "confiabilidad_fuente": 53,
+        "readability": {
+          "words": 100,
+          "sentences": 1,
+          "average_words_per_sentence": 100
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 62.3
+    },
+    {
+      "id": "9e6d8ec9044bed70",
+      "fuente_id": "google_news_es",
+      "fuente_nombre": "Google News ES",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "google_news",
+      "nivel_fuente": "agregador",
+      "categoria": "tecnologia",
+      "idioma_original": "es",
+      "prioridad_fuente": 3,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "El campus de Ferrol se prepara para una G-Night con tecnología y ciencia para todos los públicos - La Voz de Galicia",
+      "titulo_original": "El campus de Ferrol se prepara para una G-Night con tecnología y ciencia para todos los públicos - La Voz de Galicia",
+      "enlace": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQUVV4eC1ja1RWOFFleVMyRWlsRHZUanMweUlqT19WcFBQMGFJcDdERVBGQUdxUF9INDFjNlcxUUh6RGZ1cVRTdWc2dW1VUUhoWlpwbUxnOEtKaEpLR3BQRk1jTXBmbDJiY1VMMjMxV1czUW9aMktMMDdSN0NhbXZCel92RDlrZWNxOUI3ZExERXdmMy1NZUR0MVQ0V2R3OWJDYk1fanl0M0kwOFlPd2xoZW9zaWxUc1czbHVxZFB5TFJWSVpHaUZyVS1Md9IB5wFBVV95cUxNWmQ5ZUhpM1RQQ2dJZFJacUxrUFpoT08xMUpKX2RsN0xNR2JkdGRVOU5ZSGRVWWFIWnp2bXczSlNkX0lUQjhHc0hvcWk3am5SS210VUZsYW9WQ2w3UHJtM1dFbkpBSmpJaFBONDJjcFp2SThpQzYwQUVqdTJTaGhTUEwyMFVzRjNZaFlta2lwVzZDUHRmUVV5bkxEanlpaGJXeXJLY1c0VHdHakRTRFYyOURqMTVNcURlOVBpMWRyLUMxOVZMV0VBVU4yRkswdmVYTVNwWS1zTnlvWXktRlYyZ1VCZ1p3QjA?oc=5",
+      "fecha": "2026-09-24T12:33:52.000Z",
+      "resumen_corto": "El campus de Ferrol se prepara para una G-Night con tecnología y ciencia para todos los públicos La Voz de Galicia",
+      "resumen_largo": "El campus de Ferrol se prepara para una G-Night con tecnología y ciencia para todos los públicos La Voz de Galicia",
+      "texto_original": "El campus de Ferrol se prepara para una G-Night con tecnología y ciencia para todos los públicos La Voz de Galicia",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-09-24T22:06:44.915Z",
+        "index": 17,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "tecnologia",
+        "categorias_secundarias": [
+          "inteligencia_artificial"
+        ],
+        "category_scores": {
+          "tecnologia": 3,
+          "inteligencia_artificial": 1
         },
         "entidades": [],
         "cifras_detectadas": [],
@@ -1651,6 +2294,215 @@
       "final_score": 62.3
     },
     {
+      "id": "a37646bc187be985",
+      "fuente_id": "google_news_es",
+      "fuente_nombre": "Google News ES",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "google_news",
+      "nivel_fuente": "agregador",
+      "categoria": "tecnologia",
+      "idioma_original": "es",
+      "prioridad_fuente": 3,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "La UPV reúne a expertos de la sanidad, la tecnología y la industria para analizar cómo la innovación está transformando la atención sanitaria - Valencia Plaza",
+      "titulo_original": "La UPV reúne a expertos de la sanidad, la tecnología y la industria para analizar cómo la innovación está transformando la atención sanitaria - Valencia Plaza",
+      "enlace": "https://news.google.com/rss/articles/CBMipgJBVV95cUxOU0wyMko3QVRQTE5fN0FydDM1amdXNmQ2cWNyOGw5dG1PbzBQNTlLaXZvcFBMd0ZzMHZ2OHQtdUhHdi1RTGhTNzhXQmZ5ZFVkV0piMHBycXltRTNOTmMtZGVQbEhGemlEQmwtUVFfVGtRWWY0MDFYTEQ0WE00YVUxVXFoQTlvT21Ob1M0UGtsNU5UUEZTMXl3cXgweGVkU1FTNFdDUHpkY0dTQnFHVHV1UGhqaFEtR3dJRzRiZ1owVkFNWFlSaDdJSEZpVmRsZlRrOFYzRFlZcWNKYm15Qk5teWpWekpMM3Y3eWY1cktHSHhUU0hkYW4yVHdjNk5faWw4M0pwTWxBbS1RSDk4MExHNFBXd05ib05LMHlrVTlSMEFWVkQ2MVE?oc=5",
+      "fecha": "2026-09-24T04:02:40.000Z",
+      "resumen_corto": "La UPV reúne a expertos de la sanidad, la tecnología y la industria para analizar cómo la innovación está transformando la atención sanitaria Valencia Plaza",
+      "resumen_largo": "La UPV reúne a expertos de la sanidad, la tecnología y la industria para analizar cómo la innovación está transformando la atención sanitaria Valencia Plaza",
+      "texto_original": "La UPV reúne a expertos de la sanidad, la tecnología y la industria para analizar cómo la innovación está transformando la atención sanitaria Valencia Plaza",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-09-24T22:06:44.922Z",
+        "index": 30,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "tecnologia",
+        "categorias_secundarias": [
+          "inteligencia_artificial"
+        ],
+        "category_scores": {
+          "tecnologia": 3,
+          "inteligencia_artificial": 1
+        },
+        "entidades": [],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 75,
+        "relevancia": 57,
+        "confiabilidad_fuente": 53,
+        "readability": {
+          "words": 80,
+          "sentences": 1,
+          "average_words_per_sentence": 80
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 62.3
+    },
+    {
+      "id": "aca0135fc2a7e848",
+      "fuente_id": "ia_dia",
+      "fuente_nombre": "IA al Día",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "ia_general",
+      "nivel_fuente": "agregador",
+      "categoria": "inteligencia_artificial",
+      "idioma_original": "es",
+      "prioridad_fuente": 3,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "La invasión de los carteles hechos con inteligencia artificial - EL PAÍS",
+      "titulo_original": "La invasión de los carteles hechos con inteligencia artificial - EL PAÍS",
+      "enlace": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNNnpsdmE2RmUyNUZMS1hsUUpqcTdWQVdpcEM4OHBGajB3SEFTT1J1ejk2VGZkSmVNOV9qZ2ExZ0NqdTBhaWNBQjVoeXY2UjJ1ZDk5a2tKb2N6WktZaEVUTmtEQk5ReXgzVUJBTjduMFZiUXhld0dwazBKNkQ3S3hoYjVmUVY3RFQtZDg0TXdlOWE4UXpMUUFOVlg0ellseXgtenpEM3c0ckTSAbwBQVVfeXFMTmZYYzRmVVk2WTVRX09Eczd5cWZrNm5iMUVPM3VIZV9WMVl4RUpjR25CWVJuSk9BS2g0Z3B4QUFSZDN3QVd4X3l1b25GN3d3cmNXSXlMN0VHYzIwZldRaFltLUhucHhXVFRUVXk2akFLNUxRNDM2ZVdicEhuamhieUhjVXVjNTV6RG5TaHZxbk0xaGZOcXpJeTg2VjAzWl9GX2Y4QjN5Ull4T0JlMnYwVE5neG94OUlaM2xOZDk?oc=5",
+      "fecha": "2026-09-24T03:30:01.000Z",
+      "resumen_corto": "La invasión de los carteles hechos con inteligencia artificial EL PAÍS",
+      "resumen_largo": "La invasión de los carteles hechos con inteligencia artificial EL PAÍS",
+      "texto_original": "La invasión de los carteles hechos con inteligencia artificial EL PAÍS",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-09-24T22:06:44.923Z",
+        "index": 31,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "inteligencia_artificial",
+        "categorias_secundarias": [
+          "vehiculos_energia"
+        ],
+        "category_scores": {
+          "inteligencia_artificial": 4,
+          "vehiculos_energia": 1
+        },
+        "entidades": [],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 75,
+        "relevancia": 57,
+        "confiabilidad_fuente": 53,
+        "readability": {
+          "words": 40,
+          "sentences": 1,
+          "average_words_per_sentence": 40
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 62.3
+    },
+    {
+      "id": "eeabe049eb90182c",
+      "fuente_id": "google_news_es",
+      "fuente_nombre": "Google News ES",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "google_news",
+      "nivel_fuente": "agregador",
+      "categoria": "tecnologia",
+      "idioma_original": "es",
+      "prioridad_fuente": 3,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Casa gratis para universitarios que conviven con mayores solos: \"Ella me ayuda con la tecnología y yo le enseño catalán\" - El Periódico",
+      "titulo_original": "Casa gratis para universitarios que conviven con mayores solos: \"Ella me ayuda con la tecnología y yo le enseño catalán\" - El Periódico",
+      "enlace": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOMmpnRmNRVjluR2xnbnFpYW1DNXBfXzVFMnJhQjJuSW9HN3VCN3d3RWNYTGZzZUxxZGtnVEs3akpKckJ5NWRESVRYYkZ6NUotX0szaDdEb2F6TTNJMkRxTnVBN1JZUWRnR01DVXBxaVVKTGpKRG02OVMyS2k4LWVUWUNyU0ppc09lTzVESnVybTUycGNnT241N2NlaEh0ZXdWWXNwaTZjQy1iVjZXMmcxOWhMczQ2a2J3eEd0bTRERmxPWFZGYmdJeF9fSmExZFZfbFVVR0Y4dXVvUdIB2gFBVV95cUxNeDZ1OHJMYXNMYzJ5UVV6UWY0RGZiZUlhTzUzUnczNGNNam8wb3Zwb0FQcnFRZUtqNGl1NlNRYXFmdkdaMnh1RHVrSVhiYnFjWEU2azVXTTZ5eEZfRDdNY0J2blc4d3NXN0R1YXV3THN5T2lILThtYWZsamZ5WXo2U0p1eks4QXVQbUo1SEhvXzEwa2pyWWxTYkw1TlRGRFRsN25mY0RIN25mZkQzRGp2alhOS05RY0pDbVJ3X19YODNMUDR5Z2NuYkpUTjJYdlNrWjRpcE0tNy1SUQ?oc=5",
+      "fecha": "2026-09-23T15:00:36.000Z",
+      "resumen_corto": "Casa gratis para universitarios que conviven con mayores solos: \"Ella me ayuda con la tecnología y yo le enseño catalán\" El Periódico",
+      "resumen_largo": "Casa gratis para universitarios que conviven con mayores solos: \"Ella me ayuda con la tecnología y yo le enseño catalán\" El Periódico",
+      "texto_original": "Casa gratis para universitarios que conviven con mayores solos: \"Ella me ayuda con la tecnología y yo le enseño catalán\" El Periódico",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-09-24T22:06:44.923Z",
+        "index": 34,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "tecnologia",
+        "categorias_secundarias": [
+          "inteligencia_artificial",
+          "moviles"
+        ],
+        "category_scores": {
+          "tecnologia": 2,
+          "inteligencia_artificial": 1,
+          "moviles": 1
+        },
+        "entidades": [],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 75,
+        "relevancia": 57,
+        "confiabilidad_fuente": 53,
+        "readability": {
+          "words": 80,
+          "sentences": 1,
+          "average_words_per_sentence": 80
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 62.3
+    },
+    {
       "id": "7ee4bbfd434e5d6e",
       "fuente_id": "huawei_central",
       "fuente_nombre": "Huawei Central",
@@ -1672,8 +2524,8 @@
       "texto_original": "Huawei MatePad Air Z is up for pre-order, and the product page for this tablet at the VMall store details the chip, display, and battery information. While the company hasn’t revealed the launch date of this device, its official specs are already out. MatePad Air Z has two main variants: Standard and Enjoy Edition. Both […] The post Huawei MatePad Air Z chip, display, battery details surfaced before launch appeared first on Huawei Central .",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-24T18:25:07.640Z",
-        "index": 16,
+        "processed_at": "2026-09-24T22:06:44.919Z",
+        "index": 23,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -1733,6 +2585,211 @@
       "final_score": 61.6
     },
     {
+      "id": "3b5914a7e096a38f",
+      "fuente_id": "xataka_google",
+      "fuente_nombre": "Xataka",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "xataka",
+      "nivel_fuente": "medio_especializado",
+      "categoria": "tecnologia",
+      "idioma_original": "es",
+      "prioridad_fuente": 4,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Hemos escuchado por primera vez un planeta fuera del Sistema Solar. No eran extraterrestres, sino algo más extraño",
+      "titulo_original": "Hemos escuchado por primera vez un planeta fuera del Sistema Solar. No eran extraterrestres, sino algo más extraño - Xataka",
+      "enlace": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNU193THU2SzVXbFRLZVBRSHU4VnFRZzFQaEZSYl84MzlJcTdHaXFzWjRuQUV2anZveTloazNDSGFreEk2X09nbjBDMjNEZC1RTWhNU1ZWUEdqS2JINGtXUEhCQjIzRldQV3lVWjdqUVloRXcyQmZMdTU4bE5mLTl0amNHOU1jRjJYbjh1U0NQRkZlRHpEaGZBVVFnaXNaYzNBMFhHNmtXV2tCN3REb19Fb25yUVQ2VHVrQldkQ3NxRXYtM25tbDk40gHMAUFVX3lxTE1KZFpITFlQUTZzTnNmUkFMcFpsNDl4ZWVkMGE3Q2dXZ0ZSX3JmX0lEWk5GSURCUnZqUExpTkRVdGRYMUt5azBIQkxsRm96X1V2VWpkWk82elNPbHlyTUJpX3BYQkhBcmowa0s3WnNvR205b0VPcWRzVkpTXy1wUDM5UnhiMU10T0JHNTlSUmgyNHlvVkJDQ1JoVXJYYjc3Z3Vrc3hwSWVJWkl2UTF6SENFNzFNZXJ0SGJWbDNXcU5NUDgtTUs1UFdDT0tGTg?oc=5",
+      "fecha": "2026-09-24T17:31:08.000Z",
+      "resumen_corto": "Hemos escuchado por primera vez un planeta fuera del Sistema Solar.",
+      "resumen_largo": "Hemos escuchado por primera vez un planeta fuera del Sistema Solar. No eran extraterrestres, sino algo más extraño Xataka",
+      "texto_original": "Hemos escuchado por primera vez un planeta fuera del Sistema Solar. No eran extraterrestres, sino algo más extraño Xataka",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-09-24T22:06:44.906Z",
+        "index": 3,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "tecnologia",
+        "categorias_secundarias": [],
+        "category_scores": {},
+        "entidades": [
+          "Xataka"
+        ],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 82,
+        "relevancia": 50,
+        "confiabilidad_fuente": 50,
+        "readability": {
+          "words": 77,
+          "sentences": 6,
+          "average_words_per_sentence": 12.83
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 61.2
+    },
+    {
+      "id": "7690e8a5c26fd6d3",
+      "fuente_id": "xataka_google",
+      "fuente_nombre": "Xataka",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "xataka",
+      "nivel_fuente": "medio_especializado",
+      "categoria": "tecnologia",
+      "idioma_original": "es",
+      "prioridad_fuente": 4,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "El preocupante hallazgo de una universidad española: es imposible saber si el kéfir que compras en el supermercado es kéfir",
+      "titulo_original": "El preocupante hallazgo de una universidad española: es imposible saber si el kéfir que compras en el supermercado es kéfir - Xataka",
+      "enlace": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOaHJkSWVTX0RlZ0F6c3VzNkRackJvQ0FRRl9IOFlpY3hiWmJNZkJSakxlSHB4dDNoUk1Helh1Sk4zblRSMGxaVksxSmhJaEVnS1EtQVNkeUdZbldSS1I0SnZkb2lpV3NRejdOZnFxMl96WmcyTmctRDFFUFdvdDFCZEZnU2RieFV0aUhCMERuRlFEUTlDLUFpM042M2tJYWxKRlo0bTExOXRrSExOSkxuWG1CQnk5SW5Va0p2U1hvVFkwTUxpTmxheEJnM0NoNEnSAdQBQVVfeXFMTXF2OHVQWjh6VF9Mel90UnZfeE1LVU11dDczU09tSmhwVW5lOFE0ZzY5Z1labm1XT3JFeUFaVW81UUJmdEc2NDJaLXNQLTI3ZmZzc3pQb3lYdGFPSDVtaHBMY0Y4dkc2MW1lWnZqb1VMSkVmc3BhVEVQbWx5cFd5Y3JBaVBtX1h0Tl81T2lfck93NXBMZ2JLakpjS2FMNUk4V1gxT0dZZS02bnRzZ2RwUVo3Z3FxejZPdzZVWFNFRV90ekl2RGU3UDZPZmM2bmtwbzlJcTQ?oc=5",
+      "fecha": "2026-09-24T16:31:09.000Z",
+      "resumen_corto": "El preocupante hallazgo de una universidad española: es imposible saber si el kéfir que compras en el supermercado es kéfir Xataka",
+      "resumen_largo": "El preocupante hallazgo de una universidad española: es imposible saber si el kéfir que compras en el supermercado es kéfir Xataka",
+      "texto_original": "El preocupante hallazgo de una universidad española: es imposible saber si el kéfir que compras en el supermercado es kéfir Xataka",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-09-24T22:06:44.910Z",
+        "index": 8,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "tecnologia",
+        "categorias_secundarias": [],
+        "category_scores": {},
+        "entidades": [
+          "Xataka"
+        ],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 82,
+        "relevancia": 50,
+        "confiabilidad_fuente": 50,
+        "readability": {
+          "words": 64,
+          "sentences": 1,
+          "average_words_per_sentence": 64
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 61.2
+    },
+    {
+      "id": "639583f059faf5a2",
+      "fuente_id": "resumen_militar",
+      "fuente_nombre": "El Resumen Militar",
+      "tipo": "telegram",
+      "subtipo": "canal_telegram",
+      "grupo_fuente": "telegram_militar",
+      "nivel_fuente": "telegram",
+      "categoria": "militar",
+      "idioma_original": "es",
+      "prioridad_fuente": 3,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "🇺🇦 Minus another Nova Poshta in Kiev 🔴 @DDGeopolitics | Socials | Donate | Advertising",
+      "titulo_original": "🇺🇦 Minus another Nova Poshta in Kiev 🔴 @DDGeopolitics | Socials | Donate | Advertising",
+      "enlace": "https://t.me/elresumenmilitar/100113",
+      "fecha": "2026-09-24T15:01:23.000Z",
+      "resumen_corto": "🇺🇦 Minus another Nova Poshta in Kiev 🔴 @DDGeopolitics | Socials | Donate | Advertising",
+      "resumen_largo": "🇺🇦 Minus another Nova Poshta in Kiev 🔴 @DDGeopolitics | Socials | Donate | Advertising",
+      "texto_original": "🇺🇦 Minus another Nova Poshta in Kiev 🔴 @DDGeopolitics | Socials | Donate | Advertising",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-09-24T22:06:44.913Z",
+        "index": 13,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "en",
+        "idioma_original": "es",
+        "categoria": "inteligencia_artificial",
+        "categorias_secundarias": [
+          "semiconductores",
+          "vehiculos_energia",
+          "actualidad"
+        ],
+        "category_scores": {
+          "inteligencia_artificial": 1,
+          "semiconductores": 1,
+          "vehiculos_energia": 1,
+          "actualidad": 1
+        },
+        "entidades": [],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 75,
+        "relevancia": 57,
+        "confiabilidad_fuente": 45,
+        "readability": {
+          "words": 45,
+          "sentences": 1,
+          "average_words_per_sentence": 45
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 60.3
+    },
+    {
       "id": "f028f4d0dff7de9b",
       "fuente_id": "wccftech_google",
       "fuente_nombre": "Wccftech",
@@ -1754,8 +2811,8 @@
       "texto_original": "Sony Allegedly Surveyed Game Developers on its Disc-Killing Plan for 2028, Hinting at a Possible Reversal amid Fan Boycotts Wccftech",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-24T18:25:07.643Z",
-        "index": 19,
+        "processed_at": "2026-09-24T22:06:44.921Z",
+        "index": 26,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -1806,29 +2863,29 @@
       "final_score": 59.7
     },
     {
-      "id": "db857ea75db27c21",
-      "fuente_id": "ia_dia",
-      "fuente_nombre": "IA al Día",
+      "id": "3baedd8c451feba2",
+      "fuente_id": "google_news_es",
+      "fuente_nombre": "Google News ES",
       "tipo": "rss_web",
       "subtipo": "google_news",
-      "grupo_fuente": "ia_general",
+      "grupo_fuente": "google_news",
       "nivel_fuente": "agregador",
-      "categoria": "inteligencia_artificial",
+      "categoria": "tecnologia",
       "idioma_original": "es",
       "prioridad_fuente": 3,
       "analizar": true,
       "resumir": true,
-      "titulo": "La visita de Xi Jinping a Estados Unidos se perfila como crucial para el futuro de la inteligencia artificial - RTVE.es",
-      "titulo_original": "La visita de Xi Jinping a Estados Unidos se perfila como crucial para el futuro de la inteligencia artificial - RTVE.es",
-      "enlace": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPaUdsTlNzWUtreHVMUzFJSDJ2amVfS3BsZzl4VlVQNkhBZE5DNGk2UGdpalFDUGtnQmFJcXh0aDJGMzNzcVZPbUY3cTlFWVBZeWh2UXMwdDlhNDdPZEVaOVlsS3RfcW1DVkZOQXFGbFllVWJyZy1wZVUzNGlVMzFaWFFRNWFNVmQ0ZGdlZXJnWHJ6bkxqV1BaRGYyREVyeUpqbzZ5dU9UbUZqNnhsc0lIemN6bkNVV29Rb0FnUFpQWDJhajBaYUprMnU1N010UDBFNFY0T3pYU2FMMEZPdjZXVUZVQ1pCNVZzNlJiOC1fT2U2U1FZNURxdUJxeFRWYms?oc=5",
-      "fecha": "2026-09-24T17:19:31.000Z",
-      "resumen_corto": "La visita de Xi Jinping a Estados Unidos se perfila como crucial para el futuro de la inteligencia artificial RTVE.es",
-      "resumen_largo": "La visita de Xi Jinping a Estados Unidos se perfila como crucial para el futuro de la inteligencia artificial RTVE.es",
-      "texto_original": "La visita de Xi Jinping a Estados Unidos se perfila como crucial para el futuro de la inteligencia artificial RTVE.es",
+      "titulo": "Los ‘tecnooligarcas’ alertan en la ONU de que la IA es “el problema de seguridad global más importante” - EL PAÍS",
+      "titulo_original": "Los ‘tecnooligarcas’ alertan en la ONU de que la IA es “el problema de seguridad global más importante” - EL PAÍS",
+      "enlace": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQTEFvdVF2VGMyN1F3RXQwalFrbTE1RTI0M1pEc3o1TWFXcUZHNFJva2ktSlAxci1IZFNzZm9MWG5sZFdsRDBYRWtyNGNraW1ESk4xdlBMNDcyOG5NRHFDNG9SX1l2U0FwMzhtczNXOGU5R09RbGk0NDRKQktHbzZmVEdCMmZmNVMzR1V5UnV1Sk9GM2FNellkSzZUdUNqX0daU2lnY2JPYVNTdFJfXzZOTFVtdFJGLXV5OF9BWnh0MFNod082MGQ1UzVTX3h3NExZaGtlMkdmVVY3Y29ZOFHSAfIBQVVfeXFMT2pmTE1UV1hUbDNmazljem84S0ZrT1RUVlBNRGtBUGZoZVk4ZW43UWRaS3FfbFEzVUlyc2FTX2Z3cmlRSFk0V3ZneEFWd1d6QkJqNzBIcmFrTGJ4blV6WTBCb1EwYzIycHRmV3hHUURSOUtqM1RCUXJNekFCeTBXR3o1eXZZNTZSWjVxWk1nRVU3NTVZZTh1Z3MwYXF6NTVIc09PNUpfVVBISzBOcjBNN1lJWTh4Mk8tcmlSWE51X05SNVIwTGx2RXVaUjY4amFiYVB4RnJYZ2JBb0F4Wi1rclVPeUd4MjVOT0ZMZGNRV1FyeEE?oc=5",
+      "fecha": "2026-09-24T10:06:53.000Z",
+      "resumen_corto": "Los ‘tecnooligarcas’ alertan en la ONU de que la IA es “el problema de seguridad global más importante” EL PAÍS",
+      "resumen_largo": "Los ‘tecnooligarcas’ alertan en la ONU de que la IA es “el problema de seguridad global más importante” EL PAÍS",
+      "texto_original": "Los ‘tecnooligarcas’ alertan en la ONU de que la IA es “el problema de seguridad global más importante” EL PAÍS",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-24T18:25:07.624Z",
-        "index": 1,
+        "processed_at": "2026-09-24T22:06:44.918Z",
+        "index": 22,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -1836,9 +2893,12 @@
         "idioma_detectado": "es",
         "idioma_original": "es",
         "categoria": "inteligencia_artificial",
-        "categorias_secundarias": [],
+        "categorias_secundarias": [
+          "software_internet"
+        ],
         "category_scores": {
-          "inteligencia_artificial": 3
+          "inteligencia_artificial": 2,
+          "software_internet": 1
         },
         "entidades": [],
         "cifras_detectadas": [],
@@ -1858,9 +2918,9 @@
         "relevancia": 50,
         "confiabilidad_fuente": 53,
         "readability": {
-          "words": 60,
-          "sentences": 6,
-          "average_words_per_sentence": 10
+          "words": 55,
+          "sentences": 1,
+          "average_words_per_sentence": 55
         },
         "duplicate": {
           "detected": false,
@@ -1893,8 +2953,8 @@
       "texto_original": "La inteligencia artificial no es una tostadora Enrique Dans",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-24T18:25:07.648Z",
-        "index": 29,
+        "processed_at": "2026-09-24T22:06:44.926Z",
+        "index": 43,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -1938,7 +2998,7 @@
       "final_score": 59.5
     },
     {
-      "id": "a1db91e5140a2d9f",
+      "id": "513349c4364a3c00",
       "fuente_id": "resumen_militar",
       "fuente_nombre": "El Resumen Militar",
       "tipo": "telegram",
@@ -1950,17 +3010,17 @@
       "prioridad_fuente": 3,
       "analizar": true,
       "resumir": true,
-      "titulo": "A piece of home in every trench candle. Thanks for your support! Together to Victory! 🫡 🔹 Russian Defence Ministry",
-      "titulo_original": "A piece of home in every trench candle. Thanks for your support! Together to Victory! 🫡 🔹 Russian Defence Ministry",
-      "enlace": "https://t.me/elresumenmilitar/100102",
-      "fecha": "2026-09-24T12:04:34.000Z",
-      "resumen_corto": "🫡 🔹 Russian Defence Ministry",
-      "resumen_largo": "A piece of home in every trench candle. 🫡 🔹 Russian Defence Ministry",
-      "texto_original": "A piece of home in every trench candle. Thanks for your support! Together to Victory! 🫡 🔹 Russian Defence Ministry",
+      "titulo": "🇺🇸 🇨🇳 Trump welcomes Xi Jinping in the White House 🔴 @DDGeopolitics | Socials | Donate | Advertising",
+      "titulo_original": "🇺🇸 🇨🇳 Trump welcomes Xi Jinping in the White House 🔴 @DDGeopolitics | Socials | Donate | Advertising",
+      "enlace": "https://t.me/elresumenmilitar/100112",
+      "fecha": "2026-09-24T15:01:08.000Z",
+      "resumen_corto": "🇺🇸 🇨🇳 Trump welcomes Xi Jinping in the White House 🔴 @DDGeopolitics | Socials | Donate | Advertising",
+      "resumen_largo": "🇺🇸 🇨🇳 Trump welcomes Xi Jinping in the White House 🔴 @DDGeopolitics | Socials | Donate | Advertising",
+      "texto_original": "🇺🇸 🇨🇳 Trump welcomes Xi Jinping in the White House 🔴 @DDGeopolitics | Socials | Donate | Advertising",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-24T18:25:07.630Z",
-        "index": 7,
+        "processed_at": "2026-09-24T22:06:44.913Z",
+        "index": 14,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -1969,13 +3029,13 @@
         "idioma_original": "es",
         "categoria": "inteligencia_artificial",
         "categorias_secundarias": [
-          "vehiculos_energia",
-          "militar"
+          "semiconductores",
+          "actualidad"
         ],
         "category_scores": {
           "inteligencia_artificial": 1,
-          "vehiculos_energia": 1,
-          "militar": 1
+          "semiconductores": 1,
+          "actualidad": 1
         },
         "entidades": [],
         "cifras_detectadas": [],
@@ -1995,9 +3055,9 @@
         "relevancia": 50,
         "confiabilidad_fuente": 45,
         "readability": {
-          "words": 53,
-          "sentences": 11,
-          "average_words_per_sentence": 4.82
+          "words": 50,
+          "sentences": 1,
+          "average_words_per_sentence": 50
         },
         "duplicate": {
           "detected": false,
@@ -2009,7 +3069,7 @@
       "final_score": 57.5
     },
     {
-      "id": "5ec2b42876827af1",
+      "id": "cf19d9b42c3fe635",
       "fuente_id": "resumen_militar",
       "fuente_nombre": "El Resumen Militar",
       "tipo": "telegram",
@@ -2021,17 +3081,17 @@
       "prioridad_fuente": 3,
       "analizar": true,
       "resumir": true,
-      "titulo": "Добропольское направление. Наши десантники освободили село Доброполье.",
-      "titulo_original": "Добропольское направление. Наши десантники освободили село Доброполье.",
-      "enlace": "https://t.me/elresumenmilitar/100104",
-      "fecha": "2026-09-24T12:05:12.000Z",
-      "resumen_corto": "Наши десантники освободили село Доброполье.",
-      "resumen_largo": "Добропольское направление. Наши десантники освободили село Доброполье.",
-      "texto_original": "Добропольское направление. Наши десантники освободили село Доброполье.",
+      "titulo": "Краматорское направление. Наши бойцы полностью зачистили село Марково и продвигаются в сторону Фёдоровки. Также штурмовики 70-й дивизии атакуют в сторону Веролюбовки.",
+      "titulo_original": "Краматорское направление. Наши бойцы полностью зачистили село Марково и продвигаются в сторону Фёдоровки. Также штурмовики 70-й дивизии атакуют в сторону Веролюбовки.",
+      "enlace": "https://t.me/elresumenmilitar/100116",
+      "fecha": "2026-09-24T16:13:15.000Z",
+      "resumen_corto": "Наши бойцы полностью зачистили село Марково и продвигаются в сторону Фёдоровки.",
+      "resumen_largo": "Краматорское направление. Наши бойцы полностью зачистили село Марково и продвигаются в сторону Фёдоровки. Также штурмовики 70-й дивизии атакуют в сторону Веролюбовки.",
+      "texto_original": "Краматорское направление. Наши бойцы полностью зачистили село Марково и продвигаются в сторону Фёдоровки. Также штурмовики 70-й дивизии атакуют в сторону Веролюбовки.",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-24T18:25:07.629Z",
-        "index": 5,
+        "processed_at": "2026-09-24T22:06:44.911Z",
+        "index": 9,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -2059,9 +3119,9 @@
         "relevancia": 45,
         "confiabilidad_fuente": 45,
         "readability": {
-          "words": 33,
-          "sentences": 9,
-          "average_words_per_sentence": 3.67
+          "words": 77,
+          "sentences": 13,
+          "average_words_per_sentence": 5.92
         },
         "duplicate": {
           "detected": false,
@@ -2073,7 +3133,7 @@
       "final_score": 55.5
     },
     {
-      "id": "03ebf8dd6f4ec10d",
+      "id": "8559dd736f28e4e7",
       "fuente_id": "resumen_militar",
       "fuente_nombre": "El Resumen Militar",
       "tipo": "telegram",
@@ -2085,92 +3145,33 @@
       "prioridad_fuente": 3,
       "analizar": true,
       "resumir": true,
-      "titulo": "🇷🇺 🇺🇦 Зеленский заявил, что этой ночью они сбили 60% баллистических ракет. Говоря, что им нужны зенитные ракеты, просроченный сказал, что было сбито 4 \"Циркона\" и 3 \"Искандера\", которые атаковали Киев. Также ДСНС опу",
-      "titulo_original": "🇷🇺 🇺🇦 Зеленский заявил, что этой ночью они сбили 60% баллистических ракет. Говоря, что им нужны зенитные ракеты, просроченный сказал, что было сбито 4 \"Циркона\" и 3 \"Искандера\", которые атаковали Киев. Также ДСНС опу",
-      "enlace": "https://t.me/elresumenmilitar/100097",
-      "fecha": "2026-09-24T12:02:20.000Z",
-      "resumen_corto": "Говоря, что им нужны зенитные ракеты, просроченный сказал, что было сбито 4 \"Циркона\" и 3 \"Искандера\", которые атаковали Киев.",
-      "resumen_largo": "🇷🇺 🇺🇦 Зеленский заявил, что этой ночью они сбили 60% баллистических ракет. Говоря, что им нужны зенитные ракеты, просроченный сказал, что было сбито 4 \"Циркона\" и 3 \"Искандера\", которые атаковали Киев. Также ДСНС опубликовало фотографии обломка \"Искандера\", если точнее, то его хвостовой части.",
-      "texto_original": "🇷🇺 🇺🇦 Зеленский заявил, что этой ночью они сбили 60% баллистических ракет. Говоря, что им нужны зенитные ракеты, просроченный сказал, что было сбито 4 \"Циркона\" и 3 \"Искандера\", которые атаковали Киев. Также ДСНС опубликовало фотографии обломка \"Искандера\", если точнее, то его хвостовой части. Подписаться на канал | наш МАХ",
+      "titulo": "🇨🇳 🇺🇸 Xi Jinping: We should coexist in peace. As I have said many times, China and the United States, as two major countries, stand to gain from cooperation and will both lose in confrontation. We do not need to avoi",
+      "titulo_original": "🇨🇳 🇺🇸 Xi Jinping: We should coexist in peace. As I have said many times, China and the United States, as two major countries, stand to gain from cooperation and will both lose in confrontation. We do not need to avoi",
+      "enlace": "https://t.me/elresumenmilitar/100114",
+      "fecha": "2026-09-24T15:01:37.000Z",
+      "resumen_corto": "As I have said many times, China and the United States, as two major countries, stand to gain from cooperation and will both lose in confrontation.",
+      "resumen_largo": "🇨🇳 🇺🇸 Xi Jinping: We should coexist in peace. As I have said many times, China and the United States, as two major countries, stand to gain from cooperation and will both lose in confrontation. We do not need to avoid mentioning competition, but our competition should be a healthy one and should be kept within bounds.",
+      "texto_original": "🇨🇳 🇺🇸 Xi Jinping: We should coexist in peace. As I have said many times, China and the United States, as two major countries, stand to gain from cooperation and will both lose in confrontation. We do not need to avoid mentioning competition, but our competition should be a healthy one and should be kept within bounds. It should be a race of catching up with one another, not a wrestle in which either wins or loses. 🔴 @DDGeopolitics | Socials | Donate | Advertising",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-24T18:25:07.632Z",
-        "index": 9,
+        "processed_at": "2026-09-24T22:06:44.912Z",
+        "index": 12,
         "resumen": {
           "generado": true,
           "origen": "translated"
         },
-        "idioma_detectado": "es",
+        "idioma_detectado": "en",
         "idioma_original": "es",
-        "categoria": "militar",
-        "categorias_secundarias": [],
-        "category_scores": {},
-        "entidades": [],
-        "cifras_detectadas": [
-          "60%"
+        "categoria": "inteligencia_artificial",
+        "categorias_secundarias": [
+          "semiconductores",
+          "actualidad"
         ],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
+        "category_scores": {
+          "inteligencia_artificial": 2,
+          "semiconductores": 1,
+          "actualidad": 1
         },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 65,
-        "relevancia": 45,
-        "confiabilidad_fuente": 45,
-        "readability": {
-          "words": 143,
-          "sentences": 12,
-          "average_words_per_sentence": 11.92
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 52
-    },
-    {
-      "id": "fd9e09a69f87ae3e",
-      "fuente_id": "resumen_militar",
-      "fuente_nombre": "El Resumen Militar",
-      "tipo": "telegram",
-      "subtipo": "canal_telegram",
-      "grupo_fuente": "telegram_militar",
-      "nivel_fuente": "telegram",
-      "categoria": "militar",
-      "idioma_original": "es",
-      "prioridad_fuente": 3,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "Дополнение по зоне ответственности 47-й танковой дивизии. Бойцы закрыли карман между северным и южным Песчаным, но всушники там остаются, так что частично в режиме пирога. В Ковшаровке флагом обозначен Дом Культуры, под",
-      "titulo_original": "Дополнение по зоне ответственности 47-й танковой дивизии. Бойцы закрыли карман между северным и южным Песчаным, но всушники там остаются, так что частично в режиме пирога. В Ковшаровке флагом обозначен Дом Культуры, под",
-      "enlace": "https://t.me/elresumenmilitar/100103",
-      "fecha": "2026-09-24T12:05:07.000Z",
-      "resumen_corto": "Дополнение по зоне ответственности 47-й танковой дивизии.",
-      "resumen_largo": "Дополнение по зоне ответственности 47-й танковой дивизии. Бойцы закрыли карман между северным и южным Песчаным, но всушники там остаются, так что частично в режиме пирога. В Ковшаровке флагом обозначен Дом Культуры, под ним у ВСУ бункер.",
-      "texto_original": "Дополнение по зоне ответственности 47-й танковой дивизии. Бойцы закрыли карман между северным и южным Песчаным, но всушники там остаются, так что частично в режиме пирога. В Ковшаровке флагом обозначен Дом Культуры, под ним у ВСУ бункер. У нас там нет ничего в ассортименте противобункерного?",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-09-24T18:25:07.630Z",
-        "index": 6,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "es",
-        "categoria": "militar",
-        "categorias_secundarias": [],
-        "category_scores": {},
         "entidades": [],
         "cifras_detectadas": [],
         "content_type": "news",
@@ -2186,12 +3187,12 @@
           "url_count": 0
         },
         "calidad": 60,
-        "relevancia": 45,
+        "relevancia": 57,
         "confiabilidad_fuente": 45,
         "readability": {
-          "words": 121,
-          "sentences": 12,
-          "average_words_per_sentence": 10.08
+          "words": 175,
+          "sentences": 13,
+          "average_words_per_sentence": 13.46
         },
         "duplicate": {
           "detected": false,
@@ -2200,10 +3201,10 @@
           "similar_to": null
         }
       },
-      "final_score": 50.25
+      "final_score": 55.05
     },
     {
-      "id": "03b22f9ab6732a99",
+      "id": "d936f06d03231473",
       "fuente_id": "resumen_militar",
       "fuente_nombre": "El Resumen Militar",
       "tipo": "telegram",
@@ -2215,26 +3216,33 @@
       "prioridad_fuente": 3,
       "analizar": true,
       "resumir": true,
-      "titulo": "❗️ ПОДРАЗДЕЛЕНИЯ ГРУППИРОВКИ ВОЙСК \"ВОСТОК\" ОСВОБОДИЛИ НАСЕЛЁННЫЙ ПУНКТ СВЕТЛАЯ ДОЛИНА 🔸 Гвардейцы 36 отдельной мотострелковой бригады 29 армии группировки войск \"Восток \" продолжили наступательные действия и взяли под",
-      "titulo_original": "❗️ ПОДРАЗДЕЛЕНИЯ ГРУППИРОВКИ ВОЙСК \"ВОСТОК\" ОСВОБОДИЛИ НАСЕЛЁННЫЙ ПУНКТ СВЕТЛАЯ ДОЛИНА 🔸 Гвардейцы 36 отдельной мотострелковой бригады 29 армии группировки войск \"Восток \" продолжили наступательные действия и взяли под",
-      "enlace": "https://t.me/elresumenmilitar/100101",
-      "fecha": "2026-09-24T12:03:19.000Z",
-      "resumen_corto": "❗️ ПОДРАЗДЕЛЕНИЯ ГРУППИРОВКИ ВОЙСК \"ВОСТОК\" ОСВОБОДИЛИ НАСЕЛЁННЫЙ ПУНКТ СВЕТЛАЯ ДОЛИНА 🔸 Гвардейцы 36 отдельной мотострелковой бригады 29 армии группировки войск \"Восток \" продолжили наступательные действия и взяли под контроль н.п.",
-      "resumen_largo": "❗️ ПОДРАЗДЕЛЕНИЯ ГРУППИРОВКИ ВОЙСК \"ВОСТОК\" ОСВОБОДИЛИ НАСЕЛЁННЫЙ ПУНКТ СВЕТЛАЯ ДОЛИНА 🔸 Гвардейцы 36 отдельной мотострелковой бригады 29 армии группировки войск \"Восток \" продолжили наступательные действия и взяли под контроль н.п. Светлая Долина Запорожской области. 🔸 В ходе напряжённых и продолжительных боёв воины-забайкальцы установили контроль над крупным участком обороны противника, включая сам населенный пункт.",
-      "texto_original": "❗️ ПОДРАЗДЕЛЕНИЯ ГРУППИРОВКИ ВОЙСК \"ВОСТОК\" ОСВОБОДИЛИ НАСЕЛЁННЫЙ ПУНКТ СВЕТЛАЯ ДОЛИНА 🔸 Гвардейцы 36 отдельной мотострелковой бригады 29 армии группировки войск \"Восток \" продолжили наступательные действия и взяли под контроль н.п. Светлая Долина Запорожской области. 🔸 В ходе напряжённых и продолжительных боёв воины-забайкальцы установили контроль над крупным участком обороны противника, включая сам населенный пункт. Потери противника составили до роты живой силы из состава 82 одшбр ВСУ. Уничтожено 6 боевых бронированных машин, 13 автомобилей, 11 единиц мототехники, 19 н аземных роботизированных комплексов и более 30 тяжёлых гексакоптеров типа «Баба-яга». 🔸 Взятие Светлой Долины расширяет плацдарм для дальнейших наступательных действий воинов-дальневосточников в западном направлении. \"Дальневосточный экспресс\" продолжает движение вперёд по расписанию! @voin_dv | @voin_dv в MAX",
+      "titulo": "🇨🇳 🇺🇸 Xi Jinping: On counter-narcotics and law enforcement, the Chinese side is willing to strengthen cooperation with the United States. 🔴 @DDGeopolitics | Socials | Donate | Advertising",
+      "titulo_original": "🇨🇳 🇺🇸 Xi Jinping: On counter-narcotics and law enforcement, the Chinese side is willing to strengthen cooperation with the United States. 🔴 @DDGeopolitics | Socials | Donate | Advertising",
+      "enlace": "https://t.me/elresumenmilitar/100115",
+      "fecha": "2026-09-24T15:02:00.000Z",
+      "resumen_corto": "🇨🇳 🇺🇸 Xi Jinping: On counter-narcotics and law enforcement, the Chinese side is willing to strengthen cooperation with the United States.",
+      "resumen_largo": "🇨🇳 🇺🇸 Xi Jinping: On counter-narcotics and law enforcement, the Chinese side is willing to strengthen cooperation with the United States. 🔴 @DDGeopolitics | Socials | Donate | Advertising",
+      "texto_original": "🇨🇳 🇺🇸 Xi Jinping: On counter-narcotics and law enforcement, the Chinese side is willing to strengthen cooperation with the United States. 🔴 @DDGeopolitics | Socials | Donate | Advertising",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-24T18:25:07.632Z",
-        "index": 8,
+        "processed_at": "2026-09-24T22:06:44.912Z",
+        "index": 11,
         "resumen": {
           "generado": true,
           "origen": "translated"
         },
-        "idioma_detectado": "es",
+        "idioma_detectado": "en",
         "idioma_original": "es",
-        "categoria": "militar",
-        "categorias_secundarias": [],
-        "category_scores": {},
+        "categoria": "inteligencia_artificial",
+        "categorias_secundarias": [
+          "semiconductores",
+          "actualidad"
+        ],
+        "category_scores": {
+          "inteligencia_artificial": 1,
+          "semiconductores": 1,
+          "actualidad": 1
+        },
         "entidades": [],
         "cifras_detectadas": [],
         "content_type": "news",
@@ -2250,12 +3258,12 @@
           "url_count": 0
         },
         "calidad": 60,
-        "relevancia": 45,
+        "relevancia": 50,
         "confiabilidad_fuente": 45,
         "readability": {
-          "words": 202,
-          "sentences": 15,
-          "average_words_per_sentence": 13.47
+          "words": 96,
+          "sentences": 6,
+          "average_words_per_sentence": 16
         },
         "duplicate": {
           "detected": false,
@@ -2264,27 +3272,27 @@
           "similar_to": null
         }
       },
-      "final_score": 50.25
+      "final_score": 52.25
     }
   ],
-  "analyzed_at": "2026-09-24T18:25:07.648Z",
+  "analyzed_at": "2026-09-24T22:06:44.927Z",
   "analysis_stats": {
-    "input_items": 31,
-    "valid_items": 31,
+    "input_items": 45,
+    "valid_items": 45,
     "rejected_items": 0,
     "duplicate_items": 0,
     "clickbait_items": 3,
     "spam_items": 0,
-    "summaries_generated": 31,
+    "summaries_generated": 45,
     "average_quality": 81,
     "average_relevance": 58
   },
   "validation": {
     "version": "1.1",
-    "executed_at": "2026-09-24T18:25:07.786Z",
-    "original_items": 31,
+    "executed_at": "2026-09-24T22:06:45.029Z",
+    "original_items": 45,
     "rejected_items": 0,
-    "final_items": 31,
+    "final_items": 45,
     "limit": 60,
     "status": "ok"
   }

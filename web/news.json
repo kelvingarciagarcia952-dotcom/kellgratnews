@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "updated_at": "2026-09-29T08:02:56.909Z",
+  "updated_at": "2026-09-29T14:52:41.494Z",
   "configuracion": {
     "limite_global": 60,
     "frecuencia_minutos": 60,
@@ -24,12 +24,12 @@
     "active_sources": 15,
     "successful_sources": 15,
     "collected_items": 63,
-    "deduplicated_items": 47,
-    "final_items": 47
+    "deduplicated_items": 46,
+    "final_items": 46
   },
   "items": [
     {
-      "id": "7043d928c4931710",
+      "id": "2e567fe51e1693c9",
       "fuente_id": "huawei_central",
       "fuente_nombre": "Huawei Central",
       "tipo": "rss_web",
@@ -41,37 +41,41 @@
       "prioridad_fuente": 5,
       "analizar": true,
       "resumir": true,
-      "titulo": "La serie de tabletas Huawei MatePad Air Z ya está abierta para su compra",
-      "titulo_original": "Huawei MatePad Air Z tablet series now open for purchase",
-      "enlace": "https://www.huaweicentral.com/huawei-matepad-air-z-tablet-series-now-open-for-purchase/",
-      "fecha": "2026-09-29T05:20:45.000Z",
-      "resumen_corto": "La serie de tabletas Huawei MatePad Air Z ya está disponible para su compra.",
-      "resumen_largo": "La serie de tabletas Huawei MatePad Air Z ya está disponible para su compra. La tableta delgada y liviana viene en cinco colores y dos variantes: Standard y Enjoy Edition. Todas estas opciones ahora están disponibles en la primera venta y los consumidores pueden comprarlas.",
-      "texto_original": "Huawei MatePad Air Z tablet series is now available for purchase. The thin and light tablet comes in five colors and two variants: Standard and Enjoy Edition. All these options are now available on the first sale, and consumers can buy them. The company today announced that the Huawei MatePad Air Z tablet series is […] The post Huawei MatePad Air Z tablet series now open for purchase appeared first on Huawei Central .",
+      "titulo": "Se filtró información sobre la batería y la pantalla de la serie Honor WIN 2 y WIN Pad",
+      "titulo_original": "Honor WIN 2 series and WIN Pad display and battery info leaked",
+      "enlace": "https://www.huaweicentral.com/honor-win-2-series-and-win-pad-display-and-battery-info-leaked/",
+      "fecha": "2026-09-29T13:33:31.000Z",
+      "resumen_corto": "La serie Honor WIN 2 y la tableta WIN Pad han aparecido nuevamente en las filtraciones por sus especificaciones de pantalla y batería.",
+      "resumen_largo": "La serie Honor WIN 2 y la tableta WIN Pad han aparecido nuevamente en las filtraciones por sus especificaciones de pantalla y batería. Los dispositivos ya aparecieron en la base de datos de certificación y entrarán en la fase de presentación oficial el próximo mes. Según el filtrador de Weibo @DigitalChatStation, la serie Honor WIN 2 y la tableta WIN Pad […] La publicación Se filtró la información sobre la batería y la pantalla de la serie Honor WIN 2 y WIN Pad apareció por primera vez en Huawei Central.",
+      "texto_original": "Honor WIN 2 series and WIN Pad tablet have appeared in the leaks again for their display and battery specifications. The devices have already shown up in the certification database and will enter the official unveiling phase by next month. According to the Weibo leaker @DigitalChatStation, the Honor WIN 2 series and WIN Pad tablet […] The post Honor WIN 2 series and WIN Pad display and battery info leaked appeared first on Huawei Central .",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-29T08:02:56.747Z",
-        "index": 10,
+        "processed_at": "2026-09-29T14:52:41.358Z",
+        "index": 5,
         "resumen": {
           "generado": true,
           "origen": "translated"
         },
-        "idioma_detectado": "en",
+        "idioma_detectado": "es",
         "idioma_original": "en",
         "categoria": "moviles",
         "categorias_secundarias": [
+          "software_internet",
           "inteligencia_artificial",
-          "hardware",
-          "software_internet"
+          "baterias_energia"
         ],
         "category_scores": {
           "moviles": 4,
+          "software_internet": 4,
           "inteligencia_artificial": 2,
+          "baterias_energia": 2,
+          "tecnologia": 2,
           "hardware": 1,
-          "software_internet": 1
+          "vehiculos_energia": 1
         },
         "entidades": [
-          "Huawei"
+          "Huawei",
+          "Honor"
         ],
         "cifras_detectadas": [],
         "content_type": "report",
@@ -87,12 +91,12 @@
           "url_count": 0
         },
         "calidad": 92,
-        "relevancia": 70,
+        "relevancia": 83,
         "confiabilidad_fuente": 75,
         "readability": {
-          "words": 123,
-          "sentences": 8,
-          "average_words_per_sentence": 15.38
+          "words": 157,
+          "sentences": 7,
+          "average_words_per_sentence": 22.43
         },
         "duplicate": {
           "detected": false,
@@ -101,58 +105,60 @@
           "similar_to": null
         }
       },
-      "final_score": 78.95
+      "final_score": 84.15
     },
     {
-      "id": "5b8337fd389a5bce",
-      "fuente_id": "bbc_mundo",
-      "fuente_nombre": "BBC Mundo",
+      "id": "8377951a6beb4277",
+      "fuente_id": "huawei_central",
+      "fuente_nombre": "Huawei Central",
       "tipo": "rss_web",
-      "subtipo": "medio_generalista",
-      "grupo_fuente": "bbc",
-      "nivel_fuente": "medio_profesional",
-      "categoria": "actualidad",
-      "idioma_original": "es",
+      "subtipo": "medio_especializado",
+      "grupo_fuente": "huawei",
+      "nivel_fuente": "secundaria_especializada",
+      "categoria": "moviles",
+      "idioma_original": "en",
       "prioridad_fuente": 5,
       "analizar": true,
       "resumir": true,
-      "titulo": "La BBC en primera línea de fuego de la guerra civil de Yemen, el conflicto que amenaza la seguridad energética mundial",
-      "titulo_original": "La BBC en primera línea de fuego de la guerra civil de Yemen, el conflicto que amenaza la seguridad energética mundial",
-      "enlace": "https://www.bbc.com/mundo/articles/cv8e3zj7rkj3o?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-09-29T03:35:44.000Z",
-      "resumen_corto": "\"Este es el primer dron\", dijo el soldado que nos acompañaba en el suroeste de Yemen.",
-      "resumen_largo": "\"Este es el primer dron\", dijo el soldado que nos acompañaba en el suroeste de Yemen. \"Normalmente le sigue un ataque\". El zumbido sobre nuestras cabezas se intensificó mientras nos refugiábamos bajo unos arbustos, antes de volver a subir al vehículo y alejarnos.",
-      "texto_original": "\"Este es el primer dron\", dijo el soldado que nos acompañaba en el suroeste de Yemen. \"Normalmente le sigue un ataque\". El zumbido sobre nuestras cabezas se intensificó mientras nos refugiábamos bajo unos arbustos, antes de volver a subir al vehículo y alejarnos. En cuestión de unos 10 minutos, se sucedieron los fuertes estruendos de los impactos, uno tras otro, aunque no estaba claro dónde caían. Resulta difícil determinar dónde comienza la línea del frente en las montañas al suroeste de la ciudad de Taiz. Las fuerzas progubernamentales respaldadas por Arabia Saudita luchan por hacer retroceder a los combatientes hutíes, quienes a principios de este mes avanzaron rápidamente por la costa del mar Rojo, tomaron el control de un punto estratégico para la navegación y agravaron la guerra civil en Yemen. Viajamos con las fuerzas gubernamentales desde Taiz, pasando por varios puestos de control, hasta la línea donde termina su dominio y comienza la \"tierra de nadie\", con el fin de presenciar los combates de cerca.",
+      "titulo": "HarmonyOS supera los 90 millones de instalaciones, la próxima parada será 100 millones",
+      "titulo_original": "HarmonyOS surpasses 90 million installations, next stop 100 million",
+      "enlace": "https://www.huaweicentral.com/harmonyos-surpasses-90-million-installations-next-stop-100-million/",
+      "fecha": "2026-09-29T12:11:10.000Z",
+      "resumen_corto": "Las instalaciones de HarmonyOS han superado los 90 millones en teléfonos inteligentes, y 100 millones es la próxima parada para el sistema operativo propio de Huawei.",
+      "resumen_largo": "Las instalaciones de HarmonyOS han superado los 90 millones en teléfonos inteligentes, y 100 millones es la próxima parada para el sistema operativo propio de Huawei. Los nuevos datos muestran que alrededor de 177.100 usuarios instalan la actualización de HarmonyOS cada día, lo que supone una tasa de crecimiento diario del 0,7%. Con base en este progreso, se espera que Huawei complete 100 millones de instalaciones de HarmonyOS para finales […] La publicación HarmonyOS supera los 90 millones de instalaciones, próxima parada 100 millones apareció por primera vez en Huawei Central.",
+      "texto_original": "HarmonyOS installations have surpassed 90 million on smartphones, and 100 million is the next stop for Huawei’s homegrown operating system. New data shows around 177,100 users are installing the HarmonyOS update each day, that’s a 0.7% daily growth rate. Based on this progress, Huawei is expected to complete 100 million HarmonyOS installations by the end […] The post HarmonyOS surpasses 90 million installations, next stop 100 million appeared first on Huawei Central .",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-29T08:02:56.750Z",
-        "index": 14,
+        "processed_at": "2026-09-29T14:52:41.366Z",
+        "index": 15,
         "resumen": {
           "generado": true,
           "origen": "translated"
         },
         "idioma_detectado": "es",
-        "idioma_original": "es",
-        "categoria": "militar",
+        "idioma_original": "en",
+        "categoria": "moviles",
         "categorias_secundarias": [
+          "software_internet",
           "inteligencia_artificial",
-          "moviles",
           "vehiculos_energia"
         ],
         "category_scores": {
-          "militar": 3,
+          "moviles": 6,
+          "software_internet": 5,
           "inteligencia_artificial": 2,
-          "moviles": 1,
-          "vehiculos_energia": 1,
-          "software_internet": 1
+          "vehiculos_energia": 1
         },
         "entidades": [
-          "BBC"
+          "Huawei"
         ],
         "cifras_detectadas": [
-          "10 m"
+          "90 m",
+          "100 m",
+          "0,7%",
+          "0.7%"
         ],
-        "content_type": "news",
+        "content_type": "report",
         "clickbait": {
           "detected": false,
           "score": 0,
@@ -164,13 +170,13 @@
           "signals": [],
           "url_count": 0
         },
-        "calidad": 89,
-        "relevancia": 70,
-        "confiabilidad_fuente": 70,
+        "calidad": 97,
+        "relevancia": 78,
+        "confiabilidad_fuente": 75,
         "readability": {
-          "words": 185,
-          "sentences": 11,
-          "average_words_per_sentence": 16.82
+          "words": 166,
+          "sentences": 9,
+          "average_words_per_sentence": 18.44
         },
         "duplicate": {
           "detected": false,
@@ -179,7 +185,164 @@
           "similar_to": null
         }
       },
-      "final_score": 76.65
+      "final_score": 83.9
+    },
+    {
+      "id": "dda713864c45b920",
+      "fuente_id": "huawei_central",
+      "fuente_nombre": "Huawei Central",
+      "tipo": "rss_web",
+      "subtipo": "medio_especializado",
+      "grupo_fuente": "huawei",
+      "nivel_fuente": "secundaria_especializada",
+      "categoria": "moviles",
+      "idioma_original": "en",
+      "prioridad_fuente": 5,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "El pedido anticipado oficial de Huawei Mate 90 revela almacenamiento y colores para cada modelo",
+      "titulo_original": "Huawei Mate 90 official pre-order reveals storage, colors for each model",
+      "enlace": "https://www.huaweicentral.com/huawei-mate-90-official-pre-order-reveals-storage-colors-for-each-model/",
+      "fecha": "2026-09-29T13:12:35.000Z",
+      "resumen_corto": "Un fan de Huawei ha mostrado las opciones de color y almacenamiento RAM + del […] La publicación El pedido anticipado oficial del Huawei Mate 90 revela el almacenamiento y los colores para cada modelo aparecieron por primera vez en Huawei Central.",
+      "resumen_largo": "Los detalles del pedido anticipado de la serie Huawei Mate 90 están nuevamente disponibles y esta vez, la información es oficial y revela variantes de almacenamiento y opciones de color para el próximo buque insignia. Todos estos detalles son precisos y se revelarán en su totalidad en la etapa de lanzamiento. Un fan de Huawei ha mostrado las opciones de color y almacenamiento RAM + del […] La publicación El pedido anticipado oficial del Huawei Mate 90 revela el almacenamiento y los colores para cada modelo aparecieron por primera vez en Huawei Central.",
+      "texto_original": "Huawei Mate 90 series pre-order details are once again out and this time, the information is official, revealing storage variants and color options for the upcoming flagship. All these details are accurate and will be fully revealed at the launch stage. A Huawei fan has showcased the RAM + storage and color options of the […] The post Huawei Mate 90 official pre-order reveals storage, colors for each model appeared first on Huawei Central .",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-09-29T14:52:41.360Z",
+        "index": 7,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "en",
+        "categoria": "moviles",
+        "categorias_secundarias": [
+          "inteligencia_artificial",
+          "hardware",
+          "baterias_energia"
+        ],
+        "category_scores": {
+          "moviles": 3,
+          "inteligencia_artificial": 2,
+          "hardware": 2,
+          "baterias_energia": 1,
+          "vehiculos_energia": 1,
+          "software_internet": 1
+        },
+        "entidades": [
+          "Huawei"
+        ],
+        "cifras_detectadas": [],
+        "content_type": "report",
+        "clickbait": {
+          "detected": false,
+          "score": 25,
+          "signals": [
+            "\\brevealed\\b"
+          ]
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 92,
+        "relevancia": 78,
+        "confiabilidad_fuente": 75,
+        "readability": {
+          "words": 179,
+          "sentences": 7,
+          "average_words_per_sentence": 25.57
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 82.15
+    },
+    {
+      "id": "cd5c43a7047a6855",
+      "fuente_id": "bbc_mundo",
+      "fuente_nombre": "BBC Mundo",
+      "tipo": "rss_web",
+      "subtipo": "medio_generalista",
+      "grupo_fuente": "bbc",
+      "nivel_fuente": "medio_profesional",
+      "categoria": "actualidad",
+      "idioma_original": "es",
+      "prioridad_fuente": 5,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Qué se sabe del Corredor Andes-Atlántico, el ambicioso proyecto con el que EE.UU. busca acceder a recursos estratégicos de Argentina (y competir con China)",
+      "titulo_original": "Qué se sabe del Corredor Andes-Atlántico, el ambicioso proyecto con el que EE.UU. busca acceder a recursos estratégicos de Argentina (y competir con China)",
+      "enlace": "https://www.bbc.com/mundo/articles/c6n9wrpdje2ro?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-09-29T11:04:03.000Z",
+      "resumen_corto": "En medio del ajetreo de la Asamblea General de Naciones Unidas la semana pasada, ocurrió un anuncio que pudo pasar inadvertido para algunos países, pero no para los dos involucrados, Argentina y Estados Unidos: la firma de un acuerdo de inversión cercano a los US$7.000 millones.",
+      "resumen_largo": "En medio del ajetreo de la Asamblea General de Naciones Unidas la semana pasada, ocurrió un anuncio que pudo pasar inadvertido para algunos países, pero no para los dos involucrados, Argentina y Estados Unidos: la firma de un acuerdo de inversión cercano a los US$7.000 millones. El convenio, llamado Corredor Andes-Atlántico, fue presentado por el canciller argentino, Pablo Quirno, y el subsecretario de Estado de EE.UU., Christopher Landau, en Washington. Y servirá principalmente para mejorar la infraestructura vial, marítima y ferroviaria con el fin de optimizar la exportación de minerales, petróleo y gas del país sudamericano, según los detalles que otorgaron tanto Washington como los voceros del gobierno de Javier Milei.",
+      "texto_original": "En medio del ajetreo de la Asamblea General de Naciones Unidas la semana pasada, ocurrió un anuncio que pudo pasar inadvertido para algunos países, pero no para los dos involucrados, Argentina y Estados Unidos: la firma de un acuerdo de inversión cercano a los US$7.000 millones. El convenio, llamado Corredor Andes-Atlántico, fue presentado por el canciller argentino, Pablo Quirno, y el subsecretario de Estado de EE.UU., Christopher Landau, en Washington. Y servirá principalmente para mejorar la infraestructura vial, marítima y ferroviaria con el fin de optimizar la exportación de minerales, petróleo y gas del país sudamericano, según los detalles que otorgaron tanto Washington como los voceros del gobierno de Javier Milei. Así, el ambicioso corredor buscará \"facilitar la inversión pública y privada en transporte, energía e infraestructura digital\" para consolidar a EE.UU. como \"un socio fundamental en infraestructura e inversión para Argentina\", tal como señala el comunicado conjunto que siguió a la firma del acuerdo. El anuncio , según analistas y expertos, no solo es un apoyo al presidente Javier Milei -en pleno año electoral-, sino también una forma de pelear por espacios productivos con China. El comunicado añade: \"Las exportaciones de minerales, petróleo y gas aumentarán a través de inversiones estadounidenses e inversiones respaldadas por los EE.UU. en ferrocarriles, vías navegables, puertos, oleoductos e infraestructura de generación y transmisión de energía, construidas sobre una base de tecnología confiable que busca garantizar una eficiencia óptima y máxima ciberseguridad\".",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-09-29T14:52:41.369Z",
+        "index": 17,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "tecnologia",
+        "categorias_secundarias": [
+          "actualidad",
+          "inteligencia_artificial",
+          "vehiculos_energia"
+        ],
+        "category_scores": {
+          "tecnologia": 3,
+          "actualidad": 3,
+          "inteligencia_artificial": 2,
+          "vehiculos_energia": 2,
+          "software_internet": 2,
+          "semiconductores": 1,
+          "moviles": 1
+        },
+        "entidades": [],
+        "cifras_detectadas": [
+          "$7.000"
+        ],
+        "content_type": "report",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 92,
+        "relevancia": 73,
+        "confiabilidad_fuente": 80,
+        "readability": {
+          "words": 324,
+          "sentences": 25,
+          "average_words_per_sentence": 12.96
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 81.4
     },
     {
       "id": "87c8df3876262e3f",
@@ -194,17 +357,17 @@
       "prioridad_fuente": 3,
       "analizar": true,
       "resumir": true,
-      "titulo": "Investigadores españoles demuestran que ChatGPT, Gemini, Claude y otras IA filtran datos de los chats a anunciantes - elDiario.es",
-      "titulo_original": "Investigadores españoles demuestran que ChatGPT, Gemini, Claude y otras IA filtran datos de los chats a anunciantes - elDiario.es",
+      "titulo": "Investigadores españoles demuestran que ChatGPT, Gemini, Claude y otras IA filtran datos de los chats a anunciantes - eldiario.es",
+      "titulo_original": "Investigadores españoles demuestran que ChatGPT, Gemini, Claude y otras IA filtran datos de los chats a anunciantes - eldiario.es",
       "enlace": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNTm1CVGZacGhqeFFZdnpOSUx0VXkwVVNiX3hTZ1VPVl84UnZVQlFXMnhmWWpWM0lGOWw5QzBlaUdGaU1IVFhxUzR4dEVQbTBrT3BnbU13OHBjTUNUNWRVbjlVUG1sRXY4cXgzNUxFNGhCa2NwMEVvcHVOTk1TbEFWNDlYMlFJRGZXQ1VLVk5CdWVFYUpVT1VkRlVYRGE3djlqaU1QV1dyZlBZN19rc0lseGg4cExQaUpRemkyUF9OdHl5T29GX0c5bzB2VUg2NXFXaFBGczFzZWtxOHfSAeABQVVfeXFMT1NBS0thb0w3WjJKNDFTNklGMkU1SVI5elJ2eS1URTd4MHZYM1I1blpobVpMS0Fpb3NJT3lUWmFHRkhrRDE4S3BMOG5DY25KdnE5eHRBclFzbGhfSnBrTVpnR1ltY3U2WnBzd2V6d2FkNXdRRFRHWmZPOWFicS1UY1FmQzFUQk5SS3RSZU5oWUE3VTJ5eVVKN1I4Sk5zMklGdzNpSkNnZ2dBNmozVFhzOThBX0l0d1ZzdDRQQjA4b2pMZ3MzTGtGaDJTVnJIOWNvSjlRNXhkYm16djF0aW04Y0w?oc=5",
       "fecha": "2026-09-28T20:50:31.000Z",
-      "resumen_corto": "Investigadores españoles demuestran que ChatGPT, Gemini, Claude y otras IA filtran datos de los chats a anunciantes elDiario.es",
-      "resumen_largo": "Investigadores españoles demuestran que ChatGPT, Gemini, Claude y otras IA filtran datos de los chats a anunciantes elDiario.es",
-      "texto_original": "Investigadores españoles demuestran que ChatGPT, Gemini, Claude y otras IA filtran datos de los chats a anunciantes elDiario.es",
+      "resumen_corto": "Investigadores españoles demuestran que ChatGPT, Gemini, Claude y otras IA filtran datos de los chats a anunciantes eldiario.es",
+      "resumen_largo": "Investigadores españoles demuestran que ChatGPT, Gemini, Claude y otras IA filtran datos de los chats a anunciantes eldiario.es",
+      "texto_original": "Investigadores españoles demuestran que ChatGPT, Gemini, Claude y otras IA filtran datos de los chats a anunciantes eldiario.es",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-29T08:02:56.757Z",
-        "index": 23,
+        "processed_at": "2026-09-29T14:52:41.375Z",
+        "index": 31,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -252,7 +415,7 @@
       "final_score": 76.55
     },
     {
-      "id": "f2765d107b5c28be",
+      "id": "156e4e86fc1391cd",
       "fuente_id": "huawei_central",
       "fuente_nombre": "Huawei Central",
       "tipo": "rss_web",
@@ -264,43 +427,42 @@
       "prioridad_fuente": 5,
       "analizar": true,
       "resumir": true,
-      "titulo": "Es probable que todos los modelos de Huawei Mate 90 admitan la tecnología eSIM",
-      "titulo_original": "All Huawei Mate 90 models likely to support eSIM technology",
-      "enlace": "https://www.huaweicentral.com/all-huawei-mate-90-models-likely-to-support-esim-technology/",
-      "fecha": "2026-09-29T06:29:25.000Z",
-      "resumen_corto": "La serie Huawei Mate 90 está a punto de ingresar al mercado y esta vez, probablemente todos los modelos contarán con tecnología eSIM.",
-      "resumen_largo": "La serie Huawei Mate 90 está a punto de ingresar al mercado y esta vez, probablemente todos los modelos contarán con tecnología eSIM. Una nueva información dice que la compañía utilizará una tarjeta SIM integrada para las cuatro o cinco variantes del buque insignia Mate 2026. Se rumorea que la serie Mate 90 traerá cinco […] La publicación Todos los modelos Huawei Mate 90 que probablemente admitan la tecnología eSIM apareció por primera vez en Huawei Central.",
-      "texto_original": "Huawei Mate 90 series is about to enter the market and this time, probably all the models will feature eSIM technology. A new piece of information says the company will use an embedded SIM card for all four or five variants of the 2026 Mate flagship. Mate 90 series is in rumors to bring five […] The post All Huawei Mate 90 models likely to support eSIM technology appeared first on Huawei Central .",
+      "titulo": "Huawei MatePad Mini 2 colores, RAM y variantes de almacenamiento aparecen en una nueva filtración",
+      "titulo_original": "Huawei MatePad Mini 2 colors, RAM, storage variants appear in new leak",
+      "enlace": "https://www.huaweicentral.com/huawei-matepad-mini-2-colors-storage/",
+      "fecha": "2026-09-29T12:43:17.000Z",
+      "resumen_corto": "DigitalChatStation señaló que el Huawei MatePad Mini 2 vendrá en cinco […] The post Los colores, la RAM y las variantes de almacenamiento del Huawei MatePad Mini 2 aparecen en una nueva filtración apareció por primera vez en Huawei Central.",
+      "resumen_largo": "Huawei MatePad Mini 2 vuelve a ser el centro de atención, y esta vez, la información es sobre sus colores, RAM y almacenamiento. En cuanto al lanzamiento de la tableta compacta, la filtración sugiere que la compañía podría esperar algunos meses más antes de presentarla oficialmente. DigitalChatStation señaló que el Huawei MatePad Mini 2 vendrá en cinco […] The post Los colores, la RAM y las variantes de almacenamiento del Huawei MatePad Mini 2 aparecen en una nueva filtración apareció por primera vez en Huawei Central.",
+      "texto_original": "Huawei MatePad Mini 2 is once again in the spotlight, and this time, the info is about its colors, RAM, and storage. Regarding the compact tablet’s launch, the leak suggests that the company might wait for some more months before unveiling it officially. DigitalChatStation noted that the Huawei MatePad Mini 2 will come in five […] The post Huawei MatePad Mini 2 colors, RAM, storage variants appear in new leak appeared first on Huawei Central .",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-29T08:02:56.745Z",
-        "index": 7,
+        "processed_at": "2026-09-29T14:52:41.361Z",
+        "index": 8,
         "resumen": {
           "generado": true,
           "origen": "translated"
         },
         "idioma_detectado": "es",
         "idioma_original": "en",
-        "categoria": "tecnologia",
+        "categoria": "moviles",
         "categorias_secundarias": [
-          "moviles",
-          "vehiculos_energia",
-          "inteligencia_artificial"
+          "inteligencia_artificial",
+          "hardware",
+          "baterias_energia"
         ],
         "category_scores": {
-          "tecnologia": 4,
-          "moviles": 2,
-          "vehiculos_energia": 2,
-          "inteligencia_artificial": 1,
+          "moviles": 4,
+          "inteligencia_artificial": 2,
+          "hardware": 1,
+          "baterias_energia": 1,
+          "vehiculos_energia": 1,
           "software_internet": 1
         },
         "entidades": [
           "Huawei"
         ],
         "cifras_detectadas": [
-          "90 m",
-          "2026",
-          "2026 M"
+          "2 w"
         ],
         "content_type": "news",
         "clickbait": {
@@ -318,9 +480,9 @@
         "relevancia": 70,
         "confiabilidad_fuente": 65,
         "readability": {
-          "words": 153,
+          "words": 176,
           "sentences": 7,
-          "average_words_per_sentence": 21.86
+          "average_words_per_sentence": 25.14
         },
         "duplicate": {
           "detected": false,
@@ -332,7 +494,7 @@
       "final_score": 75.4
     },
     {
-      "id": "61a9db5a84c79ee6",
+      "id": "522cfc9ca9faa37b",
       "fuente_id": "bbc_mundo",
       "fuente_nombre": "BBC Mundo",
       "tipo": "rss_web",
@@ -344,17 +506,96 @@
       "prioridad_fuente": 5,
       "analizar": true,
       "resumir": true,
-      "titulo": "Alerta en la costa del Pacífico de México ante la llegada del huracán Polo a la península de Baja California",
-      "titulo_original": "Alerta en la costa del Pacífico de México ante la llegada del huracán Polo a la península de Baja California",
-      "enlace": "https://www.bbc.com/mundo/articles/cw5yln0l9rqmo?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-09-28T21:39:11.000Z",
-      "resumen_corto": "La tarde de este martes, la tormenta se encontraba a unos 75 km de Cabo San Lázaro, con vientos máximos sostenidos de 185 km/h y ráfagas de hasta 225 km/h, informó el Centro Nacional de Huracanes (NHC, por sus siglas en inglés).",
-      "resumen_largo": "Los habitantes de la costa de la península de Baja California, en el noroeste de México, se preparan desde la mañana de este lunes para la llegada del huracán Polo, que se prevé que toque tierra con peligrosos vientos de categoría 3. La tarde de este martes, la tormenta se encontraba a unos 75 km de Cabo San Lázaro, con vientos máximos sostenidos de 185 km/h y ráfagas de hasta 225 km/h, informó el Centro Nacional de Huracanes (NHC, por sus siglas en inglés). \"Se pronostica que Polo tocará tierra en la costa oeste de la península de Baja California cerca de una fuerza de huracán mayor esta noche\", indicó el NHC.",
-      "texto_original": "Los habitantes de la costa de la península de Baja California, en el noroeste de México, se preparan desde la mañana de este lunes para la llegada del huracán Polo, que se prevé que toque tierra con peligrosos vientos de categoría 3. La tarde de este martes, la tormenta se encontraba a unos 75 km de Cabo San Lázaro, con vientos máximos sostenidos de 185 km/h y ráfagas de hasta 225 km/h, informó el Centro Nacional de Huracanes (NHC, por sus siglas en inglés). \"Se pronostica que Polo tocará tierra en la costa oeste de la península de Baja California cerca de una fuerza de huracán mayor esta noche\", indicó el NHC. El Servicio Meteorológico Nacional de México (SMN) alertó que los estados de Baja California y Sonora serán los más afectados, con lluvias de muy fuertes a torrenciales. El mal tiempo también influirá en el norte de Sinaloa. \"Las precipitaciones generadas por este sistema podrían originar deslaves, incremento en niveles de ríos y arroyos, así como desbordamientos e inundaciones en zonas bajas de los estados mencionados, por lo que se exhorta a la población a permanecer atenta a los avisos del SMN\", indicó el organismo. Después de tocar tierra en la península, el huracán avanzará por las aguas del mar de Cortés hasta volver a tocar tierra cerca del puerto de Guaymas, Sonora, en las primeras horas del martes, según el NHC.",
+      "titulo": "\"Temo por mi vida si me devuelven\": las audiencias masivas en Miami que aceleran las deportaciones sin dar tiempo a los migrantes para defender sus casos",
+      "titulo_original": "\"Temo por mi vida si me devuelven\": las audiencias masivas en Miami que aceleran las deportaciones sin dar tiempo a los migrantes para defender sus casos",
+      "enlace": "https://www.bbc.com/mundo/articles/c60m37kxz1xlo?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-09-29T13:55:29.000Z",
+      "resumen_corto": "Esta colombiana de 31 años cuenta que llegó en 2022 a Estados Unidos tras huir de las amenazas de grupos armados en su aldea del departamento de Cundinamarca.",
+      "resumen_largo": "\"Tenía mi cita en la corte para el próximo año, pero me la adelantaron\", explica Sandra (nombre ficticio, ya que no quiere ser identificada) a BBC Mundo a las puertas del Tribunal de Inmigración de Miami. Esta colombiana de 31 años cuenta que llegó en 2022 a Estados Unidos tras huir de las amenazas de grupos armados en su aldea del departamento de Cundinamarca. Desde entonces trabaja en un restaurante de Miami con el correspondiente permiso de empleo, a la espera de una respuesta a su solicitud de asilo.",
+      "texto_original": "\"Tenía mi cita en la corte para el próximo año, pero me la adelantaron\", explica Sandra (nombre ficticio, ya que no quiere ser identificada) a BBC Mundo a las puertas del Tribunal de Inmigración de Miami. Esta colombiana de 31 años cuenta que llegó en 2022 a Estados Unidos tras huir de las amenazas de grupos armados en su aldea del departamento de Cundinamarca. Desde entonces trabaja en un restaurante de Miami con el correspondiente permiso de empleo, a la espera de una respuesta a su solicitud de asilo. Tras una primera comparecencia el 10 de septiembre, le adelantaron su audiencia final —fijada en un principio para 2027— al 17 de septiembre, lo que apenas le dejaba una semana para prepararla. El Tribunal de Inmigración de Miami, en el céntrico barrio de Downtown, presenta estos días una imagen inusual, con largas filas de espera que se prolongan centenares de metros desde el control de seguridad de la entrada hasta las calles aledañas. Dentro, varios juzgados y salas de espera atienden simultáneamente decenas de casos.",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-29T08:02:56.757Z",
-        "index": 22,
+        "processed_at": "2026-09-29T14:52:41.357Z",
+        "index": 4,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "inteligencia_artificial",
+        "categorias_secundarias": [
+          "moviles",
+          "vehiculos_energia",
+          "software_internet"
+        ],
+        "category_scores": {
+          "inteligencia_artificial": 1,
+          "moviles": 1,
+          "vehiculos_energia": 1,
+          "software_internet": 1,
+          "militar": 1
+        },
+        "entidades": [
+          "BBC"
+        ],
+        "cifras_detectadas": [
+          "2022",
+          "2027"
+        ],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 89,
+        "relevancia": 62,
+        "confiabilidad_fuente": 70,
+        "readability": {
+          "words": 232,
+          "sentences": 10,
+          "average_words_per_sentence": 23.2
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 73.45
+    },
+    {
+      "id": "80ae3452e4b48394",
+      "fuente_id": "bbc_mundo",
+      "fuente_nombre": "BBC Mundo",
+      "tipo": "rss_web",
+      "subtipo": "medio_generalista",
+      "grupo_fuente": "bbc",
+      "nivel_fuente": "medio_profesional",
+      "categoria": "actualidad",
+      "idioma_original": "es",
+      "prioridad_fuente": 5,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Los videojuegos me pagan el doble de lo que ganaba como maestra",
+      "titulo_original": "Los videojuegos me pagan el doble de lo que ganaba como maestra",
+      "enlace": "https://www.bbc.com/mundo/articles/cq0lrd5gr035o?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-09-29T09:44:26.000Z",
+      "resumen_corto": "En 2019, Jarvs Tasker se vio obligada a abandonar su carrera como profesora debido a una enfermedad crónica cuando tenía apenas 28 años.",
+      "resumen_largo": "En 2019, Jarvs Tasker se vio obligada a abandonar su carrera como profesora debido a una enfermedad crónica cuando tenía apenas 28 años. Siete años después, gana el doble de lo que percibía entonces al año, dirigiendo Jarvs Indie Insights, una empresa que ofrece servicios de comunicación y marketing dentro de la industria de los videojuegos. \"Puedo decir con toda tranquilidad que probablemente me habría llevado unos 20 años en la enseñanza ganar lo que gano ahora\", le contó a la BBC.",
+      "texto_original": "En 2019, Jarvs Tasker se vio obligada a abandonar su carrera como profesora debido a una enfermedad crónica cuando tenía apenas 28 años. Siete años después, gana el doble de lo que percibía entonces al año, dirigiendo Jarvs Indie Insights, una empresa que ofrece servicios de comunicación y marketing dentro de la industria de los videojuegos. \"Puedo decir con toda tranquilidad que probablemente me habría llevado unos 20 años en la enseñanza ganar lo que gano ahora\", le contó a la BBC. Cuando dejó la docencia, comenzó haciendo trabajo voluntario para el canal de YouTube de PlayStation, le pareció que existían muchas similitudes entre ambas industrias. \"Gestionar una comunidad es muy parecido a gestionar una clase llena de niños, así que hay muchas habilidades transferibles. Pero además, los videojuegos son una de esas industrias a las que mucha gente llega más tarde en la vida\", dijo. Tasker, que vive en Exeter, cree que los jóvenes quizá desconocen las \"muchas vías de acceso\" que existen para trabajar en este sector.",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-09-29T14:52:41.370Z",
+        "index": 20,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -371,13 +612,13 @@
           "inteligencia_artificial": 1,
           "moviles": 1
         },
-        "entidades": [],
+        "entidades": [
+          "BBC"
+        ],
         "cifras_detectadas": [
-          "75 km",
-          "185 km",
-          "225 km"
+          "2019"
         ],
-        "content_type": "report",
+        "content_type": "news",
         "clickbait": {
           "detected": false,
           "score": 0,
@@ -389,13 +630,13 @@
           "signals": [],
           "url_count": 0
         },
-        "calidad": 92,
-        "relevancia": 57,
-        "confiabilidad_fuente": 80,
+        "calidad": 89,
+        "relevancia": 62,
+        "confiabilidad_fuente": 70,
         "readability": {
-          "words": 285,
+          "words": 223,
           "sentences": 11,
-          "average_words_per_sentence": 25.91
+          "average_words_per_sentence": 20.27
         },
         "duplicate": {
           "detected": false,
@@ -404,157 +645,7 @@
           "similar_to": null
         }
       },
-      "final_score": 75
-    },
-    {
-      "id": "ee8579e51ebaeabc",
-      "fuente_id": "huawei_central",
-      "fuente_nombre": "Huawei Central",
-      "tipo": "rss_web",
-      "subtipo": "medio_especializado",
-      "grupo_fuente": "huawei",
-      "nivel_fuente": "secundaria_especializada",
-      "categoria": "moviles",
-      "idioma_original": "en",
-      "prioridad_fuente": 5,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "La serie Mate 90 será el primer buque insignia de Huawei que se lanzará y venderá el mismo día",
-      "titulo_original": "Mate 90 series will be the first Huawei flagship to launch and sale on the same day",
-      "enlace": "https://www.huaweicentral.com/huawei-mate-90-series-will-be-the-first-to-launch-and-sale-on-the-same-day/",
-      "fecha": "2026-09-29T03:06:18.000Z",
-      "resumen_corto": "La serie Huawei Mate 90 será el primer teléfono inteligente Huawei que tendrá el evento de lanzamiento y la ventana de ventas más cortos porque ambos ocurrirán el mismo día.",
-      "resumen_largo": "La serie Huawei Mate 90 será el primer teléfono inteligente Huawei que tendrá el evento de lanzamiento y la ventana de ventas más cortos porque ambos ocurrirán el mismo día. La serie Mate 90 se presentará el miércoles 1 de octubre a las 10 a. m., hora de China, casi 4,5 horas antes de la hora habitual de lanzamiento del buque insignia. En cambio, las ventas […] La serie posterior Mate 90 será el primer buque insignia de Huawei que se lanzará y venderá el mismo día que apareció por primera vez en Huawei Central.",
-      "texto_original": "Huawei Mate 90 series will be the first Huawei smartphone to have the shortest launch event and sales window because both will happen on the same day. The Mate 90 series will unveil on Wednesday, October 1st at 10 AM China time, almost 4.5 hours earlier than its usual flagship launch time. Instead, sales will […] The post Mate 90 series will be the first Huawei flagship to launch and sale on the same day appeared first on Huawei Central .",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-09-29T08:02:56.751Z",
-        "index": 15,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "en",
-        "categoria": "moviles",
-        "categorias_secundarias": [
-          "inteligencia_artificial",
-          "vehiculos_energia",
-          "software_internet"
-        ],
-        "category_scores": {
-          "moviles": 5,
-          "inteligencia_artificial": 1,
-          "vehiculos_energia": 1,
-          "software_internet": 1
-        },
-        "entidades": [
-          "Huawei"
-        ],
-        "cifras_detectadas": [],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 84,
-        "relevancia": 70,
-        "confiabilidad_fuente": 65,
-        "readability": {
-          "words": 171,
-          "sentences": 10,
-          "average_words_per_sentence": 17.1
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 73.65
-    },
-    {
-      "id": "e0ea06c477828e08",
-      "fuente_id": "huawei_central",
-      "fuente_nombre": "Huawei Central",
-      "tipo": "rss_web",
-      "subtipo": "medio_especializado",
-      "grupo_fuente": "huawei",
-      "nivel_fuente": "secundaria_especializada",
-      "categoria": "moviles",
-      "idioma_original": "en",
-      "prioridad_fuente": 5,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "El primer avance del Huawei Mate 90 destaca la cámara con teleconvertidor 10x",
-      "titulo_original": "Huawei Mate 90 first teaser highlights 10x teleconverter camera",
-      "enlace": "https://www.huaweicentral.com/huawei-mate-90-first-teaser-highlights-10x-teleconverter-camera/",
-      "fecha": "2026-09-29T02:54:34.000Z",
-      "resumen_corto": "Después de varias filtraciones, Huawei finalmente lanzó el primer avance de la serie Mate 90 que revela su lente teleconvertidora.",
-      "resumen_largo": "Después de varias filtraciones, Huawei finalmente lanzó el primer avance de la serie Mate 90 que revela su lente teleconvertidora. El vídeo promocional destaca cómo la línea insignia de teléfonos inteligentes llevará la fotografía al siguiente nivel con un nuevo accesorio. La serie Mate 90 ha sido un misterio durante meses respecto a su fecha de lanzamiento.",
-      "texto_original": "After several leak hustles, Huawei has finally dropped the first Mate 90 series teaser revealing its teleconverter lens. The promotional video highlights how the flagship smartphone lineup will take photography to the next level with a new accessory. Mate 90 series has been a mystery for months regarding its launch date. The OEM eventually broke […] The post Huawei Mate 90 first teaser highlights 10x teleconverter camera appeared first on Huawei Central .",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-09-29T08:02:56.752Z",
-        "index": 16,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "en",
-        "categoria": "moviles",
-        "categorias_secundarias": [
-          "inteligencia_artificial",
-          "vehiculos_energia",
-          "software_internet"
-        ],
-        "category_scores": {
-          "moviles": 5,
-          "inteligencia_artificial": 1,
-          "vehiculos_energia": 1,
-          "software_internet": 1
-        },
-        "entidades": [
-          "Huawei"
-        ],
-        "cifras_detectadas": [],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 84,
-        "relevancia": 70,
-        "confiabilidad_fuente": 65,
-        "readability": {
-          "words": 134,
-          "sentences": 8,
-          "average_words_per_sentence": 16.75
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 73.65
+      "final_score": 73.45
     },
     {
       "id": "a08737f5b9706ff4",
@@ -578,8 +669,8 @@
       "texto_original": "Towards safety cases for frontier AI training OpenAI",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-29T08:02:56.746Z",
-        "index": 9,
+        "processed_at": "2026-09-29T14:52:41.374Z",
+        "index": 27,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -651,8 +742,8 @@
       "texto_original": "The Lenfest Institute grows landmark program with expanded OpenAI support OpenAI",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-29T08:02:56.758Z",
-        "index": 25,
+        "processed_at": "2026-09-29T14:52:41.376Z",
+        "index": 32,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -701,231 +792,7 @@
       "final_score": 72.95
     },
     {
-      "id": "ba7568b3576730b1",
-      "fuente_id": "openai_google",
-      "fuente_nombre": "OpenAI",
-      "tipo": "rss_web",
-      "subtipo": "google_news",
-      "grupo_fuente": "openai",
-      "nivel_fuente": "fuente_oficial",
-      "categoria": "inteligencia_artificial",
-      "idioma_original": "en",
-      "prioridad_fuente": 5,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "Un agente utilizó DNS para comunicarse con un chatbot externo - Blog de alineación de OpenAI",
-      "titulo_original": "An agent used DNS to reach an external chatbot - OpenAI Alignment Blog",
-      "enlace": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOZDB5eW03aEQ0YU54NjFGSFFVdXhmVEpjQU9VX2xNeUN6cGtoeU1ETG11dkk0WXlucXNtNlRmWUg3TTFBX0VjN1U1a2NodWx6SU1RaVlsLW14VVN1UWRBcEtTWUFGbmdOSDE2Rjd5TU83dFFuVUt2ZjcyWFlSTTFveDl3Z0hFOUxaVkh1TzVVT0MxQWtuU0lrVjY1UDE?oc=5",
-      "fecha": "2026-09-26T06:59:59.000Z",
-      "resumen_corto": "Un agente utilizó DNS para comunicarse con un chatbot externo OpenAI Alignment Blog",
-      "resumen_largo": "Un agente utilizó DNS para comunicarse con un chatbot externo OpenAI Alignment Blog",
-      "texto_original": "An agent used DNS to reach an external chatbot OpenAI Alignment Blog",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-09-29T08:02:56.767Z",
-        "index": 41,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "en",
-        "categoria": "inteligencia_artificial",
-        "categorias_secundarias": [
-          "vehiculos_energia"
-        ],
-        "category_scores": {
-          "inteligencia_artificial": 2,
-          "vehiculos_energia": 2
-        },
-        "entidades": [
-          "OpenAI"
-        ],
-        "cifras_detectadas": [],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 84,
-        "relevancia": 62,
-        "confiabilidad_fuente": 75,
-        "readability": {
-          "words": 51,
-          "sentences": 1,
-          "average_words_per_sentence": 51
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 72.95
-    },
-    {
-      "id": "8d98f884e03db362",
-      "fuente_id": "bbc_mundo",
-      "fuente_nombre": "BBC Mundo",
-      "tipo": "rss_web",
-      "subtipo": "medio_generalista",
-      "grupo_fuente": "bbc",
-      "nivel_fuente": "medio_profesional",
-      "categoria": "actualidad",
-      "idioma_original": "es",
-      "prioridad_fuente": 5,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "Por qué están cerrando miles de empresas en Argentina y qué dice de la economía en la era Milei",
-      "titulo_original": "Por qué están cerrando miles de empresas en Argentina y qué dice de la economía en la era Milei",
-      "enlace": "https://www.bbc.com/mundo/articles/c6z7zzel0lx5o?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-09-28T11:17:51.000Z",
-      "resumen_corto": "De visita en Nueva York hace unos días, el presidente de Argentina, Javier Milei, dijo que no ve \"ningún problema\" con el crecimiento económico del país.",
-      "resumen_largo": "De visita en Nueva York hace unos días, el presidente de Argentina, Javier Milei, dijo que no ve \"ningún problema\" con el crecimiento económico del país. Lo dijo en respuesta a los temores de que el país pueda encaminarse hacia una \"recesión técnica\", un fenómeno que ocurre cuando hay dos trimestres seguidos de contracción económica. Es que la primera mitad de este año estuvo marcada por alzas y bajas que aumentaron la sensación de fragilidad, aunque al comparar el primer semestre con el mismo período del año anterior, el Producto Interno Bruto siguió creciendo a un ritmo de 2,2%.",
-      "texto_original": "De visita en Nueva York hace unos días, el presidente de Argentina, Javier Milei, dijo que no ve \"ningún problema\" con el crecimiento económico del país. Lo dijo en respuesta a los temores de que el país pueda encaminarse hacia una \"recesión técnica\", un fenómeno que ocurre cuando hay dos trimestres seguidos de contracción económica. Es que la primera mitad de este año estuvo marcada por alzas y bajas que aumentaron la sensación de fragilidad, aunque al comparar el primer semestre con el mismo período del año anterior, el Producto Interno Bruto siguió creciendo a un ritmo de 2,2%. A pesar de la expansión económica y un drástico recorte de la inflación desde más de 211% -cuando inició su mandato- hasta 33,5%, el costo social de las políticas de shock aplicadas por el gobierno ha dejado cicatrices. Uno de cada tres argentinos vive en la pobreza; el desempleo bordea el 8%, mientras los ingresos y el poder de compra real de la población siguen rezagados respecto a la inflación. Una de las cosas que más les preocupa a los argentinos es la precarización del empleo, que ha llevado a muchas personas a trabajar de manera informal —sin ningún contrato, ni seguridad social— y a endeudarse mucho más allá de su capacidad de pago.",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-09-29T08:02:56.765Z",
-        "index": 34,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "es",
-        "categoria": "actualidad",
-        "categorias_secundarias": [
-          "inteligencia_artificial",
-          "vehiculos_energia",
-          "semiconductores"
-        ],
-        "category_scores": {
-          "actualidad": 7,
-          "inteligencia_artificial": 2,
-          "vehiculos_energia": 2,
-          "semiconductores": 1,
-          "software_internet": 1
-        },
-        "entidades": [],
-        "cifras_detectadas": [
-          "2,2%",
-          "211%",
-          "33,5%",
-          "8%"
-        ],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 25,
-          "signals": [
-            "\\bshock\\b"
-          ]
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 84,
-        "relevancia": 65,
-        "confiabilidad_fuente": 70,
-        "readability": {
-          "words": 257,
-          "sentences": 10,
-          "average_words_per_sentence": 25.7
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 72.9
-    },
-    {
-      "id": "16ae989a7fa21ade",
-      "fuente_id": "bbc_mundo",
-      "fuente_nombre": "BBC Mundo",
-      "tipo": "rss_web",
-      "subtipo": "medio_generalista",
-      "grupo_fuente": "bbc",
-      "nivel_fuente": "medio_profesional",
-      "categoria": "actualidad",
-      "idioma_original": "es",
-      "prioridad_fuente": 5,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "\"El ganado se está muriendo de sed y hambre\": el devastador impacto de El Niño que ya se siente en el Corredor Seco de Centroamérica",
-      "titulo_original": "\"El ganado se está muriendo de sed y hambre\": el devastador impacto de El Niño que ya se siente en el Corredor Seco de Centroamérica",
-      "enlace": "https://www.bbc.com/mundo/articles/cmn5dnk23gz4o?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-09-28T13:29:19.000Z",
-      "resumen_corto": "Juan Estanislao Muñoz está acostumbrado a las sequías intensas.",
-      "resumen_largo": "Juan Estanislao Muñoz está acostumbrado a las sequías intensas. Pero la de ahora, asegura, no tiene precedente. Y nunca en mi vida vi una sequía como ahora.",
-      "texto_original": "Juan Estanislao Muñoz está acostumbrado a las sequías intensas. Pero la de ahora, asegura, no tiene precedente. \"Tengo 61 años. Y nunca en mi vida vi una sequía como ahora. No va a haber cosecha, no va a haber nada\", relata. Muñoz es agricultor y vive con un sobrino en la comunidad de las Chácaras en el departamento de Choluteca, en el sur de Honduras. Su hogar está en el Corredor Seco centroamericano, una franja que atraviesa parte de Guatemala, Honduras, El Salvador, Nicaragua y Costa Rica. Más de 10 millones de personas viven en esa franja, donde más del 70% de la población rural vive en la pobreza y más de un millón de niños sufren retraso en el crecimiento debido a la malnutrición, según la ONU . En esta región ya vulnerable, el fenómeno de El Niño -que se suma al cambio climático- agravó la escasez de agua y empuja a miles de familias a la emergencia y la desesperación.",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-09-29T08:02:56.762Z",
-        "index": 32,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "es",
-        "categoria": "vehiculos_energia",
-        "categorias_secundarias": [
-          "inteligencia_artificial"
-        ],
-        "category_scores": {
-          "vehiculos_energia": 2,
-          "inteligencia_artificial": 1
-        },
-        "entidades": [],
-        "cifras_detectadas": [
-          "10 m",
-          "70%"
-        ],
-        "content_type": "report",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 92,
-        "relevancia": 50,
-        "confiabilidad_fuente": 80,
-        "readability": {
-          "words": 147,
-          "sentences": 13,
-          "average_words_per_sentence": 11.31
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 72.2
-    },
-    {
-      "id": "e89ac148b43edd0a",
+      "id": "25c78ae36bd270b4",
       "fuente_id": "huawei_central",
       "fuente_nombre": "Huawei Central",
       "tipo": "rss_web",
@@ -937,17 +804,17 @@
       "prioridad_fuente": 5,
       "analizar": true,
       "resumir": true,
-      "titulo": "Huawei ya muestra modelos Mate 90 en tiendas offline",
-      "titulo_original": "Huawei already displaying Mate 90 models at offline stores",
-      "enlace": "https://www.huaweicentral.com/huawei-already-displaying-mate-90-models-at-offline-stores/",
-      "fecha": "2026-09-29T07:43:03.000Z",
-      "resumen_corto": "Muchas tiendas fuera de línea de Huawei en todo el país han comenzado a mostrar los modelos de la serie Mate 90 […] La publicación Huawei ya muestra modelos Mate 90 en tiendas fuera de línea apareció por primera vez en Huawei Central.",
-      "resumen_largo": "Huawei ya ha comenzado a exhibir los modelos de la serie Mate 90 en sus tiendas fuera de línea. Si bien la compañía lanzará oficialmente la nueva línea insignia el 1 de octubre, en realidad no es necesario esperar hasta la presentación. Muchas tiendas fuera de línea de Huawei en todo el país han comenzado a mostrar los modelos de la serie Mate 90 […] La publicación Huawei ya muestra modelos Mate 90 en tiendas fuera de línea apareció por primera vez en Huawei Central.",
-      "texto_original": "Huawei has already begun showcasing the Mate 90 series models at its offline stores. While the company will officially launch the new flagship lineup on the 1st of October, you actually don’t have to wait until the unveiling. Here are the details. Many Huawei offline stores nationwide have started displaying the Mate 90 series models […] The post Huawei already displaying Mate 90 models at offline stores appeared first on Huawei Central .",
+      "titulo": "El video de unboxing confirma los modelos, especificaciones y más del Huawei Mate 90",
+      "titulo_original": "Unboxing video confirms Huawei Mate 90 models, specs, and more",
+      "enlace": "https://www.huaweicentral.com/unboxing-video-confirms-huawei-mate-90-models-specs-and-more/",
+      "fecha": "2026-09-29T08:55:55.000Z",
+      "resumen_corto": "Comenzando con la cantidad de modelos, la serie Huawei Mate 90 traerá un total de cinco variantes […] El video post Unboxing confirma los modelos, especificaciones y más del Huawei Mate 90 apareció por primera vez en Huawei Central.",
+      "resumen_largo": "Después de la exhibición de la serie Huawei Mate 90 en tiendas fuera de línea, muchos fanáticos y informantes publicaron videos de unboxing que confirman la cantidad de modelos, especificaciones y algunas características clave del buque insignia. Exploremos estos puntos en detalle. Comenzando con la cantidad de modelos, la serie Huawei Mate 90 traerá un total de cinco variantes […] El video post Unboxing confirma los modelos, especificaciones y más del Huawei Mate 90 apareció por primera vez en Huawei Central.",
+      "texto_original": "Following the Huawei Mate 90 series showcasing at offline stores, many fans and tipsters have posted unboxing videos confirming the number of models, specifications, and some key features of the flagship. Let’s explore these points in detail. Starting with the number of models, the Huawei Mate 90 series will bring a total of five variants […] The post Unboxing video confirms Huawei Mate 90 models, specs, and more appeared first on Huawei Central .",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-29T08:02:56.738Z",
-        "index": 0,
+        "processed_at": "2026-09-29T14:52:41.371Z",
+        "index": 21,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -957,13 +824,12 @@
         "categoria": "inteligencia_artificial",
         "categorias_secundarias": [
           "moviles",
-          "hardware",
-          "vehiculos_energia"
+          "vehiculos_energia",
+          "software_internet"
         ],
         "category_scores": {
           "inteligencia_artificial": 2,
           "moviles": 2,
-          "hardware": 1,
           "vehiculos_energia": 1,
           "software_internet": 1
         },
@@ -989,9 +855,9 @@
         "relevancia": 62,
         "confiabilidad_fuente": 65,
         "readability": {
-          "words": 155,
-          "sentences": 8,
-          "average_words_per_sentence": 19.38
+          "words": 165,
+          "sentences": 7,
+          "average_words_per_sentence": 23.57
         },
         "duplicate": {
           "detected": false,
@@ -1003,56 +869,48 @@
       "final_score": 72.2
     },
     {
-      "id": "35f3ea457f50ea95",
-      "fuente_id": "huawei_google",
-      "fuente_nombre": "Huawei Central",
+      "id": "cfe8ab3b302d75fe",
+      "fuente_id": "xataka_google",
+      "fuente_nombre": "Xataka",
       "tipo": "rss_web",
       "subtipo": "google_news",
-      "grupo_fuente": "huawei",
-      "nivel_fuente": "agregador",
-      "categoria": "moviles",
-      "idioma_original": "en",
+      "grupo_fuente": "xataka",
+      "nivel_fuente": "medio_especializado",
+      "categoria": "tecnologia",
+      "idioma_original": "es",
       "prioridad_fuente": 4,
       "analizar": true,
       "resumir": true,
-      "titulo": "Honor MagicPad 4 12.1 lanzado con batería de 10100 mAh, pantalla de 165 Hz y diseño sin bisel",
-      "titulo_original": "Honor MagicPad 4 12.1 launched with 10100mAh battery, 165Hz display, bezel-less design - Huawei Central",
-      "enlace": "https://news.google.com/rss/articles/CBMibkFVX3lxTE15cW1BTnJuLVQyZE0xRzdnS3NHLVdQZkJkMWpfLWRpQ0VHQ0xhelhWaGJDZXRvOTdlSWRfUEdZdW1YWmoxWWI2MnREMU1HU2RZWi1JSjVlRW9IeWZLamZmMEVqUTk3cUs0RDd6QWF30gFzQVVfeXFMTkFPamE1V1JlU0hUUzNhSHVzVjBxWTA5cEVIbnFvM0Vwei1tbllTRkpPSjVpcUhzZ1NSMXBrcXBvSVRkNUppY3JEcmVDQTZsNFc2SEx0WkxMSG8tVGtwRG8xZVB2blpSMmx6eGtQOVU4alVRbw?oc=5",
-      "fecha": "2026-09-28T15:32:35.000Z",
-      "resumen_corto": "Honor MagicPad 4 12.1 lanzado con batería de 10100 mAh, pantalla de 165 Hz y diseño sin bisel Huawei Central",
-      "resumen_largo": "Honor MagicPad 4 12.1 lanzado con batería de 10100 mAh, pantalla de 165 Hz y diseño sin bisel Huawei Central",
-      "texto_original": "Honor MagicPad 4 12.1 launched with 10100mAh battery, 165Hz display, bezel-less design Huawei Central",
+      "titulo": "Es oficial: el Gobierno prorroga la ayuda a los combustibles a partir del 1 de octubre y se extenderá hasta final de año",
+      "titulo_original": "Es oficial: el Gobierno prorroga la ayuda a los combustibles a partir del 1 de octubre y se extenderá hasta final de año - Xataka",
+      "enlace": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQOEhmQmNIYTZsLU96cWNHTEQycERUb0tHSjdKbms3ektQMTV0Uk83VlFqRjc3b1l1dW5HQmZ0ZzRsUnVjR0loSzZTdTFWZUtVUnJxakpJbkpYSXF6R05DVWs0ZnJhakc0SjE5QnIxcHB2UlJaMk45U1ZxNjliTEVhWTUzclI0TWxyVlYyY0JEQnhaVTJENTlmYm5qNlBXY3hkd3dFSkFxT2VUQldFQTl0YnMySWxreWZDU2tpS3d30gHDAUFVX3lxTE5ZcDdlM1RDaEhXeTJUaVpSN1NtTVZ6NFpYMzFiZER6SXgzeVA4djNXdlRXQXZsRzl3LUJqZThTcER4UnBfSXhvZ2hsTjRBM25KNktGWGdkYWlLankzQV92NkxPZVVnb2lLX2pDNE1zTkxielNLaTFjRHZvNmstalRFUklHSnh3akh6WmRQdFdzdFp0clFQdnU3M0lLV2xWck85bVRkSHN5a2R0T2pIZUExdVdaWlRnbHVrSXFBeGdManhzOA?oc=5",
+      "fecha": "2026-09-29T12:40:37.000Z",
+      "resumen_corto": "Es oficial: el Gobierno prorroga la ayuda a los combustibles a partir del 1 de octubre y se extenderá hasta final de año Xataka",
+      "resumen_largo": "Es oficial: el Gobierno prorroga la ayuda a los combustibles a partir del 1 de octubre y se extenderá hasta final de año Xataka",
+      "texto_original": "Es oficial: el Gobierno prorroga la ayuda a los combustibles a partir del 1 de octubre y se extenderá hasta final de año Xataka",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-29T08:02:56.761Z",
-        "index": 30,
+        "processed_at": "2026-09-29T14:52:41.364Z",
+        "index": 12,
         "resumen": {
           "generado": true,
           "origen": "translated"
         },
         "idioma_detectado": "es",
-        "idioma_original": "en",
-        "categoria": "moviles",
+        "idioma_original": "es",
+        "categoria": "inteligencia_artificial",
         "categorias_secundarias": [
-          "baterias_energia",
-          "inteligencia_artificial",
-          "hardware"
+          "actualidad"
         ],
         "category_scores": {
-          "moviles": 2,
-          "baterias_energia": 2,
           "inteligencia_artificial": 1,
-          "hardware": 1
+          "actualidad": 1
         },
         "entidades": [
-          "Huawei",
-          "Honor"
+          "Xataka"
         ],
-        "cifras_detectadas": [
-          "10100 mAh",
-          "10100mAh"
-        ],
-        "content_type": "news",
+        "cifras_detectadas": [],
+        "content_type": "report",
         "clickbait": {
           "detected": false,
           "score": 0,
@@ -1064,13 +922,13 @@
           "signals": [],
           "url_count": 0
         },
-        "calidad": 87,
-        "relevancia": 67,
-        "confiabilidad_fuente": 53,
+        "calidad": 90,
+        "relevancia": 63,
+        "confiabilidad_fuente": 60,
         "readability": {
-          "words": 66,
-          "sentences": 6,
-          "average_words_per_sentence": 11
+          "words": 69,
+          "sentences": 1,
+          "average_words_per_sentence": 69
         },
         "duplicate": {
           "detected": false,
@@ -1079,7 +937,7 @@
           "similar_to": null
         }
       },
-      "final_score": 70.5
+      "final_score": 71.7
     },
     {
       "id": "7954fb2a17563962",
@@ -1103,8 +961,8 @@
       "texto_original": "Honor launches 500mm and 200mm teleconverters for smartphones Huawei Central",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-29T08:02:56.766Z",
-        "index": 37,
+        "processed_at": "2026-09-29T14:52:41.377Z",
+        "index": 36,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -1156,82 +1014,6 @@
       "final_score": 70.5
     },
     {
-      "id": "94b9845a897ed425",
-      "fuente_id": "huawei_central",
-      "fuente_nombre": "Huawei Central",
-      "tipo": "rss_web",
-      "subtipo": "medio_especializado",
-      "grupo_fuente": "huawei",
-      "nivel_fuente": "secundaria_especializada",
-      "categoria": "moviles",
-      "idioma_original": "en",
-      "prioridad_fuente": 5,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "Huawei FreeBuds Neo con HarmonyOS 7 entra en modo de venta",
-      "titulo_original": "Huawei FreeBuds Neo featuring HarmonyOS 7 enters sale mode",
-      "enlace": "https://www.huaweicentral.com/huawei-freebuds-neo-sale/",
-      "fecha": "2026-09-29T04:16:26.000Z",
-      "resumen_corto": "FreeBuds Neo: los primeros auriculares para juegos de Huawei ya están a la venta.",
-      "resumen_largo": "FreeBuds Neo: los primeros auriculares para juegos de Huawei ya están a la venta. La compañía lanzó el dispositivo de audio a principios de este mes. Ahora ha pisado terreno local en cuatro colores de juego, desbloqueando nueva energía.",
-      "texto_original": "FreeBuds Neo – the first Huawei gaming earbuds are now open for sale. The company launched the audio wearable at the beginning of this month. It has now stepped onto home ground in four gaming colors, unlocking new energy. Huawei FreeBuds Neo has entered the sale lane in four colors: Galaxy Silver, Nebula Pink, Zero […] The post Huawei FreeBuds Neo featuring HarmonyOS 7 enters sale mode appeared first on Huawei Central .",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-09-29T08:02:56.748Z",
-        "index": 11,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "en",
-        "categoria": "moviles",
-        "categorias_secundarias": [
-          "inteligencia_artificial",
-          "vehiculos_energia",
-          "software_internet"
-        ],
-        "category_scores": {
-          "moviles": 2,
-          "inteligencia_artificial": 1,
-          "vehiculos_energia": 1,
-          "software_internet": 1,
-          "tecnologia": 1
-        },
-        "entidades": [
-          "Huawei"
-        ],
-        "cifras_detectadas": [],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 84,
-        "relevancia": 62,
-        "confiabilidad_fuente": 65,
-        "readability": {
-          "words": 116,
-          "sentences": 8,
-          "average_words_per_sentence": 14.5
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 70.45
-    },
-    {
       "id": "426f274b1182235d",
       "fuente_id": "openai_google",
       "fuente_nombre": "OpenAI",
@@ -1253,8 +1035,8 @@
       "texto_original": "How we will do better for Australia OpenAI",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-29T08:02:56.754Z",
-        "index": 18,
+        "processed_at": "2026-09-29T14:52:41.375Z",
+        "index": 29,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -1300,6 +1082,77 @@
       "final_score": 70.15
     },
     {
+      "id": "2d3c0f6f221f20aa",
+      "fuente_id": "openai_google",
+      "fuente_nombre": "OpenAI",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "openai",
+      "nivel_fuente": "fuente_oficial",
+      "categoria": "inteligencia_artificial",
+      "idioma_original": "en",
+      "prioridad_fuente": 5,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Configuración de la cuenta del Administrador de anuncios - Centro de ayuda de OpenAI",
+      "titulo_original": "Ads Manager Account Setup - OpenAI Help Center",
+      "enlace": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9ydi00VGpHdXpOeGZ1R1BEa2NrbllGeG1EOXh6WUhvZE56ajFidXJKR1pPWjRRUGtldkNidk1uNWtkUXowQnRCNkR3bXN3TVFlcU90c2s0V3ZXM2lfeXlVNlgwdTZqS0ExeEFfbWZWRDVnS0c0WVlJOEFR?oc=5",
+      "fecha": "2026-09-28T17:22:54.000Z",
+      "resumen_corto": "Configuración de cuenta del administrador de anuncios Centro de ayuda de OpenAI",
+      "resumen_largo": "Configuración de cuenta del administrador de anuncios Centro de ayuda de OpenAI",
+      "texto_original": "Ads Manager Account Setup OpenAI Help Center",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-09-29T14:52:41.376Z",
+        "index": 33,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "en",
+        "categoria": "inteligencia_artificial",
+        "categorias_secundarias": [
+          "moviles"
+        ],
+        "category_scores": {
+          "inteligencia_artificial": 2,
+          "moviles": 1
+        },
+        "entidades": [
+          "OpenAI"
+        ],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 84,
+        "relevancia": 55,
+        "confiabilidad_fuente": 75,
+        "readability": {
+          "words": 38,
+          "sentences": 1,
+          "average_words_per_sentence": 38
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 70.15
+    },
+    {
       "id": "49a78ebc25f4e315",
       "fuente_id": "xiaomi_google",
       "fuente_nombre": "Xiaomi",
@@ -1321,8 +1174,8 @@
       "texto_original": "All Specs, Features of Xiaomi Smart Band 11 | Xiaomi Global Xiaomi",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-29T08:02:56.768Z",
-        "index": 42,
+        "processed_at": "2026-09-29T14:52:41.379Z",
+        "index": 41,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -1394,8 +1247,8 @@
       "texto_original": "CATL Debrecen Kicks Off Trial Operations in its New Cell Building CATL",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-29T08:02:56.768Z",
-        "index": 43,
+        "processed_at": "2026-09-29T14:52:41.379Z",
+        "index": 42,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -1467,8 +1320,8 @@
       "texto_original": "Xiaomi MiMo-V2.6 Series: 3 New Models Officially Released Xiaomi MiMo Home",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-29T08:02:56.769Z",
-        "index": 45,
+        "processed_at": "2026-09-29T14:52:41.379Z",
+        "index": 44,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -1519,83 +1372,6 @@
       "final_score": 70.15
     },
     {
-      "id": "9d9de50451b53b8b",
-      "fuente_id": "bbc_mundo",
-      "fuente_nombre": "BBC Mundo",
-      "tipo": "rss_web",
-      "subtipo": "medio_generalista",
-      "grupo_fuente": "bbc",
-      "nivel_fuente": "medio_profesional",
-      "categoria": "actualidad",
-      "idioma_original": "es",
-      "prioridad_fuente": 5,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "Quién es y qué crimen cometió Christa Pike, la primera mujer que será ejecutada en Tennessee en 200 años",
-      "titulo_original": "Quién es y qué crimen cometió Christa Pike, la primera mujer que será ejecutada en Tennessee en 200 años",
-      "enlace": "https://www.bbc.com/mundo/articles/c8wyz94xepz4o?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-09-29T02:31:07.000Z",
-      "resumen_corto": "Ashlee Sellars tuvo noticias de su amiga Christa Pike por última vez a principios de esta semana, cuando esta le envió un mensaje de texto desde su celda en el corredor de la muerte, donde se prepara para ser ejecutada mediante inyección letal en el estado de Tennessee.",
-      "resumen_largo": "Ashlee Sellars tuvo noticias de su amiga Christa Pike por última vez a principios de esta semana, cuando esta le envió un mensaje de texto desde su celda en el corredor de la muerte, donde se prepara para ser ejecutada mediante inyección letal en el estado de Tennessee. Pike le dijo a Sellars que no quería que ninguno de sus seres queridos estuviera presente el miércoles, cuando debe ser ejecutada. A Sellars le resulta difícil reconocer en esta mujer que considera amable y protectora a la persona que cometió un crimen atroz hace 31 años.",
-      "texto_original": "Ashlee Sellars tuvo noticias de su amiga Christa Pike por última vez a principios de esta semana, cuando esta le envió un mensaje de texto desde su celda en el corredor de la muerte, donde se prepara para ser ejecutada mediante inyección letal en el estado de Tennessee. Pike le dijo a Sellars que no quería que ninguno de sus seres queridos estuviera presente el miércoles, cuando debe ser ejecutada. A Sellars le resulta difícil reconocer en esta mujer que considera amable y protectora a la persona que cometió un crimen atroz hace 31 años. Pike, quien ahora tiene 50 años, tenía 18 cuando ella y su novio de entonces, Tadaryl Shipp, golpearon y torturaron hasta la muerte a Colleen Slemmer, una joven de 19 años a la que conocieron en un campamento de formación laboral para adolescentes con problemas. El asesinato provocó un gran revuelo mediático en Knoxville, Tennessee, en 1995, cuando encontraron a Colleen con un pentagrama —un símbolo de ritual satánico— grabado en el pecho. Pike había acusado a Colleen de insultarla e intentar robarle a su novio. Otros dos residentes del campo testificaron posteriormente que Pike se había jactado del asesinato antes y después del mismo, y les mostró un trozo del cráneo de Colleen.",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-09-29T08:02:56.753Z",
-        "index": 17,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "es",
-        "categoria": "vehiculos_energia",
-        "categorias_secundarias": [
-          "inteligencia_artificial",
-          "moviles",
-          "hardware"
-        ],
-        "category_scores": {
-          "vehiculos_energia": 2,
-          "inteligencia_artificial": 1,
-          "moviles": 1,
-          "hardware": 1,
-          "militar": 1,
-          "actualidad": 1
-        },
-        "entidades": [],
-        "cifras_detectadas": [
-          "1995"
-        ],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 84,
-        "relevancia": 57,
-        "confiabilidad_fuente": 70,
-        "readability": {
-          "words": 271,
-          "sentences": 11,
-          "average_words_per_sentence": 24.64
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 69.7
-    },
-    {
       "id": "19fe4bbc3a80b9d3",
       "fuente_id": "techinsights_google",
       "fuente_nombre": "TechInsights",
@@ -1617,8 +1393,8 @@
       "texto_original": "Apple iPhone 18 Pro Max Teardown: A20 Pro, X80 and Apple N1 techinsights.com",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-29T08:02:56.769Z",
-        "index": 44,
+        "processed_at": "2026-09-29T14:52:41.379Z",
+        "index": 43,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -1692,7 +1468,7 @@
       "texto_original": "Standard Honor Magic 9 launched as small-screen flagship with new colors Huawei Central",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-29T08:02:56.767Z",
+        "processed_at": "2026-09-29T14:52:41.378Z",
         "index": 38,
         "resumen": {
           "generado": true,
@@ -1745,6 +1521,86 @@
       "final_score": 68.75
     },
     {
+      "id": "a49c76e560d159b5",
+      "fuente_id": "resumen_militar",
+      "fuente_nombre": "El Resumen Militar",
+      "tipo": "telegram",
+      "subtipo": "canal_telegram",
+      "grupo_fuente": "telegram_militar",
+      "nivel_fuente": "telegram",
+      "categoria": "militar",
+      "idioma_original": "es",
+      "prioridad_fuente": 3,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "🇪🇺 Six EU states threaten to block bloc's budget unless \"hundreds of billions\" are cut The leaders of Germany, the Netherlands, Sweden, Denmark, Austria and Finland have warned they will reject the EU's next seven-year",
+      "titulo_original": "🇪🇺 Six EU states threaten to block bloc's budget unless \"hundreds of billions\" are cut The leaders of Germany, the Netherlands, Sweden, Denmark, Austria and Finland have warned they will reject the EU's next seven-year",
+      "enlace": "https://t.me/elresumenmilitar/100408",
+      "fecha": "2026-09-29T13:18:43.000Z",
+      "resumen_corto": "🇪🇺 Six EU states threaten to block bloc's budget unless \"hundreds of billions\" are cut The leaders of Germany, the Netherlands, Sweden, Denmark, Austria and Finland have warned they will reject the EU's next seven-year budget (2028–2034) unless spending is slashed by \"hundreds of billions\" of euros, the Financial Times reports.",
+      "resumen_largo": "🇪🇺 Six EU states threaten to block bloc's budget unless \"hundreds of billions\" are cut The leaders of Germany, the Netherlands, Sweden, Denmark, Austria and Finland have warned they will reject the EU's next seven-year budget (2028–2034) unless spending is slashed by \"hundreds of billions\" of euros, the Financial Times reports. In a joint letter, Merz and his five counterparts demand the budget be \"fundamentally reformed,\" with money redirected toward defence and innovation. To pay for it, they want to cut funding for farmers and poorer member states, which traditionally take up around two-thirds of the EU budget.",
+      "texto_original": "🇪🇺 Six EU states threaten to block bloc's budget unless \"hundreds of billions\" are cut The leaders of Germany, the Netherlands, Sweden, Denmark, Austria and Finland have warned they will reject the EU's next seven-year budget (2028–2034) unless spending is slashed by \"hundreds of billions\" of euros, the Financial Times reports. In a joint letter, Merz and his five counterparts demand the budget be \"fundamentally reformed,\" with money redirected toward defence and innovation. To pay for it, they want to cut funding for farmers and poorer member states, which traditionally take up around two-thirds of the EU budget. The European Commission's proposal currently stands at close to €2 trillion. The budget requires unanimous approval, and the six signatories provide roughly 40% of EU budget revenue. Ireland, which holds the rotating EU presidency, is due to present a compromise proposal in October. Poorer states in Southern and Eastern Europe, who stand to lose the most, are expected to fight the cuts hard. Guns over farmers. Brussels' priorities are becoming clearer by the day. 🔴 @DDGeopolitics",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-09-29T14:52:41.359Z",
+        "index": 6,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "en",
+        "idioma_original": "es",
+        "categoria": "militar",
+        "categorias_secundarias": [
+          "inteligencia_artificial",
+          "vehiculos_energia",
+          "software_internet"
+        ],
+        "category_scores": {
+          "militar": 3,
+          "inteligencia_artificial": 1,
+          "vehiculos_energia": 1,
+          "software_internet": 1,
+          "tecnologia": 1,
+          "actualidad": 1
+        },
+        "entidades": [],
+        "cifras_detectadas": [
+          "2028",
+          "2034",
+          "€2",
+          "40%"
+        ],
+        "content_type": "report",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 73,
+        "relevancia": 73,
+        "confiabilidad_fuente": 55,
+        "readability": {
+          "words": 327,
+          "sentences": 14,
+          "average_words_per_sentence": 23.36
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 68.5
+    },
+    {
       "id": "89bbce0a99eb398b",
       "fuente_id": "wccftech_google",
       "fuente_nombre": "Wccftech",
@@ -1766,8 +1622,8 @@
       "texto_original": "Intel CEO Lip-Bu Tan Calls TSMC a Partner Not a Rival, Even as He Rebuilds the Foundry Wccftech",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-29T08:02:56.755Z",
-        "index": 20,
+        "processed_at": "2026-09-29T14:52:41.375Z",
+        "index": 30,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -1820,49 +1676,48 @@
       "final_score": 68
     },
     {
-      "id": "0950b3404edcce36",
-      "fuente_id": "xataka_google",
-      "fuente_nombre": "Xataka",
+      "id": "f00dabea4522e9a7",
+      "fuente_id": "bbc_mundo",
+      "fuente_nombre": "BBC Mundo",
       "tipo": "rss_web",
-      "subtipo": "google_news",
-      "grupo_fuente": "xataka",
-      "nivel_fuente": "medio_especializado",
-      "categoria": "tecnologia",
+      "subtipo": "medio_generalista",
+      "grupo_fuente": "bbc",
+      "nivel_fuente": "medio_profesional",
+      "categoria": "actualidad",
       "idioma_original": "es",
-      "prioridad_fuente": 4,
+      "prioridad_fuente": 5,
       "analizar": true,
       "resumir": true,
-      "titulo": "El Honor Magic 9 Pro Max apunta a ser una bestia y a algo más importante: consolida la apuesta china por las baterías de otra galaxia",
-      "titulo_original": "El Honor Magic 9 Pro Max apunta a ser una bestia y a algo más importante: consolida la apuesta china por las baterías de otra galaxia - Xataka",
-      "enlace": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxObndobjZubTNCaUk0clJ0OWNtLUlLWkNQZ0Rpd0lqQWFYYXQ3MFZFVExXbjhxWFhGc3ZXTGxrMnVWaVpUbFVpNXNYZl9NS0N0d1lLQVYyWEI2ZVBYM2N4MnJGd0ZGalJoU0VDY2ZPQjktZGpVOFVvcTNhY2FwallubnYtV05FNGEyeHlmWUM5VWl2c2F1R0lrdV9IX2JYWmdoWWk2TXQzMmZwU3hDeWpmYloxQzVhZkdRbU8taERmanhIdmNtdngwSmtIemtIa3paN1hNaVh3Z9IB3AFBVV95cUxOc1V0Sk9Va1ZjRElYWUlyWDBDY29leGt2TlNrZDQ2TG5VQ3NuNkk1OHNndG5uS0ZweVpxeTREX1FUNmtVM2JobGI5R212WTdUejFVNnJUMHkteVhpdHoxVzE2RjRTZEtBT1lYN1JIYnRVX1BtcFFVUjBmd0lxdEFQVGZMcENlS3JRX1JleXo0bXdkVmlBcUNld0oyQW9WVkpCY3BqelUwenZOWk1HMFR6ZWRKeHE2cWdSZHk2Um1DRzlOVURQdFJmVmZlNjJoekhsNTVFQ2s0S2NEVGxP?oc=5",
-      "fecha": "2026-09-28T16:46:26.000Z",
-      "resumen_corto": "El Honor Magic 9 Pro Max apunta a ser una bestia y a algo más importante: consolida la apuesta china por las baterías de otra galaxia Xataka",
-      "resumen_largo": "El Honor Magic 9 Pro Max apunta a ser una bestia y a algo más importante: consolida la apuesta china por las baterías de otra galaxia Xataka",
-      "texto_original": "El Honor Magic 9 Pro Max apunta a ser una bestia y a algo más importante: consolida la apuesta china por las baterías de otra galaxia Xataka",
+      "titulo": "La abogada de Maricarmen asegura que la anciana podrá volver a su casa tras el desalojo que puso el foco en la crisis de vivienda en España",
+      "titulo_original": "La abogada de Maricarmen asegura que la anciana podrá volver a su casa tras el desalojo que puso el foco en la crisis de vivienda en España",
+      "enlace": "https://www.bbc.com/mundo/articles/c9gk5lxv7kx4o?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-09-29T08:23:54.000Z",
+      "resumen_corto": "La historia de Maricarmen Abascal, la mujer de 87 años con problemas de movilidad que se convirtió en un símbolo de la crisis de vivienda en España tras ser desalojada del inmueble donde había vivido durante 70 años, tuvo un nuevo giro este martes, después de que su abogada anunciara que podrá regresar a su hogar.",
+      "resumen_largo": "La historia de Maricarmen Abascal, la mujer de 87 años con problemas de movilidad que se convirtió en un símbolo de la crisis de vivienda en España tras ser desalojada del inmueble donde había vivido durante 70 años, tuvo un nuevo giro este martes, después de que su abogada anunciara que podrá regresar a su hogar. Tras el desalojo, que ocurrió el 23 de septiembre, tuvo que ser ingresada en un hospital. Durante días se acusó a la empresa Urbagestión, propietaria del inmueble donde residía Maricarmen, de no permitir ningún tipo de negociación para que pudiera quedarse allí.",
+      "texto_original": "La historia de Maricarmen Abascal, la mujer de 87 años con problemas de movilidad que se convirtió en un símbolo de la crisis de vivienda en España tras ser desalojada del inmueble donde había vivido durante 70 años, tuvo un nuevo giro este martes, después de que su abogada anunciara que podrá regresar a su hogar. Tras el desalojo, que ocurrió el 23 de septiembre, tuvo que ser ingresada en un hospital. Durante días se acusó a la empresa Urbagestión, propietaria del inmueble donde residía Maricarmen, de no permitir ningún tipo de negociación para que pudiera quedarse allí. Sin embargo, la abogada de Abascal, Beatriz Duro, declaró en una rueda de prensa que había existido \"buena voluntad por ambas partes\" y que su clienta pagará una cantidad similar de alquiler bajo un nuevo contrato, lo que evitará una importante subida del precio. El caso provocó una fuerte reacción e indignación en toda España. El presidente del Gobierno, Pedro Sánchez, prometió medidas de alivio en materia de vivienda cuando su gabinete se reúna este martes. Además, miles de personas se movilizaron hasta la Puerta del Sol, en Madrid, e instalaron un campamento para exigir no solo el regreso de Maricarmen a su hogar, sino también una nueva regulación en materia de vivienda.",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-29T08:02:56.760Z",
-        "index": 29,
+        "processed_at": "2026-09-29T14:52:41.372Z",
+        "index": 22,
         "resumen": {
           "generado": true,
           "origen": "translated"
         },
         "idioma_detectado": "es",
         "idioma_original": "es",
-        "categoria": "baterias_energia",
+        "categoria": "actualidad",
         "categorias_secundarias": [
+          "vehiculos_energia",
           "inteligencia_artificial",
           "moviles"
         ],
         "category_scores": {
-          "baterias_energia": 3,
+          "actualidad": 3,
+          "vehiculos_energia": 2,
           "inteligencia_artificial": 1,
           "moviles": 1
         },
-        "entidades": [
-          "Honor",
-          "Xataka"
-        ],
+        "entidades": [],
         "cifras_detectadas": [],
         "content_type": "news",
         "clickbait": {
@@ -1872,19 +1727,17 @@
         },
         "spam": {
           "detected": false,
-          "score": 30,
-          "signals": [
-            "\\bapuesta\\b"
-          ],
+          "score": 0,
+          "signals": [],
           "url_count": 0
         },
-        "calidad": 82,
-        "relevancia": 67,
-        "confiabilidad_fuente": 50,
+        "calidad": 79,
+        "relevancia": 57,
+        "confiabilidad_fuente": 70,
         "readability": {
-          "words": 99,
-          "sentences": 1,
-          "average_words_per_sentence": 99
+          "words": 285,
+          "sentences": 11,
+          "average_words_per_sentence": 25.91
         },
         "duplicate": {
           "detected": false,
@@ -1893,7 +1746,82 @@
           "similar_to": null
         }
       },
-      "final_score": 68
+      "final_score": 67.95
+    },
+    {
+      "id": "9c000afd8c462237",
+      "fuente_id": "wccftech_google",
+      "fuente_nombre": "Wccftech",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "wccftech",
+      "nivel_fuente": "medio_especializado",
+      "categoria": "hardware",
+      "idioma_original": "en",
+      "prioridad_fuente": 4,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "WiCi One convierte un único RTX 5090 en una GPU inalámbrica compartida a través de Wi-Fi 7 para IA y juegos locales",
+      "titulo_original": "WiCi One Turns a Single RTX 5090 Into a Wireless GPU Shared Over Wi-Fi 7 for Local AI and Gaming - Wccftech",
+      "enlace": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQSlExVFhvb0JUWjJla1FQRXBhbzY1eHVSVGdyaWNZLWlUMGdjYVRwSUFERlVpWDZ5R1hHUWlmenl3bWhmcHR6dXJHd29WNW8ybTFjbjZ0a1NFd1JLUlRWSU9KZmhBUXQwcldJa191UnoyZnRacE5SUkF0MXMzRmR2akFveU94enlNNVpjOGxKOVNNOF96TWxqUF9UWHlQZGdiME9MbUJn0gGrAUFVX3lxTFBwVnlJSzZfSWlNY0tWQkZSYUU5OHRRMVJpX0Q2dDV3VVA1U2ZTT3JhN0kyRlFFdXRXeHdMQ1pWa0NGbnJxcF9sUWsyaVFWUWFpNHZ2QWVlcHVnZ2w5WmhsQ3ZZdU05aEZxRkRreHVLejRobjRNRXdLOTZxTF93Smw4LWtqMkwzYUJ3YXc4d2RueEhEZ2tTelpBaEZNYk01Tlg4Y185ZzBWLS01Yw?oc=5",
+      "fecha": "2026-09-29T07:10:06.000Z",
+      "resumen_corto": "WiCi One convierte un único RTX 5090 en una GPU inalámbrica compartida a través de Wi-Fi 7 para IA local y juegos Wccftech",
+      "resumen_largo": "WiCi One convierte un único RTX 5090 en una GPU inalámbrica compartida a través de Wi-Fi 7 para IA local y juegos Wccftech",
+      "texto_original": "WiCi One Turns a Single RTX 5090 Into a Wireless GPU Shared Over Wi-Fi 7 for Local AI and Gaming Wccftech",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-09-29T14:52:41.373Z",
+        "index": 25,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "en",
+        "categoria": "inteligencia_artificial",
+        "categorias_secundarias": [
+          "semiconductores",
+          "tecnologia"
+        ],
+        "category_scores": {
+          "inteligencia_artificial": 2,
+          "semiconductores": 1,
+          "tecnologia": 1
+        },
+        "entidades": [
+          "Wccftech"
+        ],
+        "cifras_detectadas": [
+          "5090"
+        ],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 87,
+        "relevancia": 62,
+        "confiabilidad_fuente": 50,
+        "readability": {
+          "words": 76,
+          "sentences": 1,
+          "average_words_per_sentence": 76
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 67.75
     },
     {
       "id": "2683da1e111b78b0",
@@ -1917,8 +1845,8 @@
       "texto_original": "ASML CEO: Blocking China from chip tools could backfire and boost Huawei Huawei Central",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-29T08:02:56.761Z",
-        "index": 31,
+        "processed_at": "2026-09-29T14:52:41.376Z",
+        "index": 34,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -1983,17 +1911,17 @@
       "prioridad_fuente": 3,
       "analizar": true,
       "resumir": true,
-      "titulo": "OpenAI retrasa su nueva IA por problemas de seguridad y Anthropic alerta de riesgos “catastróficos para la humanidad” - EL PAÍS",
-      "titulo_original": "OpenAI retrasa su nueva IA por problemas de seguridad y Anthropic alerta de riesgos “catastróficos para la humanidad” - EL PAÍS",
+      "titulo": "OpenAI retrasa su nueva IA tras reconocer que no ha realizado los controles de calidad pertinentes - EL PAÍS",
+      "titulo_original": "OpenAI retrasa su nueva IA tras reconocer que no ha realizado los controles de calidad pertinentes - EL PAÍS",
       "enlace": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOdG9hbi1nVV8xTWtXMVowWUUyMDRQTGRkd2RSWWN5ejJxTWFMTk43RTM2ZWw0SENTOW5TNjFJWUZ1ZzlvaTRtZnktVnhTMW95djJmMlhRcm5LNW1fRFBicWYzZ2xOeEdxc0VnUHg0ekFzOWJPUTl4NUdCZWxuRjJEbXpYT2pHbFNfc25iNWxsSW5oSFF0cE9ZNUtHR3pNLUdwc0p2VXRIREMyd21mMm0xZ18zR2c3LTRObTB0a25ZVk5SejJzejNSWnZ6eTN0V0ItUHUxa2dsQjBWZEkxeGw2ZkJhZ1JvVVBqWnQ1TmozeFdlZGPSAYcCQVVfeXFMTkk5TGpOMExBUzVFZzJJMnVUYVNPVDg1RUlRYXZfblg1WUpDejkxY1RWYlZqN1J5M0IzcjBEcmRmdnJXekMtUTFpcWg5QXgwYmtDejZkYjc4MjFBV19oT2RneTg1V1k4VW8tYlZUVFo3clZjM1M5SjZ5SzgyTWkzSmQ4VzZNOHF0SUswb3VUQzV4Zkp3ZWVpeHljcGY1VDFTRFBnZXNRcWFIVDliLUgwa2FPVjlxNUY0NTVlY0lsR21qNDgzNV9NYXp4M1VuU0ZEak5mQ0hWU0hZaU1iTHdacFQ1dG1ILWJIcGUwTGRPdDA2X0x2Qnk5Z1RPSUFySHJXV0Z5WmdzUzQ?oc=5",
       "fecha": "2026-09-29T06:24:38.000Z",
-      "resumen_corto": "OpenAI retrasa su nueva IA por problemas de seguridad y Anthropic alerta de riesgos “catastróficos para la humanidad” EL PAÍS",
-      "resumen_largo": "OpenAI retrasa su nueva IA por problemas de seguridad y Anthropic alerta de riesgos “catastróficos para la humanidad” EL PAÍS",
-      "texto_original": "OpenAI retrasa su nueva IA por problemas de seguridad y Anthropic alerta de riesgos “catastróficos para la humanidad” EL PAÍS",
+      "resumen_corto": "OpenAI retrasa su nueva IA tras reconocer que no ha realizado los controles de calidad pertinentes EL PAÍS",
+      "resumen_largo": "OpenAI retrasa su nueva IA tras reconocer que no ha realizado los controles de calidad pertinentes EL PAÍS",
+      "texto_original": "OpenAI retrasa su nueva IA tras reconocer que no ha realizado los controles de calidad pertinentes EL PAÍS",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-29T08:02:56.746Z",
-        "index": 8,
+        "processed_at": "2026-09-29T14:52:41.374Z",
+        "index": 26,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -2002,13 +1930,11 @@
         "idioma_original": "es",
         "categoria": "inteligencia_artificial",
         "categorias_secundarias": [
-          "vehiculos_energia",
-          "software_internet"
+          "vehiculos_energia"
         ],
         "category_scores": {
-          "inteligencia_artificial": 4,
-          "vehiculos_energia": 1,
-          "software_internet": 1
+          "inteligencia_artificial": 3,
+          "vehiculos_energia": 1
         },
         "entidades": [
           "OpenAI"
@@ -2030,9 +1956,9 @@
         "relevancia": 62,
         "confiabilidad_fuente": 53,
         "readability": {
-          "words": 65,
+          "words": 60,
           "sentences": 1,
-          "average_words_per_sentence": 65
+          "average_words_per_sentence": 60
         },
         "duplicate": {
           "detected": false,
@@ -2044,7 +1970,153 @@
       "final_score": 66.05
     },
     {
-      "id": "d25df0b50aa8ad76",
+      "id": "23b182ea2b3cc61b",
+      "fuente_id": "google_news_es",
+      "fuente_nombre": "Google News ES",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "google_news",
+      "nivel_fuente": "agregador",
+      "categoria": "tecnologia",
+      "idioma_original": "es",
+      "prioridad_fuente": 3,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "El Byd Dolphin Surf evoluciona con más tecnología y cinco plazas - castellonaldia.elmundo.es",
+      "titulo_original": "El Byd Dolphin Surf evoluciona con más tecnología y cinco plazas - castellonaldia.elmundo.es",
+      "enlace": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOb2lFRmV2ZkU5VmNfM0tUekNaSW5XeUZvWWQ0M0cyV2NicFBVUy1EdWMtRmZRNWN1ay0yc3RxTmZPYUdBNEZuejE0U1ZBeVltTy1CdXVWZzNiSUU1UjBHbmdlazVrUFNUZ21FSEoxTjZhQWJoeHg0MVRlY0h0aWU2QkYwZ0M4YURxZ0ZxalJXMFE3enJfRkJ5aGltTzNMTlpFVU5BN2NjbE43aGFwT2pWWnJoWnlJUQ?oc=5",
+      "fecha": "2026-09-28T09:08:00.000Z",
+      "resumen_corto": "El Byd Dolphin Surf evoluciona con más tecnología y cinco plazas castellonaldia.elmundo.es",
+      "resumen_largo": "El Byd Dolphin Surf evoluciona con más tecnología y cinco plazas castellonaldia.elmundo.es",
+      "texto_original": "El Byd Dolphin Surf evoluciona con más tecnología y cinco plazas castellonaldia.elmundo.es",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-09-29T14:52:41.377Z",
+        "index": 37,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "vehiculos_energia",
+        "categorias_secundarias": [
+          "tecnologia",
+          "inteligencia_artificial",
+          "baterias_energia"
+        ],
+        "category_scores": {
+          "vehiculos_energia": 2,
+          "tecnologia": 2,
+          "inteligencia_artificial": 1,
+          "baterias_energia": 1
+        },
+        "entidades": [
+          "BYD"
+        ],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 80,
+        "relevancia": 62,
+        "confiabilidad_fuente": 53,
+        "readability": {
+          "words": 55,
+          "sentences": 11,
+          "average_words_per_sentence": 5
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 66.05
+    },
+    {
+      "id": "a1df9a1a5f13e23a",
+      "fuente_id": "bbc_mundo",
+      "fuente_nombre": "BBC Mundo",
+      "tipo": "rss_web",
+      "subtipo": "medio_generalista",
+      "grupo_fuente": "bbc",
+      "nivel_fuente": "medio_profesional",
+      "categoria": "actualidad",
+      "idioma_original": "es",
+      "prioridad_fuente": 5,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "5 consejos de expertos para que los adolescentes cuiden su piel",
+      "titulo_original": "5 consejos de expertos para que los adolescentes cuiden su piel",
+      "enlace": "https://www.bbc.com/mundo/articles/c6p93ln4vl7yo?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-09-29T14:29:54.000Z",
+      "resumen_corto": "Muchos terminan dando más peso a los consejos de influencers en videos de \"Prepárate conmigo\" (GRWM, por sus siglas en inglés) que a las recomendaciones de profesionales de la salud.",
+      "resumen_largo": "Las redes sociales han impulsado entre los adolescentes la tendencia de perseguir una \"piel cristalina\" mediante rutinas cada vez más complejas. Muchos terminan dando más peso a los consejos de influencers en videos de \"Prepárate conmigo\" (GRWM, por sus siglas en inglés) que a las recomendaciones de profesionales de la salud. Pero, ¿realmente necesitan los jóvenes una rutina de cuidado de la piel con varios pasos?",
+      "texto_original": "Las redes sociales han impulsado entre los adolescentes la tendencia de perseguir una \"piel cristalina\" mediante rutinas cada vez más complejas. Muchos terminan dando más peso a los consejos de influencers en videos de \"Prepárate conmigo\" (GRWM, por sus siglas en inglés) que a las recomendaciones de profesionales de la salud. Pero, ¿realmente necesitan los jóvenes una rutina de cuidado de la piel con varios pasos? Para el dermatólogo británico Jonathan Kentley, una de las influencias más preocupantes de las redes sociales son las \"imágenes incesantes de estándares de belleza poco realistas\". \"Atiendo a miles de pacientes y nunca he visto a nadie con 'piel cristalina'. No creo que exista. Son esas imágenes excesivamente filtradas las que hacen que los jóvenes piensen que es posible lograrla, cuando no lo es\". Los poros visibles, las espinillas, las imperfecciones, la hiperpigmentación, el enrojecimiento y las cicatrices son muy comunes en la piel adolescente, afirma Kentley.",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-09-29T14:52:41.354Z",
+        "index": 1,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "inteligencia_artificial",
+        "categorias_secundarias": [
+          "semiconductores",
+          "moviles"
+        ],
+        "category_scores": {
+          "inteligencia_artificial": 1,
+          "semiconductores": 1,
+          "moviles": 1
+        },
+        "entidades": [],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 79,
+        "relevancia": 50,
+        "confiabilidad_fuente": 70,
+        "readability": {
+          "words": 208,
+          "sentences": 12,
+          "average_words_per_sentence": 17.33
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 65.15
+    },
+    {
+      "id": "b574e4310368ec26",
       "fuente_id": "wccftech_google",
       "fuente_nombre": "Wccftech",
       "tipo": "rss_web",
@@ -2056,105 +2128,256 @@
       "prioridad_fuente": 4,
       "analizar": true,
       "resumir": true,
-      "titulo": "Guía de ajuste y análisis del rendimiento de SILENT HILL Townfall PC: cómo obtener la mejor experiencia en PC",
-      "titulo_original": "SILENT HILL Townfall PC Performance Analysis & Tuning Guide – How To Get The Best Experience On PC - Wccftech",
-      "enlace": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOMG10NVRUd3AxNENIY0V3WmpRNEo0SUM5Sk9qS3U2dUlBeXN4VndJdkRpSm1NMHBWUkF5dE1WUkQya3czVXpnNHRRb0pVLTNUVHp3Z0pTbGcwRngxLWgzQ0ZFcUQ1ejNGUnNOQTlnZmJNbmtzZ3Nya3NmbTdUME12ZzRndVBmSXB1OHJEWUwzd2RiQXR0bGN1b3NDdWNPbW9ESG9PVXVPUkRDVnpxbF9OY0l6TzhqTmExbTF2Sl9BZzfSAcYBQVVfeXFMTm9LNnJtbGd4SWQ2bHhMa2xBUHFQUndNbzZFUkwxcjNqSGNYWFRrZ09HLW5UZlMtSmFxNmUyc0YtRktzeWJHdS1vOVRmSFJnVW5HRnQ2UHRITzJvNXNMY21xR19NY0x6MEpiM1o5M1RDYkNwMzlkM2NjTVg1MUhUY1Vyc1ppYjlNQjcxblVIaG1DbGRTWUo1a0hLb1UxWkRtTVBHbHA2U2xNZy1xVDJxbVhvYkpWdGdhWHlyVl85RXhMMm1fZmF3?oc=5",
-      "fecha": "2026-09-28T23:49:58.000Z",
-      "resumen_corto": "Guía de ajuste y análisis del rendimiento de SILENT HILL Townfall PC: cómo obtener la mejor experiencia en PC Wccftech",
-      "resumen_largo": "Guía de ajuste y análisis del rendimiento de SILENT HILL Townfall PC: cómo obtener la mejor experiencia en PC Wccftech",
-      "texto_original": "SILENT HILL Townfall PC Performance Analysis & Tuning Guide – How To Get The Best Experience On PC Wccftech",
+      "titulo": "Naughty Dog confirma dos nuevos proyectos de secuela de The Last of Us y retrasa la presentación de Full Intergalactic: The Heretic Prophet hasta 2027",
+      "titulo_original": "Naughty Dog Confirms Two New The Last of Us Sequel Projects, Delays Full Intergalactic: The Heretic Prophet Unveiling to 2027 - Wccftech",
+      "enlace": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOOWUtMTJSNjJRVGdpdjJQdlBlWkZueVZ3blZQbXg0OU5QMnBNWmdDdkZNbzVKNHRTUS1WU1lfLXFKd3h4RmFFSGx5REtGbHktT2ZscWxCaC1UaXNvUGpTcURSbmxVaGFPWWUyUzhCM0I4TVNfNjZxVHBEUzZTaFpfZnNfc2toTjR1dlN1cWZfQk5DQkl4R2Zidk5n0gGfAUFVX3lxTE9NNk9HbXNVUUk5SXJGbXVkM2tpQWVtX3BDMHpfWE54WXZKNWJYTjhRcVA4aWVMSl91WXdrOVVSdDdRcnowcVo3eURiOWJjSzlQcVh1QjcwWVIyekhlREJjMW51VW4zVlNhVXl6eWZFcmxFUEQ4T3k2WDY0MVNDdVhwUkRGU05VdnNxZVVTUmJ4MDV0T2NpdkNOR3FpRzVpMA?oc=5",
+      "fecha": "2026-09-29T08:00:00.000Z",
+      "resumen_corto": "Naughty Dog confirma dos nuevos proyectos de secuela de The Last of Us y retrasa la presentación de Full Intergalactic: The Heretic Prophet hasta 2027",
+      "resumen_largo": "Naughty Dog confirma dos nuevos proyectos de secuela de The Last of Us y retrasa la presentación de Full Intergalactic: The Heretic Prophet hasta 2027",
+      "texto_original": "Naughty Dog Confirms Two New The Last of Us Sequel Projects, Delays Full Intergalactic: The Heretic Prophet Unveiling to 2027 Wccftech",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-29T08:02:56.754Z",
+        "processed_at": "2026-09-29T14:52:41.373Z",
+        "index": 24,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "en",
+        "idioma_original": "en",
+        "categoria": "vehiculos_energia",
+        "categorias_secundarias": [
+          "tecnologia"
+        ],
+        "category_scores": {
+          "vehiculos_energia": 1,
+          "tecnologia": 1
+        },
+        "entidades": [
+          "Wccftech"
+        ],
+        "cifras_detectadas": [
+          "2027",
+          "2027 W"
+        ],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 87,
+        "relevancia": 55,
+        "confiabilidad_fuente": 50,
+        "readability": {
+          "words": 90,
+          "sentences": 1,
+          "average_words_per_sentence": 90
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 64.95
+    },
+    {
+      "id": "b36570dad50993de",
+      "fuente_id": "huawei_central",
+      "fuente_nombre": "Huawei Central",
+      "tipo": "rss_web",
+      "subtipo": "medio_especializado",
+      "grupo_fuente": "huawei",
+      "nivel_fuente": "secundaria_especializada",
+      "categoria": "moviles",
+      "idioma_original": "en",
+      "prioridad_fuente": 5,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Surgieron detalles de los chips Huawei Mate 90, Pro, Pro Max y RS Ultimate",
+      "titulo_original": "Huawei Mate 90, Pro, Pro Max, and RS Ultimate chip details surfaced",
+      "enlace": "https://www.huaweicentral.com/huawei-mate-90-pro-pro-max-and-rs-ultimate-chip-details-surfaced/",
+      "fecha": "2026-09-29T11:46:07.000Z",
+      "resumen_corto": "Antes de la presentación oficial de la serie Huawei Mate 90, una nueva filtración ha pasado página sobre el chip Kirin para cada modelo, incluidas las variantes Standard, Pro, Pro Max y RS Ultimate.",
+      "resumen_largo": "Antes de la presentación oficial de la serie Huawei Mate 90, una nueva filtración ha pasado página sobre el chip Kirin para cada modelo, incluidas las variantes Standard, Pro, Pro Max y RS Ultimate. Quizás esta vez estos detalles sean precisos. El informante de Weibo DigitalChatStation ha revelado que los Huawei Mate 90, Pro y […] The post Los detalles de los chips Huawei Mate 90, Pro, Pro Max y RS Ultimate aparecieron por primera vez en Huawei Central.",
+      "texto_original": "Ahead of the Huawei Mate 90 series official unveiling, a new leak has now turned the page on the Kirin chip for every model, including the Standard, Pro, Pro Max, and RS Ultimate variants. Perhaps this time, these details are accurate. Let’s check. Weibo tipster DigitalChatStation has revealed that the Huawei Mate 90, Pro and […] The post Huawei Mate 90, Pro, Pro Max, and RS Ultimate chip details surfaced appeared first on Huawei Central .",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-09-29T14:52:41.367Z",
+        "index": 16,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "en",
+        "categoria": "inteligencia_artificial",
+        "categorias_secundarias": [
+          "semiconductores",
+          "moviles",
+          "vehiculos_energia"
+        ],
+        "category_scores": {
+          "inteligencia_artificial": 2,
+          "semiconductores": 2,
+          "moviles": 2,
+          "vehiculos_energia": 1,
+          "software_internet": 1
+        },
+        "entidades": [
+          "Huawei"
+        ],
+        "cifras_detectadas": [],
+        "content_type": "report",
+        "clickbait": {
+          "detected": true,
+          "score": 50,
+          "signals": [
+            "\\brevelado\\b",
+            "\\brevealed\\b"
+          ]
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 79,
+        "relevancia": 71,
+        "confiabilidad_fuente": 75,
+        "readability": {
+          "words": 169,
+          "sentences": 8,
+          "average_words_per_sentence": 21.13
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 64.8
+    },
+    {
+      "id": "f74bca15df63219c",
+      "fuente_id": "xataka_google",
+      "fuente_nombre": "Xataka",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "xataka",
+      "nivel_fuente": "medio_especializado",
+      "categoria": "tecnologia",
+      "idioma_original": "es",
+      "prioridad_fuente": 4,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Esta fábrica de caramelos llegó a vender sus dulces al Congreso. Después de 175 años acaban de salvarla de su muerte",
+      "titulo_original": "Esta fábrica de caramelos llegó a vender sus dulces al Congreso. Después de 175 años acaban de salvarla de su muerte - Xataka",
+      "enlace": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPVm4wX01tT2N6U0JpZFh4NzdkRC1uMjRCSDBKb2lEaFlXNlJTR3lPU2dTWm5CejRfWkFuWDhiSGx1WWhEZjhscDZiUDZkZElKRGxJNENEczJ1UEZ2TnpGRERENTdoRVhXVVpYLUZiRkpqd25pMTdpaDYtWHRGbFZ4NjlQTnZsdVJkc1ByendyRHdnbkI1WldiUlBpX1VDS1BLdGUybVVMZGlyWTgtVzVqYmt1eF9EcUtvT2hoR3gwb0F0ci1KeENKQnF0Sjc5d9IB0wFBVV95cUxQN1dsY2RLcnVLcDJ1WnlEOXFGaU00c2d0RTRMQWtkM0hRcTN6X0p1RGdVeHIxTUREbVBfUHpBYmlWWE1MTHpSOHI4S1NKUFpNelZKeHBWcXNOYjVJNGQwcnZMajZXbUhueHd2bmFvNVowc09RS1Z0TUExbGxoSUxmVm5oTGdpSG5nZnlyd3RBZ3VzMDFobE1mSEJKSkc4QnUzVERZTnNGb2otYS1mZFlYN2JtVTF2QklEWlBlMnNJODd3aHZEQ0RFRWhJRzVha2I5R3lB?oc=5",
+      "fecha": "2026-09-29T12:30:26.000Z",
+      "resumen_corto": "Después de 175 años acaban de salvarla de su muerte Xataka",
+      "resumen_largo": "Esta fábrica de caramelos llegó a vender sus dulces al Congreso. Después de 175 años acaban de salvarla de su muerte Xataka",
+      "texto_original": "Esta fábrica de caramelos llegó a vender sus dulces al Congreso. Después de 175 años acaban de salvarla de su muerte Xataka",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-09-29T14:52:41.365Z",
+        "index": 14,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "semiconductores",
+        "categorias_secundarias": [
+          "hardware",
+          "vehiculos_energia"
+        ],
+        "category_scores": {
+          "semiconductores": 1,
+          "hardware": 1,
+          "vehiculos_energia": 1
+        },
+        "entidades": [
+          "Xataka"
+        ],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 82,
+        "relevancia": 55,
+        "confiabilidad_fuente": 50,
+        "readability": {
+          "words": 66,
+          "sentences": 5,
+          "average_words_per_sentence": 13.2
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 63.2
+    },
+    {
+      "id": "b1dd5efd67a341cc",
+      "fuente_id": "xataka_google",
+      "fuente_nombre": "Xataka",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "xataka",
+      "nivel_fuente": "medio_especializado",
+      "categoria": "tecnologia",
+      "idioma_original": "es",
+      "prioridad_fuente": 4,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Extremadura lleva 20 años pidiendo la autovía A-58 para conectar Cáceres y Badajoz. No hay ni un solo metro abierto al tráfico",
+      "titulo_original": "Extremadura lleva 20 años pidiendo la autovía A-58 para conectar Cáceres y Badajoz. No hay ni un solo metro abierto al tráfico - Xataka",
+      "enlace": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPWHhfTzA4UjNIQ3plMmtkdnFkbUoxbm9CSk1tdVZIMEd4Ymtpbklqd1Azdk9xLW1zUTFOOGtHVFl0MDUxVVZ3dmRBUnlXZ0J3UFVmNHlLWUh4akxoQnJSeXF1R1lpd0x4UDJ4TE5UMlMwWXpia09mWjJzNzhEaFJTVHlSV1UxSUxOdG5PdnA3VjBfMnlGakxmSXNGTGZxQ3VGVzhYV2dneHBTTGc1ZjRFZERUWEZjUGZjbUJUaU81cEVBd3JfVDNCZGRZNUFfemptc1RXTGkwY0VjY3dISndidtIB5gFBVV95cUxQNWNCV0RjdmVhUWNkMGFfc3Y3Y1U4X3NKa0xIX0ptMC05dHNsTVoxcTFnMk8zUS1JbGNQZmtKTTYwUUlrU09fd2FLSTNwb3F2akZhaWFYUWZNTW4xSXBzZWdPVFptXzZFbXVyQnFkNmdWdzNla0RFMTBwS0E5bTJ0SF9uYVBWVHk2amNiSnNxZERvbnJTMnUzeUFaT2YySUtEdUNfRmpxY3FKbTlOb1RXODBXX2lxbmYwTDdYVExQcXptSWlhUy05SlptZjhrLXlnMGdOSFRpMF9kZ3IzX2JVZ1kxSXRMZw?oc=5",
+      "fecha": "2026-09-29T10:00:27.000Z",
+      "resumen_corto": "Extremadura lleva 20 años pidiendo la autovía A-58 para conectar Cáceres y Badajoz.",
+      "resumen_largo": "Extremadura lleva 20 años pidiendo la autovía A-58 para conectar Cáceres y Badajoz. No hay ni un solo metro abierto al tráfico Xataka",
+      "texto_original": "Extremadura lleva 20 años pidiendo la autovía A-58 para conectar Cáceres y Badajoz. No hay ni un solo metro abierto al tráfico Xataka",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-09-29T14:52:41.369Z",
         "index": 19,
         "resumen": {
           "generado": true,
           "origen": "translated"
         },
         "idioma_detectado": "es",
-        "idioma_original": "en",
-        "categoria": "inteligencia_artificial",
-        "categorias_secundarias": [
-          "hardware",
-          "tecnologia"
-        ],
-        "category_scores": {
-          "inteligencia_artificial": 1,
-          "hardware": 1,
-          "tecnologia": 1
-        },
-        "entidades": [
-          "Wccftech"
-        ],
-        "cifras_detectadas": [],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 82,
-        "relevancia": 55,
-        "confiabilidad_fuente": 50,
-        "readability": {
-          "words": 64,
-          "sentences": 1,
-          "average_words_per_sentence": 64
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 63.2
-    },
-    {
-      "id": "7e64c14a35cbf636",
-      "fuente_id": "xataka_google",
-      "fuente_nombre": "Xataka",
-      "tipo": "rss_web",
-      "subtipo": "google_news",
-      "grupo_fuente": "xataka",
-      "nivel_fuente": "medio_especializado",
-      "categoria": "tecnologia",
-      "idioma_original": "es",
-      "prioridad_fuente": 4,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "Lleva 125 años encendida y ha sobrevivido a tres webcams. La historia de esta bombilla es una bofetada a la obsolescencia",
-      "titulo_original": "Lleva 125 años encendida y ha sobrevivido a tres webcams. La historia de esta bombilla es una bofetada a la obsolescencia - Xataka",
-      "enlace": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQY0ZGR2VvWU8xMG1maHB0LS1tUVVRc3hlQU0wWDZLM2Y0cFh0ODJua2ROV2JEbl8waFN2YTJRbGdoZGdfNmxfMG0zRmppOGJKWjVWN3M1TVdVajFzWFpQeDNjcENzc2xYc0tkZzNmZ2NITFNJZC1VdHNrYUVvcWl4NE5RSElnTXdjSEFtZGZSWkx5cDJQVm80VjZHZWRic1otb2ZPVXhQSV9MZ0F0SzhNQ0NPT2lYbXQxX1pFTWtCbUhFR2RyNHRveEU3N1Q1c2MtR3FST1pR0gHbAUFVX3lxTE4zcEh2d3AxZzRPRloyRjBhODVVVUdfaGxsT29MMUJlSmk5THNXT1pjXzRtVllqMVIyN05VVjVwVFV3TWxWRDRMUUs4TUVBdFZEZC1lam8zMDlkMWNHZFNMa0xTX1p1cnd6WnNDdzhfcEdaNFhhWmp4TG5yREZkS0JqWkxKU2RWMkdTYU5yRk1BQjlNTFZRTDBFZk1MM0NXalI1WWNlU0VWVDRpUjRLLUxDbmdJa09YOVVHZ01xQktOYm9rNmFnZ2NWWVVrYVBiV19STkZ6bE1aYXcyZw?oc=5",
-      "fecha": "2026-09-28T18:30:27.000Z",
-      "resumen_corto": "Lleva 125 años encendida y ha sobrevivido a tres webcams.",
-      "resumen_largo": "Lleva 125 años encendida y ha sobrevivido a tres webcams. La historia de esta bombilla es una bofetada a la obsolescencia Xataka",
-      "texto_original": "Lleva 125 años encendida y ha sobrevivido a tres webcams. La historia de esta bombilla es una bofetada a la obsolescencia Xataka",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-09-29T08:02:56.758Z",
-        "index": 24,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
         "idioma_original": "es",
-        "categoria": "inteligencia_artificial",
+        "categoria": "vehiculos_energia",
         "categorias_secundarias": [
-          "vehiculos_energia",
-          "software_internet"
+          "inteligencia_artificial"
         ],
         "category_scores": {
-          "inteligencia_artificial": 1,
-          "vehiculos_energia": 1,
-          "software_internet": 1
+          "vehiculos_energia": 2,
+          "inteligencia_artificial": 1
         },
         "entidades": [
           "Xataka"
@@ -2176,9 +2399,9 @@
         "relevancia": 55,
         "confiabilidad_fuente": 50,
         "readability": {
-          "words": 62,
+          "words": 68,
           "sentences": 6,
-          "average_words_per_sentence": 10.33
+          "average_words_per_sentence": 11.33
         },
         "duplicate": {
           "detected": false,
@@ -2188,224 +2411,6 @@
         }
       },
       "final_score": 63.2
-    },
-    {
-      "id": "3b364b04867fc716",
-      "fuente_id": "xataka_google",
-      "fuente_nombre": "Xataka",
-      "tipo": "rss_web",
-      "subtipo": "google_news",
-      "grupo_fuente": "xataka",
-      "nivel_fuente": "medio_especializado",
-      "categoria": "tecnologia",
-      "idioma_original": "es",
-      "prioridad_fuente": 4,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "El Gobierno cambia las normas el 1 de octubre: multa de 200 euros por no dejar un carril de emergencia en los atascos",
-      "titulo_original": "El Gobierno cambia las normas el 1 de octubre: multa de 200 euros por no dejar un carril de emergencia en los atascos - Xataka",
-      "enlace": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNcVJ6M0RNZDVqbzVwMl9UbEpGcWxnTG93T1B3UGpWNTducWJWbTU5YllERnNpQXFYMUZxb0xvVTJaZW1RSDZFNG83TXN1ZlI4ekNtU2lkQVk5RUhRMDNKdlZUMzVSWUwwLTU3cDVxZDZCanNfZENGOGEzUUM2WnhTZXZaYmVrektBR09jYlE4NlVpcWFKb21WOHJHNUhjNE9BSXlqUdIBqgFBVV95cUxQd2YyZ0JiX1dEc1h0d3dPSWREOXU3emdMSmVPV0VYemt5VTMtNW5BYjl0bmRwSWRLaHpjNVZzM0QtdnNFMC1sUVFzOTlhSXBXbklGYzZzWXJuVlhxUlZnUkJnODBBSEZQOEVRNFRSUy1FX0hjbFYtN3p2NEdmc2pyaXFiNkxRdi1Nck1pTkZ5VUxzTjlZMkZBWS13YW1Tcm9sZXhweGttM1VYQQ?oc=5",
-      "fecha": "2026-09-28T17:32:27.000Z",
-      "resumen_corto": "El Gobierno cambia las normas el 1 de octubre: multa de 200 euros por no dejar un carril de emergencia en los atascos Xataka",
-      "resumen_largo": "El Gobierno cambia las normas el 1 de octubre: multa de 200 euros por no dejar un carril de emergencia en los atascos Xataka",
-      "texto_original": "El Gobierno cambia las normas el 1 de octubre: multa de 200 euros por no dejar un carril de emergencia en los atascos Xataka",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-09-29T08:02:56.758Z",
-        "index": 26,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "es",
-        "categoria": "inteligencia_artificial",
-        "categorias_secundarias": [
-          "vehiculos_energia",
-          "actualidad"
-        ],
-        "category_scores": {
-          "inteligencia_artificial": 1,
-          "vehiculos_energia": 1,
-          "actualidad": 1
-        },
-        "entidades": [
-          "Xataka"
-        ],
-        "cifras_detectadas": [],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 82,
-        "relevancia": 55,
-        "confiabilidad_fuente": 50,
-        "readability": {
-          "words": 74,
-          "sentences": 1,
-          "average_words_per_sentence": 74
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 63.2
-    },
-    {
-      "id": "0d543e72e8d1bfb8",
-      "fuente_id": "xataka_google",
-      "fuente_nombre": "Xataka",
-      "tipo": "rss_web",
-      "subtipo": "google_news",
-      "grupo_fuente": "xataka",
-      "nivel_fuente": "medio_especializado",
-      "categoria": "tecnologia",
-      "idioma_original": "es",
-      "prioridad_fuente": 4,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "Buscaba un teclado compacto, versátil y sin RGB para trabajar. Compré este Keychron y desde entonces es el que siempre recomiendo",
-      "titulo_original": "Buscaba un teclado compacto, versátil y sin RGB para trabajar. Compré este Keychron y desde entonces es el que siempre recomiendo - Xataka",
-      "enlace": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPNW1QbHQwWjV5Y2E1WDNHY1pRYlp0dTJZV1NCRW9mV2dfaGZZZENGaW1fdzc3XzlyUmdJNi1uNXdWTEZUT1dpUTRIZFJmTWFLQU5fMk84RWpVRmlnNGhvZi1lc0wtUVJ2bEh2R0VrODJpREtJcmx3Y0I5QUJZMnhjZ2FhZHpZem8wajlzRkVRS1hNN0diSWM3YVhmVEdOTVpVLTh6RWNCUUIxbjcyc0l2U1I4T0dVZEUxN2ZQZVNtSVBzaDd6RkM4VmlKbFMxMFpyX2FV0gHYAUFVX3lxTE1OeVh0RHFTUEV6OEVCVlE5S3B5S3M5blhHSS1EX0hkbUc2MUVFUGlqMGRQREYwWTlVYmc4RHlaOGkxM1Q5WGJnQWxQWHktSG44NExUZ0QwYnM2SWxyd1ZIVkttaVREQ1NMY1o4NVNfMGp2WkltSEZ2ZDNVVFU3cGVPOENjOGhRR3g2Tjg3eDEwUGExSndOSWtXRmdDd05hOFdzbkNRSHBtVHhlaDNuM01wLU83R2lDdnVoQjUwUWxtalJzX1JwQ0tpQmJwRW9XUHloU0RIMXBmRQ?oc=5",
-      "fecha": "2026-09-28T16:46:26.000Z",
-      "resumen_corto": "Compré este Keychron y desde entonces es el que siempre recomiendo Xataka",
-      "resumen_largo": "Buscaba un teclado compacto, versátil y sin RGB para trabajar. Compré este Keychron y desde entonces es el que siempre recomiendo Xataka",
-      "texto_original": "Buscaba un teclado compacto, versátil y sin RGB para trabajar. Compré este Keychron y desde entonces es el que siempre recomiendo Xataka",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-09-29T08:02:56.760Z",
-        "index": 28,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "es",
-        "categoria": "hardware",
-        "categorias_secundarias": [],
-        "category_scores": {
-          "hardware": 1
-        },
-        "entidades": [
-          "Xataka"
-        ],
-        "cifras_detectadas": [],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 82,
-        "relevancia": 55,
-        "confiabilidad_fuente": 50,
-        "readability": {
-          "words": 76,
-          "sentences": 5,
-          "average_words_per_sentence": 15.2
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 63.2
-    },
-    {
-      "id": "7e76a2af91831de0",
-      "fuente_id": "wccftech_google",
-      "fuente_nombre": "Wccftech",
-      "tipo": "rss_web",
-      "subtipo": "google_news",
-      "grupo_fuente": "wccftech",
-      "nivel_fuente": "medio_especializado",
-      "categoria": "hardware",
-      "idioma_original": "en",
-      "prioridad_fuente": 4,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "Jensen Huang mata dos pájaros de un tiro: las nuevas barreras de seguridad para agentes de IA de NVIDIA contrarrestan hábilmente los llamados a acelerar el desarrollo de la IA, al tiempo que aumentan la demanda de sus pr",
-      "titulo_original": "Jensen Huang Kills Two Birds With One Stone: NVIDIA’s New AI Agent Guardrails Craftily Counter The Calls For Pacing AI Development, While Increasing The Demand For Its Own Products - Wccftech",
-      "enlace": "https://news.google.com/rss/articles/CBMipgJBVV95cUxOaUtmeUVFTlI5R1c0dFFmZTdaX2lIMlBtYjNZRnRUUHBMb09INXBkckhvVFA2cXFhS2lCNjRuNkctMVR1NnNmUC1WZVZOa1BOX3N3b2VzUDdfd3VlMUp1N1dyWHZiQ3Z3NlVmT0FnQk0tUDdIc2NveE1VV3htd25xS0oyajZxRWpUNjROcTVUYi1DQWF6S0xDM2NXNXNxY19DSkExWlVUeW85clhyM2VjQ2d2TXJqOUpQS1p3VHY3ZDlONU9ZUXE1SWN0V1ZtOXhQZGNCZTFHbGZyR2VMb21nN1BwX0ZCU2E4MWRrcFZ4dlpEcWJPSFhfaEIzWUJBMGgxSEt4RlNKUXc0RGNEU3psYmpzb2RfLWc5eUEybXZHaVpkSWpDaHfSAasCQVVfeXFMT0s5OTNwa1M5SzJvendZc2hsbjVtMWdlQlFQTENYaU5xMVZINlNPUnJJX0FoYnJKRlJXcGg2ajRWeUxkMTVrc2hibWtHVkhvdW1Pd0xpMHlwaUV2STVxa2JtWWcyM2V6M0ZZT1FyelZUT3Q1Umh0YzhWZkVYZmJmUnUydmlrOW5CZzJ6dDByOHlNZ3JIbWxueUlDTk9fZmpxWVEtU3c1dXJrZGxSQ2xwcGdPb3ZGM3g0NHFPQlFkRmpuOUJJSERZUlNqV0FMMEpDa3pzQzYxamd4U1dDcnM3dEFEWmRkREVEMV9Fa3RLRkNxT09WSDFTUjVyb1Q0eHNHN0V2RjVwd1FjQjRTRVRYSkZOS2xlWU5aYS1Hd0QwcndCOXo0QXBsRTlFMmM?oc=5",
-      "fecha": "2026-09-28T17:24:42.000Z",
-      "resumen_corto": "Jensen Huang mata dos pájaros de un tiro: las nuevas barreras de seguridad para agentes de IA de NVIDIA contrarrestan hábilmente los llamados a acelerar el desarrollo de la IA, al tiempo que aumentan la demanda de sus propios productos Wccftech",
-      "resumen_largo": "Jensen Huang mata dos pájaros de un tiro: las nuevas barreras de seguridad para agentes de IA de NVIDIA contrarrestan hábilmente los llamados a acelerar el desarrollo de la IA, al tiempo que aumentan la demanda de sus propios productos Wccftech",
-      "texto_original": "Jensen Huang Kills Two Birds With One Stone: NVIDIA’s New AI Agent Guardrails Craftily Counter The Calls For Pacing AI Development, While Increasing The Demand For Its Own Products Wccftech",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-09-29T08:02:56.759Z",
-        "index": 27,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "en",
-        "categoria": "inteligencia_artificial",
-        "categorias_secundarias": [
-          "moviles",
-          "vehiculos_energia",
-          "software_internet"
-        ],
-        "category_scores": {
-          "inteligencia_artificial": 2,
-          "moviles": 1,
-          "vehiculos_energia": 1,
-          "software_internet": 1,
-          "tecnologia": 1
-        },
-        "entidades": [
-          "NVIDIA",
-          "Wccftech"
-        ],
-        "cifras_detectadas": [],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 67,
-        "relevancia": 67,
-        "confiabilidad_fuente": 50,
-        "readability": {
-          "words": 134,
-          "sentences": 1,
-          "average_words_per_sentence": 134
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 62.75
     },
     {
       "id": "e76bb4ead217e688",
@@ -2429,8 +2434,8 @@
       "texto_original": "A 120B LLM Without At Least 60GB RAM Is Impossible To Run, But One Individual Defied All Odds By Combining A Phone, Three Macs And Two Windows PCs To Make it Work Wccftech",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-29T08:02:56.763Z",
-        "index": 33,
+        "processed_at": "2026-09-29T14:52:41.377Z",
+        "index": 35,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -2489,143 +2494,6 @@
       "final_score": 62.5
     },
     {
-      "id": "1e55e499b509fba4",
-      "fuente_id": "ia_dia",
-      "fuente_nombre": "IA al Día",
-      "tipo": "rss_web",
-      "subtipo": "google_news",
-      "grupo_fuente": "ia_general",
-      "nivel_fuente": "agregador",
-      "categoria": "inteligencia_artificial",
-      "idioma_original": "es",
-      "prioridad_fuente": 3,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "El 'affaire Orélien' reabre el debate sobre la inteligencia artificial en la literatura francesa - El Periódico",
-      "titulo_original": "El 'affaire Orélien' reabre el debate sobre la inteligencia artificial en la literatura francesa - El Periódico",
-      "enlace": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQZERONmlwQWtjRlpqSWF6V3EyYkVPczJzajFIVzA2OXVxQ0pmUmZoNGVzNnNiQU5UMF9ac3NvckpYbmtnOWdPaVpTRHNPa0ZfLXVmU25kU0R5c0ZsNS1ZTjY0WmRGM2ZfWFhSRG5CMGFBeU1qc0RxMTJTLS15UXJVeUpQVjVVYW9aTFgzOE9iRTJmZkpPMFFJRGczMGpCUHFDSFJiTm9LQWNmWUHSAasBQVVfeXFMTVJwRnNPd2IzUDVEeFdZQXBkSjVZNGNTSTNKZHVNNm5Hd0w3REFuS3VvbkRjMWpGcEJWR0pIOU0xTmhZRFM0d19sMlZfdkR5TkJCeXRybWxZSTY5eEdLbEJ1Z0lzN3hRbTBpaEtpaHpWNTNuWURXWFVJbUwwdjFwcF9hQUpabURXRGtZSUFjMTdyd0JvOVY0VjFQSWY0dHZ4ME1mcVIwalhaUGp3?oc=5",
-      "fecha": "2026-09-29T04:01:00.000Z",
-      "resumen_corto": "El 'affaire Orélien' reabre el debate sobre la inteligencia artificial en la literatura francesa El Periódico",
-      "resumen_largo": "El 'affaire Orélien' reabre el debate sobre la inteligencia artificial en la literatura francesa El Periódico",
-      "texto_original": "El 'affaire Orélien' reabre el debate sobre la inteligencia artificial en la literatura francesa El Periódico",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-09-29T08:02:56.748Z",
-        "index": 12,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "es",
-        "categoria": "inteligencia_artificial",
-        "categorias_secundarias": [],
-        "category_scores": {
-          "inteligencia_artificial": 4
-        },
-        "entidades": [],
-        "cifras_detectadas": [],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 75,
-        "relevancia": 57,
-        "confiabilidad_fuente": 53,
-        "readability": {
-          "words": 50,
-          "sentences": 1,
-          "average_words_per_sentence": 50
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 62.3
-    },
-    {
-      "id": "2d7457bb3271c8e0",
-      "fuente_id": "google_news_es",
-      "fuente_nombre": "Google News ES",
-      "tipo": "rss_web",
-      "subtipo": "google_news",
-      "grupo_fuente": "google_news",
-      "nivel_fuente": "agregador",
-      "categoria": "tecnologia",
-      "idioma_original": "es",
-      "prioridad_fuente": 3,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "Nissan Ariya: tecnología japonesa entre Madrid y Pamplona - Coches.net",
-      "titulo_original": "Nissan Ariya: tecnología japonesa entre Madrid y Pamplona - Coches.net",
-      "enlace": "https://news.google.com/rss/articles/CBMikgFBVV95cUxObldMWXp6QWFKWndaUDNTZnhMaGtUQ2hLSmRPM1pZMkgtUXplME0yNExZanljdWJVU05fazcwR0lmM3cyMlc1dkZrQm9qdlUxQ0xfVFprZEhrUGh2MWdlUlhYNTk3eGwzU3dvaU1HQVgzTWctR2FuMXEyN29GZjZ6TEJLRHVxYVl3ejRvVTJyVXZWUQ?oc=5",
-      "fecha": "2026-09-28T10:47:36.000Z",
-      "resumen_corto": "Nissan Ariya: tecnología japonesa entre Madrid y Pamplona Coches.net",
-      "resumen_largo": "Nissan Ariya: tecnología japonesa entre Madrid y Pamplona Coches.net",
-      "texto_original": "Nissan Ariya: tecnología japonesa entre Madrid y Pamplona Coches.net",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-09-29T08:02:56.765Z",
-        "index": 35,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "es",
-        "categoria": "vehiculos_energia",
-        "categorias_secundarias": [
-          "tecnologia",
-          "inteligencia_artificial"
-        ],
-        "category_scores": {
-          "vehiculos_energia": 2,
-          "tecnologia": 2,
-          "inteligencia_artificial": 1
-        },
-        "entidades": [],
-        "cifras_detectadas": [],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 75,
-        "relevancia": 57,
-        "confiabilidad_fuente": 53,
-        "readability": {
-          "words": 45,
-          "sentences": 6,
-          "average_words_per_sentence": 7.5
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 62.3
-    },
-    {
       "id": "e77e2d7705072a2f",
       "fuente_id": "ia_dia",
       "fuente_nombre": "IA al Día",
@@ -2647,7 +2515,7 @@
       "texto_original": "Inteligencia artificial, pan y circo EL PAÍS",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-29T08:02:56.767Z",
+        "processed_at": "2026-09-29T14:52:41.378Z",
         "index": 39,
         "resumen": {
           "generado": true,
@@ -2692,7 +2560,142 @@
       "final_score": 62.3
     },
     {
-      "id": "d8251905c9edeaa8",
+      "id": "ec710347505802fa",
+      "fuente_id": "ia_dia",
+      "fuente_nombre": "IA al Día",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "ia_general",
+      "nivel_fuente": "agregador",
+      "categoria": "inteligencia_artificial",
+      "idioma_original": "es",
+      "prioridad_fuente": 3,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "El cártel del miedo y cómo Pedro Sánchez compró el pánico de la inteligencia artificial - El Salto",
+      "titulo_original": "El cártel del miedo y cómo Pedro Sánchez compró el pánico de la inteligencia artificial - El Salto",
+      "enlace": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQLUtZYWNxSjRqWC1pb2U3TnU5T1hPZ01QT3RvWEljYmNEOWs5ZVpJSEY0dUtzSHF6ajh6dFRWRmR3M1lsdVhjeWEwNTd5OGZuRVl4UHFXN0IwQVNGR1oteDBLeGRSVHQ2cUxtNHdyZEVFTzhNSmNNdXZ3QVBXbVR3ZHhQMkVHY1d2UTBqbHExNEFaZTN5UmxpaVpTaS1UWlNqOTFZakVKRXB1d3JlbGJxQmhjZTBFX3ZSNFIyaXFEUQ?oc=5",
+      "fecha": "2026-09-27T04:00:00.000Z",
+      "resumen_corto": "El cártel del miedo y cómo Pedro Sánchez compró el pánico de la inteligencia artificial El Salto",
+      "resumen_largo": "El cártel del miedo y cómo Pedro Sánchez compró el pánico de la inteligencia artificial El Salto",
+      "texto_original": "El cártel del miedo y cómo Pedro Sánchez compró el pánico de la inteligencia artificial El Salto",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-09-29T14:52:41.378Z",
+        "index": 40,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "inteligencia_artificial",
+        "categorias_secundarias": [
+          "vehiculos_energia"
+        ],
+        "category_scores": {
+          "inteligencia_artificial": 3,
+          "vehiculos_energia": 1
+        },
+        "entidades": [],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 75,
+        "relevancia": 57,
+        "confiabilidad_fuente": 53,
+        "readability": {
+          "words": 55,
+          "sentences": 1,
+          "average_words_per_sentence": 55
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 62.3
+    },
+    {
+      "id": "619f096f6498bb87",
+      "fuente_id": "xataka_google",
+      "fuente_nombre": "Xataka",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "xataka",
+      "nivel_fuente": "medio_especializado",
+      "categoria": "tecnologia",
+      "idioma_original": "es",
+      "prioridad_fuente": 4,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Hay un lugar en España donde no hay crisis de vivienda: alquileres a 20 euros en Marinaleda",
+      "titulo_original": "Hay un lugar en España donde no hay crisis de vivienda: alquileres a 20 euros en Marinaleda - Xataka",
+      "enlace": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNcEJ1ZHg0cFU4c19JV0lDeFl1cXV4SER5cjNwbGprNWhrcmltb0VZc09JQXg4MllXN0VfVXZKSGMyUUJyX0Q3eTdVeE9xaWFaTXJrM3kzb2FpV0VxcFRMSVdEc1FjMnRrYUEzSDhGN0FaNE5mUFFFcG5DTkhtV2V4MmNWelBtOEZHVmFkQ0FJeE9Calh2bGt4X0RUcldQSmt1WTFmaE01MGswaVlC0gGyAUFVX3lxTE9KUXRreFVzSWczTXhBSER5UWUtR1Utcmp4OXVHY1BYZ2JfQWFqX1M0aGtjQ0lacVF3a0xJRFZLelpaa3JFUlBpVHljTkVZYmQtQXE3NHdJZVRwV2M0Sm9aT3JhMnlxUFhkSVJOWHRvaGEycV8zNEJNUWJMcVZjczAwZ1k1NHlCanZaaXNUajdkYllXYmpnWUFaVXc2YkEwRGVLVDhENXRnaTJ5SW5IQlJFbmc?oc=5",
+      "fecha": "2026-09-29T11:00:28.000Z",
+      "resumen_corto": "Hay un lugar en España donde no hay crisis de vivienda: alquileres a 20 euros en Marinaleda Xataka",
+      "resumen_largo": "Hay un lugar en España donde no hay crisis de vivienda: alquileres a 20 euros en Marinaleda Xataka",
+      "texto_original": "Hay un lugar en España donde no hay crisis de vivienda: alquileres a 20 euros en Marinaleda Xataka",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-09-29T14:52:41.369Z",
+        "index": 18,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "tecnologia",
+        "categorias_secundarias": [],
+        "category_scores": {},
+        "entidades": [
+          "Xataka"
+        ],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 82,
+        "relevancia": 50,
+        "confiabilidad_fuente": 50,
+        "readability": {
+          "words": 54,
+          "sentences": 1,
+          "average_words_per_sentence": 54
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 61.2
+    },
+    {
+      "id": "881456df86f185b0",
       "fuente_id": "google_news_es",
       "fuente_nombre": "Google News ES",
       "tipo": "rss_web",
@@ -2704,17 +2707,17 @@
       "prioridad_fuente": 3,
       "analizar": true,
       "resumir": true,
-      "titulo": "Telefónica planea reorganizar su estructura en tres grandes divisiones de consumo, empresas y tecnología - Cinco Días",
-      "titulo_original": "Telefónica planea reorganizar su estructura en tres grandes divisiones de consumo, empresas y tecnología - Cinco Días",
-      "enlace": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNd0o2blNTZ0VzY2lFY1VIVXZEV2NWdldkRUhHWGFScEpVMGFnRlpzSG9IU3lSeTlPZWgwbjFQX2pzdGlNUktMX09QeFRaMWZtN2JINmVteTN5SkZ3S0tPWC11Rm9FN2Q5N2FmdktvLUNVbkp0cm9CRmE4TTJVTXlXQVhVa0VwNFVJclNnT0R6WHZiMkpJRVJqSG1HdmVZTWhycGNPT1pmY0hLY0xpSXBJZmdEcjhQVzc2eTMza09HOXhYemFSVU1oSjVtTUR5eWtSV1N6N1ZsMnNGQm5keG8ydC1nMi05X2dyMXhrYjNTONIBgwJBVV95cUxOY1doN00xTU5oOG5Oak5KaXlNNWxhSEJhZGZjdFVBTHJNZjFHNVdNbXpBeHpKa1pGWFozZHBhaFNNZjd4aENzVUpuMFNQRGMyd0d3WDY5LV9Ma2NPVjZXeWhRaC1HNXladFNxMW1sTkVIbUNqMkxXc2Q5Q2REMklZRmctRDIwT29aeG9OcUJFeGpLSXNLOFc2WjdjWFU4SWdBWWV4ZG9RemFWd2xVc0hPOW5uWU9YRFdiU1hadWZHUUJFbDhsQzZfM05YNGItOEx5Z3FSRktZUzlOYmpmWGFxOGVULUlYLUlSY2J4bVRKRnhnLUc0UVhWWDl4VFdVZWRKN3Zz?oc=5",
-      "fecha": "2026-09-29T07:41:21.000Z",
-      "resumen_corto": "Telefónica planea reorganizar su estructura en tres grandes divisiones de consumo, empresas y tecnología Cinco Días",
-      "resumen_largo": "Telefónica planea reorganizar su estructura en tres grandes divisiones de consumo, empresas y tecnología Cinco Días",
-      "texto_original": "Telefónica planea reorganizar su estructura en tres grandes divisiones de consumo, empresas y tecnología Cinco Días",
+      "titulo": "GWM Ora 5: Confort y tecnología asequible - El Periódico",
+      "titulo_original": "GWM Ora 5: Confort y tecnología asequible - El Periódico",
+      "enlace": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOTGp6RkltbEdOLXpNMFlpclZLNWZVVWhZQXdMc2h6N1VZWU1sV25rUWdjZDdNRzFHdHdZYjZlTHVKb09Ydm4zTU9IbUxwT21yODdIUnJneDRDX0M0UUh6WVEwZDZtVFpnd0xVVHlIeHFBcm1KVzVmM2JPVmE4SlJoTm9yQjFzeFU5enRfdkpZZElRSW1udzdHRHFB0gGaAUFVX3lxTFBlSXZMSERvZ0R6ellZN3VkODY4QlZoX0U3U0V6ZGMzTERjNEVyNUVqVGlCdmN0eDRPU25WdmNJcXlqNFFXUl8tZnRDZ0lxR3ZwSGJjaDBJX3lybjFLUEUzUE9pelVIbGFGakwwVGU3Rm02VUVMM09zZGJZV1M4cDFJek5xT21NTXR2WUNVNUM1Z1Z2RF9HRjdNQnc?oc=5",
+      "fecha": "2026-09-29T14:35:14.000Z",
+      "resumen_corto": "GWM Ora 5: Confort y tecnología asequible El Periódico",
+      "resumen_largo": "GWM Ora 5: Confort y tecnología asequible El Periódico",
+      "texto_original": "GWM Ora 5: Confort y tecnología asequible El Periódico",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-29T08:02:56.740Z",
-        "index": 1,
+        "processed_at": "2026-09-29T14:52:41.350Z",
+        "index": 0,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -2747,9 +2750,141 @@
         "relevancia": 50,
         "confiabilidad_fuente": 53,
         "readability": {
-          "words": 60,
+          "words": 30,
           "sentences": 1,
-          "average_words_per_sentence": 60
+          "average_words_per_sentence": 30
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 59.5
+    },
+    {
+      "id": "9f129116b60b311a",
+      "fuente_id": "ia_dia",
+      "fuente_nombre": "IA al Día",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "ia_general",
+      "nivel_fuente": "agregador",
+      "categoria": "inteligencia_artificial",
+      "idioma_original": "es",
+      "prioridad_fuente": 3,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Anthropic advirtió que su propia IA podría representar un riesgo existencial para la humanidad - Infobae",
+      "titulo_original": "Anthropic advirtió que su propia IA podría representar un riesgo existencial para la humanidad - Infobae",
+      "enlace": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxObTU3bWJwXy1ZNVBlNmQzdlpUZTJDOURURTRkVWVLSzBmN0JJN09UZ3g5WlhkdEZSZkxzcHA2TUxFSTNSVlJtWXdoSERmS2hoRkdrZWEtbGlUc1BpMWFDZ01Ec1RWaWh6dnRiaUxGUm1nTkdSUHB2UTJoc1ljbURZQ1dBSzNmUlJNZTZVay11azdVODBKcktIRUpVenI1Z2VGRGxOcXZpbWt4N3RzR2dBbDNoVktKRHFyczBVU3ZJMjNlLUtFQ1NhVERaUk5tR24yVHfSAewBQVVfeXFMTnREQ05kV0JFNmZjR3g3dGFxTXd4cFFDbzd4eFlyd241ZXhuMDJ6eG9zdHlEM1Jkc2ZHRXhEeWZGX2tiVkUtLXNKakJpYXUzdDJhZTIzaHpXck9KM0s0T3FNWW56ZjkxVjlieUJSc1lhWlhERXA4S0ZjWWROaVNNeW4yc3NmSC1FR1g4cDJHVU1pd3Via01kOWo1UnJFakFmV2NoUnhsOXRKb1dPNGl1WHBzOUdxVnRsdDhGekpKT0RuSE1YRmVILTVXTWpxdUFYRVJVZWNERWhxblNXREtraFJwenptRlk1MUE2ZGI?oc=5",
+      "fecha": "2026-09-29T13:58:01.000Z",
+      "resumen_corto": "Anthropic advirtió que su propia IA podría representar un riesgo existencial para la humanidad Infobae",
+      "resumen_largo": "Anthropic advirtió que su propia IA podría representar un riesgo existencial para la humanidad Infobae",
+      "texto_original": "Anthropic advirtió que su propia IA podría representar un riesgo existencial para la humanidad Infobae",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-09-29T14:52:41.355Z",
+        "index": 3,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "inteligencia_artificial",
+        "categorias_secundarias": [],
+        "category_scores": {
+          "inteligencia_artificial": 2
+        },
+        "entidades": [],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 75,
+        "relevancia": 50,
+        "confiabilidad_fuente": 53,
+        "readability": {
+          "words": 55,
+          "sentences": 1,
+          "average_words_per_sentence": 55
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 59.5
+    },
+    {
+      "id": "a7e87fd36686256c",
+      "fuente_id": "ia_dia",
+      "fuente_nombre": "IA al Día",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "ia_general",
+      "nivel_fuente": "agregador",
+      "categoria": "inteligencia_artificial",
+      "idioma_original": "es",
+      "prioridad_fuente": 3,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Anthropic alerta a inversores de posibles \"riesgos existenciales para la humanidad\" de su IA - El Confidencial",
+      "titulo_original": "Anthropic alerta a inversores de posibles \"riesgos existenciales para la humanidad\" de su IA - El Confidencial",
+      "enlace": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOUW5fOTZLbXlvZE5YQWE1ZUloWTJlOERRS2RVc3RpYkcxX0lKaEVqTEMtU29ITTFUay1FVHZ4Ui1YYVdwSFFLQVhtSlBTekU4SVpiSlptaWhSaTZNbEhrUGFzVlU5cFFqN2FzTmoxbWJrTFV0VDVVWG4tWmJzNkg1SDFVb0lNZE5JLXpGZG9iOTdGQTZsRUlYa21iM0FGRGdnVzQ3T3pMYjJZOUtvcWpvTmdIemFZekhJNWU4Zjg2WDhLajBlOXoybm5B?oc=5",
+      "fecha": "2026-09-29T08:20:00.000Z",
+      "resumen_corto": "Anthropic alerta a inversores de posibles \"riesgos existenciales para la humanidad\" de su IA El Confidencial",
+      "resumen_largo": "Anthropic alerta a inversores de posibles \"riesgos existenciales para la humanidad\" de su IA El Confidencial",
+      "texto_original": "Anthropic alerta a inversores de posibles \"riesgos existenciales para la humanidad\" de su IA El Confidencial",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-09-29T14:52:41.373Z",
+        "index": 23,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "inteligencia_artificial",
+        "categorias_secundarias": [],
+        "category_scores": {
+          "inteligencia_artificial": 2
+        },
+        "entidades": [],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 75,
+        "relevancia": 50,
+        "confiabilidad_fuente": 53,
+        "readability": {
+          "words": 45,
+          "sentences": 1,
+          "average_words_per_sentence": 45
         },
         "duplicate": {
           "detected": false,
@@ -2782,8 +2917,8 @@
       "texto_original": "Telefónica ultima una reorganización histórica en torno a tres grandes áreas: consumo, empresas y tecnología El Economista",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-29T08:02:56.749Z",
-        "index": 13,
+        "processed_at": "2026-09-29T14:52:41.374Z",
+        "index": 28,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -2830,73 +2965,7 @@
       "final_score": 59.5
     },
     {
-      "id": "9da477a42285a6dc",
-      "fuente_id": "ia_dia",
-      "fuente_nombre": "IA al Día",
-      "tipo": "rss_web",
-      "subtipo": "google_news",
-      "grupo_fuente": "ia_general",
-      "nivel_fuente": "agregador",
-      "categoria": "inteligencia_artificial",
-      "idioma_original": "es",
-      "prioridad_fuente": 3,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "Cincuenta jóvenes entrenarán robots con inteligencia artificial en Vitoria - El Correo",
-      "titulo_original": "Cincuenta jóvenes entrenarán robots con inteligencia artificial en Vitoria - El Correo",
-      "enlace": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQazVCX3J5UTRSeUdhYm9Sb0lLcXUzZml4endpNWhZczVxTWN4dlpGVXlnOGdZNmtlNGE1NEVHRE5JWThGeGtBWXIzMDcyQ1FaTmY0SFhtdkpiSlVyVkdCWGxjck1reHZQUHZRazRTWnM2SGFRNzRmR2VfXy1tcmQwSVZCYjM5T0hvbmRldzRTU21CZVlwejJHTENUajJjUFFjbEd0ZkpuT19mR0NQdXItTjY5TVo0ZXJ0TWMw0gHAAUFVX3lxTE1xaGZtWG10UzBILV9xam1XWHE2dUM1dU5KYnhRVzRIMHpRY2I4dW1LR0pRVWFiSDgxNTJIeTJlcFRUUGZobERlcVFEdmpSanNMVUUydlJkdExyaGZ0QkF6YUcyRDVzNU10TU5Zam9CMjdxQllVX3FjWVAxNzFrdGhIQjBGTjBXbnJlVHdRbWVrcmUtSERETnJ6b1h3VncwTm1wUTBDUkhYdWdwcWR6Y0daNkU4Z2YtNlZXbDF4WTU3OQ?oc=5",
-      "fecha": "2026-09-28T22:21:21.000Z",
-      "resumen_corto": "Cincuenta jóvenes entrenarán robots con inteligencia artificial en Vitoria El Correo",
-      "resumen_largo": "Cincuenta jóvenes entrenarán robots con inteligencia artificial en Vitoria El Correo",
-      "texto_original": "Cincuenta jóvenes entrenarán robots con inteligencia artificial en Vitoria El Correo",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-09-29T08:02:56.755Z",
-        "index": 21,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "es",
-        "categoria": "inteligencia_artificial",
-        "categorias_secundarias": [],
-        "category_scores": {
-          "inteligencia_artificial": 3
-        },
-        "entidades": [],
-        "cifras_detectadas": [],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 75,
-        "relevancia": 50,
-        "confiabilidad_fuente": 53,
-        "readability": {
-          "words": 45,
-          "sentences": 1,
-          "average_words_per_sentence": 45
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 59.5
-    },
-    {
-      "id": "9495704bd39d61b4",
+      "id": "1ea11f33822770db",
       "fuente_id": "google_news_es",
       "fuente_nombre": "Google News ES",
       "tipo": "rss_web",
@@ -2908,348 +2977,159 @@
       "prioridad_fuente": 3,
       "analizar": true,
       "resumir": true,
-      "titulo": "Telefónica despliega en el Movistar Arena con Jorge Drexler tecnología para elegir canciones en directo - telefonica.com",
-      "titulo_original": "Telefónica despliega en el Movistar Arena con Jorge Drexler tecnología para elegir canciones en directo - telefonica.com",
-      "enlace": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOT2VlQl9GRUxNekhCZVBkdWtmWHF5b0g0WERhMG04TFhHRmtTWUdTc3Q2RkhDTEdycWhzb0NvRl96VUxXSFRuSUZSSmU4RDZGaGhwMTEwd25BdGVGWGNPQ0I2MUNDX3JfYkx3ZkdyMnk2cnZGNVdHM0hNRmFfeWtoV2YwMmhkY2N6RDZUOFZsMEhyaXFKOWdMQkdlREdmdFU1Z0VpWUlNall6N0FBcUNsNXFjcmVYQTJFV0V0SWZtU05zTG5WNk8wejFaYVc3a1h2Q3owQjdaNXJ4dUQwa0ZtMWc2b05DdmtkaHduS3ZtNVA?oc=5",
-      "fecha": "2026-09-28T09:27:12.000Z",
-      "resumen_corto": "Telefónica despliega en el Movistar Arena con Jorge Drexler tecnología para elegir canciones en directo telefonica.com",
-      "resumen_largo": "Telefónica despliega en el Movistar Arena con Jorge Drexler tecnología para elegir canciones en directo telefonica.com",
-      "texto_original": "Telefónica despliega en el Movistar Arena con Jorge Drexler tecnología para elegir canciones en directo telefonica.com",
+      "titulo": "Manu, experto en smartphones: \"No soy partidario de darle un móvil a tu hijo, pero si se lo das, hay una opción que es mucho más segura para que lo use sin problema y sin excesos\" - COPE",
+      "titulo_original": "Manu, experto en smartphones: \"No soy partidario de darle un móvil a tu hijo, pero si se lo das, hay una opción que es mucho más segura para que lo use sin problema y sin excesos\" - COPE",
+      "enlace": "https://news.google.com/rss/articles/CBMigAJBVV95cUxOVGNLN3BqSlQ0dnhoUmtURFRiRy1ScExyLU9IQ21DSUI4eWtUNlp0TXdIYmpPNEdTNnZ6MGk3NEpvcGNxT1p6MXhHSXhfTXRSUm5UbHA2d0poN2xBcnI2WExybDdHRHlEUjJMTXJYbFN6a3ZjQktFRXlCel9WeHE5X2I3TFBpSWRFbC1Za3NpWXJoM0VfeGdQVTRERlVkV3VlM1haTDNaekVaRzhuYUlQNmUzMWZOQXRSRERPMFdESjE2cTd2ZmFOdE84VlVxZVJoWjZKaGpvekl5V05NSEctSGF0cFVRYkxkVHlCSUNPTVhLSlEtS0JqUUFGVHFibERx0gGGAkFVX3lxTE9HOGJnX0FGTVl6V28zYmlVV2VQMUZ4SGlINlQ5cGVMemF5SjlTNFctU3VVWGJHd0hGNWg4QU9PdUItU2Flelh1dnhOc0lzMVhGenc0LXUzY3hybS1VNFFIYkpRV0c2NU1jV1ZxNnh4M3VZWnFFUEUwT0pLWXdvWmdpSzQySl9ZYjhfMy05Z2Q1WGstd2hwcmdsOFMyVWdCanFwcHhPQ0F6cjRSVGt1OUo4WXBtUERkblVlYnNRSmtLdTdZRWliNDd5MTVrdDNvX2VSeENfZDdTWXZmU1BTbDNUdGJrb1BiTVM0VnBJTlRORk9hZkhlQlJDTFIzZ21FX0dMSUFxTHc?oc=5",
+      "fecha": "2026-09-29T14:01:54.000Z",
+      "resumen_corto": "Manu, experto en smartphones: \"No soy partidario de darle un móvil a tu hijo, pero si se lo das, hay una opción que es mucho más segura para que lo use sin problema y sin excesos\" COPE",
+      "resumen_largo": "Manu, experto en smartphones: \"No soy partidario de darle un móvil a tu hijo, pero si se lo das, hay una opción que es mucho más segura para que lo use sin problema y sin excesos\" COPE",
+      "texto_original": "Manu, experto en smartphones: \"No soy partidario de darle un móvil a tu hijo, pero si se lo das, hay una opción que es mucho más segura para que lo use sin problema y sin excesos\" COPE",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-29T08:02:56.766Z",
-        "index": 36,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "es",
-        "categoria": "tecnologia",
-        "categorias_secundarias": [
-          "inteligencia_artificial"
-        ],
-        "category_scores": {
-          "tecnologia": 2,
-          "inteligencia_artificial": 1
-        },
-        "entidades": [],
-        "cifras_detectadas": [],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 75,
-        "relevancia": 50,
-        "confiabilidad_fuente": 53,
-        "readability": {
-          "words": 70,
-          "sentences": 6,
-          "average_words_per_sentence": 11.67
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 59.5
-    },
-    {
-      "id": "7849e64058a23366",
-      "fuente_id": "ia_dia",
-      "fuente_nombre": "IA al Día",
-      "tipo": "rss_web",
-      "subtipo": "google_news",
-      "grupo_fuente": "ia_general",
-      "nivel_fuente": "agregador",
-      "categoria": "inteligencia_artificial",
-      "idioma_original": "es",
-      "prioridad_fuente": 3,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "La inteligencia artificial sume al sector editorial en un caos absoluto - El Mundo",
-      "titulo_original": "La inteligencia artificial sume al sector editorial en un caos absoluto - El Mundo",
-      "enlace": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9QQnlKNnM3cDdJYWZRMWZ2R0JRaU1CbEVzeGM1c1F2X1pPTTZsMjAxNF9nRUxqYm85VjNKMEZkVWhUTWRmM2lWT2ZEVEhZdG01R2Y4d3FNcUhQZlJCcEFTeXpVYWdEcjVPTHVJT1NBV1QtTElONGhvNmdYbkNsWmPSAX9BVV95cUxPd3ZDSDhVTE1pMFllRzhGbnBkMVVYMUZWOVJ3SlQxNGFEODlKQVRFY1ZuYVhfQUR4akpsVGZadjFHUXowSFpEYzUxVmY3SDVURmhSa0dSaktOZDJIWDlRNVpxWC0zb1VkRGV0R2xLcUhIQ3F3d09Xc0VhMHU1QnIw?oc=5",
-      "fecha": "2026-09-27T20:44:12.000Z",
-      "resumen_corto": "La inteligencia artificial sume al sector editorial en un caos absoluto El Mundo",
-      "resumen_largo": "La inteligencia artificial sume al sector editorial en un caos absoluto El Mundo",
-      "texto_original": "La inteligencia artificial sume al sector editorial en un caos absoluto El Mundo",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-09-29T08:02:56.767Z",
-        "index": 40,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "es",
-        "categoria": "inteligencia_artificial",
-        "categorias_secundarias": [],
-        "category_scores": {
-          "inteligencia_artificial": 3
-        },
-        "entidades": [],
-        "cifras_detectadas": [],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 75,
-        "relevancia": 50,
-        "confiabilidad_fuente": 53,
-        "readability": {
-          "words": 40,
-          "sentences": 1,
-          "average_words_per_sentence": 40
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 59.5
-    },
-    {
-      "id": "8e4bbdb03d8f3a45",
-      "fuente_id": "resumen_militar",
-      "fuente_nombre": "El Resumen Militar",
-      "tipo": "telegram",
-      "subtipo": "canal_telegram",
-      "grupo_fuente": "telegram_militar",
-      "nivel_fuente": "telegram",
-      "categoria": "militar",
-      "idioma_original": "es",
-      "prioridad_fuente": 3,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "🇷🇺 🇺🇦 В Киев прилетели баллистические ракеты. Заявляется о применении 6 \"Цирконов\", из которых якобы 3 сбитых. Сейчас в Киев летят еще \"Герани-5\".",
-      "titulo_original": "🇷🇺 🇺🇦 В Киев прилетели баллистические ракеты. Заявляется о применении 6 \"Цирконов\", из которых якобы 3 сбитых. Сейчас в Киев летят еще \"Герани-5\".",
-      "enlace": "https://t.me/elresumenmilitar/100358",
-      "fecha": "2026-09-29T07:15:37.000Z",
-      "resumen_corto": "Заявляется о применении 6 \"Цирконов\", из которых якобы 3 сбитых.",
-      "resumen_largo": "🇷🇺 🇺🇦 В Киев прилетели баллистические ракеты. Заявляется о применении 6 \"Цирконов\", из которых якобы 3 сбитых. Сейчас в Киев летят еще \"Герани-5\".",
-      "texto_original": "🇷🇺 🇺🇦 В Киев прилетели баллистические ракеты. Заявляется о применении 6 \"Цирконов\", из которых якобы 3 сбитых. Сейчас в Киев летят еще \"Герани-5\".",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-09-29T08:02:56.742Z",
-        "index": 4,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "es",
-        "categoria": "militar",
-        "categorias_secundarias": [],
-        "category_scores": {},
-        "entidades": [],
-        "cifras_detectadas": [],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 75,
-        "relevancia": 45,
-        "confiabilidad_fuente": 45,
-        "readability": {
-          "words": 66,
-          "sentences": 13,
-          "average_words_per_sentence": 5.08
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 55.5
-    },
-    {
-      "id": "d6006f7021c4eca3",
-      "fuente_id": "resumen_militar",
-      "fuente_nombre": "El Resumen Militar",
-      "tipo": "telegram",
-      "subtipo": "canal_telegram",
-      "grupo_fuente": "telegram_militar",
-      "nivel_fuente": "telegram",
-      "categoria": "militar",
-      "idioma_original": "es",
-      "prioridad_fuente": 3,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "🇷🇺 🇺🇦 Прилеты ФАБ-3000 по располагам в Орехове Запорожской области и Нестерном Харьковской области и по пункту управления БПЛА ВСУ в Слатино Харьковской области @the_wrong_side Подписаться на канал | наш МАХ",
-      "titulo_original": "🇷🇺 🇺🇦 Прилеты ФАБ-3000 по располагам в Орехове Запорожской области и Нестерном Харьковской области и по пункту управления БПЛА ВСУ в Слатино Харьковской области @the_wrong_side Подписаться на канал | наш МАХ",
-      "enlace": "https://t.me/elresumenmilitar/100359",
-      "fecha": "2026-09-29T07:16:50.000Z",
-      "resumen_corto": "🇷🇺 🇺🇦 Прилеты ФАБ-3000 по располагам в Орехове Запорожской области и Нестерном Харьковской области и по пункту управления БПЛА ВСУ в Слатино Харьковской области @the_wrong_side Подписаться на канал | наш МАХ",
-      "resumen_largo": "🇷🇺 🇺🇦 Прилеты ФАБ-3000 по располагам в Орехове Запорожской области и Нестерном Харьковской области и по пункту управления БПЛА ВСУ в Слатино Харьковской области @the_wrong_side Подписаться на канал | наш МАХ",
-      "texto_original": "🇷🇺 🇺🇦 Прилеты ФАБ-3000 по располагам в Орехове Запорожской области и Нестерном Харьковской области и по пункту управления БПЛА ВСУ в Слатино Харьковской области @the_wrong_side Подписаться на канал | наш МАХ",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-09-29T08:02:56.742Z",
-        "index": 3,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "en",
-        "idioma_original": "es",
-        "categoria": "militar",
-        "categorias_secundarias": [],
-        "category_scores": {},
-        "entidades": [],
-        "cifras_detectadas": [
-          "3000"
-        ],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 65,
-        "relevancia": 45,
-        "confiabilidad_fuente": 45,
-        "readability": {
-          "words": 120,
-          "sentences": 1,
-          "average_words_per_sentence": 120
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 52
-    },
-    {
-      "id": "100e7260563b3e8e",
-      "fuente_id": "resumen_militar",
-      "fuente_nombre": "El Resumen Militar",
-      "tipo": "telegram",
-      "subtipo": "canal_telegram",
-      "grupo_fuente": "telegram_militar",
-      "nivel_fuente": "telegram",
-      "categoria": "militar",
-      "idioma_original": "es",
-      "prioridad_fuente": 3,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "‼️ 🇷🇺 🇧🇾 Враг атаковал пункт пропуска \"Красный камень\" на границе России и Беларуси. ▪️ Международный КПП на российско-белорусской границе закрыт после ночной атаки БПЛА — проехать через \"Красный Камень\" на автотранс",
-      "titulo_original": "‼️ 🇷🇺 🇧🇾 Враг атаковал пункт пропуска \"Красный камень\" на границе России и Беларуси. ▪️ Международный КПП на российско-белорусской границе закрыт после ночной атаки БПЛА — проехать через \"Красный Камень\" на автотранс",
-      "enlace": "https://t.me/elresumenmilitar/100356",
-      "fecha": "2026-09-29T07:15:13.000Z",
-      "resumen_corto": "‼️ 🇷🇺 🇧🇾 Враг атаковал пункт пропуска \"Красный камень\" на границе России и Беларуси.",
-      "resumen_largo": "‼️ 🇷🇺 🇧🇾 Враг атаковал пункт пропуска \"Красный камень\" на границе России и Беларуси. ▪️ Международный КПП на российско-белорусской границе закрыт после ночной атаки БПЛА — проехать через \"Красный Камень\" на автотранспорте нельзя. ▪️ Атаки на пункт усилились 26 сентября: беспилотники сожгли 2 белорусские фуры на стороне Брянской области.",
-      "texto_original": "‼️ 🇷🇺 🇧🇾 Враг атаковал пункт пропуска \"Красный камень\" на границе России и Беларуси. ▪️ Международный КПП на российско-белорусской границе закрыт после ночной атаки БПЛА — проехать через \"Красный Камень\" на автотранспорте нельзя. ▪️ Атаки на пункт усилились 26 сентября: беспилотники сожгли 2 белорусские фуры на стороне Брянской области. Теперь же работа перехода полностью приостановлена, введён режим воздушной опасности. Автомобили направляют через Смоленскую область. ➖ \"Красный Камень\" летом 2026-го уже был атакован, враг бил по фура с иранскими продуктами. За неделю было не менее трёх атак: горели грузовики с финиками и арбузами. ⚠️ Подписаться на RV: MAX | t.me/RVvoenkor",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-09-29T08:02:56.744Z",
-        "index": 6,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "es",
-        "categoria": "militar",
-        "categorias_secundarias": [],
-        "category_scores": {},
-        "entidades": [],
-        "cifras_detectadas": [
-          "2026"
-        ],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 65,
-        "relevancia": 45,
-        "confiabilidad_fuente": 45,
-        "readability": {
-          "words": 167,
-          "sentences": 15,
-          "average_words_per_sentence": 11.13
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 52
-    },
-    {
-      "id": "9a05c5cc37517c6d",
-      "fuente_id": "resumen_militar",
-      "fuente_nombre": "El Resumen Militar",
-      "tipo": "telegram",
-      "subtipo": "canal_telegram",
-      "grupo_fuente": "telegram_militar",
-      "nivel_fuente": "telegram",
-      "categoria": "militar",
-      "idioma_original": "es",
-      "prioridad_fuente": 3,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "🇷🇺 🏁 Посольство РФ предупредило НАТО о риске конфликта при блокаде Калининграда. В дипмиссии заявили, что Россия располагает необходимыми средствами для отражения возможной агрессии и готова использовать имеющиеся воо",
-      "titulo_original": "🇷🇺 🏁 Посольство РФ предупредило НАТО о риске конфликта при блокаде Калининграда. В дипмиссии заявили, что Россия располагает необходимыми средствами для отражения возможной агрессии и готова использовать имеющиеся воо",
-      "enlace": "https://t.me/elresumenmilitar/100360",
-      "fecha": "2026-09-29T07:17:32.000Z",
-      "resumen_corto": "🇷🇺 🏁 Посольство РФ предупредило НАТО о риске конфликта при блокаде Калининграда.",
-      "resumen_largo": "🇷🇺 🏁 Посольство РФ предупредило НАТО о риске конфликта при блокаде Калининграда. В дипмиссии заявили, что Россия располагает необходимыми средствами для отражения возможной агрессии и готова использовать имеющиеся вооружения для защиты Калининградской области в случае попыток ее изоляции со стороны стран НАТО. Также в ведомстве отметили расширение инициатив по сдерживанию мнимой «российской угрозы», включая проведение масштабных учений .",
-      "texto_original": "🇷🇺 🏁 Посольство РФ предупредило НАТО о риске конфликта при блокаде Калининграда. В дипмиссии заявили, что Россия располагает необходимыми средствами для отражения возможной агрессии и готова использовать имеющиеся вооружения для защиты Калининградской области в случае попыток ее изоляции со стороны стран НАТО. Также в ведомстве отметили расширение инициатив по сдерживанию мнимой «российской угрозы», включая проведение масштабных учений . Подписаться на канал | наш МАХ",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-09-29T08:02:56.741Z",
+        "processed_at": "2026-09-29T14:52:41.354Z",
         "index": 2,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "moviles",
+        "categorias_secundarias": [
+          "hardware"
+        ],
+        "category_scores": {
+          "moviles": 2,
+          "hardware": 1
+        },
+        "entidades": [],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 60,
+        "relevancia": 50,
+        "confiabilidad_fuente": 53,
+        "readability": {
+          "words": 125,
+          "sentences": 1,
+          "average_words_per_sentence": 125
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 54.25
+    },
+    {
+      "id": "636b1d26fe1ea878",
+      "fuente_id": "resumen_militar",
+      "fuente_nombre": "El Resumen Militar",
+      "tipo": "telegram",
+      "subtipo": "canal_telegram",
+      "grupo_fuente": "telegram_militar",
+      "nivel_fuente": "telegram",
+      "categoria": "militar",
+      "idioma_original": "es",
+      "prioridad_fuente": 3,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "🇷🇺 Военный бюджет России увеличится. Reuters пишет, что Россия планирует потратить на оборону в 2027 году 17,1 триллиона рублей (202,58 млрд$), что примерно на 27% больше, чем изначально заложенные 13,5 триллиона рубле",
+      "titulo_original": "🇷🇺 Военный бюджет России увеличится. Reuters пишет, что Россия планирует потратить на оборону в 2027 году 17,1 триллиона рублей (202,58 млрд$), что примерно на 27% больше, чем изначально заложенные 13,5 триллиона рубле",
+      "enlace": "https://t.me/elresumenmilitar/100404",
+      "fecha": "2026-09-29T12:40:51.000Z",
+      "resumen_corto": "Reuters пишет, что Россия планирует потратить на оборону в 2027 году 17,1 триллиона рублей (202,58 млрд$), что примерно на 27% больше, чем изначально заложенные 13,5 триллиона рублей, и является самым высоким показателем с 2022 года.",
+      "resumen_largo": "🇷🇺 Военный бюджет России увеличится. Reuters пишет, что Россия планирует потратить на оборону в 2027 году 17,1 триллиона рублей (202,58 млрд$), что примерно на 27% больше, чем изначально заложенные 13,5 триллиона рублей, и является самым высоким показателем с 2022 года. Согласно документам, общие расходы на оборону в ближайшие три года составят 50 триллионов рублей.",
+      "texto_original": "🇷🇺 Военный бюджет России увеличится. Reuters пишет, что Россия планирует потратить на оборону в 2027 году 17,1 триллиона рублей (202,58 млрд$), что примерно на 27% больше, чем изначально заложенные 13,5 триллиона рублей, и является самым высоким показателем с 2022 года. Согласно документам, общие расходы на оборону в ближайшие три года составят 50 триллионов рублей. В 2026 году правительство планировало потратить на оборону 12,1 триллиона рублей, но фактическая сумма засекречена и не будет разглашаться. Часть военных расходов может быть учтена в других статьях бюджета. Документы также свидетельствуют о том, что правительство повысило прогноз дефицита бюджета на 2026 год до 3,2% от валового внутреннего продукта с 1,6% ВВП ранее. Бюджетные расходы в 2026 году вырастут на 13,2% до 48,6 трлн рублей, или 20,9% ВВП. Согласно документам, новый налог на сверхприбыль металлургических и горнодобывающих компаний должен приносить около 200 миллиардов рублей в год. Подписаться на канал | наш МАХ",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-09-29T14:52:41.363Z",
+        "index": 11,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "militar",
+        "categorias_secundarias": [],
+        "category_scores": {},
+        "entidades": [],
+        "cifras_detectadas": [
+          "2027",
+          "27%",
+          "2022",
+          "2026",
+          "3,2%",
+          "1,6%",
+          "13,2%",
+          "20,9%"
+        ],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 65,
+        "relevancia": 45,
+        "confiabilidad_fuente": 45,
+        "readability": {
+          "words": 228,
+          "sentences": 15,
+          "average_words_per_sentence": 15.2
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 52
+    },
+    {
+      "id": "36ced09c03ff4b83",
+      "fuente_id": "resumen_militar",
+      "fuente_nombre": "El Resumen Militar",
+      "tipo": "telegram",
+      "subtipo": "canal_telegram",
+      "grupo_fuente": "telegram_militar",
+      "nivel_fuente": "telegram",
+      "categoria": "militar",
+      "idioma_original": "es",
+      "prioridad_fuente": 3,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "❗️ 🇷🇺 Ту-154, принадлежащий Минобороны, потерпел крушение в Амурской области. На борту были 7 военных — трое погибли, 4 госпитализированы, заявляют СМИ. Крушение произошло в районе села Краснояново. Подписаться на кана",
+      "titulo_original": "❗️ 🇷🇺 Ту-154, принадлежащий Минобороны, потерпел крушение в Амурской области. На борту были 7 военных — трое погибли, 4 госпитализированы, заявляют СМИ. Крушение произошло в районе села Краснояново. Подписаться на кана",
+      "enlace": "https://t.me/elresumenmilitar/100407",
+      "fecha": "2026-09-29T12:42:21.000Z",
+      "resumen_corto": "На борту были 7 военных — трое погибли, 4 госпитализированы, заявляют СМИ.",
+      "resumen_largo": "❗️ 🇷🇺 Ту-154, принадлежащий Минобороны, потерпел крушение в Амурской области. На борту были 7 военных — трое погибли, 4 госпитализированы, заявляют СМИ. Крушение произошло в районе села Краснояново.",
+      "texto_original": "❗️ 🇷🇺 Ту-154, принадлежащий Минобороны, потерпел крушение в Амурской области. На борту были 7 военных — трое погибли, 4 госпитализированы, заявляют СМИ. Крушение произошло в районе села Краснояново. Подписаться на канал | наш МАХ",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-09-29T14:52:41.362Z",
+        "index": 9,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -3277,9 +3157,9 @@
         "relevancia": 45,
         "confiabilidad_fuente": 45,
         "readability": {
-          "words": 150,
-          "sentences": 10,
-          "average_words_per_sentence": 15
+          "words": 96,
+          "sentences": 14,
+          "average_words_per_sentence": 6.86
         },
         "duplicate": {
           "detected": false,
@@ -3291,7 +3171,7 @@
       "final_score": 50.25
     },
     {
-      "id": "1789441ed7b0d220",
+      "id": "b28dd51d77ac164a",
       "fuente_id": "resumen_militar",
       "fuente_nombre": "El Resumen Militar",
       "tipo": "telegram",
@@ -3303,17 +3183,17 @@
       "prioridad_fuente": 3,
       "analizar": true,
       "resumir": true,
-      "titulo": "🇪🇺 🇺🇦 Bloomberg пишет, что Украина просила у ЕС 220 миллионов евро на поддержку фермеров в условиях российских ударов и блокады портов. Но Европа отказала. Подписаться на канал | наш МАХ",
-      "titulo_original": "🇪🇺 🇺🇦 Bloomberg пишет, что Украина просила у ЕС 220 миллионов евро на поддержку фермеров в условиях российских ударов и блокады портов. Но Европа отказала. Подписаться на канал | наш МАХ",
-      "enlace": "https://t.me/elresumenmilitar/100357",
-      "fecha": "2026-09-29T07:15:24.000Z",
-      "resumen_corto": "🇪🇺 🇺🇦 Bloomberg пишет, что Украина просила у ЕС 220 миллионов евро на поддержку фермеров в условиях российских ударов и блокады портов.",
-      "resumen_largo": "🇪🇺 🇺🇦 Bloomberg пишет, что Украина просила у ЕС 220 миллионов евро на поддержку фермеров в условиях российских ударов и блокады портов. Подписаться на канал | наш МАХ",
-      "texto_original": "🇪🇺 🇺🇦 Bloomberg пишет, что Украина просила у ЕС 220 миллионов евро на поддержку фермеров в условиях российских ударов и блокады портов. Но Европа отказала. Подписаться на канал | наш МАХ",
+      "titulo": "🇷🇺 Владимир Путин подписал указ о запрете физлицам вывозить из России в ЕАЭС, Азербайджан, Таджикистан и Узбекистан наличные в объёме свыше 1 миллиона Также президент распространил запрет на вывоз наличных свыше 1 млн",
+      "titulo_original": "🇷🇺 Владимир Путин подписал указ о запрете физлицам вывозить из России в ЕАЭС, Азербайджан, Таджикистан и Узбекистан наличные в объёме свыше 1 миллиона Также президент распространил запрет на вывоз наличных свыше 1 млн",
+      "enlace": "https://t.me/elresumenmilitar/100405",
+      "fecha": "2026-09-29T12:41:06.000Z",
+      "resumen_corto": "🇷🇺 Владимир Путин подписал указ о запрете физлицам вывозить из России в ЕАЭС, Азербайджан, Таджикистан и Узбекистан наличные в объёме свыше 1 миллиона Также президент распространил запрет на вывоз наличных свыше 1 млн рублей юрлицами и ИП из России в Азербайджан, Таджикистан и Узбекистан.",
+      "resumen_largo": "🇷🇺 Владимир Путин подписал указ о запрете физлицам вывозить из России в ЕАЭС, Азербайджан, Таджикистан и Узбекистан наличные в объёме свыше 1 миллиона Также президент распространил запрет на вывоз наличных свыше 1 млн рублей юрлицами и ИП из России в Азербайджан, Таджикистан и Узбекистан. 👉 Исключения предусмотрены для дипломатических и государственных нужд, а также для вывоза через пункты пропуска в международных аэропортах при наличии подтверждающей банковской выписки о снятии наличных. Согласно тексту указа юрлица смогут вывозить валюту при международных перевозках, где пункты отправления и назначения расположены за пределами России, а также подтверждён ввоз такой валюты в России.",
+      "texto_original": "🇷🇺 Владимир Путин подписал указ о запрете физлицам вывозить из России в ЕАЭС, Азербайджан, Таджикистан и Узбекистан наличные в объёме свыше 1 миллиона Также президент распространил запрет на вывоз наличных свыше 1 млн рублей юрлицами и ИП из России в Азербайджан, Таджикистан и Узбекистан. 👉 Исключения предусмотрены для дипломатических и государственных нужд, а также для вывоза через пункты пропуска в международных аэропортах при наличии подтверждающей банковской выписки о снятии наличных. Согласно тексту указа юрлица смогут вывозить валюту при международных перевозках, где пункты отправления и назначения расположены за пределами России, а также подтверждён ввоз такой валюты в России. В случае же нарушения запрета у юрлиц и ИП изымут всю валюту, у физлиц — сумму, превышающую 1 млн. Подписаться на канал | наш МАХ",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-09-29T08:02:56.743Z",
-        "index": 5,
+        "processed_at": "2026-09-29T14:52:41.363Z",
+        "index": 10,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -3341,9 +3221,73 @@
         "relevancia": 45,
         "confiabilidad_fuente": 45,
         "readability": {
-          "words": 97,
+          "words": 241,
           "sentences": 9,
-          "average_words_per_sentence": 10.78
+          "average_words_per_sentence": 26.78
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 50.25
+    },
+    {
+      "id": "0ee3efba2877cb8f",
+      "fuente_id": "resumen_militar",
+      "fuente_nombre": "El Resumen Militar",
+      "tipo": "telegram",
+      "subtipo": "canal_telegram",
+      "grupo_fuente": "telegram_militar",
+      "nivel_fuente": "telegram",
+      "categoria": "militar",
+      "idioma_original": "es",
+      "prioridad_fuente": 3,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "🏁 Генсек НАТО Рютте судя по всему живёт в какой-то параллельной реальности Так, согласно его словам, Россия \"терпит неудачу на поле боя\", а также \"не способна подорвать единство НАТО и поддержку Киева\". Со вторым конечн",
+      "titulo_original": "🏁 Генсек НАТО Рютте судя по всему живёт в какой-то параллельной реальности Так, согласно его словам, Россия \"терпит неудачу на поле боя\", а также \"не способна подорвать единство НАТО и поддержку Киева\". Со вторым конечн",
+      "enlace": "https://t.me/elresumenmilitar/100403",
+      "fecha": "2026-09-29T12:40:26.000Z",
+      "resumen_corto": "🏁 Генсек НАТО Рютте судя по всему живёт в какой-то параллельной реальности Так, согласно его словам, Россия \"терпит неудачу на поле боя\", а также \"не способна подорвать единство НАТО и поддержку Киева\".",
+      "resumen_largo": "🏁 Генсек НАТО Рютте судя по всему живёт в какой-то параллельной реальности Так, согласно его словам, Россия \"терпит неудачу на поле боя\", а также \"не способна подорвать единство НАТО и поддержку Киева\". Со вторым конечно спорить сложно, эти клоуны свои страны в каменный век загонят, но лишь бы России поднасрать (хотя не единожды уже сами удивлялись наглости Зелебобуса и его хотелок). Но вот первый пункт конечно насмешил.",
+      "texto_original": "🏁 Генсек НАТО Рютте судя по всему живёт в какой-то параллельной реальности Так, согласно его словам, Россия \"терпит неудачу на поле боя\", а также \"не способна подорвать единство НАТО и поддержку Киева\". Со вторым конечно спорить сложно, эти клоуны свои страны в каменный век загонят, но лишь бы России поднасрать (хотя не единожды уже сами удивлялись наглости Зелебобуса и его хотелок). Но вот первый пункт конечно насмешил. Я не говорю о том, что СВО идёт как по-маслу и всё у нас шикарно. Нет. Но уж точно ситуация на поле боя не выглядит как \"неудачная\" для Русской армии. 👉 По данным Минобороны за 19 сентября только с начала года было освобождено свыше 5,3 тыс. кв. км территории и более 220 населенных пунктов. Это похоже на \"Россия терпит неудачу на поле боя\"? Начались бои за Орехов, Доброполье, организовано несколько котлов в Харьковской области, а также на границе Днепропетровской и Запорожской. Разумеется противник тоже пытается проводить контратаки, но на общем фоне продвижения наших Воинов выглядит это лишь как очередная попытка в медийную перемогу. P.S. А про ответ на \"40 дней\" просроченного я и вовсе молчу. Урон итак задыхающейся экономике Украины был нанесён колоссальный. Подписаться на канал | наш МАХ",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-09-29T14:52:41.365Z",
+        "index": 13,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "militar",
+        "categorias_secundarias": [],
+        "category_scores": {},
+        "entidades": [],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 60,
+        "relevancia": 45,
+        "confiabilidad_fuente": 45,
+        "readability": {
+          "words": 278,
+          "sentences": 23,
+          "average_words_per_sentence": 12.09
         },
         "duplicate": {
           "detected": false,
@@ -3355,24 +3299,24 @@
       "final_score": 50.25
     }
   ],
-  "analyzed_at": "2026-09-29T08:02:56.769Z",
+  "analyzed_at": "2026-09-29T14:52:41.380Z",
   "analysis_stats": {
-    "input_items": 47,
-    "valid_items": 46,
+    "input_items": 46,
+    "valid_items": 45,
     "rejected_items": 1,
     "duplicate_items": 0,
-    "clickbait_items": 0,
+    "clickbait_items": 1,
     "spam_items": 0,
-    "summaries_generated": 46,
-    "average_quality": 80,
-    "average_relevance": 59
+    "summaries_generated": 45,
+    "average_quality": 81,
+    "average_relevance": 60
   },
   "validation": {
     "version": "1.1",
-    "executed_at": "2026-09-29T08:02:56.909Z",
-    "original_items": 46,
+    "executed_at": "2026-09-29T14:52:41.494Z",
+    "original_items": 45,
     "rejected_items": 0,
-    "final_items": 46,
+    "final_items": 45,
     "limit": 60,
     "status": "ok"
   }

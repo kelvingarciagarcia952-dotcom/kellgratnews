@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "updated_at": "2026-10-05T01:44:51.484Z",
+  "updated_at": "2026-10-05T08:35:13.907Z",
   "configuracion": {
     "limite_global": 60,
     "frecuencia_minutos": 60,
@@ -22,14 +22,92 @@
   },
   "source_stats": {
     "active_sources": 15,
-    "successful_sources": 14,
-    "collected_items": 57,
-    "deduplicated_items": 37,
-    "final_items": 37
+    "successful_sources": 15,
+    "collected_items": 63,
+    "deduplicated_items": 43,
+    "final_items": 43
   },
   "items": [
     {
-      "id": "9a21fc9d7f97ac35",
+      "id": "43aa3b0f6acf4128",
+      "fuente_id": "huawei_central",
+      "fuente_nombre": "Huawei Central",
+      "tipo": "rss_web",
+      "subtipo": "medio_especializado",
+      "grupo_fuente": "huawei",
+      "nivel_fuente": "secundaria_especializada",
+      "categoria": "moviles",
+      "idioma_original": "en",
+      "prioridad_fuente": 5,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Lanzamiento global de la serie Honor Magic 9 programado para enero de 2027",
+      "titulo_original": "Honor Magic 9 series global launch scheduled for January 2027",
+      "enlace": "https://www.huaweicentral.com/honor-magic-9-series-global-launch-scheduled-for-january-2027/",
+      "fecha": "2026-10-05T02:49:03.000Z",
+      "resumen_corto": "La serie Honor Magic 9 llegará a la etapa de lanzamiento global en enero de 2027.",
+      "resumen_largo": "La serie Honor Magic 9 llegará a la etapa de lanzamiento global en enero de 2027. Según el anuncio oficial de la compañía, el teléfono inteligente insignia llegará a los mercados extranjeros, comenzando en Europa a principios del próximo año después de un exitoso lanzamiento en China. La serie Magic 9 hizo su debut en China la semana pasada y Honor ha comenzado a prepararse […] El lanzamiento global posterior a la serie Honor Magic 9 programado para enero de 2027 apareció por primera vez en Huawei Central.",
+      "texto_original": "Honor Magic 9 series is set to hit the global launch stage in January 2027. As per the company’s official announcement, the flagship smartphone is coming to overseas markets, starting in Europe early next year after a successful Chinese launch. Magic 9 series made its debut in China last week, and Honor has begun preparing […] The post Honor Magic 9 series global launch scheduled for January 2027 appeared first on Huawei Central .",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-10-05T08:35:13.773Z",
+        "index": 11,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "en",
+        "categoria": "moviles",
+        "categorias_secundarias": [
+          "inteligencia_artificial",
+          "hardware",
+          "software_internet"
+        ],
+        "category_scores": {
+          "moviles": 6,
+          "inteligencia_artificial": 1,
+          "hardware": 1,
+          "software_internet": 1
+        },
+        "entidades": [
+          "Huawei",
+          "Honor"
+        ],
+        "cifras_detectadas": [
+          "2027"
+        ],
+        "content_type": "report",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 97,
+        "relevancia": 83,
+        "confiabilidad_fuente": 75,
+        "readability": {
+          "words": 142,
+          "sentences": 7,
+          "average_words_per_sentence": 20.29
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 85.9
+    },
+    {
+      "id": "7cbbf54b2fc7155c",
       "fuente_id": "bbc_mundo",
       "fuente_nombre": "BBC Mundo",
       "tipo": "rss_web",
@@ -41,17 +119,331 @@
       "prioridad_fuente": 5,
       "analizar": true,
       "resumir": true,
-      "titulo": "Por qué Canadá contempla una (improbable) invasión de EE.UU. (y qué papel juega el caso de Venezuela)",
-      "titulo_original": "Por qué Canadá contempla una (improbable) invasión de EE.UU. (y qué papel juega el caso de Venezuela)",
-      "enlace": "https://www.bbc.com/mundo/articles/cqwy79n7190xo?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-10-04T18:34:31.000Z",
-      "resumen_corto": "Tras señalar que el riesgo es bajo y la probabilidad altamente improbable, el mandatario declaró al diario The New York Times que tenía la responsabilidad de considerar todas las posibilidades a medida que la relación entre Estados Unidos y Canadá se redefine bajo la presidencia de Donald Trump.",
-      "resumen_largo": "El primer ministro de Canadá, Mark Carney, admitió la semana pasada que se ha preparado para un escenario antes impensable: una invasión estadounidense. Tras señalar que el riesgo es bajo y la probabilidad altamente improbable, el mandatario declaró al diario The New York Times que tenía la responsabilidad de considerar todas las posibilidades a medida que la relación entre Estados Unidos y Canadá se redefine bajo la presidencia de Donald Trump. Los aranceles globales de Trump y su reiterado deseo de convertir a Canadá en el estado número 51 han llevado al país a realizar simulacros de ataque por parte de los estadounidenses.",
-      "texto_original": "El primer ministro de Canadá, Mark Carney, admitió la semana pasada que se ha preparado para un escenario antes impensable: una invasión estadounidense. Tras señalar que el riesgo es bajo y la probabilidad altamente improbable, el mandatario declaró al diario The New York Times que tenía la responsabilidad de considerar todas las posibilidades a medida que la relación entre Estados Unidos y Canadá se redefine bajo la presidencia de Donald Trump. Los aranceles globales de Trump y su reiterado deseo de convertir a Canadá en el estado número 51 han llevado al país a realizar simulacros de ataque por parte de los estadounidenses. En 2025, el presidente estadounidense afirmó que era \"muy improbable\" que EE.UU. utilizara la fuerza contra Canadá. En cambio, declaró que continuaría ejerciendo presión económica para lograr sus objetivos políticos. \"El presidente Trump ha hecho más que nadie para proteger al gran pueblo de Canadá\", declaró la Casa Blanca a la BBC en un comunicado esta semana. Los expertos militares que hablaron con la BBC también creen que una invasión es poco probable, y señalan las múltiples formas en que ambos países colaboran en materia de defensa.",
+      "titulo": "Cómo se compara Flávio Bolsonaro con su padre Jair y cuánto cambia el duelo con Lula por la presidencia de Brasil 4 años después",
+      "titulo_original": "Cómo se compara Flávio Bolsonaro con su padre Jair y cuánto cambia el duelo con Lula por la presidencia de Brasil 4 años después",
+      "enlace": "https://www.bbc.com/mundo/articles/cqvgjdkrmr7ro?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-10-05T02:39:05.000Z",
+      "resumen_corto": "Cuando Flávio Bolsonaro fue elegido por su padre desde la prisión para disputarle la presidencia de Brasil a Luiz Inácio Lula da Silva, hasta aliados suyos dudaban que pudiese ganar un balotaje como el que ambos tendrán en 21 días.",
+      "resumen_largo": "Cuando Flávio Bolsonaro fue elegido por su padre desde la prisión para disputarle la presidencia de Brasil a Luiz Inácio Lula da Silva, hasta aliados suyos dudaban que pudiese ganar un balotaje como el que ambos tendrán en 21 días. Pero el senador derechista fue, contra varios pronósticos, el candidato más votado en la primera vuelta electoral de este domingo, al recibir 47% de los sufragios válidos, mientras el presidente Lula obtuvo 45,1%, según datos oficiales con el 99,9% de las urnas escrutadas. Si bien está abierto el balotaje del 25 de octubre por el gobierno del país más populoso de América Latina, Bolsonaro inicia la carrera fortalecido con ese resultado y aspira a absorber votos de candidatos eliminados que están más próximos a él ideológicamente.",
+      "texto_original": "Cuando Flávio Bolsonaro fue elegido por su padre desde la prisión para disputarle la presidencia de Brasil a Luiz Inácio Lula da Silva, hasta aliados suyos dudaban que pudiese ganar un balotaje como el que ambos tendrán en 21 días. Pero el senador derechista fue, contra varios pronósticos, el candidato más votado en la primera vuelta electoral de este domingo, al recibir 47% de los sufragios válidos, mientras el presidente Lula obtuvo 45,1%, según datos oficiales con el 99,9% de las urnas escrutadas. Si bien está abierto el balotaje del 25 de octubre por el gobierno del país más populoso de América Latina, Bolsonaro inicia la carrera fortalecido con ese resultado y aspira a absorber votos de candidatos eliminados que están más próximos a él ideológicamente. Antonio Lavareda, un politólogo brasileño experto en comportamiento electoral, sostiene que \"Flávio Bolsonaro es el candidato del rechazo a Lula, entonces esta elección es sobre Lula y su gobierno\". \"En Brasil, como en otros países, la mayoría de la población reclama cambios y Lula precisa mostrar que está haciendo cambios, porque la campaña de Flávio es más fácil en ese sentido: dice que cambiando a Lula, todo cambia\", le explica Lavareda a BBC Mundo. El escenario tiene semejanzas y diferencias importantes con el de cuatro años atrás, cuando Lula derrotó al entonces presidente Jair Bolsonaro, líder del movimiento ultra que ahora representa su hijo.",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-05T01:44:51.322Z",
+        "processed_at": "2026-10-05T08:35:13.775Z",
+        "index": 12,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "actualidad",
+        "categorias_secundarias": [
+          "inteligencia_artificial",
+          "vehiculos_energia",
+          "moviles"
+        ],
+        "category_scores": {
+          "actualidad": 3,
+          "inteligencia_artificial": 2,
+          "vehiculos_energia": 2,
+          "moviles": 1
+        },
+        "entidades": [
+          "BBC"
+        ],
+        "cifras_detectadas": [
+          "47%",
+          "45,1%",
+          "99,9%"
+        ],
+        "content_type": "report",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 97,
+        "relevancia": 78,
+        "confiabilidad_fuente": 80,
+        "readability": {
+          "words": 323,
+          "sentences": 10,
+          "average_words_per_sentence": 32.3
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 85.15
+    },
+    {
+      "id": "8be1ffd35f56f04d",
+      "fuente_id": "huawei_central",
+      "fuente_nombre": "Huawei Central",
+      "tipo": "rss_web",
+      "subtipo": "medio_especializado",
+      "grupo_fuente": "huawei",
+      "nivel_fuente": "secundaria_especializada",
+      "categoria": "moviles",
+      "idioma_original": "en",
+      "prioridad_fuente": 5,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Huawei Mate 90 Pro Max supera a los teléfonos Honor y OnePlus en carrera de batería",
+      "titulo_original": "Huawei Mate 90 Pro Max surpasses Honor, OnePlus phones in battery race",
+      "enlace": "https://www.huaweicentral.com/huawei-mate-90-pro-max-battery/",
+      "fecha": "2026-10-05T06:42:29.000Z",
+      "resumen_corto": "Un nuevo informe revela el rendimiento y la duración de la batería del Huawei Mate 90 Pro Max en comparación con otros modelos emblemáticos.",
+      "resumen_largo": "Un nuevo informe revela el rendimiento y la duración de la batería del Huawei Mate 90 Pro Max en comparación con otros modelos emblemáticos. El teléfono inteligente recién lanzado ocupa el primer lugar en el ranking de duración de la batería, con una duración total de 9 horas y 56 minutos. Uno de los informantes chinos ha probado el Huawei Mate 90 Pro Max, comprobando su juego […] The post Huawei Mate 90 Pro Max supera a Honor, los teléfonos OnePlus en carrera de batería apareció por primera vez en Huawei Central.",
+      "texto_original": "A new report reveals Huawei Mate 90 Pro Max performance and battery life compared to other flagship models. The newly launched smartphone ranks first in the battery life ranking, with a total runtime of 9 hours and 56 minutes. One of the Chinese tipsters has tested the Huawei Mate 90 Pro Max, checking its gaming […] The post Huawei Mate 90 Pro Max surpasses Honor, OnePlus phones in battery race appeared first on Huawei Central .",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-10-05T08:35:13.770Z",
+        "index": 7,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "en",
+        "categoria": "moviles",
+        "categorias_secundarias": [
+          "baterias_energia",
+          "vehiculos_energia",
+          "inteligencia_artificial"
+        ],
+        "category_scores": {
+          "moviles": 7,
+          "baterias_energia": 2,
+          "vehiculos_energia": 2,
+          "inteligencia_artificial": 1,
+          "software_internet": 1
+        },
+        "entidades": [
+          "Huawei",
+          "Honor",
+          "OnePlus"
+        ],
+        "cifras_detectadas": [
+          "56 m"
+        ],
+        "content_type": "report",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 97,
+        "relevancia": 75,
+        "confiabilidad_fuente": 75,
+        "readability": {
+          "words": 160,
+          "sentences": 7,
+          "average_words_per_sentence": 22.86
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 82.7
+    },
+    {
+      "id": "fe59c069004eb8a8",
+      "fuente_id": "huawei_central",
+      "fuente_nombre": "Huawei Central",
+      "tipo": "rss_web",
+      "subtipo": "medio_especializado",
+      "grupo_fuente": "huawei",
+      "nivel_fuente": "secundaria_especializada",
+      "categoria": "moviles",
+      "idioma_original": "en",
+      "prioridad_fuente": 5,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Huawei y Qualcomm cierran un acuerdo de licencia de patentes de varios años para 5G e IA",
+      "titulo_original": "Huawei and Qualcomm lock multi-year patent licensing deal for 5G, AI",
+      "enlace": "https://www.huaweicentral.com/huawei-qualcomm-multi-year-patent-licensing-deal/",
+      "fecha": "2026-10-05T07:44:33.000Z",
+      "resumen_corto": "Huawei y Qualcomm anunciaron hoy un acuerdo de licencia de patentes de varios años, en el que ambas compañías brindarán acceso a las soluciones tecnológicas patentadas de la otra en 5G, redes e inteligencia artificial.",
+      "resumen_largo": "Huawei y Qualcomm anunciaron hoy un acuerdo de licencia de patentes de varios años, en el que ambas compañías brindarán acceso a las soluciones tecnológicas patentadas de la otra en 5G, redes e inteligencia artificial. Es un acuerdo amplio que desbloqueará nuevos avances en las comunicaciones móviles y otros campos relevantes. Según Huawei y Qualcomm, la nueva licencia de patente plurianual […] The post Huawei y Qualcomm cierran un acuerdo de licencia de patente plurianual para 5G, AI apareció por primera vez en Huawei Central.",
+      "texto_original": "Huawei and Qualcomm today announced a multi-year patent licensing deal, in which both companies will provide access to each other’s patented technology solutions across 5G, Networking, and AI. It is a broad agreement that will unlock new progress in mobile communications and other relevant fields. According to Huawei and Qualcomm, the new multi-year patent licensing […] The post Huawei and Qualcomm lock multi-year patent licensing deal for 5G, AI appeared first on Huawei Central .",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-10-05T08:35:13.768Z",
         "index": 3,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "en",
+        "categoria": "inteligencia_artificial",
+        "categorias_secundarias": [
+          "moviles",
+          "tecnologia",
+          "vehiculos_energia"
+        ],
+        "category_scores": {
+          "inteligencia_artificial": 4,
+          "moviles": 2,
+          "tecnologia": 2,
+          "vehiculos_energia": 1,
+          "software_internet": 1
+        },
+        "entidades": [
+          "Huawei",
+          "Qualcomm"
+        ],
+        "cifras_detectadas": [],
+        "content_type": "report",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 92,
+        "relevancia": 75,
+        "confiabilidad_fuente": 75,
+        "readability": {
+          "words": 161,
+          "sentences": 7,
+          "average_words_per_sentence": 23
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 80.95
+    },
+    {
+      "id": "914f9b9f29bf0bdf",
+      "fuente_id": "huawei_central",
+      "fuente_nombre": "Huawei Central",
+      "tipo": "rss_web",
+      "subtipo": "medio_especializado",
+      "grupo_fuente": "huawei",
+      "nivel_fuente": "secundaria_especializada",
+      "categoria": "moviles",
+      "idioma_original": "en",
+      "prioridad_fuente": 5,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Global Huawei MatePad Pro 13.2 PaperMatte obtiene nuevas mejoras de seguridad",
+      "titulo_original": "Global Huawei MatePad Pro 13.2 PaperMatte gets new security enhancements",
+      "enlace": "https://www.huaweicentral.com/global-huawei-matepad-pro-13-2-papermatte-gets-new-security-enhancements/",
+      "fecha": "2026-10-03T12:54:47.000Z",
+      "resumen_corto": "Huawei MatePad Pro 13.2 PaperMatte 2025 está recibiendo una nueva actualización de HarmonyOS en el mercado global con útiles mejoras de seguridad.",
+      "resumen_largo": "Huawei MatePad Pro 13.2 PaperMatte 2025 está recibiendo una nueva actualización de HarmonyOS en el mercado global con útiles mejoras de seguridad. La empresa está mejorando las defensas de la tableta contra el malware dañino, salvaguardando la seguridad de su sistema. Según el registro de cambios, la tableta Huawei MatePad Pro 13.2 PaperMatte está recibiendo nuevas mejoras de seguridad en forma de […] La publicación Global Huawei MatePad Pro 13.2 PaperMatte obtiene nuevas mejoras de seguridad apareció por primera vez en Huawei Central.",
+      "texto_original": "Huawei MatePad Pro 13.2 PaperMatte 2025 is receiving a new HarmonyOS update in the global market with useful security enhancements. The company is improving the tablet’s defenses against harmful malware, safeguarding its system security. According to the changelog, the Huawei MatePad Pro 13.2 PaperMatte tablet is getting new security enhancements in the form of the […] The post Global Huawei MatePad Pro 13.2 PaperMatte gets new security enhancements appeared first on Huawei Central .",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-10-05T08:35:13.785Z",
+        "index": 31,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "en",
+        "categoria": "moviles",
+        "categorias_secundarias": [
+          "software_internet",
+          "militar",
+          "inteligencia_artificial"
+        ],
+        "category_scores": {
+          "moviles": 5,
+          "software_internet": 3,
+          "militar": 3,
+          "inteligencia_artificial": 1,
+          "vehiculos_energia": 1
+        },
+        "entidades": [
+          "Huawei"
+        ],
+        "cifras_detectadas": [
+          "2025"
+        ],
+        "content_type": "report",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 97,
+        "relevancia": 70,
+        "confiabilidad_fuente": 75,
+        "readability": {
+          "words": 154,
+          "sentences": 16,
+          "average_words_per_sentence": 9.63
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 80.7
+    },
+    {
+      "id": "b9f3e4f01b54da2c",
+      "fuente_id": "bbc_mundo",
+      "fuente_nombre": "BBC Mundo",
+      "tipo": "rss_web",
+      "subtipo": "medio_generalista",
+      "grupo_fuente": "bbc",
+      "nivel_fuente": "medio_profesional",
+      "categoria": "actualidad",
+      "idioma_original": "es",
+      "prioridad_fuente": 5,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Pedro Sánchez convoca elecciones anticipadas tras el fracaso en el Congreso de sus decretos para enfrentar la crisis de la vivienda en España",
+      "titulo_original": "Pedro Sánchez convoca elecciones anticipadas tras el fracaso en el Congreso de sus decretos para enfrentar la crisis de la vivienda en España",
+      "enlace": "https://www.bbc.com/mundo/articles/crgj9408el84o?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-10-05T07:53:42.000Z",
+      "resumen_corto": "El anuncio de Sánchez se produce tras varios días de protestas en el país europeo, surgidas a raíz del desalojo de la anciana Maricarmen.",
+      "resumen_largo": "El anuncio de Sánchez se produce tras varios días de protestas en el país europeo, surgidas a raíz del desalojo de la anciana Maricarmen. Las elecciones se celebrarán el próximo 29 de noviembre.",
+      "texto_original": "El anuncio de Sánchez se produce tras varios días de protestas en el país europeo, surgidas a raíz del desalojo de la anciana Maricarmen. Las elecciones se celebrarán el próximo 29 de noviembre.",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-10-05T08:35:13.766Z",
+        "index": 2,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -60,22 +452,95 @@
         "idioma_original": "es",
         "categoria": "inteligencia_artificial",
         "categorias_secundarias": [
-          "vehiculos_energia",
-          "militar",
-          "actualidad"
+          "moviles",
+          "vehiculos_energia"
         ],
         "category_scores": {
           "inteligencia_artificial": 2,
-          "vehiculos_energia": 2,
-          "militar": 2,
+          "moviles": 2,
+          "vehiculos_energia": 1
+        },
+        "entidades": [],
+        "cifras_detectadas": [],
+        "content_type": "report",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 87,
+        "relevancia": 65,
+        "confiabilidad_fuente": 80,
+        "readability": {
+          "words": 85,
+          "sentences": 5,
+          "average_words_per_sentence": 17
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 76.45
+    },
+    {
+      "id": "75ef80e0d21524f1",
+      "fuente_id": "huawei_central",
+      "fuente_nombre": "Huawei Central",
+      "tipo": "rss_web",
+      "subtipo": "medio_especializado",
+      "grupo_fuente": "huawei",
+      "nivel_fuente": "secundaria_especializada",
+      "categoria": "moviles",
+      "idioma_original": "en",
+      "prioridad_fuente": 5,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "La evolución del chip Huawei Tau Law cubre teléfonos, inteligencia artificial y automóviles: presidente",
+      "titulo_original": "Huawei Tau Law chip evolution covers phones, AI, and cars: Chairman",
+      "enlace": "https://www.huaweicentral.com/huawei-tau-law-chip-evolution-covers-phones-ai-and-cars-chairman/",
+      "fecha": "2026-10-05T04:00:34.000Z",
+      "resumen_corto": "Mientras mostraba el Mate 90 Pro Max, impulsado por el chip Kirin 9050 Pro, el presidente de Huawei mencionó […] La publicación La evolución del chip Huawei Tau Law cubre teléfonos, inteligencia artificial y automóviles: el presidente apareció por primera vez en Huawei Central.",
+      "resumen_largo": "El presidente y director ejecutivo de la unidad de negocios de consumo de Huawei, Richard Yu, publicó recientemente un nuevo video en sus cuentas de redes sociales, que revela la importancia de la tecnología de chip Tau Scaling Law en la inteligencia artificial, los automóviles inteligentes y los teléfonos inteligentes. Mientras mostraba el Mate 90 Pro Max, impulsado por el chip Kirin 9050 Pro, el presidente de Huawei mencionó […] La publicación La evolución del chip Huawei Tau Law cubre teléfonos, inteligencia artificial y automóviles: el presidente apareció por primera vez en Huawei Central.",
+      "texto_original": "Huawei Consumer Business Group Unit Chairman and Executive Director, Richard Yu, has recently posted a new video on his social media accounts, revealing the significance of Tau Scaling Law chip technology in AI, smart cars, and smartphones. While showcasing the Mate 90 Pro Max, powered by the Kirin 9050 Pro chip, the Huawei Chairman mentioned […] The post Huawei Tau Law chip evolution covers phones, AI, and cars: Chairman appeared first on Huawei Central .",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-10-05T08:35:13.772Z",
+        "index": 9,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "en",
+        "categoria": "moviles",
+        "categorias_secundarias": [
+          "vehiculos_energia",
+          "inteligencia_artificial",
+          "tecnologia"
+        ],
+        "category_scores": {
+          "moviles": 7,
+          "vehiculos_energia": 6,
+          "inteligencia_artificial": 4,
+          "tecnologia": 4,
+          "semiconductores": 2,
           "actualidad": 2,
-          "moviles": 1
+          "software_internet": 1
         },
         "entidades": [
-          "BBC"
+          "Huawei"
         ],
         "cifras_detectadas": [
-          "2025"
+          "9050"
         ],
         "content_type": "news",
         "clickbait": {
@@ -91,11 +556,11 @@
         },
         "calidad": 89,
         "relevancia": 70,
-        "confiabilidad_fuente": 70,
+        "confiabilidad_fuente": 65,
         "readability": {
-          "words": 267,
-          "sentences": 17,
-          "average_words_per_sentence": 15.71
+          "words": 183,
+          "sentences": 5,
+          "average_words_per_sentence": 36.6
         },
         "duplicate": {
           "detected": false,
@@ -104,7 +569,7 @@
           "similar_to": null
         }
       },
-      "final_score": 76.65
+      "final_score": 75.4
     },
     {
       "id": "d688183b21716330",
@@ -128,8 +593,8 @@
       "texto_original": "A model guide for the GPT-6 family OpenAI",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-05T01:44:51.339Z",
-        "index": 31,
+        "processed_at": "2026-10-05T08:35:13.786Z",
+        "index": 37,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -175,72 +640,6 @@
       "final_score": 72.95
     },
     {
-      "id": "3195f361edc9d4aa",
-      "fuente_id": "ia_dia",
-      "fuente_nombre": "IA al Día",
-      "tipo": "rss_web",
-      "subtipo": "google_news",
-      "grupo_fuente": "ia_general",
-      "nivel_fuente": "agregador",
-      "categoria": "inteligencia_artificial",
-      "idioma_original": "es",
-      "prioridad_fuente": 3,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "Por qué los datos desmienten, por ahora, el apocalipsis laboral de la inteligencia artificial - EL PAÍS",
-      "titulo_original": "Por qué los datos desmienten, por ahora, el apocalipsis laboral de la inteligencia artificial - EL PAÍS",
-      "enlace": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOTFRSWk5IejZybHF4MHNYbzdCNzZmNEVWa1BGQ3FUREVvUDlGdzlnWDhNMk8ydnN0NWcwWmRocWVvQ2REX0k4MkNDUmRBVXdBakptSHRaOGF1dUtVeEZaY0FJZklmMGNfRGM5Zk5EaDc0bzdSclNkR3V2LXIxRU9QYzJPc1U5b1Nya2ljOVI3aFdkNGR4V2h3a2ZfZEhOZkdCazVIRTFrdXV0MGNUMC00emxfakc5aVJiOGlNMUpQTGFwZkY5S0hzSllHLTl0UQ?oc=5",
-      "fecha": "2026-10-04T04:55:00.000Z",
-      "resumen_corto": "Por qué los datos desmienten, por ahora, el apocalipsis laboral de la inteligencia artificial EL PAÍS",
-      "resumen_largo": "Por qué los datos desmienten, por ahora, el apocalipsis laboral de la inteligencia artificial EL PAÍS",
-      "texto_original": "Por qué los datos desmienten, por ahora, el apocalipsis laboral de la inteligencia artificial EL PAÍS",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-10-05T01:44:51.335Z",
-        "index": 21,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "es",
-        "categoria": "inteligencia_artificial",
-        "categorias_secundarias": [],
-        "category_scores": {
-          "inteligencia_artificial": 4
-        },
-        "entidades": [],
-        "cifras_detectadas": [],
-        "content_type": "report",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 83,
-        "relevancia": 65,
-        "confiabilidad_fuente": 63,
-        "readability": {
-          "words": 60,
-          "sentences": 1,
-          "average_words_per_sentence": 60
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 70.8
-    },
-    {
       "id": "23b7d8a5a866441d",
       "fuente_id": "openai_google",
       "fuente_nombre": "OpenAI",
@@ -256,14 +655,14 @@
       "titulo": "Comenzando con su punto - Centro de ayuda de OpenAI",
       "titulo_original": "Getting started with your dot - OpenAI Help Center",
       "enlace": "https://news.google.com/rss/articles/CBMif0FVX3lxTE13di0yRW0tMF9iS1NfZlFCUmVSNEZ6WEVka2U2TkVrMUI5Q0ROdUlrS0tER3NVa0d2eFBUTGdPVERXMXRlMmJET3FVaUxHWFhYOVZJamtBV1JqMGx0MzFKSUdrZmdZNmZPTF8weUdmNmFHdFNVTGNCdTY4QTVjOVE?oc=5",
-      "fecha": "2026-10-04T01:16:32.000Z",
+      "fecha": "2026-10-04T07:50:56.000Z",
       "resumen_corto": "Comenzando con su punto Centro de ayuda OpenAI",
       "resumen_largo": "Comenzando con su punto Centro de ayuda OpenAI",
       "texto_original": "Getting started with your dot OpenAI Help Center",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-05T01:44:51.335Z",
-        "index": 23,
+        "processed_at": "2026-10-05T08:35:13.783Z",
+        "index": 28,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -330,8 +729,8 @@
       "texto_original": "Preparing for a restart after reading Slack OpenAI Alignment Blog",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-05T01:44:51.338Z",
-        "index": 29,
+        "processed_at": "2026-10-05T08:35:13.786Z",
+        "index": 34,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -398,8 +797,8 @@
       "texto_original": "Chatham scales its capital markets expertise with OpenAI OpenAI",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-05T01:44:51.338Z",
-        "index": 30,
+        "processed_at": "2026-10-05T08:35:13.786Z",
+        "index": 36,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -457,17 +856,17 @@
       "prioridad_fuente": 5,
       "analizar": true,
       "resumir": true,
-      "titulo": "Serie Xiaomi MiMo-V2.6: 3 nuevos modelos lanzados oficialmente - mimo.mi.com",
-      "titulo_original": "Xiaomi MiMo-V2.6 Series: 3 New Models Officially Released - mimo.mi.com",
+      "titulo": "Serie Xiaomi MiMo-V2.6: 3 nuevos modelos lanzados oficialmente - Xiaomi MiMo",
+      "titulo_original": "Xiaomi MiMo-V2.6 Series: 3 New Models Officially Released - Xiaomi MiMo Home",
       "enlace": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBiYzVYcHVLZEk1RjFsQUc1UHM5bW5PMnZfVi1JY0ZUMWk1clhicVNCcXM1dDlrNFN2bkFFRFdxQmlHMDNpMEJEbngzTVdIZnBMNXM0SEFKdndMdw?oc=5",
       "fecha": "2026-09-21T20:51:04.000Z",
-      "resumen_corto": "Serie Xiaomi MiMo-V2.6: 3 nuevos modelos lanzados oficialmente mimo.mi.com",
-      "resumen_largo": "Serie Xiaomi MiMo-V2.6: 3 nuevos modelos lanzados oficialmente mimo.mi.com",
-      "texto_original": "Xiaomi MiMo-V2.6 Series: 3 New Models Officially Released mimo.mi.com",
+      "resumen_corto": "Serie Xiaomi MiMo-V2.6: 3 nuevos modelos lanzados oficialmente Xiaomi MiMo",
+      "resumen_largo": "Serie Xiaomi MiMo-V2.6: 3 nuevos modelos lanzados oficialmente Xiaomi MiMo",
+      "texto_original": "Xiaomi MiMo-V2.6 Series: 3 New Models Officially Released Xiaomi MiMo Home",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-05T01:44:51.341Z",
-        "index": 36,
+        "processed_at": "2026-10-05T08:35:13.788Z",
+        "index": 42,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -504,9 +903,9 @@
         "relevancia": 55,
         "confiabilidad_fuente": 75,
         "readability": {
-          "words": 45,
-          "sentences": 16,
-          "average_words_per_sentence": 2.81
+          "words": 47,
+          "sentences": 6,
+          "average_words_per_sentence": 7.83
         },
         "duplicate": {
           "detected": false,
@@ -539,8 +938,8 @@
       "texto_original": "User Orders AMD Ryzen 7 9850X3D Twice From Amazon, Receives Intel Core i3 Twice Despite Both Boxes Being Sealed Pack Wccftech",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-05T01:44:51.327Z",
-        "index": 9,
+        "processed_at": "2026-10-05T08:35:13.778Z",
+        "index": 19,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -614,8 +1013,8 @@
       "texto_original": "Delante de mí, en la fila para entrar a la Tate Modern en Londres, había una mujer con unos zarcillos que tenían el rostro de Frida Kahlo pintado, así como un bolso en el que se repetía la imagen . Estaba muy a tono para la ocasión: hay una gran exposición de la artista mexicana en la galería. Pero yo había ido a ver, por primera vez, la obra de otra latinoamericana, una cubana-estadounidense que, tanto literal como figurativamente, dejó su huella en el arte contemporáneo. Ana Mendieta nació en 1948 en una Cuba que era el sueño de algunos, pero no el de otros, y cuando en 1959 la Revolución les cambió la vida a todos, sus padres la enviaron con su hermana a Estados Unidos. Tenía 12 años, los suficientes como para intuirse como persona, pero le faltaban varios para definirse, y esos los pasó sin sus padres, en orfanatos y hogares de acogida en Iowa. De ese brusco contraste de una vida privilegiada rodeada de su familia en la isla caribeña, a otra solo con su hermana entre praderas sin olas e inviernos desconocidos, surgió una artista.",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-05T01:44:51.326Z",
-        "index": 8,
+        "processed_at": "2026-10-05T08:35:13.778Z",
+        "index": 18,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -669,83 +1068,6 @@
       "final_score": 69.7
     },
     {
-      "id": "065b9b2559d7df8c",
-      "fuente_id": "google_news_es",
-      "fuente_nombre": "Google News ES",
-      "tipo": "rss_web",
-      "subtipo": "google_news",
-      "grupo_fuente": "google_news",
-      "nivel_fuente": "agregador",
-      "categoria": "tecnologia",
-      "idioma_original": "es",
-      "prioridad_fuente": 3,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "¡Buenas noticias para los jugadores de PC! Microsoft tiene lista una tecnología que beneficiará a los dueños de una GPU de NVIDIA - 3DJuegos",
-      "titulo_original": "¡Buenas noticias para los jugadores de PC! Microsoft tiene lista una tecnología que beneficiará a los dueños de una GPU de NVIDIA - 3DJuegos",
-      "enlace": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOckNJcGFpUEpCTzZ4UmxXbzNCMGRKT0xNX2JDQXR1UURSWk5ZV3RjVEMzQ09jU0RnZmxVSVlVeE83QS1HUXF1WGdNaU1zdGNpVmRLOGhpaXVUS0h6SDJJN0FXNnRsRmZ1S0IwUjZNQ0NvWkswZFhyUk9waFdSVGJSVXNGTlIwWW9kUVhtalVXTnNVYVNpd01LUzJuWHNYWlY3Zlk2dVBPUmkwbkx4WDhhRkxtbnFEMVJnWkRBVUFVMkhuU1o5WTR2MjhPLWtJS0x6YUd1Nkd30gHbAUFVX3lxTE1sTzN4dW9yR0kwcmRpOEE5TEplYU9Qc1FiV2VLYkVaZ3I0ZlhZSUJkblozYjExX3FOYkR5S2dtbVUtek9jZjdUNmdQTFU4NzR4T1BRdkZIOU14cFZyZTV5dzE5UldMZzdTalVnYnZ4ejFOLUpGRkduMXVTbmRuWEhBM0FyY0ZraVE3YmF5Y1poQ0lTdGUzVmtxbUtSZFVWWkQ2Ul9TbWJudFVrYmZORjNuNEcyMWVNcjk2dTJZUUViT2l1SHBjU0JObVpnWEkxT3FqU18xNGdLalUwcw?oc=5",
-      "fecha": "2026-10-03T18:46:32.000Z",
-      "resumen_corto": "Microsoft tiene lista una tecnología que beneficiará a los dueños de una GPU de NVIDIA 3DJuegos",
-      "resumen_largo": "¡Buenas noticias para los jugadores de PC! Microsoft tiene lista una tecnología que beneficiará a los dueños de una GPU de NVIDIA 3DJuegos",
-      "texto_original": "¡Buenas noticias para los jugadores de PC! Microsoft tiene lista una tecnología que beneficiará a los dueños de una GPU de NVIDIA 3DJuegos",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-10-05T01:44:51.336Z",
-        "index": 24,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "es",
-        "categoria": "tecnologia",
-        "categorias_secundarias": [
-          "inteligencia_artificial",
-          "semiconductores",
-          "hardware"
-        ],
-        "category_scores": {
-          "tecnologia": 2,
-          "inteligencia_artificial": 1,
-          "semiconductores": 1,
-          "hardware": 1,
-          "actualidad": 1
-        },
-        "entidades": [
-          "Microsoft",
-          "NVIDIA"
-        ],
-        "cifras_detectadas": [],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 80,
-        "relevancia": 67,
-        "confiabilidad_fuente": 53,
-        "readability": {
-          "words": 85,
-          "sentences": 5,
-          "average_words_per_sentence": 17
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 68.05
-    },
-    {
       "id": "3602726b87d82299",
       "fuente_id": "bbc_mundo",
       "fuente_nombre": "BBC Mundo",
@@ -761,14 +1083,14 @@
       "titulo": "Elecciones en Brasil: Flávio Bolsonaro y Lula da Silva van a una segunda vuelta en la que el presidente enfrenta una difícil remontada",
       "titulo_original": "Elecciones en Brasil: Flávio Bolsonaro y Lula da Silva van a una segunda vuelta en la que el presidente enfrenta una difícil remontada",
       "enlace": "https://www.bbc.com/mundo/articles/c62e9knnnnnro?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-10-05T01:39:37.000Z",
+      "fecha": "2026-10-05T07:14:25.000Z",
       "resumen_corto": "La mayor democracia de América Latina irá a balotaje el 25 de octubre.",
-      "resumen_largo": "La mayor democracia de América Latina irá a balotaje el 25 de octubre. Lula lleva la desventaja frente a Bolsonaro ya que históricamente nunca hubo una remontada en una segunda vuelta electoral en Brasil.",
-      "texto_original": "La mayor democracia de América Latina irá a balotaje el 25 de octubre. Lula lleva la desventaja frente a Bolsonaro ya que históricamente nunca hubo una remontada en una segunda vuelta electoral en Brasil.",
+      "resumen_largo": "La mayor democracia de América Latina irá a balotaje el 25 de octubre. Lula lleva la desventaja frente a Bolsonaro, ya que históricamente nunca hubo una remontada en una segunda vuelta electoral en Brasil.",
+      "texto_original": "La mayor democracia de América Latina irá a balotaje el 25 de octubre. Lula lleva la desventaja frente a Bolsonaro, ya que históricamente nunca hubo una remontada en una segunda vuelta electoral en Brasil.",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-05T01:44:51.316Z",
-        "index": 0,
+        "processed_at": "2026-10-05T08:35:13.769Z",
+        "index": 5,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -838,8 +1160,8 @@
       "texto_original": "Hace dos décadas, Helen Roberts se reunió con Christa Pike, una reclusa condenada a muerte en el estado de Tennessee, para comprender a la mujer detrás del brutal asesinato de Colleen Slemmer. A sus 30 años, Pike había cumplido 11 años en el corredor de la muerte y era la mujer más joven en recibir esa pena en EE.UU. cuando Roberts la entrevistó como editora de una revista de estilo de vida femenina. Pike, que ahora tiene 50 años, se enfrentó el miércoles a su tan esperada ejecución, pero sobrevivió a dos dosis letales de pentobarbital y permanece en estado crítico. Roberts, que ha estado siguiendo de cerca los acontecimientos, reflexionó sobre su conflictivo encuentro con Pike y cómo este la había marcado tanto como periodista y como persona. \"A veces me resultaba muy difícil conciliar la imagen de la mujer que tenía delante con el crimen que había cometido\", dijo. \"Eran como dos personas completamente distintas; no podía imaginar que la persona que conocí pudiera ser tan terriblemente violenta\", aseveró.",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-05T01:44:51.331Z",
-        "index": 15,
+        "processed_at": "2026-10-05T08:35:13.782Z",
+        "index": 25,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -888,118 +1210,53 @@
       "final_score": 67.95
     },
     {
-      "id": "898dbe2c1163ac57",
-      "fuente_id": "bbc_mundo",
-      "fuente_nombre": "BBC Mundo",
-      "tipo": "rss_web",
-      "subtipo": "medio_generalista",
-      "grupo_fuente": "bbc",
-      "nivel_fuente": "medio_profesional",
-      "categoria": "actualidad",
-      "idioma_original": "es",
-      "prioridad_fuente": 5,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "Por qué cada vez que barajas cartas el resultado es un acontecimiento sin precedentes en la historia del universo",
-      "titulo_original": "Por qué cada vez que barajas cartas el resultado es un acontecimiento sin precedentes en la historia del universo",
-      "enlace": "https://www.bbc.com/mundo/articles/cwe875041vjjo?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-10-04T09:16:47.000Z",
-      "resumen_corto": "A veces, algo que parece sencillo se vuelve asombroso apenas empiezas a hacer cuentas.",
-      "resumen_largo": "Los números no dejan de sorprendernos. A veces, algo que parece sencillo se vuelve asombroso apenas empiezas a hacer cuentas. O, en este caso, a barajar unas cuantas cartas.",
-      "texto_original": "Los números no dejan de sorprendernos. A veces, algo que parece sencillo se vuelve asombroso apenas empiezas a hacer cuentas. O, en este caso, a barajar unas cuantas cartas. \"Es bien sabido que, si barajas una baraja de cartas, acabarás con una combinación que probablemente nunca antes se había dado\", explicó Matt Parker, divulgador de matemáticas y cómico, en su pódcast A Problem Squared . \"Hay tantísimas formas distintas de ordenar 52 naipes que la probabilidad de que a otra persona le haya salido exactamente la misma es, en la práctica, cero\", añadió. ¿Será realmente cierto? ¿De verdad se pueden barajar unas meras 52 cartas de tantas maneras que cada vez que lo hacemos obtenemos una combinación única? \"Cuando dije eso no me di cuenta de cuán contundente era esa afirmación, pero estoy aquí para defenderla\", respondió, aceptando el desafío. Llegó con baraja en mano y la barajó más de una vez, \"hasta que podamos decir que el orden es completamente aleatorio\".",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-10-05T01:44:51.333Z",
-        "index": 18,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "es",
-        "categoria": "inteligencia_artificial",
-        "categorias_secundarias": [
-          "moviles",
-          "vehiculos_energia"
-        ],
-        "category_scores": {
-          "inteligencia_artificial": 2,
-          "moviles": 1,
-          "vehiculos_energia": 1
-        },
-        "entidades": [],
-        "cifras_detectadas": [],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 79,
-        "relevancia": 57,
-        "confiabilidad_fuente": 70,
-        "readability": {
-          "words": 178,
-          "sentences": 13,
-          "average_words_per_sentence": 13.69
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 67.95
-    },
-    {
-      "id": "2e36a52e8c855bba",
-      "fuente_id": "ia_dia",
-      "fuente_nombre": "IA al Día",
+      "id": "4437ff5915fc7ba5",
+      "fuente_id": "wccftech_google",
+      "fuente_nombre": "Wccftech",
       "tipo": "rss_web",
       "subtipo": "google_news",
-      "grupo_fuente": "ia_general",
-      "nivel_fuente": "agregador",
-      "categoria": "inteligencia_artificial",
-      "idioma_original": "es",
-      "prioridad_fuente": 3,
+      "grupo_fuente": "wccftech",
+      "nivel_fuente": "medio_especializado",
+      "categoria": "hardware",
+      "idioma_original": "en",
+      "prioridad_fuente": 4,
       "analizar": true,
       "resumir": true,
-      "titulo": "Apple e inteligencia artificial: integrar, no construir - Yahoo",
-      "titulo_original": "Apple e inteligencia artificial: integrar, no construir - Yahoo",
-      "enlace": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNUjhpRFhjSEROd3hkdXl6bmFDOU01SnJKTk85dDZLYXZQSVB1azdlUkN2T2pyYnVrMmNwTm82Qk9iN2ZoN2hyOXNRMmpyZGY3S015T0lacTR0MzRtaGg4MlBCNU5DU2Y1MExkcnJjZnFUdmpMalZ6VDVYNkhQM2VHenBfWGRXdkVsd2lVTU1mbC1zXy0xR3FDd2tmZjVPQWFwR1pV?oc=5",
-      "fecha": "2026-10-04T04:10:00.000Z",
-      "resumen_corto": "Apple e inteligencia artificial: integrar, no construir Yahoo",
-      "resumen_largo": "Apple e inteligencia artificial: integrar, no construir Yahoo",
-      "texto_original": "Apple e inteligencia artificial: integrar, no construir Yahoo",
+      "titulo": "Aparece en línea una muestra rara e inédita de AMD Ryzen 9 5900X3D con 128 MB de caché L3 y solo un chiplet 3D V-Cache",
+      "titulo_original": "Rare And Unreleased AMD Ryzen 9 5900X3D Sample Surfaces Online With 128 MB L3 Cache And Only One 3D V-Cache Chiplet - Wccftech",
+      "enlace": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPZlJUVC1wUE5PVnRXOXd4N1BLbTVpclp2RUZYM29IS3JRYkt0dzA0SG0yV1JieTF6NGFkV0hvZzZENVYtTjBwa3E2WFY1MGNRV1JuTVRFbUlXZ09weUVsSmEtOUh4aGRvZDN1OWVRcFN2U1laamdiS0lKdDZuN2ZOTGNjdHBTNngxM2VURVBnaU80V2o4LWdueXZhbW45VUo3ZWlTbGFYemXSAa4BQVVfeXFMUDI2TDhNR3ljWHUzVUVLZ2RGT3Npd2lmX1U0SXFJSlhvOXZ0ZW9KZlNjYjV3SjRvYklFblNwZDY2YkpwanljT3VjUkZsUnUwRURXUGdyTjRRNE9Ub1c3cnhxdTA3b0JpNnh0VGhVZ3RrbFJhTFhGaDJCU0ZpcVA3bzlkWDFqR1c4QnNyaU5EckVaT2hDWWtlR0hHUGFFYXNfSWNXYmpHV09XS3FPTEl3?oc=5",
+      "fecha": "2026-10-02T15:04:53.000Z",
+      "resumen_corto": "Aparece en línea una muestra rara e inédita de AMD Ryzen 9 5900X3D con 128 MB de caché L3 y solo un chiplet 3D V-Cache Wccftech",
+      "resumen_largo": "Aparece en línea una muestra rara e inédita de AMD Ryzen 9 5900X3D con 128 MB de caché L3 y solo un chiplet 3D V-Cache Wccftech",
+      "texto_original": "Rare And Unreleased AMD Ryzen 9 5900X3D Sample Surfaces Online With 128 MB L3 Cache And Only One 3D V-Cache Chiplet Wccftech",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-05T01:44:51.335Z",
-        "index": 22,
+        "processed_at": "2026-10-05T08:35:13.787Z",
+        "index": 39,
         "resumen": {
           "generado": true,
           "origen": "translated"
         },
         "idioma_detectado": "es",
-        "idioma_original": "es",
-        "categoria": "inteligencia_artificial",
+        "idioma_original": "en",
+        "categoria": "semiconductores",
         "categorias_secundarias": [
-          "software_internet"
+          "hardware",
+          "tecnologia"
         ],
         "category_scores": {
-          "inteligencia_artificial": 3,
-          "software_internet": 1
+          "semiconductores": 1,
+          "hardware": 1,
+          "tecnologia": 1
         },
         "entidades": [
-          "Apple"
+          "AMD",
+          "Wccftech"
         ],
-        "cifras_detectadas": [],
+        "cifras_detectadas": [
+          "5900",
+          "128 MB"
+        ],
         "content_type": "news",
         "clickbait": {
           "detected": false,
@@ -1012,13 +1269,13 @@
           "signals": [],
           "url_count": 0
         },
-        "calidad": 80,
-        "relevancia": 62,
-        "confiabilidad_fuente": 53,
+        "calidad": 87,
+        "relevancia": 60,
+        "confiabilidad_fuente": 50,
         "readability": {
-          "words": 30,
+          "words": 83,
           "sentences": 1,
-          "average_words_per_sentence": 30
+          "average_words_per_sentence": 83
         },
         "duplicate": {
           "detected": false,
@@ -1027,7 +1284,7 @@
           "similar_to": null
         }
       },
-      "final_score": 66.05
+      "final_score": 66.95
     },
     {
       "id": "578551d16f9746ca",
@@ -1051,8 +1308,8 @@
       "texto_original": "Ya en Action (y rebajada por tiempo limitado) la batería externa Philips de gran capacidad para cargar varios dispositivos Xataka",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-05T01:44:51.323Z",
-        "index": 4,
+        "processed_at": "2026-10-05T08:35:13.776Z",
+        "index": 16,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -1127,8 +1384,8 @@
       "texto_original": "New SCSKiller Tool Targets PC Shader Compilation Stutter; Our FINAL FANTASY VII REBIRTH Test Shows Impressive Results Wccftech",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-05T01:44:51.332Z",
-        "index": 17,
+        "processed_at": "2026-10-05T08:35:13.783Z",
+        "index": 27,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -1179,78 +1436,6 @@
       "final_score": 66
     },
     {
-      "id": "666097db7f893e98",
-      "fuente_id": "huawei_google",
-      "fuente_nombre": "Huawei Central",
-      "tipo": "rss_web",
-      "subtipo": "google_news",
-      "grupo_fuente": "huawei",
-      "nivel_fuente": "agregador",
-      "categoria": "moviles",
-      "idioma_original": "en",
-      "prioridad_fuente": 4,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "Honor revela el factor detrás del bajo stock de modelos de la serie Magic 9",
-      "titulo_original": "Honor reveals factor behind low stock of Magic 9 series models - Huawei Central",
-      "enlace": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPYjNyV2dXU3lDc2owRVlhY2psUGVOZ0MxTHYzQUxVOFZiaUhFSlNvSkt3U01TNENLLWlqdkw1RmtReDJBQ2xRaU5mem1SbUpiNVgwa0NYaFE3MHVfT0cza0hOZ19lUDU1MU54TVE5WGlPVi00R3lXZW9Ma2lzTUxlMjdsNC11UUExd0dxNVdNZ09HZzJfTUZwb9IBngFBVV95cUxONVRaTjVVYXVXY082aEVRRGNUOHRRTkpUSkgyME9zdGRjZXBreGdXN2FZVEgxcFpONk1YMUxVVUFBaHk3NnNHQ2d4WHpENC1yazhRRGU4RThuREJsMF9KRWZWeTJVdDk0S3BsZ0NpNXJMYlpiWFE2OEItTWMzUV9hemFDQkUyTXdsYXBZU3dlOU9PbnhJMldXWG81MjFBZw?oc=5",
-      "fecha": "2026-10-03T12:23:35.000Z",
-      "resumen_corto": "Honor revela el factor detrás del bajo stock de modelos de la serie Magic 9 Huawei Central",
-      "resumen_largo": "Honor revela el factor detrás del bajo stock de modelos de la serie Magic 9 Huawei Central",
-      "texto_original": "Honor reveals factor behind low stock of Magic 9 series models Huawei Central",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-10-05T01:44:51.337Z",
-        "index": 27,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "en",
-        "categoria": "moviles",
-        "categorias_secundarias": [
-          "vehiculos_energia"
-        ],
-        "category_scores": {
-          "moviles": 2,
-          "vehiculos_energia": 1
-        },
-        "entidades": [
-          "Huawei",
-          "Honor"
-        ],
-        "cifras_detectadas": [],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 82,
-        "relevancia": 60,
-        "confiabilidad_fuente": 53,
-        "readability": {
-          "words": 56,
-          "sentences": 1,
-          "average_words_per_sentence": 56
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 65.95
-    },
-    {
       "id": "8863c41f79864a02",
       "fuente_id": "huawei_google",
       "fuente_nombre": "Huawei Central",
@@ -1263,17 +1448,17 @@
       "prioridad_fuente": 4,
       "analizar": true,
       "resumir": true,
-      "titulo": "Huawei responde al problema del filtro de 62 mm de la cámara Ruiying Z10",
-      "titulo_original": "Huawei responds to Ruiying Z10 camera 62mm filter issue - Huawei Central",
+      "titulo": "Huawei responde al problema del filtro de 62 mm de la cámara Ruiying Z10 - huaweicentral.com",
+      "titulo_original": "Huawei responds to Ruiying Z10 camera 62mm filter issue - huaweicentral.com",
       "enlace": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNZGJ2ZENLZFlrbUY3ME9KWERxNnl1RldWclZ6d1I0UFhxbEVjVzM4Rm9DZXIxZUhnWDRSYzV4WUtGS1FrWXRPZUlHUFVOOHBYRmNOeFdUWEZXcl9fQ0FrWUZZSTVVTElhX1cxX0prcmszTHExX1FKTzhERmZ5cmxqLW1qLWUwa3NBSmFYQjBxZ9IBlAFBVV95cUxOZnNhY0J2VDJ1OE8tRkN5T3dUeVhSbGVOVTVNMmVoaUdSZTY0VElIblRPRVo1cGNZc0RFb3lLMkp4QXF0VUlRVC1vRGtaUTVvUnV4MWYxbmdIRzkzWmxLSUhhblpfWGlBc1NPT3h5eGJ6R1VkVkVYNUhPSzNPQXA5SWx1MmJ4RWJ3UHVUZjlUdFZCaUJ3?oc=5",
       "fecha": "2026-10-03T10:23:01.000Z",
-      "resumen_corto": "Huawei responde al problema del filtro de 62 mm de la cámara Ruiying Z10 Huawei Central",
-      "resumen_largo": "Huawei responde al problema del filtro de 62 mm de la cámara Ruiying Z10 Huawei Central",
-      "texto_original": "Huawei responds to Ruiying Z10 camera 62mm filter issue Huawei Central",
+      "resumen_corto": "Huawei responde al problema del filtro de 62 mm de la cámara Ruiying Z10 huaweicentral.com",
+      "resumen_largo": "Huawei responde al problema del filtro de 62 mm de la cámara Ruiying Z10 huaweicentral.com",
+      "texto_original": "Huawei responds to Ruiying Z10 camera 62mm filter issue huaweicentral.com",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-05T01:44:51.337Z",
-        "index": 28,
+        "processed_at": "2026-10-05T08:35:13.785Z",
+        "index": 33,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -1308,9 +1493,9 @@
         "relevancia": 55,
         "confiabilidad_fuente": 53,
         "readability": {
-          "words": 48,
-          "sentences": 1,
-          "average_words_per_sentence": 48
+          "words": 50,
+          "sentences": 6,
+          "average_words_per_sentence": 8.33
         },
         "duplicate": {
           "detected": false,
@@ -1334,17 +1519,17 @@
       "prioridad_fuente": 4,
       "analizar": true,
       "resumir": true,
-      "titulo": "Huawei Mate 90 Pro Max ingresa a Geekbench 7 y revela el rendimiento de Kirin 9050 Pro",
-      "titulo_original": "Huawei Mate 90 Pro Max enters Geekbench 7, reveals Kirin 9050 Pro performance - Huawei Central",
+      "titulo": "Huawei Mate 90 Pro Max ingresa a Geekbench 7 y revela el rendimiento de Kirin 9050 Pro - huaweicentral.com",
+      "titulo_original": "Huawei Mate 90 Pro Max enters Geekbench 7, reveals Kirin 9050 Pro performance - huaweicentral.com",
       "enlace": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBLSjBubDFoaGh3Mjdkbk1BRjRVN09RYWJ6TjhPS3BJS3libkVxM2RleTVmMFJKa1lnMGUxbkFYQ3BWSUE5U1JrbzBnRGlpUWpMOVM2UU9VU05TbEx1SVFuc05nYlluUWZHUi1iQWpzNNIBdEFVX3lxTE01aFY0ZTg0UDNlYVo4ZG13N2RQbHJLMXVQV1RkcnBPWmFRZnJXXzR0UlhOcTl1QkdHVjFUSDVqck9LRGRVdjFEUF9BdnN4SnNvdWRyRDlINld5TzJ3OFhEalE3RDVkMlFvNUtkMmpkT3R1SklZ?oc=5",
       "fecha": "2026-10-02T10:37:59.000Z",
-      "resumen_corto": "Huawei Mate 90 Pro Max ingresa a Geekbench 7 y revela el rendimiento del Kirin 9050 Pro Huawei Central",
-      "resumen_largo": "Huawei Mate 90 Pro Max ingresa a Geekbench 7 y revela el rendimiento del Kirin 9050 Pro Huawei Central",
-      "texto_original": "Huawei Mate 90 Pro Max enters Geekbench 7, reveals Kirin 9050 Pro performance Huawei Central",
+      "resumen_corto": "Huawei Mate 90 Pro Max ingresa a Geekbench 7 y revela el rendimiento del Kirin 9050 Pro huaweicentral.com",
+      "resumen_largo": "Huawei Mate 90 Pro Max ingresa a Geekbench 7 y revela el rendimiento del Kirin 9050 Pro huaweicentral.com",
+      "texto_original": "Huawei Mate 90 Pro Max enters Geekbench 7, reveals Kirin 9050 Pro performance huaweicentral.com",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-05T01:44:51.339Z",
-        "index": 33,
+        "processed_at": "2026-10-05T08:35:13.788Z",
+        "index": 40,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -1381,9 +1566,9 @@
         "relevancia": 55,
         "confiabilidad_fuente": 53,
         "readability": {
-          "words": 65,
-          "sentences": 1,
-          "average_words_per_sentence": 65
+          "words": 67,
+          "sentences": 6,
+          "average_words_per_sentence": 11.17
         },
         "duplicate": {
           "detected": false,
@@ -1407,17 +1592,17 @@
       "prioridad_fuente": 4,
       "analizar": true,
       "resumir": true,
-      "titulo": "Huawei ya muestra modelos Mate 90 en tiendas fuera de línea",
-      "titulo_original": "Huawei already displaying Mate 90 models at offline stores - Huawei Central",
+      "titulo": "Huawei ya muestra modelos Mate 90 en tiendas fuera de línea - huaweicentral.com",
+      "titulo_original": "Huawei already displaying Mate 90 models at offline stores - huaweicentral.com",
       "enlace": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQYWpqeUJpLUNmSmJPTWQ0Tmdkdmp3S3JFQU1JY0xoSU5UMVlmNW95TG5nNkdBV2ptTEVXTlhCZDZtUzFJSEhIQWZoZG9YQlpIbFF3RWpHUjlRWUotNjUwYWRVMFc3RGM0UU9qdzk0cnF4eWQwWGN5d2JCLUh3MGVXMm1mcndpSjFNdTRfNm1iTW51NjTSAZgBQVVfeXFMT3NKNVdUR2l2dm5vRkhBbDByR3hNdUZWREFnS2NpQmdTRElVMlZxbUlRcmFqeDEwYTlWdl9XU0R6YWxqMjZyM1FDZUo5cnNSQWxOQTY3NEcwRkc1cG01cWZQbzktcXY5bjRVUVRqemRUc0hzSklmMUU4bzhnUXlrbjJERWhITzVwckgtU3NEU3BkWGVQMXF1WFg?oc=5",
       "fecha": "2026-09-29T07:57:45.000Z",
-      "resumen_corto": "Huawei ya muestra modelos Mate 90 en tiendas offline Huawei Central",
-      "resumen_largo": "Huawei ya muestra modelos Mate 90 en tiendas offline Huawei Central",
-      "texto_original": "Huawei already displaying Mate 90 models at offline stores Huawei Central",
+      "resumen_corto": "Huawei ya muestra modelos Mate 90 en tiendas fuera de línea huaweicentral.com",
+      "resumen_largo": "Huawei ya muestra modelos Mate 90 en tiendas fuera de línea huaweicentral.com",
+      "texto_original": "Huawei already displaying Mate 90 models at offline stores huaweicentral.com",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-05T01:44:51.340Z",
-        "index": 35,
+        "processed_at": "2026-10-05T08:35:13.788Z",
+        "index": 41,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -1454,9 +1639,9 @@
         "relevancia": 55,
         "confiabilidad_fuente": 53,
         "readability": {
-          "words": 41,
-          "sentences": 1,
-          "average_words_per_sentence": 41
+          "words": 45,
+          "sentences": 6,
+          "average_words_per_sentence": 7.5
         },
         "duplicate": {
           "detected": false,
@@ -1489,8 +1674,8 @@
       "texto_original": "En 2013 un ingeniero indio construyó un glaciar artificial en uno de los desiertos más áridos de la Tierra. 13 años después, la agricultura vive de su invento Xataka",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-05T01:44:51.330Z",
-        "index": 14,
+        "processed_at": "2026-10-05T08:35:13.781Z",
+        "index": 24,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -1559,8 +1744,8 @@
       "texto_original": "RTX 4090 Founders Edition Owner Says A Heatsink Piece Fell Off After Moving His PC Wccftech",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-05T01:44:51.339Z",
-        "index": 32,
+        "processed_at": "2026-10-05T08:35:13.787Z",
+        "index": 38,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -1613,7 +1798,232 @@
       "final_score": 64.95
     },
     {
-      "id": "bdef47123814ee69",
+      "id": "666097db7f893e98",
+      "fuente_id": "huawei_google",
+      "fuente_nombre": "Huawei Central",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "huawei",
+      "nivel_fuente": "agregador",
+      "categoria": "moviles",
+      "idioma_original": "en",
+      "prioridad_fuente": 4,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Honor revela el factor detrás del bajo stock de modelos de la serie Magic 9 - huaweicentral.com",
+      "titulo_original": "Honor reveals factor behind low stock of Magic 9 series models - huaweicentral.com",
+      "enlace": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPYjNyV2dXU3lDc2owRVlhY2psUGVOZ0MxTHYzQUxVOFZiaUhFSlNvSkt3U01TNENLLWlqdkw1RmtReDJBQ2xRaU5mem1SbUpiNVgwa0NYaFE3MHVfT0cza0hOZ19lUDU1MU54TVE5WGlPVi00R3lXZW9Ma2lzTUxlMjdsNC11UUExd0dxNVdNZ09HZzJfTUZwb9IBngFBVV95cUxONVRaTjVVYXVXY082aEVRRGNUOHRRTkpUSkgyME9zdGRjZXBreGdXN2FZVEgxcFpONk1YMUxVVUFBaHk3NnNHQ2d4WHpENC1yazhRRGU4RThuREJsMF9KRWZWeTJVdDk0S3BsZ0NpNXJMYlpiWFE2OEItTWMzUV9hemFDQkUyTXdsYXBZU3dlOU9PbnhJMldXWG81MjFBZw?oc=5",
+      "fecha": "2026-10-03T12:23:35.000Z",
+      "resumen_corto": "Honor revela el factor detrás del bajo stock de modelos de la serie Magic 9 huaweicentral.com",
+      "resumen_largo": "Honor revela el factor detrás del bajo stock de modelos de la serie Magic 9 huaweicentral.com",
+      "texto_original": "Honor reveals factor behind low stock of Magic 9 series models huaweicentral.com",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-10-05T08:35:13.785Z",
+        "index": 32,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "en",
+        "categoria": "moviles",
+        "categorias_secundarias": [
+          "vehiculos_energia"
+        ],
+        "category_scores": {
+          "moviles": 2,
+          "vehiculos_energia": 1
+        },
+        "entidades": [
+          "Honor"
+        ],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 82,
+        "relevancia": 55,
+        "confiabilidad_fuente": 53,
+        "readability": {
+          "words": 58,
+          "sentences": 6,
+          "average_words_per_sentence": 9.67
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 63.95
+    },
+    {
+      "id": "4f18d168d97e2acb",
+      "fuente_id": "huawei_central",
+      "fuente_nombre": "Huawei Central",
+      "tipo": "rss_web",
+      "subtipo": "medio_especializado",
+      "grupo_fuente": "huawei",
+      "nivel_fuente": "secundaria_especializada",
+      "categoria": "moviles",
+      "idioma_original": "en",
+      "prioridad_fuente": 5,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "La eficiencia energética del Huawei Mate 90 Pro Max es mejor que la de los modelos Snapdragon 8 Elite Gen 5: Informe",
+      "titulo_original": "Huawei Mate 90 Pro Max power efficiency is better than Snapdragon 8 Elite Gen 5 models: Report",
+      "enlace": "https://www.huaweicentral.com/huawei-mate-90-pro-max-power-efficiency/",
+      "fecha": "2026-10-05T05:28:37.000Z",
+      "resumen_corto": "Huawei Mate 90 Pro Max está equipado con el chipset Kirin 9050 Pro, que no sólo mejora el rendimiento sino también la eficiencia energética.",
+      "resumen_largo": "Huawei Mate 90 Pro Max está equipado con el chipset Kirin 9050 Pro, que no sólo mejora el rendimiento sino también la eficiencia energética. Un nuevo informe ha revelado que el teléfono insignia es incluso mejor que muchos teléfonos Snapdragon 8 Elite Gen 5 en lo que respecta a eficiencia y experiencia de juego. GeekBay: una revisión del dispositivo […] La publicación La eficiencia energética del Huawei Mate 90 Pro Max es mejor que los modelos Snapdragon 8 Elite Gen 5: el informe apareció por primera vez en Huawei Central.",
+      "texto_original": "Huawei Mate 90 Pro Max is equipped with the Kirin 9050 Pro chipset, which not only improves performance but also power efficiency. A new report has revealed that the flagship phone is even better than many Snapdragon 8 Elite Gen 5 handsets when it comes to gaming efficiency and experience. GeekBay – a device review […] The post Huawei Mate 90 Pro Max power efficiency is better than Snapdragon 8 Elite Gen 5 models: Report appeared first on Huawei Central .",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-10-05T08:35:13.771Z",
+        "index": 8,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "en",
+        "categoria": "moviles",
+        "categorias_secundarias": [
+          "tecnologia",
+          "semiconductores",
+          "inteligencia_artificial"
+        ],
+        "category_scores": {
+          "moviles": 5,
+          "tecnologia": 3,
+          "semiconductores": 2,
+          "inteligencia_artificial": 1,
+          "vehiculos_energia": 1,
+          "software_internet": 1
+        },
+        "entidades": [
+          "Huawei"
+        ],
+        "cifras_detectadas": [
+          "5 m",
+          "9050"
+        ],
+        "content_type": "report",
+        "clickbait": {
+          "detected": true,
+          "score": 50,
+          "signals": [
+            "\\brevelado\\b",
+            "\\brevealed\\b"
+          ]
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 84,
+        "relevancia": 63,
+        "confiabilidad_fuente": 75,
+        "readability": {
+          "words": 176,
+          "sentences": 7,
+          "average_words_per_sentence": 25.14
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 63.35
+    },
+    {
+      "id": "2525d25c0f325583",
+      "fuente_id": "google_news_es",
+      "fuente_nombre": "Google News ES",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "google_news",
+      "nivel_fuente": "agregador",
+      "categoria": "tecnologia",
+      "idioma_original": "es",
+      "prioridad_fuente": 3,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Cinco de las mejores ofertas en tecnología durante el Día sin IVA de MediaMarkt, hoy 5 de octubre - Xataka",
+      "titulo_original": "Cinco de las mejores ofertas en tecnología durante el Día sin IVA de MediaMarkt, hoy 5 de octubre - Xataka",
+      "enlace": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxObFh5SlhTc1dQcTRRaGN6OTZNTHFNbHhNSEF5THBsQWk1Ui16bmloQjdoOE56XzlwcGkwdTl3VTljMXdjbkxqUE5USlMtUlFOd3ZkdzBsbEJIeFk2VTVpMzl5LUQ3MEZGWWpaajF4TXUybnkwYkdSbGJTY2pfa2hIMV9jRGZjcXlKYXZLVWtsVWVFRDZKNG03MjR3WTFOWkdUYWY2SlZjTlFmd9IBrwFBVV95cUxNZTFBU2lXeWhPLXo2TFpfY3J6MV9xUXBEMV9WMFFJZjZsTzNlNmpSSFhSdkk2bENVc0F6UWtjYXloZzRyeVRsS2xaR0E5bUd2aDVEbjlwU1gtYmNNa2xQYmhsV3JhcjE5VFR6MktnVkFxT2I1UjVTcjBrYko4Q1JoMkEzLWlLdkRjZEpsM2lWX3lucGRPTEFZUGh4RE52MHd1TWJwZTdyVThvN0ctOExr?oc=5",
+      "fecha": "2026-10-05T06:43:58.000Z",
+      "resumen_corto": "Cinco de las mejores ofertas en tecnología durante el Día sin IVA de MediaMarkt, hoy 5 de octubre Xataka",
+      "resumen_largo": "Cinco de las mejores ofertas en tecnología durante el Día sin IVA de MediaMarkt, hoy 5 de octubre Xataka",
+      "texto_original": "Cinco de las mejores ofertas en tecnología durante el Día sin IVA de MediaMarkt, hoy 5 de octubre Xataka",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-10-05T08:35:13.769Z",
+        "index": 6,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "tecnologia",
+        "categorias_secundarias": [
+          "inteligencia_artificial"
+        ],
+        "category_scores": {
+          "tecnologia": 2,
+          "inteligencia_artificial": 1
+        },
+        "entidades": [
+          "Xataka"
+        ],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 80,
+        "relevancia": 55,
+        "confiabilidad_fuente": 53,
+        "readability": {
+          "words": 65,
+          "sentences": 1,
+          "average_words_per_sentence": 65
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 63.25
+    },
+    {
+      "id": "1799a93e979be1ac",
       "fuente_id": "xataka_google",
       "fuente_nombre": "Xataka",
       "tipo": "rss_web",
@@ -1625,30 +2035,27 @@
       "prioridad_fuente": 4,
       "analizar": true,
       "resumir": true,
-      "titulo": "China está preparando su llegada a la Luna de una forma peculiar: hasta 30 días comiendo, durmiendo y aseándose sin levantarse",
-      "titulo_original": "China está preparando su llegada a la Luna de una forma peculiar: hasta 30 días comiendo, durmiendo y aseándose sin levantarse - Xataka",
-      "enlace": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQYjlNZ19GM3JpbTdWUTVQZEE4WGVJbk5oME4wZG1PQXF5SkpUbUVfVzBmRW9XQW9BTUhFTUY0a3FEUFlDMU93aUdQUzV6OXhVeTNFTUYxMkctVGlQMHlWVnlieHFaYk1mNFYtVGNMSVE4Tk1GaE1FV0V1eE1hNzE0cTFEcVdXWFlfWmlUU0FxOE5YTXhHWVdKUFhzYkpCVG5XUldLakl0cVo4eWREY2Q2c2NyUzBQOHVJdXFsakYxWU9lSG5sbExLZGRVVTdSZ9IB0wFBVV95cUxOa1F5SWl3V1ZQS1QzeHYwUDRrQ0pudjJxeFBLTVk3NE10XzJ3dTZJeWZ4Z1MzY1dyb3pSQ181Rl9WR3VBRVh2MnBkbjQtcFdSR3hlODQwVGRKWUlCdmprRjVWSGlBTFVSVnZUVDRpY09fMzMyYm9CS3BQZDNQT1pRVXlRbXFySkQybTVFeWZVZVNZbGlraFA3R0ZUaFcydnVTTG9CNk92cUpiaUNmMzg1V0ZwbURBVF83T3FYUTZsUlFkdUQwem9Jb1RfN1pDWmZYeVpV?oc=5",
-      "fecha": "2026-10-04T19:01:22.000Z",
-      "resumen_corto": "China está preparando su llegada a la Luna de una forma peculiar: hasta 30 días comiendo, durmiendo y aseándose sin levantarse Xataka",
-      "resumen_largo": "China está preparando su llegada a la Luna de una forma peculiar: hasta 30 días comiendo, durmiendo y aseándose sin levantarse Xataka",
-      "texto_original": "China está preparando su llegada a la Luna de una forma peculiar: hasta 30 días comiendo, durmiendo y aseándose sin levantarse Xataka",
+      "titulo": "Los coches modernos saben dónde conduces, cómo frenas y cómo aceleras: el problema es quién más lo sabe",
+      "titulo_original": "Los coches modernos saben dónde conduces, cómo frenas y cómo aceleras: el problema es quién más lo sabe - Xataka",
+      "enlace": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPM2ZBTnZsSVVwMlBJSnNjakgycTMtR2dCcXg2eUhKVm9LamtsMmx5SmMyNEpaMlAyZzlnbC1adUx1MjQ4b0ctZm8zTU1RTXU5OUhUNGpjUlQtVjVVbmVEdnRFODYtSktnWjVwNnl6RWFjRFFxMDBXX1pWZ1VnM3RFalJVTzYxSV9XSFR1djdFUmNqNVlJVlJzdzduRFh0UlFXRzJGNnBpT1RPb3lHWDBaUl9UMVlpQdIBuwFBVV95cUxQeHBDd0ZZWThkS1VvYmNvMm8zSHM3YmxwSk1WLXU1TEM1eEZhRExsaERMc3p5dnhsNGtkZ0NQS3VPTDVUeVlqaWo1MFhZZHFTVG9YWVZkSDN5UGVKdVhyS196NXVYdG0xTjBHX1RJRE9qamJUY0YtWnJlQ2dPbW80Vl9nNldNTk5laWdDYVBkNzdzNjdCcTFUdGlnYnNydXZBa2JLNkdhaXVySjBPZzN5Vmg5MDV0QlE1UWNB?oc=5",
+      "fecha": "2026-10-04T18:31:22.000Z",
+      "resumen_corto": "Los coches modernos saben dónde conduces, cómo frenas y cómo aceleras: el problema es quién más lo sabe Xataka",
+      "resumen_largo": "Los coches modernos saben dónde conduces, cómo frenas y cómo aceleras: el problema es quién más lo sabe Xataka",
+      "texto_original": "Los coches modernos saben dónde conduces, cómo frenas y cómo aceleras: el problema es quién más lo sabe Xataka",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-05T01:44:51.321Z",
-        "index": 2,
+        "processed_at": "2026-10-05T08:35:13.776Z",
+        "index": 15,
         "resumen": {
           "generado": true,
           "origen": "translated"
         },
         "idioma_detectado": "es",
         "idioma_original": "es",
-        "categoria": "inteligencia_artificial",
-        "categorias_secundarias": [
-          "vehiculos_energia"
-        ],
+        "categoria": "vehiculos_energia",
+        "categorias_secundarias": [],
         "category_scores": {
-          "inteligencia_artificial": 1,
-          "vehiculos_energia": 1
+          "vehiculos_energia": 2
         },
         "entidades": [
           "Xataka"
@@ -1670,9 +2077,9 @@
         "relevancia": 55,
         "confiabilidad_fuente": 50,
         "readability": {
-          "words": 79,
+          "words": 74,
           "sentences": 1,
-          "average_words_per_sentence": 79
+          "average_words_per_sentence": 74
         },
         "duplicate": {
           "detected": false,
@@ -1705,8 +2112,8 @@
       "texto_original": "Han encontrado huevos de dinosaurio en un lugar demasiado frío para que existiesen. Estos científicos creen que el titanosaurio fabricaba sus propias incubadoras Xataka",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-05T01:44:51.325Z",
-        "index": 7,
+        "processed_at": "2026-10-05T08:35:13.777Z",
+        "index": 17,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -1757,154 +2164,7 @@
       "final_score": 63.2
     },
     {
-      "id": "b8349bd5e382591f",
-      "fuente_id": "wccftech_google",
-      "fuente_nombre": "Wccftech",
-      "tipo": "rss_web",
-      "subtipo": "google_news",
-      "grupo_fuente": "wccftech",
-      "nivel_fuente": "medio_especializado",
-      "categoria": "hardware",
-      "idioma_original": "en",
-      "prioridad_fuente": 4,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "El propietario de un RTX 5090 modificó una placa complementaria para el conector de 12 VHPWR, distribuyendo energía a tres entradas en lugar de una; La temperatura del cable no supera los 40 °C a plena carga",
-      "titulo_original": "An RTX 5090 Owner Modded An Add-On Board To The 12VHPWR Connector, Distributing Power To Three Inputs Instead Of One; Wire Temperature Doesn’t Cross 40°C At Full Load - Wccftech",
-      "enlace": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOTFRwNjBaV2I0ZkNubTNzWHhzTlg0Rkl0X1g3dXl6aDB4V0otYURHaU82QlA1VDZHLU00eE8yZ0VCMFNWN3k2ckxkcjRvVks5czJQOXNWN3lERkxmNWVUZzVTbDluUGN1TFZ1bXVfNTNnc2lSYS1XaGJNUW9mUnRGWGlkLVdVbFJxX0tzcU9VNWU3QlnSAZgBQVVfeXFMUFpTY3VINDZ4LTVhM1VhWFZJeV8yYU1BTkI2STZqNXNodGpqUXVuUVNWNkZmYmwtYzBFUWNIczE3Yi1hcFFvWlhza09Qc0dURzlsRFZBR0txM09Dc0hkYWc0a0NzZENDWmZDZWwxdElfZFowNXQybTZVcnZuWnEtRjNUeXBWN2p4Q24taFNTS2xDcnJIbVo1eVI?oc=5",
-      "fecha": "2026-10-02T10:35:42.000Z",
-      "resumen_corto": "El propietario de un RTX 5090 modificó una placa complementaria para el conector de 12 VHPWR, distribuyendo energía a tres entradas en lugar de una; La temperatura del cable no supera los 40 °C a plena carga Wccftech",
-      "resumen_largo": "El propietario de un RTX 5090 modificó una placa complementaria para el conector de 12 VHPWR, distribuyendo energía a tres entradas en lugar de una; La temperatura del cable no supera los 40 °C a plena carga Wccftech",
-      "texto_original": "An RTX 5090 Owner Modded An Add-On Board To The 12VHPWR Connector, Distributing Power To Three Inputs Instead Of One; Wire Temperature Doesn’t Cross 40°C At Full Load Wccftech",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-10-05T01:44:51.340Z",
-        "index": 34,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "en",
-        "categoria": "inteligencia_artificial",
-        "categorias_secundarias": [
-          "semiconductores",
-          "vehiculos_energia",
-          "tecnologia"
-        ],
-        "category_scores": {
-          "inteligencia_artificial": 1,
-          "semiconductores": 1,
-          "vehiculos_energia": 1,
-          "tecnologia": 1
-        },
-        "entidades": [
-          "Wccftech"
-        ],
-        "cifras_detectadas": [
-          "5090 m",
-          "5090"
-        ],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 72,
-        "relevancia": 62,
-        "confiabilidad_fuente": 50,
-        "readability": {
-          "words": 115,
-          "sentences": 1,
-          "average_words_per_sentence": 115
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 62.5
-    },
-    {
-      "id": "b88725367f2fa14f",
-      "fuente_id": "ia_dia",
-      "fuente_nombre": "IA al Día",
-      "tipo": "rss_web",
-      "subtipo": "google_news",
-      "grupo_fuente": "ia_general",
-      "nivel_fuente": "agregador",
-      "categoria": "inteligencia_artificial",
-      "idioma_original": "es",
-      "prioridad_fuente": 3,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "Argentina firmó con Estados Unidos un acuerdo para impulsar la inteligencia artificial en la ciencia - Clarin.com",
-      "titulo_original": "Argentina firmó con Estados Unidos un acuerdo para impulsar la inteligencia artificial en la ciencia - Clarin.com",
-      "enlace": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPTU1pclpLN3c3bWsyWGVnem00Y01FMkNTanZtM1BxSlRQTlE3ZW41Zm1NSXoxczcyVWF5WVNGM01MMl84WURJbVpHYU9OLURnR0FaR2VMYTJKQnc4ZmxHaHdOd205dFpNUXFfRzdWdVRadXB2aG1OSW02UlVpektOV0tOZWtDd1dpUjYyVENxRnVnaHB4czZ1T3l3RExaYXF3YVBqenEzTlNGbFlIcVQ1RWxqclhYTnpmZnBaZjlNM0hFdlNE?oc=5",
-      "fecha": "2026-10-04T17:15:26.000Z",
-      "resumen_corto": "Argentina firmó con Estados Unidos un acuerdo para impulsar la inteligencia artificial en la ciencia Clarin.com",
-      "resumen_largo": "Argentina firmó con Estados Unidos un acuerdo para impulsar la inteligencia artificial en la ciencia Clarin.com",
-      "texto_original": "Argentina firmó con Estados Unidos un acuerdo para impulsar la inteligencia artificial en la ciencia Clarin.com",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-10-05T01:44:51.324Z",
-        "index": 6,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "es",
-        "categoria": "inteligencia_artificial",
-        "categorias_secundarias": [
-          "tecnologia"
-        ],
-        "category_scores": {
-          "inteligencia_artificial": 3,
-          "tecnologia": 1
-        },
-        "entidades": [],
-        "cifras_detectadas": [],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 75,
-        "relevancia": 57,
-        "confiabilidad_fuente": 53,
-        "readability": {
-          "words": 65,
-          "sentences": 6,
-          "average_words_per_sentence": 10.83
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 62.3
-    },
-    {
-      "id": "94387c0687b4f5f9",
+      "id": "6c9a402690a587e6",
       "fuente_id": "google_news_es",
       "fuente_nombre": "Google News ES",
       "tipo": "rss_web",
@@ -1916,29 +2176,31 @@
       "prioridad_fuente": 3,
       "analizar": true,
       "resumir": true,
-      "titulo": "La tecnología que ahonda en la eficiencia de las reparaciones marítimas - abc.es",
-      "titulo_original": "La tecnología que ahonda en la eficiencia de las reparaciones marítimas - abc.es",
-      "enlace": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQbUtjaGNpRHQ1c1dYNEpMTXdGdjZrVlJyUjMwU1JqT0wtSzdjVUpEZF9SbVA1VXhjWDJTLVExRVhSbldNV3hCMXBVV3FCTHNua2hlWUFORmNQdnFLMkV0Y1NPSmpqNkFITDg1OXJQMzNSTk5yZm9TZ0V5YTg4c2czNVhJWUVDel95bzVPbEdyd0FrV0RaanA4WW0zRmRmaFJHU0M4WtIBqgFBVV95cUxPU0hxQzZqQ1Vsd1ZjMUc3X0ZaSk8tdlB6TkpuZkdqYnFFTWJCZDlXMXhHckJ4bHo1Y2FmNjJBRG1oZEdvZkVWN0F0YXNTQmM5Y3JWN3lDcjZpYkhuUDhBbC11Y2J4dmNUMkRMekQxZ3VCZnY5QzlxTWJheHRaOHpFbXJ1VnA4NG50MjNyN1RMZkVwR0NaellRRHNwVGNnTXpWM285bWpGb2RMUQ?oc=5",
-      "fecha": "2026-10-04T09:04:48.000Z",
-      "resumen_corto": "La tecnología que ahonda en la eficiencia de las reparaciones marítimas abc.es",
-      "resumen_largo": "La tecnología que ahonda en la eficiencia de las reparaciones marítimas abc.es",
-      "texto_original": "La tecnología que ahonda en la eficiencia de las reparaciones marítimas abc.es",
+      "titulo": "Más tecnología y autonomía: probamos el nuevo Toyota RAV4 - El Confidencial",
+      "titulo_original": "Más tecnología y autonomía: probamos el nuevo Toyota RAV4 - El Confidencial",
+      "enlace": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQT2FkTmlXRU9qQ2xVVGppYjNVSGR4SHlVeHNwSTB4R1BkVDlZcTYzUFFzSEdNY3AxaUdFclZFMnhVQVBzYjBhai1naHhhZFVsd3FDblNwanFBZElXVG5jVFRxTzBlUThial9UblhtbXQzTi1xMl8xbVBYMEVHN1R6WndrWkppTFYwTktDS01ETHJfSnhMcFlCRWgteTQ5OFVLVjlYd2RPSy03QnpBT2QySHRqNA?oc=5",
+      "fecha": "2026-10-05T03:00:00.000Z",
+      "resumen_corto": "Más tecnología y autonomía: probamos el nuevo Toyota RAV4 El Confidencial",
+      "resumen_largo": "Más tecnología y autonomía: probamos el nuevo Toyota RAV4 El Confidencial",
+      "texto_original": "Más tecnología y autonomía: probamos el nuevo Toyota RAV4 El Confidencial",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-05T01:44:51.334Z",
-        "index": 19,
+        "processed_at": "2026-10-05T08:35:13.773Z",
+        "index": 10,
         "resumen": {
           "generado": true,
           "origen": "translated"
         },
         "idioma_detectado": "es",
         "idioma_original": "es",
-        "categoria": "tecnologia",
+        "categoria": "vehiculos_energia",
         "categorias_secundarias": [
+          "tecnologia",
           "inteligencia_artificial"
         ],
         "category_scores": {
-          "tecnologia": 3,
+          "vehiculos_energia": 2,
+          "tecnologia": 2,
           "inteligencia_artificial": 1
         },
         "entidades": [],
@@ -1960,8 +2222,8 @@
         "confiabilidad_fuente": 53,
         "readability": {
           "words": 40,
-          "sentences": 6,
-          "average_words_per_sentence": 6.67
+          "sentences": 1,
+          "average_words_per_sentence": 40
         },
         "duplicate": {
           "detected": false,
@@ -1973,76 +2235,7 @@
       "final_score": 62.3
     },
     {
-      "id": "6f5fb6c7a6adc02d",
-      "fuente_id": "ia_dia",
-      "fuente_nombre": "IA al Día",
-      "tipo": "rss_web",
-      "subtipo": "google_news",
-      "grupo_fuente": "ia_general",
-      "nivel_fuente": "agregador",
-      "categoria": "inteligencia_artificial",
-      "idioma_original": "es",
-      "prioridad_fuente": 3,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "Sexo con inteligencia artificial: quería una mujer perfecta y fabricó su peor pesadilla - Libertad Digital",
-      "titulo_original": "Sexo con inteligencia artificial: quería una mujer perfecta y fabricó su peor pesadilla - Libertad Digital",
-      "enlace": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNRDQtR0M2RGhxem45dk96SmxoNWJnd29hWEJ3OWZnOU1UNjktbVdiTS1YOEFpcS1Eb2dCTFE4ZkY0MldXd2gyd0lmSVBybmc2NGV6eEdVTmhJb1kzV0ZFMmFKdnFvemNDcHhVSXRfUFJ2Vm1wd0ZVa2tnZldUQzBxNzNkOFRXS2x2YnhOZHhuLTFHeWJpRmIzRzFqck8taHJGRkQxVElyRW5JMjY3WHU4b1JGazRXQ21MN2FLejh4TjlfRF9zRUhGWWRiOWFqbnNNU3VNOC1uUDlOV0d0YktpaGRvWXozUdIB8AFBVV95cUxOSWJ4WHhIWEtndGZMR1BnbUo1UG5kZkVqcUktYk9QdWFVd2FMc3FiRWZ3TGx2eDNLQXJ1aUY0YVZON3lwdHRMbEFxU0lLYklBLWRfQ1JXVUhjSDJBa0dwendCZjY4Zy11enQ1Z1JRMkV5OXdoNFlrR2tDTTZ3LS01SUdLM2lNaFN6elNVMm0zNmU0STBaYVJ0RGRwZkd6TkI4Q3AwMlR1LUY0ZWVmV0EtbHIzdFlUbllQSVJaZDFuWEtaZGcwcTBQSjlseVRaVlFGTjNWMk5jZnVCU2did09qcjdxOVVsRzBWRi10SktlM3I?oc=5",
-      "fecha": "2026-10-04T05:05:47.000Z",
-      "resumen_corto": "Sexo con inteligencia artificial: quería una mujer perfecta y fabricó su peor pesadilla Libertad Digital",
-      "resumen_largo": "Sexo con inteligencia artificial: quería una mujer perfecta y fabricó su peor pesadilla Libertad Digital",
-      "texto_original": "Sexo con inteligencia artificial: quería una mujer perfecta y fabricó su peor pesadilla Libertad Digital",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-10-05T01:44:51.334Z",
-        "index": 20,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "es",
-        "categoria": "inteligencia_artificial",
-        "categorias_secundarias": [
-          "semiconductores"
-        ],
-        "category_scores": {
-          "inteligencia_artificial": 3,
-          "semiconductores": 1
-        },
-        "entidades": [],
-        "cifras_detectadas": [],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 75,
-        "relevancia": 57,
-        "confiabilidad_fuente": 53,
-        "readability": {
-          "words": 65,
-          "sentences": 1,
-          "average_words_per_sentence": 65
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 62.3
-    },
-    {
-      "id": "5130086f630c6b07",
+      "id": "1782abf6aac68f8b",
       "fuente_id": "google_news_es",
       "fuente_nombre": "Google News ES",
       "tipo": "rss_web",
@@ -2054,222 +2247,17 @@
       "prioridad_fuente": 3,
       "analizar": true,
       "resumir": true,
-      "titulo": "Los tecnobros de Silicon Valley piden leyes urgentes para frenar a la IA: China las tiene desde 2022 - El Confidencial",
-      "titulo_original": "Los tecnobros de Silicon Valley piden leyes urgentes para frenar a la IA: China las tiene desde 2022 - El Confidencial",
-      "enlace": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPcC1WTk9yZ01FOXdzSm03LXVlb3NpZUpVSUEtb2lBbXlIOVdwYzZQcEdab3dYOWlYN1JRYjIybWxWbGZnTEk4RHJtTEJhQzVhcnpqcFJGLVVlRTF1bGRCdDBlZ1pWSDJCTkpBTUNISzU3WnVlRHNVS25xQW0tUmpsdHFZQ0VIRjFjZjhHdW0yX0o4N0hfNlg4WkFmZG5QTVVEeXRMTGpfVEN5WEUybWoxc2g5NGZrcTBTS2treDR2TmdJZw?oc=5",
-      "fecha": "2026-10-04T17:23:00.000Z",
-      "resumen_corto": "Los tecnobros de Silicon Valley piden leyes urgentes para frenar a la IA: China las tiene desde 2022 El Confidencial",
-      "resumen_largo": "Los tecnobros de Silicon Valley piden leyes urgentes para frenar a la IA: China las tiene desde 2022 El Confidencial",
-      "texto_original": "Los tecnobros de Silicon Valley piden leyes urgentes para frenar a la IA: China las tiene desde 2022 El Confidencial",
+      "titulo": "El paradójico nicho de negocio de la tecnología para la desconexión digital - abc.es",
+      "titulo_original": "El paradójico nicho de negocio de la tecnología para la desconexión digital - abc.es",
+      "enlace": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPa0I5OWJ6d2ZlUkRQNXNNMkt1c2RwZGVnSV9vU0lSZFFXbkRPODkwOUJldllwNkhKQWppek5vZ01mWkJUWkR5M1dBQWE3Z2Q3QXl4WTdMOVhhZVg1LVVWSmZ6TXJOMGlBLUZWVHVfZFgtRHV3aXdLNTdxMlFYTWJyQ21lTlVIZU5kZGtSc20xQ0h2OE11QVI5YWdHcW53eGhHbFd2Vk81YzZuQdIBrwFBVV95cUxNTTEwVmIta2w0ZEZXandtYl92eVhzTmItTzhIVHhkc3JnU2VVV1BxVzdvU3ptb0k0UjBPaDdWX2I1Z2hyX0o5anJCZEF2THFmaEY4MGwxaV9pbm11RmVjZjNBRDFfbTQzSUxxZmlqRWNoVkpDUzRpa1pxemNDYjd6WXBYUkFQVGpxaXVMcFozT2NHZU0zNjZ5czNMWWZkU1lVcUNOWXFOM0lSZXpoLVc0?oc=5",
+      "fecha": "2026-10-05T08:23:20.000Z",
+      "resumen_corto": "El paradójico nicho de negocio de la tecnología para la desconexión digital abc.es",
+      "resumen_largo": "El paradójico nicho de negocio de la tecnología para la desconexión digital abc.es",
+      "texto_original": "El paradójico nicho de negocio de la tecnología para la desconexión digital abc.es",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-05T01:44:51.323Z",
-        "index": 5,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "es",
-        "categoria": "inteligencia_artificial",
-        "categorias_secundarias": [],
-        "category_scores": {
-          "inteligencia_artificial": 1
-        },
-        "entidades": [],
-        "cifras_detectadas": [
-          "2022"
-        ],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 80,
-        "relevancia": 50,
-        "confiabilidad_fuente": 53,
-        "readability": {
-          "words": 75,
-          "sentences": 1,
-          "average_words_per_sentence": 75
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 61.25
-    },
-    {
-      "id": "2a113d05e48d9ad3",
-      "fuente_id": "google_news_es",
-      "fuente_nombre": "Google News ES",
-      "tipo": "rss_web",
-      "subtipo": "google_news",
-      "grupo_fuente": "google_news",
-      "nivel_fuente": "agregador",
-      "categoria": "tecnologia",
-      "idioma_original": "es",
-      "prioridad_fuente": 3,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "Macron y Sánchez chocan sobre China: España apuesta por atraer fábricas para aprender a producir coches eléctricos - El Periódico",
-      "titulo_original": "Macron y Sánchez chocan sobre China: España apuesta por atraer fábricas para aprender a producir coches eléctricos - El Periódico",
-      "enlace": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNNERZblFjZmxDc0ZlWTBNdDFDN1dxRnlVdnlpZ05FT0c5Nl9fM1p0eHgwT1o3TmV5ZUg5YTVPQVdneHhCdlVBbVViNHk0ZEE1QUZmc1BiRlhNMXpPYmxIczVkVlpXOHYtUnRCTTVDdTdxTXJvbHVSUERFZDh6VHFrUGIxM0Zwajh3djFsR3h3bktwVkUyQ3dRTDdDNnBRV1RtaXJ3UGdDcGk2VzFhTXZYY3lMQVJhdTTSAbcBQVVfeXFMUFpqQlh0NHVKakVxSzhZQ1M3c1ktc2pUbUFGdXE1WkVMYlM3SWtpTDc1cXhmS3hZUldSNkdMeEZfcG54MlVicTNjMVA3RzM5X2tocmgwWk1jTVFua3BMMDdnTzFXOWFUVngwLVh4N1RZelFSbl8yNm5NY0Mta29LbXdZc1hQVW5YQWFIdmZJWWtGcXlBeVZRV3JBY2FNWkVuZkxtWGU3ZFBtN3pvRTAwSjJ1RlR5R09j?oc=5",
-      "fecha": "2026-10-04T13:00:58.000Z",
-      "resumen_corto": "Macron y Sánchez chocan sobre China: España apuesta por atraer fábricas para aprender a producir coches eléctricos El Periódico",
-      "resumen_largo": "Macron y Sánchez chocan sobre China: España apuesta por atraer fábricas para aprender a producir coches eléctricos El Periódico",
-      "texto_original": "Macron y Sánchez chocan sobre China: España apuesta por atraer fábricas para aprender a producir coches eléctricos El Periódico",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-10-05T01:44:51.332Z",
-        "index": 16,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "es",
-        "categoria": "vehiculos_energia",
-        "categorias_secundarias": [
-          "semiconductores"
-        ],
-        "category_scores": {
-          "vehiculos_energia": 2,
-          "semiconductores": 1
-        },
-        "entidades": [],
-        "cifras_detectadas": [],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 30,
-          "signals": [
-            "\\bapuesta\\b"
-          ],
-          "url_count": 0
-        },
-        "calidad": 75,
-        "relevancia": 50,
-        "confiabilidad_fuente": 53,
-        "readability": {
-          "words": 80,
-          "sentences": 1,
-          "average_words_per_sentence": 80
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 59.5
-    },
-    {
-      "id": "f7ef814bc3ccd63c",
-      "fuente_id": "google_news_es",
-      "fuente_nombre": "Google News ES",
-      "tipo": "rss_web",
-      "subtipo": "google_news",
-      "grupo_fuente": "google_news",
-      "nivel_fuente": "agregador",
-      "categoria": "tecnologia",
-      "idioma_original": "es",
-      "prioridad_fuente": 3,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "Así está implantando Airbnb la IA en todo el proceso de las reservas - Expansión",
-      "titulo_original": "Así está implantando Airbnb la IA en todo el proceso de las reservas - Expansión",
-      "enlace": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPSXdVN29zWGVhX0J5TnZ4T3oxbDdVS2dCQ3RRcXdLY3QxOXRVMUpleHhVMEg2LVVTQ1Q4aTZyVExUbHY5dlJpMEpnamZlTDRoVldKbnA3TTZoSHdxLXdZc01JUEQwLTdVWUw5cmczcEotRXV2TlpmLXFwSi1OMkd4aTU3T2RING5PYVBVZ3hTWEtjUHpJamZrVkFCd9IBmwFBVV95cUxNN3FEcUFDRk9aN2JUYk1tZmR0MV9DNUdmOFBoUHdZb3Q3ZzFkN0ljVHBqNmZCd0JzaXVmXzFfRWQ2Q3JJLUNtV2YtRUhzNThhV2w2bVIydjctTXE0Q092eGlwUlliQ3RyN211UVhVZE03cnp4U0VCY0hqakUxM2xYUzVxbDhfeWpLOWh3VWtGZ3kxV1JDS2tTei1uQQ?oc=5",
-      "fecha": "2026-10-03T17:23:23.000Z",
-      "resumen_corto": "Así está implantando Airbnb la IA en todo el proceso de las reservas Expansión",
-      "resumen_largo": "Así está implantando Airbnb la IA en todo el proceso de las reservas Expansión",
-      "texto_original": "Así está implantando Airbnb la IA en todo el proceso de las reservas Expansión",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-10-05T01:44:51.336Z",
-        "index": 25,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "es",
-        "categoria": "inteligencia_artificial",
-        "categorias_secundarias": [],
-        "category_scores": {
-          "inteligencia_artificial": 2
-        },
-        "entidades": [],
-        "cifras_detectadas": [],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 75,
-        "relevancia": 50,
-        "confiabilidad_fuente": 53,
-        "readability": {
-          "words": 45,
-          "sentences": 1,
-          "average_words_per_sentence": 45
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 59.5
-    },
-    {
-      "id": "b19310a41efde986",
-      "fuente_id": "google_news_es",
-      "fuente_nombre": "Google News ES",
-      "tipo": "rss_web",
-      "subtipo": "google_news",
-      "grupo_fuente": "google_news",
-      "nivel_fuente": "agregador",
-      "categoria": "tecnologia",
-      "idioma_original": "es",
-      "prioridad_fuente": 3,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "Salud e infancia: el impacto de la tecnología, la dieta y las extraescolares - RTVE.es",
-      "titulo_original": "Salud e infancia: el impacto de la tecnología, la dieta y las extraescolares - RTVE.es",
-      "enlace": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOZkNVS0tQd0tmY0NGbFRPd0lMS1F4OXRLdGt0ZjJLdng2VzBtZFhzaFdqYkF1LWY5OEhDQlRVWndadzR3YXM3bzlPbGVLM3BuaVJHdmlObV91a19SLTBJeUdSN1p6QkZiRG9KZUM4VHREVm1Na2NEY3k2Y09kQXNmY0VNa1pZMFFSMVlTNE9hYl9sQ3hBTXhLOU5ZYy1nZzN0aFN4N0ViTVJaLXpLMkNId1kzeUs3OS1KdmQtYXJQX21zMk9XdXozc1hFVQ?oc=5",
-      "fecha": "2026-10-03T13:00:56.000Z",
-      "resumen_corto": "Salud e infancia: el impacto de la tecnología, la dieta y las extraescolares RTVE.es",
-      "resumen_largo": "Salud e infancia: el impacto de la tecnología, la dieta y las extraescolares RTVE.es",
-      "texto_original": "Salud e infancia: el impacto de la tecnología, la dieta y las extraescolares RTVE.es",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-10-05T01:44:51.337Z",
-        "index": 26,
+        "processed_at": "2026-10-05T08:35:13.762Z",
+        "index": 0,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -2316,6 +2304,471 @@
       "final_score": 59.5
     },
     {
+      "id": "05ae4d017f6ee38f",
+      "fuente_id": "google_news_es",
+      "fuente_nombre": "Google News ES",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "google_news",
+      "nivel_fuente": "agregador",
+      "categoria": "tecnologia",
+      "idioma_original": "es",
+      "prioridad_fuente": 3,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "¿Quién responde judicialmente cuando los agentes de IA autónomos se descontrolan? - El Mundo",
+      "titulo_original": "¿Quién responde judicialmente cuando los agentes de IA autónomos se descontrolan? - El Mundo",
+      "enlace": "https://news.google.com/rss/articles/CBMif0FVX3lxTE54WkhBNkxCS2hWaDZSR1pZN185Q0FjZFRITnFFOE9mU0d4UklCSDkxNHMwZ3p0RVByMVNSTjFqcnRtQ0hHTURpajR5Ty10WktKVUpuVGNPQjlKRXg3NENGLWpHMkR2ZnptangzNk5BUFpVdTl6eTBqRnl2cnFrMVnSAX9BVV95cUxOMEtVSnJkTXUwTDNwTVVjY2JWaXc0NnM2dUh5SDU2RHZWVWVXSjRjWXVNck1hZHh0TVBhek9McHBmOHUwWEMzUTE3RG9nOVNDV3NNdFVrSHNIMVg0UERHbV9Ob2UxdE9fMDhxNzFXRGdTUlg0NzZVNzNEUDlFWnlB?oc=5",
+      "fecha": "2026-10-05T08:02:16.000Z",
+      "resumen_corto": "¿Quién responde judicialmente cuando los agentes de IA autónomos se descontrolan?",
+      "resumen_largo": "¿Quién responde judicialmente cuando los agentes de IA autónomos se descontrolan?",
+      "texto_original": "¿Quién responde judicialmente cuando los agentes de IA autónomos se descontrolan? El Mundo",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-10-05T08:35:13.764Z",
+        "index": 1,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "inteligencia_artificial",
+        "categorias_secundarias": [
+          "vehiculos_energia"
+        ],
+        "category_scores": {
+          "inteligencia_artificial": 1,
+          "vehiculos_energia": 1
+        },
+        "entidades": [],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 75,
+        "relevancia": 50,
+        "confiabilidad_fuente": 53,
+        "readability": {
+          "words": 43,
+          "sentences": 6,
+          "average_words_per_sentence": 7.17
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 59.5
+    },
+    {
+      "id": "ebb57491636e2a68",
+      "fuente_id": "ia_dia",
+      "fuente_nombre": "IA al Día",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "ia_general",
+      "nivel_fuente": "agregador",
+      "categoria": "inteligencia_artificial",
+      "idioma_original": "es",
+      "prioridad_fuente": 3,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Trump crea la Fuerza de la Superinteligencia para coordinar el desarrollo de IA en EEUU - elpais.com",
+      "titulo_original": "Trump crea la Fuerza de la Superinteligencia para coordinar el desarrollo de IA en EEUU - elpais.com",
+      "enlace": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQQXREX3AwMnU5YlVNSGpGbjJzRWlGMHZadFdXRU1hbDFuVUJrMm5KNVgyM1BBVlg0VGJNeVE2bE9uZ0RUZmY2a2xuNTIyVlFDZl95dzE1YWN2OURYMDY0d0NPQU11Y3Q0WEpCWVZhOE1lU2k2a1Bxemh3d0NsenhfalpKbGdLRzVid2t0b04wcVY2elo1ODBtOExtUzY2OGR6RDZYZG9QbV9KWjBBUU54cmZiU1hTd3lhdnQydXpYMVVRa3ROOUZyX3hHSngzQdIB4gFBVV95cUxNUm9tM1FRa1RUNTdYWm5hendHb2dSTFo1dURkLWdpTmZvc0V4ZEVpZjVRRnBMcG1OcW5rZXR4Q1dDREZaU1RvLWREQ1ZxTVpGUlhPSVBpZmJBekZsZW0wb0ZPY0FLeko2WjJkekZNRWE1dUxUcF9rekdadWRkck1BcmN3OFRvNXFPSE5vc3B2dkdzUnFKdEdPSU5jamNLTndQeGg1TVgyMEVPLTdDczJhVlEyMnB2VjZlM0xVQkJIZ1RCV084NHFROXpHN3p3dndlVnlLeldXOUJLNU5NaXlLcmFB?oc=5",
+      "fecha": "2026-10-05T07:41:51.000Z",
+      "resumen_corto": "Trump crea la Fuerza de la Superinteligencia para coordinar el desarrollo de IA en EEUU elpais.com",
+      "resumen_largo": "Trump crea la Fuerza de la Superinteligencia para coordinar el desarrollo de IA en EEUU elpais.com",
+      "texto_original": "Trump crea la Fuerza de la Superinteligencia para coordinar el desarrollo de IA en EEUU elpais.com",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-10-05T08:35:13.768Z",
+        "index": 4,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "inteligencia_artificial",
+        "categorias_secundarias": [],
+        "category_scores": {
+          "inteligencia_artificial": 2
+        },
+        "entidades": [],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 75,
+        "relevancia": 50,
+        "confiabilidad_fuente": 53,
+        "readability": {
+          "words": 50,
+          "sentences": 6,
+          "average_words_per_sentence": 8.33
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 59.5
+    },
+    {
+      "id": "53e6343d3dd8e4e7",
+      "fuente_id": "ia_dia",
+      "fuente_nombre": "IA al Día",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "ia_general",
+      "nivel_fuente": "agregador",
+      "categoria": "inteligencia_artificial",
+      "idioma_original": "es",
+      "prioridad_fuente": 3,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Trump regulará la inteligencia artificial a través de un grupo de trabajo federal - La Región",
+      "titulo_original": "Trump regulará la inteligencia artificial a través de un grupo de trabajo federal - La Región",
+      "enlace": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOQ2VaNVUtTTRHQUxmeU5TY3JhcDZyQ2xCcXoyank5ZlVaRWhpZW9Sa3loellWczEwMzRiVUoxRlZfTWg5VUNHX1FRSzhHT29fOWtfSzdDcHZwakRXZVN1QU5CQlhEbkt5TWpwcXdKN0VtTzhyZnVVNi1xZ1Z2NGJnTTY3NS1raFZQZng1RlcySE9JYnRKTVhLNHpXc3ZUWHQwUjFabm1kNE13VG5RX2M4Z1JRaGc?oc=5",
+      "fecha": "2026-10-04T22:00:00.000Z",
+      "resumen_corto": "Trump regulará la inteligencia artificial a través de un grupo de trabajo federal La Región",
+      "resumen_largo": "Trump regulará la inteligencia artificial a través de un grupo de trabajo federal La Región",
+      "texto_original": "Trump regulará la inteligencia artificial a través de un grupo de trabajo federal La Región",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-10-05T08:35:13.775Z",
+        "index": 13,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "inteligencia_artificial",
+        "categorias_secundarias": [],
+        "category_scores": {
+          "inteligencia_artificial": 3
+        },
+        "entidades": [],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 75,
+        "relevancia": 50,
+        "confiabilidad_fuente": 53,
+        "readability": {
+          "words": 45,
+          "sentences": 1,
+          "average_words_per_sentence": 45
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 59.5
+    },
+    {
+      "id": "0f08b90cfb47299e",
+      "fuente_id": "ia_dia",
+      "fuente_nombre": "IA al Día",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "ia_general",
+      "nivel_fuente": "agregador",
+      "categoria": "inteligencia_artificial",
+      "idioma_original": "es",
+      "prioridad_fuente": 3,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "¿Por qué Trump ordenó al Congreso abandonar el término inteligencia artificial y cambiarlo por superinteligencia? - La Razón",
+      "titulo_original": "¿Por qué Trump ordenó al Congreso abandonar el término inteligencia artificial y cambiarlo por superinteligencia? - La Razón",
+      "enlace": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNeWZ1dDBRS1h2YWdEN1pOYWo5a19LVHVXNUN5Ykh4UHdoT1RfLUxiYlktX191VEtkLUtrUnF6R3V5S1pDTTlFMzA4TjhocUsweml3MTh4eWhsY2dDazJRbEFtZWVOMEJfRHB2bHlhdVRuNUlZUWR4S0ZJcmR1LVZjdnZ4U1k4NmJETlUtcVM2eUsydjhDSS1pYjZKWmxVTTJ6MnhGd184anIyUUUycVQtQWswUnk4cUNXRzllMU9TNkJXZWVJZVItc2ZXZjJHMktmQzhBYjh0b3J3TWJzNkZOcXJzdzVNM3haZ244R216MlBrRlNmTG11WFVTNNIBjwJBVV95cUxOUl9yRUhqWW9fR2NGNFVxbGh0ZWpPRkJXU3EzZ0liX0VOeG9sMDU4dnp3cG9RTS16b21KSDk2QW93U3VNMlNqMUlsQ29icjRTVXFYYUlpbWliWDAxOUtyTmh0QUYwandIa29hakxEb2NkakZOdFZVdWZ3SDBzYWpiZmVYUlBCc29iaENKMDN6S19oRFc1d3NwZjg1elZLX2c0alZsUmFwYnUxLUhsSnZxVmJvOVNGbGM5clRJS09lMEFudjZPUS1ocUoyellBZGJYQVVLQnlJNzRldW14dU0xRmFhWkI1dTlBel9MUU9aSXF3WU8zeUYxQVJ0dDZ0TTlMeFpTZzVtODJWUzRBdHlR?oc=5",
+      "fecha": "2026-10-04T12:42:49.000Z",
+      "resumen_corto": "¿Por qué Trump ordenó al Congreso abandonar el término inteligencia artificial y cambiarlo por superinteligencia?",
+      "resumen_largo": "¿Por qué Trump ordenó al Congreso abandonar el término inteligencia artificial y cambiarlo por superinteligencia?",
+      "texto_original": "¿Por qué Trump ordenó al Congreso abandonar el término inteligencia artificial y cambiarlo por superinteligencia? La Razón",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-10-05T08:35:13.782Z",
+        "index": 26,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "inteligencia_artificial",
+        "categorias_secundarias": [],
+        "category_scores": {
+          "inteligencia_artificial": 3
+        },
+        "entidades": [],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 75,
+        "relevancia": 50,
+        "confiabilidad_fuente": 53,
+        "readability": {
+          "words": 63,
+          "sentences": 6,
+          "average_words_per_sentence": 10.5
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 59.5
+    },
+    {
+      "id": "a7e19eecc3511a55",
+      "fuente_id": "ia_dia",
+      "fuente_nombre": "IA al Día",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "ia_general",
+      "nivel_fuente": "agregador",
+      "categoria": "inteligencia_artificial",
+      "idioma_original": "es",
+      "prioridad_fuente": 3,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "La advertencia de Stephen Hawking sobre la inteligencia artificial: “Podría traducirse en el fin de la raza humana” - Infobae",
+      "titulo_original": "La advertencia de Stephen Hawking sobre la inteligencia artificial: “Podría traducirse en el fin de la raza humana” - Infobae",
+      "enlace": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPdmNZS01zVTFHZ2dqSFdrb1ZLSnR1YXZRblRHUWxhdUkwQW1pRFI0YVNEVEpESGxmX19mRUdlQmZScXpwbWdKWG16b1dvN1ZwLTU5QWtfaXhGQzloTWduMHh3Um9Ya2Fhc3pUMnRJWVdPY2o2Qjg5d1JYUWZyTnlvTmQ4S1dzWTBScUtYLVVxUTJzeWhiNGVzMTJPU0JLYkRueTRCQkU2OWJ2QTk2VWxHMHdxVDhNRmhkaHFaQUQxSlhVSFJsZ1JyMV9BbTZHMkFwRVR2aHBrbUMxdTVFMzBRYlotTkswWHZCcWfSAYQCQVVfeXFMT3kySFhHdm1zc29oUEdKTUZ2SmNGY2IwdVFaTFc0WnV4TFhjdmVjMUxJbnYzVXR5ajhPQUZ6SjFxYkptdDhZVVZWU2FjTzR0LW5ET3RrVFZhNXBsVld3UnJrTG1tZGVBSVoyeUszUVpIV19LQTNVbW02dmJ5dEdFV0VvU3dwcU5hbE14V2lnQzFRY1VjWEs4RnREMUc2aUExdldWTjlqR2t6Z2Y4SUlXeG4xWWl6a1o5eC1SUzlBYllVcmJDSXdxREFqLUhqaHpuUmxlQVJENlBfV2I4NnFSNXN5SlZVeEM5QVVTSWFKRnZRSV9MNDVlTk5zMm9PMTVCU2o5Wlg?oc=5",
+      "fecha": "2026-10-04T07:02:15.000Z",
+      "resumen_corto": "La advertencia de Stephen Hawking sobre la inteligencia artificial: “Podría traducirse en el fin de la raza humana” Infobae",
+      "resumen_largo": "La advertencia de Stephen Hawking sobre la inteligencia artificial: “Podría traducirse en el fin de la raza humana” Infobae",
+      "texto_original": "La advertencia de Stephen Hawking sobre la inteligencia artificial: “Podría traducirse en el fin de la raza humana” Infobae",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-10-05T08:35:13.783Z",
+        "index": 29,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "inteligencia_artificial",
+        "categorias_secundarias": [],
+        "category_scores": {
+          "inteligencia_artificial": 3
+        },
+        "entidades": [],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 75,
+        "relevancia": 50,
+        "confiabilidad_fuente": 53,
+        "readability": {
+          "words": 60,
+          "sentences": 1,
+          "average_words_per_sentence": 60
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 59.5
+    },
+    {
+      "id": "f7ef814bc3ccd63c",
+      "fuente_id": "google_news_es",
+      "fuente_nombre": "Google News ES",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "google_news",
+      "nivel_fuente": "agregador",
+      "categoria": "tecnologia",
+      "idioma_original": "es",
+      "prioridad_fuente": 3,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Así está implantando Airbnb la IA en todo el proceso de las reservas - Expansión",
+      "titulo_original": "Así está implantando Airbnb la IA en todo el proceso de las reservas - Expansión",
+      "enlace": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPSXdVN29zWGVhX0J5TnZ4T3oxbDdVS2dCQ3RRcXdLY3QxOXRVMUpleHhVMEg2LVVTQ1Q4aTZyVExUbHY5dlJpMEpnamZlTDRoVldKbnA3TTZoSHdxLXdZc01JUEQwLTdVWUw5cmczcEotRXV2TlpmLXFwSi1OMkd4aTU3T2RING5PYVBVZ3hTWEtjUHpJamZrVkFCd9IBmwFBVV95cUxNN3FEcUFDRk9aN2JUYk1tZmR0MV9DNUdmOFBoUHdZb3Q3ZzFkN0ljVHBqNmZCd0JzaXVmXzFfRWQ2Q3JJLUNtV2YtRUhzNThhV2w2bVIydjctTXE0Q092eGlwUlliQ3RyN211UVhVZE03cnp4U0VCY0hqakUxM2xYUzVxbDhfeWpLOWh3VWtGZ3kxV1JDS2tTei1uQQ?oc=5",
+      "fecha": "2026-10-03T17:23:23.000Z",
+      "resumen_corto": "Así está implantando Airbnb la IA en todo el proceso de las reservas Expansión",
+      "resumen_largo": "Así está implantando Airbnb la IA en todo el proceso de las reservas Expansión",
+      "texto_original": "Así está implantando Airbnb la IA en todo el proceso de las reservas Expansión",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-10-05T08:35:13.784Z",
+        "index": 30,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "inteligencia_artificial",
+        "categorias_secundarias": [],
+        "category_scores": {
+          "inteligencia_artificial": 2
+        },
+        "entidades": [],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 75,
+        "relevancia": 50,
+        "confiabilidad_fuente": 53,
+        "readability": {
+          "words": 45,
+          "sentences": 1,
+          "average_words_per_sentence": 45
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 59.5
+    },
+    {
+      "id": "cbea89d7c0cfb4f5",
+      "fuente_id": "google_news_es",
+      "fuente_nombre": "Google News ES",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "google_news",
+      "nivel_fuente": "agregador",
+      "categoria": "tecnologia",
+      "idioma_original": "es",
+      "prioridad_fuente": 3,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Irse de vacaciones y no subirlo a las redes: “El viaje vuelve a valer por sí mismo” - elpais.com",
+      "titulo_original": "Irse de vacaciones y no subirlo a las redes: “El viaje vuelve a valer por sí mismo” - elpais.com",
+      "enlace": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPVkxqTVRfZ0NuZl8tRi04NmFSSzBXZzV2TnZJckRXV0U3c1lMNHVTQ0dfZk9heVFtSzNwM0hSMnBYOTJpU19HaFhMUFFEVExmRkNiaEN5V3lhdE91VC1qZXY0bEhwV3ZTbzVPa0Q2UXhvb3U2cDhKbUozWkE0Sk8zVm5EdkZnellENUJyOGZMX0ZPZkhFZnZodTU3WV9qNFJBRzU1ZHRGQTZ1U3NGamdPSFZTeEloWDNnVWFXUWJ5TTA4QnJK0gHYAUFVX3lxTFA3b1psTEx5MndLZ2lkdC14cDdZVExrbXZHRldYQ2JaOGN6aW9yVzlqaWp4RlpscmhyWkExUHpEY2ExSWlMZVU0X014bFlNWjBKdEdiWHIyWlQtR056QjhqUHNzZHBfRkhjVldjZmZnLXhIcUY4bklJeFFJNEFXWU1kYnE0bWRILXZ4SDVVQ3ZqV2tPNHdaeTlKeldnM1ZQVk11d0pZanU5Q25BMmhjUHNQWU1keXBVdUl1akxVWWxkTWF3VGlCT2NNNnM4bmlXNjcyaXo2MDFuRw?oc=5",
+      "fecha": "2026-10-03T03:30:01.000Z",
+      "resumen_corto": "Irse de vacaciones y no subirlo a las redes: “El viaje vuelve a valer por sí mismo” elpais.com",
+      "resumen_largo": "Irse de vacaciones y no subirlo a las redes: “El viaje vuelve a valer por sí mismo” elpais.com",
+      "texto_original": "Irse de vacaciones y no subirlo a las redes: “El viaje vuelve a valer por sí mismo” elpais.com",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-10-05T08:35:13.786Z",
+        "index": 35,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "inteligencia_artificial",
+        "categorias_secundarias": [],
+        "category_scores": {
+          "inteligencia_artificial": 2
+        },
+        "entidades": [],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 75,
+        "relevancia": 50,
+        "confiabilidad_fuente": 53,
+        "readability": {
+          "words": 60,
+          "sentences": 6,
+          "average_words_per_sentence": 10
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 59.5
+    },
+    {
       "id": "08075cab3a7d1fbb",
       "fuente_id": "resumen_militar",
       "fuente_nombre": "El Resumen Militar",
@@ -2337,8 +2790,8 @@
       "texto_original": "Харьковская область. Бойцы 245-го полка и 11-й отдельной танковой зачистили Казачью Лопань и закрепились на северной окраине Новой Казачьей. Идут бои за посёлок.",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-05T01:44:51.329Z",
-        "index": 12,
+        "processed_at": "2026-10-05T08:35:13.780Z",
+        "index": 22,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -2401,8 +2854,8 @@
       "texto_original": "🇷🇺 🇺🇦 Пожар в Черноморске Одесской области после удара. Подписаться на канал | наш МАХ",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-05T01:44:51.329Z",
-        "index": 13,
+        "processed_at": "2026-10-05T08:35:13.781Z",
+        "index": 23,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -2465,8 +2918,8 @@
       "texto_original": "🇺🇦 🇺🇸 🇷🇺 Зельц заявил, что американцы предложили трехстороннюю встречу «га техническом уровне». Украина к ней, конечно, готова, потому что на ней можно себя и дслее вести как обиженка и срывать мирный процесс: ведь украинцев на Западе не осадят ни за что. Зато у себя это будет подано как перемога и уступка. Впрочем, не будет никакой такой встречи или она будет не менее бессмысленной, чем остальные до нее. Подписаться на канал | наш МАХ",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-05T01:44:51.319Z",
-        "index": 1,
+        "processed_at": "2026-10-05T08:35:13.776Z",
+        "index": 14,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -2529,8 +2982,8 @@
       "texto_original": "‼️ 🇫🇮 🇷🇺 Европейским лидерам не следует паниковать из-за сценариев возможного нападения России — доказательств подготовки такой атаки сейчас нет , — президент Финляндии ➖ «Ожидаем ли мы, что Россия нападёт? Ответ — нет. У нас нет никаких доказательств этого», — сказал Стубб. ▪️ По его словам, в Европе зачастую смешивают возможные сценарии с реальной оценкой угрозы, из-за чего дискуссия становится излишне тревожной. ➖ «Я прошу всех быть немного больше похожими на финнов. У нас самая длинная граница с Россией. Мы точно видим, что Россия собирается делать, а что — нет», — заявил президент Финляндии. ▪️ Стубб добавил, что Хельсинки сообщит партнёрам, если увидит признаки изменения ситуации. ⚠️ Подписаться на RV: MAX | t.me/RVvoenkor",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-05T01:44:51.328Z",
-        "index": 10,
+        "processed_at": "2026-10-05T08:35:13.779Z",
+        "index": 20,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -2593,8 +3046,8 @@
       "texto_original": "Доброполье. С севера и северо-востока вступила в работу 61-я бригада. Парни смогли закрепиться на окраинах города. С юга наши десантники также продвинулись в сторону Святогоровки и взяли под контроль промку и частный сектор на юге Доброполья. Бойцы 90-й танковой продолжают наступать в сторону Веровки и Ракши. А севернее 35-я бригада ведёт освобождение села Нововодяное.",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-05T01:44:51.329Z",
-        "index": 11,
+        "processed_at": "2026-10-05T08:35:13.780Z",
+        "index": 21,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -2636,24 +3089,24 @@
       "final_score": 50.25
     }
   ],
-  "analyzed_at": "2026-10-05T01:44:51.341Z",
+  "analyzed_at": "2026-10-05T08:35:13.788Z",
   "analysis_stats": {
-    "input_items": 37,
-    "valid_items": 37,
+    "input_items": 43,
+    "valid_items": 43,
     "rejected_items": 0,
     "duplicate_items": 0,
-    "clickbait_items": 0,
+    "clickbait_items": 1,
     "spam_items": 0,
-    "summaries_generated": 37,
-    "average_quality": 79,
-    "average_relevance": 56
+    "summaries_generated": 43,
+    "average_quality": 82,
+    "average_relevance": 57
   },
   "validation": {
     "version": "1.1",
-    "executed_at": "2026-10-05T01:44:51.484Z",
-    "original_items": 37,
+    "executed_at": "2026-10-05T08:35:13.907Z",
+    "original_items": 43,
     "rejected_items": 0,
-    "final_items": 37,
+    "final_items": 43,
     "limit": 60,
     "status": "ok"
   }

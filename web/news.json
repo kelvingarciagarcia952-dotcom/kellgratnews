@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "updated_at": "2026-10-13T22:40:37.272Z",
+  "updated_at": "2026-10-14T01:43:51.732Z",
   "configuracion": {
     "limite_global": 60,
     "frecuencia_minutos": 60,
@@ -22,12 +22,565 @@
   },
   "source_stats": {
     "active_sources": 15,
-    "successful_sources": 14,
-    "collected_items": 57,
-    "deduplicated_items": 40,
-    "final_items": 40
+    "successful_sources": 15,
+    "collected_items": 63,
+    "deduplicated_items": 45,
+    "final_items": 45
   },
   "items": [
+    {
+      "id": "f12c4a82c6822fa0",
+      "fuente_id": "huawei_central",
+      "fuente_nombre": "Huawei Central",
+      "tipo": "rss_web",
+      "subtipo": "medio_especializado",
+      "grupo_fuente": "huawei",
+      "nivel_fuente": "secundaria_especializada",
+      "categoria": "moviles",
+      "idioma_original": "en",
+      "prioridad_fuente": 5,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "La serie Honor WIN 2 incluirá una batería de 12070 mAh y tecnología de ventilador de enfriamiento dual",
+      "titulo_original": "Honor WIN 2 series to pack 12070mAh battery and dual cooling fan tech",
+      "enlace": "https://www.huaweicentral.com/honor-win-2-12070mah-battery/",
+      "fecha": "2026-10-13T11:16:01.000Z",
+      "resumen_corto": "Comenzando con la batería, la compañía anunció que la serie Honor WIN 2 […] La serie posterior Honor WIN 2 con batería de 12070 mAh y tecnología de ventilador de enfriamiento dual apareció por primera vez en Huawei Central.",
+      "resumen_largo": "El misterio de la batería de la serie Honor WIN 2 se resuelve y la compañía ha confirmado un paquete de 12070 mAh para los teléfonos inteligentes para juegos de nueva generación. Además, la línea insignia contará con la primera tecnología de ventilador de enfriamiento dual de la industria, llevando el rendimiento al siguiente nivel. Comenzando con la batería, la compañía anunció que la serie Honor WIN 2 […] La serie posterior Honor WIN 2 con batería de 12070 mAh y tecnología de ventilador de enfriamiento dual apareció por primera vez en Huawei Central.",
+      "texto_original": "Honor WIN 2 series battery mystery is resolved, and the company has confirmed a 12070mAh pack for the new-gen gaming smartphones. In addition, the flagship lineup will feature the industry’s first dual cooling fan technology, taking performance to the next level. Starting with the battery, the company has announced that the Honor WIN 2 series […] The post Honor WIN 2 series to pack 12070mAh battery and dual cooling fan tech appeared first on Huawei Central .",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-10-14T01:43:51.575Z",
+        "index": 21,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "en",
+        "categoria": "moviles",
+        "categorias_secundarias": [
+          "tecnologia",
+          "baterias_energia",
+          "inteligencia_artificial"
+        ],
+        "category_scores": {
+          "moviles": 6,
+          "tecnologia": 4,
+          "baterias_energia": 2,
+          "inteligencia_artificial": 1,
+          "vehiculos_energia": 1,
+          "software_internet": 1
+        },
+        "entidades": [
+          "Huawei",
+          "Honor"
+        ],
+        "cifras_detectadas": [
+          "12070 mAh",
+          "12070mAh"
+        ],
+        "content_type": "report",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 97,
+        "relevancia": 83,
+        "confiabilidad_fuente": 75,
+        "readability": {
+          "words": 178,
+          "sentences": 7,
+          "average_words_per_sentence": 25.43
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 85.9
+    },
+    {
+      "id": "60b934cdb089d439",
+      "fuente_id": "huawei_central",
+      "fuente_nombre": "Huawei Central",
+      "tipo": "rss_web",
+      "subtipo": "medio_especializado",
+      "grupo_fuente": "huawei",
+      "nivel_fuente": "secundaria_especializada",
+      "categoria": "moviles",
+      "idioma_original": "en",
+      "prioridad_fuente": 5,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Acuerdo Qualcomm-Huawei: comienza un nuevo capítulo para cerrar la brecha en la tecnología de chips de China",
+      "titulo_original": "Qualcomm-Huawei Deal: New chapter begins to bridge gap in China’s chip tech",
+      "enlace": "https://www.huaweicentral.com/qualcomm-huawei-chip-tech-deal/",
+      "fecha": "2026-10-13T09:50:06.000Z",
+      "resumen_corto": "El acuerdo de patentes de varios años entre Qualcomm y Huawei se ha convertido en un gran titular justo después del anuncio oficial, ya que este acuerdo puede ayudar a China a reducir la brecha en sus tecnologías de chips.",
+      "resumen_largo": "El acuerdo de patentes de varios años entre Qualcomm y Huawei se ha convertido en un gran titular justo después del anuncio oficial, ya que este acuerdo puede ayudar a China a reducir la brecha en sus tecnologías de chips. Si bien el fabricante de chips estadounidense podrá expandirse más allá de los SoC móviles, el desarrollador de Kirin puede monetizar su investigación innovadora a pesar de las restricciones estadounidenses. Aunque este acuerdo ya no existe […] The post Acuerdo Qualcomm-Huawei: comienza un nuevo capítulo para cerrar la brecha en la tecnología de chips de China apareció por primera vez en Huawei Central.",
+      "texto_original": "Qualcomm-Huawei multi-year patent deal has become a huge headline right after the official announcement, as this agreement can help China narrow the gap in its chip technologies. While the US chipmaker will be able to expand beyond mobile SoCs, the Kirin developer can monetize its innovative research despite US curbs. Although this agreement has gone […] The post Qualcomm-Huawei Deal: New chapter begins to bridge gap in China’s chip tech appeared first on Huawei Central .",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-10-14T01:43:51.579Z",
+        "index": 24,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "en",
+        "categoria": "tecnologia",
+        "categorias_secundarias": [
+          "semiconductores",
+          "moviles",
+          "inteligencia_artificial"
+        ],
+        "category_scores": {
+          "tecnologia": 6,
+          "semiconductores": 4,
+          "moviles": 2,
+          "inteligencia_artificial": 1,
+          "vehiculos_energia": 1,
+          "software_internet": 1
+        },
+        "entidades": [
+          "Huawei",
+          "Qualcomm"
+        ],
+        "cifras_detectadas": [],
+        "content_type": "report",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 92,
+        "relevancia": 83,
+        "confiabilidad_fuente": 75,
+        "readability": {
+          "words": 187,
+          "sentences": 7,
+          "average_words_per_sentence": 26.71
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 84.15
+    },
+    {
+      "id": "832af7a9b5a44153",
+      "fuente_id": "huawei_central",
+      "fuente_nombre": "Huawei Central",
+      "tipo": "rss_web",
+      "subtipo": "medio_especializado",
+      "grupo_fuente": "huawei",
+      "nivel_fuente": "secundaria_especializada",
+      "categoria": "moviles",
+      "idioma_original": "en",
+      "prioridad_fuente": 5,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Caída de la participación de Nvidia en el mercado chino de chips de IA tras el crecimiento de Huawei",
+      "titulo_original": "Nvidia share drop in Chinese AI chip market following Huawei’s growth",
+      "enlace": "https://www.huaweicentral.com/nvidia-share-drop-in-chinese-ai-chip-market-following-huaweis-growth/",
+      "fecha": "2026-10-13T10:37:16.000Z",
+      "resumen_corto": "Reuters informó que Nvidia ha caído al 34% de su participación de mercado en el chip de IA chino […] La caída posterior de la participación de Nvidia en el mercado chino de chips de IA tras el crecimiento de Huawei apareció por primera vez en Huawei Central.",
+      "resumen_largo": "El crecimiento de Huawei en el mercado chino de chips de IA está afectando significativamente la participación de Nvidia. Un nuevo informe sugiere que el fabricante de chips estadounidense ha caído al 34% en el primer semestre de este año tras las regulaciones de control de exportaciones y el progreso constante de los competidores. Reuters informó que Nvidia ha caído al 34% de su participación de mercado en el chip de IA chino […] La caída posterior de la participación de Nvidia en el mercado chino de chips de IA tras el crecimiento de Huawei apareció por primera vez en Huawei Central.",
+      "texto_original": "Huawei’s growth in the Chinese AI chip market is significantly affecting Nvidia share. A new report suggests that the US chipmaker has slipped to 34% in the first half of this year following export control regulations and competitors’ consistent progress. Reuters reported that Nvidia has dropped to 34% market share in the Chinese AI chip […] The post Nvidia share drop in Chinese AI chip market following Huawei’s growth appeared first on Huawei Central .",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-10-14T01:43:51.576Z",
+        "index": 22,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "en",
+        "categoria": "semiconductores",
+        "categorias_secundarias": [
+          "inteligencia_artificial",
+          "moviles",
+          "vehiculos_energia"
+        ],
+        "category_scores": {
+          "semiconductores": 3,
+          "inteligencia_artificial": 2,
+          "moviles": 1,
+          "vehiculos_energia": 1,
+          "software_internet": 1
+        },
+        "entidades": [
+          "Huawei",
+          "NVIDIA"
+        ],
+        "cifras_detectadas": [
+          "34%"
+        ],
+        "content_type": "report",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 97,
+        "relevancia": 75,
+        "confiabilidad_fuente": 75,
+        "readability": {
+          "words": 156,
+          "sentences": 7,
+          "average_words_per_sentence": 22.29
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 82.7
+    },
+    {
+      "id": "92242e2619e96daa",
+      "fuente_id": "huawei_central",
+      "fuente_nombre": "Huawei Central",
+      "tipo": "rss_web",
+      "subtipo": "medio_especializado",
+      "grupo_fuente": "huawei",
+      "nivel_fuente": "secundaria_especializada",
+      "categoria": "moviles",
+      "idioma_original": "en",
+      "prioridad_fuente": 5,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Se anuncian tres colores para juegos de la serie Honor WIN 2",
+      "titulo_original": "Honor WIN 2 series three gaming colors announced",
+      "enlace": "https://www.huaweicentral.com/honor-win-2-series-three-gaming-colors-announced/",
+      "fecha": "2026-10-13T11:34:13.000Z",
+      "resumen_corto": "La serie Honor WIN 2 contará con tres nuevos colores de juego que pueden adaptarse al estado de ánimo de los usuarios mientras juegan su juego favorito.",
+      "resumen_largo": "La serie Honor WIN 2 contará con tres nuevos colores de juego que pueden adaptarse al estado de ánimo de los usuarios mientras juegan su juego favorito. La compañía ha comenzado a adelantar los aspectos más destacados de la nueva línea de juegos en pleno apogeo y el último habla sobre sus matices. El gigante tecnológico ya ha mostrado la combinación de colores principal de […] The post Se anunciaron tres colores para juegos de la serie Honor WIN 2 apareció por primera vez en Huawei Central.",
+      "texto_original": "Honor WIN 2 series will feature three new gaming colors that can match users’ mood while playing their favorite game. The company has started teasing the key highlights of the new gaming lineup in full swing and the latest one talks about its shades. The tech giant has already showcased the main color scheme of […] The post Honor WIN 2 series three gaming colors announced appeared first on Huawei Central .",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-10-14T01:43:51.574Z",
+        "index": 19,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "en",
+        "categoria": "moviles",
+        "categorias_secundarias": [
+          "inteligencia_artificial",
+          "vehiculos_energia",
+          "software_internet"
+        ],
+        "category_scores": {
+          "moviles": 3,
+          "inteligencia_artificial": 2,
+          "vehiculos_energia": 1,
+          "software_internet": 1,
+          "tecnologia": 1
+        },
+        "entidades": [
+          "Huawei",
+          "Honor"
+        ],
+        "cifras_detectadas": [],
+        "content_type": "report",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 92,
+        "relevancia": 75,
+        "confiabilidad_fuente": 75,
+        "readability": {
+          "words": 158,
+          "sentences": 7,
+          "average_words_per_sentence": 22.57
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 80.95
+    },
+    {
+      "id": "388a782c1aa8e9e9",
+      "fuente_id": "huawei_central",
+      "fuente_nombre": "Huawei Central",
+      "tipo": "rss_web",
+      "subtipo": "medio_especializado",
+      "grupo_fuente": "huawei",
+      "nivel_fuente": "secundaria_especializada",
+      "categoria": "moviles",
+      "idioma_original": "en",
+      "prioridad_fuente": 5,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Huawei detalla los componentes del Kirin 9050 Pro y la nueva arquitectura",
+      "titulo_original": "Huawei details Kirin 9050 Pro components and new architecture",
+      "enlace": "https://www.huaweicentral.com/huawei-kirin-9050-pro-components/",
+      "fecha": "2026-10-13T07:21:49.000Z",
+      "resumen_corto": "Huawei llevó a cabo hoy la Conferencia de comunicación de medios Kirin 2026 y habló sobre el último chip, los componentes Kirin 9050 Pro y la nueva arquitectura.",
+      "resumen_largo": "Huawei llevó a cabo hoy la Conferencia de comunicación de medios Kirin 2026 y habló sobre el último chip, los componentes Kirin 9050 Pro y la nueva arquitectura. La compañía detalló lo que ha utilizado en el procesador móvil de este año para llevarlo al siguiente nivel. Xu Songyu, Ministro de Gestión de Productos de Chips de Dispositivos Inalámbricos de Huawei Semiconductor Business, comenzó […] La publicación Huawei detalla los componentes del Kirin 9050 Pro y la nueva arquitectura apareció por primera vez en Huawei Central.",
+      "texto_original": "Huawei conducted the 2026 Kirin Media Communication Conference today and talked about the latest chip, Kirin 9050 Pro components, and new architecture. The company detailed what it has used in this year’s mobile processor to elevate it to the next level. Xu Songyu, Minister of Wireless Device Chip Product Management of Huawei Semiconductor Business, started […] The post Huawei details Kirin 9050 Pro components and new architecture appeared first on Huawei Central .",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-10-14T01:43:51.582Z",
+        "index": 28,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "en",
+        "categoria": "semiconductores",
+        "categorias_secundarias": [
+          "inteligencia_artificial",
+          "moviles",
+          "hardware"
+        ],
+        "category_scores": {
+          "semiconductores": 3,
+          "inteligencia_artificial": 2,
+          "moviles": 2,
+          "hardware": 2,
+          "tecnologia": 2,
+          "vehiculos_energia": 1,
+          "software_internet": 1
+        },
+        "entidades": [
+          "Huawei",
+          "Huawei Semiconductor"
+        ],
+        "cifras_detectadas": [
+          "9050",
+          "2026"
+        ],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 89,
+        "relevancia": 75,
+        "confiabilidad_fuente": 65,
+        "readability": {
+          "words": 161,
+          "sentences": 7,
+          "average_words_per_sentence": 23
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 77.4
+    },
+    {
+      "id": "af1897ade4e68775",
+      "fuente_id": "huawei_central",
+      "fuente_nombre": "Huawei Central",
+      "tipo": "rss_web",
+      "subtipo": "medio_especializado",
+      "grupo_fuente": "huawei",
+      "nivel_fuente": "secundaria_especializada",
+      "categoria": "moviles",
+      "idioma_original": "en",
+      "prioridad_fuente": 5,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Chips Huawei Kirin instalados en más de 100 millones de dispositivos desde 2023",
+      "titulo_original": "Huawei Kirin chips installed on over 100 million devices since 2023",
+      "enlace": "https://www.huaweicentral.com/huawei-kirin-chips-installed-on-over-100-million-devices/",
+      "fecha": "2026-10-13T08:36:48.000Z",
+      "resumen_corto": "La conferencia de medios Huawei Kirin 2026 está en marcha y la compañía reveló que ha enviado más de 100 millones de dispositivos con chips Kirin desde 2023.",
+      "resumen_largo": "La conferencia de medios Huawei Kirin 2026 está en marcha y la compañía reveló que ha enviado más de 100 millones de dispositivos con chips Kirin desde 2023. Se trata de una cifra importante, sobre todo porque Estados Unidos sigue endureciendo los controles de exportación de chips a las empresas chinas. El Ministro de Gestión de Productos de Chipset de Dispositivos Inalámbricos de Huawei, Xu Songyu, declaró en […] La publicación Los chips Huawei Kirin instalados en más de 100 millones de dispositivos desde 2023 aparecieron por primera vez en Huawei Central.",
+      "texto_original": "2026 Huawei Kirin Media Conference is underway, and the company revealed that it has shipped more than 100 million Kirin chips devices since 2023. That’s a big figure, especially as the US continues to tighten chip export controls on Chinese companies. The Minister of Wireless Device Chipset Product Management at Huawei, Xu Songyu, stated at […] The post Huawei Kirin chips installed on over 100 million devices since 2023 appeared first on Huawei Central .",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-10-14T01:43:51.581Z",
+        "index": 27,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "en",
+        "categoria": "semiconductores",
+        "categorias_secundarias": [
+          "moviles",
+          "tecnologia",
+          "inteligencia_artificial"
+        ],
+        "category_scores": {
+          "semiconductores": 2,
+          "moviles": 2,
+          "tecnologia": 2,
+          "inteligencia_artificial": 1,
+          "vehiculos_energia": 1,
+          "software_internet": 1
+        },
+        "entidades": [
+          "Huawei"
+        ],
+        "cifras_detectadas": [
+          "100 m",
+          "2023",
+          "2026"
+        ],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 25,
+          "signals": [
+            "\\brevealed\\b"
+          ]
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 89,
+        "relevancia": 70,
+        "confiabilidad_fuente": 65,
+        "readability": {
+          "words": 165,
+          "sentences": 7,
+          "average_words_per_sentence": 23.57
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 75.4
+    },
+    {
+      "id": "dce2584c250cb8f0",
+      "fuente_id": "openai_google",
+      "fuente_nombre": "OpenAI",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "openai",
+      "nivel_fuente": "fuente_oficial",
+      "categoria": "inteligencia_artificial",
+      "idioma_original": "en",
+      "prioridad_fuente": 5,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Higgsfield lleva el vídeo con IA de 1 minuto a más de 10",
+      "titulo_original": "Higgsfield takes AI video from 1 minute to over 10 - OpenAI",
+      "enlace": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1YV2l6MHpLUHNCMzVVNTVRVmwxOUNFQ29FUllTb3liU3VKZHBWZDVpWFo3bk1XazV0NFA3djVzcFhMWG5RSkhvenpEbTZMMDhQOEJlUXFjS21NSFY5bE1pRF9VSkZRNFk?oc=5",
+      "fecha": "2026-10-13T19:07:17.000Z",
+      "resumen_corto": "Higgsfield lleva el vídeo con IA de 1 minuto a más de 10 OpenAI",
+      "resumen_largo": "Higgsfield lleva el vídeo con IA de 1 minuto a más de 10 OpenAI",
+      "texto_original": "Higgsfield takes AI video from 1 minute to over 10 OpenAI",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-10-14T01:43:51.563Z",
+        "index": 5,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "en",
+        "categoria": "inteligencia_artificial",
+        "categorias_secundarias": [
+          "vehiculos_energia"
+        ],
+        "category_scores": {
+          "inteligencia_artificial": 3,
+          "vehiculos_energia": 1
+        },
+        "entidades": [
+          "OpenAI"
+        ],
+        "cifras_detectadas": [
+          "1 m"
+        ],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 89,
+        "relevancia": 62,
+        "confiabilidad_fuente": 75,
+        "readability": {
+          "words": 34,
+          "sentences": 1,
+          "average_words_per_sentence": 34
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 74.7
+    },
     {
       "id": "37574943a725cc8c",
       "fuente_id": "huawei_google",
@@ -41,17 +594,17 @@
       "prioridad_fuente": 4,
       "analizar": true,
       "resumir": true,
-      "titulo": "Huawei es la única marca de teléfonos inteligentes que registra un crecimiento de dos dígitos en el tercer trimestre de 2026: Informe",
+      "titulo": "Huawei es la única marca de teléfonos inteligentes que experimenta un crecimiento de dos dígitos en el tercer trimestre de 2026: Informe",
       "titulo_original": "Huawei is only smartphone brand to see double-digit growth in Q3 2026: Report - Huawei Central",
       "enlace": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9yYXRsRmRzcjR4OTNJVjFhS080NEE5emRMTHRDV2lzR3V4UXFLNURZSEdZVzZzTlA2cjF3NzZFeng5WDltREV5SmQ3bzlsY1F1VzkyaUZWU1ZGMk1abGdrd0VjbWRLQ2d1eFJvWktJQ2TSAXZBVV95cUxQSVhyTkNYaFRrN2M3OGVCdTc1dW00c2RjU3JkdnNPbUlHaElUSEk2LVRQaUJYMDFaMlpHQzdKWldKQ2k2MDRrWWU5a1VMR1ZPNzU5OWZnMnN5OU51ZEttS21MRzdxeDJYNi1hTFRIdFR2b2pPLWVn?oc=5",
       "fecha": "2026-10-13T05:39:18.000Z",
-      "resumen_corto": "Huawei es la única marca de teléfonos inteligentes que registra un crecimiento de dos dígitos en el tercer trimestre de 2026: Informe Huawei Central",
-      "resumen_largo": "Huawei es la única marca de teléfonos inteligentes que registra un crecimiento de dos dígitos en el tercer trimestre de 2026: Informe Huawei Central",
+      "resumen_corto": "Huawei es la única marca de teléfonos inteligentes que experimenta un crecimiento de dos dígitos en el tercer trimestre de 2026: Informe Huawei Central",
+      "resumen_largo": "Huawei es la única marca de teléfonos inteligentes que experimenta un crecimiento de dos dígitos en el tercer trimestre de 2026: Informe Huawei Central",
       "texto_original": "Huawei is only smartphone brand to see double-digit growth in Q3 2026: Report Huawei Central",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-13T22:40:37.125Z",
-        "index": 21,
+        "processed_at": "2026-10-14T01:43:51.583Z",
+        "index": 30,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -99,6 +652,82 @@
       "final_score": 73.8
     },
     {
+      "id": "33cb5f98f0c8bd8f",
+      "fuente_id": "wccftech_google",
+      "fuente_nombre": "Wccftech",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "wccftech",
+      "nivel_fuente": "medio_especializado",
+      "categoria": "hardware",
+      "idioma_original": "en",
+      "prioridad_fuente": 4,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "La pista del lanzamiento temprano de GTA 6 para PC del CEO de Corsair parece profética, ya que las fuentes de GamesBeat ahora apuntan al lanzamiento en el primer trimestre de 2027",
+      "titulo_original": "Corsair CEO’s Early GTA 6 PC Release Hint Looks Prescient, as GamesBeat Sources Now Point to Q1 2027 Launch - Wccftech",
+      "enlace": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBuaUhFSjdGRmJSdjJIUnRjXy12TTJNcVBPWk5XOFFGMGdIbmZJUEFyQUZIMXk4ekgwcGRYX0JnbHZnTXNHc1Z5dUhjSk9NUnRiMDhGeHZvQXRpamFXWFNXUjIwX1VLU3N6OFg2eTlOc1VHWmpudXdNM1AzSFp2d9IBgwFBVV95cUxQQzhERmhPdjdaSFJmbTc1cXZmeHZIc1JBWTgtNDVjZkIwaEc2bWFCaWhZR2hoWkFUS0QzclJxRmQ5VnlaOFhQUmRFTUxod18wRERxeTU1OWJ6Y2pjLUF5UjhLVUZGa2F4TEVUY1FmZnctTENtZ2l0aURDa2hIRWJnMXFBVQ?oc=5",
+      "fecha": "2026-10-13T14:18:24.000Z",
+      "resumen_corto": "La pista del lanzamiento temprano de GTA 6 para PC del CEO de Corsair parece profética, ya que las fuentes de GamesBeat ahora apuntan al lanzamiento del primer trimestre de 2027 Wccftech",
+      "resumen_largo": "La pista del lanzamiento temprano de GTA 6 para PC del CEO de Corsair parece profética, ya que las fuentes de GamesBeat ahora apuntan al lanzamiento del primer trimestre de 2027 Wccftech",
+      "texto_original": "Corsair CEO’s Early GTA 6 PC Release Hint Looks Prescient, as GamesBeat Sources Now Point to Q1 2027 Launch Wccftech",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-10-14T01:43:51.570Z",
+        "index": 15,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "en",
+        "categoria": "inteligencia_artificial",
+        "categorias_secundarias": [
+          "hardware",
+          "tecnologia"
+        ],
+        "category_scores": {
+          "inteligencia_artificial": 1,
+          "hardware": 1,
+          "tecnologia": 1
+        },
+        "entidades": [
+          "Wccftech"
+        ],
+        "cifras_detectadas": [
+          "2027",
+          "2027 W"
+        ],
+        "content_type": "report",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 95,
+        "relevancia": 63,
+        "confiabilidad_fuente": 60,
+        "readability": {
+          "words": 97,
+          "sentences": 1,
+          "average_words_per_sentence": 97
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 73.45
+    },
+    {
       "id": "b747cf9e397862b2",
       "fuente_id": "bbc_mundo",
       "fuente_nombre": "BBC Mundo",
@@ -120,8 +749,8 @@
       "texto_original": "\"Vi niñas con hijos que evidentemente no habían procesado todo lo que les había pasado\". Esa imagen, de una menor de edad con un hijo, fue una de las más que le impactó a Mónica Maureira en su visita a la provincia de Condorcanqui, en el Amazonas peruano. Maureira viajó allí como parte de una delegación del Comité de Expertas del Mecanismo de Seguimiento de la Convención de Belém do Pará (Mesecvi) para evitar la violencia contra las mujeres en América Latina, adscrita a la Organización de los Estados Americanos (OEA). En esa zona donde residen unos 70.000 miembros de las comunidades awajún y wampis, se registra un problema que ha disparado las alertas de expertos y activistas: desde 2014 se ha contabilizado cerca de 1.000 denuncias relacionadas a abusos sexuales de menores, tocamientos y casos de violencia de género que no han sido atendidos por la justicia peruana. (Algunas entidades señalan que podrían llegar a 1.400 casos). Esto ha derivado en una epidemia de contagios de VIH entre menores de edad (incluso en niños y niñas de 3 y 4 años), decenas de casos de embarazo adolescente y una crisis de salud mental que se manifiesta en un aumento de los casos de intento de suicidio de adolescentes en estas comunidades. \"Cuando llegamos a la visita nos enteramos del caso de una joven que había intentado quitarse la vida bebiendo shampoo y cuando nos fuimos nos informaron de otro caso\", le dice Maureira a BBC Mundo.",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-13T22:40:37.120Z",
-        "index": 13,
+        "processed_at": "2026-10-14T01:43:51.573Z",
+        "index": 18,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -189,22 +818,22 @@
       "prioridad_fuente": 5,
       "analizar": true,
       "resumir": true,
-      "titulo": "GPT-6 e interfaz de usuario inteligente para todos",
+      "titulo": "GPT-6 y UI inteligente para todos",
       "titulo_original": "GPT-6 and Intelligent UI for everyone - OpenAI",
       "enlace": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9ZcDg5SXNmVWFZbnFGQkVMYjVFNjBxeUVDWlN2RFJNREhRb0xXbmRsUWhWRnkzOWNHSjgxT3ROQk96VkZ3OHR4X2JrZDNmUThOa3ZJWU9zcw?oc=5",
       "fecha": "2026-10-07T18:02:49.000Z",
-      "resumen_corto": "GPT-6 e interfaz de usuario inteligente para todos OpenAI",
-      "resumen_largo": "GPT-6 e interfaz de usuario inteligente para todos OpenAI",
+      "resumen_corto": "GPT-6 y UI inteligente para todos OpenAI",
+      "resumen_largo": "GPT-6 y UI inteligente para todos OpenAI",
       "texto_original": "GPT-6 and Intelligent UI for everyone OpenAI",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-13T22:40:37.131Z",
-        "index": 36,
+        "processed_at": "2026-10-14T01:43:51.589Z",
+        "index": 42,
         "resumen": {
           "generado": true,
           "origen": "translated"
         },
-        "idioma_detectado": "es",
+        "idioma_detectado": "en",
         "idioma_original": "en",
         "categoria": "inteligencia_artificial",
         "categorias_secundarias": [
@@ -234,80 +863,9 @@
         "relevancia": 62,
         "confiabilidad_fuente": 75,
         "readability": {
-          "words": 32,
+          "words": 26,
           "sentences": 1,
-          "average_words_per_sentence": 32
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 72.95
-    },
-    {
-      "id": "dd08358d42743f07",
-      "fuente_id": "openai_google",
-      "fuente_nombre": "OpenAI",
-      "tipo": "rss_web",
-      "subtipo": "google_news",
-      "grupo_fuente": "openai",
-      "nivel_fuente": "fuente_oficial",
-      "categoria": "inteligencia_artificial",
-      "idioma_original": "en",
-      "prioridad_fuente": 5,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "Compartir el progreso de la IA en matemáticas",
-      "titulo_original": "Sharing AI progress in mathematics - OpenAI",
-      "enlace": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9HRmFiYm1mWTNPVTVGTk9faFRwRVZyTjhmejJwa0U3QjU3djh5SlpXT3ZhUlF2M0lXcV9jNkNka1kzY3RKNkRTTnpJVW16ZG1QdmdPU3owRXdCYzFLSkdTb3pIZWdJV0k1R3o3dw?oc=5",
-      "fecha": "2026-10-06T22:21:50.000Z",
-      "resumen_corto": "Compartir el progreso de la IA en matemáticas OpenAI",
-      "resumen_largo": "Compartir el progreso de la IA en matemáticas OpenAI",
-      "texto_original": "Sharing AI progress in mathematics OpenAI",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-10-13T22:40:37.132Z",
-        "index": 37,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "en",
-        "categoria": "inteligencia_artificial",
-        "categorias_secundarias": [
-          "moviles"
-        ],
-        "category_scores": {
-          "inteligencia_artificial": 3,
-          "moviles": 1
-        },
-        "entidades": [
-          "OpenAI"
-        ],
-        "cifras_detectadas": [],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 84,
-        "relevancia": 62,
-        "confiabilidad_fuente": 75,
-        "readability": {
-          "words": 19,
-          "sentences": 1,
-          "average_words_per_sentence": 19
+          "average_words_per_sentence": 26
         },
         "duplicate": {
           "detected": false,
@@ -331,17 +889,17 @@
       "prioridad_fuente": 5,
       "analizar": true,
       "resumir": true,
-      "titulo": "Restablecimiento completo: Día 8 de 28 días de mejoras en la calidad de vida y/o restablecimiento completo - Comunidad de desarrolladores de OpenAI",
+      "titulo": "Reinicio completo: Día 8 de 28 días de mejoras en la calidad de vida y/o un reinicio completo - OpenAI Developer Community",
       "titulo_original": "Full Reset: Day 8 of 28 days of Quality of Life improvements and/or a full Reset - OpenAI Developer Community",
       "enlace": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOZkZHYU9pcFA4Ql9OVlpSUUc0MmY5dTdmOHBoRi1pcHBQbmZHRlkzMER1MF94VUVXUzM2bXdNSzV0ZmstbGVtNWc4RW9fS1FOZHRIWXNWUzR1VkI1ZUNhbzNIQTdHWktSZ3BMUlgxWlYxM2hOSXdlajE1Yi10b0RvMzMxWkdsU2Flc0VMWFp6Szlsc3FzOFRrS19wTU5Gb2NZQnVGMHREbTIxSjlSajFFOUg1VTAtSVBZOUE?oc=5",
       "fecha": "2026-10-05T07:00:00.000Z",
-      "resumen_corto": "Restablecimiento completo: Día 8 de 28 días de mejoras en la calidad de vida y/o un restablecimiento completo de la comunidad de desarrolladores de OpenAI",
-      "resumen_largo": "Restablecimiento completo: Día 8 de 28 días de mejoras en la calidad de vida y/o un restablecimiento completo de la comunidad de desarrolladores de OpenAI",
+      "resumen_corto": "Restablecimiento completo: Día 8 de 28 días de mejoras en la calidad de vida y/o un reinicio completo OpenAI Developer Community",
+      "resumen_largo": "Restablecimiento completo: Día 8 de 28 días de mejoras en la calidad de vida y/o un reinicio completo OpenAI Developer Community",
       "texto_original": "Full Reset: Day 8 of 28 days of Quality of Life improvements and/or a full Reset OpenAI Developer Community",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-13T22:40:37.132Z",
-        "index": 38,
+        "processed_at": "2026-10-14T01:43:51.589Z",
+        "index": 43,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -390,83 +948,6 @@
       "final_score": 72.95
     },
     {
-      "id": "5c85ce9514d79645",
-      "fuente_id": "huawei_google",
-      "fuente_nombre": "Huawei Central",
-      "tipo": "rss_web",
-      "subtipo": "google_news",
-      "grupo_fuente": "huawei",
-      "nivel_fuente": "agregador",
-      "categoria": "moviles",
-      "idioma_original": "en",
-      "prioridad_fuente": 4,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "Acuerdo Qualcomm-Huawei: un nuevo capítulo comienza a cerrar la brecha en la tecnología de chips de China",
-      "titulo_original": "Qualcomm-Huawei Deal: New chapter begins to bridge gap in China’s chip tech - Huawei Central",
-      "enlace": "https://news.google.com/rss/articles/CBMibkFVX3lxTE8wN29MU0ozLVZzMEY2dGhLZVpMdXFXUWg2eGlEWTlmYjlLRkxGbU02bmpEcTcwaW1ybkhXdmJSRHJlNlU4cWhsWVlVYlpYRlBhbGRYdXZfZ2xHcE9uTXkzUUhVTHNfZEhodG4yNlNR0gFzQVVfeXFMT2tfUTA0WTJKeThRdWVlQTc3cG5fMV95ZUlpUGNDTXVVenF1WXNOdWdCM2dNS0hBNFBFcVFhYXpYUDE1TXhEZ0pFb1hDR0F4RVNVX3p5Wko5eU1oT1lfSk51Vm0zeWRXdUtMa0U3ZDE5S1JVNA?oc=5",
-      "fecha": "2026-10-13T10:39:18.000Z",
-      "resumen_corto": "Acuerdo Qualcomm-Huawei: un nuevo capítulo comienza a cerrar la brecha en la tecnología de chips de China Huawei Central",
-      "resumen_largo": "Acuerdo Qualcomm-Huawei: un nuevo capítulo comienza a cerrar la brecha en la tecnología de chips de China Huawei Central",
-      "texto_original": "Qualcomm-Huawei Deal: New chapter begins to bridge gap in China’s chip tech Huawei Central",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-10-13T22:40:37.121Z",
-        "index": 15,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "en",
-        "categoria": "tecnologia",
-        "categorias_secundarias": [
-          "semiconductores",
-          "inteligencia_artificial",
-          "moviles"
-        ],
-        "category_scores": {
-          "tecnologia": 3,
-          "semiconductores": 2,
-          "inteligencia_artificial": 1,
-          "moviles": 1,
-          "vehiculos_energia": 1
-        },
-        "entidades": [
-          "Huawei",
-          "Qualcomm"
-        ],
-        "cifras_detectadas": [],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 82,
-        "relevancia": 75,
-        "confiabilidad_fuente": 53,
-        "readability": {
-          "words": 63,
-          "sentences": 1,
-          "average_words_per_sentence": 63
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 71.95
-    },
-    {
       "id": "884e9a3387457470",
       "fuente_id": "openai_google",
       "fuente_nombre": "OpenAI",
@@ -479,17 +960,17 @@
       "prioridad_fuente": 5,
       "analizar": true,
       "resumir": true,
-      "titulo": "Rendimiento degradado en GPT-6.1 Sol Codex y modo de trabajo",
+      "titulo": "Rendimiento degradado en GPT-6.1 Sol Codex y modo Trabajo",
       "titulo_original": "Degraded performance in GPT-6.1 Sol Codex and Work mode - OpenAI",
       "enlace": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5BYS0xUTlNeEJTMHdwM0t2d2hkc1ZpTnVaZXR0Q01aTXQwS3RMLXJZcEFmRy00UFpLa0JaZWIyRzQ0eXFLWUFLYlZsMmdBN1RHOWtqMVNOOA?oc=5",
-      "fecha": "2026-10-12T23:55:05.000Z",
+      "fecha": "2026-10-13T13:21:54.000Z",
       "resumen_corto": "Rendimiento degradado en GPT-6.1 Sol Codex y modo de trabajo OpenAI",
       "resumen_largo": "Rendimiento degradado en GPT-6.1 Sol Codex y modo de trabajo OpenAI",
       "texto_original": "Degraded performance in GPT-6.1 Sol Codex and Work mode OpenAI",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-13T22:40:37.127Z",
-        "index": 26,
+        "processed_at": "2026-10-14T01:43:51.570Z",
+        "index": 16,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -535,7 +1016,7 @@
       "final_score": 70.15
     },
     {
-      "id": "ed4fe41319906396",
+      "id": "b99ae787567c48b7",
       "fuente_id": "wccftech_google",
       "fuente_nombre": "Wccftech",
       "tipo": "rss_web",
@@ -547,40 +1028,42 @@
       "prioridad_fuente": 4,
       "analizar": true,
       "resumir": true,
-      "titulo": "Intel Crescent Island exprime 1.3 PFLOP de FP8 en solo 350W, ya que D270 apunta a la competencia con LPDDR5X orientado al valor de hasta 480 GB",
-      "titulo_original": "Intel Crescent Island Squeezes 1.3 PFLOPs Of FP8 Into Just 350W As D270 Targets The Competition With Value-Oriented LPDDR5X Up To 480 GB - Wccftech",
-      "enlace": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOV3BSeU1venZEQmpqNEk3R3FuZks5cEZBT2tPcFRZTVc5Z0wwLXpZSnZPODVvM01lNHRRb1pEdGRJU1pNVHpfeHBsZW9XRVpMcDRQZXhJTHQteDJoN25YdWJMZ185NVV0ME92VXNpWmx3LVVXM2VCREZBLTBUTkNKbDFjSHRSWmNfZWlxTDcwT2htbTJVRVVkaXU3LU1EZWJNdFNYMnh5WXhPWjDSAbABQVVfeXFMTVBmeVJ0V0pvTTlKcVZmSm83WGxZcFY0M2xVMzgxa2Z1eWdCR3NmQXNNSEhtc0MtaE5PWDgteURSN1g3NlQ5bU4zMTZYR2tiUHg5c0hQY3Eydm5kN09VZVJ3a3k0Y0F6YjZSbGZEX0ZSMXhGRkVtUWNicExpNHJRSlZTTGRQakZNemJqY2hiNlFyUElRY240SG9nNzR4YVpYbmJRTEo5N18ydFN3ejNNX1Y?oc=5",
-      "fecha": "2026-10-12T19:25:18.000Z",
-      "resumen_corto": "Intel Crescent Island exprime 1.3 PFLOP de FP8 en solo 350W, ya que D270 apunta a la competencia con LPDDR5X orientado al valor de hasta 480 GB Wccftech",
-      "resumen_largo": "Intel Crescent Island exprime 1.3 PFLOP de FP8 en solo 350W, ya que D270 apunta a la competencia con LPDDR5X orientado al valor de hasta 480 GB Wccftech",
-      "texto_original": "Intel Crescent Island Squeezes 1.3 PFLOPs Of FP8 Into Just 350W As D270 Targets The Competition With Value-Oriented LPDDR5X Up To 480 GB Wccftech",
+      "titulo": "NVIDIA DLSS 5 se ejecuta un 30% más rápido ahora, reduce el uso de VRAM en un 20% y llegará al legado de Hogwarts y donde los vientos se encuentran en noviembre",
+      "titulo_original": "NVIDIA DLSS 5 Runs 30% Faster Now, Reduces VRAM Use By 20% & Coming To Hogwarts Legacy & Where Winds Meet In November - Wccftech",
+      "enlace": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNSndNaGF5eUM1SWhGVzhGUElDVXpKajJycHo3LVdVOWF3aUl4cXpqeUR0bFNoeGVXWVI5S1pST1pPZjVhckw5M3c5aEdOOE85ellUZmwycF9MTXdEdXR5YkZyMTNuRWFfc1BoeGdqWWhkX2hVMzg2STNURE85UUhJenI3LUFBRU9nZndOS1doMno3MEVJZVh0ZHZwRmxXVFRtU09SZEl2S2lidFHSAbABQVVfeXFMT0dsYzNLakZKLWFfLVFxcWFFTVhpZjZZRGV4S1kxMGRNMlRRNFgzN0Z3bk0td3BqNHNNamhsWGxnam12TWMtdlR1TGpRT29GNUx4ck5CYkFsb05vWXZNTEdmRVRfQzVWbEs1S09VNlNPbEs4Ylh4S1ZsanZCUG1WVE9yTzhmZlVfeEhNVlVtMEZpUk01MXlGQmJLSDhJUmNVSjk2YzMxSTd6ZWZJY3RNT2U?oc=5",
+      "fecha": "2026-10-13T12:44:52.000Z",
+      "resumen_corto": "NVIDIA DLSS 5 se ejecuta un 30% más rápido ahora, reduce el uso de VRAM en un 20% y llegará al legado de Hogwarts y donde los vientos se encuentran en noviembre Wccftech",
+      "resumen_largo": "NVIDIA DLSS 5 se ejecuta un 30% más rápido ahora, reduce el uso de VRAM en un 20% y llegará al legado de Hogwarts y donde los vientos se encuentran en noviembre Wccftech",
+      "texto_original": "NVIDIA DLSS 5 Runs 30% Faster Now, Reduces VRAM Use By 20% & Coming To Hogwarts Legacy & Where Winds Meet In November Wccftech",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-13T22:40:37.128Z",
-        "index": 28,
+        "processed_at": "2026-10-14T01:43:51.571Z",
+        "index": 17,
         "resumen": {
           "generado": true,
           "origen": "translated"
         },
         "idioma_detectado": "es",
         "idioma_original": "en",
-        "categoria": "semiconductores",
+        "categoria": "inteligencia_artificial",
         "categorias_secundarias": [
-          "inteligencia_artificial",
+          "hardware",
+          "militar",
           "tecnologia"
         ],
         "category_scores": {
-          "semiconductores": 4,
           "inteligencia_artificial": 1,
+          "hardware": 1,
+          "militar": 1,
           "tecnologia": 1
         },
         "entidades": [
-          "Intel",
+          "NVIDIA",
           "Wccftech"
         ],
         "cifras_detectadas": [
-          "350W",
-          "480 GB"
+          "30%",
+          "20%"
         ],
         "content_type": "news",
         "clickbait": {
@@ -598,9 +1081,9 @@
         "relevancia": 67,
         "confiabilidad_fuente": 50,
         "readability": {
-          "words": 94,
-          "sentences": 6,
-          "average_words_per_sentence": 15.67
+          "words": 85,
+          "sentences": 1,
+          "average_words_per_sentence": 85
         },
         "duplicate": {
           "detected": false,
@@ -633,7 +1116,7 @@
       "texto_original": "El papa León XIV fue diagnosticado con cáncer de pulmón tras someterse este martes a una cirugía torácica, informó el Vaticano. El pontífice, de 71 años, se sometió a una operación de 90 minutos en el Hospital Gemelli de Roma, en la que se le extirpó el lóbulo inferior del pulmón derecho. Tras examinar el tejido durante la operación, fue diagnosticado con un adenocarcinoma pulmonar, señalaron los doctores Luigi Carbone y Stefano Margaritora. El Vaticano informó que la operación \"fue exitosa y no se presentaron complicaciones. \"Tras la intervención, el papa despertó con normalidad y, después de un breve período de observación, regresó a su habitación\", agregó la Santa Sede en su comunicado. El diagnóstico se produce después de que se le detectara un nódulo durante lo que el Vaticano ha descrito como \"controles rutinarios\".",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-13T22:40:37.110Z",
+        "processed_at": "2026-10-14T01:43:51.561Z",
         "index": 1,
         "resumen": {
           "generado": true,
@@ -706,8 +1189,8 @@
       "texto_original": "Esa fue la directriz que Alfred Nobel dejó expresamente en su testamento en 1895 para elegir a los merecedores del premio que llevaría su apellido y que se entrega desde hace 125 años. Si bien la iniciativa no especificaba género, desde sus inicios las mujeres han sido una pequeña minoría en cada categoría que contempla el galardón. Su representación histórica es especialmente baja en los premios científicos, es decir, en Medicina, Física, Química y Economía, el cual se otorga desde 1969. De los 769 reconocimientos individuales concedidos en estas cuatro disciplinas entre 1901 y 2026, solo 30 han sido para mujeres, lo que representa el 3,9% del total. Este año, por ejemplo, con la entrega del Nobel de Economía este lunes, se terminó de saber que todos los premios otorgados en los cuatro campos científicos fueron concedidos a hombres. La enorme brecha de género en los premios Nobel es preocupante y habla de un fenómeno complejo que, de acuerdo a expertas, se expresa mucho antes de que se decida quién merece este galardón.",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-13T22:40:37.122Z",
-        "index": 16,
+        "processed_at": "2026-10-14T01:43:51.578Z",
+        "index": 23,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -776,17 +1259,17 @@
       "prioridad_fuente": 4,
       "analizar": true,
       "resumir": true,
-      "titulo": "Honor WIN 2 series y lanzamiento DE LA tableta WIN para EL 21 DE octubre",
+      "titulo": "Lanzamiento de la serie Honor WIN 2 y de la tableta WIN programado para el 21 de octubre",
       "titulo_original": "Honor WIN 2 series and WIN tablet launch set for October 21 - Huawei Central",
       "enlace": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNY2lDUmpNWFoyaXpYU2ZQYmNJRl9yMUpyaTV4bFpJeUxSMS1ZTUtneGdLRS00VkpmWFQ3MUQ4eFZvMkpXQS15SDBTSW94aWFEYkliSC11Y1NBbVpqRlJVXzlPaC01YUJPNDI5T0hlY3I1THpPUGpOMXM4eFpvVHdBbDVYeUJTck1pXzZxTTlGSjExV1d00gGaAUFVX3lxTE1XUUk1VDVVWGpVTmotWWx0LThRdU8tRGZRWE5iSm03UmFjVXBGZEhrRFV0blRVWVkzY0x1b1BTUzlxb2VFQ2pCSlNPcy1oTmlheWItMk9Db2NVanRieENMUWVrUnMtWGRVeDhMeUZNTmdoSzEzVWRQWENwaEF1OEExVjc2dkctdlNNVFRsWU1ZZlVldHZzZW0wVGc?oc=5",
       "fecha": "2026-10-12T04:27:54.000Z",
-      "resumen_corto": "Honor WIN 2 series Y WIN lanzamiento DE LA tableta para EL 21 DE octubre Huawei Central",
-      "resumen_largo": "Honor WIN 2 series Y WIN lanzamiento DE LA tableta para EL 21 DE octubre Huawei Central",
+      "resumen_corto": "Lanzamiento de la serie Honor WIN 2 y de la tableta WIN programado para el 21 de octubre Huawei Central",
+      "resumen_largo": "Lanzamiento de la serie Honor WIN 2 y de la tableta WIN programado para el 21 de octubre Huawei Central",
       "texto_original": "Honor WIN 2 series and WIN tablet launch set for October 21 Huawei Central",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-13T22:40:37.131Z",
-        "index": 35,
+        "processed_at": "2026-10-14T01:43:51.588Z",
+        "index": 41,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -794,9 +1277,12 @@
         "idioma_detectado": "es",
         "idioma_original": "en",
         "categoria": "moviles",
-        "categorias_secundarias": [],
+        "categorias_secundarias": [
+          "hardware"
+        ],
         "category_scores": {
-          "moviles": 4
+          "moviles": 4,
+          "hardware": 1
         },
         "entidades": [
           "Huawei",
@@ -819,9 +1305,9 @@
         "relevancia": 67,
         "confiabilidad_fuente": 53,
         "readability": {
-          "words": 52,
+          "words": 55,
           "sentences": 1,
-          "average_words_per_sentence": 52
+          "average_words_per_sentence": 55
         },
         "duplicate": {
           "detected": false,
@@ -833,7 +1319,7 @@
       "final_score": 68.75
     },
     {
-      "id": "07ab63b7f8d36282",
+      "id": "d376e50cc3c84692",
       "fuente_id": "wccftech_google",
       "fuente_nombre": "Wccftech",
       "tipo": "rss_web",
@@ -845,40 +1331,39 @@
       "prioridad_fuente": 4,
       "analizar": true,
       "resumir": true,
-      "titulo": "El CEO de Intel, Lip-Bu Tan, advierte que la escasez de hardware de IA durará de dos a tres años y dice que el sector tiene que mostrar un retorno de la inversión",
-      "titulo_original": "Intel CEO Lip-Bu Tan Warns AI Hardware Shortage Will Last Two To Three Years & Says Sector Has To Show Return On Investment - Wccftech",
-      "enlace": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQYl9KZVNDaFEwTW1KOW5iWnVGTGd5cENCdW9jQzRzNjMyM1dHNEZwa2ZBRVhubDRES1JEek1FLTRsOEJvUkpDOVFyc1ZPdHRldHlVVlJmOTAtUFlhZVVOVEd2WW1aNTlDa3M0bS02NVNpckp3TGdjLTUwZ2l6OGxyS0cxb202S3puRXIyVEFidHN4ek5pVjBWbWxXRzFvYXJpeE11S2Y3Mi1rcV8tUjhQX05BaUlzNFNHVmNMMlJic2Fva0tfZXpHUzZGSmY0R1VmSnJGUkstbHAyQlnSAeABQVVfeXFMTWVmZjBBcmZ1VXg3Z1RQWFphbXA1bE95blh1b3lwdmhOMzllNWtKNW9EVllwWUIzTVppU1g2NHZmSmhhejdmVUd1a2x3XzNGTmRzbHR6WElzVjZhQlZ1Y2tsYUYyU29sSnJFUzJpZXdtaDdBam9RT0VfSmhkcUZYSGNLeVBTYk5QV29wUElWRHJJRENraUJKMVkzNlI0OFNaNVdWTzBtdW9OTUJsQnJBbXBUXzk2dEJLQ0VXbEZtUFFLZkRPaGMtZ1czb1FTdFVaMHo5NUU1aWZESVdHa214Ynk?oc=5",
-      "fecha": "2026-10-12T19:59:16.000Z",
-      "resumen_corto": "El CEO de Intel, Lip-Bu Tan, advierte que la escasez de hardware de IA durará de dos a tres años y dice que el sector tiene que mostrar un retorno de la inversión en Wccftech",
-      "resumen_largo": "El CEO de Intel, Lip-Bu Tan, advierte que la escasez de hardware de IA durará de dos a tres años y dice que el sector tiene que mostrar un retorno de la inversión en Wccftech",
-      "texto_original": "Intel CEO Lip-Bu Tan Warns AI Hardware Shortage Will Last Two To Three Years & Says Sector Has To Show Return On Investment Wccftech",
+      "titulo": "HP incluye una PC completa dentro de un teclado, con Ryzen AI Pro 400 y soporte para hasta 64 GB de RAM",
+      "titulo_original": "HP Crams A Full PC Inside A Keyboard, Featuring Ryzen AI Pro 400 And Support For Up To 64 GB RAM - Wccftech",
+      "enlace": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQYnJpS1RVSEQ2RDZEYUgyTjRMbWpfQ1JZN2FIOEg5b1ZIMjBhNWI2bXFoeEN6SHdkMkNvbDVUajVjaHNnZ1JOMlpKV21OV1JBWDh5S2N0d3FwNm0yQWtTeDJYbGxUaTh2VnNYNm43TUExYUQzWTBMUHBIQTZhTkx1SW1DYTZ3bXFCXzNWVHBB0gGTAUFVX3lxTFBLQVplNm5EMUQ5c3dQNU1QQnI1Wk9ZOW5LRFQyRFlzUmxaaV9jbVFlZ3VIUHZUdUVxTTJQcGR0SnMtR21kTXpOdEkyNW9wT2c1RFQwSVJQQmp3UzkxOVVpYnRKU2EwNUJsYlRnVm1LVUlrUGwzRE95TmhWRmNKTlN2RHlId3Y0dE1iMVEzSzluUjdYdw?oc=5",
+      "fecha": "2026-10-13T19:25:44.000Z",
+      "resumen_corto": "HP incluye una PC completa dentro de un teclado, con Ryzen AI Pro 400 y soporte para hasta 64 GB de RAM Wccftech",
+      "resumen_largo": "HP incluye una PC completa dentro de un teclado, con Ryzen AI Pro 400 y soporte para hasta 64 GB de RAM Wccftech",
+      "texto_original": "HP Crams A Full PC Inside A Keyboard, Featuring Ryzen AI Pro 400 And Support For Up To 64 GB RAM Wccftech",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-13T22:40:37.128Z",
-        "index": 27,
+        "processed_at": "2026-10-14T01:43:51.562Z",
+        "index": 4,
         "resumen": {
           "generado": true,
           "origen": "translated"
         },
         "idioma_detectado": "es",
         "idioma_original": "en",
-        "categoria": "inteligencia_artificial",
+        "categoria": "hardware",
         "categorias_secundarias": [
-          "hardware",
-          "militar",
+          "inteligencia_artificial",
           "tecnologia"
         ],
         "category_scores": {
-          "inteligencia_artificial": 2,
-          "hardware": 1,
-          "militar": 1,
+          "hardware": 5,
+          "inteligencia_artificial": 1,
           "tecnologia": 1
         },
         "entidades": [
-          "Intel",
           "Wccftech"
         ],
-        "cifras_detectadas": [],
+        "cifras_detectadas": [
+          "64 GB"
+        ],
         "content_type": "news",
         "clickbait": {
           "detected": false,
@@ -891,13 +1376,13 @@
           "signals": [],
           "url_count": 0
         },
-        "calidad": 82,
-        "relevancia": 67,
+        "calidad": 87,
+        "relevancia": 62,
         "confiabilidad_fuente": 50,
         "readability": {
-          "words": 100,
+          "words": 67,
           "sentences": 1,
-          "average_words_per_sentence": 100
+          "average_words_per_sentence": 67
         },
         "duplicate": {
           "detected": false,
@@ -906,7 +1391,7 @@
           "similar_to": null
         }
       },
-      "final_score": 68
+      "final_score": 67.75
     },
     {
       "id": "bc66e2b544408dcd",
@@ -921,17 +1406,17 @@
       "prioridad_fuente": 5,
       "analizar": true,
       "resumir": true,
-      "titulo": "Senior Legal Counsel",
+      "titulo": "Asesor Legal Senior",
       "titulo_original": "Senior Legal Counsel - BYD",
       "enlace": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1pYzRaOTVLNzJCM0t0eHNxY3FEY2lvMWNUWnNuazFMdFNPZVFraEF4NGVaVm9YazdjdlZ1MDRCWS0yZmk2Zm94eDF0NjAtU2lFY190RmZXeFZIX3JtZUYyNDE1ODJOV1NIZmZmMWRR?oc=5",
       "fecha": "2026-10-12T10:26:26.000Z",
-      "resumen_corto": "Senior Legal Counsel",
-      "resumen_largo": "Senior Legal Counsel",
+      "resumen_corto": "Asesor Legal Senior",
+      "resumen_largo": "Asesor Legal Senior",
       "texto_original": "Senior Legal Counsel BYD",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-13T22:40:37.129Z",
-        "index": 31,
+        "processed_at": "2026-10-14T01:43:51.587Z",
+        "index": 38,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -980,6 +1465,83 @@
       "final_score": 67.35
     },
     {
+      "id": "4b172731e421a975",
+      "fuente_id": "wccftech_google",
+      "fuente_nombre": "Wccftech",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "wccftech",
+      "nivel_fuente": "medio_especializado",
+      "categoria": "hardware",
+      "idioma_original": "en",
+      "prioridad_fuente": 4,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Universal MFG Unlocker 1.5.0 ofrece DLSS Preset C más rápido a las GPU RTX 40/30 y agrega soporte de generación de cuadros múltiples XeSS para GPU AMD e Intel",
+      "titulo_original": "Universal MFG Unlocker 1.5.0 Brings Faster DLSS Preset C To RTX 40/30 GPUs, Adds XeSS Multi Frame Generation Support For AMD & Intel GPUs - Wccftech",
+      "enlace": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPamNxbnd1QTFnUzAxVTBIODZBU2g3QnU2WlMzd2JRMTZyc2owLXQzZ2YyTzN0ZU5oTjRnaEZXcUlpcTRPb2ttLWp6bkVQM2hwREt6RHo2STd5UjhVa0swWHNWWjZrUGxuWHZ3RUpBdzFoVjV4MlZtNkZoMV9jZnlQQU1KTGh3VFJnMEtJczFMVmxSbmJXSndSZzFCVjd2Qjd2OXVpcXZZTnBYdTNYWnNkMURtblowTU9CeW9WRG5NZVBFYy1ZemZwYnR3bkFCVF9hZUN4Q2RxNWxCdmZmQW1wdHBVRDY3OTJkTjdSTNIB8gFBVV95cUxNN3k0REt4YjJ4Ulhwd2VyNFFlM0RVR1NONnprMmh1ZUM0OVRiUXF2ZERuZDktczZoMXJtZVVxMk1ZUjZ3VFJRZEJKWDJ1NGRXM0U5QS1ZWUpjTndGYlRaeUl6dWpqbEtFTWUtZGZEUTlERC1fWVotcS0wZDI4Q1NzbmdJa2Rxd3hmc1gyTXVUbGl4MHlINEtpbDkyb1daSExPMkw1X21MSDlreXRSOER1T3ZQMWhsRk8xWTVQR3FkRXQ3X2ZPRGNxdmVRaUJVTHphajgzNTV5MWxwWXBkUHU0aTJlRDR1STloOFlXdkdUZUl5QQ?oc=5",
+      "fecha": "2026-10-13T19:38:20.000Z",
+      "resumen_corto": "Universal MFG Unlocker 1.5.0 ofrece DLSS Preset C más rápido a las GPU RTX 40/30 y agrega soporte de generación de cuadros múltiples XeSS para GPU AMD e Intel Wccftech",
+      "resumen_largo": "Universal MFG Unlocker 1.5.0 ofrece DLSS Preset C más rápido a las GPU RTX 40/30 y agrega soporte de generación de cuadros múltiples XeSS para GPU AMD e Intel Wccftech",
+      "texto_original": "Universal MFG Unlocker 1.5.0 Brings Faster DLSS Preset C To RTX 40/30 GPUs, Adds XeSS Multi Frame Generation Support For AMD & Intel GPUs Wccftech",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-10-14T01:43:51.562Z",
+        "index": 3,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "en",
+        "categoria": "semiconductores",
+        "categorias_secundarias": [
+          "hardware",
+          "tecnologia"
+        ],
+        "category_scores": {
+          "semiconductores": 1,
+          "hardware": 1,
+          "tecnologia": 1
+        },
+        "entidades": [
+          "AMD",
+          "Intel",
+          "Wccftech"
+        ],
+        "cifras_detectadas": [
+          "5.0 B"
+        ],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 87,
+        "relevancia": 60,
+        "confiabilidad_fuente": 50,
+        "readability": {
+          "words": 105,
+          "sentences": 11,
+          "average_words_per_sentence": 9.55
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 66.95
+    },
+    {
       "id": "38b704b3bf2dbd04",
       "fuente_id": "bbc_mundo",
       "fuente_nombre": "BBC Mundo",
@@ -1001,7 +1563,7 @@
       "texto_original": "El papa León XIV fue diagnosticado con cáncer de pulmón tras someterse este martes con éxito a una cirugía torácica para extirparle un nódulo que le fue detectado hace unos días, informó el Vaticano. El pontífice, de 71 años, se sometió a una operación de 90 minutos en el Hospital Gemelli de Roma, en la que se le extirpó el lóbulo inferior del pulmón derecho. Tras examinar el tejido extirpado durante la operación, fue diagnosticado con un adenocarcinoma pulmonar, señalaron los doctores Luigi Carbone y Stefano Margaritora. El Vaticano informó que la operación \"fue exitosa y no se presentaron complicaciones. En un parte médico, los doctores señalaron que el procedimiento se llevó a cabo \"para garantizar una resección radical\" del tumor. \"Tras la intervención, el Papa despertó con normalidad y, después de un breve período de observación, regresó a su habitación\", agregó la Santa Sede en su comunicado.",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-13T22:40:37.108Z",
+        "processed_at": "2026-10-14T01:43:51.558Z",
         "index": 0,
         "resumen": {
           "generado": true,
@@ -1063,17 +1625,17 @@
       "prioridad_fuente": 4,
       "analizar": true,
       "resumir": true,
-      "titulo": "Huawei tiene un nuevo wearable en desarrollo llamado ‘Watch Air’",
+      "titulo": "Huawei tiene un nuevo dispositivo portátil en proyecto llamado 'Watch Air'",
       "titulo_original": "Huawei has a new wearable in the pipeline named ‘Watch Air’ - Huawei Central",
       "enlace": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOZlVtUDBERlR5Q3hoby1qRE5Jcll6WTVkNk9CN2ZGRGlBV25oTFBsb3dPeWNMTTFMZGVNckRWTTJPZWh4Vk9GeGNRX2g1R25lVjd4ZVh6cjlLNHVQYm9PWTVVNGk4aTQ5OXJvTFpCUUJhRDVJZXhIWWlLYnRoZ21BT1M0YUxPUGlWRy15c0JhckpQQdIBlwFBVV95cUxNR1l1eWU0X2prTWluLWVPN0dDZTFfWFhfOFJ2ZnYwZUhRay1EcE9rY3FHdWFCMDJzUWdXaGdQbUJZUG1ycVZrWDRlVEh5VEJMQzJpNHVaMVFiRFM4OWk3UVFrVkNNdDRSeFdyeWlVUTllcnhVX1g5bGlvaXVzRlRHaVhaRnVQQzJMbWJKYVhsYWFIa2t6NGJN?oc=5",
       "fecha": "2026-10-12T10:39:04.000Z",
-      "resumen_corto": "Huawei tiene un nuevo wearable en desarrollo llamado ‘Watch Air’ Huawei Central",
-      "resumen_largo": "Huawei tiene un nuevo wearable en desarrollo llamado ‘Watch Air’ Huawei Central",
+      "resumen_corto": "Huawei tiene un nuevo dispositivo portátil en proyecto llamado 'Watch Air' Huawei Central",
+      "resumen_largo": "Huawei tiene un nuevo dispositivo portátil en proyecto llamado 'Watch Air' Huawei Central",
       "texto_original": "Huawei has a new wearable in the pipeline named ‘Watch Air’ Huawei Central",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-13T22:40:37.129Z",
-        "index": 30,
+        "processed_at": "2026-10-14T01:43:51.587Z",
+        "index": 37,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -1082,13 +1644,16 @@
         "idioma_original": "en",
         "categoria": "moviles",
         "categorias_secundarias": [
+          "hardware",
           "inteligencia_artificial",
           "vehiculos_energia"
         ],
         "category_scores": {
           "moviles": 2,
+          "hardware": 2,
           "inteligencia_artificial": 1,
-          "vehiculos_energia": 1
+          "vehiculos_energia": 1,
+          "tecnologia": 1
         },
         "entidades": [
           "Huawei"
@@ -1110,9 +1675,9 @@
         "relevancia": 62,
         "confiabilidad_fuente": 53,
         "readability": {
-          "words": 50,
+          "words": 53,
           "sentences": 1,
-          "average_words_per_sentence": 50
+          "average_words_per_sentence": 53
         },
         "duplicate": {
           "detected": false,
@@ -1124,122 +1689,47 @@
       "final_score": 66.75
     },
     {
-      "id": "cce1608e84a07226",
-      "fuente_id": "wccftech_google",
-      "fuente_nombre": "Wccftech",
+      "id": "f6c9b454f546d633",
+      "fuente_id": "google_news_es",
+      "fuente_nombre": "Google News ES",
       "tipo": "rss_web",
       "subtipo": "google_news",
-      "grupo_fuente": "wccftech",
-      "nivel_fuente": "medio_especializado",
-      "categoria": "hardware",
-      "idioma_original": "en",
-      "prioridad_fuente": 4,
+      "grupo_fuente": "google_news",
+      "nivel_fuente": "agregador",
+      "categoria": "tecnologia",
+      "idioma_original": "es",
+      "prioridad_fuente": 3,
       "analizar": true,
       "resumir": true,
-      "titulo": "Epic Games está rediseñando la \"aceleración máxima de la IA\", pero Tim Sweeney insiste en que el objetivo son mejores juegos, no menos personas",
-      "titulo_original": "Epic Games Is Retooling for “Maximum AI Acceleration,” But Tim Sweeney Insists the Goal Is Better Games, Not Fewer People - Wccftech",
-      "enlace": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQb1VPQ1JHQTFuNkc2U3hRVjBvQnNybm5UT01jb1RYdWpBR2F6YUo2M2xGYUMwbmk4TkN6VU9FSVFCX0hCYjFIQ2laSlJJZ2RlOE45TG5RX2d0RGRTa2FGR284cjJreWxnS3BLMjJ3SFhEMkQyVXBSdjEzSnhxRlJSWGpzMmw1TGVTbTJMNWxOZ0lOWm4x0gGaAUFVX3lxTE9jUjQwNWN4cEpKWjhrX0ZaNnRrUnEyNzhNVkpja0ZMRUNMZFpnWnNrVnl3c25EQ3Q5TUptMEVJTU1WUW5xb0JxNWJkSGtpMzg1dkJHdW1YS0RrZkcxZ3VEcXdkVTYzUjVJS1JGVUxlMm1FYUxYaDFkRjJ0Zm80blhrT3A2bjJ4TnVVT1MzTXZVc09CTjZfQWdtcnc?oc=5",
-      "fecha": "2026-10-13T08:00:00.000Z",
-      "resumen_corto": "Epic Games está rediseñando la \"aceleración máxima de la IA\", pero Tim Sweeney insiste en que el objetivo son mejores juegos, no menos personas con tecnología",
-      "resumen_largo": "Epic Games está rediseñando la \"aceleración máxima de la IA\", pero Tim Sweeney insiste en que el objetivo son mejores juegos, no menos personas con tecnología",
-      "texto_original": "Epic Games Is Retooling for “Maximum AI Acceleration,” But Tim Sweeney Insists the Goal Is Better Games, Not Fewer People Wccftech",
+      "titulo": "\"Si tienen tanta tecnología, ¿por qué nos atacaron?\": los pescadores ecuatorianos bombardeados en una operación por la que se señala a la CIA - BBC",
+      "titulo_original": "\"Si tienen tanta tecnología, ¿por qué nos atacaron?\": los pescadores ecuatorianos bombardeados en una operación por la que se señala a la CIA - BBC",
+      "enlace": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE45M19vV01UbVJ5Uk05dV9qZHk0ajdhaWM3ZDktSk5tQlczWXdkOWlCSDR3eUpWZ2dpc29MWVhWMl9vQTZNMEhQcFlURFplMnMwanZPdm15ekJ5WTZo0gFiQVVfeXFMTnd5dGhHRTFpSVdXdzFVaVFZVVp1WHd4U3pocWstdHhEZFFQdGU2aUpDNVN4U3JuYUVDZHk0bjFiaXdXMTVhRjJYb1o4TjFPWGpOV3J3QkZBSG1fZ2xXaEZyMWc?oc=5",
+      "fecha": "2026-10-12T12:22:02.000Z",
+      "resumen_corto": "\"Si tienen tanta tecnología, ¿por qué nos atacaron?\": los pescadores ecuatorianos bombardeados en una operación por la que se señala a la CIA BBC",
+      "resumen_largo": "\"Si tienen tanta tecnología, ¿por qué nos atacaron?\": los pescadores ecuatorianos bombardeados en una operación por la que se señala a la CIA BBC",
+      "texto_original": "\"Si tienen tanta tecnología, ¿por qué nos atacaron?\": los pescadores ecuatorianos bombardeados en una operación por la que se señala a la CIA BBC",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-13T22:40:37.124Z",
-        "index": 19,
+        "processed_at": "2026-10-14T01:43:51.587Z",
+        "index": 36,
         "resumen": {
           "generado": true,
           "origen": "translated"
         },
         "idioma_detectado": "es",
-        "idioma_original": "en",
+        "idioma_original": "es",
         "categoria": "tecnologia",
         "categorias_secundarias": [
           "inteligencia_artificial",
-          "semiconductores"
+          "vehiculos_energia"
         ],
         "category_scores": {
-          "tecnologia": 3,
-          "inteligencia_artificial": 2,
-          "semiconductores": 1
-        },
-        "entidades": [
-          "Wccftech"
-        ],
-        "cifras_detectadas": [],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 82,
-        "relevancia": 62,
-        "confiabilidad_fuente": 50,
-        "readability": {
-          "words": 91,
-          "sentences": 1,
-          "average_words_per_sentence": 91
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 66
-    },
-    {
-      "id": "3c7a7923693892d3",
-      "fuente_id": "wccftech_google",
-      "fuente_nombre": "Wccftech",
-      "tipo": "rss_web",
-      "subtipo": "google_news",
-      "grupo_fuente": "wccftech",
-      "nivel_fuente": "medio_especializado",
-      "categoria": "hardware",
-      "idioma_original": "en",
-      "prioridad_fuente": 4,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "God of War 3 remasterizado llega a PC extraoficialmente una semana después de Bloodborne, mientras PlayStation mantiene a Laufey fuera de Steam",
-      "titulo_original": "God of War 3 Remastered Lands on PC Unofficially a Week After Bloodborne, As PlayStation Keeps Laufey Off Steam - Wccftech",
-      "enlace": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPa083ay0zM2Fpbkw4c0hzb0p4TFExQ0VYVWNaZmRENWV3YmN5R1Z4RHRxX25ZTXM4ZzN0RXdyQzBCMUk3MW1fWS1TbzhnUWpLbTk2djRmT19sck1NNVpUOEZDNmh2dDFQVlp1TkFjUlVSRkpLV0Mwc3VBS0twNWdpNEZKS3NCT1cxY1BrM9IBkgFBVV95cUxPODZyYmhnSEhKdTVxc1NBOXZHTno3T1BZbEV2LVd6eGhlT1NQQjVOZHRHVTBVUWRka2xfWWNxZnlXTTgwa0dYam5DQk8zUUtUYWhLelJNZlU4ODRfc3NGTXEwbjlkQTRvU210MENGXzA1SDgtVVRsRUFQanlVWmwyeUhYYWtSQ2R1aDJhcDZXUllzdw?oc=5",
-      "fecha": "2026-10-12T09:33:09.000Z",
-      "resumen_corto": "God of War 3 remasterizado llega a PC extraoficialmente una semana después de Bloodborne, mientras PlayStation mantiene a Laufey fuera de Steam Wccftech",
-      "resumen_largo": "God of War 3 remasterizado llega a PC extraoficialmente una semana después de Bloodborne, mientras PlayStation mantiene a Laufey fuera de Steam Wccftech",
-      "texto_original": "God of War 3 Remastered Lands on PC Unofficially a Week After Bloodborne, As PlayStation Keeps Laufey Off Steam Wccftech",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-10-13T22:40:37.130Z",
-        "index": 32,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "en",
-        "categoria": "inteligencia_artificial",
-        "categorias_secundarias": [
-          "hardware",
-          "militar",
-          "tecnologia"
-        ],
-        "category_scores": {
+          "tecnologia": 2,
           "inteligencia_artificial": 1,
-          "hardware": 1,
-          "militar": 1,
-          "tecnologia": 1
+          "vehiculos_energia": 1
         },
         "entidades": [
-          "Wccftech"
+          "BBC"
         ],
         "cifras_detectadas": [],
         "content_type": "news",
@@ -1254,13 +1744,13 @@
           "signals": [],
           "url_count": 0
         },
-        "calidad": 82,
+        "calidad": 80,
         "relevancia": 62,
-        "confiabilidad_fuente": 50,
+        "confiabilidad_fuente": 53,
         "readability": {
-          "words": 75,
-          "sentences": 1,
-          "average_words_per_sentence": 75
+          "words": 90,
+          "sentences": 6,
+          "average_words_per_sentence": 15
         },
         "duplicate": {
           "detected": false,
@@ -1269,7 +1759,7 @@
           "similar_to": null
         }
       },
-      "final_score": 66
+      "final_score": 66.05
     },
     {
       "id": "757952dc86c8f6f0",
@@ -1293,7 +1783,7 @@
       "texto_original": "OpenAI encuentra un \"sofisticado\" dispositivo de grabación en sus oficinas y se pone en manos del FBI Xataka",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-13T22:40:37.111Z",
+        "processed_at": "2026-10-14T01:43:51.561Z",
         "index": 2,
         "resumen": {
           "generado": true,
@@ -1365,8 +1855,8 @@
       "texto_original": "Meta presenta Muse Wonder y Muse Wonder Full, sus modelos de IA más punteros para ponerse en la frontera de la tecnología Xataka",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-13T22:40:37.112Z",
-        "index": 5,
+        "processed_at": "2026-10-14T01:43:51.569Z",
+        "index": 14,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -1437,8 +1927,8 @@
       "texto_original": "Mitte, que padecía parálisis cerebral, interpretó a Walter White Jr. en la serie dramática ganadora del premio Emmy.",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-13T22:40:37.120Z",
-        "index": 14,
+        "processed_at": "2026-10-14T01:43:51.574Z",
+        "index": 20,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -1489,102 +1979,28 @@
       "final_score": 65.15
     },
     {
-      "id": "189063375c0d8ddd",
-      "fuente_id": "google_news_es",
-      "fuente_nombre": "Google News ES",
+      "id": "d02a11f8f91612c0",
+      "fuente_id": "xataka_google",
+      "fuente_nombre": "Xataka",
       "tipo": "rss_web",
       "subtipo": "google_news",
-      "grupo_fuente": "google_news",
-      "nivel_fuente": "agregador",
+      "grupo_fuente": "xataka",
+      "nivel_fuente": "medio_especializado",
       "categoria": "tecnologia",
       "idioma_original": "es",
-      "prioridad_fuente": 3,
+      "prioridad_fuente": 4,
       "analizar": true,
       "resumir": true,
-      "titulo": "El sector de la automoción se prepara para su gran transformación: el uso de tecnología avanzada alcanzará el 72% en 2030 - El Economista",
-      "titulo_original": "El sector de la automoción se prepara para su gran transformación: el uso de tecnología avanzada alcanzará el 72% en 2030 - El Economista",
-      "enlace": "https://news.google.com/rss/articles/CBMijwJBVV95cUxOUFZtRVV1WkxSbzYzYTh3TFE3OWF3ZG9nS2lhWW81cEtycHBYWlpTUVpfWEF1LXhUM3VucjFjWXRnaDRiOUJtSkM1NXZmSGVVOWp3em12cldFbFNiS3QzTXA3RFJwd29XQWctcXRHU0JnQ2hyYVpiQ2JCVGJ0ank2M2JVR1lQRHQ0RHhJSld5a3pHejBYZ1J3dGdIVHNINGpsT19CUXpXVDhBYUhRS01Cd05BUjFrSmJzNjNjZS1RSVlFLUg0aFZqRk1CUHpTY2xULXhHd2NBVU16MjFCZGpLT1g4SXVrQXZ0c0hiWlNTLUZqWmtoN3RkbXlxcXprc04wLXEyaWZIVHZSVXlETmxB?oc=5",
-      "fecha": "2026-10-13T20:12:08.000Z",
-      "resumen_corto": "El sector de la automoción se prepara para su gran transformación: el uso de tecnología avanzada alcanzará el 72% en 2030 El Economista",
-      "resumen_largo": "El sector de la automoción se prepara para su gran transformación: el uso de tecnología avanzada alcanzará el 72% en 2030 El Economista",
-      "texto_original": "El sector de la automoción se prepara para su gran transformación: el uso de tecnología avanzada alcanzará el 72% en 2030 El Economista",
+      "titulo": "Los ciberataques se han disparado tanto en Japón que ya se habla de “un estado de emergencia en el ciberespacio”",
+      "titulo_original": "Los ciberataques se han disparado tanto en Japón que ya se habla de “un estado de emergencia en el ciberespacio” - Xataka",
+      "enlace": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOTHhRZjd0X0FjUHJUUnd6VEZnNjJaWWxMWWxscE5mTzNpZGFmemxpMkE5cG8waWhaSmlFUEF4V0tXLWFDZ1c1YnZKcTQ2MGY0Z1NxTUJTTk5CQ0lhOThyWE9iYXRuVGp4ajdmNzJybkt2bVBid1J5RmRzTE1wLTNHX0NDdEdvcUVFci13Ri1nMkNMSDZ6cnlBVDJxd040TWxfS0hBUWVpcm5qb29sTG96Q3pn0gG3AUFVX3lxTFBDQ1JnakEwR1hLQUlQZmRhLTQ0c1VJcnhmVnFoVWJQUzRIQ081T3lHVmJ3VXBaV3NKNDk2M2VQZG15M21qTG1Ob0lfVXVWckJ5bGFQc0FIZS1aZGdma05jR2lpbl9VQVM3Q2RoTU1wVDJYSXdkYmZjNVVKbDlSeWs5T2Z2ZC1RUHlJeUNBM0NESnRkSUsxYm9wTkRTanNiQnBvSzRVSElhdVFvVXpFZ18xVFpuNE1jOA?oc=5",
+      "fecha": "2026-10-13T19:00:28.000Z",
+      "resumen_corto": "Los ciberataques se han disparado tanto en Japón que ya se habla de “un estado de emergencia en el ciberespacio” Xataka",
+      "resumen_largo": "Los ciberataques se han disparado tanto en Japón que ya se habla de “un estado de emergencia en el ciberespacio” Xataka",
+      "texto_original": "Los ciberataques se han disparado tanto en Japón que ya se habla de “un estado de emergencia en el ciberespacio” Xataka",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-13T22:40:37.111Z",
-        "index": 3,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "es",
-        "categoria": "tecnologia",
-        "categorias_secundarias": [
-          "inteligencia_artificial",
-          "vehiculos_energia"
-        ],
-        "category_scores": {
-          "tecnologia": 2,
-          "inteligencia_artificial": 1,
-          "vehiculos_energia": 1
-        },
-        "entidades": [],
-        "cifras_detectadas": [
-          "72%",
-          "2030"
-        ],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 80,
-        "relevancia": 57,
-        "confiabilidad_fuente": 53,
-        "readability": {
-          "words": 60,
-          "sentences": 1,
-          "average_words_per_sentence": 60
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 64.05
-    },
-    {
-      "id": "e39257903e8f6daa",
-      "fuente_id": "google_news_es",
-      "fuente_nombre": "Google News ES",
-      "tipo": "rss_web",
-      "subtipo": "google_news",
-      "grupo_fuente": "google_news",
-      "nivel_fuente": "agregador",
-      "categoria": "tecnologia",
-      "idioma_original": "es",
-      "prioridad_fuente": 3,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "Apple lanza HomeView, su primer altavoz con pantalla para controlar el hogar inteligente - Expansión",
-      "titulo_original": "Apple lanza HomeView, su primer altavoz con pantalla para controlar el hogar inteligente - Expansión",
-      "enlace": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPMFZsaE5TTkVkZ2pfRlJfLTljdFM5a1VURDJSa2xUNVJOSWJuRnJsTlRqOWFJNDNJXzlqSkl1dFZ1RDExTVFxN0RMUktNemxQLVc2NEJadWMwa1dCMWdlOWl6dXVWbHJ6cHNvZlhRNE8yck5nSEpTeG1hN2pIZzJta1JZOTVLRkNSUktmRGhCVW40eEFrZ0Z5d05pb3VBMzlndGc4dmJxNHRaUGFiejlPQ180RF83Tl84OGFxb0ZqMk51Q0HSAcMBQVVfeXFMTjFUNUNMUlY2RVdFY0N5UkRRS1hpVlhBTDJ0X3F1U1BQbksxdXJxd01IUU1jTzVKbWhnaE5kWS1XeTdxWGwybW90WEdDV0ZPSkpOTHZqdk9SWmFRdzd6cHRXcVRMb0JEQmFIVExLM2ozcHg3bkZUQ0t0Z1F2cHBVTlBLNVdiTm53RWpLMWZuVHh0b2JKTkstalZNS0xIZFprRlBaVlM2eUwxRTVSeXNiZDgwWGdoRHVYREdvWWRTY3hsZWIw?oc=5",
-      "fecha": "2026-10-13T13:54:50.000Z",
-      "resumen_corto": "Apple lanza HomeView, su primer altavoz con pantalla para controlar el hogar inteligente Expansión",
-      "resumen_largo": "Apple lanza HomeView, su primer altavoz con pantalla para controlar el hogar inteligente Expansión",
-      "texto_original": "Apple lanza HomeView, su primer altavoz con pantalla para controlar el hogar inteligente Expansión",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-10-13T22:40:37.113Z",
+        "processed_at": "2026-10-14T01:43:51.564Z",
         "index": 6,
         "resumen": {
           "generado": true,
@@ -1592,16 +2008,13 @@
         },
         "idioma_detectado": "es",
         "idioma_original": "es",
-        "categoria": "vehiculos_energia",
-        "categorias_secundarias": [
-          "software_internet"
-        ],
+        "categoria": "inteligencia_artificial",
+        "categorias_secundarias": [],
         "category_scores": {
-          "vehiculos_energia": 1,
-          "software_internet": 1
+          "inteligencia_artificial": 1
         },
         "entidades": [
-          "Apple"
+          "Xataka"
         ],
         "cifras_detectadas": [],
         "content_type": "news",
@@ -1616,13 +2029,13 @@
           "signals": [],
           "url_count": 0
         },
-        "calidad": 80,
+        "calidad": 82,
         "relevancia": 55,
-        "confiabilidad_fuente": 53,
+        "confiabilidad_fuente": 50,
         "readability": {
-          "words": 60,
+          "words": 59,
           "sentences": 1,
-          "average_words_per_sentence": 60
+          "average_words_per_sentence": 59
         },
         "duplicate": {
           "detected": false,
@@ -1631,7 +2044,7 @@
           "similar_to": null
         }
       },
-      "final_score": 63.25
+      "final_score": 63.2
     },
     {
       "id": "6818bb4ab2860920",
@@ -1655,8 +2068,8 @@
       "texto_original": "Los reactores SMR llevan años prometiendo una revolución nuclear que todavía no termina de arrancar Xataka",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-13T22:40:37.112Z",
-        "index": 4,
+        "processed_at": "2026-10-14T01:43:51.565Z",
+        "index": 7,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -1669,74 +2082,6 @@
         ],
         "category_scores": {
           "vehiculos_energia": 2,
-          "inteligencia_artificial": 1
-        },
-        "entidades": [
-          "Xataka"
-        ],
-        "cifras_detectadas": [],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 82,
-        "relevancia": 55,
-        "confiabilidad_fuente": 50,
-        "readability": {
-          "words": 69,
-          "sentences": 1,
-          "average_words_per_sentence": 69
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 63.2
-    },
-    {
-      "id": "f7013783d27ccb32",
-      "fuente_id": "xataka_google",
-      "fuente_nombre": "Xataka",
-      "tipo": "rss_web",
-      "subtipo": "google_news",
-      "grupo_fuente": "xataka",
-      "nivel_fuente": "medio_especializado",
-      "categoria": "tecnologia",
-      "idioma_original": "es",
-      "prioridad_fuente": 4,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "El motivo para temer a la IA no es que nos extinga a todos, es lo que acaba de pasarle a 300 supermercados franceses",
-      "titulo_original": "El motivo para temer a la IA no es que nos extinga a todos, es lo que acaba de pasarle a 300 supermercados franceses - Xataka",
-      "enlace": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQWDc4WDAwME0wVExCLWE0ZnpWdG9kS1JCeVRSZWlUbFlsVVNrTXY2NnFwTDc3a2lhWWNhNXRfRy1kZjhjdG03di1Id09ZYnRWOTc1X2FGS1FnZTBwU0RtT3lJX3dvZDR6MVI1T01DWXZ0WDk0M1dyeWFEZGR1RWUtbV9qUi0zTi1hb0ZKOW9EcnNETW9Pa0llWWhobjl5bVRBVWw3QklmV0ItWlJBLUZEWS12bzRJZXNOWmprbHBzcnNnekZDYnR1VV90WdIB0AFBVV95cUxPX05HLTJLcDlsRFhQdTk5OXNFUzRDUkx0MlVzbnZYM19vSU56Q0FQalJ5VXZVcElFbnJrUVNYdGhDWElZWl9icXVlbk4tMGNRZVdHdkhLSkc5cTJYQll2XzdMb3RaUjJDdXlxRWZTTm9FV2c0VE0xQjlHTG1Ga1g5VVRhUGR0SF9FUTBSRW5pTmFNNTFaVTJEUFJxNlBjSWRVRzByYklib2pTRlFNbkl0ZHFDcWNaRV9vTTRuNFZmWFE2NXRZUDJQUFZEUXQzSFFT?oc=5",
-      "fecha": "2026-10-13T13:45:00.000Z",
-      "resumen_corto": "El motivo para temer a la IA no es que nos extinga a todos, es lo que acaba de pasarle a 300 supermercados franceses Xataka",
-      "resumen_largo": "El motivo para temer a la IA no es que nos extinga a todos, es lo que acaba de pasarle a 300 supermercados franceses Xataka",
-      "texto_original": "El motivo para temer a la IA no es que nos extinga a todos, es lo que acaba de pasarle a 300 supermercados franceses Xataka",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-10-13T22:40:37.113Z",
-        "index": 7,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "es",
-        "categoria": "inteligencia_artificial",
-        "categorias_secundarias": [],
-        "category_scores": {
           "inteligencia_artificial": 1
         },
         "entidades": [
@@ -1794,8 +2139,8 @@
       "texto_original": "Juan Luis Arsuaga, antropólogo, sobre la IA: “Ojalá esta vez no ocurra, pero no hay precedentes de un cambio de modelo económico que no produzca conflictos” Genbeta",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-13T22:40:37.123Z",
-        "index": 18,
+        "processed_at": "2026-10-14T01:43:51.580Z",
+        "index": 26,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -1865,8 +2210,8 @@
       "texto_original": "El ex de Hayden Panettiere pide al tribunal que actúe como representante de su hija para proteger la herencia Genbeta",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-13T22:40:37.124Z",
-        "index": 20,
+        "processed_at": "2026-10-14T01:43:51.583Z",
+        "index": 29,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -1912,6 +2257,77 @@
       "final_score": 63.2
     },
     {
+      "id": "0997862029d91a65",
+      "fuente_id": "google_news_es",
+      "fuente_nombre": "Google News ES",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "google_news",
+      "nivel_fuente": "agregador",
+      "categoria": "tecnologia",
+      "idioma_original": "es",
+      "prioridad_fuente": 3,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Bill Gates: la tecnología es un mundo que necesita ser gobernado - Vatican News",
+      "titulo_original": "Bill Gates: la tecnología es un mundo que necesita ser gobernado - Vatican News",
+      "enlace": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQNlJadWhnQ2p0TkxCSnBOcFdxeTVBal8yb1ZrXzQxbElXbTJQMlEtUEI5QVZGTjBjM0xGVlU4MEtXaXo2c0JJR0trZGhRMzNXRDJ4R1FkTGlaWi1uUFpCbTRSN1ZTZXkwS3NxTnFGN0pGc3dWVmNqRU1FdnBFTEpWNDdFbG93UlA2M3NUbThvQk1jWVRoc3Q2OXJmQUdiRUZoM0g0ekxIeFBvMDlORkRIakRnWnYzS00w?oc=5",
+      "fecha": "2026-10-13T16:30:55.000Z",
+      "resumen_corto": "Bill Gates: la tecnología es un mundo que necesita ser gobernado Vatican News",
+      "resumen_largo": "Bill Gates: la tecnología es un mundo que necesita ser gobernado Vatican News",
+      "texto_original": "Bill Gates: la tecnología es un mundo que necesita ser gobernado Vatican News",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-10-14T01:43:51.569Z",
+        "index": 13,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "tecnologia",
+        "categorias_secundarias": [
+          "inteligencia_artificial",
+          "actualidad"
+        ],
+        "category_scores": {
+          "tecnologia": 2,
+          "inteligencia_artificial": 1,
+          "actualidad": 1
+        },
+        "entidades": [],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 75,
+        "relevancia": 57,
+        "confiabilidad_fuente": 53,
+        "readability": {
+          "words": 50,
+          "sentences": 1,
+          "average_words_per_sentence": 50
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 62.3
+    },
+    {
       "id": "51a885c11b649e41",
       "fuente_id": "ia_dia",
       "fuente_nombre": "IA al Día",
@@ -1933,8 +2349,8 @@
       "texto_original": "¿Leerías un libro escrito por una inteligencia artificial? Puede que ya lo hayas hecho EL PAÍS",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-13T22:40:37.125Z",
-        "index": 22,
+        "processed_at": "2026-10-14T01:43:51.584Z",
+        "index": 31,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -1999,8 +2415,8 @@
       "texto_original": "Prevención de avalanchas: más tecnología, más información y nuevos riesgos en la era de las redes sociales Desnivel.com",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-13T22:40:37.130Z",
-        "index": 33,
+        "processed_at": "2026-10-14T01:43:51.588Z",
+        "index": 39,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -2072,8 +2488,8 @@
       "texto_original": "Google le pone pantalla a su pulsera de actividad más sencilla El Mundo",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-13T22:40:37.129Z",
-        "index": 29,
+        "processed_at": "2026-10-14T01:43:51.586Z",
+        "index": 35,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -2138,8 +2554,8 @@
       "texto_original": "El FMI advierte de que la inversión en IA puede provocar una \"burbuja de deuda\" y pide regular las criptomonedas RTVE.es",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-13T22:40:37.123Z",
-        "index": 17,
+        "processed_at": "2026-10-14T01:43:51.579Z",
+        "index": 25,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -2207,8 +2623,8 @@
       "texto_original": "Cómo incorporar la inteligencia artificial en el trabajo con criterio La Vanguardia",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-13T22:40:37.126Z",
-        "index": 23,
+        "processed_at": "2026-10-14T01:43:51.584Z",
+        "index": 32,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -2273,8 +2689,8 @@
       "texto_original": "¿Cuánta IA hay en los libros más vendidos? Mucha en novelas románticas de Amazon y en el superventas de Alvise Pérez EL PAÍS",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-13T22:40:37.126Z",
-        "index": 24,
+        "processed_at": "2026-10-14T01:43:51.585Z",
+        "index": 33,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -2339,8 +2755,8 @@
       "texto_original": "Marian Sánchez, experta en tecnología: \"Si tú ordenador va lento, a mí este cambio me lo ha solucionado\" Vanitatis",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-13T22:40:37.127Z",
-        "index": 25,
+        "processed_at": "2026-10-14T01:43:51.585Z",
+        "index": 34,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -2408,8 +2824,8 @@
       "texto_original": "Tu inteligencia artificial corporativa necesita un cuadro de mando Enrique Dans",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-13T22:40:37.131Z",
-        "index": 34,
+        "processed_at": "2026-10-14T01:43:51.588Z",
+        "index": 40,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -2474,8 +2890,8 @@
       "texto_original": "Redacción de Genbeta Genbeta",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-13T22:40:37.132Z",
-        "index": 39,
+        "processed_at": "2026-10-14T01:43:51.590Z",
+        "index": 44,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -2519,7 +2935,7 @@
       "final_score": 58.4
     },
     {
-      "id": "898ceeecfbd69906",
+      "id": "329e7314ccbce188",
       "fuente_id": "resumen_militar",
       "fuente_nombre": "El Resumen Militar",
       "tipo": "telegram",
@@ -2531,16 +2947,148 @@
       "prioridad_fuente": 3,
       "analizar": true,
       "resumir": true,
-      "titulo": "‼️ 🇷🇺 🇺🇦 Россия может начать применять реактивные «Герани-6» с боевой частью до 600 кг уже в 2027 году — украинские СМИ ▪️ Новые беспилотники будут заходить на цель со значительной высоты по баллистической траектории",
-      "titulo_original": "‼️ 🇷🇺 🇺🇦 Россия может начать применять реактивные «Герани-6» с боевой частью до 600 кг уже в 2027 году — украинские СМИ ▪️ Новые беспилотники будут заходить на цель со значительной высоты по баллистической траектории",
-      "enlace": "https://t.me/elresumenmilitar/101446",
-      "fecha": "2026-10-13T13:37:01.000Z",
-      "resumen_corto": "‼️ 🇷🇺 🇺🇦 Россия может начать применять реактивные «Герани-6» с боевой частью до 600 кг уже в 2027 году — украинские СМИ ▪️ Новые беспилотники будут заходить на цель со значительной высоты по баллистической траектории.",
-      "resumen_largo": "‼️ 🇷🇺 🇺🇦 Россия может начать применять реактивные «Герани-6» с боевой частью до 600 кг уже в 2027 году — украинские СМИ ▪️ Новые беспилотники будут заходить на цель со значительной высоты по баллистической траектории. ▪️ Заявленная дальность действия позволит поражать цели на всей территории Украины, а масса боевой части может достигать 600 кг. ⚠️ Подписаться на RV: MAX | t.me/RVvoenkor",
-      "texto_original": "‼️ 🇷🇺 🇺🇦 Россия может начать применять реактивные «Герани-6» с боевой частью до 600 кг уже в 2027 году — украинские СМИ ▪️ Новые беспилотники будут заходить на цель со значительной высоты по баллистической траектории. ▪️ Заявленная дальность действия позволит поражать цели на всей территории Украины, а масса боевой части может достигать 600 кг. ⚠️ Подписаться на RV: MAX | t.me/RVvoenkor",
+      "titulo": "El Resumen Militar pinned a photo",
+      "titulo_original": "El Resumen Militar pinned a photo",
+      "enlace": "https://t.me/elresumenmilitar/101456",
+      "fecha": "2026-10-13T16:47:15.000Z",
+      "resumen_corto": "El Resumen Militar pinned a photo",
+      "resumen_largo": "El Resumen Militar pinned a photo",
+      "texto_original": "El Resumen Militar pinned a photo",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-13T22:40:37.115Z",
+        "processed_at": "2026-10-14T01:43:51.567Z",
+        "index": 10,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "militar",
+        "categorias_secundarias": [],
+        "category_scores": {
+          "militar": 1
+        },
+        "entidades": [],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 75,
+        "relevancia": 50,
+        "confiabilidad_fuente": 45,
+        "readability": {
+          "words": 20,
+          "sentences": 1,
+          "average_words_per_sentence": 20
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 57.5
+    },
+    {
+      "id": "dfabd1df8c728355",
+      "fuente_id": "resumen_militar",
+      "fuente_nombre": "El Resumen Militar",
+      "tipo": "telegram",
+      "subtipo": "canal_telegram",
+      "grupo_fuente": "telegram_militar",
+      "nivel_fuente": "telegram",
+      "categoria": "militar",
+      "idioma_original": "es",
+      "prioridad_fuente": 3,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "❗️ El FSB destruye la mayor operación Ucraniana para destruir la aviación rusa https://www.youtube.com/live/LShvzKTs28I?si=wiPBFtmqAzCDtYmi",
+      "titulo_original": "❗️ El FSB destruye la mayor operación Ucraniana para destruir la aviación rusa https://www.youtube.com/live/LShvzKTs28I?si=wiPBFtmqAzCDtYmi",
+      "enlace": "https://t.me/elresumenmilitar/101455",
+      "fecha": "2026-10-13T16:47:13.000Z",
+      "resumen_corto": "❗️ El FSB destruye la mayor operación Ucraniana para destruir la aviación rusa https://www.youtube.com/live/LShvzKTs28I?si=wiPBFtmqAzCDtYmi",
+      "resumen_largo": "❗️ El FSB destruye la mayor operación Ucraniana para destruir la aviación rusa https://www.youtube.com/live/LShvzKTs28I?si=wiPBFtmqAzCDtYmi",
+      "texto_original": "❗️ El FSB destruye la mayor operación Ucraniana para destruir la aviación rusa https://www.youtube.com/live/LShvzKTs28I?si=wiPBFtmqAzCDtYmi",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-10-14T01:43:51.567Z",
+        "index": 11,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "inteligencia_artificial",
+        "categorias_secundarias": [],
+        "category_scores": {
+          "inteligencia_artificial": 1
+        },
+        "entidades": [],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 30,
+          "signals": [],
+          "url_count": 5
+        },
+        "calidad": 75,
+        "relevancia": 50,
+        "confiabilidad_fuente": 45,
+        "readability": {
+          "words": 80,
+          "sentences": 16,
+          "average_words_per_sentence": 5
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 57.5
+    },
+    {
+      "id": "659048a67a8c6ff2",
+      "fuente_id": "resumen_militar",
+      "fuente_nombre": "El Resumen Militar",
+      "tipo": "telegram",
+      "subtipo": "canal_telegram",
+      "grupo_fuente": "telegram_militar",
+      "nivel_fuente": "telegram",
+      "categoria": "militar",
+      "idioma_original": "es",
+      "prioridad_fuente": 3,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "11.10.26 Сумы - Мирополье Позиционные боевые действия в Сумской зоне безопасности. Группа военнослужащих ВСУ попала под обстрел ВС РФ во время выдвижения на позицию на удалении более 1 км от демаркационной линии. Уточнен",
+      "titulo_original": "11.10.26 Сумы - Мирополье Позиционные боевые действия в Сумской зоне безопасности. Группа военнослужащих ВСУ попала под обстрел ВС РФ во время выдвижения на позицию на удалении более 1 км от демаркационной линии. Уточнен",
+      "enlace": "https://t.me/elresumenmilitar/101459",
+      "fecha": "2026-10-13T17:57:20.000Z",
+      "resumen_corto": "11.10.26 Сумы - Мирополье Позиционные боевые действия в Сумской зоне безопасности.",
+      "resumen_largo": "11.10.26 Сумы - Мирополье Позиционные боевые действия в Сумской зоне безопасности. Группа военнослужащих ВСУ попала под обстрел ВС РФ во время выдвижения на позицию на удалении более 1 км от демаркационной линии. Уточнение зоны контроля ВСУ в окрестностях Мирополья.",
+      "texto_original": "11.10.26 Сумы - Мирополье Позиционные боевые действия в Сумской зоне безопасности. Группа военнослужащих ВСУ попала под обстрел ВС РФ во время выдвижения на позицию на удалении более 1 км от демаркационной линии. Уточнение зоны контроля ВСУ в окрестностях Мирополья. 51.01966,35.34096 На карте Источник Геопривязка #ua #add",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-10-14T01:43:51.566Z",
         "index": 8,
         "resumen": {
           "generado": true,
@@ -2553,7 +3101,8 @@
         "category_scores": {},
         "entidades": [],
         "cifras_detectadas": [
-          "2027"
+          "0196",
+          "3409"
         ],
         "content_type": "news",
         "clickbait": {
@@ -2571,76 +3120,9 @@
         "relevancia": 45,
         "confiabilidad_fuente": 45,
         "readability": {
-          "words": 151,
-          "sentences": 8,
-          "average_words_per_sentence": 18.88
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 52
-    },
-    {
-      "id": "9be136541da2eb58",
-      "fuente_id": "resumen_militar",
-      "fuente_nombre": "El Resumen Militar",
-      "tipo": "telegram",
-      "subtipo": "canal_telegram",
-      "grupo_fuente": "telegram_militar",
-      "nivel_fuente": "telegram",
-      "categoria": "militar",
-      "idioma_original": "es",
-      "prioridad_fuente": 3,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "12.10.26 Констатиновка - Клиновое Позиционные боевые действия в районе Славянска. Передовая позиция ВС РФ в жилой застройке Клинового подверглась обстрелу с дрона ВСУ. ВС РФ продвинулись до 3-х км по направлению к Крамат",
-      "titulo_original": "12.10.26 Констатиновка - Клиновое Позиционные боевые действия в районе Славянска. Передовая позиция ВС РФ в жилой застройке Клинового подверглась обстрелу с дрона ВСУ. ВС РФ продвинулись до 3-х км по направлению к Крамат",
-      "enlace": "https://t.me/elresumenmilitar/101444",
-      "fecha": "2026-10-13T12:16:00.000Z",
-      "resumen_corto": "12.10.26 Констатиновка - Клиновое Позиционные боевые действия в районе Славянска.",
-      "resumen_largo": "12.10.26 Констатиновка - Клиновое Позиционные боевые действия в районе Славянска. Передовая позиция ВС РФ в жилой застройке Клинового подверглась обстрелу с дрона ВСУ. ВС РФ продвинулись до 3-х км по направлению к Краматорску и заняли новые новые позиции в Клиновом.",
-      "texto_original": "12.10.26 Констатиновка - Клиновое Позиционные боевые действия в районе Славянска. Передовая позиция ВС РФ в жилой застройке Клинового подверглась обстрелу с дрона ВСУ. ВС РФ продвинулись до 3-х км по направлению к Краматорску и заняли новые новые позиции в Клиновом. 0:37 48.61310,37.67492 На карте Источник 21+ Геопривязка #ru",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-10-13T22:40:37.117Z",
-        "index": 10,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "es",
-        "categoria": "militar",
-        "categorias_secundarias": [],
-        "category_scores": {},
-        "entidades": [],
-        "cifras_detectadas": [
-          "6131",
-          "6749"
-        ],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 65,
-        "relevancia": 45,
-        "confiabilidad_fuente": 45,
-        "readability": {
-          "words": 98,
+          "words": 112,
           "sentences": 24,
-          "average_words_per_sentence": 4.08
+          "average_words_per_sentence": 4.67
         },
         "duplicate": {
           "detected": false,
@@ -2652,7 +3134,7 @@
       "final_score": 52
     },
     {
-      "id": "76b1d484633c75c1",
+      "id": "b39dacebec0bf23e",
       "fuente_id": "resumen_militar",
       "fuente_nombre": "El Resumen Militar",
       "tipo": "telegram",
@@ -2664,151 +3146,84 @@
       "prioridad_fuente": 3,
       "analizar": true,
       "resumir": true,
-      "titulo": "12.10.26 Покровское - Александровка Позиционные боевые действия в Днепропетровской области. Обстрел со стороны ВС РФ позиции ВСУ на окраине Александровки. Уточнение зоны контроля ВСУ в Днепропетровской области. 47.98034,",
-      "titulo_original": "12.10.26 Покровское - Александровка Позиционные боевые действия в Днепропетровской области. Обстрел со стороны ВС РФ позиции ВСУ на окраине Александровки. Уточнение зоны контроля ВСУ в Днепропетровской области. 47.98034,",
-      "enlace": "https://t.me/elresumenmilitar/101442",
-      "fecha": "2026-10-13T12:15:55.000Z",
-      "resumen_corto": "12.10.26 Покровское - Александровка Позиционные боевые действия в Днепропетровской области.",
-      "resumen_largo": "12.10.26 Покровское - Александровка Позиционные боевые действия в Днепропетровской области. Обстрел со стороны ВС РФ позиции ВСУ на окраине Александровки. Уточнение зоны контроля ВСУ в Днепропетровской области.",
-      "texto_original": "12.10.26 Покровское - Александровка Позиционные боевые действия в Днепропетровской области. Обстрел со стороны ВС РФ позиции ВСУ на окраине Александровки. Уточнение зоны контроля ВСУ в Днепропетровской области. 47.98034,36.26040 На карте Источник Геопривязка #ua #add",
+      "titulo": "12.10.26 Межевая Позиционные боевые действия в Днепропетровской зоне безопасности. Бронеавтомобиль ВСУ попал под обстрел ВС РФ на северном въезде в Межевую. После нескольких ударов он загорелся и сгорел. Удаление от зоны",
+      "titulo_original": "12.10.26 Межевая Позиционные боевые действия в Днепропетровской зоне безопасности. Бронеавтомобиль ВСУ попал под обстрел ВС РФ на северном въезде в Межевую. После нескольких ударов он загорелся и сгорел. Удаление от зоны",
+      "enlace": "https://t.me/elresumenmilitar/101457",
+      "fecha": "2026-10-13T17:57:17.000Z",
+      "resumen_corto": "12.10.26 Межевая Позиционные боевые действия в Днепропетровской зоне безопасности.",
+      "resumen_largo": "12.10.26 Межевая Позиционные боевые действия в Днепропетровской зоне безопасности. Бронеавтомобиль ВСУ попал под обстрел ВС РФ на северном въезде в Межевую. После нескольких ударов он загорелся и сгорел.",
+      "texto_original": "12.10.26 Межевая Позиционные боевые действия в Днепропетровской зоне безопасности. Бронеавтомобиль ВСУ попал под обстрел ВС РФ на северном въезде в Межевую. После нескольких ударов он загорелся и сгорел. Удаление от зоны контроля ВС РФ 11 км. 48.26866,36.74075 На карте Источник #ua #add",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-13T22:40:37.118Z",
-        "index": 11,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "es",
-        "categoria": "militar",
-        "categorias_secundarias": [],
-        "category_scores": {},
-        "entidades": [],
-        "cifras_detectadas": [
-          "9803",
-          "2604"
-        ],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 65,
-        "relevancia": 45,
-        "confiabilidad_fuente": 45,
-        "readability": {
-          "words": 91,
-          "sentences": 28,
-          "average_words_per_sentence": 3.25
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 52
-    },
-    {
-      "id": "ab62473cbc72865b",
-      "fuente_id": "resumen_militar",
-      "fuente_nombre": "El Resumen Militar",
-      "tipo": "telegram",
-      "subtipo": "canal_telegram",
-      "grupo_fuente": "telegram_militar",
-      "nivel_fuente": "telegram",
-      "categoria": "militar",
-      "idioma_original": "es",
-      "prioridad_fuente": 3,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "12.10.26 Орехов - Малая Токмачка Активные боевые действия в районе Орехова. Обстрел и пехотная атака со стороны ВС РФ в Малой Токмачке. Штурм позиции ВСУ на территории исправительного учреждения. Событие на глубине до 1",
-      "titulo_original": "12.10.26 Орехов - Малая Токмачка Активные боевые действия в районе Орехова. Обстрел и пехотная атака со стороны ВС РФ в Малой Токмачке. Штурм позиции ВСУ на территории исправительного учреждения. Событие на глубине до 1",
-      "enlace": "https://t.me/elresumenmilitar/101440",
-      "fecha": "2026-10-13T12:15:48.000Z",
-      "resumen_corto": "12.10.26 Орехов - Малая Токмачка Активные боевые действия в районе Орехова.",
-      "resumen_largo": "12.10.26 Орехов - Малая Токмачка Активные боевые действия в районе Орехова. Обстрел и пехотная атака со стороны ВС РФ в Малой Токмачке. Штурм позиции ВСУ на территории исправительного учреждения.",
-      "texto_original": "12.10.26 Орехов - Малая Токмачка Активные боевые действия в районе Орехова. Обстрел и пехотная атака со стороны ВС РФ в Малой Токмачке. Штурм позиции ВСУ на территории исправительного учреждения. Событие на глубине до 1 км в зоне контроля ВС РФ. 47.52623,35.91086 На карте Источник Геопривязка #ru #add",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-10-13T22:40:37.118Z",
-        "index": 12,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "es",
-        "categoria": "militar",
-        "categorias_secundarias": [],
-        "category_scores": {},
-        "entidades": [],
-        "cifras_detectadas": [
-          "5262",
-          "9108"
-        ],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 65,
-        "relevancia": 45,
-        "confiabilidad_fuente": 45,
-        "readability": {
-          "words": 102,
-          "sentences": 27,
-          "average_words_per_sentence": 3.78
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 52
-    },
-    {
-      "id": "8599dd90ac8b984e",
-      "fuente_id": "resumen_militar",
-      "fuente_nombre": "El Resumen Militar",
-      "tipo": "telegram",
-      "subtipo": "canal_telegram",
-      "grupo_fuente": "telegram_militar",
-      "nivel_fuente": "telegram",
-      "categoria": "militar",
-      "idioma_original": "es",
-      "prioridad_fuente": 3,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "🇷🇺 Глава Минфина Антон Силуанов: \"Экспорт дизтоплива поддержит платёжный баланс России. Экспорт обеспечит компаниям валютную выручку, а бюджет получит налоговые поступления с доходов от зарубежных продаж.\" Подписаться",
-      "titulo_original": "🇷🇺 Глава Минфина Антон Силуанов: \"Экспорт дизтоплива поддержит платёжный баланс России. Экспорт обеспечит компаниям валютную выручку, а бюджет получит налоговые поступления с доходов от зарубежных продаж.\" Подписаться",
-      "enlace": "https://t.me/elresumenmilitar/101445",
-      "fecha": "2026-10-13T13:27:09.000Z",
-      "resumen_corto": "🇷🇺 Глава Минфина Антон Силуанов: \"Экспорт дизтоплива поддержит платёжный баланс России.",
-      "resumen_largo": "🇷🇺 Глава Минфина Антон Силуанов: \"Экспорт дизтоплива поддержит платёжный баланс России. Экспорт обеспечит компаниям валютную выручку, а бюджет получит налоговые поступления с доходов от зарубежных продаж.\" Подписаться на канал | наш МАХ",
-      "texto_original": "🇷🇺 Глава Минфина Антон Силуанов: \"Экспорт дизтоплива поддержит платёжный баланс России. Экспорт обеспечит компаниям валютную выручку, а бюджет получит налоговые поступления с доходов от зарубежных продаж.\" Подписаться на канал | наш МАХ",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-10-13T22:40:37.116Z",
+        "processed_at": "2026-10-14T01:43:51.567Z",
         "index": 9,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "militar",
+        "categorias_secundarias": [],
+        "category_scores": {},
+        "entidades": [],
+        "cifras_detectadas": [
+          "2686",
+          "7407"
+        ],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 65,
+        "relevancia": 45,
+        "confiabilidad_fuente": 45,
+        "readability": {
+          "words": 99,
+          "sentences": 27,
+          "average_words_per_sentence": 3.67
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 52
+    },
+    {
+      "id": "cf75f4668ab331d4",
+      "fuente_id": "resumen_militar",
+      "fuente_nombre": "El Resumen Militar",
+      "tipo": "telegram",
+      "subtipo": "canal_telegram",
+      "grupo_fuente": "telegram_militar",
+      "nivel_fuente": "telegram",
+      "categoria": "militar",
+      "idioma_original": "es",
+      "prioridad_fuente": 3,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "‼️ 🇺🇸 🇺🇦 США объяснили отсутствие предупреждения о ракетном ударе по Киеву «плохой погодой»: на Украине сомневаются в этой версии — Politico ▪️ По данным издания, Вашингтон объяснил Киеву отсутствие разведданных о пу",
+      "titulo_original": "‼️ 🇺🇸 🇺🇦 США объяснили отсутствие предупреждения о ракетном ударе по Киеву «плохой погодой»: на Украине сомневаются в этой версии — Politico ▪️ По данным издания, Вашингтон объяснил Киеву отсутствие разведданных о пу",
+      "enlace": "https://t.me/elresumenmilitar/101453",
+      "fecha": "2026-10-13T16:35:11.000Z",
+      "resumen_corto": "‼️ 🇺🇸 🇺🇦 США объяснили отсутствие предупреждения о ракетном ударе по Киеву «плохой погодой»: на Украине сомневаются в этой версии — Politico ▪️ По данным издания, Вашингтон объяснил Киеву отсутствие разведданных о пусках ракет в ночь на 13 октября неблагоприятными погодными условиями.",
+      "resumen_largo": "‼️ 🇺🇸 🇺🇦 США объяснили отсутствие предупреждения о ракетном ударе по Киеву «плохой погодой»: на Украине сомневаются в этой версии — Politico ▪️ По данным издания, Вашингтон объяснил Киеву отсутствие разведданных о пусках ракет в ночь на 13 октября неблагоприятными погодными условиями. ▪️ Однако украинская сторона не считает такое объяснение убедительным. ➖ «Поэтому многие всё больше обеспокоены тем, что это могло быть неправдой», — заявил источник Politico.",
+      "texto_original": "‼️ 🇺🇸 🇺🇦 США объяснили отсутствие предупреждения о ракетном ударе по Киеву «плохой погодой»: на Украине сомневаются в этой версии — Politico ▪️ По данным издания, Вашингтон объяснил Киеву отсутствие разведданных о пусках ракет в ночь на 13 октября неблагоприятными погодными условиями. ▪️ Однако украинская сторона не считает такое объяснение убедительным. ➖ «Поэтому многие всё больше обеспокоены тем, что это могло быть неправдой», — заявил источник Politico. ▪️ При этом Трамп отрицает прекращение передачи разведывательной информации Украине. ➖ «Нет, мы этого не сделали. Мы им помогаем», — ответил американский президент журналистам. ▪️ Ранее Воздушные силы ВСУ сообщили, что ракеты удалось обнаружить радиолокационными средствами только непосредственно во время атаки на Киев. Позднее отсутствие предварительного предупреждения подтвердил Зеленский. ⚠️ Подписаться на RV: MAX | t.me/RVvoenkor",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-10-14T01:43:51.568Z",
+        "index": 12,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -2836,9 +3251,9 @@
         "relevancia": 45,
         "confiabilidad_fuente": 45,
         "readability": {
-          "words": 108,
-          "sentences": 10,
-          "average_words_per_sentence": 10.8
+          "words": 210,
+          "sentences": 14,
+          "average_words_per_sentence": 15
         },
         "duplicate": {
           "detected": false,
@@ -2850,24 +3265,24 @@
       "final_score": 50.25
     }
   ],
-  "analyzed_at": "2026-10-13T22:40:37.133Z",
+  "analyzed_at": "2026-10-14T01:43:51.590Z",
   "analysis_stats": {
-    "input_items": 40,
-    "valid_items": 40,
+    "input_items": 45,
+    "valid_items": 45,
     "rejected_items": 0,
     "duplicate_items": 0,
     "clickbait_items": 0,
     "spam_items": 0,
-    "summaries_generated": 40,
-    "average_quality": 79,
-    "average_relevance": 56
+    "summaries_generated": 45,
+    "average_quality": 82,
+    "average_relevance": 59
   },
   "validation": {
     "version": "1.1",
-    "executed_at": "2026-10-13T22:40:37.272Z",
-    "original_items": 40,
+    "executed_at": "2026-10-14T01:43:51.732Z",
+    "original_items": 45,
     "rejected_items": 0,
-    "final_items": 40,
+    "final_items": 45,
     "limit": 60,
     "status": "ok"
   }

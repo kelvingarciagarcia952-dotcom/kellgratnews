@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "updated_at": "2026-10-15T07:08:44.239Z",
+  "updated_at": "2026-10-15T13:13:26.995Z",
   "configuracion": {
     "limite_global": 60,
     "frecuencia_minutos": 60,
@@ -22,12 +22,88 @@
   },
   "source_stats": {
     "active_sources": 15,
-    "successful_sources": 14,
-    "collected_items": 57,
-    "deduplicated_items": 40,
-    "final_items": 40
+    "successful_sources": 15,
+    "collected_items": 63,
+    "deduplicated_items": 46,
+    "final_items": 46
   },
   "items": [
+    {
+      "id": "b9f65be2fa49b3df",
+      "fuente_id": "huawei_central",
+      "fuente_nombre": "Huawei Central",
+      "tipo": "rss_web",
+      "subtipo": "medio_especializado",
+      "grupo_fuente": "huawei",
+      "nivel_fuente": "secundaria_especializada",
+      "categoria": "moviles",
+      "idioma_original": "en",
+      "prioridad_fuente": 5,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "La tableta Honor WIN confirma la pantalla OLED con frecuencia de actualización de 240Hz",
+      "titulo_original": "Honor WIN Tablet confirms 240Hz refresh rate OLED screen",
+      "enlace": "https://www.huaweicentral.com/honor-win-tablet-confirms-240hz-refresh-rate-oled-screen/",
+      "fecha": "2026-10-15T12:35:11.000Z",
+      "resumen_corto": "La tableta Honor WIN debutará junto con la serie WIN 2 la próxima semana, y el OEM ahora ha confirmado sus parámetros de pantalla, con una frecuencia de actualización de 240Hz.",
+      "resumen_largo": "La tableta Honor WIN debutará junto con la serie WIN 2 la próxima semana, y el OEM ahora ha confirmado sus parámetros de pantalla, con una frecuencia de actualización de 240Hz. Se convertirá en la primera tableta compacta del mercado con la tasa de actualización más alta. La compañía confirmó que la tableta Honor WIN contará con [...] La tableta post Honor WIN confirma que la pantalla OLED de frecuencia de actualización de 240Hz apareció primero en Huawei Central .",
+      "texto_original": "Honor WIN tablet will debut alongside the WIN 2 series next week, and the OEM has now confirmed its screen parameters, featuring a 240Hz refresh rate. It will become the first compact tablet on the market with the highest refresh rate. Here are the details. The company confirmed that the Honor WIN tablet will feature […] The post Honor WIN Tablet confirms 240Hz refresh rate OLED screen appeared first on Huawei Central .",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-10-15T13:13:26.821Z",
+        "index": 0,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "en",
+        "categoria": "moviles",
+        "categorias_secundarias": [
+          "inteligencia_artificial",
+          "hardware",
+          "software_internet"
+        ],
+        "category_scores": {
+          "moviles": 4,
+          "inteligencia_artificial": 2,
+          "hardware": 2,
+          "software_internet": 1
+        },
+        "entidades": [
+          "Huawei",
+          "Honor"
+        ],
+        "cifras_detectadas": [],
+        "content_type": "report",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 92,
+        "relevancia": 83,
+        "confiabilidad_fuente": 75,
+        "readability": {
+          "words": 161,
+          "sentences": 9,
+          "average_words_per_sentence": 17.89
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 84.15
+    },
     {
       "id": "c3e70a72db95d94c",
       "fuente_id": "bbc_mundo",
@@ -50,8 +126,8 @@
       "texto_original": "En un giro inesperado del destino, ahora son los soldados ucranianos en el frente quienes llaman a sus familias en Kyiv para preguntar si están a salvo, en lugar de ser al revés. \"Ahora se habla de Kyiv como una ciudad en el frente de batalla\", declara Peter Dickinson, residente de la ciudad, al Servicio Mundial de la BBC. \"Básicamente, ahora es tan peligrosa, si no más, que las ciudades que se encuentran geográficamente en la primera línea de la guerra.\" En las últimas semanas, Rusia ha intensificado sus ataques con misiles y drones contra la capital de Ucrania y otras ciudades importantes, alcanzando objetivos civiles, como escuelas, hospitales, hoteles, centros de datos, trenes y puentes. El 30 de septiembre, por ejemplo, drones dañaron dos tiendas cerca de Kyiv. Al día siguiente, un dron impactó contra un edificio escolar en el distrito de Solomianskyi de la capital, mientras que un centro de negocios fue atacado en la región de Odesa. El 8 de octubre, un dron ruso impactó contra las instalaciones de una escuela y un jardín infantil en el distrito de Bucha, en la región de Kyiv.",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-15T07:08:44.130Z",
-        "index": 4,
+        "processed_at": "2026-10-15T13:13:26.847Z",
+        "index": 27,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -125,8 +201,8 @@
       "texto_original": "Delayed Costs data in the Compliance API OpenAI",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-15T07:08:44.137Z",
-        "index": 17,
+        "processed_at": "2026-10-15T13:13:26.848Z",
+        "index": 29,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -193,8 +269,8 @@
       "texto_original": "How Third Moment Research runs 10,000 agents for 36+ hours OpenAI",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-15T07:08:44.137Z",
-        "index": 20,
+        "processed_at": "2026-10-15T13:13:26.849Z",
+        "index": 32,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -264,8 +340,8 @@
       "texto_original": "Kirin 9050 Pro is first chip to protect against data security threats: Huawei Huawei Central",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-15T07:08:44.141Z",
-        "index": 32,
+        "processed_at": "2026-10-15T13:13:26.852Z",
+        "index": 38,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -320,7 +396,7 @@
       "final_score": 77
     },
     {
-      "id": "4e7cc8b5f6d7046b",
+      "id": "8af95b96975603af",
       "fuente_id": "bbc_mundo",
       "fuente_nombre": "BBC Mundo",
       "tipo": "rss_web",
@@ -332,47 +408,48 @@
       "prioridad_fuente": 5,
       "analizar": true,
       "resumir": true,
-      "titulo": "El impresionante hallazgo frente a las costas de Turquía del naufragio más antiguo del mundo",
-      "titulo_original": "El impresionante hallazgo frente a las costas de Turquía del naufragio más antiguo del mundo",
-      "enlace": "https://www.bbc.com/mundo/articles/cw240q4dd59ro?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-10-14T15:05:20.000Z",
-      "resumen_corto": "Los expertos creen que tiene una antigüedad de entre 4.400 y 4.700 años, lo que corresponde a la Edad del Bronce Temprana, y es aproximadamente la misma época en que se construía la Gran Pirámide de Guiza.",
-      "resumen_largo": "El naufragio más antiguo del mundo fue descubierto frente a las costas de Turquía, según informó un equipo de arqueólogos. Los expertos creen que tiene una antigüedad de entre 4.400 y 4.700 años, lo que corresponde a la Edad del Bronce Temprana, y es aproximadamente la misma época en que se construía la Gran Pirámide de Guiza. La estructura de madera del barco no sobrevivió, pero las tinajas de cerámica que transportaba yacían en el fondo del mar y, sorprendentemente, algunas aún conservan restos de su contenido.",
-      "texto_original": "El naufragio más antiguo del mundo fue descubierto frente a las costas de Turquía, según informó un equipo de arqueólogos. Los expertos creen que tiene una antigüedad de entre 4.400 y 4.700 años, lo que corresponde a la Edad del Bronce Temprana, y es aproximadamente la misma época en que se construía la Gran Pirámide de Guiza. La estructura de madera del barco no sobrevivió, pero las tinajas de cerámica que transportaba yacían en el fondo del mar y, sorprendentemente, algunas aún conservan restos de su contenido. Los arqueólogos que encontraron el barco dicen que medía unos 10 metros de largo y que era una embarcación mercante que transportaba mercancías a través del mar Mediterráneo. \"El naufragio es una cápsula del tiempo en el fondo del mar\", dijo el profesor Hakan Öniz, de la Universidad de Akdeniz en Turquía, quien dirigió la expedición de la Asociación de Arqueología del Mediterráneo. Los restos del naufragio se encuentran cerca de la costa de la isla Kekova, en Antalya, Turquía. Los artefactos están dispersos en una pendiente submarina, a tan solo 30 metros bajo las olas.",
+      "titulo": "Por qué decido regresar ahora a Venezuela tras haber estado preso en el Helicoide y pasar 12 años en el exilio",
+      "titulo_original": "Por qué decido regresar ahora a Venezuela tras haber estado preso en el Helicoide y pasar 12 años en el exilio",
+      "enlace": "https://www.bbc.com/mundo/articles/cqgk5k0znn0mo?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-10-15T11:04:52.000Z",
+      "resumen_corto": "Tras meses de lo que califica como \"persecución\", Rodrigo Diamanti fue detenido en el aeropuerto internacional de Maiquetía en 2014, cuando intentaba salir de la Venezuela de Nicolás Maduro.",
+      "resumen_largo": "Tras meses de lo que califica como \"persecución\", Rodrigo Diamanti fue detenido en el aeropuerto internacional de Maiquetía en 2014, cuando intentaba salir de la Venezuela de Nicolás Maduro. Más de una década después ha decidido volver, aprovechando lo que describe como una \"ventana\" incierta desde que en enero EE.UU. capturó a Maduro, acusado de narcotráfico, corrupción y torturas a ciudadanos estadounidenses, cargos que el expresidente niega.",
+      "texto_original": "Tras meses de lo que califica como \"persecución\", Rodrigo Diamanti fue detenido en el aeropuerto internacional de Maiquetía en 2014, cuando intentaba salir de la Venezuela de Nicolás Maduro. Más de una década después ha decidido volver, aprovechando lo que describe como una \"ventana\" incierta desde que en enero EE.UU. capturó a Maduro, acusado de narcotráfico, corrupción y torturas a ciudadanos estadounidenses, cargos que el expresidente niega. \"El aparato represivo sigue intacto. No está tan activo como antes, pero cuando lo necesiten, lo pueden usar\", dijo en una reciente entrevista con BBC Mundo. Activista y defensor de derechos humanos, Diamanti recuerda que asistió a su primera protesta en 2001, apenas dos años después de la llegada al poder de Hugo Chávez, el impulsor de la revolución bolivariana que luego continuó Maduro. \"En esa protesta nos lanzaron bombas lacrimógenas y perdigones. Desde ese día nunca dejé de protestar\". En 2009, Diamanti fundó Un Mundo Sin Mordaza (UMSM), una organización que se encarga de documentar y denunciar ataques a la libertad de expresión en Venezuela.",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-15T07:08:44.138Z",
-        "index": 21,
+        "processed_at": "2026-10-15T13:13:26.833Z",
+        "index": 9,
         "resumen": {
           "generado": true,
           "origen": "translated"
         },
         "idioma_detectado": "es",
         "idioma_original": "es",
-        "categoria": "inteligencia_artificial",
+        "categoria": "actualidad",
         "categorias_secundarias": [
-          "semiconductores",
-          "hardware",
-          "vehiculos_energia"
+          "inteligencia_artificial",
+          "vehiculos_energia",
+          "hardware"
         ],
         "category_scores": {
-          "inteligencia_artificial": 1,
-          "semiconductores": 1,
-          "hardware": 1,
-          "vehiculos_energia": 1
+          "actualidad": 3,
+          "inteligencia_artificial": 2,
+          "vehiculos_energia": 2,
+          "hardware": 1
         },
-        "entidades": [],
-        "cifras_detectadas": [
-          "10 m",
-          "30 m"
+        "entidades": [
+          "BBC"
         ],
-        "content_type": "report",
+        "cifras_detectadas": [
+          "2014",
+          "2001",
+          "2009"
+        ],
+        "content_type": "news",
         "clickbait": {
           "detected": false,
-          "score": 25,
-          "signals": [
-            "\\bimpresionante\\b"
-          ]
+          "score": 0,
+          "signals": []
         },
         "spam": {
           "detected": false,
@@ -380,13 +457,13 @@
           "signals": [],
           "url_count": 0
         },
-        "calidad": 92,
-        "relevancia": 57,
-        "confiabilidad_fuente": 80,
+        "calidad": 89,
+        "relevancia": 70,
+        "confiabilidad_fuente": 70,
         "readability": {
-          "words": 240,
-          "sentences": 17,
-          "average_words_per_sentence": 14.12
+          "words": 221,
+          "sentences": 15,
+          "average_words_per_sentence": 14.73
         },
         "duplicate": {
           "detected": false,
@@ -395,7 +472,7 @@
           "similar_to": null
         }
       },
-      "final_score": 75
+      "final_score": 76.65
     },
     {
       "id": "7d4557309f84f447",
@@ -413,14 +490,14 @@
       "titulo": "Rendimiento degradado en el trabajo de Codex y ChatGPT",
       "titulo_original": "Degraded performance in Codex and ChatGPT Work - OpenAI",
       "enlace": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE4za2lIMjh2YnFzdjZOSlFVZXBsWWNqVXhmWlpsamY5T2RuRWJLblFrRDRxTkgzUWJzMFdMMFBsOU1RekxHMDVOcFh5aTdkVVg4Qzdjc0s4QQ?oc=5",
-      "fecha": "2026-10-14T10:38:16.000Z",
+      "fecha": "2026-10-14T07:05:44.000Z",
       "resumen_corto": "Rendimiento degradado en Codex y ChatGPT Work OpenAI",
       "resumen_largo": "Rendimiento degradado en Codex y ChatGPT Work OpenAI",
       "texto_original": "Degraded performance in Codex and ChatGPT Work OpenAI",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-15T07:08:44.140Z",
-        "index": 28,
+        "processed_at": "2026-10-15T13:13:26.852Z",
+        "index": 37,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -467,6 +544,78 @@
       "final_score": 74.95
     },
     {
+      "id": "5f60ed912de0287c",
+      "fuente_id": "catl_google",
+      "fuente_nombre": "CATL",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "catl",
+      "nivel_fuente": "fuente_oficial",
+      "categoria": "baterias_energia",
+      "idioma_original": "en",
+      "prioridad_fuente": 5,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "CATL se convierte en la primera compañía de baterías en unirse a las tres ondas piloto de GBA Battery Passport",
+      "titulo_original": "CATL Becomes First Battery Company to Join All Three GBA Battery Passport Pilot Waves - CATL",
+      "enlace": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5aMVZiTVBkLVE3cjlaM05LRDhwUF92WmRuNEIyYXl3bHpVYjdYWkNUWjRpSlVjS3JHQkV3OGRRdlVVeFdkbXdiOTlqVzA1WG8?oc=5",
+      "fecha": "2026-10-12T05:41:26.000Z",
+      "resumen_corto": "CATL se convierte en la primera compañía de baterías en unirse a las tres GBA Battery Passport Pilot Waves CATL",
+      "resumen_largo": "CATL se convierte en la primera compañía de baterías en unirse a las tres GBA Battery Passport Pilot Waves CATL",
+      "texto_original": "CATL Becomes First Battery Company to Join All Three GBA Battery Passport Pilot Waves CATL",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-10-15T13:13:26.854Z",
+        "index": 43,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "en",
+        "categoria": "baterias_energia",
+        "categorias_secundarias": [
+          "inteligencia_artificial"
+        ],
+        "category_scores": {
+          "baterias_energia": 5,
+          "inteligencia_artificial": 1
+        },
+        "entidades": [
+          "CATL",
+          "Battery Company"
+        ],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 84,
+        "relevancia": 67,
+        "confiabilidad_fuente": 75,
+        "readability": {
+          "words": 69,
+          "sentences": 1,
+          "average_words_per_sentence": 69
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 74.95
+    },
+    {
       "id": "37574943a725cc8c",
       "fuente_id": "huawei_google",
       "fuente_nombre": "Huawei Central",
@@ -488,8 +637,8 @@
       "texto_original": "Huawei is only smartphone brand to see double-digit growth in Q3 2026: Report Huawei Central",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-15T07:08:44.143Z",
-        "index": 36,
+        "processed_at": "2026-10-15T13:13:26.854Z",
+        "index": 42,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -537,48 +686,53 @@
       "final_score": 73.8
     },
     {
-      "id": "04f644ad9e17c65b",
-      "fuente_id": "bbc_mundo",
-      "fuente_nombre": "BBC Mundo",
+      "id": "15418403275114e9",
+      "fuente_id": "huawei_central",
+      "fuente_nombre": "Huawei Central",
       "tipo": "rss_web",
-      "subtipo": "medio_generalista",
-      "grupo_fuente": "bbc",
-      "nivel_fuente": "medio_profesional",
-      "categoria": "actualidad",
-      "idioma_original": "es",
+      "subtipo": "medio_especializado",
+      "grupo_fuente": "huawei",
+      "nivel_fuente": "secundaria_especializada",
+      "categoria": "moviles",
+      "idioma_original": "en",
       "prioridad_fuente": 5,
       "analizar": true,
       "resumir": true,
-      "titulo": "Los médicos del Papa informan que camina y se recupera \"según lo previsto\" tras su cirugía por un cáncer de pulmón",
-      "titulo_original": "Los médicos del Papa informan que camina y se recupera \"según lo previsto\" tras su cirugía por un cáncer de pulmón",
-      "enlace": "https://www.bbc.com/mundo/articles/cmvgxvdpwk30o?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-10-14T21:43:54.000Z",
-      "resumen_corto": "La recuperación del papa León XIV tras la operación a la que se sometió este martes para extirparle el lóbulo inferior de un pulmón está \"progresando según lo previsto\", según han declarado sus médicos.",
-      "resumen_largo": "La recuperación del papa León XIV tras la operación a la que se sometió este martes para extirparle el lóbulo inferior de un pulmón está \"progresando según lo previsto\", según han declarado sus médicos. El pontífice de 71 años ha comenzado a caminar y ha \"retomado una dieta normal\" tras la intervención, que duró aproximadamente 90 minutos, según informaron los médicos en una actualización compartida por el Vaticano. Tras la operación a la que se sometió el martes por la tarde en el hospital Gemelli de Roma, el Papa fue diagnosticado de cáncer de pulmón.",
-      "texto_original": "La recuperación del papa León XIV tras la operación a la que se sometió este martes para extirparle el lóbulo inferior de un pulmón está \"progresando según lo previsto\", según han declarado sus médicos. El pontífice de 71 años ha comenzado a caminar y ha \"retomado una dieta normal\" tras la intervención, que duró aproximadamente 90 minutos, según informaron los médicos en una actualización compartida por el Vaticano. Tras la operación a la que se sometió el martes por la tarde en el hospital Gemelli de Roma, el Papa fue diagnosticado de cáncer de pulmón. El Vaticano afirmó que la intervención había sido \"exitosa\" y se había desarrollado sin complicaciones. Los análisis de sangre y una radiografía realizados a primera hora del miércoles mostraron que su recuperación \"progresaba con normalidad\", según informaron los médicos. Tras la intervención quirúrgica, el Vaticano informó que se extirpó todo el lóbulo inferior del pulmón derecho del Papa \"para garantizar que el procedimiento fuera radical\". La Santa Sede había informado previamente que \"tras la operación, el Papa despertó con normalidad y, después de un breve periodo de observación, regresó a su habitación\", en la que pasó una \"noche tranquila\".",
+      "titulo": "Huawei ahora planea un teléfono de pantalla ancha económico",
+      "titulo_original": "Huawei now plans a budget-friendly wide-screen phone",
+      "enlace": "https://www.huaweicentral.com/huawei-now-plans-a-budget-friendly-wide-screen-phone/",
+      "fecha": "2026-10-15T11:55:44.000Z",
+      "resumen_corto": "Comenzando con la línea Pura de primer nivel, la compañía planea llevar el factor de forma moderno a su serie Nova.",
+      "resumen_largo": "Huawei ahora está ampliando su enfoque de diseño de pantalla ancha a un teléfono económico. Comenzando con la línea Pura de primer nivel, la compañía planea llevar el factor de forma moderno a su serie Nova. Sin embargo, el tiempo de lanzamiento sigue siendo un misterio.",
+      "texto_original": "Huawei is now expanding its wide-screen design approach to a budget-friendly phone. Starting with the top-tier Pura lineup, the company is planning to bring the trendy form factor to its Nova series. However, the launch time remains a mystery. News regarding Huawei suggests that the company is working on another wide-screen phone, and the best […] The post Huawei now plans a budget-friendly wide-screen phone appeared first on Huawei Central .",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-15T07:08:44.135Z",
-        "index": 12,
+        "processed_at": "2026-10-15T13:13:26.827Z",
+        "index": 4,
         "resumen": {
           "generado": true,
           "origen": "translated"
         },
         "idioma_detectado": "es",
-        "idioma_original": "es",
-        "categoria": "inteligencia_artificial",
+        "idioma_original": "en",
+        "categoria": "moviles",
         "categorias_secundarias": [
-          "vehiculos_energia"
+          "inteligencia_artificial",
+          "vehiculos_energia",
+          "software_internet"
         ],
         "category_scores": {
-          "inteligencia_artificial": 1,
-          "vehiculos_energia": 1
+          "moviles": 4,
+          "inteligencia_artificial": 2,
+          "vehiculos_energia": 1,
+          "software_internet": 1,
+          "actualidad": 1
         },
-        "entidades": [],
-        "cifras_detectadas": [
-          "90 m"
+        "entidades": [
+          "Huawei"
         ],
-        "content_type": "report",
+        "cifras_detectadas": [],
+        "content_type": "news",
         "clickbait": {
           "detected": false,
           "score": 0,
@@ -590,13 +744,247 @@
           "signals": [],
           "url_count": 0
         },
-        "calidad": 92,
-        "relevancia": 50,
-        "confiabilidad_fuente": 80,
+        "calidad": 84,
+        "relevancia": 70,
+        "confiabilidad_fuente": 65,
         "readability": {
-          "words": 256,
-          "sentences": 11,
-          "average_words_per_sentence": 23.27
+          "words": 124,
+          "sentences": 8,
+          "average_words_per_sentence": 15.5
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 73.65
+    },
+    {
+      "id": "0cab76b99418234d",
+      "fuente_id": "bbc_mundo",
+      "fuente_nombre": "BBC Mundo",
+      "tipo": "rss_web",
+      "subtipo": "medio_generalista",
+      "grupo_fuente": "bbc",
+      "nivel_fuente": "medio_profesional",
+      "categoria": "actualidad",
+      "idioma_original": "es",
+      "prioridad_fuente": 5,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "\"Historias fantasmales sin base científica\": Meredith Whittaker, una de las mujeres más influyentes del sector tecnológico, sobre los peligros de la IA",
+      "titulo_original": "\"Historias fantasmales sin base científica\": Meredith Whittaker, una de las mujeres más influyentes del sector tecnológico, sobre los peligros de la IA",
+      "enlace": "https://www.bbc.com/mundo/articles/cqe8lydy6rpyo?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-10-15T11:33:08.000Z",
+      "resumen_corto": "Meredith Whittaker tiene poca paciencia con el catastrofismo de la IA que domina los titulares; opina que las advertencias de que la IA se vuelva contra la humanidad son un temor \"que no tiene fundamento científico\".",
+      "resumen_largo": "Meredith Whittaker tiene poca paciencia con el catastrofismo de la IA que domina los titulares; opina que las advertencias de que la IA se vuelva contra la humanidad son un temor \"que no tiene fundamento científico\". \"El riesgo es muy real\", afirma el director de la Fundación Signal, que gestiona la aplicación de mensajería cifrada del mismo nombre, \"pero no se trata de las historias de fantasmas de las que hablan esos jóvenes exaltados\". En cambio, ella cree que el peligro más inmediato reside en el uso negligente de la tecnología.",
+      "texto_original": "Meredith Whittaker tiene poca paciencia con el catastrofismo de la IA que domina los titulares; opina que las advertencias de que la IA se vuelva contra la humanidad son un temor \"que no tiene fundamento científico\". \"El riesgo es muy real\", afirma el director de la Fundación Signal, que gestiona la aplicación de mensajería cifrada del mismo nombre, \"pero no se trata de las historias de fantasmas de las que hablan esos jóvenes exaltados\". En cambio, ella cree que el peligro más inmediato reside en el uso negligente de la tecnología. Ella cita un presunto incidente, reportado por CNN, en el que un chatbot utilizado por la inteligencia estadounidense inventó información sobre un buque chino que transportaba material nuclear, lo que supuestamente llevó a Estados Unidos a preparar una respuesta militar. \"Un sistema que produce información errónea y que casi nos lleva a una guerra con China no debería considerarse superinteligente bajo ningún concepto\". Signal tiene entre 40 y 70 millones de usuarios, una cifra insignificante comparada con WhatsApp, que cuenta con miles de millones.",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-10-15T13:13:26.831Z",
+        "index": 7,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "software_internet",
+        "categorias_secundarias": [
+          "tecnologia",
+          "moviles",
+          "militar"
+        ],
+        "category_scores": {
+          "software_internet": 3,
+          "tecnologia": 3,
+          "moviles": 2,
+          "militar": 2,
+          "inteligencia_artificial": 1,
+          "vehiculos_energia": 1
+        },
+        "entidades": [],
+        "cifras_detectadas": [
+          "70 m"
+        ],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 84,
+        "relevancia": 65,
+        "confiabilidad_fuente": 70,
+        "readability": {
+          "words": 251,
+          "sentences": 10,
+          "average_words_per_sentence": 25.1
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 72.9
+    },
+    {
+      "id": "2063004f9bdf0dcc",
+      "fuente_id": "bbc_mundo",
+      "fuente_nombre": "BBC Mundo",
+      "tipo": "rss_web",
+      "subtipo": "medio_generalista",
+      "grupo_fuente": "bbc",
+      "nivel_fuente": "medio_profesional",
+      "categoria": "actualidad",
+      "idioma_original": "es",
+      "prioridad_fuente": 5,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "4 razones por las que la película española \"La Bola Negra\" podría ganarle el Oscar a \"La Odisea\"",
+      "titulo_original": "4 razones por las que la película española \"La Bola Negra\" podría ganarle el Oscar a \"La Odisea\"",
+      "enlace": "https://www.bbc.com/mundo/articles/cmqxnew29erno?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-10-15T09:38:55.000Z",
+      "resumen_corto": "La película comienza con una escena que muestra cómo un tranquilo pueblo español se ve sumido en la violencia durante la Guerra Civil de los años 30; su belleza visual y su ritmo narrativo cautivan al espectador de inmediato.",
+      "resumen_largo": "Desde los primeros diez minutos de \"La Bola Negra\", una épica histórica de temática gay, resulta imposible no tener la sensación de estar siendo testigo de una obra excepcional. La película comienza con una escena que muestra cómo un tranquilo pueblo español se ve sumido en la violencia durante la Guerra Civil de los años 30; su belleza visual y su ritmo narrativo cautivan al espectador de inmediato. Aunque se inspira directamente en la obra del venerado poeta y dramaturgo de principios del siglo XX Federico García Lorca, el filme se expande en otras direcciones imaginativas, tejiendo un tapiz de memoria, arte y represión sexual que abarca un siglo de historia española.",
+      "texto_original": "Desde los primeros diez minutos de \"La Bola Negra\", una épica histórica de temática gay, resulta imposible no tener la sensación de estar siendo testigo de una obra excepcional. La película comienza con una escena que muestra cómo un tranquilo pueblo español se ve sumido en la violencia durante la Guerra Civil de los años 30; su belleza visual y su ritmo narrativo cautivan al espectador de inmediato. Aunque se inspira directamente en la obra del venerado poeta y dramaturgo de principios del siglo XX Federico García Lorca, el filme se expande en otras direcciones imaginativas, tejiendo un tapiz de memoria, arte y represión sexual que abarca un siglo de historia española. La película de Javier Calvo y Javier Ambrossi relata las vidas de tres hombres homosexuales: Sebastián, quien en 1937 ha sido reclutado por el ejército de Franco durante la Guerra Civil Española y lucha contra su atracción hacia un prisionero bajo su custodia; Carlos, un joven burgués de veintitantos años que en 1932 es rechazado por un exclusivo club social debido a los rumores sobre su sexualidad; y Alberto, un historiador e investigador que en 2017 recibe una herencia inesperada de un abuelo con el que no mantenía relación. Cuando la película se presentó en el Festival de Cannes el pasado mes de mayo, el revuelo que generó desató una guerra de ofertas entre importantes distribuidoras, una señal temprana de que estábamos ante algo especial. Ahora que Netflix la estrena en Norteamérica, se perfila como una firme candidata a los Oscar.",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-10-15T13:13:26.838Z",
+        "index": 15,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "semiconductores",
+        "categorias_secundarias": [
+          "hardware",
+          "vehiculos_energia",
+          "militar"
+        ],
+        "category_scores": {
+          "semiconductores": 2,
+          "hardware": 2,
+          "vehiculos_energia": 2,
+          "militar": 2,
+          "inteligencia_artificial": 1,
+          "moviles": 1
+        },
+        "entidades": [],
+        "cifras_detectadas": [
+          "1937",
+          "1932",
+          "2017"
+        ],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 84,
+        "relevancia": 65,
+        "confiabilidad_fuente": 70,
+        "readability": {
+          "words": 302,
+          "sentences": 10,
+          "average_words_per_sentence": 30.2
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 72.9
+    },
+    {
+      "id": "d718e2d785d02d8b",
+      "fuente_id": "huawei_central",
+      "fuente_nombre": "Huawei Central",
+      "tipo": "rss_web",
+      "subtipo": "medio_especializado",
+      "grupo_fuente": "huawei",
+      "nivel_fuente": "secundaria_especializada",
+      "categoria": "moviles",
+      "idioma_original": "en",
+      "prioridad_fuente": 5,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Huawei Mate X8 podría ser más barato que Mate X7 a pesar de la crisis de memoria",
+      "titulo_original": "Huawei Mate X8 could be cheaper than Mate X7 despite memory crisis",
+      "enlace": "https://www.huaweicentral.com/huawei-mate-x8-could-be-cheaper-than-mate-x7/",
+      "fecha": "2026-10-15T07:57:46.000Z",
+      "resumen_corto": "El Huawei Mate X8 se acerca cada vez más a la etapa de lanzamiento con mejoras notables, pero lo más destacado de este buque insignia podría ser su precio, ya que se espera que sea más barato que el modelo 2025.",
+      "resumen_largo": "El Huawei Mate X8 se acerca cada vez más a la etapa de lanzamiento con mejoras notables, pero lo más destacado de este buque insignia podría ser su precio, ya que se espera que sea más barato que el modelo 2025. De ser cierto, sería una gran oportunidad en medio de la persistente crisis de memoria. Una nueva filtración de DigitalChatStation indica que el […] El post Huawei Mate X8 podría ser más barato que el Mate X7 a pesar de la crisis de memoria apareció primero en Huawei Central .",
+      "texto_original": "Huawei Mate X8 is inching closer to the launch stage with notable upgrades, but the highlight of this flagship could be its price, as it is expected to be cheaper than the 2025 model. If true, it would be a big take amid the persistent memory crisis. A new leak by DigitalChatStation indicates that the […] The post Huawei Mate X8 could be cheaper than Mate X7 despite memory crisis appeared first on Huawei Central .",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-10-15T13:13:26.843Z",
+        "index": 21,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "en",
+        "categoria": "moviles",
+        "categorias_secundarias": [
+          "inteligencia_artificial",
+          "vehiculos_energia",
+          "software_internet"
+        ],
+        "category_scores": {
+          "moviles": 2,
+          "inteligencia_artificial": 1,
+          "vehiculos_energia": 1,
+          "software_internet": 1
+        },
+        "entidades": [
+          "Huawei"
+        ],
+        "cifras_detectadas": [
+          "2025",
+          "2025 m"
+        ],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 89,
+        "relevancia": 62,
+        "confiabilidad_fuente": 65,
+        "readability": {
+          "words": 164,
+          "sentences": 7,
+          "average_words_per_sentence": 23.43
         },
         "duplicate": {
           "detected": false,
@@ -629,8 +1017,8 @@
       "texto_original": "Qualcomm-Huawei Deal: New chapter begins to bridge gap in China’s chip tech Huawei Central",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-15T07:08:44.142Z",
-        "index": 33,
+        "processed_at": "2026-10-15T13:13:26.853Z",
+        "index": 40,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -685,6 +1073,157 @@
       "final_score": 71.95
     },
     {
+      "id": "9e2ab0799eaae31a",
+      "fuente_id": "bbc_mundo",
+      "fuente_nombre": "BBC Mundo",
+      "tipo": "rss_web",
+      "subtipo": "medio_generalista",
+      "grupo_fuente": "bbc",
+      "nivel_fuente": "medio_profesional",
+      "categoria": "actualidad",
+      "idioma_original": "es",
+      "prioridad_fuente": 5,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Quién es Katie Zacharia y por qué su designación como secretaria de prensa de Trump ha generado controversia",
+      "titulo_original": "Quién es Katie Zacharia y por qué su designación como secretaria de prensa de Trump ha generado controversia",
+      "enlace": "https://www.bbc.com/mundo/articles/c68jzgwd9m7go?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-10-15T11:48:26.000Z",
+      "resumen_corto": "Así se define Katie Zacharia, la novel portavoz de la Casa Blanca, quien fue nombrada por el presidente Donald Trump el pasado 9 de octubre.",
+      "resumen_largo": "Así se define Katie Zacharia, la novel portavoz de la Casa Blanca, quien fue nombrada por el presidente Donald Trump el pasado 9 de octubre. \"Es un gran honor para mí haber nombrado recientemente a Katie Zacharia como secretaria de prensa\", escribió el mandatario en Truth Social. \"Tiene un historial de apoyo intachable y ha sido una seguidora leal y brillante desde el principio.",
+      "texto_original": "Así se define Katie Zacharia, la novel portavoz de la Casa Blanca, quien fue nombrada por el presidente Donald Trump el pasado 9 de octubre. \"Es un gran honor para mí haber nombrado recientemente a Katie Zacharia como secretaria de prensa\", escribió el mandatario en Truth Social. \"Tiene un historial de apoyo intachable y ha sido una seguidora leal y brillante desde el principio. ¡Además, es una fanática devota y miembro de MAGA!\", agregó. La mujer de 41 años reemplazó así a inicios de esta semana a la periodista Karoline Leavitt, quien anunció su salida de la administración en agosto pasado. \"Quiero dar las gracias al presidente Trump por la confianza que ha depositado en mí. Hace mucho tiempo que deseaba trabajar para él\", dijo en su primera y cuestionada rueda de prensa este martes. En su debut se la vio nerviosa y leyendo sin subir la vista por varios segundos. Además, cortó la rueda de prensa de manera abrupta luego de responder algunas preguntas de unos pocos medios.",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-10-15T13:13:26.830Z",
+        "index": 6,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "moviles",
+        "categorias_secundarias": [
+          "actualidad",
+          "inteligencia_artificial",
+          "semiconductores"
+        ],
+        "category_scores": {
+          "moviles": 2,
+          "actualidad": 2,
+          "inteligencia_artificial": 1,
+          "semiconductores": 1,
+          "vehiculos_energia": 1
+        },
+        "entidades": [
+          "Honor"
+        ],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 84,
+        "relevancia": 62,
+        "confiabilidad_fuente": 70,
+        "readability": {
+          "words": 197,
+          "sentences": 14,
+          "average_words_per_sentence": 14.07
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 71.7
+    },
+    {
+      "id": "4d123d2939e3421f",
+      "fuente_id": "huawei_central",
+      "fuente_nombre": "Huawei Central",
+      "tipo": "rss_web",
+      "subtipo": "medio_especializado",
+      "grupo_fuente": "huawei",
+      "nivel_fuente": "secundaria_especializada",
+      "categoria": "moviles",
+      "idioma_original": "en",
+      "prioridad_fuente": 5,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Huawei lanza un nuevo servicio para ayudar a los usuarios con discapacidad visual",
+      "titulo_original": "Huawei launches a new service to assist visually impaired users",
+      "enlace": "https://www.huaweicentral.com/huawei-launches-a-new-service-to-assist-visually-impaired-users/",
+      "fecha": "2026-10-15T10:53:44.000Z",
+      "resumen_corto": "Huawei está haciendo un esfuerzo para ayudar a los muchos millones de personas con discapacidad visual en el mundo con un nuevo servicio llamado Servicio de Atención al Cliente de Asistencia Visual.",
+      "resumen_largo": "Huawei está haciendo un esfuerzo para ayudar a los muchos millones de personas con discapacidad visual en el mundo con un nuevo servicio llamado Servicio de Atención al Cliente de Asistencia Visual. Es un canal de línea directa dedicado que ayudará a las personas con problemas visuales a llevar una vida normal. El CEO de Huawei Consumer Business Group Unit, He Gang, presentó el [...] La publicación Huawei lanza un nuevo servicio para ayudar a los usuarios con discapacidad visual que apareció primero en Huawei Central .",
+      "texto_original": "Huawei is making an effort to help the many millions of visually impaired people in the world with a new service called Visual Assistance Customer Service. It is a dedicated hotline channel that will help people with visual challenges lead a normal life. The CEO of Huawei Consumer Business Group Unit, He Gang, introduced the […] The post Huawei launches a new service to assist visually impaired users appeared first on Huawei Central .",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-10-15T13:13:26.835Z",
+        "index": 11,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "en",
+        "categoria": "inteligencia_artificial",
+        "categorias_secundarias": [
+          "moviles",
+          "vehiculos_energia",
+          "software_internet"
+        ],
+        "category_scores": {
+          "inteligencia_artificial": 2,
+          "moviles": 2,
+          "vehiculos_energia": 1,
+          "software_internet": 1
+        },
+        "entidades": [
+          "Huawei"
+        ],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 84,
+        "relevancia": 62,
+        "confiabilidad_fuente": 65,
+        "readability": {
+          "words": 162,
+          "sentences": 8,
+          "average_words_per_sentence": 20.25
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 70.45
+    },
+    {
       "id": "28b7af7de0ed495f",
       "fuente_id": "openai_google",
       "fuente_nombre": "OpenAI",
@@ -700,14 +1239,14 @@
       "titulo": "Migración de GPT-4.x a GPT-6 Luna - Centro de ayuda de OpenAI",
       "titulo_original": "Migrating from GPT-4.x to GPT-6 Luna - OpenAI Help Center",
       "enlace": "https://news.google.com/rss/articles/CBMihwFBVV95cUxONnV5UWxTRDdmdXpsWTNNa0tWenZjek9IM3hJRDZ4dU5OUVR5clF5bGFlbjM3VUpCT3IwN1VoQnl3aXZMSjNUcTREeF9UbkpJcjhoYXBreDllSTZLdVZJMXBwYzM1OGhmR3ZQa2NCWTJPTXE5dkxQT3Jsb015cnpvOUlPQWdCNjA?oc=5",
-      "fecha": "2026-10-11T06:14:46.000Z",
+      "fecha": "2026-10-10T12:16:16.000Z",
       "resumen_corto": "Migración de GPT-4.x a GPT-6 Luna OpenAI Centro de ayuda",
       "resumen_largo": "Migración de GPT-4.x a GPT-6 Luna OpenAI Centro de ayuda",
       "texto_original": "Migrating from GPT-4.x to GPT-6 Luna OpenAI Help Center",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-15T07:08:44.143Z",
-        "index": 39,
+        "processed_at": "2026-10-15T13:13:26.855Z",
+        "index": 45,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -753,56 +1292,63 @@
       "final_score": 70.15
     },
     {
-      "id": "ad3be5896356fc14",
-      "fuente_id": "bbc_mundo",
-      "fuente_nombre": "BBC Mundo",
+      "id": "87559bd045f4ee02",
+      "fuente_id": "huawei_central",
+      "fuente_nombre": "Huawei Central",
       "tipo": "rss_web",
-      "subtipo": "medio_generalista",
-      "grupo_fuente": "bbc",
-      "nivel_fuente": "medio_profesional",
-      "categoria": "actualidad",
-      "idioma_original": "es",
+      "subtipo": "medio_especializado",
+      "grupo_fuente": "huawei",
+      "nivel_fuente": "secundaria_especializada",
+      "categoria": "moviles",
+      "idioma_original": "en",
       "prioridad_fuente": 5,
       "analizar": true,
       "resumir": true,
-      "titulo": "Qué son las ondas Kelvin detrás del oleaje destructivo que está afectando a las costas de México y el sur de California",
-      "titulo_original": "Qué son las ondas Kelvin detrás del oleaje destructivo que está afectando a las costas de México y el sur de California",
-      "enlace": "https://www.bbc.com/mundo/articles/cwx28rg0z8pyo?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-10-14T22:52:20.000Z",
-      "resumen_corto": "Desde las exclusivas residencias frente a la playa en el sur de California hasta los populares hoteles y restaurantes a lo largo de la costa del Pacífico en México, el fuerte oleaje de las últimas semanas está causando graves destrozos.",
-      "resumen_largo": "Desde las exclusivas residencias frente a la playa en el sur de California hasta los populares hoteles y restaurantes a lo largo de la costa del Pacífico en México, el fuerte oleaje de las últimas semanas está causando graves destrozos. Los residentes y dueños de negocios están viendo cómo estas construcciones, algunas valoradas en millones de dólares, se debilitan y terminan cayendo al mar debido a la fuerza de las olas, impulsadas por las numerosas tormentas que se están registrando en esta temporada de huracanes. El caso más llamativo ha sido el de Long Beach, en California, donde decenas de viviendas han quedado inhabitables y probablemente tendrán que ser demolidas.",
-      "texto_original": "Desde las exclusivas residencias frente a la playa en el sur de California hasta los populares hoteles y restaurantes a lo largo de la costa del Pacífico en México, el fuerte oleaje de las últimas semanas está causando graves destrozos. Los residentes y dueños de negocios están viendo cómo estas construcciones, algunas valoradas en millones de dólares, se debilitan y terminan cayendo al mar debido a la fuerza de las olas, impulsadas por las numerosas tormentas que se están registrando en esta temporada de huracanes. El caso más llamativo ha sido el de Long Beach, en California, donde decenas de viviendas han quedado inhabitables y probablemente tendrán que ser demolidas. Paris Henken, una atleta olímpica estadounidense y residente del barrio de Península de Long Beach, explicó en una publicación que se hizo viral en Instagram que había sido inquilina de uno de los edificios afectados. \"Es un departamento de un dormitorio frente al mar que tenía todo lo que podríamos haber deseado. Como regatista olímpica que aspira a competir en Los Ángeles 2028, estaba a unos pasos de mi lugar de entrenamiento (quizás un poco demasiado cerca)\", escribió. \"Es devastador ver cómo tres tormentas destruyen un lugar que me brindó tanta paz\", lamentó.",
+      "titulo": "Honor revela el precio de la serie WIN 2 y es menos que Magic 9",
+      "titulo_original": "Honor reveals WIN 2 series price and its less than Magic 9",
+      "enlace": "https://www.huaweicentral.com/honor-reveals-win-2-series-price/",
+      "fecha": "2026-10-15T09:02:04.000Z",
+      "resumen_corto": "Al igual que la serie Magic 9, Honor ahora ha revelado el precio de la serie WIN 2 mucho antes de su lanzamiento oficial, programado para la próxima semana.",
+      "resumen_largo": "Al igual que la serie Magic 9, Honor ahora ha revelado el precio de la serie WIN 2 mucho antes de su lanzamiento oficial, programado para la próxima semana. La compañía ha compartido una nueva publicación para el buque insignia del juego, revelando su coste después de aplicar el plan de subsidios chino. El Director de Marketing Global de Honor, Guan Haitao, anunció la VICTORIA [...] La publicación Honor revela el precio de la serie WIN 2 y su menos de Magic 9 apareció por primera vez en Huawei Central .",
+      "texto_original": "Just like the Magic 9 series, Honor has now revealed the WIN 2 series price way before its official launch, scheduled for next week. The company has shared a new post for the gaming flagship, revealing its cost after applying the Chinese subsidy plan. The Honor Global Chief Marketing Officer, Guan Haitao, announced the WIN […] The post Honor reveals WIN 2 series price and its less than Magic 9 appeared first on Huawei Central .",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-15T07:08:44.132Z",
-        "index": 6,
+        "processed_at": "2026-10-15T13:13:26.841Z",
+        "index": 18,
         "resumen": {
           "generado": true,
           "origen": "translated"
         },
         "idioma_detectado": "es",
-        "idioma_original": "es",
-        "categoria": "inteligencia_artificial",
+        "idioma_original": "en",
+        "categoria": "moviles",
         "categorias_secundarias": [
-          "moviles",
-          "hardware",
-          "vehiculos_energia"
+          "inteligencia_artificial",
+          "vehiculos_energia",
+          "hardware"
         ],
         "category_scores": {
-          "inteligencia_artificial": 1,
-          "moviles": 1,
+          "moviles": 3,
+          "inteligencia_artificial": 2,
+          "vehiculos_energia": 2,
           "hardware": 1,
-          "vehiculos_energia": 1
+          "software_internet": 1
         },
-        "entidades": [],
-        "cifras_detectadas": [
-          "2028"
+        "entidades": [
+          "Huawei",
+          "Honor"
         ],
-        "content_type": "news",
+        "cifras_detectadas": [
+          "2 m"
+        ],
+        "content_type": "report",
         "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
+          "detected": true,
+          "score": 50,
+          "signals": [
+            "\\brevelado\\b",
+            "\\brevealed\\b"
+          ]
         },
         "spam": {
           "detected": false,
@@ -811,12 +1357,12 @@
           "url_count": 0
         },
         "calidad": 84,
-        "relevancia": 57,
-        "confiabilidad_fuente": 70,
+        "relevancia": 76,
+        "confiabilidad_fuente": 75,
         "readability": {
-          "words": 284,
-          "sentences": 11,
-          "average_words_per_sentence": 25.82
+          "words": 161,
+          "sentences": 8,
+          "average_words_per_sentence": 20.13
         },
         "duplicate": {
           "detected": false,
@@ -825,10 +1371,10 @@
           "similar_to": null
         }
       },
-      "final_score": 69.7
+      "final_score": 68.55
     },
     {
-      "id": "ca374adc06b3de7e",
+      "id": "eefc86d824f3989b",
       "fuente_id": "ia_dia",
       "fuente_nombre": "IA al Día",
       "tipo": "rss_web",
@@ -840,17 +1386,17 @@
       "prioridad_fuente": 3,
       "analizar": true,
       "resumir": true,
-      "titulo": "OpenAI, la impulsora de ChatGPT, demandada por ocho estados de EEUU por \"causar daños a niños\" e infringir la ley - El Periódico",
-      "titulo_original": "OpenAI, la impulsora de ChatGPT, demandada por ocho estados de EEUU por \"causar daños a niños\" e infringir la ley - El Periódico",
-      "enlace": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNbm5la2I4bVBfV091cW4yX0pmRWg4MFJyTFJXdE1HbXBpOE16VEJHRVQzSHBSSXNSMFpwZno3QmVUWU5xNWMtXzBnUmdDRWRILXZXRDFIcWVicklyWlNPZ01hN1E4MzB5YWZadTdwcFFLS0ViN214Z1ExMm10UjBsNGt5RTJyN0ZKWW14SlJmWTVrQlp2eVltR3gyd0VVekHSAZ8BQVVfeXFMTk9DbXdCbUIybVVEU3Rtd1hZX0NzVjVwaVd5NC1uNnN5RU5PMi00N3JOYWFLSnA1YkJ2ZmxoZUY0RzFyazlGcUFjWWdCdGJScjZFcVJ6UWlDUFJxd28wWGdsZDQ2QjRsTXNSNE94YU5BaHE1MmgtVm5HQ2RJUFRPVHVLZjRFdFJsTE5uVHhTb1JtamRjRU5ZYUZuYzY4WGZF?oc=5",
-      "fecha": "2026-10-15T06:32:17.000Z",
-      "resumen_corto": "OpenAI, la impulsora de ChatGPT, demandada por ocho estados de EEUU por \"causar daños a niños\" e infringir la ley El Periódico",
-      "resumen_largo": "OpenAI, la impulsora de ChatGPT, demandada por ocho estados de EEUU por \"causar daños a niños\" e infringir la ley El Periódico",
-      "texto_original": "OpenAI, la impulsora de ChatGPT, demandada por ocho estados de EEUU por \"causar daños a niños\" e infringir la ley El Periódico",
+      "titulo": "La inteligencia artificial ha detectado este verano 1.036 columnas de humo en Collserola y ha confirmado 150 fuegos - La Vanguardia",
+      "titulo_original": "La inteligencia artificial ha detectado este verano 1.036 columnas de humo en Collserola y ha confirmado 150 fuegos - La Vanguardia",
+      "enlace": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNNUQ3dGtWNUU5aEYyNHE5MXpPNmZSemx5U0FrTURCM0pSc01YS3hmYmF5TTRVWDBVUkdSTlB2SjVXLWpHakRPRXFzM2tyVHdEd0tJVGFPSGFlMS1kOThVaDFnMk1ZcV8tTHBiMEhJdi1OMldKRmdSS1ZIRkg5UGtobzFIVUJmMlV6Y2lRZHBXVjcwVVNITVlXTGxkS2ptYm15VXNWdllGV0tpYnlsMEJtZi04Uy12UnFzVVBTeFhyZWwzT1RVdWxncXlQSm9nR0VETzZGYXpzMzFzYUpiOGhCTUtRVWFUeWdNZDBUMHRpOXk2RTRvZ05hSmxn0gH_AUFVX3lxTFBJLVEtN2VONERlanBtV2d2WXNYT2NZTU9MLVFoQ2JsRVpTa1JCS0FXcWIwZ3puTWVINEt6QnlIRk5nWlotSE5fQjJkU2pYU0J0YUYxcG1pV2dydC1PVWRPc3prdWp0QkFfTlNGY2ZIVGstN0ZOX19FRGNmN0FPSDREV185ZnNGQkU3dTU5b1hIVmxHamo2NVJ6eDQwdWVSV3hlRXJiRTYzaktrMzBJS3FJenBhQVEtUUZoSkF2Vk5BampRd0p5RDg2eGhMNVBRMVBVV0lZRU1keXdHQW1wZXpXZm9NUmpWQU9tZk9VSE1RQjZvc2tjclpIdVRqN0N6bw?oc=5",
+      "fecha": "2026-10-15T11:54:06.000Z",
+      "resumen_corto": "La inteligencia artificial ha detectado este verano 1.036 columnas de humo en Collserola y ha confirmado 150 fuegos La Vanguardia",
+      "resumen_largo": "La inteligencia artificial ha detectado este verano 1.036 columnas de humo en Collserola y ha confirmado 150 fuegos La Vanguardia",
+      "texto_original": "La inteligencia artificial ha detectado este verano 1.036 columnas de humo en Collserola y ha confirmado 150 fuegos La Vanguardia",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-15T07:08:44.126Z",
-        "index": 0,
+        "processed_at": "2026-10-15T13:13:26.828Z",
+        "index": 5,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -860,11 +1406,80 @@
         "categoria": "inteligencia_artificial",
         "categorias_secundarias": [],
         "category_scores": {
-          "inteligencia_artificial": 4
+          "inteligencia_artificial": 3
+        },
+        "entidades": [],
+        "cifras_detectadas": [],
+        "content_type": "report",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 83,
+        "relevancia": 58,
+        "confiabilidad_fuente": 63,
+        "readability": {
+          "words": 65,
+          "sentences": 6,
+          "average_words_per_sentence": 10.83
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 68
+    },
+    {
+      "id": "5c3a749c46aa8453",
+      "fuente_id": "genbeta_google",
+      "fuente_nombre": "Genbeta",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "genbeta",
+      "nivel_fuente": "medio_especializado",
+      "categoria": "software_internet",
+      "idioma_original": "es",
+      "prioridad_fuente": 4,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Su escuela bloqueó ChatGPT. Ahora esta estudiante de secundaria de 17 años dirige una startup de inteligencia artificial con 1.000 usuarios",
+      "titulo_original": "Su escuela bloqueó ChatGPT. Ahora esta estudiante de secundaria de 17 años dirige una startup de inteligencia artificial con 1.000 usuarios - Genbeta",
+      "enlace": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQQjNQRUc3VGpscWlXNl9Ub2NnZ1lTbVpaZGEwLVF5QUVGcEdwUmlma2pxSy0tSFZCdEJMNVNnRS03Szg2bTh3QzNDcmRIV2xJdnViQzdOSUUxQ2FfVG01d0wyWjJCZ0pNRU45eUJXTjZzY3JQejdZRUVUSG52elMtOTZPN25IOHNhSW4zcVNLTl9FM0xVdnNHUE9ILXVhWlVrbkpvbE5VemRGcmtNd3lJOU1qTjNCUHRYVlhVNjk1R0NZUXRSMnhOb29GVDdOa1Y0TThrai1VenJic05YT1JZU0Y2cVlWc08zQ2VSLUQxVXFfTVdzNzBEelRzMHl3UdIBgwJBVV95cUxQbFZxdFJaemR4MEpKcUtaVks2VGM0eTRCZWpfWXE1eGZKOHhuaG81eDJKY3QtdjlhZjRhZ0JwX21tUlhCM09ralJ4SWxEU2FtVzFBWGoyTVFEOHB4WXBZeVltM3l6OTRJTlY0czVqaUxleXJuQkVTNzUxSmNFZWpPei1ZS1ljcDcybTI4VHB0SF8xc3Z3U1dWUHJkOHZDcG03VzVLUF9WTW5XNG1iMk0zZjJVN21CZmhKeTJ1MkhIWUlZMnlHRE1zMDNNUXVHd1ExTU83d3ViR0JjWUpKM0p1OTJlMFU4czZfWXUwQWNuZGdtLTBwWklrTlRvTzlRVGFPQmNV?oc=5",
+      "fecha": "2026-10-15T09:30:25.000Z",
+      "resumen_corto": "Ahora esta estudiante de secundaria de 17 años dirige una startup de inteligencia artificial con 1.000 usuarios Genbeta",
+      "resumen_largo": "Su escuela bloqueó ChatGPT. Ahora esta estudiante de secundaria de 17 años dirige una startup de inteligencia artificial con 1.000 usuarios Genbeta",
+      "texto_original": "Su escuela bloqueó ChatGPT. Ahora esta estudiante de secundaria de 17 años dirige una startup de inteligencia artificial con 1.000 usuarios Genbeta",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-10-15T13:13:26.839Z",
+        "index": 16,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "inteligencia_artificial",
+        "categorias_secundarias": [
+          "moviles"
+        ],
+        "category_scores": {
+          "inteligencia_artificial": 5,
+          "moviles": 1
         },
         "entidades": [
-          "OpenAI",
-          "ChatGPT"
+          "ChatGPT",
+          "Genbeta"
         ],
         "cifras_detectadas": [],
         "content_type": "news",
@@ -879,13 +1494,13 @@
           "signals": [],
           "url_count": 0
         },
-        "calidad": 80,
+        "calidad": 82,
         "relevancia": 67,
-        "confiabilidad_fuente": 53,
+        "confiabilidad_fuente": 50,
         "readability": {
-          "words": 75,
-          "sentences": 1,
-          "average_words_per_sentence": 75
+          "words": 81,
+          "sentences": 10,
+          "average_words_per_sentence": 8.1
         },
         "duplicate": {
           "detected": false,
@@ -894,7 +1509,7 @@
           "similar_to": null
         }
       },
-      "final_score": 68.05
+      "final_score": 68
     },
     {
       "id": "1f95d6d3a837c869",
@@ -918,8 +1533,8 @@
       "texto_original": "OpenAI dice que sus modelos interactuaron con sitios web del gobierno de EE. UU. en una nueva divulgación de comportamiento indebido del modelo Genbeta",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-15T07:08:44.141Z",
-        "index": 30,
+        "processed_at": "2026-10-15T13:13:26.851Z",
+        "index": 35,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -974,149 +1589,7 @@
       "final_score": 68
     },
     {
-      "id": "5c2d0b1cc2df68e2",
-      "fuente_id": "bbc_mundo",
-      "fuente_nombre": "BBC Mundo",
-      "tipo": "rss_web",
-      "subtipo": "medio_generalista",
-      "grupo_fuente": "bbc",
-      "nivel_fuente": "medio_profesional",
-      "categoria": "actualidad",
-      "idioma_original": "es",
-      "prioridad_fuente": 5,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "El enfado de Ucrania con Starlink, la compañía de Elon Musk, por las restricciones a la velocidad de internet que afectan a su ejército en el campo de batalla",
-      "titulo_original": "El enfado de Ucrania con Starlink, la compañía de Elon Musk, por las restricciones a la velocidad de internet que afectan a su ejército en el campo de batalla",
-      "enlace": "https://www.bbc.com/mundo/articles/cq62yn458211o?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-10-14T19:38:54.000Z",
-      "resumen_corto": "Starlink, el sistema de internet de Elon Musk, permite a Kyiv proteger el espacio aéreo ucraniano y guiar eficazmente los drones hacia objetivos rusos.",
-      "resumen_largo": "Starlink, el sistema de internet de Elon Musk, permite a Kyiv proteger el espacio aéreo ucraniano y guiar eficazmente los drones hacia objetivos rusos. Pero su velocidad se ha reducido y eso tiene consecuencias.",
-      "texto_original": "Starlink, el sistema de internet de Elon Musk, permite a Kyiv proteger el espacio aéreo ucraniano y guiar eficazmente los drones hacia objetivos rusos. Pero su velocidad se ha reducido y eso tiene consecuencias.",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-10-15T07:08:44.136Z",
-        "index": 13,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "es",
-        "categoria": "militar",
-        "categorias_secundarias": [
-          "inteligencia_artificial",
-          "software_internet"
-        ],
-        "category_scores": {
-          "militar": 3,
-          "inteligencia_artificial": 1,
-          "software_internet": 1
-        },
-        "entidades": [],
-        "cifras_detectadas": [],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 79,
-        "relevancia": 57,
-        "confiabilidad_fuente": 70,
-        "readability": {
-          "words": 100,
-          "sentences": 5,
-          "average_words_per_sentence": 20
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 67.95
-    },
-    {
-      "id": "bc66e2b544408dcd",
-      "fuente_id": "byd_google",
-      "fuente_nombre": "BYD",
-      "tipo": "rss_web",
-      "subtipo": "google_news",
-      "grupo_fuente": "byd",
-      "nivel_fuente": "fuente_oficial",
-      "categoria": "vehiculos_energia",
-      "idioma_original": "en",
-      "prioridad_fuente": 5,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "Senior Legal Counsel",
-      "titulo_original": "Senior Legal Counsel - BYD",
-      "enlace": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1pYzRaOTVLNzJCM0t0eHNxY3FEY2lvMWNUWnNuazFMdFNPZVFraEF4NGVaVm9YazdjdlZ1MDRCWS0yZmk2Zm94eDF0NjAtU2lFY190RmZXeFZIX3JtZUYyNDE1ODJOV1NIZmZmMWRR?oc=5",
-      "fecha": "2026-10-12T10:26:26.000Z",
-      "resumen_corto": "Senior Legal Counsel",
-      "resumen_largo": "Senior Legal Counsel",
-      "texto_original": "Senior Legal Counsel BYD",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-10-15T07:08:44.143Z",
-        "index": 37,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "en",
-        "idioma_original": "en",
-        "categoria": "vehiculos_energia",
-        "categorias_secundarias": [
-          "baterias_energia"
-        ],
-        "category_scores": {
-          "vehiculos_energia": 2,
-          "baterias_energia": 1
-        },
-        "entidades": [
-          "BYD"
-        ],
-        "cifras_detectadas": [],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 76,
-        "relevancia": 55,
-        "confiabilidad_fuente": 75,
-        "readability": {
-          "words": 17,
-          "sentences": 1,
-          "average_words_per_sentence": 17
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 67.35
-    },
-    {
-      "id": "9768a6cfbf03922e",
+      "id": "d376e50cc3c84692",
       "fuente_id": "wccftech_google",
       "fuente_nombre": "Wccftech",
       "tipo": "rss_web",
@@ -1128,44 +1601,38 @@
       "prioridad_fuente": 4,
       "analizar": true,
       "resumir": true,
-      "titulo": "Newegg acuchilla Intel Arc B580 a $ 329 y lanza un AIO gratuito de 360 mm, socavando efectivamente su MSRP de lanzamiento de $ 249",
-      "titulo_original": "Newegg Slashes Intel Arc B580 To $329 And Throws In A Free 360mm AIO, Effectively Undercutting Its $249 Launch MSRP - Wccftech",
-      "enlace": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQM0lyQTdwWmFab3BNSHU3NUZkMktXTTRjcVZnaU93RFRmZGRCWGZKZGxvU2hRVl9INHloUllfZWYwZlBITmk5UDVBNW5sYkFHa24tMUs0eFpKcVh1NXc2c2hBLVdDbGExNjZaOUV6cUxkVlRoNk5Zdnp4Q09UckRJdUg4ONIBiAFBVV95cUxPOGk2QnpscUdwUnJjUTJZbFZQLVFMaGpxVjhDYy14REt4RDhyRzRvZ0UxRG1UV3hTSk5HVVZMY2tpM1k3VzBvMjJBTVNHQXNWTGtHTllsU21SMU04MFNZUlQ5VmJRdlJvUFNrVF80Zy0wYmlMYlRNcGdiNVlmVDJBbDJidnktazhh?oc=5",
-      "fecha": "2026-10-14T13:10:51.000Z",
-      "resumen_corto": "Newegg acuchilla Intel Arc B580 a $ 329 y lanza un AIO gratuito de 360 mm, socavando efectivamente su lanzamiento de $ 249 MSRP Wccftech",
-      "resumen_largo": "Newegg acuchilla Intel Arc B580 a $ 329 y lanza un AIO gratuito de 360 mm, socavando efectivamente su lanzamiento de $ 249 MSRP Wccftech",
-      "texto_original": "Newegg Slashes Intel Arc B580 To $329 And Throws In A Free 360mm AIO, Effectively Undercutting Its $249 Launch MSRP Wccftech",
+      "titulo": "HP guarda un PC completo dentro de un teclado, con Ryzen AI Pro 400 y soporte para hasta 64 GB de RAM",
+      "titulo_original": "HP Crams A Full PC Inside A Keyboard, Featuring Ryzen AI Pro 400 And Support For Up To 64 GB RAM - Wccftech",
+      "enlace": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQYnJpS1RVSEQ2RDZEYUgyTjRMbWpfQ1JZN2FIOEg5b1ZIMjBhNWI2bXFoeEN6SHdkMkNvbDVUajVjaHNnZ1JOMlpKV21OV1JBWDh5S2N0d3FwNm0yQWtTeDJYbGxUaTh2VnNYNm43TUExYUQzWTBMUHBIQTZhTkx1SW1DYTZ3bXFCXzNWVHBB0gGTAUFVX3lxTFBLQVplNm5EMUQ5c3dQNU1QQnI1Wk9ZOW5LRFQyRFlzUmxaaV9jbVFlZ3VIUHZUdUVxTTJQcGR0SnMtR21kTXpOdEkyNW9wT2c1RFQwSVJQQmp3UzkxOVVpYnRKU2EwNUJsYlRnVm1LVUlrUGwzRE95TmhWRmNKTlN2RHlId3Y0dE1iMVEzSzluUjdYdw?oc=5",
+      "fecha": "2026-10-13T19:25:44.000Z",
+      "resumen_corto": "HP guarda un PC completo dentro de un teclado, con Ryzen AI Pro 400 y soporte para hasta 64 GB de RAM Wccftech",
+      "resumen_largo": "HP guarda un PC completo dentro de un teclado, con Ryzen AI Pro 400 y soporte para hasta 64 GB de RAM Wccftech",
+      "texto_original": "HP Crams A Full PC Inside A Keyboard, Featuring Ryzen AI Pro 400 And Support For Up To 64 GB RAM Wccftech",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-15T07:08:44.140Z",
-        "index": 26,
+        "processed_at": "2026-10-15T13:13:26.852Z",
+        "index": 39,
         "resumen": {
           "generado": true,
           "origen": "translated"
         },
-        "idioma_detectado": "en",
+        "idioma_detectado": "es",
         "idioma_original": "en",
-        "categoria": "inteligencia_artificial",
+        "categoria": "hardware",
         "categorias_secundarias": [
-          "semiconductores",
+          "inteligencia_artificial",
           "tecnologia"
         ],
         "category_scores": {
+          "hardware": 5,
           "inteligencia_artificial": 1,
-          "semiconductores": 1,
           "tecnologia": 1
         },
         "entidades": [
-          "Intel",
           "Wccftech"
         ],
         "cifras_detectadas": [
-          "$ 329",
-          "360 mm",
-          "$ 249",
-          "$329",
-          "360mm",
-          "$249"
+          "64 GB"
         ],
         "content_type": "news",
         "clickbait": {
@@ -1175,17 +1642,17 @@
         },
         "spam": {
           "detected": false,
-          "score": 25,
+          "score": 0,
           "signals": [],
           "url_count": 0
         },
         "calidad": 87,
-        "relevancia": 60,
+        "relevancia": 62,
         "confiabilidad_fuente": 50,
         "readability": {
-          "words": 83,
+          "words": 64,
           "sentences": 1,
-          "average_words_per_sentence": 83
+          "average_words_per_sentence": 64
         },
         "duplicate": {
           "detected": false,
@@ -1194,7 +1661,7 @@
           "similar_to": null
         }
       },
-      "final_score": 66.95
+      "final_score": 67.75
     },
     {
       "id": "1311743f4ef0f466",
@@ -1218,8 +1685,8 @@
       "texto_original": "Epic Games’ New “Vibe Coded” Launcher Is Now in Preview, Claims 1.8x Faster Startup Than Steam and Adds Linux Support Wccftech",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-15T07:08:44.137Z",
-        "index": 19,
+        "processed_at": "2026-10-15T13:13:26.849Z",
+        "index": 31,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -1293,8 +1760,8 @@
       "texto_original": "Huawei says 2027 Kirin chips are ready and show impressive results Huawei Central",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-15T07:08:44.142Z",
-        "index": 35,
+        "processed_at": "2026-10-15T13:13:26.853Z",
+        "index": 41,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -1345,7 +1812,7 @@
       "final_score": 65.7
     },
     {
-      "id": "31601b1e4f8f788c",
+      "id": "940e79fe7da3a549",
       "fuente_id": "xataka_google",
       "fuente_nombre": "Xataka",
       "tipo": "rss_web",
@@ -1357,17 +1824,17 @@
       "prioridad_fuente": 4,
       "analizar": true,
       "resumir": true,
-      "titulo": "Google quiere que las apps que creas con IA vivan en la Play Store, aunque solo las uses tú",
-      "titulo_original": "Google quiere que las apps que creas con IA vivan en la Play Store, aunque solo las uses tú - Xataka",
-      "enlace": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQbUd4SkZTX0tRalFrVFFjVEUwd2RHM1VIZmpiZUFLZXpuQWpUY05QekViSWZNRlV5bTlMZVJYckQ3WWp0SUNlbUttMmpIWG9Hb2Y1OElqZ1FjR1hhVVBhaUpwam5QczRrU1M5UzVyRjV2OGVIcmVCeU5sLXVEZDRxMGRzSU1ld0JXTXRnUDYwVzRTbG1nb2FVbnU1NUROR0NhdVlz0gGoAUFVX3lxTE1UeV92THU0ZEx6UUVqX1cycjZXWUtEaF92b0dkSVpRMzZaaU1DSlhwNTFSM0V1UGVpSXlsWk5TLWZVWG1vVUwzZXJ2SXk5R1JnLWlUczBPeU9DNkZKbXFkblExU3BmdjUtbllsTEtoNmdZVFgtaVRtcElUQmFFN2FJU0F5RVZ1MzZfYWFWYVdkUExDeEtpbkN2bFZFbDBGTjdLb1FXY2pJaQ?oc=5",
-      "fecha": "2026-10-14T14:16:27.000Z",
-      "resumen_corto": "Google quiere que las apps que creas con IA vivan en la Play Store, aunque solo las uses tú Xataka",
-      "resumen_largo": "Google quiere que las apps que creas con IA vivan en la Play Store, aunque solo las uses tú Xataka",
-      "texto_original": "Google quiere que las apps que creas con IA vivan en la Play Store, aunque solo las uses tú Xataka",
+      "titulo": "Los creadores de 'Fortnite' dicen que \"programar es difícil\", así que han pedido a la IA que les rehaga la Epic Store",
+      "titulo_original": "Los creadores de 'Fortnite' dicen que \"programar es difícil\", así que han pedido a la IA que les rehaga la Epic Store - Xataka",
+      "enlace": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQSVQwbkxaenNsT0N6RzFLcFRjQl81UkFsNkkyMU5Xb1QzQ0ZKNUFhNkoyNGgteE8yNUxJT3BVLTVLRmNValVzS3ZLVTAxbkVNUTRsSF9zcExOWDgySWNZV21ob055eVJISW8xTWxXZzFwUk1hVmxuYUp2eHBJWWpoNlRyNWZ0dkhqY2FmOVJTV0RpU1EtanVoM01yTV8ybE1kTDgxeEdkMEhkQWZlNnBST3N3Nldwa3RFamNfaFVhdDhNWTF6M183NXJvNNIB0AFBVV95cUxQRzBmQVd0RURmb3RpaTctOFdwNTlJNmkzY3VncmJjX2hsQW5ocXFFSUZBbVVqUFlIUVZMQVg0b2hPQUtVdllHbDFubjNBcTlqT3pzOFpXVmY1MkNaRmxEQksyUFhvWHNkZkkwTGg4U2U4Qk9SaFFIVWNWd1dVSmtFOXNVZEgybXJFRDlzYnFRUzMwanlHTFRCaU5adnBpTTVXNzktaTcxX2RMaE5BQ05sbnVHWEJUZXpsVTFTaENfZWNNakY3MTFlbnd5bVc4ZHhR?oc=5",
+      "fecha": "2026-10-15T11:00:25.000Z",
+      "resumen_corto": "Los creadores de 'Fortnite' dicen que \"programar es difícil\", así que han pedido a la IA que les rehaga la Epic Store Xataka",
+      "resumen_largo": "Los creadores de 'Fortnite' dicen que \"programar es difícil\", así que han pedido a la IA que les rehaga la Epic Store Xataka",
+      "texto_original": "Los creadores de 'Fortnite' dicen que \"programar es difícil\", así que han pedido a la IA que les rehaga la Epic Store Xataka",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-15T07:08:44.139Z",
-        "index": 22,
+        "processed_at": "2026-10-15T13:13:26.834Z",
+        "index": 10,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -1376,14 +1843,13 @@
         "idioma_original": "es",
         "categoria": "inteligencia_artificial",
         "categorias_secundarias": [
-          "software_internet"
+          "hardware"
         ],
         "category_scores": {
           "inteligencia_artificial": 1,
-          "software_internet": 1
+          "hardware": 1
         },
         "entidades": [
-          "Google",
           "Xataka"
         ],
         "cifras_detectadas": [],
@@ -1400,7 +1866,75 @@
           "url_count": 0
         },
         "calidad": 82,
-        "relevancia": 60,
+        "relevancia": 55,
+        "confiabilidad_fuente": 50,
+        "readability": {
+          "words": 84,
+          "sentences": 1,
+          "average_words_per_sentence": 84
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 63.2
+    },
+    {
+      "id": "9af628354b2a21fa",
+      "fuente_id": "xataka_google",
+      "fuente_nombre": "Xataka",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "xataka",
+      "nivel_fuente": "medio_especializado",
+      "categoria": "tecnologia",
+      "idioma_original": "es",
+      "prioridad_fuente": 4,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "La Ley de Propiedad Horizontal es clara y los expertos coinciden: \"si tu vecino quiere poner un cargador, puede hacer obra en tu plaza\"",
+      "titulo_original": "La Ley de Propiedad Horizontal es clara y los expertos coinciden: \"si tu vecino quiere poner un cargador, puede hacer obra en tu plaza\" - Xataka",
+      "enlace": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPRlJETjZFYl9MelhrWHkwRkF3TV9yTzduNTQ4ZkY4aEMtd1BYTGNyV1ZEemZ0YnJJai1iOWtnUFBlYW1jMjVwWjhHb2J1N2V6WU9DOWdkZlR0cE9RRDFlZFBfc053Q3h2Z29EVmhLeGJPd2FGcGxCR2ZpZ2tyZ0JUVWxrckpYR0wtS3NVSHU2M0hwYXhBOEF6QWFZVVpZN1F5enFhbGltcHYtemdMd29sRE5lVm5zYmdWb1dVVkp2cDMyNi1VNnJsZmVWQUhrOHBhX3EtcGtfVdIB3AFBVV95cUxQdkxCLWVyZTlfZWRsWHRHMzlLeEhSWXcyeDNTZ25vbHQ0TUpSYXVSTHpfeVliT19DenE5N3Y4RDhCcG5lS2tkVWdNZUM0WDhMT25fajUyTnVyaEdadWtuRWJSaURfMENMenJZNWtOaHZ3endpR3FHOFZlRGpoYVZZZ1RfLUl5Q0xjSWp0dEY0R01jSmpCeG9MUVRQVEFRVkNwQUp1bnA1OFlpaTVJZGxxZVJjckU1WWMwemdOVkdyZ19zZVBPVXU1ejBscUxBbTA5QnNxeGl0VjhqaGpK?oc=5",
+      "fecha": "2026-10-15T10:00:28.000Z",
+      "resumen_corto": "La Ley de Propiedad Horizontal es clara y los expertos coinciden: \"si tu vecino quiere poner un cargador, puede hacer obra en tu plaza\" Xataka",
+      "resumen_largo": "La Ley de Propiedad Horizontal es clara y los expertos coinciden: \"si tu vecino quiere poner un cargador, puede hacer obra en tu plaza\" Xataka",
+      "texto_original": "La Ley de Propiedad Horizontal es clara y los expertos coinciden: \"si tu vecino quiere poner un cargador, puede hacer obra en tu plaza\" Xataka",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-10-15T13:13:26.835Z",
+        "index": 12,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "vehiculos_energia",
+        "categorias_secundarias": [],
+        "category_scores": {
+          "vehiculos_energia": 1
+        },
+        "entidades": [
+          "Xataka"
+        ],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 82,
+        "relevancia": 55,
         "confiabilidad_fuente": 50,
         "readability": {
           "words": 79,
@@ -1414,10 +1948,10 @@
           "similar_to": null
         }
       },
-      "final_score": 65.2
+      "final_score": 63.2
     },
     {
-      "id": "513d74ee4d6e934e",
+      "id": "86a6ef5addfceb32",
       "fuente_id": "xataka_google",
       "fuente_nombre": "Xataka",
       "tipo": "rss_web",
@@ -1429,17 +1963,156 @@
       "prioridad_fuente": 4,
       "analizar": true,
       "resumir": true,
-      "titulo": "Cómo funciona el método de trabajo 3-2-2 que se utiliza en algunos países europeos, como Islandia",
-      "titulo_original": "Cómo funciona el método de trabajo 3-2-2 que se utiliza en algunos países europeos, como Islandia - Xataka",
-      "enlace": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPbC0zSDMxV3htcWh5b1pxa2FteEVPb0xFRlBIcEZ1Uzd1SXNFVU0tRUVyYkNQWU5za2JCRGQ4ak9IOFJ5dnIxZGZFbmsycFJ3dW9EVWZmcDZLaEkxUTR2V0tlNHhTNjJYYjhQSWNOZ1lnTVBwUGtDd2c0X1VQY0VCQ3BYU3AyMnhzMkFFaEhESERrMUlEVFNKV20weUpfUFlvQ1BkdzJFbUJGdTNIdDZlNTItVVJkamNfd2JsejVxZmd4X1BvT2YtMnN30gHPAUFVX3lxTE1JYzViSFMxMVhiNUQwQjh3SVNFckxmU0ZkVTliSlpKckhZTDBOeV9ObVQzOENad3l2NG1pbUhENnpRR0NoREhScUdaWFBVd1pWWE15Y3FXNGt3UGxRV1hia1psV2xYVGkwc2o0OVV3dGpMY1VONDQ5VEx2YVpaUlB3cEZQd3dMVmJzUXpfTEtVUFh3RWhmWmtHdUNrOFZELU5zWGRFWFpFT2p2RXhrNXFMX25MMnZoY3VmUU93SzlyeFZaM3Qyc21CWGREQXV6Yw?oc=5",
-      "fecha": "2026-10-14T18:00:27.000Z",
-      "resumen_corto": "Cómo funciona el método de trabajo 3-2-2 que se utiliza en algunos países europeos, como Islandia Xataka",
-      "resumen_largo": "Cómo funciona el método de trabajo 3-2-2 que se utiliza en algunos países europeos, como Islandia Xataka",
-      "texto_original": "Cómo funciona el método de trabajo 3-2-2 que se utiliza en algunos países europeos, como Islandia Xataka",
+      "titulo": "Ikea tiene la solución para usar cómodamente el portátil en el sofá y hasta teletrabajar de pie: es ideal para pisos pequeños",
+      "titulo_original": "Ikea tiene la solución para usar cómodamente el portátil en el sofá y hasta teletrabajar de pie: es ideal para pisos pequeños - Xataka",
+      "enlace": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQaWJZR1NKcDJlX2VCVDAtUHlKSmVMbFlKZW9Bb3pFNndlektFMk5na3pSTmxsa3BoRW1qcEUzTjhXSElDYTVZLWg5eFUyZEF3ZXJKTlJOV1pPbFdxY1p3bGdUeGozQ01iZVRZbWp6VkdrdGpSTVNDcG9leFl4emx3OFAzRDY5TUszNk9XNFNEQ1F4bG9Ea2owbVUwLTNsbmV4QTVIT2tBOUhPN2tlVmlldUlhVFhBd2E3SHQwTk5QTGdqaHRYclVtbFRiSVRrVEs2WldnQ9IB2gFBVV95cUxPekt5aDBlZzJpLUh3YS1PTF9WZjFHQ3JyN0lwRTk3cWgwZDhhZ0JvOEFLRHFmQzV2YUtVZzF0aXd4bUFBVkRxWnNvVEdBOElmZ25TaTU0eC0temVndGN0UTRpVDVMVHFFZk1YUlhpcGZibllxczktbkpmbm9EaGE3VWh2ZVRhMnU3V3FpdTJKbUhDUUFKVXZsWUdSS3BmTVhuOHRlb1JKVTNtNUpVLWYxQnZNS202RWRXb1MyNWlveHdJTzZVLXVXNjU4aU0yNlVVdHJDR0JSQktFZw?oc=5",
+      "fecha": "2026-10-15T08:12:07.000Z",
+      "resumen_corto": "Ikea tiene la solución para usar cómodamente el portátil en el sofá y hasta teletrabajar de pie: es ideal para pisos pequeños Xataka",
+      "resumen_largo": "Ikea tiene la solución para usar cómodamente el portátil en el sofá y hasta teletrabajar de pie: es ideal para pisos pequeños Xataka",
+      "texto_original": "Ikea tiene la solución para usar cómodamente el portátil en el sofá y hasta teletrabajar de pie: es ideal para pisos pequeños Xataka",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-15T07:08:44.136Z",
-        "index": 16,
+        "processed_at": "2026-10-15T13:13:26.842Z",
+        "index": 20,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "hardware",
+        "categorias_secundarias": [],
+        "category_scores": {
+          "hardware": 2
+        },
+        "entidades": [
+          "Xataka"
+        ],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 82,
+        "relevancia": 55,
+        "confiabilidad_fuente": 50,
+        "readability": {
+          "words": 79,
+          "sentences": 1,
+          "average_words_per_sentence": 79
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 63.2
+    },
+    {
+      "id": "cf880991ed8ede67",
+      "fuente_id": "genbeta_google",
+      "fuente_nombre": "Genbeta",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "genbeta",
+      "nivel_fuente": "medio_especializado",
+      "categoria": "software_internet",
+      "idioma_original": "es",
+      "prioridad_fuente": 4,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Sam Altman rechaza que la IA sea una nueva Revolución Industrial: “Debe dar más poder a las personas”",
+      "titulo_original": "Sam Altman rechaza que la IA sea una nueva Revolución Industrial: “Debe dar más poder a las personas” - Genbeta",
+      "enlace": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOcTBpVGtqNVNmZmlMUE9ub0NYdVVUakZUdzRtSF9xek9GLXVERzZ3Y21VWTBkVVh3ZnpOWE1wblhKenp4WTZ6dGsxWkp5aHVXWUZEWEcyQ3hDNHFzZ2ZhdkRiS09fcU1Pc3o1Z3FLdUJCSXZMTmd3RVZodlR0aWg5U3pCWjF0bmxia0VudlVnUTZhNFZJNm8xcUFscWZyOE14NVZ5b0UwZ1N4NjgxMzRCb0NOdVdnU2g2V0x1dWpKR3I1UWgxNkRsb1o5VdIB0AFBVV95cUxPc3ByZzdpUnM5SzJvSjRpVFZXZW5VN2s0QWVzcGNfbExDTk1rdlpXTUdGWUlXX3FIYWJUMHdxSDROY24tc19TenlGMWFsOHVySGN6XzZxMHV6ZTlMWGp1SjZLMzR6cUxQTlpTQUtiUTJHMlY0WEVyckIyOWVfazJORzFXT3lURzRyWWtWMlU5eW1rX1J2VEFwNS0xLWFESEdPOS1qSHdkTUxsQkllTVAySVY5U2FTUDBwcFlkZHF4UFNQcjlnUVpmODFyTXVHRnVp?oc=5",
+      "fecha": "2026-10-15T07:00:28.000Z",
+      "resumen_corto": "Sam Altman rechaza que la IA sea una nueva Revolución Industrial: “Debe dar más poder a las personas” Genbeta",
+      "resumen_largo": "Sam Altman rechaza que la IA sea una nueva Revolución Industrial: “Debe dar más poder a las personas” Genbeta",
+      "texto_original": "Sam Altman rechaza que la IA sea una nueva Revolución Industrial: “Debe dar más poder a las personas” Genbeta",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-10-15T13:13:26.845Z",
+        "index": 24,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "inteligencia_artificial",
+        "categorias_secundarias": [
+          "vehiculos_energia"
+        ],
+        "category_scores": {
+          "inteligencia_artificial": 1,
+          "vehiculos_energia": 1
+        },
+        "entidades": [
+          "Genbeta"
+        ],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 82,
+        "relevancia": 55,
+        "confiabilidad_fuente": 50,
+        "readability": {
+          "words": 79,
+          "sentences": 1,
+          "average_words_per_sentence": 79
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 63.2
+    },
+    {
+      "id": "984e335bb60a0033",
+      "fuente_id": "xataka_google",
+      "fuente_nombre": "Xataka",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "xataka",
+      "nivel_fuente": "medio_especializado",
+      "categoria": "tecnologia",
+      "idioma_original": "es",
+      "prioridad_fuente": 4,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Una IA permite a la policía localizar tu casa con una sola foto del interior",
+      "titulo_original": "Una IA permite a la policía localizar tu casa con una sola foto del interior - Xataka",
+      "enlace": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQQ0RmNEpoaWg4ekVIN2RzSE02Sm9ZbHpvOVJSWUtkMGg1Y0JWS0sxM0JYcWlJLTYxSzlyQXpMUEZfcGhRRHM4dTVVYTh2cDFCNU9RUTNSYWUtdXhrT1JJdE5DRnhXMElYaFVSaTg2TF92anZHOFBVcFpjZDVqQ2EyUWFLNVVfbE9Bcms1NEhsaVh6dkZxclHSAZsBQVVfeXFMTVVDbnNxVWxJajNXLVpOZE1yM05JN2NqZ2V2b3Z5SVViUVdCelpVUExDcWRIbkFRZFhZV1Y0RzFZdmktMlFhSGMteU5NUWN2NFpyVllmTXRpX192UHBhOGpOaS16VWlVRmlSTEZMLWZqVjBpdFdadWxMaHdWSTFaTmNKYUxpLThYajAxbWNRSXlxcXFkSTNxUmVvWWM?oc=5",
+      "fecha": "2026-10-15T05:01:18.000Z",
+      "resumen_corto": "Una IA permite a la policía localizar tu casa con una sola foto del interior Xataka",
+      "resumen_largo": "Una IA permite a la policía localizar tu casa con una sola foto del interior Xataka",
+      "texto_original": "Una IA permite a la policía localizar tu casa con una sola foto del interior Xataka",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-10-15T13:13:26.845Z",
+        "index": 25,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -1449,7 +2122,7 @@
         "categoria": "inteligencia_artificial",
         "categorias_secundarias": [],
         "category_scores": {
-          "inteligencia_artificial": 2
+          "inteligencia_artificial": 1
         },
         "entidades": [
           "Xataka"
@@ -1485,286 +2158,6 @@
       "final_score": 63.2
     },
     {
-      "id": "068365c10b12b649",
-      "fuente_id": "genbeta_google",
-      "fuente_nombre": "Genbeta",
-      "tipo": "rss_web",
-      "subtipo": "google_news",
-      "grupo_fuente": "genbeta",
-      "nivel_fuente": "medio_especializado",
-      "categoria": "software_internet",
-      "idioma_original": "es",
-      "prioridad_fuente": 4,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "Bill Gates dice que la autorregulación de las empresas de IA no es suficiente y que los gobiernos deberían estar involucrados en la supervisión",
-      "titulo_original": "Bill Gates dice que la autorregulación de las empresas de IA no es suficiente y que los gobiernos deberían estar involucrados en la supervisión - Genbeta",
-      "enlace": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQOGNIZExTRXdfd2ptS2xYaWxEMF8yU2FXWFE2LXRIWTdfNlRpUHZkRTRBMnpjOUllQndCV1RBVkZhbWtIZ25tdzF5WkZXRlo2WUx5OWMwMWljMmdZZXVpek5ORW9uZGE0U2RiUHZhdllTUXBweW9aUzhEdHI5SGM0Q3lpR0NhQm85U256VFZSUFMyaV9CUk5zMkU2TUZFZVczYS1haUZFd1A3ZHlqV1dTbDRSckV0WlU4WC1rYWk4UUFWbWVqOGEyXzdJVDE2VGw4T05JX2ZiMVZ5dVcyeEJsT2pXRTh6VlIyTmp6dm9HbXdPRlJ4QVHSAfsBQVVfeXFMTXdVUjNBaTN3bHZxUWIyS0U5bGs0eGstRjBvWGR2NUlCUi04bDRzVHBqaUF2Vkd6V1k1WjgySEIwQnpzSnhiYUhzdERUMmdVRDBsZUJpVEp2T3lWYmZUTG4xQzE5SURxV21ZdV9PeFJUV3F1WkZXSXh0dGw4eDZyWEtKY2Q2Zl9xcUdJQVcweTJSU3lJNU5BUFVqZDR1NG1GN292OFZ2ODNmWWs4aGhRNnVSZXM3cnROR2g2YVVsMDNUelRBTGtjemZJN1hQbTNDY0ZmMlU3aW95RXgwYWZyLV93WHIyYmdKVFFmQTA5WXU4dGJ1ZUxXeUo3Tjg?oc=5",
-      "fecha": "2026-10-14T14:00:28.000Z",
-      "resumen_corto": "Bill Gates dice que la autorregulación de las empresas de IA no es suficiente y que los gobiernos deberían estar involucrados en la supervisión Genbeta",
-      "resumen_largo": "Bill Gates dice que la autorregulación de las empresas de IA no es suficiente y que los gobiernos deberían estar involucrados en la supervisión Genbeta",
-      "texto_original": "Bill Gates dice que la autorregulación de las empresas de IA no es suficiente y que los gobiernos deberían estar involucrados en la supervisión Genbeta",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-10-15T07:08:44.139Z",
-        "index": 23,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "es",
-        "categoria": "inteligencia_artificial",
-        "categorias_secundarias": [
-          "vehiculos_energia",
-          "actualidad"
-        ],
-        "category_scores": {
-          "inteligencia_artificial": 1,
-          "vehiculos_energia": 1,
-          "actualidad": 1
-        },
-        "entidades": [
-          "Genbeta"
-        ],
-        "cifras_detectadas": [],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 82,
-        "relevancia": 55,
-        "confiabilidad_fuente": 50,
-        "readability": {
-          "words": 79,
-          "sentences": 1,
-          "average_words_per_sentence": 79
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 63.2
-    },
-    {
-      "id": "21f4e340b120e1a9",
-      "fuente_id": "xataka_google",
-      "fuente_nombre": "Xataka",
-      "tipo": "rss_web",
-      "subtipo": "google_news",
-      "grupo_fuente": "xataka",
-      "nivel_fuente": "medio_especializado",
-      "categoria": "tecnologia",
-      "idioma_original": "es",
-      "prioridad_fuente": 4,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "Instinct y Muse prometían acceder a las tiendas y comprar por nosotros. El problema es que las tiendas los están bloqueando",
-      "titulo_original": "Instinct y Muse prometían acceder a las tiendas y comprar por nosotros. El problema es que las tiendas los están bloqueando - Xataka",
-      "enlace": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQckFza0RCdEpjOU5fRGhraUFOcVlaTUt6azBRT0lvT25uQkZGOWJtd0w5RVp3cEl3LW1PaGM2Uk91VzFpVEphZmdSR0NzeV9JRnFhSWEtSjJOcmpzLW9JODdJTE8wR3lwY1hQQVgtM3c5SEwweXpETlpvVXhLa0MzbWw5M1IzaXA2blpPTWNOdXo4LXRVQ1lxZWotVTU4ZlAxQ2ZZdUx3bXQyNk9IM1duaVZvZEYyWlZVUUZRdnJFc1hEamtjaHZobGNtRmR5d9IB0wFBVV95cUxNUXZaRFA1RW9QcnUtbUpZdWxNbGIyQ2FkVHp5N3VPaUtncE0yS3p0ejI5NUNzSTRwT3A2ZkY4WXFiR3Bwb0FoWnJEWmlNV0lzODJ3Y0NJX1FnX1d4WHA5aTN6aE8xVThfeUtuQ2tnNWJqdHdmRnpIWjNHQjNIVS1zTVNzZWIwVDNwUDVIcWdxMjlkQ09LTnRIODg3cDhIVVpJNTRmdmNaeW5Qak5MUllZemlLcE1IcE5PS3RiRTBvQ2pRQmhqbFVLQzcwdWNXWlNkWTdV?oc=5",
-      "fecha": "2026-10-14T13:30:28.000Z",
-      "resumen_corto": "Instinct y Muse prometían acceder a las tiendas y comprar por nosotros.",
-      "resumen_largo": "Instinct y Muse prometían acceder a las tiendas y comprar por nosotros. El problema es que las tiendas los están bloqueando Xataka",
-      "texto_original": "Instinct y Muse prometían acceder a las tiendas y comprar por nosotros. El problema es que las tiendas los están bloqueando Xataka",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-10-15T07:08:44.139Z",
-        "index": 24,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "es",
-        "categoria": "inteligencia_artificial",
-        "categorias_secundarias": [],
-        "category_scores": {
-          "inteligencia_artificial": 1
-        },
-        "entidades": [
-          "Xataka"
-        ],
-        "cifras_detectadas": [],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 82,
-        "relevancia": 55,
-        "confiabilidad_fuente": 50,
-        "readability": {
-          "words": 76,
-          "sentences": 6,
-          "average_words_per_sentence": 12.67
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 63.2
-    },
-    {
-      "id": "07d409c67521077d",
-      "fuente_id": "genbeta_google",
-      "fuente_nombre": "Genbeta",
-      "tipo": "rss_web",
-      "subtipo": "google_news",
-      "grupo_fuente": "genbeta",
-      "nivel_fuente": "medio_especializado",
-      "categoria": "software_internet",
-      "idioma_original": "es",
-      "prioridad_fuente": 4,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "Juan Luis Arsuaga, antropólogo, sobre la IA: “Ojalá esta vez no ocurra, pero no hay precedentes de un cambio de modelo económico que no produzca conflictos”",
-      "titulo_original": "Juan Luis Arsuaga, antropólogo, sobre la IA: “Ojalá esta vez no ocurra, pero no hay precedentes de un cambio de modelo económico que no produzca conflictos” - Genbeta",
-      "enlace": "https://news.google.com/rss/articles/CBMihgJBVV95cUxPcm5jZXFWLTdQYkIxTnE0WktqQ1hlWDk1T0JnX0pjS1ByRFBYenFXMEVseGRYaGpOZGxzQ29GSVQza3RhTUxQOFZWWnpFaUJRSEJaTDdtcUlOeXlXRC1FWHo2QVkwUkpNSG03a0cxbmZQNFdFd0FrXzBqNmEzV3J3MXdPcTRUZ3RiU1JaV0p2MlNUSDRBaml1VFROR2hLc040Y004STVVbnRtRm1BbGpmak96V0Y5UDBBNnYwVU53eEU1WmxGU1FpUkpQUkNxbld0N2lELXNzTHNWbk9aS3hGNzJoUFJydDN6c2VMUjNfakowbjg5WnlYU3pLaUF1R3Z0c1Bma2Rn0gGLAkFVX3lxTFBTS2dlQTFid3NpR01Lbk05UUIxeUVucUo4cmJCUjJQajdSS0RDVDJ2dWhaTVVUUG5uRzk3SnNOUDE1bV9RVzZGTzhrU0JUSzl1SmlqQTJuVGc1NzBlZnlYNzJHWkdIWGJFTFFWTHZZaHRKWG5fOXNoZUlIYnJkRlJyN0RGdnZVeDNraldoRGJSMjhaNlhna29NTE5mdHN4b3dHVlZRekI0NFItdXdTNjVfMk9yWlNPN0dTa2JfRm5xMFBnMXdMRTNJZEM4eEphUVZrUzZvWHRVa05BTUFxN0F6ZFhkbm9kQ1hzSUVlY2x4RnhoZTJzSkhHcXhMZ2hnN0YyUEdLNGF2NzNrdw?oc=5",
-      "fecha": "2026-10-13T09:00:28.000Z",
-      "resumen_corto": "Juan Luis Arsuaga, antropólogo, sobre la IA: “Ojalá esta vez no ocurra, pero no hay precedentes de un cambio de modelo económico que no produzca conflictos” Genbeta",
-      "resumen_largo": "Juan Luis Arsuaga, antropólogo, sobre la IA: “Ojalá esta vez no ocurra, pero no hay precedentes de un cambio de modelo económico que no produzca conflictos” Genbeta",
-      "texto_original": "Juan Luis Arsuaga, antropólogo, sobre la IA: “Ojalá esta vez no ocurra, pero no hay precedentes de un cambio de modelo económico que no produzca conflictos” Genbeta",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-10-15T07:08:44.142Z",
-        "index": 34,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "es",
-        "categoria": "militar",
-        "categorias_secundarias": [
-          "inteligencia_artificial"
-        ],
-        "category_scores": {
-          "militar": 2,
-          "inteligencia_artificial": 1
-        },
-        "entidades": [
-          "Genbeta"
-        ],
-        "cifras_detectadas": [],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 82,
-        "relevancia": 55,
-        "confiabilidad_fuente": 50,
-        "readability": {
-          "words": 94,
-          "sentences": 1,
-          "average_words_per_sentence": 94
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 63.2
-    },
-    {
-      "id": "ff7204068af3b2cd",
-      "fuente_id": "xataka_google",
-      "fuente_nombre": "Xataka",
-      "tipo": "rss_web",
-      "subtipo": "google_news",
-      "grupo_fuente": "xataka",
-      "nivel_fuente": "medio_especializado",
-      "categoria": "tecnologia",
-      "idioma_original": "es",
-      "prioridad_fuente": 4,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "Alguien ha robado 100 millones de dólares en criptomonedas utilizando puertas traseras plantadas de antemano en monederos físicos",
-      "titulo_original": "Alguien ha robado 100 millones de dólares en criptomonedas utilizando puertas traseras plantadas de antemano en monederos físicos - Xataka",
-      "enlace": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNZkxuZ3A2YktzeGhxVFI4QTZUT1hJYzktb3NINzBqT0dpQl9FUVNGVDktcEs2TERKaXZNOVVUeHljb2NMa1pfaDlsZ2dHTXg0M3htR0E0OXFZT0l3VzVfUmpucGxrYzRDbHR2WG1zY0NSMF95S21Uc2tjby1JVWRvalR3dWlLZldIbWJsRGpQcV9fYm92Q1dlQmxUUG5RQmN2MXhqdTNqUkJ1SzhaUDZwWVBteFVucDNnaURhNkpTVHZTZTNJak52dkpCa24xM0pXaklyN3QzSWgteUY5UEc3cl94cHfSAeoBQVVfeXFMTmdoUTVvNHp6UkdLNXZhWGdVaEVTT251elAwSGkxa0diNlRrRDhZQlNMa2E2aE1USTRYX2t0TkdNa1o5OU1STk9yQmpHM0pBRlpKTGJEMWZVczRBRjM2SVQ5MkM2ZmJhMDZ3TUtoM05oaU0zX0RydXlDTmROLTVMNUhzTHdELUVtam5xNE85YzNiUGJSVkxUc09LcE9NbUw4X01zZ2N0cFRwWnQtdTl4cG1sN3VjRVBybEhFeXUzbjRoWHNpNlVUWnNsRmZnMEdfNDB4eE83RnBLODJETmFETEpmbVllNlhjOHFn?oc=5",
-      "fecha": "2026-10-14T19:30:26.000Z",
-      "resumen_corto": "Alguien ha robado 100 millones de dólares en criptomonedas utilizando puertas traseras plantadas de antemano en monederos físicos Xataka",
-      "resumen_largo": "Alguien ha robado 100 millones de dólares en criptomonedas utilizando puertas traseras plantadas de antemano en monederos físicos Xataka",
-      "texto_original": "Alguien ha robado 100 millones de dólares en criptomonedas utilizando puertas traseras plantadas de antemano en monederos físicos Xataka",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-10-15T07:08:44.136Z",
-        "index": 14,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "es",
-        "categoria": "tecnologia",
-        "categorias_secundarias": [],
-        "category_scores": {},
-        "entidades": [
-          "Xataka"
-        ],
-        "cifras_detectadas": [
-          "100 m"
-        ],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 87,
-        "relevancia": 50,
-        "confiabilidad_fuente": 50,
-        "readability": {
-          "words": 69,
-          "sentences": 1,
-          "average_words_per_sentence": 69
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 62.95
-    },
-    {
       "id": "f93261c849c878cf",
       "fuente_id": "wccftech_google",
       "fuente_nombre": "Wccftech",
@@ -1786,8 +2179,8 @@
       "texto_original": "Intel’s Fab 38 Explosion In Israel Injures 3 People And Draws 8 Rescue Teams Including Hazmat Units, As Authorities Suspect A Nitrogen Trifluoride Cylinder Wccftech",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-15T07:08:44.136Z",
-        "index": 15,
+        "processed_at": "2026-10-15T13:13:26.848Z",
+        "index": 28,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -1863,8 +2256,8 @@
       "texto_original": "A Jailbroken PS5 Got Turned Into a Local AI Server That Can Run A 27B LLM, Smaller Models Can Reach Impressive Speeds Of 124 Tok/s, But There Are Limitations Wccftech",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-15T07:08:44.140Z",
-        "index": 29,
+        "processed_at": "2026-10-15T13:13:26.850Z",
+        "index": 34,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -1915,6 +2308,75 @@
       "final_score": 62.5
     },
     {
+      "id": "ec40a30db266489f",
+      "fuente_id": "google_news_es",
+      "fuente_nombre": "Google News ES",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "google_news",
+      "nivel_fuente": "agregador",
+      "categoria": "tecnologia",
+      "idioma_original": "es",
+      "prioridad_fuente": 3,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Iberdrola, BBVA y Santander firman la primera financiación sindicada gestionada con tecnología 'blockchain' - El Economista",
+      "titulo_original": "Iberdrola, BBVA y Santander firman la primera financiación sindicada gestionada con tecnología 'blockchain' - El Economista",
+      "enlace": "https://news.google.com/rss/articles/CBMihwJBVV95cUxPT1BjcHZHUWFVd1BtaUp6eVVTS0ZPUXY1YlcwSk5VdVFrS1pVaDhZMmxTVU9BblFiUjBkb3pyd0V1WE9WcXpUVFpaTF9EREhKSFBfX0pXQVJEVVNtTUJuVzY5eFprS3hzV2NWNXFNRlZCc05KVGpKNXFTNWJkeU1BaWMxMEpSNkh1TjFDY1pFQ1hSd2dKVVZZSTJWTnhKNkVUTFgtYkd0RkVuNVFXRVdqUHpBcGtsbFdZTGdPZWg5ai1FMkN2bzJJUEMwdWFDMjZaNng4a3FVeXM3Q2NzQW9Ea0dBNkpOVmJyTFNHaGZ1YXdDekNBWjcxWjRIVTBSdUxaX3Z2NnBjVdIB8gFBVV95cUxNT1MtTk1ZaUdQLTh4WkE2b0ItSzZ2NURrYzNtOTFCOXVLRkR2VHVBb25ZeTBRWVNsTUFoQTR0bXAzWjBvVElLVVkzV1pXVV9nWXhpSVdaWURoaGljbjFLWGR5TTFCeXIwemtWNEhqejVFSW5BdHQyamNEeEgwYVJVRmo3TDJiZDlTZThKdDRsWWU5c2JmNzdlUXB2Q3dfNFAtVlVVWDYxVXVYRVNxaVJjOUtFRkZ4X1BTZkh6U3BIbmc1T0ZDaXo3M0VtdkRTM1Z2OU1fNXdQMTU2SUtGNGgwV3Z5NDF2Q0dBaTA3dFp3T29Udw?oc=5",
+      "fecha": "2026-10-15T09:10:37.000Z",
+      "resumen_corto": "Iberdrola, BBVA y Santander firman la primera financiación sindicada gestionada con tecnología 'blockchain' El Economista",
+      "resumen_largo": "Iberdrola, BBVA y Santander firman la primera financiación sindicada gestionada con tecnología 'blockchain' El Economista",
+      "texto_original": "Iberdrola, BBVA y Santander firman la primera financiación sindicada gestionada con tecnología 'blockchain' El Economista",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-10-15T13:13:26.840Z",
+        "index": 17,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "inteligencia_artificial",
+        "categorias_secundarias": [
+          "tecnologia"
+        ],
+        "category_scores": {
+          "inteligencia_artificial": 2,
+          "tecnologia": 2
+        },
+        "entidades": [],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 75,
+        "relevancia": 57,
+        "confiabilidad_fuente": 53,
+        "readability": {
+          "words": 60,
+          "sentences": 1,
+          "average_words_per_sentence": 60
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 62.3
+    },
+    {
       "id": "f231dde3ccb89397",
       "fuente_id": "google_news_es",
       "fuente_nombre": "Google News ES",
@@ -1936,8 +2398,8 @@
       "texto_original": "Las velutinas 'delatan' sus propios nidos: así es la tecnología que ya se usa en Galicia para localizarlos El Correo Gallego",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-15T07:08:44.137Z",
-        "index": 18,
+        "processed_at": "2026-10-15T13:13:26.848Z",
+        "index": 30,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -1986,151 +2448,7 @@
       "final_score": 62.3
     },
     {
-      "id": "eb1d1e31eab14276",
-      "fuente_id": "google_news_es",
-      "fuente_nombre": "Google News ES",
-      "tipo": "rss_web",
-      "subtipo": "google_news",
-      "grupo_fuente": "google_news",
-      "nivel_fuente": "agregador",
-      "categoria": "tecnologia",
-      "idioma_original": "es",
-      "prioridad_fuente": 3,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "Tensor se incorpora a DFactory Barcelona para desarrollar tecnología de conducción autónoma - La Vanguardia",
-      "titulo_original": "Tensor se incorpora a DFactory Barcelona para desarrollar tecnología de conducción autónoma - La Vanguardia",
-      "enlace": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQQlZZYXhoWENQNVAtc3FjZTNFV2txa3Z2VElmODl6ck8yYlN5eXMtZnNPRjFrS1dqN3VrMlVnRjZRZnlvNXBlRFE0Q0c5dmhtNnMtbmF3WHBDQkZpTnBMM2JOODgtY1VXSk1aNlk3WnJmczgteUhJYVM4WXhySzN3R29EYkJUcTBDMThKMWYwTE94SVoyMW1iX0R3MUxLQy03MUZ1X3FRaHBoMHNwdXdiUnBzWXMtdXpUR1VjVktVVUJ4LW4tV0dkSlh5WGgxNVNBalFiMF9uVXA3WDE5MWNaZGpFR3VYQdIB6wFBVV95cUxQcGJIek83a2M4MU02dF8zN0NIQzVrMnBNSUF6cU5aZ3Q4RE5yTEpCZzc3THZnbzQ5Q1kzUUl1Mm5LeHhrWWMwMkt2MVNKdDdVZHFVOHZPektielpxeklaWlMxckN3WDVtdlp1RzZUTV9LRnY0aGc2OEt5dWNvOXpTT29Mc0t5RnJyZExzajJqZWFZOWg5eUZRQmtnWHVFeFBob3FLcHlGZm13Mk5nNUJYbUFzcE1hWUlpTDFCZTA5SU1yQ2ljVkJkaGxQNTdfeVh1SHlHZlRHcm9vYUtpa0hZc21EQlh1WVFvLTEw?oc=5",
-      "fecha": "2026-10-14T12:00:53.000Z",
-      "resumen_corto": "Tensor se incorpora a DFactory Barcelona para desarrollar tecnología de conducción autónoma La Vanguardia",
-      "resumen_largo": "Tensor se incorpora a DFactory Barcelona para desarrollar tecnología de conducción autónoma La Vanguardia",
-      "texto_original": "Tensor se incorpora a DFactory Barcelona para desarrollar tecnología de conducción autónoma La Vanguardia",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-10-15T07:08:44.140Z",
-        "index": 27,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "es",
-        "categoria": "tecnologia",
-        "categorias_secundarias": [
-          "inteligencia_artificial",
-          "vehiculos_energia"
-        ],
-        "category_scores": {
-          "tecnologia": 2,
-          "inteligencia_artificial": 1,
-          "vehiculos_energia": 1
-        },
-        "entidades": [],
-        "cifras_detectadas": [],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 75,
-        "relevancia": 57,
-        "confiabilidad_fuente": 53,
-        "readability": {
-          "words": 50,
-          "sentences": 1,
-          "average_words_per_sentence": 50
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 62.3
-    },
-    {
-      "id": "fbc7358ebfe38d9b",
-      "fuente_id": "google_news_es",
-      "fuente_nombre": "Google News ES",
-      "tipo": "rss_web",
-      "subtipo": "google_news",
-      "grupo_fuente": "google_news",
-      "nivel_fuente": "agregador",
-      "categoria": "tecnologia",
-      "idioma_original": "es",
-      "prioridad_fuente": 3,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "Experto en tecnología: \"La batería de mi smartphone dura mucho más desde que desactive esta función\" - El Economista",
-      "titulo_original": "Experto en tecnología: \"La batería de mi smartphone dura mucho más desde que desactive esta función\" - El Economista",
-      "enlace": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQV0p6QjJuWVlMbmMtWDVISnA2bU5sRm9pX2JhWFVTZGRxcU5COGtod183c0pOSHUtUHdXMWY2RWlhTzFrYUZpLTJlNWxzbzlxbHVUdnRXeElEOFlpUmN2V21LZ1piOTVMTlpLb3owc1FwS3dYTUxLTWVhTmp4c1d6enZVR0x4a1l4OVVURGxtUXZZZDY5VHVvSEM5eC1lajR0ZHRxaG1TcTdPdFB6MUM2aEJSZEwyUDUzWE5STTVkSDVIdEtwcHdLMTVxcHljX29ZNS00dHVCc0xKdDJqWGhFLWRVWUNkaGw0Z29DaXpaekhsYl9QdHZkMg?oc=5",
-      "fecha": "2026-10-14T08:04:07.000Z",
-      "resumen_corto": "Experto en tecnología: \"La batería de mi smartphone dura mucho más desde que desactive esta función\" El Economista",
-      "resumen_largo": "Experto en tecnología: \"La batería de mi smartphone dura mucho más desde que desactive esta función\" El Economista",
-      "texto_original": "Experto en tecnología: \"La batería de mi smartphone dura mucho más desde que desactive esta función\" El Economista",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-10-15T07:08:44.141Z",
-        "index": 31,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "es",
-        "categoria": "tecnologia",
-        "categorias_secundarias": [
-          "inteligencia_artificial",
-          "moviles",
-          "baterias_energia"
-        ],
-        "category_scores": {
-          "tecnologia": 2,
-          "inteligencia_artificial": 1,
-          "moviles": 1,
-          "baterias_energia": 1
-        },
-        "entidades": [],
-        "cifras_detectadas": [],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 75,
-        "relevancia": 57,
-        "confiabilidad_fuente": 53,
-        "readability": {
-          "words": 65,
-          "sentences": 1,
-          "average_words_per_sentence": 65
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 62.3
-    },
-    {
-      "id": "be0bedc9f7a028bc",
+      "id": "3e180c146feb1446",
       "fuente_id": "ia_dia",
       "fuente_nombre": "IA al Día",
       "tipo": "rss_web",
@@ -2142,17 +2460,17 @@
       "prioridad_fuente": 3,
       "analizar": true,
       "resumir": true,
-      "titulo": "Los ingresos de Anthropic aumentaron casi un 50% en el último trimestre - El Mundo",
-      "titulo_original": "Los ingresos de Anthropic aumentaron casi un 50% en el último trimestre - El Mundo",
-      "enlace": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNWXZpMFpMVEo3RV9sLTVMTHBxZmgxblVHQU5DTkpmVm9GZXpkUHNDN0otYlh0R2NUZG5NSHBsUExPWTdrVGl2dW1nR1U4R1dDVnlKMHlVaWE2UXpmTUdBU0NxRUdBbzA1MUZOSFlHZGNNa2stNnV0QTJmY0lwUHRTUU9OZnEzY0ds0gGIAUFVX3lxTFBPOV9LWm9NZG5oN0VMeE5yTnVueW9SNEpCcVp4a0Nta1JyVXRwcm9qbzRqdUJOZGpxblJFdHMyMVBnZXcybF9NeWhWSm1rQ2hwVWxPVzRZT2o0bEptY0FDZ2xMSXhodm9rV3FJbGtuLVkxRXZ1c3ZHd2F4YVNtZUZpcG1ONVgtUWM?oc=5",
-      "fecha": "2026-10-15T05:35:42.000Z",
-      "resumen_corto": "Los ingresos de Anthropic aumentaron casi un 50% en el último trimestre El Mundo",
-      "resumen_largo": "Los ingresos de Anthropic aumentaron casi un 50% en el último trimestre El Mundo",
-      "texto_original": "Los ingresos de Anthropic aumentaron casi un 50% en el último trimestre El Mundo",
+      "titulo": "La inteligencia artificial permite predecir el riesgo de cáncer de mama en cinco años con una sola mamografía - Cadena SER",
+      "titulo_original": "La inteligencia artificial permite predecir el riesgo de cáncer de mama en cinco años con una sola mamografía - Cadena SER",
+      "enlace": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPdWJqY3JwM0hxTHRneFIyZ2tFYlpzbktFNXNuY1NJWUJfSk5qcW1xMmxZVmE5MUdVQXNFU0tWdkFVWXB0VGJxV0lIeTVJbTctX3lBZVF4cXE0a1lNa21HMjNwR2xHa1ppd1RsVGNBdnA1SVJYc2Zya3NGNU5KaGFvTnpTR2ItSFNERjFRd24wVDRjdUlCbDgzUG5VZHFGaW1QOEU0ai04eE1qX1JRWE9HMUNPSUs3Um12WlhsWXBBczdmOHhFTmxVS0dzVEl1empvRE9qdjk4OTBsRU9hQ3ZVZkFUVnF2b21kTGNoYW1HcGJEQ1J2c1HSAYoCQVVfeXFMUHZIQ3lFRzBJbmNYa3BfcnF1bVA4UXRuNjBjVGFSRjRvREc0ZUhyWnI4bWlXaDIxNXRPRF9uZElvOVlieTZJRHVuSFJvSzIwMFVyclhLcDcwT2xJRGxBekN2anpIZVlxb2wtbXBOQWNweUxRdWZDa25vMFpOS0xqUDVfckUzdklCTzNYSjlPTGhhWjhsNzhuWXdyVVFlN0FVVzlXNktfd19WY201T0FHcHM3dXl0UGhwZFJXb09Nc0xiaE83cUtxT2tweXZsaFpFa2xjbmRXWGJNVm5ibkVld1RqekdYaE5sSlhDNS1GVi0tVzBNTkNrZ3RQVXRFVFY2MWhKUUZVZEUtVUE?oc=5",
+      "fecha": "2026-10-15T11:24:41.000Z",
+      "resumen_corto": "La inteligencia artificial permite predecir el riesgo de cáncer de mama en cinco años con una sola mamografía Cadena SER",
+      "resumen_largo": "La inteligencia artificial permite predecir el riesgo de cáncer de mama en cinco años con una sola mamografía Cadena SER",
+      "texto_original": "La inteligencia artificial permite predecir el riesgo de cáncer de mama en cinco años con una sola mamografía Cadena SER",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-15T07:08:44.127Z",
-        "index": 1,
+        "processed_at": "2026-10-15T13:13:26.832Z",
+        "index": 8,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -2162,12 +2480,10 @@
         "categoria": "inteligencia_artificial",
         "categorias_secundarias": [],
         "category_scores": {
-          "inteligencia_artificial": 1
+          "inteligencia_artificial": 3
         },
         "entidades": [],
-        "cifras_detectadas": [
-          "50%"
-        ],
+        "cifras_detectadas": [],
         "content_type": "news",
         "clickbait": {
           "detected": false,
@@ -2180,13 +2496,13 @@
           "signals": [],
           "url_count": 0
         },
-        "calidad": 80,
+        "calidad": 75,
         "relevancia": 50,
         "confiabilidad_fuente": 53,
         "readability": {
-          "words": 40,
+          "words": 75,
           "sentences": 1,
-          "average_words_per_sentence": 40
+          "average_words_per_sentence": 75
         },
         "duplicate": {
           "detected": false,
@@ -2195,32 +2511,32 @@
           "similar_to": null
         }
       },
-      "final_score": 61.25
+      "final_score": 59.5
     },
     {
-      "id": "24cc41842b663f21",
-      "fuente_id": "google_news_es",
-      "fuente_nombre": "Google News ES",
+      "id": "1eb3a3abc34032c2",
+      "fuente_id": "ia_dia",
+      "fuente_nombre": "IA al Día",
       "tipo": "rss_web",
       "subtipo": "google_news",
-      "grupo_fuente": "google_news",
+      "grupo_fuente": "ia_general",
       "nivel_fuente": "agregador",
-      "categoria": "tecnologia",
+      "categoria": "inteligencia_artificial",
       "idioma_original": "es",
       "prioridad_fuente": 3,
       "analizar": true,
       "resumir": true,
-      "titulo": "Sabadell prepara el salto a los agentes de IA con un despliegue masivo en 2027 - Expansión",
-      "titulo_original": "Sabadell prepara el salto a los agentes de IA con un despliegue masivo en 2027 - Expansión",
-      "enlace": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQNmFfT00xTlpRdEw4Qkh5VnZzRmVuem93NFdXZVh5RmhibUFNMkR3RktGSC1JSnhabEhRT1RlZ2VzT19VcDZULTF6Y291SWY0TXlmaWhQQ1NUUnViNzhSYXAxU2w2QkZvbzE2QndZcEpFdW1RX0dsLWVYWkN4cVFQU1R6TExzeHc3cGtsS2pFQk5QZkxiSW1UcXZpMEVNYTc2SlNSdHBpWFN6R19Ja3fSAa4BQVVfeXFMTlVCRHgxLWxXRlh5a3BERzh5UnpKUFhId1JwMmNsTkZKZDN1ci1GandnYU1IeWxQY3g2eW1xQzVhU0RPcjNxT190MldEV1hlNDVhSkNLbXpCZ2NRMXRySkh0RWszOGpHVVM1V3hlOTFfNlV4OEFySzJCS3FpV1RtYWZfdE1zemQ5UURhdlBMTGFnRldFQjAwUjZjYW9zTnllaFQtMDFQMFpHR3FVcUF3?oc=5",
-      "fecha": "2026-10-14T23:36:00.000Z",
-      "resumen_corto": "Sabadell prepara el salto a los agentes de IA con un despliegue masivo en 2027 Expansión",
-      "resumen_largo": "Sabadell prepara el salto a los agentes de IA con un despliegue masivo en 2027 Expansión",
-      "texto_original": "Sabadell prepara el salto a los agentes de IA con un despliegue masivo en 2027 Expansión",
+      "titulo": "Unizar lidera un proyecto pionero para predecir con inteligencia artificial cómo reacciona la población ante una epidemia - elDiario.es",
+      "titulo_original": "Unizar lidera un proyecto pionero para predecir con inteligencia artificial cómo reacciona la población ante una epidemia - elDiario.es",
+      "enlace": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNd2ZhMWlOMUl6SXRONlNtS0piblhKVW9LbzhlWmtvQUJQUEVVS1JjVDhzemc3N25xU2N5VDV6WWVmcXdyV0tGOXpwNHlIYVJwci15R3RmcVAwSWVlWl9icVRmTnpTYWoxdDhTR1pRby01Z3lRMUN1STJwTzk4bzdNTkFGVDFYVzVJc0dvUFR3X0tKTzBYZ3NaQVduRDMxYWthVXpFd2IxZkU4ZEd2RXhpMTZZem1rdnBvU2NNNVd5WVdndHg4Rk1ldkJtckNEZ0dmamk0MmxVckp3eGx1MVdDTmxR0gHnAUFVX3lxTE14d0NVVUdqQ1licE5KcHo2MFgtLWJnZDhiTFdLTUxsblZmYmYwWUVLajUwcmtYQXBldFNTcmd3d2dHSGlzNGtTT1VHZHgxa3B1Zl9GRzktaGlFR2twdHpsX3RuTTFGejZVU0lGbXVsZFAwY3FYWFhqdERORWcydm5PMGJrWlFMeHVDYURTSThGekdFVU5sSHJBRno1NDc2dWZHWDZjV3h3RWRKV3Q5eEdDVjd4LW9LWnh3NGpKMGZySUN5bG1KUE9VNDM4eGQ4MEN2NE9OYW9xVGppdmhweHZsRzVpbXhibw?oc=5",
+      "fecha": "2026-10-15T10:00:04.000Z",
+      "resumen_corto": "Unizar lidera un proyecto pionero para predecir con inteligencia artificial cómo reacciona la población ante una epidemia elDiario.es",
+      "resumen_largo": "Unizar lidera un proyecto pionero para predecir con inteligencia artificial cómo reacciona la población ante una epidemia elDiario.es",
+      "texto_original": "Unizar lidera un proyecto pionero para predecir con inteligencia artificial cómo reacciona la población ante una epidemia elDiario.es",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-15T07:08:44.131Z",
-        "index": 5,
+        "processed_at": "2026-10-15T13:13:26.836Z",
+        "index": 13,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -2230,12 +2546,10 @@
         "categoria": "inteligencia_artificial",
         "categorias_secundarias": [],
         "category_scores": {
-          "inteligencia_artificial": 1
+          "inteligencia_artificial": 3
         },
         "entidades": [],
-        "cifras_detectadas": [
-          "2027"
-        ],
+        "cifras_detectadas": [],
         "content_type": "news",
         "clickbait": {
           "detected": false,
@@ -2248,13 +2562,13 @@
           "signals": [],
           "url_count": 0
         },
-        "calidad": 80,
+        "calidad": 75,
         "relevancia": 50,
         "confiabilidad_fuente": 53,
         "readability": {
-          "words": 50,
-          "sentences": 1,
-          "average_words_per_sentence": 50
+          "words": 80,
+          "sentences": 6,
+          "average_words_per_sentence": 13.33
         },
         "duplicate": {
           "detected": false,
@@ -2263,17 +2577,17 @@
           "similar_to": null
         }
       },
-      "final_score": 61.25
+      "final_score": 59.5
     },
     {
       "id": "950e20c9b61d5723",
-      "fuente_id": "ia_dia",
-      "fuente_nombre": "IA al Día",
+      "fuente_id": "google_news_es",
+      "fuente_nombre": "Google News ES",
       "tipo": "rss_web",
       "subtipo": "google_news",
-      "grupo_fuente": "ia_general",
+      "grupo_fuente": "google_news",
       "nivel_fuente": "agregador",
-      "categoria": "inteligencia_artificial",
+      "categoria": "tecnologia",
       "idioma_original": "es",
       "prioridad_fuente": 3,
       "analizar": true,
@@ -2287,8 +2601,8 @@
       "texto_original": "Los trabajadores europeos que entrenan las IA: “Ya sabía que me metía en unas condiciones que no eran las mejores” EL PAÍS",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-15T07:08:44.128Z",
-        "index": 2,
+        "processed_at": "2026-10-15T13:13:26.846Z",
+        "index": 26,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -2332,7 +2646,7 @@
       "final_score": 59.5
     },
     {
-      "id": "3ff5717ff33fcaa9",
+      "id": "fb92124c0235b089",
       "fuente_id": "google_news_es",
       "fuente_nombre": "Google News ES",
       "tipo": "rss_web",
@@ -2344,17 +2658,17 @@
       "prioridad_fuente": 3,
       "analizar": true,
       "resumir": true,
-      "titulo": "Diseño japonés, pantalla de 26 pulgadas 5K y más tecnología en este SUV por menos de lo esperado - El Debate",
-      "titulo_original": "Diseño japonés, pantalla de 26 pulgadas 5K y más tecnología en este SUV por menos de lo esperado - El Debate",
-      "enlace": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOc3lvck5tejd5Qmpxd0RfWWxQdTRHMThsdVNlMkI5a2dkdVozbDVta0FoUkhnYnJ0SkR0YXpORTNvVG9uakNpOTZ4eFZRWkdBVnlUbHpRWXBHdWR0TlhUazNoZzBVdUpLYVBURnR0UzNmOFhHald5R1ZZd09aM1Y5OUdSb2MzcGktbnJfc1lQWUI1X00xd2pPZVk4cnpUeXN2NW1EVzZLTXBsZHZIanRwVzZSYUlZc3dDREVCN1FfQUVjVmQxbUpWRl9zWU1zSnZzZ2VrNmdVYUhtZUJHYTBxRWFnWnZIc2PSAewBQVVfeXFMTUY0R3FHYVNMbnZsLVFpYl9ucUFXYUUtMTI0ZGs2NzNicWl3S0xUXzFRYWJhTm9qQW5IbGVRTGtFNkluQzZacVVTUk5MZFpoTWVJMVFLLU9ONndGaDRpdnFGcEl6b1hnRm12RU5GOGFYQjNHRG13ZjJ2RVhPNUs0NnhGLUhRUmdZZVk2R0E3R3NLVGlxVV8tbnpuTVllY01IMjBXVFd1RkstM3F5TFFCRmQ3QWVfc3FxWk52Snp4dlBCWDZ4aXFIbWhuTTE5WDhQTWxIWFhwNVQzT1k3V21BZVhYR1E0d0xSa3FPdkY?oc=5",
-      "fecha": "2026-10-15T02:44:44.000Z",
-      "resumen_corto": "Diseño japonés, pantalla de 26 pulgadas 5K y más tecnología en este SUV por menos de lo esperado El Debate",
-      "resumen_largo": "Diseño japonés, pantalla de 26 pulgadas 5K y más tecnología en este SUV por menos de lo esperado El Debate",
-      "texto_original": "Diseño japonés, pantalla de 26 pulgadas 5K y más tecnología en este SUV por menos de lo esperado El Debate",
+      "titulo": "Banca, energía, tecnología y salud. Así van en bolsa los grandes líderes - Estrategias de Inversión",
+      "titulo_original": "Banca, energía, tecnología y salud. Así van en bolsa los grandes líderes - Estrategias de Inversión",
+      "enlace": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQeUJuQm5YX2U5T2FKOEJHRDRWdzV0ZW1EVkdUeUd4cDhQT3B4bFp3V0xpUzgzNjFNZHZKV1hGS3QtdmlXZF9YYW1SV1JEbUEwVXEzYlBZajNIYkp6MWZ2ZHVub2RpWmRscUNhNnBZaTI1LXBLaW9uZTdjc0JsVGI0ckY5V203YVRSelZiZmctV25sMUEycVA5Y1REaUF6R091eDZTNC11QUFoSGI4SnpoTU9pS3o3dmhzVG1RVTg3RGhRTWJWdzJBcTVicWTSAaMBQVVfeXFMUDdiVm16VkJjemZlSDY2OWItMlNyNVdSSi1CS1hXQkNUQnhLREV2bTBVcGVvZlRhR3VxaktSRGNrMXluejkzdW1USzlPSUlpUS03TmJCMEV6alhVcG1iem1acUl0VjhwTWRyYkMzeVJPTF9pS0djRVZzRk5jUVVrWUlsZWQ2blc2SVFsQ0VHZnBPOGVpR1NkSEw5M1d2WWd3N2NoQQ?oc=5",
+      "fecha": "2026-10-14T08:50:00.000Z",
+      "resumen_corto": "Banca, energía, tecnología y salud.",
+      "resumen_largo": "Banca, energía, tecnología y salud. Así van en bolsa los grandes líderes Estrategias de Inversión",
+      "texto_original": "Banca, energía, tecnología y salud. Así van en bolsa los grandes líderes Estrategias de Inversión",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-15T07:08:44.129Z",
-        "index": 3,
+        "processed_at": "2026-10-15T13:13:26.852Z",
+        "index": 36,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -2387,78 +2701,9 @@
         "relevancia": 50,
         "confiabilidad_fuente": 53,
         "readability": {
-          "words": 60,
-          "sentences": 1,
-          "average_words_per_sentence": 60
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 59.5
-    },
-    {
-      "id": "7ac60d628015e02b",
-      "fuente_id": "google_news_es",
-      "fuente_nombre": "Google News ES",
-      "tipo": "rss_web",
-      "subtipo": "google_news",
-      "grupo_fuente": "google_news",
-      "nivel_fuente": "agregador",
-      "categoria": "tecnologia",
-      "idioma_original": "es",
-      "prioridad_fuente": 3,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "Probamos el Jaecoo 7 SHS-P: tecnología, confort y precio como principales argumentos - ABC",
-      "titulo_original": "Probamos el Jaecoo 7 SHS-P: tecnología, confort y precio como principales argumentos - ABC",
-      "enlace": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPd1lQUUg2dFFpOG5EQTM4alByNGdVR0twOXVEcV9KQjRrTDVuM0VOd2otSDE1WWVlVi1sUzdNWmd3V25wWVVUNXdSaEc2dnR0WEcwRC1jUlprU2NrUFlRRXNnWnczNEVWR1VqMGlad3dqemZJU21HbUhBWUdqS0NNRmNvRC1rTkhLQXBrXzhFX2VRcFZsNXlnRWJldWhZV280RE9WVnVSeHVWY2liMkRWUUFzdHbSAboBQVVfeXFMTkN3QWtCZUFvRTUtQk15cTg3ZmJmeEpnTzF5QWFiUVBPQnoyTVVQOHJpVUZuN1RhY0xqOWt1UlppbFZOaUhEbEdncGs2Y3RHSmdNQTJjc3dvS3RMZ0tZSlh3Y21ieEZ3UnJJNVZfSUh4dGxiZHlXVzN1VEFwdUxIblNoaEJ2RXU0czZrV2RDaDVsYmlHcm93VjlBUE10SExKbXZaSXlSaWt0anVocTh3bkFWWW05VThVT2t3?oc=5",
-      "fecha": "2026-10-14T13:20:23.000Z",
-      "resumen_corto": "Probamos el Jaecoo 7 SHS-P: tecnología, confort y precio como principales argumentos ABC",
-      "resumen_largo": "Probamos el Jaecoo 7 SHS-P: tecnología, confort y precio como principales argumentos ABC",
-      "texto_original": "Probamos el Jaecoo 7 SHS-P: tecnología, confort y precio como principales argumentos ABC",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-10-15T07:08:44.139Z",
-        "index": 25,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "es",
-        "categoria": "tecnologia",
-        "categorias_secundarias": [
-          "inteligencia_artificial"
-        ],
-        "category_scores": {
-          "tecnologia": 2,
-          "inteligencia_artificial": 1
-        },
-        "entidades": [],
-        "cifras_detectadas": [],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 75,
-        "relevancia": 50,
-        "confiabilidad_fuente": 53,
-        "readability": {
-          "words": 50,
-          "sentences": 1,
-          "average_words_per_sentence": 50
+          "words": 52,
+          "sentences": 6,
+          "average_words_per_sentence": 8.67
         },
         "duplicate": {
           "detected": false,
@@ -2491,8 +2736,8 @@
       "texto_original": "¿Por qué Trump quiere reemplazar “inteligencia artificial” por “superinteligencia”? CNN en Español",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-15T07:08:44.143Z",
-        "index": 38,
+        "processed_at": "2026-10-15T13:13:26.855Z",
+        "index": 44,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -2536,40 +2781,43 @@
       "final_score": 59.5
     },
     {
-      "id": "6b9c308c0c818d0f",
-      "fuente_id": "resumen_militar",
-      "fuente_nombre": "El Resumen Militar",
-      "tipo": "telegram",
-      "subtipo": "canal_telegram",
-      "grupo_fuente": "telegram_militar",
-      "nivel_fuente": "telegram",
-      "categoria": "militar",
+      "id": "6a6ebfc8653978a2",
+      "fuente_id": "google_news_es",
+      "fuente_nombre": "Google News ES",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "google_news",
+      "nivel_fuente": "agregador",
+      "categoria": "tecnologia",
       "idioma_original": "es",
       "prioridad_fuente": 3,
       "analizar": true,
       "resumir": true,
-      "titulo": "🇷🇺 🇺🇦 Прилеты Геранек в Кировограде, Жмеринке Винницкой области и в районе Вишневого Киевской области",
-      "titulo_original": "🇷🇺 🇺🇦 Прилеты Геранек в Кировограде, Жмеринке Винницкой области и в районе Вишневого Киевской области",
-      "enlace": "https://t.me/elresumenmilitar/101523",
-      "fecha": "2026-10-14T21:45:25.000Z",
-      "resumen_corto": "🇷🇺 🇺🇦 Прилеты Геранек в Кировограде, Жмеринке Винницкой области и в районе Вишневого Киевской области",
-      "resumen_largo": "🇷🇺 🇺🇦 Прилеты Геранек в Кировограде, Жмеринке Винницкой области и в районе Вишневого Киевской области",
-      "texto_original": "🇷🇺 🇺🇦 Прилеты Геранек в Кировограде, Жмеринке Винницкой области и в районе Вишневого Киевской области",
+      "titulo": "Netflix despide al 6% de sus empleados, el mayor recorte de plantilla desde 2022 - Expansión",
+      "titulo_original": "Netflix despide al 6% de sus empleados, el mayor recorte de plantilla desde 2022 - Expansión",
+      "enlace": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQUDZ2aE5BZnExaFdBSTc0d205RHFiY0ZaalFIc1FxV0lWOF9JdzRVOFd2Yjl4bXRkaFQ5UmVEWjMxYk1MSUNJX3hQMzdxVnBsWmk4ck1Kai1OLWVLcUhPSWVCWTN3dm0xS3VZN3ZzMEFLaXgwaEFBNXp4OGV5b2o3emEwN2ltVzRtRGVjdUM1ekxmSm1kbXN4Ykd1eWxIUmF00gGgAUFVX3lxTE1ENFRySFJITzJoajBOSGszQW82TVBSMUV2eFFBN3F1V1ZGcjhSaDZab0V0ZmZHSndHeTNPTW85QWNLV2M1MGROeDNVT2w2bkN1dnJoMEwwbFR6eVgzV2RmX3ZDc3p4R05rWG4wX0NLejVyWkpXeHlSNC1VeWc0aDFwczRKOGNobkt3NzNfU3BCN3FqeUUzYm5FbUdQR2lhcW4?oc=5",
+      "fecha": "2026-10-14T14:16:14.000Z",
+      "resumen_corto": "Netflix despide al 6% de sus empleados, el mayor recorte de plantilla desde 2022 Expansión",
+      "resumen_largo": "Netflix despide al 6% de sus empleados, el mayor recorte de plantilla desde 2022 Expansión",
+      "texto_original": "Netflix despide al 6% de sus empleados, el mayor recorte de plantilla desde 2022 Expansión",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-15T07:08:44.134Z",
-        "index": 11,
+        "processed_at": "2026-10-15T13:13:26.850Z",
+        "index": 33,
         "resumen": {
           "generado": true,
           "origen": "translated"
         },
         "idioma_detectado": "es",
         "idioma_original": "es",
-        "categoria": "militar",
+        "categoria": "tecnologia",
         "categorias_secundarias": [],
         "category_scores": {},
         "entidades": [],
-        "cifras_detectadas": [],
+        "cifras_detectadas": [
+          "6%",
+          "2022"
+        ],
         "content_type": "news",
         "clickbait": {
           "detected": false,
@@ -2582,9 +2830,9 @@
           "signals": [],
           "url_count": 0
         },
-        "calidad": 75,
+        "calidad": 80,
         "relevancia": 45,
-        "confiabilidad_fuente": 45,
+        "confiabilidad_fuente": 53,
         "readability": {
           "words": 50,
           "sentences": 1,
@@ -2597,10 +2845,93 @@
           "similar_to": null
         }
       },
-      "final_score": 55.5
+      "final_score": 59.25
     },
     {
-      "id": "72158c1b6de45cbb",
+      "id": "345fa0dcd008e86a",
+      "fuente_id": "huawei_central",
+      "fuente_nombre": "Huawei Central",
+      "tipo": "rss_web",
+      "subtipo": "medio_especializado",
+      "grupo_fuente": "huawei",
+      "nivel_fuente": "secundaria_especializada",
+      "categoria": "moviles",
+      "idioma_original": "en",
+      "prioridad_fuente": 5,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Huawei habla sobre el mayor desafío de la tecnología de chips Tau Law: las herramientas EDA",
+      "titulo_original": "Huawei talks about biggest challenge of Tau Law chip tech: EDA tools",
+      "enlace": "https://www.huaweicentral.com/huawei-talks-about-biggest-challenge-of-tau-law-chip-tech-eda-tools/",
+      "fecha": "2026-10-15T09:58:43.000Z",
+      "resumen_corto": "El director científico de Huawei Semiconductor, Huang Yu, ha revelado que el mayor desafío de la tecnología de chips Tau Scaling Law son las herramientas EDA.",
+      "resumen_largo": "El director científico de Huawei Semiconductor, Huang Yu, ha revelado que el mayor desafío de la tecnología de chips Tau Scaling Law son las herramientas EDA. Si bien el nuevo principio tiene varios cuellos de botella que restringen su eficiencia, el principal es Electronic Design Automation Tools. EDA, o herramientas de automatización de diseño electrónico, son una combinación de sistemas de software y hardware [...] El post Huawei habla sobre el mayor desafío de la tecnología de chips Tau Law: las herramientas EDA aparecieron por primera vez en Huawei Central .",
+      "texto_original": "Huawei Semiconductor Chief Scientist Huang Yu has revealed that the biggest challenge of the Tau Scaling Law chip tech is EDA tools. While the new principle has several bottlenecks that restrict its efficiency, the major one is Electronic Design Automation Tools. EDA, or Electronic Design Automation tools, are a combination of software and hardware systems […] The post Huawei talks about biggest challenge of Tau Law chip tech: EDA tools appeared first on Huawei Central .",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-10-15T13:13:26.837Z",
+        "index": 14,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "en",
+        "categoria": "tecnologia",
+        "categorias_secundarias": [
+          "semiconductores",
+          "moviles",
+          "hardware"
+        ],
+        "category_scores": {
+          "tecnologia": 4,
+          "semiconductores": 3,
+          "moviles": 2,
+          "hardware": 2,
+          "vehiculos_energia": 2,
+          "software_internet": 2,
+          "inteligencia_artificial": 1,
+          "militar": 1
+        },
+        "entidades": [
+          "Huawei",
+          "Huawei Semiconductor"
+        ],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": true,
+          "score": 50,
+          "signals": [
+            "\\brevelado\\b",
+            "\\brevealed\\b"
+          ]
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 71,
+        "relevancia": 68,
+        "confiabilidad_fuente": 65,
+        "readability": {
+          "words": 169,
+          "sentences": 8,
+          "average_words_per_sentence": 21.13
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 58.3
+    },
+    {
+      "id": "2b527bf8a11a13c5",
       "fuente_id": "resumen_militar",
       "fuente_nombre": "El Resumen Militar",
       "tipo": "telegram",
@@ -2612,17 +2943,17 @@
       "prioridad_fuente": 3,
       "analizar": true,
       "resumir": true,
-      "titulo": "‼️ 🇺🇦 🏴‍☠️ 5 ВСУшников расстрелял боец российской ДРГ ▪️ Обвиняется 36-летний уроженец Петербурга из 1009-го мотострелкового полка ВС РФ. ➖ \"По версии следствия, он мог входить в состав диверсионно-разведывательной гр",
-      "titulo_original": "‼️ 🇺🇦 🏴‍☠️ 5 ВСУшников расстрелял боец российской ДРГ ▪️ Обвиняется 36-летний уроженец Петербурга из 1009-го мотострелкового полка ВС РФ. ➖ \"По версии следствия, он мог входить в состав диверсионно-разведывательной гр",
-      "enlace": "https://t.me/elresumenmilitar/101530",
-      "fecha": "2026-10-14T21:47:08.000Z",
-      "resumen_corto": "‼️ 🇺🇦 🏴‍☠️ 5 ВСУшников расстрелял боец российской ДРГ ▪️ Обвиняется 36-летний уроженец Петербурга из 1009-го мотострелкового полка ВС РФ.",
-      "resumen_largo": "‼️ 🇺🇦 🏴‍☠️ 5 ВСУшников расстрелял боец российской ДРГ ▪️ Обвиняется 36-летний уроженец Петербурга из 1009-го мотострелкового полка ВС РФ. ➖ \"По версии следствия, он мог входить в состав диверсионно-разведывательной группы армии России. Для того, чтобы его не распознали, он переоделся в гражданскую одежду\", — заявили в украинской прокуратуре.",
-      "texto_original": "‼️ 🇺🇦 🏴‍☠️ 5 ВСУшников расстрелял боец российской ДРГ ▪️ Обвиняется 36-летний уроженец Петербурга из 1009-го мотострелкового полка ВС РФ. ➖ \"По версии следствия, он мог входить в состав диверсионно-разведывательной группы армии России. Для того, чтобы его не распознали, он переоделся в гражданскую одежду\", — заявили в украинской прокуратуре. ▪️ Наш воин сначала добрался до Циркуновской общины, 13 октября уничтожил 5 ВСУшников, а затем продолжил двигаться к Харькову, где попал в засаду. ▪️ Интересно, что он ликвидировал ценных операторов БПЛА. ⚠️ Подписаться на RV: MAX | t.me/RVvoenkor",
+      "titulo": "03.10.26 Красный Лиман - Новолюбовка Позиционные боевые действия в районе Красного Лимана. Военнослужащий ВСУ попал под обстрел со стороны ВС РФ к западу от Новолюбовки. Увеличение зоны контроля ВСУ до 4 км. 49.15120,37.",
+      "titulo_original": "03.10.26 Красный Лиман - Новолюбовка Позиционные боевые действия в районе Красного Лимана. Военнослужащий ВСУ попал под обстрел со стороны ВС РФ к западу от Новолюбовки. Увеличение зоны контроля ВСУ до 4 км. 49.15120,37.",
+      "enlace": "https://t.me/elresumenmilitar/101556",
+      "fecha": "2026-10-15T07:29:58.000Z",
+      "resumen_corto": "03.10.26 Красный Лиман - Новолюбовка Позиционные боевые действия в районе Красного Лимана.",
+      "resumen_largo": "03.10.26 Красный Лиман - Новолюбовка Позиционные боевые действия в районе Красного Лимана. Военнослужащий ВСУ попал под обстрел со стороны ВС РФ к западу от Новолюбовки. Увеличение зоны контроля ВСУ до 4 км.",
+      "texto_original": "03.10.26 Красный Лиман - Новолюбовка Позиционные боевые действия в районе Красного Лимана. Военнослужащий ВСУ попал под обстрел со стороны ВС РФ к западу от Новолюбовки. Увеличение зоны контроля ВСУ до 4 км. 49.15120,37.91020 На карте Источник Геопривязка #ua",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-15T07:08:44.133Z",
-        "index": 8,
+        "processed_at": "2026-10-15T13:13:26.844Z",
+        "index": 22,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -2634,7 +2965,8 @@
         "category_scores": {},
         "entidades": [],
         "cifras_detectadas": [
-          "1009"
+          "1512",
+          "9102"
         ],
         "content_type": "news",
         "clickbait": {
@@ -2652,9 +2984,9 @@
         "relevancia": 45,
         "confiabilidad_fuente": 45,
         "readability": {
-          "words": 141,
-          "sentences": 13,
-          "average_words_per_sentence": 10.85
+          "words": 100,
+          "sentences": 30,
+          "average_words_per_sentence": 3.33
         },
         "duplicate": {
           "detected": false,
@@ -2666,7 +2998,7 @@
       "final_score": 52
     },
     {
-      "id": "efea5e57c0de4215",
+      "id": "f77e029c34816431",
       "fuente_id": "resumen_militar",
       "fuente_nombre": "El Resumen Militar",
       "tipo": "telegram",
@@ -2678,17 +3010,84 @@
       "prioridad_fuente": 3,
       "analizar": true,
       "resumir": true,
-      "titulo": "‼️ 🇷🇺 🏴‍☠ Борисоглебск в Воронежской области атакован группой крылатых ракет ▪️ Об этом сообщают мониторинговые каналы. ▪️ Ресурсы противника утверждают, что атакован аэродром \"Борисоглебск\" , видно зарево. ⚠️ Подписа",
-      "titulo_original": "‼️ 🇷🇺 🏴‍☠ Борисоглебск в Воронежской области атакован группой крылатых ракет ▪️ Об этом сообщают мониторинговые каналы. ▪️ Ресурсы противника утверждают, что атакован аэродром \"Борисоглебск\" , видно зарево. ⚠️ Подписа",
-      "enlace": "https://t.me/elresumenmilitar/101532",
-      "fecha": "2026-10-14T21:47:49.000Z",
-      "resumen_corto": "‼️ 🇷🇺 🏴‍☠ Борисоглебск в Воронежской области атакован группой крылатых ракет ▪️ Об этом сообщают мониторинговые каналы.",
-      "resumen_largo": "‼️ 🇷🇺 🏴‍☠ Борисоглебск в Воронежской области атакован группой крылатых ракет ▪️ Об этом сообщают мониторинговые каналы. ▪️ Ресурсы противника утверждают, что атакован аэродром \"Борисоглебск\" , видно зарево. ⚠️ Подписаться на RV: MAX | t.me/RVvoenkor",
-      "texto_original": "‼️ 🇷🇺 🏴‍☠ Борисоглебск в Воронежской области атакован группой крылатых ракет ▪️ Об этом сообщают мониторинговые каналы. ▪️ Ресурсы противника утверждают, что атакован аэродром \"Борисоглебск\" , видно зарево. ⚠️ Подписаться на RV: MAX | t.me/RVvoenkor",
+      "titulo": "11.10.26 Великий Бурлук - Бузово Активные боевые действия в Харьковской зоне безопасности. Успешное поражение барражирующим боеприпасом со стороны ВС РФ бронеавтомобиля ВСУ в населённом пункте Бузово. После удара машина",
+      "titulo_original": "11.10.26 Великий Бурлук - Бузово Активные боевые действия в Харьковской зоне безопасности. Успешное поражение барражирующим боеприпасом со стороны ВС РФ бронеавтомобиля ВСУ в населённом пункте Бузово. После удара машина",
+      "enlace": "https://t.me/elresumenmilitar/101554",
+      "fecha": "2026-10-15T07:29:45.000Z",
+      "resumen_corto": "11.10.26 Великий Бурлук - Бузово Активные боевые действия в Харьковской зоне безопасности.",
+      "resumen_largo": "11.10.26 Великий Бурлук - Бузово Активные боевые действия в Харьковской зоне безопасности. Успешное поражение барражирующим боеприпасом со стороны ВС РФ бронеавтомобиля ВСУ в населённом пункте Бузово. После удара машина загорелась.",
+      "texto_original": "11.10.26 Великий Бурлук - Бузово Активные боевые действия в Харьковской зоне безопасности. Успешное поражение барражирующим боеприпасом со стороны ВС РФ бронеавтомобиля ВСУ в населённом пункте Бузово. После удара машина загорелась. Удаление от зоны контроля ВС РФ 6 км. 50.27794,37.38427 На карте Источник #ua #add",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-15T07:08:44.132Z",
-        "index": 7,
+        "processed_at": "2026-10-15T13:13:26.844Z",
+        "index": 23,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "militar",
+        "categorias_secundarias": [],
+        "category_scores": {},
+        "entidades": [],
+        "cifras_detectadas": [
+          "2779",
+          "3842"
+        ],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 65,
+        "relevancia": 45,
+        "confiabilidad_fuente": 45,
+        "readability": {
+          "words": 107,
+          "sentences": 25,
+          "average_words_per_sentence": 4.28
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 52
+    },
+    {
+      "id": "320cced706e2870b",
+      "fuente_id": "resumen_militar",
+      "fuente_nombre": "El Resumen Militar",
+      "tipo": "telegram",
+      "subtipo": "canal_telegram",
+      "grupo_fuente": "telegram_militar",
+      "nivel_fuente": "telegram",
+      "categoria": "militar",
+      "idioma_original": "es",
+      "prioridad_fuente": 3,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "🇷🇺 🇺🇦 Хохлы заявили об уничтожении аж шести истребителей-бомбардировщиков Су-34 на аэродроме в Борисоглебске при помощи ракет \"Нептун\" . Официальных заявлений от МО России нет, как и другой информации. Подписаться на",
+      "titulo_original": "🇷🇺 🇺🇦 Хохлы заявили об уничтожении аж шести истребителей-бомбардировщиков Су-34 на аэродроме в Борисоглебске при помощи ракет \"Нептун\" . Официальных заявлений от МО России нет, как и другой информации. Подписаться на",
+      "enlace": "https://t.me/elresumenmilitar/101560",
+      "fecha": "2026-10-15T12:07:53.000Z",
+      "resumen_corto": "🇷🇺 🇺🇦 Хохлы заявили об уничтожении аж шести истребителей-бомбардировщиков Су-34 на аэродроме в Борисоглебске при помощи ракет \"Нептун\" .",
+      "resumen_largo": "🇷🇺 🇺🇦 Хохлы заявили об уничтожении аж шести истребителей-бомбардировщиков Су-34 на аэродроме в Борисоглебске при помощи ракет \"Нептун\" . Официальных заявлений от МО России нет, как и другой информации. Подписаться на канал | наш МАХ",
+      "texto_original": "🇷🇺 🇺🇦 Хохлы заявили об уничтожении аж шести истребителей-бомбардировщиков Су-34 на аэродроме в Борисоглебске при помощи ракет \"Нептун\" . Официальных заявлений от МО России нет, как и другой информации. Подписаться на канал | наш МАХ",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-10-15T13:13:26.823Z",
+        "index": 1,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -2716,9 +3115,9 @@
         "relevancia": 45,
         "confiabilidad_fuente": 45,
         "readability": {
-          "words": 99,
-          "sentences": 12,
-          "average_words_per_sentence": 8.25
+          "words": 98,
+          "sentences": 10,
+          "average_words_per_sentence": 9.8
         },
         "duplicate": {
           "detected": false,
@@ -2730,7 +3129,7 @@
       "final_score": 50.25
     },
     {
-      "id": "66b38c73817c55a2",
+      "id": "5c1303039a23b619",
       "fuente_id": "resumen_militar",
       "fuente_nombre": "El Resumen Militar",
       "tipo": "telegram",
@@ -2742,17 +3141,17 @@
       "prioridad_fuente": 3,
       "analizar": true,
       "resumir": true,
-      "titulo": "🇷🇺 🇺🇦 В территориальных водах Румынии, в 10 милях от Сулинского канала беспилотником атаковано судно Yara J, шедшее под флагом Коморских островов. Судя пр всему, ждало очереди на заход в украинский порт на Дунае Подп",
-      "titulo_original": "🇷🇺 🇺🇦 В территориальных водах Румынии, в 10 милях от Сулинского канала беспилотником атаковано судно Yara J, шедшее под флагом Коморских островов. Судя пр всему, ждало очереди на заход в украинский порт на Дунае Подп",
-      "enlace": "https://t.me/elresumenmilitar/101529",
-      "fecha": "2026-10-14T21:47:01.000Z",
-      "resumen_corto": "🇷🇺 🇺🇦 В территориальных водах Румынии, в 10 милях от Сулинского канала беспилотником атаковано судно Yara J, шедшее под флагом Коморских островов.",
-      "resumen_largo": "🇷🇺 🇺🇦 В территориальных водах Румынии, в 10 милях от Сулинского канала беспилотником атаковано судно Yara J, шедшее под флагом Коморских островов. Судя пр всему, ждало очереди на заход в украинский порт на Дунае Подписаться на канал | наш МАХ",
-      "texto_original": "🇷🇺 🇺🇦 В территориальных водах Румынии, в 10 милях от Сулинского канала беспилотником атаковано судно Yara J, шедшее под флагом Коморских островов. Судя пр всему, ждало очереди на заход в украинский порт на Дунае Подписаться на канал | наш МАХ",
+      "titulo": "🇺🇦 В ФРГ сейчас идёт суд над хохлом-террористом, который, по мнению немцев, причастен к терактам на \"Северных потоках\" Так вот его адвокат заявил о (ПРИГОТОВЬТЕСЬ!) необходимости ЗАКРЫТЬ ДЕЛО . Почему? А потому что тер",
+      "titulo_original": "🇺🇦 В ФРГ сейчас идёт суд над хохлом-террористом, который, по мнению немцев, причастен к терактам на \"Северных потоках\" Так вот его адвокат заявил о (ПРИГОТОВЬТЕСЬ!) необходимости ЗАКРЫТЬ ДЕЛО . Почему? А потому что тер",
+      "enlace": "https://t.me/elresumenmilitar/101559",
+      "fecha": "2026-10-15T12:07:29.000Z",
+      "resumen_corto": "А потому что террорист \"находится под присягой и не может давать показания\" 😂 \"Непосредственные командиры украинского офицера запретили ему давать какие-либо показания.",
+      "resumen_largo": "🇺🇦 В ФРГ сейчас идёт суд над хохлом-террористом, который, по мнению немцев, причастен к терактам на \"Северных потоках\" Так вот его адвокат заявил о (ПРИГОТОВЬТЕСЬ!) необходимости ЗАКРЫТЬ ДЕЛО . А потому что террорист \"находится под присягой и не может давать показания\" 😂 \"Непосредственные командиры украинского офицера запретили ему давать какие-либо показания. Тот, кто не может высказаться, не может быть осуждён\" Знаете, нацисты на Нюрнбергском процессе тоже были \"под присягой\", но что-то для них никто дело не закрыл 🙂 Другой адвокат, Никола Канестрини, назвал обвинения в военном преступлении \"необоснованными\", утверждая, что газопровод использовался Россией для \"финансирования войны\".",
+      "texto_original": "🇺🇦 В ФРГ сейчас идёт суд над хохлом-террористом, который, по мнению немцев, причастен к терактам на \"Северных потоках\" Так вот его адвокат заявил о (ПРИГОТОВЬТЕСЬ!) необходимости ЗАКРЫТЬ ДЕЛО . Почему? А потому что террорист \"находится под присягой и не может давать показания\" 😂 \"Непосредственные командиры украинского офицера запретили ему давать какие-либо показания. Тот, кто не может высказаться, не может быть осуждён\" Знаете, нацисты на Нюрнбергском процессе тоже были \"под присягой\", но что-то для них никто дело не закрыл 🙂 Другой адвокат, Никола Канестрини, назвал обвинения в военном преступлении \"необоснованными\", утверждая, что газопровод использовался Россией для \"финансирования войны\". 👉 Исходя из этой позиции Россия в праве продолжать наносить удары по портовой инфраструктуре, металлургическим заводам и предприятиям, а также по судам в Чёрном море. А что? Украина за счёт этого \"финансирует войну\", не так ли? 😏 Подписаться на канал | наш МАХ",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-15T07:08:44.133Z",
-        "index": 9,
+        "processed_at": "2026-10-15T13:13:26.825Z",
+        "index": 2,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -2780,9 +3179,9 @@
         "relevancia": 45,
         "confiabilidad_fuente": 45,
         "readability": {
-          "words": 117,
-          "sentences": 6,
-          "average_words_per_sentence": 19.5
+          "words": 262,
+          "sentences": 20,
+          "average_words_per_sentence": 13.1
         },
         "duplicate": {
           "detected": false,
@@ -2794,7 +3193,7 @@
       "final_score": 50.25
     },
     {
-      "id": "b2ea4ed4e942d54c",
+      "id": "de5a7d74e56fcf10",
       "fuente_id": "resumen_militar",
       "fuente_nombre": "El Resumen Militar",
       "tipo": "telegram",
@@ -2806,17 +3205,17 @@
       "prioridad_fuente": 3,
       "analizar": true,
       "resumir": true,
-      "titulo": "🇺🇦 🇬🇧 🇺🇸 Зелебобус: - В ответ на вопрос Моргана: «Как вы думаете, Украина может выиграть войну без американцев на ее стороне?» заявил: «Мы никогда не потеряем нашу независимость». - Я не уйду в отставку, это моя от",
-      "titulo_original": "🇺🇦 🇬🇧 🇺🇸 Зелебобус: - В ответ на вопрос Моргана: «Как вы думаете, Украина может выиграть войну без американцев на ее стороне?» заявил: «Мы никогда не потеряем нашу независимость». - Я не уйду в отставку, это моя от",
-      "enlace": "https://t.me/elresumenmilitar/101526",
-      "fecha": "2026-10-14T21:45:52.000Z",
-      "resumen_corto": "🇺🇦 🇬🇧 🇺🇸 Зелебобус: - В ответ на вопрос Моргана: «Как вы думаете, Украина может выиграть войну без американцев на ее стороне?» заявил: «Мы никогда не потеряем нашу независимость».",
-      "resumen_largo": "🇺🇦 🇬🇧 🇺🇸 Зелебобус: - В ответ на вопрос Моргана: «Как вы думаете, Украина может выиграть войну без американцев на ее стороне?» заявил: «Мы никогда не потеряем нашу независимость». - Я не уйду в отставку, это моя ответственность - Большие дяди меня хотят убрать с должности, потому что я никогда не признаю украинские земли принадлежащими России (снова отказался от сделки) Подписаться на канал | наш МАХ",
-      "texto_original": "🇺🇦 🇬🇧 🇺🇸 Зелебобус: - В ответ на вопрос Моргана: «Как вы думаете, Украина может выиграть войну без американцев на ее стороне?» заявил: «Мы никогда не потеряем нашу независимость». - Я не уйду в отставку, это моя ответственность - Большие дяди меня хотят убрать с должности, потому что я никогда не признаю украинские земли принадлежащими России (снова отказался от сделки) Подписаться на канал | наш МАХ",
+      "titulo": "🇺🇦 ПРОСРОЧЕННОГО ПРОРВАЛО Зелебобус решил в очередной раз пройтись по решениям Трампа: \"Это выбор президента Трампа. Мы не хотим быть втянутыми в некоторые вещи. Сделка по дизелю - я не хочу быть в неё вовлечён. Если о",
+      "titulo_original": "🇺🇦 ПРОСРОЧЕННОГО ПРОРВАЛО Зелебобус решил в очередной раз пройтись по решениям Трампа: \"Это выбор президента Трампа. Мы не хотим быть втянутыми в некоторые вещи. Сделка по дизелю - я не хочу быть в неё вовлечён. Если о",
+      "enlace": "https://t.me/elresumenmilitar/101558",
+      "fecha": "2026-10-15T12:07:10.000Z",
+      "resumen_corto": "🇺🇦 ПРОСРОЧЕННОГО ПРОРВАЛО Зелебобус решил в очередной раз пройтись по решениям Трампа: \"Это выбор президента Трампа.",
+      "resumen_largo": "🇺🇦 ПРОСРОЧЕННОГО ПРОРВАЛО Зелебобус решил в очередной раз пройтись по решениям Трампа: \"Это выбор президента Трампа. Мы не хотим быть втянутыми в некоторые вещи. Сделка по дизелю - я не хочу быть в неё вовлечён.",
+      "texto_original": "🇺🇦 ПРОСРОЧЕННОГО ПРОРВАЛО Зелебобус решил в очередной раз пройтись по решениям Трампа: \"Это выбор президента Трампа. Мы не хотим быть втянутыми в некоторые вещи. Сделка по дизелю - я не хочу быть в неё вовлечён. Если они атакуют нас, мы ответим. Это наше правило. Не втягивайте нас в какие-то дизельные сделки. Если вы просите нас помочь с ситуацией, конечно, как партнёры, мы поможем, но мы попросим об энергетическом перемирии.\" И если вы думали, что одним этим нытьём всё кончилось, то не тут-то было. Зеленский не был бы Зеленским, если бы не устроил очередной скулёж и попрошайничество ракет: \"Если энергетического перемирия нет, и это от вас не зависит, хорошо, тогда вопрос, можете ли вы дать мне ракеты для Patriot? Потому что, когда я не буду атаковать их, потому что вы попросили меня не атаковать их, они будут атаковать меня. Будет справедливо, если вы дадите мне то, чем защищаться. Это минимум, о котором я прошу. И когда я прошу об этом, ваш ответ — заблокировать Starlink. Так как с этим быть?\" Как быть? Обтекай. И теперь к главному — он полностью наплевал на требование Трампа и решил послать его куда подальше: \"Запрет на атаки по НПЗ снят. С нас хватит.\" Впрочем мы это сегодня уже видели . Посмотрим что ответит Донни. Подписаться на канал | наш МАХ",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-15T07:08:44.134Z",
-        "index": 10,
+        "processed_at": "2026-10-15T13:13:26.826Z",
+        "index": 3,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -2844,9 +3243,9 @@
         "relevancia": 45,
         "confiabilidad_fuente": 45,
         "readability": {
-          "words": 150,
-          "sentences": 11,
-          "average_words_per_sentence": 13.64
+          "words": 240,
+          "sentences": 31,
+          "average_words_per_sentence": 7.74
         },
         "duplicate": {
           "detected": false,
@@ -2858,24 +3257,24 @@
       "final_score": 50.25
     }
   ],
-  "analyzed_at": "2026-10-15T07:08:44.143Z",
+  "analyzed_at": "2026-10-15T13:13:26.855Z",
   "analysis_stats": {
-    "input_items": 40,
-    "valid_items": 40,
+    "input_items": 46,
+    "valid_items": 46,
     "rejected_items": 0,
-    "duplicate_items": 0,
-    "clickbait_items": 0,
+    "duplicate_items": 1,
+    "clickbait_items": 2,
     "spam_items": 0,
-    "summaries_generated": 40,
+    "summaries_generated": 46,
     "average_quality": 80,
-    "average_relevance": 57
+    "average_relevance": 60
   },
   "validation": {
     "version": "1.1",
-    "executed_at": "2026-10-15T07:08:44.239Z",
-    "original_items": 40,
+    "executed_at": "2026-10-15T13:13:26.995Z",
+    "original_items": 46,
     "rejected_items": 0,
-    "final_items": 40,
+    "final_items": 45,
     "limit": 60,
     "status": "ok"
   }

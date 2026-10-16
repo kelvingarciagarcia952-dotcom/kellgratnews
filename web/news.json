@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "updated_at": "2026-10-15T22:03:20.536Z",
+  "updated_at": "2026-10-16T00:22:40.913Z",
   "configuracion": {
     "limite_global": 60,
     "frecuencia_minutos": 60,
@@ -22,80 +22,12 @@
   },
   "source_stats": {
     "active_sources": 15,
-    "successful_sources": 14,
-    "collected_items": 57,
-    "deduplicated_items": 39,
-    "final_items": 39
+    "successful_sources": 7,
+    "collected_items": 32,
+    "deduplicated_items": 23,
+    "final_items": 23
   },
   "items": [
-    {
-      "id": "0c2a0aa065afdf2f",
-      "fuente_id": "openai_google",
-      "fuente_nombre": "OpenAI",
-      "tipo": "rss_web",
-      "subtipo": "google_news",
-      "grupo_fuente": "openai",
-      "nivel_fuente": "fuente_oficial",
-      "categoria": "inteligencia_artificial",
-      "idioma_original": "en",
-      "prioridad_fuente": 5,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "Datos de costes retrasados en la API de cumplimiento",
-      "titulo_original": "Delayed Costs data in the Compliance API - OpenAI",
-      "enlace": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9sM2JlX2JZdUVXa0t0c1pVYXprMnZybWVJSGxpb014VGM1ZVJpbkVFQmVUdklmbU1hTG1zcExCeEpfaEo4UWFWU2dwcXBCWV9tV2tGMEhaMA?oc=5",
-      "fecha": "2026-10-14T17:02:47.000Z",
-      "resumen_corto": "Datos de costes retrasados en la API de cumplimiento OpenAI",
-      "resumen_largo": "Datos de costes retrasados en la API de cumplimiento OpenAI",
-      "texto_original": "Delayed Costs data in the Compliance API OpenAI",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-10-15T22:03:20.413Z",
-        "index": 30,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "en",
-        "categoria": "inteligencia_artificial",
-        "categorias_secundarias": [],
-        "category_scores": {
-          "inteligencia_artificial": 3
-        },
-        "entidades": [
-          "OpenAI"
-        ],
-        "cifras_detectadas": [],
-        "content_type": "report",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 92,
-        "relevancia": 63,
-        "confiabilidad_fuente": 85,
-        "readability": {
-          "words": 31,
-          "sentences": 1,
-          "average_words_per_sentence": 31
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 78.65
-    },
     {
       "id": "dc30efaaf75dbe5a",
       "fuente_id": "huawei_google",
@@ -118,8 +50,8 @@
       "texto_original": "Kirin 9050 Pro is first chip to protect against data security threats: Huawei Huawei Central",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-15T22:03:20.416Z",
-        "index": 34,
+        "processed_at": "2026-10-16T00:22:40.796Z",
+        "index": 19,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -174,83 +106,6 @@
       "final_score": 77
     },
     {
-      "id": "355cda87fd20553d",
-      "fuente_id": "bbc_mundo",
-      "fuente_nombre": "BBC Mundo",
-      "tipo": "rss_web",
-      "subtipo": "medio_generalista",
-      "grupo_fuente": "bbc",
-      "nivel_fuente": "medio_profesional",
-      "categoria": "actualidad",
-      "idioma_original": "es",
-      "prioridad_fuente": 5,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "Trump cancela la transmisión en vivo de la ejecución del primer militar que será fusilado en EE.UU. desde la II Guerra Mundial",
-      "titulo_original": "Trump cancela la transmisión en vivo de la ejecución del primer militar que será fusilado en EE.UU. desde la II Guerra Mundial",
-      "enlace": "https://www.bbc.com/mundo/articles/cq99z15e1271o?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-10-15T15:55:04.000Z",
-      "resumen_corto": "El presidente estadounidense Donald Trump canceló los planes de transmitir en directo la ejecución por fusilamiento del expsiquiatra del ejército estadounidense Nidal Hasan.",
-      "resumen_largo": "El presidente estadounidense Donald Trump canceló los planes de transmitir en directo la ejecución por fusilamiento del expsiquiatra del ejército estadounidense Nidal Hasan. Trump había dicho previamente que aprobaba que se transmitiera la muerte del atacante. Por su parte, el vicepresidente JD Vance hanía puesto en duda que el evento en efecto fuera a ocurrir y afirmó que él personalmente no lo vería.",
-      "texto_original": "El presidente estadounidense Donald Trump canceló los planes de transmitir en directo la ejecución por fusilamiento del expsiquiatra del ejército estadounidense Nidal Hasan. Trump había dicho previamente que aprobaba que se transmitiera la muerte del atacante. Por su parte, el vicepresidente JD Vance hanía puesto en duda que el evento en efecto fuera a ocurrir y afirmó que él personalmente no lo vería. Ante la creciente ola de críticas por el plan de exhibir públicamente la ejecución, Trump aseguró el jueves que \"muchas personas muy buenas y bienintencionadas preferirían no verlo morir\". \"Creo que transmitir la ejecución en directo para que todos la vieran podría haber sido un fuerte elemento disuasorio para que el mundo presenciara cómo EE.UU. trata a terroristas y escoria como Hasan\", dijo Trump. John Galligan, asesor legal de Nidal Hasan —quien trabaja principalmente en cuestiones civiles—, declaró a la BBC que la decisión de Donald Trump de cancelar la transmisión en vivo de la ejecución de Hasan \"no es ninguna sorpresa\".",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-10-15T22:03:20.401Z",
-        "index": 9,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "es",
-        "categoria": "militar",
-        "categorias_secundarias": [
-          "actualidad",
-          "inteligencia_artificial",
-          "moviles"
-        ],
-        "category_scores": {
-          "militar": 3,
-          "actualidad": 2,
-          "inteligencia_artificial": 1,
-          "moviles": 1,
-          "vehiculos_energia": 1
-        },
-        "entidades": [
-          "Vivo",
-          "BBC"
-        ],
-        "cifras_detectadas": [],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 84,
-        "relevancia": 75,
-        "confiabilidad_fuente": 70,
-        "readability": {
-          "words": 211,
-          "sentences": 16,
-          "average_words_per_sentence": 13.19
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 76.9
-    },
-    {
       "id": "37574943a725cc8c",
       "fuente_id": "huawei_google",
       "fuente_nombre": "Huawei Central",
@@ -272,8 +127,8 @@
       "texto_original": "Huawei is only smartphone brand to see double-digit growth in Q3 2026: Report Huawei Central",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-15T22:03:20.417Z",
-        "index": 37,
+        "processed_at": "2026-10-16T00:22:40.797Z",
+        "index": 22,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -342,8 +197,8 @@
       "texto_original": "\"No podía creer lo que tenía frente a mis ojos\". Así describió Amelie Davis a la BBC su sorpresa al ver la imagen que congela el aleteo de un abejorro cardador común en el instante en que se prepara para posarse sobre una flor. Había salido a almorzar con su familia cuando \"vi este lecho de flores lleno de abejorros y no pude resistir tomar la foto\". Le pidió a su padre su teléfono inteligente y se acercó a su objetivo para no perder el enfoque. La joven fotógrafa británica creyó que el insecto ya se había posado en la flor cuando pulsó el botón, pero quedó encantada cuando vio que lo había captado en pleno vuelo. La foto, tomada en Surrey, Inglaterra, le mereció a Amelie el premio en la categoría de 10 años o menos. Pero es prueba que no necesitas una cámara ni un billete de avión para tomar una foto premiada. La exposición anual del concurso se inaugura en el Museo de Historia Natural en Londres el viernes 16 de octubre de 2026. Continúa abajo para ver más imágenes galardonadas.",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-15T22:03:20.407Z",
-        "index": 18,
+        "processed_at": "2026-10-16T00:22:40.791Z",
+        "index": 9,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -396,79 +251,6 @@
       "final_score": 73.45
     },
     {
-      "id": "f0af266ffc1a55c3",
-      "fuente_id": "openai_google",
-      "fuente_nombre": "OpenAI",
-      "tipo": "rss_web",
-      "subtipo": "google_news",
-      "grupo_fuente": "openai",
-      "nivel_fuente": "fuente_oficial",
-      "categoria": "inteligencia_artificial",
-      "idioma_original": "en",
-      "prioridad_fuente": 5,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "Más capacidad, menos interrupciones: Día 11 de 28 días de mejoras en la calidad de vida y/o un restablecimiento completo - Comunidad de desarrolladores de OpenAI",
-      "titulo_original": "More capacity, fewer interruptions: Day 11 of 28 days of Quality of Life improvements and/or a full Reset - OpenAI Developer Community",
-      "enlace": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQajlNd0NQeFNUbXdjMWdrcU1Rd1RoM2RtUEVILWs4RjVkZmlZWHZkMEt6cjFkemJDNkZDd3hpNnc1VGt6b25YMnpyY1o1dWlIYUlSMExaTHlkTElNeVdqMkNtbjRXQ3JSQXJkYjBJZmExcmRDd1pEZTNhQ1RvRGswcVVxQS1pblNuZDk0WExtcnRvNFIwYk5WbEpHSTVlUFg4Ti01WTRqM0FPeGQ4X3pOYzYxUXU1U3E4RmpVSEFucHVUcjh5b2JiZHREd2FQeHlTRWJ2bFRRa1RHZw?oc=5",
-      "fecha": "2026-10-05T07:00:00.000Z",
-      "resumen_corto": "Más capacidad, menos interrupciones: Día 11 de 28 días de mejoras en la calidad de vida y/o un restablecimiento completo de la comunidad de desarrolladores de OpenAI",
-      "resumen_largo": "Más capacidad, menos interrupciones: Día 11 de 28 días de mejoras en la calidad de vida y/o un restablecimiento completo de la comunidad de desarrolladores de OpenAI",
-      "texto_original": "More capacity, fewer interruptions: Day 11 of 28 days of Quality of Life improvements and/or a full Reset OpenAI Developer Community",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-10-15T22:03:20.418Z",
-        "index": 38,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "en",
-        "categoria": "inteligencia_artificial",
-        "categorias_secundarias": [
-          "hardware",
-          "vehiculos_energia"
-        ],
-        "category_scores": {
-          "inteligencia_artificial": 3,
-          "hardware": 1,
-          "vehiculos_energia": 1
-        },
-        "entidades": [
-          "OpenAI"
-        ],
-        "cifras_detectadas": [],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 84,
-        "relevancia": 62,
-        "confiabilidad_fuente": 75,
-        "readability": {
-          "words": 72,
-          "sentences": 1,
-          "average_words_per_sentence": 72
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 72.95
-    },
-    {
       "id": "fb630346647c986d",
       "fuente_id": "bbc_mundo",
       "fuente_nombre": "BBC Mundo",
@@ -490,8 +272,8 @@
       "texto_original": "Nathan Fielder no se propuso realizar un documental sobre Elizabeth Holmes. Tal como explicó hace unos días tras el estreno de You Can See Everything en el Festival de Cine de Nueva York, al principio solo sentía curiosidad por conocerla. No era el único que se interesaba por una mujer que ha acaparado la atención pública —para bien y, más tarde, para mal— durante más de una década. En 2014, Holmes fue aclamada como una multimillonaria hecha a sí misma y fundadora de Theranos, una empresa de tecnología sanitaria que aseguraba haber inventado un dispositivo capaz de diagnosticar enfermedades a partir de una simple gota de sangre. Había cultivado una imagen muy llamativa, que quedó plasmada en su aparición en la portada de la revista Fortune : una mirada inquietante con los ojos muy abiertos, labios de un rojo intenso y un buzo cuello tortuga al estilo de Steve Jobs. Sin embargo, se convirtió en una figura aún más fascinante tras su estrepitosa caída, cuando salió a la luz que el dispositivo no funcionaba y que, en ocasiones, daba resultados erróneos. Tras ser declarada culpable de defraudar a inversionistas, fue recluida en una prisión federal en mayo de 2023.",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-15T22:03:20.391Z",
-        "index": 1,
+        "processed_at": "2026-10-16T00:22:40.786Z",
+        "index": 4,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -566,8 +348,8 @@
       "texto_original": "El expresidente de Venezuela, Nicolás Maduro, y su esposa, Cilia Flores, comparecieron este jueves ante un tribunal de Nueva York y se declararon no culpables de los nuevos cargos por conspiración para cometer actos de tortura. El gobierno de Estados Unidos acusó inicialmente a Maduro de narcoterrorismo, tráfico de drogas y delitos relacionados con armas, antes de añadir nuevos cargos contra él y Flores la semana pasada. Maduro y Flores fueron capturados en enero durante una incursión militar estadounidense y posteriormente fueron trasladados a Nueva York, donde permanecen encarcelados. La pareja se ha declarado inocente de las acusaciones y ambos han solicitado que se desestime el caso, argumentando que les asiste la inmunidad soberana. El juicio está programado para junio de 2027. En una nueva acusación formal presentada la semana pasada, los fiscales alegan que, tras asumir la presidencia en 2013, Maduro \"autorizó el uso de la tortura contra personas específicas y supervisó un sistema diseñado para emplear la tortura, la detención arbitraria y la violencia como medios de represión contra la oposición política\". Las presuntas torturas las habrían sufrido más de una decena de ciudadanos estadounidenses que estuvieron presos en Venezuela mientras Maduro estaba en el poder.",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-15T22:03:20.396Z",
-        "index": 6,
+        "processed_at": "2026-10-16T00:22:40.788Z",
+        "index": 5,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -644,8 +426,8 @@
       "texto_original": "2026 ya estaba siendo un año lo bastante difícil para la ganadera de Nebraska Yvette Mannon. En abril, un incendio forestal destruyó más de 600 hectáreas de pastizales y 21 kilómetros de cerca en el rancho que compró en 2002 en un rincón de Nebraska lleno de onduladas colinas verdes bajo los extensos cielos del Medio Oeste, un paisaje salpicado de silos de grano y corrales de engorde junto a extensos campos de ganado vacuno. Las 300 cabezas de ganado de Mannon sobrevivieron al incendio, pero hubo que reemplazar la cerca y seguir alimentando al rebaño. Con los precios del acero en sus niveles más altos en años, fuertemente afectados por los aranceles impuestos por el presidente estadounidense Donald Trump, eso significó gastar US$16 por metro, para un total que superó los US$300.000. Además, debido a la gran cantidad de buenos pastos destruidos, Mannon también necesitaba un tractor que saliera todos los días a entregar heno a su ganado, en un momento en el que los precios del diésel, disparados debido a la guerra con Irán, habían subido más de un 40% con respecto al año anterior. En agosto, el gobierno de Trump anunció la importación de 300.000 toneladas métricas de carne de res extranjera libre de aranceles, con el objetivo de reducir los precios para el consumidor. La noticia se dio a conocer justo antes del período comprendido entre septiembre y noviembre, cuando la mayoría de los terneros estadounidenses son destetados y vendidos.",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-15T22:03:20.404Z",
-        "index": 13,
+        "processed_at": "2026-10-16T00:22:40.790Z",
+        "index": 8,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -724,8 +506,8 @@
       "texto_original": "Qualcomm-Huawei Deal: New chapter begins to bridge gap in China’s chip tech Huawei Central",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-15T22:03:20.416Z",
-        "index": 35,
+        "processed_at": "2026-10-16T00:22:40.796Z",
+        "index": 20,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -780,46 +562,44 @@
       "final_score": 71.95
     },
     {
-      "id": "0b09fa329c904610",
-      "fuente_id": "wccftech_google",
-      "fuente_nombre": "Wccftech",
+      "id": "184ac15d4dd3bc8d",
+      "fuente_id": "bbc_mundo",
+      "fuente_nombre": "BBC Mundo",
       "tipo": "rss_web",
-      "subtipo": "google_news",
-      "grupo_fuente": "wccftech",
-      "nivel_fuente": "medio_especializado",
-      "categoria": "hardware",
-      "idioma_original": "en",
-      "prioridad_fuente": 4,
+      "subtipo": "medio_generalista",
+      "grupo_fuente": "bbc",
+      "nivel_fuente": "medio_profesional",
+      "categoria": "actualidad",
+      "idioma_original": "es",
+      "prioridad_fuente": 5,
       "analizar": true,
       "resumir": true,
-      "titulo": "Startup china presenta el primer prototipo de fuente de luz EUV para desafiar el monopolio de ASML, pero la empresa holandesa no perderá el sueño por este progreso",
-      "titulo_original": "Chinese Startup Unveils First EUV Light Source Prototype To Challenge ASML’s Monopoly, But Dutch Firm Won’t Be Losing Any Sleep Over This Progress - Wccftech",
-      "enlace": "https://news.google.com/rss/articles/CBMieEFVX3lxTE01UGNYbGM0S2NZdUIyQUZyLWhmY1ZZeEc0dks3cXlxUnpSUkxCV3J0S29VbHRaZXBHa0J6U2tfbDU2VU9DUXpLLXBFM0hqTUZmLV9vekZBdGZLbWNMZVgwbkstcG01ckxlYUFUc1RkRWh6elBaWmdoRdIBfkFVX3lxTE5kR1RkYTFLeURndTVEc3k5cmViY0p1c0M1YlA0cGVLYWthTEZTeXBpMTlzVzZ4azFNTW4wWDUtZzdURTRkVlBJSWMwc0w4VU41bTR3Z2FhOHFJZ21KRmIwSUFoZjM5UTZRcURhSXd0dHhaYm1FU0lEOFRBM0cxdw?oc=5",
-      "fecha": "2026-10-15T14:08:04.000Z",
-      "resumen_corto": "Startup china presenta el primer prototipo de fuente de luz EUV para desafiar el monopolio de ASML, pero la empresa holandesa no perderá el sueño con este progreso de Wccftech",
-      "resumen_largo": "Startup china presenta el primer prototipo de fuente de luz EUV para desafiar el monopolio de ASML, pero la empresa holandesa no perderá el sueño con este progreso de Wccftech",
-      "texto_original": "Chinese Startup Unveils First EUV Light Source Prototype To Challenge ASML’s Monopoly, But Dutch Firm Won’t Be Losing Any Sleep Over This Progress Wccftech",
+      "titulo": "Al menos 3 niños y un adulto mueren en un tiroteo en una escuela primaria de Oregón, según medios en EE.UU.",
+      "titulo_original": "Al menos 3 niños y un adulto mueren en un tiroteo en una escuela primaria de Oregón, según medios en EE.UU.",
+      "enlace": "https://www.bbc.com/mundo/articles/ckj0l9lrenq6o?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-10-16T00:10:11.000Z",
+      "resumen_corto": "El incidente ocurrió en la escuela Silver Rail de la localidad de Bend alrededor de las 13:00, hora local.",
+      "resumen_largo": "El incidente ocurrió en la escuela Silver Rail de la localidad de Bend alrededor de las 13:00, hora local. El sospechoso fue abatido, indicó la policía.",
+      "texto_original": "El incidente ocurrió en la escuela Silver Rail de la localidad de Bend alrededor de las 13:00, hora local. El sospechoso fue abatido, indicó la policía.",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-15T22:03:20.403Z",
-        "index": 12,
+        "processed_at": "2026-10-16T00:22:40.781Z",
+        "index": 0,
         "resumen": {
           "generado": true,
           "origen": "translated"
         },
         "idioma_detectado": "es",
-        "idioma_original": "en",
+        "idioma_original": "es",
         "categoria": "inteligencia_artificial",
         "categorias_secundarias": [
-          "tecnologia"
+          "moviles"
         ],
         "category_scores": {
-          "inteligencia_artificial": 1,
-          "tecnologia": 1
+          "inteligencia_artificial": 2,
+          "moviles": 1
         },
-        "entidades": [
-          "Wccftech"
-        ],
+        "entidades": [],
         "cifras_detectadas": [],
         "content_type": "report",
         "clickbait": {
@@ -833,301 +613,13 @@
           "signals": [],
           "url_count": 0
         },
-        "calidad": 90,
-        "relevancia": 63,
-        "confiabilidad_fuente": 60,
-        "readability": {
-          "words": 106,
-          "sentences": 1,
-          "average_words_per_sentence": 106
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 71.7
-    },
-    {
-      "id": "47ccc89b20c8b9f8",
-      "fuente_id": "openai_google",
-      "fuente_nombre": "OpenAI",
-      "tipo": "rss_web",
-      "subtipo": "google_news",
-      "grupo_fuente": "openai",
-      "nivel_fuente": "fuente_oficial",
-      "categoria": "inteligencia_artificial",
-      "idioma_original": "en",
-      "prioridad_fuente": 5,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "Degradación generalizada de características",
-      "titulo_original": "Widespread feature degradation - OpenAI",
-      "enlace": "https://news.google.com/rss/articles/CBMib0FVX3lxTE43Z3NudFRSMDZqb0o3aXN1czhQdDJuaEJKS1g4bzRnYlUzVFJtS0ZSOUUxQlFodzZ0S3dJU29pT2VBa0xVa3ZrS2tOX2F5MVE5UjRjWUY3Z2JMbDN0dkNrc1BEVzVlSElmeEpZa0tBbw?oc=5",
-      "fecha": "2026-10-15T16:50:42.000Z",
-      "resumen_corto": "Degradación generalizada de características OpenAI",
-      "resumen_largo": "Degradación generalizada de características OpenAI",
-      "texto_original": "Widespread feature degradation OpenAI",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-10-15T22:03:20.397Z",
-        "index": 8,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "en",
-        "categoria": "inteligencia_artificial",
-        "categorias_secundarias": [
-          "vehiculos_energia"
-        ],
-        "category_scores": {
-          "inteligencia_artificial": 2,
-          "vehiculos_energia": 1
-        },
-        "entidades": [
-          "OpenAI"
-        ],
-        "cifras_detectadas": [],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 84,
-        "relevancia": 55,
-        "confiabilidad_fuente": 75,
-        "readability": {
-          "words": 19,
-          "sentences": 1,
-          "average_words_per_sentence": 19
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 70.15
-    },
-    {
-      "id": "b2fb323f3dcc27eb",
-      "fuente_id": "openai_google",
-      "fuente_nombre": "OpenAI",
-      "tipo": "rss_web",
-      "subtipo": "google_news",
-      "grupo_fuente": "openai",
-      "nivel_fuente": "fuente_oficial",
-      "categoria": "inteligencia_artificial",
-      "idioma_original": "en",
-      "prioridad_fuente": 5,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "Enseñar a los estudiantes a pensar y aprender a través de preguntas",
-      "titulo_original": "Teaching students to think and learn through questions - OpenAI",
-      "enlace": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOUUM4cS05YTJBcTliVVRXaW9CVU1tWGFWRVZPWExRMzNpSDNIM0xSc0l6czdLOFFUSFFPN0czQ0l4cG9PeUNjYWVUajlQNF9ZalNZZTJ2S09VRTlqdlE3Y283MW5CLUE5V2hIdXdMX3V6OERkSHVqTWJLWGE2dmFtdHJSREFrb3c?oc=5",
-      "fecha": "2026-10-15T13:06:42.000Z",
-      "resumen_corto": "Enseñar a los estudiantes a pensar y aprender a través de preguntas OpenAI",
-      "resumen_largo": "Enseñar a los estudiantes a pensar y aprender a través de preguntas OpenAI",
-      "texto_original": "Teaching students to think and learn through questions OpenAI",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-10-15T22:03:20.406Z",
-        "index": 17,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "en",
-        "categoria": "inteligencia_artificial",
-        "categorias_secundarias": [],
-        "category_scores": {
-          "inteligencia_artificial": 3
-        },
-        "entidades": [
-          "OpenAI"
-        ],
-        "cifras_detectadas": [],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 84,
-        "relevancia": 55,
-        "confiabilidad_fuente": 75,
-        "readability": {
-          "words": 39,
-          "sentences": 1,
-          "average_words_per_sentence": 39
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 70.15
-    },
-    {
-      "id": "5c3a749c46aa8453",
-      "fuente_id": "genbeta_google",
-      "fuente_nombre": "Genbeta",
-      "tipo": "rss_web",
-      "subtipo": "google_news",
-      "grupo_fuente": "genbeta",
-      "nivel_fuente": "medio_especializado",
-      "categoria": "software_internet",
-      "idioma_original": "es",
-      "prioridad_fuente": 4,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "Su escuela bloqueó ChatGPT. Ahora esta estudiante de secundaria de 17 años dirige una startup de inteligencia artificial con 1.000 usuarios",
-      "titulo_original": "Su escuela bloqueó ChatGPT. Ahora esta estudiante de secundaria de 17 años dirige una startup de inteligencia artificial con 1.000 usuarios - Genbeta",
-      "enlace": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQQjNQRUc3VGpscWlXNl9Ub2NnZ1lTbVpaZGEwLVF5QUVGcEdwUmlma2pxSy0tSFZCdEJMNVNnRS03Szg2bTh3QzNDcmRIV2xJdnViQzdOSUUxQ2FfVG01d0wyWjJCZ0pNRU45eUJXTjZzY3JQejdZRUVUSG52elMtOTZPN25IOHNhSW4zcVNLTl9FM0xVdnNHUE9ILXVhWlVrbkpvbE5VemRGcmtNd3lJOU1qTjNCUHRYVlhVNjk1R0NZUXRSMnhOb29GVDdOa1Y0TThrai1VenJic05YT1JZU0Y2cVlWc08zQ2VSLUQxVXFfTVdzNzBEelRzMHl3UdIBgwJBVV95cUxQbFZxdFJaemR4MEpKcUtaVks2VGM0eTRCZWpfWXE1eGZKOHhuaG81eDJKY3QtdjlhZjRhZ0JwX21tUlhCM09ralJ4SWxEU2FtVzFBWGoyTVFEOHB4WXBZeVltM3l6OTRJTlY0czVqaUxleXJuQkVTNzUxSmNFZWpPei1ZS1ljcDcybTI4VHB0SF8xc3Z3U1dWUHJkOHZDcG03VzVLUF9WTW5XNG1iMk0zZjJVN21CZmhKeTJ1MkhIWUlZMnlHRE1zMDNNUXVHd1ExTU83d3ViR0JjWUpKM0p1OTJlMFU4czZfWXUwQWNuZGdtLTBwWklrTlRvTzlRVGFPQmNV?oc=5",
-      "fecha": "2026-10-15T09:30:25.000Z",
-      "resumen_corto": "Ahora esta estudiante de secundaria de 17 años dirige una startup de inteligencia artificial con 1.000 usuarios Genbeta",
-      "resumen_largo": "Su escuela bloqueó ChatGPT. Ahora esta estudiante de secundaria de 17 años dirige una startup de inteligencia artificial con 1.000 usuarios Genbeta",
-      "texto_original": "Su escuela bloqueó ChatGPT. Ahora esta estudiante de secundaria de 17 años dirige una startup de inteligencia artificial con 1.000 usuarios Genbeta",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-10-15T22:03:20.412Z",
-        "index": 26,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "es",
-        "categoria": "inteligencia_artificial",
-        "categorias_secundarias": [
-          "moviles"
-        ],
-        "category_scores": {
-          "inteligencia_artificial": 5,
-          "moviles": 1
-        },
-        "entidades": [
-          "ChatGPT",
-          "Genbeta"
-        ],
-        "cifras_detectadas": [],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 82,
-        "relevancia": 67,
-        "confiabilidad_fuente": 50,
-        "readability": {
-          "words": 81,
-          "sentences": 10,
-          "average_words_per_sentence": 8.1
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 68
-    },
-    {
-      "id": "1c0c5266031b2167",
-      "fuente_id": "xataka_google",
-      "fuente_nombre": "Xataka",
-      "tipo": "rss_web",
-      "subtipo": "google_news",
-      "grupo_fuente": "xataka",
-      "nivel_fuente": "medio_especializado",
-      "categoria": "tecnologia",
-      "idioma_original": "es",
-      "prioridad_fuente": 4,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "Nvidia se ha propuesto diversificar su apuesta por la IA: ha donado 250 millones de dólares a Reino Unido y más de 2.000 millones en Europa",
-      "titulo_original": "Nvidia se ha propuesto diversificar su apuesta por la IA: ha donado 250 millones de dólares a Reino Unido y más de 2.000 millones en Europa - Xataka",
-      "enlace": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOVm5rT3dwckVkdGhYa1VGRW15cjl4dXZ1eGtfV3VlMDVReVp4VUJnaFMyc0oyMEpvaHBNQktaMEgxUkFFSE1jWWs1b3FPRDB6MW9DUHBaNGk1Y19JLWRsMWxjWXg5NWJBdHdMenBBbnVId2VYQ05GTjhpVXBMYm1IaFd4VlZab3gtbkVRTURRY0h5d3Uyek43LXVKbkVrOXVnU3Zib1ZMaEF2WmJ2ME1KWWhyeWRhSXNuMVpFTHRvMU95enVwZm9OWlJGY2xRMGJ6RU5mN0NYQXlJV2REV04xZ0dxeG5NUkFfUGRGS0dxdXbSAfYBQVVfeXFMTVBKdzJ4TjR0ZUpKVDAyYXFxS3o3ZjBCcjBQWGlwUGpPMlJ6Y09tdW5tZGlMWEdLMEFwVXBtMUNEcEhMeHAyRXdYQlU5ZlltbjA0cGdNM2RQeXVjTE5nMEViUUFmNXBLa0FNc3NjRXhPZUZodlR1MldKSXUyOUlXeFBsNGdhVTlvRlFMM042X3FEUkQ2R3p3aUZEVFhTbjZMUWhIVFI3ODVwTmFfdDRuZ0lmQ2Zyc0t1alpkWlluQ3RlZ0VXWGx5MG04N24yWkVuR3hkR0c4S1podUpKVXY4QWFyeU45d0Vhc2FOUnFWc0VFUDUzSVJ3?oc=5",
-      "fecha": "2026-10-15T18:16:25.000Z",
-      "resumen_corto": "Nvidia se ha propuesto diversificar su apuesta por la IA: ha donado 250 millones de dólares a Reino Unido y más de 2.000 millones en Europa Xataka",
-      "resumen_largo": "Nvidia se ha propuesto diversificar su apuesta por la IA: ha donado 250 millones de dólares a Reino Unido y más de 2.000 millones en Europa Xataka",
-      "texto_original": "Nvidia se ha propuesto diversificar su apuesta por la IA: ha donado 250 millones de dólares a Reino Unido y más de 2.000 millones en Europa Xataka",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-10-15T22:03:20.394Z",
-        "index": 5,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "es",
-        "categoria": "inteligencia_artificial",
-        "categorias_secundarias": [
-          "vehiculos_energia"
-        ],
-        "category_scores": {
-          "inteligencia_artificial": 1,
-          "vehiculos_energia": 1
-        },
-        "entidades": [
-          "NVIDIA",
-          "Xataka"
-        ],
-        "cifras_detectadas": [
-          "250 m",
-          "2.000 m"
-        ],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 30,
-          "signals": [
-            "\\bapuesta\\b"
-          ],
-          "url_count": 0
-        },
         "calidad": 87,
-        "relevancia": 60,
-        "confiabilidad_fuente": 50,
+        "relevancia": 50,
+        "confiabilidad_fuente": 80,
         "readability": {
-          "words": 79,
-          "sentences": 6,
-          "average_words_per_sentence": 13.17
+          "words": 65,
+          "sentences": 9,
+          "average_words_per_sentence": 7.22
         },
         "duplicate": {
           "detected": false,
@@ -1136,80 +628,7 @@
           "similar_to": null
         }
       },
-      "final_score": 66.95
-    },
-    {
-      "id": "33001e629b1e9234",
-      "fuente_id": "wccftech_google",
-      "fuente_nombre": "Wccftech",
-      "tipo": "rss_web",
-      "subtipo": "google_news",
-      "grupo_fuente": "wccftech",
-      "nivel_fuente": "medio_especializado",
-      "categoria": "hardware",
-      "idioma_original": "en",
-      "prioridad_fuente": 4,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "El tráiler de lanzamiento de 90 segundos de Grand Theft Auto VI de Rockstar omite la mecánica de juego, pero la justicia, SZA y Tame Impala crean el estado de ánimo",
-      "titulo_original": "Rockstar’s Grand Theft Auto VI 90-Second Launch Trailer Skips Gameplay Mechanics, But Justice, SZA, and Tame Impala Set the Mood - Wccftech",
-      "enlace": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPeU1heHM3SkNVa0tlWHR4cWlUbi1yOHdvZDFmYmh3Y1l5UHR0ZDhxUFFjRmtYRlFOVndlX1E1WXRTQ0hNS0NtLWg3YUhFeDgxd3pNYkpMdm01cnB6UHZrSUtGMm94WExVMV9aYU1jVDBqOElCc2JBRUFvdEhRMnNMcjlBZnNOUldxOWhBLXM0d9IBlAFBVV95cUxQbVZQQnZwb19FMUt0MHZTdmZBbkpQXzl4UWJNYWNaVDM2eFN0S2pWU3dkZjlvQ2dhQUVtS0hUSllPeG9TYmlnb2N1YzZuZEJYVGNtRHNaMGtISHQzX1dXNzRPSDNmVXgwaFc4OUZ4TkJUMWIzM3ZTOXpPZEctemk0RGZhQkFXcHdaV3l1d3BjZVA2UXFN?oc=5",
-      "fecha": "2026-10-15T13:15:00.000Z",
-      "resumen_corto": "El tráiler de lanzamiento de 90 segundos de Grand Theft Auto VI de Rockstar omite la mecánica de juego, pero Justice, SZA y Tame Impala establecen el estado de ánimo Wccftech",
-      "resumen_largo": "El tráiler de lanzamiento de 90 segundos de Grand Theft Auto VI de Rockstar omite la mecánica de juego, pero Justice, SZA y Tame Impala establecen el estado de ánimo Wccftech",
-      "texto_original": "Rockstar’s Grand Theft Auto VI 90-Second Launch Trailer Skips Gameplay Mechanics, But Justice, SZA, and Tame Impala Set the Mood Wccftech",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-10-15T22:03:20.406Z",
-        "index": 16,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "en",
-        "categoria": "inteligencia_artificial",
-        "categorias_secundarias": [
-          "vehiculos_energia",
-          "tecnologia"
-        ],
-        "category_scores": {
-          "inteligencia_artificial": 2,
-          "vehiculos_energia": 1,
-          "tecnologia": 1
-        },
-        "entidades": [
-          "Wccftech"
-        ],
-        "cifras_detectadas": [],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 82,
-        "relevancia": 62,
-        "confiabilidad_fuente": 50,
-        "readability": {
-          "words": 96,
-          "sentences": 1,
-          "average_words_per_sentence": 96
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 66
+      "final_score": 70.45
     },
     {
       "id": "195a88e89918fe50",
@@ -1233,8 +652,8 @@
       "texto_original": "Huawei says 2027 Kirin chips are ready and show impressive results Huawei Central",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-15T22:03:20.417Z",
-        "index": 36,
+        "processed_at": "2026-10-16T00:22:40.797Z",
+        "index": 21,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -1306,8 +725,8 @@
       "texto_original": "Nvidia, AMD, CoreWeave... la tecnología se desploma por las renovadas dudas con la IA Bolsamania",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-15T22:03:20.411Z",
-        "index": 25,
+        "processed_at": "2026-10-16T00:22:40.795Z",
+        "index": 16,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -1357,506 +776,7 @@
       "final_score": 65.25
     },
     {
-      "id": "b04c33eccce3ca73",
-      "fuente_id": "xataka_google",
-      "fuente_nombre": "Xataka",
-      "tipo": "rss_web",
-      "subtipo": "google_news",
-      "grupo_fuente": "xataka",
-      "nivel_fuente": "medio_especializado",
-      "categoria": "tecnologia",
-      "idioma_original": "es",
-      "prioridad_fuente": 4,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "OpenAI ha tenido que hacer públicos sus salarios de Reino Unido. Las cifras son mareantes",
-      "titulo_original": "OpenAI ha tenido que hacer públicos sus salarios de Reino Unido. Las cifras son mareantes - Xataka",
-      "enlace": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOQmc2eXhsQWduNF9NQUVFVkZUVHhOMVF2ZTIySi0xbVRJZnB5NFcxR1RLNk5TWWhkVDNNSTdxblpoRmRlb3AwYWZJSWlFYkxPeVpoaThuSWZnV3I3MFlCQm4tQlVGc243V252U0Yzd0xlQm9tTkI2R0o2Sm5nYWd6YXpidFprSGVwY1V1NW1kekFGbDZTZk1TdFU5NXZtTUR4blZHTEQ5S2NibkJiVlBkVUZSemllem15Mm1VVNIBwgFBVV95cUxOU2JBLU4wQUhGRVZzY1hYMjlQVVZEVkhvZENwRElESFoxZUJQSTlPRDlyb1pTQjB0Mjc4WWlzUzB0YXVZcXlTWG9KYTlSVU5pM09OeDFnZkJtNWN3Qk1TVTlERjJmcHRIMjczZnhhcTQ3U0VtUjB0cjZOaVQzNkJpYU5FYkVnMUdReVkzRThPU3BtejBxWlM0aklLb19sU082NzEzSTNxam1taVYxeUs3cUNmcklJSlBrd2t4OEoyVWRrZw?oc=5",
-      "fecha": "2026-10-15T13:46:27.000Z",
-      "resumen_corto": "OpenAI ha tenido que hacer públicos sus salarios de Reino Unido.",
-      "resumen_largo": "OpenAI ha tenido que hacer públicos sus salarios de Reino Unido. Las cifras son mareantes Xataka",
-      "texto_original": "OpenAI ha tenido que hacer públicos sus salarios de Reino Unido. Las cifras son mareantes Xataka",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-10-15T22:03:20.405Z",
-        "index": 14,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "es",
-        "categoria": "inteligencia_artificial",
-        "categorias_secundarias": [
-          "moviles"
-        ],
-        "category_scores": {
-          "inteligencia_artificial": 2,
-          "moviles": 1
-        },
-        "entidades": [
-          "OpenAI",
-          "Xataka"
-        ],
-        "cifras_detectadas": [],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 82,
-        "relevancia": 60,
-        "confiabilidad_fuente": 50,
-        "readability": {
-          "words": 64,
-          "sentences": 6,
-          "average_words_per_sentence": 10.67
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 65.2
-    },
-    {
-      "id": "c332a9ca81f98845",
-      "fuente_id": "wccftech_google",
-      "fuente_nombre": "Wccftech",
-      "tipo": "rss_web",
-      "subtipo": "google_news",
-      "grupo_fuente": "wccftech",
-      "nivel_fuente": "medio_especializado",
-      "categoria": "hardware",
-      "idioma_original": "en",
-      "prioridad_fuente": 4,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "Nintendo continúa su ofensiva contra los proyectos de los fans, pero Zelda: Link's Awakening llegará a PC en 2026 con el primer puerto nativo de Switch",
-      "titulo_original": "Nintendo Continues Its Crackdown On Fan Projects, Yet Zelda: Link’s Awakening Hits PC in 2026 With First Switch Native Port - Wccftech",
-      "enlace": "https://news.google.com/rss/articles/CBMingFBVV95cUxNYVJsZ2lmYWFucDdqLUpvbHB1YlUyVFJOVGdfN3dmNFF4VFNhWm9taXhkZHdJT25vZHJhU1c2S3luSEs4TU9mSUFvT3dGYlRmb2s1TUFUY01qd1hYWkhPXzJieG9LU25YaVFWOFpkY1RrOGdxUk1RV3ZubjlVR3BtNE9rTFpFaXIwd2JmYnVXWWZyb2JaZEpDTkFQUDMtd9IBowFBVV95cUxNVXFvWVk1aWRkNHR6dnZiczVEMGY3aXozU0lXMjV1WDJXYzdvMkwyNTVYRDNFdVdMYlZVdUN5ZENQQ29mZ2kxWTYxemtiVHdJYW03dmdaa1pSUWpYXzFQMGU5ZUdHWmhiX2VRUFVrNU45cE91YzRpQy1IcU5FUTdRWkxleVZjQTBDTmVSbVhSeHMwRld5Uk1pam12RGRPaHU0YVc0?oc=5",
-      "fecha": "2026-10-14T11:28:36.000Z",
-      "resumen_corto": "Nintendo continúa su ofensiva contra los proyectos de los fans, pero Zelda: Link's Awakening llegará a PC en 2026 con el primer switch Native Port Wccftech",
-      "resumen_largo": "Nintendo continúa su ofensiva contra los proyectos de los fans, pero Zelda: Link's Awakening llegará a PC en 2026 con el primer switch Native Port Wccftech",
-      "texto_original": "Nintendo Continues Its Crackdown On Fan Projects, Yet Zelda: Link’s Awakening Hits PC in 2026 With First Switch Native Port Wccftech",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-10-15T22:03:20.414Z",
-        "index": 32,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "en",
-        "categoria": "hardware",
-        "categorias_secundarias": [
-          "tecnologia"
-        ],
-        "category_scores": {
-          "hardware": 1,
-          "tecnologia": 1
-        },
-        "entidades": [
-          "Wccftech"
-        ],
-        "cifras_detectadas": [
-          "2026",
-          "2026 W"
-        ],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 87,
-        "relevancia": 55,
-        "confiabilidad_fuente": 50,
-        "readability": {
-          "words": 95,
-          "sentences": 1,
-          "average_words_per_sentence": 95
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 64.95
-    },
-    {
-      "id": "270f7551fdaada0b",
-      "fuente_id": "xataka_google",
-      "fuente_nombre": "Xataka",
-      "tipo": "rss_web",
-      "subtipo": "google_news",
-      "grupo_fuente": "xataka",
-      "nivel_fuente": "medio_especializado",
-      "categoria": "tecnologia",
-      "idioma_original": "es",
-      "prioridad_fuente": 4,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "Por primera vez en mucho tiempo, Marvel recupera el beneplácito de los espectadores: su nueva serie tiene puntuaciones estupendas",
-      "titulo_original": "Por primera vez en mucho tiempo, Marvel recupera el beneplácito de los espectadores: su nueva serie tiene puntuaciones estupendas - Xataka",
-      "enlace": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQc2ZqQ3Qxa1IwWV91OWRoTUlWZGc2MDNyVE1qaldNYUFWWUYyaVZBb1VjUHhDY1pLd0NQSmJzTm5Mb1NzdXlENUhIQ3hHQm9iLTBaLUpVYXlsalZueXJCS0JwVkRtM2QwYXQ0NXRKRlhab3Qyd2JrR1Z6cTMzWG9UczB6dTV2VzlmSU12Smo5TXJfRHNiV2tUSXJmRlI3Z1RXQWRNSHNJcExweHRwNE5jMGZfNW5KTHo2ZkxUQzk5TUN5Ynd6ZzVwWGU3OUV0aERUVDdfNDZadmF3U3PSAeABQVVfeXFMUGpnQ3J5NlJvb2pEMU1kaWZ3aEgwSURZbDl0WDZjRWFOYWxkY2J1V3F1S3d1al95NXI5dGtKXy05aDd0VGF6SklJcGdmUjItOXd5ZmJlNGJPUEtpVUl6Y3o2OVN4bnBveWZlMWw0OG1HcXhQd3BjUnJEa1pZTEtFT3RJUVAweUdoUmpBLU9hUDlhZ2NqZ2wyUThwVzV1VkhqeExXaWdTdEZHXzk3dVF5SUhEdHpwNXF5SGRETjZLSFJaLUgyN3ZmS1hqQWdPMG5GYTZ6bEw4dTRaeXc4el9sT0U?oc=5",
-      "fecha": "2026-10-15T17:30:27.000Z",
-      "resumen_corto": "Por primera vez en mucho tiempo, Marvel recupera el beneplácito de los espectadores: su nueva serie tiene puntuaciones estupendas Xataka",
-      "resumen_largo": "Por primera vez en mucho tiempo, Marvel recupera el beneplácito de los espectadores: su nueva serie tiene puntuaciones estupendas Xataka",
-      "texto_original": "Por primera vez en mucho tiempo, Marvel recupera el beneplácito de los espectadores: su nueva serie tiene puntuaciones estupendas Xataka",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-10-15T22:03:20.396Z",
-        "index": 7,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "es",
-        "categoria": "vehiculos_energia",
-        "categorias_secundarias": [],
-        "category_scores": {
-          "vehiculos_energia": 1
-        },
-        "entidades": [
-          "Xataka"
-        ],
-        "cifras_detectadas": [],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 82,
-        "relevancia": 55,
-        "confiabilidad_fuente": 50,
-        "readability": {
-          "words": 79,
-          "sentences": 1,
-          "average_words_per_sentence": 79
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 63.2
-    },
-    {
-      "id": "0353a1d2ee13d3d2",
-      "fuente_id": "xataka_google",
-      "fuente_nombre": "Xataka",
-      "tipo": "rss_web",
-      "subtipo": "google_news",
-      "grupo_fuente": "xataka",
-      "nivel_fuente": "medio_especializado",
-      "categoria": "tecnologia",
-      "idioma_original": "es",
-      "prioridad_fuente": 4,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "Por fin tenemos el tráiler de lanzamiento de 'GTA VI' y es tan espectacular como cabría esperar",
-      "titulo_original": "Por fin tenemos el tráiler de lanzamiento de 'GTA VI' y es tan espectacular como cabría esperar - Xataka",
-      "enlace": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPdVh1WDgyV1J5SGhlYWdyemt6OHNVM3hBcEdmNnYxeWxXVFZldDI4N0l5VTJWakFuZGVtRFcwWUxBVWVBYlV0NmZYTG56SVlwMjZsVzJEbW53bndGMDlCYXdJSXNhWTV4TzRWaWpEbWR4b2NxUThEVm5UMTA3elVHb05TQlFPOG1RQVBZQ2pjUXNYUVNQMUdOUkh5VFlrN0ZGa0o1bDBIVDJZd9IBrwFBVV95cUxPQVNpSEQtVE12dzlRbk5MWTM5Vl9tU3dWdE4wb3Mzd3F5aDdkaTl1LXR3aVhrNXNUbFpXMEJZRC0zTjBrdnFaaVo0bVpWYlVkZzRDR0U2Uy1KUl9GTmh3aTFGeG9zQXhUMVFpbE5IWF9vdE5ZZDhUMS1rUnl2emhRYTRyT3NaX1VWWnNVMjM5U3VVTlF5WFNMaXFUYTlwbjdpZXY1UlBrYUJ2SE9MdWhB?oc=5",
-      "fecha": "2026-10-15T13:27:00.000Z",
-      "resumen_corto": "Por fin tenemos el tráiler de lanzamiento de 'GTA VI' y es tan espectacular como cabría esperar Xataka",
-      "resumen_largo": "Por fin tenemos el tráiler de lanzamiento de 'GTA VI' y es tan espectacular como cabría esperar Xataka",
-      "texto_original": "Por fin tenemos el tráiler de lanzamiento de 'GTA VI' y es tan espectacular como cabría esperar Xataka",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-10-15T22:03:20.405Z",
-        "index": 15,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "es",
-        "categoria": "inteligencia_artificial",
-        "categorias_secundarias": [],
-        "category_scores": {
-          "inteligencia_artificial": 2
-        },
-        "entidades": [
-          "Xataka"
-        ],
-        "cifras_detectadas": [],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 82,
-        "relevancia": 55,
-        "confiabilidad_fuente": 50,
-        "readability": {
-          "words": 59,
-          "sentences": 1,
-          "average_words_per_sentence": 59
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 63.2
-    },
-    {
-      "id": "cf880991ed8ede67",
-      "fuente_id": "genbeta_google",
-      "fuente_nombre": "Genbeta",
-      "tipo": "rss_web",
-      "subtipo": "google_news",
-      "grupo_fuente": "genbeta",
-      "nivel_fuente": "medio_especializado",
-      "categoria": "software_internet",
-      "idioma_original": "es",
-      "prioridad_fuente": 4,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "Sam Altman rechaza que la IA sea una nueva Revolución Industrial: “Debe dar más poder a las personas”",
-      "titulo_original": "Sam Altman rechaza que la IA sea una nueva Revolución Industrial: “Debe dar más poder a las personas” - Genbeta",
-      "enlace": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOcTBpVGtqNVNmZmlMUE9ub0NYdVVUakZUdzRtSF9xek9GLXVERzZ3Y21VWTBkVVh3ZnpOWE1wblhKenp4WTZ6dGsxWkp5aHVXWUZEWEcyQ3hDNHFzZ2ZhdkRiS09fcU1Pc3o1Z3FLdUJCSXZMTmd3RVZodlR0aWg5U3pCWjF0bmxia0VudlVnUTZhNFZJNm8xcUFscWZyOE14NVZ5b0UwZ1N4NjgxMzRCb0NOdVdnU2g2V0x1dWpKR3I1UWgxNkRsb1o5VdIB0AFBVV95cUxPc3ByZzdpUnM5SzJvSjRpVFZXZW5VN2s0QWVzcGNfbExDTk1rdlpXTUdGWUlXX3FIYWJUMHdxSDROY24tc19TenlGMWFsOHVySGN6XzZxMHV6ZTlMWGp1SjZLMzR6cUxQTlpTQUtiUTJHMlY0WEVyckIyOWVfazJORzFXT3lURzRyWWtWMlU5eW1rX1J2VEFwNS0xLWFESEdPOS1qSHdkTUxsQkllTVAySVY5U2FTUDBwcFlkZHF4UFNQcjlnUVpmODFyTXVHRnVp?oc=5",
-      "fecha": "2026-10-15T07:00:28.000Z",
-      "resumen_corto": "Sam Altman rechaza que la IA sea una nueva Revolución Industrial: “Debe dar más poder a las personas” Genbeta",
-      "resumen_largo": "Sam Altman rechaza que la IA sea una nueva Revolución Industrial: “Debe dar más poder a las personas” Genbeta",
-      "texto_original": "Sam Altman rechaza que la IA sea una nueva Revolución Industrial: “Debe dar más poder a las personas” Genbeta",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-10-15T22:03:20.412Z",
-        "index": 27,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "es",
-        "categoria": "inteligencia_artificial",
-        "categorias_secundarias": [
-          "vehiculos_energia"
-        ],
-        "category_scores": {
-          "inteligencia_artificial": 1,
-          "vehiculos_energia": 1
-        },
-        "entidades": [
-          "Genbeta"
-        ],
-        "cifras_detectadas": [],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 82,
-        "relevancia": 55,
-        "confiabilidad_fuente": 50,
-        "readability": {
-          "words": 79,
-          "sentences": 1,
-          "average_words_per_sentence": 79
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 63.2
-    },
-    {
-      "id": "068365c10b12b649",
-      "fuente_id": "genbeta_google",
-      "fuente_nombre": "Genbeta",
-      "tipo": "rss_web",
-      "subtipo": "google_news",
-      "grupo_fuente": "genbeta",
-      "nivel_fuente": "medio_especializado",
-      "categoria": "software_internet",
-      "idioma_original": "es",
-      "prioridad_fuente": 4,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "Bill Gates dice que la autorregulación de las empresas de IA no es suficiente y que los gobiernos deberían estar involucrados en la supervisión",
-      "titulo_original": "Bill Gates dice que la autorregulación de las empresas de IA no es suficiente y que los gobiernos deberían estar involucrados en la supervisión - Genbeta",
-      "enlace": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQOGNIZExTRXdfd2ptS2xYaWxEMF8yU2FXWFE2LXRIWTdfNlRpUHZkRTRBMnpjOUllQndCV1RBVkZhbWtIZ25tdzF5WkZXRlo2WUx5OWMwMWljMmdZZXVpek5ORW9uZGE0U2RiUHZhdllTUXBweW9aUzhEdHI5SGM0Q3lpR0NhQm85U256VFZSUFMyaV9CUk5zMkU2TUZFZVczYS1haUZFd1A3ZHlqV1dTbDRSckV0WlU4WC1rYWk4UUFWbWVqOGEyXzdJVDE2VGw4T05JX2ZiMVZ5dVcyeEJsT2pXRTh6VlIyTmp6dm9HbXdPRlJ4QVHSAfsBQVVfeXFMTXdVUjNBaTN3bHZxUWIyS0U5bGs0eGstRjBvWGR2NUlCUi04bDRzVHBqaUF2Vkd6V1k1WjgySEIwQnpzSnhiYUhzdERUMmdVRDBsZUJpVEp2T3lWYmZUTG4xQzE5SURxV21ZdV9PeFJUV3F1WkZXSXh0dGw4eDZyWEtKY2Q2Zl9xcUdJQVcweTJSU3lJNU5BUFVqZDR1NG1GN292OFZ2ODNmWWs4aGhRNnVSZXM3cnROR2g2YVVsMDNUelRBTGtjemZJN1hQbTNDY0ZmMlU3aW95RXgwYWZyLV93WHIyYmdKVFFmQTA5WXU4dGJ1ZUxXeUo3Tjg?oc=5",
-      "fecha": "2026-10-14T14:00:28.000Z",
-      "resumen_corto": "Bill Gates dice que la autorregulación de las empresas de IA no es suficiente y que los gobiernos deberían estar involucrados en la supervisión Genbeta",
-      "resumen_largo": "Bill Gates dice que la autorregulación de las empresas de IA no es suficiente y que los gobiernos deberían estar involucrados en la supervisión Genbeta",
-      "texto_original": "Bill Gates dice que la autorregulación de las empresas de IA no es suficiente y que los gobiernos deberían estar involucrados en la supervisión Genbeta",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-10-15T22:03:20.414Z",
-        "index": 31,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "es",
-        "categoria": "inteligencia_artificial",
-        "categorias_secundarias": [
-          "vehiculos_energia",
-          "actualidad"
-        ],
-        "category_scores": {
-          "inteligencia_artificial": 1,
-          "vehiculos_energia": 1,
-          "actualidad": 1
-        },
-        "entidades": [
-          "Genbeta"
-        ],
-        "cifras_detectadas": [],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 82,
-        "relevancia": 55,
-        "confiabilidad_fuente": 50,
-        "readability": {
-          "words": 79,
-          "sentences": 1,
-          "average_words_per_sentence": 79
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 63.2
-    },
-    {
-      "id": "d61f878519f9b590",
-      "fuente_id": "wccftech_google",
-      "fuente_nombre": "Wccftech",
-      "tipo": "rss_web",
-      "subtipo": "google_news",
-      "grupo_fuente": "wccftech",
-      "nivel_fuente": "medio_especializado",
-      "categoria": "hardware",
-      "idioma_original": "en",
-      "prioridad_fuente": 4,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "Una PS5 con jailbreak se convirtió en un servidor de IA local que puede ejecutar un 27B LLM, los modelos más pequeños pueden alcanzar velocidades impresionantes de 124 Tok/s, pero hay limitaciones",
-      "titulo_original": "A Jailbroken PS5 Got Turned Into a Local AI Server That Can Run A 27B LLM, Smaller Models Can Reach Impressive Speeds Of 124 Tok/s, But There Are Limitations - Wccftech",
-      "enlace": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBSME1kUkt5aU5SVHR5bUdoZGlEVVZ3TmJ1ajBabVQ2czY1QWJ1QU1QT0FzSUVzaElSLWd2aDhOczBTNUFrVmpsRGVUQWhlb3piRTJEU0R6NkNoMnR2ZjlpTmYxVzRJOXpzVEItRtIBckFVX3lxTFBkamxHdlRGY29YYWE2ZzFYOWh2SHNuVDFfeEhYN3FCWVVGMXU0VHg0ekZPNWZjNVpnNkh0ZHR0dHBzWXV6YVVYTm5PclI2eFp6TkV1dnozWkowVFF3T3hOZElNWGtpajRWcjNVb1RGa3hQQQ?oc=5",
-      "fecha": "2026-10-14T10:33:35.000Z",
-      "resumen_corto": "Una PS5 con jailbreak se convirtió en un servidor de IA local que puede ejecutar un 27B LLM, los modelos más pequeños pueden alcanzar velocidades impresionantes de 124 Tok/s, pero hay limitaciones con Wccftech",
-      "resumen_largo": "Una PS5 con jailbreak se convirtió en un servidor de IA local que puede ejecutar un 27B LLM, los modelos más pequeños pueden alcanzar velocidades impresionantes de 124 Tok/s, pero hay limitaciones con Wccftech",
-      "texto_original": "A Jailbroken PS5 Got Turned Into a Local AI Server That Can Run A 27B LLM, Smaller Models Can Reach Impressive Speeds Of 124 Tok/s, But There Are Limitations Wccftech",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-10-15T22:03:20.415Z",
-        "index": 33,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "en",
-        "categoria": "inteligencia_artificial",
-        "categorias_secundarias": [
-          "tecnologia"
-        ],
-        "category_scores": {
-          "inteligencia_artificial": 3,
-          "tecnologia": 1
-        },
-        "entidades": [
-          "Wccftech"
-        ],
-        "cifras_detectadas": [
-          "27B"
-        ],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 72,
-        "relevancia": 62,
-        "confiabilidad_fuente": 50,
-        "readability": {
-          "words": 129,
-          "sentences": 1,
-          "average_words_per_sentence": 129
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 62.5
-    },
-    {
-      "id": "c86fc2c09628d410",
+      "id": "c50fc1a5e798be34",
       "fuente_id": "google_news_es",
       "fuente_nombre": "Google News ES",
       "tipo": "rss_web",
@@ -1868,16 +788,89 @@
       "prioridad_fuente": 3,
       "analizar": true,
       "resumir": true,
-      "titulo": "L'ARA galardona la tecnología catalana con impacto en los primeros premios FAR - Diari ARA",
-      "titulo_original": "L'ARA galardona la tecnología catalana con impacto en los primeros premios FAR - Diari ARA",
-      "enlace": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNVnN4cmMzSzJobl9ZRDV2ejl1d3BmVW9EbWhVSWhYQzNVNHJvNGlqVGFhWGFRY2d0dTE4cFdzNDZZSGdFR2FUU1BEM29aYjlYckxwaXowWFMycFljWldNVjJoeVI0VG1PWlMweXliSUVlUTRxbVc3RDZ6STYtUGk4UlN4clBlTC1PWlhidDlPbGk5WTV4VXZxdnN6VkhXZDRTVi1pMU1jMUpTZnpsX3NVbU1EaHExNWhScWc?oc=5",
-      "fecha": "2026-10-15T19:47:10.000Z",
-      "resumen_corto": "L'ARA galardona la tecnología catalana con impacto en los primeros premios FAR Diari ARA",
-      "resumen_largo": "L'ARA galardona la tecnología catalana con impacto en los primeros premios FAR Diari ARA",
-      "texto_original": "L'ARA galardona la tecnología catalana con impacto en los primeros premios FAR Diari ARA",
+      "titulo": "Las claves de la nueva estrategia de Apple en el hogar inteligente - Expansión",
+      "titulo_original": "Las claves de la nueva estrategia de Apple en el hogar inteligente - Expansión",
+      "enlace": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOX3hUWWxwRTJVc1ZzMUptN2lIVC1zS3BuUGpDbXFUbVBUQ3lsa3NoUERWTU95ZlpuRzBLdzRCLVJ1WW1XcEZSdWlTODhrel82OUN0RUNyVnZXaXpVejdLcFBKOXJFRnBVNkptVXJ6cE9sbWZJT1FRYzlVcGZXclI0c196TjZIcE9xdWZLMlVEc3ZuOTJwVDh5cm1RcHlrS3lUNGfSAaIBQVVfeXFMTnNJRjdlUG1BUVVnc094ZERGVDFtTlFYa2txSlBicmtIWmlqZVFkLUVNWWp5ZkNLLTYxWU91N3RoSDFEYWd3dWw4OFctVGRkZm9xZTREeWM1V2huNUJVNWJJRW1oYzd2OXNmWXZaQm40TnRQQllaVF9pZWI4U1lMR2dqOXVKMmFybjRua2VzdE1fNHRoekRidFYtU2RWOE1Wbndn?oc=5",
+      "fecha": "2026-10-15T23:49:00.000Z",
+      "resumen_corto": "Las claves de la nueva estrategia de Apple en el hogar inteligente Expansión",
+      "resumen_largo": "Las claves de la nueva estrategia de Apple en el hogar inteligente Expansión",
+      "texto_original": "Las claves de la nueva estrategia de Apple en el hogar inteligente Expansión",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-15T22:03:20.393Z",
+        "processed_at": "2026-10-16T00:22:40.783Z",
+        "index": 2,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "inteligencia_artificial",
+        "categorias_secundarias": [
+          "vehiculos_energia",
+          "software_internet"
+        ],
+        "category_scores": {
+          "inteligencia_artificial": 1,
+          "vehiculos_energia": 1,
+          "software_internet": 1
+        },
+        "entidades": [
+          "Apple"
+        ],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 80,
+        "relevancia": 55,
+        "confiabilidad_fuente": 53,
+        "readability": {
+          "words": 40,
+          "sentences": 1,
+          "average_words_per_sentence": 40
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 63.25
+    },
+    {
+      "id": "51b21e04821ed187",
+      "fuente_id": "google_news_es",
+      "fuente_nombre": "Google News ES",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "google_news",
+      "nivel_fuente": "agregador",
+      "categoria": "tecnologia",
+      "idioma_original": "es",
+      "prioridad_fuente": 3,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Tecnología, la clave para la longevidad - El Diario Vasco",
+      "titulo_original": "Tecnología, la clave para la longevidad - El Diario Vasco",
+      "enlace": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOUkUxYmZFS0FOUHM0ZHVCdllNWHZFWnFPczg4ZjBQZWFtdWhCT3A4OUxmcHFUT0FEQ3VNdmgzREEtV184aXhzdVlPTjNqWDhkZGpGRWNUQkMzaVBIUXdzTWZPLXVFRzlCT2lFSDVhU2N5XzhWUnU3ZTR5WWxMTVVRalRyeEswb1RpQm85bjdHMG_SAZYBQVVfeXFMTnQwMUdIZVdjdGNQTkw3QTNQaHU1VDRYVnJCOXBLZzI3VEV6QjVoYy1wTFZ1eFJKS3lYeXdGdzFtekRBZk8wdDJ0M3phN2hDV0llNDdhSlFnbmQtNFZEZUZDNUx3NWVrX0I5clZWdXl1aWdnWnZkNWJCVTAwLTNjMUNwSTFqcXpvVmJyXzNjeEdiY2pOcFpB?oc=5",
+      "fecha": "2026-10-15T22:05:58.000Z",
+      "resumen_corto": "Tecnología, la clave para la longevidad El Diario Vasco",
+      "resumen_largo": "Tecnología, la clave para la longevidad El Diario Vasco",
+      "texto_original": "Tecnología, la clave para la longevidad El Diario Vasco",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-10-16T00:22:40.784Z",
         "index": 3,
         "resumen": {
           "generado": true,
@@ -1888,12 +881,81 @@
         "categoria": "tecnologia",
         "categorias_secundarias": [
           "inteligencia_artificial",
-          "moviles"
+          "vehiculos_energia"
         ],
         "category_scores": {
           "tecnologia": 2,
           "inteligencia_artificial": 1,
-          "moviles": 1
+          "vehiculos_energia": 1
+        },
+        "entidades": [],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 75,
+        "relevancia": 57,
+        "confiabilidad_fuente": 53,
+        "readability": {
+          "words": 30,
+          "sentences": 1,
+          "average_words_per_sentence": 30
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 62.3
+    },
+    {
+      "id": "6aadad15c0fb017f",
+      "fuente_id": "google_news_es",
+      "fuente_nombre": "Google News ES",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "google_news",
+      "nivel_fuente": "agregador",
+      "categoria": "tecnologia",
+      "idioma_original": "es",
+      "prioridad_fuente": 3,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Iberdrola, BBVA y Santander firman la primera financiación sindicada gestionada con tecnología \"blockchain\" - La Razón",
+      "titulo_original": "Iberdrola, BBVA y Santander firman la primera financiación sindicada gestionada con tecnología \"blockchain\" - La Razón",
+      "enlace": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQTjMzTmJRX1N4VFRhUTJvMXc5Snl1MndPbExjdEEzTGl6ZWhWcW82YlM0TUNnZVNjT1FsSEEtcGIya2FxZzA5N0loWXNzYV9OT3Vpbm1TOG9xXzRTTVNzSDA1TDNNMmpwVFFFeWttRk1keFZRWWRTdDVVaHpTb3g2QlAyM05QdUF5TDZTZXhwLTQzV1FZQ0RsMXpLZ2N4ekZrTUpWVnJGSTllZkw5RUhsYnNBSEl1ZWZ0UTh6c2FreGpTRm95WWlOZUg0RlIyNVY0NmNkQ3JidkxId2xlUEY4OVJHZEZsTnlKbFBWajQ4RHZCSFNzOTBKNNIBjAJBVV95cUxNdjJyV0xxSUtxUExsUGExMVc5ZXRMOHhFWFJ0cXZZMzdJWEVSUDRDdlRzRzBkMmF6R1lvbTBqQkVZUzJiWTBIY1laaXVBaW1rcC04eGRJeVc4RDdlMzFyb1hkTU9vN2pzV0dtczlJOU43OXlKZk1LejVQazVmTTlhbVNZUmlOUUExTmZYOTRZRlZldktIclZiTmlNdlpfY0lZekhhRW1sZnRwb1JHNTdvY1ZORVlOMDBOZjA3TEYtX3ktdG95cVoxTVYyTmQtZlpIZkdUcmk4MEtzZm1EaWpid2JqWHJjMUk0UHExNDRmS1dvNVMzQ1RpejFaaUdNMngyZF9rdkh0cU9Cb2VX?oc=5",
+      "fecha": "2026-10-15T15:49:19.000Z",
+      "resumen_corto": "Iberdrola, BBVA y Santander firman la primera financiación sindicada gestionada con tecnología \"blockchain\" La Razón",
+      "resumen_largo": "Iberdrola, BBVA y Santander firman la primera financiación sindicada gestionada con tecnología \"blockchain\" La Razón",
+      "texto_original": "Iberdrola, BBVA y Santander firman la primera financiación sindicada gestionada con tecnología \"blockchain\" La Razón",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-10-16T00:22:40.788Z",
+        "index": 6,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "inteligencia_artificial",
+        "categorias_secundarias": [
+          "tecnologia"
+        ],
+        "category_scores": {
+          "inteligencia_artificial": 2,
+          "tecnologia": 2
         },
         "entidades": [],
         "cifras_detectadas": [],
@@ -1948,8 +1010,8 @@
       "texto_original": "Ezcaray Tech for Future aborda tecnología y medio rural NueveCuatroUno",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-15T22:03:20.402Z",
-        "index": 10,
+        "processed_at": "2026-10-16T00:22:40.788Z",
+        "index": 7,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -2019,8 +1081,8 @@
       "texto_original": "La pregunta sobre los derechos de la inteligencia artificial ya estaba entre nosotros hace millones de años, y tenemos malas noticias para la IA 3DJuegos",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-15T22:03:20.413Z",
-        "index": 28,
+        "processed_at": "2026-10-16T00:22:40.795Z",
+        "index": 17,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -2067,7 +1129,7 @@
       "final_score": 62.3
     },
     {
-      "id": "c4ff50929a02fb07",
+      "id": "5cf384f6ed0bf30f",
       "fuente_id": "ia_dia",
       "fuente_nombre": "IA al Día",
       "tipo": "rss_web",
@@ -2079,152 +1141,17 @@
       "prioridad_fuente": 3,
       "analizar": true,
       "resumir": true,
-      "titulo": "Del avatar \"anticorruptos\" en Albania al alcalde japonés que habla todos los idiomas: la IA ya reemplaza a los políticos - LaSexta",
-      "titulo_original": "Del avatar \"anticorruptos\" en Albania al alcalde japonés que habla todos los idiomas: la IA ya reemplaza a los políticos - LaSexta",
-      "enlace": "https://news.google.com/rss/articles/CBMiigJBVV95cUxPa1ZERTF1X1pHRzYxWm9ZMkpQVS1FS05kUVFrMXhEVWVoc1RqdDBXU1FaNWJBTEI5LXRmUExoWVlxdVVuN2xoNlBLeUFLb3hNQ3UzU2JJeHY2RUUzSGkyYXlGc3oxNkVIZGRaOWFLY2xSVi1hX19GQ2tYb0VhZkVSNmhQT3Jab09ZWXhLNzFRcUJRS1dJV0stOE1aOEpkN0hycWtzTGt0OGNJaWJBLVpEbl9qMnE3WkE2blN3MVNRVE9BQzdlMkJ0QmFSM3dYM1I2clFfOWpBdk9fSmVfMVFURmZHQ3NlRkRvYmtaT0k3ckFGaWF2SlRFV2RsNjl0dHQ3WHhUdVE3ZjVXUdIBigJBVV95cUxOeTFNMk9QYjY3ckFEVWpCOFhkek5HMFdZdnV2b0V1VG0zVTIzRDNyYmFGaUZaeWRrSXo1RXV3dUVIdkNGZElGOUpjX2RoWGpFNFpQOVJzTzI4Wlh2RFdsR0FNYWJRckh2aXdBczJmNVpPVC1VQ2E0Ykl0R3FoN3VKcWdEejJDa2REblJPWEVNZEwzWDU1dE9SRmdUNG9TVjEybExzMksxVXV4VTVTODAzTzBxTlg3WkliZ1FXREJvTlVpYzRzMW5EbG1pckFTQTNWTTFmVjVvZzlkR1JpRHBCV0U4ZWd0MGI1NHFIZGhYbXlNRUItWktTRlhYZ0FNREVwM2lYRTFKcmxvUQ?oc=5",
-      "fecha": "2026-10-15T20:37:34.000Z",
-      "resumen_corto": "Del avatar \"anticorruptos\" en Albania al alcalde japonés que habla todos los idiomas: la IA ya reemplaza a los políticos LaSexta",
-      "resumen_largo": "Del avatar \"anticorruptos\" en Albania al alcalde japonés que habla todos los idiomas: la IA ya reemplaza a los políticos LaSexta",
-      "texto_original": "Del avatar \"anticorruptos\" en Albania al alcalde japonés que habla todos los idiomas: la IA ya reemplaza a los políticos LaSexta",
+      "titulo": "'Kakeru (Sheep in the Box)': Koreeda lanza una mirada humanista a la Inteligencia Artificial - El Español",
+      "titulo_original": "'Kakeru (Sheep in the Box)': Koreeda lanza una mirada humanista a la Inteligencia Artificial - El Español",
+      "enlace": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQNW9jVm4zdkItWHIwNTh5d0pJOVRZQUMzbHV2NWQxNktLNE1JVDNmbE0xbDgyLTlOZEIzV2I5RUlLckY4TjhVZ1cyYzhqeVRQM2ZPY1ZwTWd1RFlPTFBTZzFMd0hoTy1SazJHNGJ1UjFqdzZsTnNaRTlrTFNDZmF0Y0tUeERQa2RGeF83SHF5SDR3dTVTM2ZWZmc3cHl0YTVtS2E0Z093MUxxMmZVMERCbV9RWXJCZGg1bDVCVjR6eF9VR001dWNhMXBTeTdENWZMZExkM3QwdEoyeTF6UG9Gb2Y4a2FuUdIB6wFBVV95cUxONnh5S1dBQWpkQ2lFVldDWkxqTk9UN3lhMWQtV2F3UVFYbEhiYVZyUWVHalFuNFNpUWxlN19wTUp0NlBiVWpTc0pJMG8wWFg2MTNxOXdUMEl3LVdwZzdQQ0Y4aFpLMTAtUzN6Y1BBeExPWHFSQ3cyTndyVXVXOWxIMUN2ME9TR1ZSSFd4UDBSWDRXZHI3Qkd2Qk5aT0FLOVpUZHd1ZkZnQmpfNjBlbl9hNVU2TXBxUXlpcWFXV0FGZ3d5VFQ4UVZDMlpPd0s5cW8xWlRrRTEweWozTW9qNU9Nd3dxcUliemtQNUdN?oc=5",
+      "fecha": "2026-10-16T00:00:00.000Z",
+      "resumen_corto": "'Kakeru (Sheep in the Box)': Koreeda lanza una mirada humanista a la Inteligencia Artificial El Español",
+      "resumen_largo": "'Kakeru (Sheep in the Box)': Koreeda lanza una mirada humanista a la Inteligencia Artificial El Español",
+      "texto_original": "'Kakeru (Sheep in the Box)': Koreeda lanza una mirada humanista a la Inteligencia Artificial El Español",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-15T22:03:20.387Z",
-        "index": 0,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "es",
-        "categoria": "inteligencia_artificial",
-        "categorias_secundarias": [],
-        "category_scores": {
-          "inteligencia_artificial": 1
-        },
-        "entidades": [],
-        "cifras_detectadas": [],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 75,
-        "relevancia": 50,
-        "confiabilidad_fuente": 53,
-        "readability": {
-          "words": 75,
-          "sentences": 1,
-          "average_words_per_sentence": 75
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 59.5
-    },
-    {
-      "id": "a5c0743adf12c7a6",
-      "fuente_id": "google_news_es",
-      "fuente_nombre": "Google News ES",
-      "tipo": "rss_web",
-      "subtipo": "google_news",
-      "grupo_fuente": "google_news",
-      "nivel_fuente": "agregador",
-      "categoria": "tecnologia",
-      "idioma_original": "es",
-      "prioridad_fuente": 3,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "Contra el pesimismo: tecnología con propósito - Diari ARA",
-      "titulo_original": "Contra el pesimismo: tecnología con propósito - Diari ARA",
-      "enlace": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNVGQtMUkzcFZlZDRFZXFfMWVUU3FOQVRUODhOU0E2NXBrM3pCLXN4SVU0OUo1dzJIbzd6TUpJdmtCcERTajg3UVJGcUpLbGxRenV1NmpHSkdqeTN6c1oxQVk2MXhMZFcwd3k1RDc5Tkxxd0hzbm5feFBWeFpVbU82Mk5B?oc=5",
-      "fecha": "2026-10-15T20:29:16.000Z",
-      "resumen_corto": "Contra el pesimismo: tecnología con propósito Diari ARA",
-      "resumen_largo": "Contra el pesimismo: tecnología con propósito Diari ARA",
-      "texto_original": "Contra el pesimismo: tecnología con propósito Diari ARA",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-10-15T22:03:20.393Z",
-        "index": 2,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "es",
-        "categoria": "tecnologia",
-        "categorias_secundarias": [
-          "inteligencia_artificial"
-        ],
-        "category_scores": {
-          "tecnologia": 2,
-          "inteligencia_artificial": 1
-        },
-        "entidades": [],
-        "cifras_detectadas": [],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 75,
-        "relevancia": 50,
-        "confiabilidad_fuente": 53,
-        "readability": {
-          "words": 35,
-          "sentences": 1,
-          "average_words_per_sentence": 35
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 59.5
-    },
-    {
-      "id": "09bb725cad21ee18",
-      "fuente_id": "ia_dia",
-      "fuente_nombre": "IA al Día",
-      "tipo": "rss_web",
-      "subtipo": "google_news",
-      "grupo_fuente": "ia_general",
-      "nivel_fuente": "agregador",
-      "categoria": "inteligencia_artificial",
-      "idioma_original": "es",
-      "prioridad_fuente": 3,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "La banca no necesita más inteligencia artificial, sino una IA en la que pueda confiar - Expansión",
-      "titulo_original": "La banca no necesita más inteligencia artificial, sino una IA en la que pueda confiar - Expansión",
-      "enlace": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNeTVDam1WTC1mdHM3ZDJMbmpsR1FJZW42Zm94ME50YXU0US1LNGFVeWFldUEzazdncS04aVE5LWkxeVRGcTE3aUZuLWRTc1BhZ3FpNWVaNmFLVkxqN2phdFFZbmJtZ1g1OUMtc3JucHVweldCVEtGUGtyaXZLZFZLRU03aUJvR0RMVnE5bkpIYlJTSkI1YThqRVVuV0ExMUk0YzdsYjBDVkxCM0XSAasBQVVfeXFMTVlVRDdrcHBwOVFnSHdvaEFhd3RyeVNiZzZNT3JQYWlCaXpFUVN1WmsxY1VITlZGUHhYOENTQnBDM1Q3b1N5SWd1N0VWa3RmbXhjMjlhb1lWMlV4QmRZTGl6M3EzUC1JcXB5YjBBN2ZyZVVwNnVJaDRKWkU4TklCd1ptSmN4Sk84T1NJeDROQ2ktZ0pnMjdUenFWWFZoYXhBbl96ZUtod2dYdkNV?oc=5",
-      "fecha": "2026-10-15T19:25:33.000Z",
-      "resumen_corto": "La banca no necesita más inteligencia artificial, sino una IA en la que pueda confiar Expansión",
-      "resumen_largo": "La banca no necesita más inteligencia artificial, sino una IA en la que pueda confiar Expansión",
-      "texto_original": "La banca no necesita más inteligencia artificial, sino una IA en la que pueda confiar Expansión",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-10-15T22:03:20.394Z",
-        "index": 4,
+        "processed_at": "2026-10-16T00:22:40.783Z",
+        "index": 1,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -2254,78 +1181,9 @@
         "relevancia": 50,
         "confiabilidad_fuente": 53,
         "readability": {
-          "words": 55,
+          "words": 60,
           "sentences": 1,
-          "average_words_per_sentence": 55
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 59.5
-    },
-    {
-      "id": "7c306d1c5835452a",
-      "fuente_id": "google_news_es",
-      "fuente_nombre": "Google News ES",
-      "tipo": "rss_web",
-      "subtipo": "google_news",
-      "grupo_fuente": "google_news",
-      "nivel_fuente": "agregador",
-      "categoria": "tecnologia",
-      "idioma_original": "es",
-      "prioridad_fuente": 3,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "Más tecnología para conseguir el equilibrio urbano: las 'smart cities' buscan dar respuesta a los problemas de la vivienda y la movilidad - Expansión",
-      "titulo_original": "Más tecnología para conseguir el equilibrio urbano: las 'smart cities' buscan dar respuesta a los problemas de la vivienda y la movilidad - Expansión",
-      "enlace": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQbkRDcWFBTk9pTFR4QVVpRHVOSHJVc0dPODBYWlFKemdWaHpPbTBJNmdZQV9iZDFWQ042cVVRRm51VjNvakVlWmU3cWRwdkhTMFR2ZFJxam00dWJBRXJFLVlXcHBvZHlXOU9HbG1adGpEV21Hb2lsNno0eGQxRHlFWjNyNGlIQ0F0YlQxY3Vsc0RyeUhYUzYwWVA2NW5VOEpvUGRlZi1BdHZpRFhYYWY2TGVqWVZtWHdRcXotQktwRHZYc2ZpU1hBRFlWNElNVDhiUEVOSldRR2JkYkVwV2ExMHZfcmFIeWVyc0HSAeoBQVVfeXFMUFNnbFJOYS1EV1VDU0J5VEkwRHdUR1NFWXhjY0RJUENhTnpRVnZzNWxPbGtITXE4QngteE1SLUxlVFREd3hkVms5cUw5SWlfcTZXVDdPeUowQXRWWnFoam55N2RLQkhlak9fRUE4UjJsSW5MNG1LU1RSRHk4QnRPNHVEZVVBQThqMzV1M1RsQzJ1RkpnLUJiaER4Q2Q3TnZJSHdfV1BESTM5cU5YTllLVDgxckIwM2ljYkd2dVBQRmFqUHNyVlFoSDFjaHl4elZub3Z4aW5DVU9QVXVXTGVVSUJaZEQ1SlpQcVlB?oc=5",
-      "fecha": "2026-10-15T14:16:29.000Z",
-      "resumen_corto": "Más tecnología para conseguir el equilibrio urbano: las 'smart cities' buscan dar respuesta a los problemas de la vivienda y la movilidad Expansión",
-      "resumen_largo": "Más tecnología para conseguir el equilibrio urbano: las 'smart cities' buscan dar respuesta a los problemas de la vivienda y la movilidad Expansión",
-      "texto_original": "Más tecnología para conseguir el equilibrio urbano: las 'smart cities' buscan dar respuesta a los problemas de la vivienda y la movilidad Expansión",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-10-15T22:03:20.402Z",
-        "index": 11,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "es",
-        "categoria": "tecnologia",
-        "categorias_secundarias": [
-          "inteligencia_artificial"
-        ],
-        "category_scores": {
-          "tecnologia": 2,
-          "inteligencia_artificial": 1
-        },
-        "entidades": [],
-        "cifras_detectadas": [],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 75,
-        "relevancia": 50,
-        "confiabilidad_fuente": 53,
-        "readability": {
-          "words": 85,
-          "sentences": 1,
-          "average_words_per_sentence": 85
+          "average_words_per_sentence": 60
         },
         "duplicate": {
           "detected": false,
@@ -2358,8 +1216,8 @@
       "texto_original": "La inteligencia artificial permite predecir el riesgo de cáncer de mama en cinco años con una sola mamografía Cadena SER",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-15T22:03:20.411Z",
-        "index": 24,
+        "processed_at": "2026-10-16T00:22:40.794Z",
+        "index": 15,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -2424,8 +1282,8 @@
       "texto_original": "Ejércitos, sanidad o servicios secretos: 11 países europeos ya tienen contratos millonarios con Palantir con dinero público EL PAÍS",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-15T22:03:20.413Z",
-        "index": 29,
+        "processed_at": "2026-10-16T00:22:40.796Z",
+        "index": 18,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -2495,8 +1353,8 @@
       "texto_original": "🇺🇦 УкроСМИ пишут, что все три основные ТЭЦ Киева перестали вырабатывать электроэнергию: \"Столица потеряла собственную генерацию\" Подписаться на канал | наш МАХ",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-15T22:03:20.407Z",
-        "index": 19,
+        "processed_at": "2026-10-16T00:22:40.791Z",
+        "index": 10,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -2559,8 +1417,8 @@
       "texto_original": "🇷🇺 🇺🇦 Первый спутниковые снимок аэродрома \"Борисоглебск\". Удар пришёлся по стоянке бомбардировщиков, где разворотило несколько мест. На данный момент можно предположить, что попали по 2 самолетам. Подписаться на канал | наш МАХ",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-15T22:03:20.408Z",
-        "index": 20,
+        "processed_at": "2026-10-16T00:22:40.792Z",
+        "index": 11,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -2623,8 +1481,8 @@
       "texto_original": "🇷🇺 🇺🇦 Хохлы заявили об уничтожении аж шести истребителей-бомбардировщиков Су-34 на аэродроме в Борисоглебске при помощи ракет \"Нептун\" . Официальных заявлений от МО России нет, как и другой информации. Подписаться на канал | наш МАХ",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-15T22:03:20.408Z",
-        "index": 21,
+        "processed_at": "2026-10-16T00:22:40.792Z",
+        "index": 12,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -2687,8 +1545,8 @@
       "texto_original": "🇺🇦 В ФРГ сейчас идёт суд над хохлом-террористом, который, по мнению немцев, причастен к терактам на \"Северных потоках\" Так вот его адвокат заявил о (ПРИГОТОВЬТЕСЬ!) необходимости ЗАКРЫТЬ ДЕЛО . Почему? А потому что террорист \"находится под присягой и не может давать показания\" 😂 \"Непосредственные командиры украинского офицера запретили ему давать какие-либо показания. Тот, кто не может высказаться, не может быть осуждён\" Знаете, нацисты на Нюрнбергском процессе тоже были \"под присягой\", но что-то для них никто дело не закрыл 🙂 Другой адвокат, Никола Канестрини, назвал обвинения в военном преступлении \"необоснованными\", утверждая, что газопровод использовался Россией для \"финансирования войны\". 👉 Исходя из этой позиции Россия в праве продолжать наносить удары по портовой инфраструктуре, металлургическим заводам и предприятиям, а также по судам в Чёрном море. А что? Украина за счёт этого \"финансирует войну\", не так ли? 😏 Подписаться на канал | наш МАХ",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-15T22:03:20.410Z",
-        "index": 22,
+        "processed_at": "2026-10-16T00:22:40.793Z",
+        "index": 13,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -2751,8 +1609,8 @@
       "texto_original": "🇺🇦 ПРОСРОЧЕННОГО ПРОРВАЛО Зелебобус решил в очередной раз пройтись по решениям Трампа: \"Это выбор президента Трампа. Мы не хотим быть втянутыми в некоторые вещи. Сделка по дизелю - я не хочу быть в неё вовлечён. Если они атакуют нас, мы ответим. Это наше правило. Не втягивайте нас в какие-то дизельные сделки. Если вы просите нас помочь с ситуацией, конечно, как партнёры, мы поможем, но мы попросим об энергетическом перемирии.\" И если вы думали, что одним этим нытьём всё кончилось, то не тут-то было. Зеленский не был бы Зеленским, если бы не устроил очередной скулёж и попрошайничество ракет: \"Если энергетического перемирия нет, и это от вас не зависит, хорошо, тогда вопрос, можете ли вы дать мне ракеты для Patriot? Потому что, когда я не буду атаковать их, потому что вы попросили меня не атаковать их, они будут атаковать меня. Будет справедливо, если вы дадите мне то, чем защищаться. Это минимум, о котором я прошу. И когда я прошу об этом, ваш ответ — заблокировать Starlink. Так как с этим быть?\" Как быть? Обтекай. И теперь к главному — он полностью наплевал на требование Трампа и решил послать его куда подальше: \"Запрет на атаки по НПЗ снят. С нас хватит.\" Впрочем мы это сегодня уже видели . Посмотрим что ответит Донни. Подписаться на канал | наш МАХ",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-15T22:03:20.411Z",
-        "index": 23,
+        "processed_at": "2026-10-16T00:22:40.794Z",
+        "index": 14,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -2794,24 +1652,24 @@
       "final_score": 50.25
     }
   ],
-  "analyzed_at": "2026-10-15T22:03:20.418Z",
+  "analyzed_at": "2026-10-16T00:22:40.797Z",
   "analysis_stats": {
-    "input_items": 39,
-    "valid_items": 39,
+    "input_items": 23,
+    "valid_items": 23,
     "rejected_items": 0,
     "duplicate_items": 0,
     "clickbait_items": 0,
     "spam_items": 0,
-    "summaries_generated": 39,
-    "average_quality": 80,
-    "average_relevance": 57
+    "summaries_generated": 23,
+    "average_quality": 78,
+    "average_relevance": 56
   },
   "validation": {
     "version": "1.1",
-    "executed_at": "2026-10-15T22:03:20.536Z",
-    "original_items": 39,
+    "executed_at": "2026-10-16T00:22:40.913Z",
+    "original_items": 23,
     "rejected_items": 0,
-    "final_items": 39,
+    "final_items": 23,
     "limit": 60,
     "status": "ok"
   }

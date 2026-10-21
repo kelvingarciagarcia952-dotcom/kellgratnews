@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "updated_at": "2026-10-21T07:15:45.103Z",
+  "updated_at": "2026-10-21T13:35:51.853Z",
   "configuracion": {
     "limite_global": 60,
     "frecuencia_minutos": 60,
@@ -22,10 +22,10 @@
   },
   "source_stats": {
     "active_sources": 15,
-    "successful_sources": 3,
-    "collected_items": 15,
-    "deduplicated_items": 10,
-    "final_items": 10
+    "successful_sources": 14,
+    "collected_items": 57,
+    "deduplicated_items": 40,
+    "final_items": 40
   },
   "items": [
     {
@@ -50,8 +50,8 @@
       "texto_original": "Antes de las elecciones de mitad de mandato, Trump ha presumido del desempeño de la economía estadounidense. BBC Verify analiza los datos de inflación, empleo y crecimiento económico para evaluar si esas afirmaciones se sostienen.",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-21T07:15:45.010Z",
-        "index": 7,
+        "processed_at": "2026-10-21T13:35:51.694Z",
+        "index": 25,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -123,8 +123,8 @@
       "texto_original": "Una década más tarde, la rehabilitación la está ayudando a reconstruir su vida después de que los problemas de vejiga causados por la droga la obligaran a usar pañales para la incontinencia. La organización benéfica Kaleidoscope, dedicada a la lucha contra las drogas, dice haber experimentado un enorme aumento en las derivaciones a su centro de desintoxicación y rehabilitación en los últimos cinco años: en 2021 solo dos personas habían sido derivadas, frente a las 112 que se han atendido en lo que va de este año. La Universidad del Sur de Gales está llevando a cabo una investigación sobre las necesidades específicas de este grupo, ya que el daño causado por el \"uso crónico y creciente\" de la ketamina es mucho más rápido y se produce en un período de tiempo más corto que el causado por el alcohol, la cocaína, la heroína o el éxtasis. Los servicios tradicionalmente diseñados para adultos mayores están teniendo que adaptarse para dar soporte a personas mucho más jóvenes, dijo la institución, con necesidades muy diferentes y hábitos que a menudo se generaron en su etapa estudiantil. Para Megan, una joven galesa de 24 años, el consumo de drogas se hizo más común entre sus compañeros durante el confinamiento por la pandemia de covid-19. Como estudiante de ingeniería aeronáutica, de repente se encontró trabajando desde casa, cobrando su salario completo y con acceso a una droga cuyo precio se había desplomado.",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-21T07:15:45.008Z",
-        "index": 5,
+        "processed_at": "2026-10-21T13:35:51.693Z",
+        "index": 24,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -177,51 +177,255 @@
       "final_score": 78.2
     },
     {
-      "id": "640d5da64b0c3ac7",
-      "fuente_id": "bbc_mundo",
-      "fuente_nombre": "BBC Mundo",
+      "id": "9bde18fba5f38a1e",
+      "fuente_id": "openai_google",
+      "fuente_nombre": "OpenAI",
       "tipo": "rss_web",
-      "subtipo": "medio_generalista",
-      "grupo_fuente": "bbc",
-      "nivel_fuente": "medio_profesional",
-      "categoria": "actualidad",
-      "idioma_original": "es",
+      "subtipo": "google_news",
+      "grupo_fuente": "openai",
+      "nivel_fuente": "fuente_oficial",
+      "categoria": "inteligencia_artificial",
+      "idioma_original": "en",
       "prioridad_fuente": 5,
       "analizar": true,
       "resumir": true,
-      "titulo": "Análisis: los separatistas de Alberta sufren un duro revés pero la tensión con Canadá continuará",
-      "titulo_original": "Análisis: los separatistas de Alberta sufren un duro revés pero la tensión con Canadá continuará",
-      "enlace": "https://www.bbc.com/mundo/articles/cxyvr6508relo?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-10-20T17:02:36.000Z",
-      "resumen_corto": "Sin embargo, según las proyecciones, más de dos tercios de los votantes de la provincia de Alberta enviaron un mensaje claro: quieren seguir siendo parte de Canadá.",
-      "resumen_largo": "Fue un resultado decisivo en un referéndum que podría haber puesto a prueba los lazos de unidad nacional de Canadá. Sin embargo, según las proyecciones, más de dos tercios de los votantes de la provincia de Alberta enviaron un mensaje claro: quieren seguir siendo parte de Canadá. Es posible que, una vez que se haya contabilizado el resultado final, el rechazo por parte de una cómoda mayoría de votantes a impulsar la separación mediante un referéndum vinculante pueda frenar en seco el sentimiento separatista de Alberta.",
-      "texto_original": "Fue un resultado decisivo en un referéndum que podría haber puesto a prueba los lazos de unidad nacional de Canadá. Sin embargo, según las proyecciones, más de dos tercios de los votantes de la provincia de Alberta enviaron un mensaje claro: quieren seguir siendo parte de Canadá. Es posible que, una vez que se haya contabilizado el resultado final, el rechazo por parte de una cómoda mayoría de votantes a impulsar la separación mediante un referéndum vinculante pueda frenar en seco el sentimiento separatista de Alberta. Esto relegaría a la marginalidad política la idea que se discutió discretamente durante décadas. Para los líderes del movimiento separatista de Alberta, si bien el resultado era previsible dados los sondeos, resultó decepcionante después de más de un año de campaña y de presionar para que se votara sobre la separación. Cuando la BBC le preguntó cómo se sentía tras conocer los resultados, el líder separatista Mitch Sylvestre simplemente respondió: \"No estoy contento\".",
+      "titulo": "Uso de chats bloqueados en ChatGPT - Centro de ayuda de OpenAI",
+      "titulo_original": "Using locked chats in ChatGPT - OpenAI Help Center",
+      "enlace": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1OaXFlekxiYk1nMWJRelNPLUVCd3pvOFhMRUFmUXJudGJ6OWhPNno5OW5pYlk1UXhhMXdzRDNTaElreWM3VmtXZzBBZlF5Tzh5cV9IV25VUkt6OTFzZVI3dnlma18yV1ItcmJRbTdMWFVOR2QzeEd3aUlZVTQ0cm8?oc=5",
+      "fecha": "2026-10-21T13:01:42.000Z",
+      "resumen_corto": "Uso de chats bloqueados en el Centro de ayuda de OpenAI de ChatGPT",
+      "resumen_largo": "Uso de chats bloqueados en el Centro de ayuda de OpenAI de ChatGPT",
+      "texto_original": "Using locked chats in ChatGPT OpenAI Help Center",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-21T07:15:45.012Z",
-        "index": 9,
+        "processed_at": "2026-10-21T13:35:51.673Z",
+        "index": 1,
         "resumen": {
           "generado": true,
           "origen": "translated"
         },
         "idioma_detectado": "es",
-        "idioma_original": "es",
-        "categoria": "actualidad",
-        "categorias_secundarias": [
-          "inteligencia_artificial",
-          "moviles",
-          "hardware"
-        ],
+        "idioma_original": "en",
+        "categoria": "inteligencia_artificial",
+        "categorias_secundarias": [],
         "category_scores": {
-          "actualidad": 2,
-          "inteligencia_artificial": 1,
-          "moviles": 1,
-          "hardware": 1,
-          "vehiculos_energia": 1,
-          "militar": 1
+          "inteligencia_artificial": 4
         },
         "entidades": [
-          "BBC"
+          "OpenAI",
+          "ChatGPT"
+        ],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 84,
+        "relevancia": 67,
+        "confiabilidad_fuente": 75,
+        "readability": {
+          "words": 35,
+          "sentences": 1,
+          "average_words_per_sentence": 35
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 74.95
+    },
+    {
+      "id": "efb3d55565c02e33",
+      "fuente_id": "openai_google",
+      "fuente_nombre": "OpenAI",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "openai",
+      "nivel_fuente": "fuente_oficial",
+      "categoria": "inteligencia_artificial",
+      "idioma_original": "en",
+      "prioridad_fuente": 5,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Rendimiento degradado en ChatGPT, Codex y API",
+      "titulo_original": "Degraded performance in ChatGPT, Codex, and APIs - OpenAI",
+      "enlace": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5NZmVxTUw3U2FGbHU0RVMyUkxOR0NsNWctUVFqRklmc0dtdFpTOFBqZjltVjI1bmVaWTBONHBkX29YLTFzb2RBNzFqVjFDUzVlNUVoV0dZU01ZUFFmUnF5SXVaZjlZODl6YWF6WGl3SQ?oc=5",
+      "fecha": "2026-10-21T02:41:01.000Z",
+      "resumen_corto": "Rendimiento degradado en ChatGPT, Codex y API OpenAI",
+      "resumen_largo": "Rendimiento degradado en ChatGPT, Codex y API OpenAI",
+      "texto_original": "Degraded performance in ChatGPT, Codex, and APIs OpenAI",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-10-21T13:35:51.690Z",
+        "index": 21,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "en",
+        "idioma_original": "en",
+        "categoria": "inteligencia_artificial",
+        "categorias_secundarias": [],
+        "category_scores": {
+          "inteligencia_artificial": 4
+        },
+        "entidades": [
+          "OpenAI",
+          "ChatGPT"
+        ],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 84,
+        "relevancia": 67,
+        "confiabilidad_fuente": 75,
+        "readability": {
+          "words": 31,
+          "sentences": 1,
+          "average_words_per_sentence": 31
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 74.95
+    },
+    {
+      "id": "5f60ed912de0287c",
+      "fuente_id": "catl_google",
+      "fuente_nombre": "CATL",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "catl",
+      "nivel_fuente": "fuente_oficial",
+      "categoria": "baterias_energia",
+      "idioma_original": "en",
+      "prioridad_fuente": 5,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "CATL se convierte en la primera compañía de baterías en unirse a las tres ondas piloto de GBA Battery Passport",
+      "titulo_original": "CATL Becomes First Battery Company to Join All Three GBA Battery Passport Pilot Waves - CATL",
+      "enlace": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5aMVZiTVBkLVE3cjlaM05LRDhwUF92WmRuNEIyYXl3bHpVYjdYWkNUWjRpSlVjS3JHQkV3OGRRdlVVeFdkbXdiOTlqVzA1WG8?oc=5",
+      "fecha": "2026-10-12T07:00:00.000Z",
+      "resumen_corto": "CATL se convierte en la primera compañía de baterías en unirse a las tres GBA Battery Passport Pilot Waves CATL",
+      "resumen_largo": "CATL se convierte en la primera compañía de baterías en unirse a las tres GBA Battery Passport Pilot Waves CATL",
+      "texto_original": "CATL Becomes First Battery Company to Join All Three GBA Battery Passport Pilot Waves CATL",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-10-21T13:35:51.700Z",
+        "index": 39,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "en",
+        "categoria": "baterias_energia",
+        "categorias_secundarias": [
+          "inteligencia_artificial"
+        ],
+        "category_scores": {
+          "baterias_energia": 5,
+          "inteligencia_artificial": 1
+        },
+        "entidades": [
+          "CATL",
+          "Battery Company"
+        ],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 84,
+        "relevancia": 67,
+        "confiabilidad_fuente": 75,
+        "readability": {
+          "words": 69,
+          "sentences": 1,
+          "average_words_per_sentence": 69
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 74.95
+    },
+    {
+      "id": "0469f02ea277cb07",
+      "fuente_id": "huawei_google",
+      "fuente_nombre": "Huawei Central",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "huawei",
+      "nivel_fuente": "agregador",
+      "categoria": "moviles",
+      "idioma_original": "en",
+      "prioridad_fuente": 4,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Huawei amplía su liderazgo en el mercado de teléfonos inteligentes del tercer trimestre a pesar de la crisis de memoria: Informe",
+      "titulo_original": "Huawei widens lead in Q3 smartphone market despite memory crisis: Report - Huawei Central",
+      "enlace": "https://news.google.com/rss/articles/CBMifkFVX3lxTE0ybGtJQUoydEhoS1psX0kwc1lmbUZKN1oyUVM1SU9FdWhXZkdrZFcxVWw5ZHplVjdNNkVKQnJpWllhWGpwbXpNczFMakVWUmpyVkdGcm1nU0w0NmtsNUhqaG1CeVdXYWlKT0E1dnlyTWdJRUxqWnNRUklpMThFQdIBgwFBVV95cUxOamlsUjVBRUY0RVNiRm9wLW9fVFdGRWtuVm50SGRheFV6M0VCX0VQR1NvUV9FbFRNQjBTTWtVSjRlTWJYMloya0tWTGpzNHRrVml2QnVWRlhSRk93UC0xamdOZjI3T2laS3pvVy1Nd1ZvNS1NRmtyYUlTSGo2d1hUOHNZQQ?oc=5",
+      "fecha": "2026-10-20T05:58:46.000Z",
+      "resumen_corto": "Huawei amplía su liderazgo en el mercado de teléfonos inteligentes del tercer trimestre a pesar de la crisis de memoria: Informe Huawei Central",
+      "resumen_largo": "Huawei amplía su liderazgo en el mercado de teléfonos inteligentes del tercer trimestre a pesar de la crisis de memoria: Informe Huawei Central",
+      "texto_original": "Huawei widens lead in Q3 smartphone market despite memory crisis: Report Huawei Central",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-10-21T13:35:51.699Z",
+        "index": 35,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "en",
+        "categoria": "moviles",
+        "categorias_secundarias": [
+          "inteligencia_artificial"
+        ],
+        "category_scores": {
+          "moviles": 4,
+          "inteligencia_artificial": 1
+        },
+        "entidades": [
+          "Huawei"
         ],
         "cifras_detectadas": [],
         "content_type": "report",
@@ -236,13 +440,13 @@
           "signals": [],
           "url_count": 0
         },
-        "calidad": 92,
+        "calidad": 90,
         "relevancia": 62,
-        "confiabilidad_fuente": 80,
+        "confiabilidad_fuente": 63,
         "readability": {
-          "words": 219,
-          "sentences": 10,
-          "average_words_per_sentence": 21.9
+          "words": 65,
+          "sentences": 1,
+          "average_words_per_sentence": 65
         },
         "duplicate": {
           "detected": false,
@@ -251,10 +455,86 @@
           "similar_to": null
         }
       },
-      "final_score": 77
+      "final_score": 72.05
     },
     {
-      "id": "16f2849bd26759d0",
+      "id": "4ea6b447729c6c9b",
+      "fuente_id": "huawei_google",
+      "fuente_nombre": "Huawei Central",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "huawei",
+      "nivel_fuente": "agregador",
+      "categoria": "moviles",
+      "idioma_original": "en",
+      "prioridad_fuente": 4,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Intel dice que la tecnología de chips chinos y los modelos de IA están a punto de cerrar la brecha con EE. UU.",
+      "titulo_original": "Intel says Chinese chip technology and AI models about to close gap with US - Huawei Central",
+      "enlace": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1jUWl0a1g1Q0FIWDNHcldFcjVRc0t4aXJ1a3haQWtGdDNPelhkYUNtTHNyV29HT0tkcTg2eU42R1MtRW94WERlSUxiTU9tZmJmaUptUTBsLW84ell5QWlHaXhnbURXMzJWa3R6cWQ0b1pBZ0MyNmJNWHBsd0zSAYIBQVVfeXFMT0pENk1sQV9CbjdLWHp4Qk9DcXN3QzNMdUF5MUZpMWFkc0t5MGEweGs0aHRkWlltZWNWWUJpTHVQZjhoMEt5bUNhNGJjVHBkdnNyN3g4RzM3N0ctRmluTlU5djhBbGtwVlI4NXlaaEppeHpBcWlOYTdfXzg3VmZIbS1NZw?oc=5",
+      "fecha": "2026-10-19T10:33:36.000Z",
+      "resumen_corto": "Intel dice que la tecnología de chips chinos y los modelos de IA están a punto de cerrar la brecha con Huawei Central de EE.",
+      "resumen_largo": "Intel dice que la tecnología de chips chinos y los modelos de IA están a punto de cerrar la brecha con Huawei Central de EE.",
+      "texto_original": "Intel says Chinese chip technology and AI models about to close gap with US Huawei Central",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-10-21T13:35:51.699Z",
+        "index": 36,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "en",
+        "categoria": "tecnologia",
+        "categorias_secundarias": [
+          "inteligencia_artificial",
+          "semiconductores",
+          "moviles"
+        ],
+        "category_scores": {
+          "tecnologia": 4,
+          "inteligencia_artificial": 2,
+          "semiconductores": 2,
+          "moviles": 1
+        },
+        "entidades": [
+          "Huawei",
+          "Intel"
+        ],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 82,
+        "relevancia": 75,
+        "confiabilidad_fuente": 53,
+        "readability": {
+          "words": 69,
+          "sentences": 5,
+          "average_words_per_sentence": 13.8
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 71.95
+    },
+    {
+      "id": "94f952cedccf3fb4",
       "fuente_id": "bbc_mundo",
       "fuente_nombre": "BBC Mundo",
       "tipo": "rss_web",
@@ -266,16 +546,16 @@
       "prioridad_fuente": 5,
       "analizar": true,
       "resumir": true,
-      "titulo": "La actriz Christina Applegate revela que estuvo 5 años diagnosticada erróneamente con esclerosis múltiple",
-      "titulo_original": "La actriz Christina Applegate revela que estuvo 5 años diagnosticada erróneamente con esclerosis múltiple",
-      "enlace": "https://www.bbc.com/mundo/articles/c9zrdpx7k0y7o?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-10-20T21:30:21.000Z",
-      "resumen_corto": "La actriz, conocida por películas como Anchorman (\"El periodista: la leyenda de Ron Burgundy\") y series como \"Matrimonio con hijos\", dijo que no estaba \"nada contenta\" con la noticia y que rompió a llorar al enterarse.",
-      "resumen_largo": "Christina Applegate creyó durante cinco años que padecía esclerosis múltiple, hasta que recientemente descubrió que le habían diagnosticado la enfermedad erróneamente. La actriz, conocida por películas como Anchorman (\"El periodista: la leyenda de Ron Burgundy\") y series como \"Matrimonio con hijos\", dijo que no estaba \"nada contenta\" con la noticia y que rompió a llorar al enterarse. \"No es que como te habían diagnosticado mal de repente te sientes mejor\", dijo Applegate en un episodio de su podcast Messy , publicado el martes.",
-      "texto_original": "Christina Applegate creyó durante cinco años que padecía esclerosis múltiple, hasta que recientemente descubrió que le habían diagnosticado la enfermedad erróneamente. La actriz, conocida por películas como Anchorman (\"El periodista: la leyenda de Ron Burgundy\") y series como \"Matrimonio con hijos\", dijo que no estaba \"nada contenta\" con la noticia y que rompió a llorar al enterarse. \"No es que como te habían diagnosticado mal de repente te sientes mejor\", dijo Applegate en un episodio de su podcast Messy , publicado el martes. \"Al contrario, he empeorado\". El nuevo episodio doble, copresentado por la también actriz Jamie Sigler, pone fin a la pausa que se había tomado para asimilar la información. La próxima semana comenzará una nueva investigación sobre la causa de los debilitantes síntomas que padece a diario. En el podcast, Applegate explicó que \"de repente, hace unos años\", su médica le sugirió que pusiera fin a su tratamiento para la esclerosis múltiple para ver cómo reaccionaba su cuerpo.",
+      "titulo": "\"Todavía no sabemos la magnitud real del daño\": el joven que diseñó un software para buscar a desaparecidos en los terremotos en Venezuela",
+      "titulo_original": "\"Todavía no sabemos la magnitud real del daño\": el joven que diseñó un software para buscar a desaparecidos en los terremotos en Venezuela",
+      "enlace": "https://www.bbc.com/mundo/articles/crx23yejwe1do?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-10-21T11:26:12.000Z",
+      "resumen_corto": "Un amigo llamó a Jorge Bastidas para avisarle de los terremotos en Venezuela.",
+      "resumen_largo": "Un amigo llamó a Jorge Bastidas para avisarle de los terremotos en Venezuela. Aunque se escuchaba asustado, Jorge dudó que fuera grave. El país había vivido tantas crisis que desestimó la posibilidad de volver a sorprenderse.",
+      "texto_original": "Un amigo llamó a Jorge Bastidas para avisarle de los terremotos en Venezuela. Aunque se escuchaba asustado, Jorge dudó que fuera grave. El país había vivido tantas crisis que desestimó la posibilidad de volver a sorprenderse. Este desarrollador venezolano de 32 años, residente en Argentina, estaba en Bogotá por un viaje de trabajo. Canceló todas las reuniones y se dedicó a contactar a su familia, pero las llamadas no entraban. Los colegas venezolanos que estaban a su alrededor tampoco lograban comunicarse con sus familiares. Media hora después de los dos terremotos ocurridos el miércoles 24 de junio a las 6:05 de la tarde hora de Venezuela, Bastidas comprobó en el chat de un canal de noticias de YouTube que la mayoría de los usuarios pedían información sobre seres queridos que no aparecían. \"Me gustaría haber podido estar ahí y ayudar de una forma más directa, pero no tenía forma de hacerlo\", cuenta casi cuatro meses después de los sismos. \"Sentí tanta impotencia por estar fuera del país que busqué otra forma de ayudar\". \"La idea principal era que hubiera por lo menos un lugar donde la gente pudiera poner esos reportes (de sus familiares) y empezar a contactarse\". Durante casi cuatro meses, esta página ha recibido 82.610 reportes de personas desaparecidas.",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-21T07:15:45.009Z",
+        "processed_at": "2026-10-21T13:35:51.677Z",
         "index": 6,
         "resumen": {
           "generado": true,
@@ -285,17 +565,91 @@
         "idioma_original": "es",
         "categoria": "vehiculos_energia",
         "categorias_secundarias": [
-          "tecnologia",
           "inteligencia_artificial",
+          "moviles",
           "software_internet"
         ],
         "category_scores": {
-          "vehiculos_energia": 2,
-          "tecnologia": 2,
-          "inteligencia_artificial": 1,
-          "software_internet": 1
+          "vehiculos_energia": 3,
+          "inteligencia_artificial": 2,
+          "moviles": 1,
+          "software_internet": 1,
+          "militar": 1,
+          "actualidad": 1
         },
         "entidades": [],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 79,
+        "relevancia": 65,
+        "confiabilidad_fuente": 70,
+        "readability": {
+          "words": 222,
+          "sentences": 16,
+          "average_words_per_sentence": 13.88
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 71.15
+    },
+    {
+      "id": "f7b3a483116030a4",
+      "fuente_id": "genbeta_google",
+      "fuente_nombre": "Genbeta",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "genbeta",
+      "nivel_fuente": "medio_especializado",
+      "categoria": "software_internet",
+      "idioma_original": "es",
+      "prioridad_fuente": 4,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "El Pentágono deja de utilizar las herramientas de IA de Anthropic tras incluir a la empresa en una lista negra, según pudo saber la BBC",
+      "titulo_original": "El Pentágono deja de utilizar las herramientas de IA de Anthropic tras incluir a la empresa en una lista negra, según pudo saber la BBC - Genbeta",
+      "enlace": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQc2hwazhRamM1bXRPSmxoT0EyRW9DUU5KdFlJMHRSV3F0c2ttZUR0OW5zUWZMZVBMdVFuNDBtM1RRNEdRSng1Vy1pM0FleVQ5eTJuaV9DVE9xaW03ZkxJXzdvNi0zcWFPVE9fdkpsOHg2aEZfZEFFd1JZdUx4TkJjd0hzOFVZcTk5X1FiczBFZUsyQ0ZOeVlZdmZOT29UZFZSanY4UHNmZ1JFcFNNbEFBY2duV3Qxb3J1ZEpWLUoyRk5qV0NYaEZLVUoyRGlmaGdOZjhITkdoRktLUdIB3wFBVV95cUxNVGVwSUxHZDNQeEJybF9OclpCbUNZMEZOTVJ3cFBQdkh5M3JOeUxSQ1RURDhZLUpMUGFZbGp5OUpsX21xajYzc0pfZHFzSEpaT0ptaTlZYkUwUnhSSzV3UGJsT3lKaFBKTHhsUGRKTk5rTm52ZDRpYTdjQ3FhalZMRUpMdVh0MFQxZ0U4UmttR0ZpQUdjZks0UkdiNHJxWElDNjQ5dWdqVmV2YjJCcjNiUVFsMVo4SkRSQjZtQnpjMnFrSHBOWWtUajZtdG1KeGVqdFRDczBibjRJZXlNUUFV?oc=5",
+      "fecha": "2026-10-20T07:01:54.000Z",
+      "resumen_corto": "El Pentágono deja de utilizar las herramientas de IA de Anthropic tras incluir a la empresa en una lista negra, según pudo saber la BBC Genbeta",
+      "resumen_largo": "El Pentágono deja de utilizar las herramientas de IA de Anthropic tras incluir a la empresa en una lista negra, según pudo saber la BBC Genbeta",
+      "texto_original": "El Pentágono deja de utilizar las herramientas de IA de Anthropic tras incluir a la empresa en una lista negra, según pudo saber la BBC Genbeta",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-10-21T13:35:51.698Z",
+        "index": 34,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "inteligencia_artificial",
+        "categorias_secundarias": [
+          "hardware"
+        ],
+        "category_scores": {
+          "inteligencia_artificial": 2,
+          "hardware": 1
+        },
+        "entidades": [
+          "BBC",
+          "Genbeta"
+        ],
         "cifras_detectadas": [],
         "content_type": "report",
         "clickbait": {
@@ -309,13 +663,13 @@
           "signals": [],
           "url_count": 0
         },
-        "calidad": 87,
-        "relevancia": 57,
-        "confiabilidad_fuente": 80,
+        "calidad": 90,
+        "relevancia": 60,
+        "confiabilidad_fuente": 60,
         "readability": {
-          "words": 226,
-          "sentences": 11,
-          "average_words_per_sentence": 20.55
+          "words": 84,
+          "sentences": 1,
+          "average_words_per_sentence": 84
         },
         "duplicate": {
           "detected": false,
@@ -324,7 +678,146 @@
           "similar_to": null
         }
       },
-      "final_score": 73.25
+      "final_score": 70.5
+    },
+    {
+      "id": "b463703daec0486d",
+      "fuente_id": "openai_google",
+      "fuente_nombre": "OpenAI",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "openai",
+      "nivel_fuente": "fuente_oficial",
+      "categoria": "inteligencia_artificial",
+      "idioma_original": "en",
+      "prioridad_fuente": 5,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Supresión de alertas de monitoreo de desalineación y desactivación del monitoreo de desalineación - Alineación OpenAI",
+      "titulo_original": "Suppressing misalignment monitoring alerts and disabling misalignment monitoring - OpenAI Alignment",
+      "enlace": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOSGQ5Z3cwV1UzZFdmdk5uSHU3c1JicjdqRE5qakJjcGlmN1pFRnZKQmdycDI1bTFJMkxTNGdTWDhmQV9ON05HQ0VKal84OU4tVERDRE8tbWQ0N0tETEkwMW5Lb25fQnY0RXRjTTB3MDExWnFGczZJdTlRWmFsb0N3Yl8yVUI3YlF1dDVHQ2wzSGlPLUl5bFpvSWdJM0JybWFYcDI0Y0J2Ri10N0Z5aFFNQ3JFZmxwVGRsRGVRQ2VrMkxHWklRYmNjYzdB?oc=5",
+      "fecha": "2026-10-21T06:25:29.000Z",
+      "resumen_corto": "Supresión de alertas de monitoreo de desalineación y desactivación del monitoreo de desalineación Alineación OpenAI",
+      "resumen_largo": "Supresión de alertas de monitoreo de desalineación y desactivación del monitoreo de desalineación Alineación OpenAI",
+      "texto_original": "Suppressing misalignment monitoring alerts and disabling misalignment monitoring OpenAI Alignment",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-10-21T13:35:51.687Z",
+        "index": 15,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "en",
+        "categoria": "inteligencia_artificial",
+        "categorias_secundarias": [
+          "hardware"
+        ],
+        "category_scores": {
+          "inteligencia_artificial": 2,
+          "hardware": 1
+        },
+        "entidades": [
+          "OpenAI"
+        ],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 84,
+        "relevancia": 55,
+        "confiabilidad_fuente": 75,
+        "readability": {
+          "words": 50,
+          "sentences": 1,
+          "average_words_per_sentence": 50
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 70.15
+    },
+    {
+      "id": "2cbcc1805e1cde0d",
+      "fuente_id": "openai_google",
+      "fuente_nombre": "OpenAI",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "openai",
+      "nivel_fuente": "fuente_oficial",
+      "categoria": "inteligencia_artificial",
+      "idioma_original": "en",
+      "prioridad_fuente": 5,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "OpenAI adquiere Orchestra Bio",
+      "titulo_original": "OpenAI acquires Orchestra Bio - OpenAI",
+      "enlace": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5FeFRia3ZmQXZoODE5dExVcC1nNmNlZWhKUWdiWk1VOXhvaVVlbFphNjhEdFd5MThUalctbkJNQmhLbDYxbkMyY2pKWVpQMXM0VGNoM2xnN0RuNjVCOWo3MW8tMHBkVUtV?oc=5",
+      "fecha": "2026-10-20T18:03:41.000Z",
+      "resumen_corto": "OpenAI adquiere Orchestra Bio OpenAI",
+      "resumen_largo": "OpenAI adquiere Orchestra Bio OpenAI",
+      "texto_original": "OpenAI acquires Orchestra Bio OpenAI",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-10-21T13:35:51.696Z",
+        "index": 30,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "en",
+        "idioma_original": "en",
+        "categoria": "inteligencia_artificial",
+        "categorias_secundarias": [],
+        "category_scores": {
+          "inteligencia_artificial": 2
+        },
+        "entidades": [
+          "OpenAI"
+        ],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 84,
+        "relevancia": 55,
+        "confiabilidad_fuente": 75,
+        "readability": {
+          "words": 24,
+          "sentences": 1,
+          "average_words_per_sentence": 24
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 70.15
     },
     {
       "id": "fb9b4364cf4f3eca",
@@ -348,8 +841,8 @@
       "texto_original": "Lo que comenzó como una protesta estudiantil contra el deterioro de las condiciones en las escuelas públicas derivó en una más heterogénea que grita contra el coste de la vida, la falta de oportunidades para los jóvenes o la cuantía de las pensiones. El gobierno del presidente Emmanuel Macron se vio desbordado y en algunas de las principales ciudades del país se han impuesto toques de queda para acabar con los saqueos y el vandalismo que se habían adueñado de ellas desde el pasado fin de semana. Pero un incendio todavía más destructivo podría estar prendiéndose en los mercados financieros, donde se viene detectando en las últimas semanas una creciente desconfianza hacia los bonos franceses. Francia, como muchos otros países, emite estos y otros títulos de deuda para financiar sus gastos del presente a cambio de ofrecer a los inversores que los compran una rentabilidad en el futuro. Pero desde comienzos de septiembre de 2026, la prima de riesgo de Francia (el sobrecoste que debe pagar a los inversores para financiarse en los mercados de deuda en comparación con Alemania, considerado el país más solvente de la zona euro) ha aumentado sustancialmente, lo que refleja las crecientes dudas sobre la sostenibilidad de la deuda gala. En otras palabras, los mercados empiezan a dudar de que la República francesa pueda hacer frente al pago del principal y los intereses de su deuda y termine cayendo en un \"default\" o suspensión de pagos, como le sucedió, por ejemplo, a Argentina en 2001.",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-21T07:15:45.007Z",
-        "index": 4,
+        "processed_at": "2026-10-21T13:35:51.689Z",
+        "index": 18,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -401,56 +894,55 @@
       "final_score": 69.7
     },
     {
-      "id": "1b8dba8b326164df",
-      "fuente_id": "resumen_militar",
-      "fuente_nombre": "El Resumen Militar",
-      "tipo": "telegram",
-      "subtipo": "canal_telegram",
-      "grupo_fuente": "telegram_militar",
-      "nivel_fuente": "telegram",
-      "categoria": "militar",
-      "idioma_original": "es",
-      "prioridad_fuente": 3,
+      "id": "c200bfcaa7054cce",
+      "fuente_id": "wccftech_google",
+      "fuente_nombre": "Wccftech",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "wccftech",
+      "nivel_fuente": "medio_especializado",
+      "categoria": "hardware",
+      "idioma_original": "en",
+      "prioridad_fuente": 4,
       "analizar": true,
       "resumir": true,
-      "titulo": "🇷🇺 🛰 🇺🇸 According to Axios, US space intelligence firm LeoLabs says Kosmos 2612's approach to ICEYE-X36 appears deliberate. On Friday the two were about 5 km apart, after being more than 300 km apart just a day earl",
-      "titulo_original": "🇷🇺 🛰 🇺🇸 According to Axios, US space intelligence firm LeoLabs says Kosmos 2612's approach to ICEYE-X36 appears deliberate. On Friday the two were about 5 km apart, after being more than 300 km apart just a day earl",
-      "enlace": "https://t.me/elresumenmilitar/101908",
-      "fecha": "2026-10-20T18:15:50.000Z",
-      "resumen_corto": "🇷🇺 🛰 🇺🇸 According to Axios, US space intelligence firm LeoLabs says Kosmos 2612's approach to ICEYE-X36 appears deliberate.",
-      "resumen_largo": "🇷🇺 🛰 🇺🇸 According to Axios, US space intelligence firm LeoLabs says Kosmos 2612's approach to ICEYE-X36 appears deliberate. On Friday the two were about 5 km apart, after being more than 300 km apart just a day earlier. CSIS space fellow Clayton Swope described the distance as essentially \"bumper-to-bumper,\" while Integrity ISR analyst Greg Gillinger called it a purposeful engagement with a Western satellite supporting Ukraine.",
-      "texto_original": "🇷🇺 🛰 🇺🇸 According to Axios, US space intelligence firm LeoLabs says Kosmos 2612's approach to ICEYE-X36 appears deliberate. On Friday the two were about 5 km apart, after being more than 300 km apart just a day earlier. CSIS space fellow Clayton Swope described the distance as essentially \"bumper-to-bumper,\" while Integrity ISR analyst Greg Gillinger called it a purposeful engagement with a Western satellite supporting Ukraine. A US space law professor noted countries generally keep at least around 10 km apart, since closer than that the risk of collision rises sharply. The Pentagon and ICEYE both declined to comment. A Ukrainian official confirmed Kiev uses ICEYE's capabilities but claimed it's unclear whether X36 specifically serves Ukraine, even though the US Space Force has itself described it as a radar satellite used by Ukraine for imagery intelligence. 🔴 @DDGeopolitics",
+      "titulo": "Microsoft bloqueará las unidades USB con formato ReFS y el almacenamiento externo en Windows a partir de enero de 2027",
+      "titulo_original": "Microsoft To Block ReFS-Formatted USB Drives And External Storage On Windows Starting January 2027 - Wccftech",
+      "enlace": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNY0VjQkJxalBRVk41M25ua09FNUV2RE9waHpnRWxkNEh6QjM3SEZUeE1rTVBPN0ZYRFJsclFBWkVsQ2oxNTVwc3VINS1adEdUNjZ5T0VmbVc1REVKMkVsRW4xU0xnTWd0WkFZaXpPNHBTeGhyMC00T2I3cUptWlNIdXRlbktDajJYaURjZXo0SDYtYTZvXzFreVNGZjhFZ1V1VWx3U2VLaGdVVkpxTTJ1Zl9FeUkzVVN5Sm5HMNIBwgFBVV95cUxPcTdhc3R2WGplVUtLdDZNbDdjNmlYZjNfc3htOWgtWlZ5T1hIVmFHMGhpR25PNzRWVk1nelBrRmFlaWhTcFhhbVhmR28tWTZWSE9mRlBXUHdPMnltM25MckdRZ3VuSENHT1I2MmI0VXQ4YnhmTGpieUkyTnhlb2YwMF9weHBQMURnaXVweFVURkE2SkRUdl9mQXlhM1d5QnpZeThoOG5hWVFjcF9tR3gwQUxITHBHYXg0cUt6YWZndlk5QQ?oc=5",
+      "fecha": "2026-10-20T13:46:29.000Z",
+      "resumen_corto": "Microsoft bloqueará las unidades USB con formato ReFS y el almacenamiento externo en Windows a partir de enero de 2027 Wccftech",
+      "resumen_largo": "Microsoft bloqueará las unidades USB con formato ReFS y el almacenamiento externo en Windows a partir de enero de 2027 Wccftech",
+      "texto_original": "Microsoft To Block ReFS-Formatted USB Drives And External Storage On Windows Starting January 2027 Wccftech",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-21T07:15:45.011Z",
-        "index": 8,
+        "processed_at": "2026-10-21T13:35:51.698Z",
+        "index": 33,
         "resumen": {
           "generado": true,
           "origen": "translated"
         },
-        "idioma_detectado": "en",
-        "idioma_original": "es",
-        "categoria": "inteligencia_artificial",
+        "idioma_detectado": "es",
+        "idioma_original": "en",
+        "categoria": "baterias_energia",
         "categorias_secundarias": [
-          "moviles",
-          "vehiculos_energia",
-          "software_internet"
+          "software_internet",
+          "tecnologia"
         ],
         "category_scores": {
-          "inteligencia_artificial": 2,
-          "moviles": 1,
-          "vehiculos_energia": 1,
+          "baterias_energia": 1,
           "software_internet": 1,
-          "actualidad": 1
+          "tecnologia": 1
         },
-        "entidades": [],
-        "cifras_detectadas": [
-          "2612",
-          "5 km",
-          "300 km",
-          "10 km"
+        "entidades": [
+          "Microsoft",
+          "Wccftech"
         ],
-        "content_type": "report",
+        "cifras_detectadas": [
+          "2027 M",
+          "2027",
+          "2027 W"
+        ],
+        "content_type": "news",
         "clickbait": {
           "detected": false,
           "score": 0,
@@ -462,13 +954,13 @@
           "signals": [],
           "url_count": 0
         },
-        "calidad": 73,
-        "relevancia": 65,
-        "confiabilidad_fuente": 55,
+        "calidad": 87,
+        "relevancia": 60,
+        "confiabilidad_fuente": 50,
         "readability": {
-          "words": 237,
-          "sentences": 13,
-          "average_words_per_sentence": 18.23
+          "words": 72,
+          "sentences": 1,
+          "average_words_per_sentence": 72
         },
         "duplicate": {
           "detected": false,
@@ -477,31 +969,1028 @@
           "similar_to": null
         }
       },
-      "final_score": 65.3
+      "final_score": 66.95
     },
     {
-      "id": "14b1573d397297d0",
-      "fuente_id": "resumen_militar",
-      "fuente_nombre": "El Resumen Militar",
-      "tipo": "telegram",
-      "subtipo": "canal_telegram",
-      "grupo_fuente": "telegram_militar",
-      "nivel_fuente": "telegram",
-      "categoria": "militar",
+      "id": "8120b59bd581db1d",
+      "fuente_id": "google_news_es",
+      "fuente_nombre": "Google News ES",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "google_news",
+      "nivel_fuente": "agregador",
+      "categoria": "tecnologia",
       "idioma_original": "es",
       "prioridad_fuente": 3,
       "analizar": true,
       "resumir": true,
-      "titulo": "🇺🇦 🇷🇺 Пожар в центре Луганска из-за атаки дронов",
-      "titulo_original": "🇺🇦 🇷🇺 Пожар в центре Луганска из-за атаки дронов",
-      "enlace": "https://t.me/elresumenmilitar/101915",
-      "fecha": "2026-10-21T05:22:14.000Z",
-      "resumen_corto": "🇺🇦 🇷🇺 Пожар в центре Луганска из-за атаки дронов",
-      "resumen_largo": "🇺🇦 🇷🇺 Пожар в центре Луганска из-за атаки дронов",
-      "texto_original": "🇺🇦 🇷🇺 Пожар в центре Луганска из-за атаки дронов",
+      "titulo": "AMD llevará su tecnología de reescalado FSR 4.1 a Xbox Series y promete mejoras en cientos de juegos - Diario AS",
+      "titulo_original": "AMD llevará su tecnología de reescalado FSR 4.1 a Xbox Series y promete mejoras en cientos de juegos - Diario AS",
+      "enlace": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOY1AtRm00dkRZX09iUXFVY3FobTdZR0RNeFM0OUh0RWJqY2tYdnZkLTlhakJuSERxYkdlV0pwMWUzOG1CZ1cxZWg0aXRHa24wMEZ6X2dpY1lWWVljcTN6WTBYVVRBU0Flb3FKLV9sMm9CTnl3WXFhTGZDMXN5TEU5enJMNWhTZkJYWWt6bU5fakxSblVWTW11ZEJzeHlkcmM1ZTBTQnVMbXpLcUgzUFVHdWJVbmNnV2Y2QzdOaVFsLWxRQ2Yzdnc1Y0FTR0FUOV9NYWhtUWo0MVg2ZDFrSlVZ0gHzAUFVX3lxTE5Db21qd0sySkV0Q2V4WGNZVDBraFVxTkNNLTZIbVlGUWE1aENtZkQ5UnZFeGt4NnV6bHRGcXR5c2w3cXJXaGxvVTVCZmI2TXpXRnAyb1BQc2I5eDcydHMtSl9GRTFHQnJoaHg1Wkx0dnlPc1NBQko4eHZyZXhOb1R1d0pPckxabTNVQWpSZ01ZOTdkVGZWRUUtNjdxdEs4VmNxbVE3OE1vaGxIanlnTmVvUjBGR0Jia3hPaVVfVzZhMVpJaDNLajR0WVBOdU51WHNYNEMzWWRoQkpsMmJMaDRkRzR2WU45TzZoelJObkQ2WlRFNA?oc=5",
+      "fecha": "2026-10-20T19:51:28.000Z",
+      "resumen_corto": "AMD llevará su tecnología de reescalado FSR 4.1 a Xbox Series y promete mejoras en cientos de juegos Diario AS",
+      "resumen_largo": "AMD llevará su tecnología de reescalado FSR 4.1 a Xbox Series y promete mejoras en cientos de juegos Diario AS",
+      "texto_original": "AMD llevará su tecnología de reescalado FSR 4.1 a Xbox Series y promete mejoras en cientos de juegos Diario AS",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-21T07:15:45.001Z",
+        "processed_at": "2026-10-21T13:35:51.695Z",
+        "index": 27,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "tecnologia",
+        "categorias_secundarias": [
+          "inteligencia_artificial",
+          "vehiculos_energia"
+        ],
+        "category_scores": {
+          "tecnologia": 2,
+          "inteligencia_artificial": 1,
+          "vehiculos_energia": 1
+        },
+        "entidades": [
+          "AMD"
+        ],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 80,
+        "relevancia": 62,
+        "confiabilidad_fuente": 53,
+        "readability": {
+          "words": 60,
+          "sentences": 6,
+          "average_words_per_sentence": 10
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 66.05
+    },
+    {
+      "id": "8eb4e546989e38c8",
+      "fuente_id": "google_news_es",
+      "fuente_nombre": "Google News ES",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "google_news",
+      "nivel_fuente": "agregador",
+      "categoria": "tecnologia",
+      "idioma_original": "es",
+      "prioridad_fuente": 3,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Se avecina una grandísima mejora para XBOX Series X|S: Las consolas de Microsoft recibirán la mejor tecnología de AMD y los juegos se beneficiarán - 3DJuegos",
+      "titulo_original": "Se avecina una grandísima mejora para XBOX Series X|S: Las consolas de Microsoft recibirán la mejor tecnología de AMD y los juegos se beneficiarán - 3DJuegos",
+      "enlace": "https://news.google.com/rss/articles/CBMigAJBVV95cUxPdEdabXZZeDdNU2NmbmxzNFJFLTBSS0xfWUdXUW8tV040b3V5LTBOeFJ3RXZQUm5EbDRKaWFmdFBPcnU4RWVSVWdIT0pwVjhJeXJITUYtZk0yZDJSeVRzOHNEMVVIUGZQc0FlY205cVpuVG0xNkVfUEFIZHpxSncxRDF1Um4zeHpwYXBRNDFWRzlNUjJ5RnN6dHdIQ254cE1EbXp5ZUk5Y3FFWXJwY0pFMEY2VDgtNkxPTFdqc1ZYLTdZSVNvYzNiLTI3YklvRF8yZjZsM29VSjJDY0pnS0xaN3dZejZ2dHhoQVplUlBONjU3a0lrWWhQVS1WRlN5MW810gGGAkFVX3lxTE1TbmdNLWRnamZnemlBNEpjYVBpVlQ3LW85elNIR2tYZ2d5Q1hId043eW5KRS0wTklkN2lFd3Y3YTRPTEZHbVRyVkFlNnljZVRiREc3SjVidzJWcHZRZ21LQmRLaGlaSWRSX2gwbjNiTVVYZ05qZmlBaFFxQ1RWMXZ1b09IZ1ZGTGprbU14OG92NmVsMkRvN01nVkNpbXlNNllwekhucVVzTUI0bWdWYUloYU8tQUhkX3I4d0wwMWtEX21yTEIyS0VMWXpFd25aX01oWUlPVmZkeTVTTUMwanN5SEk3dGhtZFFnQldLeDc1ZlY5UVpDcWlENFRjOEdPbHBZUE5QTkE?oc=5",
+      "fecha": "2026-10-21T00:12:00.000Z",
+      "resumen_corto": "Se avecina una grandísima mejora para XBOX Series X|S: Las consolas de Microsoft recibirán la mejor tecnología de AMD y los juegos se beneficiarán 3DJuegos",
+      "resumen_largo": "Se avecina una grandísima mejora para XBOX Series X|S: Las consolas de Microsoft recibirán la mejor tecnología de AMD y los juegos se beneficiarán 3DJuegos",
+      "texto_original": "Se avecina una grandísima mejora para XBOX Series X|S: Las consolas de Microsoft recibirán la mejor tecnología de AMD y los juegos se beneficiarán 3DJuegos",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-10-21T13:35:51.691Z",
+        "index": 22,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "tecnologia",
+        "categorias_secundarias": [
+          "inteligencia_artificial"
+        ],
+        "category_scores": {
+          "tecnologia": 2,
+          "inteligencia_artificial": 1
+        },
+        "entidades": [
+          "Microsoft",
+          "AMD"
+        ],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 80,
+        "relevancia": 60,
+        "confiabilidad_fuente": 53,
+        "readability": {
+          "words": 90,
+          "sentences": 1,
+          "average_words_per_sentence": 90
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 65.25
+    },
+    {
+      "id": "cfbd43eb222cc39b",
+      "fuente_id": "xataka_google",
+      "fuente_nombre": "Xataka",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "xataka",
+      "nivel_fuente": "medio_especializado",
+      "categoria": "tecnologia",
+      "idioma_original": "es",
+      "prioridad_fuente": 4,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "iPhone Duo, análisis: el mayor cambio del iPhone en su historia no es el mejor iPhone. Es otro iPhone",
+      "titulo_original": "iPhone Duo, análisis: el mayor cambio del iPhone en su historia no es el mejor iPhone. Es otro iPhone - Xataka",
+      "enlace": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOZHVMNlNZNzhscUNFeU9fcmh4d0NpZW5tVkZGVmVWeS12WlI3UG1fcWZ6WkdLa1RhSm0tRTZ5RmlZUFJ1Q2hiM1BlbmtlS2xMcExfMVdyQzFFNGd3M2dvaWdHOEgybU5xSGFXYTB0bWVJMXJkWmEwd2lTeHM4U2QxUlNTVkRqVHB6NnhzNXpzTi1lT25UWEh3Y2hneHZBbVFndUJFWXo1OFBKckpwR2xTadIBtgFBVV95cUxQZEEyV3BWWDN4aENYdnNyUWtHUXR6bXdSZW9VVmJMZ0lucnM4d243cTVOWlVuX0txZ05KM192UGVEUVVxVDZiUDE0MnJmRFlKejlKbzNCN1NfTDdTSkRlR1hYRnFiX0Rma2prQlhXcVhyRWJqWThvekt2d0F0MWFzSm1pYk9LZ1ZlY0RycDNqRWhmZUQtd2F1ODZDRkc2WWpDOXRTRTgtOUJPM1UzY1hjcTVtMzFMUQ?oc=5",
+      "fecha": "2026-10-21T12:16:44.000Z",
+      "resumen_corto": "iPhone Duo, análisis: el mayor cambio del iPhone en su historia no es el mejor iPhone.",
+      "resumen_largo": "iPhone Duo, análisis: el mayor cambio del iPhone en su historia no es el mejor iPhone.",
+      "texto_original": "iPhone Duo, análisis: el mayor cambio del iPhone en su historia no es el mejor iPhone. Es otro iPhone Xataka",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-10-21T13:35:51.674Z",
+        "index": 4,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "inteligencia_artificial",
+        "categorias_secundarias": [
+          "moviles"
+        ],
+        "category_scores": {
+          "inteligencia_artificial": 1,
+          "moviles": 1
+        },
+        "entidades": [
+          "iPhone",
+          "Xataka"
+        ],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 82,
+        "relevancia": 60,
+        "confiabilidad_fuente": 50,
+        "readability": {
+          "words": 58,
+          "sentences": 6,
+          "average_words_per_sentence": 9.67
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 65.2
+    },
+    {
+      "id": "cc2b05313499a57e",
+      "fuente_id": "bbc_mundo",
+      "fuente_nombre": "BBC Mundo",
+      "tipo": "rss_web",
+      "subtipo": "medio_generalista",
+      "grupo_fuente": "bbc",
+      "nivel_fuente": "medio_profesional",
+      "categoria": "actualidad",
+      "idioma_original": "es",
+      "prioridad_fuente": 5,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Las imágenes de las fascinantes especies del nuevo atlas de las islas Galápagos",
+      "titulo_original": "Las imágenes de las fascinantes especies del nuevo atlas de las islas Galápagos",
+      "enlace": "https://www.bbc.com/mundo/articles/ck1wvglvpqyqo?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-10-21T10:33:41.000Z",
+      "resumen_corto": "El atlas te presenta más de 60 especies del archipiélago, sus interacciones y lo que aún no se sabe de ellas.",
+      "resumen_largo": "El atlas te presenta más de 60 especies del archipiélago, sus interacciones y lo que aún no se sabe de ellas. También explica sus principales amenazas, desde las especies invasoras hasta el fenómeno de El Niño.",
+      "texto_original": "El atlas te presenta más de 60 especies del archipiélago, sus interacciones y lo que aún no se sabe de ellas. También explica sus principales amenazas, desde las especies invasoras hasta el fenómeno de El Niño.",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-10-21T13:35:51.678Z",
+        "index": 7,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "semiconductores",
+        "categorias_secundarias": [
+          "vehiculos_energia"
+        ],
+        "category_scores": {
+          "semiconductores": 1,
+          "vehiculos_energia": 1
+        },
+        "entidades": [],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 79,
+        "relevancia": 50,
+        "confiabilidad_fuente": 70,
+        "readability": {
+          "words": 82,
+          "sentences": 5,
+          "average_words_per_sentence": 16.4
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 65.15
+    },
+    {
+      "id": "194ecd2f59c0ce34",
+      "fuente_id": "genbeta_google",
+      "fuente_nombre": "Genbeta",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "genbeta",
+      "nivel_fuente": "medio_especializado",
+      "categoria": "software_internet",
+      "idioma_original": "es",
+      "prioridad_fuente": 4,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "En 2010, dejó su trabajo en Estados Unidos para dedicarse a la agricultura; hoy su empresa factura millones por año.",
+      "titulo_original": "En 2010, dejó su trabajo en Estados Unidos para dedicarse a la agricultura; hoy su empresa factura millones por año. - Genbeta",
+      "enlace": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPNTJ3dzE1cFRfQ2w3dEVMb28xQ1ozRG5iRTlpQ1N2Rk0xdG9pVnAwVklrSE03UDUwMHhCbll2THZiZHhXOEhxUW5TR0sxSkxkSWFaTWVDRE9faDQ3YVVHbWlmekhHN0RiRk84WndTNldMbERLNFJsZmtucXlielpvMkNhUTU3UUNnelE5anBQakE1VFFFbDk0UVZ3MVB4cTBfTmFkcjllMWprN3Vza1Rjb2hmOFdUZXR3S2pKU0JqY2hzMm5ralhuOHpBVGVzZUtK0gHWAUFVX3lxTFBaQW92aFRVVmY4MXBIYmtmWTJ1R2xTamhyMFRiY196UG44WU1rQ2ZWMzFBNThpdVJEMTZTSjUwYzhLbnBtUURRdTlYeUxaOUFZcWlhOUQ0RVhXOG1oM2dBX0J2MkxCQm1sbzM4c1BQckt2QVpnSHRjYlJqc0FxMUs5Q2JFSkVoel9ucGJ5UlNJNDVpYkdGZHluWmI2N1NHWkJIdzhvU1B6UzVxeEpjdjZ6dWM1NXc4WnQ0SWUyVnBXVjZoWXVFWU1ZM0hWODhENC1sT0hoWkE?oc=5",
+      "fecha": "2026-10-21T07:01:40.000Z",
+      "resumen_corto": "En 2010, dejó su trabajo en Estados Unidos para dedicarse a la agricultura; hoy su empresa factura millones por año.",
+      "resumen_largo": "En 2010, dejó su trabajo en Estados Unidos para dedicarse a la agricultura; hoy su empresa factura millones por año.",
+      "texto_original": "En 2010, dejó su trabajo en Estados Unidos para dedicarse a la agricultura; hoy su empresa factura millones por año. Genbeta",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-10-21T13:35:51.686Z",
+        "index": 14,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "vehiculos_energia",
+        "categorias_secundarias": [],
+        "category_scores": {
+          "vehiculos_energia": 2
+        },
+        "entidades": [
+          "Genbeta"
+        ],
+        "cifras_detectadas": [
+          "2010"
+        ],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 87,
+        "relevancia": 55,
+        "confiabilidad_fuente": 50,
+        "readability": {
+          "words": 72,
+          "sentences": 6,
+          "average_words_per_sentence": 12
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 64.95
+    },
+    {
+      "id": "40f6061b1decd3e2",
+      "fuente_id": "wccftech_google",
+      "fuente_nombre": "Wccftech",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "wccftech",
+      "nivel_fuente": "medio_especializado",
+      "categoria": "hardware",
+      "idioma_original": "en",
+      "prioridad_fuente": 4,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Universal MFG Unlocker 1.6.1 trae el cambio preestablecido DLSS en tiempo real a todas las GPU RTX",
+      "titulo_original": "Universal MFG Unlocker 1.6.1 Brings Real-Time DLSS Preset Switching To All RTX GPUs - Wccftech",
+      "enlace": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNcXB3dlI2WkV0YkZaZnhKblNyWmpBcWFYYlBURi0tVkRXazZ5VW42UEJIaV9jVG05WExRaHRmTkVxQklDRFJNVkkwUm9JTGk0MlRKQzZ6c0lmbXlTMzh0cl8wdEtpLU9YZDN4cUlMUFdnODdVclNERVNQcVN0dkh5eVNFT1pGYXVOTXNUakp4ckJaU0dEbmxES2RfdTRTb1VKRGlZZUlrY2PSAa4BQVVfeXFMTkUzN3R6djE3MnpXT2VaU0IzMVEwWFJ2SVRYV1hUTUxvSUNDdTFyRUFFekhDQUZnOUR4U1ltbkM5bWdMQ2ptTjdMdHdPeHBweUx2dkRLZ2pKWWJRVzVTUUMtZ1Vvd01lMGRmRTh0Z0NRVEZ5Njd2Z195OGtMVjh5QlN2dmpOR2h6akppWFd2S2dZZGdTUlUyTWl5MFZRblhQcUNhb25BRUpMX1JZRlNn?oc=5",
+      "fecha": "2026-10-20T20:00:00.000Z",
+      "resumen_corto": "Universal MFG Unlocker 1.6.1 trae el cambio preestablecido DLSS en tiempo real a todas las GPU RTX Wccftech",
+      "resumen_largo": "Universal MFG Unlocker 1.6.1 trae el cambio preestablecido DLSS en tiempo real a todas las GPU RTX Wccftech",
+      "texto_original": "Universal MFG Unlocker 1.6.1 Brings Real-Time DLSS Preset Switching To All RTX GPUs Wccftech",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-10-21T13:35:51.694Z",
+        "index": 26,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "en",
+        "categoria": "semiconductores",
+        "categorias_secundarias": [
+          "tecnologia"
+        ],
+        "category_scores": {
+          "semiconductores": 1,
+          "tecnologia": 1
+        },
+        "entidades": [
+          "Wccftech"
+        ],
+        "cifras_detectadas": [
+          "6.1 B"
+        ],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 87,
+        "relevancia": 55,
+        "confiabilidad_fuente": 50,
+        "readability": {
+          "words": 67,
+          "sentences": 11,
+          "average_words_per_sentence": 6.09
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 64.95
+    },
+    {
+      "id": "d4c386d6b3456ee4",
+      "fuente_id": "wccftech_google",
+      "fuente_nombre": "Wccftech",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "wccftech",
+      "nivel_fuente": "medio_especializado",
+      "categoria": "hardware",
+      "idioma_original": "en",
+      "prioridad_fuente": 4,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Xbox Project Helix no llegará hasta el día festivo de 2028, pero Fortune dice que se proyecta internamente que costará $ 1,200 a $ 1,800",
+      "titulo_original": "Xbox Project Helix Won’t Arrive Until Holiday 2028, but Fortune Says It Is Internally Projected to Cost $1,200 to $1,800 - Wccftech",
+      "enlace": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQRkZmZzBfTmJSRUdkOHprVHY2SC0yQmhSNDlobll6SU5VNUlzNnB3dXBaREJNQ3pRTTJsdlFWcm16cHFwUEduY1UyV21sMld5WldrVUc0NGoxbFUxVGdVNUp2ck1wS0JCT3lxSUZFWXFJY0RSU3dBRlhlcGFkSnEyVERKZjZuWnl1N1h0ddIBkgFBVV95cUxQUUt2Z1ctUkJQb1U2MFA5akZjS0NnWlN3WDdNVTNteGJEaEhXN21waXZnemFTUEs4ZWpNUFVna3BreW9HRVdKa21qTURXOHV5NlN3VHFrRThIUmZkcUhIci1ycS1sc3hSZk5zaWt3VkpYWFdLc0ZZWFlSdkREMEFCZTY3bmJvbHB1QUdZQTBpeEJBUQ?oc=5",
+      "fecha": "2026-10-20T19:15:00.000Z",
+      "resumen_corto": "Xbox Project Helix no llegará hasta el día festivo de 2028, pero Fortune dice que se proyecta internamente que costará $ 1,200 a $ 1,800 Wccftech",
+      "resumen_largo": "Xbox Project Helix no llegará hasta el día festivo de 2028, pero Fortune dice que se proyecta internamente que costará $ 1,200 a $ 1,800 Wccftech",
+      "texto_original": "Xbox Project Helix Won’t Arrive Until Holiday 2028, but Fortune Says It Is Internally Projected to Cost $1,200 to $1,800 Wccftech",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-10-21T13:35:51.696Z",
+        "index": 29,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "en",
+        "categoria": "inteligencia_artificial",
+        "categorias_secundarias": [
+          "tecnologia"
+        ],
+        "category_scores": {
+          "inteligencia_artificial": 1,
+          "tecnologia": 1
+        },
+        "entidades": [
+          "Wccftech"
+        ],
+        "cifras_detectadas": [
+          "2028",
+          "$ 1,200",
+          "$ 1,800",
+          "$1,200",
+          "$1,800"
+        ],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 25,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 87,
+        "relevancia": 55,
+        "confiabilidad_fuente": 50,
+        "readability": {
+          "words": 90,
+          "sentences": 1,
+          "average_words_per_sentence": 90
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 64.95
+    },
+    {
+      "id": "e0497bbb8f404ad4",
+      "fuente_id": "wccftech_google",
+      "fuente_nombre": "Wccftech",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "wccftech",
+      "nivel_fuente": "medio_especializado",
+      "categoria": "hardware",
+      "idioma_original": "en",
+      "prioridad_fuente": 4,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "El propietario de Zephyrus G14 afirma que ASUS eliminó uno de los sticks de RAM de 16 GB cuando se envió el portátil para juegos a un RMA, dice que la empresa no está reconociendo la memoria instalada extra",
+      "titulo_original": "Zephyrus G14 Owner Claims ASUS Removed One Of The 16GB RAM Sticks When Gaming Laptop Was Sent For An RMA, Says Company Isn’t Acknowledging The Extra Installed Memory - Wccftech",
+      "enlace": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1zQnIxVnNrVF92ajBIVGJVWkVWZEhnR0wwQkpGMDhqdkhEUjJreHBTaUZEdV9KbHFYd0dqQmhmTHp1RzRsQ2lFVmJkeG80TFA3NXNtS1dWaTZmZ21zM01kcG1QRjJnOWdKRUZ0VFNIM0dIbUVBQ3BYdEZ3a2_SAYIBQVVfeXFMTWw4ZWN0emxNZ0d2cVkwS21KdjdLYXlsc3J4VFJVR0VsbTlOeGduQlB5VGl4bEljeHhidnlLZjRUQlh0X3hJcGhmWnBNYUg4RklFb1QxbldmZ0tNQkRoNXVjc2hCRUt0NWhjdEU5enRmRlN1eS1tX1lFckxkQW9WT2toZw?oc=5",
+      "fecha": "2026-10-20T22:45:46.000Z",
+      "resumen_corto": "El propietario de Zephyrus G14 afirma que ASUS eliminó uno de los sticks de RAM de 16 GB cuando se envió el portátil para juegos para un RMA, dice que la empresa no está reconociendo la memoria extra instalada Wccftech",
+      "resumen_largo": "El propietario de Zephyrus G14 afirma que ASUS eliminó uno de los sticks de RAM de 16 GB cuando se envió el portátil para juegos para un RMA, dice que la empresa no está reconociendo la memoria extra instalada Wccftech",
+      "texto_original": "Zephyrus G14 Owner Claims ASUS Removed One Of The 16GB RAM Sticks When Gaming Laptop Was Sent For An RMA, Says Company Isn’t Acknowledging The Extra Installed Memory Wccftech",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-10-21T13:35:51.692Z",
+        "index": 23,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "en",
+        "categoria": "hardware",
+        "categorias_secundarias": [
+          "inteligencia_artificial",
+          "tecnologia"
+        ],
+        "category_scores": {
+          "hardware": 4,
+          "inteligencia_artificial": 2,
+          "tecnologia": 1
+        },
+        "entidades": [
+          "Wccftech",
+          "Says Company"
+        ],
+        "cifras_detectadas": [
+          "16 GB",
+          "16GB"
+        ],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 72,
+        "relevancia": 67,
+        "confiabilidad_fuente": 50,
+        "readability": {
+          "words": 133,
+          "sentences": 1,
+          "average_words_per_sentence": 133
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 64.5
+    },
+    {
+      "id": "eb1dda7877a8e6cd",
+      "fuente_id": "huawei_google",
+      "fuente_nombre": "Huawei Central",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "huawei",
+      "nivel_fuente": "agregador",
+      "categoria": "moviles",
+      "idioma_original": "en",
+      "prioridad_fuente": 4,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "El CEO de Huawei se burla del nuevo router Wi-Fi con un factor de forma similar a un libro: Huawei Central",
+      "titulo_original": "Huawei CEO teases new Wi-Fi router with a book-like form factor - Huawei Central",
+      "enlace": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOTE5OV2tEeDFxcGVnaGdIUExjUmRNejlCQ21PNkRjUDdkcFZRaHllcW5wZlpjNGVQcWpFcUdxdmJtcGE3bF80cnhjLVdkNU9zeVZYaWJ5aVNVMTJ3Q00xcXdsaVVNSWl0ZHNBVTc1b0FZeTdlS1FSSzVHU0lJUmlKMVVUZ19rU1hzUmJvdHB5d2o0RkgzeVh3RjNB0gGfAUFVX3lxTFB3MzlUTDJ5ZTlSSFEyMHNDUm9ManV4VWY3Z09KWXV3eDRJaEEyelFpVUZrczNRRzZvMXY2R3U3T3dmbFZvYTg3WUlQa3NjbmczcUdIN1JOWUZUSHlibHJ6dWxiMGVfRDFra0lqbko5UmpkQkRHNHo4OWlUNHlnOUQxN1RKTXpuVU5YZGlmdGNDZE1nY1dSWlYtUEVnMzh5WQ?oc=5",
+      "fecha": "2026-10-19T07:33:36.000Z",
+      "resumen_corto": "El CEO de Huawei se burla del nuevo router Wi-Fi con un factor de forma similar a un libro Huawei Central",
+      "resumen_largo": "El CEO de Huawei se burla del nuevo router Wi-Fi con un factor de forma similar a un libro Huawei Central",
+      "texto_original": "Huawei CEO teases new Wi-Fi router with a book-like form factor Huawei Central",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-10-21T13:35:51.700Z",
+        "index": 37,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "en",
+        "categoria": "moviles",
+        "categorias_secundarias": [
+          "vehiculos_energia"
+        ],
+        "category_scores": {
+          "moviles": 1,
+          "vehiculos_energia": 1
+        },
+        "entidades": [
+          "Huawei"
+        ],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 82,
+        "relevancia": 55,
+        "confiabilidad_fuente": 53,
+        "readability": {
+          "words": 63,
+          "sentences": 1,
+          "average_words_per_sentence": 63
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 63.95
+    },
+    {
+      "id": "424475fae71485b7",
+      "fuente_id": "huawei_google",
+      "fuente_nombre": "Huawei Central",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "huawei",
+      "nivel_fuente": "agregador",
+      "categoria": "moviles",
+      "idioma_original": "en",
+      "prioridad_fuente": 4,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Huawei Pura X View se está vendiendo bien por tres razones: Huawei Central",
+      "titulo_original": "Huawei Pura X View is selling well for three reasons - Huawei Central",
+      "enlace": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxONTE2d0FfMC1GUDdEeDVNNjRWSlhfaUVNOHNHUWZoQzA3am50X2pJQnowM3E4ZG1Hc2hETTlzTDFuMi12SDJRV056ZEdnaEJYTDNpMGQwRk1hUlB3UHdta0txRmVDbTc3ZENIdVRVemVRYk1pamFHMzloWHRxR3JTazgxd3NfekdlT2Vr0gGQAUFVX3lxTE0teTB1WjRENGRhUUJxdmVlYW8xbVRmZHFfbk51ZDAyZldjMGhlZ2xGSG9KTlkxVFJBdzRPV3p6clBiMUxEQ3dianlRSERNMTdOYUtCS0NzdlBjSHdJOFk2TjVkNFpaNExsTi12Z2RDTlo1dTQtZUtKSkx6WGE0TmY2c0lwLXlidjdyaHdqWFhRdg?oc=5",
+      "fecha": "2026-10-17T14:22:34.000Z",
+      "resumen_corto": "Huawei Pura X View se está vendiendo bien por tres razones Huawei Central",
+      "resumen_largo": "Huawei Pura X View se está vendiendo bien por tres razones Huawei Central",
+      "texto_original": "Huawei Pura X View is selling well for three reasons Huawei Central",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-10-21T13:35:51.700Z",
+        "index": 38,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "en",
+        "categoria": "moviles",
+        "categorias_secundarias": [],
+        "category_scores": {
+          "moviles": 2
+        },
+        "entidades": [
+          "Huawei"
+        ],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 82,
+        "relevancia": 55,
+        "confiabilidad_fuente": 53,
+        "readability": {
+          "words": 53,
+          "sentences": 1,
+          "average_words_per_sentence": 53
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 63.95
+    },
+    {
+      "id": "2947153e75758250",
+      "fuente_id": "google_news_es",
+      "fuente_nombre": "Google News ES",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "google_news",
+      "nivel_fuente": "agregador",
+      "categoria": "tecnologia",
+      "idioma_original": "es",
+      "prioridad_fuente": 3,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Los juegos de XBOX Series funcionarán mejor gracias a FSR, la tecnología de AMD que irá a más en XBOX Helix - Vandal",
+      "titulo_original": "Los juegos de XBOX Series funcionarán mejor gracias a FSR, la tecnología de AMD que irá a más en XBOX Helix - Vandal",
+      "enlace": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPbzhscnlyU29pTS1xbjJlUk9uU0cwRHFpLUROTkFhbmFaSExOTFE2ak9PRmFRSTYzc2Vfd3p6NlVNNXRIT3RDeldJZUN6LVRwSEh2c05rc3dWQzRNVVB5ZGlUY184TFQ4YjRpcnZJTjRnYmNkZGNlcFMtb1ppMDFxOEtsbHEzRUViRUVkdnpRNHcwUUJWYVA0Nk16UXFYZF9FdEZsejhVZU5vZkpEZjZGN0poeUcwc3plV0JkckNsZExQS1Y2SGx2cDE2elBfUGFaUkJDSERBRTlNOFhMSHNvSU930gHnAUFVX3lxTE9sdFpUY2RFSW5vQ0JCVUdlRi15VVN4WmtzaV91YU13T1labVoxNmY3b1hWUzI2eEFGNW5obVRmWTl6QUpOUEl4R1RQeDQtUjA2T216NVBGTld2bWd5MFh0S2hzQXhjOTBtckNzNWxKM3pFUEZSR3FlYVVXcHFIVlR0RjNRVTdORm5MNk1MQ2Q1WmlVRGE4TVZqbk9LWHdNX0gxLUg4dFFKa0tFVEI3dU9HNnNxOVo4Z3VWYTY5dzBUbVBITGF4YXhUMVV4X25YVXIzUTFRWHB6YjVjelcwaE84OE5VbTNQZw?oc=5",
+      "fecha": "2026-10-20T17:25:00.000Z",
+      "resumen_corto": "Los juegos de XBOX Series funcionarán mejor gracias a FSR, la tecnología de AMD que irá a más en XBOX Helix Vandal",
+      "resumen_largo": "Los juegos de XBOX Series funcionarán mejor gracias a FSR, la tecnología de AMD que irá a más en XBOX Helix Vandal",
+      "texto_original": "Los juegos de XBOX Series funcionarán mejor gracias a FSR, la tecnología de AMD que irá a más en XBOX Helix Vandal",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-10-21T13:35:51.697Z",
+        "index": 31,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "tecnologia",
+        "categorias_secundarias": [
+          "inteligencia_artificial"
+        ],
+        "category_scores": {
+          "tecnologia": 2,
+          "inteligencia_artificial": 1
+        },
+        "entidades": [
+          "AMD"
+        ],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 80,
+        "relevancia": 55,
+        "confiabilidad_fuente": 53,
+        "readability": {
+          "words": 80,
+          "sentences": 1,
+          "average_words_per_sentence": 80
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 63.25
+    },
+    {
+      "id": "4c31d5e295aba260",
+      "fuente_id": "xataka_google",
+      "fuente_nombre": "Xataka",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "xataka",
+      "nivel_fuente": "medio_especializado",
+      "categoria": "tecnologia",
+      "idioma_original": "es",
+      "prioridad_fuente": 4,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Este robot puede cambiar los cuatro neumáticos sin desmontar las llantas en media hora",
+      "titulo_original": "Este robot puede cambiar los cuatro neumáticos sin desmontar las llantas en media hora - Xataka",
+      "enlace": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQWUhSaHpnQV82MURCTHVPRGwwQ2FBRmx1NXhveDQ1SDRyS2FTdkN3bUpILTVHbF9iMC1aM3NYZkhsYmsydjBnSGxzYktXN2xGaDN2emFTUHdsbmhEaTFKcmxySkdDQTdnbTE1WFJjRDhoYURKWTBzTVdEYUZydnNaR1Z5a3p3VVRMUFYwamR5dWRjMVNLcmQwSVlRdGFJRzg4aHo2ZXdCVdIBrAFBVV95cUxQTVFUa1ZIV3pLU0V5SU9WQXFTSkhXbWdvaV9SWFUxT1VIRDM4V2FpZnJWX2tUQnFkcHdqT19lVFJ6X3dWMmFLdFhnaUJ6bE1uN0hHcXg5TEQ0UHhvM2RNbElBN2QyVkFZUGJRc3ZCSUhIMEZ6MVRFcWpIS0RuM0t4LVZMbzZxUElQdXBrd3ptWFpJRi1zRUFGSmxpYUxxcWlRU0did2ZlU29xZzNq?oc=5",
+      "fecha": "2026-10-21T06:01:38.000Z",
+      "resumen_corto": "Este robot puede cambiar los cuatro neumáticos sin desmontar las llantas en media hora Xataka",
+      "resumen_largo": "Este robot puede cambiar los cuatro neumáticos sin desmontar las llantas en media hora Xataka",
+      "texto_original": "Este robot puede cambiar los cuatro neumáticos sin desmontar las llantas en media hora Xataka",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-10-21T13:35:51.687Z",
+        "index": 16,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "inteligencia_artificial",
+        "categorias_secundarias": [],
+        "category_scores": {
+          "inteligencia_artificial": 1
+        },
+        "entidades": [
+          "Xataka"
+        ],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 82,
+        "relevancia": 55,
+        "confiabilidad_fuente": 50,
+        "readability": {
+          "words": 69,
+          "sentences": 1,
+          "average_words_per_sentence": 69
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 63.2
+    },
+    {
+      "id": "c0bedc3148da8d1a",
+      "fuente_id": "xataka_google",
+      "fuente_nombre": "Xataka",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "xataka",
+      "nivel_fuente": "medio_especializado",
+      "categoria": "tecnologia",
+      "idioma_original": "es",
+      "prioridad_fuente": 4,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Llega a Lidl, el viernes 30 de octubre, la freidora de aire tipo Ninja Crispi que cuesta menos de la mitad y tiene más capacidad",
+      "titulo_original": "Llega a Lidl, el viernes 30 de octubre, la freidora de aire tipo Ninja Crispi que cuesta menos de la mitad y tiene más capacidad - Xataka",
+      "enlace": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPRTZ4U3E2TE5wOW5UR04zdXlIYW1nMWxMSDhUQzlmcU0yb014ZjA0NFpqaUZGYVdHUVZaWnkzV1ZoMVBuNXB0YWFaOGJubWtjTUdzdFNtYktXT2FKX0M4OVB0T01EMEk0STNmajRiZFV4T2o4enhWR25vR0FVa0FhUHphMGwyY1FUN0ZnaDVVNzZTd0xSdzFFR1BSXzRNdjluNmZOWFJOV05XcWpReG1GNWJfcFBkc0tVakpuU0hYWWRwMWRwYXRtaNIBzgFBVV95cUxOemJRLTU1NVBUR1I3S3F3eWlSNW9HS1NPZVE5QlhOa29uLVVUSF8wdzNubjJqc1VKLTdZVVd5SVFEbFJwTkh4TmVDUXdQbGlYVk1UbzRSa3NrOEtrckdwanc2Tk05SEN0TklxNkw2eVVkNEpieU9sNkd2WkxPakhHRmxwYk91Z1p3S0tCTHFHLWM4ejZYSDgxa1lXaDRNc0dLY0pCT3VjYmxTSmJpOElVdHN1M2NTcUdIZDQ5OG4xazJyUVdHeVNNcGRST3N6UQ?oc=5",
+      "fecha": "2026-10-21T05:45:36.000Z",
+      "resumen_corto": "Llega a Lidl, el viernes 30 de octubre, la freidora de aire tipo Ninja Crispi que cuesta menos de la mitad y tiene más capacidad Xataka",
+      "resumen_largo": "Llega a Lidl, el viernes 30 de octubre, la freidora de aire tipo Ninja Crispi que cuesta menos de la mitad y tiene más capacidad Xataka",
+      "texto_original": "Llega a Lidl, el viernes 30 de octubre, la freidora de aire tipo Ninja Crispi que cuesta menos de la mitad y tiene más capacidad Xataka",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-10-21T13:35:51.687Z",
+        "index": 17,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "inteligencia_artificial",
+        "categorias_secundarias": [],
+        "category_scores": {
+          "inteligencia_artificial": 1
+        },
+        "entidades": [
+          "Xataka"
+        ],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 82,
+        "relevancia": 55,
+        "confiabilidad_fuente": 50,
+        "readability": {
+          "words": 84,
+          "sentences": 1,
+          "average_words_per_sentence": 84
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 63.2
+    },
+    {
+      "id": "5fdf1bb37e6603b5",
+      "fuente_id": "xataka_google",
+      "fuente_nombre": "Xataka",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "xataka",
+      "nivel_fuente": "medio_especializado",
+      "categoria": "tecnologia",
+      "idioma_original": "es",
+      "prioridad_fuente": 4,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Los mejores chollos que hemos encontrado en Amazon hoy, 21 de octubre: descuentos de hasta el 70%",
+      "titulo_original": "Los mejores chollos que hemos encontrado en Amazon hoy, 21 de octubre: descuentos de hasta el 70% - Xataka",
+      "enlace": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPTDBjdzdEME1iWnBNcHhpNllxR1R1andZQ080LW1wc2tQSGNhTDJnSV9uYlZkWHBiYXgzdDFmTGphY01taWpUUDZZdklxbWNwd3NMQzJpdV8xSHRkX0ZSWHkwZFZiNHktZGNnQ3RURzUzOS1LTlNPbndPM0R2MHhVYnE4bGg4TV9yb0NOZ2Z5bVFyN1hMTkJ2d1B5WU9RdU9YMHdrM3lDYWrSAa4BQVVfeXFMTnQwN2VxcmFLWTVHbVJncUFPdmU1RkJiSmZYZ3c2bXduTjdPX3RGOU5DWTJ5V09KNDFNR3hLSGdoSlpwSnpaZ0FYaXg1YU5hc2NGNUpIT2d0TnRTem1CdHNZb1B1aHdjeWpBOEhDWFo3eU1zTlFtNjZ1bUNfcFJxQVZ0TkVSVUV4N3dzS0k2LUFRcVV3bDJTUXJ0Z016NGtGOFlHNTc2TVYzeE9sbFVR?oc=5",
+      "fecha": "2026-10-21T08:15:39.000Z",
+      "resumen_corto": "Los mejores chollos que hemos encontrado en Amazon hoy, 21 de octubre: descuentos de hasta el 70% Xataka",
+      "resumen_largo": "Los mejores chollos que hemos encontrado en Amazon hoy, 21 de octubre: descuentos de hasta el 70% Xataka",
+      "texto_original": "Los mejores chollos que hemos encontrado en Amazon hoy, 21 de octubre: descuentos de hasta el 70% Xataka",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-10-21T13:35:51.679Z",
+        "index": 8,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "tecnologia",
+        "categorias_secundarias": [],
+        "category_scores": {},
+        "entidades": [
+          "Xataka"
+        ],
+        "cifras_detectadas": [
+          "70%"
+        ],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 87,
+        "relevancia": 50,
+        "confiabilidad_fuente": 50,
+        "readability": {
+          "words": 59,
+          "sentences": 1,
+          "average_words_per_sentence": 59
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 62.95
+    },
+    {
+      "id": "57bdf86354cd1cdc",
+      "fuente_id": "google_news_es",
+      "fuente_nombre": "Google News ES",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "google_news",
+      "nivel_fuente": "agregador",
+      "categoria": "tecnologia",
+      "idioma_original": "es",
+      "prioridad_fuente": 3,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Onterris recibe aprobación del Departamento de Defensa para su tecnología de tratamiento PFAS - Investing.com España",
+      "titulo_original": "Onterris recibe aprobación del Departamento de Defensa para su tecnología de tratamiento PFAS - Investing.com España",
+      "enlace": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQbHZsTVltajc5YWZlOHB6YTQ5ME1Zek5lZGhjTFE3QURyUFpVQmdydU9jME5SSGdJcVllQmNBMUhRRV9zNTYwNnAweXozWEp1UWJCRTB0RzhDSTl4RG5BT2h2UzVWR0JaTHdyb01obGZKQU5DaHJkTmIyQXVOZTFfbEIwNnhfTE96VFJiSkduSmN4dzJfakpDM2kxYTZDSE1FMGFTYWZxZ2ROOC02MVdVU0pwUE1WRFUwOW1sTFBpY3drd3pyY0ctTmdROXNFZmxsaXBuMjdWVXNvY3RMZXVuTTlXbw?oc=5",
+      "fecha": "2026-10-21T13:13:00.000Z",
+      "resumen_corto": "Onterris recibe aprobación del Departamento de Defensa para su tecnología de tratamiento PFAS Investing.com España",
+      "resumen_largo": "Onterris recibe aprobación del Departamento de Defensa para su tecnología de tratamiento PFAS Investing.com España",
+      "texto_original": "Onterris recibe aprobación del Departamento de Defensa para su tecnología de tratamiento PFAS Investing.com España",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-10-21T13:35:51.671Z",
         "index": 0,
         "resumen": {
           "generado": true,
@@ -509,9 +1998,16 @@
         },
         "idioma_detectado": "es",
         "idioma_original": "es",
-        "categoria": "militar",
-        "categorias_secundarias": [],
-        "category_scores": {},
+        "categoria": "tecnologia",
+        "categorias_secundarias": [
+          "inteligencia_artificial",
+          "militar"
+        ],
+        "category_scores": {
+          "tecnologia": 2,
+          "inteligencia_artificial": 1,
+          "militar": 1
+        },
         "entidades": [],
         "cifras_detectadas": [],
         "content_type": "news",
@@ -527,12 +2023,12 @@
           "url_count": 0
         },
         "calidad": 75,
-        "relevancia": 45,
-        "confiabilidad_fuente": 45,
+        "relevancia": 57,
+        "confiabilidad_fuente": 53,
         "readability": {
-          "words": 25,
-          "sentences": 1,
-          "average_words_per_sentence": 25
+          "words": 65,
+          "sentences": 6,
+          "average_words_per_sentence": 10.83
         },
         "duplicate": {
           "detected": false,
@@ -541,159 +2037,31 @@
           "similar_to": null
         }
       },
-      "final_score": 55.5
+      "final_score": 62.3
     },
     {
-      "id": "063360dadbcd37c6",
-      "fuente_id": "resumen_militar",
-      "fuente_nombre": "El Resumen Militar",
-      "tipo": "telegram",
-      "subtipo": "canal_telegram",
-      "grupo_fuente": "telegram_militar",
-      "nivel_fuente": "telegram",
-      "categoria": "militar",
+      "id": "f8a18f7414fa3500",
+      "fuente_id": "ia_dia",
+      "fuente_nombre": "IA al Día",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "ia_general",
+      "nivel_fuente": "agregador",
+      "categoria": "inteligencia_artificial",
       "idioma_original": "es",
       "prioridad_fuente": 3,
       "analizar": true,
       "resumir": true,
-      "titulo": "🇺🇸 🇺🇦 Пит Хэгсет сказал, какие украинцы герои и им желает успеха, но зенитных ракет Америка не поставит, потому что самим надо, а Старлинк не включат, потому что это все внутренние условия и решения компании Маска и",
-      "titulo_original": "🇺🇸 🇺🇦 Пит Хэгсет сказал, какие украинцы герои и им желает успеха, но зенитных ракет Америка не поставит, потому что самим надо, а Старлинк не включат, потому что это все внутренние условия и решения компании Маска и",
-      "enlace": "https://t.me/elresumenmilitar/101911",
-      "fecha": "2026-10-21T05:20:40.000Z",
-      "resumen_corto": "🇺🇸 🇺🇦 Пит Хэгсет сказал, какие украинцы герои и им желает успеха, но зенитных ракет Америка не поставит, потому что самим надо, а Старлинк не включат, потому что это все внутренние условия и решения компании Маска и Пентагона.",
-      "resumen_largo": "🇺🇸 🇺🇦 Пит Хэгсет сказал, какие украинцы герои и им желает успеха, но зенитных ракет Америка не поставит, потому что самим надо, а Старлинк не включат, потому что это все внутренние условия и решения компании Маска и Пентагона. Забавно Подписаться на канал | наш МАХ",
-      "texto_original": "🇺🇸 🇺🇦 Пит Хэгсет сказал, какие украинцы герои и им желает успеха, но зенитных ракет Америка не поставит, потому что самим надо, а Старлинк не включат, потому что это все внутренние условия и решения компании Маска и Пентагона. Забавно Подписаться на канал | наш МАХ",
+      "titulo": "Durango ofrecerá formación gratuita sobre inteligencia artificial a los negocios locales - El Correo",
+      "titulo_original": "Durango ofrecerá formación gratuita sobre inteligencia artificial a los negocios locales - El Correo",
+      "enlace": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQZ0JPSVZNa3JBM2t0TnQ5ajIzUll6NDlidU9DaEpFVjY2UWZOSVE2dkFqNkJDeVZ0VU45Zzg3cDZyNVdxLXJIX0ZIbEx0RzZPQllmOHlhRVRSNTRXM0lELW80X0dHQW52MkYxQ3FZM3c4bUVJNmNZVHltR3R1RFg1WjNRZTJnTmxnM0JRVzBmT2dfam5ldGFpZjYzYzYwdzZzclVJXzhESW5PQzRoMWY3bWhmUzRlQUZqenBCN0tSWEtWRFZTYmhkRTBySHBQRG_SAdQBQVVfeXFMTmFTeWp1R3d1Nk8zOXFIMUJMVHptbGdrX2lrQ3kyM1l3ODZNRWdmcmpRMk9CNjJMc3RqREYxYlFyMldDTmdWMVV4SVBkYkxOalFzUkFCTjBMeXNIOEFwZksyR0lmZHJ5dWpVN1dTclN5bGZDYklkZHU4QXY5SDc2RTdSQnlPUnE2QUxEb1M1UzMyMnEycVBkMFo4TlBsMjN4cjl5R0xRclY3VnZMR3FOZmxUU243R3lrYW5nc0V3UktBaXlyS3pvUlhIYnZLUWZ2RjF2blU?oc=5",
+      "fecha": "2026-10-21T12:17:13.000Z",
+      "resumen_corto": "Durango ofrecerá formación gratuita sobre inteligencia artificial a los negocios locales El Correo",
+      "resumen_largo": "Durango ofrecerá formación gratuita sobre inteligencia artificial a los negocios locales El Correo",
+      "texto_original": "Durango ofrecerá formación gratuita sobre inteligencia artificial a los negocios locales El Correo",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-21T07:15:45.003Z",
-        "index": 1,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "es",
-        "categoria": "militar",
-        "categorias_secundarias": [],
-        "category_scores": {},
-        "entidades": [],
-        "cifras_detectadas": [],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 60,
-        "relevancia": 45,
-        "confiabilidad_fuente": 45,
-        "readability": {
-          "words": 148,
-          "sentences": 4,
-          "average_words_per_sentence": 37
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 50.25
-    },
-    {
-      "id": "c2adc09e474b520a",
-      "fuente_id": "resumen_militar",
-      "fuente_nombre": "El Resumen Militar",
-      "tipo": "telegram",
-      "subtipo": "canal_telegram",
-      "grupo_fuente": "telegram_militar",
-      "nivel_fuente": "telegram",
-      "categoria": "militar",
-      "idioma_original": "es",
-      "prioridad_fuente": 3,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "🇷🇺 🇺🇦 🇺🇸 Трамп снова \"слоняра\". Маятник отошел в сторону хвальбы России и критики Украины. Заявления: ▪️ Украина должна захотеть завершить эту войну. Зеленский должен захотеть завершить эту войну, и если он этого н",
-      "titulo_original": "🇷🇺 🇺🇦 🇺🇸 Трамп снова \"слоняра\". Маятник отошел в сторону хвальбы России и критики Украины. Заявления: ▪️ Украина должна захотеть завершить эту войну. Зеленский должен захотеть завершить эту войну, и если он этого н",
-      "enlace": "https://t.me/elresumenmilitar/101910",
-      "fecha": "2026-10-21T05:19:56.000Z",
-      "resumen_corto": "Маятник отошел в сторону хвальбы России и критики Украины.",
-      "resumen_largo": "🇷🇺 🇺🇦 🇺🇸 Трамп снова \"слоняра\". Маятник отошел в сторону хвальбы России и критики Украины. Заявления: ▪️ Украина должна захотеть завершить эту войну.",
-      "texto_original": "🇷🇺 🇺🇦 🇺🇸 Трамп снова \"слоняра\". Маятник отошел в сторону хвальбы России и критики Украины. Заявления: ▪️ Украина должна захотеть завершить эту войну. Зеленский должен захотеть завершить эту войну, и если он этого не сделает, я думаю, это будет очень плохо. ▪️ Россия – это великая держава. Украина – нет. ▪️ Россия – это огромная машина. Они просто продолжают двигаться вперед, и именно это они и делают. Они захватили очень большую территорию. ▪️ Мы оказали Украине огромную помощь. А взамен получили только высокие цены на дизельное топливо. ▪️ Мы оказали Украине огромную помощь. Взамен мы получили только горе, смерть и огромные финансовые потери. ▪️ Встреча Путина и Зеленского необязательна для украинского урегулирования. ▪️ Украина должна захотеть заключить сделку, потому что Соединенные Штаты потратили огромные средства, Европа также потратила огромные средства, и сейчас Европа устала от этого. Если они не заключат сделку, то, по моему мнению, в конечном итоге ситуация просто ухудшится. Подписаться на канал | наш МАХ",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-10-21T07:15:45.004Z",
-        "index": 2,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "es",
-        "categoria": "militar",
-        "categorias_secundarias": [],
-        "category_scores": {},
-        "entidades": [],
-        "cifras_detectadas": [],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 60,
-        "relevancia": 45,
-        "confiabilidad_fuente": 45,
-        "readability": {
-          "words": 195,
-          "sentences": 27,
-          "average_words_per_sentence": 7.22
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 50.25
-    },
-    {
-      "id": "0469f3683a08861d",
-      "fuente_id": "resumen_militar",
-      "fuente_nombre": "El Resumen Militar",
-      "tipo": "telegram",
-      "subtipo": "canal_telegram",
-      "grupo_fuente": "telegram_militar",
-      "nivel_fuente": "telegram",
-      "categoria": "militar",
-      "idioma_original": "es",
-      "prioridad_fuente": 3,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "🇺🇸 🇷🇺 🇺🇦 Трамп насмотрелся, как Бэррон в компьютер играет, и выдал анаоитику по началу СВО: «У русских было тысяча танков, которые ехали по бетонному шоссе. Они были бы в стране через четыре часа, двигаясь на макси",
-      "titulo_original": "🇺🇸 🇷🇺 🇺🇦 Трамп насмотрелся, как Бэррон в компьютер играет, и выдал анаоитику по началу СВО: «У русских было тысяча танков, которые ехали по бетонному шоссе. Они были бы в стране через четыре часа, двигаясь на макси",
-      "enlace": "https://t.me/elresumenmilitar/101909",
-      "fecha": "2026-10-21T05:19:44.000Z",
-      "resumen_corto": "Они были бы в стране через четыре часа, двигаясь на максимальной скорости танка, которая составляет 48 миль в час, если быть точным.",
-      "resumen_largo": "🇺🇸 🇷🇺 🇺🇦 Трамп насмотрелся, как Бэррон в компьютер играет, и выдал анаоитику по началу СВО: «У русских было тысяча танков, которые ехали по бетонному шоссе. Они были бы в стране через четыре часа, двигаясь на максимальной скорости танка, которая составляет 48 миль в час, если быть точным. Ничто не могло бы их остановить.",
-      "texto_original": "🇺🇸 🇷🇺 🇺🇦 Трамп насмотрелся, как Бэррон в компьютер играет, и выдал анаоитику по началу СВО: «У русских было тысяча танков, которые ехали по бетонному шоссе. Они были бы в стране через четыре часа, двигаясь на максимальной скорости танка, которая составляет 48 миль в час, если быть точным. Ничто не могло бы их остановить. Война закончилась бы в один день. И этот очень глупый генерал — я понятия не имею, кто он. Я сомневаюсь, что он еще с нами. Я сомневаюсь, что он еще жив. Он решил свернуть направо на сельскохозяйственные угодья, а затем налево и двигаться к Киеву, вместо того чтобы оставаться на шоссе — на бетонном шоссе, на совершенно хорошем шоссе — где они продвигались очень успешно. Это заняло бы три с половиной, четыре часа, и вся война закончилась бы. В итоге он застрял в грязи».",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-10-21T07:15:45.005Z",
+        "processed_at": "2026-10-21T13:35:51.674Z",
         "index": 3,
         "resumen": {
           "generado": true,
@@ -701,6 +2069,629 @@
         },
         "idioma_detectado": "es",
         "idioma_original": "es",
+        "categoria": "inteligencia_artificial",
+        "categorias_secundarias": [
+          "moviles"
+        ],
+        "category_scores": {
+          "inteligencia_artificial": 3,
+          "moviles": 1
+        },
+        "entidades": [],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 75,
+        "relevancia": 57,
+        "confiabilidad_fuente": 53,
+        "readability": {
+          "words": 55,
+          "sentences": 1,
+          "average_words_per_sentence": 55
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 62.3
+    },
+    {
+      "id": "5462624c90227ad6",
+      "fuente_id": "ia_dia",
+      "fuente_nombre": "IA al Día",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "ia_general",
+      "nivel_fuente": "agregador",
+      "categoria": "inteligencia_artificial",
+      "idioma_original": "es",
+      "prioridad_fuente": 3,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Oracle lanza aplicaciones de RRHH con inteligencia artificial y el sistema Claw - Investing.com España",
+      "titulo_original": "Oracle lanza aplicaciones de RRHH con inteligencia artificial y el sistema Claw - Investing.com España",
+      "enlace": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNNTFacDdKbjlQcE8xaDBqamw1VkJaUUM1YjdGQzUwV093Z0c1eXZtd1ZJQUFQRG5HLXBUQ2FYOWhOWHRQWkVkckdVRjVqTjY4NTdKTm5KYXk2VTNlMmIxVFliMklWMF91UGFMU3l3Z3FGN1hwa1VfUHZYU01ZV0hHSmNnX242VlZGTWVELVZzYkRxWmdXSVRVYmRCdEt3TFZLa29Vcy1uZkFGaFQzc2tHdnp4Y0xpYWh0UUMta3A1Yi1KeVVBQTZsMzVqOEd1NHJE?oc=5",
+      "fecha": "2026-10-21T12:13:00.000Z",
+      "resumen_corto": "Oracle lanza aplicaciones de RRHH con inteligencia artificial y el sistema Claw Investing.com España",
+      "resumen_largo": "Oracle lanza aplicaciones de RRHH con inteligencia artificial y el sistema Claw Investing.com España",
+      "texto_original": "Oracle lanza aplicaciones de RRHH con inteligencia artificial y el sistema Claw Investing.com España",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-10-21T13:35:51.675Z",
+        "index": 5,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "inteligencia_artificial",
+        "categorias_secundarias": [
+          "software_internet"
+        ],
+        "category_scores": {
+          "inteligencia_artificial": 3,
+          "software_internet": 2
+        },
+        "entidades": [],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 75,
+        "relevancia": 57,
+        "confiabilidad_fuente": 53,
+        "readability": {
+          "words": 60,
+          "sentences": 6,
+          "average_words_per_sentence": 10
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 62.3
+    },
+    {
+      "id": "730cfbfeee9d1b3d",
+      "fuente_id": "genbeta_google",
+      "fuente_nombre": "Genbeta",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "genbeta",
+      "nivel_fuente": "medio_especializado",
+      "categoria": "software_internet",
+      "idioma_original": "es",
+      "prioridad_fuente": 4,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Inma y Jesús, españoles trabajando en Noruega: “Hemos ahorrado 10.000 € en tres meses; en España, con suerte, ahorrábamos 400 € al mes”",
+      "titulo_original": "Inma y Jesús, españoles trabajando en Noruega: “Hemos ahorrado 10.000 € en tres meses; en España, con suerte, ahorrábamos 400 € al mes” - Genbeta",
+      "enlace": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPMkxDZHhRVHhVeW01U19tVTVTamhsUlh3c0FEMDZFUmZXRTdMV1Z3Q0dXcktRZUFfRllScG52a1BQQXUtbWdRbzR4QkZWdUpXR2tXbkFKR2V0RnR2SXFuSVhNSjFCMFVXeTRycnk5N2U2bG1ibXBDWmZnQUdiU3RDMk81enh4RHlrN0c2Rklkd242WUNyaV80WnRyWlVkYXNuQ1JuUXhSVHdwNWFoT0duUUdJSnN5cVVYcTByblQ2RGZfWEE5ZHNnREMtNldrclN2OWtuNUFHT0o4aDhsSkplYTZnZ9IB6AFBVV95cUxORS0ydXJ6OTJhc2R4bXlxbjBEZEl3LU1VME93U2NzWFVURWNJdVpVTlp5clA0Y0VMVFk1NmM2UnhFSVprcHk0bF9fVWEwY0R2NVRnX3VxWGstcTRuRkRZYlFUSVpIb2Joai12dXJHdGNvNUFscHlJa1AtSmltRXBJTF85cEhqZGs3VEUyVTlyc1BIQ0Y1T3Q3SXZPaVRoeUxzZVo3X1ZHYUp0QzBVUVNqZGk4T3VoNGRrLXBYX1dPLTJBSE9BeWNJamJDSkJmRG5KTlp0dnBSVEpoUC1wOXdkNUJla0c4U0xR?oc=5",
+      "fecha": "2026-10-20T14:01:40.000Z",
+      "resumen_corto": "Inma y Jesús, españoles trabajando en Noruega: “Hemos ahorrado 10.000 € en tres meses; en España, con suerte, ahorrábamos 400 € al mes” Genbeta",
+      "resumen_largo": "Inma y Jesús, españoles trabajando en Noruega: “Hemos ahorrado 10.000 € en tres meses; en España, con suerte, ahorrábamos 400 € al mes” Genbeta",
+      "texto_original": "Inma y Jesús, españoles trabajando en Noruega: “Hemos ahorrado 10.000 € en tres meses; en España, con suerte, ahorrábamos 400 € al mes” Genbeta",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-10-21T13:35:51.697Z",
+        "index": 32,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "software_internet",
+        "categorias_secundarias": [],
+        "category_scores": {},
+        "entidades": [
+          "Genbeta"
+        ],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 82,
+        "relevancia": 50,
+        "confiabilidad_fuente": 50,
+        "readability": {
+          "words": 84,
+          "sentences": 6,
+          "average_words_per_sentence": 14
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 61.2
+    },
+    {
+      "id": "f0a22cb211953abb",
+      "fuente_id": "resumen_militar",
+      "fuente_nombre": "El Resumen Militar",
+      "tipo": "telegram",
+      "subtipo": "canal_telegram",
+      "grupo_fuente": "telegram_militar",
+      "nivel_fuente": "telegram",
+      "categoria": "militar",
+      "idioma_original": "es",
+      "prioridad_fuente": 3,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "🇷🇺 💥 🇺🇦 Footage shows Russian Geran drones striking three bulk carriers and a container ship in the Black Sea. 🔴 @DDGeopolitics",
+      "titulo_original": "🇷🇺 💥 🇺🇦 Footage shows Russian Geran drones striking three bulk carriers and a container ship in the Black Sea. 🔴 @DDGeopolitics",
+      "enlace": "https://t.me/elresumenmilitar/101934",
+      "fecha": "2026-10-21T07:33:59.000Z",
+      "resumen_corto": "🇷🇺 💥 🇺🇦 Footage shows Russian Geran drones striking three bulk carriers and a container ship in the Black Sea.",
+      "resumen_largo": "🇷🇺 💥 🇺🇦 Footage shows Russian Geran drones striking three bulk carriers and a container ship in the Black Sea.",
+      "texto_original": "🇷🇺 💥 🇺🇦 Footage shows Russian Geran drones striking three bulk carriers and a container ship in the Black Sea. 🔴 @DDGeopolitics",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-10-21T13:35:51.681Z",
+        "index": 9,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "en",
+        "idioma_original": "es",
+        "categoria": "inteligencia_artificial",
+        "categorias_secundarias": [
+          "militar",
+          "vehiculos_energia",
+          "actualidad"
+        ],
+        "category_scores": {
+          "inteligencia_artificial": 2,
+          "militar": 2,
+          "vehiculos_energia": 1,
+          "actualidad": 1
+        },
+        "entidades": [],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 75,
+        "relevancia": 57,
+        "confiabilidad_fuente": 45,
+        "readability": {
+          "words": 78,
+          "sentences": 6,
+          "average_words_per_sentence": 13
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 60.3
+    },
+    {
+      "id": "6f0a9a0cf29820d7",
+      "fuente_id": "ia_dia",
+      "fuente_nombre": "IA al Día",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "ia_general",
+      "nivel_fuente": "agregador",
+      "categoria": "inteligencia_artificial",
+      "idioma_original": "es",
+      "prioridad_fuente": 3,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Anthropic quiere que los modelos de IA solo se bloqueen si amenazan con causar más de mil millones en daños o - Diario AS",
+      "titulo_original": "Anthropic quiere que los modelos de IA solo se bloqueen si amenazan con causar más de mil millones en daños o - Diario AS",
+      "enlace": "https://news.google.com/rss/articles/CBMiggJBVV95cUxQRzFmSzZDZXoyU1g0WlB1bFMwMTROTkljU2dEVFRROEprTHZDcjdYbUxWTDFkbW9HYWlKWEctQ3N6TkFhRE12YUE5WC1jRklEYkwtRHFCc2EzUU9PV1NQNzBMWEUtenJIVkl1Ri1vWUFNdS1RYXVrLWdxZkdudkVDY2pQRy1OaTVwUDgtdG5Ga19ESFNOQnBBSndOa0JDNFNlUFhsVVpmUUlVV0VJTzljZGlwVGFWMFc5c2sxX1VZUDhJaVVNa0pPQUItVWFrR2dDRTFJS05vZWlxNk1TQmF1QlEtczgzWFdaZWdKN19LaVBuVHE0TlRyUDlLMnFkOWNDLVHSAZYCQVVfeXFMTWg2c2VRdkN6SmtnMWp2R21DaEdDYnRXQkNQVmlmY256Ykx6N3BoX3FVR20yUzJSV1hvb3ZOeWZkVFlfcjVkeGxCQ1c1NjYxczd2Rm9FQ0I1aE5LUDlMWFpRMUhMTlkxZEpXcTFhcDVyVDEyTDI1TjVGZ2VpZTNEY1FRVnducjE3MzVhWWN6WVA1YVJudU00SDFuY09iUUFNZFFESGoyam1JdWxha2lBX3FWLXVkWXRSWGo3ZzhHWmQ0X3JUMVN0aVA4MERCdUtkVlBjLUZfaFB3YlF3S1JtdnRJU2dCcjN6Z0hqWlBqbFl3aDBWcm9Jd1ZHMXE2bmNGbDh1eFk1Q3hmeVZNRHNXTzh2MzFxaFE?oc=5",
+      "fecha": "2026-10-21T12:29:25.000Z",
+      "resumen_corto": "Anthropic quiere que los modelos de IA solo se bloqueen si amenazan con causar más de mil millones en daños o Diario AS",
+      "resumen_largo": "Anthropic quiere que los modelos de IA solo se bloqueen si amenazan con causar más de mil millones en daños o Diario AS",
+      "texto_original": "Anthropic quiere que los modelos de IA solo se bloqueen si amenazan con causar más de mil millones en daños o Diario AS",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-10-21T13:35:51.674Z",
+        "index": 2,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "inteligencia_artificial",
+        "categorias_secundarias": [],
+        "category_scores": {
+          "inteligencia_artificial": 2
+        },
+        "entidades": [],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 75,
+        "relevancia": 50,
+        "confiabilidad_fuente": 53,
+        "readability": {
+          "words": 75,
+          "sentences": 1,
+          "average_words_per_sentence": 75
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 59.5
+    },
+    {
+      "id": "3daef7221d4a9445",
+      "fuente_id": "google_news_es",
+      "fuente_nombre": "Google News ES",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "google_news",
+      "nivel_fuente": "agregador",
+      "categoria": "tecnologia",
+      "idioma_original": "es",
+      "prioridad_fuente": 3,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Mucho más que una tienda de telefonía: así es el espacio donde descubrir la tecnología en Barcelona - La Vanguardia",
+      "titulo_original": "Mucho más que una tienda de telefonía: así es el espacio donde descubrir la tecnología en Barcelona - La Vanguardia",
+      "enlace": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPMkw2akx4VTJabGgtanh0RkNmUUR5ZHFsZWllYTN0OWZUOWZFcTUxZ1J3d1JHNHJKVTlnVW9jcGpNU0dESnEtZnBRei1EaHNlN2JUZ25wMDN4RWd3d3Vua3RKTGVzSzJRdjNLMjR6aTJFLWlQNzVLZ2FtR1FIOUZHYk95QnpkWnZMQ0x1NEFwRnZsOVk0OVdqM2dBclRhdTNCU1Yta25BU1RxWHdRMDhGSVhlWDAwQjBLbk9NdVZVYUMwdm9reTFV0gHMAUFVX3lxTE90cUpwbnVVUVJaQzM0REZwa000SW1DUXEzSVcxVkhYTTV4dHRwYnVQU2hFNDZVMEUteWtDMkJNdllBQmRuSndfRm9tQkhlOGFYa0RuSnlsM294Q21oSXVnQTVMZ3Iyc0gyWDlUMnp2S2FkcmVsZnNRclFseWhUcFZCSzFSSXYzVE5uUXgxamZTaHV0Zm82RmRCVXNTYWw5Yi1kVjQtU0gzX1hrcThwVG1mWjJGeXZ6MUtfbHFjQzBqVmF4YzZpUGY5ZVgyYg?oc=5",
+      "fecha": "2026-10-21T03:55:00.000Z",
+      "resumen_corto": "Mucho más que una tienda de telefonía: así es el espacio donde descubrir la tecnología en Barcelona La Vanguardia",
+      "resumen_largo": "Mucho más que una tienda de telefonía: así es el espacio donde descubrir la tecnología en Barcelona La Vanguardia",
+      "texto_original": "Mucho más que una tienda de telefonía: así es el espacio donde descubrir la tecnología en Barcelona La Vanguardia",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-10-21T13:35:51.690Z",
+        "index": 19,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "tecnologia",
+        "categorias_secundarias": [
+          "inteligencia_artificial"
+        ],
+        "category_scores": {
+          "tecnologia": 2,
+          "inteligencia_artificial": 1
+        },
+        "entidades": [],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 75,
+        "relevancia": 50,
+        "confiabilidad_fuente": 53,
+        "readability": {
+          "words": 65,
+          "sentences": 1,
+          "average_words_per_sentence": 65
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 59.5
+    },
+    {
+      "id": "46fff4cd52fe68f6",
+      "fuente_id": "google_news_es",
+      "fuente_nombre": "Google News ES",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "google_news",
+      "nivel_fuente": "agregador",
+      "categoria": "tecnologia",
+      "idioma_original": "es",
+      "prioridad_fuente": 3,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Más de un siglo de tradición, tecnología y excelencia para proteger cada vino - La Voz de Galicia",
+      "titulo_original": "Más de un siglo de tradición, tecnología y excelencia para proteger cada vino - La Voz de Galicia",
+      "enlace": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOQ3k3WEpjZkJxZnJ3S3VQTzczWVQxOEVzV2xQX2Y5b1pvVndWZzdfQzd4X3g4Q1JxbW9kSV9wYzc2UEVOUnNWcWRxSjdYc0dzRG1HQ1FmYUc0eFRGVWlZc0JCTkFyQWNYWVlVQThyRmxxdnRna2FjSlZwU0hzVkJiNExqcV9FdWk5U3VuTzFjZnRFYXVMR01OY0JBQ1F4MHd5ekxFMU5ra2hRMjljdm5idHlsVk5Zb0lFT2NNM2dZUmhveUJnbHJtSnNrcG1SNHhST1JJdmltdUFXRk9MSkFrZEJzQm91OWfSAYMCQVVfeXFMUG53NVBXV2dMVC05dTMyUWhxNXRGNjBUQk1rTDlNc0JWUkRCbXp3RHFSSHNueGh1ZnE3OXR2SXFjY20tbnoyRmh2ZXBWOEtFZVc4N2k0NmxwMDVsXzFRcmJ5Nkc2RV95RFk0SmotUlh1V3NGcXYtaVpfTmFHVS1BaE5QT0lGNWxpaXFJajFmOHY5WDM5R08ta0V3Nk44WU9STl9obXk5dG56c0t5d2xNcGVpWE5fcFlPemVFTG9CVWgydkFSOEhib0dnbHBkbUtiajI0ZTRnN08tZFI2Z09OTk5HOFlyM2NmY2pDQUhJLUdBUXNTRml1QWtmLTYwSVNVWVU4bw?oc=5",
+      "fecha": "2026-10-21T03:12:24.000Z",
+      "resumen_corto": "Más de un siglo de tradición, tecnología y excelencia para proteger cada vino La Voz de Galicia",
+      "resumen_largo": "Más de un siglo de tradición, tecnología y excelencia para proteger cada vino La Voz de Galicia",
+      "texto_original": "Más de un siglo de tradición, tecnología y excelencia para proteger cada vino La Voz de Galicia",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-10-21T13:35:51.690Z",
+        "index": 20,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "tecnologia",
+        "categorias_secundarias": [
+          "inteligencia_artificial"
+        ],
+        "category_scores": {
+          "tecnologia": 2,
+          "inteligencia_artificial": 1
+        },
+        "entidades": [],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 75,
+        "relevancia": 50,
+        "confiabilidad_fuente": 53,
+        "readability": {
+          "words": 55,
+          "sentences": 1,
+          "average_words_per_sentence": 55
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 59.5
+    },
+    {
+      "id": "da5f825620606263",
+      "fuente_id": "ia_dia",
+      "fuente_nombre": "IA al Día",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "ia_general",
+      "nivel_fuente": "agregador",
+      "categoria": "inteligencia_artificial",
+      "idioma_original": "es",
+      "prioridad_fuente": 3,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Sobre uso de inteligencia artificial en una nota de El Comercio - El Comercio Perú",
+      "titulo_original": "Sobre uso de inteligencia artificial en una nota de El Comercio - El Comercio Perú",
+      "enlace": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNRkJjWUZTMW44ckJvaVN1SnpMUFlBZ2lrbjNGenBkWUFGWENEWDdIaG5xSUVvenFEcUpQa3ZNMTMtMG1qdVhuNjN6ZFp4cXJHVDl5ZWR5QXVGejNKTXZ6ZXYzQmR1TlFTV0M5WTJuTlg4REZWa25GWVpKSzdseWYtQzN6MlpHQmpQSUE3bU9PSU9sVUNaTnhHdzVxdDNwS0xhSlRzcXFTNVhha1lvUG9YaWZmZ9IBxwFBVV95cUxNNzN1TXFhQUJ0cjRfVGhfYjFpQkNiY3U5a2hrQWw2eTRDMGFMeGxIb3ZXX0RQbVFkNEFpRzhrSGgxc2FQUmtDT0xRQzJsNGh3ODFDTDFRVWI3NUF4UWg2ZXZHZGxheXBfZ1VBSXFKOEpRTFBXWG9qbmxGUGE5bS1Jcl9vRGZXdlMzUjM5SHliQW12aFRZbHdleFlHVHdvQUxTZ2xtSW5uc1JtTDdrZkwzalVqa2x5NzFyQUlpS2c4dTRYcEdPYlI0?oc=5",
+      "fecha": "2026-10-20T19:34:55.000Z",
+      "resumen_corto": "Sobre uso de inteligencia artificial en una nota de El Comercio El Comercio Perú",
+      "resumen_largo": "Sobre uso de inteligencia artificial en una nota de El Comercio El Comercio Perú",
+      "texto_original": "Sobre uso de inteligencia artificial en una nota de El Comercio El Comercio Perú",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-10-21T13:35:51.695Z",
+        "index": 28,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "inteligencia_artificial",
+        "categorias_secundarias": [],
+        "category_scores": {
+          "inteligencia_artificial": 3
+        },
+        "entidades": [],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 75,
+        "relevancia": 50,
+        "confiabilidad_fuente": 53,
+        "readability": {
+          "words": 45,
+          "sentences": 1,
+          "average_words_per_sentence": 45
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 59.5
+    },
+    {
+      "id": "ea180200124bacdf",
+      "fuente_id": "resumen_militar",
+      "fuente_nombre": "El Resumen Militar",
+      "tipo": "telegram",
+      "subtipo": "canal_telegram",
+      "grupo_fuente": "telegram_militar",
+      "nivel_fuente": "telegram",
+      "categoria": "militar",
+      "idioma_original": "es",
+      "prioridad_fuente": 3,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "🇺🇸 🇷🇺 Trump hints at deal to free American who fought for Kiev Washington is reportedly close to a deal with Moscow to release several Americans held in Russia, with talks led by special envoys Steve Witkoff and Jare",
+      "titulo_original": "🇺🇸 🇷🇺 Trump hints at deal to free American who fought for Kiev Washington is reportedly close to a deal with Moscow to release several Americans held in Russia, with talks led by special envoys Steve Witkoff and Jare",
+      "enlace": "https://t.me/elresumenmilitar/101933",
+      "fecha": "2026-10-21T07:32:38.000Z",
+      "resumen_corto": "At the center is Stephen Hubbard, a 72-year-old retired teacher from Michigan convicted in Russia of fighting as a mercenary for Ukraine.",
+      "resumen_largo": "🇺🇸 🇷🇺 Trump hints at deal to free American who fought for Kiev Washington is reportedly close to a deal with Moscow to release several Americans held in Russia, with talks led by special envoys Steve Witkoff and Jared Kushner said to be in their final stage. At the center is Stephen Hubbard, a 72-year-old retired teacher from Michigan convicted in Russia of fighting as a mercenary for Ukraine. Asked about it, Trump wouldn't confirm, but told reporters to \"remember that question for a couple of days from now.\" Hubbard joined Ukraine's territorial defense in Izyum in 2022, was captured two months later, and in 2024 was sentenced to six years and ten months.",
+      "texto_original": "🇺🇸 🇷🇺 Trump hints at deal to free American who fought for Kiev Washington is reportedly close to a deal with Moscow to release several Americans held in Russia, with talks led by special envoys Steve Witkoff and Jared Kushner said to be in their final stage. At the center is Stephen Hubbard, a 72-year-old retired teacher from Michigan convicted in Russia of fighting as a mercenary for Ukraine. Asked about it, Trump wouldn't confirm, but told reporters to \"remember that question for a couple of days from now.\" Hubbard joined Ukraine's territorial defense in Izyum in 2022, was captured two months later, and in 2024 was sentenced to six years and ten months. 🔴 @DDGeopolitics",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-10-21T13:35:51.683Z",
+        "index": 10,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "en",
+        "idioma_original": "es",
+        "categoria": "inteligencia_artificial",
+        "categorias_secundarias": [
+          "vehiculos_energia",
+          "militar",
+          "actualidad"
+        ],
+        "category_scores": {
+          "inteligencia_artificial": 2,
+          "vehiculos_energia": 1,
+          "militar": 1,
+          "actualidad": 1
+        },
+        "entidades": [],
+        "cifras_detectadas": [
+          "2022",
+          "2024 w"
+        ],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 65,
+        "relevancia": 57,
+        "confiabilidad_fuente": 45,
+        "readability": {
+          "words": 249,
+          "sentences": 10,
+          "average_words_per_sentence": 24.9
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 56.8
+    },
+    {
+      "id": "1dd35ba4cc08133e",
+      "fuente_id": "resumen_militar",
+      "fuente_nombre": "El Resumen Militar",
+      "tipo": "telegram",
+      "subtipo": "canal_telegram",
+      "grupo_fuente": "telegram_militar",
+      "nivel_fuente": "telegram",
+      "categoria": "militar",
+      "idioma_original": "es",
+      "prioridad_fuente": 3,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "‼️ 🇺🇸 🇺🇦 «Без помощи США Украины бы не существовало» — Рубио ▪️ Госсекретарь США прокомментировал публикацию The Wall Street Journal об ограничении Илоном Маском работы Starshield на Украине. ▪️ Рубио подчеркнул, что",
+      "titulo_original": "‼️ 🇺🇸 🇺🇦 «Без помощи США Украины бы не существовало» — Рубио ▪️ Госсекретарь США прокомментировал публикацию The Wall Street Journal об ограничении Илоном Маском работы Starshield на Украине. ▪️ Рубио подчеркнул, что",
+      "enlace": "https://t.me/elresumenmilitar/101932",
+      "fecha": "2026-10-21T07:29:23.000Z",
+      "resumen_corto": "‼️ 🇺🇸 🇺🇦 «Без помощи США Украины бы не существовало» — Рубио ▪️ Госсекретарь США прокомментировал публикацию The Wall Street Journal об ограничении Илоном Маском работы Starshield на Украине.",
+      "resumen_largo": "‼️ 🇺🇸 🇺🇦 «Без помощи США Украины бы не существовало» — Рубио ▪️ Госсекретарь США прокомментировал публикацию The Wall Street Journal об ограничении Илоном Маском работы Starshield на Украине. ▪️ Рубио подчеркнул, что ни одна страна мира не оказала Киеву больше помощи, чем США, причём поддержка продолжалась как при Байдене, так и при Трампе. ➖ «Сколько миллионов людей удалось спасти благодаря тому, что Америка уже предоставила?» — заявил госсекретарь, напомнив о миллиардах долларов американской помощи.",
+      "texto_original": "‼️ 🇺🇸 🇺🇦 «Без помощи США Украины бы не существовало» — Рубио ▪️ Госсекретарь США прокомментировал публикацию The Wall Street Journal об ограничении Илоном Маском работы Starshield на Украине. ▪️ Рубио подчеркнул, что ни одна страна мира не оказала Киеву больше помощи, чем США, причём поддержка продолжалась как при Байдене, так и при Трампе. ➖ «Сколько миллионов людей удалось спасти благодаря тому, что Америка уже предоставила?» — заявил госсекретарь, напомнив о миллиардах долларов американской помощи. ⚠️ Подписаться на RV: MAX | t.me/RVvoenkor",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-10-21T13:35:51.684Z",
+        "index": 11,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "en",
+        "idioma_original": "es",
         "categoria": "militar",
         "categorias_secundarias": [],
         "category_scores": {},
@@ -722,9 +2713,137 @@
         "relevancia": 45,
         "confiabilidad_fuente": 45,
         "readability": {
-          "words": 200,
-          "sentences": 16,
-          "average_words_per_sentence": 12.5
+          "words": 187,
+          "sentences": 13,
+          "average_words_per_sentence": 14.38
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 50.25
+    },
+    {
+      "id": "7a062aba95d2d428",
+      "fuente_id": "resumen_militar",
+      "fuente_nombre": "El Resumen Militar",
+      "tipo": "telegram",
+      "subtipo": "canal_telegram",
+      "grupo_fuente": "telegram_militar",
+      "nivel_fuente": "telegram",
+      "categoria": "militar",
+      "idioma_original": "es",
+      "prioridad_fuente": 3,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "‼️ 🇷🇺 🇺🇸 Путин и Уиткофф проведут переговоры в Петербурге: Москва настаивает на мире, а не перемирии ▪️ Встреча состоится сегодня в первой половине дня, сообщил помощник президента РФ Юрий Ушаков. Переговоры согласов",
+      "titulo_original": "‼️ 🇷🇺 🇺🇸 Путин и Уиткофф проведут переговоры в Петербурге: Москва настаивает на мире, а не перемирии ▪️ Встреча состоится сегодня в первой половине дня, сообщил помощник президента РФ Юрий Ушаков. Переговоры согласов",
+      "enlace": "https://t.me/elresumenmilitar/101931",
+      "fecha": "2026-10-21T07:29:11.000Z",
+      "resumen_corto": "‼️ 🇷🇺 🇺🇸 Путин и Уиткофф проведут переговоры в Петербурге: Москва настаивает на мире, а не перемирии ▪️ Встреча состоится сегодня в первой половине дня, сообщил помощник президента РФ Юрий Ушаков.",
+      "resumen_largo": "‼️ 🇷🇺 🇺🇸 Путин и Уиткофф проведут переговоры в Петербурге: Москва настаивает на мире, а не перемирии ▪️ Встреча состоится сегодня в первой половине дня, сообщил помощник президента РФ Юрий Ушаков. Переговоры согласовали несколько дней назад, в них также примет участие Кирилл Дмитриев. ▪️ Украинское урегулирование войдёт в повестку.",
+      "texto_original": "‼️ 🇷🇺 🇺🇸 Путин и Уиткофф проведут переговоры в Петербурге: Москва настаивает на мире, а не перемирии ▪️ Встреча состоится сегодня в первой половине дня, сообщил помощник президента РФ Юрий Ушаков. Переговоры согласовали несколько дней назад, в них также примет участие Кирилл Дмитриев. ▪️ Украинское урегулирование войдёт в повестку. Кушнер не приехал из-за болезни, а контактов российских представителей с Зеленским не было. ➖ «России нужен мир, а не перемирие», — подчеркнул Песков. ▪️ По его словам, позиция Москвы не изменилась, а Киеву необходимо принять ответственное решение по урегулированию. ▪️ В Кремле также готовы положительно оценить участие президента Финляндии Стубба, если его вклад будет конструктивным, а не повторением общеевропейской позиции. ⚠️ Подписаться на RV: MAX | t.me/RVvoenkor",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-10-21T13:35:51.685Z",
+        "index": 12,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "militar",
+        "categorias_secundarias": [],
+        "category_scores": {},
+        "entidades": [],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 60,
+        "relevancia": 45,
+        "confiabilidad_fuente": 45,
+        "readability": {
+          "words": 179,
+          "sentences": 15,
+          "average_words_per_sentence": 11.93
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 50.25
+    },
+    {
+      "id": "d1c499bdefeaa4d3",
+      "fuente_id": "resumen_militar",
+      "fuente_nombre": "El Resumen Militar",
+      "tipo": "telegram",
+      "subtipo": "canal_telegram",
+      "grupo_fuente": "telegram_militar",
+      "nivel_fuente": "telegram",
+      "categoria": "militar",
+      "idioma_original": "es",
+      "prioridad_fuente": 3,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "‼️ 🇷🇺 🇺🇸 Кортеж Уиткоффа и Дмитриева прибыл в Константиновское под Петербургом ▪️ Спецпосланник президента США Стив Уиткофф и спецпредставитель президента РФ Кирилл Дмитриев выехали из аэропорта Пулково в направлении",
+      "titulo_original": "‼️ 🇷🇺 🇺🇸 Кортеж Уиткоффа и Дмитриева прибыл в Константиновское под Петербургом ▪️ Спецпосланник президента США Стив Уиткофф и спецпредставитель президента РФ Кирилл Дмитриев выехали из аэропорта Пулково в направлении",
+      "enlace": "https://t.me/elresumenmilitar/101930",
+      "fecha": "2026-10-21T07:28:45.000Z",
+      "resumen_corto": "‼️ 🇷🇺 🇺🇸 Кортеж Уиткоффа и Дмитриева прибыл в Константиновское под Петербургом ▪️ Спецпосланник президента США Стив Уиткофф и спецпредставитель президента РФ Кирилл Дмитриев выехали из аэропорта Пулково в направлении Константиновского на юго-западе Санкт-Петербурга.",
+      "resumen_largo": "‼️ 🇷🇺 🇺🇸 Кортеж Уиткоффа и Дмитриева прибыл в Константиновское под Петербургом ▪️ Спецпосланник президента США Стив Уиткофф и спецпредставитель президента РФ Кирилл Дмитриев выехали из аэропорта Пулково в направлении Константиновского на юго-западе Санкт-Петербурга. ⚠️ Подписаться на RV: MAX | t.me/RVvoenkor",
+      "texto_original": "‼️ 🇷🇺 🇺🇸 Кортеж Уиткоффа и Дмитриева прибыл в Константиновское под Петербургом ▪️ Спецпосланник президента США Стив Уиткофф и спецпредставитель президента РФ Кирилл Дмитриев выехали из аэропорта Пулково в направлении Константиновского на юго-западе Санкт-Петербурга. ⚠️ Подписаться на RV: MAX | t.me/RVvoenkor",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-10-21T13:35:51.685Z",
+        "index": 13,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "militar",
+        "categorias_secundarias": [],
+        "category_scores": {},
+        "entidades": [],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 60,
+        "relevancia": 45,
+        "confiabilidad_fuente": 45,
+        "readability": {
+          "words": 121,
+          "sentences": 6,
+          "average_words_per_sentence": 20.17
         },
         "duplicate": {
           "detected": false,
@@ -736,24 +2855,24 @@
       "final_score": 50.25
     }
   ],
-  "analyzed_at": "2026-10-21T07:15:45.012Z",
+  "analyzed_at": "2026-10-21T13:35:51.700Z",
   "analysis_stats": {
-    "input_items": 10,
-    "valid_items": 10,
+    "input_items": 40,
+    "valid_items": 40,
     "rejected_items": 0,
     "duplicate_items": 0,
     "clickbait_items": 0,
     "spam_items": 0,
-    "summaries_generated": 10,
-    "average_quality": 78,
-    "average_relevance": 56
+    "summaries_generated": 40,
+    "average_quality": 80,
+    "average_relevance": 57
   },
   "validation": {
     "version": "1.1",
-    "executed_at": "2026-10-21T07:15:45.103Z",
-    "original_items": 10,
+    "executed_at": "2026-10-21T13:35:51.853Z",
+    "original_items": 40,
     "rejected_items": 0,
-    "final_items": 10,
+    "final_items": 40,
     "limit": 60,
     "status": "ok"
   }

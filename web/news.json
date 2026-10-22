@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "updated_at": "2026-10-22T13:37:05.296Z",
+  "updated_at": "2026-10-22T18:26:07.357Z",
   "configuracion": {
     "limite_global": 60,
     "frecuencia_minutos": 60,
@@ -29,47 +29,52 @@
   },
   "items": [
     {
-      "id": "7dabfb138c68681c",
-      "fuente_id": "openai_google",
-      "fuente_nombre": "OpenAI",
+      "id": "527edcbdb4869b57",
+      "fuente_id": "bbc_mundo",
+      "fuente_nombre": "BBC Mundo",
       "tipo": "rss_web",
-      "subtipo": "google_news",
-      "grupo_fuente": "openai",
-      "nivel_fuente": "fuente_oficial",
-      "categoria": "inteligencia_artificial",
-      "idioma_original": "en",
+      "subtipo": "medio_generalista",
+      "grupo_fuente": "bbc",
+      "nivel_fuente": "medio_profesional",
+      "categoria": "actualidad",
+      "idioma_original": "es",
       "prioridad_fuente": 5,
       "analizar": true,
       "resumir": true,
-      "titulo": "Uso de miles de agentes de IA para descubrir nuevas pistas en datos biológicos",
-      "titulo_original": "Using thousands of AI agents to uncover new leads in biological data - OpenAI",
-      "enlace": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9mT3FxTUpGSndLdWh6emNISWRnSmNEdEZFZHdMWGlZZWQyaWp3cElhVGdCX3BTTDVySVhIOExMU0xacGk4MGdKNUhJUVBFVTNpOUN2aWpyUlBuTVh1STlGdkdLSmRnbW1GNEF6NkpPRHBBNC0wMTR1UEJZVGNGUQ?oc=5",
-      "fecha": "2026-10-21T16:11:18.000Z",
-      "resumen_corto": "Uso de miles de agentes de IA para descubrir nuevas pistas en datos biológicos OpenAI",
-      "resumen_largo": "Uso de miles de agentes de IA para descubrir nuevas pistas en datos biológicos OpenAI",
-      "texto_original": "Using thousands of AI agents to uncover new leads in biological data OpenAI",
+      "titulo": "Quién es Luisa González, la excandidata presidencial correísta detenida en Ecuador por supuesta financiación irregular",
+      "titulo_original": "Quién es Luisa González, la excandidata presidencial correísta detenida en Ecuador por supuesta financiación irregular",
+      "enlace": "https://www.bbc.com/mundo/articles/c6x2wnkw55lvo?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-10-22T15:13:40.000Z",
+      "resumen_corto": "Aliada del expresidente Rafael Correa, González estaba siendo investigada por supuestas irregularidades en la financiación de su candidatura en las elecciones presidenciales de 2023.",
+      "resumen_largo": "La excandidata presidencial correísta Luisa González fue detenida este jueves en Ecuador. Aliada del expresidente Rafael Correa, González estaba siendo investigada por supuestas irregularidades en la financiación de su candidatura en las elecciones presidenciales de 2023. Según la agencia Efe, la División Zonal de la Policía informó que la detención se produjo en Canuto, la localidad rural de la provincia de Manabí donde se crio y creció y el operativo fue realizado por agentes enviados directamente desde la capital, Quito.",
+      "texto_original": "La excandidata presidencial correísta Luisa González fue detenida este jueves en Ecuador. Aliada del expresidente Rafael Correa, González estaba siendo investigada por supuestas irregularidades en la financiación de su candidatura en las elecciones presidenciales de 2023. Según la agencia Efe, la División Zonal de la Policía informó que la detención se produjo en Canuto, la localidad rural de la provincia de Manabí donde se crio y creció y el operativo fue realizado por agentes enviados directamente desde la capital, Quito. Su partido, Revolución Ciudadana, también confirmó la noticia de la detención, que se produce a pocas semanas de la celebración de elecciones locales en el país. La Fiscalía informó a través de las redes sociales que en la madrugada de este jueves ejecutó junto a la Policía tres órdenes de detención para formular cargos ante la justicia por lavado de dinero en las provincias de Manabí y Pichincha, cuya capital es Quito, pero no especificó si González se encuentra entre los arrestados. La excandidata estaba siendo investigada por la Fiscalía por la supuesta financiación irregular de sus campañas electorales, motivo por el que fue inhabilitada para ser candidata en los próximos comicios locales, a los que tampoco podrá presentar candidatos Revolución Ciudadana.",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-22T13:37:05.142Z",
-        "index": 32,
+        "processed_at": "2026-10-22T18:26:07.217Z",
+        "index": 5,
         "resumen": {
           "generado": true,
           "origen": "translated"
         },
-        "idioma_detectado": "en",
-        "idioma_original": "en",
+        "idioma_detectado": "es",
+        "idioma_original": "es",
         "categoria": "inteligencia_artificial",
         "categorias_secundarias": [
-          "vehiculos_energia"
+          "vehiculos_energia",
+          "actualidad",
+          "semiconductores"
         ],
         "category_scores": {
-          "inteligencia_artificial": 3,
-          "vehiculos_energia": 1
+          "inteligencia_artificial": 2,
+          "vehiculos_energia": 2,
+          "actualidad": 2,
+          "semiconductores": 1,
+          "moviles": 1
         },
-        "entidades": [
-          "OpenAI"
+        "entidades": [],
+        "cifras_detectadas": [
+          "2023"
         ],
-        "cifras_detectadas": [],
         "content_type": "report",
         "clickbait": {
           "detected": false,
@@ -83,12 +88,12 @@
           "url_count": 0
         },
         "calidad": 92,
-        "relevancia": 70,
-        "confiabilidad_fuente": 85,
+        "relevancia": 65,
+        "confiabilidad_fuente": 80,
         "readability": {
-          "words": 47,
-          "sentences": 1,
-          "average_words_per_sentence": 47
+          "words": 240,
+          "sentences": 10,
+          "average_words_per_sentence": 24
         },
         "duplicate": {
           "detected": false,
@@ -97,7 +102,7 @@
           "similar_to": null
         }
       },
-      "final_score": 81.45
+      "final_score": 78.2
     },
     {
       "id": "f7409c829150dbe1",
@@ -112,8 +117,8 @@
       "prioridad_fuente": 5,
       "analizar": true,
       "resumir": true,
-      "titulo": "\"Dejé secretos de Estado en el tren; soy la prueba de que es posible recuperarse del mayor error de tu vida\"",
-      "titulo_original": "\"Dejé secretos de Estado en el tren; soy la prueba de que es posible recuperarse del mayor error de tu vida\"",
+      "titulo": "\"Me olvidé secretos de Estado en un tren: soy la prueba de que es posible recuperarse del mayor error de tu vida\"",
+      "titulo_original": "\"Me olvidé secretos de Estado en un tren: soy la prueba de que es posible recuperarse del mayor error de tu vida\"",
       "enlace": "https://www.bbc.com/mundo/articles/c6wyd5wx4xq1o?at_medium=RSS&at_campaign=rss",
       "fecha": "2026-10-22T09:46:00.000Z",
       "resumen_corto": "Richard Jackson cometió el mayor error de su vida un martes cualquiera, cuando iba en el tren de camino al trabajo.",
@@ -121,8 +126,8 @@
       "texto_original": "Richard Jackson cometió el mayor error de su vida un martes cualquiera, cuando iba en el tren de camino al trabajo. El funcionario británico olvidó documentos altamente clasificados en el tren. Cuando se dio cuenta, presa del pánico, ya era demasiado tarde. El error, cometido en una fracción de segundo, se convirtió en noticia nacional en Reino Unido y la vida de Jackson se vio sumida en el caos. Casi 20 años después, relata aquel fatídico día y sus consecuencias en una entrevista con la doctora Sian Williams para el pódcast Life Changing de BBC Radio 4. Jackson dice ser la prueba de que, incluso tras cometer el peor error, es posible reconstruir la vida. Antes de que todo se desmoronara, Jackson tenía 37 años y vivía en Yateley, en el sur de Reino Unido, con su esposa, Maddie, y su hijastra Charlotte, de 15 años.",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-22T13:37:05.130Z",
-        "index": 11,
+        "processed_at": "2026-10-22T18:26:07.226Z",
+        "index": 20,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -186,14 +191,14 @@
       "titulo": "¿Qué es PHP y por qué generó una falla de seguridad en internet que desató una alerta global?",
       "titulo_original": "¿Qué es PHP y por qué generó una falla de seguridad en internet que desató una alerta global?",
       "enlace": "https://www.bbc.com/mundo/articles/cmly0k9y9p1vo?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-10-22T10:21:25.000Z",
-      "resumen_corto": "Fue necesaria la inteligencia artificial (IA) para sacarlos a la luz y provocar una alerta mundial sobre ciberseguridad.",
-      "resumen_largo": "Durante más de una década, graves fallos en la tecnología que sustenta gran parte de Internet habían pasado desapercibidos. Fue necesaria la inteligencia artificial (IA) para sacarlos a la luz y provocar una alerta mundial sobre ciberseguridad. Las vulnerabilidades residen en un lenguaje de programación llamado PHP, que se ha utilizado internacionalmente desde principios de los 2000 para crear sitios web.",
-      "texto_original": "Durante más de una década, graves fallos en la tecnología que sustenta gran parte de Internet habían pasado desapercibidos. Fue necesaria la inteligencia artificial (IA) para sacarlos a la luz y provocar una alerta mundial sobre ciberseguridad. Las vulnerabilidades residen en un lenguaje de programación llamado PHP, que se ha utilizado internacionalmente desde principios de los 2000 para crear sitios web. Los gobiernos y las agencias de ciberseguridad de todo el mundo se apresuran a contener las consecuencias del descubrimiento del miércoles, y han instado a los operadores de sitios web a instalar una nueva solución de emergencia o a considerar la posibilidad de desconectar sus plataformas. La empresa de ciberseguridad Wiz, una de las compañías cuyos investigadores descubrieron los puntos débiles de este sistema, describió los fallos como los \"más graves\" jamás detectados por la IA. OpenAI, cuya tecnología se utilizó para encontrar las vulnerabilidades, calificó el hallazgo como \"uno de los problemas de seguridad más importantes de los últimos tiempos\".",
+      "fecha": "2026-10-22T16:20:41.000Z",
+      "resumen_corto": "Fue necesaria la inteligencia artificial (IA) para sacarlos a la luz y provocar este miércoles una alerta mundial de ciberseguridad.",
+      "resumen_largo": "Durante más de una década unos fallos graves que tenía la tecnología que sustenta gran parte de internet habían pasado desapercibidos. Fue necesaria la inteligencia artificial (IA) para sacarlos a la luz y provocar este miércoles una alerta mundial de ciberseguridad. Las vulnerabilidades residen en un lenguaje de programación llamado PHP, que se usa internacionalmente desde principios de los 2000 para crear sitios web.",
+      "texto_original": "Durante más de una década unos fallos graves que tenía la tecnología que sustenta gran parte de internet habían pasado desapercibidos. Fue necesaria la inteligencia artificial (IA) para sacarlos a la luz y provocar este miércoles una alerta mundial de ciberseguridad. Las vulnerabilidades residen en un lenguaje de programación llamado PHP, que se usa internacionalmente desde principios de los 2000 para crear sitios web. Desde entonces, los gobiernos y las agencias de ciberseguridad de todo el mundo se apresuran a contener las consecuencias del descubrimiento, instando a los operadores de sitios web a instalar una solución de emergencia o a considerar la posibilidad de directamente desconectar sus plataformas. La empresa de ciberseguridad Wiz, una de las compañías cuyos investigadores descubrieron los puntos débiles de este sistema, describió los fallos como los \"más graves\" jamás detectados por la IA. OpenAI, cuya tecnología se utilizó para encontrar las vulnerabilidades, calificó el hallazgo como \"uno de los problemas de seguridad más importantes de los últimos tiempos\".",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-22T13:37:05.127Z",
-        "index": 8,
+        "processed_at": "2026-10-22T18:26:07.216Z",
+        "index": 4,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -203,17 +208,17 @@
         "categoria": "inteligencia_artificial",
         "categorias_secundarias": [
           "software_internet",
-          "vehiculos_energia",
-          "tecnologia"
+          "tecnologia",
+          "actualidad"
         ],
         "category_scores": {
           "inteligencia_artificial": 5,
           "software_internet": 4,
-          "vehiculos_energia": 2,
           "tecnologia": 2,
           "actualidad": 2,
           "moviles": 1,
-          "hardware": 1
+          "hardware": 1,
+          "vehiculos_energia": 1
         },
         "entidades": [
           "OpenAI"
@@ -237,9 +242,9 @@
         "relevancia": 70,
         "confiabilidad_fuente": 70,
         "readability": {
-          "words": 208,
+          "words": 216,
           "sentences": 12,
-          "average_words_per_sentence": 17.33
+          "average_words_per_sentence": 18
         },
         "duplicate": {
           "detected": false,
@@ -251,51 +256,49 @@
       "final_score": 76.65
     },
     {
-      "id": "2dc2fd4089fcd8e9",
-      "fuente_id": "bbc_mundo",
-      "fuente_nombre": "BBC Mundo",
+      "id": "3c6a4ce60731c70a",
+      "fuente_id": "openai_google",
+      "fuente_nombre": "OpenAI",
       "tipo": "rss_web",
-      "subtipo": "medio_generalista",
-      "grupo_fuente": "bbc",
-      "nivel_fuente": "medio_profesional",
-      "categoria": "actualidad",
-      "idioma_original": "es",
+      "subtipo": "google_news",
+      "grupo_fuente": "openai",
+      "nivel_fuente": "fuente_oficial",
+      "categoria": "inteligencia_artificial",
+      "idioma_original": "en",
       "prioridad_fuente": 5,
       "analizar": true,
       "resumir": true,
-      "titulo": "5 maneras en las que el \"Súper Niño\" ya está afectando el clima en América Latina y otras partes del mundo",
-      "titulo_original": "5 maneras en las que el \"Súper Niño\" ya está afectando el clima en América Latina y otras partes del mundo",
-      "enlace": "https://www.bbc.com/mundo/articles/cj5ynq730px4o?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-10-22T10:59:11.000Z",
-      "resumen_corto": "América Latina es una de las regiones del mundo en las que los efectos del fenómeno de El Niño están siendo más evidentes y, en algunos casos, más severos.",
-      "resumen_largo": "América Latina es una de las regiones del mundo en las que los efectos del fenómeno de El Niño están siendo más evidentes y, en algunos casos, más severos. Desde la intensa temporada de huracanes del noroeste de México, pasando por la sequía en Centroamérica y el noroeste de Sudamérica, hasta las severas inundaciones en Chile, el clima extremo ha sido impulsado por la presencia de un El Niño muy fuerte que ya anticipaban los científicos. \"Se está viendo lo que se había pronosticado y, en algunos casos como en Chile, probablemente más impacto de lo esperado.",
-      "texto_original": "América Latina es una de las regiones del mundo en las que los efectos del fenómeno de El Niño están siendo más evidentes y, en algunos casos, más severos. Desde la intensa temporada de huracanes del noroeste de México, pasando por la sequía en Centroamérica y el noroeste de Sudamérica, hasta las severas inundaciones en Chile, el clima extremo ha sido impulsado por la presencia de un El Niño muy fuerte que ya anticipaban los científicos. \"Se está viendo lo que se había pronosticado y, en algunos casos como en Chile, probablemente más impacto de lo esperado. Ahí ha tenido un efecto muy significativo a lo largo de todo el país\", le dice a BBC Mundo el director para las Américas de la Organización Meteorológica Mundial (OMM), Julián Báez. En Ginebra, la OMM advirtió este miércoles que, según su nuevo pronóstico estacional, El Niño \"podría alcanzar una intensidad sin precedentes, superando con creces los niveles de los registros meteorológicos que hemos utilizado durante las últimas cuatro décadas\". \"Alcanzará su punto máximo a finales de 2026, pero sus efectos se sentirán mucho después\", dice la declaración de la secretaria general del organismo, Celeste Saulo. Por ello, algunos países que ya están viendo efectos tempranos -en especial Perú y Ecuador- probablemente registrarán una temporada muy intensa de lluvias o una sequía considerable entre diciembre y enero.",
+      "titulo": "Errores elevados de conversación ChatGPT y API de respuestas",
+      "titulo_original": "Elevated ChatGPT conversation and Responses API errors - OpenAI",
+      "enlace": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9DNmVBV1hIeVFaUmVkWVFqR01pQnZtT1JOTFoyRy1mbXZGVXVyLVY0ejVhN2lrYk5YRDhWd3N5OHF6VDFleVowSXZESGJCbmVqd0I2MG5nYw?oc=5",
+      "fecha": "2026-10-22T02:45:53.000Z",
+      "resumen_corto": "Errores elevados de conversación ChatGPT y API de respuestas OpenAI",
+      "resumen_largo": "Errores elevados de conversación ChatGPT y API de respuestas OpenAI",
+      "texto_original": "Elevated ChatGPT conversation and Responses API errors OpenAI",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-22T13:37:05.125Z",
-        "index": 7,
+        "processed_at": "2026-10-22T18:26:07.228Z",
+        "index": 26,
         "resumen": {
           "generado": true,
           "origen": "translated"
         },
         "idioma_detectado": "es",
-        "idioma_original": "es",
+        "idioma_original": "en",
         "categoria": "inteligencia_artificial",
         "categorias_secundarias": [
           "vehiculos_energia"
         ],
         "category_scores": {
-          "inteligencia_artificial": 2,
+          "inteligencia_artificial": 4,
           "vehiculos_energia": 1
         },
         "entidades": [
-          "BBC"
+          "OpenAI",
+          "ChatGPT"
         ],
-        "cifras_detectadas": [
-          "5 m",
-          "2026"
-        ],
-        "content_type": "report",
+        "cifras_detectadas": [],
+        "content_type": "news",
         "clickbait": {
           "detected": false,
           "score": 0,
@@ -307,13 +310,13 @@
           "signals": [],
           "url_count": 0
         },
-        "calidad": 97,
-        "relevancia": 55,
-        "confiabilidad_fuente": 80,
+        "calidad": 84,
+        "relevancia": 67,
+        "confiabilidad_fuente": 75,
         "readability": {
-          "words": 280,
-          "sentences": 11,
-          "average_words_per_sentence": 25.45
+          "words": 36,
+          "sentences": 1,
+          "average_words_per_sentence": 36
         },
         "duplicate": {
           "detected": false,
@@ -322,7 +325,7 @@
           "similar_to": null
         }
       },
-      "final_score": 75.95
+      "final_score": 74.95
     },
     {
       "id": "5f60ed912de0287c",
@@ -346,7 +349,7 @@
       "texto_original": "CATL Becomes First Battery Company to Join All Three GBA Battery Passport Pilot Waves CATL",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-22T13:37:05.145Z",
+        "processed_at": "2026-10-22T18:26:07.233Z",
         "index": 40,
         "resumen": {
           "generado": true,
@@ -397,84 +400,6 @@
       "final_score": 74.95
     },
     {
-      "id": "5f0fa172e3dd53b9",
-      "fuente_id": "bbc_mundo",
-      "fuente_nombre": "BBC Mundo",
-      "tipo": "rss_web",
-      "subtipo": "medio_generalista",
-      "grupo_fuente": "bbc",
-      "nivel_fuente": "medio_profesional",
-      "categoria": "actualidad",
-      "idioma_original": "es",
-      "prioridad_fuente": 5,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "Sitios web de todo el mundo quedan desactivados tras detectarse una falla de seguridad crítica en internet",
-      "titulo_original": "Sitios web de todo el mundo quedan desactivados tras detectarse una falla de seguridad crítica en internet",
-      "enlace": "https://www.bbc.com/mundo/articles/cq3djnk48ly8o?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-10-22T11:10:34.000Z",
-      "resumen_corto": "Gobiernos y organismos internacionales han instado a los sitios web a abordar dos fallos críticos de ciberseguridad hallados en un lenguaje de programación que sustenta gran parte de internet.",
-      "resumen_largo": "Gobiernos y organismos internacionales han instado a los sitios web a abordar dos fallos críticos de ciberseguridad hallados en un lenguaje de programación que sustenta gran parte de internet. Las vulnerabilidades se detectaron en el lenguaje de programación PHP y el miércoles por la tarde se publicó una solución. Varias agencias de ciberseguridad han instado a las organizaciones que no puedan aplicar las soluciones a tiempo a que consideren la posibilidad de cerrar sus sitios web, lo que ha obligado a entidades como el gobierno finlandés, el ayuntamiento de Edimburgo y la BBC a desconectar algunas páginas.",
-      "texto_original": "Gobiernos y organismos internacionales han instado a los sitios web a abordar dos fallos críticos de ciberseguridad hallados en un lenguaje de programación que sustenta gran parte de internet. Las vulnerabilidades se detectaron en el lenguaje de programación PHP y el miércoles por la tarde se publicó una solución. Varias agencias de ciberseguridad han instado a las organizaciones que no puedan aplicar las soluciones a tiempo a que consideren la posibilidad de cerrar sus sitios web, lo que ha obligado a entidades como el gobierno finlandés, el ayuntamiento de Edimburgo y la BBC a desconectar algunas páginas. La empresa de ciberseguridad Wiz afirmó que se trataba de las \"vulnerabilidades más graves jamás descubiertas\" por esta tecnología, que está transformando el panorama cibernético. En Finlandia el gobierno ha cerrado temporalmente los servicios web públicos, mientras que la agencia de ciberseguridad de Países Bajos anunció que desconectaría su propio sitio web debido a las vulnerabilidades. La Agencia de Seguridad Nacional de Estados Unidos (NSA, por sus siglas en inglés) emitió un consejo similar en X para que las organizaciones desconectaran sus sistemas si no podían actualizarlos con la solución.",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-10-22T13:37:05.122Z",
-        "index": 5,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "es",
-        "categoria": "software_internet",
-        "categorias_secundarias": [
-          "inteligencia_artificial",
-          "tecnologia",
-          "actualidad"
-        ],
-        "category_scores": {
-          "software_internet": 4,
-          "inteligencia_artificial": 2,
-          "tecnologia": 2,
-          "actualidad": 2,
-          "moviles": 1,
-          "hardware": 1,
-          "vehiculos_energia": 1
-        },
-        "entidades": [
-          "BBC"
-        ],
-        "cifras_detectadas": [],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 84,
-        "relevancia": 70,
-        "confiabilidad_fuente": 70,
-        "readability": {
-          "words": 244,
-          "sentences": 10,
-          "average_words_per_sentence": 24.4
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 74.9
-    },
-    {
       "id": "d8934ad1598d7cf7",
       "fuente_id": "bbc_mundo",
       "fuente_nombre": "BBC Mundo",
@@ -496,8 +421,8 @@
       "texto_original": "Los ojos de Judi Dench han visto mucho a lo largo de su carrera, sobre todo, en la industria del cine y del teatro. Pero ahora, la ganadora de un Oscar contó a la BBC que un problema ocular la mantiene alejada de los escenarios e incluso de cosas simples como leer. A Dench le diagnosticaron degeneración macular asociada a la edad (DMAE) en 2012, una afección que le dificulta enormemente la vista, hasta tal punto de que le es difícil reconocer rostros. En declaraciones al programa Today de BBC Radio 4, dijo: \"No puedo estar en el escenario. No puedo hacer más obras de teatro. No puedo hacer más cine. Ya no puedo leer\". También reveló cómo su condición puede provocar encuentros incómodos, diciendo que a veces se acerca a las personas equivocadas \"y casi les doy un abrazo\", antes de darse cuenta de su error. Cuando le preguntaron sobre el envejecimiento, la veterana estrella británica, de 91 años, respondió: \"No hay mucho que decir al respecto. No pienso en ello\". Su carrera abarca más de siete décadas y es una de las actrices más célebres de Reino Unido, con una extensa trayectoria en teatro, televisión y cine.",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-22T13:37:05.124Z",
-        "index": 6,
+        "processed_at": "2026-10-22T18:26:07.224Z",
+        "index": 16,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -553,6 +478,77 @@
       "final_score": 73.45
     },
     {
+      "id": "45c9a79ed731d114",
+      "fuente_id": "openai_google",
+      "fuente_nombre": "OpenAI",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "openai",
+      "nivel_fuente": "fuente_oficial",
+      "categoria": "inteligencia_artificial",
+      "idioma_original": "en",
+      "prioridad_fuente": 5,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Ingeniería implementada en el futuro para la IA empresarial",
+      "titulo_original": "Forward deployed engineering for enterprise AI - OpenAI",
+      "enlace": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE83U3U4d1VwQlZOZUdXZldtZEV3b05MSnhySllDMC0yUktXaFFLZEhELWJMMDN0M3k1c01SeGJncDNfc29iMU9aV3VqdFY2UEp3clVPaXlNSzhuSi1jREdwWnpNNlJEcmZl?oc=5",
+      "fecha": "2026-10-22T13:14:14.000Z",
+      "resumen_corto": "Ingeniería implementada en el futuro para la IA empresarial OpenAI",
+      "resumen_largo": "Ingeniería implementada en el futuro para la IA empresarial OpenAI",
+      "texto_original": "Forward deployed engineering for enterprise AI OpenAI",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-10-22T18:26:07.223Z",
+        "index": 13,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "en",
+        "categoria": "inteligencia_artificial",
+        "categorias_secundarias": [
+          "militar"
+        ],
+        "category_scores": {
+          "inteligencia_artificial": 3,
+          "militar": 1
+        },
+        "entidades": [
+          "OpenAI"
+        ],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 84,
+        "relevancia": 62,
+        "confiabilidad_fuente": 75,
+        "readability": {
+          "words": 29,
+          "sentences": 1,
+          "average_words_per_sentence": 29
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 72.95
+    },
+    {
       "id": "d892d54882790bd3",
       "fuente_id": "byd_google",
       "fuente_nombre": "BYD",
@@ -574,8 +570,8 @@
       "texto_original": "Senior Legal Counsel-Compliance Support BYD",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-22T13:37:05.131Z",
-        "index": 13,
+        "processed_at": "2026-10-22T18:26:07.227Z",
+        "index": 22,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -626,29 +622,109 @@
       "final_score": 72.95
     },
     {
-      "id": "43c41bda80519cc5",
-      "fuente_id": "openai_google",
-      "fuente_nombre": "OpenAI",
+      "id": "5ca94cb9ad9ce52b",
+      "fuente_id": "bbc_mundo",
+      "fuente_nombre": "BBC Mundo",
       "tipo": "rss_web",
-      "subtipo": "google_news",
-      "grupo_fuente": "openai",
-      "nivel_fuente": "fuente_oficial",
-      "categoria": "inteligencia_artificial",
-      "idioma_original": "en",
+      "subtipo": "medio_generalista",
+      "grupo_fuente": "bbc",
+      "nivel_fuente": "medio_profesional",
+      "categoria": "actualidad",
+      "idioma_original": "es",
       "prioridad_fuente": 5,
       "analizar": true,
       "resumir": true,
-      "titulo": "Tasas de error elevadas de la API FedRAMP para Astra y Sol",
-      "titulo_original": "Elevated FedRAMP API error rates for Astra and Sol - OpenAI",
-      "enlace": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9fbEpqNmp4aGcwNTlwSW5QekZnNEc2QzhJTm5rRmZZcWFrUC1Fa1dEM1hWTm56UGRDZG9pUlJyclFhR0ZUMlhmSTY1djdHeGlZRjRsY0F5aw?oc=5",
-      "fecha": "2026-10-20T23:55:05.000Z",
-      "resumen_corto": "Tasas de error elevadas de la API FedRAMP para Astra y Sol OpenAI",
-      "resumen_largo": "Tasas de error elevadas de la API FedRAMP para Astra y Sol OpenAI",
-      "texto_original": "Elevated FedRAMP API error rates for Astra and Sol OpenAI",
+      "titulo": "Análisis: \"La vulnerabilidad de PHP es el equivalente cibernético de una bomba sin explotar\"",
+      "titulo_original": "Análisis: \"La vulnerabilidad de PHP es el equivalente cibernético de una bomba sin explotar\"",
+      "enlace": "https://www.bbc.com/mundo/articles/ck30evyvlprqo?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-10-22T16:26:31.000Z",
+      "resumen_corto": "Nos advirtieron que durante la construcción podrían desenterrarse bombas sin explotar de la Segunda Guerra Mundial.",
+      "resumen_largo": "Una vez trabajé frente a una obra donde estaban construyendo un centro comercial. Nos advirtieron que durante la construcción podrían desenterrarse bombas sin explotar de la Segunda Guerra Mundial. Al final, no hubo incidentes, pero se establecieron procedimientos como medida de precaución y todos tuvimos que practicar cómo entrar en las zonas seguras designadas dentro de nuestro edificio.",
+      "texto_original": "Una vez trabajé frente a una obra donde estaban construyendo un centro comercial. Nos advirtieron que durante la construcción podrían desenterrarse bombas sin explotar de la Segunda Guerra Mundial. Al final, no hubo incidentes, pero se establecieron procedimientos como medida de precaución y todos tuvimos que practicar cómo entrar en las zonas seguras designadas dentro de nuestro edificio. La historia de PHP se siente como el equivalente cibernético de una bomba sin explotar: nunca había visto una respuesta tan dramática, pública y global a un incidente cibernético que aún no ha ocurrido. No ha habido ningún ataque tan devastador como el ransomware que afectó gravemente a las empresas M&S y JLR en 2025. Pero la amenaza potencial es tan grave que, como medida de precaución, se han desactivaron sitios web de todo el mundo.",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-22T13:37:05.144Z",
-        "index": 37,
+        "processed_at": "2026-10-22T18:26:07.215Z",
+        "index": 3,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "vehiculos_energia",
+        "categorias_secundarias": [
+          "militar",
+          "inteligencia_artificial",
+          "semiconductores"
+        ],
+        "category_scores": {
+          "vehiculos_energia": 2,
+          "militar": 2,
+          "inteligencia_artificial": 1,
+          "semiconductores": 1,
+          "moviles": 1,
+          "hardware": 1,
+          "software_internet": 1
+        },
+        "entidades": [],
+        "cifras_detectadas": [
+          "2025"
+        ],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 25,
+          "signals": [
+            "\\bbomba\\b"
+          ]
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 84,
+        "relevancia": 65,
+        "confiabilidad_fuente": 70,
+        "readability": {
+          "words": 176,
+          "sentences": 10,
+          "average_words_per_sentence": 17.6
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 72.9
+    },
+    {
+      "id": "d772038b16b05e63",
+      "fuente_id": "huawei_google",
+      "fuente_nombre": "Huawei Central",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "huawei",
+      "nivel_fuente": "agregador",
+      "categoria": "moviles",
+      "idioma_original": "en",
+      "prioridad_fuente": 4,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "La variante de dos colores del Huawei FreeClip 2 es oficial, aquí está su precio",
+      "titulo_original": "Huawei FreeClip 2 dual-color variant is official, here’s its price - Huawei Central",
+      "enlace": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQc2p2Ry15Y3pmQ3FBTUdGRDlwR3hEUVZOdFhSd05TZ3FqcFoxcjBsMG5fT3AzWFhaa1QzTHpPY3dIZHVIa2RuY1NCYkRxOGFoWXI0VmRNVUJtTU1YNWlIX2lDTHR5a1RTbmxaTEVkSHA0aDVLVi1yRzRTd19jXzNoT3hxcmhRcXRaYUhGQ0QzajdEM0RIN2pHMHBTVdIBoAFBVV95cUxPcnlRUFloM3hIODdZa205UG9CMDQtQVplY1hmV3JsSmNDdjBQbmYtOERqZ2l4R2tUT2pRSklYVmtlOEV2Nm14Y2FoMEdaUHFJblJYNERzMGFFSENQd3RQV2RsbFpCdDdEZHpHYTJqaWxrVy16ampFdWZNcGtJYXhjVUYyVkgwQUloUVVQc2x0V0tWUkZEMHNkMGhQcm11dUk0?oc=5",
+      "fecha": "2026-10-22T05:12:05.000Z",
+      "resumen_corto": "La variante de dos colores del Huawei FreeClip 2 es oficial, aquí está su precio Huawei Central",
+      "resumen_largo": "La variante de dos colores del Huawei FreeClip 2 es oficial, aquí está su precio Huawei Central",
+      "texto_original": "Huawei FreeClip 2 dual-color variant is official, here’s its price Huawei Central",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-10-22T18:26:07.228Z",
+        "index": 24,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -657,21 +733,17 @@
         "idioma_original": "en",
         "categoria": "inteligencia_artificial",
         "categorias_secundarias": [
-          "semiconductores",
-          "hardware",
-          "vehiculos_energia"
+          "moviles"
         ],
         "category_scores": {
-          "inteligencia_artificial": 2,
-          "semiconductores": 1,
-          "hardware": 1,
-          "vehiculos_energia": 1
+          "inteligencia_artificial": 1,
+          "moviles": 1
         },
         "entidades": [
-          "OpenAI"
+          "Huawei"
         ],
         "cifras_detectadas": [],
-        "content_type": "news",
+        "content_type": "report",
         "clickbait": {
           "detected": false,
           "score": 0,
@@ -683,13 +755,13 @@
           "signals": [],
           "url_count": 0
         },
-        "calidad": 84,
-        "relevancia": 62,
-        "confiabilidad_fuente": 75,
+        "calidad": 90,
+        "relevancia": 63,
+        "confiabilidad_fuente": 63,
         "readability": {
-          "words": 46,
+          "words": 56,
           "sentences": 1,
-          "average_words_per_sentence": 46
+          "average_words_per_sentence": 56
         },
         "duplicate": {
           "detected": false,
@@ -698,7 +770,7 @@
           "similar_to": null
         }
       },
-      "final_score": 72.95
+      "final_score": 72.45
     },
     {
       "id": "4ea6b447729c6c9b",
@@ -722,7 +794,7 @@
       "texto_original": "Intel says Chinese chip technology and AI models about to close gap with US Huawei Central",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-22T13:37:05.144Z",
+        "processed_at": "2026-10-22T18:26:07.233Z",
         "index": 38,
         "resumen": {
           "generado": true,
@@ -777,84 +849,7 @@
       "final_score": 71.95
     },
     {
-      "id": "e3ed6973309ba1a2",
-      "fuente_id": "huawei_google",
-      "fuente_nombre": "Huawei Central",
-      "tipo": "rss_web",
-      "subtipo": "google_news",
-      "grupo_fuente": "huawei",
-      "nivel_fuente": "agregador",
-      "categoria": "moviles",
-      "idioma_original": "en",
-      "prioridad_fuente": 4,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "Honor WIN 2 se lanzó con bisel de 0,93 mm, pantalla 2K 185 Hz y tecnología de refrigeración de doble ventilador",
-      "titulo_original": "Honor WIN 2 launched with 0.93mm bezel, 2K 185Hz screen, dual-fan cooling tech - Huawei Central",
-      "enlace": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1oRjczZTZfYW0yU2pCX0tKbU9oVnVyVTlRWDdYSDJmYnEzRUFEUkgxM2RNQ0NQdmlGWmdNS2VyR3RINlpPWm8xNS1BNWZ5TFQ2M1p1QWlGRUlCSEZOd3Y5atIBZkFVX3lxTE1BT2podEg1N29ITy12b0dBLWxWbkI2VEJ5Mm9OVlJfbm52LXBwSFZ0OHgxYi1IMkFkZFRpSDhXc1JoZ1ZOdkp2ZTFKUnducUJJNk8tNGEycXJ2ODd1blltZzh1UWdRdw?oc=5",
-      "fecha": "2026-10-21T10:43:55.000Z",
-      "resumen_corto": "Honor WIN 2 se lanzó con bisel de 0,93 mm, pantalla 2K 185 Hz y tecnología de refrigeración de doble ventilador Huawei Central",
-      "resumen_largo": "Honor WIN 2 se lanzó con bisel de 0,93 mm, pantalla 2K 185 Hz y tecnología de refrigeración de doble ventilador Huawei Central",
-      "texto_original": "Honor WIN 2 launched with 0.93mm bezel, 2K 185Hz screen, dual-fan cooling tech Huawei Central",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-10-22T13:37:05.143Z",
-        "index": 35,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "en",
-        "categoria": "tecnologia",
-        "categorias_secundarias": [
-          "moviles",
-          "inteligencia_artificial"
-        ],
-        "category_scores": {
-          "tecnologia": 3,
-          "moviles": 2,
-          "inteligencia_artificial": 1
-        },
-        "entidades": [
-          "Huawei",
-          "Honor"
-        ],
-        "cifras_detectadas": [
-          "0,93 mm",
-          "0.93mm"
-        ],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 87,
-        "relevancia": 67,
-        "confiabilidad_fuente": 53,
-        "readability": {
-          "words": 65,
-          "sentences": 3,
-          "average_words_per_sentence": 21.67
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 70.5
-    },
-    {
-      "id": "e24a272931885d72",
+      "id": "dbba16e7c21c8822",
       "fuente_id": "openai_google",
       "fuente_nombre": "OpenAI",
       "tipo": "rss_web",
@@ -866,17 +861,17 @@
       "prioridad_fuente": 5,
       "analizar": true,
       "resumir": true,
-      "titulo": "Amplio acceso a través de estándares consistentes",
-      "titulo_original": "Broad access through consistent standards - OpenAI",
-      "enlace": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBZbmliRnNKTFhtVU93U2NHcUZCY2JUdW1QZ0o2RzdmTnpPMVdmOG9Sd1N4aWZCRzEyVUE4YzVmamJqYXdJWWJUWnpsM2tJNWdubU13VHQzNUtNSHJIUTZaUHk0TVViMUVtMUlHUTVEOEJyVlo3VHc?oc=5",
-      "fecha": "2026-10-21T21:48:12.000Z",
-      "resumen_corto": "Amplio acceso a través de estándares consistentes OpenAI",
-      "resumen_largo": "Amplio acceso a través de estándares consistentes OpenAI",
-      "texto_original": "Broad access through consistent standards OpenAI",
+      "titulo": "Qué significa FDE en OpenAI",
+      "titulo_original": "What FDE means at OpenAI - OpenAI",
+      "enlace": "https://news.google.com/rss/articles/CBMibEFVX3lxTE14NEd6UTZDdVRiaUFfUEdtMDZuRk1CVDR2QnFLN29TU2tfaDEzV1RUMUVQNDFKT1A5QkQ4eVRxX3BvenlYNGJpNEV4WjBMZnJWY1c4TjFna0M4QzFLRWpXeG1IbVJIUnNYcGNXUw?oc=5",
+      "fecha": "2026-10-22T13:34:38.000Z",
+      "resumen_corto": "Qué significa FDE en OpenAI OpenAI",
+      "resumen_largo": "Qué significa FDE en OpenAI OpenAI",
+      "texto_original": "What FDE means at OpenAI OpenAI",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-22T13:37:05.134Z",
-        "index": 19,
+        "processed_at": "2026-10-22T18:26:07.222Z",
+        "index": 11,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -908,9 +903,9 @@
         "relevancia": 55,
         "confiabilidad_fuente": 75,
         "readability": {
-          "words": 29,
+          "words": 24,
           "sentences": 1,
-          "average_words_per_sentence": 29
+          "average_words_per_sentence": 24
         },
         "duplicate": {
           "detected": false,
@@ -943,8 +938,8 @@
       "texto_original": "Patch the Planet: global response coordination as agents uncover critical vulnerabilities OpenAI",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-22T13:37:05.141Z",
-        "index": 30,
+        "processed_at": "2026-10-22T18:26:07.230Z",
+        "index": 31,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -1011,8 +1006,8 @@
       "texto_original": "While Micron Calls The 4F² Memory Cell Architecture A “Myth,” YMTC Has Followed CXMT In Lining Up A Prototype That Operates At 9,600 MT/s Wccftech",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-22T13:37:05.132Z",
-        "index": 15,
+        "processed_at": "2026-10-22T18:26:07.227Z",
+        "index": 23,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -1089,8 +1084,8 @@
       "texto_original": "Honor WIN Pad launched as the first 240Hz display gaming tablet Huawei Central",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-22T13:37:05.143Z",
-        "index": 34,
+        "processed_at": "2026-10-22T18:26:07.232Z",
+        "index": 36,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -1140,7 +1135,7 @@
       "final_score": 68.75
     },
     {
-      "id": "aeb68a3d1029e955",
+      "id": "f1ad27a7626b7c01",
       "fuente_id": "xataka_google",
       "fuente_nombre": "Xataka",
       "tipo": "rss_web",
@@ -1154,15 +1149,15 @@
       "resumir": true,
       "titulo": "A OpenAI y Anthropic les han adelantado por la derecha en los agentes de IA. Por WhatsApp, concretamente",
       "titulo_original": "A OpenAI y Anthropic les han adelantado por la derecha en los agentes de IA. Por WhatsApp, concretamente - Xataka",
-      "enlace": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQaUNiSVB4Z3hBRUFMOGV0NzRLSXlwT3Jsd21NTEhGNWZCdWgzMUY1QUhrWm85RGlKVVdUQWlvU3hfVGZJOVhnekhraGIyZm1OZDBpQmhQbk16NlEzNGtjZXQwdDZqOXBMeFZYTngxU3E3MkFlTmRfRGoxWXNBcXpwTVpiZjB0UHJxTk9PUVhIWE9acldna1o0XzRJVUdiZ3dSTnZnV1FaY3NXN3NZZlVIalVfTHRKUU3SAbwBQVVfeXFMTkcwbEZsR1lIY3NKbnNRaDJqYl80NFFwTGtiS2ZrVFhxQ0pSVmg2QVgxV01sWmNyQUw1Um5UY2JmQlpOc2dKcEFWZDhJZVI4ZmZ6WVBVZmlRanRXeUQ4UDVodzNfOUlWWFpYM1pmcnRMX2R3Y2FjU1VkLWlvY0NVQmhYMTlUcG9aV3JGQ0FHNkpmY3pId2JNOElQbHBtS1VMc2lCRXVHdFRUSWZ5ck5LX0l4cEVseng2akQ1bEE?oc=5",
+      "enlace": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQaUNiSVB4Z3hBRUFMOGV0NzRLSXlwT3Jsd21NTEhGNWZCdWgzMUY1QUhrWm85RGlKVVdUQWlvU3hfVGZJOVhnekhraGIyZm1OZDBpQmhQbk16NlEzNGtjZXQwdDZqOXBMeFZYTngxU3E3MkFlTmRfRGoxWXNBcXpwTVpiZjB0UHJxTk9PUVhIWE9acldna1o0XzRJVUdiZ3dSTnZnV1FaY3NXN3NZZlVIalVfTHRKUU0?oc=5",
       "fecha": "2026-10-22T12:16:11.000Z",
       "resumen_corto": "A OpenAI y Anthropic les han adelantado por la derecha en los agentes de IA.",
       "resumen_largo": "A OpenAI y Anthropic les han adelantado por la derecha en los agentes de IA. Por WhatsApp, concretamente Xataka",
       "texto_original": "A OpenAI y Anthropic les han adelantado por la derecha en los agentes de IA. Por WhatsApp, concretamente Xataka",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-22T13:37:05.120Z",
-        "index": 3,
+        "processed_at": "2026-10-22T18:26:07.223Z",
+        "index": 14,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -1233,8 +1228,8 @@
       "texto_original": "NVIDIA’s Jensen Huang Says GPUs Now Last 8 Years Or More, While Elon Musk Says Even Older GPUs Deliver A Higher “Intelligence Per Watt” Wccftech",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-22T13:37:05.141Z",
-        "index": 31,
+        "processed_at": "2026-10-22T18:26:07.231Z",
+        "index": 32,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -1288,6 +1283,81 @@
       "final_score": 68
     },
     {
+      "id": "abfb0e74a3d4e23f",
+      "fuente_id": "google_news_es",
+      "fuente_nombre": "Google News ES",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "google_news",
+      "nivel_fuente": "agregador",
+      "categoria": "tecnologia",
+      "idioma_original": "es",
+      "prioridad_fuente": 3,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Meta, condenada a pagar 25.000 millones de dólares por engañar a los usuarios de Facebook en materia de privacidad - elDiario.es",
+      "titulo_original": "Meta, condenada a pagar 25.000 millones de dólares por engañar a los usuarios de Facebook en materia de privacidad - elDiario.es",
+      "enlace": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQNEtmZHd3UHhOWTUzQ3NqbXRqVlE3d184ZTlWYkxtWExIVFl6UkJyT2J4QTVvY3RuX3lJb29rVFl0VXZKSkVpYnBDTkRGUmZsdmZNX1JFLVMyYkNEM2cwYnVTb3JpYjFuX29jOXBJUF8xdGp1X250b2xHNHRxWktYU3ZRdEhUVmxoeVlhTUVzSGJDdXJRbGk2OWNHYVUtWWE5LUdab1h0X0JFbDBMZ1hOaFpJTDJqdXU0WjhnVnRlY3VYXzlHek01bzZNMWPSAdIBQVVfeXFMT25fdHlYNGhYdWxCQkdseUZzb2N1SVc0bm5sWjlVZzFkQUc2anpyQlpsVVZPbDZHQUg0RGczeWJHclp6bFAyRnBQQTJNQnpCQXo5RVpUZUw3TlFFWFEyRndmRmduakwxNDVqLVlVR01EeEMxQWlsakVvX1JLRzN1NlhCV0hxY3A4SDVOMVNfTXA3bnppMVY1aUt0YmVZUjA1VzZVajRHRHd1NUh5N3VSRC10cHU5ak9kdFBoaS1MdnZzOWVqSmt3dENtOEl3dm1hRzJn?oc=5",
+      "fecha": "2026-10-21T18:04:44.000Z",
+      "resumen_corto": "Meta, condenada a pagar 25.000 millones de dólares por engañar a los usuarios de Facebook en materia de privacidad elDiario.es",
+      "resumen_largo": "Meta, condenada a pagar 25.000 millones de dólares por engañar a los usuarios de Facebook en materia de privacidad elDiario.es",
+      "texto_original": "Meta, condenada a pagar 25.000 millones de dólares por engañar a los usuarios de Facebook en materia de privacidad elDiario.es",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-10-22T18:26:07.229Z",
+        "index": 29,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "moviles",
+        "categorias_secundarias": [
+          "inteligencia_artificial",
+          "software_internet"
+        ],
+        "category_scores": {
+          "moviles": 2,
+          "inteligencia_artificial": 1,
+          "software_internet": 1
+        },
+        "entidades": [
+          "Meta"
+        ],
+        "cifras_detectadas": [
+          "25.000 m"
+        ],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 85,
+        "relevancia": 62,
+        "confiabilidad_fuente": 53,
+        "readability": {
+          "words": 70,
+          "sentences": 11,
+          "average_words_per_sentence": 6.36
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 67.8
+    },
+    {
       "id": "75b4be18bcbd0376",
       "fuente_id": "wccftech_google",
       "fuente_nombre": "Wccftech",
@@ -1309,8 +1379,8 @@
       "texto_original": "Micron’s DDR6 Doubles DDR5 Bandwidth While LPDDR6 Delivers 35% Better Power Efficiency, Both Built On Its Upcoming 1δ DRAM Node, vHBM Goes Vertical & G11 NAND Goes Beyond 400 Layers Wccftech",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-22T13:37:05.137Z",
-        "index": 24,
+        "processed_at": "2026-10-22T18:26:07.229Z",
+        "index": 27,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -1379,7 +1449,7 @@
       "prioridad_fuente": 4,
       "analizar": true,
       "resumir": true,
-      "titulo": "EA cierra BioWare y cancela su proyecto Mass Effect de 50 personas, mientras 350 despidos más siguen a la compra de 55 mil millones de dólares",
+      "titulo": "EA cierra BioWare y cancela su proyecto Mass Effect de 50 personas, mientras 350 despidos más siguen a la compra de $ 55 mil millones",
       "titulo_original": "EA Shuts Down BioWare and Cancels Its 50-Person Mass Effect Project, as 350 More Layoffs Follow the $55 Billion Buyout - Wccftech",
       "enlace": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOTmNDTnp4dHFTb2JSZVdudVdZV3dqTjVKaU43NzliX3pYNmRrU0tJSlFZbzZNdUlhelViaGZTM05GNmNZdFB6aXNNLW8tem9CaXBSYThDZ3ZHNDBVSkxfaDRSWUZrRy1meFhPb3ZiQkJ5eVdEMHlkX0VqN3JodGV2X3l6WEp6eTc5NVhULURIZ1dLNWhYVkZoatIBngFBVV95cUxNTmtuZXVaSVM5QV85dEVkRThXSGpNdUU4ejJOU2lWQS12eVFfeF9oNnhReEl5c0FmRFY1bUk3bnIyRnNyNFZFQ08xUExLaVRhTDY2M1FTNG9YTVdERmk2R256TDduRnpsWGRQeU1VZ25uZTU4cF8zNFBwbVZUeDN2aklIMC1BMVpZT0xVZ1ZNd3pyRVVnUFA4bExRTTAtQQ?oc=5",
       "fecha": "2026-10-21T17:30:00.000Z",
@@ -1388,8 +1458,8 @@
       "texto_original": "EA Shuts Down BioWare and Cancels Its 50-Person Mass Effect Project, as 350 More Layoffs Follow the $55 Billion Buyout Wccftech",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-22T13:37:05.140Z",
-        "index": 29,
+        "processed_at": "2026-10-22T18:26:07.230Z",
+        "index": 30,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -1408,9 +1478,10 @@
           "Wccftech"
         ],
         "cifras_detectadas": [
-          "55 m",
+          "$ 55",
           "350 M",
-          "$55"
+          "$55",
+          "55 m"
         ],
         "content_type": "news",
         "clickbait": {
@@ -1428,9 +1499,9 @@
         "relevancia": 55,
         "confiabilidad_fuente": 50,
         "readability": {
-          "words": 86,
+          "words": 85,
           "sentences": 1,
-          "average_words_per_sentence": 86
+          "average_words_per_sentence": 85
         },
         "duplicate": {
           "detected": false,
@@ -1463,8 +1534,8 @@
       "texto_original": "En 2010, dejó su trabajo en Estados Unidos para dedicarse a la agricultura; hoy su empresa factura millones por año. Genbeta",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-22T13:37:05.144Z",
-        "index": 36,
+        "processed_at": "2026-10-22T18:26:07.232Z",
+        "index": 37,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -1533,7 +1604,7 @@
       "texto_original": "Huawei CEO teases new Wi-Fi router with a book-like form factor Huawei Central",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-22T13:37:05.145Z",
+        "processed_at": "2026-10-22T18:26:07.233Z",
         "index": 39,
         "resumen": {
           "generado": true,
@@ -1583,7 +1654,7 @@
       "final_score": 63.95
     },
     {
-      "id": "03da8ec81a4da76a",
+      "id": "705e9408492dfebf",
       "fuente_id": "xataka_google",
       "fuente_nombre": "Xataka",
       "tipo": "rss_web",
@@ -1595,17 +1666,17 @@
       "prioridad_fuente": 4,
       "analizar": true,
       "resumir": true,
-      "titulo": "Un desprendimiento bloqueó esta cueva en Cantabria hace 16.500 años. En su interior ocultaba una vivienda del Paleolítico",
-      "titulo_original": "Un desprendimiento bloqueó esta cueva en Cantabria hace 16.500 años. En su interior ocultaba una vivienda del Paleolítico - Xataka",
-      "enlace": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNZC1FelgxOUZQUmxNOWJjdDh4MjRWSG5seG9SSUZiakw5Z2lOQUJBR1dtQXJZaEx1SmhHMXRDVllaT3hTNXBRVDNtXzZyOVNmUDFRMzd4aFNXRVJybnpXVmVIcDgwQVVxUzZ1eE9jekVJb2Z1UkE1RzByazNFMXd0T2htMkNUenhhMEdHdzRITkx1QjdDM19UVzVBallrS3hZOFdTVHBYTHdheHpaQmcxRU5PMXBUSkRiTktrWmNOeUlaSmJvRVY3a19kVFh5dG1Db1IwWHd1eWIxVV9mWU9IQkJB0gHnAUFVX3lxTE9nVHpCeE1rUGtuZWRVcGVaQzBnLXIzVkI0RnNlVzV6bDdScjAxVk54Z0ZCSXlvWlI3NVA2TDVBOFQ4NndkaHE5NFE1UDByUEhfal9jWGQ1TkhDejd2SjVwbWNUQU1WZ0MycEtrcDA5YURGSDEwT0hITjdZc0o5Rk9rbVpWQzg0VlhHNUhlbjNYMW5KOVQ1VjJad2UzODhULTNBY2NsV3hyb1N2VkZvMjFQeUFUMnRHTjVDU0NtRS14UlNfX2dZY2tsYXJjbmlIX0FwaGQtTm1nbGN6bzJNTEtpNzFEeldqWQ?oc=5",
-      "fecha": "2026-10-22T10:19:43.000Z",
-      "resumen_corto": "Un desprendimiento bloqueó esta cueva en Cantabria hace 16.500 años.",
-      "resumen_largo": "Un desprendimiento bloqueó esta cueva en Cantabria hace 16.500 años. En su interior ocultaba una vivienda del Paleolítico Xataka",
-      "texto_original": "Un desprendimiento bloqueó esta cueva en Cantabria hace 16.500 años. En su interior ocultaba una vivienda del Paleolítico Xataka",
+      "titulo": "La IA no ha encontrado un fallo nuevo en PHP, sino algo peor: la forma de aprovechar uno viejo",
+      "titulo_original": "La IA no ha encontrado un fallo nuevo en PHP, sino algo peor: la forma de aprovechar uno viejo - Xataka",
+      "enlace": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNM2k5YlhvQUZtZWlNY2taMmVtTmxTS2swdUJuMkx6X1IzOUdHMnhBaldUaDlwMWZoWlowWl9YeXZUbV9zRjZYZ2Z4ZjNyN3JMNWFpeVBvUVFhUHdYa3k3Wkl6XzhvZzR4WVVRMVFhcTM2RUp4V2EyRVZnWlBKa1ltVGl5TXBXZEk3SXpBU0FOb1Z2VktuN29HcVdzN2ZhT2tlVGFwcld2cXhpRE93VmQ00gG0AUFVX3lxTFA0M1hZSFhGa0NPaFVUYnVCdkw4UEgtTlZnbDdSWllwRUtNaGpDcGQ3NTV0WG1fcU5rUDJWWXk2eTBaM0dCcVY2bFdjZ3d6RzBXb2N6MkxVSEc0QTNqUE5sMDRwaGNSV1BKUlpCUHpaZmRuQlpza3JqNmlEUXUtWVNjZVB3S3JSNzYwdGRYZnVoUkFUNWptRmNfdUJJelEwQlJVRGxING1yREtYNkVsdFlEWjZZYw?oc=5",
+      "fecha": "2026-10-22T13:30:15.000Z",
+      "resumen_corto": "La IA no ha encontrado un fallo nuevo en PHP, sino algo peor: la forma de aprovechar uno viejo Xataka",
+      "resumen_largo": "La IA no ha encontrado un fallo nuevo en PHP, sino algo peor: la forma de aprovechar uno viejo Xataka",
+      "texto_original": "La IA no ha encontrado un fallo nuevo en PHP, sino algo peor: la forma de aprovechar uno viejo Xataka",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-22T13:37:05.128Z",
-        "index": 9,
+        "processed_at": "2026-10-22T18:26:07.223Z",
+        "index": 12,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -1640,9 +1711,151 @@
         "relevancia": 55,
         "confiabilidad_fuente": 50,
         "readability": {
-          "words": 67,
-          "sentences": 11,
-          "average_words_per_sentence": 6.09
+          "words": 59,
+          "sentences": 1,
+          "average_words_per_sentence": 59
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 63.2
+    },
+    {
+      "id": "6b68eefbced9e154",
+      "fuente_id": "xataka_google",
+      "fuente_nombre": "Xataka",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "xataka",
+      "nivel_fuente": "medio_especializado",
+      "categoria": "tecnologia",
+      "idioma_original": "es",
+      "prioridad_fuente": 4,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Lo que ha sucedido con PHP nos avisa: tenemos un problema grave con el software antiguo que sostiene internet",
+      "titulo_original": "Lo que ha sucedido con PHP nos avisa: tenemos un problema grave con el software antiguo que sostiene internet - Xataka",
+      "enlace": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPWUhvTzNva1hZX2l2Nlhka0pJc3NPdUtSa25RWGZCMmNYcm1XWXVUQlJTalhOZmd2UWs3M2k0T0RwaFlKT1hXaDNsMU8xZWRWamJUM3dRMFZZS3VwblM3d1ZGeEZjdHE2MlNTb3hmSGtiUTMzcUxCX1FjY2luaUc3b1Y2Q1owbVoxTk1ERzhuQllhN0VrRmtaTnd1Q3hKZUZiaFZRYkZUS0ZKOEx2S01YVzRvLXFydGdvMjFHTi0td2hoQdIBxwFBVV95cUxObXVVZjVDVzZyTVdhSzBQOTBQOVRoVFhBMWZHdzh3Qk1fU0xER2Y2ZkU5eUlRVnlOX2tqMlJ3N042UkQ4ZFlLZkhqYnhkWFZaOTl4ZTRLejlZOUZWSUgwZFFNRWkyQlM4cU1WVzZGLUhvT1R4elVaTXlHV0pXbENnWDV5RWhPWnYwZjJ5SFlKUEdPbnJzWGNtQjRnVy05TXE3MFJxU0RSSmlueHlmNUM3Y196a1hCYjdWbjY4bVNfOG1CbG54Q3BR?oc=5",
+      "fecha": "2026-10-22T10:30:12.000Z",
+      "resumen_corto": "Lo que ha sucedido con PHP nos avisa: tenemos un problema grave con el software antiguo que sostiene internet Xataka",
+      "resumen_largo": "Lo que ha sucedido con PHP nos avisa: tenemos un problema grave con el software antiguo que sostiene internet Xataka",
+      "texto_original": "Lo que ha sucedido con PHP nos avisa: tenemos un problema grave con el software antiguo que sostiene internet Xataka",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-10-22T18:26:07.225Z",
+        "index": 17,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "software_internet",
+        "categorias_secundarias": [
+          "militar"
+        ],
+        "category_scores": {
+          "software_internet": 2,
+          "militar": 1
+        },
+        "entidades": [
+          "Xataka"
+        ],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 82,
+        "relevancia": 55,
+        "confiabilidad_fuente": 50,
+        "readability": {
+          "words": 79,
+          "sentences": 1,
+          "average_words_per_sentence": 79
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 63.2
+    },
+    {
+      "id": "52514d2a18a1acab",
+      "fuente_id": "xataka_google",
+      "fuente_nombre": "Xataka",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "xataka",
+      "nivel_fuente": "medio_especializado",
+      "categoria": "tecnologia",
+      "idioma_original": "es",
+      "prioridad_fuente": 4,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "El primer impacto realmente visible de la IA en el mundo real es la ciberseguridad: ha cambiado completamente de forma y tamaño",
+      "titulo_original": "El primer impacto realmente visible de la IA en el mundo real es la ciberseguridad: ha cambiado completamente de forma y tamaño - Xataka",
+      "enlace": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQT2VXOV9tSEVRYmpfQWhvOWRkU0VqSm9lTzJpV2ItbTJMaXBVS2k1djlTNmVTaXZ3YUdOS0dvSWNLM05DaGNMM283STVDMnNycmdKelVrRUpPbC1oLTBJRW1VSi02ZThkRlBHV0pVZmNRVWdyNnBEdU1wN3A0bV91LTVjREhwbnRtc1NqM1FHYzVIdmFGa2hsemlQajBVR1BwYjE5QjR5czZCS3BpbG1meDNybk02M3NXTEpQbmZ5aGExLS1MdkxfTWJJWjlkd9IB0wFBVV95cUxOckxEamVqR1BCQXFUS2pZYkwxc1I1a0hDTFotYjlBcWhMUk1hWV9Dbng4bTJpT2MzczA1dE9FZWpHTl91OXJudUFYaTdoQWpRVEExMEEyX25qYWszbVl5S2ZyMEM5TnhIOFFkQlpsQVJ2MDE5LXNWWUpramZEWTRSVmNiXzJJcHMyUkhrUmhjWDZxX0tzNUluczdEWHM4Vi0tcndqY0N1LTN4MEVsSThxSjBWeFhnSzc4cmpyZE85X1I4R2o4cllTaThvbk5uUm1RMHlj?oc=5",
+      "fecha": "2026-10-22T10:00:12.000Z",
+      "resumen_corto": "El primer impacto realmente visible de la IA en el mundo real es la ciberseguridad: ha cambiado completamente de forma y tamaño Xataka",
+      "resumen_largo": "El primer impacto realmente visible de la IA en el mundo real es la ciberseguridad: ha cambiado completamente de forma y tamaño Xataka",
+      "texto_original": "El primer impacto realmente visible de la IA en el mundo real es la ciberseguridad: ha cambiado completamente de forma y tamaño Xataka",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-10-22T18:26:07.225Z",
+        "index": 18,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "software_internet",
+        "categorias_secundarias": [
+          "inteligencia_artificial"
+        ],
+        "category_scores": {
+          "software_internet": 2,
+          "inteligencia_artificial": 1
+        },
+        "entidades": [
+          "Xataka"
+        ],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 82,
+        "relevancia": 55,
+        "confiabilidad_fuente": 50,
+        "readability": {
+          "words": 59,
+          "sentences": 1,
+          "average_words_per_sentence": 59
         },
         "duplicate": {
           "detected": false,
@@ -1675,8 +1888,8 @@
       "texto_original": "Kelly Clarkson dice “Me encanta la IA”, pero los artistas de IA no deberían estar en las mismas listas de música que los humanos Genbeta",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-22T13:37:05.129Z",
-        "index": 10,
+        "processed_at": "2026-10-22T18:26:07.226Z",
+        "index": 19,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -1722,145 +1935,6 @@
       "final_score": 63.2
     },
     {
-      "id": "c3864063996eeba9",
-      "fuente_id": "xataka_google",
-      "fuente_nombre": "Xataka",
-      "tipo": "rss_web",
-      "subtipo": "google_news",
-      "grupo_fuente": "xataka",
-      "nivel_fuente": "medio_especializado",
-      "categoria": "tecnologia",
-      "idioma_original": "es",
-      "prioridad_fuente": 4,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "Ucrania está paralizando las refinerías rusas tan solo atacando las piezas más difíciles de sustituir",
-      "titulo_original": "Ucrania está paralizando las refinerías rusas tan solo atacando las piezas más difíciles de sustituir - Xataka",
-      "enlace": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPV1FvOEQ1ZzhIcnhUaEljYnByRDd3VzhaVjdJdnFoM3JrUDZteGc5X3lsUlVDU01lYy03dVhTSnNuWk0yQlZ2em03TnExVkNZbml3UEtmeUtiQWtlVVBhd1dzaHJRM0RYRFVOVVJCeGZIUXhnM2xNOUExSVJGTGhwbmphU0Y5OGRXaDl2NUhDVUdOdFd5UEtST1p6ZWl6OHdCWVhJX1c3ajJtUkpMRUc0QWl1UdIBuAFBVV95cUxNcXJxS2ZXWEpxbFlSZ3htbUp0MDF6X2FwMzZoX3IzYTh2dlEyUVBnYXl0aTR4NUJ3WHVMcFV1TDZDM1dyQ21ibzd4Vk9aZDFqZnpFUi1pWU14bDZHOW1xZzB2QjZ6b3FORU5zYmsxeFN5M2RIN0E1OHJyOHlDVGlxN3dySkczYkU2ajFsamN1LUljdW5Vc1piLXpSTmRSS21EaEZmc1I5WGJZRXZUa05LS3BXZVBwNUM0?oc=5",
-      "fecha": "2026-10-22T06:17:38.000Z",
-      "resumen_corto": "Ucrania está paralizando las refinerías rusas tan solo atacando las piezas más difíciles de sustituir Xataka",
-      "resumen_largo": "Ucrania está paralizando las refinerías rusas tan solo atacando las piezas más difíciles de sustituir Xataka",
-      "texto_original": "Ucrania está paralizando las refinerías rusas tan solo atacando las piezas más difíciles de sustituir Xataka",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-10-22T13:37:05.131Z",
-        "index": 12,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "es",
-        "categoria": "inteligencia_artificial",
-        "categorias_secundarias": [],
-        "category_scores": {
-          "inteligencia_artificial": 1
-        },
-        "entidades": [
-          "Xataka"
-        ],
-        "cifras_detectadas": [],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 82,
-        "relevancia": 55,
-        "confiabilidad_fuente": 50,
-        "readability": {
-          "words": 74,
-          "sentences": 1,
-          "average_words_per_sentence": 74
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 63.2
-    },
-    {
-      "id": "6e230176f31bdff6",
-      "fuente_id": "xataka_google",
-      "fuente_nombre": "Xataka",
-      "tipo": "rss_web",
-      "subtipo": "google_news",
-      "grupo_fuente": "xataka",
-      "nivel_fuente": "medio_especializado",
-      "categoria": "tecnologia",
-      "idioma_original": "es",
-      "prioridad_fuente": 4,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "Ya en Lidl, por 12,99 euros, el reloj radiocontrolado con termómetro y proyector que cambia automáticamente al horario de invierno",
-      "titulo_original": "Ya en Lidl, por 12,99 euros, el reloj radiocontrolado con termómetro y proyector que cambia automáticamente al horario de invierno - Xataka",
-      "enlace": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNMW1xdmt1UHZDUlhVRjg1NkVsSWUxQ05FUGNtWlpIdlJXSEc3TVQzWlN4LUVETTlxV2NVQWdZTEJDM2lwSUF3eXRld2dQRTNPTnpZbEVqLW92OTFTNk9sdkFIM3NjUk9idUZ0SWxkT1NibHY3d1RBT1BMVFFYVzZmcGdkNUFDSmdFeUV5LWpSajlrWWktSGFYZUtwdTNUcklTcWJtamx0SFJWQ0FfRmF5QWkwNkNxZE5YT2pmYTJUcmhWZFZ1eDROSGFVT21NaG94cl9vdEtR0gHbAUFVX3lxTE9FXzYtM3pyc0JYbFg2cU9pN2tMcVRjQ3hhaVA4cEY2VUx2MTA1SWxaYkxJdE1mR3JkZWwtMEhYb2pBUTFqZ3dOWl9uRGdGMURYWFZ1T3dBTjYtOVFNcDBhWWlGSEJUTWtZaFpHMmF3THFyUnQzbEFIYzZ2NWtYRGh0MzlVVnFyRzlJczJ5bHFmbEtjLWJWSG81ZmRyN0NjTTJqakpyMjY2TnNoLUdPVl9pbDdib0tzUDlMTEotQmFmSkFjc1Fha0l0alNTb3hta044d3hhQks5dEJ5bw?oc=5",
-      "fecha": "2026-10-22T05:45:40.000Z",
-      "resumen_corto": "Ya en Lidl, por 12,99 euros, el reloj radiocontrolado con termómetro y proyector que cambia automáticamente al horario de invierno Xataka",
-      "resumen_largo": "Ya en Lidl, por 12,99 euros, el reloj radiocontrolado con termómetro y proyector que cambia automáticamente al horario de invierno Xataka",
-      "texto_original": "Ya en Lidl, por 12,99 euros, el reloj radiocontrolado con termómetro y proyector que cambia automáticamente al horario de invierno Xataka",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-10-22T13:37:05.132Z",
-        "index": 14,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "es",
-        "categoria": "inteligencia_artificial",
-        "categorias_secundarias": [
-          "vehiculos_energia"
-        ],
-        "category_scores": {
-          "inteligencia_artificial": 1,
-          "vehiculos_energia": 1
-        },
-        "entidades": [
-          "Xataka"
-        ],
-        "cifras_detectadas": [],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 82,
-        "relevancia": 55,
-        "confiabilidad_fuente": 50,
-        "readability": {
-          "words": 69,
-          "sentences": 1,
-          "average_words_per_sentence": 69
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 63.2
-    },
-    {
       "id": "4dd247848cedb58d",
       "fuente_id": "genbeta_google",
       "fuente_nombre": "Genbeta",
@@ -1882,8 +1956,8 @@
       "texto_original": "Yaiza Canosa, exitosa empresaria española: “Conozco más fontaneros bajándose de un Land Rover que a desarrolladores” Genbeta",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-22T13:37:05.142Z",
-        "index": 33,
+        "processed_at": "2026-10-22T18:26:07.232Z",
+        "index": 35,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -1929,7 +2003,7 @@
       "final_score": 63.2
     },
     {
-      "id": "c72fdaa854e74d5d",
+      "id": "0f7e29689e3b71ac",
       "fuente_id": "google_news_es",
       "fuente_nombre": "Google News ES",
       "tipo": "rss_web",
@@ -1941,16 +2015,16 @@
       "prioridad_fuente": 3,
       "analizar": true,
       "resumir": true,
-      "titulo": "El comercio se cita en Málaga: conjugar la tecnología y el factor humano para redefinir el 'retail' - Diario Sur",
-      "titulo_original": "El comercio se cita en Málaga: conjugar la tecnología y el factor humano para redefinir el 'retail' - Diario Sur",
-      "enlace": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQZ3U5QXJVUWdIM2ktUUFvS3dvX0ZMTVdQMFd3bHpuS1BUODBMTFh0SFRVRmxsM0k1ei1nSE9fMFZSaDZ2SzBMQWpZbzE3ckRaeGR0bzlYTnBidW1ycUt1a05idnRhV096eXBEcWIyUzFPeTRoRmtwVlROUmpjTnVoWVM0VEw1dnJHQVRSdTdYTXZybHpLdTc1LXZraHdkMVFKQVhrZC1Yb3JqNG1vVFHSAbMBQVVfeXFMTlZ4XzZReXRYdE9qMzBqRHpwbFliVGFHRkV5NjBjSmlzYWJYQTR0NDd4cVN3eHNwMkVpeXdUMWdvT1VQb2FiSGpHZjExOFR1WUY2bnozSEJrRG5EWUVLLUF0RG5MeGpxOWItS3Bsd1ZlOG9ZblhtZ0hwUjBKXzZNblBCaldDNTd0aS1TTnVpUlVMWjVtVXF6TGFqc3NialVhdmIwSDYtNlRkMUxSN1E1dkw0aEU?oc=5",
-      "fecha": "2026-10-22T12:58:25.000Z",
-      "resumen_corto": "El comercio se cita en Málaga: conjugar la tecnología y el factor humano para redefinir el 'retail' Diario Sur",
-      "resumen_largo": "El comercio se cita en Málaga: conjugar la tecnología y el factor humano para redefinir el 'retail' Diario Sur",
-      "texto_original": "El comercio se cita en Málaga: conjugar la tecnología y el factor humano para redefinir el 'retail' Diario Sur",
+      "titulo": "Una nueva tecnología abre la puerta a poder dar voz a pacientes inconscientes en la UCI - heraldo.es",
+      "titulo_original": "Una nueva tecnología abre la puerta a poder dar voz a pacientes inconscientes en la UCI - heraldo.es",
+      "enlace": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOMnNaUlVpWnRMejBqTGlNakdMdzBYclFzV3Frek5rb3ZJWHRLcXlEamJ5c0RLWFNmLUZYamtxaURtWHFVaHBHeW51ZE45cmJfM1UxVlYwZV9vMF9nT3JCMVNRUkl1U25OdEtJUU14dVFNbE8xU2lwZm9hOW1lY3I4enJxekw4T3hGUmVCMV9lMXd0VTJDXzh4YVR4dnZ5NWN1Z3FVVXNyMUxFTTNfYW5UVVpkMnhaQWlCSGZ2SGQxTjhXMUhRTFllM296djRDNHZiTXpZcHN30gHbAUFVX3lxTFBXcmkwRC0zXzloUmRwY2FLZkpYZVFheGMyWVhKZnlCa1BmamZ0MWtUX05HbkY0bnVteXRRajcxSFVITFduX29RaW84TGtGUVVHRDB5MzFrNE1jb3d1MG85aEtfSHRiV0RiOVlrSy04TzE3cGUzM1R3Mkp3T3RYNTR3anJ5VVpyRzlYMVlld3d6cy1Zamx6X0lTcXY2Sm91cTFGbExfQnhJWlFhcVRPRVlzLVJmNWRleEhNU05YaVRsT19TXzdiclRWaWJza3d1X1VRQzhfWnJ4TWVPYw?oc=5",
+      "fecha": "2026-10-22T17:04:34.000Z",
+      "resumen_corto": "Una nueva tecnología abre la puerta a poder dar voz a pacientes inconscientes en la UCI heraldo.es",
+      "resumen_largo": "Una nueva tecnología abre la puerta a poder dar voz a pacientes inconscientes en la UCI heraldo.es",
+      "texto_original": "Una nueva tecnología abre la puerta a poder dar voz a pacientes inconscientes en la UCI heraldo.es",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-22T13:37:05.118Z",
+        "processed_at": "2026-10-22T18:26:07.213Z",
         "index": 2,
         "resumen": {
           "generado": true,
@@ -1958,13 +2032,15 @@
         },
         "idioma_detectado": "es",
         "idioma_original": "es",
-        "categoria": "inteligencia_artificial",
+        "categoria": "tecnologia",
         "categorias_secundarias": [
-          "tecnologia"
+          "inteligencia_artificial",
+          "vehiculos_energia"
         ],
         "category_scores": {
-          "inteligencia_artificial": 2,
-          "tecnologia": 2
+          "tecnologia": 2,
+          "inteligencia_artificial": 1,
+          "vehiculos_energia": 1
         },
         "entidades": [],
         "cifras_detectadas": [],
@@ -1985,6 +2061,148 @@
         "confiabilidad_fuente": 53,
         "readability": {
           "words": 60,
+          "sentences": 6,
+          "average_words_per_sentence": 10
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 62.3
+    },
+    {
+      "id": "c834af3b9d7f09c6",
+      "fuente_id": "ia_dia",
+      "fuente_nombre": "IA al Día",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "ia_general",
+      "nivel_fuente": "agregador",
+      "categoria": "inteligencia_artificial",
+      "idioma_original": "es",
+      "prioridad_fuente": 3,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Inteligencia artificial y manipulación: nuevas claves para interpretar lo que vemos en internet - EL PAÍS",
+      "titulo_original": "Inteligencia artificial y manipulación: nuevas claves para interpretar lo que vemos en internet - EL PAÍS",
+      "enlace": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNMmpKaF8xYUd1TjFGZ1dCYWFYUkhZTjdhRllEdzB4dWJXcmVXdHVmMWF0WENRczNERDJCTXMxbmktMEVlS3M2TWpVMVltcWFlU3JHRXJKS0IyYVF3ejUwbFBjOGRhQVJyOWRuNHJRZXpkUENBbkh0RGlKSDZoaFhqYjl2OXRIeUhMeUlRbTdvTFVBZzR1b05CMEI4YlNkWjZsaXluMHNkLXc4dkc0TTZvNFMycGJ0QWRLS21ydkxJRWRRVzZBZk1qaU50bWYtT0EwOGJpWGo5NjJBWkNHQkhobUJmT0VsdktFd0VOU0FNUzk5dTJXYUl6Q0w0MFg?oc=5",
+      "fecha": "2026-10-21T15:53:30.000Z",
+      "resumen_corto": "Inteligencia artificial y manipulación: nuevas claves para interpretar lo que vemos en internet EL PAÍS",
+      "resumen_largo": "Inteligencia artificial y manipulación: nuevas claves para interpretar lo que vemos en internet EL PAÍS",
+      "texto_original": "Inteligencia artificial y manipulación: nuevas claves para interpretar lo que vemos en internet EL PAÍS",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-10-22T18:26:07.231Z",
+        "index": 33,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "inteligencia_artificial",
+        "categorias_secundarias": [
+          "vehiculos_energia",
+          "software_internet"
+        ],
+        "category_scores": {
+          "inteligencia_artificial": 4,
+          "vehiculos_energia": 1,
+          "software_internet": 1
+        },
+        "entidades": [],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 75,
+        "relevancia": 57,
+        "confiabilidad_fuente": 53,
+        "readability": {
+          "words": 55,
+          "sentences": 1,
+          "average_words_per_sentence": 55
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 62.3
+    },
+    {
+      "id": "24e77fed48d11477",
+      "fuente_id": "google_news_es",
+      "fuente_nombre": "Google News ES",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "google_news",
+      "nivel_fuente": "agregador",
+      "categoria": "tecnologia",
+      "idioma_original": "es",
+      "prioridad_fuente": 3,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Millones de ciberataques en pocas horas, tras descubrir la IA un fallo en el corazón del 70% de las webs - EL PAÍS",
+      "titulo_original": "Millones de ciberataques en pocas horas, tras descubrir la IA un fallo en el corazón del 70% de las webs - EL PAÍS",
+      "enlace": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNZHd6TG1jLXBTeUN4dWRBeC1ncW8tTmlRSWVqQlJYRTFkU3J3SjVFR25mRDR3YUhoVzc4Q1ktUElKM1JZdTY4cHg0akRNZ1FmZ3hVSkhwZGdoQkdjZ21RenhBTHRDaG9PbUhISV9lNVQ1RUVVVGdJdTBLN05Oc2l3RGpma3dtUno2Vzh3cHpHRF8wYk5lNm00b0pwMmNjTEdIQzBBOHh0WVo5Q1ptbENfMDZ1QUplYlRkdjRqOGs0Z1I5UDh4S3A4YnZCSVRIU1JiUU5mZNIB6AFBVV95cUxNRk9uM185dXB0ZWJaNi1UX25hd09GSTdodTBGZlZLM3IxSXN4dEFneV9qYVhoaVNPS1dXVjF2SV83UmF4aW0tUUFQR2pqSUw0MlNuRUI0b0U1dEJQNmkwam0xSWpjQVNGSW5Kd0NJc19jYTBpUG81VlowdXJrQjV0NFBVYUU0MDl2eklVY0pWSktjVGpJZXhqeTRxWVN1Nk50TDJMbEdyREpJYWdyT3FBa0tjTURzRkxscWZhU0Q0ZHVIcl9Wd3hBOUZrN29uWmUyRjV0cXJad09rQzVFa3dCNnliTktheVlO?oc=5",
+      "fecha": "2026-10-22T11:40:42.000Z",
+      "resumen_corto": "Millones de ciberataques en pocas horas, tras descubrir la IA un fallo en el corazón del 70% de las webs EL PAÍS",
+      "resumen_largo": "Millones de ciberataques en pocas horas, tras descubrir la IA un fallo en el corazón del 70% de las webs EL PAÍS",
+      "texto_original": "Millones de ciberataques en pocas horas, tras descubrir la IA un fallo en el corazón del 70% de las webs EL PAÍS",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-10-22T18:26:07.223Z",
+        "index": 15,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "inteligencia_artificial",
+        "categorias_secundarias": [
+          "software_internet"
+        ],
+        "category_scores": {
+          "inteligencia_artificial": 2,
+          "software_internet": 1
+        },
+        "entidades": [],
+        "cifras_detectadas": [
+          "70%"
+        ],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 80,
+        "relevancia": 50,
+        "confiabilidad_fuente": 53,
+        "readability": {
+          "words": 60,
           "sentences": 1,
           "average_words_per_sentence": 60
         },
@@ -1995,7 +2213,78 @@
           "similar_to": null
         }
       },
-      "final_score": 62.3
+      "final_score": 61.25
+    },
+    {
+      "id": "cdd1a57b8ca6439f",
+      "fuente_id": "google_news_es",
+      "fuente_nombre": "Google News ES",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "google_news",
+      "nivel_fuente": "agregador",
+      "categoria": "tecnologia",
+      "idioma_original": "es",
+      "prioridad_fuente": 3,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Por qué un fallo descubierto por la IA ha puesto en riesgo hasta el 70% de las páginas web del mundo - Expansión",
+      "titulo_original": "Por qué un fallo descubierto por la IA ha puesto en riesgo hasta el 70% de las páginas web del mundo - Expansión",
+      "enlace": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPMGNmR0N2WXU0d19BTk9BU3lJb0NPbVFtdUgxUnVPZm5CQXBGZDZRa3g1MkVhVW1KRzByQzg4MGhnODZLY0tCZVpJSzVZMUZPeklYcjZZLUNobURUY2ZKZGFiS0cwSEJRNmdYX2xGNjBqc3BJd3JEQy1CclJISlNCRDE3cS10Rjh0VE1nZjVzVlAtTkxrNUVzLXBUR3d6QnhuYzlCX3VUZ9IBpwFBVV95cUxON3VjOHpmVnlaUUprTUFxb2hTb0hCWmw3SGdkbUFLSDg3RkxrNV9jUHJZdHdmTWQtNlowQk5yLWZQSlNPQXpVd3oyUFhlS01UNnFGdmFlZkJ1R2dFejRmWlU4S1V1a0JjY1gyRVlVY1huaWRJOGxBUHkzdHdCRWtXVWxEZ0JlTWs1NlhZUS1jNnEyblM2aUZscGtOM1g3SWU1QXk5T0ZkSQ?oc=5",
+      "fecha": "2026-10-22T07:31:51.000Z",
+      "resumen_corto": "Por qué un fallo descubierto por la IA ha puesto en riesgo hasta el 70% de las páginas web del mundo Expansión",
+      "resumen_largo": "Por qué un fallo descubierto por la IA ha puesto en riesgo hasta el 70% de las páginas web del mundo Expansión",
+      "texto_original": "Por qué un fallo descubierto por la IA ha puesto en riesgo hasta el 70% de las páginas web del mundo Expansión",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-10-22T18:26:07.227Z",
+        "index": 21,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "inteligencia_artificial",
+        "categorias_secundarias": [
+          "software_internet"
+        ],
+        "category_scores": {
+          "inteligencia_artificial": 1,
+          "software_internet": 1
+        },
+        "entidades": [],
+        "cifras_detectadas": [
+          "70%"
+        ],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 80,
+        "relevancia": 50,
+        "confiabilidad_fuente": 53,
+        "readability": {
+          "words": 70,
+          "sentences": 1,
+          "average_words_per_sentence": 70
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 61.25
     },
     {
       "id": "2b8f35fd87ef7b1f",
@@ -2019,8 +2308,8 @@
       "texto_original": "PHP: los dos fallos de seguridad descubiertos con IA que han puesto en riesgo a 7 de cada 10 webs El Confidencial",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-22T13:37:05.133Z",
-        "index": 17,
+        "processed_at": "2026-10-22T18:26:07.228Z",
+        "index": 25,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -2069,48 +2358,48 @@
       "final_score": 61.25
     },
     {
-      "id": "34545f10fcd55f6f",
-      "fuente_id": "resumen_militar",
-      "fuente_nombre": "El Resumen Militar",
-      "tipo": "telegram",
-      "subtipo": "canal_telegram",
-      "grupo_fuente": "telegram_militar",
-      "nivel_fuente": "telegram",
-      "categoria": "militar",
+      "id": "6081063e62f601af",
+      "fuente_id": "ia_dia",
+      "fuente_nombre": "IA al Día",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "ia_general",
+      "nivel_fuente": "agregador",
+      "categoria": "inteligencia_artificial",
       "idioma_original": "es",
       "prioridad_fuente": 3,
       "analizar": true,
       "resumir": true,
-      "titulo": "🇮🇷 According to unconfirmed initial reports, the explosions near Sirik on Iran's southern coast were the result of a US attack targeting an anti-ship cruise missile launcher. 🔴 @DDGeopolitics",
-      "titulo_original": "🇮🇷 According to unconfirmed initial reports, the explosions near Sirik on Iran's southern coast were the result of a US attack targeting an anti-ship cruise missile launcher. 🔴 @DDGeopolitics",
-      "enlace": "https://t.me/elresumenmilitar/101995",
-      "fecha": "2026-10-21T21:08:00.000Z",
-      "resumen_corto": "🇮🇷 According to unconfirmed initial reports, the explosions near Sirik on Iran's southern coast were the result of a US attack targeting an anti-ship cruise missile launcher.",
-      "resumen_largo": "🇮🇷 According to unconfirmed initial reports, the explosions near Sirik on Iran's southern coast were the result of a US attack targeting an anti-ship cruise missile launcher.",
-      "texto_original": "🇮🇷 According to unconfirmed initial reports, the explosions near Sirik on Iran's southern coast were the result of a US attack targeting an anti-ship cruise missile launcher. 🔴 @DDGeopolitics",
+      "titulo": "Una IA entrenada para manejar un robot puede transformarlo en un arma mortal con un par de instrucciones erróneas - Levante-EMV",
+      "titulo_original": "Una IA entrenada para manejar un robot puede transformarlo en un arma mortal con un par de instrucciones erróneas - Levante-EMV",
+      "enlace": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPdkxVTGN3OWFTRzdRTE1BOWlMVm1qSHRfNkpBS1R2eDY1LXpDMTJsRnNkS0Iyd2oxYk56WEJEelBHbkk2c2dUXzlNcm9rcFRGdDU5ODBhVGtRdWN2ajFTTVpnRXJvZG5uU3RrSURTY0VtSmdfU2NlMDNjVWlUWmlsMXprRng0TzhMUURTTjQ4Ynl2NmhpUkw1emhlX3lPZGFHbXdCZmRhWEpNeEXSAbABQVVfeXFMT0t5UjVYR3YwVGVUM0JIM2psMTg0VW1DenhDZEZEY1NTV0gyaXJfdmlWTFhLMXFMSzZBazMzRzVZRUFzXzJiX2FFMndTQmVTZ0NCNlhzdXZtVHFWSVZoSjhsM28yakw2dGl4NVJESVc5OUIzNm1lNUstSnl2bmFBNFhLM3BZdHY5N0tNb0t5NkxPTXRhX2dSSlRmdUExYlBRZVNtVnhMakFVWlIzdXRtNWg?oc=5",
+      "fecha": "2026-10-22T18:06:11.000Z",
+      "resumen_corto": "Una IA entrenada para manejar un robot puede transformarlo en un arma mortal con un par de instrucciones erróneas Levante-EMV",
+      "resumen_largo": "Una IA entrenada para manejar un robot puede transformarlo en un arma mortal con un par de instrucciones erróneas Levante-EMV",
+      "texto_original": "Una IA entrenada para manejar un robot puede transformarlo en un arma mortal con un par de instrucciones erróneas Levante-EMV",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-22T13:37:05.135Z",
-        "index": 21,
+        "processed_at": "2026-10-22T18:26:07.211Z",
+        "index": 0,
         "resumen": {
           "generado": true,
           "origen": "translated"
         },
-        "idioma_detectado": "en",
+        "idioma_detectado": "es",
         "idioma_original": "es",
         "categoria": "inteligencia_artificial",
         "categorias_secundarias": [
-          "militar",
-          "actualidad"
+          "vehiculos_energia",
+          "militar"
         ],
         "category_scores": {
           "inteligencia_artificial": 1,
-          "militar": 1,
-          "actualidad": 1
+          "vehiculos_energia": 1,
+          "militar": 1
         },
         "entidades": [],
         "cifras_detectadas": [],
-        "content_type": "report",
+        "content_type": "news",
         "clickbait": {
           "detected": false,
           "score": 0,
@@ -2122,13 +2411,13 @@
           "signals": [],
           "url_count": 0
         },
-        "calidad": 68,
-        "relevancia": 58,
-        "confiabilidad_fuente": 55,
+        "calidad": 75,
+        "relevancia": 50,
+        "confiabilidad_fuente": 53,
         "readability": {
-          "words": 108,
-          "sentences": 6,
-          "average_words_per_sentence": 18
+          "words": 75,
+          "sentences": 1,
+          "average_words_per_sentence": 75
         },
         "duplicate": {
           "detected": false,
@@ -2137,45 +2426,45 @@
           "similar_to": null
         }
       },
-      "final_score": 60.75
+      "final_score": 59.5
     },
     {
-      "id": "f3b4c92ab4bce841",
-      "fuente_id": "google_news_es",
-      "fuente_nombre": "Google News ES",
+      "id": "f0b8549593a6d73e",
+      "fuente_id": "ia_dia",
+      "fuente_nombre": "IA al Día",
       "tipo": "rss_web",
       "subtipo": "google_news",
-      "grupo_fuente": "google_news",
+      "grupo_fuente": "ia_general",
       "nivel_fuente": "agregador",
-      "categoria": "tecnologia",
+      "categoria": "inteligencia_artificial",
       "idioma_original": "es",
       "prioridad_fuente": 3,
       "analizar": true,
       "resumir": true,
-      "titulo": "Whirlpool incorpora Iron Touch, tecnología contra las arrugas - El Periódico",
-      "titulo_original": "Whirlpool incorpora Iron Touch, tecnología contra las arrugas - El Periódico",
-      "enlace": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNUUlTU1RwTzE0TnFZd0pONG4xUmNTcXhvQnN6M2J4cXpZUmctVEZ5UmRBS3hyM21PRVdEcGN5U3FMSTJrYzNxTkRHamd0aU9IUjRvb2lCS3cwSEZSbW42TFFZX211bmFabnl0anExMjdsdy1TRHh1cHh0Mk05cGJsV29lQjE5OFkzTURUbzVNUXNhamdfc2FCMThReTZrdE8x0gGgAUFVX3lxTE1rMlhEQzNxNzMxSzR0ekVHVm94SFA5RlUxQWJFdmYzQTV4WFpJZlVYZUdncENQMHlJaXprRV9Od0JJRVU0enpmZC0tZkNCNW9DWmFjOXJZVms4T0VtWEZCLWVNckUtU1hqNUY3TzJXMTlYRE5idEt1REFfNGY1dFJucXBoVHRZdjFWemExaXRqazBXVnJCZjJBbWd4Y0RscnE?oc=5",
-      "fecha": "2026-10-22T13:26:29.000Z",
-      "resumen_corto": "Whirlpool incorpora Iron Touch, tecnología contra las arrugas El Periódico",
-      "resumen_largo": "Whirlpool incorpora Iron Touch, tecnología contra las arrugas El Periódico",
-      "texto_original": "Whirlpool incorpora Iron Touch, tecnología contra las arrugas El Periódico",
+      "titulo": "Millones de ciberataques por el agujero de seguridad descubierto por la IA - Diari ARA",
+      "titulo_original": "Millones de ciberataques por el agujero de seguridad descubierto por la IA - Diari ARA",
+      "enlace": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNMUEwcWRTVkd3WlJ6YTJVaDcyUGJGb2E0aXZHTkRydzFxZTZMc2pDTjg0TGtaTy0yLW5wM1FNV2RyZ1pXd3p3RXU3LVZ1aFhZRGszcXhTaW4tQ2dlR0FLWUhDYzhNaG84eVp5Z0M3NENqWE9yajVlS0UzMEpfYWZlM19lXzFiU2J6eDF5cmdHR1dqX1hWbkpZSUp5cUxuenhwOHp2M3VyRmtBa1JN?oc=5",
+      "fecha": "2026-10-22T17:49:41.000Z",
+      "resumen_corto": "Millones de ciberataques por el agujero de seguridad descubierto por la IA Diari ARA",
+      "resumen_largo": "Millones de ciberataques por el agujero de seguridad descubierto por la IA Diari ARA",
+      "texto_original": "Millones de ciberataques por el agujero de seguridad descubierto por la IA Diari ARA",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-22T13:37:05.115Z",
-        "index": 0,
+        "processed_at": "2026-10-22T18:26:07.213Z",
+        "index": 1,
         "resumen": {
           "generado": true,
           "origen": "translated"
         },
         "idioma_detectado": "es",
         "idioma_original": "es",
-        "categoria": "tecnologia",
+        "categoria": "inteligencia_artificial",
         "categorias_secundarias": [
-          "inteligencia_artificial"
+          "software_internet"
         ],
         "category_scores": {
-          "tecnologia": 2,
-          "inteligencia_artificial": 1
+          "inteligencia_artificial": 1,
+          "software_internet": 1
         },
         "entidades": [],
         "cifras_detectadas": [],
@@ -2198,344 +2487,6 @@
           "words": 45,
           "sentences": 1,
           "average_words_per_sentence": 45
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 59.5
-    },
-    {
-      "id": "29f1ea90e8d41ae1",
-      "fuente_id": "google_news_es",
-      "fuente_nombre": "Google News ES",
-      "tipo": "rss_web",
-      "subtipo": "google_news",
-      "grupo_fuente": "google_news",
-      "nivel_fuente": "agregador",
-      "categoria": "tecnologia",
-      "idioma_original": "es",
-      "prioridad_fuente": 3,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "Cataluña consolida el liderazgo en 'spin-off' de tecnología profunda en el Estado - Diari ARA",
-      "titulo_original": "Cataluña consolida el liderazgo en 'spin-off' de tecnología profunda en el Estado - Diari ARA",
-      "enlace": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNMXdQZ0FzSUFYaWNpVHd0WExNYmdEMUIyY0tsSzZwYzlGdTdZRjJMYW9UcFp6eXpGVUlRLUZUX1lGeTFVS0JSMFFFTmJUYmxZeGotazBaNUVubl9NZ3pjMEh0ZU9ZWkN4Z3dDdUdYblVEdThnek52YlVFUlNLcWk1ZGNIdlhGYlBXQ0lDVjNNTkdGYTYxSUN4YUo5bjd6Z1NjRm1WUmNmVHgxS0ZwSVR0Uw?oc=5",
-      "fecha": "2026-10-22T13:11:29.000Z",
-      "resumen_corto": "Cataluña consolida el liderazgo en 'spin-off' de tecnología profunda en el Estado Diari ARA",
-      "resumen_largo": "Cataluña consolida el liderazgo en 'spin-off' de tecnología profunda en el Estado Diari ARA",
-      "texto_original": "Cataluña consolida el liderazgo en 'spin-off' de tecnología profunda en el Estado Diari ARA",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-10-22T13:37:05.117Z",
-        "index": 1,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "es",
-        "categoria": "tecnologia",
-        "categorias_secundarias": [
-          "inteligencia_artificial"
-        ],
-        "category_scores": {
-          "tecnologia": 2,
-          "inteligencia_artificial": 1
-        },
-        "entidades": [],
-        "cifras_detectadas": [],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 75,
-        "relevancia": 50,
-        "confiabilidad_fuente": 53,
-        "readability": {
-          "words": 50,
-          "sentences": 1,
-          "average_words_per_sentence": 50
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 59.5
-    },
-    {
-      "id": "24e77fed48d11477",
-      "fuente_id": "ia_dia",
-      "fuente_nombre": "IA al Día",
-      "tipo": "rss_web",
-      "subtipo": "google_news",
-      "grupo_fuente": "ia_general",
-      "nivel_fuente": "agregador",
-      "categoria": "inteligencia_artificial",
-      "idioma_original": "es",
-      "prioridad_fuente": 3,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "Millones de intentos de ataque en pocas horas tras destapar la IA fallos graves en miles de webs - EL PAÍS",
-      "titulo_original": "Millones de intentos de ataque en pocas horas tras destapar la IA fallos graves en miles de webs - EL PAÍS",
-      "enlace": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNZHd6TG1jLXBTeUN4dWRBeC1ncW8tTmlRSWVqQlJYRTFkU3J3SjVFR25mRDR3YUhoVzc4Q1ktUElKM1JZdTY4cHg0akRNZ1FmZ3hVSkhwZGdoQkdjZ21RenhBTHRDaG9PbUhISV9lNVQ1RUVVVGdJdTBLN05Oc2l3RGpma3dtUno2Vzh3cHpHRF8wYk5lNm00b0pwMmNjTEdIQzBBOHh0WVo5Q1ptbENfMDZ1QUplYlRkdjRqOGs0Z1I5UDh4S3A4YnZCSVRIU1JiUU5mZNIB6AFBVV95cUxNRk9uM185dXB0ZWJaNi1UX25hd09GSTdodTBGZlZLM3IxSXN4dEFneV9qYVhoaVNPS1dXVjF2SV83UmF4aW0tUUFQR2pqSUw0MlNuRUI0b0U1dEJQNmkwam0xSWpjQVNGSW5Kd0NJc19jYTBpUG81VlowdXJrQjV0NFBVYUU0MDl2eklVY0pWSktjVGpJZXhqeTRxWVN1Nk50TDJMbEdyREpJYWdyT3FBa0tjTURzRkxscWZhU0Q0ZHVIcl9Wd3hBOUZrN29uWmUyRjV0cXJad09rQzVFa3dCNnliTktheVlO?oc=5",
-      "fecha": "2026-10-22T11:40:42.000Z",
-      "resumen_corto": "Millones de intentos de ataque en pocas horas tras destapar la IA fallos graves en miles de webs EL PAÍS",
-      "resumen_largo": "Millones de intentos de ataque en pocas horas tras destapar la IA fallos graves en miles de webs EL PAÍS",
-      "texto_original": "Millones de intentos de ataque en pocas horas tras destapar la IA fallos graves en miles de webs EL PAÍS",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-10-22T13:37:05.120Z",
-        "index": 4,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "es",
-        "categoria": "inteligencia_artificial",
-        "categorias_secundarias": [
-          "software_internet"
-        ],
-        "category_scores": {
-          "inteligencia_artificial": 2,
-          "software_internet": 1
-        },
-        "entidades": [],
-        "cifras_detectadas": [],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 75,
-        "relevancia": 50,
-        "confiabilidad_fuente": 53,
-        "readability": {
-          "words": 60,
-          "sentences": 1,
-          "average_words_per_sentence": 60
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 59.5
-    },
-    {
-      "id": "c3ceae15846384c8",
-      "fuente_id": "google_news_es",
-      "fuente_nombre": "Google News ES",
-      "tipo": "rss_web",
-      "subtipo": "google_news",
-      "grupo_fuente": "google_news",
-      "nivel_fuente": "agregador",
-      "categoria": "tecnologia",
-      "idioma_original": "es",
-      "prioridad_fuente": 3,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "Móviles plegables: qué ganas, qué pierdes y cuánto duran de verdad - EL PAÍS",
-      "titulo_original": "Móviles plegables: qué ganas, qué pierdes y cuánto duran de verdad - EL PAÍS",
-      "enlace": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQNlNDM2hWNFQ0QzMtcmwwdWFuWGszUHpGb3RUb1ZXREtRWmhOWHNsanhBcF83ZFMxeko4djYzRDROeTNSR1Q5Q3FvUTFqLUlPRnI2Q240b1hBNFZzUlo0M1BnTUdXWUg0Rk9HTnNIMGFrVVJIZ2pWb0JkM3VJYjB2YnhocEFXQjRCcHRNdXMtYzBnZmRuQ3RUaFFScW91WlBmVzlYTjZ2UjZzSXoyLVBfYnd6Y2E0dGtIbjRuWVpMV2doQdIB1gFBVV95cUxOUld1SXNKb004OUZ0dHhZQ2NHQ0l5X3Y4UW5JNmZkZGtwRzNha29La1BnOU11XzJLWXBhNTVpOWJMQWhnNGExV2ItMmw1QndPSGFnLUZ1M0tqUmpiZnZtMHRTQ1U5dlRReWpQT2MydjlSNEdPTy1WRllrNkdyMGxVQTVNNzd5M2hkMGxMU3NOblY4SndjRlVTdUN0YjlzOWtCRnltRXpEX0NILXpESTJlVjUtbXc5dmNieXFPcE1HeGRlMldQQU1HRGYxbkg1aXBfVnVVRTZR?oc=5",
-      "fecha": "2026-10-22T03:30:01.000Z",
-      "resumen_corto": "Móviles plegables: qué ganas, qué pierdes y cuánto duran de verdad EL PAÍS",
-      "resumen_largo": "Móviles plegables: qué ganas, qué pierdes y cuánto duran de verdad EL PAÍS",
-      "texto_original": "Móviles plegables: qué ganas, qué pierdes y cuánto duran de verdad EL PAÍS",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-10-22T13:37:05.133Z",
-        "index": 16,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "es",
-        "categoria": "inteligencia_artificial",
-        "categorias_secundarias": [],
-        "category_scores": {
-          "inteligencia_artificial": 1
-        },
-        "entidades": [],
-        "cifras_detectadas": [],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 75,
-        "relevancia": 50,
-        "confiabilidad_fuente": 53,
-        "readability": {
-          "words": 50,
-          "sentences": 1,
-          "average_words_per_sentence": 50
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 59.5
-    },
-    {
-      "id": "ce930afdedab0d20",
-      "fuente_id": "ia_dia",
-      "fuente_nombre": "IA al Día",
-      "tipo": "rss_web",
-      "subtipo": "google_news",
-      "grupo_fuente": "ia_general",
-      "nivel_fuente": "agregador",
-      "categoria": "inteligencia_artificial",
-      "idioma_original": "es",
-      "prioridad_fuente": 3,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "Magallanes apuesta por los \"perdedores\" de la inteligencia artificial - Expansión",
-      "titulo_original": "Magallanes apuesta por los \"perdedores\" de la inteligencia artificial - Expansión",
-      "enlace": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNNUd3YkNUM0E2Z01iRWxncmx2Q1RYaks2aVQ3M1ppZ2dDcnpQbU92d29oNG9NbVFSQ1RYZ25zaEUzQlN0emNObERqX3JFOWFzZ3hTQVhLdzZTUk5wUi0tNDNzVklrcWhiZ3d5T0VZOUR6dklMTnVORE5LMzNreGViX3pSZHBoRngzUlHSAYoBQVVfeXFMT1MxN0c3TWhxWWFsVUVHMERVaGFfVXI5RlNEelBlcnFYajFDenl0M3J5Q1cxNmJMR1dMQ1VrQmpNdDJzVGhOcmZUelA0LXVZOGlPdUIzLWRCajhvcFdwRGtmVVFoaTdRQUdwMVhIekR6MU5NY3g3VVZkbE5ZN0ZUX2Z3WGswaExmTUNR?oc=5",
-      "fecha": "2026-10-22T00:18:24.000Z",
-      "resumen_corto": "Magallanes apuesta por los \"perdedores\" de la inteligencia artificial Expansión",
-      "resumen_largo": "Magallanes apuesta por los \"perdedores\" de la inteligencia artificial Expansión",
-      "texto_original": "Magallanes apuesta por los \"perdedores\" de la inteligencia artificial Expansión",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-10-22T13:37:05.134Z",
-        "index": 18,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "es",
-        "categoria": "inteligencia_artificial",
-        "categorias_secundarias": [],
-        "category_scores": {
-          "inteligencia_artificial": 3
-        },
-        "entidades": [],
-        "cifras_detectadas": [],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 30,
-          "signals": [
-            "\\bapuesta\\b"
-          ],
-          "url_count": 0
-        },
-        "calidad": 75,
-        "relevancia": 50,
-        "confiabilidad_fuente": 53,
-        "readability": {
-          "words": 40,
-          "sentences": 1,
-          "average_words_per_sentence": 40
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 59.5
-    },
-    {
-      "id": "fe86c8b7e10bcd88",
-      "fuente_id": "ia_dia",
-      "fuente_nombre": "IA al Día",
-      "tipo": "rss_web",
-      "subtipo": "google_news",
-      "grupo_fuente": "ia_general",
-      "nivel_fuente": "agregador",
-      "categoria": "inteligencia_artificial",
-      "idioma_original": "es",
-      "prioridad_fuente": 3,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "Señales de advertencia en la inteligencia artificial... ¿que hacen temblar a Wall Street? - Estrategias de Inversión",
-      "titulo_original": "Señales de advertencia en la inteligencia artificial... ¿que hacen temblar a Wall Street? - Estrategias de Inversión",
-      "enlace": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPeVZrTFJFWkJhLWhNNm1aU191SkEzdm9ZNEx3Nld5YWpBcmNyVV92YjZPUjFWdVowel9vbEFTcGR3YzhSb2RTVVFlZ0hjY1M1dWR3NnJWODZNMktVcDlHMWRLb1pqak9ZUmptMGk5VnlzaDl0T2Z3cl9KU0ZuMjRGOW5Ud01RLUdpZVFiS0hJUUhjQW5GV054X1ZPY2xDUmxwVmpJeFRteWNFTUJjblNmdGJUQk44ak5XdGV1bjJfNEtDeU9EQ1hELWxn0gGmAUFVX3lxTFBxLUtaMFR6c1d3U24teFQyUm1hVEM4Y0JjbHdrY3hhTnFQZHVaRUYwYVMxb3F5c2RxZ3o5VHVEMm1CdUpEOVV4WUZic1BVc0dtdThvUi1CZld6NHh3MzJENV9YRXZ0eFYwWWxIcXF6TGhSQ2xZcXg5ZmZjNUtFYTRDbDhwd1d4ZTdrX2hPQTFwWFJ6VUhidDA2RURRQmo2d3pXV0ZUX3c?oc=5",
-      "fecha": "2026-10-21T21:10:00.000Z",
-      "resumen_corto": "Señales de advertencia en la inteligencia artificial...",
-      "resumen_largo": "Señales de advertencia en la inteligencia artificial... ¿que hacen temblar a Wall Street?",
-      "texto_original": "Señales de advertencia en la inteligencia artificial... ¿que hacen temblar a Wall Street? Estrategias de Inversión",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-10-22T13:37:05.134Z",
-        "index": 20,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "es",
-        "categoria": "inteligencia_artificial",
-        "categorias_secundarias": [],
-        "category_scores": {
-          "inteligencia_artificial": 3
-        },
-        "entidades": [],
-        "cifras_detectadas": [],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 75,
-        "relevancia": 50,
-        "confiabilidad_fuente": 53,
-        "readability": {
-          "words": 46,
-          "sentences": 10,
-          "average_words_per_sentence": 4.6
         },
         "duplicate": {
           "detected": false,
@@ -2568,8 +2519,8 @@
       "texto_original": "Por una agencia de Inteligencia Artificial que transforme España El Economista",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-22T13:37:05.139Z",
-        "index": 27,
+        "processed_at": "2026-10-22T18:26:07.229Z",
+        "index": 28,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -2613,7 +2564,7 @@
       "final_score": 59.5
     },
     {
-      "id": "9485f982dc8ccd4a",
+      "id": "c5f7047cf98c6f69",
       "fuente_id": "google_news_es",
       "fuente_nombre": "Google News ES",
       "tipo": "rss_web",
@@ -2625,26 +2576,29 @@
       "prioridad_fuente": 3,
       "analizar": true,
       "resumir": true,
-      "titulo": "España también recomienda actualizar de inmediato PHP tras detectarse \"múltiples vulnerabilidades\" - El Mundo",
-      "titulo_original": "España también recomienda actualizar de inmediato PHP tras detectarse \"múltiples vulnerabilidades\" - El Mundo",
-      "enlace": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBONUpNbno5UXkta1JmSDN5NU5YMng2UkJlaUhreVpvai1NcU5yM0cwSlFZeUNnNWlkZW9QV2VHczB5aTV5WjRzREZhSUc1NUhqNDlMaWJSS1pqY3dxOVc1bFFINWhoQ3QzeUpNSDUyWVpIUVZSSjlqV3hoY2NiaVnSAX9BVV95cUxORWpHbkNDTm11NVpkRlN2enZjRGlKYXJTdmpaVGpDRWFKNVZjRG4tUURzOHJVMHcxXy1BNllpWVVybGRiSGJlRmdMMjJQUW5hZjZqbmlaeE5IX1Rwem82RW9YSHRPcDByc19DZVpLVElVSldjUjRBU1lIeXlPcjk0?oc=5",
-      "fecha": "2026-10-21T19:41:15.000Z",
-      "resumen_corto": "España también recomienda actualizar de inmediato PHP tras detectarse \"múltiples vulnerabilidades\" El Mundo",
-      "resumen_largo": "España también recomienda actualizar de inmediato PHP tras detectarse \"múltiples vulnerabilidades\" El Mundo",
-      "texto_original": "España también recomienda actualizar de inmediato PHP tras detectarse \"múltiples vulnerabilidades\" El Mundo",
+      "titulo": "Experto en tecnología alerta de que cambiar la contraseña no sirve ante la vulnerabilidad que afecta a los routers de Movistar - El Economista",
+      "titulo_original": "Experto en tecnología alerta de que cambiar la contraseña no sirve ante la vulnerabilidad que afecta a los routers de Movistar - El Economista",
+      "enlace": "https://news.google.com/rss/articles/CBMinwJBVV95cUxQUVM0ZVUweS1zN00zV1J2OVdEbXhneHk0dlRabGVuYnpJM21rRm55TUcxemxWRzBmS0hxNG5xLUwzV3ZZZlZqUE9vUWRtcmhQMm5aX1lTSTdGMm5WQ1NYYW5scTBaTGM4Rnl1WG1ZckRadGR4ckRma3lMVkY4Ti01emtaNmNsaG1iUEl6ZlZNUFU2VVVDZTZabVlkLXpNVzFkR1FWTmJocENxaXNKYThOVldaNTFWWDctMlV2dk9XekppT0JUVHhJOXlhUEhyTVlGVUoyTzdRenNLcDRYV2tCckloOFdKN2ZSVDdoRUdiSV9lVEcwdEdMdUxOTnJWOXBNYklzRkFvNFdXTmhIOG51cm1wZ0hFTHVSMHlIaTBQWQ?oc=5",
+      "fecha": "2026-10-21T14:13:32.000Z",
+      "resumen_corto": "Experto en tecnología alerta de que cambiar la contraseña no sirve ante la vulnerabilidad que afecta a los routers de Movistar El Economista",
+      "resumen_largo": "Experto en tecnología alerta de que cambiar la contraseña no sirve ante la vulnerabilidad que afecta a los routers de Movistar El Economista",
+      "texto_original": "Experto en tecnología alerta de que cambiar la contraseña no sirve ante la vulnerabilidad que afecta a los routers de Movistar El Economista",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-22T13:37:05.140Z",
-        "index": 28,
+        "processed_at": "2026-10-22T18:26:07.231Z",
+        "index": 34,
         "resumen": {
           "generado": true,
           "origen": "translated"
         },
         "idioma_detectado": "es",
         "idioma_original": "es",
-        "categoria": "inteligencia_artificial",
-        "categorias_secundarias": [],
+        "categoria": "tecnologia",
+        "categorias_secundarias": [
+          "inteligencia_artificial"
+        ],
         "category_scores": {
+          "tecnologia": 2,
           "inteligencia_artificial": 1
         },
         "entidades": [],
@@ -2665,9 +2619,9 @@
         "relevancia": 50,
         "confiabilidad_fuente": 53,
         "readability": {
-          "words": 55,
+          "words": 75,
           "sentences": 1,
-          "average_words_per_sentence": 55
+          "average_words_per_sentence": 75
         },
         "duplicate": {
           "detected": false,
@@ -2679,7 +2633,7 @@
       "final_score": 59.5
     },
     {
-      "id": "bf3212fccd17f0c2",
+      "id": "124da31fbf619877",
       "fuente_id": "resumen_militar",
       "fuente_nombre": "El Resumen Militar",
       "tipo": "telegram",
@@ -2691,37 +2645,33 @@
       "prioridad_fuente": 3,
       "analizar": true,
       "resumir": true,
-      "titulo": "🇮🇷 BREAKING! Explosions reported near Sirik on Iran's southern coast! Columns of smoke can be seen rising from the site. 🔴 @DDGeopolitics",
-      "titulo_original": "🇮🇷 BREAKING! Explosions reported near Sirik on Iran's southern coast! Columns of smoke can be seen rising from the site. 🔴 @DDGeopolitics",
-      "enlace": "https://t.me/elresumenmilitar/101994",
-      "fecha": "2026-10-21T21:07:51.000Z",
-      "resumen_corto": "Explosions reported near Sirik on Iran's southern coast!",
-      "resumen_largo": "Explosions reported near Sirik on Iran's southern coast! Columns of smoke can be seen rising from the site.",
-      "texto_original": "🇮🇷 BREAKING! Explosions reported near Sirik on Iran's southern coast! Columns of smoke can be seen rising from the site. 🔴 @DDGeopolitics",
+      "titulo": "Запорожская область. Наши бойцы продвинулись в Приморском. На сегодня весь населённый пункт - пирог. Также всушники присутствуют в небольших количествах в Плавнях.",
+      "titulo_original": "Запорожская область. Наши бойцы продвинулись в Приморском. На сегодня весь населённый пункт - пирог. Также всушники присутствуют в небольших количествах в Плавнях.",
+      "enlace": "https://t.me/elresumenmilitar/102020",
+      "fecha": "2026-10-22T13:38:49.000Z",
+      "resumen_corto": "На сегодня весь населённый пункт - пирог.",
+      "resumen_largo": "Наши бойцы продвинулись в Приморском. На сегодня весь населённый пункт - пирог. Также всушники присутствуют в небольших количествах в Плавнях.",
+      "texto_original": "Запорожская область. Наши бойцы продвинулись в Приморском. На сегодня весь населённый пункт - пирог. Также всушники присутствуют в небольших количествах в Плавнях.",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-22T13:37:05.136Z",
-        "index": 22,
+        "processed_at": "2026-10-22T18:26:07.221Z",
+        "index": 9,
         "resumen": {
           "generado": true,
           "origen": "translated"
         },
-        "idioma_detectado": "en",
+        "idioma_detectado": "es",
         "idioma_original": "es",
-        "categoria": "actualidad",
+        "categoria": "militar",
         "categorias_secundarias": [],
-        "category_scores": {
-          "actualidad": 1
-        },
+        "category_scores": {},
         "entidades": [],
         "cifras_detectadas": [],
         "content_type": "news",
         "clickbait": {
           "detected": false,
-          "score": 25,
-          "signals": [
-            "\\bbreaking\\b"
-          ]
+          "score": 0,
+          "signals": []
         },
         "spam": {
           "detected": false,
@@ -2730,12 +2680,12 @@
           "url_count": 0
         },
         "calidad": 75,
-        "relevancia": 50,
+        "relevancia": 45,
         "confiabilidad_fuente": 45,
         "readability": {
-          "words": 73,
-          "sentences": 13,
-          "average_words_per_sentence": 5.62
+          "words": 71,
+          "sentences": 16,
+          "average_words_per_sentence": 4.44
         },
         "duplicate": {
           "detected": false,
@@ -2744,10 +2694,10 @@
           "similar_to": null
         }
       },
-      "final_score": 57.5
+      "final_score": 55.5
     },
     {
-      "id": "2f9529620e943bcc",
+      "id": "9fdd32d546a4a64f",
       "fuente_id": "resumen_militar",
       "fuente_nombre": "El Resumen Militar",
       "tipo": "telegram",
@@ -2759,17 +2709,92 @@
       "prioridad_fuente": 3,
       "analizar": true,
       "resumir": true,
-      "titulo": "🇺🇸 🇺🇦 New York Times пишет, что на переговорах в Осло Уиткофф и Кушнер предъявили Зеленскому за его хамство в адрес Трампа. Но тот в ответ стал быковать и даже отрицать, что он такое говорил. Правда, издание пишет, ч",
-      "titulo_original": "🇺🇸 🇺🇦 New York Times пишет, что на переговорах в Осло Уиткофф и Кушнер предъявили Зеленскому за его хамство в адрес Трампа. Но тот в ответ стал быковать и даже отрицать, что он такое говорил. Правда, издание пишет, ч",
-      "enlace": "https://t.me/elresumenmilitar/101993",
-      "fecha": "2026-10-21T21:01:04.000Z",
-      "resumen_corto": "🇺🇸 🇺🇦 New York Times пишет, что на переговорах в Осло Уиткофф и Кушнер предъявили Зеленскому за его хамство в адрес Трампа.",
-      "resumen_largo": "🇺🇸 🇺🇦 New York Times пишет, что на переговорах в Осло Уиткофф и Кушнер предъявили Зеленскому за его хамство в адрес Трампа. Но тот в ответ стал быковать и даже отрицать, что он такое говорил. Правда, издание пишет, что в конце концов Зельц посланников «понял» и стал лишь хвалить переговоры.",
-      "texto_original": "🇺🇸 🇺🇦 New York Times пишет, что на переговорах в Осло Уиткофф и Кушнер предъявили Зеленскому за его хамство в адрес Трампа. Но тот в ответ стал быковать и даже отрицать, что он такое говорил. Правда, издание пишет, что в конце концов Зельц посланников «понял» и стал лишь хвалить переговоры.",
+      "titulo": "‼️ 🇷🇺 🛢 Российская нефть подорожала на 60% сверх заложенного в бюджет уровня, обеспечив Кремлю дополнительные доходы , - Reuters ▪️ Из-за войны на Ближнем Востоке и перебоев с поставками мировые цены на нефть держатся",
+      "titulo_original": "‼️ 🇷🇺 🛢 Российская нефть подорожала на 60% сверх заложенного в бюджет уровня, обеспечив Кремлю дополнительные доходы , - Reuters ▪️ Из-за войны на Ближнем Востоке и перебоев с поставками мировые цены на нефть держатся",
+      "enlace": "https://t.me/elresumenmilitar/102027",
+      "fecha": "2026-10-22T14:17:06.000Z",
+      "resumen_corto": "▪️ По расчётам Reuters, в первые 3 недели октября налоговая цена российской нефти достигла 8699 рублей ($103,4) за баррель - на 11% выше сентябрьского уровня.",
+      "resumen_largo": "‼️ 🇷🇺 🛢 Российская нефть подорожала на 60% сверх заложенного в бюджет уровня, обеспечив Кремлю дополнительные доходы , - Reuters ▪️ Из-за войны на Ближнем Востоке и перебоев с поставками мировые цены на нефть держатся выше $100 за баррель, что очень помогает бюджету России. ▪️ По расчётам Reuters, в первые 3 недели октября налоговая цена российской нефти достигла 8699 рублей ($103,4) за баррель - на 11% выше сентябрьского уровня. ▪️ Если тенденция сохранится, то средняя цена за октябрь составит около 8387 рублей ($100,2) - это максимум с марта 2022 г.",
+      "texto_original": "‼️ 🇷🇺 🛢 Российская нефть подорожала на 60% сверх заложенного в бюджет уровня, обеспечив Кремлю дополнительные доходы , - Reuters ▪️ Из-за войны на Ближнем Востоке и перебоев с поставками мировые цены на нефть держатся выше $100 за баррель, что очень помогает бюджету России. ▪️ По расчётам Reuters, в первые 3 недели октября налоговая цена российской нефти достигла 8699 рублей ($103,4) за баррель - на 11% выше сентябрьского уровня. ▪️ Если тенденция сохранится, то средняя цена за октябрь составит около 8387 рублей ($100,2) - это максимум с марта 2022 г. ▪️ При этом российский бюджет рассчитывался исходя из $59 за баррель, или 5440 рублей по заложенному курсу. ➖ Таким образом, нефтяные доходы России оказались значительно выше ожиданий, что помогает Кремлю финансировать и войну против Украины, - ноют вражеские пропагандисты ⚠️ Подписаться на RV: MAX | t.me/RVvoenkor",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-22T13:37:05.136Z",
-        "index": 23,
+        "processed_at": "2026-10-22T18:26:07.220Z",
+        "index": 7,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "militar",
+        "categorias_secundarias": [],
+        "category_scores": {},
+        "entidades": [],
+        "cifras_detectadas": [
+          "60%",
+          "8699",
+          "$103,4",
+          "11%",
+          "$100",
+          "8387",
+          "$100,2",
+          "2022",
+          "$59",
+          "5440"
+        ],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 25,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 65,
+        "relevancia": 45,
+        "confiabilidad_fuente": 45,
+        "readability": {
+          "words": 215,
+          "sentences": 10,
+          "average_words_per_sentence": 21.5
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 52
+    },
+    {
+      "id": "8e138430b81533b7",
+      "fuente_id": "resumen_militar",
+      "fuente_nombre": "El Resumen Militar",
+      "tipo": "telegram",
+      "subtipo": "canal_telegram",
+      "grupo_fuente": "telegram_militar",
+      "nivel_fuente": "telegram",
+      "categoria": "militar",
+      "idioma_original": "es",
+      "prioridad_fuente": 3,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "❗️ ПОДРАЗДЕЛЕНИЯ ГРУППИРОВКИ ВОЙСК \"ВОСТОК\" ОСВОБОДИЛИ НАСЕЛЁННЫЙ ПУНКТ МИРОВКА 🔸 Гвардейцы 37 отдельной мотострелковой бригады 36 общевойсковой армии группировки войск \"Восток\" продолжили наступательные действия и взял",
+      "titulo_original": "❗️ ПОДРАЗДЕЛЕНИЯ ГРУППИРОВКИ ВОЙСК \"ВОСТОК\" ОСВОБОДИЛИ НАСЕЛЁННЫЙ ПУНКТ МИРОВКА 🔸 Гвардейцы 37 отдельной мотострелковой бригады 36 общевойсковой армии группировки войск \"Восток\" продолжили наступательные действия и взял",
+      "enlace": "https://t.me/elresumenmilitar/102028",
+      "fecha": "2026-10-22T15:08:00.000Z",
+      "resumen_corto": "❗️ ПОДРАЗДЕЛЕНИЯ ГРУППИРОВКИ ВОЙСК \"ВОСТОК\" ОСВОБОДИЛИ НАСЕЛЁННЫЙ ПУНКТ МИРОВКА 🔸 Гвардейцы 37 отдельной мотострелковой бригады 36 общевойсковой армии группировки войск \"Восток\" продолжили наступательные действия и взяли под контроль село Мировка Запорожской области.",
+      "resumen_largo": "❗️ ПОДРАЗДЕЛЕНИЯ ГРУППИРОВКИ ВОЙСК \"ВОСТОК\" ОСВОБОДИЛИ НАСЕЛЁННЫЙ ПУНКТ МИРОВКА 🔸 Гвардейцы 37 отдельной мотострелковой бригады 36 общевойсковой армии группировки войск \"Восток\" продолжили наступательные действия и взяли под контроль село Мировка Запорожской области. 🔸 В ходе напряжённых и продолжительных боёв воины-дальневосточники взяли под контроль район обороны, заблаговременно подготовленный противником, общей площадью более 10 кв.км, включая населенный пункт. Потери противника составили до роты живой силы из состава 225 ошп ВСУ.",
+      "texto_original": "❗️ ПОДРАЗДЕЛЕНИЯ ГРУППИРОВКИ ВОЙСК \"ВОСТОК\" ОСВОБОДИЛИ НАСЕЛЁННЫЙ ПУНКТ МИРОВКА 🔸 Гвардейцы 37 отдельной мотострелковой бригады 36 общевойсковой армии группировки войск \"Восток\" продолжили наступательные действия и взяли под контроль село Мировка Запорожской области. 🔸 В ходе напряжённых и продолжительных боёв воины-дальневосточники взяли под контроль район обороны, заблаговременно подготовленный противником, общей площадью более 10 кв.км, включая населенный пункт. Потери противника составили до роты живой силы из состава 225 ошп ВСУ. Уничтожено 6 боевых бронированных машин, 13 автомобилей , 27 единицы мототехники, 21 наземный роботизированный комплекс и более 90 тяжёлых гексакоптеров типа \"Баба-яга\". 🔸 Слаженные действия подразделений беспилотных систем, авиации и артиллерии в сочетании с решительными действиями штурмовых групп воинов-дальневосточников стали важным шагом для дальнейшего продвижения в глубину обороны противника и освобождения Запорожской области. \"Дальневосточный экспресс\" продолжает движение вперёд по расписанию! @voin_dv | @voin_dv в MAX",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-10-22T18:26:07.219Z",
+        "index": 6,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -2797,9 +2822,9 @@
         "relevancia": 45,
         "confiabilidad_fuente": 45,
         "readability": {
-          "words": 143,
-          "sentences": 11,
-          "average_words_per_sentence": 13
+          "words": 234,
+          "sentences": 13,
+          "average_words_per_sentence": 18
         },
         "duplicate": {
           "detected": false,
@@ -2811,7 +2836,7 @@
       "final_score": 50.25
     },
     {
-      "id": "c686420ade8cad7f",
+      "id": "58d4f16cbfbaa6bd",
       "fuente_id": "resumen_militar",
       "fuente_nombre": "El Resumen Militar",
       "tipo": "telegram",
@@ -2823,17 +2848,17 @@
       "prioridad_fuente": 3,
       "analizar": true,
       "resumir": true,
-      "titulo": "‼️ 🇺🇦 🇺🇸 Война на Украине теперь максимально близка к завершению — Трамп ➖ \"Мы приближаемся к завершению войны на Украине. Мы никогда не были так близки к этому\", - заявил президент США. ➖ \"На фоне ракетного обстрела",
-      "titulo_original": "‼️ 🇺🇦 🇺🇸 Война на Украине теперь максимально близка к завершению — Трамп ➖ \"Мы приближаемся к завершению войны на Украине. Мы никогда не были так близки к этому\", - заявил президент США. ➖ \"На фоне ракетного обстрела",
-      "enlace": "https://t.me/elresumenmilitar/101992",
-      "fecha": "2026-10-21T20:57:53.000Z",
-      "resumen_corto": "‼️ 🇺🇦 🇺🇸 Война на Украине теперь максимально близка к завершению — Трамп ➖ \"Мы приближаемся к завершению войны на Украине.",
-      "resumen_largo": "‼️ 🇺🇦 🇺🇸 Война на Украине теперь максимально близка к завершению — Трамп ➖ \"Мы приближаемся к завершению войны на Украине. Мы никогда не были так близки к этому\", - заявил президент США. ➖ \"На фоне ракетного обстрела Киева Трамп снова заявляет, что война в Украине приближается к завершению\", - истерят киевские пропагандисты.",
-      "texto_original": "‼️ 🇺🇦 🇺🇸 Война на Украине теперь максимально близка к завершению — Трамп ➖ \"Мы приближаемся к завершению войны на Украине. Мы никогда не были так близки к этому\", - заявил президент США. ➖ \"На фоне ракетного обстрела Киева Трамп снова заявляет, что война в Украине приближается к завершению\", - истерят киевские пропагандисты. ⚠️ Подписаться на RV: MAX | t.me/RVvoenkor",
+      "titulo": "Удары \"Гераней-4\" по, как заявляется, вертолету Ми-24 (из-за плохого качества точно не ясно) , а также складу и промышленному предприятию. Кадры: @Brigada_VARYAG Военный Осведомитель",
+      "titulo_original": "Удары \"Гераней-4\" по, как заявляется, вертолету Ми-24 (из-за плохого качества точно не ясно) , а также складу и промышленному предприятию. Кадры: @Brigada_VARYAG Военный Осведомитель",
+      "enlace": "https://t.me/elresumenmilitar/102021",
+      "fecha": "2026-10-22T14:09:44.000Z",
+      "resumen_corto": "Удары \"Гераней-4\" по, как заявляется, вертолету Ми-24 (из-за плохого качества точно не ясно) , а также складу и промышленному предприятию.",
+      "resumen_largo": "Удары \"Гераней-4\" по, как заявляется, вертолету Ми-24 (из-за плохого качества точно не ясно) , а также складу и промышленному предприятию. Кадры: @Brigada_VARYAG Военный Осведомитель",
+      "texto_original": "Удары \"Гераней-4\" по, как заявляется, вертолету Ми-24 (из-за плохого качества точно не ясно) , а также складу и промышленному предприятию. Кадры: @Brigada_VARYAG Военный Осведомитель",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-22T13:37:05.138Z",
-        "index": 25,
+        "processed_at": "2026-10-22T18:26:07.221Z",
+        "index": 8,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -2848,7 +2873,7 @@
         "content_type": "news",
         "clickbait": {
           "detected": false,
-          "score": 0,
+          "score": 15,
           "signals": []
         },
         "spam": {
@@ -2861,9 +2886,9 @@
         "relevancia": 45,
         "confiabilidad_fuente": 45,
         "readability": {
-          "words": 126,
-          "sentences": 13,
-          "average_words_per_sentence": 9.69
+          "words": 85,
+          "sentences": 6,
+          "average_words_per_sentence": 14.17
         },
         "duplicate": {
           "detected": false,
@@ -2875,7 +2900,7 @@
       "final_score": 50.25
     },
     {
-      "id": "3350ce79e00943e6",
+      "id": "7b3057d992532f30",
       "fuente_id": "resumen_militar",
       "fuente_nombre": "El Resumen Militar",
       "tipo": "telegram",
@@ -2887,17 +2912,17 @@
       "prioridad_fuente": 3,
       "analizar": true,
       "resumir": true,
-      "titulo": "‼️ 🇺🇦 💥 Киевская ТЭЦ-4 - одна из целей удара ▪️ Также после прилетов ракет загорелась АЗС. ▪️ На Киев продолжается атака реактивных БПЛА. ⚠️ Подписаться на RV: MAX | t.me/RVvoenkor",
-      "titulo_original": "‼️ 🇺🇦 💥 Киевская ТЭЦ-4 - одна из целей удара ▪️ Также после прилетов ракет загорелась АЗС. ▪️ На Киев продолжается атака реактивных БПЛА. ⚠️ Подписаться на RV: MAX | t.me/RVvoenkor",
-      "enlace": "https://t.me/elresumenmilitar/101989",
-      "fecha": "2026-10-21T20:57:43.000Z",
-      "resumen_corto": "‼️ 🇺🇦 💥 Киевская ТЭЦ-4 - одна из целей удара ▪️ Также после прилетов ракет загорелась АЗС.",
-      "resumen_largo": "‼️ 🇺🇦 💥 Киевская ТЭЦ-4 - одна из целей удара ▪️ Также после прилетов ракет загорелась АЗС. ▪️ На Киев продолжается атака реактивных БПЛА. ⚠️ Подписаться на RV: MAX | t.me/RVvoenkor",
-      "texto_original": "‼️ 🇺🇦 💥 Киевская ТЭЦ-4 - одна из целей удара ▪️ Также после прилетов ракет загорелась АЗС. ▪️ На Киев продолжается атака реактивных БПЛА. ⚠️ Подписаться на RV: MAX | t.me/RVvoenkor",
+      "titulo": "‼️ 🇺🇸 🇷🇺 Журналисты сфотографировали записку Уиткоффа на встрече с Путиным ▪️ Видимо спецпосланник Трампа написал себе напоминание ключевых тезисов для беседы с президентом России: ➖ «Спасибо — взгляд Трампа»; ➖ «Вст",
+      "titulo_original": "‼️ 🇺🇸 🇷🇺 Журналисты сфотографировали записку Уиткоффа на встрече с Путиным ▪️ Видимо спецпосланник Трампа написал себе напоминание ключевых тезисов для беседы с президентом России: ➖ «Спасибо — взгляд Трампа»; ➖ «Вст",
+      "enlace": "https://t.me/elresumenmilitar/102019",
+      "fecha": "2026-10-22T13:37:54.000Z",
+      "resumen_corto": "‼️ 🇺🇸 🇷🇺 Журналисты сфотографировали записку Уиткоффа на встрече с Путиным ▪️ Видимо спецпосланник Трампа написал себе напоминание ключевых тезисов для беседы с президентом России: ➖ «Спасибо — взгляд Трампа»; ➖ «Встретился с европейцами + Зе»; ➖ «Вчера я почувствовал импульс»; ➖ «Нужно развивать это [успех]»; «[сфокусироваться] на трехсторонних [переговорах]»; ➖ «Эта сделка».",
+      "resumen_largo": "‼️ 🇺🇸 🇷🇺 Журналисты сфотографировали записку Уиткоффа на встрече с Путиным ▪️ Видимо спецпосланник Трампа написал себе напоминание ключевых тезисов для беседы с президентом России: ➖ «Спасибо — взгляд Трампа»; ➖ «Встретился с европейцами + Зе»; ➖ «Вчера я почувствовал импульс»; ➖ «Нужно развивать это [успех]»; «[сфокусироваться] на трехсторонних [переговорах]»; ➖ «Эта сделка». ⚠️ Подписаться на RV: MAX | t.me/RVvoenkor",
+      "texto_original": "‼️ 🇺🇸 🇷🇺 Журналисты сфотографировали записку Уиткоффа на встрече с Путиным ▪️ Видимо спецпосланник Трампа написал себе напоминание ключевых тезисов для беседы с президентом России: ➖ «Спасибо — взгляд Трампа»; ➖ «Встретился с европейцами + Зе»; ➖ «Вчера я почувствовал импульс»; ➖ «Нужно развивать это [успех]»; «[сфокусироваться] на трехсторонних [переговорах]»; ➖ «Эта сделка». ⚠️ Подписаться на RV: MAX | t.me/RVvoenkor",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-22T13:37:05.139Z",
-        "index": 26,
+        "processed_at": "2026-10-22T18:26:07.222Z",
+        "index": 10,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -2925,9 +2950,9 @@
         "relevancia": 45,
         "confiabilidad_fuente": 45,
         "readability": {
-          "words": 87,
-          "sentences": 14,
-          "average_words_per_sentence": 6.21
+          "words": 155,
+          "sentences": 6,
+          "average_words_per_sentence": 25.83
         },
         "duplicate": {
           "detected": false,
@@ -2939,7 +2964,7 @@
       "final_score": 50.25
     }
   ],
-  "analyzed_at": "2026-10-22T13:37:05.145Z",
+  "analyzed_at": "2026-10-22T18:26:07.233Z",
   "analysis_stats": {
     "input_items": 41,
     "valid_items": 41,
@@ -2953,7 +2978,7 @@
   },
   "validation": {
     "version": "1.1",
-    "executed_at": "2026-10-22T13:37:05.296Z",
+    "executed_at": "2026-10-22T18:26:07.357Z",
     "original_items": 41,
     "rejected_items": 0,
     "final_items": 41,

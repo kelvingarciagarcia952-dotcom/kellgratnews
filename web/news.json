@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "updated_at": "2026-10-27T23:38:40.845Z",
+  "updated_at": "2026-10-28T04:31:13.036Z",
   "configuracion": {
     "limite_global": 60,
     "frecuencia_minutos": 60,
@@ -24,83 +24,10 @@
     "active_sources": 15,
     "successful_sources": 14,
     "collected_items": 57,
-    "deduplicated_items": 41,
-    "final_items": 41
+    "deduplicated_items": 42,
+    "final_items": 42
   },
   "items": [
-    {
-      "id": "dde6a1a65dabbffa",
-      "fuente_id": "bbc_mundo",
-      "fuente_nombre": "BBC Mundo",
-      "tipo": "rss_web",
-      "subtipo": "medio_generalista",
-      "grupo_fuente": "bbc",
-      "nivel_fuente": "medio_profesional",
-      "categoria": "actualidad",
-      "idioma_original": "es",
-      "prioridad_fuente": 5,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "EE.UU. dice que le otorgará un visado a Flávio Bolsonaro mientras las autoridades brasileñas cuestionan su paradero",
-      "titulo_original": "EE.UU. dice que le otorgará un visado a Flávio Bolsonaro mientras las autoridades brasileñas cuestionan su paradero",
-      "enlace": "https://www.bbc.com/mundo/articles/c6n8d79kvnggo?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-10-27T22:24:45.000Z",
-      "resumen_corto": "En medio de la incertidumbre sobre el paradero del excandidato presidencial Flávio Bolsonaro, el Departamento de Estado dijo que Estados Unidos expedirá visados ​​a Flávio Bolsonaro y a su familia y les permitirá la entrada en el país.",
-      "resumen_largo": "En medio de la incertidumbre sobre el paradero del excandidato presidencial Flávio Bolsonaro, el Departamento de Estado dijo que Estados Unidos expedirá visados ​​a Flávio Bolsonaro y a su familia y les permitirá la entrada en el país. Este martes venció el plazo establecido por el Supremo Tribunal Federal de Brasil para que el senador entregara sus pasaportes a las autoridades. Una fuente consultada por BBC News Brasil, bajo condición de anonimato, informó que los pasaportes de Bolsonaro —incluido su pasaporte oficial, obtenido por su condición de senador de la República— fueron cancelados.",
-      "texto_original": "En medio de la incertidumbre sobre el paradero del excandidato presidencial Flávio Bolsonaro, el Departamento de Estado dijo que Estados Unidos expedirá visados ​​a Flávio Bolsonaro y a su familia y les permitirá la entrada en el país. Este martes venció el plazo establecido por el Supremo Tribunal Federal de Brasil para que el senador entregara sus pasaportes a las autoridades. Una fuente consultada por BBC News Brasil, bajo condición de anonimato, informó que los pasaportes de Bolsonaro —incluido su pasaporte oficial, obtenido por su condición de senador de la República— fueron cancelados. Por su parte, la Policía Federal señaló que estaba verificando los puestos de control migratorio para determinar si Flávio Bolsonaro salió del país. La agencia Reuters citando a dos fuentes anónimas afirmó que Bolsonaro abandonó el país con destino a EE.UU. Un asesor de Eduardo Bolsonaro, hermano de Flávio, le dijo a BBC Mundo que el senador llegó a EE.UU., pero no ofreció más detalles.",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-10-27T23:38:40.675Z",
-        "index": 1,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "es",
-        "categoria": "inteligencia_artificial",
-        "categorias_secundarias": [
-          "vehiculos_energia",
-          "actualidad"
-        ],
-        "category_scores": {
-          "inteligencia_artificial": 2,
-          "vehiculos_energia": 1,
-          "actualidad": 1
-        },
-        "entidades": [
-          "BBC"
-        ],
-        "cifras_detectadas": [],
-        "content_type": "report",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 92,
-        "relevancia": 70,
-        "confiabilidad_fuente": 80,
-        "readability": {
-          "words": 229,
-          "sentences": 17,
-          "average_words_per_sentence": 13.47
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 80.2
-    },
     {
       "id": "c61456f20ef073fb",
       "fuente_id": "openai_google",
@@ -123,7 +50,7 @@
       "texto_original": "OpenAI expands partnership with Oracle to bring its apps to ChatGPT OpenAI",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-27T23:38:40.680Z",
+        "processed_at": "2026-10-28T04:31:12.858Z",
         "index": 10,
         "resumen": {
           "generado": true,
@@ -199,8 +126,8 @@
       "texto_original": "Elevated error rates for most hosted Code Reviews and Security Reviews on private GitHub repositories OpenAI",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-27T23:38:40.695Z",
-        "index": 28,
+        "processed_at": "2026-10-28T04:31:12.870Z",
+        "index": 24,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -254,29 +181,29 @@
       "final_score": 78.15
     },
     {
-      "id": "62e4583fd727456e",
-      "fuente_id": "genbeta_google",
-      "fuente_nombre": "Genbeta",
+      "id": "dde6a1a65dabbffa",
+      "fuente_id": "bbc_mundo",
+      "fuente_nombre": "BBC Mundo",
       "tipo": "rss_web",
-      "subtipo": "google_news",
-      "grupo_fuente": "genbeta",
-      "nivel_fuente": "medio_especializado",
-      "categoria": "software_internet",
+      "subtipo": "medio_generalista",
+      "grupo_fuente": "bbc",
+      "nivel_fuente": "medio_profesional",
+      "categoria": "actualidad",
       "idioma_original": "es",
-      "prioridad_fuente": 4,
+      "prioridad_fuente": 5,
       "analizar": true,
       "resumir": true,
-      "titulo": "Desarrollador de centro de datos de Pennsylvania ofrece 10.000 dólares a 4.500 hogares; los residentes se niegan, diciendo que el dinero no es suficiente",
-      "titulo_original": "Desarrollador de centro de datos de Pennsylvania ofrece 10.000 dólares a 4.500 hogares; los residentes se niegan, diciendo que el dinero no es suficiente - Genbeta",
-      "enlace": "https://news.google.com/rss/articles/CBMijAJBVV95cUxQYXBpZ2VHWGRNY2pibXRjMWItV3RrdUVzMVA0Wm9oRkpvS0dnR2JCYm9ZMkdtUEtlaW1iS1htMTRzNzFuSEw3MGJZMzB1M2Z2STBESFZrTUczVWkzSmlHcVN4TDVvT256eFFtd05BOEd2VW9SZ1FxUWZBWlZ4QjRILUxnY1BndkRzWXlxNUpibU1Yb29KcmRhZ3Rpb2p2Ylg2NElqTjBHZm9FUXNzWkU1ZVUyTkVYRHh1di1ZcFBya0R4c2h2bWMwTnZ6aDBGNk5yOEI1THVoOFpjR2lCT2MzTERYQVVieTFnbWpYWDNtQmtvUU5xZjFOQlEteE9XNGJpQk5zdEN5UzZKLWxo0gGSAkFVX3lxTFB3MkJfbkRjMjJ3TzJYNzU2dVVLU3ZZVlZDdW9oemROS1lnUXQtNk0zYnlNMXNKT3VmS2tVNnBuSHByaE5FcXNIRURRTUs2eFBKUThSbEUtMFNOX0FJczF5aHl2cWdfNFJIbHMyY0hrM2VXeUhPdlZvMndILWI2VHc2SWVBdXJOdDN5a1hvSjZzWmVuX3VlRnhjSlc0RlBaTHhZV2N1SGdxWFkwbXpYYjRpWGFoNGFYUmtTd1lyek4wZ243QmliX2pwLTVjaVRIYUE5aUpHZEFabmE3TE9xQjJTZWNETjV0eUZFMFZ0SV9GbFJLQW93bG5oams5Y295ZU9VeWxTR2pCSkZrZkpLZWxMRHc?oc=5",
-      "fecha": "2026-10-25T09:00:08.000Z",
-      "resumen_corto": "Desarrollador de centro de datos de Pennsylvania ofrece 10.000 dólares a 4.500 hogares; los residentes se niegan, diciendo que el dinero no es suficiente Genbeta",
-      "resumen_largo": "Desarrollador de centro de datos de Pennsylvania ofrece 10.000 dólares a 4.500 hogares; los residentes se niegan, diciendo que el dinero no es suficiente Genbeta",
-      "texto_original": "Desarrollador de centro de datos de Pennsylvania ofrece 10.000 dólares a 4.500 hogares; los residentes se niegan, diciendo que el dinero no es suficiente Genbeta",
+      "titulo": "Flávio Bolsonaro llega a EE.UU. después de que Brasil cancelara sus pasaportes",
+      "titulo_original": "Flávio Bolsonaro llega a EE.UU. después de que Brasil cancelara sus pasaportes",
+      "enlace": "https://www.bbc.com/mundo/articles/c6n8d79kvnggo?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-10-28T01:30:32.000Z",
+      "resumen_corto": "Después de horas de incertidumbre sobre el paradero del senador Flávio Bolsonaro, que el domingo perdió las elecciones frente a Luiz Inácio Lula da Silva en Brasil, el excandidato presidencial aterrizó en Estados Unidos este martes.",
+      "resumen_largo": "Después de horas de incertidumbre sobre el paradero del senador Flávio Bolsonaro, que el domingo perdió las elecciones frente a Luiz Inácio Lula da Silva en Brasil, el excandidato presidencial aterrizó en Estados Unidos este martes. El Departamento de Estado de EE.UU. ya había anunciado que expediría visados ​​para Bolsonaro y su familia y les permitiría la entrada en el país.",
+      "texto_original": "Después de horas de incertidumbre sobre el paradero del senador Flávio Bolsonaro, que el domingo perdió las elecciones frente a Luiz Inácio Lula da Silva en Brasil, el excandidato presidencial aterrizó en Estados Unidos este martes. El Departamento de Estado de EE.UU. ya había anunciado que expediría visados ​​para Bolsonaro y su familia y les permitiría la entrada en el país. El político brasileño se ha reunido con su hermano Eduardo en Florida, según ha podido saber la BBC. La confirmación de la llegada del excandidato a EE.UU. se produjo al final de una jornada de informaciones contradictorias, en las que el silencio de Bolsonaro contrastaba con lo que decían distintas fuentes. Y es que este martes venció el plazo establecido por el Supremo Tribunal Federal de Brasil para que el senador entregara sus pasaportes a las autoridades, con el fin de evitar que se marchara del país, donde está siendo investigado por presunto lavado de dinero. Pasado el plazo, se informó que los pasaportes de Bolsonaro —incluido su pasaporte oficial, obtenido por su condición de senador de la República— fueron cancelados.",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-27T23:38:40.699Z",
-        "index": 37,
+        "processed_at": "2026-10-28T04:31:12.856Z",
+        "index": 6,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -284,12 +211,15 @@
         "idioma_detectado": "es",
         "idioma_original": "es",
         "categoria": "inteligencia_artificial",
-        "categorias_secundarias": [],
+        "categorias_secundarias": [
+          "vehiculos_energia"
+        ],
         "category_scores": {
-          "inteligencia_artificial": 1
+          "inteligencia_artificial": 2,
+          "vehiculos_energia": 2
         },
         "entidades": [
-          "Genbeta"
+          "BBC"
         ],
         "cifras_detectadas": [],
         "content_type": "report",
@@ -304,13 +234,13 @@
           "signals": [],
           "url_count": 0
         },
-        "calidad": 90,
-        "relevancia": 63,
-        "confiabilidad_fuente": 60,
+        "calidad": 92,
+        "relevancia": 62,
+        "confiabilidad_fuente": 80,
         "readability": {
-          "words": 84,
-          "sentences": 11,
-          "average_words_per_sentence": 7.64
+          "words": 209,
+          "sentences": 19,
+          "average_words_per_sentence": 11
         },
         "duplicate": {
           "detected": false,
@@ -319,52 +249,53 @@
           "similar_to": null
         }
       },
-      "final_score": 71.7
+      "final_score": 77
     },
     {
-      "id": "965850f81a38cc77",
-      "fuente_id": "bbc_mundo",
-      "fuente_nombre": "BBC Mundo",
+      "id": "d0ce5351c13db18b",
+      "fuente_id": "huawei_google",
+      "fuente_nombre": "Huawei Central",
       "tipo": "rss_web",
-      "subtipo": "medio_generalista",
-      "grupo_fuente": "bbc",
-      "nivel_fuente": "medio_profesional",
-      "categoria": "actualidad",
-      "idioma_original": "es",
-      "prioridad_fuente": 5,
+      "subtipo": "google_news",
+      "grupo_fuente": "huawei",
+      "nivel_fuente": "agregador",
+      "categoria": "moviles",
+      "idioma_original": "en",
+      "prioridad_fuente": 4,
       "analizar": true,
       "resumir": true,
-      "titulo": "Cómo el sorpresivo triunfo de Lula en Brasil es un golpe para las ambiciones de Trump en América Latina",
-      "titulo_original": "Cómo el sorpresivo triunfo de Lula en Brasil es un golpe para las ambiciones de Trump en América Latina",
-      "enlace": "https://www.bbc.com/mundo/articles/cm93zw193zd0o?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-10-27T13:47:15.000Z",
-      "resumen_corto": "\"Brasil no aceptará ser el patio trasero de nadie\", declaró el presidente izquierdista de Brasil, Luiz Inácio Lula da Silva, en su discurso de victoria electoral, un mensaje dirigido directamente a Washington.",
-      "resumen_largo": "\"Brasil no aceptará ser el patio trasero de nadie\", declaró el presidente izquierdista de Brasil, Luiz Inácio Lula da Silva, en su discurso de victoria electoral, un mensaje dirigido directamente a Washington. Las elecciones nacionales rara vez se ganan con política exterior, y esta no fue la excepción. Pero el desafío de Lula a lo que él describió como injerencia estadounidense en los asuntos brasileños despertó un espíritu patriótico que resultó ser una herramienta de campaña eficaz.",
-      "texto_original": "\"Brasil no aceptará ser el patio trasero de nadie\", declaró el presidente izquierdista de Brasil, Luiz Inácio Lula da Silva, en su discurso de victoria electoral, un mensaje dirigido directamente a Washington. Las elecciones nacionales rara vez se ganan con política exterior, y esta no fue la excepción. Pero el desafío de Lula a lo que él describió como injerencia estadounidense en los asuntos brasileños despertó un espíritu patriótico que resultó ser una herramienta de campaña eficaz. Esto también encajaba con su estilo político más amplio como antiguo líder sindical: hacerle frente a las figuras poderosas. Paradójicamente, parece que esto le ha merecido el respeto del presidente Donald Trump. \"Me cae bien Lula, nos llevamos bien\", dijo Trump al conocer el resultado. \"No tomé partido\", añadió, antes de calificar las elecciones de \"terribles\" y \"amañadas\". Si esto suena confuso, es porque la relación entre ambos hombres no es sencilla. Trump no respaldó explícitamente al rival de Lula, Flávio Bolsonaro, quien se negó a reconocer el resultado. Pero Trump era un aliado cercano del padre de Flávio, el expresidente Jair Bolsonaro. Cuando hablé con Lula en su casa hace aproximadamente un año, la relación estaba en su punto más bajo. Me dijo que no tenía \"ninguna relación\" con Trump, que nunca habían hablado y que no tenía intención de volver a llamarlo.",
+      "titulo": "Un teléfono insignia de OnePlus ejecuta HarmonyOS 6 con una interfaz de usuario similar a Mate 80 Pro",
+      "titulo_original": "A OnePlus flagship phone is running HarmonyOS 6 with Mate 80 Pro-like UI - Huawei Central",
+      "enlace": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNRUJHN2dBSWRNWTRrcmNOeVMxWElLdWNWZFAwMllWekF1M2NjRm9uYjFTQmZvcXlBdUlHREtocFNjZy01RkpianhvRGNhaVJ6MW5rTUZkbXJIUE1mSklQSU5NOUU2QXBYYzRpZkFUeWN0amNkdWtaSVBseFJTOVd2YTdxTUnSAYoBQVVfeXFMUDktbUtseVhXMlBBRFNKanJ3WWJrY0tLdUlqSDBaREdHTEpxelFHWGllWWxLTkJiU0pQai03ZXQ0d0xjZUQxakxhYkllTG41VFgwcUx3cXJwSUVsd21GcWZjTXpPSDRBX1I0SnhDemozY0hKNVBFWVo0MlBNcmZ1cUlkUEktb2xYZ3NB?oc=5",
+      "fecha": "2026-10-26T16:55:34.000Z",
+      "resumen_corto": "Un teléfono insignia de OnePlus ejecuta HarmonyOS 6 con una interfaz de usuario similar al Mate 80 Pro Huawei Central",
+      "resumen_largo": "Un teléfono insignia de OnePlus ejecuta HarmonyOS 6 con una interfaz de usuario similar al Mate 80 Pro Huawei Central",
+      "texto_original": "A OnePlus flagship phone is running HarmonyOS 6 with Mate 80 Pro-like UI Huawei Central",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-27T23:38:40.690Z",
-        "index": 20,
+        "processed_at": "2026-10-28T04:31:12.874Z",
+        "index": 30,
         "resumen": {
           "generado": true,
           "origen": "translated"
         },
         "idioma_detectado": "es",
-        "idioma_original": "es",
-        "categoria": "actualidad",
+        "idioma_original": "en",
+        "categoria": "moviles",
         "categorias_secundarias": [
-          "inteligencia_artificial",
-          "hardware",
-          "vehiculos_energia"
+          "inteligencia_artificial"
         ],
         "category_scores": {
-          "actualidad": 4,
-          "inteligencia_artificial": 2,
-          "hardware": 2,
-          "vehiculos_energia": 2
+          "moviles": 5,
+          "inteligencia_artificial": 1
         },
-        "entidades": [],
-        "cifras_detectadas": [],
+        "entidades": [
+          "Huawei",
+          "OnePlus"
+        ],
+        "cifras_detectadas": [
+          "6 w"
+        ],
         "content_type": "news",
         "clickbait": {
           "detected": false,
@@ -377,13 +308,13 @@
           "signals": [],
           "url_count": 0
         },
-        "calidad": 79,
-        "relevancia": 65,
-        "confiabilidad_fuente": 70,
+        "calidad": 87,
+        "relevancia": 67,
+        "confiabilidad_fuente": 53,
         "readability": {
-          "words": 259,
-          "sentences": 16,
-          "average_words_per_sentence": 16.19
+          "words": 62,
+          "sentences": 1,
+          "average_words_per_sentence": 62
         },
         "duplicate": {
           "detected": false,
@@ -392,7 +323,7 @@
           "similar_to": null
         }
       },
-      "final_score": 71.15
+      "final_score": 70.5
     },
     {
       "id": "f3e6dd3179aab162",
@@ -416,8 +347,8 @@
       "texto_original": "Behind the Headlines | Semiconductor Industry Insights TechInsights",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-27T23:38:40.699Z",
-        "index": 38,
+        "processed_at": "2026-10-28T04:31:12.876Z",
+        "index": 35,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -489,8 +420,8 @@
       "texto_original": "6.1 Sol Degraded Model Performance OpenAI",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-27T23:38:40.678Z",
-        "index": 7,
+        "processed_at": "2026-10-28T04:31:12.857Z",
+        "index": 8,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -557,8 +488,8 @@
       "texto_original": "Working with academic communities to build scientific understanding OpenAI",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-27T23:38:40.697Z",
-        "index": 33,
+        "processed_at": "2026-10-28T04:31:12.873Z",
+        "index": 29,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -625,8 +556,8 @@
       "texto_original": "TechInsights Outlook 2027: Five Trends Reshaping the Market TechInsights",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-27T23:38:40.700Z",
-        "index": 39,
+        "processed_at": "2026-10-28T04:31:12.876Z",
+        "index": 36,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -677,6 +608,79 @@
       "final_score": 69.4
     },
     {
+      "id": "1bcadd4ef684e373",
+      "fuente_id": "techinsights_google",
+      "fuente_nombre": "TechInsights",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "techinsights",
+      "nivel_fuente": "especializada_tecnica",
+      "categoria": "semiconductores",
+      "idioma_original": "en",
+      "prioridad_fuente": 5,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Infraestructura de IA: perspectivas para 2027",
+      "titulo_original": "AI Infrastructure: Outlook for 2027 - TechInsights",
+      "enlace": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9CcFhnWTd0NTB0YkxFdFhRSWZWZmZjaV90OU9LR21GbDBlUVdhYV9EcHFsbkhZclFZUjFGd2dsd3FubVgwRmhNLWQ0ZkQ0V1NELW84UGRjSDRxNWN6QXY2RWItRWJWNWxVMkgwQ1Vmd2QwbHlueWc?oc=5",
+      "fecha": "2026-10-23T18:57:07.000Z",
+      "resumen_corto": "Infraestructura de IA: perspectivas para 2027 TechInsights",
+      "resumen_largo": "Infraestructura de IA: perspectivas para 2027 TechInsights",
+      "texto_original": "AI Infrastructure: Outlook for 2027 TechInsights",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-10-28T04:31:12.877Z",
+        "index": 37,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "en",
+        "categoria": "inteligencia_artificial",
+        "categorias_secundarias": [
+          "tecnologia"
+        ],
+        "category_scores": {
+          "inteligencia_artificial": 2,
+          "tecnologia": 1
+        },
+        "entidades": [
+          "TechInsights"
+        ],
+        "cifras_detectadas": [
+          "2027"
+        ],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 89,
+        "relevancia": 55,
+        "confiabilidad_fuente": 65,
+        "readability": {
+          "words": 24,
+          "sentences": 1,
+          "average_words_per_sentence": 24
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 69.4
+    },
+    {
       "id": "265a91044c6ec032",
       "fuente_id": "huawei_google",
       "fuente_nombre": "Huawei Central",
@@ -698,8 +702,8 @@
       "texto_original": "Honor Watch Fit 6: Top 3 features missing from other sports wearables Huawei Central",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-27T23:38:40.694Z",
-        "index": 26,
+        "processed_at": "2026-10-28T04:31:12.869Z",
+        "index": 22,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -751,79 +755,6 @@
       "final_score": 68.75
     },
     {
-      "id": "29663655d4421228",
-      "fuente_id": "huawei_google",
-      "fuente_nombre": "Huawei Central",
-      "tipo": "rss_web",
-      "subtipo": "google_news",
-      "grupo_fuente": "huawei",
-      "nivel_fuente": "agregador",
-      "categoria": "moviles",
-      "idioma_original": "en",
-      "prioridad_fuente": 4,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "Se estrena Honor Watch Fit 6, parecido al Apple Watch Ultra",
-      "titulo_original": "Honor Watch Fit 6 debuts, resembling Apple Watch Ultra - Huawei Central",
-      "enlace": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNY1phRmVRYUdsZDltVGFMNVBqbEpkTFZoai04Y0NZcjR3R1p3dTNadXpvNTNONXZuYUw0Tm5TYnU1UDIzc3NLYnNmeFE0ZTZaQzBnOWYyZDBuWVBTM1Q1a2ptMFB3NHRJaWthT3FROG5VUTlGWC0tRmNMRklkWHVDbTg5THdTX21ibG5xddIBkgFBVV95cUxPMFJzZ3NqaUdLZjQ3em1LTmExaUVPMklINGZBRnZFcG83eVJweFVLby1SWkFObGpoOFFybGt3ZEdqN0lJNmpIaG5QSTdsaVltbkYwS0VZUWcxT2JybGtyeXhQQmhuLTk5ZzNZV01ReFBvSVFxV0lUTjNPZjBESXlZU3Rqd1hkQi02LXp5WjJqUHFlUQ?oc=5",
-      "fecha": "2026-10-26T12:25:34.000Z",
-      "resumen_corto": "Se estrena Honor Watch Fit 6, parecido al Apple Watch Ultra Huawei Central",
-      "resumen_largo": "Se estrena Honor Watch Fit 6, parecido al Apple Watch Ultra Huawei Central",
-      "texto_original": "Honor Watch Fit 6 debuts, resembling Apple Watch Ultra Huawei Central",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-10-27T23:38:40.699Z",
-        "index": 36,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "en",
-        "idioma_original": "en",
-        "categoria": "moviles",
-        "categorias_secundarias": [
-          "software_internet"
-        ],
-        "category_scores": {
-          "moviles": 3,
-          "software_internet": 1
-        },
-        "entidades": [
-          "Huawei",
-          "Apple",
-          "Honor"
-        ],
-        "cifras_detectadas": [],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 82,
-        "relevancia": 67,
-        "confiabilidad_fuente": 53,
-        "readability": {
-          "words": 48,
-          "sentences": 1,
-          "average_words_per_sentence": 48
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 68.75
-    },
-    {
       "id": "8d74554839b05e89",
       "fuente_id": "wccftech_google",
       "fuente_nombre": "Wccftech",
@@ -845,8 +776,8 @@
       "texto_original": "Phantom Blade Zero PC Performance Benchmarks – Fast-Paced Wuxia That Looks Phenomenal In Path Tracing & Boosted By NVIDIA RTX Tech Wccftech",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-27T23:38:40.695Z",
-        "index": 29,
+        "processed_at": "2026-10-28T04:31:12.871Z",
+        "index": 25,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -898,6 +829,77 @@
       "final_score": 68
     },
     {
+      "id": "4c9a046b70e7333e",
+      "fuente_id": "bbc_mundo",
+      "fuente_nombre": "BBC Mundo",
+      "tipo": "rss_web",
+      "subtipo": "medio_generalista",
+      "grupo_fuente": "bbc",
+      "nivel_fuente": "medio_profesional",
+      "categoria": "actualidad",
+      "idioma_original": "es",
+      "prioridad_fuente": 5,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Cómo las elecciones en Israel y EE.UU. tendrán consecuencias globales",
+      "titulo_original": "Cómo las elecciones en Israel y EE.UU. tendrán consecuencias globales",
+      "enlace": "https://www.bbc.com/mundo/articles/cmn8wzn7vd26o?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-10-28T03:10:03.000Z",
+      "resumen_corto": "En el margen de una semana se celebran dos importantes elecciones en continentes diferentes.",
+      "resumen_largo": "En el margen de una semana se celebran dos importantes elecciones en continentes diferentes. Los resultados marcarán la geopolítica y la economía global.",
+      "texto_original": "En el margen de una semana se celebran dos importantes elecciones en continentes diferentes. Los resultados marcarán la geopolítica y la economía global.",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-10-28T04:31:12.853Z",
+        "index": 5,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "actualidad",
+        "categorias_secundarias": [
+          "inteligencia_artificial",
+          "vehiculos_energia"
+        ],
+        "category_scores": {
+          "actualidad": 4,
+          "inteligencia_artificial": 1,
+          "vehiculos_energia": 1
+        },
+        "entidades": [],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 79,
+        "relevancia": 57,
+        "confiabilidad_fuente": 70,
+        "readability": {
+          "words": 53,
+          "sentences": 9,
+          "average_words_per_sentence": 5.89
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 67.95
+    },
+    {
       "id": "3ade28897be427e1",
       "fuente_id": "bbc_mundo",
       "fuente_nombre": "BBC Mundo",
@@ -919,8 +921,8 @@
       "texto_original": "Integrantes de una fuerza multinacional, se les perdió la pista el 18 de octubre. Desde entonces las interrogantes sobre el caso no han dejado de multiplicarse.",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-27T23:38:40.691Z",
-        "index": 21,
+        "processed_at": "2026-10-28T04:31:12.868Z",
+        "index": 20,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -969,6 +971,80 @@
       "final_score": 67.95
     },
     {
+      "id": "8aa9263282ded267",
+      "fuente_id": "xataka_google",
+      "fuente_nombre": "Xataka",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "xataka",
+      "nivel_fuente": "medio_especializado",
+      "categoria": "tecnologia",
+      "idioma_original": "es",
+      "prioridad_fuente": 4,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Apple se guardaba un 'One More Thing' para 2026, uno que llevamos 15 años esperando",
+      "titulo_original": "Apple se guardaba un 'One More Thing' para 2026, uno que llevamos 15 años esperando - Xataka",
+      "enlace": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPR1phTDZoSUtqbzlhYVpjLTBCRWFHOXZnaldXSGljY2tOdm9RcFptOXNUM292M0FNdkNCQS1OT0pETGJYQU1RUTRKYXdtM2huZ2YzbnNDSE9TOFdkOFBJMTVYc2NLUXIwWnM3OUpVVzM0T080bWZYaTFyenVGQ3FBSWw2LWhkYWQtTG54VXNONDlzTlVDWFpOZkJaaXh5emFMMHdHZzJnWmFGY0kxYXc3Zm1B0gG3AUFVX3lxTE8wREFkWWxBVDRyMFF0Z0lvWlNlaWw2NDJ2bzdSdlV2eGdqQVFwU3BGNmpKbHVQbHd6cVhfczFpQno4eGJFRHRlRkhNYUpuU0lIYURLd2U0YUFCTjdCRldRSWdYMk9BQm1rWDdmYll1U2NRemQ5aTZmOU54dHRzSkU0TENYZkhBVDc4RnQxMThXQWx0emx0UXFmZjg3b2V4ZWdBT25QaTBoZEZaNWItOFlHZlRucGF0cw?oc=5",
+      "fecha": "2026-10-26T13:15:00.000Z",
+      "resumen_corto": "Apple se guardaba un 'One More Thing' para 2026, uno que llevamos 15 años esperando Xataka",
+      "resumen_largo": "Apple se guardaba un 'One More Thing' para 2026, uno que llevamos 15 años esperando Xataka",
+      "texto_original": "Apple se guardaba un 'One More Thing' para 2026, uno que llevamos 15 años esperando Xataka",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-10-28T04:31:12.875Z",
+        "index": 33,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "vehiculos_energia",
+        "categorias_secundarias": [
+          "software_internet"
+        ],
+        "category_scores": {
+          "vehiculos_energia": 1,
+          "software_internet": 1
+        },
+        "entidades": [
+          "Apple",
+          "Xataka"
+        ],
+        "cifras_detectadas": [
+          "2026"
+        ],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 87,
+        "relevancia": 60,
+        "confiabilidad_fuente": 50,
+        "readability": {
+          "words": 64,
+          "sentences": 1,
+          "average_words_per_sentence": 64
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 66.95
+    },
+    {
       "id": "c82a37a794a192ec",
       "fuente_id": "bbc_mundo",
       "fuente_nombre": "BBC Mundo",
@@ -990,8 +1066,8 @@
       "texto_original": "\"Me encuentro muy feliz de estar aquí, ser una mexicana, ser la primera mexicana recibiendo un reconocimiento\". Con esas palabras, Charlyn Corral comenzó su emotivo discurso en el escenario en el que muchos futbolistas sueñan con pararse algún día. Acababa de ser reconocida en la gala del Balón de Oro como la \"Goleadora del Año 2026\". Corral se convirtió, el lunes, en la primera mexicana en conquistar un trofeo en esa prestigiosa premiación. La jugadora de la selección mexicana y del club Pachuca fue galardonada por ser \"la delantera más letal de todo el planeta fútbol\", señala el sitio del Ballon d'Or. \"La atacante mexicana firmó una temporada sencillamente descomunal, superando en los registros a las artilleras más temidas de los gigantes europeos y norteamericanos\", continúa la publicación.",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-27T23:38:40.692Z",
-        "index": 22,
+        "processed_at": "2026-10-28T04:31:12.869Z",
+        "index": 21,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -1061,8 +1137,8 @@
       "texto_original": "OpenAI asegura haber resuelto parte de un Problema del Milenio gracias a la inteligencia artificial El Mundo",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-27T23:38:40.676Z",
-        "index": 4,
+        "processed_at": "2026-10-28T04:31:12.856Z",
+        "index": 7,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -1111,74 +1187,6 @@
       "final_score": 66.05
     },
     {
-      "id": "802f26ca9e84c668",
-      "fuente_id": "ia_dia",
-      "fuente_nombre": "IA al Día",
-      "tipo": "rss_web",
-      "subtipo": "google_news",
-      "grupo_fuente": "ia_general",
-      "nivel_fuente": "agregador",
-      "categoria": "inteligencia_artificial",
-      "idioma_original": "es",
-      "prioridad_fuente": 3,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "Brais Moure, experto en IA, alerta sobre ChatGPT: “Nunca des esta información” - Diario AS",
-      "titulo_original": "Brais Moure, experto en IA, alerta sobre ChatGPT: “Nunca des esta información” - Diario AS",
-      "enlace": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPTGp4ZUNsNGdrWnBab1IxdW4wWldfdG5BUUVRaHJMSVp4d3duZllGdncxQ0R2RDgyU19IUGkzcjFsQWpjaXkwTEFjTGtKOUIzSHdSc1BLMUNFd1JrV0ctRXE5endpNlpnU0hta2FyNThmTkxBV1NmaWhTQi1vamM0REt4VzZxU1lJN0RKUzI2U0prQkROVUxkencyVU8yVmZJeXJnbTNQdmFKV3VOdnJDZ0lCYlZ6VGg3NVHSAc4BQVVfeXFMUDJQaDdMdFBZNkVPckxTNEt2S3VPaXJELXZESklSWTBOZ3h5SlFmbFNsSWtidmNLN2ZVX2M5Tk1xTlFkNmw4OFBSTGoyeV9ROUNhUjJoYld4V2ZOd0Vmd1A0UV9iekE3S3hpdWRUcWw4bkdkSjIzYVBaTWsxUHNjOTRKa2pFT2p2cFZCMW84eHFCWWlZYkpBY1dPNHVIRW5JN0hwbXpIakpSaUtpSWJhdkFqS1RzX2FTT2ZJU1pvWklHR0ZUQUthZEU5VkppNmc?oc=5",
-      "fecha": "2026-10-27T12:15:00.000Z",
-      "resumen_corto": "Brais Moure, experto en IA, alerta sobre ChatGPT: “Nunca des esta información” Diario AS",
-      "resumen_largo": "Brais Moure, experto en IA, alerta sobre ChatGPT: “Nunca des esta información” Diario AS",
-      "texto_original": "Brais Moure, experto en IA, alerta sobre ChatGPT: “Nunca des esta información” Diario AS",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-10-27T23:38:40.692Z",
-        "index": 23,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "es",
-        "categoria": "inteligencia_artificial",
-        "categorias_secundarias": [],
-        "category_scores": {
-          "inteligencia_artificial": 4
-        },
-        "entidades": [
-          "ChatGPT"
-        ],
-        "cifras_detectadas": [],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 80,
-        "relevancia": 62,
-        "confiabilidad_fuente": 53,
-        "readability": {
-          "words": 55,
-          "sentences": 1,
-          "average_words_per_sentence": 55
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 66.05
-    },
-    {
       "id": "5047374c8f1eb964",
       "fuente_id": "huawei_google",
       "fuente_nombre": "Huawei Central",
@@ -1200,8 +1208,8 @@
       "texto_original": "Huawei Kirin 9060 Pro chip details surfaced months before launch Huawei Central",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-27T23:38:40.696Z",
-        "index": 30,
+        "processed_at": "2026-10-28T04:31:12.871Z",
+        "index": 26,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -1254,81 +1262,7 @@
       "final_score": 65.7
     },
     {
-      "id": "8eed2ef31bbe415b",
-      "fuente_id": "xataka_google",
-      "fuente_nombre": "Xataka",
-      "tipo": "rss_web",
-      "subtipo": "google_news",
-      "grupo_fuente": "xataka",
-      "nivel_fuente": "medio_especializado",
-      "categoria": "tecnologia",
-      "idioma_original": "es",
-      "prioridad_fuente": 4,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "Apple renueva el iMac y el MacBook Pro de 14 pulgadas con los procesadores M6: el precio es el plato amargo",
-      "titulo_original": "Apple renueva el iMac y el MacBook Pro de 14 pulgadas con los procesadores M6: el precio es el plato amargo - Xataka",
-      "enlace": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOUV9NNVBZMmU3MDBoRXpoLVR1OV93S0tSbHlLU09wakUtTUt6NUpnT1luQXphSjRYWV80UlBMWjRXTUpjWHlNOW5IWVJ1Vl9oTWpRSU5raUctQ3BPdGZuNVBqYzltdUQ1TFdYVm5KdHJEajlNNEg5empCMm9IMlZMNXZZTU1VdGNTRWtXZlhvU00tWW5pcEc5SW930gGfAUFVX3lxTE1RcXV6SGtLdmN0VVhBLXZjY0N5VG5GX1VsWmRFVklON2JkWTlCNDhHbjRSYmtEbHV1b2xjTE9uRURFOGdzWW4yRWlsakg1OFJ2bUdHc0tOMUVFVTlBc0ZEUmxGZ094U2s5NkZUSFdiYV9PbXBFdEQ0UlRWV0RTaHo5UUZLcDRKOXo0WjR1bWNxOUVGdERBSy1NUjVhUW9MTQ?oc=5",
-      "fecha": "2026-10-27T14:16:00.000Z",
-      "resumen_corto": "Apple renueva el iMac y el MacBook Pro de 14 pulgadas con los procesadores M6: el precio es el plato amargo Xataka",
-      "resumen_largo": "Apple renueva el iMac y el MacBook Pro de 14 pulgadas con los procesadores M6: el precio es el plato amargo Xataka",
-      "texto_original": "Apple renueva el iMac y el MacBook Pro de 14 pulgadas con los procesadores M6: el precio es el plato amargo Xataka",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-10-27T23:38:40.688Z",
-        "index": 18,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "es",
-        "categoria": "hardware",
-        "categorias_secundarias": [
-          "vehiculos_energia",
-          "software_internet"
-        ],
-        "category_scores": {
-          "hardware": 1,
-          "vehiculos_energia": 1,
-          "software_internet": 1
-        },
-        "entidades": [
-          "Apple",
-          "Xataka"
-        ],
-        "cifras_detectadas": [],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 82,
-        "relevancia": 60,
-        "confiabilidad_fuente": 50,
-        "readability": {
-          "words": 64,
-          "sentences": 1,
-          "average_words_per_sentence": 64
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 65.2
-    },
-    {
-      "id": "e95b6a5b2d78409f",
+      "id": "748d85cd6df62062",
       "fuente_id": "genbeta_google",
       "fuente_nombre": "Genbeta",
       "tipo": "rss_web",
@@ -1340,17 +1274,17 @@
       "prioridad_fuente": 4,
       "analizar": true,
       "resumir": true,
-      "titulo": "La UE abre la vía para multar a Google Maps por representar a Ceuta y Melilla como “territorios en disputa” con Marruecos",
-      "titulo_original": "La UE abre la vía para multar a Google Maps por representar a Ceuta y Melilla como “territorios en disputa” con Marruecos - Genbeta",
-      "enlace": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPWlhoYVdibC15QVpKOXVxM0h3bFg0Sk1aaUpvSjNBR0x4c244bTlyQlc5UWNmNE9PLUY4NmVrNTRfRUp4aFFTZVRYVEt0Z0RFWmNoRnA2S0JJQU9iR2h2RlRKRVJ0cnJjNFlnTUJXMlhvd3VMOEZLVTA5YUREYTcwVS1qaF9vMGJKaXpNcThQNVVMN3VmZ0NEWjI5N3p6b3BQbnBKekw5aUwwZ25lb0JiMk1tNHZkUGpNWXZoWFMycC1sX1V5cVlVeERrbEdKQUlZ0gHWAUFVX3lxTE9JR2tFVGtiNm5uR2VuQzlLZG9hTEtJQ2poaERIalhVQUNMYjg0aGQ2M3dIX3cyeUtmYW9KSXJpb0tiUkZLZ20xcUYxSWxCcjlPVWRCTGIyb0w3c3Q2dWtfeERjUmljTHdQa2ZHeTAxay1IenZOTTdpbzdIQTJnel9iMlN1alJ6NFd1b3dQVGdNeEVpZnhjRi1tc3RWWHJONTdMVVMwbVVvSFh2WkVFRDk5aVJ4ajZEb1VPbFFpcU5VaVYxb1RhdjVmd0Q2UkxPMnFfR0g0Umc?oc=5",
-      "fecha": "2026-10-27T11:01:29.000Z",
-      "resumen_corto": "La UE abre la vía para multar a Google Maps por representar a Ceuta y Melilla como “territorios en disputa” con Marruecos Genbeta",
-      "resumen_largo": "La UE abre la vía para multar a Google Maps por representar a Ceuta y Melilla como “territorios en disputa” con Marruecos Genbeta",
-      "texto_original": "La UE abre la vía para multar a Google Maps por representar a Ceuta y Melilla como “territorios en disputa” con Marruecos Genbeta",
+      "titulo": "Google anuncia la solución tan esperada para la barra de señal celular de Android Auto",
+      "titulo_original": "Google anuncia la solución tan esperada para la barra de señal celular de Android Auto - Genbeta",
+      "enlace": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQZXZrT285MlNLNndvR21nTXhUMGVCTmNTSUtPdjQ1dmphN3ZNMXlacHpPWWNDcjBTVnpDXzN3czBMdlJweXJvWExTeTVHR0R1d0RnSm8talp5UE82MXlWRW9INGhnNndaM0dKTzhQTFBoYVFYd0xrM0dCY3o3aktLVVg3RlV0aTMzbUVfcmlBRlRKRG1oUmJmZmI1R0k0Y3BjajcxZdIBqgFBVV95cUxPZWVTVTZhand1WnUyalBzLXZ0bVhBd0RoNGRzZG1fZEdMQ3ctSWVtWHlwMVFHeVBBVmV6OHZ5MTNLWVhDV1h0dzMtWXFybWx6NmVienp0UGhLLUVTU0lpcE1lbEJGNzByY0pSdHRxVXpjTzIxNEI1NU42M0hBMXRLd092bGdyYmpfMHlkYnVfZldlVFBDVF9fVG1yRXAwOEFzd19WUkNBQmxXQQ?oc=5",
+      "fecha": "2026-10-26T08:01:32.000Z",
+      "resumen_corto": "Google anuncia la solución tan esperada para la barra de señal celular de Android Auto Genbeta",
+      "resumen_largo": "Google anuncia la solución tan esperada para la barra de señal celular de Android Auto Genbeta",
+      "texto_original": "Google anuncia la solución tan esperada para la barra de señal celular de Android Auto Genbeta",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-27T23:38:40.693Z",
-        "index": 25,
+        "processed_at": "2026-10-28T04:31:12.876Z",
+        "index": 34,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -1359,14 +1293,17 @@
         "idioma_original": "es",
         "categoria": "inteligencia_artificial",
         "categorias_secundarias": [
-          "moviles"
+          "moviles",
+          "vehiculos_energia"
         ],
         "category_scores": {
           "inteligencia_artificial": 1,
-          "moviles": 1
+          "moviles": 1,
+          "vehiculos_energia": 1
         },
         "entidades": [
           "Google",
+          "Android",
           "Genbeta"
         ],
         "cifras_detectadas": [],
@@ -1386,9 +1323,9 @@
         "relevancia": 60,
         "confiabilidad_fuente": 50,
         "readability": {
-          "words": 79,
+          "words": 59,
           "sentences": 1,
-          "average_words_per_sentence": 79
+          "average_words_per_sentence": 59
         },
         "duplicate": {
           "detected": false,
@@ -1412,16 +1349,16 @@
       "prioridad_fuente": 5,
       "analizar": true,
       "resumir": true,
-      "titulo": "Elecciones en Israel: las encuestas muestran al bloque del opositor Eisenkot por delante de Netanyahu y a los partidos árabes con récord de escaños en el Parlamento",
-      "titulo_original": "Elecciones en Israel: las encuestas muestran al bloque del opositor Eisenkot por delante de Netanyahu y a los partidos árabes con récord de escaños en el Parlamento",
+      "titulo": "Elecciones en Israel: las encuestas muestran un empate de Netanyahu con Eisenkot y a los partidos árabes con récord de escaños en el Parlamento",
+      "titulo_original": "Elecciones en Israel: las encuestas muestran un empate de Netanyahu con Eisenkot y a los partidos árabes con récord de escaños en el Parlamento",
       "enlace": "https://www.bbc.co.uk/mundo/live/cmx28dldw68pt?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-10-27T23:34:18.490Z",
+      "fecha": "2026-10-28T04:26:46.458Z",
       "resumen_corto": "Estas elecciones, las primeras desde los ataques liderados por Hamás contra Israel y las guerras que les siguieron, son vistas como un referéndum sobre Netanyahu.",
       "resumen_largo": "El primer ministro israelí enfrenta una ajustada votación contra el exmilitar Gadi Eisenkot. Estas elecciones, las primeras desde los ataques liderados por Hamás contra Israel y las guerras que les siguieron, son vistas como un referéndum sobre Netanyahu.",
       "texto_original": "El primer ministro israelí enfrenta una ajustada votación contra el exmilitar Gadi Eisenkot. Estas elecciones, las primeras desde los ataques liderados por Hamás contra Israel y las guerras que les siguieron, son vistas como un referéndum sobre Netanyahu.",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-27T23:38:40.671Z",
+        "processed_at": "2026-10-28T04:31:12.849Z",
         "index": 0,
         "resumen": {
           "generado": true,
@@ -1452,9 +1389,9 @@
         "relevancia": 50,
         "confiabilidad_fuente": 70,
         "readability": {
-          "words": 129,
+          "words": 123,
           "sentences": 5,
-          "average_words_per_sentence": 25.8
+          "average_words_per_sentence": 24.6
         },
         "duplicate": {
           "detected": false,
@@ -1464,6 +1401,81 @@
         }
       },
       "final_score": 65.15
+    },
+    {
+      "id": "ab526c2e467a86c8",
+      "fuente_id": "xataka_google",
+      "fuente_nombre": "Xataka",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "xataka",
+      "nivel_fuente": "medio_especializado",
+      "categoria": "tecnologia",
+      "idioma_original": "es",
+      "prioridad_fuente": 4,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "El nuevo iPad Mini 2026 no sólo estrena panel OLED: también se planta con un A20 Pro para jugar en la liga de los mayores",
+      "titulo_original": "El nuevo iPad Mini 2026 no sólo estrena panel OLED: también se planta con un A20 Pro para jugar en la liga de los mayores - Xataka",
+      "enlace": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNRll3SFlyQnlWcG1DclNXM3RueFJsdnJUdnJZSVFMb3ZoWW1zX1lZeEdFZzJBVkpXdXlVdHFkY2o4dDBvWVlwNUs3UGpNT2tRUFlkaWRPVGdMWWtCNTQ2WFpSZmRrbkJpWXhERU44WW90MmRlUGNFRVZRUzBQVWxfVHNjb1E2SUtKZHfSAY8BQVVfeXFMTmhYU2hvQVRHOUFxV2lmeXpJdENUdExtTy00bG1sbzlnazdQMFFOMDZHOUFWNmtDbnVTX0EzYzllQ0x1bVFNYmJNc3VubmNGZU5EZ0N5d0RiVUFXYVNCYmUxSl9oWnczMmppQUpqczVqd1B6NlNZSno0amtzVTdhUXF0M1lMT0NXMElHeUhtVnc?oc=5",
+      "fecha": "2026-10-26T13:26:00.000Z",
+      "resumen_corto": "El nuevo iPad Mini 2026 no sólo estrena panel OLED: también se planta con un A20 Pro para jugar en la liga de los mayores Xataka",
+      "resumen_largo": "El nuevo iPad Mini 2026 no sólo estrena panel OLED: también se planta con un A20 Pro para jugar en la liga de los mayores Xataka",
+      "texto_original": "El nuevo iPad Mini 2026 no sólo estrena panel OLED: también se planta con un A20 Pro para jugar en la liga de los mayores Xataka",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-10-28T04:31:12.875Z",
+        "index": 32,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "moviles",
+        "categorias_secundarias": [
+          "hardware",
+          "vehiculos_energia"
+        ],
+        "category_scores": {
+          "moviles": 1,
+          "hardware": 1,
+          "vehiculos_energia": 1
+        },
+        "entidades": [
+          "Xataka"
+        ],
+        "cifras_detectadas": [
+          "2026"
+        ],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 87,
+        "relevancia": 55,
+        "confiabilidad_fuente": 50,
+        "readability": {
+          "words": 94,
+          "sentences": 1,
+          "average_words_per_sentence": 94
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 64.95
     },
     {
       "id": "70c857d8495cf8c0",
@@ -1487,8 +1499,8 @@
       "texto_original": "Eugenio, el octogenario que suma 10 millones de seguidores recuperando oficios antiguos: “En 50 años hemos pasado de la Edad Media a un futuro incierto” Genbeta",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-27T23:38:40.700Z",
-        "index": 40,
+        "processed_at": "2026-10-28T04:31:12.877Z",
+        "index": 38,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -1562,7 +1574,7 @@
       "texto_original": "Google TPUs Are Cheaper Than NVIDIA GPUs, Yet Anthropic’s $63 Billion TPU Financing Hit A Roadblock Until Broadcom Sweetened Terms For Banks Wccftech",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-27T23:38:40.680Z",
+        "processed_at": "2026-10-28T04:31:12.858Z",
         "index": 11,
         "resumen": {
           "generado": true,
@@ -1640,7 +1652,7 @@
       "texto_original": "Huawei Nova wide phone to feature P30 Pro-like camera design Huawei Central",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-27T23:38:40.687Z",
+        "processed_at": "2026-10-28T04:31:12.866Z",
         "index": 17,
         "resumen": {
           "generado": true,
@@ -1687,7 +1699,7 @@
       "final_score": 63.95
     },
     {
-      "id": "444cd0f34aa68641",
+      "id": "5a2d09cc2999c475",
       "fuente_id": "xataka_google",
       "fuente_nombre": "Xataka",
       "tipo": "rss_web",
@@ -1699,27 +1711,30 @@
       "prioridad_fuente": 4,
       "analizar": true,
       "resumir": true,
-      "titulo": "Atomic-6 ha mandado su armadura para satélites al espacio y reza para que reciba un impacto",
-      "titulo_original": "Atomic-6 ha mandado su armadura para satélites al espacio y reza para que reciba un impacto - Xataka",
-      "enlace": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOZmkzZExKVEpDRzBjZ0FReWtQdDRKQVdIM2hueEp1Qnpxa3dpd3J0TmxlbW14TDhwUTNfZkFXLUVFQnNlNTRTbWVpeEdQRDhseVFzb1ZzX2I3YzNfeDNYa0VLQjhWeENhSlBvaFFLbFg1X1pmczNzUjBqUTluMjRWSjREYlcyNGliVjltY3QzMkNFMXo4RWFrTU9KWk1NZVRPSnNlNjMwV0YxZ3JN0gGyAUFVX3lxTE1nZXROaWJ3THhIMGRxODFfZ2xldjhidmlmWjhwMTMtbHhJbXdLRF9vM3NCaldxT1VKUVVTeEE2V3ZjTUlLLUZtekQzRFdnWTRMYU9VXzRUaVZFXzZRVjFXcHRGMEgtUXFYYWpFWUI1dGVMdFN5T0VpT0NZcC13Y2lEclMtc1RabE5TdDI2QWFBdHIzVURoaWJsSnFzcnFOUU0wOHhNUU9ROFJXV3BZYW95MEE?oc=5",
-      "fecha": "2026-10-27T19:01:27.000Z",
-      "resumen_corto": "Atomic-6 ha mandado su armadura para satélites al espacio y reza para que reciba un impacto Xataka",
-      "resumen_largo": "Atomic-6 ha mandado su armadura para satélites al espacio y reza para que reciba un impacto Xataka",
-      "texto_original": "Atomic-6 ha mandado su armadura para satélites al espacio y reza para que reciba un impacto Xataka",
+      "titulo": "Sam Altman: \"No encuentro una palabra lo bastante dramática para describir el problema que se nos viene encima\"",
+      "titulo_original": "Sam Altman: \"No encuentro una palabra lo bastante dramática para describir el problema que se nos viene encima\" - Xataka",
+      "enlace": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPUmFLZV9fM3hUUEdyemRiZ3hNTjFuVjFpbE9aX0Y2SzIydXNST0JYZ2NETHV5YmxQNTFqU1hOSWxuQnBiVGlSZDhBdGV5RDdhZWJjdExrZzhxb2ZGcENEVmowUnhRc2RrQkJseVdQM25KeFN2MG5QRjNQZlUtdTkxMmVodlg0VVFmR0F5TUFjVXNUdjNoWTR3dXRxN0gxNGg2NnNDNm54ZUtDbl9IVklmWGMxeVpvNmdaUTByOUI2ell6U0lqcXptNDBieGdqQ2pn0gHWAUFVX3lxTE8wOWtFbG1uOWMtWS0zdGFodkU5TkFCTEVLb3VOTUYxdWI0QzlLZnJULUVFQm1TYkJIZm5aZmJIU05CQTRoU2lNcmZoblJsUjBKVVhJWUx3WWJ4OEJWN2FRN0ZzXzFqdlFIQ2ctdVZHX2lUTThUMGc0LVJSUzhPeng0QjMteERsMld4M05EcjZtYkJfeDBVZXotWmJfejZueHEwbzZJaXlqTlV3Y3l5cS1TT09FTldjbzlRUWhwVEo3QjgwczQwd21BaExVTFg5eDFIY3ExdUE?oc=5",
+      "fecha": "2026-10-23T13:00:00.000Z",
+      "resumen_corto": "Sam Altman: \"No encuentro una palabra lo bastante dramática para describir el problema que se nos viene encima\" Xataka",
+      "resumen_largo": "Sam Altman: \"No encuentro una palabra lo bastante dramática para describir el problema que se nos viene encima\" Xataka",
+      "texto_original": "Sam Altman: \"No encuentro una palabra lo bastante dramática para describir el problema que se nos viene encima\" Xataka",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-27T23:38:40.676Z",
-        "index": 3,
+        "processed_at": "2026-10-28T04:31:12.878Z",
+        "index": 39,
         "resumen": {
           "generado": true,
           "origen": "translated"
         },
         "idioma_detectado": "es",
         "idioma_original": "es",
-        "categoria": "militar",
-        "categorias_secundarias": [],
+        "categoria": "semiconductores",
+        "categorias_secundarias": [
+          "hardware"
+        ],
         "category_scores": {
-          "militar": 1
+          "semiconductores": 1,
+          "hardware": 1
         },
         "entidades": [
           "Xataka"
@@ -1741,9 +1756,9 @@
         "relevancia": 55,
         "confiabilidad_fuente": 50,
         "readability": {
-          "words": 59,
+          "words": 74,
           "sentences": 1,
-          "average_words_per_sentence": 59
+          "average_words_per_sentence": 74
         },
         "duplicate": {
           "detected": false,
@@ -1755,7 +1770,7 @@
       "final_score": 63.2
     },
     {
-      "id": "deb8f88bc31f126b",
+      "id": "5666c843f2d3e484",
       "fuente_id": "xataka_google",
       "fuente_nombre": "Xataka",
       "tipo": "rss_web",
@@ -1767,27 +1782,27 @@
       "prioridad_fuente": 4,
       "analizar": true,
       "resumir": true,
-      "titulo": "Un agente de IA no es un chatbot más: te puede ahorrar mucho tiempo al día. Y este no llega a 7 euros al mes",
-      "titulo_original": "Un agente de IA no es un chatbot más: te puede ahorrar mucho tiempo al día. Y este no llega a 7 euros al mes - Xataka",
-      "enlace": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQZlFzMUlKci1CbEVRRHgtUGc3UjZ5Nm9mRThmNTllZ1NxRkJYTE12V19vU3ZpWTQ1RFhFZDRMbHVfTXdWd1FnWS12UzdXbkE2M3BYV1Z2MzZWcnpNRTlwaTg5X2xEa3FiN2xfZWducVA1VGNNYlJvbU9fdW5xb29ZQmJjejhtcDVTN18zNjI4RDVuYld5enA2eHVQcHNrVzlaS0NyamNSZmludDBfT0JNckhpb19LeHhvNHNtOXN3?oc=5",
-      "fecha": "2026-10-27T17:45:27.000Z",
-      "resumen_corto": "Un agente de IA no es un chatbot más: te puede ahorrar mucho tiempo al día.",
-      "resumen_largo": "Un agente de IA no es un chatbot más: te puede ahorrar mucho tiempo al día. Y este no llega a 7 euros al mes Xataka",
-      "texto_original": "Un agente de IA no es un chatbot más: te puede ahorrar mucho tiempo al día. Y este no llega a 7 euros al mes Xataka",
+      "titulo": "Un fallo crítico en PHP pone en jaque a medio Internet en todo el mundo",
+      "titulo_original": "Un fallo crítico en PHP pone en jaque a medio Internet en todo el mundo - Xataka",
+      "enlace": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNV244cnRZdUNybGtURXRHNnpQMUdwQy1ncmpjMC1LM20waEI1UVV3dTdpVl83X3J2S0RMLUtEQ2lxXzNueU5ZYUJCekJnMVNtSl9od2VTTVlBM2hpajlUV2Z6eW1FY3d4N0p3d09nMnN0NFROOFRlTnY0Wm53TTBTemVDSVlVbm9LeWw5VDJOOFV3ak5WV3hVazhPbmFpOTlicUJ5WmhFanl5Mnl0ajRlYWtkSnBpNGsxN1dvTzRHTUl3RzB4QTVNc3Y1M2xVX1V6VVA1VWNyV09NY0Q50gHiAUFVX3lxTE56YXMyVEhUZjlRSmlFNEF4c0xJb1hlZFVtV3NSQ082NzVjdTBfSmVFVG5yZXlvZWEySHJIa0FydC04LXRybi1EV2diVFBILVN5TEZnbC1LOTlCYW5leWlzRVhlaGo0VHpFbTBhSzVDMVFyNzJRUl9DZFRweERTNFpqYjRNclVLcDk0cDJCNnJETUlVaDJuMkM2QnlablhHaE1Oc3BCVUowelJ4QXRBRWVDRlBUN1RiRlNLR0ZFOUdhaTVXVXl6aWZyVmx4UERSVGVvMHJuNGVmUWhLS0lwcnJpZXc?oc=5",
+      "fecha": "2026-10-21T15:12:00.000Z",
+      "resumen_corto": "Un fallo crítico en PHP pone en jaque a medio Internet en todo el mundo Xataka",
+      "resumen_largo": "Un fallo crítico en PHP pone en jaque a medio Internet en todo el mundo Xataka",
+      "texto_original": "Un fallo crítico en PHP pone en jaque a medio Internet en todo el mundo Xataka",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-27T23:38:40.677Z",
-        "index": 6,
+        "processed_at": "2026-10-28T04:31:12.878Z",
+        "index": 40,
         "resumen": {
           "generado": true,
           "origen": "translated"
         },
         "idioma_detectado": "es",
         "idioma_original": "es",
-        "categoria": "inteligencia_artificial",
+        "categoria": "software_internet",
         "categorias_secundarias": [],
         "category_scores": {
-          "inteligencia_artificial": 3
+          "software_internet": 1
         },
         "entidades": [
           "Xataka"
@@ -1809,9 +1824,9 @@
         "relevancia": 55,
         "confiabilidad_fuente": 50,
         "readability": {
-          "words": 59,
-          "sentences": 6,
-          "average_words_per_sentence": 9.83
+          "words": 49,
+          "sentences": 1,
+          "average_words_per_sentence": 49
         },
         "duplicate": {
           "detected": false,
@@ -1823,29 +1838,29 @@
       "final_score": 63.2
     },
     {
-      "id": "ba211ac8c88bdada",
-      "fuente_id": "xataka_google",
-      "fuente_nombre": "Xataka",
+      "id": "4dd247848cedb58d",
+      "fuente_id": "genbeta_google",
+      "fuente_nombre": "Genbeta",
       "tipo": "rss_web",
       "subtipo": "google_news",
-      "grupo_fuente": "xataka",
+      "grupo_fuente": "genbeta",
       "nivel_fuente": "medio_especializado",
-      "categoria": "tecnologia",
+      "categoria": "software_internet",
       "idioma_original": "es",
       "prioridad_fuente": 4,
       "analizar": true,
       "resumir": true,
-      "titulo": "Anthropic, en su S-1: \"Tenemos un historial de pérdidas y es posible que no generemos ingresos suficientes en el futuro\"",
-      "titulo_original": "Anthropic, en su S-1: \"Tenemos un historial de pérdidas y es posible que no generemos ingresos suficientes en el futuro\" - Xataka",
-      "enlace": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNV0g0c1lma18wYUtSSzFhR1BEeXFfOGF3VGpDTnhXdVl2QXo2V2lmdTRLOWFfaEZYam00cFE5cHZoaXd4YlQ2dFJKVXhVcmJFR1VWdmZPSmpHR0ZIZ1ppQTBuZFliNmhfNWF4d1hIMmVrZkxxeUR3a3VIdmNwLUU4ZXNlZkJaaVpkQ0txNHZFTGkySXhZR1Frc3VpVVRzNndkTHFvMl9iZTVodmtIODRVNW8ySmQycURIVmtjT1FzQWxja2w1a3cyOFltelUxV21iMThFQnBn0gHbAUFVX3lxTE9ZUkswUkFMSFBtTC05bUMyN2RTNkZjOVFjLUxKMXc3SzZsZ3UwSDgxejBZSFhOWU9WeFNGb2paVUpMbGNKNXZGbHczZzN6dlZzOHpsakNMTU1INGlUazE4dmliYWRqR0UxUEpoRzdNT2pReXpBU1l4SFBrZHN5d1F2OVFRUXhKclFsQnpGbnJJZUtHeUExTlRIcHRYNEtrenJyaEczMHNkeFBaVUpXajlsQV9TaWJrZ3NyeDluUnZ5V1lKTkNadmlxUDdjc29wYUxXRlRzbW8yOFZmbw?oc=5",
-      "fecha": "2026-10-27T17:30:49.000Z",
-      "resumen_corto": "Anthropic, en su S-1: \"Tenemos un historial de pérdidas y es posible que no generemos ingresos suficientes en el futuro\" Xataka",
-      "resumen_largo": "Anthropic, en su S-1: \"Tenemos un historial de pérdidas y es posible que no generemos ingresos suficientes en el futuro\" Xataka",
-      "texto_original": "Anthropic, en su S-1: \"Tenemos un historial de pérdidas y es posible que no generemos ingresos suficientes en el futuro\" Xataka",
+      "titulo": "Yaiza Canosa, exitosa empresaria española: “Conozco más fontaneros bajándose de un Land Rover que a desarrolladores”",
+      "titulo_original": "Yaiza Canosa, exitosa empresaria española: “Conozco más fontaneros bajándose de un Land Rover que a desarrolladores” - Genbeta",
+      "enlace": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOZUZDcm56R1ZkQkdCRVMzeF9TemJjM1F6NlBhbTNYNHJFQmpNZERISDZVV191RGFvNzdBc3FFNlZZWEdIMXNEQnZfdkVHTTB2NkdXQ1l6RmJlMmY3V0xwSnVOM2VKUzZTZFN2M2t6UE1ubjB5b2prUVBJdXhZanZYeWhlN002R0Z2OTNTblBJN3hralNRZWNFWW01TzFJa21XcmdhZnFDYlYxZmFmMmZhMEVQNnJFZ1I3cHMtakVxMjlDdXhJWnhZTjczT0c4RWPSAdQBQVVfeXFMTTlHOHNLTThkMEtXVHZRRWN3SDNzRENWRDJBUnZwZHRfcVN0bzRJakhVc1ZwWVJkek1aWEZmSDlCMmNqV0h3OWtBdzJ3Wk1GYjF2MHAyWV9GUVc5ZEJEaldfVmRrM3p5UTV5RUkyTHhjcVlCR29MX2JvUWhZNnFaSmJ3Yl9YSkNCTDZHV1JaX2NuNFlRWThKMWJKZk1sQkxXWGlWeV9vXzNCSWdPb3FqUGVnQnNIMlp5Uy1pcURBcS1RYXRWNWlGdGxld29DVnFNeTV0clU?oc=5",
+      "fecha": "2026-10-21T14:01:41.000Z",
+      "resumen_corto": "Yaiza Canosa, exitosa empresaria española: “Conozco más fontaneros bajándose de un Land Rover que a desarrolladores” Genbeta",
+      "resumen_largo": "Yaiza Canosa, exitosa empresaria española: “Conozco más fontaneros bajándose de un Land Rover que a desarrolladores” Genbeta",
+      "texto_original": "Yaiza Canosa, exitosa empresaria española: “Conozco más fontaneros bajándose de un Land Rover que a desarrolladores” Genbeta",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-27T23:38:40.678Z",
-        "index": 8,
+        "processed_at": "2026-10-28T04:31:12.878Z",
+        "index": 41,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -1858,7 +1873,7 @@
           "inteligencia_artificial": 2
         },
         "entidades": [
-          "Xataka"
+          "Genbeta"
         ],
         "cifras_detectadas": [],
         "content_type": "news",
@@ -1877,9 +1892,9 @@
         "relevancia": 55,
         "confiabilidad_fuente": 50,
         "readability": {
-          "words": 54,
+          "words": 69,
           "sentences": 1,
-          "average_words_per_sentence": 54
+          "average_words_per_sentence": 69
         },
         "duplicate": {
           "detected": false,
@@ -1912,7 +1927,7 @@
       "texto_original": "Meta Is The Lead Customer For AMD’s 6th Gen EPYC CPUs, Deploys Millions of EPYC Chips & Will Leverage Next-Gen Instinct MI500 And Rack-Scale Solutions Wccftech",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-27T23:38:40.679Z",
+        "processed_at": "2026-10-28T04:31:12.857Z",
         "index": 9,
         "resumen": {
           "generado": true,
@@ -1966,7 +1981,7 @@
       "final_score": 62.75
     },
     {
-      "id": "7321930252e5392b",
+      "id": "be22b71350964e0b",
       "fuente_id": "ia_dia",
       "fuente_nombre": "IA al Día",
       "tipo": "rss_web",
@@ -1978,17 +1993,17 @@
       "prioridad_fuente": 3,
       "analizar": true,
       "resumir": true,
-      "titulo": "RTVE presenta 'Telerín', una nueva forma de descubrir la historia de TVE con inteligencia artificial - RTVE.es",
-      "titulo_original": "RTVE presenta 'Telerín', una nueva forma de descubrir la historia de TVE con inteligencia artificial - RTVE.es",
-      "enlace": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOM29CWldpeWtkWTBEOTkxcW1lR05RRnZWeGltb3Z0SXlfS1FFeEpZY21fY0xqQVF5TzdIVXpzS3JiTjYwYnM4M2FkNXFqdDJnTmpDc0pwOXhvOUtKY1dpNC1tY3FZRmRaN0VVcEJ2dXN4SDcwTDBGSTVGTC0yNnBWNks5dW8xcmdxaW1JTlJpTTBhZmVWWnlaSnBRaklodlJZVVVsSDVxdmVIRTJURTJ3aWlFVkYzcmdNWVBhUmxlUFhIQW8yLTJwYVFYbWZxQQ?oc=5",
-      "fecha": "2026-10-27T12:10:22.000Z",
-      "resumen_corto": "RTVE presenta 'Telerín', una nueva forma de descubrir la historia de TVE con inteligencia artificial RTVE.es",
-      "resumen_largo": "RTVE presenta 'Telerín', una nueva forma de descubrir la historia de TVE con inteligencia artificial RTVE.es",
-      "texto_original": "RTVE presenta 'Telerín', una nueva forma de descubrir la historia de TVE con inteligencia artificial RTVE.es",
+      "titulo": "Zaragoza compra 52 cámaras con Inteligencia Artificial para extender la videovigilancia a zonas conflictivas de la capital - heraldo.es",
+      "titulo_original": "Zaragoza compra 52 cámaras con Inteligencia Artificial para extender la videovigilancia a zonas conflictivas de la capital - heraldo.es",
+      "enlace": "https://news.google.com/rss/articles/CBMilgJBVV95cUxOMzR3YmF4cHlGNnJ5UXZUQUhxbWJudmhwNms5SElzc3VocUNZRHlCMWRmZElacjkzY2RrMHh2V3dFMmVXcmRTdnMxWE8wM1JsUm9QcDlRbndDWjdVZ0ZjWUZqUm00cjd4M29QZFpZdG1lajhkSVhJYm0tZWZZdF9IVERUaUYtMjNBakFhTnNSWHBaM3JhZkdyMldEYkUtMnRORjE5WG1lMlE4NDdzT1hVZ1NIZEt0eWtIWWFLbzRpaTNCUFNOdUllSXJfckhjZ1Q0ZWZhQ2FoR3ItX216b1oyZDlCRnN3NG95Vm1QLXJlcmhKT3YtMEpTMkU1aEJxeU5mYjZFVERsdGtfa0VMNTlkaGgyd0NnQQ?oc=5",
+      "fecha": "2026-10-28T04:00:00.000Z",
+      "resumen_corto": "Zaragoza compra 52 cámaras con Inteligencia Artificial para extender la videovigilancia a zonas conflictivas de la capital heraldo.es",
+      "resumen_largo": "Zaragoza compra 52 cámaras con Inteligencia Artificial para extender la videovigilancia a zonas conflictivas de la capital heraldo.es",
+      "texto_original": "Zaragoza compra 52 cámaras con Inteligencia Artificial para extender la videovigilancia a zonas conflictivas de la capital heraldo.es",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-27T23:38:40.693Z",
-        "index": 24,
+        "processed_at": "2026-10-28T04:31:12.851Z",
+        "index": 3,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -1997,11 +2012,11 @@
         "idioma_original": "es",
         "categoria": "inteligencia_artificial",
         "categorias_secundarias": [
-          "vehiculos_energia"
+          "militar"
         ],
         "category_scores": {
           "inteligencia_artificial": 3,
-          "vehiculos_energia": 1
+          "militar": 1
         },
         "entidades": [],
         "cifras_detectadas": [],
@@ -2035,6 +2050,75 @@
       "final_score": 62.3
     },
     {
+      "id": "7f26e1c111ee6126",
+      "fuente_id": "ia_dia",
+      "fuente_nombre": "IA al Día",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "ia_general",
+      "nivel_fuente": "agregador",
+      "categoria": "inteligencia_artificial",
+      "idioma_original": "es",
+      "prioridad_fuente": 3,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Laura Alba: \"La inteligencia artificial es la gran venganza de los sénior\" - Diario de Navarra",
+      "titulo_original": "Laura Alba: \"La inteligencia artificial es la gran venganza de los sénior\" - Diario de Navarra",
+      "enlace": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPSzhwejI5OGFqRW5yVUl3SUpoc3FXSV83bzlFanNmc0RPZkVYbjdnRkxvSXlReFpXUVJieWtMeURQYWZFR1VyMm1FYTg5d1dGeThfZk5fZ1Y0X0xMcFVLTzBObnAwY2FHRXNkU082aEFqX3dQYmRwcWdCRnFCSkJsVmFWZ2VucDBNT1NENXRtVWM1RHVBcFpLT1JiU09PZTBzLXFGXzdQSHBtbXdBWVFIeE92cWhvdnJfMTNfZ0RTM1Z5ek1icXNLazBPT2RrdTJENXlmRFFQaDZTNVNBVWM2WXlvVVpSdnFX?oc=5",
+      "fecha": "2026-10-28T04:00:00.000Z",
+      "resumen_corto": "Laura Alba: \"La inteligencia artificial es la gran venganza de los sénior\" Diario de Navarra",
+      "resumen_largo": "Laura Alba: \"La inteligencia artificial es la gran venganza de los sénior\" Diario de Navarra",
+      "texto_original": "Laura Alba: \"La inteligencia artificial es la gran venganza de los sénior\" Diario de Navarra",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-10-28T04:31:12.852Z",
+        "index": 4,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "inteligencia_artificial",
+        "categorias_secundarias": [
+          "vehiculos_energia"
+        ],
+        "category_scores": {
+          "inteligencia_artificial": 3,
+          "vehiculos_energia": 1
+        },
+        "entidades": [],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 75,
+        "relevancia": 57,
+        "confiabilidad_fuente": 53,
+        "readability": {
+          "words": 50,
+          "sentences": 1,
+          "average_words_per_sentence": 50
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 62.3
+    },
+    {
       "id": "6497bae59a770d90",
       "fuente_id": "google_news_es",
       "fuente_nombre": "Google News ES",
@@ -2056,8 +2140,8 @@
       "texto_original": "Micro RGB: así funciona la nueva tecnología con la que LG quiere llevar los televisores LCD un paso más allá Diario AS",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-27T23:38:40.694Z",
-        "index": 27,
+        "processed_at": "2026-10-28T04:31:12.870Z",
+        "index": 23,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -2106,77 +2190,6 @@
       "final_score": 62.3
     },
     {
-      "id": "5bf195d633528075",
-      "fuente_id": "google_news_es",
-      "fuente_nombre": "Google News ES",
-      "tipo": "rss_web",
-      "subtipo": "google_news",
-      "grupo_fuente": "google_news",
-      "nivel_fuente": "agregador",
-      "categoria": "tecnologia",
-      "idioma_original": "es",
-      "prioridad_fuente": 3,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "La tecnología alemana que soluciona el mayor problema del coche eléctrico en España: cargadores integrados en el bordillo de la acera - El Economista",
-      "titulo_original": "La tecnología alemana que soluciona el mayor problema del coche eléctrico en España: cargadores integrados en el bordillo de la acera - El Economista",
-      "enlace": "https://news.google.com/rss/articles/CBMioAJBVV95cUxNWnJFTDFEb0t0cjNJX3JkOFhCZVUtT3NxUHlZdjZpVXB1RmZaNWZFOERvMy1VNnlpR0FuZjRyUUluTDJwa25wUGg1ZlA2Znk2V3pXWlB2ZUFYNjNiUkhDazF3YURNb21mU3FDLS05QmQ0VDFmRlR0MG9vYUJVWDVpeDZTUk9vcTFjX2RqajN1cW1lN3lqajYtcGcwNm12X1d3eDJucFdmX0UzTVRuclNtZFlSMzRWWTRnSzB1dElzSnhvZUR2ci1mNjRVMThUdS1oZUFDcHNneFBkMkl2ZXNmZ2lyZDE1bm9kd3FxTDd3WXJ3Yml6YmVXRy1CTGRPY3E4amZTMEtGeXRnX3puTkxrVnN2LWY5NFkta1VfS09meHrSAYsCQVVfeXFMT19uRnVSY3FOQVE5MlJDWHBKZG9Ib1NYMVFEMDJOSXN0YldyWmE2cTJzODI5RTN1U0lrYlhjWW1iMUswdkxoQVhoTkNwV2gyd3NvY2JDSVNmRkx5UjVIUzVUZGFqXzdUYWx3SHY4UTdFem12aUFwNlgzcEV3MFFOM3MwQUQydDhSeXVEY09qU0dzVHhMSmRVX3VNZUdMcFppeDNkRFhpWGM2MHJiNHB3NTQwRFB0TU1USklfMzVPZW9ub0dzdmdGUzlHdTBBbjN0VTVoMnd5NVJLMnRlNmVFTWszcG9fZHJDSFZRQWRaRVYtaXFLa1VJZzNwZGlHOHVyNlh5YVBwN19SX3JJ?oc=5",
-      "fecha": "2026-10-26T20:00:06.000Z",
-      "resumen_corto": "La tecnología alemana que soluciona el mayor problema del coche eléctrico en España: cargadores integrados en el bordillo de la acera El Economista",
-      "resumen_largo": "La tecnología alemana que soluciona el mayor problema del coche eléctrico en España: cargadores integrados en el bordillo de la acera El Economista",
-      "texto_original": "La tecnología alemana que soluciona el mayor problema del coche eléctrico en España: cargadores integrados en el bordillo de la acera El Economista",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-10-27T23:38:40.698Z",
-        "index": 34,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "es",
-        "categoria": "vehiculos_energia",
-        "categorias_secundarias": [
-          "tecnologia",
-          "inteligencia_artificial"
-        ],
-        "category_scores": {
-          "vehiculos_energia": 2,
-          "tecnologia": 2,
-          "inteligencia_artificial": 1
-        },
-        "entidades": [],
-        "cifras_detectadas": [],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 75,
-        "relevancia": 57,
-        "confiabilidad_fuente": 53,
-        "readability": {
-          "words": 75,
-          "sentences": 1,
-          "average_words_per_sentence": 75
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 62.3
-    },
-    {
       "id": "be225f4786337fdd",
       "fuente_id": "google_news_es",
       "fuente_nombre": "Google News ES",
@@ -2198,8 +2211,8 @@
       "texto_original": "La tecnología que convertirá la Copa del Mundo de esquí en una experiencia inmersiva Nevasport.com",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-27T23:38:40.698Z",
-        "index": 35,
+        "processed_at": "2026-10-28T04:31:12.874Z",
+        "index": 31,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -2248,6 +2261,78 @@
       "final_score": 62.3
     },
     {
+      "id": "c3622d757815cf0e",
+      "fuente_id": "ia_dia",
+      "fuente_nombre": "IA al Día",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "ia_general",
+      "nivel_fuente": "agregador",
+      "categoria": "inteligencia_artificial",
+      "idioma_original": "es",
+      "prioridad_fuente": 3,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Roman Yampolskiy, experto en IA y ciberseguridad, sobre su impacto en el mercado laboral: \"No me refiero a un 10% de paro, sino a un 99%\" - El Confidencial",
+      "titulo_original": "Roman Yampolskiy, experto en IA y ciberseguridad, sobre su impacto en el mercado laboral: \"No me refiero a un 10% de paro, sino a un 99%\" - El Confidencial",
+      "enlace": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPazBsOThkYkZETjRTZmlkZW5Pb1pJVkhHb3BTNlBEY1JmUDhrQUpCQlFwWlFMS3U4TV9vWHdXeE1xcG5qbzY0anBzMkRXcUxveGdpUDlPSnlvVWtQWUpzVjVmUXN0d0VCdW9VUm5ZVU1KQjR6TjV2c2RxZlNzdldROWhVNUVDc2w5N3cyUkUtQXVSQjRaMmEyb2t6TjNlbDRkckcycG1yRW52QW1fVEYw?oc=5",
+      "fecha": "2026-10-28T04:00:00.000Z",
+      "resumen_corto": "Roman Yampolskiy, experto en IA y ciberseguridad, sobre su impacto en el mercado laboral: \"No me refiero a un 10% de paro, sino a un 99%\" El Confidencial",
+      "resumen_largo": "Roman Yampolskiy, experto en IA y ciberseguridad, sobre su impacto en el mercado laboral: \"No me refiero a un 10% de paro, sino a un 99%\" El Confidencial",
+      "texto_original": "Roman Yampolskiy, experto en IA y ciberseguridad, sobre su impacto en el mercado laboral: \"No me refiero a un 10% de paro, sino a un 99%\" El Confidencial",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-10-28T04:31:12.851Z",
+        "index": 2,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "software_internet",
+        "categorias_secundarias": [
+          "inteligencia_artificial"
+        ],
+        "category_scores": {
+          "software_internet": 2,
+          "inteligencia_artificial": 1
+        },
+        "entidades": [],
+        "cifras_detectadas": [
+          "10%",
+          "99%"
+        ],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 80,
+        "relevancia": 50,
+        "confiabilidad_fuente": 53,
+        "readability": {
+          "words": 60,
+          "sentences": 1,
+          "average_words_per_sentence": 60
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 61.25
+    },
+    {
       "id": "6ba45683391a8fda",
       "fuente_id": "google_news_es",
       "fuente_nombre": "Google News ES",
@@ -2269,8 +2354,8 @@
       "texto_original": "Erni estrena centro de tecnología suiza y apunta a los 26 millones de ingresos este año La Vanguardia",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-27T23:38:40.696Z",
-        "index": 31,
+        "processed_at": "2026-10-28T04:31:12.872Z",
+        "index": 27,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -2340,8 +2425,8 @@
       "texto_original": "Cristiano Amon Tells Qualcomm Staff Performance ‘Has Consistently Fallen Short Of Expectations’ As Job Cuts Land Days After Snapdragon Overheating Claims Wccftech",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-27T23:38:40.689Z",
-        "index": 19,
+        "processed_at": "2026-10-28T04:31:12.867Z",
+        "index": 18,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -2391,73 +2476,7 @@
       "final_score": 59.95
     },
     {
-      "id": "ea4d7463d9955294",
-      "fuente_id": "ia_dia",
-      "fuente_nombre": "IA al Día",
-      "tipo": "rss_web",
-      "subtipo": "google_news",
-      "grupo_fuente": "ia_general",
-      "nivel_fuente": "agregador",
-      "categoria": "inteligencia_artificial",
-      "idioma_original": "es",
-      "prioridad_fuente": 3,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "El escritor David Silva Rojas defiende en un comunicado que su novela ‘Donde el agua trabaja’ no está escrita por la IA - EL PAÍS",
-      "titulo_original": "El escritor David Silva Rojas defiende en un comunicado que su novela ‘Donde el agua trabaja’ no está escrita por la IA - EL PAÍS",
-      "enlace": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNaFJadGYycndnMnNFQV9ndzZDaVRnaEtGcEFqQk5oY05QVGN1ODJ4V1F0bE5RcW1oMndiSzd2UXlYb05IX05fbVFoWlg4QkFMU1NNajVuM0JKT0RwN2swUEVLRmwyVnZQTTJZMkcydTB0VjlpaEMwaGduY2lpODMwdGxEMXMyb081NFNHQ1lvUnVTN1JXWEUxMWxYZGZNUjdTYlVja1Z6a1Q1QlQyLUtBaGFFckg1Qkk3cFJ0ZHNKcEpDTEZ2OFNJSWNrcjVPYUZ0STQwWDVvRGlrTUhxd3JSUjZrMjBpeWR0UU1Tb1ozOWh4d9IBhgJBVV95cUxOalhaUzBFSTBUcWNMNnJwbXBiQ3k5V2VRX3ZiZmR0OWxZakVKSzJEV2ZZN3loc2tRQkFnQkJSUW1IdGMtWFZsWk5UUWFfdXVPT1FHSUEyZ3VFM0JZYkZRVGRMWlZGTjFaeFlyVzRYODZneDdUR3lpcjdwRUo2Nk8xbTJ5QkRjRmhWUGZkSWdlczdib2o1MFRvckVkTkN1VWI1TzU1bC03a09vYVRyWjFPM09OQjJnUzJFZGQ4V0I4YXN6QXFxODM3MmVhWEM3ZGYzVzhhLS1NWnF4ekZwR3BsNnFzVHltTkVCVDFnbW5ldFhSSW04QnprSGpweEwzOEJyU3dFM2h3?oc=5",
-      "fecha": "2026-10-27T20:01:45.000Z",
-      "resumen_corto": "El escritor David Silva Rojas defiende en un comunicado que su novela ‘Donde el agua trabaja’ no está escrita por la IA EL PAÍS",
-      "resumen_largo": "El escritor David Silva Rojas defiende en un comunicado que su novela ‘Donde el agua trabaja’ no está escrita por la IA EL PAÍS",
-      "texto_original": "El escritor David Silva Rojas defiende en un comunicado que su novela ‘Donde el agua trabaja’ no está escrita por la IA EL PAÍS",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-10-27T23:38:40.675Z",
-        "index": 2,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "es",
-        "categoria": "inteligencia_artificial",
-        "categorias_secundarias": [],
-        "category_scores": {
-          "inteligencia_artificial": 2
-        },
-        "entidades": [],
-        "cifras_detectadas": [],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 75,
-        "relevancia": 50,
-        "confiabilidad_fuente": 53,
-        "readability": {
-          "words": 75,
-          "sentences": 1,
-          "average_words_per_sentence": 75
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 59.5
-    },
-    {
-      "id": "156c0db203782e0b",
+      "id": "d52e896c72b53763",
       "fuente_id": "google_news_es",
       "fuente_nombre": "Google News ES",
       "tipo": "rss_web",
@@ -2469,26 +2488,29 @@
       "prioridad_fuente": 3,
       "analizar": true,
       "resumir": true,
-      "titulo": "Llegan los cepillos dentales con cámara y con IA: ¿merece la pena pagar 500 euros? - El Correo",
-      "titulo_original": "Llegan los cepillos dentales con cámara y con IA: ¿merece la pena pagar 500 euros? - El Correo",
-      "enlace": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNSTh1VTNiRC1JODdraFh6THpyOWVLSEYzcWZzT2h3ZGRLanJXdVc4LXFDcTRiTEotekZBM2Zvd2NXc1loQUcyTUZUdzRmeXViNEZXZllkVS05ZEVPLWtqSVRmb1pVdnVMVHJvbDdHZ05yeklDUk9wUFpBMUNWT1A5M21xbWdTSWlZRlAyNTZSYkZoWHNOeGNBMV9vYUdXaDBzQlhvSDlFd0UxM0QtbGpTNFhzd9IBuAFBVV95cUxNaGMzQjlSQ0pyZVJUZmFtZjE0eEJ4LUUyb0RyMVlHNElhcXlUZUJIUG0wbmRwYnhxUEg4bWQ0RlpfTDZKN2pEcXdtbnVSVDdUQy1PeGJMSkxSdlBmankwUjViTjNxNi1LMVdUUUxoNDVyVWxULWZaSHN0ZU5KMkxUNHAzaHNHN0tuZDZYOU95OU9rNktRRHlKRU5hcjN3cHVlb1FVQ25VN3JhU2Frbzl1M3ItRnJDS3c5?oc=5",
-      "fecha": "2026-10-27T18:17:48.000Z",
-      "resumen_corto": "Llegan los cepillos dentales con cámara y con IA: ¿merece la pena pagar 500 euros?",
-      "resumen_largo": "Llegan los cepillos dentales con cámara y con IA: ¿merece la pena pagar 500 euros?",
-      "texto_original": "Llegan los cepillos dentales con cámara y con IA: ¿merece la pena pagar 500 euros? El Correo",
+      "titulo": "La tecnología no abraza: el desafío del recién nacido al ingresar en la uci - La Voz de Galicia",
+      "titulo_original": "La tecnología no abraza: el desafío del recién nacido al ingresar en la uci - La Voz de Galicia",
+      "enlace": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNZF9pdVIzUHNleTVJdE5XQ1hjSkdsMWFYR0tVd3hwMVlfSFl2ZzRsTmhkR0gwNjdDbTBlQTd3SWtMRDFkZlRtMlk1NC1NbHRFeXlhSW5aY00yaEdfUFJfZ1hwWlF5bkxlMTViVjlzRDJ3RVJUdG5LY1RvYldvbmo3SUJqVk1yai1YZWU5WV8zSWUySVM1ZkN0cHhiVEtLckNsT3UwVHNKS1k0dHJZUTFEX0lETlNfd040aHBDZ1c2dnJmMDltZFBWWnRJSDJLY03SAesBQVVfeXFMTjc5TTZZVklrSnQ1S0VmQXZBbjFUWlpya1JLT2Jmb2QyaXFSMUtYWlJhbS1Id2NYU2RrYjlMS0ZYQ1hISVZrRkdMSk1JUkt4RllvQk1pMU5TR3NBd0ZPRUhPSDA3SUxWUnlSMGlVbWlwbUphT0JyV0U0VEpacTRtNnFaWE1JQ2tOYTRFOUYtR0NZUDZEN2pDRVROWjd3bHFwcXUySU4zRnFaOUJOb3hRTGlOYjg1X283UkN1VU1TOTA3U2lIMzhXN2s3c0VnU3FtUDRwYmktQTZNTjVWVHVjUmFBd01wLWYxcVczTQ?oc=5",
+      "fecha": "2026-10-28T04:01:44.000Z",
+      "resumen_corto": "La tecnología no abraza: el desafío del recién nacido al ingresar en la uci La Voz de Galicia",
+      "resumen_largo": "La tecnología no abraza: el desafío del recién nacido al ingresar en la uci La Voz de Galicia",
+      "texto_original": "La tecnología no abraza: el desafío del recién nacido al ingresar en la uci La Voz de Galicia",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-27T23:38:40.677Z",
-        "index": 5,
+        "processed_at": "2026-10-28T04:31:12.850Z",
+        "index": 1,
         "resumen": {
           "generado": true,
           "origen": "translated"
         },
         "idioma_detectado": "es",
         "idioma_original": "es",
-        "categoria": "inteligencia_artificial",
-        "categorias_secundarias": [],
+        "categoria": "tecnologia",
+        "categorias_secundarias": [
+          "inteligencia_artificial"
+        ],
         "category_scores": {
+          "tecnologia": 2,
           "inteligencia_artificial": 1
         },
         "entidades": [],
@@ -2509,9 +2531,78 @@
         "relevancia": 50,
         "confiabilidad_fuente": 53,
         "readability": {
-          "words": 63,
-          "sentences": 6,
-          "average_words_per_sentence": 10.5
+          "words": 50,
+          "sentences": 1,
+          "average_words_per_sentence": 50
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 59.5
+    },
+    {
+      "id": "d0398fbfab969c94",
+      "fuente_id": "google_news_es",
+      "fuente_nombre": "Google News ES",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "google_news",
+      "nivel_fuente": "agregador",
+      "categoria": "tecnologia",
+      "idioma_original": "es",
+      "prioridad_fuente": 3,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Andalucía potencia su presencia en la WTM con 69 empresas y tecnología para contactos - ABC",
+      "titulo_original": "Andalucía potencia su presencia en la WTM con 69 empresas y tecnología para contactos - ABC",
+      "enlace": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOaVdHZnpybG03a0Y3REIwdUpvRVhIbzVmemtWVzdBdmQ3S3VpYk9RcDg3Y1lWSUg0SnI0ZHN0bnZFOUNtSEFjUmdyWnBkaHctcWJTQlhPTTBzU3dTS2VVTUptZExmLXY3NVFsbVpjOFZIVWNMWnc1dnpUUG9CNTNhei1OXzF6QWhwUFpQYjY3dFJ3ODBlX05BR3pEZklLckZVRmE1OVhvcWliMkQ5eHFpVA?oc=5",
+      "fecha": "2026-10-27T13:37:28.000Z",
+      "resumen_corto": "Andalucía potencia su presencia en la WTM con 69 empresas y tecnología para contactos ABC",
+      "resumen_largo": "Andalucía potencia su presencia en la WTM con 69 empresas y tecnología para contactos ABC",
+      "texto_original": "Andalucía potencia su presencia en la WTM con 69 empresas y tecnología para contactos ABC",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-10-28T04:31:12.867Z",
+        "index": 19,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "tecnologia",
+        "categorias_secundarias": [
+          "inteligencia_artificial"
+        ],
+        "category_scores": {
+          "tecnologia": 2,
+          "inteligencia_artificial": 1
+        },
+        "entidades": [],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 75,
+        "relevancia": 50,
+        "confiabilidad_fuente": 53,
+        "readability": {
+          "words": 50,
+          "sentences": 1,
+          "average_words_per_sentence": 50
         },
         "duplicate": {
           "detected": false,
@@ -2544,8 +2635,8 @@
       "texto_original": "María Garaña, CEO de ClarkeModet: \"La tecnología será una 'commodity' y no diferenciará a ninguna empresa” Expansión",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-27T23:38:40.697Z",
-        "index": 32,
+        "processed_at": "2026-10-28T04:31:12.873Z",
+        "index": 28,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -2613,7 +2704,7 @@
       "texto_original": "🇷🇺 🇫🇮 🇳🇴 Полное заявление финской канцелярии: \"Президент Республики Александр Стубб и премьер-министр Норвегии Йонас Гар Стёре провели телефонный разговор с президентом России Владимиром Путиным во вторник, 27 октября 2026 года, из Хельсинки. Разговор стал продолжением встречи в Осло 20 октября и был проведён в консультации с Украиной. Президент Стубб и премьер-министр Стёре выступили с инициативой проведения разговора, чтобы обсудить агрессивную войну России против Украины, а также дипломатические усилия по прекращению войны и продвижению мира и стабильности в Европе. Финляндия и Норвегия — соседние с Россией страны. Они являются решительными сторонниками Украины. Целью разговора было напрямую передать президенту Путину послания о будущих переговорах, чтобы положить конец войне. Разговор был частью подготовки к предстоящей встрече, запланированной в Абу-Даби. Президент Стубб и премьер-министр Стёре участвовали в разговоре в качестве лидеров своих стран и не говорили от имени всей Европы. Норвегия и Финляндия всегда работали ради мира и безопасности в нашем регионе. Обе страны имеют общий интерес к стабильности и предсказуемости в регионе Балтийского моря и в самых северных районах. Это было подчёркнуто в ходе дискуссии. Президент Стубб и премьер-министр Стёре подчеркнули, что Финляндия и Норвегия продолжат свою многолетнюю поддержку Украины. Они также отметили, что войне должен быть положен конец и что переговоры должны продолжаться. «Разговор был открытым и содержательным. Мы — соседние с Россией страны. Исход войны окажет прямое влияние на нашу безопасность и безопасность Европы. Для прекращения войны необходимы прямые обсуждения», — сказал президент Стубб. «Война влечёт за собой огромные человеческие и материальные издержки. Страдания и разрушения будут иметь последствия для будущих поколений. В ходе разговора мы подчеркнули важность деэскалации конфликта», — сказал премьер-министр Стёре\" Подписаться на канал | наш МАХ",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-27T23:38:40.685Z",
+        "processed_at": "2026-10-28T04:31:12.863Z",
         "index": 14,
         "resumen": {
           "generado": true,
@@ -2679,7 +2770,7 @@
       "texto_original": "Спутниковые снимки последствий ударов ВСУ по 75-му арсеналу ГРАУ в Серпухове Московской области и по аэродрому Балтимор в Воронеже . ▪️ 75 арсенал: повреждены 2 цеха и ангар ; ▪️ Балтимор: обе ракеты попали по пустой стоянке - никаких следов обломков, лишь отметины от попаданий. В отличии от Борисоглебска , здесь авиацию своевременно вывели из-под удара . Кстати, в правом углу снимка можно заметить процесс возведения навесов для авиации на месте пустых перекрытий, которые были построены для них еще в далеком 2015 году . Затем в ВКС решили, что и так сойдет, поэтому доделывать тогда их никто не стал, бросив как есть. Осознание необходимости нормальных укрытий для авиации пришло к жирафам только спустя несколько лет войны, а также множество сгоревших и поврежденных бортов. И то не до всех. Военный Осведомитель",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-27T23:38:40.687Z",
+        "processed_at": "2026-10-28T04:31:12.865Z",
         "index": 16,
         "resumen": {
           "generado": true,
@@ -2745,7 +2836,7 @@
       "texto_original": "🇷🇺 Владимир Путин принимает участие в саммите Форума стран — экспортеров газа: ▪️ Путин назвал прямыми террористическими актами подрыв \"Северных потоков\"; ▪️ Мировая газовая отрасль оказалась в ситуации неопределенности — цены резко выросли, но они так же резко могут снизиться; ▪️ Россия — ответственный экспортер газа, надежный и предсказуемый партнер; ▪️ Любые попытки исключить Россию из мирового газового рынка будут иметь серьезные последствия, прежде всего запредельные издержки для потребителей; ▪️ Европа наносит удар по собственной промышленности и социальному сектору, отказываясь от российских энергоносителей и расторгая долгосрочные контракты. У нас в России есть пословица: \"Не копай яму для другого, а сам в нее можешь упасть\". По моему мнению, именно это и произошло сегодня в странах Европейского союза; ▪️ Путин предложил странам-экспортерам газа проработать оптимизацию маршрутов поставок топлива; ▪️ Инвестиции в газовую отрасль должны быть долгосрочными и основываться на долгосрочных контрактах на поставку газа; ▪️ РФ прорабатывает возможность совместной работы с США в Арктике. Подписаться на канал | наш МАХ",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-27T23:38:40.682Z",
+        "processed_at": "2026-10-28T04:31:12.860Z",
         "index": 12,
         "resumen": {
           "generado": true,
@@ -2809,7 +2900,7 @@
       "texto_original": "🇷🇺 🇫🇮 🇳🇴 Кремль о телефонном разговоре Владимира Путина с президентом Финляндии и премьером Норвегии: ▪️ Путин и лидеры Финляндии и Норвегии условились и далее поддерживать прямые контакты по телефону; ▪️ Путин в разговоре с лидерами Финляндии и Норвегии дал оценку текущей ситуации в зоне конфликта на Украине, напомнив о его первопричинах. 👉 Президент России отметил, что справедливый долгосрочный мир на Украине возможен только с учетом интересов РФ; ▪️ Путин в разговоре с лидерами Норвегии и Финляндии указал на конфронтационную политику стран НАТО и ЕС, которая затягивает конфликт на Украине; ▪️ Путин информировал лидеров Норвегии и Финляндии о гуманитарной операции при посредничестве США в районе Алешек; ▪️ Путин в разговоре со Стуббом и Стёре обсудил обеспечение безопасности в регионах Балтийского моря и Севера Европы. Лидеры стран подтвердили важность соблюдения международного морского права и принципа свободы судоходства; ▪️ В ходе разговора Путина с лидерами Финляндии и Норвегии была приветствована договоренность о переговорах в Абу-Даби по Украине. Подписаться на канал | наш МАХ",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-27T23:38:40.683Z",
+        "processed_at": "2026-10-28T04:31:12.862Z",
         "index": 13,
         "resumen": {
           "generado": true,
@@ -2873,7 +2964,7 @@
       "texto_original": "🇫🇮 🇷🇺 🇳🇴 Европейцы позвонили Путину. Президент Финляндии Александр Стубб и министр иностранных дел Норвегии Йонас Гар Стере провели телефонный разговор с президентом России Владимиром Путиным, сообщает офис президента Финляндии. \"Президент Стубб и премьер-министр Стёре выступили с инициативой проведения разговора, чтобы обсудить агрессивную войну России против Украины, а также дипломатические усилия по прекращению войны и продвижению мира и стабильности в Европе.\" \"Финляндия и Норвегия — соседние с Россией страны. Они являются решительными сторонниками Украины. Целью разговора было напрямую передать президенту Путину послания о будущих переговорах, чтобы положить конец войне. Разговор был частью подготовки к предстоящей встрече, запланированной в Абу-Даби.\" \"Президент Стубб и премьер-министр Стёре подчеркнули, что Финляндия и Норвегия продолжат свою долгосрочную поддержку Украины. Они также отметили, что война должна закончиться, а переговоры должны продолжаться.\" \"Норвегия и Финляндия всегда работали ради мира и безопасности в нашем регионе. Обе страны имеют общий интерес к стабильности и предсказуемости в регионе Балтийского моря и в самых северных районах. Это было подчёркнуто в ходе дискуссии\" , - заявления из пресс-релиза . Кремль готовит сообщение по итогам телефонного разговора Путина с президентом Финляндии и премьером Норвегии, сообщил ТАСС Песков. Подписаться на канал | наш МАХ",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-27T23:38:40.686Z",
+        "processed_at": "2026-10-28T04:31:12.865Z",
         "index": 15,
         "resumen": {
           "generado": true,
@@ -2916,24 +3007,24 @@
       "final_score": 50.25
     }
   ],
-  "analyzed_at": "2026-10-27T23:38:40.700Z",
+  "analyzed_at": "2026-10-28T04:31:12.878Z",
   "analysis_stats": {
-    "input_items": 41,
-    "valid_items": 41,
+    "input_items": 42,
+    "valid_items": 42,
     "rejected_items": 0,
     "duplicate_items": 0,
     "clickbait_items": 0,
     "spam_items": 0,
-    "summaries_generated": 41,
-    "average_quality": 78,
+    "summaries_generated": 42,
+    "average_quality": 79,
     "average_relevance": 57
   },
   "validation": {
     "version": "1.1",
-    "executed_at": "2026-10-27T23:38:40.845Z",
-    "original_items": 41,
+    "executed_at": "2026-10-28T04:31:13.036Z",
+    "original_items": 42,
     "rejected_items": 0,
-    "final_items": 41,
+    "final_items": 42,
     "limit": 60,
     "status": "ok"
   }

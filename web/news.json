@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "updated_at": "2026-10-30T08:15:11.880Z",
+  "updated_at": "2026-10-30T15:43:10.124Z",
   "configuracion": {
     "limite_global": 60,
     "frecuencia_minutos": 60,
@@ -22,60 +22,62 @@
   },
   "source_stats": {
     "active_sources": 15,
-    "successful_sources": 14,
-    "collected_items": 57,
-    "deduplicated_items": 40,
-    "final_items": 40
+    "successful_sources": 15,
+    "collected_items": 63,
+    "deduplicated_items": 47,
+    "final_items": 47
   },
   "items": [
     {
-      "id": "bb42b227bf41fe52",
-      "fuente_id": "bbc_mundo",
-      "fuente_nombre": "BBC Mundo",
+      "id": "d1ee15a100fc660a",
+      "fuente_id": "huawei_central",
+      "fuente_nombre": "Huawei Central",
       "tipo": "rss_web",
-      "subtipo": "medio_generalista",
-      "grupo_fuente": "bbc",
-      "nivel_fuente": "medio_profesional",
-      "categoria": "actualidad",
-      "idioma_original": "es",
+      "subtipo": "medio_especializado",
+      "grupo_fuente": "huawei",
+      "nivel_fuente": "secundaria_especializada",
+      "categoria": "moviles",
+      "idioma_original": "en",
       "prioridad_fuente": 5,
       "analizar": true,
       "resumir": true,
-      "titulo": "Muere a los 86 años Patrick Stewart, legendario actor de Star Trek y X-Men",
-      "titulo_original": "Muere a los 86 años Patrick Stewart, legendario actor de Star Trek y X-Men",
-      "enlace": "https://www.bbc.com/mundo/articles/crlyk9yp775zo?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-10-29T20:26:48.000Z",
-      "resumen_corto": "El actor británico Patrick Stewart falleció el miércoles en su casa de Los Ángeles, tras una breve batalla contra la enfermedad de Alzheimer y la demencia con cuerpos de Lewy, según se anunció este jueves a través de su cuenta en Instagram.",
-      "resumen_largo": "El actor británico Patrick Stewart falleció el miércoles en su casa de Los Ángeles, tras una breve batalla contra la enfermedad de Alzheimer y la demencia con cuerpos de Lewy, según se anunció este jueves a través de su cuenta en Instagram. Se informó que el aclamado actor de Star Trek y X-Men estuvo \"bajo el cuidado amoroso de su querida esposa, Sunny\". \"Estuvo arropado por el cálido abrazo de su familia y amigos, rodeado de música en vivo, oraciones, lágrimas, risas y esa profunda emoción que solo él era capaz de inspirar, tras toda una vida de entrega hacia todos nosotros\", añadió la publicación.",
-      "texto_original": "El actor británico Patrick Stewart falleció el miércoles en su casa de Los Ángeles, tras una breve batalla contra la enfermedad de Alzheimer y la demencia con cuerpos de Lewy, según se anunció este jueves a través de su cuenta en Instagram. Se informó que el aclamado actor de Star Trek y X-Men estuvo \"bajo el cuidado amoroso de su querida esposa, Sunny\". \"Estuvo arropado por el cálido abrazo de su familia y amigos, rodeado de música en vivo, oraciones, lágrimas, risas y esa profunda emoción que solo él era capaz de inspirar, tras toda una vida de entrega hacia todos nosotros\", añadió la publicación. \"Guardaremos siempre en el recuerdo la serenidad y la reflexión que se reflejaban en su rostro; un testimonio perdurable de su gracia invencible\". \"Natural de Mirfield, en el West Riding de Yorkshire, su trayectoria le llevó desde la Royal Shakespeare Company hasta una carrera igualmente aclamada que abarcó siete décadas en Broadway, el cine y la televisión\". Si bien muchos actores quedan encasillados en un solo tipo de papel, Stewart pasó con total naturalidad de Shakespeare y Dickens al mando de la USS Enterprise y a su célebre silla de ruedas en la saga de X-Men .",
+      "titulo": "Honor CEO revela las razones detrás de la fuerte demanda de la serie Magic 9",
+      "titulo_original": "Honor CEO reveals reasons behind Magic 9 series strong demand",
+      "enlace": "https://www.huaweicentral.com/honor-ceo-reveals-reasons-behind-magic-9-series-strong-demand/",
+      "fecha": "2026-10-30T15:02:04.000Z",
+      "resumen_corto": "La serie Honor Magic 9 está experimentando una fuerte demanda en el mercado, y la compañía revela las razones detrás de ello.",
+      "resumen_largo": "La serie Honor Magic 9 está experimentando una fuerte demanda en el mercado, y la compañía revela las razones detrás de ello. En un evento reciente, un alto funcionario de Honor declaró que el buque insignia 2026 viene con dos actualizaciones significativas que lo convierten en el principal campeón de teléfonos Android. Li Jian, el CEO de Honor, asistió al Double 11 [...] El CEO de post Honor revela las razones detrás de la fuerte demanda de la serie Magic 9 que apareció primero en Huawei Central .",
+      "texto_original": "Honor Magic 9 series is seeing strong demand in the market, and the company reveals the reasons behind it. In a recent event, a senior Honor official stated that the 2026 flagship comes with two significant upgrades that make it the top Android phone champ. Li Jian, the CEO of Honor, attended the Double 11 […] The post Honor CEO reveals reasons behind Magic 9 series strong demand appeared first on Huawei Central .",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-30T08:15:11.712Z",
-        "index": 17,
+        "processed_at": "2026-10-30T15:43:09.935Z",
+        "index": 3,
         "resumen": {
           "generado": true,
           "origen": "translated"
         },
         "idioma_detectado": "es",
-        "idioma_original": "es",
-        "categoria": "vehiculos_energia",
+        "idioma_original": "en",
+        "categoria": "moviles",
         "categorias_secundarias": [
+          "vehiculos_energia",
           "inteligencia_artificial",
-          "moviles",
-          "hardware"
+          "software_internet"
         ],
         "category_scores": {
-          "vehiculos_energia": 3,
+          "moviles": 5,
+          "vehiculos_energia": 2,
           "inteligencia_artificial": 1,
-          "moviles": 1,
-          "hardware": 1,
-          "militar": 1
+          "software_internet": 1
         },
         "entidades": [
-          "Vivo",
-          "Shakespeare Company"
+          "Huawei",
+          "Android",
+          "Honor"
         ],
-        "cifras_detectadas": [],
+        "cifras_detectadas": [
+          "2026"
+        ],
         "content_type": "report",
         "clickbait": {
           "detected": false,
@@ -88,13 +90,13 @@
           "signals": [],
           "url_count": 0
         },
-        "calidad": 92,
+        "calidad": 97,
         "relevancia": 75,
-        "confiabilidad_fuente": 80,
+        "confiabilidad_fuente": 75,
         "readability": {
-          "words": 249,
-          "sentences": 10,
-          "average_words_per_sentence": 24.9
+          "words": 150,
+          "sentences": 8,
+          "average_words_per_sentence": 18.75
         },
         "duplicate": {
           "detected": false,
@@ -103,10 +105,10 @@
           "similar_to": null
         }
       },
-      "final_score": 82.2
+      "final_score": 82.7
     },
     {
-      "id": "4d18cd54f4ecb9a1",
+      "id": "a7f4b1c3ceec1946",
       "fuente_id": "bbc_mundo",
       "fuente_nombre": "BBC Mundo",
       "tipo": "rss_web",
@@ -118,17 +120,17 @@
       "prioridad_fuente": 5,
       "analizar": true,
       "resumir": true,
-      "titulo": "Cómo el tren de alta velocidad de España pasó de ser un modelo mundial a sufrir dos terribles accidentes en menos de un año",
-      "titulo_original": "Cómo el tren de alta velocidad de España pasó de ser un modelo mundial a sufrir dos terribles accidentes en menos de un año",
-      "enlace": "https://www.bbc.com/mundo/articles/cmz7x8xydzwgo?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-10-30T04:02:36.000Z",
-      "resumen_corto": "En el primero, el pasado 18 de enero, la colisión de dos trenes de alta velocidad en el corredor que une Madrid con la región de Andalucía se saldó con 45 muertos y más de 100 heridos.",
-      "resumen_largo": "La red ferroviaria de alta velocidad de España fue durante años una fuente de orgullo nacional. Sin embargo, un 2026 marcado por la tragedia, con dos accidentes con un total de más de 100 muertos en la misma línea, siembra dudas sobre la seguridad del sistema y extiende la desconfianza entre los usuarios. En el primero, el pasado 18 de enero, la colisión de dos trenes de alta velocidad en el corredor que une Madrid con la región de Andalucía se saldó con 45 muertos y más de 100 heridos.",
-      "texto_original": "La red ferroviaria de alta velocidad de España fue durante años una fuente de orgullo nacional. Sin embargo, un 2026 marcado por la tragedia, con dos accidentes con un total de más de 100 muertos en la misma línea, siembra dudas sobre la seguridad del sistema y extiende la desconfianza entre los usuarios. En el primero, el pasado 18 de enero, la colisión de dos trenes de alta velocidad en el corredor que une Madrid con la región de Andalucía se saldó con 45 muertos y más de 100 heridos. El brutal choque en Adamuz, cerca de la ciudad de Córdoba, era uno de los peores accidentes de trenes en la historia reciente de Europa, con la cifra más alta de víctimas mortales en España desde 2013. Pero sus dramáticas cifras fueron superadas por el accidente de este miércoles a la altura de Urda, Toledo, en el que un tren de la compañía estatal Renfe chocó con otro de la empresa Iryo que se encontraba detenido en la misma vía. El suceso deja hasta el momento 69 muertos, decenas de heridos y un país que se pregunta cómo ha podido repetirse en tan poco tiempo una tragedia de tal magnitud. A los dos grandes accidentes de los trenes de alta velocidad se han sumado en los últimos meses numerosas incidencias y percances en el transporte ferroviario.",
+      "titulo": "Hackeo a la empresa Binance afecta US$6.300 millones en activos digitales, en el mayor robo de criptomonedas conocido (y con impacto en América Latina)",
+      "titulo_original": "Hackeo a la empresa Binance afecta US$6.300 millones en activos digitales, en el mayor robo de criptomonedas conocido (y con impacto en América Latina)",
+      "enlace": "https://www.bbc.com/mundo/articles/cvze42lk562ko?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-10-30T15:15:00.000Z",
+      "resumen_corto": "El gigante de las criptomonedas Binance anunció este jueves que US$6.300 millones en activos digitales se han visto afectados por lo que se considera el mayor hackeo en la historia de esta industria.",
+      "resumen_largo": "El gigante de las criptomonedas Binance anunció este jueves que US$6.300 millones en activos digitales se han visto afectados por lo que se considera el mayor hackeo en la historia de esta industria. La mayor plataforma de intercambio de criptomonedas del mundo afirmó que aproximadamente la mitad de esos activos habían sido congelados, pero que muchos seguían en manos de los piratas informáticos, e indicó que \"cubrirá todas las pérdidas\". La empresa afirmó que, si bien las comprobaciones iniciales sugerían que el ordenador portátil de un ingeniero había sido comprometido -lo que permitió a un hacker realizar retiros no autorizados-, \"nuestra investigación posterior descubrió otros puntos vulnerables adicionales\".",
+      "texto_original": "El gigante de las criptomonedas Binance anunció este jueves que US$6.300 millones en activos digitales se han visto afectados por lo que se considera el mayor hackeo en la historia de esta industria. La mayor plataforma de intercambio de criptomonedas del mundo afirmó que aproximadamente la mitad de esos activos habían sido congelados, pero que muchos seguían en manos de los piratas informáticos, e indicó que \"cubrirá todas las pérdidas\". La empresa afirmó que, si bien las comprobaciones iniciales sugerían que el ordenador portátil de un ingeniero había sido comprometido -lo que permitió a un hacker realizar retiros no autorizados-, \"nuestra investigación posterior descubrió otros puntos vulnerables adicionales\". Dos empresas de análisis han atribuido el incidente, que supera el récord de US$1.500 millones robado a la plataforma de intercambio Bybit en 2025, a una unidad de piratería informática norcoreana llamada TraderTraitor. La empresa de ciberseguridad Check Point afirmó que esta unidad también es conocida en el sector como Lazarus Group, a la que se atribuye el ciberataque de 2025. Jayant Dave, director de seguridad informática de Check Point, afirmó que las pérdidas estimadas por Binance lo convierten en \"el mayor robo de criptomonedas registrado hasta la fecha\".",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-30T08:15:11.704Z",
-        "index": 7,
+        "processed_at": "2026-10-30T15:43:09.931Z",
+        "index": 1,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -138,23 +140,419 @@
         "categoria": "inteligencia_artificial",
         "categorias_secundarias": [
           "hardware",
-          "semiconductores",
-          "moviles"
+          "vehiculos_energia",
+          "software_internet"
         ],
         "category_scores": {
           "inteligencia_artificial": 2,
           "hardware": 2,
-          "semiconductores": 1,
-          "moviles": 1,
-          "software_internet": 1
+          "vehiculos_energia": 2,
+          "software_internet": 2,
+          "tecnologia": 2
         },
         "entidades": [],
         "cifras_detectadas": [
-          "45 m",
-          "2026 m",
-          "100 m",
-          "2013",
-          "69 m"
+          "$6.300",
+          "$1.500",
+          "2025"
+        ],
+        "content_type": "report",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 25,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 92,
+        "relevancia": 73,
+        "confiabilidad_fuente": 80,
+        "readability": {
+          "words": 279,
+          "sentences": 16,
+          "average_words_per_sentence": 17.44
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 81.4
+    },
+    {
+      "id": "0a68bf319ff87bbc",
+      "fuente_id": "huawei_central",
+      "fuente_nombre": "Huawei Central",
+      "tipo": "rss_web",
+      "subtipo": "medio_especializado",
+      "grupo_fuente": "huawei",
+      "nivel_fuente": "secundaria_especializada",
+      "categoria": "moviles",
+      "idioma_original": "en",
+      "prioridad_fuente": 5,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Honor X9e S lanzado con diseño de doble tono, batería de 8560 mAh y cuerpo robusto",
+      "titulo_original": "Honor X9e S launched with dual-tone design, 8560mAh battery, and robust body",
+      "enlace": "https://www.huaweicentral.com/honor-x9e-s-launched/",
+      "fecha": "2026-10-30T10:03:22.000Z",
+      "resumen_corto": "Honor ha lanzado el teléfono inteligente X9e S, un gemelo del Honor Turbo con un diseño de tono bicolor.",
+      "resumen_largo": "Honor ha lanzado el teléfono inteligente X9e S, un gemelo del Honor Turbo con un diseño de tono bicolor. La compañía continúa con sus lanzamientos de bolsillo en el mercado global con el último producto, con un aspecto premium y una batería masiva. Honor X9e S se lanzó en tres tonos: naranja amanecer, negro medianoche y blanco glaciar.",
+      "texto_original": "Honor has now launched the X9e S smartphone, a twin of the Honor Turbo with a dual-color tone design. The company continues its pocket-friendly releases in the global market with the latest product, featuring a premium look and a massive battery. Honor X9e S launched in three shades: Dawn Orange, Midnight Black, and Glacier White. […] The post Honor X9e S launched with dual-tone design, 8560mAh battery, and robust body appeared first on Huawei Central .",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-10-30T15:43:09.953Z",
+        "index": 23,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "en",
+        "categoria": "moviles",
+        "categorias_secundarias": [
+          "baterias_energia",
+          "inteligencia_artificial",
+          "software_internet"
+        ],
+        "category_scores": {
+          "moviles": 5,
+          "baterias_energia": 2,
+          "inteligencia_artificial": 1,
+          "software_internet": 1
+        },
+        "entidades": [
+          "Huawei",
+          "Honor"
+        ],
+        "cifras_detectadas": [
+          "8560 mAh",
+          "8560mAh"
+        ],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 89,
+        "relevancia": 75,
+        "confiabilidad_fuente": 65,
+        "readability": {
+          "words": 144,
+          "sentences": 8,
+          "average_words_per_sentence": 18
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 77.4
+    },
+    {
+      "id": "aec842bf447c6c32",
+      "fuente_id": "huawei_central",
+      "fuente_nombre": "Huawei Central",
+      "tipo": "rss_web",
+      "subtipo": "medio_especializado",
+      "grupo_fuente": "huawei",
+      "nivel_fuente": "secundaria_especializada",
+      "categoria": "moviles",
+      "idioma_original": "en",
+      "prioridad_fuente": 5,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Los smartwatches Huawei reciben un cambio de imagen de AppGallery largamente esperado",
+      "titulo_original": "Huawei smartwatches receiving long-overdue AppGallery makeover",
+      "enlace": "https://www.huaweicentral.com/huawei-smartwatches-receiving-long-overdue-appgallery-makeover/",
+      "fecha": "2026-10-30T11:17:34.000Z",
+      "resumen_corto": "Huawei AppGallery está recibiendo un nuevo cambio de imagen para los relojes inteligentes.",
+      "resumen_largo": "Huawei AppGallery está recibiendo un nuevo cambio de imagen para los relojes inteligentes. La compañía está rediseñando la tienda de aplicaciones, haciéndola más conveniente para los usuarios de dispositivos portátiles. La actualización, pendiente desde hace mucho tiempo, se está implementando y pronto llegará a tu dispositivo.",
+      "texto_original": "Huawei AppGallery is getting a new makeover for smartwatches. The company is redesigning the app store, making it more convienent for wearable users. The long-overdue update is rolling out and will soon reach your device. Here are the details. AppGallery is Huawei’s application store. It serves as an alternative to the Google Play Store and […] The post Huawei smartwatches receiving long-overdue AppGallery makeover appeared first on Huawei Central .",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-10-30T15:43:09.950Z",
+        "index": 18,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "en",
+        "categoria": "moviles",
+        "categorias_secundarias": [
+          "software_internet",
+          "inteligencia_artificial",
+          "hardware"
+        ],
+        "category_scores": {
+          "moviles": 4,
+          "software_internet": 4,
+          "inteligencia_artificial": 2,
+          "hardware": 2,
+          "tecnologia": 2,
+          "semiconductores": 1,
+          "vehiculos_energia": 1
+        },
+        "entidades": [
+          "Huawei",
+          "Google"
+        ],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 84,
+        "relevancia": 75,
+        "confiabilidad_fuente": 65,
+        "readability": {
+          "words": 121,
+          "sentences": 10,
+          "average_words_per_sentence": 12.1
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 75.65
+    },
+    {
+      "id": "e602d9084538a19c",
+      "fuente_id": "huawei_central",
+      "fuente_nombre": "Huawei Central",
+      "tipo": "rss_web",
+      "subtipo": "medio_especializado",
+      "grupo_fuente": "huawei",
+      "nivel_fuente": "secundaria_especializada",
+      "categoria": "moviles",
+      "idioma_original": "en",
+      "prioridad_fuente": 5,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Huawei pura 80 y pura 70 reciben la actualización EMUI de octubre de 2026",
+      "titulo_original": "Huawei Pura 80 and Pura 70 get October 2026 EMUI update",
+      "enlace": "https://www.huaweicentral.com/huawei-pura-80-and-pura-70-get-october-2026-emui-update/",
+      "fecha": "2026-10-30T14:29:45.000Z",
+      "resumen_corto": "Huawei está lanzando la actualización EMUI de octubre de 2026 para las series pura 80 y pura 70.",
+      "resumen_largo": "Huawei está lanzando la actualización EMUI de octubre de 2026 para las series pura 80 y pura 70. El último firmware incluye un nuevo parche de seguridad lanzado este mes con ciertas correcciones de privacidad. Además, mejora la estabilidad del sistema del dispositivo en cierta medida.",
+      "texto_original": "Huawei is rolling out the October 2026 EMUI update to the Pura 80 and Pura 70 series. The latest firmware includes a new security patch released this month with certain privacy fixes. In addition, it enhances the device’s system stability to some extent. October 2026 update brings 2 high-level and 14 medium-level vulnerabilities. It also […] The post Huawei Pura 80 and Pura 70 get October 2026 EMUI update appeared first on Huawei Central .",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-10-30T15:43:09.936Z",
+        "index": 5,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "en",
+        "categoria": "software_internet",
+        "categorias_secundarias": [
+          "moviles",
+          "tecnologia",
+          "inteligencia_artificial"
+        ],
+        "category_scores": {
+          "software_internet": 5,
+          "moviles": 2,
+          "tecnologia": 2,
+          "inteligencia_artificial": 1,
+          "vehiculos_energia": 1,
+          "militar": 1
+        },
+        "entidades": [
+          "Huawei"
+        ],
+        "cifras_detectadas": [
+          "2026",
+          "14 m"
+        ],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 89,
+        "relevancia": 70,
+        "confiabilidad_fuente": 65,
+        "readability": {
+          "words": 124,
+          "sentences": 9,
+          "average_words_per_sentence": 13.78
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 75.4
+    },
+    {
+      "id": "bfe1f081a422b328",
+      "fuente_id": "huawei_central",
+      "fuente_nombre": "Huawei Central",
+      "tipo": "rss_web",
+      "subtipo": "medio_especializado",
+      "grupo_fuente": "huawei",
+      "nivel_fuente": "secundaria_especializada",
+      "categoria": "moviles",
+      "idioma_original": "en",
+      "prioridad_fuente": 5,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "La fuga del Huawei Mate X8 revela una cámara principal de 50MP y sensores de zoom",
+      "titulo_original": "Huawei Mate X8 leak reveals 50MP main camera and zoom sensors",
+      "enlace": "https://www.huaweicentral.com/huawei-mate-x8-camera-sensors/",
+      "fecha": "2026-10-30T13:46:24.000Z",
+      "resumen_corto": "Como señaló SmartPikachu, el Huawei Mate X8 podría adoptar una pantalla interna de 8 pulgadas, una [...] La fuga posterior al Huawei Mate X8 revela que la cámara principal de 50MP y los sensores de zoom aparecieron primero en Huawei Central .",
+      "resumen_largo": "Huawei Mate X8 está en proceso de fabricación y probablemente se lanzará el próximo mes; mientras tanto, una nueva fuga arroja luz sobre los sensores de la cámara plegable. Después de la visualización y los detalles de diseño, los parámetros de imagen del teléfono insignia han aparecido en línea. Como señaló SmartPikachu, el Huawei Mate X8 podría adoptar una pantalla interna de 8 pulgadas, una [...] La fuga posterior al Huawei Mate X8 revela que la cámara principal de 50MP y los sensores de zoom aparecieron primero en Huawei Central .",
+      "texto_original": "Huawei Mate X8 is in the making and will probably launch next month; in the meantime, a new leak sheds light on the foldable’s camera sensors. After the display and design details, the flagship phone’s imaging parameters have surfaced online. As noted by SmartPikachu, the Huawei Mate X8 could adopt an 8-inch internal display, a […] The post Huawei Mate X8 leak reveals 50MP main camera and zoom sensors appeared first on Huawei Central .",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-10-30T15:43:09.941Z",
+        "index": 8,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "en",
+        "categoria": "moviles",
+        "categorias_secundarias": [
+          "inteligencia_artificial",
+          "hardware",
+          "semiconductores"
+        ],
+        "category_scores": {
+          "moviles": 4,
+          "inteligencia_artificial": 2,
+          "hardware": 2,
+          "semiconductores": 1,
+          "vehiculos_energia": 1,
+          "software_internet": 1
+        },
+        "entidades": [
+          "Huawei"
+        ],
+        "cifras_detectadas": [
+          "50M"
+        ],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 89,
+        "relevancia": 70,
+        "confiabilidad_fuente": 65,
+        "readability": {
+          "words": 172,
+          "sentences": 9,
+          "average_words_per_sentence": 19.11
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 75.4
+    },
+    {
+      "id": "9a8cdda323fdfdfd",
+      "fuente_id": "wccftech_google",
+      "fuente_nombre": "Wccftech",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "wccftech",
+      "nivel_fuente": "medio_especializado",
+      "categoria": "hardware",
+      "idioma_original": "en",
+      "prioridad_fuente": 4,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "RTX 5080 es la próxima GPU que desaparecerá del mercado en línea de NVIDIA tras los informes de que pronto llegará una variante de VRAM de 24 GB",
+      "titulo_original": "RTX 5080 Is The Next GPU To Disappear From NVIDIA’s Online Marketplace Following Reports That A 24GB VRAM Variant Is Arriving Soon - Wccftech",
+      "enlace": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQaGFrY240OG12U0lOSFNkekgxOW1BU0lyd0hYSzVNc09FWGhtY3NOQnZVMGp3UExsRlF1S0ZNVGFZYmVRbGdLMFhpQ2RZNWhXQWpVeWFEdHg5OHlzNWFYc0lveUJmZjdkV1BqY1hzUFh5eG91WlJhUzFoQ0s5cEJVY1hSd0NHc0nSAYwBQVVfeXFMUEQ0QU90UTlqbERYTlA5NGdaLTVCdFktcEtQM1lBRmJyLTg1RktBQkJ4Q0d6VWQ0VFJKdVpHTmRNbWhBa1JYNGphb2E0ZDI5UFhuNWoyTzJlemdfYmRKSDEzQm9VMDFyMlNkMjlwYmtpRzRLWDZiVWQ4UlNBN1c5b09UeVJneEIzOUZqOEY?oc=5",
+      "fecha": "2026-10-30T11:55:55.000Z",
+      "resumen_corto": "RTX 5080 es la próxima GPU en desaparecer del mercado en línea de NVIDIA tras los informes de que una variante de VRAM de 24 GB llegará pronto a Wccftech",
+      "resumen_largo": "RTX 5080 es la próxima GPU en desaparecer del mercado en línea de NVIDIA tras los informes de que una variante de VRAM de 24 GB llegará pronto a Wccftech",
+      "texto_original": "RTX 5080 Is The Next GPU To Disappear From NVIDIA’s Online Marketplace Following Reports That A 24GB VRAM Variant Is Arriving Soon Wccftech",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-10-30T15:43:09.948Z",
+        "index": 16,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "en",
+        "categoria": "inteligencia_artificial",
+        "categorias_secundarias": [
+          "semiconductores",
+          "hardware",
+          "software_internet"
+        ],
+        "category_scores": {
+          "inteligencia_artificial": 1,
+          "semiconductores": 1,
+          "hardware": 1,
+          "software_internet": 1,
+          "tecnologia": 1
+        },
+        "entidades": [
+          "NVIDIA",
+          "Wccftech"
+        ],
+        "cifras_detectadas": [
+          "5080",
+          "24 GB",
+          "24GB"
         ],
         "content_type": "report",
         "clickbait": {
@@ -168,13 +566,13 @@
           "signals": [],
           "url_count": 0
         },
-        "calidad": 92,
-        "relevancia": 65,
-        "confiabilidad_fuente": 80,
+        "calidad": 95,
+        "relevancia": 67,
+        "confiabilidad_fuente": 60,
         "readability": {
-          "words": 261,
-          "sentences": 11,
-          "average_words_per_sentence": 23.73
+          "words": 95,
+          "sentences": 1,
+          "average_words_per_sentence": 95
         },
         "duplicate": {
           "detected": false,
@@ -183,7 +581,7 @@
           "similar_to": null
         }
       },
-      "final_score": 78.2
+      "final_score": 75.05
     },
     {
       "id": "8e1ebee2a5a7bb41",
@@ -198,17 +596,17 @@
       "prioridad_fuente": 5,
       "analizar": true,
       "resumir": true,
-      "titulo": "Beneficio de créditos API para suscripciones ChatGPT elegibles - Centro de ayuda de OpenAI",
+      "titulo": "Beneficio de créditos de API para suscripciones de ChatGPT elegibles - Centro de ayuda de OpenAI",
       "titulo_original": "API credits benefit for eligible ChatGPT subscriptions - OpenAI Help Center",
       "enlace": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPUWVvSWd3Zkx2eUUxdTFBdHFOSTF2U2x6U3pqNXYyelVLUHVxSF9EY0Vlbkoxc2xkSjFYR0Nla1RlWDdhNWFTS29jcTl5RFFUc3hOdkFFaVpFbGE2bi00Tzh2VUVJcDRNd0lHTlhBUEdaNlBNUTVXU005bVBVaUs2TXBxX0pfQVdyd2duYy1fR0NWZkpHUnI3Q3dLNmt6YXN3?oc=5",
-      "fecha": "2026-10-30T04:00:01.000Z",
-      "resumen_corto": "Beneficio de créditos API para suscripciones ChatGPT elegibles Centro de ayuda de OpenAI",
-      "resumen_largo": "Beneficio de créditos API para suscripciones ChatGPT elegibles Centro de ayuda de OpenAI",
+      "fecha": "2026-10-30T09:57:11.000Z",
+      "resumen_corto": "Beneficio de créditos de API para suscripciones de ChatGPT elegibles Centro de ayuda de OpenAI",
+      "resumen_largo": "Beneficio de créditos de API para suscripciones de ChatGPT elegibles Centro de ayuda de OpenAI",
       "texto_original": "API credits benefit for eligible ChatGPT subscriptions OpenAI Help Center",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-30T08:15:11.705Z",
-        "index": 9,
+        "processed_at": "2026-10-30T15:43:09.954Z",
+        "index": 25,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -270,7 +668,7 @@
       "prioridad_fuente": 5,
       "analizar": true,
       "resumir": true,
-      "titulo": "Créditos API para suscriptores de ChatGPT - Desarrolladores de OpenAI",
+      "titulo": "Créditos API para suscriptores de ChatGPT - OpenAI Developers",
       "titulo_original": "API credits for ChatGPT subscribers - OpenAI Developers",
       "enlace": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5TdTd2cGVWak1tVW1fLVN4MXVWM1dqZ25xcW0xTlItM1ZoMFEyLTgwTDFBcGw4V05hcjRXblRPQzd4WU5yUzk4Ym9sNVNhUHBrdV9VZWdWTjVZOXdZVEM4d2w0WXdoQ2xzdUJYLUFrRG5sTXM?oc=5",
       "fecha": "2026-10-28T21:15:29.000Z",
@@ -279,8 +677,8 @@
       "texto_original": "API credits for ChatGPT subscribers OpenAI Developers",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-30T08:15:11.721Z",
-        "index": 34,
+        "processed_at": "2026-10-30T15:43:09.962Z",
+        "index": 40,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -330,59 +728,60 @@
       "final_score": 74.95
     },
     {
-      "id": "320a248df63e695b",
-      "fuente_id": "wccftech_google",
-      "fuente_nombre": "Wccftech",
+      "id": "11306c4611a0be3a",
+      "fuente_id": "huawei_central",
+      "fuente_nombre": "Huawei Central",
       "tipo": "rss_web",
-      "subtipo": "google_news",
-      "grupo_fuente": "wccftech",
-      "nivel_fuente": "medio_especializado",
-      "categoria": "hardware",
+      "subtipo": "medio_especializado",
+      "grupo_fuente": "huawei",
+      "nivel_fuente": "secundaria_especializada",
+      "categoria": "moviles",
       "idioma_original": "en",
-      "prioridad_fuente": 4,
+      "prioridad_fuente": 5,
       "analizar": true,
       "resumir": true,
-      "titulo": "El negocio de centros de datos de Intel es ahora casi tan grande como su división de PC después de un aumento del 78%, mientras que la orientación del cuarto trimestre sugiere ingresos más suaves y márgenes más reducidos",
-      "titulo_original": "Intel’s Data Center Business Is Now Almost As Big As Its PC Division After A 78% Surge, While Q4 Guidance Hints At Softer Revenue And Thinner Margins - Wccftech",
-      "enlace": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQYWlQREVfV0tfbTZ3bFhiM3VXNkp5TFFFNDJqeEZ5SF9kNjZibDN6TG1xMy1kdUUxdjJ1WU1KTlVnR3puMVdQdnphRVFSX1dpd2pMaHJIX0c1VHdhYThyN3lEX0ZWWG9mYXhoU0xWY0pyUjB4WDh5Mm5iQ1RrcWxveUJwVnFxRm9McFY40gGQAUFVX3lxTE9aZWZXT19YZUJsUmIwQXV2SXFDYUs0em85YzlfVlRYTjZtbzRpZjZPUXg3UDdTNm40WTFoYkJvZ2xFc0tkaUxSdjBQUkR0bGJtYjdaaS1id2FIQklXeXY1QS12VXJub0ZtNjNxd3ptby1MUE04Smd2VmdsU0w0UkNoMWlFR2ZCb0dGNUUyZUlvaQ?oc=5",
-      "fecha": "2026-10-29T22:17:51.000Z",
-      "resumen_corto": "El negocio de centros de datos de Intel ahora es casi tan grande como su división de PC después de un aumento del 78%, mientras que la orientación del cuarto trimestre sugiere ingresos más suaves y márgenes más reducidos",
-      "resumen_largo": "El negocio de centros de datos de Intel ahora es casi tan grande como su división de PC después de un aumento del 78%, mientras que la orientación del cuarto trimestre sugiere ingresos más suaves y márgenes más reducidos",
-      "texto_original": "Intel’s Data Center Business Is Now Almost As Big As Its PC Division After A 78% Surge, While Q4 Guidance Hints At Softer Revenue And Thinner Margins Wccftech",
+      "titulo": "Huawei podría lanzar un pequeño MateBook Fold PC en noviembre",
+      "titulo_original": "Huawei could launch small MateBook Fold PC in November",
+      "enlace": "https://www.huaweicentral.com/huawei-could-launch-small-matebook-fold-pc-in-november/",
+      "fecha": "2026-10-30T12:40:15.000Z",
+      "resumen_corto": "Huawei lanzará muchos productos nuevos en noviembre, y un pequeño MateBook Fold PC podría ser parte de ello.",
+      "resumen_largo": "Huawei lanzará muchos productos nuevos en noviembre, y un pequeño MateBook Fold PC podría ser parte de ello. Si bien la compañía está trabajando en nuevos teléfonos de pantalla ancha y un buque insignia plegable, una nueva filtración dice que habrá más dispositivos el próximo mes. SmartPikachu reveló que Huawei podría lanzar un pequeño MateBook Fold PC en noviembre.",
+      "texto_original": "Huawei will launch many new products in November, and a small MateBook Fold PC could be part of it. While the company is working on new wide-display phones and a flagship foldable, a new leak says more devices are coming next month. SmartPikachu revealed that Huawei could launch a small MateBook Fold PC in November. […] The post Huawei could launch small MateBook Fold PC in November appeared first on Huawei Central .",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-30T08:15:11.710Z",
-        "index": 14,
+        "processed_at": "2026-10-30T15:43:09.946Z",
+        "index": 13,
         "resumen": {
           "generado": true,
           "origen": "translated"
         },
         "idioma_detectado": "es",
         "idioma_original": "en",
-        "categoria": "hardware",
+        "categoria": "moviles",
         "categorias_secundarias": [
-          "vehiculos_energia",
-          "militar",
-          "tecnologia"
+          "hardware",
+          "tecnologia",
+          "inteligencia_artificial"
         ],
         "category_scores": {
-          "hardware": 1,
+          "moviles": 4,
+          "hardware": 2,
+          "tecnologia": 2,
+          "inteligencia_artificial": 1,
           "vehiculos_energia": 1,
-          "militar": 1,
-          "tecnologia": 1
+          "software_internet": 1
         },
         "entidades": [
-          "Intel",
-          "Wccftech"
+          "Huawei"
         ],
-        "cifras_detectadas": [
-          "78%"
-        ],
-        "content_type": "report",
+        "cifras_detectadas": [],
+        "content_type": "news",
         "clickbait": {
           "detected": false,
-          "score": 0,
-          "signals": []
+          "score": 25,
+          "signals": [
+            "\\brevealed\\b"
+          ]
         },
         "spam": {
           "detected": false,
@@ -390,13 +789,13 @@
           "signals": [],
           "url_count": 0
         },
-        "calidad": 80,
-        "relevancia": 75,
-        "confiabilidad_fuente": 60,
+        "calidad": 84,
+        "relevancia": 70,
+        "confiabilidad_fuente": 65,
         "readability": {
-          "words": 118,
-          "sentences": 1,
-          "average_words_per_sentence": 118
+          "words": 127,
+          "sentences": 8,
+          "average_words_per_sentence": 15.88
         },
         "duplicate": {
           "detected": false,
@@ -405,7 +804,7 @@
           "similar_to": null
         }
       },
-      "final_score": 73
+      "final_score": 73.65
     },
     {
       "id": "f58594aa004fd390",
@@ -429,8 +828,8 @@
       "texto_original": "An updated Model Spec for more capable and beneficial AI OpenAI",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-30T08:15:11.715Z",
-        "index": 22,
+        "processed_at": "2026-10-30T15:43:09.959Z",
+        "index": 33,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -479,6 +878,74 @@
       "final_score": 72.95
     },
     {
+      "id": "5165ba3b6230c2b5",
+      "fuente_id": "xataka_google",
+      "fuente_nombre": "Xataka",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "xataka",
+      "nivel_fuente": "medio_especializado",
+      "categoria": "tecnologia",
+      "idioma_original": "es",
+      "prioridad_fuente": 4,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "He visto al nuevo MacBook Pro táctil trabajar en un rodaje, un estudio de música y una sesión de fotos: así encaja en cada uno",
+      "titulo_original": "He visto al nuevo MacBook Pro táctil trabajar en un rodaje, un estudio de música y una sesión de fotos: así encaja en cada uno - Xataka",
+      "enlace": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNeDhVUEhaWFhHNFNjdzJVUlJxTVpyQ1ZrZ05DTEJDWi0tLV9NRFBhRmlyaEd2SVJ4VWQ3U2tUY2MzUXpoNFdFdWNNanlyaVFHeWszSnpNNGdpVllNemsxSUNOVzJiZjR0S0lwLXRfek5NcE5LN25IaWpaM1Q4TlpiUTZWRTlrSGtUcnNZVWhsMnp4SWpKNUREc1Fmci1COVZkam5CTG1NQ2N5dTlUX2FvYmZLUTUwRTd0aDIyQ0dBQjZtbE5XS29wYllla9IB0AFBVV95cUxNcjhiR05qa3JlVHVheVY2eFJLQnFsdUpGQmhERVVXcWY1T0lZa0JXQk5qMkgxR05NNDB1eTJRVkhXTmxfYS1naTZYX0V6QXp3ZHl0VlJlOUttN3BaMGdCSUctYWJkU1NfZ3RpeHdnaGZuSHVPOTFkdDk3TWJlaV8zZTNDQ1dBYngzWUpTNDNtZTZXakhoZGI5U050Q1BXeHFyWVdRbHFvd0FuMTg4Z0d6dW8zZDNFRnZld2JreFdLcHZ5cV9mZHN1R1BUUUwtR0pn?oc=5",
+      "fecha": "2026-10-30T09:31:27.000Z",
+      "resumen_corto": "He visto al nuevo MacBook Pro táctil trabajar en un rodaje, un estudio de música y una sesión de fotos: así encaja en cada uno Xataka",
+      "resumen_largo": "He visto al nuevo MacBook Pro táctil trabajar en un rodaje, un estudio de música y una sesión de fotos: así encaja en cada uno Xataka",
+      "texto_original": "He visto al nuevo MacBook Pro táctil trabajar en un rodaje, un estudio de música y una sesión de fotos: así encaja en cada uno Xataka",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-10-30T15:43:09.955Z",
+        "index": 26,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "vehiculos_energia",
+        "categorias_secundarias": [],
+        "category_scores": {
+          "vehiculos_energia": 1
+        },
+        "entidades": [
+          "Xataka"
+        ],
+        "cifras_detectadas": [],
+        "content_type": "report",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 90,
+        "relevancia": 63,
+        "confiabilidad_fuente": 60,
+        "readability": {
+          "words": 84,
+          "sentences": 1,
+          "average_words_per_sentence": 84
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 71.7
+    },
+    {
       "id": "426254e9925ddfd1",
       "fuente_id": "huawei_google",
       "fuente_nombre": "Huawei Central",
@@ -491,17 +958,17 @@
       "prioridad_fuente": 4,
       "analizar": true,
       "resumir": true,
-      "titulo": "Huawei Pura 90 Plus se lanzó con pantalla de 6,8 pulgadas, chip Kirin 9025, batería de 6800 mAh y carga de 100 W",
+      "titulo": "Huawei pura 90 Plus lanzado con pantalla de 6,8 pulgadas, chip Kirin 9025, batería de 6800 mAh y carga de 100 W",
       "titulo_original": "Huawei Pura 90 Plus launched with 6.8-inch display, Kirin 9025 chip, 6800mAh battery, and 100W charging - Huawei Central",
       "enlace": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1fY3ZvdWlPczJKemE2aWJMMEU3VkhfdFFZclJnWGRPUGtzUXdKQkdHOElJRGpHWDN4dlNrbUhLV3Y2UmdNNkJKMlFkRjhWNERLa2RaaDlITm0yTS15c0E0ZVc0SkZkMDcyS25B0gFwQVVfeXFMT1l0S1hQMXZZUGZFRVV0SUNmcmtTYnNlNi1Zb2VBcW8xSjV5Z1U1cEp4V2Y0VXB6d1VPTzhTNlBhZDh4a1gwNE9fX0c1QTRzaUp1ZU5KbE1tSDZkVEpBQlROR2Nmak16VDh3eXpyNEtOWA?oc=5",
       "fecha": "2026-10-28T07:42:19.000Z",
-      "resumen_corto": "Huawei Pura 90 Plus se lanzó con pantalla de 6,8 pulgadas, chip Kirin 9025, batería de 6800 mAh y carga de 100 W Huawei Central",
-      "resumen_largo": "Huawei Pura 90 Plus se lanzó con pantalla de 6,8 pulgadas, chip Kirin 9025, batería de 6800 mAh y carga de 100 W Huawei Central",
+      "resumen_corto": "Huawei pura 90 Plus lanzado con pantalla de 6,8 pulgadas, chip Kirin 9025, batería de 6800 mAh y carga de 100 W Huawei Central",
+      "resumen_largo": "Huawei pura 90 Plus lanzado con pantalla de 6,8 pulgadas, chip Kirin 9025, batería de 6800 mAh y carga de 100 W Huawei Central",
       "texto_original": "Huawei Pura 90 Plus launched with 6.8-inch display, Kirin 9025 chip, 6800mAh battery, and 100W charging Huawei Central",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-30T08:15:11.722Z",
-        "index": 37,
+        "processed_at": "2026-10-30T15:43:09.965Z",
+        "index": 44,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -562,158 +1029,6 @@
       "final_score": 71.7
     },
     {
-      "id": "780b67756933bb95",
-      "fuente_id": "wccftech_google",
-      "fuente_nombre": "Wccftech",
-      "tipo": "rss_web",
-      "subtipo": "google_news",
-      "grupo_fuente": "wccftech",
-      "nivel_fuente": "medio_especializado",
-      "categoria": "hardware",
-      "idioma_original": "en",
-      "prioridad_fuente": 4,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "El ex director ejecutivo de Intel, Patrick Gelsinger, respalda una nueva e innovadora tecnología de memoria que podría resolver el gran cuello de botella de los chips de IA",
-      "titulo_original": "Former Intel CEO Patrick Gelsinger Backs Breakthrough New Memory Technology That Could Resolve Big AI Chip Bottleneck - Wccftech",
-      "enlace": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQbFU4M1R3SF9kZC1qX05wY28zS0NWajVmbXBCUi1uTy1TMi02MGkwc3NPc0Z2bHlhaWFpSUlzRE1kVXJCX1hZeXkxVjdfNkswalJ5Rzg1ZjdpOVJUVmpqSDJzRGJXOVNBMXR5dmJrSDBBRVNGc0dVVmp6WURiMFdKRmpnRC1scEFhS3dFdWhTX3R5cExYVzl6QW1keEIyenM5VmZYWlp1RWJQM05RcVFzU3NRN0d5OHpIWGdiSXZUWGFFSTRfc2x3STh2OUNzUnB0Uk9mMy1R0gHbAUFVX3lxTE9acEhEQmExdl9CQmpvRVZrdThvMEs3RjA2TjZsaDQ2c3JyTXZoSzY2U205bUw2ekdKQ1l6TGVkdUVzRDAzQ3ljS0VubmN5ZmVHWVM2TS1yd0JhbVRZa0tyeTctMS1RN1FfLTRxMGpuSVdhd2VoelBzeWtISG5kR1JzWHNXTGR0TlFibUlNRjZweDJTV2VMZEJGVGFaQy10VkZFZWhsS2NCRm5ibE5IOWJ0R3pvTkVKMHNXZE1QZkdJMW1xa3NqbW9yRmJIaHhqTnNkNWgzVXZ6TmhPbw?oc=5",
-      "fecha": "2026-10-29T11:42:40.000Z",
-      "resumen_corto": "El ex director ejecutivo de Intel, Patrick Gelsinger, respalda una nueva e innovadora tecnología de memoria que podría resolver el gran cuello de botella de los chips de IA",
-      "resumen_largo": "El ex director ejecutivo de Intel, Patrick Gelsinger, respalda una nueva e innovadora tecnología de memoria que podría resolver el gran cuello de botella de los chips de IA",
-      "texto_original": "Former Intel CEO Patrick Gelsinger Backs Breakthrough New Memory Technology That Could Resolve Big AI Chip Bottleneck Wccftech",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-10-30T08:15:11.719Z",
-        "index": 29,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "en",
-        "categoria": "tecnologia",
-        "categorias_secundarias": [
-          "inteligencia_artificial",
-          "semiconductores",
-          "vehiculos_energia"
-        ],
-        "category_scores": {
-          "tecnologia": 4,
-          "inteligencia_artificial": 2,
-          "semiconductores": 2,
-          "vehiculos_energia": 1
-        },
-        "entidades": [
-          "Intel",
-          "Wccftech",
-          "Memory Technology"
-        ],
-        "cifras_detectadas": [],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 82,
-        "relevancia": 75,
-        "confiabilidad_fuente": 50,
-        "readability": {
-          "words": 91,
-          "sentences": 1,
-          "average_words_per_sentence": 91
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 71.2
-    },
-    {
-      "id": "f358f108594231b6",
-      "fuente_id": "bbc_mundo",
-      "fuente_nombre": "BBC Mundo",
-      "tipo": "rss_web",
-      "subtipo": "medio_generalista",
-      "grupo_fuente": "bbc",
-      "nivel_fuente": "medio_profesional",
-      "categoria": "actualidad",
-      "idioma_original": "es",
-      "prioridad_fuente": 5,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "\"Vinimos a luchar contra los malvados\": Bukele muestra el despliegue militar de El Salvador en Haití para rescatar a 4 soldados secuestrados por las pandillas",
-      "titulo_original": "\"Vinimos a luchar contra los malvados\": Bukele muestra el despliegue militar de El Salvador en Haití para rescatar a 4 soldados secuestrados por las pandillas",
-      "enlace": "https://www.bbc.com/mundo/articles/cm20wdy1w5p8o?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-10-29T23:19:10.000Z",
-      "resumen_corto": "Lo hizo horas después de que el Ministerio de Relaciones Exteriores de El Salvador confirmara que el mandatario ya había informado sobre un \"despliegue robusto\" al primer ministro haitiano, Alix Didier Fils-Aime, a principios de semana.",
-      "resumen_largo": "El presidente Nayib Bukele publicó este jueves imágenes de la misión enviada a Haití para recuperar a cuatro militares salvadoreños que desaparecieron en el país caribeño hace casi dos semanas y darles \"una lección a las pandillas\". Lo hizo horas después de que el Ministerio de Relaciones Exteriores de El Salvador confirmara que el mandatario ya había informado sobre un \"despliegue robusto\" al primer ministro haitiano, Alix Didier Fils-Aime, a principios de semana. La misión asciende a 2.000 efectivos, que reforzarán las operaciones de búsqueda y rescate de los soldados.",
-      "texto_original": "El presidente Nayib Bukele publicó este jueves imágenes de la misión enviada a Haití para recuperar a cuatro militares salvadoreños que desaparecieron en el país caribeño hace casi dos semanas y darles \"una lección a las pandillas\". Lo hizo horas después de que el Ministerio de Relaciones Exteriores de El Salvador confirmara que el mandatario ya había informado sobre un \"despliegue robusto\" al primer ministro haitiano, Alix Didier Fils-Aime, a principios de semana. La misión asciende a 2.000 efectivos, que reforzarán las operaciones de búsqueda y rescate de los soldados. Integrantes de un cuerpo multinacional respaldada por la ONU cuya misión es combatir el crimen y ayudar a restablecer el orden en Haití, se les perdió la pista el 18 de octubre en una zona controlada por pandillas . Adjunto a un mensaje en criollo dirigido al \"pueblo haitiano\", Bukele compartió este jueves en X un video en el que se ve a militares abordando vuelos y vehículos de combate y helicópteros listos para ser transportados. \"Casi hemos terminado de desplegar a nuestros soldados y equipos en suelo haitiano. Esta no es una operación contra el pueblo haitiano, ni una invasión del país de Haití. No somos una gran potencia. No tenemos interés en dominar al pueblo haitiano, ni en apropiarnos de la riqueza de Haití\", escribió en la red social.",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-10-30T08:15:11.707Z",
-        "index": 10,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "es",
-        "categoria": "inteligencia_artificial",
-        "categorias_secundarias": [
-          "vehiculos_energia",
-          "actualidad",
-          "semiconductores"
-        ],
-        "category_scores": {
-          "inteligencia_artificial": 2,
-          "vehiculos_energia": 2,
-          "actualidad": 2,
-          "semiconductores": 1,
-          "moviles": 1,
-          "militar": 1
-        },
-        "entidades": [],
-        "cifras_detectadas": [],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 79,
-        "relevancia": 65,
-        "confiabilidad_fuente": 70,
-        "readability": {
-          "words": 271,
-          "sentences": 15,
-          "average_words_per_sentence": 18.07
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 71.15
-    },
-    {
       "id": "e6536f17d56c8a04",
       "fuente_id": "techinsights_google",
       "fuente_nombre": "TechInsights",
@@ -726,7 +1041,7 @@
       "prioridad_fuente": 5,
       "analizar": true,
       "resumir": true,
-      "titulo": "TechInsights adquiere Strategy Analytics para ampliar aún más sus capacidades en el análisis del mercado de microelectrónica",
+      "titulo": "TechInsights adquiere Strategy Analytics para ampliar aún más sus capacidades en el análisis del mercado de la microelectrónica",
       "titulo_original": "TechInsights Acquires Strategy Analytics to Further Expand its Capabilities in Microelectronics Market Analysis - TechInsights",
       "enlace": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPZDNQTEZYRFZtRTNRWS1DN2JTQ21zZWNKNkEzOG0zRFN4RDlDWE55ZDgxeHRPckl2SHJ0OUVlcml3Rk04OUszNzBWNTh1QXdiUF9mSkxTd2drc3hLVHV6TEg1TWJ0TzE2QUJha3hvdXpCdGdHZjFWZDlac1BsMHZKREVpVVp0aU0?oc=5",
       "fecha": "2026-10-23T18:57:07.000Z",
@@ -735,8 +1050,8 @@
       "texto_original": "TechInsights Acquires Strategy Analytics to Further Expand its Capabilities in Microelectronics Market Analysis TechInsights",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-30T08:15:11.723Z",
-        "index": 38,
+        "processed_at": "2026-10-30T15:43:09.965Z",
+        "index": 45,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -806,8 +1121,8 @@
       "texto_original": "How we detect frontier model misalignment OpenAI",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-30T08:15:11.716Z",
-        "index": 24,
+        "processed_at": "2026-10-30T15:43:09.959Z",
+        "index": 34,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -853,54 +1168,48 @@
       "final_score": 70.15
     },
     {
-      "id": "06910863dfd5c265",
-      "fuente_id": "wccftech_google",
-      "fuente_nombre": "Wccftech",
+      "id": "749a7ec79cf36323",
+      "fuente_id": "bbc_mundo",
+      "fuente_nombre": "BBC Mundo",
       "tipo": "rss_web",
-      "subtipo": "google_news",
-      "grupo_fuente": "wccftech",
-      "nivel_fuente": "medio_especializado",
-      "categoria": "hardware",
-      "idioma_original": "en",
-      "prioridad_fuente": 4,
+      "subtipo": "medio_generalista",
+      "grupo_fuente": "bbc",
+      "nivel_fuente": "medio_profesional",
+      "categoria": "actualidad",
+      "idioma_original": "es",
+      "prioridad_fuente": 5,
       "analizar": true,
       "resumir": true,
-      "titulo": "Microsoft presenta la mayor actualización de DirectX Raytracing desde 2018, brindando un trazado de rayos más eficiente a las GPU NVIDIA, AMD e Intel",
-      "titulo_original": "Microsoft Unveils Biggest DirectX Raytracing Upgrade Since 2018, Bringing More Efficient Ray Tracing To NVIDIA, AMD & Intel GPUs - Wccftech",
-      "enlace": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOM2xkejdqREtlcGtCNmtMQ0VEMUFoMl9YS3JlbWR3bXRFaTZLUGlmeWxYRVRMTzMzTUZ3aDduUjEtMnJZMS1nd3ZLQWRiVGNPbzhhOFcxemZ1R0Q1UHpVUkYwazFQY1F6VHpSRnpPaE1Wc2ZLdGlHbWhJYVhLcDVPenpWVkxzcTFNV0U2bVgxZkVuZ29UU2oxZEhUdWZpWjZucVRfWW9xMUZkWUUwbnFXdi00QkNXRmpZUjZXbF8zcDJZN2FIVnFUdzRRSVdCbEJzNFdKOFFNQWJ5X2RvWUpF0gHkAUFVX3lxTFB4VVN3TWRtZm16Z29Ga2x2dEJTbklwdnVGM1dXQUJPNmN2VUJDczZHalg1LTlhSEIzb3dQSEFGQlprdmx6ank0R3hGUnEtUVk3aVQ2TEkwMkVwdnlDTFVFM0s3VUtYX0pqa2hKaU9fTUw4b3VGR2s1M2F4UUlDVmQ3ZmQ3S1lsZWhhR0I2NGVHUFMzd1lwdGFfZFZXOUJ3LXdOSGdzMUlFNnNWREY0Q3phTlptV2F2djJNMnB1VjdwT1EtZ051SDZvUXF2djNCNTBiM3V5ak5Tb2pZV3VwR0hpX2VoeQ?oc=5",
-      "fecha": "2026-10-29T13:11:28.000Z",
-      "resumen_corto": "Microsoft presenta la mayor actualización de DirectX Raytracing desde 2018, brindando un trazado de rayos más eficiente a las GPU NVIDIA, AMD e Intel Wccftech",
-      "resumen_largo": "Microsoft presenta la mayor actualización de DirectX Raytracing desde 2018, brindando un trazado de rayos más eficiente a las GPU NVIDIA, AMD e Intel Wccftech",
-      "texto_original": "Microsoft Unveils Biggest DirectX Raytracing Upgrade Since 2018, Bringing More Efficient Ray Tracing To NVIDIA, AMD & Intel GPUs Wccftech",
+      "titulo": "Elecciones en EE.UU.: cómo influye la dura política migratoria de Trump en el bastión latino republicano del sur de Florida",
+      "titulo_original": "Elecciones en EE.UU.: cómo influye la dura política migratoria de Trump en el bastión latino republicano del sur de Florida",
+      "enlace": "https://www.bbc.com/mundo/articles/cm78pl5w7qq9o?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-10-30T15:02:54.000Z",
+      "resumen_corto": "De la mano de Donald Trump, los republicanos han ido ganando mayor representación en el sur de Florida durante los últimos 10 años.",
+      "resumen_largo": "De la mano de Donald Trump, los republicanos han ido ganando mayor representación en el sur de Florida durante los últimos 10 años. Sin embargo, la impopularidad de Trump en 2026 arroja dudas sobre la capacidad de los conservadores de mantener estos apoyos.",
+      "texto_original": "De la mano de Donald Trump, los republicanos han ido ganando mayor representación en el sur de Florida durante los últimos 10 años. Sin embargo, la impopularidad de Trump en 2026 arroja dudas sobre la capacidad de los conservadores de mantener estos apoyos.",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-30T08:15:11.718Z",
-        "index": 28,
+        "processed_at": "2026-10-30T15:43:09.932Z",
+        "index": 2,
         "resumen": {
           "generado": true,
           "origen": "translated"
         },
         "idioma_detectado": "es",
-        "idioma_original": "en",
-        "categoria": "inteligencia_artificial",
+        "idioma_original": "es",
+        "categoria": "actualidad",
         "categorias_secundarias": [
-          "semiconductores",
-          "tecnologia"
+          "inteligencia_artificial",
+          "semiconductores"
         ],
         "category_scores": {
+          "actualidad": 2,
           "inteligencia_artificial": 1,
-          "semiconductores": 1,
-          "tecnologia": 1
+          "semiconductores": 1
         },
-        "entidades": [
-          "Microsoft",
-          "NVIDIA",
-          "AMD",
-          "Intel",
-          "Wccftech"
-        ],
+        "entidades": [],
         "cifras_detectadas": [
-          "2018"
+          "2026"
         ],
         "content_type": "news",
         "clickbait": {
@@ -914,13 +1223,13 @@
           "signals": [],
           "url_count": 0
         },
-        "calidad": 87,
-        "relevancia": 65,
-        "confiabilidad_fuente": 50,
+        "calidad": 84,
+        "relevancia": 57,
+        "confiabilidad_fuente": 70,
         "readability": {
-          "words": 92,
-          "sentences": 1,
-          "average_words_per_sentence": 92
+          "words": 102,
+          "sentences": 9,
+          "average_words_per_sentence": 11.33
         },
         "duplicate": {
           "detected": false,
@@ -929,7 +1238,82 @@
           "similar_to": null
         }
       },
-      "final_score": 68.95
+      "final_score": 69.7
+    },
+    {
+      "id": "35439bd29f04fab3",
+      "fuente_id": "bbc_mundo",
+      "fuente_nombre": "BBC Mundo",
+      "tipo": "rss_web",
+      "subtipo": "medio_generalista",
+      "grupo_fuente": "bbc",
+      "nivel_fuente": "medio_profesional",
+      "categoria": "actualidad",
+      "idioma_original": "es",
+      "prioridad_fuente": 5,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "\"No ha habido un solo momento desde esa noche que no sienta dolor\": Christa Pike habla por primera vez desde la fallida ejecución por inyección letal",
+      "titulo_original": "\"No ha habido un solo momento desde esa noche que no sienta dolor\": Christa Pike habla por primera vez desde la fallida ejecución por inyección letal",
+      "enlace": "https://www.bbc.com/mundo/articles/c674pd105v54o?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-10-30T13:54:17.000Z",
+      "resumen_corto": "\"No ha habido un solo momento desde esa noche que no sienta dolor\", dijo Christa Pike en su primera declaración desde la fallida ejecución en septiembre en Tennessee, Estados Unidos.",
+      "resumen_largo": "\"No ha habido un solo momento desde esa noche que no sienta dolor\", dijo Christa Pike en su primera declaración desde la fallida ejecución en septiembre en Tennessee, Estados Unidos. Todavía tengo dificultades para hablar. Y el dolor no es solo físico.",
+      "texto_original": "\"No ha habido un solo momento desde esa noche que no sienta dolor\", dijo Christa Pike en su primera declaración desde la fallida ejecución en septiembre en Tennessee, Estados Unidos. \"Me duele el cuerpo. Me duelen los brazos. Me duelen las manos. Me duele la garganta. Todavía tengo dificultades para hablar. Y el dolor no es solo físico. Hay dolor en mi mente y en mi alma\", aseguró en un comunicado difundido por su equipo legal en redes sociales este viernes. Pike, de 50 años, fue dada de alta del hospital a fines de septiembre después de sobrevivir a dos inyecciones letales del fármaco pentobarbital, que la dejaron en estado crítico. A partir de entonces, fue enviada de nuevo a la prisión donde ha estado recluida los últimos 30 años por asesinar a Colleen Slemmer en 1995. Se cree que Pike es la única persona que ha sobrevivido a un intento de ejecución por inyección letal. Sus abogados habían dicho anteriormente que había sufrido neumonía tras el intento de ejecución, tenía una inflamación significativa en los brazos y tampoco podía tragar.",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-10-30T15:43:09.939Z",
+        "index": 7,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "inteligencia_artificial",
+        "categorias_secundarias": [
+          "semiconductores",
+          "vehiculos_energia",
+          "militar"
+        ],
+        "category_scores": {
+          "inteligencia_artificial": 1,
+          "semiconductores": 1,
+          "vehiculos_energia": 1,
+          "militar": 1
+        },
+        "entidades": [],
+        "cifras_detectadas": [
+          "1995"
+        ],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 84,
+        "relevancia": 57,
+        "confiabilidad_fuente": 70,
+        "readability": {
+          "words": 216,
+          "sentences": 16,
+          "average_words_per_sentence": 13.5
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 69.7
     },
     {
       "id": "3c9bfb5e6c9d2d31",
@@ -944,17 +1328,17 @@
       "prioridad_fuente": 4,
       "analizar": true,
       "resumir": true,
-      "titulo": "Huawei Enjoy 100 Pro Max se lanzó con chip Kirin 8020 5G, batería de 8800 mAh, pantalla de 8000 nits y más",
+      "titulo": "Huawei Enjoy 100 Pro Max lanzado con chip Kirin 8020 5G, batería de 8800 mAh, pantalla de 8000nits y más",
       "titulo_original": "Huawei Enjoy 100 Pro Max launched with Kirin 8020 5G chip, 8800mAh battery, 8000nits display, and more - Huawei Central",
       "enlace": "https://news.google.com/rss/articles/CBMickFVX3lxTE16UnlMa2FjVVZPR3pITkFSdlRVdkNKa1M2VXB3VXJHY3RsaUVqWXVYZVlQVEM4MDNjOVNfaDVQSVQwa2t2WFpDdllWOU5SVndIQXkwdHdEY096OTkwUUJVNV9ZM044XzJ1RDl4NVFxOU9vZ9IBd0FVX3lxTE9rWFloMGEtU1JJLTNZcWRWU1pKc3BzRFQtT1FvN1ljNHF1d1lnWnZxLWJVMmx5Wlo3cFgzaFpCRld0WnpxdnQxa3hCMHphSF9xbjl2eUxuQzE2bmVVX1NyZmJpV29EV0JpQ3A0SHZWa0lTTjFwVnhR?oc=5",
       "fecha": "2026-10-28T07:57:19.000Z",
-      "resumen_corto": "Huawei Enjoy 100 Pro Max se lanzó con chip Kirin 8020 5G, batería de 8800 mAh, pantalla de 8000 nits y más Huawei Central",
-      "resumen_largo": "Huawei Enjoy 100 Pro Max se lanzó con chip Kirin 8020 5G, batería de 8800 mAh, pantalla de 8000 nits y más Huawei Central",
+      "resumen_corto": "Huawei Enjoy 100 Pro Max lanzado con chip Kirin 8020 5G, batería de 8800 mAh, pantalla de 8000 nits y más Huawei Central",
+      "resumen_largo": "Huawei Enjoy 100 Pro Max lanzado con chip Kirin 8020 5G, batería de 8800 mAh, pantalla de 8000 nits y más Huawei Central",
       "texto_original": "Huawei Enjoy 100 Pro Max launched with Kirin 8020 5G chip, 8800mAh battery, 8000nits display, and more Huawei Central",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-30T08:15:11.722Z",
-        "index": 36,
+        "processed_at": "2026-10-30T15:43:09.964Z",
+        "index": 43,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -999,9 +1383,9 @@
         "relevancia": 62,
         "confiabilidad_fuente": 53,
         "readability": {
-          "words": 91,
+          "words": 90,
           "sentences": 1,
-          "average_words_per_sentence": 91
+          "average_words_per_sentence": 90
         },
         "duplicate": {
           "detected": false,
@@ -1013,7 +1397,7 @@
       "final_score": 68.5
     },
     {
-      "id": "49259c68be268b42",
+      "id": "64ebfdde29966af4",
       "fuente_id": "wccftech_google",
       "fuente_nombre": "Wccftech",
       "tipo": "rss_web",
@@ -1025,37 +1409,41 @@
       "prioridad_fuente": 4,
       "analizar": true,
       "resumir": true,
-      "titulo": "Declaración oficial de NVIDIA sobre el cambio de especificaciones de Vera Rubin: las especificaciones actualizadas \"reflejan lo que el sistema sostiene en calidad y producción en volumen\", y todos los puntos de referenci",
-      "titulo_original": "NVIDIA’s Official Statement on Vera Rubin Spec Change: Updated Specs “Reflect What The System Sustains At Quality, Volume Production”, And All 3rd Party Benchmarks Have Been Measured Using Production Specs - Wccftech",
-      "enlace": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9OZjJMbHFVRkluT3U2NUtfaHpNVkE0MEJrWllKR1FwVzdaU0JxSTR1LTdGOWFBOVozSXoxTXBnMFlHVHRwQk9NWHB0STlfdXduQ1g1cnpHYTFsSzhMTGc4ME1vNjBwYTVfT1RtaVR3SThLV1hmc2pFbDV0VDZLUdIBgwFBVV95cUxQcHd2bHNuSW9JMkM0d190TlRLUkRkQ2RXX2NBOGtibEhqUUFDdk5tVlRGNTByX2t1ZGh5anJBMlFXNWk0VkFiVDh4bXZLQWtTQzZKYVBDOU1pajgwa29iQ2hra3lIb2dMOWV1amhXQjl6ZlFiV0gyUFphU3VVcXE1MDVsTQ?oc=5",
-      "fecha": "2026-10-29T07:10:10.000Z",
-      "resumen_corto": "Declaración oficial de NVIDIA sobre el cambio de especificaciones de Vera Rubin: las especificaciones actualizadas \"reflejan lo que el sistema sostiene en calidad y producción en volumen\", y todos los puntos de referencia de terceros se han medido utilizando especificaciones de producción Wccftech",
-      "resumen_largo": "Declaración oficial de NVIDIA sobre el cambio de especificaciones de Vera Rubin: las especificaciones actualizadas \"reflejan lo que el sistema sostiene en calidad y producción en volumen\", y todos los puntos de referencia de terceros se han medido utilizando especificaciones de producción Wccftech",
-      "texto_original": "NVIDIA’s Official Statement on Vera Rubin Spec Change: Updated Specs “Reflect What The System Sustains At Quality, Volume Production”, And All 3rd Party Benchmarks Have Been Measured Using Production Specs Wccftech",
+      "titulo": "PlayStation 6 y Xbox Project Helix costarán $ 1000 o más, pero la patente de juegos en la nube de Sony podría hacer de la transmisión un punto de entrada confiable",
+      "titulo_original": "PlayStation 6 and Xbox Project Helix Are Set to Cost $1000 or More, but Sony’s Cloud Gaming Patent Could Make Streaming a Reliable Entry Point - Wccftech",
+      "enlace": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOWE8tVHRjOC0xbUUtWEdaQjBpNXFvSXkwRTJZZi1UWFFnLVJtZDVSYUNlV0lZMExQRTNUdzBSczVDcEFHLTFoeWVoZ1RmYkJ5M2V3US1OTTBUMFE4dmJGYm52Q09yOE1aYmFJYldjWUJmUkN2VTJoLWxERmN6ZFl6UjYxcmgzQVBtSmJOdXN5b0c3Q0XSAZgBQVVfeXFMTjhKQi1FOXUzOXo0M2U3aVRtR0NUVW9oOUE5YTh1WUQ0MFJud3cya1g3SHZhYWlSQ0d5aTI4QW5NLWFjOC1oYzk2cDNnQjFoMlNicV9WY3B1VWV1QVlBcV9ac0Y2MUlYV25iZjcxMFdacVRNS1ZEZVBON2h2SnQ1Y1hNWm1LUlhzejlfeUVKOXYwYlBCLWtOWlA?oc=5",
+      "fecha": "2026-10-30T12:20:54.000Z",
+      "resumen_corto": "PlayStation 6 y Xbox Project Helix costarán $ 1000 o más, pero la patente de juegos en la nube de Sony podría hacer de la transmisión un punto de entrada confiable Wccftech",
+      "resumen_largo": "PlayStation 6 y Xbox Project Helix costarán $ 1000 o más, pero la patente de juegos en la nube de Sony podría hacer de la transmisión un punto de entrada confiable Wccftech",
+      "texto_original": "PlayStation 6 and Xbox Project Helix Are Set to Cost $1000 or More, but Sony’s Cloud Gaming Patent Could Make Streaming a Reliable Entry Point Wccftech",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-30T08:15:11.720Z",
-        "index": 32,
+        "processed_at": "2026-10-30T15:43:09.947Z",
+        "index": 15,
         "resumen": {
           "generado": true,
           "origen": "translated"
         },
         "idioma_detectado": "es",
         "idioma_original": "en",
-        "categoria": "inteligencia_artificial",
+        "categoria": "software_internet",
         "categorias_secundarias": [
+          "inteligencia_artificial",
           "tecnologia"
         ],
         "category_scores": {
-          "inteligencia_artificial": 2,
+          "software_internet": 2,
+          "inteligencia_artificial": 1,
           "tecnologia": 1
         },
         "entidades": [
-          "NVIDIA",
           "Wccftech"
         ],
-        "cifras_detectadas": [],
-        "content_type": "report",
+        "cifras_detectadas": [
+          "$ 1000",
+          "$1000"
+        ],
+        "content_type": "news",
         "clickbait": {
           "detected": false,
           "score": 0,
@@ -1063,17 +1451,17 @@
         },
         "spam": {
           "detected": false,
-          "score": 0,
+          "score": 25,
           "signals": [],
           "url_count": 0
         },
-        "calidad": 75,
-        "relevancia": 68,
-        "confiabilidad_fuente": 60,
+        "calidad": 87,
+        "relevancia": 62,
+        "confiabilidad_fuente": 50,
         "readability": {
-          "words": 138,
+          "words": 100,
           "sentences": 1,
-          "average_words_per_sentence": 138
+          "average_words_per_sentence": 100
         },
         "duplicate": {
           "detected": false,
@@ -1082,7 +1470,7 @@
           "similar_to": null
         }
       },
-      "final_score": 68.45
+      "final_score": 67.75
     },
     {
       "id": "7c7dfbd8214170cc",
@@ -1097,17 +1485,17 @@
       "prioridad_fuente": 5,
       "analizar": true,
       "resumir": true,
-      "titulo": "Generalista de Recursos Humanos",
+      "titulo": "Generalista de RR. HH.",
       "titulo_original": "HR Generalist - BYD",
       "enlace": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBhVTZLM0ZjbW96TWxoMWNkSEhqczFmXzNmdUhld1ZhVTg4QlFQS1A1RzZTYl9aRW5NbzRlYkMweWszUGxYbUhCSjNXOGxkLXJuLThYMUItQVQ2aWUtTEJOUHlDVHM?oc=5",
       "fecha": "2026-10-29T07:15:56.000Z",
-      "resumen_corto": "Generalista de Recursos Humanos",
-      "resumen_largo": "Generalista de Recursos Humanos",
+      "resumen_corto": "Generalista de RR. HH.",
+      "resumen_largo": "Generalista de RR. HH.",
       "texto_original": "HR Generalist BYD",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-30T08:15:11.719Z",
-        "index": 31,
+        "processed_at": "2026-10-30T15:43:09.961Z",
+        "index": 38,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -1142,9 +1530,9 @@
         "relevancia": 55,
         "confiabilidad_fuente": 75,
         "readability": {
-          "words": 13,
-          "sentences": 1,
-          "average_words_per_sentence": 13
+          "words": 7,
+          "sentences": 7,
+          "average_words_per_sentence": 1
         },
         "duplicate": {
           "detected": false,
@@ -1156,118 +1544,58 @@
       "final_score": 67.35
     },
     {
-      "id": "6a25365553b1e296",
-      "fuente_id": "bbc_mundo",
-      "fuente_nombre": "BBC Mundo",
-      "tipo": "rss_web",
-      "subtipo": "medio_generalista",
-      "grupo_fuente": "bbc",
-      "nivel_fuente": "medio_profesional",
-      "categoria": "actualidad",
-      "idioma_original": "es",
-      "prioridad_fuente": 5,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "Guía visual para entender cómo fue el accidente de trenes en España que deja al menos 69 muertos",
-      "titulo_original": "Guía visual para entender cómo fue el accidente de trenes en España que deja al menos 69 muertos",
-      "enlace": "https://www.bbc.com/mundo/articles/cq98zk00pnn1o?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-10-29T17:55:21.000Z",
-      "resumen_corto": "Un fallo informático y un tren a casi 200 km/h en una vía ocupada.",
-      "resumen_largo": "Un fallo informático y un tren a casi 200 km/h en una vía ocupada. Así ocurrió el peor accidente ferroviario de España en más de una década.",
-      "texto_original": "Un fallo informático y un tren a casi 200 km/h en una vía ocupada. Así ocurrió el peor accidente ferroviario de España en más de una década.",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-10-30T08:15:11.714Z",
-        "index": 20,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "es",
-        "categoria": "inteligencia_artificial",
-        "categorias_secundarias": [],
-        "category_scores": {
-          "inteligencia_artificial": 1
-        },
-        "entidades": [],
-        "cifras_detectadas": [
-          "69 m",
-          "200 km"
-        ],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 84,
-        "relevancia": 50,
-        "confiabilidad_fuente": 70,
-        "readability": {
-          "words": 68,
-          "sentences": 5,
-          "average_words_per_sentence": 13.6
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 66.9
-    },
-    {
-      "id": "306d161a7b0168d4",
-      "fuente_id": "ia_dia",
-      "fuente_nombre": "IA al Día",
+      "id": "4b3bffea239cf72f",
+      "fuente_id": "wccftech_google",
+      "fuente_nombre": "Wccftech",
       "tipo": "rss_web",
       "subtipo": "google_news",
-      "grupo_fuente": "ia_general",
-      "nivel_fuente": "agregador",
-      "categoria": "inteligencia_artificial",
-      "idioma_original": "es",
-      "prioridad_fuente": 3,
+      "grupo_fuente": "wccftech",
+      "nivel_fuente": "medio_especializado",
+      "categoria": "hardware",
+      "idioma_original": "en",
+      "prioridad_fuente": 4,
       "analizar": true,
       "resumir": true,
-      "titulo": "Nvidia, las neoclouds y la inevitable ralentización de la inteligencia artificial - El Economista",
-      "titulo_original": "Nvidia, las neoclouds y la inevitable ralentización de la inteligencia artificial - El Economista",
-      "enlace": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOWGhBYkJvZEJadDZUZVRRWG5zaWJfZUlTLUloZW9LZ3FuV0RIaEdYSVljbXZ2WU9wSU5faXR6SDBnZndyRllvSzFSNjVxcW56dnV6SkZlcjFaQjFHbDBXbmgtMWd2VmJDOFFxT2tlUlc5R1pybGROblIxNml0MzkwYzRjbE11aEF5bTBTVnBTT2lONzdxR0Vod0tUWHZVNmxwUkhVcnZfaHhBM2MyeXgyeU9aOEppYnhrNzh3dWswRENmS0tHSENXQ1F1cVFYZXhWZE96LTZNMEpjby1HSHNsSjRZOS01VkxLT2lrYnBsdmPSAdsBQVVfeXFMT0E4MmpaTUQtRW5HdW5mU3dHbmp5eHpCa3g4LWRZNFdIdlhINGUxVHdIWFRDeGpWS1JuOFlnOEFSazlLWkFudG5WeWR2TzhnOXV4REpETG5BWGhjbnBkQkpWLXpTblR6Zld6YzdiVFNBSVVDeXV3Zm1SdTZWVzNtMm9LQXN3Zllxczc1QXpkWjJ5SktQQUNFbHJjYmFXZkx2eEFmaEFFcC1zaDFRM20tZUl5eTNLNU1xUHotc3I1enJNRFpQNGFhNE9OaGxVM3dsNEZOdkRNbmFnZTQw?oc=5",
-      "fecha": "2026-10-30T05:20:24.000Z",
-      "resumen_corto": "Nvidia, las neoclouds y la inevitable ralentización de la inteligencia artificial El Economista",
-      "resumen_largo": "Nvidia, las neoclouds y la inevitable ralentización de la inteligencia artificial El Economista",
-      "texto_original": "Nvidia, las neoclouds y la inevitable ralentización de la inteligencia artificial El Economista",
+      "titulo": "La RTX 5080 de 24 GB de NVIDIA podría llegar en diciembre con un 50% más de VRAM, ya que los modelos de 16 GB ya se venden por más de $ 2,000",
+      "titulo_original": "NVIDIA’s RTX 5080 24 GB Could Arrive As Early As December With 50% More VRAM, As 16 GB Models Already Sell For Over $2,000 - Wccftech",
+      "enlace": "https://news.google.com/rss/articles/CBMingFBVV95cUxOcnZUNnoxM05mVXlxNHpDQzY2RTlqeGI1bHY2UFo1bkRVOHIzSHVzd0ZBaUtHRE9sRWpxeUFQUlkxM25VMjIwLXRqcVd4RzNMbFZPbUllVGtJNDBGeFgzR005cVA5amZxa2V5THJySjFCRkVJT0E0UDRiak5DOWVKMUVrVjZJUTFUSUt1T2RBa29Lc0VVd0xBeFRLME82d9IBowFBVV95cUxOM2dCRHBtSXZBd2xRYmZZWXp6RGlnVklhT05GbDlrZnA2cW82RWdod01EMXZIZF9IcFJyYXFDdEY3WFJwTzNZYXdEZGNZUy1mWGVVVWhTdGZXcHI3YXA0amRHZjdWUTlubS1BX09RQmNwREZxaTJzbHprV185T2VLa21TQXBZVFFqeXJhNmotTGp1UzQtRE5MWTJXdm41REVYOTk4?oc=5",
+      "fecha": "2026-10-30T07:15:06.000Z",
+      "resumen_corto": "La RTX 5080 de 24 GB de NVIDIA podría llegar en diciembre con un 50% más de VRAM, ya que los modelos de 16 GB ya se venden por más de $ 2.000 Wccftech",
+      "resumen_largo": "La RTX 5080 de 24 GB de NVIDIA podría llegar en diciembre con un 50% más de VRAM, ya que los modelos de 16 GB ya se venden por más de $ 2.000 Wccftech",
+      "texto_original": "NVIDIA’s RTX 5080 24 GB Could Arrive As Early As December With 50% More VRAM, As 16 GB Models Already Sell For Over $2,000 Wccftech",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-30T08:15:11.701Z",
-        "index": 4,
+        "processed_at": "2026-10-30T15:43:09.955Z",
+        "index": 27,
         "resumen": {
           "generado": true,
           "origen": "translated"
         },
         "idioma_detectado": "es",
-        "idioma_original": "es",
+        "idioma_original": "en",
         "categoria": "inteligencia_artificial",
         "categorias_secundarias": [
-          "vehiculos_energia",
-          "software_internet"
+          "hardware",
+          "tecnologia"
         ],
         "category_scores": {
-          "inteligencia_artificial": 3,
-          "vehiculos_energia": 1,
-          "software_internet": 1
+          "inteligencia_artificial": 1,
+          "hardware": 1,
+          "tecnologia": 1
         },
         "entidades": [
-          "NVIDIA"
+          "NVIDIA",
+          "Wccftech"
         ],
-        "cifras_detectadas": [],
+        "cifras_detectadas": [
+          "5080",
+          "24 GB",
+          "50%",
+          "16 GB",
+          "$ 2,000",
+          "$2,000",
+          "$ 2.000"
+        ],
         "content_type": "news",
         "clickbait": {
           "detected": false,
@@ -1276,17 +1604,17 @@
         },
         "spam": {
           "detected": false,
-          "score": 0,
+          "score": 25,
           "signals": [],
           "url_count": 0
         },
-        "calidad": 80,
-        "relevancia": 62,
-        "confiabilidad_fuente": 53,
+        "calidad": 87,
+        "relevancia": 60,
+        "confiabilidad_fuente": 50,
         "readability": {
-          "words": 40,
-          "sentences": 1,
-          "average_words_per_sentence": 40
+          "words": 84,
+          "sentences": 3,
+          "average_words_per_sentence": 28
         },
         "duplicate": {
           "detected": false,
@@ -1295,7 +1623,7 @@
           "similar_to": null
         }
       },
-      "final_score": 66.05
+      "final_score": 66.95
     },
     {
       "id": "6311508fd5bd9d29",
@@ -1310,7 +1638,7 @@
       "prioridad_fuente": 4,
       "analizar": true,
       "resumir": true,
-      "titulo": "Huawei Pura X View completa 1 millón de ventas en sólo 50 días",
+      "titulo": "Huawei Pura X View completa 1 millón de ventas en solo 50 días",
       "titulo_original": "Huawei Pura X View completes 1 million sales in just 50 days - Huawei Central",
       "enlace": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPMDJmQm03OVgtaGdmcS1MNXJJRnRRbmlqdzBPN1pzNWMzby0xOVpyb25sZFBtVG5mX0tCaGp4WnNLT3hPSlkxOXZBUWhxN0hGeS1ueG9NZkdRWVFXRVpLVXhScFNsZW52X2pLUkpQd3VjMXFjYS1lQ2ZtbFEtbDE2WHlYdTBjZHVTbmprOU1Hc3F0UlVQZ2fSAZsBQVVfeXFMTUI4ZU9Vc044Wlpvdjh1UkZrR3BMbElieVEzOGx1cndDaV80aVlNeE9VcHpTcUszWmJBcThqdHRHVzc3N1NHVjI3cmV1eTN0TThkYUxsajd2YzZzS1hKY3lmUUFlb19ScmMzNGUtNDdhbHJTd0daWWFDMkxlc0JBc2tCZ1hpdnpqaGdza1lOUHVhLTZ5THZhenI0clE?oc=5",
       "fecha": "2026-10-29T14:34:45.000Z",
@@ -1319,8 +1647,8 @@
       "texto_original": "Huawei Pura X View completes 1 million sales in just 50 days Huawei Central",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-30T08:15:11.718Z",
-        "index": 27,
+        "processed_at": "2026-10-30T15:43:09.960Z",
+        "index": 36,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -1371,6 +1699,145 @@
       "final_score": 65.7
     },
     {
+      "id": "8a3ca618c71ca76c",
+      "fuente_id": "xataka_google",
+      "fuente_nombre": "Xataka",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "xataka",
+      "nivel_fuente": "medio_especializado",
+      "categoria": "tecnologia",
+      "idioma_original": "es",
+      "prioridad_fuente": 4,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Meta, Google y Amazon podían permitirse derrochar en IA cuando el negocio iba bien. Google acaba de descubrir qué pasa cuando no",
+      "titulo_original": "Meta, Google y Amazon podían permitirse derrochar en IA cuando el negocio iba bien. Google acaba de descubrir qué pasa cuando no - Xataka",
+      "enlace": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOcWVJZ1VEMXFjMlFMNks4TTBWaTNEWmpKYkp4T3lCRnlia3ZSRGZSQ1pfUVdmYWhYQXlrSmI3YTlNMUYxVWVQdjIwNUxfX3dhSzRGUmlYS1RaTkdrUnZXWmdGRWs1OWlwLUdDaFJNSEVIT0FWMm1ya1BIQ3FoNVI1M2E2Ylp4dk1TZk12c25ycW16NEJyZ0N2RkluRmhidlctNTlqQVFOcFREaEMtUVhDQzk1cGdaOG9pNU1GeDRTNzF3OUVHNkE3R3hMeHJ5aWJvVlNvS2Q3cDRveE1lZWc3TVItc05QYlFBalZR0gHwAUFVX3lxTE5nT3RNaW1VbkVBX0llRFhOZWZPclFRa3RTQkxHZmZpM3h1THZrbUdwWnI4XzRxUlk1WkR5d0FUR19LRk9DRHpCMk96cGltRGN0YU1NT1ltdkV0RTVlejBZd0tEa0FzZEVoMzNIaWN1MXhLTmFtSzNxX3kxaUp4WU5nVTJTUVdweU5WalktZ0ZfUElrQnM3T0w0Ui1DTlc4Qk9hZzgtNVUzX1hvM3IxYlN4ZWFpVldxamJwSUNYd0w1SzN3czR3eVRhSzhYb095eWpWRi1iUG1xeUdZSzJoTERFZ1ZaSVpUanNERXVmZmdVMQ?oc=5",
+      "fecha": "2026-10-30T11:45:00.000Z",
+      "resumen_corto": "Meta, Google y Amazon podían permitirse derrochar en IA cuando el negocio iba bien.",
+      "resumen_largo": "Meta, Google y Amazon podían permitirse derrochar en IA cuando el negocio iba bien. Google acaba de descubrir qué pasa cuando no Xataka",
+      "texto_original": "Meta, Google y Amazon podían permitirse derrochar en IA cuando el negocio iba bien. Google acaba de descubrir qué pasa cuando no Xataka",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-10-30T15:43:09.948Z",
+        "index": 17,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "inteligencia_artificial",
+        "categorias_secundarias": [],
+        "category_scores": {
+          "inteligencia_artificial": 1
+        },
+        "entidades": [
+          "Google",
+          "Meta",
+          "Xataka"
+        ],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 82,
+        "relevancia": 60,
+        "confiabilidad_fuente": 50,
+        "readability": {
+          "words": 77,
+          "sentences": 6,
+          "average_words_per_sentence": 12.83
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 65.2
+    },
+    {
+      "id": "88c46d8e9fb81034",
+      "fuente_id": "bbc_mundo",
+      "fuente_nombre": "BBC Mundo",
+      "tipo": "rss_web",
+      "subtipo": "medio_generalista",
+      "grupo_fuente": "bbc",
+      "nivel_fuente": "medio_profesional",
+      "categoria": "actualidad",
+      "idioma_original": "es",
+      "prioridad_fuente": 5,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Tengo una afección en la zona genital de la que a muchas personas les da vergüenza hablar",
+      "titulo_original": "Tengo una afección en la zona genital de la que a muchas personas les da vergüenza hablar",
+      "enlace": "https://www.bbc.com/mundo/articles/cr78p4480ng7o?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-10-30T10:43:10.000Z",
+      "resumen_corto": "Monica Thomas era adolescente cuando empezó a experimentar picor y dolor en la vulva; sin embargo, a pesar de sus numerosas visitas al médico, le dijeron que se trataba de una candidiasis.",
+      "resumen_largo": "Monica Thomas era adolescente cuando empezó a experimentar picor y dolor en la vulva; sin embargo, a pesar de sus numerosas visitas al médico, le dijeron que se trataba de una candidiasis. Sus síntomas empeoraron: aparecieron llagas y ampollas que le provocaban un dolor constante. Monica relata que, en el transcurso de seis meses, fue examinada en 28 ocasiones antes de que le propusieran realizarle una biopsia.",
+      "texto_original": "Monica Thomas era adolescente cuando empezó a experimentar picor y dolor en la vulva; sin embargo, a pesar de sus numerosas visitas al médico, le dijeron que se trataba de una candidiasis. Sus síntomas empeoraron: aparecieron llagas y ampollas que le provocaban un dolor constante. Monica relata que, en el transcurso de seis meses, fue examinada en 28 ocasiones antes de que le propusieran realizarle una biopsia. Señala que, como sociedad, \"realmente no hablamos\" de la salud ginecológica, por lo que existe un tabú a la hora de tratar estos síntomas. \"Incluso cuando vamos al médico, a mí me resulta vergonzoso tener que desvestirme... que los médicos te miren, es algo que da mucha vergüenza\", comenta. \"Pero, por otro lado, cuando sientes dolor, picor o molestias, vivir con ello es igual de terrible\".",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-10-30T15:43:09.951Z",
+        "index": 20,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "inteligencia_artificial",
+        "categorias_secundarias": [
+          "semiconductores"
+        ],
+        "category_scores": {
+          "inteligencia_artificial": 1,
+          "semiconductores": 1
+        },
+        "entidades": [],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 79,
+        "relevancia": 50,
+        "confiabilidad_fuente": 70,
+        "readability": {
+          "words": 186,
+          "sentences": 11,
+          "average_words_per_sentence": 16.91
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 65.15
+    },
+    {
       "id": "9a894866774d5bef",
       "fuente_id": "bbc_mundo",
       "fuente_nombre": "BBC Mundo",
@@ -1392,8 +1859,8 @@
       "texto_original": "Urda es un pueblo pequeño, de poco más de 2.500 habitantes. Nadie espera que una tragedia de esta magnitud ocurra junto a su casa, en sus campos, en una vía del tren que forma parte de la vida cotidiana de la comarca, explica desde allí la periodista Lorena Motos.",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-30T08:15:11.709Z",
-        "index": 12,
+        "processed_at": "2026-10-30T15:43:09.958Z",
+        "index": 31,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -1437,76 +1904,6 @@
       "final_score": 65.15
     },
     {
-      "id": "79e6c144bfd227f8",
-      "fuente_id": "xataka_google",
-      "fuente_nombre": "Xataka",
-      "tipo": "rss_web",
-      "subtipo": "google_news",
-      "grupo_fuente": "xataka",
-      "nivel_fuente": "medio_especializado",
-      "categoria": "tecnologia",
-      "idioma_original": "es",
-      "prioridad_fuente": 4,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "Más de 2.000 millones de dólares salen de carteras vinculadas a Binance. La sospecha apunta a un hackeo histórico",
-      "titulo_original": "Más de 2.000 millones de dólares salen de carteras vinculadas a Binance. La sospecha apunta a un hackeo histórico - Xataka",
-      "enlace": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNM3QySGEwWFdRNUJhWE44R2Ffc3E5N3FIekVUYVUxbjA0SHdfUUxSLVJzOWd2cG1BOXZWeFBhd2FZRHlfQUhpQUdsTHZxU2laV1A3TmNfODFZV1A5YVJHYmNEbGhZdXI1LUU5dXdFMkRVVm4yVkNITllqaklmN3h6Zm43elVEdU05anhXZHVYUV9EanlvQVpJb2tJOHhPN1pHLTB4TE5YYnlCOW1RSHl5bmJWdUo1RFhG0gG-AUFVX3lxTFBYYnBsc08tZmd5bjJsT2tBM0ZBTEFEVEtaaGl2QlRIblo2RVhOX3ZxUEpEZXdFaUJzNTA2ZmQ2dlBwbUFmV255bE85ZV9ESFlseDMwaDlDMTRadDZVMVN3eFNDTDJLaU94VHBsdFptUk1Ddzl4UFlsaXUtYzFFT1BiMm1mWGJidWw1Y2Jjb25sRGpWYzZybXNzcDlOY2h3a1A0YUlPSDJ3VVZ0UjduaVBvUTFwUmxzVmNPZzFQc0E?oc=5",
-      "fecha": "2026-10-29T22:57:00.000Z",
-      "resumen_corto": "Más de 2.000 millones de dólares salen de carteras vinculadas a Binance.",
-      "resumen_largo": "Más de 2.000 millones de dólares salen de carteras vinculadas a Binance. La sospecha apunta a un hackeo histórico Xataka",
-      "texto_original": "Más de 2.000 millones de dólares salen de carteras vinculadas a Binance. La sospecha apunta a un hackeo histórico Xataka",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-10-30T08:15:11.708Z",
-        "index": 11,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "es",
-        "categoria": "vehiculos_energia",
-        "categorias_secundarias": [],
-        "category_scores": {
-          "vehiculos_energia": 1
-        },
-        "entidades": [
-          "Xataka"
-        ],
-        "cifras_detectadas": [
-          "2.000 m"
-        ],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 87,
-        "relevancia": 55,
-        "confiabilidad_fuente": 50,
-        "readability": {
-          "words": 59,
-          "sentences": 11,
-          "average_words_per_sentence": 5.36
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 64.95
-    },
-    {
       "id": "a1f4644d3b07048f",
       "fuente_id": "huawei_google",
       "fuente_nombre": "Huawei Central",
@@ -1519,17 +1916,17 @@
       "prioridad_fuente": 4,
       "analizar": true,
       "resumir": true,
-      "titulo": "Huawei Pura 90 Plus está oficialmente aquí con sutiles mejoras de diseño",
+      "titulo": "Huawei pura 90 Plus está oficialmente aquí con sutiles mejoras de diseño",
       "titulo_original": "Huawei Pura 90 Plus is officially here with subtle design upgrades - Huawei Central",
       "enlace": "https://news.google.com/rss/articles/CBMibEFVX3lxTE81WjdDcVBlYVJyTnpaS1Z3S1hwbnVJLWlMdFFRS2hkSG5RbzNtRWxwNE1HU21uZDF1T3kxM1R4SjlIb2s2TzJaS203eUNrNGswXy1VRDYyZmJvdXpKbGpWREwxLVNwaXR4WlMwedIBckFVX3lxTFA4S29sZk8ydXJCX1RscjB6LV9ydC1LM3h6cWZCQkotSmRxbGFRVGxkNVJlQzZoeGhubTRobEZ4eW1ZcUh3NmtwVXd2dlgxc0RqdDZMN1JQR294ZzBFQ09yWEw3cmRSQUl3RGEtRTBmRTdEQQ?oc=5",
       "fecha": "2026-10-23T05:11:45.000Z",
-      "resumen_corto": "Huawei Pura 90 Plus está oficialmente aquí con sutiles mejoras de diseño Huawei Central",
-      "resumen_largo": "Huawei Pura 90 Plus está oficialmente aquí con sutiles mejoras de diseño Huawei Central",
+      "resumen_corto": "Huawei pura 90 Plus está oficialmente aquí con sutiles mejoras de diseño Huawei Central",
+      "resumen_largo": "Huawei pura 90 Plus está oficialmente aquí con sutiles mejoras de diseño Huawei Central",
       "texto_original": "Huawei Pura 90 Plus is officially here with subtle design upgrades Huawei Central",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-30T08:15:11.723Z",
-        "index": 39,
+        "processed_at": "2026-10-30T15:43:09.965Z",
+        "index": 46,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -1578,100 +1975,29 @@
       "final_score": 63.95
     },
     {
-      "id": "6cb1d7432d5515cd",
-      "fuente_id": "xataka_google",
-      "fuente_nombre": "Xataka",
+      "id": "28f11406bf938812",
+      "fuente_id": "ia_dia",
+      "fuente_nombre": "IA al Día",
       "tipo": "rss_web",
       "subtipo": "google_news",
-      "grupo_fuente": "xataka",
-      "nivel_fuente": "medio_especializado",
-      "categoria": "tecnologia",
+      "grupo_fuente": "ia_general",
+      "nivel_fuente": "agregador",
+      "categoria": "inteligencia_artificial",
       "idioma_original": "es",
-      "prioridad_fuente": 4,
+      "prioridad_fuente": 3,
       "analizar": true,
       "resumir": true,
-      "titulo": "La IA ya empieza a dejar huella en el paro español. Los más expuestos: programadores y diseñadores",
-      "titulo_original": "La IA ya empieza a dejar huella en el paro español. Los más expuestos: programadores y diseñadores - Xataka",
-      "enlace": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPSXRBS01QY1pvcGptQ1JzLTU5NGlyMi05eHRFWGtOd0t3Y3lJVDFrQzNyY0NFbEVQU3lOQjVGR1AwelRxVkFPaXpJV05VQ1RrM0t1UmpJTzMxYTNpUWxwOWREeWRESVY5akpTMVU0SnpVYUFTYnc0VVQ5YmxXUkZndE1hZXZjcVNxWlZIMFVXRDAzQmtOTGNXNUFhbHBQUzFJc2tiY1ZsU1Q2a3lBRUdzb050b1ptcXhi0gG-AUFVX3lxTE96QWp5OXdtWmZ0ZlpWMDd6d1JtTmt2Vnc5a29GbUxycWw1cDcwMWpvSUVnMXllY0h1ck1HTm9VQkVfTW5QS2hNenhHdlNZUkJkdHllNkpncFpSQ1g3eThOV2hZalEwdlI5UTFsWHBLWFlhUklKYlRNTUNGNC1OUmNqcFZqQW1RTVBlbTJrSWNUc0pnLVpfU012Mk1IaXN2V1k4czcxUy1lOGxQVHp0T0hXSEpvckk1OUNLSWpmSWc?oc=5",
-      "fecha": "2026-10-29T17:15:28.000Z",
-      "resumen_corto": "Los más expuestos: programadores y diseñadores Xataka",
-      "resumen_largo": "La IA ya empieza a dejar huella en el paro español. Los más expuestos: programadores y diseñadores Xataka",
-      "texto_original": "La IA ya empieza a dejar huella en el paro español. Los más expuestos: programadores y diseñadores Xataka",
+      "titulo": "El Mazda CX-5 ya entiende lo que le dices gracias a Gemini - El Periódico",
+      "titulo_original": "El Mazda CX-5 ya entiende lo que le dices gracias a Gemini - El Periódico",
+      "enlace": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOdmdxQ1dQcW5RWDRoRlgtUExpWURMcmhvUkdZSTZjVVdrcGhjaE5aNnNIMW5oci0zU2daZGw2SGo3c19yM3ZKU1BQbGhkODFZNjYtcFpSVWdEYlhZVGdhZEhHZk1fMjdVc2dqRk8zWGg5WEhUaUt5ZjU2a0Zpak5zSlJEQUdJNEQtNXVvUkp3bGdSMGd3NUZQeUJzV05hTm5ORk5tc01abjExcWZKM3Z1NFplbnFEV1RUV3BF0gG7AUFVX3lxTFAwZk90clhQWGxzTUgyWTFKa1luZ2tHZ3FIS3pDT0RDUFFHOElpTjNnbHRlNUlHZVl4WGZNYWhVZkM2aXJGU2RkdkhyVk1FSHFnd0tBWUtZODBxOWphbU9MbnZvN0pGZW02aUZPYXRNeHp2cDRnaXl2Q3pGWm1ZR2VmTDlWSHhteWs5dlpGbkJlQzVIdnFnZ0p6N1FqRkpjUDN3dWNPaktiUFlPNVNDa3pMbkFZQ1Boa1ktVjg?oc=5",
+      "fecha": "2026-10-30T15:34:44.000Z",
+      "resumen_corto": "El Mazda CX-5 ya entiende lo que le dices gracias a Gemini El Periódico",
+      "resumen_largo": "El Mazda CX-5 ya entiende lo que le dices gracias a Gemini El Periódico",
+      "texto_original": "El Mazda CX-5 ya entiende lo que le dices gracias a Gemini El Periódico",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-30T08:15:11.715Z",
-        "index": 21,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "es",
-        "categoria": "inteligencia_artificial",
-        "categorias_secundarias": [
-          "hardware"
-        ],
-        "category_scores": {
-          "inteligencia_artificial": 1,
-          "hardware": 1
-        },
-        "entidades": [
-          "Xataka"
-        ],
-        "cifras_detectadas": [],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 82,
-        "relevancia": 55,
-        "confiabilidad_fuente": 50,
-        "readability": {
-          "words": 49,
-          "sentences": 5,
-          "average_words_per_sentence": 9.8
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 63.2
-    },
-    {
-      "id": "5fa6cbfd54118668",
-      "fuente_id": "xataka_google",
-      "fuente_nombre": "Xataka",
-      "tipo": "rss_web",
-      "subtipo": "google_news",
-      "grupo_fuente": "xataka",
-      "nivel_fuente": "medio_especializado",
-      "categoria": "tecnologia",
-      "idioma_original": "es",
-      "prioridad_fuente": 4,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "Raquel Ayllón, controladora ferroviaria y portavoz de SCF: \"El CRC de Atocha tiene una cantidad de trabajo inhumana. No se podía ni ir al baño\"",
-      "titulo_original": "Raquel Ayllón, controladora ferroviaria y portavoz de SCF: \"El CRC de Atocha tiene una cantidad de trabajo inhumana. No se podía ni ir al baño\" - Xataka",
-      "enlace": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOVHpQN3g4VjFHSEFTSGNWVDlnRUVlYXpQLUp1WnhZM2FuTVV3WnZHTmc0SElvMXQzUWdXRlNmYmJzRUczNl9jbktjdEFvUWJRZFpGOUU2NlB3c1hzcVR6N3hnWUFacE8tWDg1Y2FXX3FkaDZkVE5lNV9xYi1lSFc5Yzg4VkVJNnhyejNtX1VVQWZ3dW9kaEg0OFVJa1RBbXFsMzlZeE15ZmZNcFljb3d6dFhIY3AydkMxLWsyTkVPQ3h3RDdfdlUwRTY0V2VQLWVkOGpVedIB2gFBVV95cUxOZjU2T3BtWmFKcFJNV3VvYlpQMU1RSnNtTHoxWTRhYklwcUI3Q3lwcEZBc2JreVgySGpqNzM5Y2o2VmdORkRldEhJa1ZQQ1VzQmJ4aVZ3bERTMmtZYkNOWWFJQ21DMGR6YkxFaGxfVUF5OWwwU0lKS0pScXl5ODI0SnQ5RGRFTUpGY0QzQjk1UnBnV2VYY2pqMzkwSmxFRm5lbU5CUlRlcERDWWVHc2MyWjRrM2oyN3FvWHZKRXhrSm1oWkVqME0tV3czRUhneW9jaDVxYlhNZWdvZw?oc=5",
-      "fecha": "2026-10-29T16:25:30.000Z",
-      "resumen_corto": "Raquel Ayllón, controladora ferroviaria y portavoz de SCF: \"El CRC de Atocha tiene una cantidad de trabajo inhumana.",
-      "resumen_largo": "Raquel Ayllón, controladora ferroviaria y portavoz de SCF: \"El CRC de Atocha tiene una cantidad de trabajo inhumana. No se podía ni ir al baño\" Xataka",
-      "texto_original": "Raquel Ayllón, controladora ferroviaria y portavoz de SCF: \"El CRC de Atocha tiene una cantidad de trabajo inhumana. No se podía ni ir al baño\" Xataka",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-10-30T08:15:11.716Z",
-        "index": 23,
+        "processed_at": "2026-10-30T15:43:09.926Z",
+        "index": 0,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -1681,7 +2007,80 @@
         "categoria": "inteligencia_artificial",
         "categorias_secundarias": [],
         "category_scores": {
-          "inteligencia_artificial": 1
+          "inteligencia_artificial": 2
+        },
+        "entidades": [
+          "Gemini"
+        ],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 80,
+        "relevancia": 55,
+        "confiabilidad_fuente": 53,
+        "readability": {
+          "words": 35,
+          "sentences": 1,
+          "average_words_per_sentence": 35
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 63.25
+    },
+    {
+      "id": "1cd3f1fac09bbf75",
+      "fuente_id": "xataka_google",
+      "fuente_nombre": "Xataka",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "xataka",
+      "nivel_fuente": "medio_especializado",
+      "categoria": "tecnologia",
+      "idioma_original": "es",
+      "prioridad_fuente": 4,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "\"El modo de IA no genera tráfico. Ni para nosotros ni para nadie\": El CEO de Reddit dice adiós a la web abierta",
+      "titulo_original": "\"El modo de IA no genera tráfico. Ni para nosotros ni para nadie\": El CEO de Reddit dice adiós a la web abierta - Xataka",
+      "enlace": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQUkR2UFE2UmJxay1rSjAxc2ZSbG5acFU4ZDZxdkFPeDRBNFh0QnltdGVQZnNwa196cWJ2S3VTT3RBbklsZ050UERHaW1BWXpadlBrTFNsbHVQMmQ2b3ZMVFdiM1ozUy1kNTVvemdCR0lvdm93OXVRUWlMdlk2ZFAyY2dWaFRkX3JqZVdoUElXU2Z6Y1lyekxKcjY2OU5DYVFmOUgwWVJ4MEZKNTlXVmNDSnJudjhIRmxMNWkw?oc=5",
+      "fecha": "2026-10-30T12:31:26.000Z",
+      "resumen_corto": "Ni para nosotros ni para nadie\": El CEO de Reddit dice adiós a la web abierta Xataka",
+      "resumen_largo": "\"El modo de IA no genera tráfico. Ni para nosotros ni para nadie\": El CEO de Reddit dice adiós a la web abierta Xataka",
+      "texto_original": "\"El modo de IA no genera tráfico. Ni para nosotros ni para nadie\": El CEO de Reddit dice adiós a la web abierta Xataka",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-10-30T15:43:09.947Z",
+        "index": 14,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "inteligencia_artificial",
+        "categorias_secundarias": [
+          "moviles",
+          "software_internet"
+        ],
+        "category_scores": {
+          "inteligencia_artificial": 1,
+          "moviles": 1,
+          "software_internet": 1
         },
         "entidades": [
           "Xataka"
@@ -1703,9 +2102,9 @@
         "relevancia": 55,
         "confiabilidad_fuente": 50,
         "readability": {
-          "words": 76,
-          "sentences": 6,
-          "average_words_per_sentence": 12.67
+          "words": 66,
+          "sentences": 5,
+          "average_words_per_sentence": 13.2
         },
         "duplicate": {
           "detected": false,
@@ -1717,7 +2116,75 @@
       "final_score": 63.2
     },
     {
-      "id": "0d208a7f6e22f438",
+      "id": "a755db22b106d488",
+      "fuente_id": "xataka_google",
+      "fuente_nombre": "Xataka",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "xataka",
+      "nivel_fuente": "medio_especializado",
+      "categoria": "tecnologia",
+      "idioma_original": "es",
+      "prioridad_fuente": 4,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Marruecos ha puesto sus ojos en un negocio militar con el que España está haciendo miles de millones de euros",
+      "titulo_original": "Marruecos ha puesto sus ojos en un negocio militar con el que España está haciendo miles de millones de euros - Xataka",
+      "enlace": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQcVY4LW93bUR1dHhRNkY1eWdEeE5oMUhudHdZRWVvc3c3STgwRDdxTGpDWFk4cUNZc3JCekFmMThURFZWM1ZWWVdBbTFxNXlUaklRSzJmd3p6el9IWDRwbjNidGdDbUd6M3ByZVpiMzQ0RTZkdlJRdVBCOVpPRXMzcUxjWkhjZ212QV9vMkdTMzRHTG1WdkkxcHFqc3kzaTJ1b1NNZ0g4Ny1Nd1BsczNPZlZRQlBXdkFURWdFWW5sZGJyOG41eDloMHBQMktscXFUcGJJTDJn0gHbAUFVX3lxTE12Y090SDBBTXFINlRWNzlPNWxYdXJnVXBldzNSZFpoM3dTRlNxR2dtWDB6aVNNZUFJQXRqMGk0bm1mRUZRTDIxUUpxTWp4ZmRJU3JKckVtNWhKMmVhRmU1SkcwZlVRVmNVV1hMSmpwVkNFMXdzTkpud3F5dTNrXzl0dUxwdUt3ekZ4Y2JEdy1nb0g0UmpRejQ3blZ6NzY5bFl1Sk1vY2U3MmRUYm5nUnhBeEFUem9hQ19oREU2SXN5eGFFdDc4NUpPT2lXOWZRVl9MM0VkSV9ua0Zpbw?oc=5",
+      "fecha": "2026-10-30T10:19:00.000Z",
+      "resumen_corto": "Marruecos ha puesto sus ojos en un negocio militar con el que España está haciendo miles de millones de euros Xataka",
+      "resumen_largo": "Marruecos ha puesto sus ojos en un negocio militar con el que España está haciendo miles de millones de euros Xataka",
+      "texto_original": "Marruecos ha puesto sus ojos en un negocio militar con el que España está haciendo miles de millones de euros Xataka",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-10-30T15:43:09.952Z",
+        "index": 21,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "militar",
+        "categorias_secundarias": [],
+        "category_scores": {
+          "militar": 1
+        },
+        "entidades": [
+          "Xataka"
+        ],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 82,
+        "relevancia": 55,
+        "confiabilidad_fuente": 50,
+        "readability": {
+          "words": 74,
+          "sentences": 1,
+          "average_words_per_sentence": 74
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 63.2
+    },
+    {
+      "id": "dbcaa86d30dcaf92",
       "fuente_id": "genbeta_google",
       "fuente_nombre": "Genbeta",
       "tipo": "rss_web",
@@ -1729,17 +2196,17 @@
       "prioridad_fuente": 4,
       "analizar": true,
       "resumir": true,
-      "titulo": "David Carracedo, ingeniero: “En 10 o 20 años, las casas pondrán la lavadora cuando haya energía solar disponible”",
-      "titulo_original": "David Carracedo, ingeniero: “En 10 o 20 años, las casas pondrán la lavadora cuando haya energía solar disponible” - Genbeta",
-      "enlace": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPckpYeFNMT0FRUVA4dXpjU2xnNS1WS0FvWXBuM25ZckwwcUZqei1meXo0ZEpSTkxjU19penFsRW84eF9fUkVDZFBlWFQxOXpSOXlXVldZcXoxTmNhNmdJOHUxaUJBMDY1LVNIN2VTdjZVdnBVVm9LTUN3UmJEVmtaejA0VVptSXY3ZERHN2ZmTWtTZEFmb3J2SXhlcjNQSm1ncGprM1dDN2ZCaXlfMncyMXBHbjdTMEpSeWc2VTJhQWxEand50gHKAUFVX3lxTE94U0ozVWlwZ1pXREtHaDRraDlYUDVjUGtXM1JvUVB0eFUyVHNFX0RTSkhfd3JEVVYwWG04eGZOMXFQMDkxalJXb1psWS1LMHBoYm5PMExLNi1LZHhxVXJManVGbVhmNTJVR3JKMUN5Z2FjWXRqaHJMTTVVaWZvbUdkVHZtQlRCa3F5eEJPZGpxNXdPOWI4SWR4MlBSQzJBT04zVDJhWVF3N1pyeERDN0ludG5Eakk4MURkRFpKWV9ZTHhvS1NfdEtzWUE?oc=5",
-      "fecha": "2026-10-29T15:01:28.000Z",
-      "resumen_corto": "David Carracedo, ingeniero: “En 10 o 20 años, las casas pondrán la lavadora cuando haya energía solar disponible” Genbeta",
-      "resumen_largo": "David Carracedo, ingeniero: “En 10 o 20 años, las casas pondrán la lavadora cuando haya energía solar disponible” Genbeta",
-      "texto_original": "David Carracedo, ingeniero: “En 10 o 20 años, las casas pondrán la lavadora cuando haya energía solar disponible” Genbeta",
+      "titulo": "Fin a 28 años de historia: Telefónica dejará de encargarse de prestar el Servicio Universal de Telecomunicaciones",
+      "titulo_original": "Fin a 28 años de historia: Telefónica dejará de encargarse de prestar el Servicio Universal de Telecomunicaciones - Genbeta",
+      "enlace": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPRTNGclhHeGotY1Bpbm5QdG9yYmR3dVBJelhfMVNzbmxqRGZGUUQzdEFFbjFlQUF0cU8wQXdvQWRJY1BaUS1KOUwzWktxMjlKM3hDbVNJQXpPZFFnOEw5eGtzTTh3ZWRnX1FzTmVhbVdGRWRkeGVGUzVyOVEyRzlQdzBXV3hmbjBSVWJpWnpyQlNtNERYanBZLUwwdWozdkFVNnRTT0ZmUXpUb1AzS2ZUOHVuckYxTExFdXlZM3lTUV9rM0xTUDY5VTNNMkQzSmlOTVpn0gHYAUFVX3lxTE8tZDNMbnJzS09FR3J0Uk5wS0l2ZDhuemJBZ1dQWU9uMWFCS3pDSkk3WDJLOGhaODlNTm9CamV4SklxT3VtemFMMXZrRDJ2d01BV0V4TlNIVEhFREJvSXFuMEsxNHBELTBuZ21BLW5jajI3OXVBdGxZOTZYeFVhd2RkdWx2ME4ycGJKdmVIaWRFQUhMdXB5ck1WcUxleUo4S2YyemtnSWVGQkF0MkhtQUtRTEk0eS1vTkkwOHdNUUlWeUhnemUwSjFmbDRiU0pOVUR3Um1xTVU5ZA?oc=5",
+      "fecha": "2026-10-30T10:01:29.000Z",
+      "resumen_corto": "Fin a 28 años de historia: Telefónica dejará de encargarse de prestar el Servicio Universal de Telecomunicaciones Genbeta",
+      "resumen_largo": "Fin a 28 años de historia: Telefónica dejará de encargarse de prestar el Servicio Universal de Telecomunicaciones Genbeta",
+      "texto_original": "Fin a 28 años de historia: Telefónica dejará de encargarse de prestar el Servicio Universal de Telecomunicaciones Genbeta",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-30T08:15:11.717Z",
-        "index": 26,
+        "processed_at": "2026-10-30T15:43:09.954Z",
+        "index": 24,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -1774,9 +2241,9 @@
         "relevancia": 55,
         "confiabilidad_fuente": 50,
         "readability": {
-          "words": 69,
+          "words": 54,
           "sentences": 1,
-          "average_words_per_sentence": 69
+          "average_words_per_sentence": 54
         },
         "duplicate": {
           "detected": false,
@@ -1788,7 +2255,7 @@
       "final_score": 63.2
     },
     {
-      "id": "d6523a94f1768ec7",
+      "id": "89b5bfd06fdd409a",
       "fuente_id": "ia_dia",
       "fuente_nombre": "IA al Día",
       "tipo": "rss_web",
@@ -1800,17 +2267,17 @@
       "prioridad_fuente": 3,
       "analizar": true,
       "resumir": true,
-      "titulo": "\"Tesis\" explora cómo la inteligencia artificial, el turismo sostenible y la historia de la ciencia transforman el conocimiento - Canal Sur",
-      "titulo_original": "\"Tesis\" explora cómo la inteligencia artificial, el turismo sostenible y la historia de la ciencia transforman el conocimiento - Canal Sur",
-      "enlace": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQV0cyTE9qSWxRNnl4MkI1cGc1UWFMU2VncDlUaHFoVmpqVWRYLU14MF9Md0VxNS1nNW14RTlTdThORHI4NEV6ekJYSDBGdXhEYWM1c081cGVQLTdrRUdqQ0JHNC1oOGh4bHhiam9CN3R2NEM4elJORVdmV2lsQy10eEFBSjdpb3BiZkVyMURyUjVJbEEzWlRXWkFKN2J0dWk2Y25mRA?oc=5",
-      "fecha": "2026-10-30T07:14:42.000Z",
-      "resumen_corto": "\"Tesis\" explora cómo la inteligencia artificial, el turismo sostenible y la historia de la ciencia transforman el conocimiento Canal Sur",
-      "resumen_largo": "\"Tesis\" explora cómo la inteligencia artificial, el turismo sostenible y la historia de la ciencia transforman el conocimiento Canal Sur",
-      "texto_original": "\"Tesis\" explora cómo la inteligencia artificial, el turismo sostenible y la historia de la ciencia transforman el conocimiento Canal Sur",
+      "titulo": "BAAI.EUS: Nace el primer creador de páginas web impulsado por la inteligencia artificial vasca Latxa - Cadena SER",
+      "titulo_original": "BAAI.EUS: Nace el primer creador de páginas web impulsado por la inteligencia artificial vasca Latxa - Cadena SER",
+      "enlace": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPZDV1X0EzeUVHc3h4Z0trM25QWG1pQi1jUEZ0b0Vid1ZYV0xPdFdqRzNtUEh3Z1RhU0RyTnQ5NDRyY1Nod3c0RkRvVVJpOWxEVHdOa240MVhTMWxyOG5qMlFYMXYyQTRyTTNQRGJ4TGxRTlNkMEgxUWlubTBqRGppeVJ1Y3plakxXMlA5N0FWZ05URThCMkh5eDlCTVA4OW05dWdjTlpJZEVDS2l4a1dKMmNvWEg0Ukt4TWQ4OXo5b09jLWJvM3gyck1WNlkxeW15SWl1b01EdUd1NWJqUnZnN21jcGxVRWNoTm9pVktKMVhTd9IBhgJBVV95cUxNc0VnWUZDNllvZTFhZS1xTEt4QWxBeWlnQTNVSkI3S1B0Z1lWQjlzcmlVTmN3Um51SUpyWDhXZWQwTld0NzdfYkNMak1ZamFiOUpLOTFpRjNjUEJxelF6cWtTazhVUHJvUm1EUWFMVWJwTHlFZms4NzM1ZlQ5NlJsLTJpV3h2MFg0c1pfaEhnZXg1RXNlOGwyWllzRnU4dnRNcjAzQVFwMS12cVoxZmhNWGI1ZVo4S3B3ekphdF9OS1I5OWZaQVFTQkQ5R2NSOXJsa2V1S0luQ3V0cmRHb0NfYm56OWNoMUE5UjJ2WkFBOGZIZExiLURnYjFUSVNEbjlldlVtWUhn?oc=5",
+      "fecha": "2026-10-30T14:33:20.000Z",
+      "resumen_corto": "BAAI.EUS: Nace el primer creador de páginas web impulsado por la inteligencia artificial vasca Latxa Cadena SER",
+      "resumen_largo": "BAAI.EUS: Nace el primer creador de páginas web impulsado por la inteligencia artificial vasca Latxa Cadena SER",
+      "texto_original": "BAAI.EUS: Nace el primer creador de páginas web impulsado por la inteligencia artificial vasca Latxa Cadena SER",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-30T08:15:11.696Z",
-        "index": 0,
+        "processed_at": "2026-10-30T15:43:09.935Z",
+        "index": 4,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -1819,11 +2286,11 @@
         "idioma_original": "es",
         "categoria": "inteligencia_artificial",
         "categorias_secundarias": [
-          "tecnologia"
+          "software_internet"
         ],
         "category_scores": {
-          "inteligencia_artificial": 3,
-          "tecnologia": 1
+          "inteligencia_artificial": 4,
+          "software_internet": 1
         },
         "entidades": [],
         "cifras_detectadas": [],
@@ -1843,9 +2310,9 @@
         "relevancia": 57,
         "confiabilidad_fuente": 53,
         "readability": {
-          "words": 65,
-          "sentences": 1,
-          "average_words_per_sentence": 65
+          "words": 75,
+          "sentences": 6,
+          "average_words_per_sentence": 12.5
         },
         "duplicate": {
           "detected": false,
@@ -1878,8 +2345,8 @@
       "texto_original": "Veraquo, la tecnología nacida en Vigo que caza los «deepfakes» mejor que el ojo humano La Voz de Galicia",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-30T08:15:11.705Z",
-        "index": 8,
+        "processed_at": "2026-10-30T15:43:09.957Z",
+        "index": 30,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -1928,42 +2395,44 @@
       "final_score": 62.3
     },
     {
-      "id": "92922bb0d1b10f1d",
-      "fuente_id": "xataka_google",
-      "fuente_nombre": "Xataka",
+      "id": "2db5dbc093e05e85",
+      "fuente_id": "ia_dia",
+      "fuente_nombre": "IA al Día",
       "tipo": "rss_web",
       "subtipo": "google_news",
-      "grupo_fuente": "xataka",
-      "nivel_fuente": "medio_especializado",
-      "categoria": "tecnologia",
+      "grupo_fuente": "ia_general",
+      "nivel_fuente": "agregador",
+      "categoria": "inteligencia_artificial",
       "idioma_original": "es",
-      "prioridad_fuente": 4,
+      "prioridad_fuente": 3,
       "analizar": true,
       "resumir": true,
-      "titulo": "Red Eléctrica está pidiendo a sus centrales eléctricas que no se apaguen ni para hacer mantenimiento. Es una señal de lo tensionado que está el sistema",
-      "titulo_original": "Red Eléctrica está pidiendo a sus centrales eléctricas que no se apaguen ni para hacer mantenimiento. Es una señal de lo tensionado que está el sistema - Xataka",
-      "enlace": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNRHc3RHU0R1E2bEVzcnhqUlZLa1E2OGN5eFd3b2Vub3hsY2h4ZEktaFF3ZzFwRU13VXVLUGNVX0lEcGVsVERZQWdYNlZrTm1zckt2bkhDWVlINFg5R1VtM2VILTdBYTllejZSamo3bl9OOWxmTW1EeWFNVjVwVXNRWXYtVjE3d0Rnd0kxbmx6TzB5VmViMUlKa003NVN0VU54d2hsNHVadWQ4dTZPQzEtbWI5MTZSLUhKSWs3cF9aekVzYk1PUXROazNRYW81SjZZYnZBaFFFcmViVlhSWnYtT0U4VFhaNC1RbFJLdnJGeTZqVUxp0gH6AUFVX3lxTFB2MGtBM29XRURmNWV1MGczV21EY2I1MkhEWWxKUEtXc2dUS1M0SHFrM2Z3X2YtcE5wYW5ia0lFbWYtSmJ4bUtIclRXTVU3MS1PMGhvNnZGRmJSN1I2VU8yZFNGOVVnSUVZZGdFTlRBRThoZzZ3dFFIRnd0emdETkZlbEhwQ0NZV1AyeFBCZzladWQyUE0xR2NBcThnbldEQWk2b00wVVlNMWU1MHBtV0wzZ3ZiV202Ti0wS2NsM0ZISVA2SkpYS3VXM1FuWTdYMm9wZ2JjbWRlYVgwY25wcDlNYXRuYkRJVC0yRjZLcGpGYWd4ZDBEcWVxNGc?oc=5",
-      "fecha": "2026-10-29T18:01:32.000Z",
-      "resumen_corto": "Red Eléctrica está pidiendo a sus centrales eléctricas que no se apaguen ni para hacer mantenimiento.",
-      "resumen_largo": "Red Eléctrica está pidiendo a sus centrales eléctricas que no se apaguen ni para hacer mantenimiento. Es una señal de lo tensionado que está el sistema Xataka",
-      "texto_original": "Red Eléctrica está pidiendo a sus centrales eléctricas que no se apaguen ni para hacer mantenimiento. Es una señal de lo tensionado que está el sistema Xataka",
+      "titulo": "N5 invirtió US$34 millones para adquirir tres empresas de inteligencia artificial - La Nación",
+      "titulo_original": "N5 invirtió US$34 millones para adquirir tres empresas de inteligencia artificial - La Nación",
+      "enlace": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNazM1dy1nV01JNHBMOTRyM1VtdGI0emdEUzBuZE9WdGdhYnJDVEQwOFhMeUhBX2pfTWJ0em1aRy1oZXF1SmVCNWRPemlzQnl6QkgtSlkwMnVwaFQ5QWNsQnJqYTZZSW92Ml9xQ21pYzRFUGVRdWd1eEhicDIxbEg5NlBfdGdVOF8yaF9OM0x0MURaNVRtMFF1OHR5QWVqandMc3FsVlVFM183WGJPVnZUMEQyWWtvLUNQaXV6Y2tMTEcyZXREUHN5ZUtOMEJsLVJLU2dXN3hn?oc=5",
+      "fecha": "2026-10-28T18:24:00.000Z",
+      "resumen_corto": "N5 invirtió US$34 millones para adquirir tres empresas de inteligencia artificial La Nación",
+      "resumen_largo": "N5 invirtió US$34 millones para adquirir tres empresas de inteligencia artificial La Nación",
+      "texto_original": "N5 invirtió US$34 millones para adquirir tres empresas de inteligencia artificial La Nación",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-30T08:15:11.714Z",
-        "index": 19,
+        "processed_at": "2026-10-30T15:43:09.962Z",
+        "index": 41,
         "resumen": {
           "generado": true,
           "origen": "translated"
         },
         "idioma_detectado": "es",
         "idioma_original": "es",
-        "categoria": "tecnologia",
+        "categoria": "inteligencia_artificial",
         "categorias_secundarias": [],
-        "category_scores": {},
-        "entidades": [
-          "Xataka"
+        "category_scores": {
+          "inteligencia_artificial": 3
+        },
+        "entidades": [],
+        "cifras_detectadas": [
+          "$34"
         ],
-        "cifras_detectadas": [],
         "content_type": "news",
         "clickbait": {
           "detected": false,
@@ -1972,17 +2441,17 @@
         },
         "spam": {
           "detected": false,
-          "score": 0,
+          "score": 25,
           "signals": [],
           "url_count": 0
         },
-        "calidad": 82,
+        "calidad": 80,
         "relevancia": 50,
-        "confiabilidad_fuente": 50,
+        "confiabilidad_fuente": 53,
         "readability": {
-          "words": 87,
-          "sentences": 6,
-          "average_words_per_sentence": 14.5
+          "words": 45,
+          "sentences": 1,
+          "average_words_per_sentence": 45
         },
         "duplicate": {
           "detected": false,
@@ -1991,7 +2460,7 @@
           "similar_to": null
         }
       },
-      "final_score": 61.2
+      "final_score": 61.25
     },
     {
       "id": "4a19dce73e7543cb",
@@ -2015,8 +2484,8 @@
       "texto_original": "Una aceitera de Jaén coloca más de 5.150 placas solares a más de cuatro metros de altura sobre un olivar en producción para que la cosechadora pueda seguir pasando por debajo Genbeta",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-30T08:15:11.719Z",
-        "index": 30,
+        "processed_at": "2026-10-30T15:43:09.961Z",
+        "index": 37,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -2060,42 +2529,115 @@
       "final_score": 61.2
     },
     {
-      "id": "f9e4f528ce912149",
-      "fuente_id": "resumen_militar",
-      "fuente_nombre": "El Resumen Militar",
-      "tipo": "telegram",
-      "subtipo": "canal_telegram",
-      "grupo_fuente": "telegram_militar",
-      "nivel_fuente": "telegram",
-      "categoria": "militar",
-      "idioma_original": "es",
-      "prioridad_fuente": 3,
+      "id": "2bb2433965b9bf18",
+      "fuente_id": "wccftech_google",
+      "fuente_nombre": "Wccftech",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "wccftech",
+      "nivel_fuente": "medio_especializado",
+      "categoria": "hardware",
+      "idioma_original": "en",
+      "prioridad_fuente": 4,
       "analizar": true,
       "resumir": true,
-      "titulo": "🇷🇺 🇺🇦 🇬🇧 Sky News can’t help but spin the humanitarian aid being delivered in Alyoshki 🔴 @DDGeopolitics",
-      "titulo_original": "🇷🇺 🇺🇦 🇬🇧 Sky News can’t help but spin the humanitarian aid being delivered in Alyoshki 🔴 @DDGeopolitics",
-      "enlace": "https://t.me/elresumenmilitar/102412",
-      "fecha": "2026-10-30T05:51:01.000Z",
-      "resumen_corto": "🇷🇺 🇺🇦 🇬🇧 Sky News can’t help but spin the humanitarian aid being delivered in Alyoshki 🔴 @DDGeopolitics",
-      "resumen_largo": "🇷🇺 🇺🇦 🇬🇧 Sky News can’t help but spin the humanitarian aid being delivered in Alyoshki 🔴 @DDGeopolitics",
-      "texto_original": "🇷🇺 🇺🇦 🇬🇧 Sky News can’t help but spin the humanitarian aid being delivered in Alyoshki 🔴 @DDGeopolitics",
+      "titulo": "El CEO de Intel, Lip-Bu Tan, rompe el silencio sobre la adquisición de la computación cuántica y dice que Intel se convertirá en una empresa cuántica generadora de ingresos de pila completa \"",
+      "titulo_original": "Intel CEO Lip-Bu Tan Breaks Silence On Quantum Computing Acquisition & Says Intel Will Become A Full Stack Revenue-Generating Quantum Company” - Wccftech",
+      "enlace": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPNVVFN0lqMFdfYW9kM2JQWkVHRkFFWTQ5S2lGdGlFQ0FheHpSc3Z5OFBmbGRQaDZrVEhLcC13MkNYTHdYdHZlRzh4cF90YkIxR0I5dW1OYndBRlE1SEtHbVJTY214MDNxY3VyZTRzZFFyRnRyRHZIeVJKOWEwQ09OQm1JSHFHc2VzTm93NWtfV0RQeGZfRmhfRnhsSERjdFo1QjJLV1pmNklsZDM4bGM2dFlPWXgzUjczbmszRGNidUg0MlRhRzBiV2g4Ri1mOGxSLUFMX2F1OW9IV2EzZ0pISmR3V2dRNW00b2E3UF9DWjAwNjDSAfgBQVVfeXFMUHFrSk90ZEFYTGh4VDdnamdtR1BmM0Q5TEtCNnpzTF96NGpKMDAtODJ1ckxFdUJXNmFseG9oWWFHOVJfZjBEQzBzN0ltUVNrXy16dFk3Mm9kak0xX2ZLUlludTN0VVpyeXlhcHhmZlNoV0tlY2FLRmZsT1dJZDB4eVRZOVJfOUNVXzkyWVc0ZEdnU1ItRFpLRUtlQmxoMVFHRzZQMmRFYWpoOFk1T09uR2lNN3lfWVRDOU04dnVmTDg0U1RndzRYbllsUFByT2NOck9CZ2JfZlpBY3p5MUpVWVh5RkxzcWY0RTRWbFJQNXpqVnRGRVhuclo?oc=5",
+      "fecha": "2026-10-30T10:15:39.000Z",
+      "resumen_corto": "El CEO de Intel, Lip-Bu Tan, rompe el silencio sobre la adquisición de la computación cuántica y dice que Intel se convertirá en una empresa cuántica generadora de ingresos de pila completa \" Wccftech",
+      "resumen_largo": "El CEO de Intel, Lip-Bu Tan, rompe el silencio sobre la adquisición de la computación cuántica y dice que Intel se convertirá en una empresa cuántica generadora de ingresos de pila completa \" Wccftech",
+      "texto_original": "Intel CEO Lip-Bu Tan Breaks Silence On Quantum Computing Acquisition & Says Intel Will Become A Full Stack Revenue-Generating Quantum Company” Wccftech",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-30T08:15:11.700Z",
-        "index": 3,
+        "processed_at": "2026-10-30T15:43:09.952Z",
+        "index": 22,
         "resumen": {
           "generado": true,
           "origen": "translated"
         },
-        "idioma_detectado": "en",
-        "idioma_original": "es",
-        "categoria": "inteligencia_artificial",
+        "idioma_detectado": "es",
+        "idioma_original": "en",
+        "categoria": "vehiculos_energia",
         "categorias_secundarias": [
-          "actualidad"
+          "tecnologia"
         ],
         "category_scores": {
-          "inteligencia_artificial": 2,
-          "actualidad": 2
+          "vehiculos_energia": 1,
+          "tecnologia": 1
+        },
+        "entidades": [
+          "Intel",
+          "Wccftech",
+          "Quantum Company"
+        ],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 67,
+        "relevancia": 60,
+        "confiabilidad_fuente": 50,
+        "readability": {
+          "words": 105,
+          "sentences": 1,
+          "average_words_per_sentence": 105
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 59.95
+    },
+    {
+      "id": "d9d5088f732304f9",
+      "fuente_id": "google_news_es",
+      "fuente_nombre": "Google News ES",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "google_news",
+      "nivel_fuente": "agregador",
+      "categoria": "tecnologia",
+      "idioma_original": "es",
+      "prioridad_fuente": 3,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "El fraude digital exige algo más que tecnología - Expansión",
+      "titulo_original": "El fraude digital exige algo más que tecnología - Expansión",
+      "enlace": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNWnl0OWM0eDk1NTZQSzdnQjdUOVZlOFo3aTBnVnJ5QU9ad0RadVBpQkhUV0pacmdBXzJyWFllN1ZXeG1kMmN2S3REcVJnZU1neGlMU01jR0wtbzhFaE14TDF3YkJoNmtKRnJ2NW9zMzRMSXNQMThxYUVLWFptUDN5SjhweFZjN2pXUUl0dzhqMDl2Nnpw0gGUAUFVX3lxTE9TMjFhZVlDQzRvckx3a25xRUtxYUxlb1hkSWd2UEhkUkxTUlE2ZEVNVjRWUk5Lc1IxRGNQUVZOZWxJYTdja2lDQjZxbUYwLUNpRGhVX3YxMTVmeXJmVjliTWI4c1ZKSWNDMVlvWXBmOC1qM0hJZW5HN3prc2wxY0hXeVNySHJBb3BjSU1JRVZyY0VKYk8?oc=5",
+      "fecha": "2026-10-30T10:51:45.000Z",
+      "resumen_corto": "El fraude digital exige algo más que tecnología Expansión",
+      "resumen_largo": "El fraude digital exige algo más que tecnología Expansión",
+      "texto_original": "El fraude digital exige algo más que tecnología Expansión",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-10-30T15:43:09.950Z",
+        "index": 19,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "tecnologia",
+        "categorias_secundarias": [
+          "inteligencia_artificial"
+        ],
+        "category_scores": {
+          "tecnologia": 2,
+          "inteligencia_artificial": 1
         },
         "entidades": [],
         "cifras_detectadas": [],
@@ -2112,12 +2654,12 @@
           "url_count": 0
         },
         "calidad": 75,
-        "relevancia": 57,
-        "confiabilidad_fuente": 45,
+        "relevancia": 50,
+        "confiabilidad_fuente": 53,
         "readability": {
-          "words": 65,
+          "words": 40,
           "sentences": 1,
-          "average_words_per_sentence": 65
+          "average_words_per_sentence": 40
         },
         "duplicate": {
           "detected": false,
@@ -2126,7 +2668,7 @@
           "similar_to": null
         }
       },
-      "final_score": 60.3
+      "final_score": 59.5
     },
     {
       "id": "fb9a423381251dd0",
@@ -2150,8 +2692,8 @@
       "texto_original": "La fuga inversora de la tecnología llega al mercado europeo: el cierre semanal pone en duda la tendencia del Ibex 35 El Economista",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-30T08:15:11.698Z",
-        "index": 1,
+        "processed_at": "2026-10-30T15:43:09.956Z",
+        "index": 28,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -2198,75 +2740,6 @@
       "final_score": 59.5
     },
     {
-      "id": "255cd97bededd4d6",
-      "fuente_id": "ia_dia",
-      "fuente_nombre": "IA al Día",
-      "tipo": "rss_web",
-      "subtipo": "google_news",
-      "grupo_fuente": "ia_general",
-      "nivel_fuente": "agregador",
-      "categoria": "inteligencia_artificial",
-      "idioma_original": "es",
-      "prioridad_fuente": 3,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "El mundo editorial busca cómo marcar las líneas rojas en el uso de la IA - EL PAÍS",
-      "titulo_original": "El mundo editorial busca cómo marcar las líneas rojas en el uso de la IA - EL PAÍS",
-      "enlace": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOVHdLOVVLZ0F2WmxnczJwMmV6cUsyYjJ1RGZRQ1Q1ZEJ3REt4S1hyeEw4MzlwdUFkellzbDdmRkpnX2QwV29aZGVnZUE2N1Bka1N1N3hHeGlIajlkVGEtQ0ZvWUpGbUZKV0ZFLXBRZEJzbHJDSVVjR25QY1MtZ2M1bENNNl9kNnpKVWM5QzJGTE1zRUNORjZmY01TOURhYjV3ZHVRWFlKYktrTmNtbkZNdG0zNlRDQdIBygFBVV95cUxNOWNIaWRBb0xxaTFtVEtOUmVMR2pnOHZyeU9aTFU5SmhnZVcwR2JkaExWTExzWTBHNnJtRnBmX0taam9nOVJjQ2doaGlkNWlkOEZzYnV6TThSSzJPdmRPb1dOemN5dE05S0VyaGJIS3dkdXh5ZWYwRFJJeTV1ZExYS3FvOXBpM09PU1ZoSHRTSlRiWjhXdWkyblJ0NlFNUExmQTJLb1hSWEVjRE94ZVg2RDR0Z2JCWGJqLTI2SGFjZ0hrTTZrQTAzRWp3?oc=5",
-      "fecha": "2026-10-30T04:30:01.000Z",
-      "resumen_corto": "El mundo editorial busca cómo marcar las líneas rojas en el uso de la IA EL PAÍS",
-      "resumen_largo": "El mundo editorial busca cómo marcar las líneas rojas en el uso de la IA EL PAÍS",
-      "texto_original": "El mundo editorial busca cómo marcar las líneas rojas en el uso de la IA EL PAÍS",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-10-30T08:15:11.701Z",
-        "index": 5,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "es",
-        "categoria": "inteligencia_artificial",
-        "categorias_secundarias": [
-          "vehiculos_energia"
-        ],
-        "category_scores": {
-          "inteligencia_artificial": 2,
-          "vehiculos_energia": 1
-        },
-        "entidades": [],
-        "cifras_detectadas": [],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 75,
-        "relevancia": 50,
-        "confiabilidad_fuente": 53,
-        "readability": {
-          "words": 50,
-          "sentences": 1,
-          "average_words_per_sentence": 50
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 59.5
-    },
-    {
       "id": "d85b3520f23825fd",
       "fuente_id": "google_news_es",
       "fuente_nombre": "Google News ES",
@@ -2288,8 +2761,8 @@
       "texto_original": "¿Estrés o emoción? Por qué tu reloj inteligente no distingue la diferencia EL PAÍS",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-30T08:15:11.702Z",
-        "index": 6,
+        "processed_at": "2026-10-30T15:43:09.956Z",
+        "index": 29,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -2333,75 +2806,6 @@
       "final_score": 59.5
     },
     {
-      "id": "35fe2ccf5f7643a5",
-      "fuente_id": "google_news_es",
-      "fuente_nombre": "Google News ES",
-      "tipo": "rss_web",
-      "subtipo": "google_news",
-      "grupo_fuente": "google_news",
-      "nivel_fuente": "agregador",
-      "categoria": "tecnologia",
-      "idioma_original": "es",
-      "prioridad_fuente": 3,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "El negocio de las ‘smart cities’ pasa de la tecnología a los resultados - Expansión",
-      "titulo_original": "El negocio de las ‘smart cities’ pasa de la tecnología a los resultados - Expansión",
-      "enlace": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQZlRVN2ZWUGVrN25JV1ZTTWpCRFI5MlpaU1dBOW5lWUdUbmJfRTVLQlpnSTBpN2xsR25MT3lDTmtHWGVoUGZyZHh3VGxqLUx1VEFQZS1DVDFReXBuM2dFUmxqeXdEdHljQ2ZDdVlWdXBvTWNFel9DSUVUenkwZlg4OWNJZDFTZmh5SjFma3oyTE8xdzdndDNjWWlIOHU3R3PSAZ8BQVVfeXFMUFFKM0phcDFLVkwyeE1meUFPVmdPN2E3X1dKSXotVXB0UkxXMDJadUpXS0RZalE3OUVZOElJX0N5UlFyWXhZVHRaTzlyaUNQQlVOR1BLbXN6elJrcWZhMmF1YTFZNUQ1cWpXYkZVS2pIZXBkSzNsM2c4UXFWcnN0U3cxZDJRZC1XdmQzN2ZFV1ZiSDRqWmVFdldjQVg4bjBV?oc=5",
-      "fecha": "2026-10-29T22:47:59.000Z",
-      "resumen_corto": "El negocio de las ‘smart cities’ pasa de la tecnología a los resultados Expansión",
-      "resumen_largo": "El negocio de las ‘smart cities’ pasa de la tecnología a los resultados Expansión",
-      "texto_original": "El negocio de las ‘smart cities’ pasa de la tecnología a los resultados Expansión",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-10-30T08:15:11.709Z",
-        "index": 13,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "es",
-        "categoria": "tecnologia",
-        "categorias_secundarias": [
-          "inteligencia_artificial"
-        ],
-        "category_scores": {
-          "tecnologia": 2,
-          "inteligencia_artificial": 1
-        },
-        "entidades": [],
-        "cifras_detectadas": [],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 75,
-        "relevancia": 50,
-        "confiabilidad_fuente": 53,
-        "readability": {
-          "words": 45,
-          "sentences": 1,
-          "average_words_per_sentence": 45
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 59.5
-    },
-    {
       "id": "c480e9a5644f7fff",
       "fuente_id": "google_news_es",
       "fuente_nombre": "Google News ES",
@@ -2423,8 +2827,8 @@
       "texto_original": "David Bueno, neurocientífico: “Hasta los 5 o 6 años no se necesita la tecnología para nada; el juego libre es lo que más enriquece el cerebro de un niño” La Vanguardia",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-30T08:15:11.713Z",
-        "index": 18,
+        "processed_at": "2026-10-30T15:43:09.958Z",
+        "index": 32,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -2492,8 +2896,8 @@
       "texto_original": "Sale la primera sentencia en España que justifica un ERE por la mejor productividad de la inteligencia artificial El Confidencial",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-30T08:15:11.721Z",
-        "index": 33,
+        "processed_at": "2026-10-30T15:43:09.962Z",
+        "index": 39,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -2558,8 +2962,8 @@
       "texto_original": "Aprender inglés para trabajar en tecnología, gratis: así son los cursos del Ayuntamiento Zaragoza y AWS Hoy Aragón",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-30T08:15:11.721Z",
-        "index": 35,
+        "processed_at": "2026-10-30T15:43:09.963Z",
+        "index": 42,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -2606,6 +3010,79 @@
       "final_score": 59.5
     },
     {
+      "id": "24ab3581a91c31fd",
+      "fuente_id": "resumen_militar",
+      "fuente_nombre": "El Resumen Militar",
+      "tipo": "telegram",
+      "subtipo": "canal_telegram",
+      "grupo_fuente": "telegram_militar",
+      "nivel_fuente": "telegram",
+      "categoria": "militar",
+      "idioma_original": "es",
+      "prioridad_fuente": 3,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "🇷🇺 🇺🇦 Contrary to western beliefs eg Sky News, BBC & every weird Ukrainian tiktoker in the world: People don’t want to leave Aleshki because of the Russian federation moreover they are being given the chance to go to",
+      "titulo_original": "🇷🇺 🇺🇦 Contrary to western beliefs eg Sky News, BBC & every weird Ukrainian tiktoker in the world: People don’t want to leave Aleshki because of the Russian federation moreover they are being given the chance to go to",
+      "enlace": "https://t.me/elresumenmilitar/102448",
+      "fecha": "2026-10-30T14:08:53.000Z",
+      "resumen_corto": "🇷🇺 🇺🇦 Contrary to western beliefs eg Sky News, BBC & every weird Ukrainian tiktoker in the world: People don’t want to leave Aleshki because of the Russian federation moreover they are being given the chance to go to Russia or Ukraine but want to remain in the city.",
+      "resumen_largo": "🇷🇺 🇺🇦 Contrary to western beliefs eg Sky News, BBC & every weird Ukrainian tiktoker in the world: People don’t want to leave Aleshki because of the Russian federation moreover they are being given the chance to go to Russia or Ukraine but want to remain in the city. ‘It’s their choice’ – Ukraine ombudsman lubinets on the residents of Aleshki who did not want to leave their homes. -The problem is that many people are staying.",
+      "texto_original": "🇷🇺 🇺🇦 Contrary to western beliefs eg Sky News, BBC & every weird Ukrainian tiktoker in the world: People don’t want to leave Aleshki because of the Russian federation moreover they are being given the chance to go to Russia or Ukraine but want to remain in the city. ‘It’s their choice’ – Ukraine ombudsman lubinets on the residents of Aleshki who did not want to leave their homes. -The problem is that many people are staying. -I was told that it is their own choice. We will at least try to ensure that some humanitarian aid continues to arrive. 🔴 @DDGeopolitics",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-10-30T15:43:09.938Z",
+        "index": 6,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "en",
+        "idioma_original": "es",
+        "categoria": "inteligencia_artificial",
+        "categorias_secundarias": [
+          "actualidad",
+          "vehiculos_energia"
+        ],
+        "category_scores": {
+          "inteligencia_artificial": 2,
+          "actualidad": 2,
+          "vehiculos_energia": 1
+        },
+        "entidades": [
+          "BBC"
+        ],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 65,
+        "relevancia": 62,
+        "confiabilidad_fuente": 45,
+        "readability": {
+          "words": 222,
+          "sentences": 10,
+          "average_words_per_sentence": 22.2
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 58.8
+    },
+    {
       "id": "7dd7efa5db71f25f",
       "fuente_id": "genbeta_google",
       "fuente_nombre": "Genbeta",
@@ -2627,8 +3104,8 @@
       "texto_original": "Un propietario aparca su moto junto a su coche en la misma plaza de garaje y los vecinos se quejan: la Ley de Propiedad Horizontal aclara los límites y si la comunidad le puede sancionar Genbeta",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-30T08:15:11.717Z",
-        "index": 25,
+        "processed_at": "2026-10-30T15:43:09.960Z",
+        "index": 35,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -2674,7 +3151,7 @@
       "final_score": 57.95
     },
     {
-      "id": "4fe298ff3dba39bd",
+      "id": "23b030a84b5289f4",
       "fuente_id": "resumen_militar",
       "fuente_nombre": "El Resumen Militar",
       "tipo": "telegram",
@@ -2686,145 +3163,17 @@
       "prioridad_fuente": 3,
       "analizar": true,
       "resumir": true,
-      "titulo": "🇮🇹 Момент крушения итальянского СН-47 в Боснии сегодня",
-      "titulo_original": "🇮🇹 Момент крушения итальянского СН-47 в Боснии сегодня",
-      "enlace": "https://t.me/elresumenmilitar/102414",
-      "fecha": "2026-10-30T05:52:19.000Z",
-      "resumen_corto": "🇮🇹 Момент крушения итальянского СН-47 в Боснии сегодня",
-      "resumen_largo": "🇮🇹 Момент крушения итальянского СН-47 в Боснии сегодня",
-      "texto_original": "🇮🇹 Момент крушения итальянского СН-47 в Боснии сегодня",
+      "titulo": "Эвакуация людей из Алешек идет полным ходом Всех желающих покинуть блокадный город размещают по автобусам, причем жители сами выбирают, кто куда хочет уехать, никто никого не заставляет. Хохлы уже пытаются через свои СМИ",
+      "titulo_original": "Эвакуация людей из Алешек идет полным ходом Всех желающих покинуть блокадный город размещают по автобусам, причем жители сами выбирают, кто куда хочет уехать, никто никого не заставляет. Хохлы уже пытаются через свои СМИ",
+      "enlace": "https://t.me/elresumenmilitar/102445",
+      "fecha": "2026-10-30T13:02:09.000Z",
+      "resumen_corto": "Эвакуация людей из Алешек идет полным ходом Всех желающих покинуть блокадный город размещают по автобусам, причем жители сами выбирают, кто куда хочет уехать, никто никого не заставляет.",
+      "resumen_largo": "Эвакуация людей из Алешек идет полным ходом Всех желающих покинуть блокадный город размещают по автобусам, причем жители сами выбирают, кто куда хочет уехать, никто никого не заставляет. Хохлы уже пытаются через свои СМИ разгонять информацию о \"фильтрации\" и \"вывозе жителей в неизвестном направлении\", но это все чушь от обиженок и ущербных. Также, премьер Украины куКорецкий успел заявить, что на их территорию якобы собираются возвращаться 527 человек - очень точное число от людей, которые до сих пор не знают, сколько реально человек проживало в Алешках, а позже он вообще открестился от своих слов.",
+      "texto_original": "Эвакуация людей из Алешек идет полным ходом Всех желающих покинуть блокадный город размещают по автобусам, причем жители сами выбирают, кто куда хочет уехать, никто никого не заставляет. Хохлы уже пытаются через свои СМИ разгонять информацию о \"фильтрации\" и \"вывозе жителей в неизвестном направлении\", но это все чушь от обиженок и ущербных. Также, премьер Украины куКорецкий успел заявить, что на их территорию якобы собираются возвращаться 527 человек - очень точное число от людей, которые до сих пор не знают, сколько реально человек проживало в Алешках, а позже он вообще открестился от своих слов. Даже если это число находится близко к реальному, то это всего лишь четверть от всего оставшегося населения города, которые переезжают не из за любви к своей \"родине\", а потому что им там есть где и с кем жить. Получается, что информационная кампания, которую так разгоняла украинская сторона о \"кровожадности России по отношению к жителям Алешек\", была полностью сфабрикована для усиления дискредитационного фона ВС РФ и российской администрации? Быть того не может... Всем пожелавшим остаться передадут десятки тонн гуманитарной помощи - продукты, средства гигиены, топливо для генераторов и другие необходимые вещи, которые просили сами люди. Гуманитарная операция продолжается «Подписывайся на нас в MAX» 🦝",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-30T08:15:11.700Z",
-        "index": 2,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "es",
-        "categoria": "militar",
-        "categorias_secundarias": [],
-        "category_scores": {},
-        "entidades": [],
-        "cifras_detectadas": [],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 75,
-        "relevancia": 45,
-        "confiabilidad_fuente": 45,
-        "readability": {
-          "words": 25,
-          "sentences": 1,
-          "average_words_per_sentence": 25
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 55.5
-    },
-    {
-      "id": "62023cf95904a03c",
-      "fuente_id": "resumen_militar",
-      "fuente_nombre": "El Resumen Militar",
-      "tipo": "telegram",
-      "subtipo": "canal_telegram",
-      "grupo_fuente": "telegram_militar",
-      "nivel_fuente": "telegram",
-      "categoria": "militar",
-      "idioma_original": "es",
-      "prioridad_fuente": 3,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "🇷🇺 🇺🇦 Прилеты в Киеве, заснятые камерой наружного наблюдения",
-      "titulo_original": "🇷🇺 🇺🇦 Прилеты в Киеве, заснятые камерой наружного наблюдения",
-      "enlace": "https://t.me/elresumenmilitar/102409",
-      "fecha": "2026-10-29T21:41:03.000Z",
-      "resumen_corto": "🇷🇺 🇺🇦 Прилеты в Киеве, заснятые камерой наружного наблюдения",
-      "resumen_largo": "🇷🇺 🇺🇦 Прилеты в Киеве, заснятые камерой наружного наблюдения",
-      "texto_original": "🇷🇺 🇺🇦 Прилеты в Киеве, заснятые камерой наружного наблюдения",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-10-30T08:15:11.711Z",
-        "index": 16,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "es",
-        "categoria": "militar",
-        "categorias_secundarias": [],
-        "category_scores": {},
-        "entidades": [],
-        "cifras_detectadas": [],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 75,
-        "relevancia": 45,
-        "confiabilidad_fuente": 45,
-        "readability": {
-          "words": 30,
-          "sentences": 1,
-          "average_words_per_sentence": 30
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 55.5
-    },
-    {
-      "id": "017a6010494ffd9e",
-      "fuente_id": "resumen_militar",
-      "fuente_nombre": "El Resumen Militar",
-      "tipo": "telegram",
-      "subtipo": "canal_telegram",
-      "grupo_fuente": "telegram_militar",
-      "nivel_fuente": "telegram",
-      "categoria": "militar",
-      "idioma_original": "es",
-      "prioridad_fuente": 3,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "🇷🇺 💥 🇺🇦 Россия нацелилась на Дарницкий мост на левом берегу Киева ▪️ Об этом после серии взрывов ракет сообщают украинские мониторинговые ресурсы. ▪️ Также над Киевом поднимаются столбы дыма после прилетов. ⚠️ Подпи",
-      "titulo_original": "🇷🇺 💥 🇺🇦 Россия нацелилась на Дарницкий мост на левом берегу Киева ▪️ Об этом после серии взрывов ракет сообщают украинские мониторинговые ресурсы. ▪️ Также над Киевом поднимаются столбы дыма после прилетов. ⚠️ Подпи",
-      "enlace": "https://t.me/elresumenmilitar/102410",
-      "fecha": "2026-10-29T21:42:18.000Z",
-      "resumen_corto": "🇷🇺 💥 🇺🇦 Россия нацелилась на Дарницкий мост на левом берегу Киева ▪️ Об этом после серии взрывов ракет сообщают украинские мониторинговые ресурсы.",
-      "resumen_largo": "🇷🇺 💥 🇺🇦 Россия нацелилась на Дарницкий мост на левом берегу Киева ▪️ Об этом после серии взрывов ракет сообщают украинские мониторинговые ресурсы. ▪️ Также над Киевом поднимаются столбы дыма после прилетов. ⚠️ Подписаться на RV: MAX | t.me/RVvoenkor",
-      "texto_original": "🇷🇺 💥 🇺🇦 Россия нацелилась на Дарницкий мост на левом берегу Киева ▪️ Об этом после серии взрывов ракет сообщают украинские мониторинговые ресурсы. ▪️ Также над Киевом поднимаются столбы дыма после прилетов. ⚠️ Подписаться на RV: MAX | t.me/RVvoenkor",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-10-30T08:15:11.711Z",
-        "index": 15,
+        "processed_at": "2026-10-30T15:43:09.942Z",
+        "index": 9,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -2852,9 +3201,201 @@
         "relevancia": 45,
         "confiabilidad_fuente": 45,
         "readability": {
-          "words": 120,
+          "words": 310,
+          "sentences": 14,
+          "average_words_per_sentence": 22.14
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 50.25
+    },
+    {
+      "id": "82f7836d64e98565",
+      "fuente_id": "resumen_militar",
+      "fuente_nombre": "El Resumen Militar",
+      "tipo": "telegram",
+      "subtipo": "canal_telegram",
+      "grupo_fuente": "telegram_militar",
+      "nivel_fuente": "telegram",
+      "categoria": "militar",
+      "idioma_original": "es",
+      "prioridad_fuente": 3,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "🇷🇺 🇺🇦 Украинские БПЛА атаковали три российских НПЗ и газохимический комплекс. После перерыва возобновились атаки украинских беспилотников на российские нефтеперерабатывающие заводы: сегодня были атакованы три НПЗ и о",
+      "titulo_original": "🇷🇺 🇺🇦 Украинские БПЛА атаковали три российских НПЗ и газохимический комплекс. После перерыва возобновились атаки украинских беспилотников на российские нефтеперерабатывающие заводы: сегодня были атакованы три НПЗ и о",
+      "enlace": "https://t.me/elresumenmilitar/102444",
+      "fecha": "2026-10-30T13:00:23.000Z",
+      "resumen_corto": "🇷🇺 🇺🇦 Украинские БПЛА атаковали три российских НПЗ и газохимический комплекс.",
+      "resumen_largo": "🇷🇺 🇺🇦 Украинские БПЛА атаковали три российских НПЗ и газохимический комплекс. После перерыва возобновились атаки украинских беспилотников на российские нефтеперерабатывающие заводы: сегодня были атакованы три НПЗ и один газохимический комплекс, сообщил журналистам вице-премьер РФ Александр Новак. \"Да, сегодня была еще атака на российские НПЗ, на четыре перерабатывающих завода.",
+      "texto_original": "🇷🇺 🇺🇦 Украинские БПЛА атаковали три российских НПЗ и газохимический комплекс. После перерыва возобновились атаки украинских беспилотников на российские нефтеперерабатывающие заводы: сегодня были атакованы три НПЗ и один газохимический комплекс, сообщил журналистам вице-премьер РФ Александр Новак. \"Да, сегодня была еще атака на российские НПЗ, на четыре перерабатывающих завода. Точнее, три НПЗ и один газохимический комплекс. Есть на одном заводе небольшие повреждения, а в целом наша система защиты, ПВО сработала\" , - сказал Новак. \"У нас был в течение какого-то времени перерыв, а сегодня атаки на НПЗ возобновлены, и наши предприятия работают по защите\" , - добавил вице-премьер. Подписаться на канал | наш МАХ",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-10-30T15:43:09.943Z",
+        "index": 10,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "militar",
+        "categorias_secundarias": [],
+        "category_scores": {},
+        "entidades": [],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 60,
+        "relevancia": 45,
+        "confiabilidad_fuente": 45,
+        "readability": {
+          "words": 172,
+          "sentences": 13,
+          "average_words_per_sentence": 13.23
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 50.25
+    },
+    {
+      "id": "8bcc3227260d2849",
+      "fuente_id": "resumen_militar",
+      "fuente_nombre": "El Resumen Militar",
+      "tipo": "telegram",
+      "subtipo": "canal_telegram",
+      "grupo_fuente": "telegram_militar",
+      "nivel_fuente": "telegram",
+      "categoria": "militar",
+      "idioma_original": "es",
+      "prioridad_fuente": 3,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "🇷🇺 🇺🇦 Россия могла потерять еще один Су-57. Вражеские ресурсы публикуют спутниковые снимки аэродрома Ахтубинск Астраханской области, на которых виден силуэт сгоревшего Су-57. Заявлено, что у истребителя загорелся дви",
+      "titulo_original": "🇷🇺 🇺🇦 Россия могла потерять еще один Су-57. Вражеские ресурсы публикуют спутниковые снимки аэродрома Ахтубинск Астраханской области, на которых виден силуэт сгоревшего Су-57. Заявлено, что у истребителя загорелся дви",
+      "enlace": "https://t.me/elresumenmilitar/102441",
+      "fecha": "2026-10-30T12:58:28.000Z",
+      "resumen_corto": "🇷🇺 🇺🇦 Россия могла потерять еще один Су-57.",
+      "resumen_largo": "🇷🇺 🇺🇦 Россия могла потерять еще один Су-57. Вражеские ресурсы публикуют спутниковые снимки аэродрома Ахтубинск Астраханской области, на которых виден силуэт сгоревшего Су-57. Заявлено, что у истребителя загорелся двигатель при запуске.",
+      "texto_original": "🇷🇺 🇺🇦 Россия могла потерять еще один Су-57. Вражеские ресурсы публикуют спутниковые снимки аэродрома Ахтубинск Астраханской области, на которых виден силуэт сгоревшего Су-57. Заявлено, что у истребителя загорелся двигатель при запуске. Подписаться на канал | наш МАХ",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-10-30T15:43:09.944Z",
+        "index": 11,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "militar",
+        "categorias_secundarias": [],
+        "category_scores": {},
+        "entidades": [],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 60,
+        "relevancia": 45,
+        "confiabilidad_fuente": 45,
+        "readability": {
+          "words": 105,
           "sentences": 12,
-          "average_words_per_sentence": 10
+          "average_words_per_sentence": 8.75
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 50.25
+    },
+    {
+      "id": "3f69365ff8208d34",
+      "fuente_id": "resumen_militar",
+      "fuente_nombre": "El Resumen Militar",
+      "tipo": "telegram",
+      "subtipo": "canal_telegram",
+      "grupo_fuente": "telegram_militar",
+      "nivel_fuente": "telegram",
+      "categoria": "militar",
+      "idioma_original": "es",
+      "prioridad_fuente": 3,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "🇺🇸 🇪🇺 🇷🇺 ЗАКРОЙТЕ РОТ И НЕ МЕШАЙТЕ Пентагон призвал несколько стран-членов НАТО сдержать свои публичные заявления в отношении России. Как пишет Reuters, глава департамента политики Пентагона Элбридж Колби предупред",
+      "titulo_original": "🇺🇸 🇪🇺 🇷🇺 ЗАКРОЙТЕ РОТ И НЕ МЕШАЙТЕ Пентагон призвал несколько стран-членов НАТО сдержать свои публичные заявления в отношении России. Как пишет Reuters, глава департамента политики Пентагона Элбридж Колби предупред",
+      "enlace": "https://t.me/elresumenmilitar/102440",
+      "fecha": "2026-10-30T12:54:27.000Z",
+      "resumen_corto": "Как пишет Reuters, глава департамента политики Пентагона Элбридж Колби предупредил европейцев о том, что не стоит \"провоцировать\" Москву, ссылаясь на заявления, в которых Россия представляется \"загнанной в угол, как крыса\".",
+      "resumen_largo": "🇺🇸 🇪🇺 🇷🇺 ЗАКРОЙТЕ РОТ И НЕ МЕШАЙТЕ Пентагон призвал несколько стран-членов НАТО сдержать свои публичные заявления в отношении России. Как пишет Reuters, глава департамента политики Пентагона Элбридж Колби предупредил европейцев о том, что не стоит \"провоцировать\" Москву, ссылаясь на заявления, в которых Россия представляется \"загнанной в угол, как крыса\". Один из европейских чиновников резюмировал послание США следующим образом: \"Мы вам помогаем.",
+      "texto_original": "🇺🇸 🇪🇺 🇷🇺 ЗАКРОЙТЕ РОТ И НЕ МЕШАЙТЕ Пентагон призвал несколько стран-членов НАТО сдержать свои публичные заявления в отношении России. Как пишет Reuters, глава департамента политики Пентагона Элбридж Колби предупредил европейцев о том, что не стоит \"провоцировать\" Москву, ссылаясь на заявления, в которых Россия представляется \"загнанной в угол, как крыса\". Один из европейских чиновников резюмировал послание США следующим образом: \"Мы вам помогаем. Американцы рядом. Просто не шумите. Не привлекайте к себе внимание\". Другие еврочиновники выразили удивление по поводу этого совета, утверждая, что их оценки российской угрозы \"уже достаточно сдержанны\". Подписаться на канал | наш МАХ",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-10-30T15:43:09.945Z",
+        "index": 12,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "militar",
+        "categorias_secundarias": [],
+        "category_scores": {},
+        "entidades": [],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 60,
+        "relevancia": 45,
+        "confiabilidad_fuente": 45,
+        "readability": {
+          "words": 201,
+          "sentences": 14,
+          "average_words_per_sentence": 14.36
         },
         "duplicate": {
           "detected": false,
@@ -2866,24 +3407,24 @@
       "final_score": 50.25
     }
   ],
-  "analyzed_at": "2026-10-30T08:15:11.723Z",
+  "analyzed_at": "2026-10-30T15:43:09.966Z",
   "analysis_stats": {
-    "input_items": 40,
-    "valid_items": 40,
+    "input_items": 47,
+    "valid_items": 47,
     "rejected_items": 0,
     "duplicate_items": 0,
     "clickbait_items": 0,
     "spam_items": 0,
-    "summaries_generated": 40,
+    "summaries_generated": 47,
     "average_quality": 80,
-    "average_relevance": 57
+    "average_relevance": 58
   },
   "validation": {
     "version": "1.1",
-    "executed_at": "2026-10-30T08:15:11.880Z",
-    "original_items": 40,
+    "executed_at": "2026-10-30T15:43:10.124Z",
+    "original_items": 47,
     "rejected_items": 0,
-    "final_items": 40,
+    "final_items": 47,
     "limit": 60,
     "status": "ok"
   }

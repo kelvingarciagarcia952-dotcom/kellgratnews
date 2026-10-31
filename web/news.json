@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "updated_at": "2026-10-31T18:20:48.000Z",
+  "updated_at": "2026-10-31T22:19:48.790Z",
   "configuracion": {
     "limite_global": 60,
     "frecuencia_minutos": 60,
@@ -22,170 +22,12 @@
   },
   "source_stats": {
     "active_sources": 15,
-    "successful_sources": 15,
-    "collected_items": 63,
-    "deduplicated_items": 47,
-    "final_items": 47
+    "successful_sources": 14,
+    "collected_items": 57,
+    "deduplicated_items": 42,
+    "final_items": 42
   },
   "items": [
-    {
-      "id": "64e4557871284208",
-      "fuente_id": "bbc_mundo",
-      "fuente_nombre": "BBC Mundo",
-      "tipo": "rss_web",
-      "subtipo": "medio_generalista",
-      "grupo_fuente": "bbc",
-      "nivel_fuente": "medio_profesional",
-      "categoria": "actualidad",
-      "idioma_original": "es",
-      "prioridad_fuente": 5,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "Investigación BBC: los saboteadores rusos que atentan desde dentro del país para ayudar a Ucrania frente a Putin",
-      "titulo_original": "Investigación BBC: los saboteadores rusos que atentan desde dentro del país para ayudar a Ucrania frente a Putin",
-      "enlace": "https://www.bbc.com/mundo/articles/cm2d62jgk125o?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-10-31T03:59:10.000Z",
-      "resumen_corto": "Dos hombres rusos que trabajaban en secreto para los servicios de inteligencia de Ucrania contaron por primera vez detalles de operaciones en las que afirman haber participado, dirigidas contra activos y personal militar dentro de Rusia.",
-      "resumen_largo": "Dos hombres rusos que trabajaban en secreto para los servicios de inteligencia de Ucrania contaron por primera vez detalles de operaciones en las que afirman haber participado, dirigidas contra activos y personal militar dentro de Rusia. Uno de ellos, al que llamamos Iván, dice que participó desde Rusia en ataques de drones ucranianos contra bombarderos estratégicos y fábricas de municiones en su país. Aparece en un documental del Servicio Mundial de la BBC sobre el oscuro mundo de los saboteadores rusos.",
-      "texto_original": "Dos hombres rusos que trabajaban en secreto para los servicios de inteligencia de Ucrania contaron por primera vez detalles de operaciones en las que afirman haber participado, dirigidas contra activos y personal militar dentro de Rusia. Uno de ellos, al que llamamos Iván, dice que participó desde Rusia en ataques de drones ucranianos contra bombarderos estratégicos y fábricas de municiones en su país. Aparece en un documental del Servicio Mundial de la BBC sobre el oscuro mundo de los saboteadores rusos. El documental, del periodista independiente polaco Marcin Mamon, también presenta a un hombre al que llamamos Foma, un ruso que vive exiliado en Polonia. Foma dirige una red de voluntarios encubiertos en Rusia que vigila a oficiales de alto rango y que el GUR, el servicio de inteligencia militar de Ucrania, está considerando atacar, según afirma. Subraya que nunca participan directamente en los ataques. También se mostró hermético sobre a quién estaban vigilando, pero después de que el teniente general Fanil Sarvarov fuera asesinado en diciembre del año pasado en Moscú, Foma admitió haber proporcionado a los ucranianos información de inteligencia sobre él.",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-10-31T18:20:47.834Z",
-        "index": 27,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "es",
-        "categoria": "militar",
-        "categorias_secundarias": [
-          "inteligencia_artificial",
-          "moviles",
-          "tecnologia"
-        ],
-        "category_scores": {
-          "militar": 3,
-          "inteligencia_artificial": 2,
-          "moviles": 2,
-          "tecnologia": 2,
-          "semiconductores": 1,
-          "vehiculos_energia": 1
-        },
-        "entidades": [
-          "BBC"
-        ],
-        "cifras_detectadas": [],
-        "content_type": "report",
-        "clickbait": {
-          "detected": false,
-          "score": 25,
-          "signals": [
-            "\\bsecret[oa]?\\b"
-          ]
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 92,
-        "relevancia": 78,
-        "confiabilidad_fuente": 80,
-        "readability": {
-          "words": 259,
-          "sentences": 11,
-          "average_words_per_sentence": 23.55
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 83.4
-    },
-    {
-      "id": "d1ee15a100fc660a",
-      "fuente_id": "huawei_central",
-      "fuente_nombre": "Huawei Central",
-      "tipo": "rss_web",
-      "subtipo": "medio_especializado",
-      "grupo_fuente": "huawei",
-      "nivel_fuente": "secundaria_especializada",
-      "categoria": "moviles",
-      "idioma_original": "en",
-      "prioridad_fuente": 5,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "El CEO de Honor revela las razones detrás de la fuerte demanda de la serie Magic 9",
-      "titulo_original": "Honor CEO reveals reasons behind Magic 9 series strong demand",
-      "enlace": "https://www.huaweicentral.com/honor-ceo-reveals-reasons-behind-magic-9-series-strong-demand/",
-      "fecha": "2026-10-30T15:02:04.000Z",
-      "resumen_corto": "La serie Honor Magic 9 está experimentando una fuerte demanda en el mercado y la compañía revela las razones detrás de esto.",
-      "resumen_largo": "La serie Honor Magic 9 está experimentando una fuerte demanda en el mercado y la compañía revela las razones detrás de esto. En un evento reciente, un alto funcionario de Honor declaró que el buque insignia de 2026 viene con dos actualizaciones importantes que lo convierten en el principal campeón de teléfonos Android. Li Jian, director ejecutivo de Honor, asistió al Double 11 […] La publicación El director ejecutivo de Honor revela las razones detrás de la fuerte demanda de la serie Magic 9 apareció por primera vez en Huawei Central.",
-      "texto_original": "Honor Magic 9 series is seeing strong demand in the market, and the company reveals the reasons behind it. In a recent event, a senior Honor official stated that the 2026 flagship comes with two significant upgrades that make it the top Android phone champ. Li Jian, the CEO of Honor, attended the Double 11 […] The post Honor CEO reveals reasons behind Magic 9 series strong demand appeared first on Huawei Central .",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-10-31T18:20:47.838Z",
-        "index": 34,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "en",
-        "categoria": "moviles",
-        "categorias_secundarias": [
-          "vehiculos_energia",
-          "inteligencia_artificial",
-          "software_internet"
-        ],
-        "category_scores": {
-          "moviles": 5,
-          "vehiculos_energia": 2,
-          "inteligencia_artificial": 1,
-          "software_internet": 1
-        },
-        "entidades": [
-          "Huawei",
-          "Android",
-          "Honor"
-        ],
-        "cifras_detectadas": [
-          "2026"
-        ],
-        "content_type": "report",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 97,
-        "relevancia": 75,
-        "confiabilidad_fuente": 75,
-        "readability": {
-          "words": 153,
-          "sentences": 7,
-          "average_words_per_sentence": 21.86
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 82.7
-    },
     {
       "id": "0df068e5106c9b40",
       "fuente_id": "bbc_mundo",
@@ -208,8 +50,8 @@
       "texto_original": "\"El capitalismo es un sistema diseñado por la clase propietaria para explotarnos al resto en beneficio propio: debemos reemplazarlo por el socialismo democrático, un sistema en el que la gente común tenga una voz real en nuestros lugares de trabajo, barrios y sociedad\". Ese es el argumento que hace en su página web la organización conocida como los Demócratas Socialistas de EE.UU. (DSA, por sus siglas en inglés), un movimiento de izquierda que desde 2018 ha venido ganando cada vez más relevancia e influencia política en el país que es considerado como el corazón del capitalismo. Fundada en los años 70 como la unión de distintas organizaciones menores con ideas de izquierda, los DSA fueron un movimiento casi que marginal hasta que la campaña presidencial del candidato independiente Bernie Sanders en 2016 cambió la perspectiva de muchos en EE.UU. acerca de lo que representa el socialismo. Desde entonces, el reconocimiento del movimiento ha venido en aumento: en 2018, dos de sus miembros, Alexandria Ocasio-Cortez y Rashida Tlaib, ganaron curules en la Cámara de Representantes; y en 2025, los DSA confirmaron esa capacidad de ganar elecciones al lograr que uno de sus candidatos, Zohran Mamdani, triunfara en la campaña por la codiciada alcaldía de la ciudad de Nueva York. En las elecciones de mitad de periodo de este 3 de noviembre, cuando se renueva un tercio del Senado y la totalidad de la Cámara de Representantes, los DSA buscan aprovechar el impulso que les dio esta victoria para convertirse en una fuerza que pueda influir en las decisiones y lineamientos legislativos del Partido Demócrata, especialmente en lo que se refiere a la manera de afrontar los últimos dos años de Donald Trump en la presidencia. \"Estamos viviendo un momento bastante aterrador en muchos sentidos en EE.UU. Muchas personas sienten una verdadera crisis respecto al rumbo que está tomando el país\", le dice a BBC Mundo el copresidente de los DSA, Ashik Siddique.",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-31T18:20:47.818Z",
-        "index": 7,
+        "processed_at": "2026-10-31T22:19:48.685Z",
+        "index": 14,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -289,8 +131,8 @@
       "texto_original": "Sam Altman Calls PC RAM A “Quite Terrible” Use Of Limited DRAM Supply, Argues Cloud Data Centers Are More Efficient Wccftech",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-31T18:20:47.820Z",
-        "index": 9,
+        "processed_at": "2026-10-31T22:19:48.686Z",
+        "index": 17,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -365,8 +207,8 @@
       "texto_original": "Las noticias de última hora procedentes de España esta semana fueron impactantes, pero también inquietantemente familiares: otra colisión en la línea de alta velocidad al sur de Madrid, con informes de decenas de muertos. Han transcurrido apenas nueve meses desde que dos trenes chocaron cerca de Córdoba, causando la muerte de 46 personas. Ahora, en el centro de España, se han recuperado 69 cadáveres entre los restos esparcidos por las vías y un terraplén. Pero también es un desastre nacional que ha minado la confianza en la red ferroviaria del país y en el gobierno socialista de Pedro Sánchez. Todo esto ocurre apenas unas semanas antes de las elecciones generales anticipadas que él mismo convocó. La investigación formal sobre el desastre ferroviario de Toledo acaba de iniciarse, pero el gobierno se ha apresurado a tomar el control de la narrativa. Desde las primeras horas posteriores a la colisión, el ministro de Transportes, Oscar Puente, comenzó a sugerir que la culpa era de un \"error humano\", eludiendo la responsabilidad en lo posible del gabinete. El viernes compareció ante la prensa por segunda vez para exponer lo que él denominó los \"hechos objetivos\" del accidente y contrarrestar la oleada de críticas contra el gobierno.",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-31T18:20:47.822Z",
-        "index": 10,
+        "processed_at": "2026-10-31T22:19:48.687Z",
+        "index": 18,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -420,55 +262,45 @@
       "final_score": 76.45
     },
     {
-      "id": "8e828c31974dcd17",
-      "fuente_id": "huawei_central",
-      "fuente_nombre": "Huawei Central",
+      "id": "652fc972e78ed23c",
+      "fuente_id": "openai_google",
+      "fuente_nombre": "OpenAI",
       "tipo": "rss_web",
-      "subtipo": "medio_especializado",
-      "grupo_fuente": "huawei",
-      "nivel_fuente": "secundaria_especializada",
-      "categoria": "moviles",
+      "subtipo": "google_news",
+      "grupo_fuente": "openai",
+      "nivel_fuente": "fuente_oficial",
+      "categoria": "inteligencia_artificial",
       "idioma_original": "en",
       "prioridad_fuente": 5,
       "analizar": true,
       "resumir": true,
-      "titulo": "Huawei revela el progreso de la actualización de HarmonyOS 7 y confirma más dispositivos",
-      "titulo_original": "Huawei reveals HarmonyOS 7 upgrade progress, confirms more devices",
-      "enlace": "https://www.huaweicentral.com/huawei-reveals-harmonyos-7-upgrade-progress-confirms-more-devices/",
-      "fecha": "2026-10-31T05:38:20.000Z",
-      "resumen_corto": "Lanzado en septiembre de 2026 con el Huawei Mate XT 2, Huawei comenzó instantáneamente las pruebas beta públicas para los modelos emblemáticos existentes.",
-      "resumen_largo": "Huawei ha lanzado un plan de actualización actualizado de HarmonyOS 7, que revela el progreso de la actualización actual para teléfonos inteligentes, tabletas y otros dispositivos. Lanzado en septiembre de 2026 con el Huawei Mate XT 2, Huawei comenzó instantáneamente las pruebas beta públicas para los modelos emblemáticos existentes. HarmonyOS 7 se centra en la experiencia espacial estéticamente rica y las funciones de inteligencia de HarmonyOS AI.",
-      "texto_original": "Huawei has released an updated HarmonyOS 7 upgrade plan, revealing the current update progress for smartphones, tablets, and other devices. Released in September 2026 with the Huawei Mate XT 2, Huawei instantly began public beta testing for existing flagship models. HarmonyOS 7 focuses on the aesthetically rich spatial experience and HarmonyOS AI intelligence features. The […] The post Huawei reveals HarmonyOS 7 upgrade progress, confirms more devices appeared first on Huawei Central .",
+      "titulo": "Comprender los límites de uso de ChatGPT y Codex - Centro de ayuda de OpenAI",
+      "titulo_original": "Understanding ChatGPT and Codex usage limits - OpenAI Help Center",
+      "enlace": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNVXlabXh1MWFtTlJjbmJNZmZ1MlRfczh2RFIyT3ZOdDQxNDNtQUtfOF9keFdXMmtTZDFIN0xvenVELXNNYVdsQzZnT3Jud3phMTcxTVEtanVsRmJZeXJZYlI4RVRySkpwQmUxT3JjVGJUTlNQNDF0LXJiSkF2aDdBRzczbVhyVXlHNzNpZlp6UWpyQTg?oc=5",
+      "fecha": "2026-10-31T05:44:39.000Z",
+      "resumen_corto": "Comprender los límites de uso de ChatGPT y Codex Centro de ayuda de OpenAI",
+      "resumen_largo": "Comprender los límites de uso de ChatGPT y Codex Centro de ayuda de OpenAI",
+      "texto_original": "Understanding ChatGPT and Codex usage limits OpenAI Help Center",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-31T18:20:47.828Z",
-        "index": 20,
+        "processed_at": "2026-10-31T22:19:48.689Z",
+        "index": 24,
         "resumen": {
           "generado": true,
           "origen": "translated"
         },
         "idioma_detectado": "es",
         "idioma_original": "en",
-        "categoria": "moviles",
-        "categorias_secundarias": [
-          "inteligencia_artificial",
-          "tecnologia",
-          "vehiculos_energia"
-        ],
+        "categoria": "inteligencia_artificial",
+        "categorias_secundarias": [],
         "category_scores": {
-          "moviles": 8,
-          "inteligencia_artificial": 2,
-          "tecnologia": 2,
-          "vehiculos_energia": 1,
-          "software_internet": 1
+          "inteligencia_artificial": 4
         },
         "entidades": [
-          "Huawei"
+          "OpenAI",
+          "ChatGPT"
         ],
-        "cifras_detectadas": [
-          "2026",
-          "2026 w"
-        ],
+        "cifras_detectadas": [],
         "content_type": "news",
         "clickbait": {
           "detected": false,
@@ -481,13 +313,13 @@
           "signals": [],
           "url_count": 0
         },
-        "calidad": 89,
-        "relevancia": 70,
-        "confiabilidad_fuente": 65,
+        "calidad": 84,
+        "relevancia": 67,
+        "confiabilidad_fuente": 75,
         "readability": {
-          "words": 140,
-          "sentences": 8,
-          "average_words_per_sentence": 17.5
+          "words": 45,
+          "sentences": 1,
+          "average_words_per_sentence": 45
         },
         "duplicate": {
           "detected": false,
@@ -496,256 +328,7 @@
           "similar_to": null
         }
       },
-      "final_score": 75.4
-    },
-    {
-      "id": "473ddf73cab7dd8f",
-      "fuente_id": "huawei_central",
-      "fuente_nombre": "Huawei Central",
-      "tipo": "rss_web",
-      "subtipo": "medio_especializado",
-      "grupo_fuente": "huawei",
-      "nivel_fuente": "secundaria_especializada",
-      "categoria": "moviles",
-      "idioma_original": "en",
-      "prioridad_fuente": 5,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "Huawei Enjoy 100, Pro y Pro Max salen a la venta con tres chipsets Kirin",
-      "titulo_original": "Huawei Enjoy 100, Pro, and Pro Max enter the sale with three Kirin chipsets",
-      "enlace": "https://www.huaweicentral.com/huawei-enjoy-100-pro-and-pro-max-enter-the-sale-with-three-kirin-chipsets/",
-      "fecha": "2026-10-31T04:47:24.000Z",
-      "resumen_corto": "El 31 de octubre de 2026, Huawei comenzó a vender los teléfonos inteligentes Enjoy 100, Enjoy 100 Pro y Enjoy 100 Pro Max, con tres conjuntos de chips Kirin.",
-      "resumen_largo": "El 31 de octubre de 2026, Huawei comenzó a vender los teléfonos inteligentes Enjoy 100, Enjoy 100 Pro y Enjoy 100 Pro Max, con tres conjuntos de chips Kirin. Aquí están los modelos, las especificaciones clave y los detalles de precios. Huawei Enjoy 100 viene con el chipset Kirin 8000S y opciones de almacenamiento de 128 GB y 256 GB a un precio de 1399 yuanes y 1699 yuanes, respectivamente.",
-      "texto_original": "On October 31, 2026, Huawei began selling the Enjoy 100, Enjoy 100 Pro, and Enjoy 100 Pro Max smartphones, featuring three Kirin chipsets. Here are the models, key specs, and price details. Huawei Enjoy 100 comes with the Kirin 8000S chipset and 128GB and 256GB storage options priced at 1399 yuan and 1699 yuan, respectively. […] The post Huawei Enjoy 100, Pro, and Pro Max enter the sale with three Kirin chipsets appeared first on Huawei Central .",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-10-31T18:20:47.830Z",
-        "index": 22,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "en",
-        "categoria": "moviles",
-        "categorias_secundarias": [
-          "semiconductores",
-          "inteligencia_artificial",
-          "hardware"
-        ],
-        "category_scores": {
-          "moviles": 6,
-          "semiconductores": 2,
-          "inteligencia_artificial": 1,
-          "hardware": 1,
-          "baterias_energia": 1,
-          "software_internet": 1
-        },
-        "entidades": [
-          "Huawei"
-        ],
-        "cifras_detectadas": [
-          "2026",
-          "8000",
-          "128 GB",
-          "256 GB",
-          "1399",
-          "1699",
-          "128GB",
-          "256GB"
-        ],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 89,
-        "relevancia": 70,
-        "confiabilidad_fuente": 65,
-        "readability": {
-          "words": 170,
-          "sentences": 8,
-          "average_words_per_sentence": 21.25
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 75.4
-    },
-    {
-      "id": "2e84f806d3a42385",
-      "fuente_id": "huawei_central",
-      "fuente_nombre": "Huawei Central",
-      "tipo": "rss_web",
-      "subtipo": "medio_especializado",
-      "grupo_fuente": "huawei",
-      "nivel_fuente": "secundaria_especializada",
-      "categoria": "moviles",
-      "idioma_original": "en",
-      "prioridad_fuente": 5,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "La venta de Huawei Pura 90 Plus comienza con una cámara de 1 pulgada, Kirin 9025 y HarmonyOS 7",
-      "titulo_original": "Huawei Pura 90 Plus sale kicks off with a 1-inch camera, Kirin 9025 and HarmonyOS 7",
-      "enlace": "https://www.huaweicentral.com/huawei-pura-90-plus-sale/",
-      "fecha": "2026-10-31T04:09:09.000Z",
-      "resumen_corto": "Huawei Pura 90 Plus viene en tres modelos: 12GB+256GB, 12GB+512GB y 16GB+1TB, con precios de 5499 yuanes, 5999 yuanes y 6999 yuanes, respectivamente.",
-      "resumen_largo": "Presentado el 28 de octubre, el Huawei Pura 90 Plus ya está a la venta en China y ofrece a los usuarios un sensor de cámara de 1 pulgada para fotografías de alta calidad basado en la serie de teléfonos inteligentes Pura DNA. Huawei Pura 90 Plus viene en tres modelos: 12GB+256GB, 12GB+512GB y 16GB+1TB, con precios de 5499 yuanes, 5999 yuanes y 6999 yuanes, respectivamente. Hasta noviembre, […] La publicación La venta de Huawei Pura 90 Plus comienza con una cámara de 1 pulgada, Kirin 9025 y HarmonyOS 7 apareció por primera vez en Huawei Central.",
-      "texto_original": "Unveiled on October 28, the Huawei Pura 90 Plus is now on sale in China, bringing users a 1-inch camera sensor for high-quality photography based on the Pura smartphone series DNA. Huawei Pura 90 Plus comes in three models: 12GB+256GB, 12GB+512GB, and 16GB+1TB, priced at 5499 yuan, 5999 yuan, and 6999 yuan, respectively. Through November, […] The post Huawei Pura 90 Plus sale kicks off with a 1-inch camera, Kirin 9025 and HarmonyOS 7 appeared first on Huawei Central .",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-10-31T18:20:47.832Z",
-        "index": 25,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "en",
-        "categoria": "moviles",
-        "categorias_secundarias": [
-          "inteligencia_artificial",
-          "software_internet"
-        ],
-        "category_scores": {
-          "moviles": 6,
-          "inteligencia_artificial": 1,
-          "software_internet": 1
-        },
-        "entidades": [
-          "Huawei"
-        ],
-        "cifras_detectadas": [
-          "9025",
-          "12GB",
-          "256GB",
-          "512GB",
-          "16GB",
-          "1TB",
-          "5499",
-          "5999",
-          "6999"
-        ],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 89,
-        "relevancia": 70,
-        "confiabilidad_fuente": 65,
-        "readability": {
-          "words": 179,
-          "sentences": 7,
-          "average_words_per_sentence": 25.57
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 75.4
-    },
-    {
-      "id": "e602d9084538a19c",
-      "fuente_id": "huawei_central",
-      "fuente_nombre": "Huawei Central",
-      "tipo": "rss_web",
-      "subtipo": "medio_especializado",
-      "grupo_fuente": "huawei",
-      "nivel_fuente": "secundaria_especializada",
-      "categoria": "moviles",
-      "idioma_original": "en",
-      "prioridad_fuente": 5,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "Huawei Pura 80 y Pura 70 obtienen la actualización EMUI de octubre de 2026",
-      "titulo_original": "Huawei Pura 80 and Pura 70 get October 2026 EMUI update",
-      "enlace": "https://www.huaweicentral.com/huawei-pura-80-and-pura-70-get-october-2026-emui-update/",
-      "fecha": "2026-10-30T14:29:45.000Z",
-      "resumen_corto": "Huawei está lanzando la actualización EMUI de octubre de 2026 para las series Pura 80 y Pura 70.",
-      "resumen_largo": "Huawei está lanzando la actualización EMUI de octubre de 2026 para las series Pura 80 y Pura 70. El firmware más reciente incluye un nuevo parche de seguridad lanzado este mes con ciertas correcciones de privacidad. Además, mejora hasta cierto punto la estabilidad del sistema del dispositivo.",
-      "texto_original": "Huawei is rolling out the October 2026 EMUI update to the Pura 80 and Pura 70 series. The latest firmware includes a new security patch released this month with certain privacy fixes. In addition, it enhances the device’s system stability to some extent. October 2026 update brings 2 high-level and 14 medium-level vulnerabilities. It also […] The post Huawei Pura 80 and Pura 70 get October 2026 EMUI update appeared first on Huawei Central .",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-10-31T18:20:47.839Z",
-        "index": 35,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "en",
-        "categoria": "software_internet",
-        "categorias_secundarias": [
-          "moviles",
-          "tecnologia",
-          "inteligencia_artificial"
-        ],
-        "category_scores": {
-          "software_internet": 5,
-          "moviles": 2,
-          "tecnologia": 2,
-          "inteligencia_artificial": 1,
-          "vehiculos_energia": 1,
-          "militar": 1
-        },
-        "entidades": [
-          "Huawei"
-        ],
-        "cifras_detectadas": [
-          "2026",
-          "14 m"
-        ],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 89,
-        "relevancia": 70,
-        "confiabilidad_fuente": 65,
-        "readability": {
-          "words": 126,
-          "sentences": 9,
-          "average_words_per_sentence": 14
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 75.4
+      "final_score": 74.95
     },
     {
       "id": "17d43f552b1f412a",
@@ -769,8 +352,8 @@
       "texto_original": "Fair use benefits everyone OpenAI",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-31T18:20:47.835Z",
-        "index": 29,
+        "processed_at": "2026-10-31T22:19:48.690Z",
+        "index": 30,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -840,7 +423,7 @@
       "texto_original": "GPT-Rosalind-6 System Card Addendum OpenAI",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-31T18:20:47.836Z",
+        "processed_at": "2026-10-31T22:19:48.690Z",
         "index": 31,
         "resumen": {
           "generado": true,
@@ -890,161 +473,7 @@
       "final_score": 72.95
     },
     {
-      "id": "2c490eb723906fcf",
-      "fuente_id": "openai_google",
-      "fuente_nombre": "OpenAI",
-      "tipo": "rss_web",
-      "subtipo": "google_news",
-      "grupo_fuente": "openai",
-      "nivel_fuente": "fuente_oficial",
-      "categoria": "inteligencia_artificial",
-      "idioma_original": "en",
-      "prioridad_fuente": 5,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "Facilitar que los sitios web expresen sus preferencias de formación en IA",
-      "titulo_original": "Making it easier for websites to express AI training preferences - OpenAI",
-      "enlace": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5FcXc5N3BLX3dyMm5VMW1ZUy1nanQzUGk1ajB1dU5CWnBuX05ndXpvX1MySVVoRFRmU3pVZjNlTjZVRERBcTloTUNjaXl5b3JSc1M5Tm55V2d2b3JMd0NNdm52TUpLWE9BaGtHSWs1R1VxUWVTMVFTMElPVnBDQWM?oc=5",
-      "fecha": "2026-10-30T16:43:02.000Z",
-      "resumen_corto": "Facilitar que los sitios web expresen sus preferencias de formación en IA OpenAI",
-      "resumen_largo": "Facilitar que los sitios web expresen sus preferencias de formación en IA OpenAI",
-      "texto_original": "Making it easier for websites to express AI training preferences OpenAI",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-10-31T18:20:47.837Z",
-        "index": 32,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "en",
-        "categoria": "inteligencia_artificial",
-        "categorias_secundarias": [
-          "moviles",
-          "software_internet"
-        ],
-        "category_scores": {
-          "inteligencia_artificial": 3,
-          "moviles": 1,
-          "software_internet": 1
-        },
-        "entidades": [
-          "OpenAI"
-        ],
-        "cifras_detectadas": [],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 84,
-        "relevancia": 62,
-        "confiabilidad_fuente": 75,
-        "readability": {
-          "words": 45,
-          "sentences": 1,
-          "average_words_per_sentence": 45
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 72.95
-    },
-    {
-      "id": "fa42e319e37967af",
-      "fuente_id": "huawei_central",
-      "fuente_nombre": "Huawei Central",
-      "tipo": "rss_web",
-      "subtipo": "medio_especializado",
-      "grupo_fuente": "huawei",
-      "nivel_fuente": "secundaria_especializada",
-      "categoria": "moviles",
-      "idioma_original": "en",
-      "prioridad_fuente": 5,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "El chipset Kirin de la serie Huawei Mate 100 puede aportar una mejora masiva del rendimiento",
-      "titulo_original": "Huawei Mate 100 series Kirin chipset may bring massive yield improvement",
-      "enlace": "https://www.huaweicentral.com/huawei-mate-100-series-kirin-chipset-may-bring-massive-yield-improvement/",
-      "fecha": "2026-10-31T06:49:13.000Z",
-      "resumen_corto": "Huawei Mate 90 reveló el Kirin 9050 Pro, su chipset móvil más potente hasta la fecha, y la serie Mate 100 se centrará en importantes mejoras de rendimiento.",
-      "resumen_largo": "Huawei Mate 90 reveló el Kirin 9050 Pro, su chipset móvil más potente hasta la fecha, y la serie Mate 100 se centrará en importantes mejoras de rendimiento. Hace unos días, Weibo Tipster FixedFocusDigital reveló que Huawei ha optimizado su paquete avanzado para el Kirin 9060 Pro, que ahora incluye una verificación previa al ensamblaje en el desnudo […] La publicación El chipset Kirin de la serie Huawei Mate 100 puede traer una mejora masiva del rendimiento apareció por primera vez en Huawei Central.",
-      "texto_original": "Huawei Mate 90 revealed the Kirin 9050 Pro, its most powerful mobile chipset to date, and the Mate 100 series will focus on significant yield improvements. A few days ago, Weibo Tipster FixedFocusDigital revealed that Huawei has optimized its advanced packaging for the Kirin 9060 Pro, which now includes a pre-assembly check on the bare […] The post Huawei Mate 100 series Kirin chipset may bring massive yield improvement appeared first on Huawei Central .",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-10-31T18:20:47.827Z",
-        "index": 19,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "en",
-        "categoria": "semiconductores",
-        "categorias_secundarias": [
-          "moviles",
-          "inteligencia_artificial",
-          "vehiculos_energia"
-        ],
-        "category_scores": {
-          "semiconductores": 2,
-          "moviles": 2,
-          "inteligencia_artificial": 1,
-          "vehiculos_energia": 1,
-          "software_internet": 1
-        },
-        "entidades": [
-          "Huawei"
-        ],
-        "cifras_detectadas": [
-          "9050",
-          "9060"
-        ],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 25,
-          "signals": [
-            "\\brevealed\\b"
-          ]
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 89,
-        "relevancia": 62,
-        "confiabilidad_fuente": 65,
-        "readability": {
-          "words": 173,
-          "sentences": 5,
-          "average_words_per_sentence": 34.6
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 72.2
-    },
-    {
-      "id": "e6536f17d56c8a04",
+      "id": "4e16f4fccddc7eb3",
       "fuente_id": "techinsights_google",
       "fuente_nombre": "TechInsights",
       "tipo": "rss_web",
@@ -1056,35 +485,42 @@
       "prioridad_fuente": 5,
       "analizar": true,
       "resumir": true,
-      "titulo": "TechInsights adquiere Strategy Analytics para ampliar aún más sus capacidades en el análisis del mercado de microelectrónica",
-      "titulo_original": "TechInsights Acquires Strategy Analytics to Further Expand its Capabilities in Microelectronics Market Analysis - TechInsights",
-      "enlace": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPZDNQTEZYRFZtRTNRWS1DN2JTQ21zZWNKNkEzOG0zRFN4RDlDWE55ZDgxeHRPckl2SHJ0OUVlcml3Rk04OUszNzBWNTh1QXdiUF9mSkxTd2drc3hLVHV6TEg1TWJ0TzE2QUJha3hvdXpCdGdHZjFWZDlac1BsMHZKREVpVVp0aU0?oc=5",
+      "titulo": "Serie de seminarios web Outlook 2027: IA, embalaje, fabricación y sostenibilidad",
+      "titulo_original": "2027 Outlook Webinar Series: AI, Packaging, Manufacturing & Sustainability - TechInsights",
+      "enlace": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFAtQ0dUaFQyTmloNVJEQ3hXdXRZb0QtQVNVRUJrc1NJSnBMTTcwd3lMU2hsV3VPc1dHR2k0bXhRbld4LVlGUkJOY3NqLTd0UGJ4M1VzWmJVZWczb3FSUUNsYlVBYmxxWGc?oc=5",
       "fecha": "2026-10-23T18:57:07.000Z",
-      "resumen_corto": "TechInsights adquiere Strategy Analytics para ampliar aún más sus capacidades en análisis de mercado de microelectrónica TechInsights",
-      "resumen_largo": "TechInsights adquiere Strategy Analytics para ampliar aún más sus capacidades en análisis de mercado de microelectrónica TechInsights",
-      "texto_original": "TechInsights Acquires Strategy Analytics to Further Expand its Capabilities in Microelectronics Market Analysis TechInsights",
+      "resumen_corto": "Serie de seminarios web Outlook 2027: IA, embalaje, fabricación y sostenibilidad TechInsights",
+      "resumen_largo": "Serie de seminarios web Outlook 2027: IA, embalaje, fabricación y sostenibilidad TechInsights",
+      "texto_original": "2027 Outlook Webinar Series: AI, Packaging, Manufacturing & Sustainability TechInsights",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-31T18:20:47.844Z",
-        "index": 46,
+        "processed_at": "2026-10-31T22:19:48.692Z",
+        "index": 41,
         "resumen": {
           "generado": true,
           "origen": "translated"
         },
         "idioma_detectado": "es",
         "idioma_original": "en",
-        "categoria": "tecnologia",
+        "categoria": "inteligencia_artificial",
         "categorias_secundarias": [
-          "inteligencia_artificial"
+          "semiconductores",
+          "moviles",
+          "software_internet"
         ],
         "category_scores": {
-          "tecnologia": 4,
-          "inteligencia_artificial": 1
+          "inteligencia_artificial": 2,
+          "semiconductores": 1,
+          "moviles": 1,
+          "software_internet": 1,
+          "tecnologia": 1
         },
         "entidades": [
           "TechInsights"
         ],
-        "cifras_detectadas": [],
+        "cifras_detectadas": [
+          "2027"
+        ],
         "content_type": "news",
         "clickbait": {
           "detected": false,
@@ -1097,13 +533,13 @@
           "signals": [],
           "url_count": 0
         },
-        "calidad": 84,
+        "calidad": 89,
         "relevancia": 62,
         "confiabilidad_fuente": 65,
         "readability": {
-          "words": 66,
+          "words": 42,
           "sentences": 1,
-          "average_words_per_sentence": 66
+          "average_words_per_sentence": 42
         },
         "duplicate": {
           "detected": false,
@@ -1112,7 +548,7 @@
           "similar_to": null
         }
       },
-      "final_score": 70.45
+      "final_score": 72.2
     },
     {
       "id": "01076295807418d5",
@@ -1136,8 +572,8 @@
       "texto_original": "China’s Iluvatar CoreX Claims Its Tiangai 300 GPU Beats NVIDIA’s H200 In Its Own Live Demo, But The Only Outside Test Shows Just A 5% Lead Wccftech",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-31T18:20:47.808Z",
-        "index": 0,
+        "processed_at": "2026-10-31T22:19:48.681Z",
+        "index": 6,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -1215,8 +651,8 @@
       "texto_original": "New NVIDIA UEFI GPU Unlocker Brings Up To 75% Higher AI Compute Performance To RTX 20, 30 & 40 Series GPUs On Windows Wccftech",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-31T18:20:47.810Z",
-        "index": 1,
+        "processed_at": "2026-10-31T22:19:48.681Z",
+        "index": 7,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -1295,8 +731,8 @@
       "texto_original": "AI Infrastructure: Outlook for 2027 TechInsights",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-31T18:20:47.843Z",
-        "index": 44,
+        "processed_at": "2026-10-31T22:19:48.692Z",
+        "index": 38,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -1347,6 +783,79 @@
       "final_score": 69.4
     },
     {
+      "id": "fc9b539fa53b87c4",
+      "fuente_id": "techinsights_google",
+      "fuente_nombre": "TechInsights",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "techinsights",
+      "nivel_fuente": "especializada_tecnica",
+      "categoria": "semiconductores",
+      "idioma_original": "en",
+      "prioridad_fuente": 5,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "TechInsights Outlook 2027: cinco tendencias que están remodelando el mercado",
+      "titulo_original": "TechInsights Outlook 2027: Five Trends Reshaping the Market - TechInsights",
+      "enlace": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5fc0RYUE5sRmR3ZVQ2YmRKT2JJeTJYMG1FemJpYmxQZC1QcWNHcmdpTzFLSmlHYXg2T1ZnUHYtdWM2Z1NsNHEwNjNGRzFrY2FKWWVtcjlQWkpFWWNhcC1JY21YMA?oc=5",
+      "fecha": "2026-10-23T18:57:07.000Z",
+      "resumen_corto": "TechInsights Outlook 2027: cinco tendencias que están remodelando el mercado TechInsights",
+      "resumen_largo": "TechInsights Outlook 2027: cinco tendencias que están remodelando el mercado TechInsights",
+      "texto_original": "TechInsights Outlook 2027: Five Trends Reshaping the Market TechInsights",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-10-31T22:19:48.692Z",
+        "index": 40,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "en",
+        "categoria": "inteligencia_artificial",
+        "categorias_secundarias": [
+          "tecnologia"
+        ],
+        "category_scores": {
+          "inteligencia_artificial": 1,
+          "tecnologia": 1
+        },
+        "entidades": [
+          "TechInsights"
+        ],
+        "cifras_detectadas": [
+          "2027"
+        ],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 89,
+        "relevancia": 55,
+        "confiabilidad_fuente": 65,
+        "readability": {
+          "words": 47,
+          "sentences": 1,
+          "average_words_per_sentence": 47
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 69.4
+    },
+    {
       "id": "1249cab4b50ddb3e",
       "fuente_id": "bbc_mundo",
       "fuente_nombre": "BBC Mundo",
@@ -1368,8 +877,8 @@
       "texto_original": "Rachel Stone tenía 5 años y su hermano Ian 10 cuando sus padres los llevaron de vacaciones en casa rodante a Gales con los vecinos. Pasaron dos semanas llenas de diversión juntos, pero cuando regresaron, cada familia se dividió por la mitad e intercambió casas. La esposa de Eddie, Irene, y su hija Dawn se mudaron con el padre de Rachel, Rex, y su hermano Ian. Rachel cuenta en el podcast Life Changing de la BBC el trauma que supuso la separación de su familia, el caos que se desató y cómo ha llegado a perdonar a sus padres. Rachel e Ian se alegraron mucho cuando una nueva familia se mudó a la casa de al lado. \"Los cuatro nos llevamos bien con ellos desde el primer momento\". Rachel recuerda dos casas rodantes estacionadas una al lado de la otra y una excursión al monte Snowdon.",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-31T18:20:47.820Z",
-        "index": 8,
+        "processed_at": "2026-10-31T22:19:48.686Z",
+        "index": 15,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -1418,163 +927,6 @@
       "final_score": 68.9
     },
     {
-      "id": "3c9bfb5e6c9d2d31",
-      "fuente_id": "huawei_google",
-      "fuente_nombre": "Huawei Central",
-      "tipo": "rss_web",
-      "subtipo": "google_news",
-      "grupo_fuente": "huawei",
-      "nivel_fuente": "agregador",
-      "categoria": "moviles",
-      "idioma_original": "en",
-      "prioridad_fuente": 4,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "Huawei Enjoy 100 Pro Max se lanzó con chip Kirin 8020 5G, batería de 8800 mAh, pantalla de 8000 nits y más",
-      "titulo_original": "Huawei Enjoy 100 Pro Max launched with Kirin 8020 5G chip, 8800mAh battery, 8000nits display, and more - Huawei Central",
-      "enlace": "https://news.google.com/rss/articles/CBMickFVX3lxTE16UnlMa2FjVVZPR3pITkFSdlRVdkNKa1M2VXB3VXJHY3RsaUVqWXVYZVlQVEM4MDNjOVNfaDVQSVQwa2t2WFpDdllWOU5SVndIQXkwdHdEY096OTkwUUJVNV9ZM044XzJ1RDl4NVFxOU9vZ9IBd0FVX3lxTE9rWFloMGEtU1JJLTNZcWRWU1pKc3BzRFQtT1FvN1ljNHF1d1lnWnZxLWJVMmx5Wlo3cFgzaFpCRld0WnpxdnQxa3hCMHphSF9xbjl2eUxuQzE2bmVVX1NyZmJpV29EV0JpQ3A0SHZWa0lTTjFwVnhR?oc=5",
-      "fecha": "2026-10-28T07:57:19.000Z",
-      "resumen_corto": "Huawei Enjoy 100 Pro Max se lanzó con chip Kirin 8020 5G, batería de 8800 mAh, pantalla de 8000 nits y más Huawei Central",
-      "resumen_largo": "Huawei Enjoy 100 Pro Max se lanzó con chip Kirin 8020 5G, batería de 8800 mAh, pantalla de 8000 nits y más Huawei Central",
-      "texto_original": "Huawei Enjoy 100 Pro Max launched with Kirin 8020 5G chip, 8800mAh battery, 8000nits display, and more Huawei Central",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-10-31T18:20:47.843Z",
-        "index": 45,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "en",
-        "idioma_original": "en",
-        "categoria": "baterias_energia",
-        "categorias_secundarias": [
-          "inteligencia_artificial",
-          "semiconductores",
-          "moviles"
-        ],
-        "category_scores": {
-          "baterias_energia": 2,
-          "inteligencia_artificial": 1,
-          "semiconductores": 1,
-          "moviles": 1,
-          "hardware": 1
-        },
-        "entidades": [
-          "Huawei"
-        ],
-        "cifras_detectadas": [
-          "8020",
-          "8800 mAh",
-          "8000",
-          "8800mAh"
-        ],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 87,
-        "relevancia": 62,
-        "confiabilidad_fuente": 53,
-        "readability": {
-          "words": 91,
-          "sentences": 1,
-          "average_words_per_sentence": 91
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 68.5
-    },
-    {
-      "id": "64ebfdde29966af4",
-      "fuente_id": "wccftech_google",
-      "fuente_nombre": "Wccftech",
-      "tipo": "rss_web",
-      "subtipo": "google_news",
-      "grupo_fuente": "wccftech",
-      "nivel_fuente": "medio_especializado",
-      "categoria": "hardware",
-      "idioma_original": "en",
-      "prioridad_fuente": 4,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "PlayStation 6 y Xbox Project Helix costarán $ 1000 o más, pero la patente de juegos en la nube de Sony podría hacer que la transmisión sea un punto de entrada confiable",
-      "titulo_original": "PlayStation 6 and Xbox Project Helix Are Set to Cost $1000 or More, but Sony’s Cloud Gaming Patent Could Make Streaming a Reliable Entry Point - Wccftech",
-      "enlace": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOWE8tVHRjOC0xbUUtWEdaQjBpNXFvSXkwRTJZZi1UWFFnLVJtZDVSYUNlV0lZMExQRTNUdzBSczVDcEFHLTFoeWVoZ1RmYkJ5M2V3US1OTTBUMFE4dmJGYm52Q09yOE1aYmFJYldjWUJmUkN2VTJoLWxERmN6ZFl6UjYxcmgzQVBtSmJOdXN5b0c3Q0XSAZgBQVVfeXFMTjhKQi1FOXUzOXo0M2U3aVRtR0NUVW9oOUE5YTh1WUQ0MFJud3cya1g3SHZhYWlSQ0d5aTI4QW5NLWFjOC1oYzk2cDNnQjFoMlNicV9WY3B1VWV1QVlBcV9ac0Y2MUlYV25iZjcxMFdacVRNS1ZEZVBON2h2SnQ1Y1hNWm1LUlhzejlfeUVKOXYwYlBCLWtOWlA?oc=5",
-      "fecha": "2026-10-30T12:20:54.000Z",
-      "resumen_corto": "PlayStation 6 y Xbox Project Helix costarán $1000 o más, pero la patente de juegos en la nube de Sony podría hacer del streaming un punto de entrada confiable",
-      "resumen_largo": "PlayStation 6 y Xbox Project Helix costarán $1000 o más, pero la patente de juegos en la nube de Sony podría hacer del streaming un punto de entrada confiable",
-      "texto_original": "PlayStation 6 and Xbox Project Helix Are Set to Cost $1000 or More, but Sony’s Cloud Gaming Patent Could Make Streaming a Reliable Entry Point Wccftech",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-10-31T18:20:47.840Z",
-        "index": 36,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "en",
-        "categoria": "software_internet",
-        "categorias_secundarias": [
-          "inteligencia_artificial",
-          "tecnologia"
-        ],
-        "category_scores": {
-          "software_internet": 2,
-          "inteligencia_artificial": 1,
-          "tecnologia": 1
-        },
-        "entidades": [
-          "Wccftech"
-        ],
-        "cifras_detectadas": [
-          "$ 1000",
-          "$1000"
-        ],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 25,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 87,
-        "relevancia": 62,
-        "confiabilidad_fuente": 50,
-        "readability": {
-          "words": 102,
-          "sentences": 1,
-          "average_words_per_sentence": 102
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 67.75
-    },
-    {
       "id": "7c7dfbd8214170cc",
       "fuente_id": "byd_google",
       "fuente_nombre": "BYD",
@@ -1596,8 +948,8 @@
       "texto_original": "HR Generalist BYD",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-31T18:20:47.842Z",
-        "index": 43,
+        "processed_at": "2026-10-31T22:19:48.692Z",
+        "index": 37,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -1667,8 +1019,8 @@
       "texto_original": "Un nuevo libro ofrece un relato extraordinario sobre la batalla legal que emprendió una mujer tras sufrir un ataque brutal en 1472, en la ciudad francesa de Dijon. La obra desafía nuestras suposiciones modernas acerca de la vida de las mujeres en la Edad Media.",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-31T18:20:47.824Z",
-        "index": 15,
+        "processed_at": "2026-10-31T22:19:48.688Z",
+        "index": 21,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -1717,6 +1069,77 @@
       "final_score": 66.9
     },
     {
+      "id": "108073b162b831fc",
+      "fuente_id": "huawei_google",
+      "fuente_nombre": "Huawei Central",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "huawei",
+      "nivel_fuente": "agregador",
+      "categoria": "moviles",
+      "idioma_original": "en",
+      "prioridad_fuente": 4,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "El chipset Kirin de la serie Huawei Mate 100 puede aportar una enorme mejora en el rendimiento",
+      "titulo_original": "Huawei Mate 100 series Kirin chipset may bring massive yield improvement - Huawei Central",
+      "enlace": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNSVBmc3JhTmRUWWIxQkppRDczS1VFeFd5VzlFOC1MM3U3aG41SUhVVzV3UUJudDdNV2dhbWlhWWxuaEV1YUctTEVtSXJrSTA4SS00SU51Uk9zWGtGdjJuSGxjR3MyQm9rWjRPZi1ya183TjJmRWtMVlNsVzBFYWhLbWRybHRHd3lnT1Z4dVpTRklWd2pQcEhZWmhjMFQ2QXNCaGRvT0R30gGrAUFVX3lxTFBKVTQzM3NMZk9VX1RTNjE4RURiRE4wdzJlOTFkclRzdXgzaGgzVTJIZks3X3VzbkVVckF0T0ZmNThKODRmeHpKVmRvcWZSNDR4U3pqalVGUzg5Mmd1akJwWmRaOHNhOHltdS1yY2JRQVA1OFBxWl8tOUFXLUo5OFRXTHEzME05dVZkdGJGYm5sVGdUSmFhY1ZCTU5IbHBma3Q4WFdYRmh4eE9LOA?oc=5",
+      "fecha": "2026-10-31T06:59:49.000Z",
+      "resumen_corto": "El chipset Kirin de la serie Huawei Mate 100 puede aportar una enorme mejora en el rendimiento Huawei Central",
+      "resumen_largo": "El chipset Kirin de la serie Huawei Mate 100 puede aportar una enorme mejora en el rendimiento Huawei Central",
+      "texto_original": "Huawei Mate 100 series Kirin chipset may bring massive yield improvement Huawei Central",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-10-31T22:19:48.688Z",
+        "index": 23,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "en",
+        "categoria": "semiconductores",
+        "categorias_secundarias": [
+          "moviles"
+        ],
+        "category_scores": {
+          "semiconductores": 2,
+          "moviles": 2
+        },
+        "entidades": [
+          "Huawei"
+        ],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 82,
+        "relevancia": 62,
+        "confiabilidad_fuente": 53,
+        "readability": {
+          "words": 66,
+          "sentences": 1,
+          "average_words_per_sentence": 66
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 66.75
+    },
+    {
       "id": "1f157eb80cfd1b09",
       "fuente_id": "huawei_google",
       "fuente_nombre": "Huawei Central",
@@ -1738,8 +1161,8 @@
       "texto_original": "Huawei smartwatches receiving long-overdue AppGallery makeover Huawei Central",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-31T18:20:47.840Z",
-        "index": 37,
+        "processed_at": "2026-10-31T22:19:48.691Z",
+        "index": 33,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -1788,79 +1211,6 @@
       "final_score": 66.75
     },
     {
-      "id": "306d161a7b0168d4",
-      "fuente_id": "ia_dia",
-      "fuente_nombre": "IA al Día",
-      "tipo": "rss_web",
-      "subtipo": "google_news",
-      "grupo_fuente": "ia_general",
-      "nivel_fuente": "agregador",
-      "categoria": "inteligencia_artificial",
-      "idioma_original": "es",
-      "prioridad_fuente": 3,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "Nvidia, las neoclouds y la inevitable ralentización de la inteligencia artificial - El Economista",
-      "titulo_original": "Nvidia, las neoclouds y la inevitable ralentización de la inteligencia artificial - El Economista",
-      "enlace": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOWGhBYkJvZEJadDZUZVRRWG5zaWJfZUlTLUloZW9LZ3FuV0RIaEdYSVljbXZ2WU9wSU5faXR6SDBnZndyRllvSzFSNjVxcW56dnV6SkZlcjFaQjFHbDBXbmgtMWd2VmJDOFFxT2tlUlc5R1pybGROblIxNml0MzkwYzRjbE11aEF5bTBTVnBTT2lONzdxR0Vod0tUWHZVNmxwUkhVcnZfaHhBM2MyeXgyeU9aOEppYnhrNzh3dWswRENmS0tHSENXQ1F1cVFYZXhWZE96LTZNMEpjby1HSHNsSjRZOS01VkxLT2lrYnBsdmPSAdsBQVVfeXFMT0E4MmpaTUQtRW5HdW5mU3dHbmp5eHpCa3g4LWRZNFdIdlhINGUxVHdIWFRDeGpWS1JuOFlnOEFSazlLWkFudG5WeWR2TzhnOXV4REpETG5BWGhjbnBkQkpWLXpTblR6Zld6YzdiVFNBSVVDeXV3Zm1SdTZWVzNtMm9LQXN3Zllxczc1QXpkWjJ5SktQQUNFbHJjYmFXZkx2eEFmaEFFcC1zaDFRM20tZUl5eTNLNU1xUHotc3I1enJNRFpQNGFhNE9OaGxVM3dsNEZOdkRNbmFnZTQw?oc=5",
-      "fecha": "2026-10-30T05:20:24.000Z",
-      "resumen_corto": "Nvidia, las neoclouds y la inevitable ralentización de la inteligencia artificial El Economista",
-      "resumen_largo": "Nvidia, las neoclouds y la inevitable ralentización de la inteligencia artificial El Economista",
-      "texto_original": "Nvidia, las neoclouds y la inevitable ralentización de la inteligencia artificial El Economista",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-10-31T18:20:47.841Z",
-        "index": 40,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "es",
-        "categoria": "inteligencia_artificial",
-        "categorias_secundarias": [
-          "vehiculos_energia",
-          "software_internet"
-        ],
-        "category_scores": {
-          "inteligencia_artificial": 3,
-          "vehiculos_energia": 1,
-          "software_internet": 1
-        },
-        "entidades": [
-          "NVIDIA"
-        ],
-        "cifras_detectadas": [],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 80,
-        "relevancia": 62,
-        "confiabilidad_fuente": 53,
-        "readability": {
-          "words": 40,
-          "sentences": 1,
-          "average_words_per_sentence": 40
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 66.05
-    },
-    {
       "id": "4c3bec9a01f5ddbb",
       "fuente_id": "huawei_google",
       "fuente_nombre": "Huawei Central",
@@ -1882,8 +1232,8 @@
       "texto_original": "Huawei Pura 90 Plus sale kicks off with a 1-inch camera, Kirin 9025 and HarmonyOS 7 Huawei Central",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-31T18:20:47.831Z",
-        "index": 24,
+        "processed_at": "2026-10-31T22:19:48.689Z",
+        "index": 27,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -1952,8 +1302,8 @@
       "texto_original": "Huawei Pura X View completes 1 million sales in just 50 days Huawei Central",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-31T18:20:47.842Z",
-        "index": 42,
+        "processed_at": "2026-10-31T22:19:48.691Z",
+        "index": 36,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -2025,8 +1375,8 @@
       "texto_original": "El histórico desplome de Google e Intel asesta un nuevo golpe a la burbuja de la IA elDiario.es",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-31T18:20:47.837Z",
-        "index": 33,
+        "processed_at": "2026-10-31T22:19:48.690Z",
+        "index": 32,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -2097,8 +1447,8 @@
       "texto_original": "Samsung se adelanta al Black Friday con el Galaxy S26 Ultra desde 381,55 euros y otras ofertas en móviles y tablets Xataka",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-31T18:20:47.824Z",
-        "index": 14,
+        "processed_at": "2026-10-31T22:19:48.687Z",
+        "index": 20,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -2166,8 +1516,8 @@
       "texto_original": "Parece que han encontrado a la culpable de la rotura de la pantalla de algunos iPhone Duo. Y esto pone la campaña navideña a tiritar Xataka",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-31T18:20:47.825Z",
-        "index": 16,
+        "processed_at": "2026-10-31T22:19:48.688Z",
+        "index": 22,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -2214,7 +1564,78 @@
       "final_score": 65.2
     },
     {
-      "id": "0ac29e19951f0a85",
+      "id": "77aa9bd59a286b82",
+      "fuente_id": "bbc_mundo",
+      "fuente_nombre": "BBC Mundo",
+      "tipo": "rss_web",
+      "subtipo": "medio_generalista",
+      "grupo_fuente": "bbc",
+      "nivel_fuente": "medio_profesional",
+      "categoria": "actualidad",
+      "idioma_original": "es",
+      "prioridad_fuente": 5,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "\"Yo no pinto gordas\": qué hay detrás del estilo único del célebre artista colombiano Fernando Botero",
+      "titulo_original": "\"Yo no pinto gordas\": qué hay detrás del estilo único del célebre artista colombiano Fernando Botero",
+      "enlace": "https://www.bbc.com/mundo/articles/c60me2mwjygko?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-10-31T20:51:06.000Z",
+      "resumen_corto": "¿Qué revela su singular visión sobre la historia del arte y el lugar que ocupa América Latina en ella?",
+      "resumen_largo": "Las alegres pinturas del artista colombiano Fernando Botero reinterpretan algunas de las obras más icónicas y célebres de la historia del arte europeo. ¿Qué revela su singular visión sobre la historia del arte y el lugar que ocupa América Latina en ella?",
+      "texto_original": "Las alegres pinturas del artista colombiano Fernando Botero reinterpretan algunas de las obras más icónicas y célebres de la historia del arte europeo. ¿Qué revela su singular visión sobre la historia del arte y el lugar que ocupa América Latina en ella?",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-10-31T22:19:48.678Z",
+        "index": 1,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "inteligencia_artificial",
+        "categorias_secundarias": [
+          "semiconductores",
+          "vehiculos_energia"
+        ],
+        "category_scores": {
+          "inteligencia_artificial": 1,
+          "semiconductores": 1,
+          "vehiculos_energia": 1
+        },
+        "entidades": [],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 79,
+        "relevancia": 50,
+        "confiabilidad_fuente": 70,
+        "readability": {
+          "words": 108,
+          "sentences": 5,
+          "average_words_per_sentence": 21.6
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 65.15
+    },
+    {
+      "id": "cd7868574310af5d",
       "fuente_id": "xataka_google",
       "fuente_nombre": "Xataka",
       "tipo": "rss_web",
@@ -2226,29 +1647,98 @@
       "prioridad_fuente": 4,
       "analizar": true,
       "resumir": true,
-      "titulo": "Bill Gates, fundador de Microsoft: \"Consiste en contratar al robot, despedir al humano y no mirar atrás\"",
-      "titulo_original": "Bill Gates, fundador de Microsoft: \"Consiste en contratar al robot, despedir al humano y no mirar atrás\" - Xataka",
-      "enlace": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQSFhPQzd4cnB3eVpqQnZLQTVDVVdNZW53SlhZem53YnlvUXdMOEFxSjJXd3B2TzZteHk5VldFVmpoTWs3aVR5WlVoX2otdDc5TFV4SlJtU0lUSGJ6VlIxNG94TjluVldSYUIwY3AyWHRjVWxYYTdNZkg4NGVFOE9kWVlBNEIwSnJYUVlQempBRHVRelA1VXlUS25oWnViVm8wSjFOcGN6cURwcHk4dDhFSVYwS2JqdXlyc0xtTXNuNEx3QU13VUJr0gHMAUFVX3lxTE9Lc2V1UlVLQVlOcFBCaFBpQnBKdm5tY05mLUY1VGxMNWI5eU1IT2Vxc1pEdks5TWpuUm1zSW8tOHVaUHJWM3JKeWlzYVAwMXhYZnZyU1lqOEFjVW5EX2JhSFo4RVBnZ19JQnN6OE1QRUJHSU1zdGpRdFB3dDNYbGE2QzJxR3NWZVdnM2RxaVo5ZDJBMWwzQXVFbXlicGQxTnE2TmVLTUhsVk0yUjlVUmFrUU1iVVVJQ3JjTkZITWFFYkM4ZDI3Y1NjTVRCbQ?oc=5",
-      "fecha": "2026-10-31T11:01:28.000Z",
-      "resumen_corto": "Bill Gates, fundador de Microsoft: \"Consiste en contratar al robot, despedir al humano y no mirar atrás\" Xataka",
-      "resumen_largo": "Bill Gates, fundador de Microsoft: \"Consiste en contratar al robot, despedir al humano y no mirar atrás\" Xataka",
-      "texto_original": "Bill Gates, fundador de Microsoft: \"Consiste en contratar al robot, despedir al humano y no mirar atrás\" Xataka",
+      "titulo": "México acaba de declarar una guerra insólita: su Armada está persiguiendo una flota marrón de millones de toneladas que huele a podrido",
+      "titulo_original": "México acaba de declarar una guerra insólita: su Armada está persiguiendo una flota marrón de millones de toneladas que huele a podrido - Xataka",
+      "enlace": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOQXljQmlTcWNiRnVXcXdGcU53dlZrNktPdDFianY4b1FfWW5hN2ttMk55ZGU4cnE3cWhSek9Ldnc5RHRYa0JDMy1wcHJZSVFmekFQSGxaR0lXUkhfc1d4dVgyV3VSWWZWZ1FnQkZuN0RLSkpEQk9BdWhnNDN1Rm9UQUo2c0pyWWk5UFBLR1kwU05maU41REJBaXp1YUJZTWVabndVUmd1OVlaTTZZbXFXSEJnb1JsWlNiWjh0WmdBWWZ4SFNNMFdndWhTUlYwczVCVmlrMTdlYmp6dUN3VFpnMlpCZGo1RTRqandEMmF4OWNETXJr0gH6AUFVX3lxTE5FM0xCRUhfalhhY0xmNU1Cb3JySmExTFR5U2NLaWtxNVJFdmVwQ3U0QTJ1clhtTmhQT0ZDeXJuUTI4YW9seXdYWmRPQ0VTMDZaXzEyOURROWFTQTIwczJOWG9jR2N4dVFZMWlQVmtKdnJwcWVVUFVTMUxUNE5DWEZXcTd5RWdLbEFNWFhfQU5icDZTU1cyYnN0UmE1bVpTMVRvMVpaRkd3bWZRR2hEd3JVSEJobEhLcUhjd0pJS1ZaS252cGlDNkZNeHp1NEJWSUgyN3pubEJoN2M5V2hLSWsySkVRLU5SaVFob2UzQ1Fudlc4eTdBTEJQNGc?oc=5",
+      "fecha": "2026-10-31T16:01:30.000Z",
+      "resumen_corto": "México acaba de declarar una guerra insólita: su Armada está persiguiendo una flota marrón de millones de toneladas que huele a podrido Xataka",
+      "resumen_largo": "México acaba de declarar una guerra insólita: su Armada está persiguiendo una flota marrón de millones de toneladas que huele a podrido Xataka",
+      "texto_original": "México acaba de declarar una guerra insólita: su Armada está persiguiendo una flota marrón de millones de toneladas que huele a podrido Xataka",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-31T18:20:47.823Z",
-        "index": 12,
+        "processed_at": "2026-10-31T22:19:48.680Z",
+        "index": 5,
         "resumen": {
           "generado": true,
           "origen": "translated"
         },
         "idioma_detectado": "es",
         "idioma_original": "es",
-        "categoria": "tecnologia",
+        "categoria": "militar",
         "categorias_secundarias": [],
-        "category_scores": {},
+        "category_scores": {
+          "militar": 3
+        },
         "entidades": [
-          "Microsoft",
           "Xataka"
+        ],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 82,
+        "relevancia": 55,
+        "confiabilidad_fuente": 50,
+        "readability": {
+          "words": 89,
+          "sentences": 1,
+          "average_words_per_sentence": 89
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 63.2
+    },
+    {
+      "id": "3644472f09a04fc1",
+      "fuente_id": "genbeta_google",
+      "fuente_nombre": "Genbeta",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "genbeta",
+      "nivel_fuente": "medio_especializado",
+      "categoria": "software_internet",
+      "idioma_original": "es",
+      "prioridad_fuente": 4,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Grok de Elon Musk lanza el primer episodio de “Odyssey” generado por inteligencia artificial",
+      "titulo_original": "Grok de Elon Musk lanza el primer episodio de “Odyssey” generado por inteligencia artificial - Genbeta",
+      "enlace": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOZEZXSHZLcU1sZEk0b2NranVqZXgzdHd0RXVBZDVUQVRPM3FRNWxCVDh4bF83V0pkWG9fU3ZhbXJGeE1TMTIwazd4Y2hJb2ZtN0xtVzAtOTFkaWZ6UzlIZzFWMk5BX1NHaDVXcTBleVdpcm05UXFHX0NZdkVQTlI5NXJzY1VKMXVWZkdfU0c1Z19RNGc3WURnbG1OM3Rsb0xRdWszZk5ZNnJTSUd4d3J0MzNYcFdBaWJSS2txNDdnYnJsS1HSAcgBQVVfeXFMTXhYUmhJcVREWjlweFNXbHAwYi1ZdGFmZHVZbXdteEpDZkFDOWRHMWdhTms1SFhsNldlNV9RQzIxOENZdUxtWmNYNEpSLS00ZzkwYWxKalBheFFUQzhqU1hZZ09hRjZOSE9yVENHdmxyVkp6MG81NzBJVXFySk1zQlNxSWc1ZXZSUVIzT2ZseUZVTmlic09GQWZ3dHgtWDdfV1FVOU84V3BMdFRTMUExVExTTi1LWFJVa0JJMlAzZXpEeHJSVzRyV0o?oc=5",
+      "fecha": "2026-10-31T12:31:27.000Z",
+      "resumen_corto": "Grok de Elon Musk lanza el primer episodio de “Odyssey” generado por inteligencia artificial Genbeta",
+      "resumen_largo": "Grok de Elon Musk lanza el primer episodio de “Odyssey” generado por inteligencia artificial Genbeta",
+      "texto_original": "Grok de Elon Musk lanza el primer episodio de “Odyssey” generado por inteligencia artificial Genbeta",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-10-31T22:19:48.686Z",
+        "index": 16,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "inteligencia_artificial",
+        "categorias_secundarias": [],
+        "category_scores": {
+          "inteligencia_artificial": 3
+        },
+        "entidades": [
+          "Genbeta"
         ],
         "cifras_detectadas": [],
         "content_type": "news",
@@ -2281,47 +1771,56 @@
       "final_score": 63.2
     },
     {
-      "id": "a7d03c17f97bd751",
-      "fuente_id": "xataka_google",
-      "fuente_nombre": "Xataka",
+      "id": "5abff74b2d04a617",
+      "fuente_id": "wccftech_google",
+      "fuente_nombre": "Wccftech",
       "tipo": "rss_web",
       "subtipo": "google_news",
-      "grupo_fuente": "xataka",
+      "grupo_fuente": "wccftech",
       "nivel_fuente": "medio_especializado",
-      "categoria": "tecnologia",
-      "idioma_original": "es",
+      "categoria": "hardware",
+      "idioma_original": "en",
       "prioridad_fuente": 4,
       "analizar": true,
       "resumir": true,
-      "titulo": "La Torre Eiffel rusa sobrevivió a Stalin, a Hitler y a la caída de la URSS. Un siglo después, Moscú ha decidido que es más fácil copiarla que conservarla",
-      "titulo_original": "La Torre Eiffel rusa sobrevivió a Stalin, a Hitler y a la caída de la URSS. Un siglo después, Moscú ha decidido que es más fácil copiarla que conservarla - Xataka",
-      "enlace": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPb2pGa2FZUVM0ZE03aFR6UjJyMFNnVnM5cllPVndMUUdlcnp1UWdwN2hkSnBWWXI5MXZ0TjFEWlVkVVJaS1Iwd0hzaGJaOFR0dDVSZzkwU25RMmE3WGVfQWR4S0lhZnVkR2N2eV91WUxydEpZbkhlRFcyUEFNZU9OdVdkMlRROXdXMEE0b0NkYVF2Q2NvMkdFMWtKRUxPV3FxMnlkd1dwYjNrQmwtSnA1Umt5eFZIQ2h5b0JRV21YRGtKQjk3QlMyVGRMdk9sMG1TWDBhTUFRdG5qVXdUXzUyV1U1RlgwZU1QamNlVdIB8gFBVV95cUxOUVc5eEFwM05vRFVvaWVwYUl0RjRHZEd3bFpVcjF2dV9zYXMtVnJ0U0hzLW9EQXA2dy01cV95cHpSRklHU2h1dUpfUl96THQzOUZzNGxSMlF6eHRaOUNoLUlaM1RqZEc3U2ZncUtzTlZOdllZMTRYVmthbVRFS3hHd21xWmtlR0MzcFlzdzdFOXFCWGJuRlJvcjlDeWlQRzNVbnJGZWk1YkJrLVdJRHN4aTQ1WmJLOFNLRFBiRXlxUU9mVFBwTFRnRlk3NUdEajdYUTNLOGJLa1ROdDAtNklFcXk3dWtQUmpIVGk1R2JkazdpZw?oc=5",
-      "fecha": "2026-10-31T08:01:27.000Z",
-      "resumen_corto": "La Torre Eiffel rusa sobrevivió a Stalin, a Hitler y a la caída de la URSS.",
-      "resumen_largo": "La Torre Eiffel rusa sobrevivió a Stalin, a Hitler y a la caída de la URSS. Un siglo después, Moscú ha decidido que es más fácil copiarla que conservarla Xataka",
-      "texto_original": "La Torre Eiffel rusa sobrevivió a Stalin, a Hitler y a la caída de la URSS. Un siglo después, Moscú ha decidido que es más fácil copiarla que conservarla Xataka",
+      "titulo": "El comprador adquiere una PC para juegos Core i9-9900K con RTX 2070 y 32 GB de RAM por $ 250 en comparación con los BSOD que ocurren al ejecutar Arc Raiders; La actualización de controladores solucionó el problema",
+      "titulo_original": "Buyer Snags Core i9-9900K Gaming PC With An RTX 2070 And 32GB RAM For $250 Over BSODs Occurring When Running Arc Raiders; Updating Drivers Fixed The Problem - Wccftech",
+      "enlace": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQdTA5Qkp1X0RsWXZaSjJqSmlKRzJBa2c2Y0I5S3pZVjU1TVY0X2RDQVVwejFsRVZFcGM3eUxrVHNTQVdyZjExVmFWTEZ5a2R3cE00RC10NFNCR1JuZExJQlFScmdXN1YtRmR2WE13T1RlZVBUVU45SDR5VDNmUVBGT2k1T1ZaN2lZNmlGQ0pJTGo2aUVBTzNfUNIBngFBVV95cUxQcndTa2JISnJJQ0hJWFZNSWhsX2c1SHdWdmJlNFVPelYxRzRMMW1rS3BLX0p6RVUyOGVKODVLLUc1WUctZnI5MmRyMjZ4Zm1ZOU52NDlLRkVHV2EzVHdLMmM5c0s0bFJXLTdmVmplaWhVckc0ZGVLdkNKWnJ3OElvZFc0c3RwcHNxQi1aNmdreERoVnhHVW5pVHFMMlYtdw?oc=5",
+      "fecha": "2026-10-31T19:34:08.000Z",
+      "resumen_corto": "El comprador adquiere una PC para juegos Core i9-9900K con RTX 2070 y 32 GB de RAM por $ 250 en comparación con los BSOD que ocurren al ejecutar Arc Raiders; La actualización de controladores solucionó el problema Wccftech",
+      "resumen_largo": "El comprador adquiere una PC para juegos Core i9-9900K con RTX 2070 y 32 GB de RAM por $ 250 en comparación con los BSOD que ocurren al ejecutar Arc Raiders; La actualización de controladores solucionó el problema Wccftech",
+      "texto_original": "Buyer Snags Core i9-9900K Gaming PC With An RTX 2070 And 32GB RAM For $250 Over BSODs Occurring When Running Arc Raiders; Updating Drivers Fixed The Problem Wccftech",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-31T18:20:47.826Z",
-        "index": 18,
+        "processed_at": "2026-10-31T22:19:48.679Z",
+        "index": 4,
         "resumen": {
           "generado": true,
           "origen": "translated"
         },
         "idioma_detectado": "es",
-        "idioma_original": "es",
-        "categoria": "inteligencia_artificial",
+        "idioma_original": "en",
+        "categoria": "hardware",
         "categorias_secundarias": [
-          "vehiculos_energia"
+          "inteligencia_artificial",
+          "tecnologia"
         ],
         "category_scores": {
-          "inteligencia_artificial": 2,
-          "vehiculos_energia": 1
+          "hardware": 2,
+          "inteligencia_artificial": 1,
+          "tecnologia": 1
         },
         "entidades": [
-          "Xataka"
+          "Wccftech"
         ],
-        "cifras_detectadas": [],
+        "cifras_detectadas": [
+          "9900",
+          "2070",
+          "32 GB",
+          "$ 250",
+          "32GB",
+          "$250"
+        ],
         "content_type": "news",
         "clickbait": {
           "detected": false,
@@ -2330,17 +1829,17 @@
         },
         "spam": {
           "detected": false,
-          "score": 0,
+          "score": 25,
           "signals": [],
           "url_count": 0
         },
-        "calidad": 82,
-        "relevancia": 55,
+        "calidad": 72,
+        "relevancia": 62,
         "confiabilidad_fuente": 50,
         "readability": {
-          "words": 83,
-          "sentences": 6,
-          "average_words_per_sentence": 13.83
+          "words": 132,
+          "sentences": 1,
+          "average_words_per_sentence": 132
         },
         "duplicate": {
           "detected": false,
@@ -2349,49 +1848,49 @@
           "similar_to": null
         }
       },
-      "final_score": 63.2
+      "final_score": 62.5
     },
     {
-      "id": "dbcaa86d30dcaf92",
-      "fuente_id": "genbeta_google",
-      "fuente_nombre": "Genbeta",
+      "id": "42b5fc3287506fa4",
+      "fuente_id": "google_news_es",
+      "fuente_nombre": "Google News ES",
       "tipo": "rss_web",
       "subtipo": "google_news",
-      "grupo_fuente": "genbeta",
-      "nivel_fuente": "medio_especializado",
-      "categoria": "software_internet",
+      "grupo_fuente": "google_news",
+      "nivel_fuente": "agregador",
+      "categoria": "tecnologia",
       "idioma_original": "es",
-      "prioridad_fuente": 4,
+      "prioridad_fuente": 3,
       "analizar": true,
       "resumir": true,
-      "titulo": "Fin a 28 años de historia: Telefónica dejará de encargarse de prestar el Servicio Universal de Telecomunicaciones",
-      "titulo_original": "Fin a 28 años de historia: Telefónica dejará de encargarse de prestar el Servicio Universal de Telecomunicaciones - Genbeta",
-      "enlace": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPRTNGclhHeGotY1Bpbm5QdG9yYmR3dVBJelhfMVNzbmxqRGZGUUQzdEFFbjFlQUF0cU8wQXdvQWRJY1BaUS1KOUwzWktxMjlKM3hDbVNJQXpPZFFnOEw5eGtzTTh3ZWRnX1FzTmVhbVdGRWRkeGVGUzVyOVEyRzlQdzBXV3hmbjBSVWJpWnpyQlNtNERYanBZLUwwdWozdkFVNnRTT0ZmUXpUb1AzS2ZUOHVuckYxTExFdXlZM3lTUV9rM0xTUDY5VTNNMkQzSmlOTVpn0gHYAUFVX3lxTE8tZDNMbnJzS09FR3J0Uk5wS0l2ZDhuemJBZ1dQWU9uMWFCS3pDSkk3WDJLOGhaODlNTm9CamV4SklxT3VtemFMMXZrRDJ2d01BV0V4TlNIVEhFREJvSXFuMEsxNHBELTBuZ21BLW5jajI3OXVBdGxZOTZYeFVhd2RkdWx2ME4ycGJKdmVIaWRFQUhMdXB5ck1WcUxleUo4S2YyemtnSWVGQkF0MkhtQUtRTEk0eS1vTkkwOHdNUUlWeUhnemUwSjFmbDRiU0pOVUR3Um1xTVU5ZA?oc=5",
-      "fecha": "2026-10-30T10:01:29.000Z",
-      "resumen_corto": "Fin a 28 años de historia: Telefónica dejará de encargarse de prestar el Servicio Universal de Telecomunicaciones Genbeta",
-      "resumen_largo": "Fin a 28 años de historia: Telefónica dejará de encargarse de prestar el Servicio Universal de Telecomunicaciones Genbeta",
-      "texto_original": "Fin a 28 años de historia: Telefónica dejará de encargarse de prestar el Servicio Universal de Telecomunicaciones Genbeta",
+      "titulo": "¿Qué coche electrificado me compro? Guía para no perderse en el laberinto de las tecnologías - elDiario.es",
+      "titulo_original": "¿Qué coche electrificado me compro? Guía para no perderse en el laberinto de las tecnologías - elDiario.es",
+      "enlace": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQbE9pbzdJSnY0c25BWUtSNGZzRVhRNlpTRTd0dGVYeDIwOEpOTDJQM2JqU2ViQVVBMHV2emxVSmlva1BlckZlS1gtTk93WENoWERadjg1NURGX1JGYWt4SDR6Sl95VHFrTDc1X2NUV3JPOENyR0d5NUstdDBaN1pMLWUyd2xKSlFQUktHWmhYMndtZS1UQU5KVzFLcFNHdmxoY1Zybk5Ma3dzbTd0QWRYVFp1bDNLZUJwb3A5VVNhQdIBxAFBVV95cUxOMmRZQlh3ZWpvX0pqZkVvR2M3UjRIY3JZWWtGM3NKWlNIeTZIUWdCT2NhMEpqYlRoUVIwWHhQek9DVVN6TkxncW1mZHdsbW1mMS11c3J0RjNrRkdEZ1pIWlpRYlVUNUtXaDB5aGpLLWhneHJUQmdzTy1jUGZMU3gzaDRVY3JTc3pvOHBndFA2QmctMkluM0hVUWFVMjlueVdWeU1ndzBUdkU0TTk0Q2JkTHlEWVkySkVPTzB1ZWVkMzJKdGI2?oc=5",
+      "fecha": "2026-10-31T21:12:19.000Z",
+      "resumen_corto": "Guía para no perderse en el laberinto de las tecnologías elDiario.es",
+      "resumen_largo": "¿Qué coche electrificado me compro? Guía para no perderse en el laberinto de las tecnologías elDiario.es",
+      "texto_original": "¿Qué coche electrificado me compro? Guía para no perderse en el laberinto de las tecnologías elDiario.es",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-31T18:20:47.840Z",
-        "index": 38,
+        "processed_at": "2026-10-31T22:19:48.677Z",
+        "index": 0,
         "resumen": {
           "generado": true,
           "origen": "translated"
         },
         "idioma_detectado": "es",
         "idioma_original": "es",
-        "categoria": "inteligencia_artificial",
+        "categoria": "tecnologia",
         "categorias_secundarias": [
+          "inteligencia_artificial",
           "vehiculos_energia"
         ],
         "category_scores": {
+          "tecnologia": 2,
           "inteligencia_artificial": 1,
           "vehiculos_energia": 1
         },
-        "entidades": [
-          "Genbeta"
-        ],
+        "entidades": [],
         "cifras_detectadas": [],
         "content_type": "news",
         "clickbait": {
@@ -2405,13 +1904,13 @@
           "signals": [],
           "url_count": 0
         },
-        "calidad": 82,
-        "relevancia": 55,
-        "confiabilidad_fuente": 50,
+        "calidad": 75,
+        "relevancia": 57,
+        "confiabilidad_fuente": 53,
         "readability": {
-          "words": 54,
-          "sentences": 1,
-          "average_words_per_sentence": 54
+          "words": 51,
+          "sentences": 10,
+          "average_words_per_sentence": 5.1
         },
         "duplicate": {
           "detected": false,
@@ -2420,7 +1919,7 @@
           "similar_to": null
         }
       },
-      "final_score": 63.2
+      "final_score": 62.3
     },
     {
       "id": "bc2b1ffde3385fb3",
@@ -2444,8 +1943,8 @@
       "texto_original": "La tecnología abre nuevas fronteras en la alta cocina El Periódico",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-31T18:20:47.822Z",
-        "index": 11,
+        "processed_at": "2026-10-31T22:19:48.687Z",
+        "index": 19,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -2494,146 +1993,6 @@
       "final_score": 62.3
     },
     {
-      "id": "2bd1e7cbdbbf43ca",
-      "fuente_id": "google_news_es",
-      "fuente_nombre": "Google News ES",
-      "tipo": "rss_web",
-      "subtipo": "google_news",
-      "grupo_fuente": "google_news",
-      "nivel_fuente": "agregador",
-      "categoria": "tecnologia",
-      "idioma_original": "es",
-      "prioridad_fuente": 3,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "Un doctor en Ciencia y Tecnología de los Alimentos avisa sobre algunas hamburguesas envasadas: «Es una mala señal» - Ideal",
-      "titulo_original": "Un doctor en Ciencia y Tecnología de los Alimentos avisa sobre algunas hamburguesas envasadas: «Es una mala señal» - Ideal",
-      "enlace": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOSXR1Vm9vYXY2WVhCcWx1X0NXY194T2pSN1NxRklZR2N1ZG04Z1BrNFlfVko0SnotU2UtQmhHbWJrRURLWHJPSGpyYkx6VFlOalZQendhTHNuSWxGRlctV1gxSU5wdnZ5aVhDMTFKd3c2d0NZUXJTbHVyMkdaSHRaNVNvQkk0YlNCTWpSS0k3UFZNc1FpQ055VmJHX1U5aHJRa0QwNEpDTFo5NkQ4NGFERG91ONIBuAFBVV95cUxPTzNjLVVKSnRpMWVXRmxSeWduc2U2d2hySDk4b2NTTUh3a0xwSDlnTHVrOEZEaFdCRHQzM0Q5Q0dRdy15T09RQjZ0QkhsLU1TTGNNU0tJaVI4SUNYQVY3Wnd5UGZvWjNHWWQ3WDVZbG5TQ19ObHY0WlVXcF92Z3Iwd2dYZW5qd3RnRFQwUTR1TXBMSWk0bkl2d2JiUjUzMzJQRFdaLUdmQm1ibFpmOVBUNk1waktWbmxj?oc=5",
-      "fecha": "2026-10-31T10:41:36.000Z",
-      "resumen_corto": "Un doctor en Ciencia y Tecnología de los Alimentos avisa sobre algunas hamburguesas envasadas: «Es una mala señal» Ideal",
-      "resumen_largo": "Un doctor en Ciencia y Tecnología de los Alimentos avisa sobre algunas hamburguesas envasadas: «Es una mala señal» Ideal",
-      "texto_original": "Un doctor en Ciencia y Tecnología de los Alimentos avisa sobre algunas hamburguesas envasadas: «Es una mala señal» Ideal",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-10-31T18:20:47.823Z",
-        "index": 13,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "es",
-        "categoria": "tecnologia",
-        "categorias_secundarias": [
-          "inteligencia_artificial"
-        ],
-        "category_scores": {
-          "tecnologia": 3,
-          "inteligencia_artificial": 1
-        },
-        "entidades": [],
-        "cifras_detectadas": [],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 75,
-        "relevancia": 57,
-        "confiabilidad_fuente": 53,
-        "readability": {
-          "words": 70,
-          "sentences": 1,
-          "average_words_per_sentence": 70
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 62.3
-    },
-    {
-      "id": "33573691cc48ecd7",
-      "fuente_id": "google_news_es",
-      "fuente_nombre": "Google News ES",
-      "tipo": "rss_web",
-      "subtipo": "google_news",
-      "grupo_fuente": "google_news",
-      "nivel_fuente": "agregador",
-      "categoria": "tecnologia",
-      "idioma_original": "es",
-      "prioridad_fuente": 3,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "De la tecnología futurista a la espiritualidad: Mariko Mori repasa su carrera en Tokio - ABC",
-      "titulo_original": "De la tecnología futurista a la espiritualidad: Mariko Mori repasa su carrera en Tokio - ABC",
-      "enlace": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPbDlIUGdxdlVtbVdvYUl4ZU16WlF3N2ZiYkxxdmo2NERfcUlVdkZlV1NVdEw4dWRhM1l2cDV5SEE2MVIzRGlUMThPblVBWk1ZdFpFY0ZMS3ZJLVhiUWt4SVFtdHQ2Xy1MbE1RSzg2MjVhTHlCc0NZOFZGampBWHRNcXJtVnZrOVdrMmhqUzdwcEY1eEY0WUJzSFVYOE1mRUNNa1k4eFJMUzByTklBRmxGQnFGN0VOOFot?oc=5",
-      "fecha": "2026-10-31T08:09:48.000Z",
-      "resumen_corto": "De la tecnología futurista a la espiritualidad: Mariko Mori repasa su carrera en Tokio ABC",
-      "resumen_largo": "De la tecnología futurista a la espiritualidad: Mariko Mori repasa su carrera en Tokio ABC",
-      "texto_original": "De la tecnología futurista a la espiritualidad: Mariko Mori repasa su carrera en Tokio ABC",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-10-31T18:20:47.825Z",
-        "index": 17,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "es",
-        "categoria": "tecnologia",
-        "categorias_secundarias": [
-          "inteligencia_artificial",
-          "vehiculos_energia"
-        ],
-        "category_scores": {
-          "tecnologia": 2,
-          "inteligencia_artificial": 1,
-          "vehiculos_energia": 1
-        },
-        "entidades": [],
-        "cifras_detectadas": [],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 75,
-        "relevancia": 57,
-        "confiabilidad_fuente": 53,
-        "readability": {
-          "words": 45,
-          "sentences": 1,
-          "average_words_per_sentence": 45
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 62.3
-    },
-    {
       "id": "57932952f97ece15",
       "fuente_id": "google_news_es",
       "fuente_nombre": "Google News ES",
@@ -2655,8 +2014,8 @@
       "texto_original": "“Internet es como una piscina. No puedes arrojar al niño sin saber nadar”: Juan García (CrianzaDigital), sobre la relación de los jóvenes y la tecnología La Vanguardia",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-31T18:20:47.829Z",
-        "index": 21,
+        "processed_at": "2026-10-31T22:19:48.689Z",
+        "index": 26,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -2705,46 +2064,41 @@
       "final_score": 62.3
     },
     {
-      "id": "e2f0691013053ae9",
-      "fuente_id": "ia_dia",
-      "fuente_nombre": "IA al Día",
+      "id": "e3f3c0b708c16271",
+      "fuente_id": "xataka_google",
+      "fuente_nombre": "Xataka",
       "tipo": "rss_web",
       "subtipo": "google_news",
-      "grupo_fuente": "ia_general",
-      "nivel_fuente": "agregador",
-      "categoria": "inteligencia_artificial",
+      "grupo_fuente": "xataka",
+      "nivel_fuente": "medio_especializado",
+      "categoria": "tecnologia",
       "idioma_original": "es",
-      "prioridad_fuente": 3,
+      "prioridad_fuente": 4,
       "analizar": true,
       "resumir": true,
-      "titulo": "La Inteligencia Artificial 'inunda' los anuncios de viviendas en Zaragoza: \"Puede llevar a publicidad engañosa\" - heraldo.es",
-      "titulo_original": "La Inteligencia Artificial 'inunda' los anuncios de viviendas en Zaragoza: \"Puede llevar a publicidad engañosa\" - heraldo.es",
-      "enlace": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxOdTRQeS1jS05ZT1FHVXFoNm1qYXhIMjBLSk5oSTNPeko5VWF4ZFl1ejhPNnBNQzJmWEkzbjFXeElaOVJNWmFNNnMxNTdTbDVXVHp1eTVtMm5iNV9oQ3lvaXkzQWJkRmtiTW5EWXJKMjRuUThWMDBEUHBrem9lVUNaWmVCYTBDOERWYkZhbzJHWmU2QXRVZ25IS2J2c1BQQ2U0MGhsVEpmbFNDZ2VmZlkxYzZNaWJPZnoyb0gycEJtYXVvUUMxV1JXZDZZNDJuTmN3NWtTb2FnR01qdUhTakxUTEpadFFqMFk1LWdQeTJfVFEwQ2ZNSWdVMDlQWQ?oc=5",
-      "fecha": "2026-10-30T21:00:00.000Z",
-      "resumen_corto": "La Inteligencia Artificial 'inunda' los anuncios de viviendas en Zaragoza: \"Puede llevar a publicidad engañosa\" heraldo.es",
-      "resumen_largo": "La Inteligencia Artificial 'inunda' los anuncios de viviendas en Zaragoza: \"Puede llevar a publicidad engañosa\" heraldo.es",
-      "texto_original": "La Inteligencia Artificial 'inunda' los anuncios de viviendas en Zaragoza: \"Puede llevar a publicidad engañosa\" heraldo.es",
+      "titulo": "DAZN GO llega para ver fútbol desde 4,99 euros al mes: la ponemos frente a frente con Movistar Plus para ver cuál merece más la pena",
+      "titulo_original": "DAZN GO llega para ver fútbol desde 4,99 euros al mes: la ponemos frente a frente con Movistar Plus para ver cuál merece más la pena - Xataka",
+      "enlace": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNa014REFuXzVxLTlweFNISGRtZlpNektubEMtVUtLUjEtSWlyZ0swQ09tV2Vrb1ZJbXc1bmxkamRDMzRqYXFDcVFlUXZ2R25WUnpJWXBmUHJuQVd5N1pJaTE3aGc1Skt5ZlpmN2RpX2hodlB5Zk5QYk5WbGNtT2dzTFRtclFVc0ZPbzNsXzhZZ05aTnlNS2NHQ1RnUmNBYVRicG9aNVlyYlU4akE0QUEtUUNNSjMta09qSVhLWXFTNnVLT0x6SEZZLXVSd2xTUFkwcmxVRDhQV2JmVFRu0gHiAUFVX3lxTE1kYlFjeElhTVl0QURCU0VyZEdqQ3NVZ0tMUmlrR3pvYlNGTWl2MXc4bFRsN1ZkS19pTmxfNnBHME00Wlc4bmNWNXNEVjBNczZoNy1oanRjM2lGMnFYRkgyOWpmQkRiVl90STBmUGxRajBDbTE0emcxc2Rkai1KcTZaVDE1RndsQnRHekVlTXpmbmh3LUVjVzd1cm1CdFVLU3FtT0NoRVkwNFFiYUZxY2F5S3Y2VllWZW1ZSktEQTEzQ0o3UUVpX0RGeGZGS2VBbGVRME9yMlFlaGgtd3RuMFgyOGc?oc=5",
+      "fecha": "2026-10-31T14:15:28.000Z",
+      "resumen_corto": "DAZN GO llega para ver fútbol desde 4,99 euros al mes: la ponemos frente a frente con Movistar Plus para ver cuál merece más la pena Xataka",
+      "resumen_largo": "DAZN GO llega para ver fútbol desde 4,99 euros al mes: la ponemos frente a frente con Movistar Plus para ver cuál merece más la pena Xataka",
+      "texto_original": "DAZN GO llega para ver fútbol desde 4,99 euros al mes: la ponemos frente a frente con Movistar Plus para ver cuál merece más la pena Xataka",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-31T18:20:47.836Z",
-        "index": 30,
+        "processed_at": "2026-10-31T22:19:48.684Z",
+        "index": 13,
         "resumen": {
           "generado": true,
           "origen": "translated"
         },
         "idioma_detectado": "es",
         "idioma_original": "es",
-        "categoria": "inteligencia_artificial",
-        "categorias_secundarias": [
-          "moviles",
-          "vehiculos_energia"
+        "categoria": "tecnologia",
+        "categorias_secundarias": [],
+        "category_scores": {},
+        "entidades": [
+          "Xataka"
         ],
-        "category_scores": {
-          "inteligencia_artificial": 3,
-          "moviles": 1,
-          "vehiculos_energia": 1
-        },
-        "entidades": [],
         "cifras_detectadas": [],
         "content_type": "news",
         "clickbait": {
@@ -2758,13 +2112,13 @@
           "signals": [],
           "url_count": 0
         },
-        "calidad": 75,
-        "relevancia": 57,
-        "confiabilidad_fuente": 53,
+        "calidad": 82,
+        "relevancia": 50,
+        "confiabilidad_fuente": 50,
         "readability": {
-          "words": 60,
-          "sentences": 6,
-          "average_words_per_sentence": 10
+          "words": 104,
+          "sentences": 1,
+          "average_words_per_sentence": 104
         },
         "duplicate": {
           "detected": false,
@@ -2773,7 +2127,7 @@
           "similar_to": null
         }
       },
-      "final_score": 62.3
+      "final_score": 61.2
     },
     {
       "id": "c4ce7d2e1b5879cc",
@@ -2797,8 +2151,8 @@
       "texto_original": "La metamorfosis de la noche: por qué la Gen Z ya no va (casi) a discotecas Genbeta",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-31T18:20:47.841Z",
-        "index": 39,
+        "processed_at": "2026-10-31T22:19:48.691Z",
+        "index": 34,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -2863,8 +2217,8 @@
       "texto_original": "🇷🇺 People who left Aleshki were accepted at a temporary shelter in Simferopol, where rooms and hot meals have already been prepared for them. In addition, medical and psychological assistance, as well as volunteer support, were organized, stated Yana Lantratova, the Commissioner for Human Rights in the Russian Federation. “There are many issues ahead: restoring documents, medical treatment, further housing, and communication with relatives. Our office will accompany the resolution of these issues, examine each situation, and ensure that people receive all the support they are entitled to,” Lantratova emphasized. 🔴 @DDGeopolitics",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-31T18:20:47.815Z",
-        "index": 4,
+        "processed_at": "2026-10-31T22:19:48.683Z",
+        "index": 10,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -2911,7 +2265,7 @@
       "final_score": 60.75
     },
     {
-      "id": "5587407fa041c462",
+      "id": "3b084853e13747f8",
       "fuente_id": "ia_dia",
       "fuente_nombre": "IA al Día",
       "tipo": "rss_web",
@@ -2923,17 +2277,17 @@
       "prioridad_fuente": 3,
       "analizar": true,
       "resumir": true,
-      "titulo": "¿La IA es herramienta o creador? - EL PAÍS",
-      "titulo_original": "¿La IA es herramienta o creador? - EL PAÍS",
-      "enlace": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBHcW9DdVRudFZqT0pkUmZTTXRTWVc1VHFrU05MZUhhcnR3WS1XeHZ1TFNScjdIN1hCWTNIcnM2UXVkT0lWVU53MVlYS0VFOVd2VEV2MURycmxGQ1VPaUpPZFRtZGk0NWdLSWx3dEgyWWx6Z2t4V1BsWmxNeXU5d9IBkgFBVV95cUxQSkZSUlJyeXJoOE9HcVN5UzJPbTQxd3pHTWdVU05uU0xhaEhwa2kxazN5MmpoX1NCYjJYTE9pSWlybHhIYTUyQVZYdGdjV0w4Y21mRkVDMTN2Vkc2Nko4Vm1fWE5XQm44VUpVcGlGN2tjX3JKYlFaRk13cktKRF9mRmdEcXhKcEVOQi1Qc1o0SlU0UQ?oc=5",
-      "fecha": "2026-10-31T04:30:01.000Z",
-      "resumen_corto": "¿La IA es herramienta o creador?",
-      "resumen_largo": "¿La IA es herramienta o creador?",
-      "texto_original": "¿La IA es herramienta o creador? EL PAÍS",
+      "titulo": "Eduardo Díaz de Guijarro: \"En tiempos de Inteligencia Artificial el diferencial de las Universidades es volver a pensar, la crítica, lo humano\" - Clarin.com",
+      "titulo_original": "Eduardo Díaz de Guijarro: \"En tiempos de Inteligencia Artificial el diferencial de las Universidades es volver a pensar, la crítica, lo humano\" - Clarin.com",
+      "enlace": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNZVJXMVVkaUNpOWhoQW1XaTJSSnBHWk5tVGxNUWIwRzgtbEVoVnRJRWhBaUJ1T0tRZUc0VEdDcmFKU3FQOEFqRFFwZU1wUzdJSzFWWi1BSzlETm9zSUpEcXNHY1dzUUc2NmV2VTlBUmRBWl95Q0V0NGlBLXBmZWJSUXVtUDZTck5Ib21yMXZDU01KeTFHTlB3dVdxYlR3ZlJnby1Eak9lYWl1LV9kYndaZFVpckZBNTRGYlZ4WUw0dzZIWjZCSmM0cmJnaHV2XzltZ0FuM0Y3Z3hzSm9XQlY1VVEwTlhlbVZ4NXo4cnhR?oc=5",
+      "fecha": "2026-10-31T20:47:10.000Z",
+      "resumen_corto": "Eduardo Díaz de Guijarro: \"En tiempos de Inteligencia Artificial el diferencial de las Universidades es volver a pensar, la crítica, lo humano\" Clarin.com",
+      "resumen_largo": "Eduardo Díaz de Guijarro: \"En tiempos de Inteligencia Artificial el diferencial de las Universidades es volver a pensar, la crítica, lo humano\" Clarin.com",
+      "texto_original": "Eduardo Díaz de Guijarro: \"En tiempos de Inteligencia Artificial el diferencial de las Universidades es volver a pensar, la crítica, lo humano\" Clarin.com",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-31T18:20:47.830Z",
-        "index": 23,
+        "processed_at": "2026-10-31T22:19:48.679Z",
+        "index": 2,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -2941,12 +2295,9 @@
         "idioma_detectado": "es",
         "idioma_original": "es",
         "categoria": "inteligencia_artificial",
-        "categorias_secundarias": [
-          "hardware"
-        ],
+        "categorias_secundarias": [],
         "category_scores": {
-          "inteligencia_artificial": 2,
-          "hardware": 1
+          "inteligencia_artificial": 3
         },
         "entidades": [],
         "cifras_detectadas": [],
@@ -2966,9 +2317,144 @@
         "relevancia": 50,
         "confiabilidad_fuente": 53,
         "readability": {
-          "words": 13,
+          "words": 75,
           "sentences": 6,
-          "average_words_per_sentence": 2.17
+          "average_words_per_sentence": 12.5
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 59.5
+    },
+    {
+      "id": "eaae2af014e38ea9",
+      "fuente_id": "ia_dia",
+      "fuente_nombre": "IA al Día",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "ia_general",
+      "nivel_fuente": "agregador",
+      "categoria": "inteligencia_artificial",
+      "idioma_original": "es",
+      "prioridad_fuente": 3,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Tesis: Policía predictiva: IA al servicio de la seguridad - Canal Sur",
+      "titulo_original": "Tesis: Policía predictiva: IA al servicio de la seguridad - Canal Sur",
+      "enlace": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPS2JRV3p5N1RuMm9mUXhqMVFxdmxFdk1OaVAtcS1yejJSZ0RYbmQ0M3hSVFNsUXdwaEpDekgzWVgyNHozeFV3dTdhRUY5NEtoZ0h5WnNnU05FeDhjRHFDSUpKdnpoTnpldC1UZW5aaUZYWnkweDlGYzV3UGVKNlhVOUdIbW90d1gxTFlJZ2dIaXVxcUItbWZIb00wUWU?oc=5",
+      "fecha": "2026-10-31T20:00:00.000Z",
+      "resumen_corto": "Tesis: Policía predictiva: IA al servicio de la seguridad Canal Sur",
+      "resumen_largo": "Tesis: Policía predictiva: IA al servicio de la seguridad Canal Sur",
+      "texto_original": "Tesis: Policía predictiva: IA al servicio de la seguridad Canal Sur",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-10-31T22:19:48.679Z",
+        "index": 3,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "inteligencia_artificial",
+        "categorias_secundarias": [
+          "software_internet"
+        ],
+        "category_scores": {
+          "inteligencia_artificial": 1,
+          "software_internet": 1
+        },
+        "entidades": [],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 75,
+        "relevancia": 50,
+        "confiabilidad_fuente": 53,
+        "readability": {
+          "words": 35,
+          "sentences": 1,
+          "average_words_per_sentence": 35
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 59.5
+    },
+    {
+      "id": "453d6180812561f1",
+      "fuente_id": "ia_dia",
+      "fuente_nombre": "IA al Día",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "ia_general",
+      "nivel_fuente": "agregador",
+      "categoria": "inteligencia_artificial",
+      "idioma_original": "es",
+      "prioridad_fuente": 3,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "La inteligencia artificial descubre sus contradicciones - El Conciso",
+      "titulo_original": "La inteligencia artificial descubre sus contradicciones - El Conciso",
+      "enlace": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNbXVXdzd3b0NvSEV2YzlVaHhnUGI4LTZ5Z1NMeHFmTkV2b0l3MXlaWDd6eTRBMFBwTUdKVGczTmJlOFptS2p6Z0xhcmVVb1BLelBrZFBXYU9Jb1ViSExBQlhFTlNSa0NfZkhiQktYeF96ZU9ZbFhJaGUyak51RG5TNGVxWnM1NHlUSi1idjI4ZXo5MnlOYTlBNmFBRTZRUG5S0gGmAUFVX3lxTE1oS1VUc2ZKX1dMdjJqVTFwc3kyWERyd1dZS25WaEg5UlF3UTcxcVF0QU5iSlpIVjRLRGNtZHExVTljeUpBcENwQUlQczVjSU1GZHM0QjZlRnpRY3NzeHZWN1JtUjNodEg2NXlMaHFhZkEyTnNTSWltQ01LLWh6aklMZVVLNEFBZVRHZXhndHQyMXA1SlhyUmVKUklEejBvZDRtQml1ekE?oc=5",
+      "fecha": "2026-10-31T05:01:06.000Z",
+      "resumen_corto": "La inteligencia artificial descubre sus contradicciones El Conciso",
+      "resumen_largo": "La inteligencia artificial descubre sus contradicciones El Conciso",
+      "texto_original": "La inteligencia artificial descubre sus contradicciones El Conciso",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-10-31T22:19:48.689Z",
+        "index": 25,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "inteligencia_artificial",
+        "categorias_secundarias": [],
+        "category_scores": {
+          "inteligencia_artificial": 3
+        },
+        "entidades": [],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 75,
+        "relevancia": 50,
+        "confiabilidad_fuente": 53,
+        "readability": {
+          "words": 30,
+          "sentences": 1,
+          "average_words_per_sentence": 30
         },
         "duplicate": {
           "detected": false,
@@ -3001,8 +2487,8 @@
       "texto_original": "400 escolares de Zaragoza se unen para diseñar tecnología: de un satélite que recupera la capa de ozono a un bolígrafo para escribir en todos los idiomas heraldo.es",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-31T18:20:47.832Z",
-        "index": 26,
+        "processed_at": "2026-10-31T22:19:48.690Z",
+        "index": 28,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -3070,8 +2556,8 @@
       "texto_original": "La sangría de caja de las tecnológicas por el gasto en IA pone a prueba la paciencia de Wall Street Expansión",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-31T18:20:47.835Z",
-        "index": 28,
+        "processed_at": "2026-10-31T22:19:48.690Z",
+        "index": 29,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -3118,6 +2604,75 @@
       "final_score": 59.5
     },
     {
+      "id": "7ba45c89f8e033f0",
+      "fuente_id": "google_news_es",
+      "fuente_nombre": "Google News ES",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "google_news",
+      "nivel_fuente": "agregador",
+      "categoria": "tecnologia",
+      "idioma_original": "es",
+      "prioridad_fuente": 3,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Aprender inglés para trabajar en tecnología, gratis: así son los cursos del Ayuntamiento Zaragoza y AWS - Hoy Aragón",
+      "titulo_original": "Aprender inglés para trabajar en tecnología, gratis: así son los cursos del Ayuntamiento Zaragoza y AWS - Hoy Aragón",
+      "enlace": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOTjJTODR4NmJKenQxa3JpT09idXduYmxISk01TlZrRlhEN083ZHVIbU9KMHJONG5URnUzQS1Ldm82RXBDQTh5TE9EN2NUazRIb0w4T2V2bzI0M1UzQnBvLXZITk93MkhjODRrcVR6aTJPdEo2SW1RNG9EbklZdFpheDFIQ3JEOTctRFpad21KbDhHby1lRERXdERzYms3MDd6?oc=5",
+      "fecha": "2026-10-28T12:53:31.000Z",
+      "resumen_corto": "Aprender inglés para trabajar en tecnología, gratis: así son los cursos del Ayuntamiento Zaragoza y AWS Hoy Aragón",
+      "resumen_largo": "Aprender inglés para trabajar en tecnología, gratis: así son los cursos del Ayuntamiento Zaragoza y AWS Hoy Aragón",
+      "texto_original": "Aprender inglés para trabajar en tecnología, gratis: así son los cursos del Ayuntamiento Zaragoza y AWS Hoy Aragón",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-10-31T22:19:48.692Z",
+        "index": 39,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "tecnologia",
+        "categorias_secundarias": [
+          "inteligencia_artificial"
+        ],
+        "category_scores": {
+          "tecnologia": 2,
+          "inteligencia_artificial": 1
+        },
+        "entidades": [],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 75,
+        "relevancia": 50,
+        "confiabilidad_fuente": 53,
+        "readability": {
+          "words": 80,
+          "sentences": 1,
+          "average_words_per_sentence": 80
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 59.5
+    },
+    {
       "id": "7dd7efa5db71f25f",
       "fuente_id": "genbeta_google",
       "fuente_nombre": "Genbeta",
@@ -3139,8 +2694,8 @@
       "texto_original": "Un propietario aparca su moto junto a su coche en la misma plaza de garaje y los vecinos se quejan: la Ley de Propiedad Horizontal aclara los límites y si la comunidad le puede sancionar Genbeta",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-31T18:20:47.842Z",
-        "index": 41,
+        "processed_at": "2026-10-31T22:19:48.691Z",
+        "index": 35,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -3207,8 +2762,8 @@
       "texto_original": "El Resumen Militar pinned a photo",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-31T18:20:47.811Z",
-        "index": 2,
+        "processed_at": "2026-10-31T22:19:48.681Z",
+        "index": 8,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -3273,8 +2828,8 @@
       "texto_original": "🇹🇷 🇺🇦 ⚡️ — Turkish President Erdoğan meets Ukrainian President Zelensky at the Dolmabahce Presidential Office in Istanbul.",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-31T18:20:47.816Z",
-        "index": 5,
+        "processed_at": "2026-10-31T22:19:48.683Z",
+        "index": 11,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -3342,8 +2897,8 @@
       "texto_original": "🇺🇦 🇹🇷 ⚡️ — Ukrainian President Zelensky has arrived in Istanbul, Türkiye, for talks with Turkish President Erdoğan.",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-31T18:20:47.816Z",
-        "index": 6,
+        "processed_at": "2026-10-31T22:19:48.684Z",
+        "index": 12,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -3411,8 +2966,8 @@
       "texto_original": "‼️ 🍾 La nueva colección de trenches clothing ya está disponible( https://trenchesclothing.store/en-usd ), no solo nuevos diseños, sino nuevas camisetas en un estilo más pesado... más relajado y no tan fit. Estos diseños están basados en los momentos que vivimos ahora, de muchas negociaciones, caos y búsqueda de la paz. Gracias por sus compras; son la única ayuda financiera al canal y significan mucho para mí. Gracias por su apoyo. 🙏",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-10-31T18:20:47.814Z",
-        "index": 3,
+        "processed_at": "2026-10-31T22:19:48.682Z",
+        "index": 9,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -3459,24 +3014,24 @@
       "final_score": 52.25
     }
   ],
-  "analyzed_at": "2026-10-31T18:20:47.844Z",
+  "analyzed_at": "2026-10-31T22:19:48.692Z",
   "analysis_stats": {
-    "input_items": 47,
-    "valid_items": 47,
+    "input_items": 42,
+    "valid_items": 42,
     "rejected_items": 0,
     "duplicate_items": 0,
     "clickbait_items": 0,
     "spam_items": 0,
-    "summaries_generated": 47,
-    "average_quality": 82,
-    "average_relevance": 60
+    "summaries_generated": 42,
+    "average_quality": 80,
+    "average_relevance": 57
   },
   "validation": {
     "version": "1.1",
-    "executed_at": "2026-10-31T18:20:48.000Z",
-    "original_items": 47,
+    "executed_at": "2026-10-31T22:19:48.790Z",
+    "original_items": 42,
     "rejected_items": 0,
-    "final_items": 47,
+    "final_items": 42,
     "limit": 60,
     "status": "ok"
   }

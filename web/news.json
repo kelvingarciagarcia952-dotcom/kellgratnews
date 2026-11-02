@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "updated_at": "2026-11-01T20:21:03.410Z",
+  "updated_at": "2026-11-02T00:24:46.943Z",
   "configuracion": {
     "limite_global": 60,
     "frecuencia_minutos": 60,
@@ -24,8 +24,8 @@
     "active_sources": 15,
     "successful_sources": 14,
     "collected_items": 57,
-    "deduplicated_items": 43,
-    "final_items": 43
+    "deduplicated_items": 42,
+    "final_items": 42
   },
   "items": [
     {
@@ -50,8 +50,8 @@
       "texto_original": "Las cifras económicas no son necesariamente malas, pero la opinión pública en Estados Unidos sí lo es. Se trata de una desconexión que persiguió a Joe Biden en 2024, cuando los datos principales, aunque sólidos, no lograron convencer a muchos votantes de que la economía estaba funcionando a su favor. Durante la campaña de 2024, Trump prometió a los votantes un alivio rápido ante la inflación. El crecimiento económico se mantiene estable, el desempleo sigue siendo bajo y la bolsa de valores está cerca de máximos históricos. Pero el último informe sobre la inflación antes de las elecciones de mitad de mandato confirma lo que los votantes ya saben: los precios siguen siendo altos. Trump se enfrenta a precios de la energía más altos, vinculados al conflicto entre EE.UU. e Israel con Irán y a las repercusiones de algunas de sus propias políticas comerciales y migratorias.",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-01T20:21:03.234Z",
-        "index": 9,
+        "processed_at": "2026-11-02T00:24:46.809Z",
+        "index": 13,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -106,153 +106,6 @@
       "final_score": 81.4
     },
     {
-      "id": "b7a1d45ea6b1375f",
-      "fuente_id": "openai_google",
-      "fuente_nombre": "OpenAI",
-      "tipo": "rss_web",
-      "subtipo": "google_news",
-      "grupo_fuente": "openai",
-      "nivel_fuente": "fuente_oficial",
-      "categoria": "inteligencia_artificial",
-      "idioma_original": "en",
-      "prioridad_fuente": 5,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "Comprender los límites de tarjetas y dispositivos en ChatGPT - Centro de ayuda de OpenAI",
-      "titulo_original": "Understanding card and device limits in ChatGPT - OpenAI Help Center",
-      "enlace": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOci15LW9Iam16M01GM194MXdnNTlmQTVLd1JpamoxeGhlbkJWeV9tbVBpOG04TVhZMlZNTkxYTGI1dEFhcDM4UGZ1ZGNSWURqSGQzZVRhT1p3dFdkOXJkMUJUMHQ1dUdzeFNhSmxVdTZ3NWx3VHdBbEhtbmp6MVpEamViRUVfTzZQRzhsUjBsbVpITHMtd3Qw?oc=5",
-      "fecha": "2026-10-31T17:42:18.000Z",
-      "resumen_corto": "Comprender los límites de tarjetas y dispositivos en ChatGPT OpenAI Centro de ayuda",
-      "resumen_largo": "Comprender los límites de tarjetas y dispositivos en ChatGPT OpenAI Centro de ayuda",
-      "texto_original": "Understanding card and device limits in ChatGPT OpenAI Help Center",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-11-01T20:21:03.245Z",
-        "index": 26,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "en",
-        "categoria": "inteligencia_artificial",
-        "categorias_secundarias": [
-          "vehiculos_energia",
-          "tecnologia"
-        ],
-        "category_scores": {
-          "inteligencia_artificial": 4,
-          "vehiculos_energia": 2,
-          "tecnologia": 2
-        },
-        "entidades": [
-          "OpenAI",
-          "ChatGPT"
-        ],
-        "cifras_detectadas": [],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 84,
-        "relevancia": 75,
-        "confiabilidad_fuente": 75,
-        "readability": {
-          "words": 45,
-          "sentences": 1,
-          "average_words_per_sentence": 45
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 78.15
-    },
-    {
-      "id": "5021b500fe593df1",
-      "fuente_id": "bbc_mundo",
-      "fuente_nombre": "BBC Mundo",
-      "tipo": "rss_web",
-      "subtipo": "medio_generalista",
-      "grupo_fuente": "bbc",
-      "nivel_fuente": "medio_profesional",
-      "categoria": "actualidad",
-      "idioma_original": "es",
-      "prioridad_fuente": 5,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "Trump asegura que Flávio Bolsonaro puede permanecer \"el tiempo que quiera\" en EE.UU.",
-      "titulo_original": "Trump asegura que Flávio Bolsonaro puede permanecer \"el tiempo que quiera\" en EE.UU.",
-      "enlace": "https://www.bbc.com/mundo/articles/cqg7x42xg9m8o?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-01T02:21:04.000Z",
-      "resumen_corto": "El presidente de Estados Unidos, Donald Trump, dijo que el senador brasileño Flávio Bolsonaro puede quedarse en Estados Unidos \"todo el tiempo que quiera\".",
-      "resumen_largo": "El presidente de Estados Unidos, Donald Trump, dijo que el senador brasileño Flávio Bolsonaro puede quedarse en Estados Unidos \"todo el tiempo que quiera\". En declaraciones a la prensa este sábado desde su club Mar-a-Lago en Palm Beach, en medio de una fiesta de celebración de Halloween, Trump declaró a periodistas que no tiene previsto reunirse con el excandidato presidencial, reportó la agencia de noticias Reuters. Bolsonaro huyó a Estados Unidos después de perder las elecciones presidenciales de su país frente al mandatario de izquierda Luiz Inácio Lula da Silva.",
-      "texto_original": "El presidente de Estados Unidos, Donald Trump, dijo que el senador brasileño Flávio Bolsonaro puede quedarse en Estados Unidos \"todo el tiempo que quiera\". En declaraciones a la prensa este sábado desde su club Mar-a-Lago en Palm Beach, en medio de una fiesta de celebración de Halloween, Trump declaró a periodistas que no tiene previsto reunirse con el excandidato presidencial, reportó la agencia de noticias Reuters. Bolsonaro huyó a Estados Unidos después de perder las elecciones presidenciales de su país frente al mandatario de izquierda Luiz Inácio Lula da Silva. Más temprano el sábado, el secretario de Estado, Marco Rubio, dijo que Estados Unidos no prestó ayuda alguna a Bolsonaro para salir de Brasil. El senador, derrotado en las elecciones presidenciales, aterrizó en un jet privado en Miami la mañana del miércoles 28 de octubre. Según Rubio, el presidente Trump tomó la decisión de conceder a Bolsonaro un \"parole\", una autorización para la entrada provisional en territorio estadounidense, diferente a los mecanismos migratorios convencionales de admisión en el país.",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-11-01T20:21:03.243Z",
-        "index": 23,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "es",
-        "categoria": "actualidad",
-        "categorias_secundarias": [
-          "inteligencia_artificial",
-          "vehiculos_energia",
-          "moviles"
-        ],
-        "category_scores": {
-          "actualidad": 3,
-          "inteligencia_artificial": 2,
-          "vehiculos_energia": 2,
-          "moviles": 1
-        },
-        "entidades": [],
-        "cifras_detectadas": [],
-        "content_type": "report",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 87,
-        "relevancia": 65,
-        "confiabilidad_fuente": 80,
-        "readability": {
-          "words": 223,
-          "sentences": 14,
-          "average_words_per_sentence": 15.93
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 76.45
-    },
-    {
       "id": "febc41bb2839f748",
       "fuente_id": "catl_google",
       "fuente_nombre": "CATL",
@@ -274,7 +127,7 @@
       "texto_original": "CATL Retains Top AAA Rating in PV Tech’s Battery Storage Bankability Rankings CATL",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-01T20:21:03.250Z",
+        "processed_at": "2026-11-02T00:24:46.820Z",
         "index": 40,
         "resumen": {
           "generado": true,
@@ -341,14 +194,14 @@
       "titulo": "Comprender los límites de uso de ChatGPT y Codex - Centro de ayuda de OpenAI",
       "titulo_original": "Understanding ChatGPT and Codex usage limits - OpenAI Help Center",
       "enlace": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNVXlabXh1MWFtTlJjbmJNZmZ1MlRfczh2RFIyT3ZOdDQxNDNtQUtfOF9keFdXMmtTZDFIN0xvenVELXNNYVdsQzZnT3Jud3phMTcxTVEtanVsRmJZeXJZYlI4RVRySkpwQmUxT3JjVGJUTlNQNDF0LXJiSkF2aDdBRzczbVhyVXlHNzNpZlp6UWpyQTg?oc=5",
-      "fecha": "2026-10-31T16:56:03.000Z",
+      "fecha": "2026-11-01T00:52:14.000Z",
       "resumen_corto": "Comprender los límites de uso de ChatGPT y Codex Centro de ayuda de OpenAI",
       "resumen_largo": "Comprender los límites de uso de ChatGPT y Codex Centro de ayuda de OpenAI",
       "texto_original": "Understanding ChatGPT and Codex usage limits OpenAI Help Center",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-01T20:21:03.245Z",
-        "index": 27,
+        "processed_at": "2026-11-02T00:24:46.814Z",
+        "index": 23,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -416,8 +269,8 @@
       "texto_original": "\"Cuando me pongo el delineador en mi apartamento de Brooklyn, tan lejos de casa, siento que me conecto con mi madre, mi abuela y con mujeres de todo Medio Oriente\", cuenta la periodista Zahra Hankir a BBC Global Women. En diciembre pasado, la Unesco, la agencia cultural de la ONU, reconoció la importancia del kohl árabe al incluirlo en su lista de Patrimonio Cultural Inmaterial de la Humanidad. El kohl, un pigmento oscuro que tradicionalmente se aplica alrededor de los ojos tanto en hombres como en mujeres, tiene raíces que se remontan miles de años, hasta las civilizaciones antiguas. Aunque se conoce como kohl en el mundo árabe, recibe distintos nombres en otras regiones: kajal en el sur de Asia, tiro en Nigeria y sormeh en Irán. Tradicionalmente se elaboraba a partir de antimonio, plomo u otros minerales; los productos modernos de kohl incluyen otros ingredientes. El cosmético ocupa un lugar especial para la escritora británico-libanesa Zahra Hankir, cuya familia se trasladó a Inglaterra desde el Líbano para escapar de la guerra civil de 1975.",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-01T20:21:03.238Z",
-        "index": 15,
+        "processed_at": "2026-11-02T00:24:46.812Z",
+        "index": 18,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -493,8 +346,8 @@
       "texto_original": "Fair use benefits everyone OpenAI",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-01T20:21:03.249Z",
-        "index": 35,
+        "processed_at": "2026-11-02T00:24:46.818Z",
+        "index": 33,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -564,8 +417,8 @@
       "texto_original": "GPT-Rosalind-6 System Card Addendum OpenAI",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-01T20:21:03.249Z",
-        "index": 36,
+        "processed_at": "2026-11-02T00:24:46.818Z",
+        "index": 34,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -614,29 +467,29 @@
       "final_score": 72.95
     },
     {
-      "id": "4e16f4fccddc7eb3",
-      "fuente_id": "techinsights_google",
-      "fuente_nombre": "TechInsights",
+      "id": "2c490eb723906fcf",
+      "fuente_id": "openai_google",
+      "fuente_nombre": "OpenAI",
       "tipo": "rss_web",
       "subtipo": "google_news",
-      "grupo_fuente": "techinsights",
-      "nivel_fuente": "especializada_tecnica",
-      "categoria": "semiconductores",
+      "grupo_fuente": "openai",
+      "nivel_fuente": "fuente_oficial",
+      "categoria": "inteligencia_artificial",
       "idioma_original": "en",
       "prioridad_fuente": 5,
       "analizar": true,
       "resumir": true,
-      "titulo": "Serie de seminarios web Outlook 2027: IA, embalaje, fabricación y sostenibilidad",
-      "titulo_original": "2027 Outlook Webinar Series: AI, Packaging, Manufacturing & Sustainability - TechInsights",
-      "enlace": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFAtQ0dUaFQyTmloNVJEQ3hXdXRZb0QtQVNVRUJrc1NJSnBMTTcwd3lMU2hsV3VPc1dHR2k0bXhRbld4LVlGUkJOY3NqLTd0UGJ4M1VzWmJVZWczb3FSUUNsYlVBYmxxWGc?oc=5",
-      "fecha": "2026-10-23T18:57:07.000Z",
-      "resumen_corto": "Serie de seminarios web Outlook 2027: IA, embalaje, fabricación y sostenibilidad TechInsights",
-      "resumen_largo": "Serie de seminarios web Outlook 2027: IA, embalaje, fabricación y sostenibilidad TechInsights",
-      "texto_original": "2027 Outlook Webinar Series: AI, Packaging, Manufacturing & Sustainability TechInsights",
+      "titulo": "Facilitar que los sitios web expresen sus preferencias de formación en IA",
+      "titulo_original": "Making it easier for websites to express AI training preferences - OpenAI",
+      "enlace": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5FcXc5N3BLX3dyMm5VMW1ZUy1nanQzUGk1ajB1dU5CWnBuX05ndXpvX1MySVVoRFRmU3pVZjNlTjZVRERBcTloTUNjaXl5b3JSc1M5Tm55V2d2b3JMd0NNdm52TUpLWE9BaGtHSWs1R1VxUWVTMVFTMElPVnBDQWM?oc=5",
+      "fecha": "2026-10-30T16:43:02.000Z",
+      "resumen_corto": "Facilitar que los sitios web expresen sus preferencias de formación en IA OpenAI",
+      "resumen_largo": "Facilitar que los sitios web expresen sus preferencias de formación en IA OpenAI",
+      "texto_original": "Making it easier for websites to express AI training preferences OpenAI",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-01T20:21:03.251Z",
-        "index": 42,
+        "processed_at": "2026-11-02T00:24:46.818Z",
+        "index": 35,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -645,23 +498,18 @@
         "idioma_original": "en",
         "categoria": "inteligencia_artificial",
         "categorias_secundarias": [
-          "semiconductores",
           "moviles",
           "software_internet"
         ],
         "category_scores": {
-          "inteligencia_artificial": 2,
-          "semiconductores": 1,
+          "inteligencia_artificial": 3,
           "moviles": 1,
-          "software_internet": 1,
-          "tecnologia": 1
+          "software_internet": 1
         },
         "entidades": [
-          "TechInsights"
+          "OpenAI"
         ],
-        "cifras_detectadas": [
-          "2027"
-        ],
+        "cifras_detectadas": [],
         "content_type": "news",
         "clickbait": {
           "detected": false,
@@ -674,13 +522,13 @@
           "signals": [],
           "url_count": 0
         },
-        "calidad": 89,
+        "calidad": 84,
         "relevancia": 62,
-        "confiabilidad_fuente": 65,
+        "confiabilidad_fuente": 75,
         "readability": {
-          "words": 42,
+          "words": 45,
           "sentences": 1,
-          "average_words_per_sentence": 42
+          "average_words_per_sentence": 45
         },
         "duplicate": {
           "detected": false,
@@ -689,7 +537,146 @@
           "similar_to": null
         }
       },
-      "final_score": 72.2
+      "final_score": 72.95
+    },
+    {
+      "id": "786be480eb8847ee",
+      "fuente_id": "xataka_google",
+      "fuente_nombre": "Xataka",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "xataka",
+      "nivel_fuente": "medio_especializado",
+      "categoria": "tecnologia",
+      "idioma_original": "es",
+      "prioridad_fuente": 4,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "La Luna tendrá su propio superordenador: procesar datos en la Tierra no es una opción",
+      "titulo_original": "La Luna tendrá su propio superordenador: procesar datos en la Tierra no es una opción - Xataka",
+      "enlace": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQeUtVTHlXbFp5Qkc1aWtZT1VVT2NaM3dFNWFGTkExNldwYmtIMGtaSV9MQjdVYTJvV1VTVm5NRHBVekFCa2Rzc2dwNnhFWFltRjIxdHpkWGdnQnRCcGMtckkyNy0yQnpuajVtclEzS3J6NjZiOUNYamdkVEZnOE1wNGlYRHlGSTV1OWhMY0V5RFk5U3VXQlA2eV9oMi1XRGJq0gGmAUFVX3lxTFBOT2dtRzJZN3F5UEhiT2tXUDNfX2NhU0thbi1GYnh6T2hRX3c2amtsQ2hpZWtNSHVfd2FVNmVwNTdIYnJYUDhGdDlsRlk5QU5tenZKMVRSTDJSTHdkdUo3dFQ5djZkbVQxZFdoQkZ0TlROYnlOU2dYQ0R0UDhQYURwYllGMTJPZ29rMUFSNnVEWER1ZGtVTzFMU25QSFY4SHFNY3BMeHc?oc=5",
+      "fecha": "2026-11-01T20:01:27.000Z",
+      "resumen_corto": "La Luna tendrá su propio superordenador: procesar datos en la Tierra no es una opción Xataka",
+      "resumen_largo": "La Luna tendrá su propio superordenador: procesar datos en la Tierra no es una opción Xataka",
+      "texto_original": "La Luna tendrá su propio superordenador: procesar datos en la Tierra no es una opción Xataka",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-11-02T00:24:46.801Z",
+        "index": 1,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "hardware",
+        "categorias_secundarias": [],
+        "category_scores": {
+          "hardware": 1
+        },
+        "entidades": [
+          "Xataka"
+        ],
+        "cifras_detectadas": [],
+        "content_type": "report",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 90,
+        "relevancia": 63,
+        "confiabilidad_fuente": 60,
+        "readability": {
+          "words": 49,
+          "sentences": 1,
+          "average_words_per_sentence": 49
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 71.7
+    },
+    {
+      "id": "e6536f17d56c8a04",
+      "fuente_id": "techinsights_google",
+      "fuente_nombre": "TechInsights",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "techinsights",
+      "nivel_fuente": "especializada_tecnica",
+      "categoria": "semiconductores",
+      "idioma_original": "en",
+      "prioridad_fuente": 5,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "TechInsights adquiere Strategy Analytics para ampliar aún más sus capacidades en el análisis del mercado de microelectrónica",
+      "titulo_original": "TechInsights Acquires Strategy Analytics to Further Expand its Capabilities in Microelectronics Market Analysis - TechInsights",
+      "enlace": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPZDNQTEZYRFZtRTNRWS1DN2JTQ21zZWNKNkEzOG0zRFN4RDlDWE55ZDgxeHRPckl2SHJ0OUVlcml3Rk04OUszNzBWNTh1QXdiUF9mSkxTd2drc3hLVHV6TEg1TWJ0TzE2QUJha3hvdXpCdGdHZjFWZDlac1BsMHZKREVpVVp0aU0?oc=5",
+      "fecha": "2026-10-23T18:57:07.000Z",
+      "resumen_corto": "TechInsights adquiere Strategy Analytics para ampliar aún más sus capacidades en análisis de mercado de microelectrónica TechInsights",
+      "resumen_largo": "TechInsights adquiere Strategy Analytics para ampliar aún más sus capacidades en análisis de mercado de microelectrónica TechInsights",
+      "texto_original": "TechInsights Acquires Strategy Analytics to Further Expand its Capabilities in Microelectronics Market Analysis TechInsights",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-11-02T00:24:46.820Z",
+        "index": 41,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "en",
+        "categoria": "tecnologia",
+        "categorias_secundarias": [
+          "inteligencia_artificial"
+        ],
+        "category_scores": {
+          "tecnologia": 4,
+          "inteligencia_artificial": 1
+        },
+        "entidades": [
+          "TechInsights"
+        ],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 84,
+        "relevancia": 62,
+        "confiabilidad_fuente": 65,
+        "readability": {
+          "words": 66,
+          "sentences": 1,
+          "average_words_per_sentence": 66
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 70.45
     },
     {
       "id": "01076295807418d5",
@@ -713,8 +700,8 @@
       "texto_original": "China’s Iluvatar CoreX Claims Its Tiangai 300 GPU Beats NVIDIA’s H200 In Its Own Live Demo, But The Only Outside Test Shows Just A 5% Lead Wccftech",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-01T20:21:03.246Z",
-        "index": 28,
+        "processed_at": "2026-11-02T00:24:46.815Z",
+        "index": 25,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -792,8 +779,8 @@
       "texto_original": "New NVIDIA UEFI GPU Unlocker Brings Up To 75% Higher AI Compute Performance To RTX 20, 30 & 40 Series GPUs On Windows Wccftech",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-01T20:21:03.246Z",
-        "index": 29,
+        "processed_at": "2026-11-02T00:24:46.815Z",
+        "index": 26,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -872,7 +859,7 @@
       "texto_original": "AI Infrastructure: Outlook for 2027 TechInsights",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-01T20:21:03.250Z",
+        "processed_at": "2026-11-02T00:24:46.819Z",
         "index": 39,
         "resumen": {
           "generado": true,
@@ -924,79 +911,6 @@
       "final_score": 69.4
     },
     {
-      "id": "fc9b539fa53b87c4",
-      "fuente_id": "techinsights_google",
-      "fuente_nombre": "TechInsights",
-      "tipo": "rss_web",
-      "subtipo": "google_news",
-      "grupo_fuente": "techinsights",
-      "nivel_fuente": "especializada_tecnica",
-      "categoria": "semiconductores",
-      "idioma_original": "en",
-      "prioridad_fuente": 5,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "TechInsights Outlook 2027: cinco tendencias que están remodelando el mercado",
-      "titulo_original": "TechInsights Outlook 2027: Five Trends Reshaping the Market - TechInsights",
-      "enlace": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5fc0RYUE5sRmR3ZVQ2YmRKT2JJeTJYMG1FemJpYmxQZC1QcWNHcmdpTzFLSmlHYXg2T1ZnUHYtdWM2Z1NsNHEwNjNGRzFrY2FKWWVtcjlQWkpFWWNhcC1JY21YMA?oc=5",
-      "fecha": "2026-10-23T18:57:07.000Z",
-      "resumen_corto": "TechInsights Outlook 2027: cinco tendencias que están remodelando el mercado TechInsights",
-      "resumen_largo": "TechInsights Outlook 2027: cinco tendencias que están remodelando el mercado TechInsights",
-      "texto_original": "TechInsights Outlook 2027: Five Trends Reshaping the Market TechInsights",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-11-01T20:21:03.251Z",
-        "index": 41,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "en",
-        "categoria": "inteligencia_artificial",
-        "categorias_secundarias": [
-          "tecnologia"
-        ],
-        "category_scores": {
-          "inteligencia_artificial": 1,
-          "tecnologia": 1
-        },
-        "entidades": [
-          "TechInsights"
-        ],
-        "cifras_detectadas": [
-          "2027"
-        ],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 89,
-        "relevancia": 55,
-        "confiabilidad_fuente": 65,
-        "readability": {
-          "words": 47,
-          "sentences": 1,
-          "average_words_per_sentence": 47
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 69.4
-    },
-    {
       "id": "873db9ed9bda0787",
       "fuente_id": "bbc_mundo",
       "fuente_nombre": "BBC Mundo",
@@ -1018,7 +932,7 @@
       "texto_original": "España, Italia, Francia, Albania, Portugal... Una oleada de protestas llena Europa. BBC Mundo entrevistó a la experta Yanina Welp para entender qué hay detrás de estos movimientos.",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-01T20:21:03.242Z",
+        "processed_at": "2026-11-02T00:24:46.814Z",
         "index": 22,
         "resumen": {
           "generado": true,
@@ -1089,8 +1003,8 @@
       "texto_original": "Un estudio de la UPV desvela la geometría exacta del Santo Cáliz de Valencia mediante tecnología 3D El Debate",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-01T20:21:03.225Z",
-        "index": 3,
+        "processed_at": "2026-11-02T00:24:46.808Z",
+        "index": 11,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -1137,55 +1051,43 @@
       "final_score": 68
     },
     {
-      "id": "40f8122c10a11e00",
-      "fuente_id": "wccftech_google",
-      "fuente_nombre": "Wccftech",
+      "id": "3d0342dff0489893",
+      "fuente_id": "bbc_mundo",
+      "fuente_nombre": "BBC Mundo",
       "tipo": "rss_web",
-      "subtipo": "google_news",
-      "grupo_fuente": "wccftech",
-      "nivel_fuente": "medio_especializado",
-      "categoria": "hardware",
-      "idioma_original": "en",
-      "prioridad_fuente": 4,
+      "subtipo": "medio_generalista",
+      "grupo_fuente": "bbc",
+      "nivel_fuente": "medio_profesional",
+      "categoria": "actualidad",
+      "idioma_original": "es",
+      "prioridad_fuente": 5,
       "analizar": true,
       "resumir": true,
-      "titulo": "G.Skill 32 GB DDR5 ahora cuesta $ 156 cuando se compra con el paquete de placa base Ryzen 9850X3D y B850",
-      "titulo_original": "G.Skill 32 GB DDR5 Now Costs $156 When Purchased With Ryzen 9850X3D And B850 Motherboard Bundle - Wccftech",
-      "enlace": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQQUNvZl9pLXp0bXhYWjA5aW9JaHNsYlhCSkRHZUlGUFBjVTZaRnhrcl9RdktxZ2NVSFVJQ2NHUEp1V1QyNGh1UXJSNU9fSEhpWEUyNG4zY0RTRnZNM2xJWFJrdUZnSkIyNVg1STFMWVlNaHRhWDZGX1ppOTZUMXFkOGtILVRQRVBNcEYwLUlENjFSalV1b1lqcVZCZXgzV3lxUEpqcHQyZGN1M2hrc2w4NDB2cWVIaTA?oc=5",
-      "fecha": "2026-11-01T17:46:03.000Z",
-      "resumen_corto": "G.Skill 32 GB DDR5 ahora cuesta $ 156 cuando se compra con el paquete de placa base Ryzen 9850X3D y B850 Wccftech",
-      "resumen_largo": "G.Skill 32 GB DDR5 ahora cuesta $ 156 cuando se compra con el paquete de placa base Ryzen 9850X3D y B850 Wccftech",
-      "texto_original": "G.Skill 32 GB DDR5 Now Costs $156 When Purchased With Ryzen 9850X3D And B850 Motherboard Bundle Wccftech",
+      "titulo": "\"Era como si cayera un misil\": 9 muertos al estrellarse un avión privado en un vecindario de Florida",
+      "titulo_original": "\"Era como si cayera un misil\": 9 muertos al estrellarse un avión privado en un vecindario de Florida",
+      "enlace": "https://www.bbc.com/mundo/articles/c61m4yyjyrrxo?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-11-02T00:01:15.000Z",
+      "resumen_corto": "La aeronave privada se estrelló en el condado de Palm Beach, Florida.",
+      "resumen_largo": "La aeronave privada se estrelló en el condado de Palm Beach, Florida. Imágenes captadas por los residentes mostraban al jet cayendo a gran velocidad antes de estrellarse.",
+      "texto_original": "La aeronave privada se estrelló en el condado de Palm Beach, Florida. Imágenes captadas por los residentes mostraban al jet cayendo a gran velocidad antes de estrellarse.",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-01T20:21:03.224Z",
-        "index": 2,
+        "processed_at": "2026-11-02T00:24:46.799Z",
+        "index": 0,
         "resumen": {
           "generado": true,
           "origen": "translated"
         },
         "idioma_detectado": "es",
-        "idioma_original": "en",
-        "categoria": "hardware",
-        "categorias_secundarias": [
-          "semiconductores",
-          "tecnologia"
-        ],
+        "idioma_original": "es",
+        "categoria": "militar",
+        "categorias_secundarias": [],
         "category_scores": {
-          "hardware": 4,
-          "semiconductores": 1,
-          "tecnologia": 1
+          "militar": 1
         },
-        "entidades": [
-          "Wccftech"
-        ],
+        "entidades": [],
         "cifras_detectadas": [
-          "32 GB",
-          "$ 156",
-          "9850",
-          "$156",
-          "850 M",
-          "850 W"
+          "9 m"
         ],
         "content_type": "news",
         "clickbait": {
@@ -1195,17 +1097,17 @@
         },
         "spam": {
           "detected": false,
-          "score": 25,
+          "score": 0,
           "signals": [],
           "url_count": 0
         },
-        "calidad": 87,
-        "relevancia": 62,
-        "confiabilidad_fuente": 50,
+        "calidad": 84,
+        "relevancia": 50,
+        "confiabilidad_fuente": 70,
         "readability": {
-          "words": 74,
-          "sentences": 6,
-          "average_words_per_sentence": 12.33
+          "words": 65,
+          "sentences": 5,
+          "average_words_per_sentence": 13
         },
         "duplicate": {
           "detected": false,
@@ -1214,7 +1116,7 @@
           "similar_to": null
         }
       },
-      "final_score": 67.75
+      "final_score": 66.9
     },
     {
       "id": "108073b162b831fc",
@@ -1238,8 +1140,8 @@
       "texto_original": "Huawei Mate 100 series Kirin chipset may bring massive yield improvement Huawei Central",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-01T20:21:03.247Z",
-        "index": 31,
+        "processed_at": "2026-11-02T00:24:46.816Z",
+        "index": 28,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -1309,8 +1211,8 @@
       "texto_original": "Huawei reveals HarmonyOS 7 upgrade progress, confirms more devices Huawei Central",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-01T20:21:03.248Z",
-        "index": 32,
+        "processed_at": "2026-11-02T00:24:46.816Z",
+        "index": 29,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -1382,8 +1284,8 @@
       "texto_original": "Huawei smartwatches receiving long-overdue AppGallery makeover Huawei Central",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-01T20:21:03.249Z",
-        "index": 37,
+        "processed_at": "2026-11-02T00:24:46.819Z",
+        "index": 36,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -1453,8 +1355,8 @@
       "texto_original": "Huawei Pura 90 Plus sale kicks off with a 1-inch camera, Kirin 9025 and HarmonyOS 7 Huawei Central",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-01T20:21:03.248Z",
-        "index": 34,
+        "processed_at": "2026-11-02T00:24:46.817Z",
+        "index": 31,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -1523,8 +1425,8 @@
       "texto_original": "David McBride pasó años buscando a su madre tras ser abandonado cuando era un bebé. En su lugar, encontró a una hermana y un hermano.",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-01T20:21:03.235Z",
-        "index": 11,
+        "processed_at": "2026-11-02T00:24:46.810Z",
+        "index": 15,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -1568,7 +1470,7 @@
       "final_score": 65.15
     },
     {
-      "id": "036e4b81ffc3a15b",
+      "id": "d84535f040529b24",
       "fuente_id": "xataka_google",
       "fuente_nombre": "Xataka",
       "tipo": "rss_web",
@@ -1580,17 +1482,17 @@
       "prioridad_fuente": 4,
       "analizar": true,
       "resumir": true,
-      "titulo": "El negocio que Anthropic promete a sus inversores vale 40 billones. Es lo que cobramos quienes hacemos lo que quiere hacer su IA",
-      "titulo_original": "El negocio que Anthropic promete a sus inversores vale 40 billones. Es lo que cobramos quienes hacemos lo que quiere hacer su IA - Xataka",
-      "enlace": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNeXNmVWRidHlHOVhvQ3NQR3JWc2lyLVJtc2tocTZJcFBrMjdWS3dKanVram1zanZNSWtvVl9Ma3pjcUJhX3FienEwRFJjaWNDQVN3aWhxN3c5aC1MS1VCanlhbzZKQkpsLW9Pdy1iUll4SnJWTFg2cHkwT0FRdl8tS2hkS2VZSTRRWFNabUU4YmNOOFB4TmNqVXpHZW1Yb2JfODAySTh2UGpmTnJxbGhBdDEtVzN0bUl3RmhMelF1WGVoU0RCQWROS2NlY0dSb0tHSFI0RHVHRnFHVi03VWZWR3oxbXo0WnPSAewBQVVfeXFMTlZVaDk0cmc5R2IzOHRVc01Ycl9DNzduYlVMZDd3MU0wVkFMVTNXTWllbmlIRkJxQVpLVF9CR3RwbXdjS28xLUFuUUE0eXZXc0hRemwyRm91U0UzT2dlRVVscURYOHBrcG1RQzhzTll6NkFQZjJob0toQzk5eDhHekQ0RzdVWFJuenA3N2NKWXVsV2kzMHp6T0EwTENULV9IV0RxR2ljQ0FiTGhjN3dyWkpndU9vRU5aeVNwbktvOU85VjFtNndHTDQ4RlFLZl9adW9fUXRTNElldnhCWUR5QnpJOW5NSktzYUFkQk8?oc=5",
-      "fecha": "2026-11-01T10:01:31.000Z",
-      "resumen_corto": "El negocio que Anthropic promete a sus inversores vale 40 billones.",
-      "resumen_largo": "El negocio que Anthropic promete a sus inversores vale 40 billones. Es lo que cobramos quienes hacemos lo que quiere hacer su IA Xataka",
-      "texto_original": "El negocio que Anthropic promete a sus inversores vale 40 billones. Es lo que cobramos quienes hacemos lo que quiere hacer su IA Xataka",
+      "titulo": "Hace casi mil años en un lago italiano sucedió algo impensable: dos tsunamis. Ahora sabemos quién lo provocó",
+      "titulo_original": "Hace casi mil años en un lago italiano sucedió algo impensable: dos tsunamis. Ahora sabemos quién lo provocó - Xataka",
+      "enlace": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPam5ZRFYtdC1Pa1AwNjVqNmk0WFVRU2F6UjBrMWZPRFhSYUYxS01ZRzNfcnFmNFd6VEhoR05ObGpJWk5rWWZ3bmZkdjA1U01WYS1mLWJ6Vno3TlJEWk10ZkN6WEJiTEZvMVNNYW9iSFQwTWFERE9JNE1ZbFdtN3VDNFhKVGgxUlFCcVNpRFJNTTNJWDlVcXpPczRzLXpQZ19vb1dPQ2pxSmFsUGdSeEdlQkNFX3lqMFBSR0FHZDBtMDVCaHFNOUZBeWNkTmZ4VWtta3l3a2VoU0pDQdIB3wFBVV95cUxPazVObGppQW9YOF80Q1d6anJ5RHNSWXRZM2FGcktTLUZ1WHlYcDNkQjlJMW43dzNBaVRyQjVjQjE3NHJ3Z3hLbUNCRFlLc3ZUQnVjSlJoUU1tRTZWbDdkVWF0LU9HN0RybWNyZERmQVdEcF9UTVJPSUNmZEg3Qk5sbUticnNJb1JkbTB1TnY0elZTS0ZaUFdoUDJiczNzaTduN2xzN082NmVJaDM3UHhGemU2NTdDQ3J0cF9IYnV3ajRaZENPWS0yVHRGaXVKeU9HWFVSUXR2WWtnVGdiNy1Z?oc=5",
+      "fecha": "2026-11-01T19:01:27.000Z",
+      "resumen_corto": "Hace casi mil años en un lago italiano sucedió algo impensable: dos tsunamis.",
+      "resumen_largo": "Hace casi mil años en un lago italiano sucedió algo impensable: dos tsunamis. Ahora sabemos quién lo provocó Xataka",
+      "texto_original": "Hace casi mil años en un lago italiano sucedió algo impensable: dos tsunamis. Ahora sabemos quién lo provocó Xataka",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-01T20:21:03.236Z",
-        "index": 14,
+        "processed_at": "2026-11-02T00:24:46.802Z",
+        "index": 2,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -1598,156 +1500,9 @@
         "idioma_detectado": "es",
         "idioma_original": "es",
         "categoria": "inteligencia_artificial",
-        "categorias_secundarias": [
-          "hardware"
-        ],
+        "categorias_secundarias": [],
         "category_scores": {
-          "inteligencia_artificial": 2,
-          "hardware": 1
-        },
-        "entidades": [
-          "Xataka"
-        ],
-        "cifras_detectadas": [
-          "40 b"
-        ],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 87,
-        "relevancia": 55,
-        "confiabilidad_fuente": 50,
-        "readability": {
-          "words": 71,
-          "sentences": 6,
-          "average_words_per_sentence": 11.83
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 64.95
-    },
-    {
-      "id": "8c42eeba1de85e3a",
-      "fuente_id": "google_news_es",
-      "fuente_nombre": "Google News ES",
-      "tipo": "rss_web",
-      "subtipo": "google_news",
-      "grupo_fuente": "google_news",
-      "nivel_fuente": "agregador",
-      "categoria": "tecnologia",
-      "idioma_original": "es",
-      "prioridad_fuente": 3,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "Teles por menos de 80 euros, los Galaxy Buds4 Pro a mínimo histórico y más: AliExpress sigue con muchas ofertas top en tecnología - Xataka",
-      "titulo_original": "Teles por menos de 80 euros, los Galaxy Buds4 Pro a mínimo histórico y más: AliExpress sigue con muchas ofertas top en tecnología - Xataka",
-      "enlace": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNdW5oS0h4Vll6SzlCX1QzaF9COXJjSTFUT0lJNENTdGlvdDhld3F3bVRKRXBuNXRFa1ZJLWFBdnBrbTBuNkVraG5TQ0E1cE01dlR1WjhSZHY5cWZjZ1NNcmtHUUgyWUZ6LWNybWtnSE9qblBkN1NxU1JSMnh4NG5Dd21BbnJLRnRMZWdza2oyS19YdjRaa0NiOXBORzBjVTNVNzdoTlFFSEVTRDNycFlmdXctb202OWtNbDRCZU54eElUUXRGS2g0Qm1R0gHPAUFVX3lxTFAtOGNkMHEwRXFNM2YwOEJ1Z0JMa0FoTW9UR1pDdlFRNFloOHVodkxCaEo2dzc1LUIxMjIxdGpFeWNUTlMwYUFnOWtuZUt3ZTNPZlB2Mm5sR1VVbXBObVliSjB1YzY5VmVVSWRuTlJIeVhJbHZpUFR2WS1EOTdQaGpVek1LdmJRTjlJdG1feDhzeUtjWnd1MXVWT210ZTE0VjVWREpMU0RFYlU0RElOQ182emdNaHcyeHlQSzdnWl9vbWt4SU9nYndMREJBX2pmcw?oc=5",
-      "fecha": "2026-11-01T14:15:27.000Z",
-      "resumen_corto": "Teles por menos de 80 euros, los Galaxy Buds4 Pro a mínimo histórico y más: AliExpress sigue con muchas ofertas top en tecnología Xataka",
-      "resumen_largo": "Teles por menos de 80 euros, los Galaxy Buds4 Pro a mínimo histórico y más: AliExpress sigue con muchas ofertas top en tecnología Xataka",
-      "texto_original": "Teles por menos de 80 euros, los Galaxy Buds4 Pro a mínimo histórico y más: AliExpress sigue con muchas ofertas top en tecnología Xataka",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-11-01T20:21:03.232Z",
-        "index": 8,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "es",
-        "categoria": "tecnologia",
-        "categorias_secundarias": [
-          "inteligencia_artificial"
-        ],
-        "category_scores": {
-          "tecnologia": 2,
           "inteligencia_artificial": 1
-        },
-        "entidades": [
-          "Xataka"
-        ],
-        "cifras_detectadas": [],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 80,
-        "relevancia": 55,
-        "confiabilidad_fuente": 53,
-        "readability": {
-          "words": 95,
-          "sentences": 1,
-          "average_words_per_sentence": 95
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 63.25
-    },
-    {
-      "id": "5d3f029e503fdba8",
-      "fuente_id": "xataka_google",
-      "fuente_nombre": "Xataka",
-      "tipo": "rss_web",
-      "subtipo": "google_news",
-      "grupo_fuente": "xataka",
-      "nivel_fuente": "medio_especializado",
-      "categoria": "tecnologia",
-      "idioma_original": "es",
-      "prioridad_fuente": 4,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "Un nuevo aceite enriquecido promete frenar el daño renal en diabéticos: por qué es una buena noticia y por qué no sirve tu aceite del supermercado",
-      "titulo_original": "Un nuevo aceite enriquecido promete frenar el daño renal en diabéticos: por qué es una buena noticia y por qué no sirve tu aceite del supermercado - Xataka",
-      "enlace": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPblBFand6WGQ5SlJaVmxRd2ZwMWFjTGllWWdXaEozdGRRUXE2Mm5TY0I0WGE0TnBXWkRvXzF2WUNNUm5zeFNxSFRnT0wwV0dkNFAyS05ieHg0aC1sMjVLd1RuaVFmaWdoT3dGMkRfQTJVR1o2V0pFVDkyVkstUllBMThhVDMySzh4N3Q0MjUwc0I2U1ktUUpqSnFva2V6M0pxa0xWZE5pVlRraFg2TDFTSmMtdWFOdldOSVBHS2l2M0lvNEZGbnVCbXNIcjVwTmpTV04wQlZnMmhaM0U1NWtVamk3d1Z3SVg1Y2930gHwAUFVX3lxTE9NSm1aMEU1dktYNHZmSkpnRGhPcjZMX1J0bXFwUV9tYVhTcDI0SmFPU0FGbkZkVkdCaVhWazZGSk9iam9iMHN3TTB6eVJjbnJjdm5oMkg5cWpETGdlUThFREFBT0Z6dHdzTV93bkUyOWR4UnhqQm5jYklzT1VqUGhUSG5jY010a1dPZ0ZGUUFDa0VWODBGM0M1U2dhWXpobjdZMVlWMGEzaUhlMFlScDhsNUZBQTZ1M1ZtNHl3c0Fjd0VBUXRQaER2em9KMEdKUVVpd3JjVGFJQ0lQRzF0VEFfWEFHNjREOG1lOG1UY1I5RA?oc=5",
-      "fecha": "2026-11-01T10:31:30.000Z",
-      "resumen_corto": "Un nuevo aceite enriquecido promete frenar el daño renal en diabéticos: por qué es una buena noticia y por qué no sirve tu aceite del supermercado Xataka",
-      "resumen_largo": "Un nuevo aceite enriquecido promete frenar el daño renal en diabéticos: por qué es una buena noticia y por qué no sirve tu aceite del supermercado Xataka",
-      "texto_original": "Un nuevo aceite enriquecido promete frenar el daño renal en diabéticos: por qué es una buena noticia y por qué no sirve tu aceite del supermercado Xataka",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-11-01T20:21:03.236Z",
-        "index": 13,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "es",
-        "categoria": "inteligencia_artificial",
-        "categorias_secundarias": [
-          "vehiculos_energia"
-        ],
-        "category_scores": {
-          "inteligencia_artificial": 1,
-          "vehiculos_energia": 1
         },
         "entidades": [
           "Xataka"
@@ -1769,9 +1524,80 @@
         "relevancia": 55,
         "confiabilidad_fuente": 50,
         "readability": {
-          "words": 99,
-          "sentences": 1,
-          "average_words_per_sentence": 99
+          "words": 74,
+          "sentences": 6,
+          "average_words_per_sentence": 12.33
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 63.2
+    },
+    {
+      "id": "5a36d84fa934c55c",
+      "fuente_id": "xataka_google",
+      "fuente_nombre": "Xataka",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "xataka",
+      "nivel_fuente": "medio_especializado",
+      "categoria": "tecnologia",
+      "idioma_original": "es",
+      "prioridad_fuente": 4,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Han atrapado una única partícula de antimateria durante meses. Si logran su objetivo, será \"el mayor descubrimiento del siglo\"",
+      "titulo_original": "Han atrapado una única partícula de antimateria durante meses. Si logran su objetivo, será \"el mayor descubrimiento del siglo\" - Xataka",
+      "enlace": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQOXdVNmduZFNYV24yUG9MUnFJbjd1MGlMbmFSUGp1dEI0emtuMVBmWTNlTHdla2xQN1Z6dVdDa1Y4dzl2eVhtN29DdkFsdjVUck1ja0p2TE14UG5BcEljQlhRWVhwcGlEMDhmU0ZQaFE1SEc2dW9EaUp5N2tXZzFYZ1FiM2MycklzbHhfODFxem5vQ0paZVhSd1FmcUF6UjFwc2RVNVBXaU15T1gxNE1wZjRhbUtjQm9HNi1hUFM3UVVha3UxT1A1d01WaHQwT19TYTJjNVRkRFhpd9IB3wFBVV95cUxNZXN2WXhVWDVHb2c2UlZwU3hsNlEyanY1RTBZUnN6UWxRX1dUN21nQkxXR1hIM0p6TXJhaW93WjYzTHU1ekFmdE41ZXU0LWRXQXB1elJoTGtxR3g5T2VCZkhGTjV2eVdBRjZpdWRJTVowWTFJZ1pObEU2NWxtQy1pSFdKTS1vcUJMUm5Zem92aV9BX09BdVJPWWZtMVIxeU9odEl0NjFCM3IyUXJ6eVFDY2tTR3JudmN3cGwwYXZvSVJOSG11NWQ2TE82TF9hb3ZxcjZDRW9ma2ZJUG0tNnZr?oc=5",
+      "fecha": "2026-11-01T18:01:27.000Z",
+      "resumen_corto": "Si logran su objetivo, será \"el mayor descubrimiento del siglo\" Xataka",
+      "resumen_largo": "Han atrapado una única partícula de antimateria durante meses. Si logran su objetivo, será \"el mayor descubrimiento del siglo\" Xataka",
+      "texto_original": "Han atrapado una única partícula de antimateria durante meses. Si logran su objetivo, será \"el mayor descubrimiento del siglo\" Xataka",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-11-02T00:24:46.804Z",
+        "index": 4,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "inteligencia_artificial",
+        "categorias_secundarias": [
+          "moviles"
+        ],
+        "category_scores": {
+          "inteligencia_artificial": 1,
+          "moviles": 1
+        },
+        "entidades": [
+          "Xataka"
+        ],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 82,
+        "relevancia": 55,
+        "confiabilidad_fuente": 50,
+        "readability": {
+          "words": 71,
+          "sentences": 5,
+          "average_words_per_sentence": 14.2
         },
         "duplicate": {
           "detected": false,
@@ -1804,8 +1630,8 @@
       "texto_original": "Los bancos comunitarios demandan al regulador de EE. UU. por las licencias de empresas de criptomonedas Genbeta",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-01T20:21:03.239Z",
-        "index": 18,
+        "processed_at": "2026-11-02T00:24:46.813Z",
+        "index": 21,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -1854,142 +1680,6 @@
       "final_score": 63.2
     },
     {
-      "id": "23e664b310915328",
-      "fuente_id": "xataka_google",
-      "fuente_nombre": "Xataka",
-      "tipo": "rss_web",
-      "subtipo": "google_news",
-      "grupo_fuente": "xataka",
-      "nivel_fuente": "medio_especializado",
-      "categoria": "tecnologia",
-      "idioma_original": "es",
-      "prioridad_fuente": 4,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "Los romanos hacían vidrio que cambia de color hace 1.600 años. Ahora, por fin, alguien ha conseguido repetirlo",
-      "titulo_original": "Los romanos hacían vidrio que cambia de color hace 1.600 años. Ahora, por fin, alguien ha conseguido repetirlo - Xataka",
-      "enlace": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOeDZxcjBoZzlYNDNoR3JuR0I2eTZpWHIxNEtiNjh0ZVlaSVlXdTBLS0RRc0oxZW9mZHd1eHFHR3d3R3p6T2ZWdHdwN1hlbC02bi1LN0wtSXh6dG1ROVlzMjFPZ0IwekkyT0d2cHBPRER5dXVjakhfR1JFbHZsVUR4Q0t5RWVoQld5R3l6Y2lNd0pwRTctSXdDcWFJNlA3LWYxaHY4QWlBSk5JeERlU1p1RXNPRWZVc1FyTTBtMnNzN2hfbUJ60gHKAUFVX3lxTE1WaWp5MHFLX0gtOEVpam51OTBwRkUwemttLVJES3BrUlZtcUdnR1ZSTFg5bEQ2OVRqR3NtdHpUOUxiRXFyVWhteV9zNEwxWjF2V2txQW1xTWxtelVIVnpCd1QxanF4YUN4am1xYlRUS1NheHdIN3ZIM1JPZndldDVFdWlWR3VkNDRNOS1yTGFwNlltd18zcDh4T2ZySWg4RDVUYXZMVTROUHRITjlEZ016bklPbEI2TTVWd3ZPNWxNOWJzQS1IWmdtUkE?oc=5",
-      "fecha": "2026-11-01T08:03:27.000Z",
-      "resumen_corto": "Ahora, por fin, alguien ha conseguido repetirlo Xataka",
-      "resumen_largo": "Los romanos hacían vidrio que cambia de color hace 1.600 años. Ahora, por fin, alguien ha conseguido repetirlo Xataka",
-      "texto_original": "Los romanos hacían vidrio que cambia de color hace 1.600 años. Ahora, por fin, alguien ha conseguido repetirlo Xataka",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-11-01T20:21:03.240Z",
-        "index": 19,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "es",
-        "categoria": "inteligencia_artificial",
-        "categorias_secundarias": [],
-        "category_scores": {
-          "inteligencia_artificial": 1
-        },
-        "entidades": [
-          "Xataka"
-        ],
-        "cifras_detectadas": [],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 82,
-        "relevancia": 55,
-        "confiabilidad_fuente": 50,
-        "readability": {
-          "words": 74,
-          "sentences": 9,
-          "average_words_per_sentence": 8.22
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 63.2
-    },
-    {
-      "id": "0a0f7985a9209a61",
-      "fuente_id": "xataka_google",
-      "fuente_nombre": "Xataka",
-      "tipo": "rss_web",
-      "subtipo": "google_news",
-      "grupo_fuente": "xataka",
-      "nivel_fuente": "medio_especializado",
-      "categoria": "tecnologia",
-      "idioma_original": "es",
-      "prioridad_fuente": 4,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "Desde hoy, Aldi soluciona (por 14,99 euros) un problema cotidiano en casa cuando sube la humedad por el frío y las lluvias",
-      "titulo_original": "Desde hoy, Aldi soluciona (por 14,99 euros) un problema cotidiano en casa cuando sube la humedad por el frío y las lluvias - Xataka",
-      "enlace": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNY1k1SE15ckh5MzRhd1dKY0hnVWdxNmp1ZlBNaXBKOTk0UWpMby1kbFhmZzZqaERGYjY3dk5CTnFwY0Yzb1N2alBxZGVnbXJMSVU5MC13RW8zZG15ajVON0FheXBWYklJWmpDcFdmTjAzQ2NKYXRyUVV1UmI5bGlKdWJ4X21qUGZOLWI3REVRVkY4NUFWNlBxSlYxZ1JBMEtyRnlLakRyUzZFNzdzblBMTzhycmQwWG91WkI4btIBwgFBVV95cUxNMDdaNFoyZzVjcTAzOE8xX1VwWEpxVG1UTzllTkR6S0hhREszTHZkNmdMVHlRajVDLXRma3VfM1hlUXl6WDRlV0Q4Nm1wODFkY0dITXQtc1ZGS3NCQm1NbDBXRmVtWXBEQ0tWcUpwY3AtZUdfQlF0eXZVQjhDOW9fbkgzWHJSVkZKV29maDhQeUwyci04WGo3bUFYVlVscDNMYUJyZzdhZmlHMExzc2YzaXNIaml4TVp2NFJ2X0w3ei1fQQ?oc=5",
-      "fecha": "2026-10-31T19:21:24.000Z",
-      "resumen_corto": "Desde hoy, Aldi soluciona (por 14,99 euros) un problema cotidiano en casa cuando sube la humedad por el frío y las lluvias Xataka",
-      "resumen_largo": "Desde hoy, Aldi soluciona (por 14,99 euros) un problema cotidiano en casa cuando sube la humedad por el frío y las lluvias Xataka",
-      "texto_original": "Desde hoy, Aldi soluciona (por 14,99 euros) un problema cotidiano en casa cuando sube la humedad por el frío y las lluvias Xataka",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-11-01T20:21:03.244Z",
-        "index": 25,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "es",
-        "categoria": "inteligencia_artificial",
-        "categorias_secundarias": [],
-        "category_scores": {
-          "inteligencia_artificial": 1
-        },
-        "entidades": [
-          "Xataka"
-        ],
-        "cifras_detectadas": [],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 82,
-        "relevancia": 55,
-        "confiabilidad_fuente": 50,
-        "readability": {
-          "words": 84,
-          "sentences": 1,
-          "average_words_per_sentence": 84
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 63.2
-    },
-    {
       "id": "3644472f09a04fc1",
       "fuente_id": "genbeta_google",
       "fuente_nombre": "Genbeta",
@@ -2011,8 +1701,8 @@
       "texto_original": "Grok de Elon Musk lanza el primer episodio de “Odyssey” generado por inteligencia artificial Genbeta",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-01T20:21:03.247Z",
-        "index": 30,
+        "processed_at": "2026-11-02T00:24:46.816Z",
+        "index": 27,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -2079,8 +1769,8 @@
       "texto_original": "NVIDIA Is Reportedly Eyeing Teflon, The Non-Stick Cookware Material, To Fix AI Server Signal Loss In Next-Gen NVLink Switch Boards Wccftech",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-01T20:21:03.239Z",
-        "index": 17,
+        "processed_at": "2026-11-02T00:24:46.813Z",
+        "index": 20,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -2155,8 +1845,8 @@
       "texto_original": "António Guterres: “Una competición entre EE UU y China para crear armas con IA podría tener consecuencias devastadoras” EL PAÍS",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-01T20:21:03.221Z",
-        "index": 0,
+        "processed_at": "2026-11-02T00:24:46.803Z",
+        "index": 3,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -2205,75 +1895,6 @@
       "final_score": 62.3
     },
     {
-      "id": "37afa06f7998b5ef",
-      "fuente_id": "ia_dia",
-      "fuente_nombre": "IA al Día",
-      "tipo": "rss_web",
-      "subtipo": "google_news",
-      "grupo_fuente": "ia_general",
-      "nivel_fuente": "agregador",
-      "categoria": "inteligencia_artificial",
-      "idioma_original": "es",
-      "prioridad_fuente": 3,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "La inteligencia artificial llega a las grandes editoriales internacionales... mientras ellas lo niegan en público - La Vanguardia",
-      "titulo_original": "La inteligencia artificial llega a las grandes editoriales internacionales... mientras ellas lo niegan en público - La Vanguardia",
-      "enlace": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNamh3VWN4VjMxX1FQOTF0Tkg3bXpiNUhWeFFXdTI3V0hQcWluaXlBeDcwNTJZWG9qdDlzQm1CZFJxTzVMd3h4Vzk1NDBIQThnM0RZWEhjcTlzdTVpVWhTWnc4a0U2V1k5TTI1amcwYzBHd2pvREVSNllPaElwY1RSbEEyRWwtQ0M4S3JOaU9XWGVDY0x1a2lpTFJNckFtNlZtSng1ZUF1SDl2T19rek5vdWdMd2duMFRfVU1hcHVKOXBXZG5hQlpNMWR3V0thMy1ocFN4QXRB0gHbAUFVX3lxTE1HOWxsSkVpXzduaDFvZnBrTXAybjNDM09SOE9SREM4WTV2Z0NtOG5jb25sWU9maS04SE9QYlo4SzNkNjRuLXJkTFEwMzN6N2R4SWkybTZTekU4eDVVb0xlWGF1TFFNR2pEekZiWVRSM3UzRDRvTTBTakM2cWZiSy1yclU5X2lERk83aHJaSjRHekYteWJDNGVDVU1ONHlxRVVKSXVxb2I5N25hUnR1dkp2eThWOFkxVUdmenZBb3dDU29Hb1hyZVdlWHpYdXllOGZObmc4NW9ubDBBaw?oc=5",
-      "fecha": "2026-11-01T05:00:00.000Z",
-      "resumen_corto": "La inteligencia artificial llega a las grandes editoriales internacionales...",
-      "resumen_largo": "La inteligencia artificial llega a las grandes editoriales internacionales... mientras ellas lo niegan en público La Vanguardia",
-      "texto_original": "La inteligencia artificial llega a las grandes editoriales internacionales... mientras ellas lo niegan en público La Vanguardia",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-11-01T20:21:03.241Z",
-        "index": 21,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "es",
-        "categoria": "inteligencia_artificial",
-        "categorias_secundarias": [
-          "actualidad"
-        ],
-        "category_scores": {
-          "inteligencia_artificial": 3,
-          "actualidad": 1
-        },
-        "entidades": [],
-        "cifras_detectadas": [],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 75,
-        "relevancia": 57,
-        "confiabilidad_fuente": 53,
-        "readability": {
-          "words": 55,
-          "sentences": 6,
-          "average_words_per_sentence": 9.17
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 62.3
-    },
-    {
       "id": "42b5fc3287506fa4",
       "fuente_id": "google_news_es",
       "fuente_nombre": "Google News ES",
@@ -2295,7 +1916,7 @@
       "texto_original": "¿Qué coche electrificado me compro? Guía para no perderse en el laberinto de las tecnologías elDiario.es",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-01T20:21:03.244Z",
+        "processed_at": "2026-11-02T00:24:46.814Z",
         "index": 24,
         "resumen": {
           "generado": true,
@@ -2345,6 +1966,218 @@
       "final_score": 62.3
     },
     {
+      "id": "783bebe07cc1930d",
+      "fuente_id": "wccftech_google",
+      "fuente_nombre": "Wccftech",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "wccftech",
+      "nivel_fuente": "medio_especializado",
+      "categoria": "hardware",
+      "idioma_original": "en",
+      "prioridad_fuente": 4,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Se informa que Bend Studio de Sony planea una presentación y un posible lanzamiento en 2027 para su juego cooperativo en tercera persona, a pesar de que el proyecto comenzó solo a mediados de 2025",
+      "titulo_original": "Sony’s Bend Studio Reportedly Plans a 2027 Reveal and Possible Release for Its Third-Person Co-Op Game, Despite Starting the Project Only in Mid-2025 - Wccftech",
+      "enlace": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5hdGtyZzVSNTg3MnVJbHpYUzFZUzhGRnE4YkxpSklSQ1NndElWQzFlT0FqSXdBNzM5U051ejJZNS1Bb3ByNTV0MUtTYjlfeGFLT2lPWFVydnU5Z1p4QTlvR2tfQ0RrTTdWV3ptalkzRkFOc3lpNmZ1dNIBfkFVX3lxTFBpRTJZbnNycjFaMTBaMVpZNVR3V05LanlNNmtXMWhxcklMdmI5WGJRcXBMZ213THNBNWh5TEwzRW5Yb2VWZ1I5ZGlhUUNkaFczVzlCV2dQdG1CYWlvNEhxSXQ3RDFtNC1CT3pIRFlsNlBrNGxCb2doWDQxVjVIZw?oc=5",
+      "fecha": "2026-11-01T17:30:25.000Z",
+      "resumen_corto": "Se informa que Bend Studio de Sony planea una revelación y un posible lanzamiento en 2027 para su juego cooperativo en tercera persona, a pesar de que el proyecto comenzó solo a mediados de 2025.",
+      "resumen_largo": "Se informa que Bend Studio de Sony planea una revelación y un posible lanzamiento en 2027 para su juego cooperativo en tercera persona, a pesar de que el proyecto comenzó solo a mediados de 2025.",
+      "texto_original": "Sony’s Bend Studio Reportedly Plans a 2027 Reveal and Possible Release for Its Third-Person Co-Op Game, Despite Starting the Project Only in Mid-2025 Wccftech",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-11-02T00:24:46.805Z",
+        "index": 6,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "en",
+        "categoria": "inteligencia_artificial",
+        "categorias_secundarias": [
+          "vehiculos_energia",
+          "tecnologia"
+        ],
+        "category_scores": {
+          "inteligencia_artificial": 1,
+          "vehiculos_energia": 1,
+          "tecnologia": 1
+        },
+        "entidades": [
+          "Wccftech",
+          "Third-Person Co"
+        ],
+        "cifras_detectadas": [
+          "2027",
+          "2025",
+          "2025 W"
+        ],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 72,
+        "relevancia": 60,
+        "confiabilidad_fuente": 50,
+        "readability": {
+          "words": 115,
+          "sentences": 3,
+          "average_words_per_sentence": 38.33
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 61.7
+    },
+    {
+      "id": "78849c7c9b48877a",
+      "fuente_id": "ia_dia",
+      "fuente_nombre": "IA al Día",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "ia_general",
+      "nivel_fuente": "agregador",
+      "categoria": "inteligencia_artificial",
+      "idioma_original": "es",
+      "prioridad_fuente": 3,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Yuval Noah Harari, experto en inteligencia artificial: \"El 70 % de las personas ya muestra una peligrosa crisis de confianza\" - National Geographic España",
+      "titulo_original": "Yuval Noah Harari, experto en inteligencia artificial: \"El 70 % de las personas ya muestra una peligrosa crisis de confianza\" - National Geographic España",
+      "enlace": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPeTdHMFZXdmp1SjQyNWlTVm5mWXZvWnpaOEtJY2JXVmVFZEdnY1BkVkNxMHJvT25PMzYteWlMaDJEXzhROHd1bm51RGp4NExZcmpmQnZNSGlNZ2JSaWEzZ2VMUnBXMnY2ZGJ3SUs1T2RLZWJNaXNQWFRPRm9JdDY3MWx2aXl0blQtLUl0YWQtQTlMa2ZyclhlUFh1MkljOENSNWZQbmo4UGxTT2Z2MmNoX2hSOHNNelFyZFo1SEg0cVRlSktxYUwyeEtqdmFCcW1DbVUySEdkYW9FX3poanZuOWFraXJMdldTREE?oc=5",
+      "fecha": "2026-11-01T11:00:00.000Z",
+      "resumen_corto": "Yuval Noah Harari, experto en inteligencia artificial: \"El 70 % de las personas ya muestra una peligrosa crisis de confianza\" National Geographic España",
+      "resumen_largo": "Yuval Noah Harari, experto en inteligencia artificial: \"El 70 % de las personas ya muestra una peligrosa crisis de confianza\" National Geographic España",
+      "texto_original": "Yuval Noah Harari, experto en inteligencia artificial: \"El 70 % de las personas ya muestra una peligrosa crisis de confianza\" National Geographic España",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-11-02T00:24:46.810Z",
+        "index": 16,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "inteligencia_artificial",
+        "categorias_secundarias": [],
+        "category_scores": {
+          "inteligencia_artificial": 3
+        },
+        "entidades": [],
+        "cifras_detectadas": [
+          "70 %"
+        ],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 80,
+        "relevancia": 50,
+        "confiabilidad_fuente": 53,
+        "readability": {
+          "words": 80,
+          "sentences": 1,
+          "average_words_per_sentence": 80
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 61.25
+    },
+    {
+      "id": "832a98d93f254062",
+      "fuente_id": "xataka_google",
+      "fuente_nombre": "Xataka",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "xataka",
+      "nivel_fuente": "medio_especializado",
+      "categoria": "tecnologia",
+      "idioma_original": "es",
+      "prioridad_fuente": 4,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Hoy en Lidl (por 6,99 euros) este pack de tres higrómetros con los que tener la humedad y temperatura de casa siempre bajo control",
+      "titulo_original": "Hoy en Lidl (por 6,99 euros) este pack de tres higrómetros con los que tener la humedad y temperatura de casa siempre bajo control - Xataka",
+      "enlace": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQM2JaZ08ySUhwRENKYmtvX2VvY2h3dDQ5eDktV0pTcnJpcUlFZTVwNlFFalFMRXNrTG5CamJHT2QxNkZJNjNQMWtuNEdfLXRSSHhybGRrd3JFZzN5dFFhcmQ5QjJvWVZ5bW5waVNJWEc5d3hkWjR3azdjQi01YkVsYjd3TUNtei1yRFZKSzF6TnZtWnJ3dk82R2F6R19FRjlNLUViMTRPbzFxNnB5MkFUMUJxeFBrd25Wdlo4TFpXcGt6Smh3M1RGR3Rn0gHPAUFVX3lxTFBCdms0X0pySy11UFlIZEh6V2xZX0dTc3pfWTk4N0ZTaGE0MnRfcWc0cUszcWhUc1hJV21NNzZ1ZnRXUXkyelNiX25sX3RYVmxNNy01cURFajl3bTlNN3NlejBlZURhQkdEb2ZaaDhwWjJOck9qWC1naGlEeTNkczBhR3ZyMG9kbmE0Z0NwV09EYXFJWDhRV1RCclByOTlZWm53a3J3Nk5lTGtUamFENnpzOWlaelNwUnBFSzJ6NWV4WEgtVXFOWDhmTWVLWkcyZw?oc=5",
+      "fecha": "2026-11-01T17:45:26.000Z",
+      "resumen_corto": "Hoy en Lidl (por 6,99 euros) este pack de tres higrómetros con los que tener la humedad y temperatura de casa siempre bajo control Xataka",
+      "resumen_largo": "Hoy en Lidl (por 6,99 euros) este pack de tres higrómetros con los que tener la humedad y temperatura de casa siempre bajo control Xataka",
+      "texto_original": "Hoy en Lidl (por 6,99 euros) este pack de tres higrómetros con los que tener la humedad y temperatura de casa siempre bajo control Xataka",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-11-02T00:24:46.804Z",
+        "index": 5,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "tecnologia",
+        "categorias_secundarias": [],
+        "category_scores": {},
+        "entidades": [
+          "Xataka"
+        ],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 82,
+        "relevancia": 50,
+        "confiabilidad_fuente": 50,
+        "readability": {
+          "words": 94,
+          "sentences": 1,
+          "average_words_per_sentence": 94
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 61.2
+    },
+    {
       "id": "c4ce7d2e1b5879cc",
       "fuente_id": "genbeta_google",
       "fuente_nombre": "Genbeta",
@@ -2366,8 +2199,8 @@
       "texto_original": "La metamorfosis de la noche: por qué la Gen Z ya no va (casi) a discotecas Genbeta",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-01T20:21:03.250Z",
-        "index": 38,
+        "processed_at": "2026-11-02T00:24:46.819Z",
+        "index": 37,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -2411,72 +2244,6 @@
       "final_score": 61.2
     },
     {
-      "id": "ecf5a7a09ddade50",
-      "fuente_id": "ia_dia",
-      "fuente_nombre": "IA al Día",
-      "tipo": "rss_web",
-      "subtipo": "google_news",
-      "grupo_fuente": "ia_general",
-      "nivel_fuente": "agregador",
-      "categoria": "inteligencia_artificial",
-      "idioma_original": "es",
-      "prioridad_fuente": 3,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "Desnudar con inteligencia artificial - Clarin.com",
-      "titulo_original": "Desnudar con inteligencia artificial - Clarin.com",
-      "enlace": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQaG5tZWQxZ2FnWTlTZjhLU0UwTGQ1ejY4cEJDZzFKMVIxY3plbVVmMEVMdHFiR0RmYUs3VVAzZTRQSzZta3lGTVpqaGIzR09Mam54TkJwWFZNSWtlYUhBMmxZVU1NeW8xQ3gtbWpUWjVVbW5rOS1TNGdSa0VPUHY2YVJQWHFLZU1T?oc=5",
-      "fecha": "2026-11-01T18:17:36.000Z",
-      "resumen_corto": "Desnudar con inteligencia artificial Clarin.com",
-      "resumen_largo": "Desnudar con inteligencia artificial Clarin.com",
-      "texto_original": "Desnudar con inteligencia artificial Clarin.com",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-11-01T20:21:03.224Z",
-        "index": 1,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "es",
-        "categoria": "inteligencia_artificial",
-        "categorias_secundarias": [],
-        "category_scores": {
-          "inteligencia_artificial": 3
-        },
-        "entidades": [],
-        "cifras_detectadas": [],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 75,
-        "relevancia": 50,
-        "confiabilidad_fuente": 53,
-        "readability": {
-          "words": 30,
-          "sentences": 6,
-          "average_words_per_sentence": 5
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 59.5
-    },
-    {
       "id": "640d0ee51796b8c0",
       "fuente_id": "google_news_es",
       "fuente_nombre": "Google News ES",
@@ -2498,8 +2265,8 @@
       "texto_original": "La tecnología 3D desvela los detalles ocultos del Santo Cáliz de Valencia ABC",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-01T20:21:03.234Z",
-        "index": 10,
+        "processed_at": "2026-11-02T00:24:46.810Z",
+        "index": 14,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -2567,8 +2334,8 @@
       "texto_original": "La tecnología de los blocus RTVE.es",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-01T20:21:03.235Z",
-        "index": 12,
+        "processed_at": "2026-11-02T00:24:46.811Z",
+        "index": 17,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -2636,8 +2403,8 @@
       "texto_original": "La UPV obtiene el modelo digital más preciso del Santo Cáliz mediante tecnología 3D de alta precisión Cadena SER",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-01T20:21:03.238Z",
-        "index": 16,
+        "processed_at": "2026-11-02T00:24:46.812Z",
+        "index": 19,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -2705,8 +2472,8 @@
       "texto_original": "La inteligencia artificial descubre sus contradicciones El Conciso",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-01T20:21:03.248Z",
-        "index": 33,
+        "processed_at": "2026-11-02T00:24:46.817Z",
+        "index": 30,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -2750,29 +2517,29 @@
       "final_score": 59.5
     },
     {
-      "id": "e7d105c1248affd6",
-      "fuente_id": "resumen_militar",
-      "fuente_nombre": "El Resumen Militar",
-      "tipo": "telegram",
-      "subtipo": "canal_telegram",
-      "grupo_fuente": "telegram_militar",
-      "nivel_fuente": "telegram",
-      "categoria": "militar",
+      "id": "477c89f41173d35a",
+      "fuente_id": "ia_dia",
+      "fuente_nombre": "IA al Día",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "ia_general",
+      "nivel_fuente": "agregador",
+      "categoria": "inteligencia_artificial",
       "idioma_original": "es",
       "prioridad_fuente": 3,
       "analizar": true,
       "resumir": true,
-      "titulo": "‼️ 🇺🇦 🇦🇹 Украинскую военную разведку заподозрили в подготовке покушения на экс-генпрокурора Украины — Kurier ▪️ Задержанные в Вене сотрудники ГУР могли готовить покушение на Руслана Кравченко, находящегося в Австрии.",
-      "titulo_original": "‼️ 🇺🇦 🇦🇹 Украинскую военную разведку заподозрили в подготовке покушения на экс-генпрокурора Украины — Kurier ▪️ Задержанные в Вене сотрудники ГУР могли готовить покушение на Руслана Кравченко, находящегося в Австрии.",
-      "enlace": "https://t.me/elresumenmilitar/102565",
-      "fecha": "2026-11-01T14:41:45.000Z",
-      "resumen_corto": "Такую версию выдвинула газета Kurier по итогам совместного расследования с Don’t Fund Russia.",
-      "resumen_largo": "‼️ 🇺🇦 🇦🇹 Украинскую военную разведку заподозрили в подготовке покушения на экс-генпрокурора Украины — Kurier ▪️ Задержанные в Вене сотрудники ГУР могли готовить покушение на Руслана Кравченко, находящегося в Австрии. Такую версию выдвинула газета Kurier по итогам совместного расследования с Don’t Fund Russia. ▪️ По данным издания, задержанные принадлежали к спецподразделению ГУР «Артан», а при них обнаружили камеры и трекеры для слежки.",
-      "texto_original": "‼️ 🇺🇦 🇦🇹 Украинскую военную разведку заподозрили в подготовке покушения на экс-генпрокурора Украины — Kurier ▪️ Задержанные в Вене сотрудники ГУР могли готовить покушение на Руслана Кравченко, находящегося в Австрии. Такую версию выдвинула газета Kurier по итогам совместного расследования с Don’t Fund Russia. ▪️ По данным издания, задержанные принадлежали к спецподразделению ГУР «Артан», а при них обнаружили камеры и трекеры для слежки. ▪️ Kurier также сообщает о задержании в сентябре в отеле Park Hyatt предполагаемого командира подразделения и проводит параллели с покушением на бизнесмена Вадима Ермолаева в Монако. ▪️ Прокуратура Вены подтвердила расследование в отношении четырёх украинцев по подозрению в шпионаже. Сам Кравченко ранее также заявлял о возможной подготовке покушения на него. ⚠️ Подписаться на RV: MAX | t.me/RVvoenkor",
+      "titulo": "Rafael Cabello (Fundador de Tonelería del Sur): “La inteligencia artificial no es el enemigo” - Expansión",
+      "titulo_original": "Rafael Cabello (Fundador de Tonelería del Sur): “La inteligencia artificial no es el enemigo” - Expansión",
+      "enlace": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQcTFsOXhLekxXWVV3SzNjeXR6d0RIaFBJdzN2Z1NldlNNQjZaWXRCTndyemppeFpFWXBSUi1SckN2dUk0bUVoekJKbzBYeVA0ejRMTVlRSjktSDZ3MXozM1dZNlZzcUE2ODQxWFpaQTd5YUF6bXpkT0pvMktzOVNiT2c3YngxWEVlUmF4Mm9XWGpNcU5KX2VXYUFrdWJzTmI1dWJZTEpUbXhJbldtb3RrbktMdVFfekZzbEhUdG0zM3BnU1J5cWhpZWk4MkFxNGvSAc8BQVVfeXFMTnBwMU1KSF9OQ0JQTGxqWkFiUE9ZdENrRnlVZFNaNXdROHBNcF9wNUdjYVVrTUhMb3Q2QjIxZEpBOV9GOWIwdDY2YVpvX0FUMFVvWnhkRndWcEFNQXF3eWdrdW13Q0dtWFdweXR1YTY1QThQODZVeGFMd3BxLW5nVUFWQXBMeTludnFFTXJKcWQtdG9aelFhQ3hsZTNxYm9MOUd5NkdMOGMwdnpKWHhqZ0lNTG5wM194ZDlTMkFQZDBfb2ZfS1ZMcFlrcGlYVEV3?oc=5",
+      "fecha": "2026-10-31T01:16:54.000Z",
+      "resumen_corto": "Rafael Cabello (Fundador de Tonelería del Sur): “La inteligencia artificial no es el enemigo” Expansión",
+      "resumen_largo": "Rafael Cabello (Fundador de Tonelería del Sur): “La inteligencia artificial no es el enemigo” Expansión",
+      "texto_original": "Rafael Cabello (Fundador de Tonelería del Sur): “La inteligencia artificial no es el enemigo” Expansión",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-01T20:21:03.230Z",
-        "index": 6,
+        "processed_at": "2026-11-02T00:24:46.818Z",
+        "index": 32,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -2782,6 +2549,75 @@
         "categoria": "inteligencia_artificial",
         "categorias_secundarias": [],
         "category_scores": {
+          "inteligencia_artificial": 3
+        },
+        "entidades": [],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 75,
+        "relevancia": 50,
+        "confiabilidad_fuente": 53,
+        "readability": {
+          "words": 50,
+          "sentences": 1,
+          "average_words_per_sentence": 50
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 59.5
+    },
+    {
+      "id": "28b2ae4fbbd9b4f6",
+      "fuente_id": "google_news_es",
+      "fuente_nombre": "Google News ES",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "google_news",
+      "nivel_fuente": "agregador",
+      "categoria": "tecnologia",
+      "idioma_original": "es",
+      "prioridad_fuente": 3,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "España no espera a la tecnología médica del futuro: ya la tiene en sus hospitales - Expansión",
+      "titulo_original": "España no espera a la tecnología médica del futuro: ya la tiene en sus hospitales - Expansión",
+      "enlace": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOQk5Qc1U5T2dvOERlZU03T2t6ZjFNbjl0ekloVGNTQ0tqOFlBOXFTWFFES1hoSTFSYkJSLTJRSkxkVUxzekZpZlZnVHdTbGpreFVEZVlULVJuOU1kMWVpclBFaEVENDFRU3hoNjltNUlxVUs5b3RCQWZZQ3FrN1ZFS0NRZG5yYk82cTRRX0xCQ1FsWjNhOGtRQU8wZlhROFRIR2c?oc=5",
+      "fecha": "2026-10-30T06:22:12.000Z",
+      "resumen_corto": "España no espera a la tecnología médica del futuro: ya la tiene en sus hospitales Expansión",
+      "resumen_largo": "España no espera a la tecnología médica del futuro: ya la tiene en sus hospitales Expansión",
+      "texto_original": "España no espera a la tecnología médica del futuro: ya la tiene en sus hospitales Expansión",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-11-02T00:24:46.819Z",
+        "index": 38,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "tecnologia",
+        "categorias_secundarias": [
+          "inteligencia_artificial"
+        ],
+        "category_scores": {
+          "tecnologia": 2,
           "inteligencia_artificial": 1
         },
         "entidades": [],
@@ -2798,13 +2634,13 @@
           "signals": [],
           "url_count": 0
         },
-        "calidad": 60,
+        "calidad": 75,
         "relevancia": 50,
-        "confiabilidad_fuente": 45,
+        "confiabilidad_fuente": 53,
         "readability": {
-          "words": 184,
-          "sentences": 14,
-          "average_words_per_sentence": 13.14
+          "words": 50,
+          "sentences": 1,
+          "average_words_per_sentence": 50
         },
         "duplicate": {
           "detected": false,
@@ -2813,10 +2649,10 @@
           "similar_to": null
         }
       },
-      "final_score": 52.25
+      "final_score": 59.5
     },
     {
-      "id": "425defac349f9ab6",
+      "id": "9b93657895a899f9",
       "fuente_id": "resumen_militar",
       "fuente_nombre": "El Resumen Militar",
       "tipo": "telegram",
@@ -2828,17 +2664,17 @@
       "prioridad_fuente": 3,
       "analizar": true,
       "resumir": true,
-      "titulo": "‼️ 🇨🇳 🇺🇸 💥 Китай продемонстрировал удар «убийцы авианосцев» по макету американского корабля ▪️ На полигоне в пустыне Синьцзяна показали поражение полноразмерного макета американского авианосца баллистической ракетой",
-      "titulo_original": "‼️ 🇨🇳 🇺🇸 💥 Китай продемонстрировал удар «убийцы авианосцев» по макету американского корабля ▪️ На полигоне в пустыне Синьцзяна показали поражение полноразмерного макета американского авианосца баллистической ракетой",
-      "enlace": "https://t.me/elresumenmilitar/102566",
-      "fecha": "2026-11-01T14:42:12.000Z",
-      "resumen_corto": "▪️ DF-26B — противокорабельная модификация ракеты Dongfeng-26, состоящей на вооружении ракетных войск НОАК.",
-      "resumen_largo": "‼️ 🇨🇳 🇺🇸 💥 Китай продемонстрировал удар «убийцы авианосцев» по макету американского корабля ▪️ На полигоне в пустыне Синьцзяна показали поражение полноразмерного макета американского авианосца баллистической ракетой DF-26B. ▪️ DF-26B — противокорабельная модификация ракеты Dongfeng-26, состоящей на вооружении ракетных войск НОАК. ▪️ За способность поражать крупные надводные цели ракету нередко называют «убийцей авианосцев».",
-      "texto_original": "‼️ 🇨🇳 🇺🇸 💥 Китай продемонстрировал удар «убийцы авианосцев» по макету американского корабля ▪️ На полигоне в пустыне Синьцзяна показали поражение полноразмерного макета американского авианосца баллистической ракетой DF-26B. ▪️ DF-26B — противокорабельная модификация ракеты Dongfeng-26, состоящей на вооружении ракетных войск НОАК. ▪️ За способность поражать крупные надводные цели ракету нередко называют «убийцей авианосцев». ⚠️ Подписаться на RV: MAX | t.me/RVvoenkor",
+      "titulo": "01.11.26 Купянск - Юбилейный Позиционные боевые действия в Купянске. Позиция ВС РФ в жилой застройке города подверглась обстрелу ВСУ. ВС РФ удерживают позиции в микрорайоне Юбилейный под огнём противника. Уточнение зоны",
+      "titulo_original": "01.11.26 Купянск - Юбилейный Позиционные боевые действия в Купянске. Позиция ВС РФ в жилой застройке города подверглась обстрелу ВСУ. ВС РФ удерживают позиции в микрорайоне Юбилейный под огнём противника. Уточнение зоны",
+      "enlace": "https://t.me/elresumenmilitar/102581",
+      "fecha": "2026-11-01T16:02:51.000Z",
+      "resumen_corto": "01.11.26 Купянск - Юбилейный Позиционные боевые действия в Купянске.",
+      "resumen_largo": "01.11.26 Купянск - Юбилейный Позиционные боевые действия в Купянске. Позиция ВС РФ в жилой застройке города подверглась обстрелу ВСУ. ВС РФ удерживают позиции в микрорайоне Юбилейный под огнём противника.",
+      "texto_original": "01.11.26 Купянск - Юбилейный Позиционные боевые действия в Купянске. Позиция ВС РФ в жилой застройке города подверглась обстрелу ВСУ. ВС РФ удерживают позиции в микрорайоне Юбилейный под огнём противника. Уточнение зоны контроля ВС РФ. 49.69629,37.59842 На карте Источник 21+ Геопривязка #ru #add",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-01T20:21:03.229Z",
-        "index": 5,
+        "processed_at": "2026-11-02T00:24:46.806Z",
+        "index": 8,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -2850,7 +2686,8 @@
         "category_scores": {},
         "entidades": [],
         "cifras_detectadas": [
-          "26B"
+          "6962",
+          "5984"
         ],
         "content_type": "news",
         "clickbait": {
@@ -2868,9 +2705,9 @@
         "relevancia": 45,
         "confiabilidad_fuente": 45,
         "readability": {
-          "words": 131,
-          "sentences": 9,
-          "average_words_per_sentence": 14.56
+          "words": 99,
+          "sentences": 27,
+          "average_words_per_sentence": 3.67
         },
         "duplicate": {
           "detected": false,
@@ -2882,7 +2719,7 @@
       "final_score": 52
     },
     {
-      "id": "5ecf2359d004d181",
+      "id": "119383b4a3eb337b",
       "fuente_id": "resumen_militar",
       "fuente_nombre": "El Resumen Militar",
       "tipo": "telegram",
@@ -2894,17 +2731,17 @@
       "prioridad_fuente": 3,
       "analizar": true,
       "resumir": true,
-      "titulo": "💬 СМЕРТЬ ВОРОГАМ 💬 Лозунги после гуманитарной миссии. Смысла, наверное, нет говорить о том, насколько это мелкодушный и двуличный народ. Никто из этих не сказал спасибо воинам, которые их кормили, лечили, за свой счёт",
-      "titulo_original": "💬 СМЕРТЬ ВОРОГАМ 💬 Лозунги после гуманитарной миссии. Смысла, наверное, нет говорить о том, насколько это мелкодушный и двуличный народ. Никто из этих не сказал спасибо воинам, которые их кормили, лечили, за свой счёт",
-      "enlace": "https://t.me/elresumenmilitar/102567",
-      "fecha": "2026-11-01T14:43:38.000Z",
-      "resumen_corto": "💬 СМЕРТЬ ВОРОГАМ 💬 Лозунги после гуманитарной миссии.",
-      "resumen_largo": "💬 СМЕРТЬ ВОРОГАМ 💬 Лозунги после гуманитарной миссии. Смысла, наверное, нет говорить о том, насколько это мелкодушный и двуличный народ. Никто из этих не сказал спасибо воинам, которые их кормили, лечили, за свой счёт и в убыток себе снабжали их топливом.",
-      "texto_original": "💬 СМЕРТЬ ВОРОГАМ 💬 Лозунги после гуманитарной миссии. Смысла, наверное, нет говорить о том, насколько это мелкодушный и двуличный народ. Никто из этих не сказал спасибо воинам, которые их кормили, лечили, за свой счёт и в убыток себе снабжали их топливом. Таскали раненых гражданских, которые лезли туда, куда не надо было. Всё это для них не имеет никакого значения. ❗️ Что здесь важно? А важно не то, кто выехал и сколько, а важно, сколько ещё осталось там, никуда не переходя, оставшись у себя дома. Там сейчас находятся сильные духом люди, которые будут идти до конца, — их и снабдила всем необходимым гуманитарная миссия. Но для СМИ это малозначительно, важнее разгоны по количеству автобусов, кто куда уехал. А наши десантники сейчас продолжают сохранять территориальный контроль и, как прежде, будут помогать жителям — какими бы они ни были, ждуны или свои. 🤙 Архангел Спецназа ! ❗️ 🤙 Если не грузит видео - смотрите у нас в MAX",
+      "titulo": "31.10.26 Славянск - Пискуновка Позиционные боевые действия в районе Славянска. Позиция ВСУ в восточной части Пискуновки под огнём ВС РФ. ВСУ восстановили контроль позиций в населённом пункте продвинувшись на 2,5 км. 48.8",
+      "titulo_original": "31.10.26 Славянск - Пискуновка Позиционные боевые действия в районе Славянска. Позиция ВСУ в восточной части Пискуновки под огнём ВС РФ. ВСУ восстановили контроль позиций в населённом пункте продвинувшись на 2,5 км. 48.8",
+      "enlace": "https://t.me/elresumenmilitar/102579",
+      "fecha": "2026-11-01T16:02:46.000Z",
+      "resumen_corto": "31.10.26 Славянск - Пискуновка Позиционные боевые действия в районе Славянска.",
+      "resumen_largo": "31.10.26 Славянск - Пискуновка Позиционные боевые действия в районе Славянска. Позиция ВСУ в восточной части Пискуновки под огнём ВС РФ. ВСУ восстановили контроль позиций в населённом пункте продвинувшись на 2,5 км.",
+      "texto_original": "31.10.26 Славянск - Пискуновка Позиционные боевые действия в районе Славянска. Позиция ВСУ в восточной части Пискуновки под огнём ВС РФ. ВСУ восстановили контроль позиций в населённом пункте продвинувшись на 2,5 км. 48.87457,37.86647 На карте Источник Геопривязка #ua",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-01T20:21:03.228Z",
-        "index": 4,
+        "processed_at": "2026-11-02T00:24:46.807Z",
+        "index": 9,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -2915,7 +2752,10 @@
         "categorias_secundarias": [],
         "category_scores": {},
         "entidades": [],
-        "cifras_detectadas": [],
+        "cifras_detectadas": [
+          "8745",
+          "8664"
+        ],
         "content_type": "news",
         "clickbait": {
           "detected": false,
@@ -2928,13 +2768,13 @@
           "signals": [],
           "url_count": 0
         },
-        "calidad": 60,
+        "calidad": 65,
         "relevancia": 45,
         "confiabilidad_fuente": 45,
         "readability": {
-          "words": 203,
-          "sentences": 20,
-          "average_words_per_sentence": 10.15
+          "words": 96,
+          "sentences": 28,
+          "average_words_per_sentence": 3.43
         },
         "duplicate": {
           "detected": false,
@@ -2943,10 +2783,10 @@
           "similar_to": null
         }
       },
-      "final_score": 50.25
+      "final_score": 52
     },
     {
-      "id": "4b7092936989990c",
+      "id": "b996c006b3dfd3af",
       "fuente_id": "resumen_militar",
       "fuente_nombre": "El Resumen Militar",
       "tipo": "telegram",
@@ -2958,16 +2798,83 @@
       "prioridad_fuente": 3,
       "analizar": true,
       "resumir": true,
-      "titulo": "‼️ 🇸🇪 🇷🇺 Шведский спецназ захватил сухогруз с российским экипажем у острова Готланд — TV4 ▪️ В ночь на 31 октября шведские силовики провели операцию по захвату сухогруза у северо-западного побережья острова Готланд.",
-      "titulo_original": "‼️ 🇸🇪 🇷🇺 Шведский спецназ захватил сухогруз с российским экипажем у острова Готланд — TV4 ▪️ В ночь на 31 октября шведские силовики провели операцию по захвату сухогруза у северо-западного побережья острова Готланд.",
-      "enlace": "https://t.me/elresumenmilitar/102564",
-      "fecha": "2026-11-01T14:41:22.000Z",
-      "resumen_corto": "‼️ 🇸🇪 🇷🇺 Шведский спецназ захватил сухогруз с российским экипажем у острова Готланд — TV4 ▪️ В ночь на 31 октября шведские силовики провели операцию по захвату сухогруза у северо-западного побережья острова Готланд.",
-      "resumen_largo": "‼️ 🇸🇪 🇷🇺 Шведский спецназ захватил сухогруз с российским экипажем у острова Готланд — TV4 ▪️ В ночь на 31 октября шведские силовики провели операцию по захвату сухогруза у северо-западного побережья острова Готланд. По данным TV4, в рейде участвовали бойцы национального спецподразделения полиции Швеции. ▪️ Телеканал утверждает, что весь экипаж судна состоит из граждан России, а судоходная компания, которой принадлежит сухогруз, имеет представительство в Калининграде.",
-      "texto_original": "‼️ 🇸🇪 🇷🇺 Шведский спецназ захватил сухогруз с российским экипажем у острова Готланд — TV4 ▪️ В ночь на 31 октября шведские силовики провели операцию по захвату сухогруза у северо-западного побережья острова Готланд. По данным TV4, в рейде участвовали бойцы национального спецподразделения полиции Швеции. ▪️ Телеканал утверждает, что весь экипаж судна состоит из граждан России, а судоходная компания, которой принадлежит сухогруз, имеет представительство в Калининграде. ▪️ Поводом для операции стали подозрения шведских властей в возможном использовании судов компании в качестве плавучих баз для российских разведывательных беспилотников. TV4 связывает эти подозрения с появлением неопознанных дронов в районах нахождения судов. ▪️ По информации телеканала, суда компании ранее неоднократно привлекали внимание европейских спецслужб и подвергались досмотрам в других странах. Доказательств использования задержанного сухогруза для разведывательных операций пока не представлено.",
+      "titulo": "01.11.26 Славянск - Рай-Александровка Позиционные боевые действия в районе Славянска. Пехотная группа ВСУ попала под обстрел ВС РФ в окрестностях Рай-Александровки. ВСУ продвинулись на западных подступах к населённому пу",
+      "titulo_original": "01.11.26 Славянск - Рай-Александровка Позиционные боевые действия в районе Славянска. Пехотная группа ВСУ попала под обстрел ВС РФ в окрестностях Рай-Александровки. ВСУ продвинулись на западных подступах к населённому пу",
+      "enlace": "https://t.me/elresumenmilitar/102577",
+      "fecha": "2026-11-01T16:02:43.000Z",
+      "resumen_corto": "01.11.26 Славянск - Рай-Александровка Позиционные боевые действия в районе Славянска.",
+      "resumen_largo": "01.11.26 Славянск - Рай-Александровка Позиционные боевые действия в районе Славянска. Пехотная группа ВСУ попала под обстрел ВС РФ в окрестностях Рай-Александровки. ВСУ продвинулись на западных подступах к населённому пункту и увеличили зону контроля более 1,5 км.",
+      "texto_original": "01.11.26 Славянск - Рай-Александровка Позиционные боевые действия в районе Славянска. Пехотная группа ВСУ попала под обстрел ВС РФ в окрестностях Рай-Александровки. ВСУ продвинулись на западных подступах к населённому пункту и увеличили зону контроля более 1,5 км. 48.80522,37.82277 На карте Источник Геопривязка #ua",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-01T20:21:03.232Z",
+        "processed_at": "2026-11-02T00:24:46.808Z",
+        "index": 10,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "militar",
+        "categorias_secundarias": [],
+        "category_scores": {},
+        "entidades": [],
+        "cifras_detectadas": [
+          "8052",
+          "8227"
+        ],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 65,
+        "relevancia": 45,
+        "confiabilidad_fuente": 45,
+        "readability": {
+          "words": 111,
+          "sentences": 24,
+          "average_words_per_sentence": 4.63
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 52
+    },
+    {
+      "id": "d0e2a50612a44a26",
+      "fuente_id": "resumen_militar",
+      "fuente_nombre": "El Resumen Militar",
+      "tipo": "telegram",
+      "subtipo": "canal_telegram",
+      "grupo_fuente": "telegram_militar",
+      "nivel_fuente": "telegram",
+      "categoria": "militar",
+      "idioma_original": "es",
+      "prioridad_fuente": 3,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "‼️ 🇫🇷 🇵🇱 Молчание ЕС о событиях в Польше обнажает истинное отношение Брюсселя к демократии — Ле Пен ▪️ Лидер французского «Национального объединения» Марин Ле Пен раскритиковала отсутствие реакции Евросоюза на событи",
+      "titulo_original": "‼️ 🇫🇷 🇵🇱 Молчание ЕС о событиях в Польше обнажает истинное отношение Брюсселя к демократии — Ле Пен ▪️ Лидер французского «Национального объединения» Марин Ле Пен раскритиковала отсутствие реакции Евросоюза на событи",
+      "enlace": "https://t.me/elresumenmilitar/102582",
+      "fecha": "2026-11-01T17:06:06.000Z",
+      "resumen_corto": "‼️ 🇫🇷 🇵🇱 Молчание ЕС о событиях в Польше обнажает истинное отношение Брюсселя к демократии — Ле Пен ▪️ Лидер французского «Национального объединения» Марин Ле Пен раскритиковала отсутствие реакции Евросоюза на события вокруг Конституционного трибунала Польши.",
+      "resumen_largo": "‼️ 🇫🇷 🇵🇱 Молчание ЕС о событиях в Польше обнажает истинное отношение Брюсселя к демократии — Ле Пен ▪️ Лидер французского «Национального объединения» Марин Ле Пен раскритиковала отсутствие реакции Евросоюза на события вокруг Конституционного трибунала Польши. ▪️ По её мнению, блокирование государственного учреждения силовиками напоминает попытку силового захвата контроля над судебной властью. ➖ «Нельзя претендовать на защиту демократии и верховенства права и при этом молчать, когда конституционный баланс государства-члена серьёзно оказывается под угрозой» , — заявила Ле Пен.",
+      "texto_original": "‼️ 🇫🇷 🇵🇱 Молчание ЕС о событиях в Польше обнажает истинное отношение Брюсселя к демократии — Ле Пен ▪️ Лидер французского «Национального объединения» Марин Ле Пен раскритиковала отсутствие реакции Евросоюза на события вокруг Конституционного трибунала Польши. ▪️ По её мнению, блокирование государственного учреждения силовиками напоминает попытку силового захвата контроля над судебной властью. ➖ «Нельзя претендовать на защиту демократии и верховенства права и при этом молчать, когда конституционный баланс государства-члена серьёзно оказывается под угрозой» , — заявила Ле Пен. ▪️ Политик также выразила обеспокоенность учащением подобных силовых действий внутри ЕС. ⚠️ Подписаться на RV: MAX | t.me/RVvoenkor",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-11-02T00:24:46.806Z",
         "index": 7,
         "resumen": {
           "generado": true,
@@ -2996,9 +2903,9 @@
         "relevancia": 45,
         "confiabilidad_fuente": 45,
         "readability": {
-          "words": 213,
-          "sentences": 13,
-          "average_words_per_sentence": 16.38
+          "words": 190,
+          "sentences": 10,
+          "average_words_per_sentence": 19
         },
         "duplicate": {
           "detected": false,
@@ -3010,7 +2917,7 @@
       "final_score": 50.25
     },
     {
-      "id": "788cd1115874dcb4",
+      "id": "e774d3d3718bfa05",
       "fuente_id": "resumen_militar",
       "fuente_nombre": "El Resumen Militar",
       "tipo": "telegram",
@@ -3022,22 +2929,22 @@
       "prioridad_fuente": 3,
       "analizar": true,
       "resumir": true,
-      "titulo": "🇵🇱 MP Mencen of the Polish Sejm on Tusk's speech: I didn't expect much from Tusk's address, but something so repulsive still surprised me. Lies, manipulation, extreme audacity, not a drop of remorse. A lack of ideas, a",
-      "titulo_original": "🇵🇱 MP Mencen of the Polish Sejm on Tusk's speech: I didn't expect much from Tusk's address, but something so repulsive still surprised me. Lies, manipulation, extreme audacity, not a drop of remorse. A lack of ideas, a",
-      "enlace": "https://t.me/elresumenmilitar/102563",
-      "fecha": "2026-11-01T07:39:27.000Z",
-      "resumen_corto": "🇵🇱 MP Mencen of the Polish Sejm on Tusk's speech: I didn't expect much from Tusk's address, but something so repulsive still surprised me.",
-      "resumen_largo": "🇵🇱 MP Mencen of the Polish Sejm on Tusk's speech: I didn't expect much from Tusk's address, but something so repulsive still surprised me. Lies, manipulation, extreme audacity, not a drop of remorse. A lack of ideas, a hopeless form.",
-      "texto_original": "🇵🇱 MP Mencen of the Polish Sejm on Tusk's speech: I didn't expect much from Tusk's address, but something so repulsive still surprised me. Lies, manipulation, extreme audacity, not a drop of remorse. A lack of ideas, a hopeless form. The old man is losing his form and strength. The end of Tusk's rule is already slowly becoming visible. @Slavyangrad",
+      "titulo": "🇷🇺 На украинских ресурсах появились фотографии с калининградского аэродрома Черняховск. На них истребитель Су-30СМ с повреждением левой консоли крыла. На прошлой неделе аналогичный истребитель потерпел крушение , так ч",
+      "titulo_original": "🇷🇺 На украинских ресурсах появились фотографии с калининградского аэродрома Черняховск. На них истребитель Су-30СМ с повреждением левой консоли крыла. На прошлой неделе аналогичный истребитель потерпел крушение , так ч",
+      "enlace": "https://t.me/elresumenmilitar/102572",
+      "fecha": "2026-11-01T14:45:49.000Z",
+      "resumen_corto": "На них истребитель Су-30СМ с повреждением левой консоли крыла.",
+      "resumen_largo": "🇷🇺 На украинских ресурсах появились фотографии с калининградского аэродрома Черняховск. На них истребитель Су-30СМ с повреждением левой консоли крыла. На прошлой неделе аналогичный истребитель потерпел крушение , так что причиной видимо стало столкновение двух самолетов.",
+      "texto_original": "🇷🇺 На украинских ресурсах появились фотографии с калининградского аэродрома Черняховск. На них истребитель Су-30СМ с повреждением левой консоли крыла. На прошлой неделе аналогичный истребитель потерпел крушение , так что причиной видимо стало столкновение двух самолетов. Экипаж разбившегося Су-30 катапультировался. Подписаться на канал | наш МАХ",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-01T20:21:03.240Z",
-        "index": 20,
+        "processed_at": "2026-11-02T00:24:46.809Z",
+        "index": 12,
         "resumen": {
           "generado": true,
           "origen": "translated"
         },
-        "idioma_detectado": "en",
+        "idioma_detectado": "es",
         "idioma_original": "es",
         "categoria": "militar",
         "categorias_secundarias": [],
@@ -3060,9 +2967,9 @@
         "relevancia": 45,
         "confiabilidad_fuente": 45,
         "readability": {
-          "words": 142,
-          "sentences": 14,
-          "average_words_per_sentence": 10.14
+          "words": 112,
+          "sentences": 13,
+          "average_words_per_sentence": 8.62
         },
         "duplicate": {
           "detected": false,
@@ -3074,24 +2981,24 @@
       "final_score": 50.25
     }
   ],
-  "analyzed_at": "2026-11-01T20:21:03.251Z",
+  "analyzed_at": "2026-11-02T00:24:46.820Z",
   "analysis_stats": {
-    "input_items": 43,
-    "valid_items": 43,
+    "input_items": 42,
+    "valid_items": 42,
     "rejected_items": 0,
     "duplicate_items": 0,
     "clickbait_items": 0,
     "spam_items": 0,
-    "summaries_generated": 43,
-    "average_quality": 80,
-    "average_relevance": 57
+    "summaries_generated": 42,
+    "average_quality": 79,
+    "average_relevance": 56
   },
   "validation": {
     "version": "1.1",
-    "executed_at": "2026-11-01T20:21:03.410Z",
-    "original_items": 43,
+    "executed_at": "2026-11-02T00:24:46.943Z",
+    "original_items": 42,
     "rejected_items": 0,
-    "final_items": 43,
+    "final_items": 42,
     "limit": 60,
     "status": "ok"
   }

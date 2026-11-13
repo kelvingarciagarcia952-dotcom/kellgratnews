@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "updated_at": "2026-11-12T22:10:16.099Z",
+  "updated_at": "2026-11-13T03:16:20.823Z",
   "configuracion": {
     "limite_global": 60,
     "frecuencia_minutos": 60,
@@ -24,10 +24,86 @@
     "active_sources": 15,
     "successful_sources": 15,
     "collected_items": 63,
-    "deduplicated_items": 50,
-    "final_items": 50
+    "deduplicated_items": 51,
+    "final_items": 51
   },
   "items": [
+    {
+      "id": "5920d9090dd48e8d",
+      "fuente_id": "openai_google",
+      "fuente_nombre": "OpenAI",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "openai",
+      "nivel_fuente": "fuente_oficial",
+      "categoria": "inteligencia_artificial",
+      "idioma_original": "en",
+      "prioridad_fuente": 5,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Mejora de la robustez difusa en la seguridad de LLM con Red Teaming automatizado - Blog de investigación de alineación de OpenAI",
+      "titulo_original": "Improving Fuzzy Robustness in LLM Safety with Automated Red Teaming - OpenAI Alignment Research Blog",
+      "enlace": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE52RG9TNWRTQTg3OUJzMzhGbEUzSG1ZX0Rqek45b2ZaczE2UDVNZDNPaURwSlh2aEFBUmlvWEVWYzE5ckcySnlWMjJ6Y3NwaDlkUlVnSThxMU9GZw?oc=5",
+      "fecha": "2026-11-12T18:29:37.000Z",
+      "resumen_corto": "Mejora de la robustez difusa en la seguridad de LLM con Red Teaming automatizado Blog de investigación de alineación de OpenAI",
+      "resumen_largo": "Mejora de la robustez difusa en la seguridad de LLM con Red Teaming automatizado Blog de investigación de alineación de OpenAI",
+      "texto_original": "Improving Fuzzy Robustness in LLM Safety with Automated Red Teaming OpenAI Alignment Research Blog",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-11-13T03:16:20.704Z",
+        "index": 11,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "en",
+        "categoria": "inteligencia_artificial",
+        "categorias_secundarias": [
+          "tecnologia",
+          "moviles",
+          "vehiculos_energia"
+        ],
+        "category_scores": {
+          "inteligencia_artificial": 3,
+          "tecnologia": 3,
+          "moviles": 1,
+          "vehiculos_energia": 1,
+          "software_internet": 1
+        },
+        "entidades": [
+          "OpenAI"
+        ],
+        "cifras_detectadas": [],
+        "content_type": "report",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 92,
+        "relevancia": 78,
+        "confiabilidad_fuente": 85,
+        "readability": {
+          "words": 65,
+          "sentences": 1,
+          "average_words_per_sentence": 65
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 84.65
+    },
     {
       "id": "5ba9aafd07e4c00f",
       "fuente_id": "bbc_mundo",
@@ -41,16 +117,16 @@
       "prioridad_fuente": 5,
       "analizar": true,
       "resumir": true,
-      "titulo": "Una falla en Microsoft deja fuera de servicio el correo electrónico de Outlook y otras plataformas",
-      "titulo_original": "Una falla en Microsoft deja fuera de servicio el correo electrónico de Outlook y otras plataformas",
+      "titulo": "Una falla en Microsoft deja fuera de servicio en todo el mundo el correo electrónico de Outlook y otras plataformas",
+      "titulo_original": "Una falla en Microsoft deja fuera de servicio en todo el mundo el correo electrónico de Outlook y otras plataformas",
       "enlace": "https://www.bbc.com/mundo/articles/cm20v6ed340wo?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-12T21:28:47.000Z",
-      "resumen_corto": "La compañía indicó que la falla se presenta en diversas regiones del mundo y que trabaja para encontrar una solución: \"Hemos confirmado que el problema podría afectar la conectividad al servicio de Microsoft 365 para los usuarios de cualquier región\", indicó la empresa en X.",
-      "resumen_largo": "Los servidores de Microsoft experimentan una falla este jueves que afecta a una parte de sus programas en línea, incluido el popular servicio de correo electrónico Outlook. La compañía indicó que la falla se presenta en diversas regiones del mundo y que trabaja para encontrar una solución: \"Hemos confirmado que el problema podría afectar la conectividad al servicio de Microsoft 365 para los usuarios de cualquier región\", indicó la empresa en X. \"Varios servidores han quedado inesperadamente fuera de servicio, lo que ha sobrecargado el resto de la infraestructura.",
-      "texto_original": "Los servidores de Microsoft experimentan una falla este jueves que afecta a una parte de sus programas en línea, incluido el popular servicio de correo electrónico Outlook. La compañía indicó que la falla se presenta en diversas regiones del mundo y que trabaja para encontrar una solución: \"Hemos confirmado que el problema podría afectar la conectividad al servicio de Microsoft 365 para los usuarios de cualquier región\", indicó la empresa en X. \"Varios servidores han quedado inesperadamente fuera de servicio, lo que ha sobrecargado el resto de la infraestructura. Estamos trabajando para restablecerlos de manera segura\", añadió. La plataforma Microsoft 365 soporta varios servicios, incluido Outlook, la paquetería de Office, el chatbot Copilot y el servicio de mensajería instantánea Teams. La falla también está teniendo un impacto en los servicios de las plataformas de inteligencia artificial de OpenAI y Anthropic. Según el sitio web de seguimiento de interrupciones Downdetector, que recopila informes de estado de diversas fuentes, el principal problema se concentra en el servicio de Outlook, con más de 128.000 incidencias de usuarios que notificaron problemas con el correo en un momento del día.",
+      "fecha": "2026-11-13T02:51:53.000Z",
+      "resumen_corto": "El correo de Outlook, la aplicación de mensajería Teams y otros servicios de Microsoft 365 seguían registrando fallas horas después de que comenzara la interrupción, informó la agencia de noticias Reuters.",
+      "resumen_largo": "Los servidores de Microsoft experimentan una falla desde este jueves que afecta a una parte de sus programas en línea, incluido el popular servicio de correo electrónico Outlook. El correo de Outlook, la aplicación de mensajería Teams y otros servicios de Microsoft 365 seguían registrando fallas horas después de que comenzara la interrupción, informó la agencia de noticias Reuters. Microsoft anunció que algunos de los servidores afectados habían vuelto a funcionar y se mantenían estables.",
+      "texto_original": "Los servidores de Microsoft experimentan una falla desde este jueves que afecta a una parte de sus programas en línea, incluido el popular servicio de correo electrónico Outlook. El correo de Outlook, la aplicación de mensajería Teams y otros servicios de Microsoft 365 seguían registrando fallas horas después de que comenzara la interrupción, informó la agencia de noticias Reuters. Microsoft anunció que algunos de los servidores afectados habían vuelto a funcionar y se mantenían estables. La compañía indicó que algunos usuarios empezaban a recuperar el acceso y seguía desviando tráfico para reducir la carga sobre su infraestructura. La falla se presenta en diversas regiones del mundo, según Microsoft, que anunció previamente que \"el problema podría afectar la conectividad al servicio de Microsoft 365 para los usuarios de cualquier región\", según su comunicado en X. \"Varios servidores han quedado inesperadamente fuera de servicio, lo que ha sobrecargado el resto de la infraestructura. Estamos trabajando para restablecerlos de manera segura\", añadió.",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-12T22:10:15.974Z",
+        "processed_at": "2026-11-13T03:16:20.697Z",
         "index": 0,
         "resumen": {
           "generado": true,
@@ -58,21 +134,21 @@
         },
         "idioma_detectado": "es",
         "idioma_original": "es",
-        "categoria": "inteligencia_artificial",
+        "categoria": "hardware",
         "categorias_secundarias": [
-          "hardware",
           "vehiculos_energia",
-          "moviles"
+          "software_internet",
+          "inteligencia_artificial"
         ],
         "category_scores": {
-          "inteligencia_artificial": 7,
           "hardware": 2,
           "vehiculos_energia": 2,
+          "software_internet": 2,
+          "inteligencia_artificial": 1,
           "moviles": 1,
-          "software_internet": 1
+          "actualidad": 1
         },
         "entidades": [
-          "OpenAI",
           "Microsoft"
         ],
         "cifras_detectadas": [],
@@ -89,12 +165,12 @@
           "url_count": 0
         },
         "calidad": 92,
-        "relevancia": 83,
+        "relevancia": 78,
         "confiabilidad_fuente": 80,
         "readability": {
-          "words": 249,
-          "sentences": 12,
-          "average_words_per_sentence": 20.75
+          "words": 217,
+          "sentences": 11,
+          "average_words_per_sentence": 19.73
         },
         "duplicate": {
           "detected": false,
@@ -103,7 +179,7 @@
           "similar_to": null
         }
       },
-      "final_score": 85.4
+      "final_score": 83.4
     },
     {
       "id": "5a60fe48aac0e6ce",
@@ -127,8 +203,8 @@
       "texto_original": "Huawei OSTA sub-brand is speculated to affect smartphone sales of other tech vendors, and Honor’s senior official has now responded to this topic. The chief commented on the new product line, saying that it will open new opportunities for Honor. A tipster asked Guan Haitao Thomas, the Global CMO of Honor, whether the Huawei OSTA […] The post Will Huawei OSTA affect Honor’s smartphone sales? CMO responds appeared first on Huawei Central .",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-12T22:10:15.989Z",
-        "index": 27,
+        "processed_at": "2026-11-13T03:16:20.713Z",
+        "index": 31,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -204,8 +280,8 @@
       "texto_original": "Huawei introduced Pura X Max as the first wide-screen phone this year, and the company will expand this lineup in 2027 with a new form factor, according to a recent leak. The tech giant is reportedly planning more innovative products for the next year. As noted by Weibo tipster DigitalChatStation, Huawei will launch new wide-screen […] The post Huawei to expand wide-screen phone series in 2027 with new form factor appeared first on Huawei Central .",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-12T22:10:15.980Z",
-        "index": 7,
+        "processed_at": "2026-11-13T03:16:20.707Z",
+        "index": 17,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -283,8 +359,8 @@
       "texto_original": "Huawei continues to dominate the tablet market in Q3 2026, achieving the highest shipment volume, according to a new report. The company ranked first despite increasing the price of its recently released MatePad devices and tough market conditions. IDC released a new report revealing China’s tablet sales market performance in the third quarter of this […] The post Huawei dominates tablet sales market in Q3 2026 despite increasing price appeared first on Huawei Central .",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-12T22:10:15.991Z",
-        "index": 31,
+        "processed_at": "2026-11-13T03:16:20.714Z",
+        "index": 34,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -341,77 +417,6 @@
       "final_score": 80.7
     },
     {
-      "id": "fe1d68d5c075226f",
-      "fuente_id": "bbc_mundo",
-      "fuente_nombre": "BBC Mundo",
-      "tipo": "rss_web",
-      "subtipo": "medio_generalista",
-      "grupo_fuente": "bbc",
-      "nivel_fuente": "medio_profesional",
-      "categoria": "actualidad",
-      "idioma_original": "es",
-      "prioridad_fuente": 5,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "Jensen Huang renuncia como director ejecutivo de Nvidia tras conocerse su relación con una supuesta espía china",
-      "titulo_original": "Jensen Huang renuncia como director ejecutivo de Nvidia tras conocerse su relación con una supuesta espía china",
-      "enlace": "https://www.bbc.com/mundo/articles/cq2d9pg47052o?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-12T15:59:31.000Z",
-      "resumen_corto": "Jensen Huang, una de las figuras más importantes de la industria de la inteligencia artificial, renunció como director ejecutivo del gigante tecnológico Nvidia, según informó el consejo de administración de la empresa.",
-      "resumen_largo": "Jensen Huang, una de las figuras más importantes de la industria de la inteligencia artificial, renunció como director ejecutivo del gigante tecnológico Nvidia, según informó el consejo de administración de la empresa. Huang quedó en el ojo del huracán cuando se lo señaló por tener una relación sentimental con Alice Huang (ambos comparten apellido pero no tienen parentesco), exdirectora ejecutiva de una empresa de centros de datos con sede en Singapur. Pekín advirtió a Estados Unidos que no utilice las acusaciones de espionaje como pretexto para restringir, una vez más, las ventas de tecnología a China.",
-      "texto_original": "Jensen Huang, una de las figuras más importantes de la industria de la inteligencia artificial, renunció como director ejecutivo del gigante tecnológico Nvidia, según informó el consejo de administración de la empresa. Huang quedó en el ojo del huracán cuando se lo señaló por tener una relación sentimental con Alice Huang (ambos comparten apellido pero no tienen parentesco), exdirectora ejecutiva de una empresa de centros de datos con sede en Singapur. Pekín advirtió a Estados Unidos que no utilice las acusaciones de espionaje como pretexto para restringir, una vez más, las ventas de tecnología a China. El ejecutivo admitió el domingo pasado haberle sido \"infiel\" a su esposa y pidió disculpas por haberla lastimado a ella y a sus hijos. Días después, el diario The New York Times publicó que Huang tuvo otra relación sentimental con una empleada de su propia compañía. Nvidia ya está investigando la relación que Huang ha reconocido; el FBI también está realizando sus propias pesquisas.",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-11-12T22:10:15.977Z",
-        "index": 5,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "es",
-        "categoria": "inteligencia_artificial",
-        "categorias_secundarias": [
-          "tecnologia"
-        ],
-        "category_scores": {
-          "inteligencia_artificial": 3,
-          "tecnologia": 2
-        },
-        "entidades": [
-          "NVIDIA"
-        ],
-        "cifras_detectadas": [],
-        "content_type": "report",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 92,
-        "relevancia": 70,
-        "confiabilidad_fuente": 80,
-        "readability": {
-          "words": 248,
-          "sentences": 10,
-          "average_words_per_sentence": 24.8
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 80.2
-    },
-    {
       "id": "e35be1eacd84449c",
       "fuente_id": "huawei_central",
       "fuente_nombre": "Huawei Central",
@@ -433,8 +438,8 @@
       "texto_original": "Huawei Pura 90s Series is getting 9 free care services in South Africa. The tech giant has launched a new “Worry-Free Care Package” for the camera flagship, offering multiple after-sales services. Every consumer purchasing the device will get these benefits. Huawei South Africa announced that Pura 90s series customers can receive up to 9 free […] The post Huawei Pura 90s Series gets 9 free care services in South Africa appeared first on Huawei Central .",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-12T22:10:15.982Z",
-        "index": 13,
+        "processed_at": "2026-11-13T03:16:20.709Z",
+        "index": 24,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -509,8 +514,8 @@
       "texto_original": "Huawei Mate X8 foldable could launch on November 24 alongside the compact MateBook Fold S PC, according to a new leak. The foldable is expected to debut later this month, and a new piece of information speculates on its possible launch date. Weibo tipster GuoJing suggests that the Huawei Mate X8 will launch on 24 […] The post Huawei Mate X8 expected to launch on November 24 with a teleconverter appeared first on Huawei Central .",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-12T22:10:15.987Z",
-        "index": 23,
+        "processed_at": "2026-11-13T03:16:20.711Z",
+        "index": 29,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -588,8 +593,8 @@
       "texto_original": "Honor 700 Pro has visited Geekbench ahead of tomorrow’s launch. The device has shown stronger performance in both single- and multi-core testing than the previous-generation models. The listing further confirms the sub-flagship’s chipset details. Honor 700 series, including Standard, Pro, and 700S, will launch tomorrow, and its Geekbench scores are out today. The company says […] The post Honor 700 Pro Geekbench shows strong performance before tomorrow’s launch appeared first on Huawei Central .",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-12T22:10:15.983Z",
-        "index": 16,
+        "processed_at": "2026-11-13T03:16:20.710Z",
+        "index": 27,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -645,228 +650,6 @@
       "final_score": 75.65
     },
     {
-      "id": "4675bda5bed42e38",
-      "fuente_id": "bbc_mundo",
-      "fuente_nombre": "BBC Mundo",
-      "tipo": "rss_web",
-      "subtipo": "medio_generalista",
-      "grupo_fuente": "bbc",
-      "nivel_fuente": "medio_profesional",
-      "categoria": "actualidad",
-      "idioma_original": "es",
-      "prioridad_fuente": 5,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "4 claves del escándalo de los supuestos \"sexocontratos\" por el que se investiga al expresidente de Colombia Gustavo Petro",
-      "titulo_original": "4 claves del escándalo de los supuestos \"sexocontratos\" por el que se investiga al expresidente de Colombia Gustavo Petro",
-      "enlace": "https://www.bbc.com/mundo/articles/cr3wg62qwjz9o?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-12T11:59:08.000Z",
-      "resumen_corto": "Gustavo Petro se encuentra en el ojo de un huracán político y mediático por las acusaciones de una mujer que afirma que consiguió contratos con el Estado gracias a que tuvo relaciones sexuales con él.",
-      "resumen_largo": "Gustavo Petro se encuentra en el ojo de un huracán político y mediático por las acusaciones de una mujer que afirma que consiguió contratos con el Estado gracias a que tuvo relaciones sexuales con él. El escándalo se desató el pasado 25 de octubre. Deicy Jiménez, hasta entonces desconocida para la opinión pública, dio una entrevista de 22 minutos a la periodista Vicky Dávila, directora de Revista Semana y exprecandidata presidencial, opositora a Petro.",
-      "texto_original": "Gustavo Petro se encuentra en el ojo de un huracán político y mediático por las acusaciones de una mujer que afirma que consiguió contratos con el Estado gracias a que tuvo relaciones sexuales con él. El escándalo se desató el pasado 25 de octubre. Deicy Jiménez, hasta entonces desconocida para la opinión pública, dio una entrevista de 22 minutos a la periodista Vicky Dávila, directora de Revista Semana y exprecandidata presidencial, opositora a Petro. En esta, aseguró que tuvo una relación romántica con Petro y que fue contratada por varias entidades del Estado antes y durante la presidencia del mandatario. También afirmó que no es la única. Según dijo, se trataba de una red de \"entre 30 y 40 mujeres\" que se beneficiaron de contratos y puestos en el Estado a cambio de \"acompañar\" al expresidente en \"fiestas sexuales\". Por ahora, no se conocen testimonios de otras mujeres ni pruebas de que se tratara de una red. Después de la entrevista, Jiménez publicó un video en sus redes sociales que probaría que sí tuvo una relación con Petro.",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-11-12T22:10:15.985Z",
-        "index": 18,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "es",
-        "categoria": "vehiculos_energia",
-        "categorias_secundarias": [
-          "actualidad",
-          "inteligencia_artificial",
-          "semiconductores"
-        ],
-        "category_scores": {
-          "vehiculos_energia": 2,
-          "actualidad": 2,
-          "inteligencia_artificial": 1,
-          "semiconductores": 1,
-          "moviles": 1
-        },
-        "entidades": [],
-        "cifras_detectadas": [
-          "22 m",
-          "40 m"
-        ],
-        "content_type": "report",
-        "clickbait": {
-          "detected": false,
-          "score": 25,
-          "signals": [
-            "\\bescándalo\\b"
-          ]
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 92,
-        "relevancia": 57,
-        "confiabilidad_fuente": 80,
-        "readability": {
-          "words": 223,
-          "sentences": 12,
-          "average_words_per_sentence": 18.58
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 75
-    },
-    {
-      "id": "72fa452fc8cfc67d",
-      "fuente_id": "openai_google",
-      "fuente_nombre": "OpenAI",
-      "tipo": "rss_web",
-      "subtipo": "google_news",
-      "grupo_fuente": "openai",
-      "nivel_fuente": "fuente_oficial",
-      "categoria": "inteligencia_artificial",
-      "idioma_original": "en",
-      "prioridad_fuente": 5,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "Configurar su negocio en ChatGPT - Centro de ayuda de OpenAI",
-      "titulo_original": "Setting up your business on ChatGPT - OpenAI Help Center",
-      "enlace": "https://news.google.com/rss/articles/CBMihwFBVV95cUxORGs2WGtjd2laRGxleFNUREVpOXZkR0V5NDd0QkFSeDZhRmlSX2c1SkxfVlRpbC1CdC1CbDJTV0dyV1Q3cXFoZXREblJjOXgwZS1iY0dzN0pxUnRCNHQwbTdpODZUYk5INnV2Sy1xRGVXb1ZKOXFjMEE5LXJFMXZfWGh3V2s4Ymc?oc=5",
-      "fecha": "2026-11-12T19:55:18.000Z",
-      "resumen_corto": "Configurar tu negocio en ChatGPT Centro de ayuda de OpenAI",
-      "resumen_largo": "Configurar tu negocio en ChatGPT Centro de ayuda de OpenAI",
-      "texto_original": "Setting up your business on ChatGPT OpenAI Help Center",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-11-12T22:10:15.975Z",
-        "index": 1,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "en",
-        "categoria": "inteligencia_artificial",
-        "categorias_secundarias": [],
-        "category_scores": {
-          "inteligencia_artificial": 4
-        },
-        "entidades": [
-          "OpenAI",
-          "ChatGPT"
-        ],
-        "cifras_detectadas": [],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 84,
-        "relevancia": 67,
-        "confiabilidad_fuente": 75,
-        "readability": {
-          "words": 32,
-          "sentences": 1,
-          "average_words_per_sentence": 32
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 74.95
-    },
-    {
-      "id": "541a8b86ebd83643",
-      "fuente_id": "openai_google",
-      "fuente_nombre": "OpenAI",
-      "tipo": "rss_web",
-      "subtipo": "google_news",
-      "grupo_fuente": "openai",
-      "nivel_fuente": "fuente_oficial",
-      "categoria": "inteligencia_artificial",
-      "idioma_original": "en",
-      "prioridad_fuente": 5,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "Errores elevados que afectan los inicios de sesión, los registros y las funciones de ChatGPT - Estado de OpenAI",
-      "titulo_original": "Elevated errors affecting logins, sign-ups, and ChatGPT features - OpenAI Status",
-      "enlace": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1GdEFtUS1DM05HcGkwS0lMSUpYYjdMY1JxNklscHBpdEM0QXlFR2t5ZF9UVWgxMWVxMnRya3JMSnoyMmxQNk1RSWV1c1owWFpvelJlSTg4dw?oc=5",
-      "fecha": "2026-11-11T21:48:54.000Z",
-      "resumen_corto": "Errores elevados que afectan los inicios de sesión, los registros y las funciones de ChatGPT Estado de OpenAI",
-      "resumen_largo": "Errores elevados que afectan los inicios de sesión, los registros y las funciones de ChatGPT Estado de OpenAI",
-      "texto_original": "Elevated errors affecting logins, sign-ups, and ChatGPT features OpenAI Status",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-11-12T22:10:15.993Z",
-        "index": 36,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "en",
-        "categoria": "inteligencia_artificial",
-        "categorias_secundarias": [
-          "moviles",
-          "vehiculos_energia"
-        ],
-        "category_scores": {
-          "inteligencia_artificial": 4,
-          "moviles": 1,
-          "vehiculos_energia": 1
-        },
-        "entidades": [
-          "OpenAI",
-          "ChatGPT"
-        ],
-        "cifras_detectadas": [],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 84,
-        "relevancia": 67,
-        "confiabilidad_fuente": 75,
-        "readability": {
-          "words": 64,
-          "sentences": 1,
-          "average_words_per_sentence": 64
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 74.95
-    },
-    {
       "id": "66af44841f9baa4f",
       "fuente_id": "openai_google",
       "fuente_nombre": "OpenAI",
@@ -888,8 +671,8 @@
       "texto_original": "ChatGPT Plus for veterans and servicemembers OpenAI",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-12T22:10:15.993Z",
-        "index": 39,
+        "processed_at": "2026-11-13T03:16:20.715Z",
+        "index": 40,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -936,43 +719,49 @@
       "final_score": 74.95
     },
     {
-      "id": "35fc150e14df39f2",
-      "fuente_id": "openai_google",
-      "fuente_nombre": "OpenAI",
+      "id": "3c0107899b1fea29",
+      "fuente_id": "bbc_mundo",
+      "fuente_nombre": "BBC Mundo",
       "tipo": "rss_web",
-      "subtipo": "google_news",
-      "grupo_fuente": "openai",
-      "nivel_fuente": "fuente_oficial",
-      "categoria": "inteligencia_artificial",
-      "idioma_original": "en",
+      "subtipo": "medio_generalista",
+      "grupo_fuente": "bbc",
+      "nivel_fuente": "medio_profesional",
+      "categoria": "actualidad",
+      "idioma_original": "es",
       "prioridad_fuente": 5,
       "analizar": true,
       "resumir": true,
-      "titulo": "Retirar voz avanzada y estándar en ChatGPT - Centro de ayuda de OpenAI",
-      "titulo_original": "Retiring Advanced and Standard Voice in ChatGPT - OpenAI Help Center",
-      "enlace": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQbW83bUFGTFBpOGlVOEZkWEwtbHMwcklsN3BwRzJtZjhTbVpkcXMzNVFFcDdZcXNpelpGcHpQTmFXLWF6YnNpYTQtYUV5Wm5EeFZRdDVHa0diNlppdXp3emotUlZNMmdXcnVCWVlPZmdGSmFRSk9MYXBfbDVfbVhWa1RrR0pYeTFwMmkwejZqdGZEVXZZTGJn?oc=5",
-      "fecha": "2026-11-11T01:32:24.000Z",
-      "resumen_corto": "Retirar voz avanzada y estándar en ChatGPT Centro de ayuda de OpenAI",
-      "resumen_largo": "Retirar voz avanzada y estándar en ChatGPT Centro de ayuda de OpenAI",
-      "texto_original": "Retiring Advanced and Standard Voice in ChatGPT OpenAI Help Center",
+      "titulo": "Cómo el visionario de la IA Jensen Huang cayó en desgracia por sus malas decisiones amorosas",
+      "titulo_original": "Cómo el visionario de la IA Jensen Huang cayó en desgracia por sus malas decisiones amorosas",
+      "enlace": "https://www.bbc.com/mundo/articles/crgqx8yqgevjo?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-11-12T22:17:54.000Z",
+      "resumen_corto": "Si les hubiera dicho la semana pasada que Jensen Huang estaba a punto de dejar Nvidia, no me habrían creído.",
+      "resumen_largo": "Si les hubiera dicho la semana pasada que Jensen Huang estaba a punto de dejar Nvidia, no me habrían creído. El hombre que cofundó esta exitosa empresa de chips de IA, trabajando incansablemente para construirla desde cero y guiándola a través de tiempos desastrosos con energía inagotable y determinación implacable, ha acabado siendo víctima de su propia vida amorosa. Es una historia extraordinaria y extrañamente anticuada para una empresa tecnológica que tiene la mirada puesta en el futuro.",
+      "texto_original": "Si les hubiera dicho la semana pasada que Jensen Huang estaba a punto de dejar Nvidia, no me habrían creído. El hombre que cofundó esta exitosa empresa de chips de IA, trabajando incansablemente para construirla desde cero y guiándola a través de tiempos desastrosos con energía inagotable y determinación implacable, ha acabado siendo víctima de su propia vida amorosa. Es una historia extraordinaria y extrañamente anticuada para una empresa tecnológica que tiene la mirada puesta en el futuro. Dio lugar a una gran cantidad de memes virales, en los que se veía a Huang como el hombre captado por la \"kiss-cam\" de Coldplay con una colega casada, o cantando la clásica canción de George Michael sobre la traición, Careless Whisper . Irónicamente, ambos fueron generados por inteligencia artificial con la misma tecnología que él estaba ayudando a desarrollar. Esta semana me reuní con dos ejecutivos de Silicon Valley y les pregunté cómo estaban asimilando la noticia; su respuesta fue: \"En memes\".",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-12T22:10:15.994Z",
-        "index": 40,
+        "processed_at": "2026-11-13T03:16:20.702Z",
+        "index": 6,
         "resumen": {
           "generado": true,
           "origen": "translated"
         },
-        "idioma_detectado": "en",
-        "idioma_original": "en",
+        "idioma_detectado": "es",
+        "idioma_original": "es",
         "categoria": "inteligencia_artificial",
-        "categorias_secundarias": [],
+        "categorias_secundarias": [
+          "semiconductores",
+          "tecnologia",
+          "vehiculos_energia"
+        ],
         "category_scores": {
-          "inteligencia_artificial": 4
+          "inteligencia_artificial": 4,
+          "semiconductores": 2,
+          "tecnologia": 2,
+          "vehiculos_energia": 1
         },
         "entidades": [
-          "OpenAI",
-          "ChatGPT"
+          "NVIDIA"
         ],
         "cifras_detectadas": [],
         "content_type": "news",
@@ -988,12 +777,12 @@
           "url_count": 0
         },
         "calidad": 84,
-        "relevancia": 67,
-        "confiabilidad_fuente": 75,
+        "relevancia": 70,
+        "confiabilidad_fuente": 70,
         "readability": {
-          "words": 42,
-          "sentences": 1,
-          "average_words_per_sentence": 42
+          "words": 210,
+          "sentences": 10,
+          "average_words_per_sentence": 21
         },
         "duplicate": {
           "detected": false,
@@ -1002,7 +791,7 @@
           "similar_to": null
         }
       },
-      "final_score": 74.95
+      "final_score": 74.9
     },
     {
       "id": "bbd625d55ed760a0",
@@ -1026,7 +815,7 @@
       "texto_original": "All Specs, Features of Xiaomi Watch S5 41mm | Xiaomi Global Xiaomi",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-12T22:10:15.994Z",
+        "processed_at": "2026-11-13T03:16:20.715Z",
         "index": 41,
         "resumen": {
           "generado": true,
@@ -1081,81 +870,6 @@
       "final_score": 74.7
     },
     {
-      "id": "d4d2e2fbef4b8d4c",
-      "fuente_id": "xiaomi_google",
-      "fuente_nombre": "Xiaomi",
-      "tipo": "rss_web",
-      "subtipo": "google_news",
-      "grupo_fuente": "xiaomi",
-      "nivel_fuente": "fuente_oficial",
-      "categoria": "moviles",
-      "idioma_original": "en",
-      "prioridad_fuente": 5,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "Pantalla trasera completamente nueva",
-      "titulo_original": "All-new Back Display - Xiaomi",
-      "enlace": "https://news.google.com/rss/articles/CBMibkFVX3lxTE0tMnN3LURqSVREd0QzeHRqSFlQVXVCZ1NmTkw4bTN0VW5obzFwSENvYlJlc18zMTY3Y1VNWGoxd1YxX1dVNS00eVlRVjlVdnFCOEJIZVowcDQ0LXJRZVU4UGpMTlkwOWhVOG1jLXBn?oc=5",
-      "fecha": "2026-11-09T14:25:28.000Z",
-      "resumen_corto": "Nueva pantalla trasera Xiaomi",
-      "resumen_largo": "Nueva pantalla trasera Xiaomi",
-      "texto_original": "All-new Back Display Xiaomi",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-11-12T22:10:15.995Z",
-        "index": 44,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "en",
-        "idioma_original": "en",
-        "categoria": "inteligencia_artificial",
-        "categorias_secundarias": [
-          "moviles",
-          "hardware",
-          "vehiculos_energia"
-        ],
-        "category_scores": {
-          "inteligencia_artificial": 1,
-          "moviles": 1,
-          "hardware": 1,
-          "vehiculos_energia": 1
-        },
-        "entidades": [
-          "Xiaomi"
-        ],
-        "cifras_detectadas": [],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 84,
-        "relevancia": 62,
-        "confiabilidad_fuente": 75,
-        "readability": {
-          "words": 22,
-          "sentences": 1,
-          "average_words_per_sentence": 22
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 72.95
-    },
-    {
       "id": "4cc7348a4ac323a4",
       "fuente_id": "techinsights_google",
       "fuente_nombre": "TechInsights",
@@ -1177,8 +891,8 @@
       "texto_original": "2027 CMC Conference Arizona | Semiconductor Materials Conference TechInsights",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-12T22:10:15.996Z",
-        "index": 48,
+        "processed_at": "2026-11-13T03:16:20.717Z",
+        "index": 49,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -1233,6 +947,78 @@
       "final_score": 72.2
     },
     {
+      "id": "e1689760fac3991b",
+      "fuente_id": "openai_google",
+      "fuente_nombre": "OpenAI",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "openai",
+      "nivel_fuente": "fuente_oficial",
+      "categoria": "inteligencia_artificial",
+      "idioma_original": "en",
+      "prioridad_fuente": 5,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Errores elevados que afectan al conector de Microsoft 365 - Estado de OpenAI",
+      "titulo_original": "Elevated errors affecting the Microsoft 365 connector - OpenAI Status",
+      "enlace": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBIcEtTTXBuVGpWVnctLTFEa1hVdUJ0UnRqekZYTHhkdjFjbWtZVjFrVVJwalB2VEZYX1UwM213Q2hYc1FiYkFYMFFrUEdaYnBET3RQWTRHUTQ5M1lUOFRYUTZobHo1TElEU2Y3UjFETQ?oc=5",
+      "fecha": "2026-11-12T18:29:14.000Z",
+      "resumen_corto": "Errores elevados que afectan el estado OpenAI del conector de Microsoft 365",
+      "resumen_largo": "Errores elevados que afectan el estado OpenAI del conector de Microsoft 365",
+      "texto_original": "Elevated errors affecting the Microsoft 365 connector OpenAI Status",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-11-13T03:16:20.704Z",
+        "index": 12,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "en",
+        "categoria": "inteligencia_artificial",
+        "categorias_secundarias": [
+          "vehiculos_energia"
+        ],
+        "category_scores": {
+          "inteligencia_artificial": 2,
+          "vehiculos_energia": 1
+        },
+        "entidades": [
+          "OpenAI",
+          "Microsoft"
+        ],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 84,
+        "relevancia": 60,
+        "confiabilidad_fuente": 75,
+        "readability": {
+          "words": 47,
+          "sentences": 1,
+          "average_words_per_sentence": 47
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 72.15
+    },
+    {
       "id": "7bb51b599e6a85bd",
       "fuente_id": "bbc_mundo",
       "fuente_nombre": "BBC Mundo",
@@ -1254,8 +1040,8 @@
       "texto_original": "El colapso de Ueno Bank desencadenó una crisis política en Paraguay que terminó con la destitución del presidente Santiago Peña. Pero las consecuencias van mucho más allá de la caída de un gobierno. El impacto económico de la quiebra de una entidad que se presentaba como el gran éxito del sistema financiero paraguayo ya empieza a quedar en evidencia. Esta semana, Fitch Ratings retiró la perspectiva positiva que mantenía sobre Paraguay, en medio de la crisis bancaria provocada por la resolución de Ueno Bank, la tormenta política y el deterioro de las cuentas fiscales del país. La decisión supone un duro golpe para la credibilidad financiera de la nación sudamericana. Sin embargo, no supone una sorpresa. En apenas tres años, Ueno Bank pasó de ser una pequeña financiera a convertirse en el banco con más clientes de Paraguay y uno de los principales actores de su sistema financiero. Para algunos, aquel éxito parecía demasiado bueno para ser verdad. A medida que el banco crecía, también lo hacían las sospechas de que algo no cuadraba.",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-12T22:10:15.978Z",
-        "index": 6,
+        "processed_at": "2026-11-13T03:16:20.706Z",
+        "index": 16,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -1325,8 +1111,8 @@
       "texto_original": "Honor 700 series will bring 9000mAh battery and 4K cinematic mode Huawei Central",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-12T22:10:15.992Z",
-        "index": 33,
+        "processed_at": "2026-11-13T03:16:20.714Z",
+        "index": 36,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -1402,8 +1188,8 @@
       "texto_original": "Honor 6.39-inch wide phone to use 200MP camera and 8000mAh battery Huawei Central",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-12T22:10:15.993Z",
-        "index": 38,
+        "processed_at": "2026-11-13T03:16:20.715Z",
+        "index": 39,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -1458,6 +1244,145 @@
       "final_score": 70.5
     },
     {
+      "id": "12f4153fdef97b61",
+      "fuente_id": "openai_google",
+      "fuente_nombre": "OpenAI",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "openai",
+      "nivel_fuente": "fuente_oficial",
+      "categoria": "inteligencia_artificial",
+      "idioma_original": "en",
+      "prioridad_fuente": 5,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Equipo Rojo del Amanecer | Pruebas de penetración de IA: OpenAI",
+      "titulo_original": "Daybreak Red Team | AI Penetration Testing - OpenAI",
+      "enlace": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFB2R0hiUV9ZSm9KZmsxSHp4bzhPcWFEWm9IOC1GTHhYeWNWbDRNRmRpbG9fUWR3NFctbmpWTzFOZEU1WWZYQzB3ODlCblc4dw?oc=5",
+      "fecha": "2026-11-12T19:30:14.000Z",
+      "resumen_corto": "Equipo Rojo del Amanecer | Pruebas de penetración de IA OpenAI",
+      "resumen_largo": "Equipo Rojo del Amanecer | Pruebas de penetración de IA OpenAI",
+      "texto_original": "Daybreak Red Team | AI Penetration Testing OpenAI",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-11-13T03:16:20.703Z",
+        "index": 10,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "en",
+        "categoria": "inteligencia_artificial",
+        "categorias_secundarias": [],
+        "category_scores": {
+          "inteligencia_artificial": 3
+        },
+        "entidades": [
+          "OpenAI"
+        ],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 84,
+        "relevancia": 55,
+        "confiabilidad_fuente": 75,
+        "readability": {
+          "words": 33,
+          "sentences": 1,
+          "average_words_per_sentence": 33
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 70.15
+    },
+    {
+      "id": "340018571250e39b",
+      "fuente_id": "xiaomi_google",
+      "fuente_nombre": "Xiaomi",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "xiaomi",
+      "nivel_fuente": "fuente_oficial",
+      "categoria": "moviles",
+      "idioma_original": "en",
+      "prioridad_fuente": 5,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Lanzamiento de la serie Xiaomi 18 Pro",
+      "titulo_original": "Xiaomi 18 Pro Series Launch - Xiaomi",
+      "enlace": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBnLWhKUHNPRUVkVDFUSGR0UUR2U2RuREVGZE53b0Jtb1BoV3UxQmxPcGNpbjByLVAzeU81c3NzY1BhMWs4TkU4ZDZmWkluUVVEcUJhRXZJV3RvUEhhV1JuQk5EYVlsY2dj?oc=5",
+      "fecha": "2026-11-09T13:00:54.000Z",
+      "resumen_corto": "Lanzamiento de la serie Xiaomi 18 Pro Xiaomi",
+      "resumen_largo": "Lanzamiento de la serie Xiaomi 18 Pro Xiaomi",
+      "texto_original": "Xiaomi 18 Pro Series Launch Xiaomi",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-11-13T03:16:20.716Z",
+        "index": 45,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "en",
+        "categoria": "inteligencia_artificial",
+        "categorias_secundarias": [
+          "moviles"
+        ],
+        "category_scores": {
+          "inteligencia_artificial": 1,
+          "moviles": 1
+        },
+        "entidades": [
+          "Xiaomi"
+        ],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 84,
+        "relevancia": 55,
+        "confiabilidad_fuente": 75,
+        "readability": {
+          "words": 24,
+          "sentences": 1,
+          "average_words_per_sentence": 24
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 70.15
+    },
+    {
       "id": "1cc4b9e293fee27b",
       "fuente_id": "byd_google",
       "fuente_nombre": "BYD",
@@ -1479,8 +1404,8 @@
       "texto_original": "YANGWANG ALTIOR makes its global debut in Abu Dhabi: a higher expression of power BYD",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-12T22:10:15.996Z",
-        "index": 47,
+        "processed_at": "2026-11-13T03:16:20.717Z",
+        "index": 48,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -1531,7 +1456,7 @@
       "final_score": 70.15
     },
     {
-      "id": "9d7e911cda7f478e",
+      "id": "60d3068a2c4c7f1d",
       "fuente_id": "catl_google",
       "fuente_nombre": "CATL",
       "tipo": "rss_web",
@@ -1543,17 +1468,17 @@
       "prioridad_fuente": 5,
       "analizar": true,
       "resumir": true,
-      "titulo": "Innovar para la energía sostenible, asegurar un futuro compartido para la humanidad",
-      "titulo_original": "Innovate for Sustainable Energy, Secure a Shared Future for Humanity - CATL",
-      "enlace": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9QanMxNm1IeXdQWVdSYzgzTkVQRW4xai1mY3VWMlFlUWVnaDVBRnhTaU1fQXNYaUlHSjNCMnV4Zlg2amJERlYyUkZ2QVZ2T1k?oc=5",
-      "fecha": "2026-10-31T07:00:00.000Z",
-      "resumen_corto": "Innovar para lograr energía sostenible y asegurar un futuro compartido para la humanidad CATL",
-      "resumen_largo": "Innovar para lograr energía sostenible y asegurar un futuro compartido para la humanidad CATL",
-      "texto_original": "Innovate for Sustainable Energy, Secure a Shared Future for Humanity CATL",
+      "titulo": "CATL y Blue Vector firman acuerdos de cooperación estratégica y de productos para el avión SKYLA V30",
+      "titulo_original": "CATL and Blue Vector Sign Strategic and Product Cooperation Agreements for SKYLA V30 Aircraft - CATL",
+      "enlace": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5GZ1l4el9yeElueTFXX2ZTTG9JcktwbUhPdnJ4aXdCNzQyWFVhT2dWZlV6SVliY2ExS3d4VVVvQTh2UEtLMWtpand5eEQtMnc?oc=5",
+      "fecha": "2026-11-02T08:00:00.000Z",
+      "resumen_corto": "CATL y Blue Vector firman acuerdos de cooperación estratégica y de productos para el avión SKYLA V30 CATL",
+      "resumen_largo": "CATL y Blue Vector firman acuerdos de cooperación estratégica y de productos para el avión SKYLA V30 CATL",
+      "texto_original": "CATL and Blue Vector Sign Strategic and Product Cooperation Agreements for SKYLA V30 Aircraft CATL",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-12T22:10:15.996Z",
-        "index": 49,
+        "processed_at": "2026-11-13T03:16:20.717Z",
+        "index": 50,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -1565,7 +1490,7 @@
           "baterias_energia"
         ],
         "category_scores": {
-          "inteligencia_artificial": 2,
+          "inteligencia_artificial": 1,
           "baterias_energia": 1
         },
         "entidades": [
@@ -1588,9 +1513,9 @@
         "relevancia": 55,
         "confiabilidad_fuente": 75,
         "readability": {
-          "words": 51,
+          "words": 68,
           "sentences": 1,
-          "average_words_per_sentence": 51
+          "average_words_per_sentence": 68
         },
         "duplicate": {
           "detected": false,
@@ -1623,8 +1548,8 @@
       "texto_original": "Apex Neural Rendering Challenges NVIDIA DLSS With Up To 2.4X Faster Frame Generation, 62% Lower VRAM Usage, And Broad GPU Support Wccftech",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-12T22:10:15.984Z",
-        "index": 17,
+        "processed_at": "2026-11-13T03:16:20.711Z",
+        "index": 28,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -1681,44 +1606,194 @@
       "final_score": 69.75
     },
     {
-      "id": "f2104e43bf4eb102",
-      "fuente_id": "ia_dia",
-      "fuente_nombre": "IA al Día",
+      "id": "9dcb9514a1c0c92d",
+      "fuente_id": "bbc_mundo",
+      "fuente_nombre": "BBC Mundo",
       "tipo": "rss_web",
-      "subtipo": "google_news",
-      "grupo_fuente": "ia_general",
-      "nivel_fuente": "agregador",
-      "categoria": "inteligencia_artificial",
+      "subtipo": "medio_generalista",
+      "grupo_fuente": "bbc",
+      "nivel_fuente": "medio_profesional",
+      "categoria": "actualidad",
       "idioma_original": "es",
-      "prioridad_fuente": 3,
+      "prioridad_fuente": 5,
       "analizar": true,
       "resumir": true,
-      "titulo": "Demandan a Anthropic, Google, Meta, OpenAI y SpaceXSI, acusándolas de no poder detener los daños causados por la inteligencia artificial - El Mundo",
-      "titulo_original": "Demandan a Anthropic, Google, Meta, OpenAI y SpaceXSI, acusándolas de no poder detener los daños causados por la inteligencia artificial - El Mundo",
-      "enlace": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPaDlIeE5TcUhIYm5pMWhSZXJsQlFONml3dG1tTVVpVmQ4ek9xUklfNVJIRHhQcDdNU1JwVHNJdG53MzZGTnFuamNZMUs2dE1zYWlQOHJLVENXZms3MUlDeGFLZ2c1RkYxMmRNOXQtT1BMdE1DclFZQ2FwY3ZhWVRUaTBTbWRhR0pD0gGIAUFVX3lxTE1Od2NUTjRJblEycmZmRC1zbG5Vd2NXLXlhZ3J4Q0N0YUVKR1gzN2hqdUstem1udDgyUGZxOG5FM3lfZ3RxRDZGc3dlOHBtNDVaR0oyNUxwb0t1aDZmUjFCMUxrT0l5ZHVnRmUxVFFUWDkyTmx6NHBJY2lGVmcxM3VtOGdueGQ4MWg?oc=5",
-      "fecha": "2026-11-12T16:13:24.000Z",
-      "resumen_corto": "Demandan a Anthropic, Google, Meta, OpenAI y SpaceXSI, acusándolas de no poder detener los daños causados por la inteligencia artificial El Mundo",
-      "resumen_largo": "Demandan a Anthropic, Google, Meta, OpenAI y SpaceXSI, acusándolas de no poder detener los daños causados por la inteligencia artificial El Mundo",
-      "texto_original": "Demandan a Anthropic, Google, Meta, OpenAI y SpaceXSI, acusándolas de no poder detener los daños causados por la inteligencia artificial El Mundo",
+      "titulo": "La nueva película que muestra cómo Sylvester Stallone pasó de vivir en la calle a convertirse en estrella de Hollywood gracias a su guion de \"Rocky\"",
+      "titulo_original": "La nueva película que muestra cómo Sylvester Stallone pasó de vivir en la calle a convertirse en estrella de Hollywood gracias a su guion de \"Rocky\"",
+      "enlace": "https://www.bbc.com/mundo/articles/cvkg5je34zy5o?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-11-12T22:43:47.000Z",
+      "resumen_corto": "Un joven Sylvester Stallone vive en las calles de Nueva York a principios de la década de 1970, sin hogar y con solo su perro, Butkus, como compañía.",
+      "resumen_largo": "Un joven Sylvester Stallone vive en las calles de Nueva York a principios de la década de 1970, sin hogar y con solo su perro, Butkus, como compañía. Entre una audición y otra para papeles que nunca consigue, trabaja jornadas agotadoras quitándoles las vísceras al pescado. Se ríen de él por su ambición de ser actor, ya que haber nacido con fórceps le ha dejado con una parálisis facial parcial y un problema de habla, que intenta mejorar grabándose y escuchando su propia voz.",
+      "texto_original": "Un joven Sylvester Stallone vive en las calles de Nueva York a principios de la década de 1970, sin hogar y con solo su perro, Butkus, como compañía. Entre una audición y otra para papeles que nunca consigue, trabaja jornadas agotadoras quitándoles las vísceras al pescado. Se ríen de él por su ambición de ser actor, ya que haber nacido con fórceps le ha dejado con una parálisis facial parcial y un problema de habla, que intenta mejorar grabándose y escuchando su propia voz. Este es el punto de partida de \"Yo soy Rocky\" ( I Play Rocky) , dirigida por Peter Farrelly (el director de Green Book ), que cuenta la historia de cómo Stallone creó el icónico drama de boxeo Rocky . El nuevo filme está protagonizado por el relativamente desconocido Anthony Ippolito, quien da vida al joven Stallone, cuya ambición frustrada de ser actor lo llevó a empezar a escribir guiones. En la película, lo vemos mudarse a Los Ángeles, donde es tan pobre que tiene que vender temporalmente a su perro Butkus, que más tarde también tiene un papel en la película. Tras muchos desafíos en el camino para llevarla a la pantalla, Rocky se convirtió en el mayor éxito de taquilla de 1976 y ganó el premio a la mejor película en la entrega de los Oscar de 1977. Es la historia de éxito hollywoodense por excelencia.",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-12T22:10:15.976Z",
-        "index": 4,
+        "processed_at": "2026-11-13T03:16:20.699Z",
+        "index": 2,
         "resumen": {
           "generado": true,
           "origen": "translated"
         },
         "idioma_detectado": "es",
         "idioma_original": "es",
-        "categoria": "inteligencia_artificial",
-        "categorias_secundarias": [],
+        "categoria": "vehiculos_energia",
+        "categorias_secundarias": [
+          "inteligencia_artificial",
+          "semiconductores",
+          "moviles"
+        ],
         "category_scores": {
-          "inteligencia_artificial": 6
+          "vehiculos_energia": 2,
+          "inteligencia_artificial": 1,
+          "semiconductores": 1,
+          "moviles": 1,
+          "hardware": 1
+        },
+        "entidades": [],
+        "cifras_detectadas": [
+          "1970",
+          "1976",
+          "1977"
+        ],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 84,
+        "relevancia": 57,
+        "confiabilidad_fuente": 70,
+        "readability": {
+          "words": 265,
+          "sentences": 12,
+          "average_words_per_sentence": 22.08
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 69.7
+    },
+    {
+      "id": "e1ed18593d51ac2d",
+      "fuente_id": "bbc_mundo",
+      "fuente_nombre": "BBC Mundo",
+      "tipo": "rss_web",
+      "subtipo": "medio_generalista",
+      "grupo_fuente": "bbc",
+      "nivel_fuente": "medio_profesional",
+      "categoria": "actualidad",
+      "idioma_original": "es",
+      "prioridad_fuente": 5,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "En Video: el momento del rescate con vida de un adolescente en Australia que estuvo 6 días perdido en un bosque",
+      "titulo_original": "En Video: el momento del rescate con vida de un adolescente en Australia que estuvo 6 días perdido en un bosque",
+      "enlace": "https://www.bbc.com/mundo/articles/c60md00vxkj2o?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-11-12T18:21:28.000Z",
+      "resumen_corto": "William, cuyo apellido no ha sido revelado, desapareció el viernes pasado mientras estaba acampando con un amigo en una zona boscosa unos 180 kilómetros al este de Melbourne, Australia.",
+      "resumen_largo": "Un adolescente que llevaba seis días desaparecido en una densa zona de matorrales australianos fue encontrado con vida. William, cuyo apellido no ha sido revelado, desapareció el viernes pasado mientras estaba acampando con un amigo en una zona boscosa unos 180 kilómetros al este de Melbourne, Australia. Las temperaturas extremadamente bajas registradas durante la noche habían generado preocupación entre las autoridades por el bienestar del muchacho, de 17 años.",
+      "texto_original": "Un adolescente que llevaba seis días desaparecido en una densa zona de matorrales australianos fue encontrado con vida. William, cuyo apellido no ha sido revelado, desapareció el viernes pasado mientras estaba acampando con un amigo en una zona boscosa unos 180 kilómetros al este de Melbourne, Australia. Las temperaturas extremadamente bajas registradas durante la noche habían generado preocupación entre las autoridades por el bienestar del muchacho, de 17 años. William fue localizado este jueves por la mañana y se reunió con su aliviada familia, que dijo que no había sufrido heridas pero que \"tendría que castigarlo de por vida\". Los rescatistas llevaron a William a un lugar seguro y le dieron una dona y una botella de agua antes de trasladarlo al hospital para su revisión. La madre del chico, Elizabeth Barkley, les dijo a los periodistas que el adolescente solo tenía \"unos pocos rasguños\" y que parecía estar en buena forma y con buena salud.",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-11-13T03:16:20.704Z",
+        "index": 13,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "vehiculos_energia",
+        "categorias_secundarias": [
+          "inteligencia_artificial"
+        ],
+        "category_scores": {
+          "vehiculos_energia": 3,
+          "inteligencia_artificial": 1
+        },
+        "entidades": [],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 25,
+          "signals": [
+            "\\brevelado\\b"
+          ]
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 79,
+        "relevancia": 57,
+        "confiabilidad_fuente": 70,
+        "readability": {
+          "words": 223,
+          "sentences": 10,
+          "average_words_per_sentence": 22.3
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 67.95
+    },
+    {
+      "id": "d4d2e2fbef4b8d4c",
+      "fuente_id": "xiaomi_google",
+      "fuente_nombre": "Xiaomi",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "xiaomi",
+      "nivel_fuente": "fuente_oficial",
+      "categoria": "moviles",
+      "idioma_original": "en",
+      "prioridad_fuente": 5,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Vuelve por más",
+      "titulo_original": "Back for more - Xiaomi",
+      "enlace": "https://news.google.com/rss/articles/CBMibkFVX3lxTE0tMnN3LURqSVREd0QzeHRqSFlQVXVCZ1NmTkw4bTN0VW5obzFwSENvYlJlc18zMTY3Y1VNWGoxd1YxX1dVNS00eVlRVjlVdnFCOEJIZVowcDQ0LXJRZVU4UGpMTlkwOWhVOG1jLXBn?oc=5",
+      "fecha": "2026-11-09T14:25:28.000Z",
+      "resumen_corto": "Vuelve por más",
+      "resumen_largo": "Vuelve por más",
+      "texto_original": "Back for more Xiaomi",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-11-13T03:16:20.716Z",
+        "index": 44,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "en",
+        "categoria": "inteligencia_artificial",
+        "categorias_secundarias": [
+          "moviles"
+        ],
+        "category_scores": {
+          "inteligencia_artificial": 1,
+          "moviles": 1
         },
         "entidades": [
-          "Google",
-          "OpenAI",
-          "Meta"
+          "Xiaomi"
         ],
         "cifras_detectadas": [],
         "content_type": "news",
@@ -1733,13 +1808,13 @@
           "signals": [],
           "url_count": 0
         },
-        "calidad": 80,
-        "relevancia": 67,
-        "confiabilidad_fuente": 53,
+        "calidad": 76,
+        "relevancia": 55,
+        "confiabilidad_fuente": 75,
         "readability": {
-          "words": 80,
+          "words": 17,
           "sentences": 1,
-          "average_words_per_sentence": 80
+          "average_words_per_sentence": 17
         },
         "duplicate": {
           "detected": false,
@@ -1748,7 +1823,7 @@
           "similar_to": null
         }
       },
-      "final_score": 68.05
+      "final_score": 67.35
     },
     {
       "id": "4a584ae06350e02b",
@@ -1772,8 +1847,8 @@
       "texto_original": "La dimisión de Huang hace que Nvidia se deje 550.000 millones de dólares en valor de bolsa Xataka",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-12T22:10:15.976Z",
-        "index": 3,
+        "processed_at": "2026-11-13T03:16:20.705Z",
+        "index": 15,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -1843,8 +1918,8 @@
       "texto_original": "AMD’s “Siren Halo” Will Reportedly Support GDDR7 Memory, Potentially Moving Beyond Unified-Memory Approach Wccftech",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-12T22:10:15.982Z",
-        "index": 14,
+        "processed_at": "2026-11-13T03:16:20.709Z",
+        "index": 25,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -1919,7 +1994,7 @@
       "texto_original": "Huawei MateBook Fold S: Exploring the first foldable PC with cover display Huawei Central",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-12T22:10:15.994Z",
+        "processed_at": "2026-11-13T03:16:20.715Z",
         "index": 42,
         "resumen": {
           "generado": true,
@@ -1969,7 +2044,7 @@
       "final_score": 66.75
     },
     {
-      "id": "9749b08cfa31ed1b",
+      "id": "c5da89d0579605bb",
       "fuente_id": "huawei_google",
       "fuente_nombre": "Huawei Central",
       "tipo": "rss_web",
@@ -1981,16 +2056,16 @@
       "prioridad_fuente": 4,
       "analizar": true,
       "resumir": true,
-      "titulo": "El presidente de Huawei muestra el diseño de la PC MateBook Fold S de 14,7 pulgadas",
-      "titulo_original": "Huawei Chairman showcases 14.7-inch MateBook Fold S PC design - Huawei Central",
-      "enlace": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQN2ZLRzdmS2VBd2t2SEFYa1hpTk9xM0l3cWpMcF82RmVrQVoybVIzT1k1WTBBT2dhNkZRbms1cG13VzkyeHFGOUNqVXMwVGRMOENRWG92ejBnelRXOUF1T2J5UGFrVkoyQ2kxU1lUVld0ZHplazUtYm9lQmFBdTIydi1vM3NQNmF4dU9ZblBoUzJheThWYWQw0gGcAUFVX3lxTE0yMDdkbjVWU2FFOVpnUUJITnRGenQ2R1I0ZlFDWmRzSGtOY1FEZU4yT2xaYkxBTm8yNktSNXkxQkExMDdJaWJVM1RfSkFhUExDODVxcHpLVm9ETGZoVTNCczlpN05waFVLUkVoZjRKWnVtT2tFa0kyeGJGY2tnSHR3ZGt3QnJBTUY0Sjd3elRzQlkxR0N0U1RCQ0trMQ?oc=5",
-      "fecha": "2026-11-10T04:53:56.000Z",
-      "resumen_corto": "El presidente de Huawei muestra el diseño de PC MateBook Fold S de 14,7 pulgadas Huawei Central",
-      "resumen_largo": "El presidente de Huawei muestra el diseño de PC MateBook Fold S de 14,7 pulgadas Huawei Central",
-      "texto_original": "Huawei Chairman showcases 14.7-inch MateBook Fold S PC design Huawei Central",
+      "titulo": "Huawei tiene una nueva estrategia para impulsar las ventas de series de teléfonos OSTA",
+      "titulo_original": "Huawei has a new strategy to boost OSTA phone series sales - Huawei Central",
+      "enlace": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNWDZsd1h0VnJxUU5YUnlrUTRnVVRhNDh4TmNMUk8yZ0NkUVBnbUVjTDdSNDVGaS1jZjNkQnJQMzl2a2tUREljR29TTU9ueG1mc0xwLTBPVUozbU9OelBObFBHZEVGT0FJTjR2MzZReXg3UmV2b3hBNmJzSlNSbVRMcjFkTnk5aGktTmlIbTdEejM1TFHSAZgBQVVfeXFMT0ZBNDBoLXdXMmhMOFlnSXN6TXAxV2RyS0lyMktYcXh1c1ltUWpFQUZwakxRX2V6YklIZ25XWEQ3XzJfMkxqM0FVSHNrVWxMMWpwbDJyTS1sYzMwamZWR3FIaVJFQ0U0MDMxZW5tTVIwc0xhT2VGS19qeDQ5allaWFI1R296YkV6a0NMaERTVElMZmNfcTUwV1Q?oc=5",
+      "fecha": "2026-11-10T09:33:56.000Z",
+      "resumen_corto": "Huawei tiene una nueva estrategia para impulsar las ventas de series de teléfonos OSTA Huawei Central",
+      "resumen_largo": "Huawei tiene una nueva estrategia para impulsar las ventas de series de teléfonos OSTA Huawei Central",
+      "texto_original": "Huawei has a new strategy to boost OSTA phone series sales Huawei Central",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-12T22:10:15.994Z",
+        "processed_at": "2026-11-13T03:16:20.716Z",
         "index": 43,
         "resumen": {
           "generado": true,
@@ -2000,15 +2075,13 @@
         "idioma_original": "en",
         "categoria": "moviles",
         "categorias_secundarias": [
-          "actualidad",
           "inteligencia_artificial",
-          "hardware"
+          "vehiculos_energia"
         ],
         "category_scores": {
-          "moviles": 2,
-          "actualidad": 2,
+          "moviles": 3,
           "inteligencia_artificial": 1,
-          "hardware": 1
+          "vehiculos_energia": 1
         },
         "entidades": [
           "Huawei"
@@ -2030,9 +2103,9 @@
         "relevancia": 62,
         "confiabilidad_fuente": 53,
         "readability": {
-          "words": 43,
-          "sentences": 3,
-          "average_words_per_sentence": 14.33
+          "words": 62,
+          "sentences": 1,
+          "average_words_per_sentence": 62
         },
         "duplicate": {
           "detected": false,
@@ -2042,6 +2115,148 @@
         }
       },
       "final_score": 66.75
+    },
+    {
+      "id": "3c2089c12a6beea0",
+      "fuente_id": "google_news_es",
+      "fuente_nombre": "Google News ES",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "google_news",
+      "nivel_fuente": "agregador",
+      "categoria": "tecnologia",
+      "idioma_original": "es",
+      "prioridad_fuente": 3,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Microsoft sufre una caída global de sus servicios, entre ellos Outlook y Teams - EFE - Agencia de noticias",
+      "titulo_original": "Microsoft sufre una caída global de sus servicios, entre ellos Outlook y Teams - EFE - Agencia de noticias",
+      "enlace": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQNHNsdnRDNmNOd3V5UC1wTjFuXzd0QnJobjhrdUpRUV9ZM2lNR0FiSFNGTWFzbUNGMnlaeDVjSDBXRmNPRHo2RDQ4NnRmVnEtSFI2empZYWUtSjhlUmItck5mbEZnSTJMTFFzNkhMZ0ZIUjZRV01aNlU4dHMxQXczVGxHbEpCRXFZ?oc=5",
+      "fecha": "2026-11-12T20:51:11.000Z",
+      "resumen_corto": "Microsoft sufre una caída global de sus servicios, entre ellos Outlook y Teams EFE - Agencia de noticias",
+      "resumen_largo": "Microsoft sufre una caída global de sus servicios, entre ellos Outlook y Teams EFE - Agencia de noticias",
+      "texto_original": "Microsoft sufre una caída global de sus servicios, entre ellos Outlook y Teams EFE - Agencia de noticias",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-11-13T03:16:20.703Z",
+        "index": 9,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "inteligencia_artificial",
+        "categorias_secundarias": [
+          "moviles",
+          "actualidad"
+        ],
+        "category_scores": {
+          "inteligencia_artificial": 2,
+          "moviles": 1,
+          "actualidad": 1
+        },
+        "entidades": [
+          "Microsoft"
+        ],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 80,
+        "relevancia": 62,
+        "confiabilidad_fuente": 53,
+        "readability": {
+          "words": 70,
+          "sentences": 1,
+          "average_words_per_sentence": 70
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 66.05
+    },
+    {
+      "id": "5202f2c8c64b23b9",
+      "fuente_id": "resumen_militar",
+      "fuente_nombre": "El Resumen Militar",
+      "tipo": "telegram",
+      "subtipo": "canal_telegram",
+      "grupo_fuente": "telegram_militar",
+      "nivel_fuente": "telegram",
+      "categoria": "militar",
+      "idioma_original": "es",
+      "prioridad_fuente": 3,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "🇷🇺 🇺🇸 🇪🇺 🇺🇦 The Narcoführer confirmed that Europeans will be present at the next negotiations. 🔴 @DDGeopolitics",
+      "titulo_original": "🇷🇺 🇺🇸 🇪🇺 🇺🇦 The Narcoführer confirmed that Europeans will be present at the next negotiations. 🔴 @DDGeopolitics",
+      "enlace": "https://t.me/elresumenmilitar/103172",
+      "fecha": "2026-11-12T22:19:18.000Z",
+      "resumen_corto": "🇷🇺 🇺🇸 🇪🇺 🇺🇦 The Narcoführer confirmed that Europeans will be present at the next negotiations.",
+      "resumen_largo": "🇷🇺 🇺🇸 🇪🇺 🇺🇦 The Narcoführer confirmed that Europeans will be present at the next negotiations.",
+      "texto_original": "🇷🇺 🇺🇸 🇪🇺 🇺🇦 The Narcoführer confirmed that Europeans will be present at the next negotiations. 🔴 @DDGeopolitics",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-11-13T03:16:20.700Z",
+        "index": 3,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "en",
+        "idioma_original": "es",
+        "categoria": "inteligencia_artificial",
+        "categorias_secundarias": [
+          "actualidad"
+        ],
+        "category_scores": {
+          "inteligencia_artificial": 1,
+          "actualidad": 1
+        },
+        "entidades": [],
+        "cifras_detectadas": [],
+        "content_type": "report",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 83,
+        "relevancia": 58,
+        "confiabilidad_fuente": 55,
+        "readability": {
+          "words": 53,
+          "sentences": 6,
+          "average_words_per_sentence": 8.83
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 66
     },
     {
       "id": "9f16cb478edc1cd6",
@@ -2065,8 +2280,8 @@
       "texto_original": "El país sin mar que más se acerca a tener una costa: hizo el negocio del siglo al ceder un tramo de carretera a Ucrania antes de que llegara Rusia Xataka",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-12T22:10:15.981Z",
-        "index": 10,
+        "processed_at": "2026-11-13T03:16:20.707Z",
+        "index": 21,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -2117,84 +2332,6 @@
       "final_score": 66
     },
     {
-      "id": "c35d8ee14344fe9e",
-      "fuente_id": "resumen_militar",
-      "fuente_nombre": "El Resumen Militar",
-      "tipo": "telegram",
-      "subtipo": "canal_telegram",
-      "grupo_fuente": "telegram_militar",
-      "nivel_fuente": "telegram",
-      "categoria": "militar",
-      "idioma_original": "es",
-      "prioridad_fuente": 3,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "🇷🇺 Satellite comms boost Northern Sea Route Bureau 1440 satellite systems are now operational on the Northern Sea Route, enhancing navigation and crew management. Nuclear icebreaker Ural demonstrated video links to Mur",
-      "titulo_original": "🇷🇺 Satellite comms boost Northern Sea Route Bureau 1440 satellite systems are now operational on the Northern Sea Route, enhancing navigation and crew management. Nuclear icebreaker Ural demonstrated video links to Mur",
-      "enlace": "https://t.me/elresumenmilitar/103137",
-      "fecha": "2026-11-12T09:56:28.000Z",
-      "resumen_corto": "🇷🇺 Satellite comms boost Northern Sea Route Bureau 1440 satellite systems are now operational on the Northern Sea Route, enhancing navigation and crew management.",
-      "resumen_largo": "🇷🇺 Satellite comms boost Northern Sea Route Bureau 1440 satellite systems are now operational on the Northern Sea Route, enhancing navigation and crew management. Nuclear icebreaker Ural demonstrated video links to Murmansk, telemedicine with Moscow specialists, and real-time data transmission during its voyage to Dikson. Arctic cargo volumes surge Traffic along the route hit 37 million tonnes in 2025, a 23-fold increase from 2000 levels and six times the Soviet record of 6.5 million tonnes (1986).",
-      "texto_original": "🇷🇺 Satellite comms boost Northern Sea Route Bureau 1440 satellite systems are now operational on the Northern Sea Route, enhancing navigation and crew management. Nuclear icebreaker Ural demonstrated video links to Murmansk, telemedicine with Moscow specialists, and real-time data transmission during its voyage to Dikson. Arctic cargo volumes surge Traffic along the route hit 37 million tonnes in 2025, a 23-fold increase from 2000 levels and six times the Soviet record of 6.5 million tonnes (1986). Since Rosatom became operator in 2018, Russia has expanded its fleet with icebreakers Arktika , Sibir , Ural , and Yakutiya . The Chukotka is due in 2027, followed by Leningrad and Stalingrad . Russia remains the only nation possessing a nuclear-powered icebreaker fleet. @Slavyangrad",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-11-12T22:10:15.990Z",
-        "index": 29,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "en",
-        "idioma_original": "es",
-        "categoria": "inteligencia_artificial",
-        "categorias_secundarias": [
-          "vehiculos_energia"
-        ],
-        "category_scores": {
-          "inteligencia_artificial": 2,
-          "vehiculos_energia": 2
-        },
-        "entidades": [],
-        "cifras_detectadas": [
-          "1440",
-          "37 m",
-          "2025",
-          "2000",
-          "6.5 m",
-          "1986",
-          "2018",
-          "2027"
-        ],
-        "content_type": "report",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 73,
-        "relevancia": 65,
-        "confiabilidad_fuente": 55,
-        "readability": {
-          "words": 252,
-          "sentences": 15,
-          "average_words_per_sentence": 16.8
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 65.3
-    },
-    {
       "id": "96282f18e0574a44",
       "fuente_id": "xataka_google",
       "fuente_nombre": "Xataka",
@@ -2216,8 +2353,8 @@
       "texto_original": "Jensen Huang dimite como CEO y Nvidia anuncia su plan de transición para frenar la sangría en bolsa Xataka",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-12T22:10:15.980Z",
-        "index": 9,
+        "processed_at": "2026-11-13T03:16:20.707Z",
+        "index": 20,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -2264,75 +2401,6 @@
       "final_score": 65.2
     },
     {
-      "id": "10f2a44a84dd7665",
-      "fuente_id": "xataka_google",
-      "fuente_nombre": "Xataka",
-      "tipo": "rss_web",
-      "subtipo": "google_news",
-      "grupo_fuente": "xataka",
-      "nivel_fuente": "medio_especializado",
-      "categoria": "tecnologia",
-      "idioma_original": "es",
-      "prioridad_fuente": 4,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "Jensen Huang ha salvado a NVIDIA seis veces. La séptima crisis es él",
-      "titulo_original": "Jensen Huang ha salvado a NVIDIA seis veces. La séptima crisis es él - Xataka",
-      "enlace": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQYm9NN2l6eTMyS3NJZEFZc2lBZlBTUWktcV9ZeTQxcG1pcW5UTFJKajlXOUUwRTgwNlNURzBvb2dsX1pQRVYyYTJBNzJlUHN6Y0VCd3Z4cGF6cTNLLWRheGowbnh4NjVnNzB1S0ZaS003NGlxRVpGZ0taM1hqWFd4bWFUOUloTElZdFZxMm5jVFhqbk1EMFo0a2J4U1I2UXA3NExZ0gGoAUFVX3lxTFAwNUJ2aTFWS05wTnVNZ3pkRXJfRnRfSDR1OWZISXQ5eUl5SUtGRU1CWnZ0RUxqeWUxcjlIckdFeEYzZEdLWFpJUmpWc2FNTmljSXRMQU05bGFMVEdvYnFxdUFvMzJiaWpnOFBYMERSY1RuWmNsUlJ5VURVakxQUnFERks2T2s2Zi1MTzl2dVk5bDdQWVl3YlRGLW1CcWhCRkpaeWpGazZHRQ?oc=5",
-      "fecha": "2026-11-12T14:31:22.000Z",
-      "resumen_corto": "Jensen Huang ha salvado a NVIDIA seis veces.",
-      "resumen_largo": "Jensen Huang ha salvado a NVIDIA seis veces. La séptima crisis es él Xataka",
-      "texto_original": "Jensen Huang ha salvado a NVIDIA seis veces. La séptima crisis es él Xataka",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-11-12T22:10:15.981Z",
-        "index": 11,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "es",
-        "categoria": "inteligencia_artificial",
-        "categorias_secundarias": [],
-        "category_scores": {
-          "inteligencia_artificial": 1
-        },
-        "entidades": [
-          "NVIDIA",
-          "Xataka"
-        ],
-        "cifras_detectadas": [],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 82,
-        "relevancia": 60,
-        "confiabilidad_fuente": 50,
-        "readability": {
-          "words": 41,
-          "sentences": 6,
-          "average_words_per_sentence": 6.83
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 65.2
-    },
-    {
       "id": "602a3ba4bf43eefc",
       "fuente_id": "genbeta_google",
       "fuente_nombre": "Genbeta",
@@ -2354,8 +2422,8 @@
       "texto_original": "Los chips de Nvidia se acumulan en Hong Kong mientras China retiene la aprobación de importación Genbeta",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-12T22:10:15.993Z",
-        "index": 37,
+        "processed_at": "2026-11-13T03:16:20.715Z",
+        "index": 38,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -2405,72 +2473,6 @@
       "final_score": 65.2
     },
     {
-      "id": "b4480ab1abeaf622",
-      "fuente_id": "bbc_mundo",
-      "fuente_nombre": "BBC Mundo",
-      "tipo": "rss_web",
-      "subtipo": "medio_generalista",
-      "grupo_fuente": "bbc",
-      "nivel_fuente": "medio_profesional",
-      "categoria": "actualidad",
-      "idioma_original": "es",
-      "prioridad_fuente": 5,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "¿Por qué mi familia blanca nunca me dijo que yo era negra?",
-      "titulo_original": "¿Por qué mi familia blanca nunca me dijo que yo era negra?",
-      "enlace": "https://www.bbc.com/mundo/articles/c6x2enpm544zo?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-12T11:19:20.000Z",
-      "resumen_corto": "Lacey Tezino fue criada como una niña blanca en un pueblo rural de Texas conocido por su pasado racista.",
-      "resumen_largo": "Lacey Tezino fue criada como una niña blanca en un pueblo rural de Texas conocido por su pasado racista. Por eso, se sorprendió al descubrir que en realidad era negra.",
-      "texto_original": "Lacey Tezino fue criada como una niña blanca en un pueblo rural de Texas conocido por su pasado racista. Por eso, se sorprendió al descubrir que en realidad era negra.",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-11-12T22:10:15.988Z",
-        "index": 24,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "es",
-        "categoria": "inteligencia_artificial",
-        "categorias_secundarias": [],
-        "category_scores": {
-          "inteligencia_artificial": 1
-        },
-        "entidades": [],
-        "cifras_detectadas": [],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 79,
-        "relevancia": 50,
-        "confiabilidad_fuente": 70,
-        "readability": {
-          "words": 79,
-          "sentences": 7,
-          "average_words_per_sentence": 11.29
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 65.15
-    },
-    {
       "id": "a789f3060a09f086",
       "fuente_id": "wccftech_google",
       "fuente_nombre": "Wccftech",
@@ -2492,8 +2494,8 @@
       "texto_original": "Modded RTX 5090 With 96GB VRAM Shows Up On Chinese Marketplace With A Placeholder Price That’s 57x Higher Than The RTX PRO 6000’s Wccftech",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-12T22:10:15.990Z",
-        "index": 28,
+        "processed_at": "2026-11-13T03:16:20.713Z",
+        "index": 32,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -2570,8 +2572,8 @@
       "texto_original": "Jensen Huang Steps Down As NVIDIA CEO, As Company Thanks Him “For His Immeasurable Contributions To The Company And The Industry,” Current CFO To Spearhead GPU Maker Wccftech",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-12T22:10:15.981Z",
-        "index": 12,
+        "processed_at": "2026-11-13T03:16:20.708Z",
+        "index": 22,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -2646,8 +2648,8 @@
       "texto_original": "Jensen Huang, fundador de Nvidia, renuncia al reinado de la inteligencia artificial atrapado entre dos infidelidades RTVE.es",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-12T22:10:15.975Z",
-        "index": 2,
+        "processed_at": "2026-11-13T03:16:20.705Z",
+        "index": 14,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -2714,8 +2716,8 @@
       "texto_original": "Dimite Jensen Huang: ¿qué supone para Nvidia y para la IA? XTB.com",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-12T22:10:15.980Z",
-        "index": 8,
+        "processed_at": "2026-11-13T03:16:20.707Z",
+        "index": 18,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -2761,6 +2763,74 @@
       "final_score": 63.25
     },
     {
+      "id": "4fe247171dbcb8e5",
+      "fuente_id": "xataka_google",
+      "fuente_nombre": "Xataka",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "xataka",
+      "nivel_fuente": "medio_especializado",
+      "categoria": "tecnologia",
+      "idioma_original": "es",
+      "prioridad_fuente": 4,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Encontró una portada renacentista en su casa de Úbeda y tras una década de litigios le han concedido un millón de euros",
+      "titulo_original": "Encontró una portada renacentista en su casa de Úbeda y tras una década de litigios le han concedido un millón de euros - Xataka",
+      "enlace": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNdjZFY2JUUU95b1RuUjBJelZYSFpDNU1hTmN6NVFHVlp6NW4yY21HbmxFYVRxS0Fac0pzeVZzQV9ZRTB0YWVUb1NwZW8ycHpnaGo5X0lycEE5YnZlM1ZhVTNOWmt1azJEWnoydDZUbXRMU3lyUWNqcGdicGF2cGpFUDNqdmE5N3N3RG5sLVQ4VllkSFVDYXZYQ2hKVk5waEZQSFVXWXVKTDlOQUxCTUhvSzZOeTFIblBKYWhR0gHAAUFVX3lxTE9fU3Jhek5JRUhhR0duc3RWUU5BUWU5TUo1Zk50NzJZcE1KRWhUdTFTOTZmREdrRE45VjRDcmtMcERGVVFtbVBucEM2eVpodWFyb2gyOGxQY2NwM1BBaFdoLTdCdW1uc1dJdVJOQ0NpVUFlTHBfbWRybnM3OGdIUFJ1LXZHb3RVSjN1TjFONUJwSjlNRWNLWGRhckpNdHlxbW9Pb3dBTkhxNkJFWm12NGVsOTZNWElMWVVZcTAzODJSTA?oc=5",
+      "fecha": "2026-11-12T14:01:26.000Z",
+      "resumen_corto": "Encontró una portada renacentista en su casa de Úbeda y tras una década de litigios le han concedido un millón de euros Xataka",
+      "resumen_largo": "Encontró una portada renacentista en su casa de Úbeda y tras una década de litigios le han concedido un millón de euros Xataka",
+      "texto_original": "Encontró una portada renacentista en su casa de Úbeda y tras una década de litigios le han concedido un millón de euros Xataka",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-11-13T03:16:20.708Z",
+        "index": 23,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "moviles",
+        "categorias_secundarias": [],
+        "category_scores": {
+          "moviles": 1
+        },
+        "entidades": [
+          "Xataka"
+        ],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 82,
+        "relevancia": 55,
+        "confiabilidad_fuente": 50,
+        "readability": {
+          "words": 74,
+          "sentences": 1,
+          "average_words_per_sentence": 74
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 63.2
+    },
+    {
       "id": "775b96e4c40a6105",
       "fuente_id": "genbeta_google",
       "fuente_nombre": "Genbeta",
@@ -2782,8 +2852,8 @@
       "texto_original": "Borja, ingeniero con 10 años de experiencia: “Con una batería de menos de 500 € me puedo desconectar de la red eléctrica” Genbeta",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-12T22:10:15.995Z",
-        "index": 45,
+        "processed_at": "2026-11-13T03:16:20.716Z",
+        "index": 46,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -2853,8 +2923,8 @@
       "texto_original": "El CEO multimillonario de Palantir dice que solo dos tipos de personas tendrán éxito en la era de la IA: trabajadores manuales o \"neurodivergentes\" Genbeta",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-12T22:10:15.996Z",
-        "index": 46,
+        "processed_at": "2026-11-13T03:16:20.717Z",
+        "index": 47,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -2900,6 +2970,75 @@
       "final_score": 63.2
     },
     {
+      "id": "4d469a356a0d84b7",
+      "fuente_id": "ia_dia",
+      "fuente_nombre": "IA al Día",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "ia_general",
+      "nivel_fuente": "agregador",
+      "categoria": "inteligencia_artificial",
+      "idioma_original": "es",
+      "prioridad_fuente": 3,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "El desastre de la ciberseguridad en los tiempos de la inteligencia artificial - Enrique Dans",
+      "titulo_original": "El desastre de la ciberseguridad en los tiempos de la inteligencia artificial - Enrique Dans",
+      "enlace": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQWjh3RGZPTExPeU5zb2xQOWx0eUdxNUo5aVZjQXE1VlcxbEtxaGs2QWdxTGM2XzZTUjhqYjk2QWsxZnFEMGp1aDRWbGtseW12eFR6SVBtRms1SUZya3ZkTkVrd2xOSFk1eEFPTklzZkRXQjE1SHBUdGRiT3BQZDk2bXhIdEN4VUNUc3E5TG9DQWI1Z3l6bkgxdDFZOWcwcHE3NmNudTJCemJEQnhIN2pjOG9MQURVWlNxb3c?oc=5",
+      "fecha": "2026-11-12T15:08:03.000Z",
+      "resumen_corto": "El desastre de la ciberseguridad en los tiempos de la inteligencia artificial Enrique Dans",
+      "resumen_largo": "El desastre de la ciberseguridad en los tiempos de la inteligencia artificial Enrique Dans",
+      "texto_original": "El desastre de la ciberseguridad en los tiempos de la inteligencia artificial Enrique Dans",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-11-13T03:16:20.707Z",
+        "index": 19,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "inteligencia_artificial",
+        "categorias_secundarias": [
+          "software_internet"
+        ],
+        "category_scores": {
+          "inteligencia_artificial": 3,
+          "software_internet": 2
+        },
+        "entidades": [],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 75,
+        "relevancia": 57,
+        "confiabilidad_fuente": 53,
+        "readability": {
+          "words": 40,
+          "sentences": 1,
+          "average_words_per_sentence": 40
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 62.3
+    },
+    {
       "id": "066f0026204a6846",
       "fuente_id": "google_news_es",
       "fuente_nombre": "Google News ES",
@@ -2921,8 +3060,8 @@
       "texto_original": "Jesús Carrero, experto en tecnología deportiva: “Hyrox es probablemente una de las disciplinas que mejor representa el entrenamiento híbrido” CuídatePlus",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-12T22:10:15.983Z",
-        "index": 15,
+        "processed_at": "2026-11-13T03:16:20.710Z",
+        "index": 26,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -2992,8 +3131,8 @@
       "texto_original": "Inteligencia artificial aplicada al sector salud EL PAÍS",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-12T22:10:15.991Z",
-        "index": 30,
+        "processed_at": "2026-11-13T03:16:20.713Z",
+        "index": 33,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -3058,8 +3197,8 @@
       "texto_original": "España presume de tecnología, pero se queda fuera del último gran negocio de la OTAN El Confidencial",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-12T22:10:15.992Z",
-        "index": 35,
+        "processed_at": "2026-11-13T03:16:20.714Z",
+        "index": 37,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -3108,7 +3247,7 @@
       "final_score": 62.3
     },
     {
-      "id": "34b116d8ed01fd0c",
+      "id": "8e4951360fb60439",
       "fuente_id": "google_news_es",
       "fuente_nombre": "Google News ES",
       "tipo": "rss_web",
@@ -3120,17 +3259,17 @@
       "prioridad_fuente": 3,
       "analizar": true,
       "resumir": true,
-      "titulo": "Grupo Dynasoft reúne en Mallorca a directivos del turismo y la tecnología para analizar los retos de la transformación digital - Cadena SER",
-      "titulo_original": "Grupo Dynasoft reúne en Mallorca a directivos del turismo y la tecnología para analizar los retos de la transformación digital - Cadena SER",
-      "enlace": "https://news.google.com/rss/articles/CBMikgJBVV95cUxQcVU5Mm80UUJ5UTNKVlRiTGpzUC15MnZrM0ZIdkxrUGJUcHBlSHA0a1Y2RnFvN0pfcmtXbHVZSGdUS1hTdFRGbGR5NkJBSHNBcy1tbEwwakVudzg4Mmg0d2JtWFVlU2U3UkhIZWRyR0RwM1hNVDloNnp6Ylcza2RCQkI5MUJPQjZ4WkM5TTFKTlBmaXdIeXh0OUNLREF4bGRxLUQ1WHg3YXA0N3hQNEt5cFhUNERXZVpfSXc2T29ndTEzNHJUYWZuNkNELXpWcnl5TWVhY2FCdkdDTGY1VTRDTUYxaUg2ZlJLRVlFSkNEWU1kc1lRa3ZBS0w1RzB5WWFlbUtpME1GcElBTm11R1QzRkVn0gGmAkFVX3lxTE5la29ocnNSVl84anNjRFJxSDJITkU2WURJSVVKdEd4N2x5Y3R4S1RXVHYxSGVpeDI3cHZaUmc0VHI4QVBDODJ0ZWNnSVdETmlaWnZWLVc2MlpPWWtZckhaX1oxbUEwbXBlTzRqWlNBekxMSUFMU2FpRzNBRnFtYlRiYWdHeVlIYUdSRjB0cEJadHFFblF4YXBhc2lGY3N5b0I3X1ZFeVAwTnVQNmJDUnR4MjJRQVlhdzFRUkRERy1vVXBlcmwtVjAybGFlaWFNTy1CUmttTXM1ZVlHTUVoNTlzVzh5VVYtUThQcklJVkpSV2VlVTNBaUctSmdUbUJtSmxVZVpRaWc2amx0bXY1MmhKaVRiQWdOdjU4QjFnWFB3LVRCMTNRdw?oc=5",
-      "fecha": "2026-11-12T11:50:27.000Z",
-      "resumen_corto": "Grupo Dynasoft reúne en Mallorca a directivos del turismo y la tecnología para analizar los retos de la transformación digital Cadena SER",
-      "resumen_largo": "Grupo Dynasoft reúne en Mallorca a directivos del turismo y la tecnología para analizar los retos de la transformación digital Cadena SER",
-      "texto_original": "Grupo Dynasoft reúne en Mallorca a directivos del turismo y la tecnología para analizar los retos de la transformación digital Cadena SER",
+      "titulo": "La tecnología, una oportunidad para eliminar barreras - Expansión",
+      "titulo_original": "La tecnología, una oportunidad para eliminar barreras - Expansión",
+      "enlace": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOUDhrV1VYX1BZM3JHakZLVGJYVDJDWk9kNTIxZ2Vua0ZZSzVHMWU0QnpXQUlGUTFWN0xncFh2ZklCbzJ0NC1WSm9LVnNPU1RyZ0JYSXVWc21GQ1BaWWU2Sy1BMjRLSEJWM1Z4UEJ6S2dqa1pBaFNxc2JlajV3TUd0X2FCSHRNWUNvWGZ0SXNMSjBJV2M5NEHSAZYBQVVfeXFMTjJBMHFNdWVheEttTzU0bXB5eGJ0UlNqNVVxazB1US1HYnJ4UFlwYUt5YzNVY2J2WC04SnAwM01NNW5WMkc3N1pDYzR6dmphRHBRVGFBdEo5QlotSjhQM1pNOTRPaFdtUmtTRDZ2R3pKTGpyTWtTNHh6bjJaemJHb1d2S1RXZXhYQjNsY19jZVRBOC0xT21R?oc=5",
+      "fecha": "2026-11-12T23:59:00.000Z",
+      "resumen_corto": "La tecnología, una oportunidad para eliminar barreras Expansión",
+      "resumen_largo": "La tecnología, una oportunidad para eliminar barreras Expansión",
+      "texto_original": "La tecnología, una oportunidad para eliminar barreras Expansión",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-12T22:10:15.987Z",
-        "index": 22,
+        "processed_at": "2026-11-13T03:16:20.697Z",
+        "index": 1,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -3163,9 +3302,9 @@
         "relevancia": 50,
         "confiabilidad_fuente": 53,
         "readability": {
-          "words": 80,
+          "words": 35,
           "sentences": 1,
-          "average_words_per_sentence": 80
+          "average_words_per_sentence": 35
         },
         "duplicate": {
           "detected": false,
@@ -3198,8 +3337,8 @@
       "texto_original": "Una red de estafadores de última tecnología a clientes de bancos usaba a estudiantes e indigentes como 'mulas' ABC",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-12T22:10:15.988Z",
-        "index": 26,
+        "processed_at": "2026-11-13T03:16:20.712Z",
+        "index": 30,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -3267,8 +3406,8 @@
       "texto_original": "Mayores y tecnología: perder el miedo Telemadrid",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-12T22:10:15.992Z",
-        "index": 32,
+        "processed_at": "2026-11-13T03:16:20.714Z",
+        "index": 35,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -3315,43 +3454,38 @@
       "final_score": 59.5
     },
     {
-      "id": "795db4f5552fb104",
-      "fuente_id": "google_news_es",
-      "fuente_nombre": "Google News ES",
-      "tipo": "rss_web",
-      "subtipo": "google_news",
-      "grupo_fuente": "google_news",
-      "nivel_fuente": "agregador",
-      "categoria": "tecnologia",
+      "id": "0f9e84aa40920085",
+      "fuente_id": "resumen_militar",
+      "fuente_nombre": "El Resumen Militar",
+      "tipo": "telegram",
+      "subtipo": "canal_telegram",
+      "grupo_fuente": "telegram_militar",
+      "nivel_fuente": "telegram",
+      "categoria": "militar",
       "idioma_original": "es",
       "prioridad_fuente": 3,
       "analizar": true,
       "resumir": true,
-      "titulo": "You Name It, el spin-off de Sien Consulting que aplica tecnología a la productividad empresarial - Alicante Plaza",
-      "titulo_original": "You Name It, el spin-off de Sien Consulting que aplica tecnología a la productividad empresarial - Alicante Plaza",
-      "enlace": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOT3Y5U2hnbnN4WEdnTjhWUW9vX0NVbi14TExKclMzT3FObU50UENHTThadWdDYmNfR0JKMUp0THdtWmZDd21zemV4Vm03S3RtMFRnWlIxMVhCQ1pLLS01cVE0QTBoQWpLcmswVTZoTkpROUU5MnBsZkprZkxfOUVJUl9KU0RqV1BxVklTWWw1WWdWU2lXdFNtZUZPazJydlZHWGFKR0NMLXUzWWlVWXNPa1p5RTQtSmtDU2RTSHVvQWR4eUNCdEh2dUt1NUllRzFWd1hXMWIzNDRUa0U?oc=5",
-      "fecha": "2026-11-12T05:00:00.000Z",
-      "resumen_corto": "You Name It, el spin-off de Sien Consulting que aplica tecnología a la productividad empresarial Alicante Plaza",
-      "resumen_largo": "You Name It, el spin-off de Sien Consulting que aplica tecnología a la productividad empresarial Alicante Plaza",
-      "texto_original": "You Name It, el spin-off de Sien Consulting que aplica tecnología a la productividad empresarial Alicante Plaza",
+      "titulo": "‼️ 🇺🇸 🇺🇦 Уиткофф и Кушнер начали переговоры с Зеленским после встречи с Путиным в Москве ⚠️ Подписаться на RV: MAX | t.me/RVvoenkor",
+      "titulo_original": "‼️ 🇺🇸 🇺🇦 Уиткофф и Кушнер начали переговоры с Зеленским после встречи с Путиным в Москве ⚠️ Подписаться на RV: MAX | t.me/RVvoenkor",
+      "enlace": "https://t.me/elresumenmilitar/103171",
+      "fecha": "2026-11-12T22:18:09.000Z",
+      "resumen_corto": "‼️ 🇺🇸 🇺🇦 Уиткофф и Кушнер начали переговоры с Зеленским после встречи с Путиным в Москве ⚠️ Подписаться на RV: MAX | t.me/RVvoenkor",
+      "resumen_largo": "‼️ 🇺🇸 🇺🇦 Уиткофф и Кушнер начали переговоры с Зеленским после встречи с Путиным в Москве ⚠️ Подписаться на RV: MAX | t.me/RVvoenkor",
+      "texto_original": "‼️ 🇺🇸 🇺🇦 Уиткофф и Кушнер начали переговоры с Зеленским после встречи с Путиным в Москве ⚠️ Подписаться на RV: MAX | t.me/RVvoenkor",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-12T22:10:15.992Z",
-        "index": 34,
+        "processed_at": "2026-11-13T03:16:20.700Z",
+        "index": 4,
         "resumen": {
           "generado": true,
           "origen": "translated"
         },
         "idioma_detectado": "es",
         "idioma_original": "es",
-        "categoria": "tecnologia",
-        "categorias_secundarias": [
-          "inteligencia_artificial"
-        ],
-        "category_scores": {
-          "tecnologia": 2,
-          "inteligencia_artificial": 1
-        },
+        "categoria": "militar",
+        "categorias_secundarias": [],
+        "category_scores": {},
         "entidades": [],
         "cifras_detectadas": [],
         "content_type": "news",
@@ -3367,12 +3501,12 @@
           "url_count": 0
         },
         "calidad": 75,
-        "relevancia": 50,
-        "confiabilidad_fuente": 53,
+        "relevancia": 45,
+        "confiabilidad_fuente": 45,
         "readability": {
-          "words": 65,
-          "sentences": 1,
-          "average_words_per_sentence": 65
+          "words": 60,
+          "sentences": 6,
+          "average_words_per_sentence": 10
         },
         "duplicate": {
           "detected": false,
@@ -3381,10 +3515,10 @@
           "similar_to": null
         }
       },
-      "final_score": 59.5
+      "final_score": 55.5
     },
     {
-      "id": "803dce4fefc4d0d7",
+      "id": "a2ab5c949ee0a470",
       "fuente_id": "resumen_militar",
       "fuente_nombre": "El Resumen Militar",
       "tipo": "telegram",
@@ -3396,17 +3530,17 @@
       "prioridad_fuente": 3,
       "analizar": true,
       "resumir": true,
-      "titulo": "‼️ 🇷🇺 🇪🇺 🇺🇦 Европа работает на срыв переговоров по Украине и продолжает создавать иллюзии у Киева — Рябков ▪️ Замглавы МИД России Сергей Рябков заявил, что Москва не получила от европейских стран ни одного конструк",
-      "titulo_original": "‼️ 🇷🇺 🇪🇺 🇺🇦 Европа работает на срыв переговоров по Украине и продолжает создавать иллюзии у Киева — Рябков ▪️ Замглавы МИД России Сергей Рябков заявил, что Москва не получила от европейских стран ни одного конструк",
-      "enlace": "https://t.me/elresumenmilitar/103142",
-      "fecha": "2026-11-12T11:55:16.000Z",
-      "resumen_corto": "‼️ 🇷🇺 🇪🇺 🇺🇦 Европа работает на срыв переговоров по Украине и продолжает создавать иллюзии у Киева — Рябков ▪️ Замглавы МИД России Сергей Рябков заявил, что Москва не получила от европейских стран ни одного конструктивного предложения по украинскому урегулированию.",
-      "resumen_largo": "‼️ 🇷🇺 🇪🇺 🇺🇦 Европа работает на срыв переговоров по Украине и продолжает создавать иллюзии у Киева — Рябков ▪️ Замглавы МИД России Сергей Рябков заявил, что Москва не получила от европейских стран ни одного конструктивного предложения по украинскому урегулированию. По его словам, Еврокомиссия препятствует переговорному процессу и предпринимает действия, направленные на его срыв. ▪️ Европейские столицы продолжают наращивать военную и финансовую поддержку Киева, формируя у украинского руководства иллюзии относительно дальнейшего развития конфликта.",
-      "texto_original": "‼️ 🇷🇺 🇪🇺 🇺🇦 Европа работает на срыв переговоров по Украине и продолжает создавать иллюзии у Киева — Рябков ▪️ Замглавы МИД России Сергей Рябков заявил, что Москва не получила от европейских стран ни одного конструктивного предложения по украинскому урегулированию. По его словам, Еврокомиссия препятствует переговорному процессу и предпринимает действия, направленные на его срыв. ▪️ Европейские столицы продолжают наращивать военную и финансовую поддержку Киева, формируя у украинского руководства иллюзии относительно дальнейшего развития конфликта. ▪️ Рябков подчеркнул, что Европа фактически взяла на себя бремя содержания Украины, однако её роль остаётся «деструктивной и несодержательной». ▪️ По оценке дипломата, ситуация меняется не в пользу Киева, и украинскому руководству необходимо это осознать. ▪️ Россия настаивает, что без формирования новой архитектуры европейской безопасности достичь устойчивых договорённостей невозможно. На переговорах в Абу-Даби Москва вновь подняла предложения 2021 года о гарантиях безопасности. ▪️ При этом Рябков положительно оценил участие главнокомандующего Объединёнными вооружёнными силами НАТО в Европе в переговорах в Абу-Даби, отметив, что его присутствие добавило обсуждению вопросов безопасности профессионализма. ⚠️ Подписаться на RV: MAX | t.me/RVvoenkor",
+      "titulo": "‼️ 🇺🇦 Крупнейший производитель подсолнечного масла на Украине остановил все заводы после ударов беспилотников ▪️ Украинский агрохолдинг Kernel, выпускающий масло под брендами «Щедрий Дар», «Стожар» и «Чумак», объявил о",
+      "titulo_original": "‼️ 🇺🇦 Крупнейший производитель подсолнечного масла на Украине остановил все заводы после ударов беспилотников ▪️ Украинский агрохолдинг Kernel, выпускающий масло под брендами «Щедрий Дар», «Стожар» и «Чумак», объявил о",
+      "enlace": "https://t.me/elresumenmilitar/103170",
+      "fecha": "2026-11-12T22:17:58.000Z",
+      "resumen_corto": "‼️ 🇺🇦 Крупнейший производитель подсолнечного масла на Украине остановил все заводы после ударов беспилотников ▪️ Украинский агрохолдинг Kernel, выпускающий масло под брендами «Щедрий Дар», «Стожар» и «Чумак», объявил о полной остановке маслоперерабатывающих предприятий и приостановке закупок подсолнечника.",
+      "resumen_largo": "‼️ 🇺🇦 Крупнейший производитель подсолнечного масла на Украине остановил все заводы после ударов беспилотников ▪️ Украинский агрохолдинг Kernel, выпускающий масло под брендами «Щедрий Дар», «Стожар» и «Чумак», объявил о полной остановке маслоперерабатывающих предприятий и приостановке закупок подсолнечника. ▪️ По сообщению компании от 12 ноября, в результате массированных атак беспилотников повреждены производственные здания, оборудование и резервуары. ▪️ Несмотря на остановку заводов, Kernel продолжает отгружать продукцию из складских запасов и выполнять обязательства перед партнёрами.",
+      "texto_original": "‼️ 🇺🇦 Крупнейший производитель подсолнечного масла на Украине остановил все заводы после ударов беспилотников ▪️ Украинский агрохолдинг Kernel, выпускающий масло под брендами «Щедрий Дар», «Стожар» и «Чумак», объявил о полной остановке маслоперерабатывающих предприятий и приостановке закупок подсолнечника. ▪️ По сообщению компании от 12 ноября, в результате массированных атак беспилотников повреждены производственные здания, оборудование и резервуары. ▪️ Несмотря на остановку заводов, Kernel продолжает отгружать продукцию из складских запасов и выполнять обязательства перед партнёрами. ▪️ В первом квартале 2026 финансового года компания переработала 564 тыс. тонн масличных культур, однако продажи масла рухнули на 48% — до 165 тыс. тонн. Одной из причин стали длительные ограничения отгрузок через порты после атак. ⚠️ Подписаться на RV: MAX | t.me/RVvoenkor",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-12T22:10:15.985Z",
-        "index": 19,
+        "processed_at": "2026-11-13T03:16:20.701Z",
+        "index": 5,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -3418,7 +3552,8 @@
         "category_scores": {},
         "entidades": [],
         "cifras_detectadas": [
-          "2021"
+          "2026",
+          "48%"
         ],
         "content_type": "news",
         "clickbait": {
@@ -3436,9 +3571,9 @@
         "relevancia": 45,
         "confiabilidad_fuente": 45,
         "readability": {
-          "words": 255,
-          "sentences": 14,
-          "average_words_per_sentence": 18.21
+          "words": 218,
+          "sentences": 13,
+          "average_words_per_sentence": 16.77
         },
         "duplicate": {
           "detected": false,
@@ -3450,7 +3585,7 @@
       "final_score": 52
     },
     {
-      "id": "5394fd3253fef3f3",
+      "id": "4b2e7821162e480e",
       "fuente_id": "resumen_militar",
       "fuente_nombre": "El Resumen Militar",
       "tipo": "telegram",
@@ -3462,150 +3597,17 @@
       "prioridad_fuente": 3,
       "analizar": true,
       "resumir": true,
-      "titulo": "‼️ 🇨🇳 🇹🇼 Воссоединение Тайваня с Китаем неизбежно, течение истории невозможно остановить — Си Цзиньпин ▪️ Председатель КНР Си Цзиньпин заявил, что возвращение Тайваня под контроль Пекина является «неизменной историче",
-      "titulo_original": "‼️ 🇨🇳 🇹🇼 Воссоединение Тайваня с Китаем неизбежно, течение истории невозможно остановить — Си Цзиньпин ▪️ Председатель КНР Си Цзиньпин заявил, что возвращение Тайваня под контроль Пекина является «неизменной историче",
-      "enlace": "https://t.me/elresumenmilitar/103140",
-      "fecha": "2026-11-12T11:53:28.000Z",
-      "resumen_corto": "▪️ Выступая на мероприятии к 160-летию со дня рождения Сунь Ятсена, китайский лидер подтвердил готовность к диалогу с Тайванем на основе принципа «одного Китая» и консенсуса 1992 года, сообщает Reuters.",
-      "resumen_largo": "‼️ 🇨🇳 🇹🇼 Воссоединение Тайваня с Китаем неизбежно, течение истории невозможно остановить — Си Цзиньпин ▪️ Председатель КНР Си Цзиньпин заявил, что возвращение Тайваня под контроль Пекина является «неизменной исторической миссией», а процесс национального воссоединения невозможно остановить. ▪️ Выступая на мероприятии к 160-летию со дня рождения Сунь Ятсена, китайский лидер подтвердил готовность к диалогу с Тайванем на основе принципа «одного Китая» и консенсуса 1992 года, сообщает Reuters. ⚠️ Подписаться на RV: MAX | t.me/RVvoenkor",
-      "texto_original": "‼️ 🇨🇳 🇹🇼 Воссоединение Тайваня с Китаем неизбежно, течение истории невозможно остановить — Си Цзиньпин ▪️ Председатель КНР Си Цзиньпин заявил, что возвращение Тайваня под контроль Пекина является «неизменной исторической миссией», а процесс национального воссоединения невозможно остановить. ▪️ Выступая на мероприятии к 160-летию со дня рождения Сунь Ятсена, китайский лидер подтвердил готовность к диалогу с Тайванем на основе принципа «одного Китая» и консенсуса 1992 года, сообщает Reuters. ⚠️ Подписаться на RV: MAX | t.me/RVvoenkor",
+      "titulo": "‼️ 🇷🇺 🇺🇦 Путин собрал Совбез России для обсуждения итогов переговоров с Украиной в Абу-Даби ▪️ Президент России провёл совещание с членами Совета безопасности РФ, посвящённое результатам переговоров российской и укра",
+      "titulo_original": "‼️ 🇷🇺 🇺🇦 Путин собрал Совбез России для обсуждения итогов переговоров с Украиной в Абу-Даби ▪️ Президент России провёл совещание с членами Совета безопасности РФ, посвящённое результатам переговоров российской и укра",
+      "enlace": "https://t.me/elresumenmilitar/103169",
+      "fecha": "2026-11-12T22:17:44.000Z",
+      "resumen_corto": "‼️ 🇷🇺 🇺🇦 Путин собрал Совбез России для обсуждения итогов переговоров с Украиной в Абу-Даби ▪️ Президент России провёл совещание с членами Совета безопасности РФ, посвящённое результатам переговоров российской и украинской делегаций в ОАЭ.",
+      "resumen_largo": "‼️ 🇷🇺 🇺🇦 Путин собрал Совбез России для обсуждения итогов переговоров с Украиной в Абу-Даби ▪️ Президент России провёл совещание с членами Совета безопасности РФ, посвящённое результатам переговоров российской и украинской делегаций в ОАЭ. ▪️ Первым с докладом выступил глава российской переговорной группы Владимир Мединский. ▪️ Путин попросил участников российской делегации лично представить свои оценки прошедших встреч, поделиться наблюдениями и рассказать о достигнутых результатах.",
+      "texto_original": "‼️ 🇷🇺 🇺🇦 Путин собрал Совбез России для обсуждения итогов переговоров с Украиной в Абу-Даби ▪️ Президент России провёл совещание с членами Совета безопасности РФ, посвящённое результатам переговоров российской и украинской делегаций в ОАЭ. ▪️ Первым с докладом выступил глава российской переговорной группы Владимир Мединский. ▪️ Путин попросил участников российской делегации лично представить свои оценки прошедших встреч, поделиться наблюдениями и рассказать о достигнутых результатах. ➖️ ️️️️️️ «Я попросил коллег, которые ездили в ОАЭ и вели переговоры с украинской делегацией, поделиться своими впечатлениями, наблюдениями и результатами», — отметил президент. ⚠️ Подписаться на RV: MAX | t.me/RVvoenkor",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-12T22:10:15.986Z",
-        "index": 21,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "es",
-        "categoria": "militar",
-        "categorias_secundarias": [],
-        "category_scores": {},
-        "entidades": [],
-        "cifras_detectadas": [
-          "1992"
-        ],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 65,
-        "relevancia": 45,
-        "confiabilidad_fuente": 45,
-        "readability": {
-          "words": 175,
-          "sentences": 8,
-          "average_words_per_sentence": 21.88
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 52
-    },
-    {
-      "id": "b1f0f202c071d77e",
-      "fuente_id": "resumen_militar",
-      "fuente_nombre": "El Resumen Militar",
-      "tipo": "telegram",
-      "subtipo": "canal_telegram",
-      "grupo_fuente": "telegram_militar",
-      "nivel_fuente": "telegram",
-      "categoria": "militar",
-      "idioma_original": "es",
-      "prioridad_fuente": 3,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "12.11.26 Кременчуг - Новая Знаменка Уничтожение инфраструктурных объектов Украины. Последствия удара со стороны ВС РФ по производственным помещениям на территории Кременчугского нефтеперерабатывающего завода. Возгорание",
-      "titulo_original": "12.11.26 Кременчуг - Новая Знаменка Уничтожение инфраструктурных объектов Украины. Последствия удара со стороны ВС РФ по производственным помещениям на территории Кременчугского нефтеперерабатывающего завода. Возгорание",
-      "enlace": "https://t.me/elresumenmilitar/103138",
-      "fecha": "2026-11-12T11:16:42.000Z",
-      "resumen_corto": "12.11.26 Кременчуг - Новая Знаменка Уничтожение инфраструктурных объектов Украины.",
-      "resumen_largo": "12.11.26 Кременчуг - Новая Знаменка Уничтожение инфраструктурных объектов Украины. Последствия удара со стороны ВС РФ по производственным помещениям на территории Кременчугского нефтеперерабатывающего завода. Возгорание установки переработки нефти.",
-      "texto_original": "12.11.26 Кременчуг - Новая Знаменка Уничтожение инфраструктурных объектов Украины. Последствия удара со стороны ВС РФ по производственным помещениям на территории Кременчугского нефтеперерабатывающего завода. Возгорание установки переработки нефти. Удаление от зоны контроля ВС РФ 200 км. 49.17109,33.46598 На карте Источник Геопривязка #ua #add",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-11-12T22:10:15.988Z",
-        "index": 25,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "es",
-        "categoria": "militar",
-        "categorias_secundarias": [],
-        "category_scores": {},
-        "entidades": [],
-        "cifras_detectadas": [
-          "1710",
-          "4659"
-        ],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 65,
-        "relevancia": 45,
-        "confiabilidad_fuente": 45,
-        "readability": {
-          "words": 91,
-          "sentences": 25,
-          "average_words_per_sentence": 3.64
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 52
-    },
-    {
-      "id": "f28efa63d7e5213b",
-      "fuente_id": "resumen_militar",
-      "fuente_nombre": "El Resumen Militar",
-      "tipo": "telegram",
-      "subtipo": "canal_telegram",
-      "grupo_fuente": "telegram_militar",
-      "nivel_fuente": "telegram",
-      "categoria": "militar",
-      "idioma_original": "es",
-      "prioridad_fuente": 3,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "‼️ 🇷🇺 🇺🇸 Уиткофф и Кушнер прибыли в Кремль на переговоры с Путиным ▪️ Спецпредставитель президента США Стив Уиткофф и зять Дональда Трампа Джаред Кушнер прибыли в Кремль для встречи с Владимиром Путиным. ⚠️ Подписать",
-      "titulo_original": "‼️ 🇷🇺 🇺🇸 Уиткофф и Кушнер прибыли в Кремль на переговоры с Путиным ▪️ Спецпредставитель президента США Стив Уиткофф и зять Дональда Трампа Джаред Кушнер прибыли в Кремль для встречи с Владимиром Путиным. ⚠️ Подписать",
-      "enlace": "https://t.me/elresumenmilitar/103141",
-      "fecha": "2026-11-12T11:55:06.000Z",
-      "resumen_corto": "‼️ 🇷🇺 🇺🇸 Уиткофф и Кушнер прибыли в Кремль на переговоры с Путиным ▪️ Спецпредставитель президента США Стив Уиткофф и зять Дональда Трампа Джаред Кушнер прибыли в Кремль для встречи с Владимиром Путиным.",
-      "resumen_largo": "‼️ 🇷🇺 🇺🇸 Уиткофф и Кушнер прибыли в Кремль на переговоры с Путиным ▪️ Спецпредставитель президента США Стив Уиткофф и зять Дональда Трампа Джаред Кушнер прибыли в Кремль для встречи с Владимиром Путиным. ⚠️ Подписаться на RV: MAX | t.me/RVvoenkor",
-      "texto_original": "‼️ 🇷🇺 🇺🇸 Уиткофф и Кушнер прибыли в Кремль на переговоры с Путиным ▪️ Спецпредставитель президента США Стив Уиткофф и зять Дональда Трампа Джаред Кушнер прибыли в Кремль для встречи с Владимиром Путиным. ⚠️ Подписаться на RV: MAX | t.me/RVvoenkor",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-11-12T22:10:15.986Z",
-        "index": 20,
+        "processed_at": "2026-11-13T03:16:20.702Z",
+        "index": 7,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -3633,9 +3635,73 @@
         "relevancia": 45,
         "confiabilidad_fuente": 45,
         "readability": {
-          "words": 118,
-          "sentences": 8,
-          "average_words_per_sentence": 14.75
+          "words": 190,
+          "sentences": 10,
+          "average_words_per_sentence": 19
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 50.25
+    },
+    {
+      "id": "1d661f4da7dd6050",
+      "fuente_id": "resumen_militar",
+      "fuente_nombre": "El Resumen Militar",
+      "tipo": "telegram",
+      "subtipo": "canal_telegram",
+      "grupo_fuente": "telegram_militar",
+      "nivel_fuente": "telegram",
+      "categoria": "militar",
+      "idioma_original": "es",
+      "prioridad_fuente": 3,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "‼️ 🇺🇦 Кадры разрушений на одной из теплоэлектростанций ДТЭК ▪️ Опубликовано видео с территории одной из повреждённых украинских ТЭС, принадлежащих энергетической компании ДТЭК. ▪️ На кадрах запечатлены последствия разр",
+      "titulo_original": "‼️ 🇺🇦 Кадры разрушений на одной из теплоэлектростанций ДТЭК ▪️ Опубликовано видео с территории одной из повреждённых украинских ТЭС, принадлежащих энергетической компании ДТЭК. ▪️ На кадрах запечатлены последствия разр",
+      "enlace": "https://t.me/elresumenmilitar/103161",
+      "fecha": "2026-11-12T22:17:06.000Z",
+      "resumen_corto": "‼️ 🇺🇦 Кадры разрушений на одной из теплоэлектростанций ДТЭК ▪️ Опубликовано видео с территории одной из повреждённых украинских ТЭС, принадлежащих энергетической компании ДТЭК.",
+      "resumen_largo": "‼️ 🇺🇦 Кадры разрушений на одной из теплоэлектростанций ДТЭК ▪️ Опубликовано видео с территории одной из повреждённых украинских ТЭС, принадлежащих энергетической компании ДТЭК. ▪️ На кадрах запечатлены последствия разрушений на энергетическом объекте. ⚠️ Подписаться на RV: MAX | t.me/RVvoenkor",
+      "texto_original": "‼️ 🇺🇦 Кадры разрушений на одной из теплоэлектростанций ДТЭК ▪️ Опубликовано видео с территории одной из повреждённых украинских ТЭС, принадлежащих энергетической компании ДТЭК. ▪️ На кадрах запечатлены последствия разрушений на энергетическом объекте. ⚠️ Подписаться на RV: MAX | t.me/RVvoenkor",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-11-13T03:16:20.703Z",
+        "index": 8,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "militar",
+        "categorias_secundarias": [],
+        "category_scores": {},
+        "entidades": [],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 60,
+        "relevancia": 45,
+        "confiabilidad_fuente": 45,
+        "readability": {
+          "words": 106,
+          "sentences": 10,
+          "average_words_per_sentence": 10.6
         },
         "duplicate": {
           "detected": false,
@@ -3647,24 +3713,24 @@
       "final_score": 50.25
     }
   ],
-  "analyzed_at": "2026-11-12T22:10:15.997Z",
+  "analyzed_at": "2026-11-13T03:16:20.717Z",
   "analysis_stats": {
-    "input_items": 50,
-    "valid_items": 50,
+    "input_items": 51,
+    "valid_items": 51,
     "rejected_items": 0,
     "duplicate_items": 0,
     "clickbait_items": 0,
     "spam_items": 0,
-    "summaries_generated": 50,
+    "summaries_generated": 51,
     "average_quality": 82,
-    "average_relevance": 61
+    "average_relevance": 60
   },
   "validation": {
     "version": "1.1",
-    "executed_at": "2026-11-12T22:10:16.099Z",
-    "original_items": 50,
+    "executed_at": "2026-11-13T03:16:20.823Z",
+    "original_items": 51,
     "rejected_items": 0,
-    "final_items": 50,
+    "final_items": 51,
     "limit": 60,
     "status": "ok"
   }

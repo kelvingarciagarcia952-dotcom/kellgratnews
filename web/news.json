@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "updated_at": "2026-11-14T23:45:42.976Z",
+  "updated_at": "2026-11-15T05:18:17.301Z",
   "configuracion": {
     "limite_global": 60,
     "frecuencia_minutos": 60,
@@ -24,10 +24,83 @@
     "active_sources": 15,
     "successful_sources": 15,
     "collected_items": 63,
-    "deduplicated_items": 48,
-    "final_items": 48
+    "deduplicated_items": 49,
+    "final_items": 49
   },
   "items": [
+    {
+      "id": "35215d1b0c951b42",
+      "fuente_id": "openai_google",
+      "fuente_nombre": "OpenAI",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "openai",
+      "nivel_fuente": "fuente_oficial",
+      "categoria": "inteligencia_artificial",
+      "idioma_original": "en",
+      "prioridad_fuente": 5,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "¿Qué afecta la monitorización de la cadena de pensamiento a lo largo del ciclo de vida del modelo? - Blog de investigación de alineación de OpenAI",
+      "titulo_original": "What affects chain-of-thought monitorability across the model lifecycle? - OpenAI Alignment Research Blog",
+      "enlace": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBaRWhCSnZabGY1Nk9pUl9tbGdsY1RTWGZ4bTV4SVFSSVB2aHhYX2F6cGpTUVZsQXRZR1Z6SXhrLTZuejZWUFpMdDZMQWlQX1VGbVJTQkJhUXdRdWFOSGFzVEg2SE1yb2FmZjNKSDVzb08?oc=5",
+      "fecha": "2026-11-11T06:45:30.000Z",
+      "resumen_corto": "¿Qué afecta la monitorización de la cadena de pensamiento a lo largo del ciclo de vida del modelo?",
+      "resumen_largo": "¿Qué afecta la monitorización de la cadena de pensamiento a lo largo del ciclo de vida del modelo? Blog de investigación de alineación de OpenAI",
+      "texto_original": "What affects chain-of-thought monitorability across the model lifecycle? OpenAI Alignment Research Blog",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-11-15T05:18:17.198Z",
+        "index": 43,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "en",
+        "categoria": "tecnologia",
+        "categorias_secundarias": [
+          "inteligencia_artificial",
+          "hardware"
+        ],
+        "category_scores": {
+          "tecnologia": 3,
+          "inteligencia_artificial": 2,
+          "hardware": 1
+        },
+        "entidades": [
+          "OpenAI"
+        ],
+        "cifras_detectadas": [],
+        "content_type": "report",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 92,
+        "relevancia": 70,
+        "confiabilidad_fuente": 85,
+        "readability": {
+          "words": 67,
+          "sentences": 6,
+          "average_words_per_sentence": 11.17
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 81.45
+    },
     {
       "id": "705816800452d937",
       "fuente_id": "huawei_central",
@@ -50,8 +123,8 @@
       "texto_original": "Huawei Watch Air, an ultra-thin wearable, will launch soon in almost six colors and a titanium finish, according to a new leak. The device is expected to debut alongside the MateBook Fold S and a large folding phone with smarter health capabilities. Weibo tipster FixedFocusDigital shared more insights on Huawei’s ultra-slim smartwatch. The company hasn’t […] The post Huawei Watch Air to debut in six colors and a titanium finish appeared first on Huawei Central .",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-14T23:45:42.819Z",
-        "index": 26,
+        "processed_at": "2026-11-15T05:18:17.194Z",
+        "index": 31,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -121,14 +194,14 @@
       "titulo": "Datos de costos retrasados ​​en la API de cumplimiento",
       "titulo_original": "Delayed Costs Data in the Compliance API - OpenAI",
       "enlace": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1WSWlkVnVzS1FfZmt0Skg1VkxpRWljejREUXZOdnFTMzlfdkxvQmlpVFJBX2ZxMXZKbHNaX2RYQ1JKT01RY3FzN2JFOFFTQnRISEtUYS1pRlQtc0JVZzEzT0c0OXlzWnNSbVJqb2gwRQ?oc=5",
-      "fecha": "2026-11-13T16:10:07.000Z",
+      "fecha": "2026-11-15T05:00:05.000Z",
       "resumen_corto": "Datos de costos retrasados ​​en la API de cumplimiento OpenAI",
       "resumen_largo": "Datos de costos retrasados ​​en la API de cumplimiento OpenAI",
       "texto_original": "Delayed Costs Data in the Compliance API OpenAI",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-14T23:45:42.825Z",
-        "index": 37,
+        "processed_at": "2026-11-15T05:18:17.172Z",
+        "index": 0,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -174,85 +247,6 @@
       "final_score": 78.65
     },
     {
-      "id": "f0f987931733c31f",
-      "fuente_id": "bbc_mundo",
-      "fuente_nombre": "BBC Mundo",
-      "tipo": "rss_web",
-      "subtipo": "medio_generalista",
-      "grupo_fuente": "bbc",
-      "nivel_fuente": "medio_profesional",
-      "categoria": "actualidad",
-      "idioma_original": "es",
-      "prioridad_fuente": 5,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "Los momentos de la historia que más alteraron la estatura de los humanos",
-      "titulo_original": "Los momentos de la historia que más alteraron la estatura de los humanos",
-      "enlace": "https://www.bbc.com/mundo/articles/cx4g1gnz1jmzo?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-14T12:08:23.000Z",
-      "resumen_corto": "Fuente de la imagen, tetyanka, NGUYEN THI NHI, Klaus Vedfelt, George Marks via Getty Images ¿Cómo se compara tu estatura con la de tus bisabuelos?",
-      "resumen_largo": "Fuente de la imagen, tetyanka, NGUYEN THI NHI, Klaus Vedfelt, George Marks via Getty Images ¿Cómo se compara tu estatura con la de tus bisabuelos? Lo más probable es que seas notablemente más alto. En la actualidad, los adultos jóvenes de todo el mundo son, en promedio, unos 10 cm más altos que sus antepasados de hace 100 años, según la publicación de investigación Our World in Data .",
-      "texto_original": "Fuente de la imagen, tetyanka, NGUYEN THI NHI, Klaus Vedfelt, George Marks via Getty Images ¿Cómo se compara tu estatura con la de tus bisabuelos? Lo más probable es que seas notablemente más alto. En la actualidad, los adultos jóvenes de todo el mundo son, en promedio, unos 10 cm más altos que sus antepasados de hace 100 años, según la publicación de investigación Our World in Data . Un estudio de 2016 que comparó a personas nacidas en 1896 y 1996 descubrió que las mujeres surcoreanas y los hombres iraníes son los que más han crecido: 20 cm y 17 cm respectivamente. Esto se debe a mejoras en la dieta, el entorno de las enfermedades, las vacunas y muchos otros factores, afirma el Dr. Aravinda Guntupalli, profesor titular de salud global en la Universidad de Aberdeen, en Escocia. A lo largo de miles de años, la dieta, las guerras, las enfermedades y otros grandes cambios sociales han provocado fluctuaciones en nuestra estatura.",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-11-14T23:45:42.811Z",
-        "index": 16,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "es",
-        "categoria": "tecnologia",
-        "categorias_secundarias": [
-          "inteligencia_artificial",
-          "semiconductores",
-          "moviles"
-        ],
-        "category_scores": {
-          "tecnologia": 2,
-          "inteligencia_artificial": 1,
-          "semiconductores": 1,
-          "moviles": 1,
-          "militar": 1,
-          "actualidad": 1
-        },
-        "entidades": [],
-        "cifras_detectadas": [
-          "2016",
-          "1896",
-          "1996"
-        ],
-        "content_type": "report",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 92,
-        "relevancia": 65,
-        "confiabilidad_fuente": 80,
-        "readability": {
-          "words": 197,
-          "sentences": 11,
-          "average_words_per_sentence": 17.91
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 78.2
-    },
-    {
       "id": "a1cf8224a5c81ec9",
       "fuente_id": "huawei_central",
       "fuente_nombre": "Huawei Central",
@@ -274,8 +268,8 @@
       "texto_original": "Honor Magic 10 series is rumored to get better display technology compared to the Magic 9 smartphones. The screen may get an upgrade to dual-layer OLED, which could show up with at least all high-end Magic 10 models. Here are the details. Tipster SmartPikachu revealed in a new leak that the Honor Magic 10 series […] The post Honor Magic 10 series will take display to new heights with dual-layer OLED appeared first on Huawei Central .",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-14T23:45:42.817Z",
-        "index": 24,
+        "processed_at": "2026-11-15T05:18:17.193Z",
+        "index": 30,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -356,8 +350,8 @@
       "texto_original": "Google Search is receiving Gemini 4 Hydrogen AI model. The company says the Hydrogen version is major improvement over the previous intelligence model and will provide a significant upgrade to the Search app in many aspects. After Argon and Carbon releases, Google has now launched Gemini 4 Hydrogen for Search app. Unlike the previous versions, […] The post Google introduced Gemini 4 Hydrogen intelligence upgrade to Search appeared first on Huawei Central .",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-14T23:45:42.801Z",
-        "index": 7,
+        "processed_at": "2026-11-15T05:18:17.183Z",
+        "index": 16,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -412,55 +406,62 @@
       "final_score": 75.65
     },
     {
-      "id": "81fb0462f69b302f",
-      "fuente_id": "openai_google",
-      "fuente_nombre": "OpenAI",
+      "id": "11a73ed48cf09a53",
+      "fuente_id": "huawei_central",
+      "fuente_nombre": "Huawei Central",
       "tipo": "rss_web",
-      "subtipo": "google_news",
-      "grupo_fuente": "openai",
-      "nivel_fuente": "fuente_oficial",
-      "categoria": "inteligencia_artificial",
+      "subtipo": "medio_especializado",
+      "grupo_fuente": "huawei",
+      "nivel_fuente": "secundaria_especializada",
+      "categoria": "moviles",
       "idioma_original": "en",
       "prioridad_fuente": 5,
       "analizar": true,
       "resumir": true,
-      "titulo": "Errores elevados con la facturación de ChatGPT y la facturación de anuncios",
-      "titulo_original": "Elevated errors with ChatGPT billing and Ads billing - OpenAI",
-      "enlace": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9Sa1RFbXNZNmFiZU4tMDdWTHllbVdFMzNwam03aGh0aWNwdWRnc3AySmRZYk40WXVqMXdsYlQ3a3ViT015ZUQ5Z1A5ZEtqb2ZpMHpWQWlFTFZJOFRDbEVFMFFUOEJnWFhLYUpOeXhlTQ?oc=5",
-      "fecha": "2026-11-14T04:17:32.000Z",
-      "resumen_corto": "Errores elevados con la facturación de ChatGPT y la facturación de anuncios OpenAI",
-      "resumen_largo": "Errores elevados con la facturación de ChatGPT y la facturación de anuncios OpenAI",
-      "texto_original": "Elevated errors with ChatGPT billing and Ads billing OpenAI",
+      "titulo": "Huawei Enjoy 100 Pro Max encabeza las ventas de teléfonos inteligentes en la semana 45 de 2026",
+      "titulo_original": "Huawei Enjoy 100 Pro Max tops smartphone sales in week 45 of 2026",
+      "enlace": "https://www.huaweicentral.com/huawei-enjoy-100-pro-max-tops-smartphone-sales-in-week-45-of-2026/",
+      "fecha": "2026-11-14T16:03:57.000Z",
+      "resumen_corto": "Huawei Enjoy 100 Pro Max está teniendo un excelente desempeño en el mercado de ventas de teléfonos inteligentes y ocupó el primer lugar en la semana 45 de 2026.",
+      "resumen_largo": "Huawei Enjoy 100 Pro Max está teniendo un excelente desempeño en el mercado de ventas de teléfonos inteligentes y ocupó el primer lugar en la semana 45 de 2026. El dispositivo básico está ganando terreno en el mercado por su precio asequible y sus sólidas especificaciones. RDObservation, un observador del mercado de ventas de teléfonos inteligentes chino, reveló hoy que el Huawei Enjoy […] La publicación Huawei Enjoy 100 Pro Max encabeza las ventas de teléfonos inteligentes en la semana 45 de 2026 apareció por primera vez en Huawei Central.",
+      "texto_original": "Huawei Enjoy 100 Pro Max is doing great in the smartphone sales market and ranked first in the 45th week of 2026. The entry-level device is gaining traction in the market for its budget-friendly price and strong specifications. Here are the details. RDObservation, a Chinese smartphone sales market observer, revealed today that the Huawei Enjoy […] The post Huawei Enjoy 100 Pro Max tops smartphone sales in week 45 of 2026 appeared first on Huawei Central .",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-14T23:45:42.822Z",
-        "index": 31,
+        "processed_at": "2026-11-15T05:18:17.182Z",
+        "index": 13,
         "resumen": {
           "generado": true,
           "origen": "translated"
         },
         "idioma_detectado": "es",
         "idioma_original": "en",
-        "categoria": "inteligencia_artificial",
+        "categoria": "moviles",
         "categorias_secundarias": [
-          "moviles",
-          "vehiculos_energia"
+          "tecnologia",
+          "inteligencia_artificial",
+          "semiconductores"
         ],
         "category_scores": {
-          "inteligencia_artificial": 4,
-          "moviles": 1,
-          "vehiculos_energia": 1
+          "moviles": 4,
+          "tecnologia": 2,
+          "inteligencia_artificial": 1,
+          "semiconductores": 1,
+          "vehiculos_energia": 1,
+          "software_internet": 1
         },
         "entidades": [
-          "OpenAI",
-          "ChatGPT"
+          "Huawei"
         ],
-        "cifras_detectadas": [],
+        "cifras_detectadas": [
+          "2026"
+        ],
         "content_type": "news",
         "clickbait": {
           "detected": false,
-          "score": 0,
-          "signals": []
+          "score": 25,
+          "signals": [
+            "\\brevealed\\b"
+          ]
         },
         "spam": {
           "detected": false,
@@ -468,13 +469,13 @@
           "signals": [],
           "url_count": 0
         },
-        "calidad": 84,
-        "relevancia": 67,
-        "confiabilidad_fuente": 75,
+        "calidad": 89,
+        "relevancia": 70,
+        "confiabilidad_fuente": 65,
         "readability": {
-          "words": 41,
-          "sentences": 1,
-          "average_words_per_sentence": 41
+          "words": 168,
+          "sentences": 8,
+          "average_words_per_sentence": 21
         },
         "duplicate": {
           "detected": false,
@@ -483,7 +484,7 @@
           "similar_to": null
         }
       },
-      "final_score": 74.95
+      "final_score": 75.4
     },
     {
       "id": "2503db9e69ef024a",
@@ -507,8 +508,8 @@
       "texto_original": "Introducing ChatGPT Wallet OpenAI",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-14T23:45:42.826Z",
-        "index": 38,
+        "processed_at": "2026-11-15T05:18:17.195Z",
+        "index": 35,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -576,7 +577,7 @@
       "texto_original": "All Specs, Features of Xiaomi Watch S5 41mm | Xiaomi Global Xiaomi",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-14T23:45:42.828Z",
+        "processed_at": "2026-11-15T05:18:17.198Z",
         "index": 44,
         "resumen": {
           "generado": true,
@@ -652,8 +653,8 @@
       "texto_original": "A Huawei insider suggested that the Enjoy smartphone series could get a wide-screen form factor next year. The company is working on various broad phones for its flagship and mid-range lineups. Perhaps the entry-level series may also get such a variant. Weibo tipster FixedFocus noted that all Huawei smartphone series, including the Enjoy line, will […] The post Huawei Enjoy series could get a wide-screen smartphone next year appeared first on Huawei Central .",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-14T23:45:42.815Z",
-        "index": 21,
+        "processed_at": "2026-11-15T05:18:17.192Z",
+        "index": 29,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -706,60 +707,59 @@
       "final_score": 73.65
     },
     {
-      "id": "e399c4a09c299d22",
-      "fuente_id": "huawei_central",
-      "fuente_nombre": "Huawei Central",
+      "id": "57a62919678fe30e",
+      "fuente_id": "bbc_mundo",
+      "fuente_nombre": "BBC Mundo",
       "tipo": "rss_web",
-      "subtipo": "medio_especializado",
-      "grupo_fuente": "huawei",
-      "nivel_fuente": "secundaria_especializada",
-      "categoria": "moviles",
-      "idioma_original": "en",
+      "subtipo": "medio_generalista",
+      "grupo_fuente": "bbc",
+      "nivel_fuente": "medio_profesional",
+      "categoria": "actualidad",
+      "idioma_original": "es",
       "prioridad_fuente": 5,
       "analizar": true,
       "resumir": true,
-      "titulo": "Huawei MateBook Fold S podría presentar este nuevo chip Kirin para PC",
-      "titulo_original": "Huawei MateBook Fold S could feature this new Kirin PC chip",
-      "enlace": "https://www.huaweicentral.com/huawei-matebook-fold-s-could-feature-this-new-kirin-pc-chip/",
-      "fecha": "2026-11-14T06:34:56.000Z",
-      "resumen_corto": "Comienza el pedido anticipado de Huawei MateBook Fold S y se espera que la pequeña PC plegable cuente con un chip Kirin lanzado recientemente.",
-      "resumen_largo": "Comienza el pedido anticipado de Huawei MateBook Fold S y se espera que la pequeña PC plegable cuente con un chip Kirin lanzado recientemente. La compañía lanzará la computadora compacta la próxima semana con varias actualizaciones notables y su chipset no es una excepción. El informante de Weibo, FixedFocus, reveló que el Huawei MateBook Fold S equipará el Kirin XE90, un […] La publicación Huawei MateBook Fold S podría presentar este nuevo chip Kirin para PC apareció por primera vez en Huawei Central.",
-      "texto_original": "Huawei MateBook Fold S pre-order begins, and the small foldable PC is expected to feature a recently released Kirin chip. The company will launch the compact computer next week with several notable upgrades, and its chipset is no exception. Weibo tipster FixedFocus revealed that the Huawei MateBook Fold S will equip the Kirin XE90, a […] The post Huawei MateBook Fold S could feature this new Kirin PC chip appeared first on Huawei Central .",
+      "titulo": "\"Quizás veamos el 25 de octubre de este año como el comienzo del fin de la recesión democrática mundial\"",
+      "titulo_original": "\"Quizás veamos el 25 de octubre de este año como el comienzo del fin de la recesión democrática mundial\"",
+      "enlace": "https://www.bbc.com/mundo/articles/cmy493l9xx1zo?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-11-15T04:57:14.000Z",
+      "resumen_corto": "Imagina que la democracia avanza en el mundo en olas que llegan por momentos y vuelven tras una fluctuación en el sentido contrario.",
+      "resumen_largo": "Imagina que la democracia avanza en el mundo en olas que llegan por momentos y vuelven tras una fluctuación en el sentido contrario. Ahora suponte que podamos estar ante uno de esos instantes históricos en que la corriente cambia de dirección. Eso es lo que plantea Larry Diamond, un reconocido sociólogo político estadounidense de la Universidad de Stanford que ha investigado durante décadas la democracia alrededor del planeta.",
+      "texto_original": "Imagina que la democracia avanza en el mundo en olas que llegan por momentos y vuelven tras una fluctuación en el sentido contrario. Ahora suponte que podamos estar ante uno de esos instantes históricos en que la corriente cambia de dirección. Eso es lo que plantea Larry Diamond, un reconocido sociólogo político estadounidense de la Universidad de Stanford que ha investigado durante décadas la democracia alrededor del planeta. Diamond cree que este año, y en especial el 25 de octubre, ocurrieron hechos en América Latina y otras partes que podrían marcar el principio del fin de la \"recesión democrática\" global de las últimas dos décadas. \"No es habitual que estas cosas ocurran el mismo día\", dice Diamond en una entrevista con BBC Mundo. La primera comenzó con las revoluciones en Estados Unidos y Francia en el siglo XVIII y siguió hasta los años 1920, cuando surgieron el comunismo, el fascismo y el nazismo. La segunda ola empezó tras la Segunda Guerra Mundial y se debilitó con eventos como los golpes militares de la década de 1960 en Sudamérica.",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-14T23:45:42.820Z",
-        "index": 27,
+        "processed_at": "2026-11-15T05:18:17.176Z",
+        "index": 2,
         "resumen": {
           "generado": true,
           "origen": "translated"
         },
         "idioma_detectado": "es",
-        "idioma_original": "en",
-        "categoria": "moviles",
+        "idioma_original": "es",
+        "categoria": "vehiculos_energia",
         "categorias_secundarias": [
-          "semiconductores",
+          "militar",
           "inteligencia_artificial",
-          "hardware"
+          "semiconductores"
         ],
         "category_scores": {
-          "moviles": 3,
-          "semiconductores": 2,
+          "vehiculos_energia": 2,
+          "militar": 2,
           "inteligencia_artificial": 1,
-          "hardware": 1,
-          "vehiculos_energia": 1,
-          "software_internet": 1
+          "semiconductores": 1
         },
         "entidades": [
-          "Huawei"
+          "BBC"
         ],
-        "cifras_detectadas": [],
+        "cifras_detectadas": [
+          "1920",
+          "1960"
+        ],
         "content_type": "news",
         "clickbait": {
           "detected": false,
-          "score": 25,
-          "signals": [
-            "\\brevealed\\b"
-          ]
+          "score": 0,
+          "signals": []
         },
         "spam": {
           "detected": false,
@@ -767,13 +767,13 @@
           "signals": [],
           "url_count": 0
         },
-        "calidad": 84,
-        "relevancia": 70,
-        "confiabilidad_fuente": 65,
+        "calidad": 89,
+        "relevancia": 62,
+        "confiabilidad_fuente": 70,
         "readability": {
-          "words": 154,
-          "sentences": 7,
-          "average_words_per_sentence": 22
+          "words": 215,
+          "sentences": 11,
+          "average_words_per_sentence": 19.55
         },
         "duplicate": {
           "detected": false,
@@ -782,7 +782,7 @@
           "similar_to": null
         }
       },
-      "final_score": 73.65
+      "final_score": 73.45
     },
     {
       "id": "9f591808826ae143",
@@ -806,8 +806,8 @@
       "texto_original": "Huawei Sense G1 announced, the first Continuous Glucose Monitoring (CGM) Device Huawei Central",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-14T23:45:42.827Z",
-        "index": 41,
+        "processed_at": "2026-11-15T05:18:17.197Z",
+        "index": 40,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -882,8 +882,8 @@
       "texto_original": "El presidente de Ucrania, Volodymyr Zelensky, aseguró que los negociadores estadounidenses han planteado la posibilidad de que Ucrania retire las tropas que aún mantiene en la región del Donbás a cambio de su ingreso en la Organización del Tratado del Atlántico Norte (OTAN). Las declaraciones del mandatario, realizadas este sábado, se producen después de que enviados estadounidenses visitaran Moscú y de que líderes europeos se reunieran en una cumbre de la Unión Europea (UE) celebrada en Dublín, Irlanda, para abordar los esfuerzos destinados a poner fin a la guerra entre Rusia y Ucrania. Kyiv lleva mucho tiempo buscando su adhesión a la alianza militar como condición para cualquier acuerdo de paz, con el fin de disuadir futuras amenazas, mientras que Rusia ha declarado que la presencia de otro miembro de la OTAN en su frontera es inaceptable. Rusia controla la mayor parte de la región industrial del Donbás y Zelensky ha afirmado reiteradamente que Ucrania no está dispuesta a ceder territorio soberano. \"Los estadounidenses plantearon la siguiente pregunta: '¿Qué pasaría si Ucrania se uniera a la OTAN? ¿Se retiraría Ucrania del Donbás?' Era la primera vez que se planteaba esta cuestión\", declaró Zelensky a los periodistas el sábado. El mandatario afirmó que estaría dispuesto a someter la propuesta a referendo siempre que incluyera garantías de seguridad, libertad para mantener las capacidades del ejército ucraniano y recursos para reconstruir el país.",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-14T23:45:42.803Z",
-        "index": 8,
+        "processed_at": "2026-11-15T05:18:17.185Z",
+        "index": 17,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -956,8 +956,8 @@
       "texto_original": "Diane Sheehan tuvo a su primer hijo en 1976. Le dijeron que había muerto en el parto, pero no era cierto. Cuatro décadas después se enteró que estaba vivo.",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-14T23:45:42.800Z",
-        "index": 6,
+        "processed_at": "2026-11-15T05:18:17.182Z",
+        "index": 14,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -1029,8 +1029,8 @@
       "texto_original": "Securing persistent agents like OpenClaw at OpenAI OpenAI Developers",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-14T23:45:42.827Z",
-        "index": 42,
+        "processed_at": "2026-11-15T05:18:17.197Z",
+        "index": 41,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -1079,6 +1079,79 @@
       "final_score": 70.15
     },
     {
+      "id": "67d401b895f88426",
+      "fuente_id": "byd_google",
+      "fuente_nombre": "BYD",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "byd",
+      "nivel_fuente": "fuente_oficial",
+      "categoria": "vehiculos_energia",
+      "idioma_original": "en",
+      "prioridad_fuente": 5,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "YANGWANG ALTIOR hace su debut global en Abu Dhabi: una expresión superior de poder",
+      "titulo_original": "YANGWANG ALTIOR makes its global debut in Abu Dhabi: a higher expression of power - BYD",
+      "enlace": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPUkNZRk9xRjFuMkVPSV9tSW1POFpGdXM5dkkzNHJTblktWWoxMFlVU1A0cVBvY1kxLUU3emdKRndDWHVoN2RUUnY0MkFpX3ZROGJNcGFrLVJPcFZxSzRmdVRjSWFQM0k3blFNejcteU1Fc3ZveU01OWFpTUZYZThiYkZUZnFCZDlkLUpmWkRPbUxNM2s0ZENDYkItRzY0QlNWdVJNN0pn?oc=5",
+      "fecha": "2026-11-07T08:00:00.000Z",
+      "resumen_corto": "YANGWANG ALTIOR hace su debut mundial en Abu Dhabi: una expresión superior de poder BYD",
+      "resumen_largo": "YANGWANG ALTIOR hace su debut mundial en Abu Dhabi: una expresión superior de poder BYD",
+      "texto_original": "YANGWANG ALTIOR makes its global debut in Abu Dhabi: a higher expression of power BYD",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-11-15T05:18:17.199Z",
+        "index": 46,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "en",
+        "categoria": "inteligencia_artificial",
+        "categorias_secundarias": [
+          "baterias_energia",
+          "vehiculos_energia"
+        ],
+        "category_scores": {
+          "inteligencia_artificial": 1,
+          "baterias_energia": 1,
+          "vehiculos_energia": 1
+        },
+        "entidades": [
+          "BYD"
+        ],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 84,
+        "relevancia": 55,
+        "confiabilidad_fuente": 75,
+        "readability": {
+          "words": 59,
+          "sentences": 1,
+          "average_words_per_sentence": 59
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 70.15
+    },
+    {
       "id": "60d3068a2c4c7f1d",
       "fuente_id": "catl_google",
       "fuente_nombre": "CATL",
@@ -1100,8 +1173,8 @@
       "texto_original": "CATL and Blue Vector Sign Strategic and Product Cooperation Agreements for SKYLA V30 Aircraft CATL",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-14T23:45:42.830Z",
-        "index": 47,
+        "processed_at": "2026-11-15T05:18:17.200Z",
+        "index": 48,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -1171,8 +1244,8 @@
       "texto_original": "Intel Reclaims 70% Desktop CPU Market Share As AMD Falls Below 30% In Surprise Q3 2026 Turnaround Wccftech",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-14T23:45:42.812Z",
-        "index": 18,
+        "processed_at": "2026-11-15T05:18:17.191Z",
+        "index": 26,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -1253,8 +1326,8 @@
       "texto_original": "AI Infrastructure: Outlook for 2027 TechInsights",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-14T23:45:42.829Z",
-        "index": 46,
+        "processed_at": "2026-11-15T05:18:17.200Z",
+        "index": 47,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -1305,82 +1378,6 @@
       "final_score": 69.4
     },
     {
-      "id": "c712cf4e769087db",
-      "fuente_id": "wccftech_google",
-      "fuente_nombre": "Wccftech",
-      "tipo": "rss_web",
-      "subtipo": "google_news",
-      "grupo_fuente": "wccftech",
-      "nivel_fuente": "medio_especializado",
-      "categoria": "hardware",
-      "idioma_original": "en",
-      "prioridad_fuente": 4,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "Jensen Huang aseguró a los líderes de NVIDIA que sus reuniones con Alice Huang fueron \"apropiadas\" y consideró emprender acciones legales contra el New York Times por el asunto",
-      "titulo_original": "Jensen Huang Assured NVIDIA Leadership That His Meetings With Alice Huang Were “Appropriate,” And Mulled Legal Action Against The New York Times About The Affair - Wccftech",
-      "enlace": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQM1c4bnhCRVVfN182ZXIydDBCQzhESUthX1JhSlFZejRfQlVjWTlZS093RnZ6cmlzaC1nR3p6MHV4aWdhaGlybXJadm1ZQ3RRcHBaV3BNWXVVSUlkMUNmeG9HQ0dMWk5SVXdLLXd4NWplOFduRjZ4X01sRUtBbDkteEd2ejRZRzdjanZBRHdWYnMtejRIanV5RWh6NkN1MHJrekxlMzlzbWliMWZl0gGyAUFVX3lxTE5IWTN2OWU1RTFCckpsV1VYSlRWOERuVWdUb2hjYWd4ZkRNTlJ4b3d3YnB6ZmhHMXlDMzdlTHVKNzNLbWdKN1FDb21WdUthcFlFemhUVVdfLTN2ci1hTWNLbjljZk9BdlVCazFZX3EtNkc5SHhQY3IwYWNVZ1dnZmdjTVJuaGcxSTRSbmRvQnhDdkNpWkRMd0FobDN5ZFlkZ0pISWNuUmJNRWcxLXk1NWtOU2c?oc=5",
-      "fecha": "2026-11-14T08:50:39.000Z",
-      "resumen_corto": "Jensen Huang aseguró a los líderes de NVIDIA que sus reuniones con Alice Huang fueron \"apropiadas\" y consideró emprender acciones legales contra el New York Times por el asunto Wccftech",
-      "resumen_largo": "Jensen Huang aseguró a los líderes de NVIDIA que sus reuniones con Alice Huang fueron \"apropiadas\" y consideró emprender acciones legales contra el New York Times por el asunto Wccftech",
-      "texto_original": "Jensen Huang Assured NVIDIA Leadership That His Meetings With Alice Huang Were “Appropriate,” And Mulled Legal Action Against The New York Times About The Affair Wccftech",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-11-14T23:45:42.816Z",
-        "index": 23,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "en",
-        "categoria": "inteligencia_artificial",
-        "categorias_secundarias": [
-          "vehiculos_energia",
-          "software_internet",
-          "tecnologia"
-        ],
-        "category_scores": {
-          "inteligencia_artificial": 2,
-          "vehiculos_energia": 1,
-          "software_internet": 1,
-          "tecnologia": 1
-        },
-        "entidades": [
-          "NVIDIA",
-          "Wccftech"
-        ],
-        "cifras_detectadas": [],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 82,
-        "relevancia": 67,
-        "confiabilidad_fuente": 50,
-        "readability": {
-          "words": 126,
-          "sentences": 1,
-          "average_words_per_sentence": 126
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 68
-    },
-    {
       "id": "c52bf218bea283b8",
       "fuente_id": "wccftech_google",
       "fuente_nombre": "Wccftech",
@@ -1402,8 +1399,8 @@
       "texto_original": "TeamGroup CEO Warns 2027 DRAM Shortage Could Become So Severe That Even Money Won’t Guarantee Supply Wccftech",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-14T23:45:42.810Z",
-        "index": 15,
+        "processed_at": "2026-11-15T05:18:17.190Z",
+        "index": 24,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -1481,8 +1478,8 @@
       "texto_original": "GeForce RTX 5090 And RTX 5080 Witness A Sudden Price Drop Of Up To 22% In Japan, But It’s Unlikely Due To Jensen’s Resignation Wccftech",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-14T23:45:42.812Z",
-        "index": 17,
+        "processed_at": "2026-11-15T05:18:17.190Z",
+        "index": 25,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -1561,8 +1558,8 @@
       "texto_original": "Virginia Martínez Tellez es una de las sobrevivientes de uno de los desastres industriales más graves de la historia. Una fuga de gas en un depósito de la petrolera Pemex cambiaría para siempre su vida, la de su familia y la de toda una comunidad.",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-14T23:45:42.793Z",
-        "index": 0,
+        "processed_at": "2026-11-15T05:18:17.178Z",
+        "index": 7,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -1626,7 +1623,7 @@
       "prioridad_fuente": 4,
       "analizar": true,
       "resumir": true,
-      "titulo": "Es probable que Huawei Mate X8 equipe la pantalla BOE con tecnología de pliegue ultraplano",
+      "titulo": "Es probable que Huawei Mate X8 equipe la pantalla BOE con tecnología de plegado ultraplano",
       "titulo_original": "Huawei Mate X8 likely to equip BOE screen with ultra-flat crease tech - Huawei Central",
       "enlace": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOaUk4UWNEMGhoNjM1UUNaTU5ta01JQjhQaVhTNW9IVEdNWUJLdDFBTHRid2RiREFwT29FcmpMMUpLWjVXRHNHaG11ME82eXNtVW9XZlVpS0NYVll3bzV2RnFtWE1zVjh0MjNNNGpMYzROUjkxSlE0enRyU0xwcDgtZ0xCQlV4Y1VUYnZ3YzBfaXNKZVEwRms2RU0tV2tZZlB4Q2fSAacBQVVfeXFMUDQ1VU1KaVcyNXZlZkNTaktkMklMUXZZdEZhN1NoRkNzYnlJeEJPYURieTJUWVJCN1lkbnBSWFFMenBHWUZ2dTJkUnNxcUVUV2Q4RUxDN2hfLUtRV05IZ1RWdjNKSDdkdmVqV1ZCLUl3SkZnbXlpNnNfRTQ0VE55N0pWem9IQnk0QlhfVUJHeG9mSWVDVnEwNFBZR1UzWnpUMXZpcENoVUU?oc=5",
       "fecha": "2026-11-13T09:33:14.000Z",
@@ -1635,8 +1632,8 @@
       "texto_original": "Huawei Mate X8 likely to equip BOE screen with ultra-flat crease tech Huawei Central",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-14T23:45:42.826Z",
-        "index": 40,
+        "processed_at": "2026-11-15T05:18:17.196Z",
+        "index": 38,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -1708,7 +1705,7 @@
       "texto_original": "Huawei Chairman showcases 14.7-inch MateBook Fold S PC design Huawei Central",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-14T23:45:42.829Z",
+        "processed_at": "2026-11-15T05:18:17.199Z",
         "index": 45,
         "resumen": {
           "generado": true,
@@ -1762,74 +1759,6 @@
       "final_score": 66.75
     },
     {
-      "id": "4323f74b36f7a021",
-      "fuente_id": "ia_dia",
-      "fuente_nombre": "IA al Día",
-      "tipo": "rss_web",
-      "subtipo": "google_news",
-      "grupo_fuente": "ia_general",
-      "nivel_fuente": "agregador",
-      "categoria": "inteligencia_artificial",
-      "idioma_original": "es",
-      "prioridad_fuente": 3,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "Expertos económicos avisan: \"El problema es que han echado a la cabeza pensante de NVIDIA, considerado inventor de esta tarjeta gráfica capaz de almacenar todos los datos de la inteligencia artificial\" - COPE",
-      "titulo_original": "Expertos económicos avisan: \"El problema es que han echado a la cabeza pensante de NVIDIA, considerado inventor de esta tarjeta gráfica capaz de almacenar todos los datos de la inteligencia artificial\" - COPE",
-      "enlace": "https://news.google.com/rss/articles/CBMi5wJBVV95cUxOUXotSVdSekw1TDllLXE1cE1pS2VrZHFSbUt2VEk2XzV5NVdyOVBPSXdwSjNRQzg2bWYxbGlzQ3Z4UUFVZ1g0VXNSYWhjLWptOXRSSWM3UTJfSFltenNCOVZoSzdxMU9MVHIzUWFEdXYyRGN6a3hTUTY1SVRrVXZQaHIzR0xWN0JrQkliamFoSVlNZnp0RDlhSE1naWdEZnhuQ0hDNUYtRmZhVXpISzBJZE1kalVkbGdDU2J3aFFybGt4eHpXWFhtWDZybmlGQnFnallSLXBRazBlTGxPem8xbXd1MUhxMC1hcmRNR3RJbEN2V3dXcnhEcHRNaE94UThxbDdlLU5RcUF6anNTdnNOQ3hkczVJQ3VGblNEU2VnNUpBNl9uNlRwYVZRb1pjektvV2RDNzhCSzJ0dDBXOVJnbFFsajZrWWc1NkV4NHVzeVowQzA4ekN3ckRmeDJGS1paREU2WTZNa9IB7AJBVV95cUxOQUpfR1RmeFpmMXpIUVVkWGxIS0VHdHBnY2lVUWVaOHFOTkNzLVRCZjRxSzNIdlNEQXZiZWlIR1BQYmQ2cFJ1RncyX3R4QlowS2Y5TDRBdDl2bV9XUllsSW5LcTFScWdCQVJRb0NDTmhkX1RhR3lLVHFOMGdWSEgxMjdPcVBKcnRPZk5neUNmRmhaalJxODVIUFBDaUFndV9kVlZXU3pLaTZHcV9IVXpfV0IxN3hxdE13ai1BODJQMDRadURYX1BwUFY5Y2RVZk1CTVNLR3Y1dU9XUkRRS1I0WDBRU241NTc3UjJjTFdxN2xNVWtIVFZ5UnVVRUZkWkRrWUFlUDZ6eTRIdE1sZHNNanhoWWlQYmtYaFJ0T3dQbTRDVHE4bXlPS3drZERaNFc3MkRTaERMYzhVNTBRQnU1LTUzRlJoOTJtYTRRUzZ6QkVhVUEtVmxjdURxM1QwNGxDWGNfaXYzMnNKVnhk?oc=5",
-      "fecha": "2026-11-13T18:51:56.000Z",
-      "resumen_corto": "Expertos económicos avisan: \"El problema es que han echado a la cabeza pensante de NVIDIA, considerado inventor de esta tarjeta gráfica capaz de almacenar todos los datos de la inteligencia artificial\" COPE",
-      "resumen_largo": "Expertos económicos avisan: \"El problema es que han echado a la cabeza pensante de NVIDIA, considerado inventor de esta tarjeta gráfica capaz de almacenar todos los datos de la inteligencia artificial\" COPE",
-      "texto_original": "Expertos económicos avisan: \"El problema es que han echado a la cabeza pensante de NVIDIA, considerado inventor de esta tarjeta gráfica capaz de almacenar todos los datos de la inteligencia artificial\" COPE",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-11-14T23:45:42.825Z",
-        "index": 36,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "es",
-        "categoria": "inteligencia_artificial",
-        "categorias_secundarias": [],
-        "category_scores": {
-          "inteligencia_artificial": 3
-        },
-        "entidades": [
-          "NVIDIA"
-        ],
-        "cifras_detectadas": [],
-        "content_type": "report",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 73,
-        "relevancia": 63,
-        "confiabilidad_fuente": 63,
-        "readability": {
-          "words": 115,
-          "sentences": 1,
-          "average_words_per_sentence": 115
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 66.5
-    },
-    {
       "id": "2a6876d7f7166653",
       "fuente_id": "xataka_google",
       "fuente_nombre": "Xataka",
@@ -1851,8 +1780,8 @@
       "texto_original": "Microsoft recupera Outlook más de 24 horas después: ya sabemos qué provocó la caída de sus servicios Xataka",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-14T23:45:42.814Z",
-        "index": 20,
+        "processed_at": "2026-11-15T05:18:17.192Z",
+        "index": 28,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -1923,8 +1852,8 @@
       "texto_original": "CEO de Microsoft, Satya Nadella: \"Tenemos que hacer algo útil con la IA, o rápidamente perderemos el permiso social\" — desafiando a los pioneros de la IA a mejorar su desempeño Genbeta",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-14T23:45:42.824Z",
-        "index": 35,
+        "processed_at": "2026-11-15T05:18:17.195Z",
+        "index": 34,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -1995,8 +1924,8 @@
       "texto_original": "Durante varias horas, permanecieron suspendidos en tierra todos los vuelos a lo largo del país. El secretario de Transportes llamó la atención sobre la necesidad de modernizar el sistema de control aéreo.",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-14T23:45:42.799Z",
-        "index": 5,
+        "processed_at": "2026-11-15T05:18:17.181Z",
+        "index": 12,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -2040,76 +1969,6 @@
       "final_score": 65.15
     },
     {
-      "id": "299d18ec08aaf577",
-      "fuente_id": "ia_dia",
-      "fuente_nombre": "IA al Día",
-      "tipo": "rss_web",
-      "subtipo": "google_news",
-      "grupo_fuente": "ia_general",
-      "nivel_fuente": "agregador",
-      "categoria": "inteligencia_artificial",
-      "idioma_original": "es",
-      "prioridad_fuente": 3,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "El efecto dominó de Nvidia: más de 100.000 M$ en inversiones en la IA amenazados - Finanzas.com",
-      "titulo_original": "El efecto dominó de Nvidia: más de 100.000 M$ en inversiones en la IA amenazados - Finanzas.com",
-      "enlace": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOQTM4Q2lyZWU1X3hYbXNPX3dGZ3JqUG1jTmRNd3dlaU1heGJNWk1ZQWRxY1FnbnJBNVBYZkFLWE10SVVXOExyVXNGdDRfM25IUXIxMzJjSldxTDcxMmZicEFNZnp1WXE5aWpGcDRHWkZyazJ0VHhDTkg0NVBQMWQzTXczcGdOYlJHM19FUXFVS3VxZHfSAZgBQVVfeXFMTjllQTBPcDlSdFd3bnZqeWJJa2tBR1RKekVUSWNwb0hPYlctMGVCa29QRUwtQjNUMnlmZWQ0OG1lSmFEeVBza085RWg4Mmh6X3RVQk5VbkQybWRENW5kUC1TUlFHOFQwdXVrYWwwWWtiX0xuOGRzUWd5Z3ZwRHlEekRmNHlLTEQ3WVNlcDJ4MllvaGppTFN3UVU?oc=5",
-      "fecha": "2026-11-14T03:55:00.000Z",
-      "resumen_corto": "El efecto dominó de Nvidia: más de 100.000 M$ en inversiones en la IA amenazados Finanzas.com",
-      "resumen_largo": "El efecto dominó de Nvidia: más de 100.000 M$ en inversiones en la IA amenazados Finanzas.com",
-      "texto_original": "El efecto dominó de Nvidia: más de 100.000 M$ en inversiones en la IA amenazados Finanzas.com",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-11-14T23:45:42.823Z",
-        "index": 32,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "es",
-        "categoria": "inteligencia_artificial",
-        "categorias_secundarias": [],
-        "category_scores": {
-          "inteligencia_artificial": 1
-        },
-        "entidades": [
-          "NVIDIA"
-        ],
-        "cifras_detectadas": [
-          "100.000 M"
-        ],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 85,
-        "relevancia": 55,
-        "confiabilidad_fuente": 53,
-        "readability": {
-          "words": 50,
-          "sentences": 11,
-          "average_words_per_sentence": 4.55
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 65
-    },
-    {
       "id": "1e87330b6d6c4429",
       "fuente_id": "xataka_google",
       "fuente_nombre": "Xataka",
@@ -2131,8 +1990,8 @@
       "texto_original": "El Schlörwagen, el superaerodinámico y peligrosísimo coche alemán que intentó revolucionar el mundo en 1939 Xataka",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-14T23:45:42.795Z",
-        "index": 1,
+        "processed_at": "2026-11-15T05:18:17.179Z",
+        "index": 8,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -2201,8 +2060,8 @@
       "texto_original": "Barrenengoa, dueño de gasolineras: “A 110 km/h se gasta menos combustible y si no usamos el coche no gastamos nada” Genbeta",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-14T23:45:42.797Z",
-        "index": 2,
+        "processed_at": "2026-11-15T05:18:17.179Z",
+        "index": 9,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -2271,8 +2130,8 @@
       "texto_original": "Un comando de Windows para liberar 10 GB de espacio en el disco duro Genbeta",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-14T23:45:42.828Z",
-        "index": 43,
+        "processed_at": "2026-11-15T05:18:17.197Z",
+        "index": 42,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -2341,8 +2200,8 @@
       "texto_original": "Huawei OSTA O1 Pro will feature a flagship Kirin chip Huawei Central",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-14T23:45:42.826Z",
-        "index": 39,
+        "processed_at": "2026-11-15T05:18:17.196Z",
+        "index": 36,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -2393,29 +2252,29 @@
       "final_score": 63.95
     },
     {
-      "id": "5d58d579aa6ea086",
-      "fuente_id": "google_news_es",
-      "fuente_nombre": "Google News ES",
+      "id": "eecefb21886b833b",
+      "fuente_id": "xataka_google",
+      "fuente_nombre": "Xataka",
       "tipo": "rss_web",
       "subtipo": "google_news",
-      "grupo_fuente": "google_news",
-      "nivel_fuente": "agregador",
+      "grupo_fuente": "xataka",
+      "nivel_fuente": "medio_especializado",
       "categoria": "tecnologia",
       "idioma_original": "es",
-      "prioridad_fuente": 3,
+      "prioridad_fuente": 4,
       "analizar": true,
       "resumir": true,
-      "titulo": "Bill Gates, co-fundador de Microsoft: \"Dentro de diez años, la mayoría de las tareas humanas podrán ser realizadas por inteligencia artificial\" - El Confidencial",
-      "titulo_original": "Bill Gates, co-fundador de Microsoft: \"Dentro de diez años, la mayoría de las tareas humanas podrán ser realizadas por inteligencia artificial\" - El Confidencial",
-      "enlace": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNbEZGSFFrek8xblY4Y2J2QU0wNWVIMmFibndqQ0tFYmR5QlFMRVRmRDNuRzlrVkFRcW11VDgxd1dFSERic2t1c3d2MVFIZXhhMVhKSXF6djJFSzBhQ2JpNlFXZWhKMzV4eW1DUFM4cFBad1N3WkJKUnpqR3NQS1VJYlRqTDhNQWR1SW41N3g3SnJDdmR3WTFYR00zRnlTU0dqd2xoUHE2RVNPRFJ6MlJIa2tDRGRyd2Nra3Y1aVFmZFo2V0l1Q0ZqZElnVnBHMXF6VWM3eEZMUlpWTFk?oc=5",
-      "fecha": "2026-11-14T09:21:00.000Z",
-      "resumen_corto": "Bill Gates, co-fundador de Microsoft: \"Dentro de diez años, la mayoría de las tareas humanas podrán ser realizadas por inteligencia artificial\" El Confidencial",
-      "resumen_largo": "Bill Gates, co-fundador de Microsoft: \"Dentro de diez años, la mayoría de las tareas humanas podrán ser realizadas por inteligencia artificial\" El Confidencial",
-      "texto_original": "Bill Gates, co-fundador de Microsoft: \"Dentro de diez años, la mayoría de las tareas humanas podrán ser realizadas por inteligencia artificial\" El Confidencial",
+      "titulo": "Ante el problema de las riadas, en parte de Valencia ya subvencionan hasta 500 euros por instalar barreras en la puerta de tu casa",
+      "titulo_original": "Ante el problema de las riadas, en parte de Valencia ya subvencionan hasta 500 euros por instalar barreras en la puerta de tu casa - Xataka",
+      "enlace": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOOU0zVnRWdHlGWWdXcU56eU1Vb0F3TzB6Zld6RUplVm9zQndVTV9xbGhXdE9VaFktN1pDUkd6Yk0xTGJqU3EtR2pCcHpoSnpEYXBwckFlM19XbUVHbUE5S2JEMGpuMVdDVVpicU9SNWI4UG5wS29wazZ3ZkNzQXotNnF3dFg1ZzlwVjhFTTRpLTR3dGNBTEowSktZOEZHVmlOMTl3cC16TlNHMk5vbGxMZXI5Q1REMWfSAbwBQVVfeXFMTWxXNDdHV044VnZKaXVpSkc0OURxZGRHYnVkaWhJdjMxcnVnR2d2OFE0Y0o5dkVxbWJyM0xzZ3ZlWWFDcC1QV2p3Ukh3ZzJFRlRNS3lhaTNtVEk5eThzdHNmZDFpS3NubWFVSEN5Nm9QcnZza1RNRFJVeGc1aW95LWpkbkU5LUkyc2w5bU45Q2d5ZlpRQkFhd2FxRVNOT1pBMFJJMWdneHdGdEdFT0l5WFoySWRRdXpfa2NIVWU?oc=5",
+      "fecha": "2026-11-14T17:31:24.000Z",
+      "resumen_corto": "Ante el problema de las riadas, en parte de Valencia ya subvencionan hasta 500 euros por instalar barreras en la puerta de tu casa Xataka",
+      "resumen_largo": "Ante el problema de las riadas, en parte de Valencia ya subvencionan hasta 500 euros por instalar barreras en la puerta de tu casa Xataka",
+      "texto_original": "Ante el problema de las riadas, en parte de Valencia ya subvencionan hasta 500 euros por instalar barreras en la puerta de tu casa Xataka",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-14T23:45:42.816Z",
-        "index": 22,
+        "processed_at": "2026-11-15T05:18:17.180Z",
+        "index": 10,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -2425,10 +2284,10 @@
         "categoria": "inteligencia_artificial",
         "categorias_secundarias": [],
         "category_scores": {
-          "inteligencia_artificial": 3
+          "inteligencia_artificial": 1
         },
         "entidades": [
-          "Microsoft"
+          "Xataka"
         ],
         "cifras_detectadas": [],
         "content_type": "news",
@@ -2443,13 +2302,13 @@
           "signals": [],
           "url_count": 0
         },
-        "calidad": 80,
+        "calidad": 82,
         "relevancia": 55,
-        "confiabilidad_fuente": 53,
+        "confiabilidad_fuente": 50,
         "readability": {
-          "words": 90,
+          "words": 79,
           "sentences": 1,
-          "average_words_per_sentence": 90
+          "average_words_per_sentence": 79
         },
         "duplicate": {
           "detected": false,
@@ -2458,145 +2317,7 @@
           "similar_to": null
         }
       },
-      "final_score": 63.25
-    },
-    {
-      "id": "84220d86d0b6de5e",
-      "fuente_id": "ia_dia",
-      "fuente_nombre": "IA al Día",
-      "tipo": "rss_web",
-      "subtipo": "google_news",
-      "grupo_fuente": "ia_general",
-      "nivel_fuente": "agregador",
-      "categoria": "inteligencia_artificial",
-      "idioma_original": "es",
-      "prioridad_fuente": 3,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "El escándalo de Nvidia ensombrece las conversaciones entre Estados Unidos y China sobre inteligencia artificial - Infobae",
-      "titulo_original": "El escándalo de Nvidia ensombrece las conversaciones entre Estados Unidos y China sobre inteligencia artificial - Infobae",
-      "enlace": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPNVRJTGhPMldSU0dEUGdqRmlzSmFRQzRDX3FLRVFtZWtfSm1hM2p6cDIzVE4wYW5GNGJLcWtEbnp6X2tuWjcxYkpiWXd3ZkthVGFPdlprVXZ6Nk0tbmVfamxpbTFkSk9sRDdSczdGa092QXFPQTBYSjdWVHUtSnQ2dmpITVA3REVicGNpdnhRWm9OUEpiX3pHSFhkWGtKMUlsOXZaclpBWThFaHNDVWc5SUVnclo4ZmVvMDY0SWU5bzNjX0VrakNhTWhsMWt2OUthenI0SXJUeEJsaTV3X3NGRHBwMElTTkNHd3FJUl9Jc0U3NFnSAY4CQVVfeXFMTnFzVzFOYk92VkxfQ2RfdmFjRjB0ZEFMN01wbVJwTTBPVzN3WnF2ejhQRF9YQzR5Y1F4VWNmemNQcUd4WG1zQmFSUXlhUHgxbzhsMGVCUVlrS3lPYnB2U1dkSk9Jb3QxSFBKLWtBU3RxQm1Mb1dmNVBUZWdmRFFLOUF6OTcwRHE5OFAzcFZfWVVTaVNiZEdHb1JaYk5PVEJrdE9odWJ3NEw1UVBIcHhZTGoxY01QY2ptU2JtMjVFSDgyTmE2UXJKYmJKeXBsS0xGem9SZTJiME55LVZTbHhneWsyLVM4WWJnTWZfdXRFWEZldHZELTBKYVZHNlRZcGpTR054QlU5VFM3LWR4dVZn?oc=5",
-      "fecha": "2026-11-14T08:30:00.000Z",
-      "resumen_corto": "El escándalo de Nvidia ensombrece las conversaciones entre Estados Unidos y China sobre inteligencia artificial Infobae",
-      "resumen_largo": "El escándalo de Nvidia ensombrece las conversaciones entre Estados Unidos y China sobre inteligencia artificial Infobae",
-      "texto_original": "El escándalo de Nvidia ensombrece las conversaciones entre Estados Unidos y China sobre inteligencia artificial Infobae",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-11-14T23:45:42.818Z",
-        "index": 25,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "es",
-        "categoria": "inteligencia_artificial",
-        "categorias_secundarias": [],
-        "category_scores": {
-          "inteligencia_artificial": 3
-        },
-        "entidades": [
-          "NVIDIA"
-        ],
-        "cifras_detectadas": [],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 25,
-          "signals": [
-            "\\bescándalo\\b"
-          ]
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 80,
-        "relevancia": 55,
-        "confiabilidad_fuente": 53,
-        "readability": {
-          "words": 65,
-          "sentences": 1,
-          "average_words_per_sentence": 65
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 63.25
-    },
-    {
-      "id": "77c73f8b6cc2aa40",
-      "fuente_id": "ia_dia",
-      "fuente_nombre": "IA al Día",
-      "tipo": "rss_web",
-      "subtipo": "google_news",
-      "grupo_fuente": "ia_general",
-      "nivel_fuente": "agregador",
-      "categoria": "inteligencia_artificial",
-      "idioma_original": "es",
-      "prioridad_fuente": 3,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "El fulgor de Nvidia se oscurece sin su rey Midas: así es el tortuoso camino que le espera a la empresa clave para la IA - EL PAÍS",
-      "titulo_original": "El fulgor de Nvidia se oscurece sin su rey Midas: así es el tortuoso camino que le espera a la empresa clave para la IA - EL PAÍS",
-      "enlace": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQS0s1ZGhYQ0doanRFV0taTndxZGtHZWtBZjdDNnVjWXJhbG1VcUN4MUtvV3Q5dEpxZFNXRzNnT3hxYzdrRFhrU1hPZndtU19EWllnTWV0eUh0T1NRQmxEc2dwYVVwaUhheFJKZG1saGpwMV9zYnBhSllkMUttVjhjZUQ3ZmJ5clZYb1k0VzhtZ3psZnF6aXBnRnh0bWQwNGtyNG9B0gG3AUFVX3lxTE54cFhscWVweHhlWmR2eFBITi1BNU5PZ3dFU0k4MUxneXFIRWpQNlNjS1dqd0U0b0VkYnY1YlRaVmZWYU9yWEc2a1RkM1c2SjczakhMMEFEQTNBb3dpVV9Od3E5Q1JZOUNiVF9vM2wwWllwZGg5UHlPT01YWVJPX2FOcnB4WWk5TnRBWXZ4eF9EWEVYNjlpWXpieVB0LTdxLXgxcWowTkdaU3VxcVpnNTdEVFQ0OTJqdw?oc=5",
-      "fecha": "2026-11-14T04:30:00.000Z",
-      "resumen_corto": "El fulgor de Nvidia se oscurece sin su rey Midas: así es el tortuoso camino que le espera a la empresa clave para la IA EL PAÍS",
-      "resumen_largo": "El fulgor de Nvidia se oscurece sin su rey Midas: así es el tortuoso camino que le espera a la empresa clave para la IA EL PAÍS",
-      "texto_original": "El fulgor de Nvidia se oscurece sin su rey Midas: así es el tortuoso camino que le espera a la empresa clave para la IA EL PAÍS",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-11-14T23:45:42.821Z",
-        "index": 30,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "es",
-        "categoria": "inteligencia_artificial",
-        "categorias_secundarias": [],
-        "category_scores": {
-          "inteligencia_artificial": 2
-        },
-        "entidades": [
-          "NVIDIA"
-        ],
-        "cifras_detectadas": [],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 80,
-        "relevancia": 55,
-        "confiabilidad_fuente": 53,
-        "readability": {
-          "words": 75,
-          "sentences": 1,
-          "average_words_per_sentence": 75
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 63.25
+      "final_score": 63.2
     },
     {
       "id": "ad2f90fec6b97cb0",
@@ -2620,8 +2341,8 @@
       "texto_original": "Muchas personas se despiertan “solas” a la hora que quieren sin necesidad de despertador y la ciencia tiene una explicación Xataka",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-14T23:45:42.798Z",
-        "index": 4,
+        "processed_at": "2026-11-15T05:18:17.180Z",
+        "index": 11,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -2670,7 +2391,7 @@
       "final_score": 63.2
     },
     {
-      "id": "bfe79a02ea811709",
+      "id": "694dda1a93e7cb56",
       "fuente_id": "google_news_es",
       "fuente_nombre": "Google News ES",
       "tipo": "rss_web",
@@ -2682,32 +2403,30 @@
       "prioridad_fuente": 3,
       "analizar": true,
       "resumir": true,
-      "titulo": "Tecnología, vocación y cariño para cambiar vidas - Diario de Sevilla",
-      "titulo_original": "Tecnología, vocación y cariño para cambiar vidas - Diario de Sevilla",
-      "enlace": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPT20wOWd3RHFjS0VsNFJlaFk4THUxdzVVYzZMTGUyc21EZFlhTVhNOFVxajlkbXRsb1N5QkFuODZrYXFqN2VNMm5KcE5iVHU2TVQ5RzNfSUp4cUpha0YxVHQzLTR5WDdBcDNpdS1iYWFnMTZZb1luRTlhM0JfQ2pEWnJXR2NPcHVBMnFZWW5fRnA4b3dDaTF1YzNwV0t2UUZYTF9zdWZUeEItWm5aSFJPRDAza2FNOWFuNWJYXzZKQ0dZV2tCZHNYVnZJcVMxMVdheGZ1SHJ6Smp3QVRzZV9uRmN0dU15ZENkZnA0UHloY3cxZjJ4SUthZlNxYjMxZGFBc1lV0gGIAkFVX3lxTE8tLWk4NkJ3RXJWd2RlZWdyeFFJREJ1ZTVXXzJiQ3JCQ3BnbGZyQUh1VmpEaV9IVjYxZ0ZuVGV5LUY0cVR3dUllTFVLbzJUNEdiUEx0RUh4bFlUR0RUVmdQSmtweVFmV0ZJcnY0b0dJaElfSWJlbEszVmRTbEVvVEtNRXNLQjk1anlIZWpaRUZURnlrdEd6Q2doOE13eDZTVjlnMmlMeFFvUl9nbE80aFc1WjBrZHZNUjgyZFpYT2xPWUNuV0ZEM2tHNWtvOHE3NTI5c1YwQTVDX1FyWjNCbDY0QkNQOE80czkyN1hCNEx4RGtwVE5LbGFuZHhQZ2dVdnpxTWplLWtPYw?oc=5",
-      "fecha": "2026-11-14T06:00:58.000Z",
-      "resumen_corto": "Tecnología, vocación y cariño para cambiar vidas Diario de Sevilla",
-      "resumen_largo": "Tecnología, vocación y cariño para cambiar vidas Diario de Sevilla",
-      "texto_original": "Tecnología, vocación y cariño para cambiar vidas Diario de Sevilla",
+      "titulo": "Tecnología al servicio del paciente - EL PAÍS",
+      "titulo_original": "Tecnología al servicio del paciente - EL PAÍS",
+      "enlace": "https://news.google.com/rss/articles/CBMikgFBVV95cUxONExjaEVyVHdFalZrdDlVZ2dBbUhNTTQzTHhaM180Q0hJejN3NVFpd21xUjNnallHOXJSa01aeHlld0c1NUh5V1JwUVI1cVl6RThJMWJpZkw4THNkeUhqcnlUU1o1VFcwbFMxS2pyWGl6WVFpTVNYX0Y2ZE9JeUMxSXk0d0NEaFZyTC10MXlNYnpXd9IBpgFBVV95cUxPRWVfSVg0SUMyYWo1b2JnbWJRMEtwMU5WaW1DZ2ZPWHF4NkZ0SjhDUThpRGRRbUhxbDV1ZzZQb1I2dzhYVHp2SlJrSmpFUG1RYk0zWlQ1QlNFV3pDeUJEdnRiZGxnVHFKRjZxVWthclZlSkxpRlhuYVZOUlpneUVrUjRITUoyRWNiQlQ1UXBKNk82eEhsMVptR3VlbWk0bjg5Y0hOa2Z3?oc=5",
+      "fecha": "2026-11-15T04:30:00.000Z",
+      "resumen_corto": "Tecnología al servicio del paciente EL PAÍS",
+      "resumen_largo": "Tecnología al servicio del paciente EL PAÍS",
+      "texto_original": "Tecnología al servicio del paciente EL PAÍS",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-14T23:45:42.821Z",
-        "index": 29,
+        "processed_at": "2026-11-15T05:18:17.176Z",
+        "index": 4,
         "resumen": {
           "generado": true,
           "origen": "translated"
         },
         "idioma_detectado": "es",
         "idioma_original": "es",
-        "categoria": "vehiculos_energia",
+        "categoria": "inteligencia_artificial",
         "categorias_secundarias": [
-          "tecnologia",
-          "inteligencia_artificial"
+          "tecnologia"
         ],
         "category_scores": {
-          "vehiculos_energia": 2,
-          "tecnologia": 2,
-          "inteligencia_artificial": 1
+          "inteligencia_artificial": 2,
+          "tecnologia": 2
         },
         "entidades": [],
         "cifras_detectadas": [],
@@ -2727,9 +2446,9 @@
         "relevancia": 57,
         "confiabilidad_fuente": 53,
         "readability": {
-          "words": 40,
+          "words": 25,
           "sentences": 1,
-          "average_words_per_sentence": 40
+          "average_words_per_sentence": 25
         },
         "duplicate": {
           "detected": false,
@@ -2762,7 +2481,7 @@
       "texto_original": "Nuevos modelos de IA avanzada: por qué el freno a esta tecnología no era posible Expansión",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-14T23:45:42.823Z",
+        "processed_at": "2026-11-15T05:18:17.194Z",
         "index": 33,
         "resumen": {
           "generado": true,
@@ -2812,7 +2531,7 @@
       "final_score": 62.3
     },
     {
-      "id": "279484def0d51b92",
+      "id": "607eb2e4f5db7734",
       "fuente_id": "google_news_es",
       "fuente_nombre": "Google News ES",
       "tipo": "rss_web",
@@ -2824,32 +2543,170 @@
       "prioridad_fuente": 3,
       "analizar": true,
       "resumir": true,
-      "titulo": "El papa alerta en Perú del riesgo de que la tecnología sea un privilegio para millonarios - ABC",
-      "titulo_original": "El papa alerta en Perú del riesgo de que la tecnología sea un privilegio para millonarios - ABC",
-      "enlace": "https://news.google.com/rss/articles/CBMirAFBVV95cUxObWlxVUVhMkZuZlYycFJBdE52MFlCcjBXc1o3MlNwazRMQjkyeVZsWkxzR1ZmQ3EyVjcwT3g5dXVBZ1hCWFlEdVFhUmlqMzhvcHpUN1lBZVY1S0hsMEdqTjg3N2dtZFZXaVZwVF83SkVBekNQZnVsNWNHT092RVBGZWx1YTR4VGJkVEZVN01KNWVnX3FvOElPZ1pEeWFVb3luSDdTeXg5RWpTbU1F0gGyAUFVX3lxTE8tSVZmUTZTVzRQX3dRclhJRTByNGMxejc1T2RfUHFPZmZhSmJwNE9mclVPRnhpSWJsaVZGTVlsOERtcjRsOU5BYjFoeVpnRG9WN05PSkdGcEppZUlnT1N1X21zSWdlaGM4WlFCUEpvcExqZ3RaSGYtR2hPLUVSUEZKOW5URVlDNXNLRklkZlM1aDZYU3YxYVlpT2hpYTdTcmpYUUhndDEyZ09BSDdwVzlrekE?oc=5",
-      "fecha": "2026-11-14T00:31:00.000Z",
-      "resumen_corto": "El papa alerta en Perú del riesgo de que la tecnología sea un privilegio para millonarios ABC",
-      "resumen_largo": "El papa alerta en Perú del riesgo de que la tecnología sea un privilegio para millonarios ABC",
-      "texto_original": "El papa alerta en Perú del riesgo de que la tecnología sea un privilegio para millonarios ABC",
+      "titulo": "José Ángel Cuadrado, experto en tecnología: \"La caída mundial de Microsoft se debe a una actualización técnica. Se está investigando un cambio realizado recientemente en su configuración de red\" - COPE",
+      "titulo_original": "José Ángel Cuadrado, experto en tecnología: \"La caída mundial de Microsoft se debe a una actualización técnica. Se está investigando un cambio realizado recientemente en su configuración de red\" - COPE",
+      "enlace": "https://news.google.com/rss/articles/CBMiygJBVV95cUxPRXlDZzV3WnFCclZ3SFFNVGJfZ1hUV1FZX2NUZjNxMU5VTVBYZmpWTTduMV83S1Mzc1FUalY1NnhaRzVJOW52S1dVY2tHNTBVZWM5ZEFzVExLdUZWeDZlNzk2ZFpkZEpPdkxqWDN6VnBab01TMmVRQnkwclhlUGd0NDlod2VaTmpYSnB0Y19RSXlLeGUtRVBBUy1rTFZiUG9nQ1NOeWRwZzVIRTZHVDdhcldreGR3TmdoNWNweC0ySm8zbmxWems0ZmdoVV9jV1VhdVMxX1E1Qlc1N1NTX3JPZkw4QnhZeUZaSkQ5YktlQ0ZnZmxGamNCbE9ucVVQcVNRNG1yT1lCWnIxcno1NzVwa2FJYnk5ZE0wTVNiOGtSSGptcmh5WG1OVS1GZkRTOGFQSHNkd0JBelE5YkRSSUN5NEF5aHc2YV9fb3fSAc8CQVVfeXFMUE51UnJmU2czQy0yNUNlR1ZUdWZRanlzVWVvU0ZyZ21sWHlBM0FLUHRMeGNLd3N1WnU1ZG05S3NTbFFXelBLeHN6QVRJcEprdHo2Ry03dFVfVE1Yb252WVBpT0p2a3RjejZHaXdiMVdVV2J4QnVaTmFSU0dpU2Z3OHhWVjlBZHBJWERxdlJxVXhhOHRycm53ajkwVGtlMnlLVmdVdzVZcXpCdzFRbldzaUlhTU9JMkl5Sm0xLXk5WFZqRGpjZHJrRnRmYUlWczc2R25mQmhyWGtuNDNwMzllZjA2ZmV2aUJFcWxaVWQzM1FxZVo0YUVQdnhHbmljdFFvZS0wdlJZSEl1Y0FaYWtyUEExbzRMYXVWYWZjYlEzZjlubHdiSjZkem1jM2phVmQ1WmwxLW0zRmVyc3Z3dk0tZkl3UnFQVy0xUS1BaE41MWM?oc=5",
+      "fecha": "2026-11-13T08:43:30.000Z",
+      "resumen_corto": "José Ángel Cuadrado, experto en tecnología: \"La caída mundial de Microsoft se debe a una actualización técnica.",
+      "resumen_largo": "José Ángel Cuadrado, experto en tecnología: \"La caída mundial de Microsoft se debe a una actualización técnica. Se está investigando un cambio realizado recientemente en su configuración de red\" COPE",
+      "texto_original": "José Ángel Cuadrado, experto en tecnología: \"La caída mundial de Microsoft se debe a una actualización técnica. Se está investigando un cambio realizado recientemente en su configuración de red\" COPE",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-14T23:45:42.824Z",
-        "index": 34,
+        "processed_at": "2026-11-15T05:18:17.197Z",
+        "index": 39,
         "resumen": {
           "generado": true,
           "origen": "translated"
         },
         "idioma_detectado": "es",
         "idioma_original": "es",
-        "categoria": "tecnologia",
+        "categoria": "inteligencia_artificial",
         "categorias_secundarias": [
-          "inteligencia_artificial",
-          "moviles"
+          "tecnologia"
         ],
         "category_scores": {
-          "tecnologia": 2,
+          "inteligencia_artificial": 2,
+          "tecnologia": 2
+        },
+        "entidades": [
+          "Microsoft"
+        ],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 65,
+        "relevancia": 62,
+        "confiabilidad_fuente": 53,
+        "readability": {
+          "words": 92,
+          "sentences": 6,
+          "average_words_per_sentence": 15.33
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 60.8
+    },
+    {
+      "id": "f54e067a4d86eb4d",
+      "fuente_id": "wccftech_google",
+      "fuente_nombre": "Wccftech",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "wccftech",
+      "nivel_fuente": "medio_especializado",
+      "categoria": "hardware",
+      "idioma_original": "en",
+      "prioridad_fuente": 4,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Más de 100.000 personas piden ahora el regreso de Jensen Huang a NVIDIA, mientras el veterano de PayPal, David Sacks, califica su salida forzada como \"la colina más estúpida y discutible sobre la que morir\"",
+      "titulo_original": "Over 100,000 People Now Call For Jensen Huang’s Return To NVIDIA, As The PayPal Veteran David Sacks Terms His Forced Exit “The Stupidest, Most Moot Hill To Die On” - Wccftech",
+      "enlace": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxQTktraldqLXhzbk9JNy0yd2RYa2pvQTQ2bkRSbXFuV0dUREdteDdxNHM1TTBlM0FDaFJjdExPOE9YZVhJWjVWNk4tZmFEaS1QVFZOU2l6Rkx4eUpDWUhTRzBBbS1HbHdNeUNtYlYxY1Q0R2ROb3d1ZlBHVVo2YjFTUDFnR3FpT0g5N0NIcERySklzeDk0cEhWTU52djlBSWpxbGNWNXR4MFp6cFNrMHM5ZnRnVGZDU1BDY0dNRmk3RlU1WWs3dUlrbDhRUU8tTTVBc3dRWFFRNUVRWEVBWFhDUEF4MkdacHN2MXpXa0VVY1RRWGZlOVpyajhyOGpHSVptVDRaelZkWGJ1WTjSAZACQVVfeXFMTU0wUTBvX3ZhZ3FlaFFvdGlwZng2MjdKVFM5VTd3cGVNd0MyOXhNNVNQUDlfYTdidnA4cTJEWkRQTkVRMFZEeDBNN2o2NzdIc1dEQVU1U3lvRzdreVEzdDk2SGRvRGpqNGlTZTI4NUxWcnpwOXE3dkZ0bExrNGk5WTI3YlRid0JtN1VHdHBHT1dQWENTUlZSQ0gxM0ZpTGNIWWd5RzRFN2Q4QTdSQzUyREc0N293SXVLV19aVzV0M0hLZ1BVc2dpQ25vSFhMWjE5V2dyMVFtdXJiRkpGY2paczdCazRQVWQ0VjY2eGUzc3I0SXRsa3VxcFczUXRSMGd0X3JhMFpobTRidGNqNzlJTjY?oc=5",
+      "fecha": "2026-11-14T22:45:09.000Z",
+      "resumen_corto": "Más de 100.000 personas piden ahora el regreso de Jensen Huang a NVIDIA, mientras el veterano de PayPal, David Sacks, califica su salida forzada como \"la colina más estúpida y discutible sobre la que morir\" Wccftech",
+      "resumen_largo": "Más de 100.000 personas piden ahora el regreso de Jensen Huang a NVIDIA, mientras el veterano de PayPal, David Sacks, califica su salida forzada como \"la colina más estúpida y discutible sobre la que morir\" Wccftech",
+      "texto_original": "Over 100,000 People Now Call For Jensen Huang’s Return To NVIDIA, As The PayPal Veteran David Sacks Terms His Forced Exit “The Stupidest, Most Moot Hill To Die On” Wccftech",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-11-15T05:18:17.178Z",
+        "index": 6,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "en",
+        "categoria": "inteligencia_artificial",
+        "categorias_secundarias": [
+          "tecnologia"
+        ],
+        "category_scores": {
           "inteligencia_artificial": 1,
-          "moviles": 1
+          "tecnologia": 1
+        },
+        "entidades": [
+          "NVIDIA",
+          "Wccftech"
+        ],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 67,
+        "relevancia": 60,
+        "confiabilidad_fuente": 50,
+        "readability": {
+          "words": 134,
+          "sentences": 4,
+          "average_words_per_sentence": 33.5
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 59.95
+    },
+    {
+      "id": "0c44f705683e1b4b",
+      "fuente_id": "ia_dia",
+      "fuente_nombre": "IA al Día",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "ia_general",
+      "nivel_fuente": "agregador",
+      "categoria": "inteligencia_artificial",
+      "idioma_original": "es",
+      "prioridad_fuente": 3,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "La IA tiende gastar sin freno - La Vanguardia",
+      "titulo_original": "La IA tiende gastar sin freno - La Vanguardia",
+      "enlace": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPSGVhTmhVVjRTejJWeHRSck9OT2VKakdoOWZzMlYyc01KX1ZWQzNuNHBHejVWdDBYWWx6TVpsakxvZS0xLUF5T0duTEd3SHl3dkRPOWYtemxqM1dRSGtId3BjMHdNcFU1MXNLTnBCWTJ2TTllQTdTYmV6RW4zVkg3czJMaGt6UdIBiwFBVV95cUxORXBPNTFVNk1LTk9XVHIyUVpSODh6enB4elcydUdIRzJRNWJXRUFlVkpOaG1nY1FfLW5ER21zQmxZMjQ3Y2tEdUdPQzAzUkxLQnh6RG5ZTzFNMVJEVE85Nm8zaFo5b2xGU2VudjhNWnBiNjBIaDkwSzgzeDcyLVJnSU54Y051ci1FMXhV?oc=5",
+      "fecha": "2026-11-15T05:00:00.000Z",
+      "resumen_corto": "La IA tiende gastar sin freno La Vanguardia",
+      "resumen_largo": "La IA tiende gastar sin freno La Vanguardia",
+      "texto_original": "La IA tiende gastar sin freno La Vanguardia",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-11-15T05:18:17.173Z",
+        "index": 1,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "inteligencia_artificial",
+        "categorias_secundarias": [],
+        "category_scores": {
+          "inteligencia_artificial": 1
         },
         "entidades": [],
         "cifras_detectadas": [],
@@ -2866,12 +2723,12 @@
           "url_count": 0
         },
         "calidad": 75,
-        "relevancia": 57,
+        "relevancia": 50,
         "confiabilidad_fuente": 53,
         "readability": {
-          "words": 60,
+          "words": 25,
           "sentences": 1,
-          "average_words_per_sentence": 60
+          "average_words_per_sentence": 25
         },
         "duplicate": {
           "detected": false,
@@ -2880,31 +2737,31 @@
           "similar_to": null
         }
       },
-      "final_score": 62.3
+      "final_score": 59.5
     },
     {
-      "id": "4b1e4a996e295ccd",
-      "fuente_id": "xataka_google",
-      "fuente_nombre": "Xataka",
+      "id": "7897073084b53d47",
+      "fuente_id": "ia_dia",
+      "fuente_nombre": "IA al Día",
       "tipo": "rss_web",
       "subtipo": "google_news",
-      "grupo_fuente": "xataka",
-      "nivel_fuente": "medio_especializado",
-      "categoria": "tecnologia",
+      "grupo_fuente": "ia_general",
+      "nivel_fuente": "agregador",
+      "categoria": "inteligencia_artificial",
       "idioma_original": "es",
-      "prioridad_fuente": 4,
+      "prioridad_fuente": 3,
       "analizar": true,
       "resumir": true,
-      "titulo": "Los mayas decoraron sus ciudades con tanto pigmento rojo que acabaron provocando un colapso ecológico en sus reservas de agua",
-      "titulo_original": "Los mayas decoraron sus ciudades con tanto pigmento rojo que acabaron provocando un colapso ecológico en sus reservas de agua - Xataka",
-      "enlace": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxORGRKSEttaExPTUJITmdVb0IwaXRGNzJpR3F1RnNpY1NjTHhLdXVPLU5yZzdQVVJERXlHeUZIa1dhNGk1dE5oQURJU25XZEo4cUJpUkNFeHJYUXhQa01heEVxTUtjR0g1OGFncnhGcnJldW1ZakhsSkc5NUZfS3M2Y1pRU1dUQ281N1h2U2hzMXhpUGJGQTZjeWhlcTViY1hOcF9WWU92VzdobllaNHd2M204UDdMQ2tIR19fZ3RSTjk0MWxJOFBnajR5T0FJR2dVYll5WngzNGtLSkZxV1FTb9IB5gFBVV95cUxNZ2VtQXVWenR5bEFNaUJPc0lLZGRyazRYbm1QdFJxUjRvcVNsSVlPbmU4Q2drOHFsNm4yZzlzSHAyUmphSTk0dWJmN29oeTVhM2FzUVlhQTl1N2tzQVVnV1UxZ2JYM1FIc2FDZENxVkR0eEE1d01qalUwZUx2aWFYa2tzdU5VYktET2RBQlJsbGx3WlYyZVFIVzRqRUsyeHNlMjVJYm1vYTRidEhRUVc2dWVVcEljNk1sU2ZLSjEzX0diSTZLc2dmcHMyTmJTbUd1SThvZHpHRnFtWXktbk9IcmNQbkxZZw?oc=5",
-      "fecha": "2026-11-14T19:01:20.000Z",
-      "resumen_corto": "Los mayas decoraron sus ciudades con tanto pigmento rojo que acabaron provocando un colapso ecológico en sus reservas de agua Xataka",
-      "resumen_largo": "Los mayas decoraron sus ciudades con tanto pigmento rojo que acabaron provocando un colapso ecológico en sus reservas de agua Xataka",
-      "texto_original": "Los mayas decoraron sus ciudades con tanto pigmento rojo que acabaron provocando un colapso ecológico en sus reservas de agua Xataka",
+      "titulo": "IA, entre el poder y la fragilidad - EL PAÍS",
+      "titulo_original": "IA, entre el poder y la fragilidad - EL PAÍS",
+      "enlace": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQOV9GU3B1ejVpUVBCZXBJQjBXeUV4b0gzSlMzdGotajFTZG11V2NWbVYxQXJ6Nk9uSVVSdFVrYjR5T3BnTzY0c0JSamdyQ25nNHVSX2pnZzhTMDh1Y25jNk5lNW04NkdJdmtHQlRrbGt3WTk3elM5ZnZpRXZMejIwa1hB0gGWAUFVX3lxTFBHdHlHdFVrWjdKc2ZyR3JjNjI1TkNZNm00Q2lQWlVlWW1XazR6QjE2dXRMaW9maEhMWEp0bzJvaklITEJ2Q1dZekZrMS1uazZyclF2cEJabWtEdmNSdEVycDlwRTVLdWwwcUtSUnBjN1pCdkR6WkJBbklUUXhtWGtwMjZMbFU0UGZyRDFXNHdlZDBQcVF1dw?oc=5",
+      "fecha": "2026-11-15T04:30:01.000Z",
+      "resumen_corto": "IA, entre el poder y la fragilidad EL PAÍS",
+      "resumen_largo": "IA, entre el poder y la fragilidad EL PAÍS",
+      "texto_original": "IA, entre el poder y la fragilidad EL PAÍS",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-14T23:45:42.798Z",
+        "processed_at": "2026-11-15T05:18:17.176Z",
         "index": 3,
         "resumen": {
           "generado": true,
@@ -2912,12 +2769,12 @@
         },
         "idioma_detectado": "es",
         "idioma_original": "es",
-        "categoria": "tecnologia",
+        "categoria": "inteligencia_artificial",
         "categorias_secundarias": [],
-        "category_scores": {},
-        "entidades": [
-          "Xataka"
-        ],
+        "category_scores": {
+          "inteligencia_artificial": 2
+        },
+        "entidades": [],
         "cifras_detectadas": [],
         "content_type": "news",
         "clickbait": {
@@ -2931,13 +2788,13 @@
           "signals": [],
           "url_count": 0
         },
-        "calidad": 82,
+        "calidad": 75,
         "relevancia": 50,
-        "confiabilidad_fuente": 50,
+        "confiabilidad_fuente": 53,
         "readability": {
-          "words": 89,
+          "words": 20,
           "sentences": 1,
-          "average_words_per_sentence": 89
+          "average_words_per_sentence": 20
         },
         "duplicate": {
           "detected": false,
@@ -2946,7 +2803,147 @@
           "similar_to": null
         }
       },
-      "final_score": 61.2
+      "final_score": 59.5
+    },
+    {
+      "id": "4e9335b25b92da1a",
+      "fuente_id": "ia_dia",
+      "fuente_nombre": "IA al Día",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "ia_general",
+      "nivel_fuente": "agregador",
+      "categoria": "inteligencia_artificial",
+      "idioma_original": "es",
+      "prioridad_fuente": 3,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Edad real vs edad cardíaca estimada por la IA: una brecha asociada a mayor mortalidad cardiovascular - El Confidencial",
+      "titulo_original": "Edad real vs edad cardíaca estimada por la IA: una brecha asociada a mayor mortalidad cardiovascular - El Confidencial",
+      "enlace": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQSVRCYmdkOTBfT194TmFFcFYtOGxIeHBpMFlkbWF5OUdTV1NqcHpyV0JiMHBoa1NKdFJiRWYtenprY3ZHaGNYV1dva1VSNWdab19KSEc0dzFwOGJNYTQ0V255aDNvY3FXMTEyc2dLd0RaeTFtN2Q1UWxHdEZDQ0NMVHA0Q0VUOHdZYXh0UHV2MDJZbFlJcEtZNnQzb196b3dveS14SXVmblRTRmNFV0VWTnhzVEF2RmhSZ05LQ3ZSS3pxNWZG?oc=5",
+      "fecha": "2026-11-15T04:00:00.000Z",
+      "resumen_corto": "Edad real vs edad cardíaca estimada por la IA: una brecha asociada a mayor mortalidad cardiovascular El Confidencial",
+      "resumen_largo": "Edad real vs edad cardíaca estimada por la IA: una brecha asociada a mayor mortalidad cardiovascular El Confidencial",
+      "texto_original": "Edad real vs edad cardíaca estimada por la IA: una brecha asociada a mayor mortalidad cardiovascular El Confidencial",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-11-15T05:18:17.177Z",
+        "index": 5,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "inteligencia_artificial",
+        "categorias_secundarias": [
+          "semiconductores",
+          "vehiculos_energia"
+        ],
+        "category_scores": {
+          "inteligencia_artificial": 1,
+          "semiconductores": 1,
+          "vehiculos_energia": 1
+        },
+        "entidades": [],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 75,
+        "relevancia": 50,
+        "confiabilidad_fuente": 53,
+        "readability": {
+          "words": 65,
+          "sentences": 1,
+          "average_words_per_sentence": 65
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 59.5
+    },
+    {
+      "id": "a74caecf3d268575",
+      "fuente_id": "ia_dia",
+      "fuente_nombre": "IA al Día",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "ia_general",
+      "nivel_fuente": "agregador",
+      "categoria": "inteligencia_artificial",
+      "idioma_original": "es",
+      "prioridad_fuente": 3,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Del impulso a la eficiencia al 'Gran Hermano': cómo el uso la IA agota a las plantillas - El Economista",
+      "titulo_original": "Del impulso a la eficiencia al 'Gran Hermano': cómo el uso la IA agota a las plantillas - El Economista",
+      "enlace": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOUVMwbUI4UXZMamNNR1N4aFY5SWJOZ2NOQUx6ZnFzR1RzQi1OdW93RGduVGNaaVpweVNuWFA0MXNVZHRtbGlvemJjbnRENUxNOVRLalhLVXJNT2wtazlER3RKaFM0NWdTU0MxbVF3Nk84dW82N0NoLVJzZ1RUVVB0VDBuX1dfR0p1eXdpUE1MZV9SMGJFRllmTHRjaVRreWM3bjZCbXVJSGY3TnJITjhaVmRGTjRWdDRqalJNWE1rc2ItcTN1Ql81T0hRYnhKU21xZVV0VUR1ZHRMQ3VLajlMVTNB0gHMAUFVX3lxTFBxRHRqTzAyUFNXX1htcGxNRy1LOXc0WENnQTBDeW8tM1dvVDZ2dTF2d1VwVjJzdDYyLThZdFQ0ZWdMSUowNGFmdUJfb0E5NXllOElXZmFiSWhLWGg4di15YnRieE9Ua0tJdmhvYVBHUkZUUVhoS01Ya3NlREdSNkFZY0NuNDh0SHhOU1ptbnlYOUhFYnpXX2tGM2pvYndQRi1BZ1BIMUN2Nms2TFplRzFWTnE3Qk03VEFUdWZYdHFjRGY1NnNUbzhHbHJoWA?oc=5",
+      "fecha": "2026-11-14T14:05:57.000Z",
+      "resumen_corto": "Del impulso a la eficiencia al 'Gran Hermano': cómo el uso la IA agota a las plantillas El Economista",
+      "resumen_largo": "Del impulso a la eficiencia al 'Gran Hermano': cómo el uso la IA agota a las plantillas El Economista",
+      "texto_original": "Del impulso a la eficiencia al 'Gran Hermano': cómo el uso la IA agota a las plantillas El Economista",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-11-15T05:18:17.182Z",
+        "index": 15,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "inteligencia_artificial",
+        "categorias_secundarias": [
+          "tecnologia"
+        ],
+        "category_scores": {
+          "inteligencia_artificial": 1,
+          "tecnologia": 1
+        },
+        "entidades": [],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 75,
+        "relevancia": 50,
+        "confiabilidad_fuente": 53,
+        "readability": {
+          "words": 55,
+          "sentences": 1,
+          "average_words_per_sentence": 55
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 59.5
     },
     {
       "id": "ef1bad49bccc5c7d",
@@ -2970,8 +2967,8 @@
       "texto_original": "Los expertos en tecnología coinciden: el rúter tradicional es cosa del pasado, existe un sustituto más moderno y efectivo El Economista",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-14T23:45:42.804Z",
-        "index": 9,
+        "processed_at": "2026-11-15T05:18:17.185Z",
+        "index": 18,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -3018,7 +3015,7 @@
       "final_score": 59.5
     },
     {
-      "id": "e02d95142a0b95a0",
+      "id": "ac36253ec2512b13",
       "fuente_id": "google_news_es",
       "fuente_nombre": "Google News ES",
       "tipo": "rss_web",
@@ -3030,17 +3027,17 @@
       "prioridad_fuente": 3,
       "analizar": true,
       "resumir": true,
-      "titulo": "Grandes prestaciones, diseño y tecnología punta - El Correo",
-      "titulo_original": "Grandes prestaciones, diseño y tecnología punta - El Correo",
-      "enlace": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNZWhrRXBTTHJra2ZTbVRaUjJWdEpvVGtnWEY5MlZjSzdjMlpnVVlkYkNHNXR0S3B3N3pzc1FOR2pOVmdJRS1qclM4Q0lwcC1adzNuOF9scHBITzQyMHNJZjRDd254aE9hekY3ZVc2N2ZFMklDOUdvSF9QWm9aemlyWkVIYTVFMnBYRk1OQUh0eW4wcXVmbXVqX01UZ0Vfd3pBc0HSAacBQVVfeXFMUHEyRW0wak1fWEh4SlktaWZtWGNBVXp6bkhhU2NzdU1qd3BmQ2JQcURMVFoxZ0p5Yzl6TEk3cm9qSkljLUxXTFV5V08tWXBub2t2djRfSF9OdGJYQk9Zb1c5Q0Y3V0dXTjRYUi13QkRrUGJxdXRESlBMOURCRjE3a0FLUVZ3TjdJdkg5RHdqbndKcl81OW5SMXhkMmlDeFhuZ05USHNIV0k?oc=5",
-      "fecha": "2026-11-14T06:14:54.000Z",
-      "resumen_corto": "Grandes prestaciones, diseño y tecnología punta El Correo",
-      "resumen_largo": "Grandes prestaciones, diseño y tecnología punta El Correo",
-      "texto_original": "Grandes prestaciones, diseño y tecnología punta El Correo",
+      "titulo": "Valladolid se sube a la ola del videojuego: tecnología puntera en busca de talento - El Confidencial",
+      "titulo_original": "Valladolid se sube a la ola del videojuego: tecnología puntera en busca de talento - El Confidencial",
+      "enlace": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQZDhhXzF0R0Y5RGw0RVZFVmxmeFNKNUtJUU9pZWZDT3VkOG9qQk5BLXMydDFNd3dvMjMzLV9ZcG9xNkhmbGdRdHJMZUhXLTNMZjJwWXFKaE8tQkRYNFJXV2xFVHB5cUt4V3ZyTXVPeWw1WEdXaGdXNGo4RVM2QUtQSlpXV29GVVk0b3YzMGl4Qnp2bVZHal9HZGl4Y0h0VEx1T3c5SEUzLVZWTm4xQlRVd1YwZmN5VTY5N3dSeFNLeXA3Qkl3WWZFODRGSkZoVGNWb0J0RUl1TjVwTEMtUjF6VklzZDhGOUJpLTFj?oc=5",
+      "fecha": "2026-11-14T04:00:00.000Z",
+      "resumen_corto": "Valladolid se sube a la ola del videojuego: tecnología puntera en busca de talento El Confidencial",
+      "resumen_largo": "Valladolid se sube a la ola del videojuego: tecnología puntera en busca de talento El Confidencial",
+      "texto_original": "Valladolid se sube a la ola del videojuego: tecnología puntera en busca de talento El Confidencial",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-14T23:45:42.820Z",
-        "index": 28,
+        "processed_at": "2026-11-15T05:18:17.194Z",
+        "index": 32,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -3073,9 +3070,78 @@
         "relevancia": 50,
         "confiabilidad_fuente": 53,
         "readability": {
-          "words": 30,
+          "words": 50,
           "sentences": 1,
-          "average_words_per_sentence": 30
+          "average_words_per_sentence": 50
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 59.5
+    },
+    {
+      "id": "c85dc2ad1217f9e2",
+      "fuente_id": "google_news_es",
+      "fuente_nombre": "Google News ES",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "google_news",
+      "nivel_fuente": "agregador",
+      "categoria": "tecnologia",
+      "idioma_original": "es",
+      "prioridad_fuente": 3,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Stella Luna de María, experta en tecnología: “La IA hará que los que tengan trabajos manuales, como un fontane - Diario AS",
+      "titulo_original": "Stella Luna de María, experta en tecnología: “La IA hará que los que tengan trabajos manuales, como un fontane - Diario AS",
+      "enlace": "https://news.google.com/rss/articles/CBMimgJBVV95cUxNSFBGSWFFNzFNc1R3Vzd1RXotOGZHQzJfSWRzNlJoU2hxblgydlRDSVdGZHRJR0dBQ3dYRmVkSVNXajlkTHB6S1Q1azBkSEZVVkU4TW8ycWJvemNGSWVkZENnZUJNV3BLX1Z6RnlobUxpUGFSSTBYY0d2WFN1em41Z09MOUlKcUFrT3lwUm1DdmYzVGwzOTNoZGZEUGJYTEI2NlhOUU5FZ0xOSlhmNHk2b1E5TmZtRFNLbGhyanlvNjhZQWpudUxiN3JIZTQtRUxjUEsxbUpwYkthN0l3aUpLNHZRcGdFR1VFcHRJbVJDRGtLcmo3N1BwTHlSTlctWE5PSkJtZ2RsQm5NRkpPOEEtYlFMU3VCak93ZEHSAa4CQVVfeXFMTU1xLWxiUUhGUkVoNnN2QnRxMnl0YVdURlJiVUhXQ0RVU09RamtSSUZZa3l3OFRkbmV2ZUQ4UlZSLUJtU0stZXNJZlNWUDdjelhTNE95eUl0aDBQRTYySnBRQjlQX055cl9YeVNrREhTQU41a1BKdUlSTFBFZTRuRkV0bTlzb214NEo5ZkRsMEVZdmo3SWpaOUw2elUtc2NDOHhvc1NFdDRnQ25mUFlPSHczSV9CSTA1QTBvN0RYMmRGS1pQREc3SmJ6R3BRdFF3VExmSHd5aHZRN2ZobW5yTWphYmJ5UFVkUDVOenlrR3BaRnFEenR3TjR5UWJIZkpMeTh6dnpFd0JzOVV4cDFrS1g2a3VQMDU1VmJkNlVYbUhzdGRQOE5hUy1VaHZ3UlE?oc=5",
+      "fecha": "2026-11-13T11:47:28.000Z",
+      "resumen_corto": "Stella Luna de María, experta en tecnología: “La IA hará que los que tengan trabajos manuales, como un fontane Diario AS",
+      "resumen_largo": "Stella Luna de María, experta en tecnología: “La IA hará que los que tengan trabajos manuales, como un fontane Diario AS",
+      "texto_original": "Stella Luna de María, experta en tecnología: “La IA hará que los que tengan trabajos manuales, como un fontane Diario AS",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-11-15T05:18:17.196Z",
+        "index": 37,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "tecnologia",
+        "categorias_secundarias": [
+          "inteligencia_artificial"
+        ],
+        "category_scores": {
+          "tecnologia": 2,
+          "inteligencia_artificial": 1
+        },
+        "entidades": [],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 75,
+        "relevancia": 50,
+        "confiabilidad_fuente": 53,
+        "readability": {
+          "words": 75,
+          "sentences": 1,
+          "average_words_per_sentence": 75
         },
         "duplicate": {
           "detected": false,
@@ -3108,8 +3174,8 @@
       "texto_original": "Huawei introduces the Sense G1 CGM (Continuous Glucose Monitoring) device, and here is how it works. While the company has yet to unveil the new health-based product in the consumer market, some details have been revealed about how this model works efficiently. Let’s explore the new product in detail. Up to this point, Huawei has […] The post Huawei Sense G1 continuous glucose monitor device: Here’s how it works appeared first on Huawei Central .",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-14T23:45:42.814Z",
-        "index": 19,
+        "processed_at": "2026-11-15T05:18:17.191Z",
+        "index": 27,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -3188,8 +3254,8 @@
       "texto_original": "‼️ 🇪🇺 🇷🇺 Европа переплатила €100 млрд за газ, но продолжает закупать энергоресурсы у России — МИД РФ ▪️ Евросоюз с начала 2026 года переплатил за импорт газа €100 млрд по сравнению с 2025 годом. Об этом в интервью ТАСС заявил директор департамента экономического сотрудничества МИД России Дмитрий Биричевский, сославшись на признание главы Еврокомиссии Урсулы фон дер Ляйен. ▪️ При этом, несмотря на антироссийские санкции и сокращение поставок, европейские страны продолжают закупать российские энергоресурсы. ▪️ По словам дипломата, с 2022 года Евросоюз заплатил России за энергетическое сырьё в общей сложности $320 млрд. ▪️ Таким образом, как следует из оценки российского МИД, попытки ЕС сократить энергетическую зависимость от Москвы сопровождаются значительными дополнительными расходами для самой Европы. ⚠️ Подписаться на RV: MAX | t.me/RVvoenkor",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-14T23:45:42.805Z",
-        "index": 10,
+        "processed_at": "2026-11-15T05:18:17.186Z",
+        "index": 19,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -3258,8 +3324,8 @@
       "texto_original": "‼️ 🇷🇺 🇺🇸 🇺🇦 Россия и Украина готовят крупнейший обмен пленными за время конфликта — Белый дом ▪️ Спецпосланник президента США Стив Уиткофф и Джаред Кушнер приступили к подготовке масштабного обмена военнопленными между Москвой и Киевом. ▪️ Об этом сообщила заместитель пресс-секретаря Белого дома Анна Келли. ▪️ По её словам, по поручению Дональда Трампа американские представители активно взаимодействуют с российской и украинской сторонами, стремясь добиться завершения конфликта. ➖️ ️️️️️️«Они начали работу над тем, что может стать крупнейшим обменом пленными за время войны», — заявила Келли. ⚠️ Подписаться на RV: MAX | t.me/RVvoenkor",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-14T23:45:42.806Z",
-        "index": 11,
+        "processed_at": "2026-11-15T05:18:17.187Z",
+        "index": 20,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -3322,8 +3388,8 @@
       "texto_original": "‼️ 🇺🇸 🇺🇦 🇷🇺 США впервые подняли вопрос о выводе ВСУ из Донбасса в обмен на членство Украины в НАТО — Зеленский ▪️ Зеленский заявил, что американская сторона впервые поинтересовалась готовностью Киева вывести войска из Донбасса в обмен на перспективу вступления Украины в НАТО. ▪️ По его словам, он готов вынести этот вопрос на общественное обсуждение, но только при условии предоставления полноценного пакета гарантий безопасности. ▪️ Среди требований Киева — гарантии со стороны НАТО и Евросоюза, стабильное финансирование и вооружение ВСУ, а также выделение средств на восстановление страны. ▪️ При этом Зеленский подчеркнул, что Украина не согласится закрепить нейтральный статус в своей Конституции. ▪️ Американские переговорщики пока не подтверждали существование подобного предложения. Более того, отказ Украины от вступления в НАТО остаётся одним из ключевых публичных требований Москвы для завершения конфликта. ▪️ Ранее обсуждавшиеся варианты американских мирных инициатив также предусматривали отказ Киева от членства в Альянсе. ⚠️ Подписаться на RV: MAX | t.me/RVvoenkor",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-14T23:45:42.807Z",
-        "index": 12,
+        "processed_at": "2026-11-15T05:18:17.188Z",
+        "index": 21,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -3386,8 +3452,8 @@
       "texto_original": "‼️ 🇷🇺 🇺🇦 Мощный удар по энергетике Одесской области ▪️ Утром 14 ноября в северной части Одесской области был поражён энергетический объект компании ДТЭК, ранее неоднократно подвергавшийся ударам. ▪️ По данным украинских энергетиков, повреждения привели к отключению электричества почти у 50 тысяч семей. ▪️ На объекте продолжается разбор завалов и оценка масштабов разрушений. ▪️ Сроки восстановления электроснабжения пока не называются. ⚠️ Подписаться на RV: MAX | t.me/RVvoenkor",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-14T23:45:42.808Z",
-        "index": 13,
+        "processed_at": "2026-11-15T05:18:17.188Z",
+        "index": 22,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -3450,8 +3516,8 @@
       "texto_original": "‼️ 🇷🇺 🇺🇦 Россия повысила точность «Искандеров» до нескольких метров: модернизированные ракеты обходят украинскую РЭБ — The Telegraph ▪️ По данным британского издания, российские баллистические ракеты «Искандер» получили усовершенствованные оптические и радиолокационные головки самонаведения, позволяющие корректировать траекторию на завершающем этапе полёта. ▪️ Новые системы сканируют местность непосредственно перед поражением цели, повышая точность удара до нескольких метров и снижая эффективность украинских средств радиоэлектронной борьбы. ▪️ Профессор военной стратегии Берлинской школы Херти Мауро Джилли отметил, что раньше одной из проблем баллистических ракет была погрешность попадания на заключительном участке полёта. Теперь, по его словам, ситуация изменилась. ▪️ The Telegraph связывает модернизацию ракет с российскими ударами по мостам Киева. При этом эксперт признаёт, что полностью разрушить крупные мостовые сооружения крайне сложно из-за прочности их конструкций. ▪️ Издание также утверждает, что Россия стремится добиться «островизации» украинской энергосистемы — разделения единой сети на изолированные участки, между которыми будет затруднена передача электроэнергии. ▪️ Особенно сложная ситуация, по данным газеты, наблюдается на левом берегу Киева, где некоторые жители получают электричество лишь два часа в сутки и сталкиваются с перебоями отопления и водоснабжения. Нарушение работы энергосистемы также осложняет деятельность украинской промышленности, включая военные предприятия. ⚠️ Подписаться на RV: MAX | t.me/RVvoenkor",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-14T23:45:42.810Z",
-        "index": 14,
+        "processed_at": "2026-11-15T05:18:17.189Z",
+        "index": 23,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -3493,24 +3559,24 @@
       "final_score": 50.25
     }
   ],
-  "analyzed_at": "2026-11-14T23:45:42.830Z",
+  "analyzed_at": "2026-11-15T05:18:17.200Z",
   "analysis_stats": {
-    "input_items": 48,
-    "valid_items": 48,
+    "input_items": 49,
+    "valid_items": 49,
     "rejected_items": 0,
     "duplicate_items": 0,
     "clickbait_items": 1,
     "spam_items": 0,
-    "summaries_generated": 48,
-    "average_quality": 81,
+    "summaries_generated": 49,
+    "average_quality": 80,
     "average_relevance": 58
   },
   "validation": {
     "version": "1.1",
-    "executed_at": "2026-11-14T23:45:42.976Z",
-    "original_items": 48,
+    "executed_at": "2026-11-15T05:18:17.301Z",
+    "original_items": 49,
     "rejected_items": 0,
-    "final_items": 48,
+    "final_items": 49,
     "limit": 60,
     "status": "ok"
   }

@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "updated_at": "2026-11-18T08:22:18.494Z",
+  "updated_at": "2026-11-18T17:55:18.335Z",
   "configuracion": {
     "limite_global": 60,
     "frecuencia_minutos": 60,
@@ -22,12 +22,91 @@
   },
   "source_stats": {
     "active_sources": 15,
-    "successful_sources": 5,
-    "collected_items": 25,
-    "deduplicated_items": 20,
-    "final_items": 20
+    "successful_sources": 15,
+    "collected_items": 63,
+    "deduplicated_items": 50,
+    "final_items": 50
   },
   "items": [
+    {
+      "id": "5dff5b4a28e88862",
+      "fuente_id": "bbc_mundo",
+      "fuente_nombre": "BBC Mundo",
+      "tipo": "rss_web",
+      "subtipo": "medio_generalista",
+      "grupo_fuente": "bbc",
+      "nivel_fuente": "medio_profesional",
+      "categoria": "actualidad",
+      "idioma_original": "es",
+      "prioridad_fuente": 5,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Encuentran una falla crítica en Java, el lenguaje de programación del que dependen el 90% de las grandes compañías del mundo",
+      "titulo_original": "Encuentran una falla crítica en Java, el lenguaje de programación del que dependen el 90% de las grandes compañías del mundo",
+      "enlace": "https://www.bbc.com/mundo/articles/cwvg2enzxdm9o?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-11-18T11:28:37.000Z",
+      "resumen_corto": "Una empresa de ciberseguridad utilizó inteligencia artificial (IA) para descubrir una vulnerabilidad crítica en el popular lenguaje de programación Java.",
+      "resumen_largo": "Una empresa de ciberseguridad utilizó inteligencia artificial (IA) para descubrir una vulnerabilidad crítica en el popular lenguaje de programación Java. La empresa emergente tecnológica Calif, que recientemente identificó una vulnerabilidad de ciberseguridad en otro lenguaje, PHP, encontró el fallo en las funciones de memoria de Java. Java es un lenguaje de programación popular utilizado por casi todas las empresas más importantes del mundo, como Apple y Amazon, así como por muchos bancos, hospitales y gobiernos.",
+      "texto_original": "Una empresa de ciberseguridad utilizó inteligencia artificial (IA) para descubrir una vulnerabilidad crítica en el popular lenguaje de programación Java. La empresa emergente tecnológica Calif, que recientemente identificó una vulnerabilidad de ciberseguridad en otro lenguaje, PHP, encontró el fallo en las funciones de memoria de Java. Java es un lenguaje de programación popular utilizado por casi todas las empresas más importantes del mundo, como Apple y Amazon, así como por muchos bancos, hospitales y gobiernos. Según el profesor Toby Walsh, científico informático, su objetivo es hacer que el mundo de la informática sea más seguro gestionando la memoria en línea, razón por la cual \"este es un fallo tan improbable y grave\". Este descubrimiento se produce tras una serie de graves problemas tecnológicos, incluida una interrupción masiva del servicio de Microsoft. El martes, la Agencia de Seguridad Nacional de Estados Unidos informó que sus comunicaciones internas quedaron fuera de servicio debido a un \"mantenimiento rutinario programado\".",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-11-18T17:55:18.217Z",
+        "index": 14,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "inteligencia_artificial",
+        "categorias_secundarias": [
+          "software_internet",
+          "hardware",
+          "semiconductores"
+        ],
+        "category_scores": {
+          "inteligencia_artificial": 3,
+          "software_internet": 3,
+          "hardware": 2,
+          "semiconductores": 1,
+          "actualidad": 1
+        },
+        "entidades": [
+          "Apple",
+          "Microsoft"
+        ],
+        "cifras_detectadas": [
+          "90%"
+        ],
+        "content_type": "report",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 97,
+        "relevancia": 75,
+        "confiabilidad_fuente": 80,
+        "readability": {
+          "words": 220,
+          "sentences": 10,
+          "average_words_per_sentence": 22
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 83.95
+    },
     {
       "id": "812101bc250d09bb",
       "fuente_id": "huawei_central",
@@ -50,8 +129,8 @@
       "texto_original": "Huawei Mate X8 official design is out via teasers, and the latest leak reveals complete specs of the upcoming foldable before its unveiling on November 24. The new information covers all key parts, from the screen to the battery and the Kirin 5G chip. Mate X8 will be Huawei’s eighth-generation large foldable. He Gang, CEO […] The post Huawei Mate X8 complete specs emerged ahead of November 24 debut appeared first on Huawei Central .",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-18T08:22:18.391Z",
-        "index": 11,
+        "processed_at": "2026-11-18T17:55:18.229Z",
+        "index": 44,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -109,162 +188,7 @@
       "final_score": 83.9
     },
     {
-      "id": "2a7619e59045c9b1",
-      "fuente_id": "huawei_central",
-      "fuente_nombre": "Huawei Central",
-      "tipo": "rss_web",
-      "subtipo": "medio_especializado",
-      "grupo_fuente": "huawei",
-      "nivel_fuente": "secundaria_especializada",
-      "categoria": "moviles",
-      "idioma_original": "en",
-      "prioridad_fuente": 5,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "Se filtró el póster del Huawei Watch Air que muestra un diseño ultradelgado",
-      "titulo_original": "Huawei Watch Air poster leaked, showing ultra-thin design",
-      "enlace": "https://www.huaweicentral.com/huawei-watch-air-poster-leaked-showing-ultra-thin-design/",
-      "fecha": "2026-11-17T04:59:44.000Z",
-      "resumen_corto": "Huawei Watch Air podría debutar la próxima semana y su diseño ultradelgado ya surgió a través de una imagen de póster filtrada.",
-      "resumen_largo": "Huawei Watch Air podría debutar la próxima semana y su diseño ultradelgado ya surgió a través de una imagen de póster filtrada. Un informante reveló cómo será el nuevo reloj inteligente de la compañía en la vida real a través de un póster de apariencia oficial. IceUniverse en Weibo compartió una imagen de póster de Huawei Watch Air similar a la prensa, que muestra su ultradelgado […] La publicación Se filtró el póster de Huawei Watch Air, que muestra un diseño ultradelgado que apareció por primera vez en Huawei Central.",
-      "texto_original": "Huawei Watch Air could debut next week, and its ultra-thin design has already emerged via a leaked poster image. A tipster revealed what the company’s new smartwatch will look like in real life through an official-looking poster. Here are the details. IceUniverse on Weibo shared a press-like Huawei Watch Air poster image, showcasing its ultra-thin […] The post Huawei Watch Air poster leaked, showing ultra-thin design appeared first on Huawei Central .",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-11-18T08:22:18.394Z",
-        "index": 15,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "en",
-        "categoria": "moviles",
-        "categorias_secundarias": [
-          "inteligencia_artificial",
-          "vehiculos_energia",
-          "software_internet"
-        ],
-        "category_scores": {
-          "moviles": 3,
-          "inteligencia_artificial": 2,
-          "vehiculos_energia": 1,
-          "software_internet": 1
-        },
-        "entidades": [
-          "Huawei"
-        ],
-        "cifras_detectadas": [],
-        "content_type": "report",
-        "clickbait": {
-          "detected": false,
-          "score": 25,
-          "signals": [
-            "\\brevealed\\b"
-          ]
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 92,
-        "relevancia": 70,
-        "confiabilidad_fuente": 75,
-        "readability": {
-          "words": 162,
-          "sentences": 8,
-          "average_words_per_sentence": 20.25
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 78.95
-    },
-    {
-      "id": "d21ae5452b720081",
-      "fuente_id": "huawei_central",
-      "fuente_nombre": "Huawei Central",
-      "tipo": "rss_web",
-      "subtipo": "medio_especializado",
-      "grupo_fuente": "huawei",
-      "nivel_fuente": "secundaria_especializada",
-      "categoria": "moviles",
-      "idioma_original": "en",
-      "prioridad_fuente": 5,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "Huawei OSTA O1 Pro se lanzará en estos tres colores",
-      "titulo_original": "Huawei OSTA O1 Pro will launch in these three colors",
-      "enlace": "https://www.huaweicentral.com/huawei-osta-o1-pro-will-launch-in-these-three-colors/",
-      "fecha": "2026-11-17T03:56:40.000Z",
-      "resumen_corto": "Huawei OSTA O1 Pro ya está disponible para pedidos anticipados, presentando sus tres colores oficiales, RAM y opciones de almacenamiento.",
-      "resumen_largo": "Huawei OSTA O1 Pro ya está disponible para pedidos anticipados, presentando sus tres colores oficiales, RAM y opciones de almacenamiento. Se dice que la reserva del dispositivo se cerrará el 20 de noviembre. Mientras tanto, los consumidores pueden reservar el nuevo teléfono de pantalla plana ancha.",
-      "texto_original": "Huawei OSTA O1 Pro is now available for pre-order, unveiling its three official colors, RAM, and storage options. The device’s reservation is said to close on November 20th. In the meantime, consumers can reserve the new wide, flat-screen handset. OSTA O1 Pro reservations are live on Huawei Mall, showing the device in three colors, including […] The post Huawei OSTA O1 Pro will launch in these three colors appeared first on Huawei Central .",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-11-18T08:22:18.395Z",
-        "index": 17,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "en",
-        "categoria": "moviles",
-        "categorias_secundarias": [
-          "inteligencia_artificial",
-          "hardware",
-          "tecnologia"
-        ],
-        "category_scores": {
-          "moviles": 4,
-          "inteligencia_artificial": 2,
-          "hardware": 2,
-          "tecnologia": 2,
-          "baterias_energia": 1,
-          "vehiculos_energia": 1,
-          "software_internet": 1
-        },
-        "entidades": [
-          "Huawei"
-        ],
-        "cifras_detectadas": [],
-        "content_type": "report",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 92,
-        "relevancia": 70,
-        "confiabilidad_fuente": 75,
-        "readability": {
-          "words": 127,
-          "sentences": 8,
-          "average_words_per_sentence": 15.88
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 78.95
-    },
-    {
-      "id": "8556a1343bc8707b",
+      "id": "14e7f79e9d236c36",
       "fuente_id": "bbc_mundo",
       "fuente_nombre": "BBC Mundo",
       "tipo": "rss_web",
@@ -276,38 +200,45 @@
       "prioridad_fuente": 5,
       "analizar": true,
       "resumir": true,
-      "titulo": "Por qué la histórica cumbre entre Trump, Putin y Xi preocupa a Europa (y qué puede significar para el resto del mundo)",
-      "titulo_original": "Por qué la histórica cumbre entre Trump, Putin y Xi preocupa a Europa (y qué puede significar para el resto del mundo)",
-      "enlace": "https://www.bbc.com/mundo/articles/cmwy98z3727vo?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-18T04:04:11.000Z",
-      "resumen_corto": "Black / Corbis / MOHD RASFAN / Kristina Solovyova / POOL / AFP via Getty Images Durante una reciente visita a una exposición en el Manege de la Plaza Roja de Moscú con un grupo de escolares, el presidente de Rusia, Vladimir Putin, se detuvo frente a una gran escultura del primer ministro británico Winston Churchill, el presidente estadounidense Franklin D.",
-      "resumen_largo": "Fuente de la imagen, Ira L. Black / Corbis / MOHD RASFAN / Kristina Solovyova / POOL / AFP via Getty Images Durante una reciente visita a una exposición en el Manege de la Plaza Roja de Moscú con un grupo de escolares, el presidente de Rusia, Vladimir Putin, se detuvo frente a una gran escultura del primer ministro británico Winston Churchill, el presidente estadounidense Franklin D. Roosevelt y el primer ministro de la URSS Joseph Stalin en la Conferencia de Yalta de febrero de 1945.",
-      "texto_original": "Fuente de la imagen, Ira L. Black / Corbis / MOHD RASFAN / Kristina Solovyova / POOL / AFP via Getty Images Durante una reciente visita a una exposición en el Manege de la Plaza Roja de Moscú con un grupo de escolares, el presidente de Rusia, Vladimir Putin, se detuvo frente a una gran escultura del primer ministro británico Winston Churchill, el presidente estadounidense Franklin D. Roosevelt y el primer ministro de la URSS Joseph Stalin en la Conferencia de Yalta de febrero de 1945. \"Estos eran los líderes de las tres principales potencias, que se reunieron para debatir cómo debería organizarse el mundo después de la guerra\", les dijo Putin a los niños el pasado 4 de noviembre. El día anterior, el Ministerio de Asuntos Exteriores de China y el Kremlin habían anunciado consultas para un encuentro entre Putin, el presidente de EE.UU., Donald Trump, y el presidente de China. Xi Jinping, los días 18 y 19 de noviembre, en el marco de la cumbre de Cooperación Económica Asia-Pacífico (APEC) en Shenzhen. La portavoz de la Casa Blanca Olivia Wales confirmó que la reunión tendría lugar. Cuando a mediados de octubre surgieron los primeros informes de que el Kremlin proponía dicha reunión, hubo una inmediata preocupación en la Unión Europea y en Ucrania, y muchos recordaron la reunión de los líderes de la coalición anti-Hitler en la antigua residencia de los zares rusos a orillas del mar Negro, en Yalta.",
+      "titulo": "Investigué el asesinato de mi padre y desafío la versión oficial de un episodio clave de la historia de Perú",
+      "titulo_original": "Investigué el asesinato de mi padre y desafío la versión oficial de un episodio clave de la historia de Perú",
+      "enlace": "https://www.bbc.com/mundo/articles/cmwyz0wj4xjeo?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-11-18T12:24:23.000Z",
+      "resumen_corto": "Octavio Infante fue uno de los ocho periodistas asesinados el 26 de enero de 1983 en la remota comunidad andina de Uchuraccay, a más de 4.000 metros de altura, cuando intentaban llegar a zonas aisladas para confirmar rumores de matanzas que habían llegado hasta la ciudad de Ayacucho.",
+      "resumen_largo": "Carlos Infante tenía 11 años cuando mataron a su padre en uno de los episodios más trágicos y recordados del conflicto armado entre el Estado peruano y la guerrilla maoísta de Sendero Luminoso. Octavio Infante fue uno de los ocho periodistas asesinados el 26 de enero de 1983 en la remota comunidad andina de Uchuraccay, a más de 4.000 metros de altura, cuando intentaban llegar a zonas aisladas para confirmar rumores de matanzas que habían llegado hasta la ciudad de Ayacucho. Infante y sus compañeros de expedición fueron interceptados por los comuneros de Uchuraccay, que los mataron a hachazos, pedradas y golpes.",
+      "texto_original": "Carlos Infante tenía 11 años cuando mataron a su padre en uno de los episodios más trágicos y recordados del conflicto armado entre el Estado peruano y la guerrilla maoísta de Sendero Luminoso. Octavio Infante fue uno de los ocho periodistas asesinados el 26 de enero de 1983 en la remota comunidad andina de Uchuraccay, a más de 4.000 metros de altura, cuando intentaban llegar a zonas aisladas para confirmar rumores de matanzas que habían llegado hasta la ciudad de Ayacucho. Infante y sus compañeros de expedición fueron interceptados por los comuneros de Uchuraccay, que los mataron a hachazos, pedradas y golpes. El guía del grupo y un lugareño al que se acusaba de colaborar con Sendero también fueron asesinados. Carlos Infante recuerda que la noticia de la muerte de su padre llegó al hogar familiar como \"una roca fulminante\". El impacto se sintió en todo el país, que aún no era consciente de la magnitud trágica de un conflicto entonces solo en ciernes y que dejaría más de 69.000 muertos entre 1980 y 2000. El entonces presidente Fernando Belaúnde Terry encargó una investigación a una comisión encabezada por el escritor Mario Vargas Llosa, que concluyó que los comuneros habían linchado a los periodistas al confundirlos con \"terroristas\" de Sendero, en un clima de \"altísima tensión psíquica\".",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-18T08:22:18.381Z",
-        "index": 0,
+        "processed_at": "2026-11-18T17:55:18.214Z",
+        "index": 10,
         "resumen": {
           "generado": true,
           "origen": "translated"
         },
         "idioma_detectado": "es",
         "idioma_original": "es",
-        "categoria": "vehiculos_energia",
+        "categoria": "militar",
         "categorias_secundarias": [
-          "actualidad",
           "inteligencia_artificial",
-          "militar"
+          "tecnologia",
+          "actualidad"
         ],
         "category_scores": {
-          "vehiculos_energia": 3,
+          "militar": 4,
+          "inteligencia_artificial": 2,
+          "tecnologia": 2,
           "actualidad": 2,
-          "inteligencia_artificial": 1,
-          "militar": 1
+          "semiconductores": 1,
+          "moviles": 1,
+          "vehiculos_energia": 1
         },
         "entidades": [],
         "cifras_detectadas": [
-          "1945"
+          "1983",
+          "4.000 m",
+          "69.000 m",
+          "1980",
+          "2000"
         ],
         "content_type": "report",
         "clickbait": {
@@ -322,12 +253,12 @@
           "url_count": 0
         },
         "calidad": 92,
-        "relevancia": 65,
+        "relevancia": 73,
         "confiabilidad_fuente": 80,
         "readability": {
-          "words": 287,
-          "sentences": 14,
-          "average_words_per_sentence": 20.5
+          "words": 278,
+          "sentences": 15,
+          "average_words_per_sentence": 18.53
         },
         "duplicate": {
           "detected": false,
@@ -336,7 +267,86 @@
           "similar_to": null
         }
       },
-      "final_score": 78.2
+      "final_score": 81.4
+    },
+    {
+      "id": "aee1276c858c3856",
+      "fuente_id": "huawei_central",
+      "fuente_nombre": "Huawei Central",
+      "tipo": "rss_web",
+      "subtipo": "medio_especializado",
+      "grupo_fuente": "huawei",
+      "nivel_fuente": "secundaria_especializada",
+      "categoria": "moviles",
+      "idioma_original": "en",
+      "prioridad_fuente": 5,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Los usuarios nativos de HarmonyOS superan la marca de los 100 millones",
+      "titulo_original": "Native HarmonyOS users climb past the 100 million mark",
+      "enlace": "https://www.huaweicentral.com/native-harmonyos-users-climb-past-the-100-million-mark/",
+      "fecha": "2026-11-18T05:31:58.000Z",
+      "resumen_corto": "El sistema operativo nativo de Huawei HarmonyOS logró un nuevo hito, superando los 100 millones de usuarios y convirtiéndose en el tercer sistema operativo móvil más grande después de Android e iOS.",
+      "resumen_largo": "El sistema operativo nativo de Huawei HarmonyOS logró un nuevo hito, superando los 100 millones de usuarios y convirtiéndose en el tercer sistema operativo móvil más grande después de Android e iOS. Huawei presentó HarmonyOS por primera vez en 2019, dirigido a dispositivos inteligentes. En unos pocos años, la empresa portó este sistema operativo a teléfonos inteligentes y dispositivos con pantalla táctil grande, como tabletas.",
+      "texto_original": "Native Huawei HarmonyOS operating system achieved a new milestone, surpassing 100 million users and becoming the third-largest mobile operating system after Android and iOS. Huawei first introduced HarmonyOS in 2019, targeting smart devices. Within a few years, the company ported this OS to smartphones and large touchscreen devices such as tablets. Later on, the ecosystem […] The post Native HarmonyOS users climb past the 100 million mark appeared first on Huawei Central .",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-11-18T17:55:18.224Z",
+        "index": 31,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "en",
+        "categoria": "moviles",
+        "categorias_secundarias": [
+          "software_internet",
+          "tecnologia",
+          "vehiculos_energia"
+        ],
+        "category_scores": {
+          "moviles": 9,
+          "software_internet": 5,
+          "tecnologia": 2,
+          "vehiculos_energia": 1
+        },
+        "entidades": [
+          "Huawei",
+          "Android"
+        ],
+        "cifras_detectadas": [
+          "100 m",
+          "2019"
+        ],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 89,
+        "relevancia": 75,
+        "confiabilidad_fuente": 65,
+        "readability": {
+          "words": 155,
+          "sentences": 8,
+          "average_words_per_sentence": 19.38
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 77.4
     },
     {
       "id": "88c00d34ee169eb4",
@@ -360,8 +370,8 @@
       "texto_original": "Huawei Watch Air could take on the latest Apple wearables regarding slimness with its ultra-thin body measuring 6.9mm. A recent leak suggested that the upcoming Huawei smartwatch could set a record for body thinness in the wearable market. Weibo tipster FixedFocus revealed that Huawei will introduce two new Air devices, forming a dual thin flagship […] The post Huawei Watch Air to overtake Apple wearables in slimness with 6.9mm body appeared first on Huawei Central .",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-18T08:22:18.390Z",
-        "index": 10,
+        "processed_at": "2026-11-18T17:55:18.228Z",
+        "index": 43,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -421,158 +431,7 @@
       "final_score": 77.4
     },
     {
-      "id": "c8c6a98554255f82",
-      "fuente_id": "bbc_mundo",
-      "fuente_nombre": "BBC Mundo",
-      "tipo": "rss_web",
-      "subtipo": "medio_generalista",
-      "grupo_fuente": "bbc",
-      "nivel_fuente": "medio_profesional",
-      "categoria": "actualidad",
-      "idioma_original": "es",
-      "prioridad_fuente": 5,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "Cómo fue el sofisticado ataque con el que Ucrania destruyó parte del preciado puente de Crimea de Putin (y qué consecuencias tendrá)",
-      "titulo_original": "Cómo fue el sofisticado ataque con el que Ucrania destruyó parte del preciado puente de Crimea de Putin (y qué consecuencias tendrá)",
-      "enlace": "https://www.bbc.com/mundo/articles/c6y498pd1q54o?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-18T00:55:45.000Z",
-      "resumen_corto": "El puente de Crimea, que atraviesa el estrecho de Kerch sobre el mar Negro, ha sido un símbolo desde que se acabó su construcción.",
-      "resumen_largo": "El puente de Crimea, que atraviesa el estrecho de Kerch sobre el mar Negro, ha sido un símbolo desde que se acabó su construcción. Para Rusia, es un proyecto prestigioso que consolida su reivindicación sobre el territorio ucraniano soberano. Para Ucrania, una infraestructura detestada, emblemática de la ocupación de la península de Crimea por parte de Moscú.",
-      "texto_original": "El puente de Crimea, que atraviesa el estrecho de Kerch sobre el mar Negro, ha sido un símbolo desde que se acabó su construcción. Para Rusia, es un proyecto prestigioso que consolida su reivindicación sobre el territorio ucraniano soberano. Para Ucrania, una infraestructura detestada, emblemática de la ocupación de la península de Crimea por parte de Moscú. Una sección clave del puente de doble arco y 19 kilómetros de longitud yace ahora en el fondo del mar, derribada por el armamento ucraniano de largo alcance en una operación de siete fases que culminó en un dramático derrumbe. El portavoz del Kremlin, Dmitri Peskov, ha declarado que el puente \"será reconstruido y quedará incluso mejor que antes\". Pero ocho años después de su inauguración, el puente se ha convertido en una prueba material de la capacidad de Kyiv para atravesar las defensas militares de Moscú y alcanzar incluso sus estructuras más preciadas y protegidas. El ataque contra el estratégico puente de Crimea se llevó a cabo de forma gradual para atravesar distintas capas de defensa, según informó Kyiv este martes.",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-11-18T08:22:18.387Z",
-        "index": 6,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "es",
-        "categoria": "militar",
-        "categorias_secundarias": [
-          "moviles",
-          "inteligencia_artificial",
-          "semiconductores"
-        ],
-        "category_scores": {
-          "militar": 3,
-          "moviles": 2,
-          "inteligencia_artificial": 1,
-          "semiconductores": 1,
-          "hardware": 1,
-          "vehiculos_energia": 1
-        },
-        "entidades": [],
-        "cifras_detectadas": [],
-        "content_type": "report",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 87,
-        "relevancia": 65,
-        "confiabilidad_fuente": 80,
-        "readability": {
-          "words": 212,
-          "sentences": 11,
-          "average_words_per_sentence": 19.27
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 76.45
-    },
-    {
-      "id": "18cb1b60a11b9efd",
-      "fuente_id": "bbc_mundo",
-      "fuente_nombre": "BBC Mundo",
-      "tipo": "rss_web",
-      "subtipo": "medio_generalista",
-      "grupo_fuente": "bbc",
-      "nivel_fuente": "medio_profesional",
-      "categoria": "actualidad",
-      "idioma_original": "es",
-      "prioridad_fuente": 5,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "Cómo los directores del premiado documental \"Naza\" convencieron a soldados israelíes para que hablaran sobre el uso de IA para seleccionar objetivos en Gaza",
-      "titulo_original": "Cómo los directores del premiado documental \"Naza\" convencieron a soldados israelíes para que hablaran sobre el uso de IA para seleccionar objetivos en Gaza",
-      "enlace": "https://www.bbc.com/mundo/articles/c8r4g6xr75vyo?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-17T22:24:17.000Z",
-      "resumen_corto": "El Naza de ese ataque fue cuatro\", dice un hombre al que solo se le ve la silueta.",
-      "resumen_largo": "\"Este es el edificio que necesito bombardear. El Naza de ese ataque fue cuatro\", dice un hombre al que solo se le ve la silueta. Esta es una escena del aclamado documental Naza , dirigido por los cineastas israelíes Rachel Szor y Yuval Abraham.",
-      "texto_original": "\"Este es el edificio que necesito bombardear. El Naza de ese ataque fue cuatro\", dice un hombre al que solo se le ve la silueta. Esta es una escena del aclamado documental Naza , dirigido por los cineastas israelíes Rachel Szor y Yuval Abraham. \"Naza\" es un acrónimo militar israelí que se ha vuelto familiar para muchos desde el estreno del documental. El filme investiga las bajas civiles derivadas de las operaciones militares israelíes en curso en Gaza mediante entrevistas con 24 militares y oficiales de inteligencia israelíes anónimos, quienes explican cómo se utiliza la inteligencia artificial para identificar posibles objetivos. A lo largo del documental, Yuval Abraham entrevista a fuentes no identificadas en azoteas de Tel Aviv por la noche, mientras el iluminado horizonte de la ciudad resplandece a sus espaldas. En su estreno en el Festival Internacional de Cine de Venecia, el documental ganó el Premio Especial del Jurado. Además, recibió una ovación de pie récord de 25 minutos.",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-11-18T08:22:18.389Z",
-        "index": 8,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "es",
-        "categoria": "inteligencia_artificial",
-        "categorias_secundarias": [
-          "vehiculos_energia",
-          "militar",
-          "actualidad"
-        ],
-        "category_scores": {
-          "inteligencia_artificial": 3,
-          "vehiculos_energia": 2,
-          "militar": 1,
-          "actualidad": 1
-        },
-        "entidades": [],
-        "cifras_detectadas": [
-          "24 m",
-          "25 m"
-        ],
-        "content_type": "report",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 92,
-        "relevancia": 57,
-        "confiabilidad_fuente": 80,
-        "readability": {
-          "words": 191,
-          "sentences": 12,
-          "average_words_per_sentence": 15.92
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 75
-    },
-    {
-      "id": "96f149b48378594d",
+      "id": "c8f12c09d7c66807",
       "fuente_id": "huawei_central",
       "fuente_nombre": "Huawei Central",
       "tipo": "rss_web",
@@ -584,17 +443,321 @@
       "prioridad_fuente": 5,
       "analizar": true,
       "resumir": true,
-      "titulo": "Huawei OSTA O1 Pro traerá una interfaz de usuario rediseñada y un nuevo compañero de IA",
-      "titulo_original": "Huawei OSTA O1 Pro will bring redesigned UI and new AI buddy",
-      "enlace": "https://www.huaweicentral.com/huawei-osta-o1-pro-will-bring-redesigned-ui-and-new-ai-buddy/",
-      "fecha": "2026-11-17T06:17:23.000Z",
-      "resumen_corto": "La página de Weibo de OSTA Starlight Phone ha compartido un nuevo adelanto que revela el Huawei OSTA O1 […] La publicación Huawei OSTA O1 Pro traerá una interfaz de usuario rediseñada y un nuevo compañero de IA apareció por primera vez en Huawei Central.",
-      "resumen_largo": "Huawei OSTA O1 Pro se lanzará como un teléfono HarmonyOS AI con una interfaz de usuario rediseñada y un compañero de AI más inteligente para los usuarios. Un nuevo adelanto del próximo teléfono de pantalla ancha revela lo que ofrecerá a los usuarios en términos de optimizaciones de software. La página de Weibo de OSTA Starlight Phone ha compartido un nuevo adelanto que revela el Huawei OSTA O1 […] La publicación Huawei OSTA O1 Pro traerá una interfaz de usuario rediseñada y un nuevo compañero de IA apareció por primera vez en Huawei Central.",
-      "texto_original": "Huawei OSTA O1 Pro will launch as a HarmonyOS AI phone with a redesigned UI and a smarter AI companion for users. A new teaser of the upcoming wide-screen handset reveals what it will offer users in terms of software optimizations. OSTA Starlight Phone‘s Weibo page has shared a new teaser, revealing Huawei OSTA O1 […] The post Huawei OSTA O1 Pro will bring redesigned UI and new AI buddy appeared first on Huawei Central .",
+      "titulo": "Se filtraron las especificaciones del Huawei Mate 90 Air, incluidos colores y una batería más grande",
+      "titulo_original": "Huawei Mate 90 Air specs leaked, including colors and a larger battery",
+      "enlace": "https://www.huaweicentral.com/huawei-mate-90-air-specs-leaked-including-colors-and-a-larger-battery/",
+      "fecha": "2026-11-18T06:59:28.000Z",
+      "resumen_corto": "Huawei planea lanzar un nuevo teléfono inteligente Mate 90 Air y las especificaciones filtradas ahora revelan la batería y otras mejoras clave.",
+      "resumen_largo": "Huawei planea lanzar un nuevo teléfono inteligente Mate 90 Air y las especificaciones filtradas ahora revelan la batería y otras mejoras clave. El Mate 90 Air comenzará con 12 GB de RAM y 256 GB de almacenamiento, con opciones de color: dorado, plateado y negro. Además, el teléfono tendrá una batería más grande y el diseño se parece al Mate […] Las especificaciones posteriores al Huawei Mate 90 Air filtradas, incluidos colores y una batería más grande, aparecieron por primera vez en Huawei Central.",
+      "texto_original": "Huawei plans to release a new Mate 90 Air smartphone, and leaked specs now reveal battery and other key improvements. The Mate 90 Air will start at 12GB RAM and 256GB storage, with color options: gold, silver, and black. Additionally, the phone will have a larger battery, and the design looks similar to the Mate […] The post Huawei Mate 90 Air specs leaked, including colors and a larger battery appeared first on Huawei Central .",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-18T08:22:18.393Z",
-        "index": 13,
+        "processed_at": "2026-11-18T17:55:18.222Z",
+        "index": 28,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "en",
+        "categoria": "moviles",
+        "categorias_secundarias": [
+          "baterias_energia",
+          "inteligencia_artificial",
+          "hardware"
+        ],
+        "category_scores": {
+          "moviles": 5,
+          "baterias_energia": 3,
+          "inteligencia_artificial": 2,
+          "hardware": 2,
+          "vehiculos_energia": 1,
+          "software_internet": 1
+        },
+        "entidades": [
+          "Huawei"
+        ],
+        "cifras_detectadas": [
+          "12 GB",
+          "256 GB",
+          "12GB",
+          "256GB"
+        ],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 89,
+        "relevancia": 70,
+        "confiabilidad_fuente": 65,
+        "readability": {
+          "words": 163,
+          "sentences": 7,
+          "average_words_per_sentence": 23.29
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 75.4
+    },
+    {
+      "id": "67072c307ef76765",
+      "fuente_id": "huawei_central",
+      "fuente_nombre": "Huawei Central",
+      "tipo": "rss_web",
+      "subtipo": "medio_especializado",
+      "grupo_fuente": "huawei",
+      "nivel_fuente": "secundaria_especializada",
+      "categoria": "moviles",
+      "idioma_original": "en",
+      "prioridad_fuente": 5,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Compruebe el pliegue casi invisible de la pantalla del Huawei Mate X8",
+      "titulo_original": "Check the near invisible display crease of Huawei Mate X8",
+      "enlace": "https://www.huaweicentral.com/check-the-near-invisible-display-crease-of-huawei-mate-x8/",
+      "fecha": "2026-11-18T04:19:38.000Z",
+      "resumen_corto": "Huawei Mate X8 utilizará una nueva pantalla plegable con tecnología de pliegue invisible que podría ser la primera en la industria de los teléfonos inteligentes.",
+      "resumen_largo": "Huawei Mate X8 utilizará una nueva pantalla plegable con tecnología de pliegue invisible que podría ser la primera en la industria de los teléfonos inteligentes. Un vídeo compartido por un informante de Weibo muestra el Mate X8 desde diferentes ángulos con luz exterior. La pantalla tiene un acabado brillante, pero el pliegue es casi invisible.",
+      "texto_original": "Huawei Mate X8 will use a new foldable screen with invisible crease tech that could be the first in the smartphone industry. A video shared by a Weibo tipster shows the Mate X8 from different angles in outdoor light. The screen has a glossy finish, but the crease is almost invisible. This leaked video highlights […] The post Check the near invisible display crease of Huawei Mate X8 appeared first on Huawei Central .",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-11-18T17:55:18.225Z",
+        "index": 32,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "en",
+        "categoria": "moviles",
+        "categorias_secundarias": [
+          "tecnologia",
+          "inteligencia_artificial",
+          "hardware"
+        ],
+        "category_scores": {
+          "moviles": 5,
+          "tecnologia": 3,
+          "inteligencia_artificial": 1,
+          "hardware": 1,
+          "vehiculos_energia": 1,
+          "software_internet": 1
+        },
+        "entidades": [
+          "Huawei"
+        ],
+        "cifras_detectadas": [
+          "8 w"
+        ],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 89,
+        "relevancia": 70,
+        "confiabilidad_fuente": 65,
+        "readability": {
+          "words": 133,
+          "sentences": 8,
+          "average_words_per_sentence": 16.63
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 75.4
+    },
+    {
+      "id": "ff1051412f06724d",
+      "fuente_id": "openai_google",
+      "fuente_nombre": "OpenAI",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "openai",
+      "nivel_fuente": "fuente_oficial",
+      "categoria": "inteligencia_artificial",
+      "idioma_original": "en",
+      "prioridad_fuente": 5,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Le Groupe Figaro y OpenAI se asocian para llevar el periodismo de Le Figaro a ChatGPT",
+      "titulo_original": "Le Groupe Figaro and OpenAI partner to bring Le Figaro journalism to ChatGPT - OpenAI",
+      "enlace": "https://news.google.com/rss/articles/CBMif0FVX3lxTE4wRXpkMG52Qmx5dlo1bEtUM2lwZm5VZlkzNmFOWWJRSHpaWTRkQjJUeElNeWRYU0RyMm5OZXM3UGNOUjNXTXF5YjFsbzNDU05xanp0b0RQb3p2UHlmNFNiaUZYSThmX1JuVDZQSmZqWkpNbzl3djRmYzZPcEdSWHc?oc=5",
+      "fecha": "2026-11-18T09:15:12.000Z",
+      "resumen_corto": "Le Groupe Figaro y OpenAI se asocian para llevar el periodismo de Le Figaro a ChatGPT OpenAI",
+      "resumen_largo": "Le Groupe Figaro y OpenAI se asocian para llevar el periodismo de Le Figaro a ChatGPT OpenAI",
+      "texto_original": "Le Groupe Figaro and OpenAI partner to bring Le Figaro journalism to ChatGPT OpenAI",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-11-18T17:55:18.221Z",
+        "index": 25,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "en",
+        "categoria": "inteligencia_artificial",
+        "categorias_secundarias": [
+          "semiconductores",
+          "vehiculos_energia"
+        ],
+        "category_scores": {
+          "inteligencia_artificial": 5,
+          "semiconductores": 1,
+          "vehiculos_energia": 1
+        },
+        "entidades": [
+          "OpenAI",
+          "ChatGPT"
+        ],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 84,
+        "relevancia": 67,
+        "confiabilidad_fuente": 75,
+        "readability": {
+          "words": 49,
+          "sentences": 1,
+          "average_words_per_sentence": 49
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 74.95
+    },
+    {
+      "id": "ffdeb145f915900f",
+      "fuente_id": "openai_google",
+      "fuente_nombre": "OpenAI",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "openai",
+      "nivel_fuente": "fuente_oficial",
+      "categoria": "inteligencia_artificial",
+      "idioma_original": "en",
+      "prioridad_fuente": 5,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Presentamos ChatGPT para ventas",
+      "titulo_original": "Introducing ChatGPT for Sales - OpenAI",
+      "enlace": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE93NzFPZGpUeU84ai1xMjR0SVYxbC1MZ3Q0S1BNeU10VnoteVM2Y01ES18wWTR1cERpU2dfN2RZUFdRcXgtVkx3d1c2SEVGU0x3SEc5cGVhUThaUFBqakhid2pYR2wtZw?oc=5",
+      "fecha": "2026-11-17T21:27:46.000Z",
+      "resumen_corto": "Presentamos ChatGPT para ventas OpenAI",
+      "resumen_largo": "Presentamos ChatGPT para ventas OpenAI",
+      "texto_original": "Introducing ChatGPT for Sales OpenAI",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-11-18T17:55:18.226Z",
+        "index": 36,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "en",
+        "categoria": "inteligencia_artificial",
+        "categorias_secundarias": [],
+        "category_scores": {
+          "inteligencia_artificial": 4
+        },
+        "entidades": [
+          "OpenAI",
+          "ChatGPT"
+        ],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 84,
+        "relevancia": 67,
+        "confiabilidad_fuente": 75,
+        "readability": {
+          "words": 24,
+          "sentences": 1,
+          "average_words_per_sentence": 24
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 74.95
+    },
+    {
+      "id": "78ccf5dd60e399e2",
+      "fuente_id": "huawei_central",
+      "fuente_nombre": "Huawei Central",
+      "tipo": "rss_web",
+      "subtipo": "medio_especializado",
+      "grupo_fuente": "huawei",
+      "nivel_fuente": "secundaria_especializada",
+      "categoria": "moviles",
+      "idioma_original": "en",
+      "prioridad_fuente": 5,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Huawei publica fotos editoriales del Mate X8 en Harper's Bazaar",
+      "titulo_original": "Huawei releases Mate X8 Harper’s Bazaar editorial photos",
+      "enlace": "https://www.huaweicentral.com/huawei-releases-mate-x8-harpers-bazaar-editorial-photos/",
+      "fecha": "2026-11-18T06:25:22.000Z",
+      "resumen_corto": "Huawei ha publicado imágenes de Harper's Bazaar del teléfono inteligente plegable Mate X8, que se lanzará el 24 de noviembre.",
+      "resumen_largo": "Huawei ha publicado imágenes de Harper's Bazaar del teléfono inteligente plegable Mate X8, que se lanzará el 24 de noviembre. El teléfono continúa con el mecanismo de plegado lateral, pero con nuevos acabados traseros, y las fotos revelan una nueva apariencia con diseño y efectos visuales de calidad insignia. El teléfono se lanzará en cinco colores: brocado dorado púrpura, brocado azul, brocado Danxia, ​​cielo […] La publicación Huawei lanza fotos editoriales del Mate X8 de Harper’s Bazaar apareció por primera vez en Huawei Central.",
+      "texto_original": "Huawei has released Harper’s Bazaar images of the Mate X8 foldable smartphone, launching on November 24. The phone continues the side-folding mechanism, but with new rear finishes, and the photos reveal a new look with flagship-quality design and visual effects. The phone will launch in five colors: Purple gold brocade, Azure brocade, Danxia Brocade, Sky […] The post Huawei releases Mate X8 Harper’s Bazaar editorial photos appeared first on Huawei Central .",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-11-18T17:55:18.223Z",
+        "index": 30,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -608,12 +771,10 @@
           "software_internet"
         ],
         "category_scores": {
-          "moviles": 4,
-          "inteligencia_artificial": 2,
-          "vehiculos_energia": 2,
-          "software_internet": 2,
-          "hardware": 1,
-          "militar": 1
+          "moviles": 6,
+          "inteligencia_artificial": 1,
+          "vehiculos_energia": 1,
+          "software_internet": 1
         },
         "entidades": [
           "Huawei"
@@ -635,9 +796,9 @@
         "relevancia": 70,
         "confiabilidad_fuente": 65,
         "readability": {
-          "words": 166,
+          "words": 155,
           "sentences": 7,
-          "average_words_per_sentence": 23.71
+          "average_words_per_sentence": 22.14
         },
         "duplicate": {
           "detected": false,
@@ -649,29 +810,29 @@
       "final_score": 73.65
     },
     {
-      "id": "2300c1c10f696a68",
-      "fuente_id": "bbc_mundo",
-      "fuente_nombre": "BBC Mundo",
+      "id": "1d03fd6b264bcf46",
+      "fuente_id": "xataka_google",
+      "fuente_nombre": "Xataka",
       "tipo": "rss_web",
-      "subtipo": "medio_generalista",
-      "grupo_fuente": "bbc",
-      "nivel_fuente": "medio_profesional",
-      "categoria": "actualidad",
+      "subtipo": "google_news",
+      "grupo_fuente": "xataka",
+      "nivel_fuente": "medio_especializado",
+      "categoria": "tecnologia",
       "idioma_original": "es",
-      "prioridad_fuente": 5,
+      "prioridad_fuente": 4,
       "analizar": true,
       "resumir": true,
-      "titulo": "El disco de oro con mensajes para los extraterrestres que transporta la sonda Voyager 1 (y cómo podrán descifrarlo)",
-      "titulo_original": "El disco de oro con mensajes para los extraterrestres que transporta la sonda Voyager 1 (y cómo podrán descifrarlo)",
-      "enlace": "https://www.bbc.com/mundo/articles/ck1l0v4yy6p0o?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-17T23:39:46.000Z",
-      "resumen_corto": "La información está grabada en dos discos de oro -parecidos a los discos musicales de acetato-, que están asegurados a las sondas Voyager 1 y 2 que la NASA envió al espacio en la década de los 70.",
-      "resumen_largo": "En lo más profundo del espacio exterior, hay un mensaje de nuestra especie a cualquier otra que sea capaz de descifrarlo, uno en el que les explicamos quienes somos y cómo encontrar nuestro planeta. La información está grabada en dos discos de oro -parecidos a los discos musicales de acetato-, que están asegurados a las sondas Voyager 1 y 2 que la NASA envió al espacio en la década de los 70. Este miércoles está previsto que Voyager 1 se convierta en el objeto fabricado por los humanos que más lejos llega en el espacio, tras pasar casi 50 años viajando.",
-      "texto_original": "En lo más profundo del espacio exterior, hay un mensaje de nuestra especie a cualquier otra que sea capaz de descifrarlo, uno en el que les explicamos quienes somos y cómo encontrar nuestro planeta. La información está grabada en dos discos de oro -parecidos a los discos musicales de acetato-, que están asegurados a las sondas Voyager 1 y 2 que la NASA envió al espacio en la década de los 70. Este miércoles está previsto que Voyager 1 se convierta en el objeto fabricado por los humanos que más lejos llega en el espacio, tras pasar casi 50 años viajando. Los discos están diseñados para durar 1.000 millones de años, por lo que su contenido seguirá viajando por las estrellas independiente de si nosotros seguimos aquí o no. Lo que no queda claro es cómo podría esta especie hipotética descifrar los contenidos de los discos, si es que algún día los llegara a encontrar. Las naves espaciales Voyager tenían una misión inédita en la década de los años 70: convertirse en el primer objeto creado por humanos en abandonar el Sistema Solar.",
+      "titulo": "Ya es oficial: el servicio universal de internet será diez veces más rápido en 2027 y beneficiará a mucha más gente",
+      "titulo_original": "Ya es oficial: el servicio universal de internet será diez veces más rápido en 2027 y beneficiará a mucha más gente - Xataka",
+      "enlace": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQRFBzVEl6XzRVR1AzVVVtVkxRZURKN1p6UUJQay1mQXBHZkhzTnFkNzlnNWViSi1IR0l2MDA0SGtRLWlYMExLYzZLSzdxTHdkOFdoOTUtWkdjUk1lX01iaTdMX3d5WFVOMV9MVmFBYTFrajhKaGp3Q3E5NWlVZWVtNHkxU3N3WXppMjNFRjJHanRLYkluOWZGdTRDQ2wwNVpsdXJrQUtENDRqUUVkS1g5Wmp1bTlWOUVmNWphZTZ5UdIBxAFBVV95cUxQb0VCbE15VWExZkNtQnZvTm1GMms4dHdBTTFoUWpXekpUZU9pTXRKYzVxMnlVUHkyRTRqSElfRlRua044VEo0R1k3ZnVsWkJZaldEV1FQLVZndVY1VVMwaGFkazFGTHFVTWdfM045UXUtSzZwdFhYZG50TmNIbDNnSk1nQ04zeE93RGE3LU0tVGtka2pNNTYxMmZyM1lqZWl6SVpRdHY1a2NZUWJJamhoekJSRHdFUzZOQWZDZjdIS3NPUlFE?oc=5",
+      "fecha": "2026-11-18T14:01:20.000Z",
+      "resumen_corto": "Ya es oficial: el servicio universal de internet será diez veces más rápido en 2027 y beneficiará a mucha más gente Xataka",
+      "resumen_largo": "Ya es oficial: el servicio universal de internet será diez veces más rápido en 2027 y beneficiará a mucha más gente Xataka",
+      "texto_original": "Ya es oficial: el servicio universal de internet será diez veces más rápido en 2027 y beneficiará a mucha más gente Xataka",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-18T08:22:18.388Z",
-        "index": 7,
+        "processed_at": "2026-11-18T17:55:18.209Z",
+        "index": 4,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -680,18 +841,89 @@
         "idioma_original": "es",
         "categoria": "inteligencia_artificial",
         "categorias_secundarias": [
-          "semiconductores",
-          "vehiculos_energia"
+          "software_internet"
         ],
         "category_scores": {
           "inteligencia_artificial": 1,
-          "semiconductores": 1,
-          "vehiculos_energia": 1
+          "software_internet": 1
         },
-        "entidades": [],
-        "cifras_detectadas": [
-          "1.000 m"
+        "entidades": [
+          "Xataka"
         ],
+        "cifras_detectadas": [
+          "2027"
+        ],
+        "content_type": "report",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 95,
+        "relevancia": 63,
+        "confiabilidad_fuente": 60,
+        "readability": {
+          "words": 74,
+          "sentences": 1,
+          "average_words_per_sentence": 74
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 73.45
+    },
+    {
+      "id": "dca7f37643d855a9",
+      "fuente_id": "openai_google",
+      "fuente_nombre": "OpenAI",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "openai",
+      "nivel_fuente": "fuente_oficial",
+      "categoria": "inteligencia_artificial",
+      "idioma_original": "en",
+      "prioridad_fuente": 5,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Avanzando en el diseño de chips con modelos OpenAI",
+      "titulo_original": "Advancing chip design with OpenAI models - OpenAI",
+      "enlace": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1RejBWQml3ekRqeU9ieU5OdmN6ZGNMNHd6UkZhcWMzYlRfbEV1Uk1fRlVNZ2pkNXhlR2dJZTVfUEdoSzVaV2ZNQ2JZX05PRnppRm9BY3lYOG1YSTVBYll2bWNLdlNMbFkxRkxHaHh6QjE?oc=5",
+      "fecha": "2026-11-18T17:06:03.000Z",
+      "resumen_corto": "Avanzando en el diseño de chips con modelos OpenAI OpenAI",
+      "resumen_largo": "Avanzando en el diseño de chips con modelos OpenAI OpenAI",
+      "texto_original": "Advancing chip design with OpenAI models OpenAI",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-11-18T17:55:18.206Z",
+        "index": 0,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "en",
+        "categoria": "inteligencia_artificial",
+        "categorias_secundarias": [
+          "semiconductores"
+        ],
+        "category_scores": {
+          "inteligencia_artificial": 2,
+          "semiconductores": 2
+        },
+        "entidades": [
+          "OpenAI"
+        ],
+        "cifras_detectadas": [],
         "content_type": "news",
         "clickbait": {
           "detected": false,
@@ -705,12 +937,12 @@
           "url_count": 0
         },
         "calidad": 84,
-        "relevancia": 50,
-        "confiabilidad_fuente": 70,
+        "relevancia": 62,
+        "confiabilidad_fuente": 75,
         "readability": {
-          "words": 251,
-          "sentences": 11,
-          "average_words_per_sentence": 22.82
+          "words": 34,
+          "sentences": 1,
+          "average_words_per_sentence": 34
         },
         "duplicate": {
           "detected": false,
@@ -719,10 +951,85 @@
           "similar_to": null
         }
       },
-      "final_score": 66.9
+      "final_score": 72.95
     },
     {
-      "id": "05b9407f4381021a",
+      "id": "7e0ea11a1b6126c1",
+      "fuente_id": "catl_google",
+      "fuente_nombre": "CATL",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "catl",
+      "nivel_fuente": "fuente_oficial",
+      "categoria": "baterias_energia",
+      "idioma_original": "en",
+      "prioridad_fuente": 5,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "CATL une fuerzas con socios de Asia y el Pacífico para promover la transición energética",
+      "titulo_original": "CATL Joins Forces with Asia-Pacific Partners to Promote Energy Transition - CATL",
+      "enlace": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9CRkhqRkFsS3plb3hmTGlFY2pUQ3hpclk0RmJ0T2FqVlFFVTcxT210TVFBM2hPX2xWOTFrc0MteWE4MXNjelZaLURxUWdfd0k?oc=5",
+      "fecha": "2026-11-15T08:00:00.000Z",
+      "resumen_corto": "CATL une fuerzas con socios de Asia y el Pacífico para promover la transición energética CATL",
+      "resumen_largo": "CATL une fuerzas con socios de Asia y el Pacífico para promover la transición energética CATL",
+      "texto_original": "CATL Joins Forces with Asia-Pacific Partners to Promote Energy Transition CATL",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-11-18T17:55:18.229Z",
+        "index": 46,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "en",
+        "categoria": "inteligencia_artificial",
+        "categorias_secundarias": [
+          "semiconductores",
+          "moviles",
+          "baterias_energia"
+        ],
+        "category_scores": {
+          "inteligencia_artificial": 1,
+          "semiconductores": 1,
+          "moviles": 1,
+          "baterias_energia": 1
+        },
+        "entidades": [
+          "CATL"
+        ],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 84,
+        "relevancia": 62,
+        "confiabilidad_fuente": 75,
+        "readability": {
+          "words": 57,
+          "sentences": 1,
+          "average_words_per_sentence": 57
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 72.95
+    },
+    {
+      "id": "8556a1343bc8707b",
       "fuente_id": "bbc_mundo",
       "fuente_nombre": "BBC Mundo",
       "tipo": "rss_web",
@@ -734,26 +1041,113 @@
       "prioridad_fuente": 5,
       "analizar": true,
       "resumir": true,
-      "titulo": "Xi recibe a Trump y Putin en Shenzhen, \"la ciudad de los sueños\" de China: esto es lo que no verán",
-      "titulo_original": "Xi recibe a Trump y Putin en Shenzhen, \"la ciudad de los sueños\" de China: esto es lo que no verán",
-      "enlace": "https://www.bbc.com/mundo/articles/cqevrg8yr429o?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-17T16:05:06.000Z",
-      "resumen_corto": "Shenzhen se ha convertido en un símbolo de futuro para China.",
-      "resumen_largo": "Shenzhen se ha convertido en un símbolo de futuro para China. Pero no todos sus residentes lo ven como un lugar en donde pueden lograr sus sueños.",
-      "texto_original": "Shenzhen se ha convertido en un símbolo de futuro para China. Pero no todos sus residentes lo ven como un lugar en donde pueden lograr sus sueños.",
+      "titulo": "Por qué la histórica cumbre entre Trump, Putin y Xi preocupa a Europa (y qué puede significar para el resto del mundo)",
+      "titulo_original": "Por qué la histórica cumbre entre Trump, Putin y Xi preocupa a Europa (y qué puede significar para el resto del mundo)",
+      "enlace": "https://www.bbc.com/mundo/articles/cmwy98z3727vo?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-11-18T04:04:11.000Z",
+      "resumen_corto": "Roosevelt y el primer ministro de la URSS Joseph Stalin en la Conferencia de Yalta de febrero de 1945.",
+      "resumen_largo": "Durante una reciente visita a una exposición en el Manege de la Plaza Roja de Moscú con un grupo de escolares, el presidente de Rusia, Vladimir Putin, se detuvo frente a una gran escultura del primer ministro británico Winston Churchill, el presidente estadounidense Franklin D. Roosevelt y el primer ministro de la URSS Joseph Stalin en la Conferencia de Yalta de febrero de 1945. \"Estos eran los líderes de las tres principales potencias, que se reunieron para debatir cómo debería organizarse el mundo después de la guerra\", les dijo Putin a los niños el pasado 4 de noviembre.",
+      "texto_original": "Durante una reciente visita a una exposición en el Manege de la Plaza Roja de Moscú con un grupo de escolares, el presidente de Rusia, Vladimir Putin, se detuvo frente a una gran escultura del primer ministro británico Winston Churchill, el presidente estadounidense Franklin D. Roosevelt y el primer ministro de la URSS Joseph Stalin en la Conferencia de Yalta de febrero de 1945. \"Estos eran los líderes de las tres principales potencias, que se reunieron para debatir cómo debería organizarse el mundo después de la guerra\", les dijo Putin a los niños el pasado 4 de noviembre. El día anterior, el Ministerio de Asuntos Exteriores de China y el Kremlin habían anunciado consultas para un encuentro entre Putin, el presidente de EE.UU., Donald Trump, y el presidente de China. Xi Jinping, los días 18 y 19 de noviembre, en el marco de la cumbre de Cooperación Económica Asia-Pacífico (APEC) en Shenzhen. La portavoz de la Casa Blanca Olivia Wales confirmó que la reunión tendría lugar. Cuando a mediados de octubre surgieron los primeros informes de que el Kremlin proponía dicha reunión, hubo una inmediata preocupación en la Unión Europea y en Ucrania, y muchos recordaron la reunión de los líderes de la coalición anti-Hitler en la antigua residencia de los zares rusos a orillas del mar Negro, en Yalta. A cambio del acuerdo de Stalin para entrar en la guerra contra Japón tras la victoria sobre Alemania, se aceptó una expansión de la influencia soviética en Europa del Este, y un acuerdo secreto en Asia Oriental otorgó a la URSS territorios japoneses al sur de Sajalín y las islas Kuriles, al tiempo que se restablecía la base naval soviética en la ciudad china de Port Arthur y se reconocían intereses económicos especiales en Manchuria.",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-18T08:22:18.389Z",
-        "index": 9,
+        "processed_at": "2026-11-18T17:55:18.226Z",
+        "index": 33,
         "resumen": {
           "generado": true,
           "origen": "translated"
         },
         "idioma_detectado": "es",
         "idioma_original": "es",
-        "categoria": "actualidad",
-        "categorias_secundarias": [],
-        "category_scores": {},
+        "categoria": "vehiculos_energia",
+        "categorias_secundarias": [
+          "actualidad",
+          "inteligencia_artificial",
+          "moviles"
+        ],
+        "category_scores": {
+          "vehiculos_energia": 3,
+          "actualidad": 2,
+          "inteligencia_artificial": 1,
+          "moviles": 1,
+          "militar": 1
+        },
+        "entidades": [],
+        "cifras_detectadas": [
+          "1945"
+        ],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 25,
+          "signals": [
+            "\\bsecret[oa]?\\b"
+          ]
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 84,
+        "relevancia": 65,
+        "confiabilidad_fuente": 70,
+        "readability": {
+          "words": 301,
+          "sentences": 14,
+          "average_words_per_sentence": 21.5
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 72.9
+    },
+    {
+      "id": "7417ae468d436a9b",
+      "fuente_id": "bbc_mundo",
+      "fuente_nombre": "BBC Mundo",
+      "tipo": "rss_web",
+      "subtipo": "medio_generalista",
+      "grupo_fuente": "bbc",
+      "nivel_fuente": "medio_profesional",
+      "categoria": "actualidad",
+      "idioma_original": "es",
+      "prioridad_fuente": 5,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "El inusual encuentro con los awá, un grupo de indígenas aislados en Brasil (y por qué genera preocupación)",
+      "titulo_original": "El inusual encuentro con los awá, un grupo de indígenas aislados en Brasil (y por qué genera preocupación)",
+      "enlace": "https://www.bbc.com/mundo/articles/cmglry191y9xo?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-11-18T13:19:32.000Z",
+      "resumen_corto": "La organización no gubernamental Survival International informó que el lunes 16 de noviembre unos 20 indígenas awás \"aparecieron ante un puesto de la FUNAI (Fundación Nacional de los Pueblos Indígenas) en la Tierra Indígena Arariboia, en el estado brasileño de Maranhão, y entró en contacto con indígenas guajajaras (tenetehar) de la aldea Tawari\".",
+      "resumen_largo": "Un encuentro poco común entre indígenas no contactados de la selva amazónica con miembros de una tribu vecina ha llevado al gobierno de Brasil a implementar medidas de protección para este grupo que vive aislado en su propio entorno. La organización no gubernamental Survival International informó que el lunes 16 de noviembre unos 20 indígenas awás \"aparecieron ante un puesto de la FUNAI (Fundación Nacional de los Pueblos Indígenas) en la Tierra Indígena Arariboia, en el estado brasileño de Maranhão, y entró en contacto con indígenas guajajaras (tenetehar) de la aldea Tawari\". Los guajajaras les ofrecieron ñame, un tubérculo comestible, y los awás, que son expertos cazadores-recolectores, regresaron después a la selva.",
+      "texto_original": "Un encuentro poco común entre indígenas no contactados de la selva amazónica con miembros de una tribu vecina ha llevado al gobierno de Brasil a implementar medidas de protección para este grupo que vive aislado en su propio entorno. La organización no gubernamental Survival International informó que el lunes 16 de noviembre unos 20 indígenas awás \"aparecieron ante un puesto de la FUNAI (Fundación Nacional de los Pueblos Indígenas) en la Tierra Indígena Arariboia, en el estado brasileño de Maranhão, y entró en contacto con indígenas guajajaras (tenetehar) de la aldea Tawari\". Los guajajaras les ofrecieron ñame, un tubérculo comestible, y los awás, que son expertos cazadores-recolectores, regresaron después a la selva. Las imágenes grabadas por los guajajara, y difundidas por Survival International, muestran a adultos y niños awá, algunos portando arcos y flechas, con tocados de plumas y collares. Este intercambio ha generado la pregunta de qué llevó a una tribu que ha evitado siempre el contacto con personas ajenas a su comunidad a, de repente, acercarse a un grupo vecino. La ONG informa que el pueblo awá sufre una presión creciente a medida que su territorio está cada vez más expuesto a la invasión de madereros ilegales, cazadores y ganaderos, \"lo que podría explicar por qué buscaron alimento\".",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-11-18T17:55:18.211Z",
+        "index": 6,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "vehiculos_energia",
+        "categorias_secundarias": [
+          "inteligencia_artificial",
+          "militar",
+          "actualidad"
+        ],
+        "category_scores": {
+          "vehiculos_energia": 3,
+          "inteligencia_artificial": 2,
+          "militar": 2,
+          "actualidad": 2
+        },
         "entidades": [],
         "cifras_detectadas": [],
         "content_type": "news",
@@ -769,12 +1163,12 @@
           "url_count": 0
         },
         "calidad": 79,
-        "relevancia": 45,
+        "relevancia": 65,
         "confiabilidad_fuente": 70,
         "readability": {
-          "words": 64,
-          "sentences": 5,
-          "average_words_per_sentence": 12.8
+          "words": 287,
+          "sentences": 10,
+          "average_words_per_sentence": 28.7
         },
         "duplicate": {
           "detected": false,
@@ -783,10 +1177,1527 @@
           "similar_to": null
         }
       },
-      "final_score": 63.15
+      "final_score": 71.15
     },
     {
-      "id": "ac5ca0702f71fc8a",
+      "id": "e6536f17d56c8a04",
+      "fuente_id": "techinsights_google",
+      "fuente_nombre": "TechInsights",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "techinsights",
+      "nivel_fuente": "especializada_tecnica",
+      "categoria": "semiconductores",
+      "idioma_original": "en",
+      "prioridad_fuente": 5,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "TechInsights adquiere Strategy Analytics para ampliar aún más sus capacidades en el análisis del mercado de microelectrónica",
+      "titulo_original": "TechInsights Acquires Strategy Analytics to Further Expand its Capabilities in Microelectronics Market Analysis - TechInsights",
+      "enlace": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPZDNQTEZYRFZtRTNRWS1DN2JTQ21zZWNKNkEzOG0zRFN4RDlDWE55ZDgxeHRPckl2SHJ0OUVlcml3Rk04OUszNzBWNTh1QXdiUF9mSkxTd2drc3hLVHV6TEg1TWJ0TzE2QUJha3hvdXpCdGdHZjFWZDlac1BsMHZKREVpVVp0aU0?oc=5",
+      "fecha": "2026-11-05T08:00:00.000Z",
+      "resumen_corto": "TechInsights adquiere Strategy Analytics para ampliar aún más sus capacidades en análisis de mercado de microelectrónica TechInsights",
+      "resumen_largo": "TechInsights adquiere Strategy Analytics para ampliar aún más sus capacidades en análisis de mercado de microelectrónica TechInsights",
+      "texto_original": "TechInsights Acquires Strategy Analytics to Further Expand its Capabilities in Microelectronics Market Analysis TechInsights",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-11-18T17:55:18.230Z",
+        "index": 49,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "en",
+        "categoria": "tecnologia",
+        "categorias_secundarias": [
+          "inteligencia_artificial"
+        ],
+        "category_scores": {
+          "tecnologia": 4,
+          "inteligencia_artificial": 1
+        },
+        "entidades": [
+          "TechInsights"
+        ],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 84,
+        "relevancia": 62,
+        "confiabilidad_fuente": 65,
+        "readability": {
+          "words": 66,
+          "sentences": 1,
+          "average_words_per_sentence": 66
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 70.45
+    },
+    {
+      "id": "9790708dce4a5779",
+      "fuente_id": "openai_google",
+      "fuente_nombre": "OpenAI",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "openai",
+      "nivel_fuente": "fuente_oficial",
+      "categoria": "inteligencia_artificial",
+      "idioma_original": "en",
+      "prioridad_fuente": 5,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Presentamos GPT-6.2 Astra y Sol",
+      "titulo_original": "Introducing GPT-6.2 Astra and Sol - OpenAI",
+      "enlace": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1uaG9wYm5WLWZad2xnSC12anhNVVhCQ0d2aWJUY0l5V1JFNlE3SkhjdE5JSk0zRjVhZk5Da3NzVkp5bDkwcnFnbVZ0RjV1TjFQSVZoSVNUdm5jYW13ZDZ5TTU2eVRBZw?oc=5",
+      "fecha": "2026-11-17T17:47:15.000Z",
+      "resumen_corto": "Presentamos GPT-6.2 Astra y Sol OpenAI",
+      "resumen_largo": "Presentamos GPT-6.2 Astra y Sol OpenAI",
+      "texto_original": "Introducing GPT-6.2 Astra and Sol OpenAI",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-11-18T17:55:18.226Z",
+        "index": 37,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "en",
+        "idioma_original": "en",
+        "categoria": "inteligencia_artificial",
+        "categorias_secundarias": [],
+        "category_scores": {
+          "inteligencia_artificial": 3
+        },
+        "entidades": [
+          "OpenAI"
+        ],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 84,
+        "relevancia": 55,
+        "confiabilidad_fuente": 75,
+        "readability": {
+          "words": 26,
+          "sentences": 6,
+          "average_words_per_sentence": 4.33
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 70.15
+    },
+    {
+      "id": "7c05f7358213b2f6",
+      "fuente_id": "xiaomi_google",
+      "fuente_nombre": "Xiaomi",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "xiaomi",
+      "nivel_fuente": "fuente_oficial",
+      "categoria": "moviles",
+      "idioma_original": "en",
+      "prioridad_fuente": 5,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Lanzamiento de la serie Xiaomi 18 Pro",
+      "titulo_original": "Xiaomi 18 Pro Series Launch - Xiaomi",
+      "enlace": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBDRzVYUGJPbjlqT0dUT3doc0RydjlYMmdUSUd2UE8xTnJ1eExsellzNk8xempYa2FybXc3dU9nV083bjNSNFhnb2VQODcwUWdxdU5HWVRHcEhCN1J6eUJR?oc=5",
+      "fecha": "2026-11-17T14:26:11.000Z",
+      "resumen_corto": "Lanzamiento de la serie Xiaomi 18 Pro Xiaomi",
+      "resumen_largo": "Lanzamiento de la serie Xiaomi 18 Pro Xiaomi",
+      "texto_original": "Xiaomi 18 Pro Series Launch Xiaomi",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-11-18T17:55:18.227Z",
+        "index": 39,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "en",
+        "categoria": "inteligencia_artificial",
+        "categorias_secundarias": [
+          "moviles"
+        ],
+        "category_scores": {
+          "inteligencia_artificial": 1,
+          "moviles": 1
+        },
+        "entidades": [
+          "Xiaomi"
+        ],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 84,
+        "relevancia": 55,
+        "confiabilidad_fuente": 75,
+        "readability": {
+          "words": 24,
+          "sentences": 1,
+          "average_words_per_sentence": 24
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 70.15
+    },
+    {
+      "id": "c903e4b43f445e54",
+      "fuente_id": "xiaomi_google",
+      "fuente_nombre": "Xiaomi",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "xiaomi",
+      "nivel_fuente": "fuente_oficial",
+      "categoria": "moviles",
+      "idioma_original": "en",
+      "prioridad_fuente": 5,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Todas las especificaciones y características de Xiaomi 18 Pro | Xiaomi Global",
+      "titulo_original": "All Specs, Features of Xiaomi 18 Pro | Xiaomi Global - Xiaomi",
+      "enlace": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1XNDFpUTc5TXpxak9wQlFwbG11Q3lpc1NMMXRjU2lGUTh0NlB6NjhHR2JpSkYwMVFuMl8tdVF5Mnk0d1JRa2lMQ0YwSWlPdWN5dDA3MTI1c2t0OFUx?oc=5",
+      "fecha": "2026-11-17T14:09:17.000Z",
+      "resumen_corto": "Todas las especificaciones y características de Xiaomi 18 Pro | Xiaomi Global Xiaomi",
+      "resumen_largo": "Todas las especificaciones y características de Xiaomi 18 Pro | Xiaomi Global Xiaomi",
+      "texto_original": "All Specs, Features of Xiaomi 18 Pro | Xiaomi Global Xiaomi",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-11-18T17:55:18.227Z",
+        "index": 40,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "en",
+        "categoria": "inteligencia_artificial",
+        "categorias_secundarias": [
+          "moviles",
+          "vehiculos_energia"
+        ],
+        "category_scores": {
+          "inteligencia_artificial": 1,
+          "moviles": 1,
+          "vehiculos_energia": 1
+        },
+        "entidades": [
+          "Xiaomi"
+        ],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 84,
+        "relevancia": 55,
+        "confiabilidad_fuente": 75,
+        "readability": {
+          "words": 42,
+          "sentences": 1,
+          "average_words_per_sentence": 42
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 70.15
+    },
+    {
+      "id": "e619b9c7b289f5e8",
+      "fuente_id": "xiaomi_google",
+      "fuente_nombre": "Xiaomi",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "xiaomi",
+      "nivel_fuente": "fuente_oficial",
+      "categoria": "moviles",
+      "idioma_original": "en",
+      "prioridad_fuente": 5,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Xiaomi 18 Pro Max | Xiaomi Australia | Todas las especificaciones y características",
+      "titulo_original": "Xiaomi 18 Pro Max | Xiaomi Australia | All Specs, Features - Xiaomi",
+      "enlace": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE41VmFjbDdVcHl1dUtLUDhWbHY1ZTE0M1Rma25ENGF4LTMtdlJoNzJhakhJVi05Rm1wcTdabkxFcE1XbldkVEFLTWxMREk3YTFyTDFmS1NwWUN3S1Jk?oc=5",
+      "fecha": "2026-11-17T13:47:21.000Z",
+      "resumen_corto": "Xiaomi 18 Pro Max | Xiaomi Australia | Todas las especificaciones y características Xiaomi",
+      "resumen_largo": "Xiaomi 18 Pro Max | Xiaomi Australia | Todas las especificaciones y características Xiaomi",
+      "texto_original": "Xiaomi 18 Pro Max | Xiaomi Australia | All Specs, Features Xiaomi",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-11-18T17:55:18.227Z",
+        "index": 41,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "en",
+        "categoria": "inteligencia_artificial",
+        "categorias_secundarias": [
+          "moviles",
+          "vehiculos_energia"
+        ],
+        "category_scores": {
+          "inteligencia_artificial": 1,
+          "moviles": 1,
+          "vehiculos_energia": 1
+        },
+        "entidades": [
+          "Xiaomi"
+        ],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 84,
+        "relevancia": 55,
+        "confiabilidad_fuente": 75,
+        "readability": {
+          "words": 47,
+          "sentences": 1,
+          "average_words_per_sentence": 47
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 70.15
+    },
+    {
+      "id": "8d8bc00d33b91d0e",
+      "fuente_id": "xiaomi_google",
+      "fuente_nombre": "Xiaomi",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "xiaomi",
+      "nivel_fuente": "fuente_oficial",
+      "categoria": "moviles",
+      "idioma_original": "en",
+      "prioridad_fuente": 5,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Serie Xiaomi 18 Pro Max",
+      "titulo_original": "Xiaomi 18 Pro Max Series - Xiaomi",
+      "enlace": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9kZ2xFeWQwSjBUYTBPNms4dkNuZzd1V2Qzc0Joajhjc1ZucnVycDNnR1lvNTVxSnItRHZ1ZW95NVVNOWFRbWdTWUhSS3lObFhxUDIwRG83bWZyQ3NSR1duOFRxVWQ2TTJYNXk5SQ?oc=5",
+      "fecha": "2026-11-17T13:00:00.000Z",
+      "resumen_corto": "Serie Xiaomi 18 Pro Max Xiaomi",
+      "resumen_largo": "Serie Xiaomi 18 Pro Max Xiaomi",
+      "texto_original": "Xiaomi 18 Pro Max Series Xiaomi",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-11-18T17:55:18.227Z",
+        "index": 42,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "en",
+        "idioma_original": "en",
+        "categoria": "inteligencia_artificial",
+        "categorias_secundarias": [
+          "moviles"
+        ],
+        "category_scores": {
+          "inteligencia_artificial": 1,
+          "moviles": 1
+        },
+        "entidades": [
+          "Xiaomi"
+        ],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 84,
+        "relevancia": 55,
+        "confiabilidad_fuente": 75,
+        "readability": {
+          "words": 24,
+          "sentences": 1,
+          "average_words_per_sentence": 24
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 70.15
+    },
+    {
+      "id": "cbd874cbf85a9f93",
+      "fuente_id": "wccftech_google",
+      "fuente_nombre": "Wccftech",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "wccftech",
+      "nivel_fuente": "medio_especializado",
+      "categoria": "hardware",
+      "idioma_original": "en",
+      "prioridad_fuente": 4,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Los controladores de GPU NVIDIA supuestamente escriben hasta 30 GB por hora en SSD, haciéndose eco del reciente error de controlador de AMD",
+      "titulo_original": "NVIDIA GPU Drivers Reportedly Writing Up To 30GB Per Hour To SSDs, Echoing AMD’s Recent Driver Bug - Wccftech",
+      "enlace": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQbGpKNG54OHZVR3plV2s2dVFuV3BldFBMUW5PeUUtU0RTZU5fUm55eFNTek5ObVBxbHdKTk13TERiLWlkdE5DdUFSenJRcFpLOHFleGw3SERRTHlIb3lTalZNZzJWZXZLMGk3TzcyRnE0Q29GMnB2eEtLbHdyWXJjemtIQUhxZkM1cklDUDgxX0ZEZlNhdlJENUpvLWRldjRrV0VGakJhNFlraFBMUmZMeXhGRlMwbHlTZmfSAb8BQVVfeXFMTVFXY01qOEM2REVydXY4NmhuUHdzbGVjWnJIOTNHQ1E3QkthYnNieEtvQ0htT1BIUFJNek03SF83VTBOOUF0WkNNZ2NoVXppeDdkb3lmVjhEU2tMZ2ZZci15OERpR0pVTHFIYUl3d015MzFmMzdYbFRsU3Z6NURvdlh0ekVWUVowV1FNM3JZZlhNend4LWJoUUhrSW5wbGZvTGlMMlJUZlJfdlpsbThjZmdJQlBiNllpbDdLcmpZRlU?oc=5",
+      "fecha": "2026-11-18T13:44:00.000Z",
+      "resumen_corto": "Los controladores de GPU NVIDIA supuestamente escriben hasta 30 GB por hora en SSD, haciéndose eco del reciente error de controlador de AMD Wccftech",
+      "resumen_largo": "Los controladores de GPU NVIDIA supuestamente escriben hasta 30 GB por hora en SSD, haciéndose eco del reciente error de controlador de AMD Wccftech",
+      "texto_original": "NVIDIA GPU Drivers Reportedly Writing Up To 30GB Per Hour To SSDs, Echoing AMD’s Recent Driver Bug Wccftech",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-11-18T17:55:18.210Z",
+        "index": 5,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "en",
+        "categoria": "inteligencia_artificial",
+        "categorias_secundarias": [
+          "semiconductores",
+          "hardware",
+          "tecnologia"
+        ],
+        "category_scores": {
+          "inteligencia_artificial": 1,
+          "semiconductores": 1,
+          "hardware": 1,
+          "tecnologia": 1
+        },
+        "entidades": [
+          "NVIDIA",
+          "AMD",
+          "Wccftech"
+        ],
+        "cifras_detectadas": [
+          "30 GB",
+          "30GB"
+        ],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 87,
+        "relevancia": 67,
+        "confiabilidad_fuente": 50,
+        "readability": {
+          "words": 83,
+          "sentences": 1,
+          "average_words_per_sentence": 83
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 69.75
+    },
+    {
+      "id": "53ec4c657c7c1973",
+      "fuente_id": "bbc_mundo",
+      "fuente_nombre": "BBC Mundo",
+      "tipo": "rss_web",
+      "subtipo": "medio_generalista",
+      "grupo_fuente": "bbc",
+      "nivel_fuente": "medio_profesional",
+      "categoria": "actualidad",
+      "idioma_original": "es",
+      "prioridad_fuente": 5,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "No podíamos pagar una casa para nuestra familia, así que compramos una con desconocidos",
+      "titulo_original": "No podíamos pagar una casa para nuestra familia, así que compramos una con desconocidos",
+      "enlace": "https://www.bbc.com/mundo/articles/cmzx95xnwdd6o?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-11-18T11:50:32.000Z",
+      "resumen_corto": "Cuando Elizabeth y Tom Wilcox se dieron cuenta de que nunca podrían permitirse comprar la casa que querían para ellos y sus dos hijos, tomaron una decisión inesperada.",
+      "resumen_largo": "Cuando Elizabeth y Tom Wilcox se dieron cuenta de que nunca podrían permitirse comprar la casa que querían para ellos y sus dos hijos, tomaron una decisión inesperada. Se embarcaron en la búsqueda de otra pareja con niños pequeños, completos desconocidos para ellos, a quienes les propondrían comprar una propiedad en partes iguales y mudarse todos juntos. Los Wilcox, residentes en Vancouver, ciudad que desde hace tiempo tiene algunos de los precios de vivienda más altos de Canadá, estaban desesperados por comprar una casa que tuviera un jardín trasero donde sus hijos pudieran jugar.",
+      "texto_original": "Cuando Elizabeth y Tom Wilcox se dieron cuenta de que nunca podrían permitirse comprar la casa que querían para ellos y sus dos hijos, tomaron una decisión inesperada. Se embarcaron en la búsqueda de otra pareja con niños pequeños, completos desconocidos para ellos, a quienes les propondrían comprar una propiedad en partes iguales y mudarse todos juntos. Los Wilcox, residentes en Vancouver, ciudad que desde hace tiempo tiene algunos de los precios de vivienda más altos de Canadá, estaban desesperados por comprar una casa que tuviera un jardín trasero donde sus hijos pudieran jugar. \"Queríamos una casa con un patio donde cupiera una cama elástica, en un barrio donde se pudiera ir caminando a todas partes, pero no podíamos permitírnoslo\", dice Elizabeth, jefa de proyectos en el sector de la salud. Con un presupuesto de 1 millón de dólares canadienses (unos US$700.000), lo máximo a lo que podían aspirar era un pequeño apartamento, con balcón en el mejor de los casos. Fue entonces cuando a Elizabeth se le ocurrió la idea de comprar la propiedad junto con otra familia.",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-11-18T17:55:18.216Z",
+        "index": 13,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "inteligencia_artificial",
+        "categorias_secundarias": [
+          "semiconductores",
+          "moviles",
+          "hardware"
+        ],
+        "category_scores": {
+          "inteligencia_artificial": 1,
+          "semiconductores": 1,
+          "moviles": 1,
+          "hardware": 1,
+          "vehiculos_energia": 1
+        },
+        "entidades": [],
+        "cifras_detectadas": [
+          "1 m",
+          "$700.000"
+        ],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 84,
+        "relevancia": 57,
+        "confiabilidad_fuente": 70,
+        "readability": {
+          "words": 260,
+          "sentences": 11,
+          "average_words_per_sentence": 23.64
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 69.7
+    },
+    {
+      "id": "1bcadd4ef684e373",
+      "fuente_id": "techinsights_google",
+      "fuente_nombre": "TechInsights",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "techinsights",
+      "nivel_fuente": "especializada_tecnica",
+      "categoria": "semiconductores",
+      "idioma_original": "en",
+      "prioridad_fuente": 5,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Infraestructura de IA: perspectivas para 2027",
+      "titulo_original": "AI Infrastructure: Outlook for 2027 - TechInsights",
+      "enlace": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9CcFhnWTd0NTB0YkxFdFhRSWZWZmZjaV90OU9LR21GbDBlUVdhYV9EcHFsbkhZclFZUjFGd2dsd3FubVgwRmhNLWQ0ZkQ0V1NELW84UGRjSDRxNWN6QXY2RWItRWJWNWxVMkgwQ1Vmd2QwbHlueWc?oc=5",
+      "fecha": "2026-11-13T16:55:06.000Z",
+      "resumen_corto": "Infraestructura de IA: perspectivas para 2027 TechInsights",
+      "resumen_largo": "Infraestructura de IA: perspectivas para 2027 TechInsights",
+      "texto_original": "AI Infrastructure: Outlook for 2027 TechInsights",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-11-18T17:55:18.230Z",
+        "index": 47,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "en",
+        "categoria": "inteligencia_artificial",
+        "categorias_secundarias": [
+          "tecnologia"
+        ],
+        "category_scores": {
+          "inteligencia_artificial": 2,
+          "tecnologia": 1
+        },
+        "entidades": [
+          "TechInsights"
+        ],
+        "cifras_detectadas": [
+          "2027"
+        ],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 89,
+        "relevancia": 55,
+        "confiabilidad_fuente": 65,
+        "readability": {
+          "words": 24,
+          "sentences": 1,
+          "average_words_per_sentence": 24
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 69.4
+    },
+    {
+      "id": "25eaee3a975072a8",
+      "fuente_id": "wccftech_google",
+      "fuente_nombre": "Wccftech",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "wccftech",
+      "nivel_fuente": "medio_especializado",
+      "categoria": "hardware",
+      "idioma_original": "en",
+      "prioridad_fuente": 4,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "AMD se adelanta a CES 2027 con la posibilidad de presentar procesadores Olympic Ridge basados ​​en Zen 6",
+      "titulo_original": "AMD Teases CES 2027 With Possibility Of Unveiling Zen 6-Based Olympic Ridge Processors - Wccftech",
+      "enlace": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNQ1lXN2VEb2JoNHQycmVmUlVtdHpJMFJEVGl0alljWUs0eWthYlNlcjNFdDFrQnh5b29sTnM4QjVob3BDcmtZVFhIOVdySEdSXzBQMWpxM0FSQzByaXpDdUpDVWhHdWRJTHdfNHNiTDVpZlE3N2daemZDQUNSRzF1Yjg5YV9pZm9xczktYjlwRU16bkUwMGxSZEZ1TjRObGRzS0lNUlE2M0J2YWxY0gGyAUFVX3lxTE9lYjZmczBsUGlFWDYtV1lQVXZHSE5YR19Ua1FOT25lWFJhUGx4aW5ONi1mVzVCUVFCc1NKbUN6WWstRktQOHdhdWdLdk02Rlg5TGJyN3NBSVFhTzRKdzV3ZjRiMWdjakUteGM0bjRMN2c4ekoyMWZ6UURuSnpPLWtoemM2bjdyTDkxN2djTDdQUldMVkFNSzhoTUs2akN3bVhudWhQR1g0cmNkbFlKLVRmWHc?oc=5",
+      "fecha": "2026-11-18T12:41:15.000Z",
+      "resumen_corto": "AMD se adelanta a CES 2027 con la posibilidad de presentar procesadores Olympic Ridge basados ​​en Zen 6 Wccftech",
+      "resumen_largo": "AMD se adelanta a CES 2027 con la posibilidad de presentar procesadores Olympic Ridge basados ​​en Zen 6 Wccftech",
+      "texto_original": "AMD Teases CES 2027 With Possibility Of Unveiling Zen 6-Based Olympic Ridge Processors Wccftech",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-11-18T17:55:18.212Z",
+        "index": 8,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "en",
+        "categoria": "hardware",
+        "categorias_secundarias": [
+          "tecnologia"
+        ],
+        "category_scores": {
+          "hardware": 2,
+          "tecnologia": 1
+        },
+        "entidades": [
+          "AMD",
+          "Wccftech"
+        ],
+        "cifras_detectadas": [
+          "2027",
+          "2027 W",
+          "6 W"
+        ],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 87,
+        "relevancia": 60,
+        "confiabilidad_fuente": 50,
+        "readability": {
+          "words": 64,
+          "sentences": 1,
+          "average_words_per_sentence": 64
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 66.95
+    },
+    {
+      "id": "c477a64d4e0b6445",
+      "fuente_id": "wccftech_google",
+      "fuente_nombre": "Wccftech",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "wccftech",
+      "nivel_fuente": "medio_especializado",
+      "categoria": "hardware",
+      "idioma_original": "en",
+      "prioridad_fuente": 4,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Grand Theft Auto VI usa AMD FSR 4 en Xbox Series S, escalando de 720p a 1080p mientras sigue ejecutando iluminación global con trazado de rayos",
+      "titulo_original": "Grand Theft Auto VI Uses AMD FSR 4 On Xbox Series S, Upscaling 720p To 1080p While Still Running Ray Traced Global Illumination - Wccftech",
+      "enlace": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPQi1BVEtydjBCRVRaNGZSdnFFNGZyUWhEa3ZicUxVcUlfRzVTNWVDckRyQWhGN3kxRFR1NnpKTnVLVEtNWjY3Q1pMX2lCTFZwSm96RmRLMjBaaHh5Q1pEYmVHQUNPaG9sNXpsU0tFUXhtei1fUFIta3IzZWJkZHFsTEpEd9IBiAFBVV95cUxPOG90UDNsMEJ0YUxKQ0VYMVF6eXNNcHduUE1VNnV3NWRxQkE1RU9nVFNZSFE3dkRhYW5RbVgzeGt0clF5Sl8yaGVGa0x6clhTY2plN2VqZDMwNWhkWUlZenNYOVBHajl1U2UzcjVlNHpHZ0JVYVZiSGVKR1AydXVCSGlMdFZWZVQ0?oc=5",
+      "fecha": "2026-11-18T11:20:19.000Z",
+      "resumen_corto": "Grand Theft Auto VI utiliza AMD FSR 4 en Xbox Series S, escalando de 720p a 1080p sin dejar de ejecutar Ray Tracing Global Illumination Wccftech",
+      "resumen_largo": "Grand Theft Auto VI utiliza AMD FSR 4 en Xbox Series S, escalando de 720p a 1080p sin dejar de ejecutar Ray Tracing Global Illumination Wccftech",
+      "texto_original": "Grand Theft Auto VI Uses AMD FSR 4 On Xbox Series S, Upscaling 720p To 1080p While Still Running Ray Traced Global Illumination Wccftech",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-11-18T17:55:18.218Z",
+        "index": 16,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "en",
+        "categoria": "vehiculos_energia",
+        "categorias_secundarias": [
+          "tecnologia"
+        ],
+        "category_scores": {
+          "vehiculos_energia": 1,
+          "tecnologia": 1
+        },
+        "entidades": [
+          "AMD",
+          "Wccftech"
+        ],
+        "cifras_detectadas": [
+          "1080"
+        ],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 87,
+        "relevancia": 60,
+        "confiabilidad_fuente": 50,
+        "readability": {
+          "words": 95,
+          "sentences": 1,
+          "average_words_per_sentence": 95
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 66.95
+    },
+    {
+      "id": "5915d036ca7b1628",
+      "fuente_id": "huawei_google",
+      "fuente_nombre": "Huawei Central",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "huawei",
+      "nivel_fuente": "agregador",
+      "categoria": "moviles",
+      "idioma_original": "en",
+      "prioridad_fuente": 4,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Se filtran las especificaciones del Huawei Mate 90 Air, incluidos colores y una batería más grande",
+      "titulo_original": "Huawei Mate 90 Air specs leaked, including colors and a larger battery - Huawei Central",
+      "enlace": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPeVphY1NJZVNLMVZobEQ4eU82eTZLQW1XMTRiMHFTMU56Qks4SW1VV3pkWU5GV3p0eERuWG93R1Q0dDU4ZjJpdm13NHlsZXY4WFlqYzJlVUtjMXcyWFZGQXlXUFlqS1gwdTZoYm5FS2dPdndjV0dJZHpVdWNlVHBBWGZfbThLMWM3cWU4dWxWMEVnaVBtNXgwc2ZSeEphSWN4WkE?oc=5",
+      "fecha": "2026-11-18T08:33:34.000Z",
+      "resumen_corto": "Se filtran las especificaciones del Huawei Mate 90 Air, incluidos colores y una batería más grande Huawei Central",
+      "resumen_largo": "Se filtran las especificaciones del Huawei Mate 90 Air, incluidos colores y una batería más grande Huawei Central",
+      "texto_original": "Huawei Mate 90 Air specs leaked, including colors and a larger battery Huawei Central",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-11-18T17:55:18.221Z",
+        "index": 26,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "en",
+        "categoria": "inteligencia_artificial",
+        "categorias_secundarias": [
+          "moviles",
+          "baterias_energia"
+        ],
+        "category_scores": {
+          "inteligencia_artificial": 2,
+          "moviles": 2,
+          "baterias_energia": 2
+        },
+        "entidades": [
+          "Huawei"
+        ],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 82,
+        "relevancia": 62,
+        "confiabilidad_fuente": 53,
+        "readability": {
+          "words": 67,
+          "sentences": 1,
+          "average_words_per_sentence": 67
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 66.75
+    },
+    {
+      "id": "9749b08cfa31ed1b",
+      "fuente_id": "huawei_google",
+      "fuente_nombre": "Huawei Central",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "huawei",
+      "nivel_fuente": "agregador",
+      "categoria": "moviles",
+      "idioma_original": "en",
+      "prioridad_fuente": 4,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "El presidente de Huawei muestra el diseño de la PC MateBook Fold S de 14,7 pulgadas",
+      "titulo_original": "Huawei Chairman showcases 14.7-inch MateBook Fold S PC design - Huawei Central",
+      "enlace": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQN2ZLRzdmS2VBd2t2SEFYa1hpTk9xM0l3cWpMcF82RmVrQVoybVIzT1k1WTBBT2dhNkZRbms1cG13VzkyeHFGOUNqVXMwVGRMOENRWG92ejBnelRXOUF1T2J5UGFrVkoyQ2kxU1lUVld0ZHplazUtYm9lQmFBdTIydi1vM3NQNmF4dU9ZblBoUzJheThWYWQw0gGcAUFVX3lxTE0yMDdkbjVWU2FFOVpnUUJITnRGenQ2R1I0ZlFDWmRzSGtOY1FEZU4yT2xaYkxBTm8yNktSNXkxQkExMDdJaWJVM1RfSkFhUExDODVxcHpLVm9ETGZoVTNCczlpN05waFVLUkVoZjRKWnVtT2tFa0kyeGJGY2tnSHR3ZGt3QnJBTUY0Sjd3elRzQlkxR0N0U1RCQ0trMQ?oc=5",
+      "fecha": "2026-11-10T04:53:56.000Z",
+      "resumen_corto": "El presidente de Huawei muestra el diseño de PC MateBook Fold S de 14,7 pulgadas Huawei Central",
+      "resumen_largo": "El presidente de Huawei muestra el diseño de PC MateBook Fold S de 14,7 pulgadas Huawei Central",
+      "texto_original": "Huawei Chairman showcases 14.7-inch MateBook Fold S PC design Huawei Central",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-11-18T17:55:18.230Z",
+        "index": 48,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "en",
+        "categoria": "moviles",
+        "categorias_secundarias": [
+          "actualidad",
+          "inteligencia_artificial",
+          "hardware"
+        ],
+        "category_scores": {
+          "moviles": 2,
+          "actualidad": 2,
+          "inteligencia_artificial": 1,
+          "hardware": 1
+        },
+        "entidades": [
+          "Huawei"
+        ],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 82,
+        "relevancia": 62,
+        "confiabilidad_fuente": 53,
+        "readability": {
+          "words": 43,
+          "sentences": 3,
+          "average_words_per_sentence": 14.33
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 66.75
+    },
+    {
+      "id": "6a466f51251df350",
+      "fuente_id": "google_news_es",
+      "fuente_nombre": "Google News ES",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "google_news",
+      "nivel_fuente": "agregador",
+      "categoria": "tecnologia",
+      "idioma_original": "es",
+      "prioridad_fuente": 3,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Nvidia bate previsiones al duplicar los ingresos y los beneficios, y defiende el poder de su tecnología - EL PAÍS",
+      "titulo_original": "Nvidia bate previsiones al duplicar los ingresos y los beneficios, y defiende el poder de su tecnología - EL PAÍS",
+      "enlace": "https://news.google.com/rss/articles/CBMiggJBVV95cUxONGxZdFl1X09GSmIyajFEbHZnQmJPTWV1cGZaM2dpTEVGdlMtOFA1OHA0NjNUYWZoY0ZSYkpTQk9IY0NLelB5dXRmdVlzbm94QTlLMnZ1cXMwc24zbmRJTzUxZUZnNmNhRWhlQkpFRjBQWVBFcV9KOEJibVZGT2YtR3hpOVB2MDh2OUVxT0tfUHRTc3pWdU5TVERvS002Y1VWcXEzNkM4eUNsRnpCWEtIZXFZX3ZmeWRqVE9tY1ZaVnZxMEExeFZIdWlySU5NZ295QlRUVFd1bVJtMkt4c1RBeEdhbDdJU0hzSlc4dzI4WVYwWFFnVzMxTG5KR1VzVlA1Q3fSAZYCQVVfeXFMTzRtOWdDQXdsWl9FeFptdUNwN0RBczkxLVZKMS1LNVZmdEViR0FZNkc1T0FjeXdWb01GNEx3UFl3R1dUUmFOLTNfLUNiaDRfWjZ2aU84SzdlYkJkSGttRVV2WUd4WmthNlo3S0wxTjAtMzRYeTVPRF9qOHZvLThXZXMyYjdOZXFvaGVIQ0tHcWY0Z3NPOGVBVXN4WDc1Y2V4WERKQVZnejdBeG1uV2ZLc0FpZE00cXhvcEM0UVBpWU94azBIODRCc0Q4UVJaTnFsR0RCMU9UYVpwdWY0ckViWDRBaEp3S3RDYW00SXVoOTRLclR3enBvMU56d0l2WmY1cXhzOEVYbjdDZm1ZYU00QUpiNkZmMXc?oc=5",
+      "fecha": "2026-11-17T21:35:18.000Z",
+      "resumen_corto": "Nvidia bate previsiones al duplicar los ingresos y los beneficios, y defiende el poder de su tecnología EL PAÍS",
+      "resumen_largo": "Nvidia bate previsiones al duplicar los ingresos y los beneficios, y defiende el poder de su tecnología EL PAÍS",
+      "texto_original": "Nvidia bate previsiones al duplicar los ingresos y los beneficios, y defiende el poder de su tecnología EL PAÍS",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-11-18T17:55:18.226Z",
+        "index": 35,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "inteligencia_artificial",
+        "categorias_secundarias": [
+          "vehiculos_energia",
+          "tecnologia",
+          "moviles"
+        ],
+        "category_scores": {
+          "inteligencia_artificial": 2,
+          "vehiculos_energia": 2,
+          "tecnologia": 2,
+          "moviles": 1
+        },
+        "entidades": [
+          "NVIDIA"
+        ],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 80,
+        "relevancia": 62,
+        "confiabilidad_fuente": 53,
+        "readability": {
+          "words": 60,
+          "sentences": 1,
+          "average_words_per_sentence": 60
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 66.05
+    },
+    {
+      "id": "2d50ce637794a341",
+      "fuente_id": "xataka_google",
+      "fuente_nombre": "Xataka",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "xataka",
+      "nivel_fuente": "medio_especializado",
+      "categoria": "tecnologia",
+      "idioma_original": "es",
+      "prioridad_fuente": 4,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "'GTA VI' es monumental y ya hay quien dice que es el mejor juego de la historia. Un juego de 1998 acaba de levantar la ceja",
+      "titulo_original": "'GTA VI' es monumental y ya hay quien dice que es el mejor juego de la historia. Un juego de 1998 acaba de levantar la ceja - Xataka",
+      "enlace": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQUVdBeXFHaU9rV045MHdZbUdVc2ZQcXBycjNNQlRwRW13YlVNWnRlWW5qalZJMXhRMGdUbTNUdU9ld1VGTVpKTWt4UWlocm9EME9aMGpyY1pSSDlURmlIS2tqS3NiMlZTSnZ0SjFmMV9hMXVjdl9Oc1Y0SDIwWUw2NlY5SjJCYkFBcktfNlFqLWI3TjFuMHJhdHBZenplckhfVEVFZXFSQ3ppREZWVWxvZEE2MGRqQnpVdHh5V0RnOGfSAcYBQVVfeXFMT0hpU1RLSkJRcWQwazJpQjhoc1FFbVZxSmVTVnRTQUdvWHBQYkFKbzFXSUdSdktaZTJlUDNNSldnWmNKUWNXVGM4ZFo4RlpiVlMxaXZMS1JFSFlUMVFtaVlRTkFwZXVoUG8zQ05Nbkw2R3hyNDAtRDlldXpuSDZraDNwMEZROTdsSE5WcS1tWWlCbC1KeDc0cjNZS3NBNXgxUmdnX2NvXzhCZEhHSGZUV0RYUnppN1A1R3U3M2N4bGRlaV9udmVR?oc=5",
+      "fecha": "2026-11-18T15:31:14.000Z",
+      "resumen_corto": "Un juego de 1998 acaba de levantar la ceja Xataka",
+      "resumen_largo": "'GTA VI' es monumental y ya hay quien dice que es el mejor juego de la historia. Un juego de 1998 acaba de levantar la ceja Xataka",
+      "texto_original": "'GTA VI' es monumental y ya hay quien dice que es el mejor juego de la historia. Un juego de 1998 acaba de levantar la ceja Xataka",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-11-18T17:55:18.209Z",
+        "index": 3,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "inteligencia_artificial",
+        "categorias_secundarias": [
+          "vehiculos_energia"
+        ],
+        "category_scores": {
+          "inteligencia_artificial": 1,
+          "vehiculos_energia": 1
+        },
+        "entidades": [
+          "Xataka"
+        ],
+        "cifras_detectadas": [
+          "1998"
+        ],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 87,
+        "relevancia": 55,
+        "confiabilidad_fuente": 50,
+        "readability": {
+          "words": 65,
+          "sentences": 5,
+          "average_words_per_sentence": 13
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 64.95
+    },
+    {
+      "id": "ebaffe3101c690eb",
+      "fuente_id": "resumen_militar",
+      "fuente_nombre": "El Resumen Militar",
+      "tipo": "telegram",
+      "subtipo": "canal_telegram",
+      "grupo_fuente": "telegram_militar",
+      "nivel_fuente": "telegram",
+      "categoria": "militar",
+      "idioma_original": "es",
+      "prioridad_fuente": 3,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "🇷🇺 🇺🇸 The Kremlin has indicated that Russian President Vladimir Putin and Donald Trump are likely to engage in informal discussions during the APEC summit. ➡️ According to Kremlin spokesman Dmitry Peskov, the two par",
+      "titulo_original": "🇷🇺 🇺🇸 The Kremlin has indicated that Russian President Vladimir Putin and Donald Trump are likely to engage in informal discussions during the APEC summit. ➡️ According to Kremlin spokesman Dmitry Peskov, the two par",
+      "enlace": "https://t.me/elresumenmilitar/103461",
+      "fecha": "2026-11-18T11:18:14.000Z",
+      "resumen_corto": "➡️ According to Kremlin spokesman Dmitry Peskov, the two parties have not yet finalized a schedule for a bilateral meeting in Shenzhen.",
+      "resumen_largo": "🇷🇺 🇺🇸 The Kremlin has indicated that Russian President Vladimir Putin and Donald Trump are likely to engage in informal discussions during the APEC summit. ➡️ According to Kremlin spokesman Dmitry Peskov, the two parties have not yet finalized a schedule for a bilateral meeting in Shenzhen. He noted that the presidents would likely converse briefly at the summit unless an alternative format is agreed upon.",
+      "texto_original": "🇷🇺 🇺🇸 The Kremlin has indicated that Russian President Vladimir Putin and Donald Trump are likely to engage in informal discussions during the APEC summit. ➡️ According to Kremlin spokesman Dmitry Peskov, the two parties have not yet finalized a schedule for a bilateral meeting in Shenzhen. He noted that the presidents would likely converse briefly at the summit unless an alternative format is agreed upon. ➡️ Peskov stated that Ukraine is expected to be the primary subject of their dialogue, with potential discussions regarding Iran if time permits. Previously, Kremlin aide Yury Ushakov mentioned that Putin and Trump would hold multiple conversations during the summit. Additionally, a trilateral meeting involving Chinese President Xi Jinping is scheduled for November 19. ➡️ Regarding the G20 summit in Miami on December 14–15, Peskov stated that President Putin’s attendance depends on various conditions. The Kremlin previously announced in July that Russia would be represented at a high level at the event. 🔴 @DDGeopolitics",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-11-18T17:55:18.219Z",
+        "index": 18,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "en",
+        "idioma_original": "es",
+        "categoria": "inteligencia_artificial",
+        "categorias_secundarias": [
+          "actualidad",
+          "vehiculos_energia"
+        ],
+        "category_scores": {
+          "inteligencia_artificial": 2,
+          "actualidad": 2,
+          "vehiculos_energia": 1
+        },
+        "entidades": [],
+        "cifras_detectadas": [],
+        "content_type": "report",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 68,
+        "relevancia": 65,
+        "confiabilidad_fuente": 55,
+        "readability": {
+          "words": 254,
+          "sentences": 15,
+          "average_words_per_sentence": 16.93
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 63.55
+    },
+    {
+      "id": "2bf97d0af3206574",
+      "fuente_id": "xataka_google",
+      "fuente_nombre": "Xataka",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "xataka",
+      "nivel_fuente": "medio_especializado",
+      "categoria": "tecnologia",
+      "idioma_original": "es",
+      "prioridad_fuente": 4,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "'GTA VI' es el juego más grande de la historia. La pregunta es si también será una buena base para los que están por venir",
+      "titulo_original": "'GTA VI' es el juego más grande de la historia. La pregunta es si también será una buena base para los que están por venir - Xataka",
+      "enlace": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOdGFMdkdNRWhqYTlacTZnd2hkTlhjTEN4enF5N0hPVFZKcWExcHFhQlV0TllDNHNSWXZDTG1FQjJGV0tacUxLNGpDdUo0dzMxY29SUkprRjYtZG5kSGFUS2VLNFZXZ09fVmExOFdndy1fMHZtNTJNenN1ZzNDekRXZTN3NnBfeWZiQzVCaDFGYkpZR1R6YTBCczFURWFQNjVaeDlER0VvMDlwcVhG0gGyAUFVX3lxTFB2UDQ4Q3hIY2Ntc2o2YjRFeWpEcjRhWmZTZGdyMkYwQmNEcUpydUhZT2ZKR3lwLUhtY0o5Tmp4cHRWOWhqWnBTM2d0U2JOd2c4dlZXMmU3eDJLUDgxcjg3NFE1dnNheXJ5SGRkVkdSaUplN0JMakFqVXE1RnIwTFBhTVlMTDlSSmpzS3RveEtidHI2czFxSjNuaTB0c2RsV3R5STlValZGdUlQTy1DOXl4c3c?oc=5",
+      "fecha": "2026-11-18T12:35:00.000Z",
+      "resumen_corto": "'GTA VI' es el juego más grande de la historia.",
+      "resumen_largo": "'GTA VI' es el juego más grande de la historia. La pregunta es si también será una buena base para los que están por venir Xataka",
+      "texto_original": "'GTA VI' es el juego más grande de la historia. La pregunta es si también será una buena base para los que están por venir Xataka",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-11-18T17:55:18.213Z",
+        "index": 9,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "inteligencia_artificial",
+        "categorias_secundarias": [],
+        "category_scores": {
+          "inteligencia_artificial": 1
+        },
+        "entidades": [
+          "Xataka"
+        ],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 82,
+        "relevancia": 55,
+        "confiabilidad_fuente": 50,
+        "readability": {
+          "words": 76,
+          "sentences": 6,
+          "average_words_per_sentence": 12.67
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 63.2
+    },
+    {
+      "id": "d9abd4cef719488f",
+      "fuente_id": "genbeta_google",
+      "fuente_nombre": "Genbeta",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "genbeta",
+      "nivel_fuente": "medio_especializado",
+      "categoria": "software_internet",
+      "idioma_original": "es",
+      "prioridad_fuente": 4,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Juan Manuel Rojas, arquitecto: “Si hoy tuviésemos albañiles como los que hicieron la Plaza de España, yo diseñaría una plaza así”",
+      "titulo_original": "Juan Manuel Rojas, arquitecto: “Si hoy tuviésemos albañiles como los que hicieron la Plaza de España, yo diseñaría una plaza así” - Genbeta",
+      "enlace": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQUlVydlpfQmRtV19QZ3VhMTBfdFZ4X2d5eDBNUGZ4RnpGTDc3YzFGeVFzRnVOQWQ2ZlNHekZNMnNjUWhDVjJEd0ttYXUtSEM4dmRGX0pMQnpZVnFoejE3R3hGZk5ybzBIWFRTU0tWVjZ6dEdKQXpjUG4xVnUyOXRTU0QtYmU3LUZUb3lwX0IzcktlOE1WVlJfNWNZVVdrcDZpbFBoWk1JRVJrSWE3MVF5TWp1RF95d2c1RzlzTUhxbWlxTWNLQ0c1NnBLLTFlblFlWDYwdFdUd9IB3AFBVV95cUxNb0t2N3RyZU5uLVBBdUo5T09XTkh6cmJwZS1IMmM3Qms1VVdldlNJeWpBZzcwazl4WWtxejh4ZkZmTFlHVmg1Y0cwbjR4ejhNQ01jSjdZZmlweURia0RfR1l0SWN0eGFrYkVrNmEzWEphMUJDeDFjZTVFcl82RkdSTTFiZWhhMHNwOFM1LWZYR21RSGNNVUJ5TjJLWklmNDg0X3FSYXBLV1NXWHVJV1FnTEtSWmlZeGpCUGgtNjZlYTNGd3RwOTN4TDN0SmJLeGxDYTkyX0xidFVGLUxT?oc=5",
+      "fecha": "2026-11-18T12:01:23.000Z",
+      "resumen_corto": "Juan Manuel Rojas, arquitecto: “Si hoy tuviésemos albañiles como los que hicieron la Plaza de España, yo diseñaría una plaza así” Genbeta",
+      "resumen_largo": "Juan Manuel Rojas, arquitecto: “Si hoy tuviésemos albañiles como los que hicieron la Plaza de España, yo diseñaría una plaza así” Genbeta",
+      "texto_original": "Juan Manuel Rojas, arquitecto: “Si hoy tuviésemos albañiles como los que hicieron la Plaza de España, yo diseñaría una plaza así” Genbeta",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-11-18T17:55:18.215Z",
+        "index": 12,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "inteligencia_artificial",
+        "categorias_secundarias": [],
+        "category_scores": {
+          "inteligencia_artificial": 1
+        },
+        "entidades": [
+          "Genbeta"
+        ],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 82,
+        "relevancia": 55,
+        "confiabilidad_fuente": 50,
+        "readability": {
+          "words": 89,
+          "sentences": 1,
+          "average_words_per_sentence": 89
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 63.2
+    },
+    {
+      "id": "12959858ac3461d6",
+      "fuente_id": "wccftech_google",
+      "fuente_nombre": "Wccftech",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "wccftech",
+      "nivel_fuente": "medio_especializado",
+      "categoria": "hardware",
+      "idioma_original": "en",
+      "prioridad_fuente": 4,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Revisión de Grand Theft Auto VI: 90 horas en Leonida lo convierten en el mejor simulador de crímenes hasta el momento, incluso bloqueado a 30 FPS en la consola",
+      "titulo_original": "Grand Theft Auto VI Review – 90 Hours In Leonida Make This The Greatest Crime Simulator Yet, Even Locked At 30 FPS On Console - Wccftech",
+      "enlace": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBrTGJfTy1QY096TlVjc2pFZDBmdjhmMHpmZTZLTWR4VFAtM08yZVVNVTJmV2oyZ3Ywby1NUklCSDl5eEZtX1RJZ2NCTG9KMndBT1FCMG9IZVIzVkRRMmFEcldYajlBWkw3V0xYZkhsb9IBdEFVX3lxTE9tLV9GQ1FMRG12djduZUhVMDlGRDcxakxyVWdqbGF6TEo1Vzl3MElPT1JzeExIaHFuUXNibHhZdks2QnNzVWpXSC1pakZ2TTJ0YVBXSFN3ajN5YmlodnlXWnFBZkw0NWd3QU5sR054bjZyUlRY?oc=5",
+      "fecha": "2026-11-18T11:00:00.000Z",
+      "resumen_corto": "Revisión de Grand Theft Auto VI: 90 horas en Leonida lo convierten en el mejor simulador de crímenes hasta el momento, incluso bloqueado a 30 FPS en la consola Wccftech",
+      "resumen_largo": "Revisión de Grand Theft Auto VI: 90 horas en Leonida lo convierten en el mejor simulador de crímenes hasta el momento, incluso bloqueado a 30 FPS en la consola Wccftech",
+      "texto_original": "Grand Theft Auto VI Review – 90 Hours In Leonida Make This The Greatest Crime Simulator Yet, Even Locked At 30 FPS On Console Wccftech",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-11-18T17:55:18.219Z",
+        "index": 19,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "en",
+        "categoria": "vehiculos_energia",
+        "categorias_secundarias": [
+          "tecnologia"
+        ],
+        "category_scores": {
+          "vehiculos_energia": 2,
+          "tecnologia": 1
+        },
+        "entidades": [
+          "Wccftech"
+        ],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 82,
+        "relevancia": 55,
+        "confiabilidad_fuente": 50,
+        "readability": {
+          "words": 86,
+          "sentences": 1,
+          "average_words_per_sentence": 86
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 63.2
+    },
+    {
+      "id": "6bd7ef614c05b5ac",
+      "fuente_id": "xataka_google",
+      "fuente_nombre": "Xataka",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "xataka",
+      "nivel_fuente": "medio_especializado",
+      "categoria": "tecnologia",
+      "idioma_original": "es",
+      "prioridad_fuente": 4,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Cuando un coche te enamora y no sabes por qué: los secretos del diseño explicados por una experta",
+      "titulo_original": "Cuando un coche te enamora y no sabes por qué: los secretos del diseño explicados por una experta - Xataka",
+      "enlace": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQdExveTlUdjh4eUNlSVlzdnVwLUQtQWdWdTdfRGdnbVd2aldzU2RsajdCSnZkbmdhS01kU2xxVGpkdldkalNCdmdlM21KQmN4SU95LWRoZ2JxTDJ0cXZFc2NUb1k0VEptdk04cktTNlE1MnM3RUtOc3U3QkNLX3VCNi1yanVJaERQbGZJbWNuUkk4ZHRDTjM3UDA1c3g?oc=5",
+      "fecha": "2026-11-18T09:24:53.000Z",
+      "resumen_corto": "Cuando un coche te enamora y no sabes por qué: los secretos del diseño explicados por una experta Xataka",
+      "resumen_largo": "Cuando un coche te enamora y no sabes por qué: los secretos del diseño explicados por una experta Xataka",
+      "texto_original": "Cuando un coche te enamora y no sabes por qué: los secretos del diseño explicados por una experta Xataka",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-11-18T17:55:18.221Z",
+        "index": 24,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "vehiculos_energia",
+        "categorias_secundarias": [],
+        "category_scores": {
+          "vehiculos_energia": 1
+        },
+        "entidades": [
+          "Xataka"
+        ],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 82,
+        "relevancia": 55,
+        "confiabilidad_fuente": 50,
+        "readability": {
+          "words": 74,
+          "sentences": 1,
+          "average_words_per_sentence": 74
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 63.2
+    },
+    {
+      "id": "b3ee64f46935fb5d",
+      "fuente_id": "genbeta_google",
+      "fuente_nombre": "Genbeta",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "genbeta",
+      "nivel_fuente": "medio_especializado",
+      "categoria": "software_internet",
+      "idioma_original": "es",
+      "prioridad_fuente": 4,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Ha entrado en vigor: los propietarios que vendan la vivienda deberán indemnizar a los inquilinos que residan en ella",
+      "titulo_original": "Ha entrado en vigor: los propietarios que vendan la vivienda deberán indemnizar a los inquilinos que residan en ella - Genbeta",
+      "enlace": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPQW5oWDBqcEtPU29iSmltOU9tTWk1ZjczMm82eWd5MGlka3V1VVRQbFYwZWM5bzNCYm1yTGh6eXkzZWJneGFUb1FHWDNjQnhxZUtLcGRqcHduUnRZc0hwMUhadkJiZC1fcjQ2MkdZU0JZd0locGV3SHdGNlJKekYtd3JCYlVtWE9uWXBxWVVXSkd2OGdoVFhsMXFKckJhQXhycmtnUWRHMFZvV3lTSFhKNFlYUENXTE94TWZHLWF0MzAzc1otNHJvbjFyTdIB0AFBVV95cUxQVUZzbFJoNHdVZGlyYndqbEZicGlhUVpINXFBeTUtbVZfR19rUTdEaWZfWGZOM1llcVZaX19Gel9WU1BKS2N2ZDd4ZjlDYWxTaTYyVEIwMGswUmhrck5OazV1UVdYQmZ5LUN5SHI4c1BBcWxyTV9ieDItb1NDelVBSEI1UWU4TlBFRVFfYmZPVWgyRHlRZ1dmYkR5Y0x0R2dWRDA5ZlJtSWlhWVZnSjhuQnhZWmNSTHVHSmhGSURGNkY2aXNfZGEzSGR3MkZsVk9S?oc=5",
+      "fecha": "2026-11-18T08:00:00.000Z",
+      "resumen_corto": "Ha entrado en vigor: los propietarios que vendan la vivienda deberán indemnizar a los inquilinos que residan en ella Genbeta",
+      "resumen_largo": "Ha entrado en vigor: los propietarios que vendan la vivienda deberán indemnizar a los inquilinos que residan en ella Genbeta",
+      "texto_original": "Ha entrado en vigor: los propietarios que vendan la vivienda deberán indemnizar a los inquilinos que residan en ella Genbeta",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-11-18T17:55:18.221Z",
+        "index": 27,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "moviles",
+        "categorias_secundarias": [],
+        "category_scores": {
+          "moviles": 1
+        },
+        "entidades": [
+          "Genbeta"
+        ],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 82,
+        "relevancia": 55,
+        "confiabilidad_fuente": 50,
+        "readability": {
+          "words": 74,
+          "sentences": 1,
+          "average_words_per_sentence": 74
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 63.2
+    },
+    {
+      "id": "17f2fdf0dc9890dc",
       "fuente_id": "ia_dia",
       "fuente_nombre": "IA al Día",
       "tipo": "rss_web",
@@ -798,17 +2709,17 @@
       "prioridad_fuente": 3,
       "analizar": true,
       "resumir": true,
-      "titulo": "¿Soberanía digital para quién? El reto de incorporar las lenguas y el saber indígena a la inteligencia artificial - EL PAÍS",
-      "titulo_original": "¿Soberanía digital para quién? El reto de incorporar las lenguas y el saber indígena a la inteligencia artificial - EL PAÍS",
-      "enlace": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxON3FmTzFvcl9FSk8xa0ZYUDUyal9IcUI1RGgtUEk1LUJtSlBzaTRQMWc2V3BJVXB1dHdfSDEzR3lyLTBZX2YtUldfTEVzLUpWaGpKRF9QVktKazlPY3E2aU9nQ2xLdDVYNWVDLXRid3Byb1hKM0VRTzBzOHo2LWNYOHV3b2d5NFlpSGxxcnF2bjRQVnJZTnpvRG1uRkNxWEJycGJWc2pmMWgzODNGWjRTTDVnNkVDYXA1dHZYOGtuMUNqd1QtejNxUUpKT2ZtUU1HcEVlUmJEQjdISnRUbGFHSDFnSFBHeTJWejhoR1dkWlVuSEXSAYcCQVVfeXFMUE5kYk5iV05UbTMxcmR3UVFoMEpJdFUwc1l4TGp3MEFySFlsUkVwaml1Ylo5WERCTklnM21pNzd2WDM3UFFkU1pLc2ZPd2JCWUNiN0FLajRuSDlaTnRHQXpvcXhtODJzaGpFZC1paC1aZTJWYldPVFpwdnNMWnN3N25oMExNel8zc2x2U3FQc3phVnRNVUZqQWxDcTlya0o1cGlyOS10bExZMUphb1JwRTh2NDhGWVdiZEIyT0NRUzFsM2EyaDlLYXdob3pJOExoR0Q0OEpPSjdRSU1tZmV0QXJpZmJWellnUEd5VURGNkhWSEM2OWtUSUlfVDF3cmk4UF8zVE1sUWc?oc=5",
-      "fecha": "2026-11-17T04:30:01.000Z",
-      "resumen_corto": "El reto de incorporar las lenguas y el saber indígena a la inteligencia artificial EL PAÍS",
-      "resumen_largo": "¿Soberanía digital para quién? El reto de incorporar las lenguas y el saber indígena a la inteligencia artificial EL PAÍS",
-      "texto_original": "¿Soberanía digital para quién? El reto de incorporar las lenguas y el saber indígena a la inteligencia artificial EL PAÍS",
+      "titulo": "La herramienta española de 'pentesting' con inteligencia artificial - Expansión",
+      "titulo_original": "La herramienta española de 'pentesting' con inteligencia artificial - Expansión",
+      "enlace": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOQ2tERldOLWE2NlIyd1NJc25FOWNCekhocTFLVjdtcFpObkkyeGRJbjVuYVFGS0YwQzdoNEFlOWJ1eTQ0NG4zRlQ0QjNRRjIzeVRIZGlEd0lqTWxPeVpJazBlUE45NmRqdl9rVFZOTnVfM2R3VFVWNG1jc25XdXFBVGZLMk8yd3BtWmpGd3B0eV9VbmxMeThiMExsQ0lCMkdGTW5QTnpNMGVXUQ?oc=5",
+      "fecha": "2026-11-18T15:55:52.000Z",
+      "resumen_corto": "La herramienta española de 'pentesting' con inteligencia artificial Expansión",
+      "resumen_largo": "La herramienta española de 'pentesting' con inteligencia artificial Expansión",
+      "texto_original": "La herramienta española de 'pentesting' con inteligencia artificial Expansión",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-18T08:22:18.394Z",
-        "index": 16,
+        "processed_at": "2026-11-18T17:55:18.207Z",
+        "index": 1,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -816,9 +2727,12 @@
         "idioma_detectado": "es",
         "idioma_original": "es",
         "categoria": "inteligencia_artificial",
-        "categorias_secundarias": [],
+        "categorias_secundarias": [
+          "hardware"
+        ],
         "category_scores": {
-          "inteligencia_artificial": 4
+          "inteligencia_artificial": 3,
+          "hardware": 1
         },
         "entidades": [],
         "cifras_detectadas": [],
@@ -838,9 +2752,9 @@
         "relevancia": 57,
         "confiabilidad_fuente": 53,
         "readability": {
-          "words": 61,
-          "sentences": 5,
-          "average_words_per_sentence": 12.2
+          "words": 35,
+          "sentences": 1,
+          "average_words_per_sentence": 35
         },
         "duplicate": {
           "detected": false,
@@ -852,44 +2766,113 @@
       "final_score": 62.3
     },
     {
-      "id": "9ac5f826d30f5666",
-      "fuente_id": "resumen_militar",
-      "fuente_nombre": "El Resumen Militar",
-      "tipo": "telegram",
-      "subtipo": "canal_telegram",
-      "grupo_fuente": "telegram_militar",
-      "nivel_fuente": "telegram",
-      "categoria": "militar",
+      "id": "3e483e43afd38fbc",
+      "fuente_id": "google_news_es",
+      "fuente_nombre": "Google News ES",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "google_news",
+      "nivel_fuente": "agregador",
+      "categoria": "tecnologia",
       "idioma_original": "es",
       "prioridad_fuente": 3,
       "analizar": true,
       "resumir": true,
-      "titulo": "🇮🇷 🛸 💥 🇰🇼 🇺🇸 Fire at what is reportedly a US base in Kuwait following an Iranian drone strike. 🔴 @DDGeopolitics",
-      "titulo_original": "🇮🇷 🛸 💥 🇰🇼 🇺🇸 Fire at what is reportedly a US base in Kuwait following an Iranian drone strike. 🔴 @DDGeopolitics",
-      "enlace": "https://t.me/elresumenmilitar/103429",
-      "fecha": "2026-11-18T03:48:33.000Z",
-      "resumen_corto": "🇮🇷 🛸 💥 🇰🇼 🇺🇸 Fire at what is reportedly a US base in Kuwait following an Iranian drone strike.",
-      "resumen_largo": "🇮🇷 🛸 💥 🇰🇼 🇺🇸 Fire at what is reportedly a US base in Kuwait following an Iranian drone strike.",
-      "texto_original": "🇮🇷 🛸 💥 🇰🇼 🇺🇸 Fire at what is reportedly a US base in Kuwait following an Iranian drone strike. 🔴 @DDGeopolitics",
+      "titulo": "EL RC DEPORTIVO INCORPORA LA TECNOLOGÍA DE SOCCERSOLVER A SU OPERATIVA DEPORTIVA - Deportivo de La Coruña",
+      "titulo_original": "EL RC DEPORTIVO INCORPORA LA TECNOLOGÍA DE SOCCERSOLVER A SU OPERATIVA DEPORTIVA - Deportivo de La Coruña",
+      "enlace": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQX09kTE1FR1Y2ZDdrZkJ3dHpPRDk2dUVTZGVueERMdlZqalpMZUgyUGZOcW4zSUdncVFpYklBQVZmUWZzUTBnNG9rNEhKbTFVWHBNUG5HdGRoMnNRR2JrWGFyYTlfSmx2YURaM2dxaENWWjBZQXlZNlpBUHBKMlF5MzFlQjlNYjFaSjJvbFBlWlF6VnlYdnowblQ1LUFfOGRKWGlYV1BQZzBxSGx5LW9KdW0zdDF0cVhlb0VV?oc=5",
+      "fecha": "2026-11-18T15:49:03.000Z",
+      "resumen_corto": "EL RC DEPORTIVO INCORPORA LA TECNOLOGÍA DE SOCCERSOLVER A SU OPERATIVA DEPORTIVA Deportivo de La Coruña",
+      "resumen_largo": "EL RC DEPORTIVO INCORPORA LA TECNOLOGÍA DE SOCCERSOLVER A SU OPERATIVA DEPORTIVA Deportivo de La Coruña",
+      "texto_original": "EL RC DEPORTIVO INCORPORA LA TECNOLOGÍA DE SOCCERSOLVER A SU OPERATIVA DEPORTIVA Deportivo de La Coruña",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-18T08:22:18.384Z",
-        "index": 3,
+        "processed_at": "2026-11-18T17:55:18.208Z",
+        "index": 2,
         "resumen": {
           "generado": true,
           "origen": "translated"
         },
-        "idioma_detectado": "en",
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "tecnologia",
+        "categorias_secundarias": [
+          "inteligencia_artificial",
+          "semiconductores"
+        ],
+        "category_scores": {
+          "tecnologia": 2,
+          "inteligencia_artificial": 1,
+          "semiconductores": 1
+        },
+        "entidades": [],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 15,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 75,
+        "relevancia": 57,
+        "confiabilidad_fuente": 53,
+        "readability": {
+          "words": 40,
+          "sentences": 1,
+          "average_words_per_sentence": 40
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 62.3
+    },
+    {
+      "id": "8dc03559a0c55b73",
+      "fuente_id": "ia_dia",
+      "fuente_nombre": "IA al Día",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "ia_general",
+      "nivel_fuente": "agregador",
+      "categoria": "inteligencia_artificial",
+      "idioma_original": "es",
+      "prioridad_fuente": 3,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "La Xunta expone en el País Vasco los usos de la inteligencia artificial en las políticas activas de empleo de Galicia - Xunta de Galicia",
+      "titulo_original": "La Xunta expone en el País Vasco los usos de la inteligencia artificial en las políticas activas de empleo de Galicia - Xunta de Galicia",
+      "enlace": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNUlRpeVZwUUFYRVZoS3RxWDJRS0hVSG5wMmJ1NlZqUTREWjRTNFlrWjI1YVBiQ19RSVNnSTVfUElJamJXWnVxamZQRTVpbWR1LWNvOUNDLUhldE9HQjFWMWI0VzRkUG83eEM4VGpNcno1S2xGbFVHVVEwZmN2QkhMLXFEd1VlZkZmOU1aLTF2V0gtZ1ZWYUJwOEpuTWd0WC05bzB5RkhQX2VWN2pHNUZuaGM4VVZMYllBZzVWUTB0Z1BxYW41OEZlc0RKN2VuUQ?oc=5",
+      "fecha": "2026-11-18T12:18:56.000Z",
+      "resumen_corto": "La Xunta expone en el País Vasco los usos de la inteligencia artificial en las políticas activas de empleo de Galicia Xunta de Galicia",
+      "resumen_largo": "La Xunta expone en el País Vasco los usos de la inteligencia artificial en las políticas activas de empleo de Galicia Xunta de Galicia",
+      "texto_original": "La Xunta expone en el País Vasco los usos de la inteligencia artificial en las políticas activas de empleo de Galicia Xunta de Galicia",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-11-18T17:55:18.214Z",
+        "index": 11,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
         "idioma_original": "es",
         "categoria": "inteligencia_artificial",
         "categorias_secundarias": [
-          "militar",
           "actualidad"
         ],
         "category_scores": {
-          "inteligencia_artificial": 2,
-          "militar": 1,
-          "actualidad": 1
+          "inteligencia_artificial": 4,
+          "actualidad": 2
         },
         "entidades": [],
         "cifras_detectadas": [],
@@ -907,11 +2890,11 @@
         },
         "calidad": 75,
         "relevancia": 57,
-        "confiabilidad_fuente": 45,
+        "confiabilidad_fuente": 53,
         "readability": {
-          "words": 48,
-          "sentences": 6,
-          "average_words_per_sentence": 8
+          "words": 75,
+          "sentences": 1,
+          "average_words_per_sentence": 75
         },
         "duplicate": {
           "detected": false,
@@ -920,10 +2903,81 @@
           "similar_to": null
         }
       },
-      "final_score": 60.3
+      "final_score": 62.3
     },
     {
-      "id": "139b26884c4f111c",
+      "id": "c5757cb7d81779d6",
+      "fuente_id": "google_news_es",
+      "fuente_nombre": "Google News ES",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "google_news",
+      "nivel_fuente": "agregador",
+      "categoria": "tecnologia",
+      "idioma_original": "es",
+      "prioridad_fuente": 3,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Prosegur lanza HR Tech, un modelo de tecnología propia capaz de automatizar y optimizar la gestión de los Recursos Humanos - La Vanguardia",
+      "titulo_original": "Prosegur lanza HR Tech, un modelo de tecnología propia capaz de automatizar y optimizar la gestión de los Recursos Humanos - La Vanguardia",
+      "enlace": "https://news.google.com/rss/articles/CBMijAJBVV95cUxQN1FoSnF3eHRjQUpBR05zcjBCd1JXYnJnTkpZUmhzMUJsLS1HRUEzTndPYkJpbWZtNVlra3BtNXhUc2NQaEI2M3dFZUFTQU5aRlctd3A5QWlLVzhrajhheTcxUWdUbUpaZVNqQWMwdmh1cWQyWHpqOGQzcTBYN0ZxWllIVjVOemNCRGNsX01zYmdTdGd6SjR2UFVjWkNEVXhnYlJjOE5wVjlNd1B5U2lyMkRRZ183VWx5TW1wVXF4WnZvVjZmRnFXYi1SVFBtNlJLM3ZQNldMejBlUU11cnhiRU1DOVdhajk0SmxNd2dMQU9TdHhPQnB1VUp6cXFLZHBuQ0tTQ3k2dW03ZUhB0gGSAkFVX3lxTFBSUUM5eVp0QmhhMG9PYmFta0RJU19ROWxSZUh4aDQ1dnIycnEyOEdRX3N5ZU5wTFl6T1Jfc3VraFZRT2JKT1p4VXp2bXJBUzFCZDFCUjZlZHVRdGdienRrbHp1N0F0Sm5tSkhpNUFreWZjT191N0tWd05EaGxscnNpZHEzZnJCb3FWdFY1dms0NVJEQW5TVHhEV2RoWkMxSC1wNWNHbXZiY1hGdTQ1Nzh0OXlkcnNnSlVUNVR5aDZ2c0FkUjB6MFVBQ1IzTVBnYmRzaXFQNHlJWDVGcmluM1I1TVJWR0FJWURIYkRLU3JaOFJNUVFobHlBeTU0elg0UDdweVRRVXgzMFNlc05mR2lzMnc?oc=5",
+      "fecha": "2026-11-18T09:49:00.000Z",
+      "resumen_corto": "Prosegur lanza HR Tech, un modelo de tecnología propia capaz de automatizar y optimizar la gestión de los Recursos Humanos La Vanguardia",
+      "resumen_largo": "Prosegur lanza HR Tech, un modelo de tecnología propia capaz de automatizar y optimizar la gestión de los Recursos Humanos La Vanguardia",
+      "texto_original": "Prosegur lanza HR Tech, un modelo de tecnología propia capaz de automatizar y optimizar la gestión de los Recursos Humanos La Vanguardia",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-11-18T17:55:18.220Z",
+        "index": 23,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "tecnologia",
+        "categorias_secundarias": [
+          "inteligencia_artificial",
+          "vehiculos_energia"
+        ],
+        "category_scores": {
+          "tecnologia": 3,
+          "inteligencia_artificial": 1,
+          "vehiculos_energia": 1
+        },
+        "entidades": [],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 75,
+        "relevancia": 57,
+        "confiabilidad_fuente": 53,
+        "readability": {
+          "words": 70,
+          "sentences": 1,
+          "average_words_per_sentence": 70
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 62.3
+    },
+    {
+      "id": "53f7db66e5f64d33",
       "fuente_id": "ia_dia",
       "fuente_nombre": "IA al Día",
       "tipo": "rss_web",
@@ -935,17 +2989,17 @@
       "prioridad_fuente": 3,
       "analizar": true,
       "resumir": true,
-      "titulo": "Por qué se espera un crac de la IA - La Vanguardia",
-      "titulo_original": "Por qué se espera un crac de la IA - La Vanguardia",
-      "enlace": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQRFFmbGJXOFdfeVMzdDFQQXI2YU8tOUQyaEtiQ1ZCRkthWjMyYjNQYWxtVi1sbEprWFowbmJzRjVYdTBjb05HQ19VYkZpbTdXSGFYYlgwSG81Ykc0ekRBdjd6cWt0aEV1MnpFN0xyZEg2ajJidGFDR0pTNnRlbmZVcdIBhgFBVV95cUxPV2xZUU1JMkJsOUNOMUZKbnNWR2JsSWpKWWZXVVpZcGlTYy1zaXlUZU1GaUY3ZTZUdmZsb1NGa2F5VTJ6N3liUE1OSFZDOE9QRzFacURlVFFfNGhBNlYwUzBFMElXb0huS3B3MjdhRDBHU3BhM0hYcW5sQzQyeHhBNnV0ZDNCQQ?oc=5",
-      "fecha": "2026-11-17T05:00:00.000Z",
-      "resumen_corto": "Por qué se espera un crac de la IA La Vanguardia",
-      "resumen_largo": "Por qué se espera un crac de la IA La Vanguardia",
-      "texto_original": "Por qué se espera un crac de la IA La Vanguardia",
+      "titulo": "Jerez acogerá el I encuentro tecnológico ‘DevFest’ sobre Inteligencia Artificial y Desarrollo el sábado 21 en el Palacio de Villapanés - Ayuntamiento de Jerez",
+      "titulo_original": "Jerez acogerá el I encuentro tecnológico ‘DevFest’ sobre Inteligencia Artificial y Desarrollo el sábado 21 en el Palacio de Villapanés - Ayuntamiento de Jerez",
+      "enlace": "https://news.google.com/rss/articles/CBMihwJBVV95cUxQd3k2Mk94T3VPXzdzMmJ0MV9pSGR2Q1NjMF85MnFyOGVuVDMyQ09lSDdnTlJvWlJPNlB5R0NfcUQ4YTJLTXZEb0hEaDZWYl9mN1M5MkVGM19rbklCSWpLUmFvZ3BVX2g0SHZ6cEEzT0FobVJ1aHdOSjUtemJydlVRNkNFVEhGUFVyWUF5WDV6bUg2WUpmb2VveXF2Mm1iWTh2Rjlab19tOEZSbHd3al9PUnFOOEJfcjQ4ZDN2NUtydldYRmplWlp3VzZFVnNURGcxMS16bG5MNlAxQ3IwMlZLUG5GdmV3bHRidWYxbGJNNV8xLTJyWGNnWFpsWmlBeFFSUXJQR21Rdw?oc=5",
+      "fecha": "2026-11-18T06:40:17.000Z",
+      "resumen_corto": "Jerez acogerá el I encuentro tecnológico ‘DevFest’ sobre Inteligencia Artificial y Desarrollo el sábado 21 en el Palacio de Villapanés Ayuntamiento de Jerez",
+      "resumen_largo": "Jerez acogerá el I encuentro tecnológico ‘DevFest’ sobre Inteligencia Artificial y Desarrollo el sábado 21 en el Palacio de Villapanés Ayuntamiento de Jerez",
+      "texto_original": "Jerez acogerá el I encuentro tecnológico ‘DevFest’ sobre Inteligencia Artificial y Desarrollo el sábado 21 en el Palacio de Villapanés Ayuntamiento de Jerez",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-18T08:22:18.393Z",
-        "index": 14,
+        "processed_at": "2026-11-18T17:55:18.222Z",
+        "index": 29,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -953,8 +3007,146 @@
         "idioma_detectado": "es",
         "idioma_original": "es",
         "categoria": "inteligencia_artificial",
-        "categorias_secundarias": [],
+        "categorias_secundarias": [
+          "vehiculos_energia"
+        ],
         "category_scores": {
+          "inteligencia_artificial": 3,
+          "vehiculos_energia": 1
+        },
+        "entidades": [],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 75,
+        "relevancia": 57,
+        "confiabilidad_fuente": 53,
+        "readability": {
+          "words": 70,
+          "sentences": 1,
+          "average_words_per_sentence": 70
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 62.3
+    },
+    {
+      "id": "b4e45b1d32716f65",
+      "fuente_id": "genbeta_google",
+      "fuente_nombre": "Genbeta",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "genbeta",
+      "nivel_fuente": "medio_especializado",
+      "categoria": "software_internet",
+      "idioma_original": "es",
+      "prioridad_fuente": 4,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Entró en vigor: Es obligatorio tener en casa un protocolo de riesgos laborales para el servicio doméstico",
+      "titulo_original": "Entró en vigor: Es obligatorio tener en casa un protocolo de riesgos laborales para el servicio doméstico - Genbeta",
+      "enlace": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNZEFqdFBENEtWeG5TUmhwTHRlM3QzU1hmam5SVUp1eVpTYVR5MzNIdHpOZXdpeGhQdWxiQWVGN3lEbFBYbzlzTVp4MVZrMk9qanh1V0d4WTI1VjhaRUFYTTJYR1otYk1JN3dadE5kRDF5dkdXOU5hUzc5TjZhX25CTkg1LXNvMnBKVHZhVHZTQnJPaVdoZDljTXZpRl9YWEVyMzkxcFNrZ3V4MUhadFUzVlR2TVo0OWlHV3fSAb8BQVVfeXFMT2JxVVlfM0N5VkJlVG5tMjJQUDg3ZTZoQjZIVEhZMk1vSEtuOHFwaUV1YmZnWUtDVW1aR09tdktzUmFXYTd2Y3NXeEJ5U1k4T0Eyeko2V24xaE55d19nRmM3b3BUMHJxeG90S0I2bWZYSjZSa0tKWm1iNUV5TjhVeFpWbXJ4NVItTlphOFg5aGpEYkM4YktWRjhqdTRfbVdmc0REdUlVV3FpVTNVZ0hFMFlJTG1rbWM1ZVlaVDFZd3c?oc=5",
+      "fecha": "2026-11-15T10:01:26.000Z",
+      "resumen_corto": "Entró en vigor: Es obligatorio tener en casa un protocolo de riesgos laborales para el servicio doméstico Genbeta",
+      "resumen_largo": "Entró en vigor: Es obligatorio tener en casa un protocolo de riesgos laborales para el servicio doméstico Genbeta",
+      "texto_original": "Entró en vigor: Es obligatorio tener en casa un protocolo de riesgos laborales para el servicio doméstico Genbeta",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-11-18T17:55:18.229Z",
+        "index": 45,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "software_internet",
+        "categorias_secundarias": [],
+        "category_scores": {},
+        "entidades": [
+          "Genbeta"
+        ],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 82,
+        "relevancia": 50,
+        "confiabilidad_fuente": 50,
+        "readability": {
+          "words": 59,
+          "sentences": 1,
+          "average_words_per_sentence": 59
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 61.2
+    },
+    {
+      "id": "eeba9f0ddf67eb85",
+      "fuente_id": "google_news_es",
+      "fuente_nombre": "Google News ES",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "google_news",
+      "nivel_fuente": "agregador",
+      "categoria": "tecnologia",
+      "idioma_original": "es",
+      "prioridad_fuente": 3,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "La Universidad Alfonso X el Sabio anticipa el futuro del trabajo que están perfilando la tecnología y la IA junto a líderes de la industria - El Confidencial",
+      "titulo_original": "La Universidad Alfonso X el Sabio anticipa el futuro del trabajo que están perfilando la tecnología y la IA junto a líderes de la industria - El Confidencial",
+      "enlace": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNXzFZbFh0UUNBVU9uU2d2VG4waFlXUnNOSDVXZFlBbjNyalNKckdWaGl4Z29JanhveU4wT0Fnd2tyS1djdFZLemIyWWV5UU5Vb2ZkNDVsWVk1S0ZxMU5Zc1ByWGhCRU1MUS1Ndm1VdldNOXA4SENyd1RPaTZrejBwa2ZqcDl0ZVJwQ1YzNjh2ck53VlVPRmFyanJsY0NUeG53MlgtUHpn?oc=5",
+      "fecha": "2026-11-18T13:07:00.000Z",
+      "resumen_corto": "La Universidad Alfonso X el Sabio anticipa el futuro del trabajo que están perfilando la tecnología y la IA junto a líderes de la industria El Confidencial",
+      "resumen_largo": "La Universidad Alfonso X el Sabio anticipa el futuro del trabajo que están perfilando la tecnología y la IA junto a líderes de la industria El Confidencial",
+      "texto_original": "La Universidad Alfonso X el Sabio anticipa el futuro del trabajo que están perfilando la tecnología y la IA junto a líderes de la industria El Confidencial",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-11-18T17:55:18.212Z",
+        "index": 7,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "tecnologia",
+        "categorias_secundarias": [
+          "inteligencia_artificial"
+        ],
+        "category_scores": {
+          "tecnologia": 2,
           "inteligencia_artificial": 1
         },
         "entidades": [],
@@ -975,9 +3167,9 @@
         "relevancia": 50,
         "confiabilidad_fuente": 53,
         "readability": {
-          "words": 25,
+          "words": 75,
           "sentences": 1,
-          "average_words_per_sentence": 25
+          "average_words_per_sentence": 75
         },
         "duplicate": {
           "detected": false,
@@ -989,7 +3181,76 @@
       "final_score": 59.5
     },
     {
-      "id": "ad484a8ddabc9cfe",
+      "id": "2c74ecd8c6771c5b",
+      "fuente_id": "google_news_es",
+      "fuente_nombre": "Google News ES",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "google_news",
+      "nivel_fuente": "agregador",
+      "categoria": "tecnologia",
+      "idioma_original": "es",
+      "prioridad_fuente": 3,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Los descuentos más prácticos del Black Friday: viajes, tecnología y hogar a mejor precio - Diario AS",
+      "titulo_original": "Los descuentos más prácticos del Black Friday: viajes, tecnología y hogar a mejor precio - Diario AS",
+      "enlace": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNdTFRMDItdFRyMUJJbHU5WnFWcEoydkg0SDlYdTBYbHNhckV1WDZock85N0VPenh6ZzQxSFJ4bk5lOXJnY3lWYThmblVlRU10d3B5c2U3WjMzaDBMcnJhY1phVHZ3ekdVdnQwR3RKb0JxQl9ZN1hSbkp5WUFDUjdMdDY4Ny1lUGNTdUJPRWpZNmIxNVdBNFppb0hZVUN0SFhVbEk5LVVmdTJhNlhsNFZ2QmhubjlZRW1Gb1hRYWdTbml4UlRhejV1N9IB3AFBVV95cUxQcVBjQ0tUN1M1ZnkwOXg0Skl2VVF2Vy1qQWRPU2J1aEE3MWdvV2JxX05WeU55Vy1oNXBuTDVRVTQ5Y3IwMjktS2p4UWRIaUlEbUFpVWt1Y0J5cy04aDg2NUh3Ym5pYVh4YkNtcldXWEJJdVZBZS1sWGRuQ1BySktqamttS2NtZkNQTUxPR1VoZTg0Rjl3bnhscnZ2cUY0Qy13Ni1fSUVwT2FLdUE4QjMxbWVacEwzSUJwdDhpVHBSTU1hOGxtRmxHRGxRNEgtZXEwSFF5SC13Ym04Uk5I?oc=5",
+      "fecha": "2026-11-18T09:59:19.000Z",
+      "resumen_corto": "Los descuentos más prácticos del Black Friday: viajes, tecnología y hogar a mejor precio Diario AS",
+      "resumen_largo": "Los descuentos más prácticos del Black Friday: viajes, tecnología y hogar a mejor precio Diario AS",
+      "texto_original": "Los descuentos más prácticos del Black Friday: viajes, tecnología y hogar a mejor precio Diario AS",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-11-18T17:55:18.220Z",
+        "index": 22,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "tecnologia",
+        "categorias_secundarias": [
+          "inteligencia_artificial"
+        ],
+        "category_scores": {
+          "tecnologia": 2,
+          "inteligencia_artificial": 1
+        },
+        "entidades": [],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 75,
+        "relevancia": 50,
+        "confiabilidad_fuente": 53,
+        "readability": {
+          "words": 65,
+          "sentences": 1,
+          "average_words_per_sentence": 65
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 59.5
+    },
+    {
+      "id": "de0aa5ddd30b4a9b",
       "fuente_id": "ia_dia",
       "fuente_nombre": "IA al Día",
       "tipo": "rss_web",
@@ -1001,17 +3262,17 @@
       "prioridad_fuente": 3,
       "analizar": true,
       "resumir": true,
-      "titulo": "Querida inteligencia artificial, ¿a quién voto? - El Salto",
-      "titulo_original": "Querida inteligencia artificial, ¿a quién voto? - El Salto",
-      "enlace": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQNkIwWFo3TE5XaVlkdW9zTHBtR19fY0VOMGJJdHB1bUpTUEhLcFZwLWZ1VHpyWk15V2tyd2ZFeU92ZmI2N3BNU0dFZmJ0MklMYW1oUkhuc1RTZFBZSWR1cXNxY0kyMHBaTlRoWE4wbkw5clFQOFg1RUZSMnRWSklRTHI5X2ZHajdnam9v?oc=5",
-      "fecha": "2026-11-16T09:34:00.000Z",
-      "resumen_corto": "Querida inteligencia artificial, ¿a quién voto?",
-      "resumen_largo": "Querida inteligencia artificial, ¿a quién voto?",
-      "texto_original": "Querida inteligencia artificial, ¿a quién voto? El Salto",
+      "titulo": "La gran burbuja: los bancos centrales se ponen en guardia ante el avance de la inteligencia artificial - El Confidencial",
+      "titulo_original": "La gran burbuja: los bancos centrales se ponen en guardia ante el avance de la inteligencia artificial - El Confidencial",
+      "enlace": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOSDhhRDBaY1ZKZDhURnlJdmhhb05GOGd1ZzMyNGpNTWtoUGVwU0xJRUZlU25hQUYwcjQ4cmY5YjUtVUtQdC1PZmVYVnVJZlV4NUkteEdoVFpvQzBGUFc1bklLX0k4RER1S3F1MkRGb2pPSmJYNGk2X3pEYUxUTHhrRk1qNnZ0VlJJUkpaaFA0MHRGejhZS2xremc4MjM0YnFoSjdBTWY0ekg5VDJLY3VQYXNOMHQ?oc=5",
+      "fecha": "2026-11-18T04:00:00.000Z",
+      "resumen_corto": "La gran burbuja: los bancos centrales se ponen en guardia ante el avance de la inteligencia artificial El Confidencial",
+      "resumen_largo": "La gran burbuja: los bancos centrales se ponen en guardia ante el avance de la inteligencia artificial El Confidencial",
+      "texto_original": "La gran burbuja: los bancos centrales se ponen en guardia ante el avance de la inteligencia artificial El Confidencial",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-18T08:22:18.395Z",
-        "index": 18,
+        "processed_at": "2026-11-18T17:55:18.226Z",
+        "index": 34,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -1041,9 +3302,9 @@
         "relevancia": 50,
         "confiabilidad_fuente": 53,
         "readability": {
-          "words": 28,
-          "sentences": 6,
-          "average_words_per_sentence": 4.67
+          "words": 60,
+          "sentences": 1,
+          "average_words_per_sentence": 60
         },
         "duplicate": {
           "detected": false,
@@ -1055,39 +3316,42 @@
       "final_score": 59.5
     },
     {
-      "id": "a85b6a3d14b066fc",
-      "fuente_id": "ia_dia",
-      "fuente_nombre": "IA al Día",
+      "id": "3b5c653388548370",
+      "fuente_id": "google_news_es",
+      "fuente_nombre": "Google News ES",
       "tipo": "rss_web",
       "subtipo": "google_news",
-      "grupo_fuente": "ia_general",
+      "grupo_fuente": "google_news",
       "nivel_fuente": "agregador",
-      "categoria": "inteligencia_artificial",
+      "categoria": "tecnologia",
       "idioma_original": "es",
       "prioridad_fuente": 3,
       "analizar": true,
       "resumir": true,
-      "titulo": "La 'financiación circular' de la Inteligencia Artificial, en su hora más difícil - El Mundo",
-      "titulo_original": "La 'financiación circular' de la Inteligencia Artificial, en su hora más difícil - El Mundo",
-      "enlace": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQMHRwTV83SEJEb001emNEZmh6QThYdDdHOEpQZ0hpdHViRGtVS2FwcEhzMmYtcEthOTNzNm1XU1h2QXppVzJqZjZlc2xUS3VQeFBsN2hlc0NGT2k2UEpleFlfY2l1ZDhUel8yejZkdDlMSkZiOEMwbDBYdW9TWkhXXzg4aTFNdHBS0gGIAUFVX3lxTE1ZRzlyNlZSWDFPUlZWckprdHkwdnZaS2ZWTC1TUWJSeXlvQUl2dUZNcjhLbWNCNzJ5THM4OGF3am9hODJxWVVPankybzdNRzA1eGNBSm1FcllVd1pBS2U1cEhON2FBZ0tiTzNfZWFqaXg3ZWNGNHpaN2hNeDRycjN1T0NRNkN3b3c?oc=5",
-      "fecha": "2026-11-15T13:14:22.000Z",
-      "resumen_corto": "La 'financiación circular' de la Inteligencia Artificial, en su hora más difícil El Mundo",
-      "resumen_largo": "La 'financiación circular' de la Inteligencia Artificial, en su hora más difícil El Mundo",
-      "texto_original": "La 'financiación circular' de la Inteligencia Artificial, en su hora más difícil El Mundo",
+      "titulo": "La IA y la tecnología ayudan a la toma de decisiones deportivas - Expansión",
+      "titulo_original": "La IA y la tecnología ayudan a la toma de decisiones deportivas - Expansión",
+      "enlace": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQZ1l2bVUzTEZvQlpKVFBGTmRqWG1uT0JYX1lEU0VESGlSa1VJQ2J5TkRGRS0xWTI2ajhsMjdHVW1JRmpobmxqX2RVRkRWcmxQQkYxLUxvR2hJLWxid2FBTWZCVmlySUFKZHQtNGF1TVdEWS1hcnlFQ0ZUQWVfUjZ4THhKeGZ2OXRUbjN6MktZeHRySktOZUxnZXNONl9scDTSAZ8BQVVfeXFMTlBFVFhfT1l4aGJZcWNDQlBHbUo2aEdqU1ZpT3NFQVctajVVYkxEbDY4Y0pUOHplSnl2WDJpTDlNV1kycGQ3aFZtYXFlNW1lWktMZk5rN3JqeVd0d28xNFpJU3FzOHBFQTJJbjRGR0Z1U29fNWlnekl0X2VGdXdGcElZUXd6RzNubzdmQjlsZ2s4RnFNbnBmb1FCOWp6T2lF?oc=5",
+      "fecha": "2026-11-17T15:52:29.000Z",
+      "resumen_corto": "La IA y la tecnología ayudan a la toma de decisiones deportivas Expansión",
+      "resumen_largo": "La IA y la tecnología ayudan a la toma de decisiones deportivas Expansión",
+      "texto_original": "La IA y la tecnología ayudan a la toma de decisiones deportivas Expansión",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-18T08:22:18.395Z",
-        "index": 19,
+        "processed_at": "2026-11-18T17:55:18.227Z",
+        "index": 38,
         "resumen": {
           "generado": true,
           "origen": "translated"
         },
         "idioma_detectado": "es",
         "idioma_original": "es",
-        "categoria": "inteligencia_artificial",
-        "categorias_secundarias": [],
+        "categoria": "tecnologia",
+        "categorias_secundarias": [
+          "inteligencia_artificial"
+        ],
         "category_scores": {
-          "inteligencia_artificial": 3
+          "tecnologia": 2,
+          "inteligencia_artificial": 1
         },
         "entidades": [],
         "cifras_detectadas": [],
@@ -1107,9 +3371,9 @@
         "relevancia": 50,
         "confiabilidad_fuente": 53,
         "readability": {
-          "words": 40,
+          "words": 30,
           "sentences": 1,
-          "average_words_per_sentence": 40
+          "average_words_per_sentence": 30
         },
         "duplicate": {
           "detected": false,
@@ -1121,7 +3385,7 @@
       "final_score": 59.5
     },
     {
-      "id": "8711c4d521510fc0",
+      "id": "7f8ed34edcafa88d",
       "fuente_id": "resumen_militar",
       "fuente_nombre": "El Resumen Militar",
       "tipo": "telegram",
@@ -1133,31 +3397,26 @@
       "prioridad_fuente": 3,
       "analizar": true,
       "resumir": true,
-      "titulo": "🇮🇷 🛸 💥 🇰🇼 🇺🇸 Moment of the drone strike in Kuwait. 🔴 @DDGeopolitics",
-      "titulo_original": "🇮🇷 🛸 💥 🇰🇼 🇺🇸 Moment of the drone strike in Kuwait. 🔴 @DDGeopolitics",
-      "enlace": "https://t.me/elresumenmilitar/103430",
-      "fecha": "2026-11-18T03:48:37.000Z",
-      "resumen_corto": "🇮🇷 🛸 💥 🇰🇼 🇺🇸 Moment of the drone strike in Kuwait.",
-      "resumen_largo": "🇮🇷 🛸 💥 🇰🇼 🇺🇸 Moment of the drone strike in Kuwait.",
-      "texto_original": "🇮🇷 🛸 💥 🇰🇼 🇺🇸 Moment of the drone strike in Kuwait. 🔴 @DDGeopolitics",
+      "titulo": "🇷🇺 🇨🇳 Putin arrives at the reception for APEC summit leaders in Shenzhen. 🔴 @DDGeopolitics",
+      "titulo_original": "🇷🇺 🇨🇳 Putin arrives at the reception for APEC summit leaders in Shenzhen. 🔴 @DDGeopolitics",
+      "enlace": "https://t.me/elresumenmilitar/103462",
+      "fecha": "2026-11-18T11:18:58.000Z",
+      "resumen_corto": "🇷🇺 🇨🇳 Putin arrives at the reception for APEC summit leaders in Shenzhen.",
+      "resumen_largo": "🇷🇺 🇨🇳 Putin arrives at the reception for APEC summit leaders in Shenzhen.",
+      "texto_original": "🇷🇺 🇨🇳 Putin arrives at the reception for APEC summit leaders in Shenzhen. 🔴 @DDGeopolitics",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-18T08:22:18.384Z",
-        "index": 2,
+        "processed_at": "2026-11-18T17:55:18.218Z",
+        "index": 17,
         "resumen": {
           "generado": true,
           "origen": "translated"
         },
         "idioma_detectado": "en",
         "idioma_original": "es",
-        "categoria": "inteligencia_artificial",
-        "categorias_secundarias": [
-          "militar",
-          "actualidad"
-        ],
+        "categoria": "actualidad",
+        "categorias_secundarias": [],
         "category_scores": {
-          "inteligencia_artificial": 1,
-          "militar": 1,
           "actualidad": 1
         },
         "entidades": [],
@@ -1178,9 +3437,9 @@
         "relevancia": 50,
         "confiabilidad_fuente": 45,
         "readability": {
-          "words": 28,
+          "words": 48,
           "sentences": 6,
-          "average_words_per_sentence": 4.67
+          "average_words_per_sentence": 8
         },
         "duplicate": {
           "detected": false,
@@ -1192,87 +3451,7 @@
       "final_score": 57.5
     },
     {
-      "id": "ec31077e3f8dbe24",
-      "fuente_id": "huawei_central",
-      "fuente_nombre": "Huawei Central",
-      "tipo": "rss_web",
-      "subtipo": "medio_especializado",
-      "grupo_fuente": "huawei",
-      "nivel_fuente": "secundaria_especializada",
-      "categoria": "moviles",
-      "idioma_original": "en",
-      "prioridad_fuente": 5,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "Huawei Mate 90 Pro Max Fan Edition podría lanzarse antes de lo esperado",
-      "titulo_original": "Huawei Mate 90 Pro Max Fan Edition could launch earlier than expected",
-      "enlace": "https://www.huaweicentral.com/huawei-mate-90-pro-max-fan-edition-could-launch-earlier-than-expected/",
-      "fecha": "2026-11-17T07:20:13.000Z",
-      "resumen_corto": "Huawei Mate 90 Pro Max Wind Chaser será el próximo teléfono Fan Edition, que se espera que se lance antes que el modelo de la generación anterior.",
-      "resumen_largo": "Huawei Mate 90 Pro Max Wind Chaser será el próximo teléfono Fan Edition, que se espera que se lance antes que el modelo de la generación anterior. Puede debutar el próximo año, presentando importantes mejoras en la gestión térmica y el rendimiento. Leaker GuoJing ha revelado el posible calendario de lanzamiento de muchos de los próximos dispositivos Huawei.",
-      "texto_original": "Huawei Mate 90 Pro Max Wind Chaser will be the next Fan Edition phone, which is expected to launch sooner than the previous-generation model. It may debut next year, unveiling significant thermal management and performance upgrades. Leaker GuoJing has revealed the possible launch timeline for many upcoming Huawei devices. Starting with the Nova 17 series, […] The post Huawei Mate 90 Pro Max Fan Edition could launch earlier than expected appeared first on Huawei Central .",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-11-18T08:22:18.392Z",
-        "index": 12,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "en",
-        "categoria": "moviles",
-        "categorias_secundarias": [
-          "tecnologia",
-          "inteligencia_artificial",
-          "hardware"
-        ],
-        "category_scores": {
-          "moviles": 4,
-          "tecnologia": 2,
-          "inteligencia_artificial": 1,
-          "hardware": 1,
-          "vehiculos_energia": 1,
-          "software_internet": 1
-        },
-        "entidades": [
-          "Huawei"
-        ],
-        "cifras_detectadas": [],
-        "content_type": "news",
-        "clickbait": {
-          "detected": true,
-          "score": 50,
-          "signals": [
-            "\\brevelado\\b",
-            "\\brevealed\\b"
-          ]
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 71,
-        "relevancia": 63,
-        "confiabilidad_fuente": 65,
-        "readability": {
-          "words": 149,
-          "sentences": 8,
-          "average_words_per_sentence": 18.63
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 56.3
-    },
-    {
-      "id": "3ddfb01c3c2300e3",
+      "id": "7956e046e7cc9961",
       "fuente_id": "resumen_militar",
       "fuente_nombre": "El Resumen Militar",
       "tipo": "telegram",
@@ -1284,88 +3463,17 @@
       "prioridad_fuente": 3,
       "analizar": true,
       "resumir": true,
-      "titulo": "🇮🇷 🛸 💥 🇰🇼 The Kuwaiti Armed Forces General Staff said an hour ago that air defences are \"responding to hostile drone threats\". It says any explosions heard are interceptions, and it urged the public to follow safet",
-      "titulo_original": "🇮🇷 🛸 💥 🇰🇼 The Kuwaiti Armed Forces General Staff said an hour ago that air defences are \"responding to hostile drone threats\". It says any explosions heard are interceptions, and it urged the public to follow safet",
-      "enlace": "https://t.me/elresumenmilitar/103431",
-      "fecha": "2026-11-18T03:48:41.000Z",
-      "resumen_corto": "🇮🇷 🛸 💥 🇰🇼 The Kuwaiti Armed Forces General Staff said an hour ago that air defences are \"responding to hostile drone threats\".",
-      "resumen_largo": "🇮🇷 🛸 💥 🇰🇼 The Kuwaiti Armed Forces General Staff said an hour ago that air defences are \"responding to hostile drone threats\". It says any explosions heard are interceptions, and it urged the public to follow safety instructions.",
-      "texto_original": "🇮🇷 🛸 💥 🇰🇼 The Kuwaiti Armed Forces General Staff said an hour ago that air defences are \"responding to hostile drone threats\". It says any explosions heard are interceptions, and it urged the public to follow safety instructions. 🔴 @DDGeopolitics",
+      "titulo": "Прилет \"Герани-4\" в ангар с разукомплектованным Ан-124 \"Руслан\" на территории аэродрома Гостомель под Киевом. Военный Осведомитель",
+      "titulo_original": "Прилет \"Герани-4\" в ангар с разукомплектованным Ан-124 \"Руслан\" на территории аэродрома Гостомель под Киевом. Военный Осведомитель",
+      "enlace": "https://t.me/elresumenmilitar/103457",
+      "fecha": "2026-11-18T10:39:54.000Z",
+      "resumen_corto": "Прилет \"Герани-4\" в ангар с разукомплектованным Ан-124 \"Руслан\" на территории аэродрома Гостомель под Киевом.",
+      "resumen_largo": "Прилет \"Герани-4\" в ангар с разукомплектованным Ан-124 \"Руслан\" на территории аэродрома Гостомель под Киевом.",
+      "texto_original": "Прилет \"Герани-4\" в ангар с разукомплектованным Ан-124 \"Руслан\" на территории аэродрома Гостомель под Киевом. Военный Осведомитель",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-18T08:22:18.383Z",
-        "index": 1,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "en",
-        "idioma_original": "es",
-        "categoria": "militar",
-        "categorias_secundarias": [
-          "inteligencia_artificial",
-          "actualidad"
-        ],
-        "category_scores": {
-          "militar": 2,
-          "inteligencia_artificial": 1,
-          "actualidad": 1
-        },
-        "entidades": [],
-        "cifras_detectadas": [],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 60,
-        "relevancia": 57,
-        "confiabilidad_fuente": 45,
-        "readability": {
-          "words": 136,
-          "sentences": 8,
-          "average_words_per_sentence": 17
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 55.05
-    },
-    {
-      "id": "958d2067f68d4ee0",
-      "fuente_id": "resumen_militar",
-      "fuente_nombre": "El Resumen Militar",
-      "tipo": "telegram",
-      "subtipo": "canal_telegram",
-      "grupo_fuente": "telegram_militar",
-      "nivel_fuente": "telegram",
-      "categoria": "militar",
-      "idioma_original": "es",
-      "prioridad_fuente": 3,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "🇷🇺 🇨🇳 Стартовал Деловой саммит АТЭС. Заявления Президента России : ▪️ Российская экономика не просто растёт, качественно меняется её структура. ▪️ Подавляющее число государственных услуг в России предоставляются в ци",
-      "titulo_original": "🇷🇺 🇨🇳 Стартовал Деловой саммит АТЭС. Заявления Президента России : ▪️ Российская экономика не просто растёт, качественно меняется её структура. ▪️ Подавляющее число государственных услуг в России предоставляются в ци",
-      "enlace": "https://t.me/elresumenmilitar/103428",
-      "fecha": "2026-11-18T03:46:45.000Z",
-      "resumen_corto": "Заявления Президента России : ▪️ Российская экономика не просто растёт, качественно меняется её структура.",
-      "resumen_largo": "🇷🇺 🇨🇳 Стартовал Деловой саммит АТЭС. Заявления Президента России : ▪️ Российская экономика не просто растёт, качественно меняется её структура. ▪️ Подавляющее число государственных услуг в России предоставляются в цифровом виде — Путин.",
-      "texto_original": "🇷🇺 🇨🇳 Стартовал Деловой саммит АТЭС. Заявления Президента России : ▪️ Российская экономика не просто растёт, качественно меняется её структура. ▪️ Подавляющее число государственных услуг в России предоставляются в цифровом виде — Путин. ▪️ Россия находится в авангарде цифровой трансформации в мире, российские маркетплейсы — в десятке крупнейших. ▪️ Россия занимает первое место в мире по объему зарубежных поставок зерна и удобрений. ▪️ За последние три года ВВП России вырос более чем на 10% и продолжает расти. Россия не отказывалась от доллара и евро , но те, кто отказал ей в использовании этих валют, «наказали сами себя». ▪️ Госдолг России — в пределах 17%, один из самых низких в мире, подчеркнул Путин. ▪️ Россия стала мировым рекордсменом по числу введённых против неё карательных мер, но достойно прошла через все испытания. ▪️ Бывшие гегемоны не адекватно воспринимают формирование более справедливой системы мироустройства. ▪️ ЕС не смог адаптироваться к отказу от российского рынка и дешевых российских энергоресурсов, он теряет свои позиции и потенциал. Новость дополняется.",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-11-18T08:22:18.385Z",
-        "index": 4,
+        "processed_at": "2026-11-18T17:55:18.219Z",
+        "index": 20,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -1376,10 +3484,7 @@
         "categorias_secundarias": [],
         "category_scores": {},
         "entidades": [],
-        "cifras_detectadas": [
-          "10%",
-          "17%"
-        ],
+        "cifras_detectadas": [],
         "content_type": "news",
         "clickbait": {
           "detected": false,
@@ -1392,13 +3497,13 @@
           "signals": [],
           "url_count": 0
         },
-        "calidad": 65,
+        "calidad": 75,
         "relevancia": 45,
         "confiabilidad_fuente": 45,
         "readability": {
-          "words": 185,
-          "sentences": 20,
-          "average_words_per_sentence": 9.25
+          "words": 61,
+          "sentences": 6,
+          "average_words_per_sentence": 10.17
         },
         "duplicate": {
           "detected": false,
@@ -1407,10 +3512,10 @@
           "similar_to": null
         }
       },
-      "final_score": 52
+      "final_score": 55.5
     },
     {
-      "id": "f9e6e4d8b8f00fbe",
+      "id": "6acd816414f01dd8",
       "fuente_id": "resumen_militar",
       "fuente_nombre": "El Resumen Militar",
       "tipo": "telegram",
@@ -1422,17 +3527,17 @@
       "prioridad_fuente": 3,
       "analizar": true,
       "resumir": true,
-      "titulo": "🇸🇪 🇺🇦 Украина запрашивает ракеты против Су-34. Минобороны Украины подписало соглашение о намерениях со Швецией и Британией о сотрудничестве по поводу поставок оборудования и вооружения для Gripen. Речь идет о поставк",
-      "titulo_original": "🇸🇪 🇺🇦 Украина запрашивает ракеты против Су-34. Минобороны Украины подписало соглашение о намерениях со Швецией и Британией о сотрудничестве по поводу поставок оборудования и вооружения для Gripen. Речь идет о поставк",
-      "enlace": "https://t.me/elresumenmilitar/103427",
-      "fecha": "2026-11-18T03:46:22.000Z",
-      "resumen_corto": "Минобороны Украины подписало соглашение о намерениях со Швецией и Британией о сотрудничестве по поводу поставок оборудования и вооружения для Gripen.",
-      "resumen_largo": "🇸🇪 🇺🇦 Украина запрашивает ракеты против Су-34. Минобороны Украины подписало соглашение о намерениях со Швецией и Британией о сотрудничестве по поводу поставок оборудования и вооружения для Gripen. Речь идет о поставках боеприпасов, а также необходимого оборудования и запасных частей.",
-      "texto_original": "🇸🇪 🇺🇦 Украина запрашивает ракеты против Су-34. Минобороны Украины подписало соглашение о намерениях со Швецией и Британией о сотрудничестве по поводу поставок оборудования и вооружения для Gripen. Речь идет о поставках боеприпасов, а также необходимого оборудования и запасных частей. Поставки планируется синхронизировать с поступлением самих самолетов, говорится в заявлении. Отдельно заявляется, что Украина рассчитывает получить УРВВ Meteor, чтобы бороться с Су-34. Подписаться на канал | наш МАХ",
+      "titulo": "‼️ 🇷🇺 🇺🇦 «Прежде всего – Украина»: в Кремле рассказали о плане беседы Путина с Трампом ▪️ В. Путин уже прибыл на саммит АТЭС в Китае. ▪️ Там, вероятно, будет первая встреча президентов России и США. ▪️ Украина будет",
+      "titulo_original": "‼️ 🇷🇺 🇺🇦 «Прежде всего – Украина»: в Кремле рассказали о плане беседы Путина с Трампом ▪️ В. Путин уже прибыл на саммит АТЭС в Китае. ▪️ Там, вероятно, будет первая встреча президентов России и США. ▪️ Украина будет",
+      "enlace": "https://t.me/elresumenmilitar/103463",
+      "fecha": "2026-11-18T11:20:50.000Z",
+      "resumen_corto": "‼️ 🇷🇺 🇺🇦 «Прежде всего – Украина»: в Кремле рассказали о плане беседы Путина с Трампом ▪️ В.",
+      "resumen_largo": "‼️ 🇷🇺 🇺🇦 «Прежде всего – Украина»: в Кремле рассказали о плане беседы Путина с Трампом ▪️ В. Путин уже прибыл на саммит АТЭС в Китае. ▪️ Там, вероятно, будет первая встреча президентов России и США.",
+      "texto_original": "‼️ 🇷🇺 🇺🇦 «Прежде всего – Украина»: в Кремле рассказали о плане беседы Путина с Трампом ▪️ В. Путин уже прибыл на саммит АТЭС в Китае. ▪️ Там, вероятно, будет первая встреча президентов России и США. ▪️ Украина будет обсуждаться в Китае и на двухсторонней встрече Путина и Трампа, и на трехсторонней с участием Си. ➖ \"Текущие вопросы. Конечно, прежде всего Украина. Если будет время, обменяются мнениями и по Ирану, - рассказал пресс-секретарь президента о повестке встречи. ▪️ Россия ожидает, что на трёхсторонней встрече произойдет хороший обмен мнениями. ▪️ Полноформатные переговоры Путина и Трампа сегодня выглядят маловероятными, стороны будут искать промежуточный формат, пояснил Песков. ▪️ Помощник президента Ю. Ушаков, в свою очередь, сообщил, что 3 лидера обсудят международные конфликты, отношения крупнейших держав и пути оздоровления обстановки в мире. ▪️ Работа над итоговым трехсторонним заявлением продолжается интенсивно, некоторые его параметры уже просматриваются. ⚠️ Подписаться на RV: MAX | t.me/RVvoenkor",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-18T08:22:18.386Z",
-        "index": 5,
+        "processed_at": "2026-11-18T17:55:18.217Z",
+        "index": 15,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -1460,9 +3565,73 @@
         "relevancia": 45,
         "confiabilidad_fuente": 45,
         "readability": {
-          "words": 132,
-          "sentences": 14,
-          "average_words_per_sentence": 9.43
+          "words": 189,
+          "sentences": 24,
+          "average_words_per_sentence": 7.88
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 50.25
+    },
+    {
+      "id": "c5a64906f87d94f2",
+      "fuente_id": "resumen_militar",
+      "fuente_nombre": "El Resumen Militar",
+      "tipo": "telegram",
+      "subtipo": "canal_telegram",
+      "grupo_fuente": "telegram_militar",
+      "nivel_fuente": "telegram",
+      "categoria": "militar",
+      "idioma_original": "es",
+      "prioridad_fuente": 3,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "🇺🇦 Реактивный Ан-197. В заявлениях про атаки на Крымский мост Зеленский упомянул беспилотник Ан-197 среди применявшегося вооружения. Ранее было известно только об Ан-196. Позже было уточнено, что Ан-197 - это реактивна",
+      "titulo_original": "🇺🇦 Реактивный Ан-197. В заявлениях про атаки на Крымский мост Зеленский упомянул беспилотник Ан-197 среди применявшегося вооружения. Ранее было известно только об Ан-196. Позже было уточнено, что Ан-197 - это реактивна",
+      "enlace": "https://t.me/elresumenmilitar/103456",
+      "fecha": "2026-11-18T10:39:15.000Z",
+      "resumen_corto": "В заявлениях про атаки на Крымский мост Зеленский упомянул беспилотник Ан-197 среди применявшегося вооружения.",
+      "resumen_largo": "В заявлениях про атаки на Крымский мост Зеленский упомянул беспилотник Ан-197 среди применявшегося вооружения. Ранее было известно только об Ан-196. Позже было уточнено, что Ан-197 - это реактивная версия.",
+      "texto_original": "🇺🇦 Реактивный Ан-197. В заявлениях про атаки на Крымский мост Зеленский упомянул беспилотник Ан-197 среди применявшегося вооружения. Ранее было известно только об Ан-196. Позже было уточнено, что Ан-197 - это реактивная версия. Как он выглядит пока неизвестно. Подписаться на канал | Наш МАКС",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-11-18T17:55:18.220Z",
+        "index": 21,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "militar",
+        "categorias_secundarias": [],
+        "category_scores": {},
+        "entidades": [],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 60,
+        "relevancia": 45,
+        "confiabilidad_fuente": 45,
+        "readability": {
+          "words": 124,
+          "sentences": 16,
+          "average_words_per_sentence": 7.75
         },
         "duplicate": {
           "detected": false,
@@ -1474,24 +3643,24 @@
       "final_score": 50.25
     }
   ],
-  "analyzed_at": "2026-11-18T08:22:18.396Z",
+  "analyzed_at": "2026-11-18T17:55:18.230Z",
   "analysis_stats": {
-    "input_items": 20,
-    "valid_items": 20,
+    "input_items": 50,
+    "valid_items": 50,
     "rejected_items": 0,
     "duplicate_items": 0,
-    "clickbait_items": 1,
+    "clickbait_items": 0,
     "spam_items": 0,
-    "summaries_generated": 20,
-    "average_quality": 80,
-    "average_relevance": 58
+    "summaries_generated": 50,
+    "average_quality": 82,
+    "average_relevance": 59
   },
   "validation": {
     "version": "1.1",
-    "executed_at": "2026-11-18T08:22:18.494Z",
-    "original_items": 20,
+    "executed_at": "2026-11-18T17:55:18.335Z",
+    "original_items": 50,
     "rejected_items": 0,
-    "final_items": 20,
+    "final_items": 50,
     "limit": 60,
     "status": "ok"
   }

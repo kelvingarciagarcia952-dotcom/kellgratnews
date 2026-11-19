@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "updated_at": "2026-11-18T17:55:18.335Z",
+  "updated_at": "2026-11-19T00:02:32.112Z",
   "configuracion": {
     "limite_global": 60,
     "frecuencia_minutos": 60,
@@ -29,85 +29,6 @@
   },
   "items": [
     {
-      "id": "5dff5b4a28e88862",
-      "fuente_id": "bbc_mundo",
-      "fuente_nombre": "BBC Mundo",
-      "tipo": "rss_web",
-      "subtipo": "medio_generalista",
-      "grupo_fuente": "bbc",
-      "nivel_fuente": "medio_profesional",
-      "categoria": "actualidad",
-      "idioma_original": "es",
-      "prioridad_fuente": 5,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "Encuentran una falla crítica en Java, el lenguaje de programación del que dependen el 90% de las grandes compañías del mundo",
-      "titulo_original": "Encuentran una falla crítica en Java, el lenguaje de programación del que dependen el 90% de las grandes compañías del mundo",
-      "enlace": "https://www.bbc.com/mundo/articles/cwvg2enzxdm9o?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-18T11:28:37.000Z",
-      "resumen_corto": "Una empresa de ciberseguridad utilizó inteligencia artificial (IA) para descubrir una vulnerabilidad crítica en el popular lenguaje de programación Java.",
-      "resumen_largo": "Una empresa de ciberseguridad utilizó inteligencia artificial (IA) para descubrir una vulnerabilidad crítica en el popular lenguaje de programación Java. La empresa emergente tecnológica Calif, que recientemente identificó una vulnerabilidad de ciberseguridad en otro lenguaje, PHP, encontró el fallo en las funciones de memoria de Java. Java es un lenguaje de programación popular utilizado por casi todas las empresas más importantes del mundo, como Apple y Amazon, así como por muchos bancos, hospitales y gobiernos.",
-      "texto_original": "Una empresa de ciberseguridad utilizó inteligencia artificial (IA) para descubrir una vulnerabilidad crítica en el popular lenguaje de programación Java. La empresa emergente tecnológica Calif, que recientemente identificó una vulnerabilidad de ciberseguridad en otro lenguaje, PHP, encontró el fallo en las funciones de memoria de Java. Java es un lenguaje de programación popular utilizado por casi todas las empresas más importantes del mundo, como Apple y Amazon, así como por muchos bancos, hospitales y gobiernos. Según el profesor Toby Walsh, científico informático, su objetivo es hacer que el mundo de la informática sea más seguro gestionando la memoria en línea, razón por la cual \"este es un fallo tan improbable y grave\". Este descubrimiento se produce tras una serie de graves problemas tecnológicos, incluida una interrupción masiva del servicio de Microsoft. El martes, la Agencia de Seguridad Nacional de Estados Unidos informó que sus comunicaciones internas quedaron fuera de servicio debido a un \"mantenimiento rutinario programado\".",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-11-18T17:55:18.217Z",
-        "index": 14,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "es",
-        "categoria": "inteligencia_artificial",
-        "categorias_secundarias": [
-          "software_internet",
-          "hardware",
-          "semiconductores"
-        ],
-        "category_scores": {
-          "inteligencia_artificial": 3,
-          "software_internet": 3,
-          "hardware": 2,
-          "semiconductores": 1,
-          "actualidad": 1
-        },
-        "entidades": [
-          "Apple",
-          "Microsoft"
-        ],
-        "cifras_detectadas": [
-          "90%"
-        ],
-        "content_type": "report",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 97,
-        "relevancia": 75,
-        "confiabilidad_fuente": 80,
-        "readability": {
-          "words": 220,
-          "sentences": 10,
-          "average_words_per_sentence": 22
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 83.95
-    },
-    {
       "id": "812101bc250d09bb",
       "fuente_id": "huawei_central",
       "fuente_nombre": "Huawei Central",
@@ -129,7 +50,7 @@
       "texto_original": "Huawei Mate X8 official design is out via teasers, and the latest leak reveals complete specs of the upcoming foldable before its unveiling on November 24. The new information covers all key parts, from the screen to the battery and the Kirin 5G chip. Mate X8 will be Huawei’s eighth-generation large foldable. He Gang, CEO […] The post Huawei Mate X8 complete specs emerged ahead of November 24 debut appeared first on Huawei Central .",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-18T17:55:18.229Z",
+        "processed_at": "2026-11-19T00:02:31.961Z",
         "index": 44,
         "resumen": {
           "generado": true,
@@ -188,6 +109,77 @@
       "final_score": 83.9
     },
     {
+      "id": "c8368a4b51887cdc",
+      "fuente_id": "openai_google",
+      "fuente_nombre": "OpenAI",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "openai",
+      "nivel_fuente": "fuente_oficial",
+      "categoria": "inteligencia_artificial",
+      "idioma_original": "en",
+      "prioridad_fuente": 5,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Aceleración de la investigación: la frontera irregular",
+      "titulo_original": "Research acceleration: The jagged frontier - OpenAI",
+      "enlace": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBaWUlLUnMybWl2WE5UeHVkWU9MZUhuZjZoa09ZNHJrV0VfZVlwVVRmQXkzYk83Mk11dWpSYmVlVHRhRU5mRlZFVGNZS04zUmQyZldYdFBhRDJ2dnhxWEhlajdGV0g1OEp5UWhZVWJlRV8?oc=5",
+      "fecha": "2026-11-18T23:37:21.000Z",
+      "resumen_corto": "Aceleración de la investigación: la frontera irregular OpenAI",
+      "resumen_largo": "Aceleración de la investigación: la frontera irregular OpenAI",
+      "texto_original": "Research acceleration: The jagged frontier OpenAI",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-11-19T00:02:31.928Z",
+        "index": 1,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "en",
+        "categoria": "tecnologia",
+        "categorias_secundarias": [
+          "inteligencia_artificial"
+        ],
+        "category_scores": {
+          "tecnologia": 3,
+          "inteligencia_artificial": 2
+        },
+        "entidades": [
+          "OpenAI"
+        ],
+        "cifras_detectadas": [],
+        "content_type": "report",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 92,
+        "relevancia": 70,
+        "confiabilidad_fuente": 85,
+        "readability": {
+          "words": 26,
+          "sentences": 1,
+          "average_words_per_sentence": 26
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 81.45
+    },
+    {
       "id": "14e7f79e9d236c36",
       "fuente_id": "bbc_mundo",
       "fuente_nombre": "BBC Mundo",
@@ -209,8 +201,8 @@
       "texto_original": "Carlos Infante tenía 11 años cuando mataron a su padre en uno de los episodios más trágicos y recordados del conflicto armado entre el Estado peruano y la guerrilla maoísta de Sendero Luminoso. Octavio Infante fue uno de los ocho periodistas asesinados el 26 de enero de 1983 en la remota comunidad andina de Uchuraccay, a más de 4.000 metros de altura, cuando intentaban llegar a zonas aisladas para confirmar rumores de matanzas que habían llegado hasta la ciudad de Ayacucho. Infante y sus compañeros de expedición fueron interceptados por los comuneros de Uchuraccay, que los mataron a hachazos, pedradas y golpes. El guía del grupo y un lugareño al que se acusaba de colaborar con Sendero también fueron asesinados. Carlos Infante recuerda que la noticia de la muerte de su padre llegó al hogar familiar como \"una roca fulminante\". El impacto se sintió en todo el país, que aún no era consciente de la magnitud trágica de un conflicto entonces solo en ciernes y que dejaría más de 69.000 muertos entre 1980 y 2000. El entonces presidente Fernando Belaúnde Terry encargó una investigación a una comisión encabezada por el escritor Mario Vargas Llosa, que concluyó que los comuneros habían linchado a los periodistas al confundirlos con \"terroristas\" de Sendero, en un clima de \"altísima tensión psíquica\".",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-18T17:55:18.214Z",
-        "index": 10,
+        "processed_at": "2026-11-19T00:02:31.944Z",
+        "index": 21,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -291,8 +283,8 @@
       "texto_original": "Native Huawei HarmonyOS operating system achieved a new milestone, surpassing 100 million users and becoming the third-largest mobile operating system after Android and iOS. Huawei first introduced HarmonyOS in 2019, targeting smart devices. Within a few years, the company ported this OS to smartphones and large touchscreen devices such as tablets. Later on, the ecosystem […] The post Native HarmonyOS users climb past the 100 million mark appeared first on Huawei Central .",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-18T17:55:18.224Z",
-        "index": 31,
+        "processed_at": "2026-11-19T00:02:31.953Z",
+        "index": 33,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -370,7 +362,7 @@
       "texto_original": "Huawei Watch Air could take on the latest Apple wearables regarding slimness with its ultra-thin body measuring 6.9mm. A recent leak suggested that the upcoming Huawei smartwatch could set a record for body thinness in the wearable market. Weibo tipster FixedFocus revealed that Huawei will introduce two new Air devices, forming a dual thin flagship […] The post Huawei Watch Air to overtake Apple wearables in slimness with 6.9mm body appeared first on Huawei Central .",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-18T17:55:18.228Z",
+        "processed_at": "2026-11-19T00:02:31.959Z",
         "index": 43,
         "resumen": {
           "generado": true,
@@ -452,8 +444,8 @@
       "texto_original": "Huawei plans to release a new Mate 90 Air smartphone, and leaked specs now reveal battery and other key improvements. The Mate 90 Air will start at 12GB RAM and 256GB storage, with color options: gold, silver, and black. Additionally, the phone will have a larger battery, and the design looks similar to the Mate […] The post Huawei Mate 90 Air specs leaked, including colors and a larger battery appeared first on Huawei Central .",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-18T17:55:18.222Z",
-        "index": 28,
+        "processed_at": "2026-11-19T00:02:31.950Z",
+        "index": 31,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -534,8 +526,8 @@
       "texto_original": "Huawei Mate X8 will use a new foldable screen with invisible crease tech that could be the first in the smartphone industry. A video shared by a Weibo tipster shows the Mate X8 from different angles in outdoor light. The screen has a glossy finish, but the crease is almost invisible. This leaked video highlights […] The post Check the near invisible display crease of Huawei Mate X8 appeared first on Huawei Central .",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-18T17:55:18.225Z",
-        "index": 32,
+        "processed_at": "2026-11-19T00:02:31.953Z",
+        "index": 34,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -592,149 +584,6 @@
       "final_score": 75.4
     },
     {
-      "id": "ff1051412f06724d",
-      "fuente_id": "openai_google",
-      "fuente_nombre": "OpenAI",
-      "tipo": "rss_web",
-      "subtipo": "google_news",
-      "grupo_fuente": "openai",
-      "nivel_fuente": "fuente_oficial",
-      "categoria": "inteligencia_artificial",
-      "idioma_original": "en",
-      "prioridad_fuente": 5,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "Le Groupe Figaro y OpenAI se asocian para llevar el periodismo de Le Figaro a ChatGPT",
-      "titulo_original": "Le Groupe Figaro and OpenAI partner to bring Le Figaro journalism to ChatGPT - OpenAI",
-      "enlace": "https://news.google.com/rss/articles/CBMif0FVX3lxTE4wRXpkMG52Qmx5dlo1bEtUM2lwZm5VZlkzNmFOWWJRSHpaWTRkQjJUeElNeWRYU0RyMm5OZXM3UGNOUjNXTXF5YjFsbzNDU05xanp0b0RQb3p2UHlmNFNiaUZYSThmX1JuVDZQSmZqWkpNbzl3djRmYzZPcEdSWHc?oc=5",
-      "fecha": "2026-11-18T09:15:12.000Z",
-      "resumen_corto": "Le Groupe Figaro y OpenAI se asocian para llevar el periodismo de Le Figaro a ChatGPT OpenAI",
-      "resumen_largo": "Le Groupe Figaro y OpenAI se asocian para llevar el periodismo de Le Figaro a ChatGPT OpenAI",
-      "texto_original": "Le Groupe Figaro and OpenAI partner to bring Le Figaro journalism to ChatGPT OpenAI",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-11-18T17:55:18.221Z",
-        "index": 25,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "en",
-        "categoria": "inteligencia_artificial",
-        "categorias_secundarias": [
-          "semiconductores",
-          "vehiculos_energia"
-        ],
-        "category_scores": {
-          "inteligencia_artificial": 5,
-          "semiconductores": 1,
-          "vehiculos_energia": 1
-        },
-        "entidades": [
-          "OpenAI",
-          "ChatGPT"
-        ],
-        "cifras_detectadas": [],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 84,
-        "relevancia": 67,
-        "confiabilidad_fuente": 75,
-        "readability": {
-          "words": 49,
-          "sentences": 1,
-          "average_words_per_sentence": 49
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 74.95
-    },
-    {
-      "id": "ffdeb145f915900f",
-      "fuente_id": "openai_google",
-      "fuente_nombre": "OpenAI",
-      "tipo": "rss_web",
-      "subtipo": "google_news",
-      "grupo_fuente": "openai",
-      "nivel_fuente": "fuente_oficial",
-      "categoria": "inteligencia_artificial",
-      "idioma_original": "en",
-      "prioridad_fuente": 5,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "Presentamos ChatGPT para ventas",
-      "titulo_original": "Introducing ChatGPT for Sales - OpenAI",
-      "enlace": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE93NzFPZGpUeU84ai1xMjR0SVYxbC1MZ3Q0S1BNeU10VnoteVM2Y01ES18wWTR1cERpU2dfN2RZUFdRcXgtVkx3d1c2SEVGU0x3SEc5cGVhUThaUFBqakhid2pYR2wtZw?oc=5",
-      "fecha": "2026-11-17T21:27:46.000Z",
-      "resumen_corto": "Presentamos ChatGPT para ventas OpenAI",
-      "resumen_largo": "Presentamos ChatGPT para ventas OpenAI",
-      "texto_original": "Introducing ChatGPT for Sales OpenAI",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-11-18T17:55:18.226Z",
-        "index": 36,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "en",
-        "categoria": "inteligencia_artificial",
-        "categorias_secundarias": [],
-        "category_scores": {
-          "inteligencia_artificial": 4
-        },
-        "entidades": [
-          "OpenAI",
-          "ChatGPT"
-        ],
-        "cifras_detectadas": [],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 84,
-        "relevancia": 67,
-        "confiabilidad_fuente": 75,
-        "readability": {
-          "words": 24,
-          "sentences": 1,
-          "average_words_per_sentence": 24
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 74.95
-    },
-    {
       "id": "78ccf5dd60e399e2",
       "fuente_id": "huawei_central",
       "fuente_nombre": "Huawei Central",
@@ -756,8 +605,8 @@
       "texto_original": "Huawei has released Harper’s Bazaar images of the Mate X8 foldable smartphone, launching on November 24. The phone continues the side-folding mechanism, but with new rear finishes, and the photos reveal a new look with flagship-quality design and visual effects. The phone will launch in five colors: Purple gold brocade, Azure brocade, Danxia Brocade, Sky […] The post Huawei releases Mate X8 Harper’s Bazaar editorial photos appeared first on Huawei Central .",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-18T17:55:18.223Z",
-        "index": 30,
+        "processed_at": "2026-11-19T00:02:31.951Z",
+        "index": 32,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -810,79 +659,6 @@
       "final_score": 73.65
     },
     {
-      "id": "1d03fd6b264bcf46",
-      "fuente_id": "xataka_google",
-      "fuente_nombre": "Xataka",
-      "tipo": "rss_web",
-      "subtipo": "google_news",
-      "grupo_fuente": "xataka",
-      "nivel_fuente": "medio_especializado",
-      "categoria": "tecnologia",
-      "idioma_original": "es",
-      "prioridad_fuente": 4,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "Ya es oficial: el servicio universal de internet será diez veces más rápido en 2027 y beneficiará a mucha más gente",
-      "titulo_original": "Ya es oficial: el servicio universal de internet será diez veces más rápido en 2027 y beneficiará a mucha más gente - Xataka",
-      "enlace": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQRFBzVEl6XzRVR1AzVVVtVkxRZURKN1p6UUJQay1mQXBHZkhzTnFkNzlnNWViSi1IR0l2MDA0SGtRLWlYMExLYzZLSzdxTHdkOFdoOTUtWkdjUk1lX01iaTdMX3d5WFVOMV9MVmFBYTFrajhKaGp3Q3E5NWlVZWVtNHkxU3N3WXppMjNFRjJHanRLYkluOWZGdTRDQ2wwNVpsdXJrQUtENDRqUUVkS1g5Wmp1bTlWOUVmNWphZTZ5UdIBxAFBVV95cUxQb0VCbE15VWExZkNtQnZvTm1GMms4dHdBTTFoUWpXekpUZU9pTXRKYzVxMnlVUHkyRTRqSElfRlRua044VEo0R1k3ZnVsWkJZaldEV1FQLVZndVY1VVMwaGFkazFGTHFVTWdfM045UXUtSzZwdFhYZG50TmNIbDNnSk1nQ04zeE93RGE3LU0tVGtka2pNNTYxMmZyM1lqZWl6SVpRdHY1a2NZUWJJamhoekJSRHdFUzZOQWZDZjdIS3NPUlFE?oc=5",
-      "fecha": "2026-11-18T14:01:20.000Z",
-      "resumen_corto": "Ya es oficial: el servicio universal de internet será diez veces más rápido en 2027 y beneficiará a mucha más gente Xataka",
-      "resumen_largo": "Ya es oficial: el servicio universal de internet será diez veces más rápido en 2027 y beneficiará a mucha más gente Xataka",
-      "texto_original": "Ya es oficial: el servicio universal de internet será diez veces más rápido en 2027 y beneficiará a mucha más gente Xataka",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-11-18T17:55:18.209Z",
-        "index": 4,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "es",
-        "categoria": "inteligencia_artificial",
-        "categorias_secundarias": [
-          "software_internet"
-        ],
-        "category_scores": {
-          "inteligencia_artificial": 1,
-          "software_internet": 1
-        },
-        "entidades": [
-          "Xataka"
-        ],
-        "cifras_detectadas": [
-          "2027"
-        ],
-        "content_type": "report",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 95,
-        "relevancia": 63,
-        "confiabilidad_fuente": 60,
-        "readability": {
-          "words": 74,
-          "sentences": 1,
-          "average_words_per_sentence": 74
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 73.45
-    },
-    {
       "id": "dca7f37643d855a9",
       "fuente_id": "openai_google",
       "fuente_nombre": "OpenAI",
@@ -904,8 +680,8 @@
       "texto_original": "Advancing chip design with OpenAI models OpenAI",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-18T17:55:18.206Z",
-        "index": 0,
+        "processed_at": "2026-11-19T00:02:31.932Z",
+        "index": 8,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -975,7 +751,7 @@
       "texto_original": "CATL Joins Forces with Asia-Pacific Partners to Promote Energy Transition CATL",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-18T17:55:18.229Z",
+        "processed_at": "2026-11-19T00:02:31.962Z",
         "index": 46,
         "resumen": {
           "generado": true,
@@ -1050,8 +826,8 @@
       "texto_original": "Durante una reciente visita a una exposición en el Manege de la Plaza Roja de Moscú con un grupo de escolares, el presidente de Rusia, Vladimir Putin, se detuvo frente a una gran escultura del primer ministro británico Winston Churchill, el presidente estadounidense Franklin D. Roosevelt y el primer ministro de la URSS Joseph Stalin en la Conferencia de Yalta de febrero de 1945. \"Estos eran los líderes de las tres principales potencias, que se reunieron para debatir cómo debería organizarse el mundo después de la guerra\", les dijo Putin a los niños el pasado 4 de noviembre. El día anterior, el Ministerio de Asuntos Exteriores de China y el Kremlin habían anunciado consultas para un encuentro entre Putin, el presidente de EE.UU., Donald Trump, y el presidente de China. Xi Jinping, los días 18 y 19 de noviembre, en el marco de la cumbre de Cooperación Económica Asia-Pacífico (APEC) en Shenzhen. La portavoz de la Casa Blanca Olivia Wales confirmó que la reunión tendría lugar. Cuando a mediados de octubre surgieron los primeros informes de que el Kremlin proponía dicha reunión, hubo una inmediata preocupación en la Unión Europea y en Ucrania, y muchos recordaron la reunión de los líderes de la coalición anti-Hitler en la antigua residencia de los zares rusos a orillas del mar Negro, en Yalta. A cambio del acuerdo de Stalin para entrar en la guerra contra Japón tras la victoria sobre Alemania, se aceptó una expansión de la influencia soviética en Europa del Este, y un acuerdo secreto en Asia Oriental otorgó a la URSS territorios japoneses al sur de Sajalín y las islas Kuriles, al tiempo que se restablecía la base naval soviética en la ciudad china de Port Arthur y se reconocían intereses económicos especiales en Manchuria.",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-18T17:55:18.226Z",
-        "index": 33,
+        "processed_at": "2026-11-19T00:02:31.955Z",
+        "index": 35,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -1107,6 +883,159 @@
       "final_score": 72.9
     },
     {
+      "id": "4cc7348a4ac323a4",
+      "fuente_id": "techinsights_google",
+      "fuente_nombre": "TechInsights",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "techinsights",
+      "nivel_fuente": "especializada_tecnica",
+      "categoria": "semiconductores",
+      "idioma_original": "en",
+      "prioridad_fuente": 5,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Conferencia CMC 2027 Arizona | Conferencia sobre materiales semiconductores",
+      "titulo_original": "2027 CMC Conference Arizona | Semiconductor Materials Conference - TechInsights",
+      "enlace": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOQkkzeDVtQTJCdmlzWGxqSzIzUThBSThEb2xfTXlFZG1BVmNTT0VRM0xfc0F6RjVucmxRVURGcElzZjZOQWFwcHh3NjBWY0NLYTZ3dV8wVkhsVEJGSnE2N0tEZGFCcjU5bEdCOTAtU1Bsb3FvY2owNHp0dm52WnM2dkZPNmQ3QQ?oc=5",
+      "fecha": "2026-11-13T16:55:06.000Z",
+      "resumen_corto": "Conferencia CMC 2027 Arizona | Conferencia sobre materiales semiconductores TechInsights",
+      "resumen_largo": "Conferencia CMC 2027 Arizona | Conferencia sobre materiales semiconductores TechInsights",
+      "texto_original": "2027 CMC Conference Arizona | Semiconductor Materials Conference TechInsights",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-11-19T00:02:31.962Z",
+        "index": 47,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "en",
+        "idioma_original": "en",
+        "categoria": "semiconductores",
+        "categorias_secundarias": [
+          "inteligencia_artificial",
+          "moviles",
+          "tecnologia"
+        ],
+        "category_scores": {
+          "semiconductores": 2,
+          "inteligencia_artificial": 1,
+          "moviles": 1,
+          "tecnologia": 1
+        },
+        "entidades": [
+          "TechInsights"
+        ],
+        "cifras_detectadas": [
+          "2027"
+        ],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 89,
+        "relevancia": 62,
+        "confiabilidad_fuente": 65,
+        "readability": {
+          "words": 42,
+          "sentences": 1,
+          "average_words_per_sentence": 42
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 72.2
+    },
+    {
+      "id": "9f591808826ae143",
+      "fuente_id": "huawei_google",
+      "fuente_nombre": "Huawei Central",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "huawei",
+      "nivel_fuente": "agregador",
+      "categoria": "moviles",
+      "idioma_original": "en",
+      "prioridad_fuente": 4,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Se anuncia Huawei Sense G1, el primer dispositivo de monitoreo continuo de glucosa (CGM)",
+      "titulo_original": "Huawei Sense G1 announced, the first Continuous Glucose Monitoring (CGM) Device - Huawei Central",
+      "enlace": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9iYkQwMjY0c21kSno5SWYyTHh5RXkyMjVHUEdfZmd5RHpVbEF4dnJGZTZ3andDRUItdDVGYmtxUDFJZlpWTUFDelZER0JrWnBobDQ2RUNsZ09YdHVnZV9LOGQ0RnZrRU1FYVJucdIBckFVX3lxTFBmRV9nMmU3R1Z3WUotNXh1eVJyY010eDR2bmVHbHJ6UjM1bVkyeUFWZHZsMEVxSDN2S3psNjFXS1NpVzJTT3dINEdVRVZlQzg0UV9ZdWNfMXAyczgwWmZIWnRZaDNPUExIOFFPYmJ1UExTdw?oc=5",
+      "fecha": "2026-11-13T06:28:37.000Z",
+      "resumen_corto": "Se anuncia Huawei Sense G1, el primer dispositivo de monitoreo continuo de glucosa (CGM) Huawei Central",
+      "resumen_largo": "Se anuncia Huawei Sense G1, el primer dispositivo de monitoreo continuo de glucosa (CGM) Huawei Central",
+      "texto_original": "Huawei Sense G1 announced, the first Continuous Glucose Monitoring (CGM) Device Huawei Central",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-11-19T00:02:31.963Z",
+        "index": 49,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "en",
+        "categoria": "tecnologia",
+        "categorias_secundarias": [
+          "inteligencia_artificial",
+          "moviles",
+          "hardware"
+        ],
+        "category_scores": {
+          "tecnologia": 2,
+          "inteligencia_artificial": 1,
+          "moviles": 1,
+          "hardware": 1,
+          "vehiculos_energia": 1
+        },
+        "entidades": [
+          "Huawei"
+        ],
+        "cifras_detectadas": [],
+        "content_type": "report",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 90,
+        "relevancia": 62,
+        "confiabilidad_fuente": 63,
+        "readability": {
+          "words": 55,
+          "sentences": 1,
+          "average_words_per_sentence": 55
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 72.05
+    },
+    {
       "id": "7417ae468d436a9b",
       "fuente_id": "bbc_mundo",
       "fuente_nombre": "BBC Mundo",
@@ -1128,8 +1057,8 @@
       "texto_original": "Un encuentro poco común entre indígenas no contactados de la selva amazónica con miembros de una tribu vecina ha llevado al gobierno de Brasil a implementar medidas de protección para este grupo que vive aislado en su propio entorno. La organización no gubernamental Survival International informó que el lunes 16 de noviembre unos 20 indígenas awás \"aparecieron ante un puesto de la FUNAI (Fundación Nacional de los Pueblos Indígenas) en la Tierra Indígena Arariboia, en el estado brasileño de Maranhão, y entró en contacto con indígenas guajajaras (tenetehar) de la aldea Tawari\". Los guajajaras les ofrecieron ñame, un tubérculo comestible, y los awás, que son expertos cazadores-recolectores, regresaron después a la selva. Las imágenes grabadas por los guajajara, y difundidas por Survival International, muestran a adultos y niños awá, algunos portando arcos y flechas, con tocados de plumas y collares. Este intercambio ha generado la pregunta de qué llevó a una tribu que ha evitado siempre el contacto con personas ajenas a su comunidad a, de repente, acercarse a un grupo vecino. La ONG informa que el pueblo awá sufre una presión creciente a medida que su territorio está cada vez más expuesto a la invasión de madereros ilegales, cazadores y ganaderos, \"lo que podría explicar por qué buscaron alimento\".",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-18T17:55:18.211Z",
-        "index": 6,
+        "processed_at": "2026-11-19T00:02:31.942Z",
+        "index": 19,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -1180,78 +1109,7 @@
       "final_score": 71.15
     },
     {
-      "id": "e6536f17d56c8a04",
-      "fuente_id": "techinsights_google",
-      "fuente_nombre": "TechInsights",
-      "tipo": "rss_web",
-      "subtipo": "google_news",
-      "grupo_fuente": "techinsights",
-      "nivel_fuente": "especializada_tecnica",
-      "categoria": "semiconductores",
-      "idioma_original": "en",
-      "prioridad_fuente": 5,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "TechInsights adquiere Strategy Analytics para ampliar aún más sus capacidades en el análisis del mercado de microelectrónica",
-      "titulo_original": "TechInsights Acquires Strategy Analytics to Further Expand its Capabilities in Microelectronics Market Analysis - TechInsights",
-      "enlace": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPZDNQTEZYRFZtRTNRWS1DN2JTQ21zZWNKNkEzOG0zRFN4RDlDWE55ZDgxeHRPckl2SHJ0OUVlcml3Rk04OUszNzBWNTh1QXdiUF9mSkxTd2drc3hLVHV6TEg1TWJ0TzE2QUJha3hvdXpCdGdHZjFWZDlac1BsMHZKREVpVVp0aU0?oc=5",
-      "fecha": "2026-11-05T08:00:00.000Z",
-      "resumen_corto": "TechInsights adquiere Strategy Analytics para ampliar aún más sus capacidades en análisis de mercado de microelectrónica TechInsights",
-      "resumen_largo": "TechInsights adquiere Strategy Analytics para ampliar aún más sus capacidades en análisis de mercado de microelectrónica TechInsights",
-      "texto_original": "TechInsights Acquires Strategy Analytics to Further Expand its Capabilities in Microelectronics Market Analysis TechInsights",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-11-18T17:55:18.230Z",
-        "index": 49,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "en",
-        "categoria": "tecnologia",
-        "categorias_secundarias": [
-          "inteligencia_artificial"
-        ],
-        "category_scores": {
-          "tecnologia": 4,
-          "inteligencia_artificial": 1
-        },
-        "entidades": [
-          "TechInsights"
-        ],
-        "cifras_detectadas": [],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 84,
-        "relevancia": 62,
-        "confiabilidad_fuente": 65,
-        "readability": {
-          "words": 66,
-          "sentences": 1,
-          "average_words_per_sentence": 66
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 70.45
-    },
-    {
-      "id": "9790708dce4a5779",
+      "id": "f5f910e2248257df",
       "fuente_id": "openai_google",
       "fuente_nombre": "OpenAI",
       "tipo": "rss_web",
@@ -1263,22 +1121,22 @@
       "prioridad_fuente": 5,
       "analizar": true,
       "resumir": true,
-      "titulo": "Presentamos GPT-6.2 Astra y Sol",
-      "titulo_original": "Introducing GPT-6.2 Astra and Sol - OpenAI",
-      "enlace": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1uaG9wYm5WLWZad2xnSC12anhNVVhCQ0d2aWJUY0l5V1JFNlE3SkhjdE5JSk0zRjVhZk5Da3NzVkp5bDkwcnFnbVZ0RjV1TjFQSVZoSVNUdm5jYW13ZDZ5TTU2eVRBZw?oc=5",
-      "fecha": "2026-11-17T17:47:15.000Z",
-      "resumen_corto": "Presentamos GPT-6.2 Astra y Sol OpenAI",
-      "resumen_largo": "Presentamos GPT-6.2 Astra y Sol OpenAI",
-      "texto_original": "Introducing GPT-6.2 Astra and Sol OpenAI",
+      "titulo": "Gestión del riesgo fronterizo de la IA: de la formación al despliegue",
+      "titulo_original": "Managing frontier AI risk: From training to deployment - OpenAI",
+      "enlace": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE45RHJmSHZiNVNSOHgwYTFQNmh3WnlKVGwyRE43R2dWMEF5d2xsTHBqYzdHQllCanRHeTNYTHAyX0FmcTJiT3p1amxoRDVzMTBxemNiSXkxUXJMcDhxUjdCNw?oc=5",
+      "fecha": "2026-11-18T20:09:34.000Z",
+      "resumen_corto": "Gestión del riesgo fronterizo de la IA: de la formación al despliegue OpenAI",
+      "resumen_largo": "Gestión del riesgo fronterizo de la IA: de la formación al despliegue OpenAI",
+      "texto_original": "Managing frontier AI risk: From training to deployment OpenAI",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-18T17:55:18.226Z",
-        "index": 37,
+        "processed_at": "2026-11-19T00:02:31.931Z",
+        "index": 5,
         "resumen": {
           "generado": true,
           "origen": "translated"
         },
-        "idioma_detectado": "en",
+        "idioma_detectado": "es",
         "idioma_original": "en",
         "categoria": "inteligencia_artificial",
         "categorias_secundarias": [],
@@ -1305,9 +1163,77 @@
         "relevancia": 55,
         "confiabilidad_fuente": 75,
         "readability": {
-          "words": 26,
-          "sentences": 6,
-          "average_words_per_sentence": 4.33
+          "words": 34,
+          "sentences": 1,
+          "average_words_per_sentence": 34
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 70.15
+    },
+    {
+      "id": "d736547088c6a89e",
+      "fuente_id": "openai_google",
+      "fuente_nombre": "OpenAI",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "openai",
+      "nivel_fuente": "fuente_oficial",
+      "categoria": "inteligencia_artificial",
+      "idioma_original": "en",
+      "prioridad_fuente": 5,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Dentro del entorno limitado del Codex",
+      "titulo_original": "Inside the Codex sandbox - OpenAI",
+      "enlace": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE40amtGLVNSQjd3YWcwczVzUGtMdVM3YnlvT1Nlb1haNTRsNnJGb1I5NDJqbHZVWjdsV0FzUUo5SVZPd3ROZ2tudUFqSXBYREFzZHZjVnhsMDBIOUh6QV80?oc=5",
+      "fecha": "2026-11-18T18:06:15.000Z",
+      "resumen_corto": "Dentro del entorno limitado del Codex OpenAI",
+      "resumen_largo": "Dentro del entorno limitado del Codex OpenAI",
+      "texto_original": "Inside the Codex sandbox OpenAI",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-11-19T00:02:31.932Z",
+        "index": 7,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "en",
+        "categoria": "inteligencia_artificial",
+        "categorias_secundarias": [],
+        "category_scores": {
+          "inteligencia_artificial": 2
+        },
+        "entidades": [
+          "OpenAI"
+        ],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 84,
+        "relevancia": 55,
+        "confiabilidad_fuente": 75,
+        "readability": {
+          "words": 30,
+          "sentences": 1,
+          "average_words_per_sentence": 30
         },
         "duplicate": {
           "detected": false,
@@ -1340,7 +1266,7 @@
       "texto_original": "Xiaomi 18 Pro Series Launch Xiaomi",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-18T17:55:18.227Z",
+        "processed_at": "2026-11-19T00:02:31.957Z",
         "index": 39,
         "resumen": {
           "generado": true,
@@ -1411,7 +1337,7 @@
       "texto_original": "All Specs, Features of Xiaomi 18 Pro | Xiaomi Global Xiaomi",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-18T17:55:18.227Z",
+        "processed_at": "2026-11-19T00:02:31.957Z",
         "index": 40,
         "resumen": {
           "generado": true,
@@ -1484,7 +1410,7 @@
       "texto_original": "Xiaomi 18 Pro Max | Xiaomi Australia | All Specs, Features Xiaomi",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-18T17:55:18.227Z",
+        "processed_at": "2026-11-19T00:02:31.957Z",
         "index": 41,
         "resumen": {
           "generado": true,
@@ -1551,13 +1477,13 @@
       "titulo": "Serie Xiaomi 18 Pro Max",
       "titulo_original": "Xiaomi 18 Pro Max Series - Xiaomi",
       "enlace": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9kZ2xFeWQwSjBUYTBPNms4dkNuZzd1V2Qzc0Joajhjc1ZucnVycDNnR1lvNTVxSnItRHZ1ZW95NVVNOWFRbWdTWUhSS3lObFhxUDIwRG83bWZyQ3NSR1duOFRxVWQ2TTJYNXk5SQ?oc=5",
-      "fecha": "2026-11-17T13:00:00.000Z",
+      "fecha": "2026-11-17T09:47:12.000Z",
       "resumen_corto": "Serie Xiaomi 18 Pro Max Xiaomi",
       "resumen_largo": "Serie Xiaomi 18 Pro Max Xiaomi",
       "texto_original": "Xiaomi 18 Pro Max Series Xiaomi",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-18T17:55:18.227Z",
+        "processed_at": "2026-11-19T00:02:31.958Z",
         "index": 42,
         "resumen": {
           "generado": true,
@@ -1628,8 +1554,8 @@
       "texto_original": "NVIDIA GPU Drivers Reportedly Writing Up To 30GB Per Hour To SSDs, Echoing AMD’s Recent Driver Bug Wccftech",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-18T17:55:18.210Z",
-        "index": 5,
+        "processed_at": "2026-11-19T00:02:31.940Z",
+        "index": 18,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -1708,8 +1634,8 @@
       "texto_original": "Cuando Elizabeth y Tom Wilcox se dieron cuenta de que nunca podrían permitirse comprar la casa que querían para ellos y sus dos hijos, tomaron una decisión inesperada. Se embarcaron en la búsqueda de otra pareja con niños pequeños, completos desconocidos para ellos, a quienes les propondrían comprar una propiedad en partes iguales y mudarse todos juntos. Los Wilcox, residentes en Vancouver, ciudad que desde hace tiempo tiene algunos de los precios de vivienda más altos de Canadá, estaban desesperados por comprar una casa que tuviera un jardín trasero donde sus hijos pudieran jugar. \"Queríamos una casa con un patio donde cupiera una cama elástica, en un barrio donde se pudiera ir caminando a todas partes, pero no podíamos permitírnoslo\", dice Elizabeth, jefa de proyectos en el sector de la salud. Con un presupuesto de 1 millón de dólares canadienses (unos US$700.000), lo máximo a lo que podían aspirar era un pequeño apartamento, con balcón en el mejor de los casos. Fue entonces cuando a Elizabeth se le ocurrió la idea de comprar la propiedad junto con otra familia.",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-18T17:55:18.216Z",
-        "index": 13,
+        "processed_at": "2026-11-19T00:02:31.946Z",
+        "index": 23,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -1785,8 +1711,8 @@
       "texto_original": "AI Infrastructure: Outlook for 2027 TechInsights",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-18T17:55:18.230Z",
-        "index": 47,
+        "processed_at": "2026-11-19T00:02:31.962Z",
+        "index": 48,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -1837,7 +1763,7 @@
       "final_score": 69.4
     },
     {
-      "id": "25eaee3a975072a8",
+      "id": "d16fb7b2aef2f6a8",
       "fuente_id": "wccftech_google",
       "fuente_nombre": "Wccftech",
       "tipo": "rss_web",
@@ -1849,39 +1775,44 @@
       "prioridad_fuente": 4,
       "analizar": true,
       "resumir": true,
-      "titulo": "AMD se adelanta a CES 2027 con la posibilidad de presentar procesadores Olympic Ridge basados ​​en Zen 6",
-      "titulo_original": "AMD Teases CES 2027 With Possibility Of Unveiling Zen 6-Based Olympic Ridge Processors - Wccftech",
-      "enlace": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNQ1lXN2VEb2JoNHQycmVmUlVtdHpJMFJEVGl0alljWUs0eWthYlNlcjNFdDFrQnh5b29sTnM4QjVob3BDcmtZVFhIOVdySEdSXzBQMWpxM0FSQzByaXpDdUpDVWhHdWRJTHdfNHNiTDVpZlE3N2daemZDQUNSRzF1Yjg5YV9pZm9xczktYjlwRU16bkUwMGxSZEZ1TjRObGRzS0lNUlE2M0J2YWxY0gGyAUFVX3lxTE9lYjZmczBsUGlFWDYtV1lQVXZHSE5YR19Ua1FOT25lWFJhUGx4aW5ONi1mVzVCUVFCc1NKbUN6WWstRktQOHdhdWdLdk02Rlg5TGJyN3NBSVFhTzRKdzV3ZjRiMWdjakUteGM0bjRMN2c4ekoyMWZ6UURuSnpPLWtoemM2bjdyTDkxN2djTDdQUldMVkFNSzhoTUs2akN3bVhudWhQR1g0cmNkbFlKLVRmWHc?oc=5",
-      "fecha": "2026-11-18T12:41:15.000Z",
-      "resumen_corto": "AMD se adelanta a CES 2027 con la posibilidad de presentar procesadores Olympic Ridge basados ​​en Zen 6 Wccftech",
-      "resumen_largo": "AMD se adelanta a CES 2027 con la posibilidad de presentar procesadores Olympic Ridge basados ​​en Zen 6 Wccftech",
-      "texto_original": "AMD Teases CES 2027 With Possibility Of Unveiling Zen 6-Based Olympic Ridge Processors Wccftech",
+      "titulo": "Los precios de consumo NAND disminuyen un 20% a medida que el mercado SSD finalmente muestra signos de alivio y se espera que experimente otra caída del 5-10% a principios de 2027",
+      "titulo_original": "Consumer NAND Prices Decline By 20% As SSD Market Finally Shows Signs Of Relief And Is Expected To Experience Another 5-10% Decline In Early 2027 - Wccftech",
+      "enlace": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBCR2l0RVNOTEcxSTFPU1VqODFESXh3MVdsS2JMLWRZd3ZLNkZMVkJkd19lMXlON0dRT0RGeE1FTUJVMDVMcEtRMHBBVVBOOTctV202YzhQQ2xoRTZHLU44MEEtRHNBTTDSAWxBVV95cUxOb01wTHp0NzhfWjJienRJTS1Hb0tCc0JNQ2xVQTFHVmlYYkh5TWk3cVlFcUtITW1HcGl0cWRVM1NFMGZiWWY0MmFETE5kVWludUNVX2FMWVRrYVN0cllsb0xFelBHN1RLSUkxNjc?oc=5",
+      "fecha": "2026-11-18T19:15:12.000Z",
+      "resumen_corto": "Los precios de consumo NAND disminuyen un 20% a medida que el mercado SSD finalmente muestra signos de alivio y se espera que experimente otra caída del 5-10% a principios de 2027 Wccftech",
+      "resumen_largo": "Los precios de consumo NAND disminuyen un 20% a medida que el mercado SSD finalmente muestra signos de alivio y se espera que experimente otra caída del 5-10% a principios de 2027 Wccftech",
+      "texto_original": "Consumer NAND Prices Decline By 20% As SSD Market Finally Shows Signs Of Relief And Is Expected To Experience Another 5-10% Decline In Early 2027 Wccftech",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-18T17:55:18.212Z",
-        "index": 8,
+        "processed_at": "2026-11-19T00:02:31.931Z",
+        "index": 6,
         "resumen": {
           "generado": true,
           "origen": "translated"
         },
         "idioma_detectado": "es",
         "idioma_original": "en",
-        "categoria": "hardware",
+        "categoria": "inteligencia_artificial",
         "categorias_secundarias": [
-          "tecnologia"
+          "semiconductores",
+          "moviles",
+          "hardware"
         ],
         "category_scores": {
-          "hardware": 2,
+          "inteligencia_artificial": 1,
+          "semiconductores": 1,
+          "moviles": 1,
+          "hardware": 1,
           "tecnologia": 1
         },
         "entidades": [
-          "AMD",
           "Wccftech"
         ],
         "cifras_detectadas": [
+          "20%",
+          "10%",
           "2027",
-          "2027 W",
-          "6 W"
+          "2027 W"
         ],
         "content_type": "news",
         "clickbait": {
@@ -1896,12 +1827,12 @@
           "url_count": 0
         },
         "calidad": 87,
-        "relevancia": 60,
+        "relevancia": 62,
         "confiabilidad_fuente": 50,
         "readability": {
-          "words": 64,
+          "words": 101,
           "sentences": 1,
-          "average_words_per_sentence": 64
+          "average_words_per_sentence": 101
         },
         "duplicate": {
           "detected": false,
@@ -1910,7 +1841,7 @@
           "similar_to": null
         }
       },
-      "final_score": 66.95
+      "final_score": 67.75
     },
     {
       "id": "c477a64d4e0b6445",
@@ -1934,8 +1865,8 @@
       "texto_original": "Grand Theft Auto VI Uses AMD FSR 4 On Xbox Series S, Upscaling 720p To 1080p While Still Running Ray Traced Global Illumination Wccftech",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-18T17:55:18.218Z",
-        "index": 16,
+        "processed_at": "2026-11-19T00:02:31.947Z",
+        "index": 25,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -1987,7 +1918,81 @@
       "final_score": 66.95
     },
     {
-      "id": "5915d036ca7b1628",
+      "id": "e2a404e2c567055e",
+      "fuente_id": "xataka_google",
+      "fuente_nombre": "Xataka",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "xataka",
+      "nivel_fuente": "medio_especializado",
+      "categoria": "tecnologia",
+      "idioma_original": "es",
+      "prioridad_fuente": 4,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Los Xiaomi 18 Pro y Pro Max rompen tres años de espera en España: doble cámara de 200 MP y pantalla trasera como seña de identidad",
+      "titulo_original": "Los Xiaomi 18 Pro y Pro Max rompen tres años de espera en España: doble cámara de 200 MP y pantalla trasera como seña de identidad - Xataka",
+      "enlace": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOM29VVktMb2RRRmdpMVFScW5YczJLcVExSmxVTDFfb2pwTkpoQTNSZktGNTdCOWU0OTdCeDMzRUxXQXkwNkxVQ0dRTGVkTHVKNjhCeTA4dnotM0drTHdqbDgtMzVDWUZ0b01pLTV6aURLZS1vTkY4TE9xeXhxdjQxZzJGYUViU0ZVd3BmeU5YaF9NVFVrcnVyWmJtbHNZUzRz0gGmAUFVX3lxTE1OSlVFNjMydzdQb1JxdFRoc2ZpckV1XzhjR09VNlBBSnJQR3VYRE5ycDhiVkxxTjlNVnB4ekE3emFUSkVzdloxek1DaVBqcUZhVERJSVRNbXBieURmNGY2ZlgxZHIwRkNjZUZxRU1VRnJ4aWc5cTRyd2pyYWZGakVkZmRYcFRrV1Z3U3BfY2xwUVl1eUY5WndlMzdQbmtuempTTjhia1E?oc=5",
+      "fecha": "2026-11-17T14:30:00.000Z",
+      "resumen_corto": "Los Xiaomi 18 Pro y Pro Max rompen tres años de espera en España: doble cámara de 200 MP y pantalla trasera como seña de identidad Xataka",
+      "resumen_largo": "Los Xiaomi 18 Pro y Pro Max rompen tres años de espera en España: doble cámara de 200 MP y pantalla trasera como seña de identidad Xataka",
+      "texto_original": "Los Xiaomi 18 Pro y Pro Max rompen tres años de espera en España: doble cámara de 200 MP y pantalla trasera como seña de identidad Xataka",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-11-19T00:02:31.956Z",
+        "index": 38,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "inteligencia_artificial",
+        "categorias_secundarias": [
+          "moviles"
+        ],
+        "category_scores": {
+          "inteligencia_artificial": 1,
+          "moviles": 1
+        },
+        "entidades": [
+          "Xiaomi",
+          "Xataka"
+        ],
+        "cifras_detectadas": [
+          "200 M"
+        ],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 87,
+        "relevancia": 60,
+        "confiabilidad_fuente": 50,
+        "readability": {
+          "words": 94,
+          "sentences": 1,
+          "average_words_per_sentence": 94
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 66.95
+    },
+    {
+      "id": "e85ff57dc1e40392",
       "fuente_id": "huawei_google",
       "fuente_nombre": "Huawei Central",
       "tipo": "rss_web",
@@ -2001,15 +2006,15 @@
       "resumir": true,
       "titulo": "Se filtran las especificaciones del Huawei Mate 90 Air, incluidos colores y una batería más grande",
       "titulo_original": "Huawei Mate 90 Air specs leaked, including colors and a larger battery - Huawei Central",
-      "enlace": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPeVphY1NJZVNLMVZobEQ4eU82eTZLQW1XMTRiMHFTMU56Qks4SW1VV3pkWU5GV3p0eERuWG93R1Q0dDU4ZjJpdm13NHlsZXY4WFlqYzJlVUtjMXcyWFZGQXlXUFlqS1gwdTZoYm5FS2dPdndjV0dJZHpVdWNlVHBBWGZfbThLMWM3cWU4dWxWMEVnaVBtNXgwc2ZSeEphSWN4WkE?oc=5",
+      "enlace": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPeVphY1NJZVNLMVZobEQ4eU82eTZLQW1XMTRiMHFTMU56Qks4SW1VV3pkWU5GV3p0eERuWG93R1Q0dDU4ZjJpdm13NHlsZXY4WFlqYzJlVUtjMXcyWFZGQXlXUFlqS1gwdTZoYm5FS2dPdndjV0dJZHpVdWNlVHBBWGZfbThLMWM3cWU4dWxWMEVnaVBtNXgwc2ZSeEphSWN4WkHSAacBQVVfeXFMTXlPWDBYUEtDS2owSGVIZ3BjZGo2WThONi1SeXUzZ3h1NEdqWXN2Z1I5Mm84Wl8xeVlsR2M1VDFtd19SdHdHaWliV29fcVV1bksxVkNFUEwtdTYxR2hDSWFpeEJJaElIVkFDRjdHMzQ0SzVYcjV2aW1jMlJpTHhDLUlFT1RxUmJpbFJIMk5tSDk0S0dETnJZX1NiRUwxLUM4UFZuamRCUkE?oc=5",
       "fecha": "2026-11-18T08:33:34.000Z",
       "resumen_corto": "Se filtran las especificaciones del Huawei Mate 90 Air, incluidos colores y una batería más grande Huawei Central",
       "resumen_largo": "Se filtran las especificaciones del Huawei Mate 90 Air, incluidos colores y una batería más grande Huawei Central",
       "texto_original": "Huawei Mate 90 Air specs leaked, including colors and a larger battery Huawei Central",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-18T17:55:18.221Z",
-        "index": 26,
+        "processed_at": "2026-11-19T00:02:31.949Z",
+        "index": 29,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -2060,104 +2065,29 @@
       "final_score": 66.75
     },
     {
-      "id": "9749b08cfa31ed1b",
-      "fuente_id": "huawei_google",
-      "fuente_nombre": "Huawei Central",
+      "id": "ad6ead0fabc803b8",
+      "fuente_id": "ia_dia",
+      "fuente_nombre": "IA al Día",
       "tipo": "rss_web",
       "subtipo": "google_news",
-      "grupo_fuente": "huawei",
+      "grupo_fuente": "ia_general",
       "nivel_fuente": "agregador",
-      "categoria": "moviles",
-      "idioma_original": "en",
-      "prioridad_fuente": 4,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "El presidente de Huawei muestra el diseño de la PC MateBook Fold S de 14,7 pulgadas",
-      "titulo_original": "Huawei Chairman showcases 14.7-inch MateBook Fold S PC design - Huawei Central",
-      "enlace": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQN2ZLRzdmS2VBd2t2SEFYa1hpTk9xM0l3cWpMcF82RmVrQVoybVIzT1k1WTBBT2dhNkZRbms1cG13VzkyeHFGOUNqVXMwVGRMOENRWG92ejBnelRXOUF1T2J5UGFrVkoyQ2kxU1lUVld0ZHplazUtYm9lQmFBdTIydi1vM3NQNmF4dU9ZblBoUzJheThWYWQw0gGcAUFVX3lxTE0yMDdkbjVWU2FFOVpnUUJITnRGenQ2R1I0ZlFDWmRzSGtOY1FEZU4yT2xaYkxBTm8yNktSNXkxQkExMDdJaWJVM1RfSkFhUExDODVxcHpLVm9ETGZoVTNCczlpN05waFVLUkVoZjRKWnVtT2tFa0kyeGJGY2tnSHR3ZGt3QnJBTUY0Sjd3elRzQlkxR0N0U1RCQ0trMQ?oc=5",
-      "fecha": "2026-11-10T04:53:56.000Z",
-      "resumen_corto": "El presidente de Huawei muestra el diseño de PC MateBook Fold S de 14,7 pulgadas Huawei Central",
-      "resumen_largo": "El presidente de Huawei muestra el diseño de PC MateBook Fold S de 14,7 pulgadas Huawei Central",
-      "texto_original": "Huawei Chairman showcases 14.7-inch MateBook Fold S PC design Huawei Central",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-11-18T17:55:18.230Z",
-        "index": 48,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "en",
-        "categoria": "moviles",
-        "categorias_secundarias": [
-          "actualidad",
-          "inteligencia_artificial",
-          "hardware"
-        ],
-        "category_scores": {
-          "moviles": 2,
-          "actualidad": 2,
-          "inteligencia_artificial": 1,
-          "hardware": 1
-        },
-        "entidades": [
-          "Huawei"
-        ],
-        "cifras_detectadas": [],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 82,
-        "relevancia": 62,
-        "confiabilidad_fuente": 53,
-        "readability": {
-          "words": 43,
-          "sentences": 3,
-          "average_words_per_sentence": 14.33
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 66.75
-    },
-    {
-      "id": "6a466f51251df350",
-      "fuente_id": "google_news_es",
-      "fuente_nombre": "Google News ES",
-      "tipo": "rss_web",
-      "subtipo": "google_news",
-      "grupo_fuente": "google_news",
-      "nivel_fuente": "agregador",
-      "categoria": "tecnologia",
+      "categoria": "inteligencia_artificial",
       "idioma_original": "es",
       "prioridad_fuente": 3,
       "analizar": true,
       "resumir": true,
-      "titulo": "Nvidia bate previsiones al duplicar los ingresos y los beneficios, y defiende el poder de su tecnología - EL PAÍS",
-      "titulo_original": "Nvidia bate previsiones al duplicar los ingresos y los beneficios, y defiende el poder de su tecnología - EL PAÍS",
-      "enlace": "https://news.google.com/rss/articles/CBMiggJBVV95cUxONGxZdFl1X09GSmIyajFEbHZnQmJPTWV1cGZaM2dpTEVGdlMtOFA1OHA0NjNUYWZoY0ZSYkpTQk9IY0NLelB5dXRmdVlzbm94QTlLMnZ1cXMwc24zbmRJTzUxZUZnNmNhRWhlQkpFRjBQWVBFcV9KOEJibVZGT2YtR3hpOVB2MDh2OUVxT0tfUHRTc3pWdU5TVERvS002Y1VWcXEzNkM4eUNsRnpCWEtIZXFZX3ZmeWRqVE9tY1ZaVnZxMEExeFZIdWlySU5NZ295QlRUVFd1bVJtMkt4c1RBeEdhbDdJU0hzSlc4dzI4WVYwWFFnVzMxTG5KR1VzVlA1Q3fSAZYCQVVfeXFMTzRtOWdDQXdsWl9FeFptdUNwN0RBczkxLVZKMS1LNVZmdEViR0FZNkc1T0FjeXdWb01GNEx3UFl3R1dUUmFOLTNfLUNiaDRfWjZ2aU84SzdlYkJkSGttRVV2WUd4WmthNlo3S0wxTjAtMzRYeTVPRF9qOHZvLThXZXMyYjdOZXFvaGVIQ0tHcWY0Z3NPOGVBVXN4WDc1Y2V4WERKQVZnejdBeG1uV2ZLc0FpZE00cXhvcEM0UVBpWU94azBIODRCc0Q4UVJaTnFsR0RCMU9UYVpwdWY0ckViWDRBaEp3S3RDYW00SXVoOTRLclR3enBvMU56d0l2WmY1cXhzOEVYbjdDZm1ZYU00QUpiNkZmMXc?oc=5",
-      "fecha": "2026-11-17T21:35:18.000Z",
-      "resumen_corto": "Nvidia bate previsiones al duplicar los ingresos y los beneficios, y defiende el poder de su tecnología EL PAÍS",
-      "resumen_largo": "Nvidia bate previsiones al duplicar los ingresos y los beneficios, y defiende el poder de su tecnología EL PAÍS",
-      "texto_original": "Nvidia bate previsiones al duplicar los ingresos y los beneficios, y defiende el poder de su tecnología EL PAÍS",
+      "titulo": "\"Aquí están los 4 trabajos que resistirán a la Inteligencia Artificial\". Las predicciones de Bill Gates y el plan de Microsoft. - Genbeta",
+      "titulo_original": "\"Aquí están los 4 trabajos que resistirán a la Inteligencia Artificial\". Las predicciones de Bill Gates y el plan de Microsoft. - Genbeta",
+      "enlace": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPelNuSjZHM1V2R050aDBlNUFNOFRGc2VyVGxmejhzbkpsMmZCeGhRbHl6RkhwRkE1akxZaElsSDJuS19CeXRQanhGTjUtYlJhQUtNcXRBalVLMFhXWklMSTlqblp3elFqdldianRjWDl2aWYzTWtaZ0gtLW5vNTlZcFY3MVFvRldjTDUxaHZwc0JVWkhWMFlDeWNOYlJwZ1JyLWZrVUJaZl9KblVhTHVDbmQxQ0laNERUZm0tT0hKd1FxV2tBeThQaXZTTll5SzMxSTZPbjh0b0JwcVJPYnZ1VVY4MNIB6AFBVV95cUxNZjlOOVVxbHFJamgxYnVyVHVSeXBmaWNKRWRVMVdRTDhyU25ENmhrMHZKSGVzQWM0dllVMnMzUVVzOVJsUVFlY0lTOWxrT0tPeW1YTnMwMkI2MDVNRjJrNDE0am1fSTRremVFN0ZLY1hmZTNfTE0zbEhBTFhMVW5NQVR3YXlpRjZZOWhRUm1FelFQOWJraHVVSnV2TDV3YUJWaDRvaTVEa2pPZFpfd1pmeURDTFRTQW1xUG1pLXp6R3drX2s2OHlYOGlMWHZqX2JxYVd5MVB6Q0pQTVNKQmdRQm9aLTdUMjda?oc=5",
+      "fecha": "2026-11-18T15:01:15.000Z",
+      "resumen_corto": "\"Aquí están los 4 trabajos que resistirán a la Inteligencia Artificial\".",
+      "resumen_largo": "\"Aquí están los 4 trabajos que resistirán a la Inteligencia Artificial\". Las predicciones de Bill Gates y el plan de Microsoft.",
+      "texto_original": "\"Aquí están los 4 trabajos que resistirán a la Inteligencia Artificial\". Las predicciones de Bill Gates y el plan de Microsoft. Genbeta",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-18T17:55:18.226Z",
-        "index": 35,
+        "processed_at": "2026-11-19T00:02:31.934Z",
+        "index": 11,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -2165,19 +2095,13 @@
         "idioma_detectado": "es",
         "idioma_original": "es",
         "categoria": "inteligencia_artificial",
-        "categorias_secundarias": [
-          "vehiculos_energia",
-          "tecnologia",
-          "moviles"
-        ],
+        "categorias_secundarias": [],
         "category_scores": {
-          "inteligencia_artificial": 2,
-          "vehiculos_energia": 2,
-          "tecnologia": 2,
-          "moviles": 1
+          "inteligencia_artificial": 3
         },
         "entidades": [
-          "NVIDIA"
+          "Microsoft",
+          "Genbeta"
         ],
         "cifras_detectadas": [],
         "content_type": "news",
@@ -2193,12 +2117,12 @@
           "url_count": 0
         },
         "calidad": 80,
-        "relevancia": 62,
+        "relevancia": 60,
         "confiabilidad_fuente": 53,
         "readability": {
-          "words": 60,
-          "sentences": 1,
-          "average_words_per_sentence": 60
+          "words": 67,
+          "sentences": 10,
+          "average_words_per_sentence": 6.7
         },
         "duplicate": {
           "detected": false,
@@ -2207,10 +2131,10 @@
           "similar_to": null
         }
       },
-      "final_score": 66.05
+      "final_score": 65.25
     },
     {
-      "id": "2d50ce637794a341",
+      "id": "0fccc47712afbede",
       "fuente_id": "xataka_google",
       "fuente_nombre": "Xataka",
       "tipo": "rss_web",
@@ -2222,17 +2146,17 @@
       "prioridad_fuente": 4,
       "analizar": true,
       "resumir": true,
-      "titulo": "'GTA VI' es monumental y ya hay quien dice que es el mejor juego de la historia. Un juego de 1998 acaba de levantar la ceja",
-      "titulo_original": "'GTA VI' es monumental y ya hay quien dice que es el mejor juego de la historia. Un juego de 1998 acaba de levantar la ceja - Xataka",
-      "enlace": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQUVdBeXFHaU9rV045MHdZbUdVc2ZQcXBycjNNQlRwRW13YlVNWnRlWW5qalZJMXhRMGdUbTNUdU9ld1VGTVpKTWt4UWlocm9EME9aMGpyY1pSSDlURmlIS2tqS3NiMlZTSnZ0SjFmMV9hMXVjdl9Oc1Y0SDIwWUw2NlY5SjJCYkFBcktfNlFqLWI3TjFuMHJhdHBZenplckhfVEVFZXFSQ3ppREZWVWxvZEE2MGRqQnpVdHh5V0RnOGfSAcYBQVVfeXFMT0hpU1RLSkJRcWQwazJpQjhoc1FFbVZxSmVTVnRTQUdvWHBQYkFKbzFXSUdSdktaZTJlUDNNSldnWmNKUWNXVGM4ZFo4RlpiVlMxaXZMS1JFSFlUMVFtaVlRTkFwZXVoUG8zQ05Nbkw2R3hyNDAtRDlldXpuSDZraDNwMEZROTdsSE5WcS1tWWlCbC1KeDc0cjNZS3NBNXgxUmdnX2NvXzhCZEhHSGZUV0RYUnppN1A1R3U3M2N4bGRlaV9udmVR?oc=5",
-      "fecha": "2026-11-18T15:31:14.000Z",
-      "resumen_corto": "Un juego de 1998 acaba de levantar la ceja Xataka",
-      "resumen_largo": "'GTA VI' es monumental y ya hay quien dice que es el mejor juego de la historia. Un juego de 1998 acaba de levantar la ceja Xataka",
-      "texto_original": "'GTA VI' es monumental y ya hay quien dice que es el mejor juego de la historia. Un juego de 1998 acaba de levantar la ceja Xataka",
+      "titulo": "Un día sin Outlook y un fallo en cadena: ya sabemos cómo se gestó la gran caída de Microsoft de los últimos días",
+      "titulo_original": "Un día sin Outlook y un fallo en cadena: ya sabemos cómo se gestó la gran caída de Microsoft de los últimos días - Xataka",
+      "enlace": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPLWZTMTNOR0NYc0xNTVB2LWZFZV9jb0pmMmIwelZ6cWhfQUtUam9ybTdfQzd3aFBfeUFwWXp4bzduV3ZiSExadEtnMG9iWThERUxqdTIwMGc3WmdDOGpfdVpDVWhMQ05WR3pwZ3RieHRuR25DT2NnUHgtZDZpV3d0ZnE1dTY3SWMycVFVdzdHWUhldXlFbUhlWl9NMXkxMnpoMUlMSHpwTWROajlsNmpMdnpMcVJDNGtmSmxNODZfWW5wQdIBxwFBVV95cUxOYnlPbzQ0LThtQk9SN1RYS0NtdDRid0dMbVFzc2VxYTFYd0JDLW5ZelJqUU5INXptdEhjM1phdEV2ZUo2Y3M1aE9yeDUyanl6YTdPSFdLanRTWHQwS1NKc2VCUHFKYTR5SnNoc01wdlNtSk9NdmtTdDFvVllKSllWQWxUcEFIUkNSSm9UTUdQMDZaWUpsN0U1S1VBeHpYRWZlWDNxdnpBODNCY09qUmFSOHFUSXQ3aEZqZ1JkaFpDR0ZzbkowVjNR?oc=5",
+      "fecha": "2026-11-16T13:23:00.000Z",
+      "resumen_corto": "Un día sin Outlook y un fallo en cadena: ya sabemos cómo se gestó la gran caída de Microsoft de los últimos días Xataka",
+      "resumen_largo": "Un día sin Outlook y un fallo en cadena: ya sabemos cómo se gestó la gran caída de Microsoft de los últimos días Xataka",
+      "texto_original": "Un día sin Outlook y un fallo en cadena: ya sabemos cómo se gestó la gran caída de Microsoft de los últimos días Xataka",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-18T17:55:18.209Z",
-        "index": 3,
+        "processed_at": "2026-11-19T00:02:31.961Z",
+        "index": 45,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -2240,18 +2164,150 @@
         "idioma_detectado": "es",
         "idioma_original": "es",
         "categoria": "inteligencia_artificial",
-        "categorias_secundarias": [
-          "vehiculos_energia"
-        ],
+        "categorias_secundarias": [],
         "category_scores": {
-          "inteligencia_artificial": 1,
-          "vehiculos_energia": 1
+          "inteligencia_artificial": 2
+        },
+        "entidades": [
+          "Microsoft",
+          "Xataka"
+        ],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 82,
+        "relevancia": 60,
+        "confiabilidad_fuente": 50,
+        "readability": {
+          "words": 74,
+          "sentences": 1,
+          "average_words_per_sentence": 74
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 65.2
+    },
+    {
+      "id": "eaeece0b4e5a5b66",
+      "fuente_id": "bbc_mundo",
+      "fuente_nombre": "BBC Mundo",
+      "tipo": "rss_web",
+      "subtipo": "medio_generalista",
+      "grupo_fuente": "bbc",
+      "nivel_fuente": "medio_profesional",
+      "categoria": "actualidad",
+      "idioma_original": "es",
+      "prioridad_fuente": 5,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Hegseth alardea de la captura de Maduro en la primera visita a Venezuela de un secretario de Defensa de EE.UU. en décadas",
+      "titulo_original": "Hegseth alardea de la captura de Maduro en la primera visita a Venezuela de un secretario de Defensa de EE.UU. en décadas",
+      "enlace": "https://www.bbc.com/mundo/articles/cw30gd28rjn9o?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-11-18T23:11:04.000Z",
+      "resumen_corto": "El secretario de Defensa de EE.UU.",
+      "resumen_largo": "El secretario de Defensa de EE.UU. visitó Venezuela para firmar un acuerdo de cooperación militar.",
+      "texto_original": "El secretario de Defensa de EE.UU. visitó Venezuela para firmar un acuerdo de cooperación militar.",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-11-19T00:02:31.930Z",
+        "index": 2,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "militar",
+        "categorias_secundarias": [],
+        "category_scores": {
+          "militar": 2
+        },
+        "entidades": [],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 79,
+        "relevancia": 50,
+        "confiabilidad_fuente": 70,
+        "readability": {
+          "words": 40,
+          "sentences": 12,
+          "average_words_per_sentence": 3.33
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 65.15
+    },
+    {
+      "id": "5c339c78add8cf94",
+      "fuente_id": "xataka_google",
+      "fuente_nombre": "Xataka",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "xataka",
+      "nivel_fuente": "medio_especializado",
+      "categoria": "tecnologia",
+      "idioma_original": "es",
+      "prioridad_fuente": 4,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Los 90 productos tecnológicos del año: estos son los ganadores de los Premios Xataka Verisure 2026",
+      "titulo_original": "Los 90 productos tecnológicos del año: estos son los ganadores de los Premios Xataka Verisure 2026 - Xataka",
+      "enlace": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNZ1RxV1lUSUhNQURJbEdaaU5odDJPR1otZ0UwYjhTVGJnR0NiM2V1SkJWeHV3SDNLbDlfYm0yMXpoWnQxcmpmU0hHT19GeTZOcFBWLW96YXEzbnV6OFJLLUNmcHE0NDM2S3ZKbm90STR2YVY4U2l6QldRZFNVbUxrZ3NSRjZHLXZDQWVBSXBNNGZEVkRTcjBEbUxLRjl2SnlQRUtoeXVYQdIBrAFBVV95cUxQNUZvb2JkSVkwVXY5bGVFM0RUUUNCWVJWNnNfMFo3cTF3Yi1sUUpYZ2psTFd4Tk45WmlIbGFzeHFTQUZRSmxwM002bE8teThiX0MwZ09zd2txQkNKdXh3SGc1WkFsZm9jZzJpVlU0NXdIWGExQTAzaVJka2JpMUtqUEItLVFLWFREc2xCY0RtQmdUdlZZUzgyeXNiaVdNTkZtMVVYVE9wYWxHeG9E?oc=5",
+      "fecha": "2026-11-17T22:04:00.000Z",
+      "resumen_corto": "Los 90 productos tecnológicos del año: estos son los ganadores de los Premios Xataka Verisure 2026 Xataka",
+      "resumen_largo": "Los 90 productos tecnológicos del año: estos son los ganadores de los Premios Xataka Verisure 2026 Xataka",
+      "texto_original": "Los 90 productos tecnológicos del año: estos son los ganadores de los Premios Xataka Verisure 2026 Xataka",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-11-19T00:02:31.956Z",
+        "index": 37,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "moviles",
+        "categorias_secundarias": [],
+        "category_scores": {
+          "moviles": 1
         },
         "entidades": [
           "Xataka"
         ],
         "cifras_detectadas": [
-          "1998"
+          "2026"
         ],
         "content_type": "news",
         "clickbait": {
@@ -2269,9 +2325,9 @@
         "relevancia": 55,
         "confiabilidad_fuente": 50,
         "readability": {
-          "words": 65,
-          "sentences": 5,
-          "average_words_per_sentence": 13
+          "words": 74,
+          "sentences": 1,
+          "average_words_per_sentence": 74
         },
         "duplicate": {
           "detected": false,
@@ -2283,7 +2339,7 @@
       "final_score": 64.95
     },
     {
-      "id": "ebaffe3101c690eb",
+      "id": "4bd84666076e41be",
       "fuente_id": "resumen_militar",
       "fuente_nombre": "El Resumen Militar",
       "tipo": "telegram",
@@ -2295,17 +2351,17 @@
       "prioridad_fuente": 3,
       "analizar": true,
       "resumir": true,
-      "titulo": "🇷🇺 🇺🇸 The Kremlin has indicated that Russian President Vladimir Putin and Donald Trump are likely to engage in informal discussions during the APEC summit. ➡️ According to Kremlin spokesman Dmitry Peskov, the two par",
-      "titulo_original": "🇷🇺 🇺🇸 The Kremlin has indicated that Russian President Vladimir Putin and Donald Trump are likely to engage in informal discussions during the APEC summit. ➡️ According to Kremlin spokesman Dmitry Peskov, the two par",
-      "enlace": "https://t.me/elresumenmilitar/103461",
-      "fecha": "2026-11-18T11:18:14.000Z",
-      "resumen_corto": "➡️ According to Kremlin spokesman Dmitry Peskov, the two parties have not yet finalized a schedule for a bilateral meeting in Shenzhen.",
-      "resumen_largo": "🇷🇺 🇺🇸 The Kremlin has indicated that Russian President Vladimir Putin and Donald Trump are likely to engage in informal discussions during the APEC summit. ➡️ According to Kremlin spokesman Dmitry Peskov, the two parties have not yet finalized a schedule for a bilateral meeting in Shenzhen. He noted that the presidents would likely converse briefly at the summit unless an alternative format is agreed upon.",
-      "texto_original": "🇷🇺 🇺🇸 The Kremlin has indicated that Russian President Vladimir Putin and Donald Trump are likely to engage in informal discussions during the APEC summit. ➡️ According to Kremlin spokesman Dmitry Peskov, the two parties have not yet finalized a schedule for a bilateral meeting in Shenzhen. He noted that the presidents would likely converse briefly at the summit unless an alternative format is agreed upon. ➡️ Peskov stated that Ukraine is expected to be the primary subject of their dialogue, with potential discussions regarding Iran if time permits. Previously, Kremlin aide Yury Ushakov mentioned that Putin and Trump would hold multiple conversations during the summit. Additionally, a trilateral meeting involving Chinese President Xi Jinping is scheduled for November 19. ➡️ Regarding the G20 summit in Miami on December 14–15, Peskov stated that President Putin’s attendance depends on various conditions. The Kremlin previously announced in July that Russia would be represented at a high level at the event. 🔴 @DDGeopolitics",
+      "titulo": "🇷🇺 Putin brought the nuclear briefcase to the summit in China Putin's military aide confirmed to Russian reporters that the \"nuclear briefcase\" travelled with the president to the summit in China. Asked whether the cas",
+      "titulo_original": "🇷🇺 Putin brought the nuclear briefcase to the summit in China Putin's military aide confirmed to Russian reporters that the \"nuclear briefcase\" travelled with the president to the summit in China. Asked whether the cas",
+      "enlace": "https://t.me/elresumenmilitar/103474",
+      "fecha": "2026-11-18T14:33:14.000Z",
+      "resumen_corto": "🇷🇺 Putin brought the nuclear briefcase to the summit in China Putin's military aide confirmed to Russian reporters that the \"nuclear briefcase\" travelled with the president to the summit in China.",
+      "resumen_largo": "🇷🇺 Putin brought the nuclear briefcase to the summit in China Putin's military aide confirmed to Russian reporters that the \"nuclear briefcase\" travelled with the president to the summit in China. Asked whether the case he was carrying was the real one, he answered: \"The real one.\" 🔴 @DDGeopolitics",
+      "texto_original": "🇷🇺 Putin brought the nuclear briefcase to the summit in China Putin's military aide confirmed to Russian reporters that the \"nuclear briefcase\" travelled with the president to the summit in China. Asked whether the case he was carrying was the real one, he answered: \"The real one.\" 🔴 @DDGeopolitics",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-18T17:55:18.219Z",
-        "index": 18,
+        "processed_at": "2026-11-19T00:02:31.938Z",
+        "index": 15,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -2314,11 +2370,13 @@
         "idioma_original": "es",
         "categoria": "inteligencia_artificial",
         "categorias_secundarias": [
+          "militar",
           "actualidad",
           "vehiculos_energia"
         ],
         "category_scores": {
           "inteligencia_artificial": 2,
+          "militar": 2,
           "actualidad": 2,
           "vehiculos_energia": 1
         },
@@ -2340,9 +2398,9 @@
         "relevancia": 65,
         "confiabilidad_fuente": 55,
         "readability": {
-          "words": 254,
-          "sentences": 15,
-          "average_words_per_sentence": 16.93
+          "words": 163,
+          "sentences": 8,
+          "average_words_per_sentence": 20.38
         },
         "duplicate": {
           "detected": false,
@@ -2375,8 +2433,8 @@
       "texto_original": "'GTA VI' es el juego más grande de la historia. La pregunta es si también será una buena base para los que están por venir Xataka",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-18T17:55:18.213Z",
-        "index": 9,
+        "processed_at": "2026-11-19T00:02:31.942Z",
+        "index": 20,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -2443,8 +2501,8 @@
       "texto_original": "Juan Manuel Rojas, arquitecto: “Si hoy tuviésemos albañiles como los que hicieron la Plaza de España, yo diseñaría una plaza así” Genbeta",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-18T17:55:18.215Z",
-        "index": 12,
+        "processed_at": "2026-11-19T00:02:31.944Z",
+        "index": 22,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -2511,8 +2569,8 @@
       "texto_original": "Grand Theft Auto VI Review – 90 Hours In Leonida Make This The Greatest Crime Simulator Yet, Even Locked At 30 FPS On Console Wccftech",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-18T17:55:18.219Z",
-        "index": 19,
+        "processed_at": "2026-11-19T00:02:31.947Z",
+        "index": 26,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -2561,74 +2619,6 @@
       "final_score": 63.2
     },
     {
-      "id": "6bd7ef614c05b5ac",
-      "fuente_id": "xataka_google",
-      "fuente_nombre": "Xataka",
-      "tipo": "rss_web",
-      "subtipo": "google_news",
-      "grupo_fuente": "xataka",
-      "nivel_fuente": "medio_especializado",
-      "categoria": "tecnologia",
-      "idioma_original": "es",
-      "prioridad_fuente": 4,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "Cuando un coche te enamora y no sabes por qué: los secretos del diseño explicados por una experta",
-      "titulo_original": "Cuando un coche te enamora y no sabes por qué: los secretos del diseño explicados por una experta - Xataka",
-      "enlace": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQdExveTlUdjh4eUNlSVlzdnVwLUQtQWdWdTdfRGdnbVd2aldzU2RsajdCSnZkbmdhS01kU2xxVGpkdldkalNCdmdlM21KQmN4SU95LWRoZ2JxTDJ0cXZFc2NUb1k0VEptdk04cktTNlE1MnM3RUtOc3U3QkNLX3VCNi1yanVJaERQbGZJbWNuUkk4ZHRDTjM3UDA1c3g?oc=5",
-      "fecha": "2026-11-18T09:24:53.000Z",
-      "resumen_corto": "Cuando un coche te enamora y no sabes por qué: los secretos del diseño explicados por una experta Xataka",
-      "resumen_largo": "Cuando un coche te enamora y no sabes por qué: los secretos del diseño explicados por una experta Xataka",
-      "texto_original": "Cuando un coche te enamora y no sabes por qué: los secretos del diseño explicados por una experta Xataka",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-11-18T17:55:18.221Z",
-        "index": 24,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "es",
-        "categoria": "vehiculos_energia",
-        "categorias_secundarias": [],
-        "category_scores": {
-          "vehiculos_energia": 1
-        },
-        "entidades": [
-          "Xataka"
-        ],
-        "cifras_detectadas": [],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 82,
-        "relevancia": 55,
-        "confiabilidad_fuente": 50,
-        "readability": {
-          "words": 74,
-          "sentences": 1,
-          "average_words_per_sentence": 74
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 63.2
-    },
-    {
       "id": "b3ee64f46935fb5d",
       "fuente_id": "genbeta_google",
       "fuente_nombre": "Genbeta",
@@ -2650,8 +2640,8 @@
       "texto_original": "Ha entrado en vigor: los propietarios que vendan la vivienda deberán indemnizar a los inquilinos que residan en ella Genbeta",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-18T17:55:18.221Z",
-        "index": 27,
+        "processed_at": "2026-11-19T00:02:31.949Z",
+        "index": 30,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -2718,8 +2708,8 @@
       "texto_original": "La herramienta española de 'pentesting' con inteligencia artificial Expansión",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-18T17:55:18.207Z",
-        "index": 1,
+        "processed_at": "2026-11-19T00:02:31.933Z",
+        "index": 9,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -2778,17 +2768,17 @@
       "prioridad_fuente": 3,
       "analizar": true,
       "resumir": true,
-      "titulo": "EL RC DEPORTIVO INCORPORA LA TECNOLOGÍA DE SOCCERSOLVER A SU OPERATIVA DEPORTIVA - Deportivo de La Coruña",
-      "titulo_original": "EL RC DEPORTIVO INCORPORA LA TECNOLOGÍA DE SOCCERSOLVER A SU OPERATIVA DEPORTIVA - Deportivo de La Coruña",
+      "titulo": "EL RC DEPORTIVO INCORPORA LA TECNOLOGÍA DE SOCCERSOLVER A SU OPERATIVA DEPORTIVA - RC Deportivo",
+      "titulo_original": "EL RC DEPORTIVO INCORPORA LA TECNOLOGÍA DE SOCCERSOLVER A SU OPERATIVA DEPORTIVA - RC Deportivo",
       "enlace": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQX09kTE1FR1Y2ZDdrZkJ3dHpPRDk2dUVTZGVueERMdlZqalpMZUgyUGZOcW4zSUdncVFpYklBQVZmUWZzUTBnNG9rNEhKbTFVWHBNUG5HdGRoMnNRR2JrWGFyYTlfSmx2YURaM2dxaENWWjBZQXlZNlpBUHBKMlF5MzFlQjlNYjFaSjJvbFBlWlF6VnlYdnowblQ1LUFfOGRKWGlYV1BQZzBxSGx5LW9KdW0zdDF0cVhlb0VV?oc=5",
       "fecha": "2026-11-18T15:49:03.000Z",
-      "resumen_corto": "EL RC DEPORTIVO INCORPORA LA TECNOLOGÍA DE SOCCERSOLVER A SU OPERATIVA DEPORTIVA Deportivo de La Coruña",
-      "resumen_largo": "EL RC DEPORTIVO INCORPORA LA TECNOLOGÍA DE SOCCERSOLVER A SU OPERATIVA DEPORTIVA Deportivo de La Coruña",
-      "texto_original": "EL RC DEPORTIVO INCORPORA LA TECNOLOGÍA DE SOCCERSOLVER A SU OPERATIVA DEPORTIVA Deportivo de La Coruña",
+      "resumen_corto": "EL RC DEPORTIVO INCORPORA LA TECNOLOGÍA DE SOCCERSOLVER A SU OPERATIVA DEPORTIVA RC Deportivo",
+      "resumen_largo": "EL RC DEPORTIVO INCORPORA LA TECNOLOGÍA DE SOCCERSOLVER A SU OPERATIVA DEPORTIVA RC Deportivo",
+      "texto_original": "EL RC DEPORTIVO INCORPORA LA TECNOLOGÍA DE SOCCERSOLVER A SU OPERATIVA DEPORTIVA RC Deportivo",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-18T17:55:18.208Z",
-        "index": 2,
+        "processed_at": "2026-11-19T00:02:31.933Z",
+        "index": 10,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -2823,9 +2813,9 @@
         "relevancia": 57,
         "confiabilidad_fuente": 53,
         "readability": {
-          "words": 40,
+          "words": 35,
           "sentences": 1,
-          "average_words_per_sentence": 40
+          "average_words_per_sentence": 35
         },
         "duplicate": {
           "detected": false,
@@ -2837,29 +2827,29 @@
       "final_score": 62.3
     },
     {
-      "id": "8dc03559a0c55b73",
-      "fuente_id": "ia_dia",
-      "fuente_nombre": "IA al Día",
+      "id": "e66e77b87503ff99",
+      "fuente_id": "google_news_es",
+      "fuente_nombre": "Google News ES",
       "tipo": "rss_web",
       "subtipo": "google_news",
-      "grupo_fuente": "ia_general",
+      "grupo_fuente": "google_news",
       "nivel_fuente": "agregador",
-      "categoria": "inteligencia_artificial",
+      "categoria": "tecnologia",
       "idioma_original": "es",
       "prioridad_fuente": 3,
       "analizar": true,
       "resumir": true,
-      "titulo": "La Xunta expone en el País Vasco los usos de la inteligencia artificial en las políticas activas de empleo de Galicia - Xunta de Galicia",
-      "titulo_original": "La Xunta expone en el País Vasco los usos de la inteligencia artificial en las políticas activas de empleo de Galicia - Xunta de Galicia",
-      "enlace": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNUlRpeVZwUUFYRVZoS3RxWDJRS0hVSG5wMmJ1NlZqUTREWjRTNFlrWjI1YVBiQ19RSVNnSTVfUElJamJXWnVxamZQRTVpbWR1LWNvOUNDLUhldE9HQjFWMWI0VzRkUG83eEM4VGpNcno1S2xGbFVHVVEwZmN2QkhMLXFEd1VlZkZmOU1aLTF2V0gtZ1ZWYUJwOEpuTWd0WC05bzB5RkhQX2VWN2pHNUZuaGM4VVZMYllBZzVWUTB0Z1BxYW41OEZlc0RKN2VuUQ?oc=5",
-      "fecha": "2026-11-18T12:18:56.000Z",
-      "resumen_corto": "La Xunta expone en el País Vasco los usos de la inteligencia artificial en las políticas activas de empleo de Galicia Xunta de Galicia",
-      "resumen_largo": "La Xunta expone en el País Vasco los usos de la inteligencia artificial en las políticas activas de empleo de Galicia Xunta de Galicia",
-      "texto_original": "La Xunta expone en el País Vasco los usos de la inteligencia artificial en las políticas activas de empleo de Galicia Xunta de Galicia",
+      "titulo": "Nike Tuned Air: así es la tecnología con la que Nike quiere reinventar Air para los próximos 50 años - GQ España",
+      "titulo_original": "Nike Tuned Air: así es la tecnología con la que Nike quiere reinventar Air para los próximos 50 años - GQ España",
+      "enlace": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNM0VRVkxZSGktV0hoOWc1M2VtUGpRM3VFMlZiQjZER1NHSmx6aG5pMVFiMnE1WlFNcF8yWDVLMS1zZHdSMW5KVVo4UkhoRl9KcmtneFBJSjVVMnRTTGYwZF9mSUlWYS1DWUZ0YUV1ZGJGLVBfaVZvcVE1Z05rbE1DQjdPRWNRRGRpYmcteDgwTWZmZEZOYUpFTWZEeGg0Qmk4VVVvd3NFT0RtRFpLV3JlTkJXZTFoUUs0a3p3RllCcENlMmM2VktBUnFrR01vZGc?oc=5",
+      "fecha": "2026-11-18T11:32:46.000Z",
+      "resumen_corto": "Nike Tuned Air: así es la tecnología con la que Nike quiere reinventar Air para los próximos 50 años GQ España",
+      "resumen_largo": "Nike Tuned Air: así es la tecnología con la que Nike quiere reinventar Air para los próximos 50 años GQ España",
+      "texto_original": "Nike Tuned Air: así es la tecnología con la que Nike quiere reinventar Air para los próximos 50 años GQ España",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-18T17:55:18.214Z",
-        "index": 11,
+        "processed_at": "2026-11-19T00:02:31.946Z",
+        "index": 24,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -2868,11 +2858,11 @@
         "idioma_original": "es",
         "categoria": "inteligencia_artificial",
         "categorias_secundarias": [
-          "actualidad"
+          "tecnologia"
         ],
         "category_scores": {
-          "inteligencia_artificial": 4,
-          "actualidad": 2
+          "inteligencia_artificial": 2,
+          "tecnologia": 2
         },
         "entidades": [],
         "cifras_detectadas": [],
@@ -2892,9 +2882,9 @@
         "relevancia": 57,
         "confiabilidad_fuente": 53,
         "readability": {
-          "words": 75,
+          "words": 80,
           "sentences": 1,
-          "average_words_per_sentence": 75
+          "average_words_per_sentence": 80
         },
         "duplicate": {
           "detected": false,
@@ -2927,8 +2917,8 @@
       "texto_original": "Prosegur lanza HR Tech, un modelo de tecnología propia capaz de automatizar y optimizar la gestión de los Recursos Humanos La Vanguardia",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-18T17:55:18.220Z",
-        "index": 23,
+        "processed_at": "2026-11-19T00:02:31.948Z",
+        "index": 28,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -2977,76 +2967,7 @@
       "final_score": 62.3
     },
     {
-      "id": "53f7db66e5f64d33",
-      "fuente_id": "ia_dia",
-      "fuente_nombre": "IA al Día",
-      "tipo": "rss_web",
-      "subtipo": "google_news",
-      "grupo_fuente": "ia_general",
-      "nivel_fuente": "agregador",
-      "categoria": "inteligencia_artificial",
-      "idioma_original": "es",
-      "prioridad_fuente": 3,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "Jerez acogerá el I encuentro tecnológico ‘DevFest’ sobre Inteligencia Artificial y Desarrollo el sábado 21 en el Palacio de Villapanés - Ayuntamiento de Jerez",
-      "titulo_original": "Jerez acogerá el I encuentro tecnológico ‘DevFest’ sobre Inteligencia Artificial y Desarrollo el sábado 21 en el Palacio de Villapanés - Ayuntamiento de Jerez",
-      "enlace": "https://news.google.com/rss/articles/CBMihwJBVV95cUxQd3k2Mk94T3VPXzdzMmJ0MV9pSGR2Q1NjMF85MnFyOGVuVDMyQ09lSDdnTlJvWlJPNlB5R0NfcUQ4YTJLTXZEb0hEaDZWYl9mN1M5MkVGM19rbklCSWpLUmFvZ3BVX2g0SHZ6cEEzT0FobVJ1aHdOSjUtemJydlVRNkNFVEhGUFVyWUF5WDV6bUg2WUpmb2VveXF2Mm1iWTh2Rjlab19tOEZSbHd3al9PUnFOOEJfcjQ4ZDN2NUtydldYRmplWlp3VzZFVnNURGcxMS16bG5MNlAxQ3IwMlZLUG5GdmV3bHRidWYxbGJNNV8xLTJyWGNnWFpsWmlBeFFSUXJQR21Rdw?oc=5",
-      "fecha": "2026-11-18T06:40:17.000Z",
-      "resumen_corto": "Jerez acogerá el I encuentro tecnológico ‘DevFest’ sobre Inteligencia Artificial y Desarrollo el sábado 21 en el Palacio de Villapanés Ayuntamiento de Jerez",
-      "resumen_largo": "Jerez acogerá el I encuentro tecnológico ‘DevFest’ sobre Inteligencia Artificial y Desarrollo el sábado 21 en el Palacio de Villapanés Ayuntamiento de Jerez",
-      "texto_original": "Jerez acogerá el I encuentro tecnológico ‘DevFest’ sobre Inteligencia Artificial y Desarrollo el sábado 21 en el Palacio de Villapanés Ayuntamiento de Jerez",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-11-18T17:55:18.222Z",
-        "index": 29,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "es",
-        "categoria": "inteligencia_artificial",
-        "categorias_secundarias": [
-          "vehiculos_energia"
-        ],
-        "category_scores": {
-          "inteligencia_artificial": 3,
-          "vehiculos_energia": 1
-        },
-        "entidades": [],
-        "cifras_detectadas": [],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 75,
-        "relevancia": 57,
-        "confiabilidad_fuente": 53,
-        "readability": {
-          "words": 70,
-          "sentences": 1,
-          "average_words_per_sentence": 70
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 62.3
-    },
-    {
-      "id": "b4e45b1d32716f65",
+      "id": "65f029ee09af28a6",
       "fuente_id": "genbeta_google",
       "fuente_nombre": "Genbeta",
       "tipo": "rss_web",
@@ -3058,17 +2979,17 @@
       "prioridad_fuente": 4,
       "analizar": true,
       "resumir": true,
-      "titulo": "Entró en vigor: Es obligatorio tener en casa un protocolo de riesgos laborales para el servicio doméstico",
-      "titulo_original": "Entró en vigor: Es obligatorio tener en casa un protocolo de riesgos laborales para el servicio doméstico - Genbeta",
-      "enlace": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNZEFqdFBENEtWeG5TUmhwTHRlM3QzU1hmam5SVUp1eVpTYVR5MzNIdHpOZXdpeGhQdWxiQWVGN3lEbFBYbzlzTVp4MVZrMk9qanh1V0d4WTI1VjhaRUFYTTJYR1otYk1JN3dadE5kRDF5dkdXOU5hUzc5TjZhX25CTkg1LXNvMnBKVHZhVHZTQnJPaVdoZDljTXZpRl9YWEVyMzkxcFNrZ3V4MUhadFUzVlR2TVo0OWlHV3fSAb8BQVVfeXFMT2JxVVlfM0N5VkJlVG5tMjJQUDg3ZTZoQjZIVEhZMk1vSEtuOHFwaUV1YmZnWUtDVW1aR09tdktzUmFXYTd2Y3NXeEJ5U1k4T0Eyeko2V24xaE55d19nRmM3b3BUMHJxeG90S0I2bWZYSjZSa0tKWm1iNUV5TjhVeFpWbXJ4NVItTlphOFg5aGpEYkM4YktWRjhqdTRfbVdmc0REdUlVV3FpVTNVZ0hFMFlJTG1rbWM1ZVlaVDFZd3c?oc=5",
-      "fecha": "2026-11-15T10:01:26.000Z",
-      "resumen_corto": "Entró en vigor: Es obligatorio tener en casa un protocolo de riesgos laborales para el servicio doméstico Genbeta",
-      "resumen_largo": "Entró en vigor: Es obligatorio tener en casa un protocolo de riesgos laborales para el servicio doméstico Genbeta",
-      "texto_original": "Entró en vigor: Es obligatorio tener en casa un protocolo de riesgos laborales para el servicio doméstico Genbeta",
+      "titulo": "Luis Tosar, actor, 54 años: “Me produce mucha tristeza que ahora haya niños por ahí hablando de Franco, reivindicando su figura”",
+      "titulo_original": "Luis Tosar, actor, 54 años: “Me produce mucha tristeza que ahora haya niños por ahí hablando de Franco, reivindicando su figura” - Genbeta",
+      "enlace": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQaWx0S21Dak5Vd2RRamdUa19TajhnNnFhYUdidEdWeUl4NFVSaG5xY0NGbGRzUmdzeU45TE5XWF8xZzRmMV9PdnYtd3YxSnQ3WldUSHk5bUhPc0pYNGY0ZU45ZWNqRjNCM0JXeVdfNkV2ckpUU1dJcUJPdU1MUURuR3FxRmZxY3JqcE1HYV8zbU9mQ2NRbldXdzB6SWFyTWwzTy1SNVdFTlRSaXVoQ1ozWE1GQ2RYTlJ6MW5qUHpYSTJNR1hWUmRrTDlPczNjMTNHcmZJNjVZWEl0bW5haThV0gHkAUFVX3lxTE41YlYyZ3AwbUtRbW5aODZzNXRaSXB4WTBVV0FNWUc5N3ZDaDFoRjNHRDJaTjVrakxVQm5QUWw0dVVIazh0VE1zb0lMUU12eWlRN2NzTFpzeDZfOGRlMGN6c3B3WEhjUGVmVjg2eENCOFc3aFFKX2dVc2V2aldyemg3cHJhV2RUaGk0X0trRDZYU3ZvOGRTZ1I3T0J1SHNBamlKVEE1SEs5RUxzaEMtNmljSzZIdTcwbm82NktiaGFMNVFXVEdNNHNwWWVocC1UdUVfMzlrdGRWWlpKeWJNd3J5RTBnMg?oc=5",
+      "fecha": "2026-11-18T14:01:21.000Z",
+      "resumen_corto": "Luis Tosar, actor, 54 años: “Me produce mucha tristeza que ahora haya niños por ahí hablando de Franco, reivindicando su figura” Genbeta",
+      "resumen_largo": "Luis Tosar, actor, 54 años: “Me produce mucha tristeza que ahora haya niños por ahí hablando de Franco, reivindicando su figura” Genbeta",
+      "texto_original": "Luis Tosar, actor, 54 años: “Me produce mucha tristeza que ahora haya niños por ahí hablando de Franco, reivindicando su figura” Genbeta",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-18T17:55:18.229Z",
-        "index": 45,
+        "processed_at": "2026-11-19T00:02:31.939Z",
+        "index": 17,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -3098,9 +3019,9 @@
         "relevancia": 50,
         "confiabilidad_fuente": 50,
         "readability": {
-          "words": 59,
+          "words": 89,
           "sentences": 1,
-          "average_words_per_sentence": 59
+          "average_words_per_sentence": 89
         },
         "duplicate": {
           "detected": false,
@@ -3112,7 +3033,7 @@
       "final_score": 61.2
     },
     {
-      "id": "eeba9f0ddf67eb85",
+      "id": "e6dfb3d89f6ad59b",
       "fuente_id": "google_news_es",
       "fuente_nombre": "Google News ES",
       "tipo": "rss_web",
@@ -3124,30 +3045,30 @@
       "prioridad_fuente": 3,
       "analizar": true,
       "resumir": true,
-      "titulo": "La Universidad Alfonso X el Sabio anticipa el futuro del trabajo que están perfilando la tecnología y la IA junto a líderes de la industria - El Confidencial",
-      "titulo_original": "La Universidad Alfonso X el Sabio anticipa el futuro del trabajo que están perfilando la tecnología y la IA junto a líderes de la industria - El Confidencial",
-      "enlace": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNXzFZbFh0UUNBVU9uU2d2VG4waFlXUnNOSDVXZFlBbjNyalNKckdWaGl4Z29JanhveU4wT0Fnd2tyS1djdFZLemIyWWV5UU5Vb2ZkNDVsWVk1S0ZxMU5Zc1ByWGhCRU1MUS1Ndm1VdldNOXA4SENyd1RPaTZrejBwa2ZqcDl0ZVJwQ1YzNjh2ck53VlVPRmFyanJsY0NUeG53MlgtUHpn?oc=5",
-      "fecha": "2026-11-18T13:07:00.000Z",
-      "resumen_corto": "La Universidad Alfonso X el Sabio anticipa el futuro del trabajo que están perfilando la tecnología y la IA junto a líderes de la industria El Confidencial",
-      "resumen_largo": "La Universidad Alfonso X el Sabio anticipa el futuro del trabajo que están perfilando la tecnología y la IA junto a líderes de la industria El Confidencial",
-      "texto_original": "La Universidad Alfonso X el Sabio anticipa el futuro del trabajo que están perfilando la tecnología y la IA junto a líderes de la industria El Confidencial",
+      "titulo": "Los puntos ciegos de la ciberseguridad: miles de dispositivos escapan al control de las empresas - Expansión",
+      "titulo_original": "Los puntos ciegos de la ciberseguridad: miles de dispositivos escapan al control de las empresas - Expansión",
+      "enlace": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPaEY0OWdnREFMdlNKVUJwblhsWGpRQi01TmxITGRCbjhfM1pHN3U3dklDYUtKbWZ6elZzZ1pjU1hjV2Uxc0NfTmZuT3NfTTA2bnBBSUVESDdSdWhGalJ1OHNLV0xGdERtRmZ6NXd2NW1BQ3QwaDJjVVRwM2hMQXpPbVRDbzRnMks3b2otVENnc0d5MTZmQzB0MkhTcDlMTzlJVEJMU2RtaUJJYTd4MXQ1d3ZEWS1ma0YxVkVaVnlmU3gwdG_SAcMBQVVfeXFMTjFkT3phanBvOU8xNlVKR05Tdk9NanR0THdIZGZuSkRndnNoLWdXOEFkbUU4WDdSemJqZnFvdEVjdXliRm50QzFwLUwwRjNNV0t1Z3V1YlJ0ZEp1encyTWxoeWotclpBbV9TUTNyUk9HUjNjbGJzTU1HS0NqSkJVdmlXazBkX0hiWm1wXzR5YzdGNHdyRTVzNks4dFVDWFlTdHBWeUVDcWt3ZmRmWHg3OEdibUtHbDFFU21hTVJUM2J2MlZ3?oc=5",
+      "fecha": "2026-11-18T23:42:00.000Z",
+      "resumen_corto": "Los puntos ciegos de la ciberseguridad: miles de dispositivos escapan al control de las empresas Expansión",
+      "resumen_largo": "Los puntos ciegos de la ciberseguridad: miles de dispositivos escapan al control de las empresas Expansión",
+      "texto_original": "Los puntos ciegos de la ciberseguridad: miles de dispositivos escapan al control de las empresas Expansión",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-18T17:55:18.212Z",
-        "index": 7,
+        "processed_at": "2026-11-19T00:02:31.925Z",
+        "index": 0,
         "resumen": {
           "generado": true,
           "origen": "translated"
         },
         "idioma_detectado": "es",
         "idioma_original": "es",
-        "categoria": "tecnologia",
+        "categoria": "software_internet",
         "categorias_secundarias": [
-          "inteligencia_artificial"
+          "tecnologia"
         ],
         "category_scores": {
-          "tecnologia": 2,
-          "inteligencia_artificial": 1
+          "software_internet": 2,
+          "tecnologia": 1
         },
         "entidades": [],
         "cifras_detectadas": [],
@@ -3167,9 +3088,147 @@
         "relevancia": 50,
         "confiabilidad_fuente": 53,
         "readability": {
-          "words": 75,
+          "words": 55,
           "sentences": 1,
-          "average_words_per_sentence": 75
+          "average_words_per_sentence": 55
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 59.5
+    },
+    {
+      "id": "36cb238597b765bb",
+      "fuente_id": "ia_dia",
+      "fuente_nombre": "IA al Día",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "ia_general",
+      "nivel_fuente": "agregador",
+      "categoria": "inteligencia_artificial",
+      "idioma_original": "es",
+      "prioridad_fuente": 3,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Anthropic eleva el precio de la acción a 83 dólares por el fervor del mercado - La Vanguardia",
+      "titulo_original": "Anthropic eleva el precio de la acción a 83 dólares por el fervor del mercado - La Vanguardia",
+      "enlace": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPc2VHQVlvbFpIbGYyN2YxWDVoc0NWbUNpcXlyd2RYVS1MZ3ZoN2lsc2FxbEI5Z3RPNkZxbXVvRWRkaFE4c2dIWWVfcl9MOHAzY3VNSUJzVng5U3NKcC1sdnlVMUJlbHNEajRRYlZmaGNJV1l1QWRVUWNnTmhpNEYyV0RZVEJTMU5heDg3b0c1d1pKLTRxc0hYVzNQdXBYa24yTkZOS3NodnJZY2VENTkwZ0pfSjkxRXfSAbwBQVVfeXFMTUNiYmVGd1AwMjBna1RYWGhHZzVEdnE3OFJ4SUoweWhFeVpEZTdCZUdqd0ZjS2FMRGNUV01vOHNxQ1BhMEtHRTJvVGJtWUk3V2dCcE85UkczUWVoM3RWU3ZIWnRDdDh2Z3psRnRrVGZCc3B4eE50bV9LUldER0RIV0M1WkFQOFZYZUxnNGVNMTZhNUxFdjhjS1ZsUW0taXdBSmNqeFJoRWZmN09ZRWJ3S0RmQjMtS2tVLTdkQms?oc=5",
+      "fecha": "2026-11-18T21:54:13.000Z",
+      "resumen_corto": "Anthropic eleva el precio de la acción a 83 dólares por el fervor del mercado La Vanguardia",
+      "resumen_largo": "Anthropic eleva el precio de la acción a 83 dólares por el fervor del mercado La Vanguardia",
+      "texto_original": "Anthropic eleva el precio de la acción a 83 dólares por el fervor del mercado La Vanguardia",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-11-19T00:02:31.930Z",
+        "index": 3,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "inteligencia_artificial",
+        "categorias_secundarias": [
+          "vehiculos_energia"
+        ],
+        "category_scores": {
+          "inteligencia_artificial": 2,
+          "vehiculos_energia": 1
+        },
+        "entidades": [],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 75,
+        "relevancia": 50,
+        "confiabilidad_fuente": 53,
+        "readability": {
+          "words": 50,
+          "sentences": 1,
+          "average_words_per_sentence": 50
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 59.5
+    },
+    {
+      "id": "57c8fa3d52c9f984",
+      "fuente_id": "ia_dia",
+      "fuente_nombre": "IA al Día",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "ia_general",
+      "nivel_fuente": "agregador",
+      "categoria": "inteligencia_artificial",
+      "idioma_original": "es",
+      "prioridad_fuente": 3,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Los siete fundadores de Anthropic que están a punto de convertirse en multimillonarios - El Mundo",
+      "titulo_original": "Los siete fundadores de Anthropic que están a punto de convertirse en multimillonarios - El Mundo",
+      "enlace": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5ZQ2dMUkJoMm1fU2x4bGtzeXc5dUV5S2h4dTBFNjFQWHgzb0NST0xRYjVqMGdJaDctTlB3a0dJRE9ETWZzSFBrRVdSNGtBSHRXSVc0MllaZzc4dGcyNXNtOVZyUDhLTlJxVWtxM3F5SThCdl9ZNzI5bldtdWvSAXxBVV95cUxPRHQ0a2RkZjBDTmFaX3JPSWE5LXFvWDdJQ0l6OTg0Ri1NYm5ReDlVT2puSlBuOHZqTlVFZjd0Q3lCc0laem9uUC1DUl9rOWd1cEl6QnJnRVBtdkFZMVU5dGdLSWpucW14emd1RWlXWk5hS2dkLU1tdnNLUDVD?oc=5",
+      "fecha": "2026-11-18T21:51:31.000Z",
+      "resumen_corto": "Los siete fundadores de Anthropic que están a punto de convertirse en multimillonarios El Mundo",
+      "resumen_largo": "Los siete fundadores de Anthropic que están a punto de convertirse en multimillonarios El Mundo",
+      "texto_original": "Los siete fundadores de Anthropic que están a punto de convertirse en multimillonarios El Mundo",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-11-19T00:02:31.930Z",
+        "index": 4,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "inteligencia_artificial",
+        "categorias_secundarias": [
+          "moviles"
+        ],
+        "category_scores": {
+          "inteligencia_artificial": 1,
+          "moviles": 1
+        },
+        "entidades": [],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 75,
+        "relevancia": 50,
+        "confiabilidad_fuente": 53,
+        "readability": {
+          "words": 50,
+          "sentences": 1,
+          "average_words_per_sentence": 50
         },
         "duplicate": {
           "detected": false,
@@ -3202,8 +3261,8 @@
       "texto_original": "Los descuentos más prácticos del Black Friday: viajes, tecnología y hogar a mejor precio Diario AS",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-18T17:55:18.220Z",
-        "index": 22,
+        "processed_at": "2026-11-19T00:02:31.948Z",
+        "index": 27,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -3250,73 +3309,7 @@
       "final_score": 59.5
     },
     {
-      "id": "de0aa5ddd30b4a9b",
-      "fuente_id": "ia_dia",
-      "fuente_nombre": "IA al Día",
-      "tipo": "rss_web",
-      "subtipo": "google_news",
-      "grupo_fuente": "ia_general",
-      "nivel_fuente": "agregador",
-      "categoria": "inteligencia_artificial",
-      "idioma_original": "es",
-      "prioridad_fuente": 3,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "La gran burbuja: los bancos centrales se ponen en guardia ante el avance de la inteligencia artificial - El Confidencial",
-      "titulo_original": "La gran burbuja: los bancos centrales se ponen en guardia ante el avance de la inteligencia artificial - El Confidencial",
-      "enlace": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOSDhhRDBaY1ZKZDhURnlJdmhhb05GOGd1ZzMyNGpNTWtoUGVwU0xJRUZlU25hQUYwcjQ4cmY5YjUtVUtQdC1PZmVYVnVJZlV4NUkteEdoVFpvQzBGUFc1bklLX0k4RER1S3F1MkRGb2pPSmJYNGk2X3pEYUxUTHhrRk1qNnZ0VlJJUkpaaFA0MHRGejhZS2xremc4MjM0YnFoSjdBTWY0ekg5VDJLY3VQYXNOMHQ?oc=5",
-      "fecha": "2026-11-18T04:00:00.000Z",
-      "resumen_corto": "La gran burbuja: los bancos centrales se ponen en guardia ante el avance de la inteligencia artificial El Confidencial",
-      "resumen_largo": "La gran burbuja: los bancos centrales se ponen en guardia ante el avance de la inteligencia artificial El Confidencial",
-      "texto_original": "La gran burbuja: los bancos centrales se ponen en guardia ante el avance de la inteligencia artificial El Confidencial",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-11-18T17:55:18.226Z",
-        "index": 34,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "es",
-        "categoria": "inteligencia_artificial",
-        "categorias_secundarias": [],
-        "category_scores": {
-          "inteligencia_artificial": 3
-        },
-        "entidades": [],
-        "cifras_detectadas": [],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 75,
-        "relevancia": 50,
-        "confiabilidad_fuente": 53,
-        "readability": {
-          "words": 60,
-          "sentences": 1,
-          "average_words_per_sentence": 60
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 59.5
-    },
-    {
-      "id": "3b5c653388548370",
+      "id": "e171a55e9b8e765e",
       "fuente_id": "google_news_es",
       "fuente_nombre": "Google News ES",
       "tipo": "rss_web",
@@ -3328,29 +3321,26 @@
       "prioridad_fuente": 3,
       "analizar": true,
       "resumir": true,
-      "titulo": "La IA y la tecnología ayudan a la toma de decisiones deportivas - Expansión",
-      "titulo_original": "La IA y la tecnología ayudan a la toma de decisiones deportivas - Expansión",
-      "enlace": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQZ1l2bVUzTEZvQlpKVFBGTmRqWG1uT0JYX1lEU0VESGlSa1VJQ2J5TkRGRS0xWTI2ajhsMjdHVW1JRmpobmxqX2RVRkRWcmxQQkYxLUxvR2hJLWxid2FBTWZCVmlySUFKZHQtNGF1TVdEWS1hcnlFQ0ZUQWVfUjZ4THhKeGZ2OXRUbjN6MktZeHRySktOZUxnZXNONl9scDTSAZ8BQVVfeXFMTlBFVFhfT1l4aGJZcWNDQlBHbUo2aEdqU1ZpT3NFQVctajVVYkxEbDY4Y0pUOHplSnl2WDJpTDlNV1kycGQ3aFZtYXFlNW1lWktMZk5rN3JqeVd0d28xNFpJU3FzOHBFQTJJbjRGR0Z1U29fNWlnekl0X2VGdXdGcElZUXd6RzNubzdmQjlsZ2s4RnFNbnBmb1FCOWp6T2lF?oc=5",
-      "fecha": "2026-11-17T15:52:29.000Z",
-      "resumen_corto": "La IA y la tecnología ayudan a la toma de decisiones deportivas Expansión",
-      "resumen_largo": "La IA y la tecnología ayudan a la toma de decisiones deportivas Expansión",
-      "texto_original": "La IA y la tecnología ayudan a la toma de decisiones deportivas Expansión",
+      "titulo": "¿Cómo competir con China? - El Confidencial",
+      "titulo_original": "¿Cómo competir con China? - El Confidencial",
+      "enlace": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNVFdiSWpTNTV0clhCUXNnUU93YW5NbUJXTmc0bHQ5RW1tTE9xckw4eURCMjB2d010LWpyWXgzSC1mM0Uyd0lMUHZpMGhKWHRIdnB0b3EtNXBnbWVnaFdRNVZUYkRhY2ZReXFzdVVJbWViLWs5WFoxdlpGMEV3ME85akZ5b2RuRFBHM1hkMWMxV1JFd0FRNXRfa1dfZGFGeHZQQnpKcU10UnRzSkM0MjdlVEg4MkZlb1U4cGpvRWZnWTJhZVplZl81cEM3dw?oc=5",
+      "fecha": "2026-11-18T04:00:00.000Z",
+      "resumen_corto": "¿Cómo competir con China?",
+      "resumen_largo": "¿Cómo competir con China?",
+      "texto_original": "¿Cómo competir con China? El Confidencial",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-18T17:55:18.227Z",
-        "index": 38,
+        "processed_at": "2026-11-19T00:02:31.956Z",
+        "index": 36,
         "resumen": {
           "generado": true,
           "origen": "translated"
         },
         "idioma_detectado": "es",
         "idioma_original": "es",
-        "categoria": "tecnologia",
-        "categorias_secundarias": [
-          "inteligencia_artificial"
-        ],
+        "categoria": "inteligencia_artificial",
+        "categorias_secundarias": [],
         "category_scores": {
-          "tecnologia": 2,
           "inteligencia_artificial": 1
         },
         "entidades": [],
@@ -3371,9 +3361,9 @@
         "relevancia": 50,
         "confiabilidad_fuente": 53,
         "readability": {
-          "words": 30,
-          "sentences": 1,
-          "average_words_per_sentence": 30
+          "words": 23,
+          "sentences": 6,
+          "average_words_per_sentence": 3.83
         },
         "duplicate": {
           "detected": false,
@@ -3385,7 +3375,7 @@
       "final_score": 59.5
     },
     {
-      "id": "7f8ed34edcafa88d",
+      "id": "32a53871d2e2ebe0",
       "fuente_id": "resumen_militar",
       "fuente_nombre": "El Resumen Militar",
       "tipo": "telegram",
@@ -3397,17 +3387,154 @@
       "prioridad_fuente": 3,
       "analizar": true,
       "resumir": true,
-      "titulo": "🇷🇺 🇨🇳 Putin arrives at the reception for APEC summit leaders in Shenzhen. 🔴 @DDGeopolitics",
-      "titulo_original": "🇷🇺 🇨🇳 Putin arrives at the reception for APEC summit leaders in Shenzhen. 🔴 @DDGeopolitics",
-      "enlace": "https://t.me/elresumenmilitar/103462",
-      "fecha": "2026-11-18T11:18:58.000Z",
-      "resumen_corto": "🇷🇺 🇨🇳 Putin arrives at the reception for APEC summit leaders in Shenzhen.",
-      "resumen_largo": "🇷🇺 🇨🇳 Putin arrives at the reception for APEC summit leaders in Shenzhen.",
-      "texto_original": "🇷🇺 🇨🇳 Putin arrives at the reception for APEC summit leaders in Shenzhen. 🔴 @DDGeopolitics",
+      "titulo": "❗️ 🔴 🇷🇺 🇨🇳 🇺🇸 Putin, Xi y Trump ya han llegado a China para la reunión que podría cambiarlo todo https://www.youtube.com/live/UG52HVM6G0g?si=KJ-Ej7KjGjEV71Wh",
+      "titulo_original": "❗️ 🔴 🇷🇺 🇨🇳 🇺🇸 Putin, Xi y Trump ya han llegado a China para la reunión que podría cambiarlo todo https://www.youtube.com/live/UG52HVM6G0g?si=KJ-Ej7KjGjEV71Wh",
+      "enlace": "https://t.me/elresumenmilitar/103476",
+      "fecha": "2026-11-18T14:59:50.000Z",
+      "resumen_corto": "❗️ 🔴 🇷🇺 🇨🇳 🇺🇸 Putin, Xi y Trump ya han llegado a China para la reunión que podría cambiarlo todo https://www.youtube.com/live/UG52HVM6G0g?si=KJ-Ej7KjGjEV71Wh",
+      "resumen_largo": "❗️ 🔴 🇷🇺 🇨🇳 🇺🇸 Putin, Xi y Trump ya han llegado a China para la reunión que podría cambiarlo todo https://www.youtube.com/live/UG52HVM6G0g?si=KJ-Ej7KjGjEV71Wh",
+      "texto_original": "❗️ 🔴 🇷🇺 🇨🇳 🇺🇸 Putin, Xi y Trump ya han llegado a China para la reunión que podría cambiarlo todo https://www.youtube.com/live/UG52HVM6G0g?si=KJ-Ej7KjGjEV71Wh",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-18T17:55:18.218Z",
-        "index": 17,
+        "processed_at": "2026-11-19T00:02:31.936Z",
+        "index": 13,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "vehiculos_energia",
+        "categorias_secundarias": [
+          "inteligencia_artificial"
+        ],
+        "category_scores": {
+          "vehiculos_energia": 2,
+          "inteligencia_artificial": 1
+        },
+        "entidades": [],
+        "cifras_detectadas": [
+          "71W"
+        ],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 30,
+          "signals": [],
+          "url_count": 5
+        },
+        "calidad": 80,
+        "relevancia": 50,
+        "confiabilidad_fuente": 45,
+        "readability": {
+          "words": 90,
+          "sentences": 16,
+          "average_words_per_sentence": 5.63
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 59.25
+    },
+    {
+      "id": "5819048caae650e0",
+      "fuente_id": "resumen_militar",
+      "fuente_nombre": "El Resumen Militar",
+      "tipo": "telegram",
+      "subtipo": "canal_telegram",
+      "grupo_fuente": "telegram_militar",
+      "nivel_fuente": "telegram",
+      "categoria": "militar",
+      "idioma_original": "es",
+      "prioridad_fuente": 3,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "El Resumen Militar pinned a photo",
+      "titulo_original": "El Resumen Militar pinned a photo",
+      "enlace": "https://t.me/elresumenmilitar/103477",
+      "fecha": "2026-11-18T14:59:53.000Z",
+      "resumen_corto": "El Resumen Militar pinned a photo",
+      "resumen_largo": "El Resumen Militar pinned a photo",
+      "texto_original": "El Resumen Militar pinned a photo",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-11-19T00:02:31.934Z",
+        "index": 12,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "militar",
+        "categorias_secundarias": [],
+        "category_scores": {
+          "militar": 1
+        },
+        "entidades": [],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 75,
+        "relevancia": 50,
+        "confiabilidad_fuente": 45,
+        "readability": {
+          "words": 20,
+          "sentences": 1,
+          "average_words_per_sentence": 20
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 57.5
+    },
+    {
+      "id": "da444e24547496e3",
+      "fuente_id": "resumen_militar",
+      "fuente_nombre": "El Resumen Militar",
+      "tipo": "telegram",
+      "subtipo": "canal_telegram",
+      "grupo_fuente": "telegram_militar",
+      "nivel_fuente": "telegram",
+      "categoria": "militar",
+      "idioma_original": "es",
+      "prioridad_fuente": 3,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "🇺🇸 🇨🇳 Elon Musk spotted in the US delegation's motorcade in Shenzhen. 🔴 @DDGeopolitics",
+      "titulo_original": "🇺🇸 🇨🇳 Elon Musk spotted in the US delegation's motorcade in Shenzhen. 🔴 @DDGeopolitics",
+      "enlace": "https://t.me/elresumenmilitar/103475",
+      "fecha": "2026-11-18T14:45:58.000Z",
+      "resumen_corto": "🇺🇸 🇨🇳 Elon Musk spotted in the US delegation's motorcade in Shenzhen.",
+      "resumen_largo": "🇺🇸 🇨🇳 Elon Musk spotted in the US delegation's motorcade in Shenzhen.",
+      "texto_original": "🇺🇸 🇨🇳 Elon Musk spotted in the US delegation's motorcade in Shenzhen. 🔴 @DDGeopolitics",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-11-19T00:02:31.936Z",
+        "index": 14,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -3437,9 +3564,9 @@
         "relevancia": 50,
         "confiabilidad_fuente": 45,
         "readability": {
-          "words": 48,
+          "words": 38,
           "sentences": 6,
-          "average_words_per_sentence": 8
+          "average_words_per_sentence": 6.33
         },
         "duplicate": {
           "detected": false,
@@ -3451,7 +3578,7 @@
       "final_score": 57.5
     },
     {
-      "id": "7956e046e7cc9961",
+      "id": "0c1e987365180b3a",
       "fuente_id": "resumen_militar",
       "fuente_nombre": "El Resumen Militar",
       "tipo": "telegram",
@@ -3463,81 +3590,17 @@
       "prioridad_fuente": 3,
       "analizar": true,
       "resumir": true,
-      "titulo": "Прилет \"Герани-4\" в ангар с разукомплектованным Ан-124 \"Руслан\" на территории аэродрома Гостомель под Киевом. Военный Осведомитель",
-      "titulo_original": "Прилет \"Герани-4\" в ангар с разукомплектованным Ан-124 \"Руслан\" на территории аэродрома Гостомель под Киевом. Военный Осведомитель",
-      "enlace": "https://t.me/elresumenmilitar/103457",
-      "fecha": "2026-11-18T10:39:54.000Z",
-      "resumen_corto": "Прилет \"Герани-4\" в ангар с разукомплектованным Ан-124 \"Руслан\" на территории аэродрома Гостомель под Киевом.",
-      "resumen_largo": "Прилет \"Герани-4\" в ангар с разукомплектованным Ан-124 \"Руслан\" на территории аэродрома Гостомель под Киевом.",
-      "texto_original": "Прилет \"Герани-4\" в ангар с разукомплектованным Ан-124 \"Руслан\" на территории аэродрома Гостомель под Киевом. Военный Осведомитель",
+      "titulo": "‼️ 🇷🇺 🌉 Россия начала работы на месте обрушения пролёта Крымского моста после удара ▪️ Об этом сообщают вражеские СМИ со ссылкой на мониторинговые ресурсы. ▪️ На месте обрушения пролёта и арки автомобильного моста уже",
+      "titulo_original": "‼️ 🇷🇺 🌉 Россия начала работы на месте обрушения пролёта Крымского моста после удара ▪️ Об этом сообщают вражеские СМИ со ссылкой на мониторинговые ресурсы. ▪️ На месте обрушения пролёта и арки автомобильного моста уже",
+      "enlace": "https://t.me/elresumenmilitar/103473",
+      "fecha": "2026-11-18T14:31:34.000Z",
+      "resumen_corto": "▪️ На месте обрушения пролёта и арки автомобильного моста уже работают не менее 10 различных судов: буксиры, катер, пассажирское судно, землесос и судно для ликвидации аварийных разливов нефти, следует из данных Vesselfinder.",
+      "resumen_largo": "‼️ 🇷🇺 🌉 Россия начала работы на месте обрушения пролёта Крымского моста после удара ▪️ Об этом сообщают вражеские СМИ со ссылкой на мониторинговые ресурсы. ▪️ На месте обрушения пролёта и арки автомобильного моста уже работают не менее 10 различных судов: буксиры, катер, пассажирское судно, землесос и судно для ликвидации аварийных разливов нефти, следует из данных Vesselfinder. ▪️ После падения в воду арки в фарватере достаточно места, чтобы через него могли пройти суда с небольшой осадкой.",
+      "texto_original": "‼️ 🇷🇺 🌉 Россия начала работы на месте обрушения пролёта Крымского моста после удара ▪️ Об этом сообщают вражеские СМИ со ссылкой на мониторинговые ресурсы. ▪️ На месте обрушения пролёта и арки автомобильного моста уже работают не менее 10 различных судов: буксиры, катер, пассажирское судно, землесос и судно для ликвидации аварийных разливов нефти, следует из данных Vesselfinder. ▪️ После падения в воду арки в фарватере достаточно места, чтобы через него могли пройти суда с небольшой осадкой. ▪️ За последние часы работающие там буксиры перемещались и передавали сигналы по обе стороны моста. ▪️ По всей видимости суда сейчас занимаются расчисткой фарватера от обломков. ⚠️ Подписаться на RV: MAX | t.me/RVvoenkor",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-18T17:55:18.219Z",
-        "index": 20,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "es",
-        "categoria": "militar",
-        "categorias_secundarias": [],
-        "category_scores": {},
-        "entidades": [],
-        "cifras_detectadas": [],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 75,
-        "relevancia": 45,
-        "confiabilidad_fuente": 45,
-        "readability": {
-          "words": 61,
-          "sentences": 6,
-          "average_words_per_sentence": 10.17
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 55.5
-    },
-    {
-      "id": "6acd816414f01dd8",
-      "fuente_id": "resumen_militar",
-      "fuente_nombre": "El Resumen Militar",
-      "tipo": "telegram",
-      "subtipo": "canal_telegram",
-      "grupo_fuente": "telegram_militar",
-      "nivel_fuente": "telegram",
-      "categoria": "militar",
-      "idioma_original": "es",
-      "prioridad_fuente": 3,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "‼️ 🇷🇺 🇺🇦 «Прежде всего – Украина»: в Кремле рассказали о плане беседы Путина с Трампом ▪️ В. Путин уже прибыл на саммит АТЭС в Китае. ▪️ Там, вероятно, будет первая встреча президентов России и США. ▪️ Украина будет",
-      "titulo_original": "‼️ 🇷🇺 🇺🇦 «Прежде всего – Украина»: в Кремле рассказали о плане беседы Путина с Трампом ▪️ В. Путин уже прибыл на саммит АТЭС в Китае. ▪️ Там, вероятно, будет первая встреча президентов России и США. ▪️ Украина будет",
-      "enlace": "https://t.me/elresumenmilitar/103463",
-      "fecha": "2026-11-18T11:20:50.000Z",
-      "resumen_corto": "‼️ 🇷🇺 🇺🇦 «Прежде всего – Украина»: в Кремле рассказали о плане беседы Путина с Трампом ▪️ В.",
-      "resumen_largo": "‼️ 🇷🇺 🇺🇦 «Прежде всего – Украина»: в Кремле рассказали о плане беседы Путина с Трампом ▪️ В. Путин уже прибыл на саммит АТЭС в Китае. ▪️ Там, вероятно, будет первая встреча президентов России и США.",
-      "texto_original": "‼️ 🇷🇺 🇺🇦 «Прежде всего – Украина»: в Кремле рассказали о плане беседы Путина с Трампом ▪️ В. Путин уже прибыл на саммит АТЭС в Китае. ▪️ Там, вероятно, будет первая встреча президентов России и США. ▪️ Украина будет обсуждаться в Китае и на двухсторонней встрече Путина и Трампа, и на трехсторонней с участием Си. ➖ \"Текущие вопросы. Конечно, прежде всего Украина. Если будет время, обменяются мнениями и по Ирану, - рассказал пресс-секретарь президента о повестке встречи. ▪️ Россия ожидает, что на трёхсторонней встрече произойдет хороший обмен мнениями. ▪️ Полноформатные переговоры Путина и Трампа сегодня выглядят маловероятными, стороны будут искать промежуточный формат, пояснил Песков. ▪️ Помощник президента Ю. Ушаков, в свою очередь, сообщил, что 3 лидера обсудят международные конфликты, отношения крупнейших держав и пути оздоровления обстановки в мире. ▪️ Работа над итоговым трехсторонним заявлением продолжается интенсивно, некоторые его параметры уже просматриваются. ⚠️ Подписаться на RV: MAX | t.me/RVvoenkor",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-11-18T17:55:18.217Z",
-        "index": 15,
+        "processed_at": "2026-11-19T00:02:31.939Z",
+        "index": 16,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -3565,73 +3628,9 @@
         "relevancia": 45,
         "confiabilidad_fuente": 45,
         "readability": {
-          "words": 189,
-          "sentences": 24,
-          "average_words_per_sentence": 7.88
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 50.25
-    },
-    {
-      "id": "c5a64906f87d94f2",
-      "fuente_id": "resumen_militar",
-      "fuente_nombre": "El Resumen Militar",
-      "tipo": "telegram",
-      "subtipo": "canal_telegram",
-      "grupo_fuente": "telegram_militar",
-      "nivel_fuente": "telegram",
-      "categoria": "militar",
-      "idioma_original": "es",
-      "prioridad_fuente": 3,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "🇺🇦 Реактивный Ан-197. В заявлениях про атаки на Крымский мост Зеленский упомянул беспилотник Ан-197 среди применявшегося вооружения. Ранее было известно только об Ан-196. Позже было уточнено, что Ан-197 - это реактивна",
-      "titulo_original": "🇺🇦 Реактивный Ан-197. В заявлениях про атаки на Крымский мост Зеленский упомянул беспилотник Ан-197 среди применявшегося вооружения. Ранее было известно только об Ан-196. Позже было уточнено, что Ан-197 - это реактивна",
-      "enlace": "https://t.me/elresumenmilitar/103456",
-      "fecha": "2026-11-18T10:39:15.000Z",
-      "resumen_corto": "В заявлениях про атаки на Крымский мост Зеленский упомянул беспилотник Ан-197 среди применявшегося вооружения.",
-      "resumen_largo": "В заявлениях про атаки на Крымский мост Зеленский упомянул беспилотник Ан-197 среди применявшегося вооружения. Ранее было известно только об Ан-196. Позже было уточнено, что Ан-197 - это реактивная версия.",
-      "texto_original": "🇺🇦 Реактивный Ан-197. В заявлениях про атаки на Крымский мост Зеленский упомянул беспилотник Ан-197 среди применявшегося вооружения. Ранее было известно только об Ан-196. Позже было уточнено, что Ан-197 - это реактивная версия. Как он выглядит пока неизвестно. Подписаться на канал | Наш МАКС",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-11-18T17:55:18.220Z",
-        "index": 21,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "es",
-        "categoria": "militar",
-        "categorias_secundarias": [],
-        "category_scores": {},
-        "entidades": [],
-        "cifras_detectadas": [],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 60,
-        "relevancia": 45,
-        "confiabilidad_fuente": 45,
-        "readability": {
-          "words": 124,
-          "sentences": 16,
-          "average_words_per_sentence": 7.75
+          "words": 209,
+          "sentences": 13,
+          "average_words_per_sentence": 16.08
         },
         "duplicate": {
           "detected": false,
@@ -3643,7 +3642,7 @@
       "final_score": 50.25
     }
   ],
-  "analyzed_at": "2026-11-18T17:55:18.230Z",
+  "analyzed_at": "2026-11-19T00:02:31.963Z",
   "analysis_stats": {
     "input_items": 50,
     "valid_items": 50,
@@ -3657,7 +3656,7 @@
   },
   "validation": {
     "version": "1.1",
-    "executed_at": "2026-11-18T17:55:18.335Z",
+    "executed_at": "2026-11-19T00:02:32.112Z",
     "original_items": 50,
     "rejected_items": 0,
     "final_items": 50,

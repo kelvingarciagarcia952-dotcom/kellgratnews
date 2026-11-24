@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "updated_at": "2026-11-23T23:34:33.385Z",
+  "updated_at": "2026-11-24T08:52:05.797Z",
   "configuracion": {
     "limite_global": 60,
     "frecuencia_minutos": 60,
@@ -24,60 +24,61 @@
     "active_sources": 15,
     "successful_sources": 15,
     "collected_items": 63,
-    "deduplicated_items": 48,
-    "final_items": 48
+    "deduplicated_items": 51,
+    "final_items": 51
   },
   "items": [
     {
-      "id": "a7c06f9c65c2e878",
-      "fuente_id": "bbc_mundo",
-      "fuente_nombre": "BBC Mundo",
+      "id": "f8e0185fe094565e",
+      "fuente_id": "huawei_central",
+      "fuente_nombre": "Huawei Central",
       "tipo": "rss_web",
-      "subtipo": "medio_generalista",
-      "grupo_fuente": "bbc",
-      "nivel_fuente": "medio_profesional",
-      "categoria": "actualidad",
-      "idioma_original": "es",
+      "subtipo": "medio_especializado",
+      "grupo_fuente": "huawei",
+      "nivel_fuente": "secundaria_especializada",
+      "categoria": "moviles",
+      "idioma_original": "en",
       "prioridad_fuente": 5,
       "analizar": true,
       "resumir": true,
-      "titulo": "Por qué Jensen Huang es demasiado importante como para que Nvidia pudiera despedirlo",
-      "titulo_original": "Por qué Jensen Huang es demasiado importante como para que Nvidia pudiera despedirlo",
-      "enlace": "https://www.bbc.com/mundo/articles/c9143kp61ldjo?at_medium=RSS&at_campaign=rss",
-      "fecha": "2026-11-23T18:40:21.000Z",
-      "resumen_corto": "Tras el sorprendente anuncio de su regreso, Nvidia aumentó su valor bursátil en US$1 billón.",
-      "resumen_largo": "En las últimas horas se han producido tres momentos asombrosos en torno a la reincorporación de Jensen Huang como director ejecutivo de Nvidia, después de que hace unos días admitiera haber tenido un romance con una mujer que supuestamente era una espía china. Tras el sorprendente anuncio de su regreso, Nvidia aumentó su valor bursátil en US$1 billón. Entonces llegó el momento en el que el presidente de Estados Unidos, Donald Trump, admitió lo obvio: que fue su mensaje de \"No estás despedido\" dirigido directamente a la junta directiva lo que cambió la decisión.",
-      "texto_original": "En las últimas horas se han producido tres momentos asombrosos en torno a la reincorporación de Jensen Huang como director ejecutivo de Nvidia, después de que hace unos días admitiera haber tenido un romance con una mujer que supuestamente era una espía china. Tras el sorprendente anuncio de su regreso, Nvidia aumentó su valor bursátil en US$1 billón. Entonces llegó el momento en el que el presidente de Estados Unidos, Donald Trump, admitió lo obvio: que fue su mensaje de \"No estás despedido\" dirigido directamente a la junta directiva lo que cambió la decisión. La naturaleza de este cambio de rumbo queda clara a partir de lo que Nvidia declaró la semana pasada. La junta directiva dejó claro que Huang no regresaría. La dirección interina también había sugerido algunos cambios de estrategia que se alejaran de la era Huang. El regreso de Huang supera, en términos de cifras absolutas, el de Sam Altman a OpenAI o el de Steve Jobs a Apple.",
+      "titulo": "El CEO de Honor confirma un plegable sin arrugas para marzo de 2027",
+      "titulo_original": "Honor CEO confirms a zero-crease foldable for March 2027",
+      "enlace": "https://www.huaweicentral.com/honor-ceo-confirms-a-zero-crease-foldable-for-march-2027/",
+      "fecha": "2026-11-23T12:52:20.000Z",
+      "resumen_corto": "Li Jian, director ejecutivo de Honor Devices, anunció hoy que la compañía está trabajando en un nuevo teléfono plegable “sin pliegues”, […] La publicación El CEO de Honor confirma un teléfono plegable sin pliegues para marzo de 2027 apareció por primera vez en Huawei Central.",
+      "resumen_largo": "Honor está planeando un nuevo teléfono plegable para marzo de 2027 con un diseño de pantalla sin arrugas. La compañía hizo este anuncio un día antes de la presentación oficial del Mate X8, que esta vez afirmó tener tecnología de pantalla sin arrugas. Li Jian, director ejecutivo de Honor Devices, anunció hoy que la compañía está trabajando en un nuevo teléfono plegable “sin pliegues”, […] La publicación El CEO de Honor confirma un teléfono plegable sin pliegues para marzo de 2027 apareció por primera vez en Huawei Central.",
+      "texto_original": "Honor is planning a new foldable phone for March 2027 with an absolutely zero-crease display design. The company made this announcement one day before the Mate X8’s official unveiling, which claimed crease-free screen technology this time. Li Jian, CEO of Honor Devices, announced today that the company is working on a new “zero-crease” foldable phone, […] The post Honor CEO confirms a zero-crease foldable for March 2027 appeared first on Huawei Central .",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-23T23:34:33.246Z",
-        "index": 6,
+        "processed_at": "2026-11-24T08:52:05.632Z",
+        "index": 27,
         "resumen": {
           "generado": true,
           "origen": "translated"
         },
         "idioma_detectado": "es",
-        "idioma_original": "es",
-        "categoria": "inteligencia_artificial",
+        "idioma_original": "en",
+        "categoria": "moviles",
         "categorias_secundarias": [
-          "actualidad",
-          "moviles",
-          "vehiculos_energia"
+          "tecnologia",
+          "inteligencia_artificial",
+          "hardware"
         ],
         "category_scores": {
-          "inteligencia_artificial": 3,
-          "actualidad": 2,
-          "moviles": 1,
+          "moviles": 5,
+          "tecnologia": 5,
+          "inteligencia_artificial": 2,
+          "hardware": 1,
           "vehiculos_energia": 1,
           "software_internet": 1
         },
         "entidades": [
-          "Apple",
-          "OpenAI",
-          "NVIDIA"
+          "Huawei",
+          "Honor"
         ],
         "cifras_detectadas": [
-          "$1"
+          "2027",
+          "2027 w"
         ],
         "content_type": "report",
         "clickbait": {
@@ -93,11 +94,11 @@
         },
         "calidad": 97,
         "relevancia": 83,
-        "confiabilidad_fuente": 80,
+        "confiabilidad_fuente": 75,
         "readability": {
-          "words": 208,
-          "sentences": 11,
-          "average_words_per_sentence": 18.91
+          "words": 181,
+          "sentences": 7,
+          "average_words_per_sentence": 25.86
         },
         "duplicate": {
           "detected": false,
@@ -106,7 +107,7 @@
           "similar_to": null
         }
       },
-      "final_score": 87.15
+      "final_score": 85.9
     },
     {
       "id": "f90e239a1267b824",
@@ -130,8 +131,8 @@
       "texto_original": "En un sótano de Bogotá, el expresidente de Colombia Juan Manuel Santos y el excomandante de las Fuerzas Armadas Revolucionarias de Colombia (FARC), Rodrigo Londoño, conocido por su alias \"Timochenko\", se sientan frente a frente. Hace diez años, más exactamente el 24 de noviembre de 2016, ambos se reunieron en el Teatro Colón de la capital colombiana para firmar uno de los documentos más importantes de la historia reciente del país: el Acuerdo de Paz que puso fin al conflicto interno con las FARC, que había azotado el territorio colombiano durante cinco décadas. Tal vez ambos pensaron que, diez años después, estarían hablando del legado que dejó el acuerdo que logró desmovilizar a cerca de 14.000 combatientes, en lugar de tener que defender sus principios incluso ante el actual gobierno nacional. Tanto Santos como Londoño no han cesado de apoyar este acuerdo desde su firma. Y esa labor fue uno de los principales temas que abordaron con BBC Mundo en una entrevista exclusiva que los reunió en Bogotá. Una defensa que comenzó durante el gobierno del expresidente Iván Duque (2018-2022), quien intentó reformar algunos aspectos de lo que se había acordado; continuó durante el gobierno de Gustavo Petro, y ahora se mantiene frente a Abelardo de la Espriella, quien ha cuestionado la falta de reparación a las víctimas y otros elementos estipulados como la Jurisdicción Especial para la Paz (JEP). \"Hasta el último día vamos a defender el Acuerdo. Es el compromiso que hicimos. Después de haberlo firmado y después de todo lo que hemos vivido, ese compromiso se reafirma cada vez más\", le dice Londoño a BBC Mundo.",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-23T23:34:33.255Z",
-        "index": 21,
+        "processed_at": "2026-11-24T08:52:05.630Z",
+        "index": 26,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -189,7 +190,7 @@
       "final_score": 85.15
     },
     {
-      "id": "10f7ac7d37c42fa0",
+      "id": "6d2e5afdf986a6b2",
       "fuente_id": "huawei_central",
       "fuente_nombre": "Huawei Central",
       "tipo": "rss_web",
@@ -201,35 +202,35 @@
       "prioridad_fuente": 5,
       "analizar": true,
       "resumir": true,
-      "titulo": "Se está fabricando una pequeña tableta Huawei OSTA, después de un gran debut como teléfono",
-      "titulo_original": "A small Huawei OSTA tablet is in making, after a wide phone debut",
-      "enlace": "https://www.huaweicentral.com/a-small-huawei-osta-tablet-is-in-making-after-a-wide-phone-debut/",
-      "fecha": "2026-11-23T06:03:55.000Z",
-      "resumen_corto": "La submarca Huawei OSTA es oficial con el teléfono inteligente ancho OSTA O1 Pro, su primer producto, y la compañía está trabajando en una pequeña tableta para esta filial, según una nueva filtración.",
-      "resumen_largo": "La submarca Huawei OSTA es oficial con el teléfono inteligente ancho OSTA O1 Pro, su primer producto, y la compañía está trabajando en una pequeña tableta para esta filial, según una nueva filtración. La nueva submarca también lanzará pronto un teléfono OSTA estándar. Como señaló el informante DigitalChatStation, Huawei pronto lanzará un pequeño OSTA […] La publicación Se está preparando una pequeña tableta Huawei OSTA, después de un amplio debut como teléfono apareció por primera vez en Huawei Central.",
-      "texto_original": "Huawei OSTA sub-brand is official with the OSTA O1 Pro wide smartphone, its first product, and the company is working on a small tablet for this subsidiary, according to a new leak. The new sub-brand will also launch a standard OSTA phone soon. As noted by tipster DigitalChatStation, Huawei will soon launch a small OSTA […] The post A small Huawei OSTA tablet is in making, after a wide phone debut appeared first on Huawei Central .",
+      "titulo": "Huawei Pura X View todavía tiene ventaja sobre OSTA O1 Pro con estas 3 especificaciones",
+      "titulo_original": "Huawei Pura X View still has edge over OSTA O1 Pro with these 3 specs",
+      "enlace": "https://www.huaweicentral.com/huawei-pura-x-view-3-specs/",
+      "fecha": "2026-11-23T16:54:08.000Z",
+      "resumen_corto": "Huawei OSTA O1 Pro tiene cuatro ventajas sobre el Pura X View como teléfono de pantalla ancha, aunque se queda atrás en tres especificaciones.",
+      "resumen_largo": "Huawei OSTA O1 Pro tiene cuatro ventajas sobre el Pura X View como teléfono de pantalla ancha, aunque se queda atrás en tres especificaciones. El buque insignia de Pura sigue siendo superior al nuevo dispositivo en términos de rendimiento de la cámara, salida de datos más rápida y algunas otras áreas clave. Pura X View debutó en septiembre de este año como el primero […] La publicación Huawei Pura X View todavía tiene ventaja sobre OSTA O1 Pro con estas 3 especificaciones apareció por primera vez en Huawei Central.",
+      "texto_original": "Huawei OSTA O1 Pro has four advantages over the Pura X View as a wide-screen phone, although it lags in three specs. The Pura flagship remains superior to the new device in terms of camera performance, faster data output, and some other key areas. Pura X View debuted in September this year as the first […] The post Huawei Pura X View still has edge over OSTA O1 Pro with these 3 specs appeared first on Huawei Central .",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-23T23:34:33.262Z",
-        "index": 33,
+        "processed_at": "2026-11-24T08:52:05.626Z",
+        "index": 22,
         "resumen": {
           "generado": true,
           "origen": "translated"
         },
-        "idioma_detectado": "es",
+        "idioma_detectado": "en",
         "idioma_original": "en",
         "categoria": "moviles",
         "categorias_secundarias": [
           "inteligencia_artificial",
-          "semiconductores",
-          "vehiculos_energia"
+          "software_internet",
+          "tecnologia"
         ],
         "category_scores": {
-          "moviles": 6,
-          "inteligencia_artificial": 1,
-          "semiconductores": 1,
-          "vehiculos_energia": 1,
-          "software_internet": 1
+          "moviles": 4,
+          "inteligencia_artificial": 2,
+          "software_internet": 2,
+          "tecnologia": 2,
+          "vehiculos_energia": 1
         },
         "entidades": [
           "Huawei"
@@ -265,81 +266,6 @@
       "final_score": 82.15
     },
     {
-      "id": "2a60d7d730a71104",
-      "fuente_id": "techinsights_google",
-      "fuente_nombre": "TechInsights",
-      "tipo": "rss_web",
-      "subtipo": "google_news",
-      "grupo_fuente": "techinsights",
-      "nivel_fuente": "especializada_tecnica",
-      "categoria": "semiconductores",
-      "idioma_original": "en",
-      "prioridad_fuente": 5,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "Potencia del centro de datos de IA: por qué los fabricantes de chips para vehículos eléctricos de China se están mudando",
-      "titulo_original": "AI Datacenter Power: Why China’s EV Chipmakers are moving in - TechInsights",
-      "enlace": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPSERvLWQ3bDdRTVRKN3BJWldYZi01SUJ1MHMtWlkxNlBSYzRNdXo1NW5FUU1nbVNndVlnOWFGdmFEMzluZFZEcmwxay11R2dXck5EVHhPMmRSbFNaeFczMVFCVEZURDZ4SFVBbFY4RG1LRjI2cHdzdmtIRWVZME9kQzhCX05mSlBhdHBR?oc=5",
-      "fecha": "2026-11-13T08:00:00.000Z",
-      "resumen_corto": "Potencia del centro de datos de IA: por qué los fabricantes de chips para vehículos eléctricos de China se están moviendo TechInsights",
-      "resumen_largo": "Potencia del centro de datos de IA: por qué los fabricantes de chips para vehículos eléctricos de China se están moviendo TechInsights",
-      "texto_original": "AI Datacenter Power: Why China’s EV Chipmakers are moving in TechInsights",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-11-23T23:34:33.267Z",
-        "index": 46,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "en",
-        "categoria": "vehiculos_energia",
-        "categorias_secundarias": [
-          "semiconductores",
-          "inteligencia_artificial",
-          "tecnologia"
-        ],
-        "category_scores": {
-          "vehiculos_energia": 5,
-          "semiconductores": 3,
-          "inteligencia_artificial": 2,
-          "tecnologia": 1
-        },
-        "entidades": [
-          "TechInsights"
-        ],
-        "cifras_detectadas": [],
-        "content_type": "report",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 92,
-        "relevancia": 78,
-        "confiabilidad_fuente": 75,
-        "readability": {
-          "words": 63,
-          "sentences": 1,
-          "average_words_per_sentence": 63
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 82.15
-    },
-    {
       "id": "92223e2caf1b8a36",
       "fuente_id": "bbc_mundo",
       "fuente_nombre": "BBC Mundo",
@@ -361,8 +287,8 @@
       "texto_original": "Una reconocida cantante que actuó sin el hiyab obligatorio y cuatro miembros de su banda y equipo de producción fueron azotados por las autoridades iraníes, según afirman sus abogados. Parastoo Ahmadi, tres músicos y un productor recibieron cada uno 74 latigazos en la ciudad de Qom, según dijo a la BBC un integrante de su equipo de defensa. Ahmadi, de 29 años, llevaba un vestido sin mangas en una actuación transmitida en directo en diciembre de 2024. Las leyes iraníes prohíben las actuaciones públicas de mujeres y les exigen que usen velo y ropa modesta. En junio, un tribunal penal de Qom condenó a Ahmadi y a otras ocho personas por \"atentar contra la moral pública\" mediante la publicación de \"material obsceno e indecente\", cargos que ellos han negado. Además de ser condenados a 74 latigazos, se les prohibió realizar actividades audiovisuales y salir del país durante dos años. A finales de septiembre, un tribunal de apelaciones de Qom rechazó el recurso de los acusados y confirmó la sentencia, según informaron sus abogados.",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-23T23:34:33.242Z",
-        "index": 1,
+        "processed_at": "2026-11-24T08:52:05.619Z",
+        "index": 11,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -417,80 +343,6 @@
       "final_score": 81.95
     },
     {
-      "id": "c8e02f84d9956fb4",
-      "fuente_id": "techinsights_google",
-      "fuente_nombre": "TechInsights",
-      "tipo": "rss_web",
-      "subtipo": "google_news",
-      "grupo_fuente": "techinsights",
-      "nivel_fuente": "especializada_tecnica",
-      "categoria": "semiconductores",
-      "idioma_original": "en",
-      "prioridad_fuente": 5,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "Infraestructura de IA distribuida de Meta: conexión de estructuras de centros de datos para capacitación en IA",
-      "titulo_original": "Meta’s Distributed AI Infrastructure: Connecting Data Center Fabrics for AI Training - TechInsights",
-      "enlace": "https://news.google.com/rss/articles/CBMigwFBVV95cUxObF9sNU15Si1Nb0NZLWpoU2xrVDVoSzhqdEhOY2UwNE9WM1g1Sm9FNXVyUGVmaE9yRk9xVXpyQm5tVjJELWtIWGY3ZUNBNVkxdzB5ek04d2ZnRXhuTFJXQWlpc2dEY0dUT3E1SDl3ZkU3VkxuWEZPLVVwdWdOMzVWUzZONA?oc=5",
-      "fecha": "2026-11-17T17:37:38.000Z",
-      "resumen_corto": "Infraestructura de IA distribuida de Meta: conexión de estructuras de centros de datos para capacitación en IA TechInsights",
-      "resumen_largo": "Infraestructura de IA distribuida de Meta: conexión de estructuras de centros de datos para capacitación en IA TechInsights",
-      "texto_original": "Meta’s Distributed AI Infrastructure: Connecting Data Center Fabrics for AI Training TechInsights",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-11-23T23:34:33.266Z",
-        "index": 43,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "en",
-        "categoria": "inteligencia_artificial",
-        "categorias_secundarias": [
-          "semiconductores",
-          "tecnologia"
-        ],
-        "category_scores": {
-          "inteligencia_artificial": 2,
-          "semiconductores": 1,
-          "tecnologia": 1
-        },
-        "entidades": [
-          "Meta",
-          "TechInsights"
-        ],
-        "cifras_detectadas": [],
-        "content_type": "report",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 92,
-        "relevancia": 75,
-        "confiabilidad_fuente": 75,
-        "readability": {
-          "words": 49,
-          "sentences": 1,
-          "average_words_per_sentence": 49
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 80.95
-    },
-    {
       "id": "761f5893f32ea42b",
       "fuente_id": "huawei_central",
       "fuente_nombre": "Huawei Central",
@@ -512,8 +364,8 @@
       "texto_original": "Honor digital phone series has been the company’s consistent performer in the mid-range segment. In 2026, the Honor 600 Vitality Edition and Honor 700S continue that approach. And it’s time to check what’s new in the latest entry-level smartphone. Unlike some previous generations, the Honor 600 Vitality Edition and Honor 700S look slightly different. This […] The post Honor 600 Vitality Edition vs Honor 700S: Here’s every upgrade you should know appeared first on Huawei Central .",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-23T23:34:33.256Z",
-        "index": 24,
+        "processed_at": "2026-11-24T08:52:05.633Z",
+        "index": 29,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -590,8 +442,8 @@
       "texto_original": "Honor has unveiled the Earbuds Clip, weighing only 5.8 grams, at the Honor 700 series launch event. The audio wearable showcases an open-back C-bridge design housed in a square charging case with optimized sound features and tech capabilities. Honor Earbuds Clip debuts in Pearl White and Starry Black shades. The buds measure 28.1 x 20.5 […] The post Honor Clip 5.6-gram earbuds debut with 10.8mm dual driver, 40 hours of battery life appeared first on Huawei Central .",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-23T23:34:33.260Z",
-        "index": 30,
+        "processed_at": "2026-11-24T08:52:05.637Z",
+        "index": 35,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -651,7 +503,82 @@
       "final_score": 77.4
     },
     {
-      "id": "86f22d2773a6566a",
+      "id": "e1f61fbcd4525f19",
+      "fuente_id": "bbc_mundo",
+      "fuente_nombre": "BBC Mundo",
+      "tipo": "rss_web",
+      "subtipo": "medio_generalista",
+      "grupo_fuente": "bbc",
+      "nivel_fuente": "medio_profesional",
+      "categoria": "actualidad",
+      "idioma_original": "es",
+      "prioridad_fuente": 5,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "\"Quiero destruir el capitalismo, no al país\": así operan los grupos de ultraizquierda que impulsan las protestas violentas en Francia",
+      "titulo_original": "\"Quiero destruir el capitalismo, no al país\": así operan los grupos de ultraizquierda que impulsan las protestas violentas en Francia",
+      "enlace": "https://www.bbc.com/mundo/articles/cmx27q3w9qjxo?at_medium=RSS&at_campaign=rss",
+      "fecha": "2026-11-24T05:01:11.000Z",
+      "resumen_corto": "Una deuda pública agobiante, un presidente en sus últimos seis meses de mandato y una enorme agitación social, provocada por las protestas estudiantiles que han derivado en saqueos y violencia.",
+      "resumen_largo": "Francia está sumida en el caos. Una deuda pública agobiante, un presidente en sus últimos seis meses de mandato y una enorme agitación social, provocada por las protestas estudiantiles que han derivado en saqueos y violencia. El pasado sábado se cumplió el sexto fin de semana consecutivo de manifestaciones contra el aumento vertiginoso de precios, el deterioro de los servicios públicos y los presuntos casos de brutalidad policial.",
+      "texto_original": "Francia está sumida en el caos. Una deuda pública agobiante, un presidente en sus últimos seis meses de mandato y una enorme agitación social, provocada por las protestas estudiantiles que han derivado en saqueos y violencia. El pasado sábado se cumplió el sexto fin de semana consecutivo de manifestaciones contra el aumento vertiginoso de precios, el deterioro de los servicios públicos y los presuntos casos de brutalidad policial. La violencia por parte de los manifestantes ha disminuido con respecto al mes pasado, pero aún persiste. El presidente Emmanuel Macron ha responsabilizado públicamente de los disturbios a \"delincuentes\" y \"grupos de ultraizquierda\" cuyo objetivo, según afirma, es derribar a la República Francesa. Los disturbios en Francia se han convertido en un tema político central de cara a las importantes elecciones presidenciales y parlamentarias del próximo año. La izquierda francesa culpa al centro y a la derecha de la crisis del costo de vida que tiene a muchos franceses molestos y enojados. El centro y la derecha, por su parte, acusan a la izquierda radical de fomentar la violencia, algo que esta niega. Mientras tanto, la derecha nacionalista promete que, si llega al poder, devolverá el orden y la seguridad a las calles de Francia.",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-11-24T08:52:05.611Z",
+        "index": 4,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "inteligencia_artificial",
+        "categorias_secundarias": [
+          "vehiculos_energia",
+          "actualidad",
+          "semiconductores"
+        ],
+        "category_scores": {
+          "inteligencia_artificial": 2,
+          "vehiculos_energia": 2,
+          "actualidad": 2,
+          "semiconductores": 1,
+          "moviles": 1,
+          "software_internet": 1
+        },
+        "entidades": [],
+        "cifras_detectadas": [],
+        "content_type": "report",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 87,
+        "relevancia": 65,
+        "confiabilidad_fuente": 80,
+        "readability": {
+          "words": 241,
+          "sentences": 13,
+          "average_words_per_sentence": 18.54
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 76.45
+    },
+    {
+      "id": "2a0cbc3d4de6e3ac",
       "fuente_id": "huawei_central",
       "fuente_nombre": "Huawei Central",
       "tipo": "rss_web",
@@ -663,47 +590,41 @@
       "prioridad_fuente": 5,
       "analizar": true,
       "resumir": true,
-      "titulo": "Se lanzó la serie Honor 700 con pantalla trasera AI, batería de 9000 mAh, monitoreo de frecuencia cardíaca y más",
-      "titulo_original": "Honor 700 series launched with AI rear screen, 9000mAh battery, heart rate monitoring, and more",
-      "enlace": "https://www.huaweicentral.com/honor-700-series-launched/",
-      "fecha": "2026-11-23T07:27:04.000Z",
-      "resumen_corto": "La serie Honor 700 está diseñada para satisfacer todo tipo de necesidades de los usuarios, ya sea […] The post Lanzamiento de la serie Honor 700 con pantalla trasera AI, batería de 9000 mAh, monitoreo de frecuencia cardíaca y más apareció por primera vez en Huawei Central.",
-      "resumen_largo": "Honor ha lanzado la serie Honor 700 como la nueva versión de su línea digital con una pantalla trasera incorporada impulsada por IA, una batería enorme, un sensor de cámara principal de 200 MP e interesantes funciones de salud que hasta la fecha eran exclusivas de los relojes inteligentes. La serie Honor 700 está diseñada para satisfacer todo tipo de necesidades de los usuarios, ya sea […] The post Lanzamiento de la serie Honor 700 con pantalla trasera AI, batería de 9000 mAh, monitoreo de frecuencia cardíaca y más apareció por primera vez en Huawei Central.",
-      "texto_original": "Honor has launched the Honor 700 series as the new iteration under its digital lineup with an AI-powered built-in rear display, a massive battery pack, a 200MP main camera sensor, and interesting health features that were exclusive to smartwatches to date. The Honor 700 series is tailored to fulfill all types of user needs, whether […] The post Honor 700 series launched with AI rear screen, 9000mAh battery, heart rate monitoring, and more appeared first on Huawei Central .",
+      "titulo": "Evento de lanzamiento de Huawei el 24 de noviembre para mostrar estos dispositivos emblemáticos",
+      "titulo_original": "Huawei November 24 Launch Event to showcase these flagship devices",
+      "enlace": "https://www.huaweicentral.com/huawei-november-24-launch-event-to-showcase-these-flagship-devices/",
+      "fecha": "2026-11-23T19:05:51.000Z",
+      "resumen_corto": "El evento de lanzamiento de Huawei del 24 de noviembre se transmitirá en vivo en línea y revelará todos […] The post Evento de lanzamiento de Huawei del 24 de noviembre para mostrar estos dispositivos emblemáticos apareció por primera vez en Huawei Central.",
+      "resumen_largo": "Huawei está listo para iniciar el evento de lanzamiento del 24 de noviembre, donde exhibirá sus innovadores dispositivos emblemáticos. Los entusiastas de la tecnología y los consumidores de todo el mundo han fijado sus ojos en la fecha del evento para ver qué actualizaciones importantes llegarán al escenario. El evento de lanzamiento de Huawei del 24 de noviembre se transmitirá en vivo en línea y revelará todos […] The post Evento de lanzamiento de Huawei del 24 de noviembre para mostrar estos dispositivos emblemáticos apareció por primera vez en Huawei Central.",
+      "texto_original": "Huawei is ready to kick off the November 24 launch event, where it will showcase its innovative flagship devices. Tech enthusiasts and consumers worldwide have locked their eyes on the event’s date to see what major upgrades are coming to the stage. The November 24 Huawei launch event will be streamed live online, unveiling all […] The post Huawei November 24 Launch Event to showcase these flagship devices appeared first on Huawei Central .",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-23T23:34:33.261Z",
-        "index": 32,
+        "processed_at": "2026-11-24T08:52:05.623Z",
+        "index": 17,
         "resumen": {
           "generado": true,
           "origen": "translated"
         },
         "idioma_detectado": "es",
         "idioma_original": "en",
-        "categoria": "moviles",
+        "categoria": "tecnologia",
         "categorias_secundarias": [
+          "moviles",
           "inteligencia_artificial",
-          "hardware",
-          "baterias_energia"
+          "vehiculos_energia"
         ],
         "category_scores": {
-          "moviles": 5,
-          "inteligencia_artificial": 2,
-          "hardware": 2,
-          "baterias_energia": 2,
-          "vehiculos_energia": 2,
+          "tecnologia": 5,
+          "moviles": 2,
+          "inteligencia_artificial": 1,
+          "vehiculos_energia": 1,
           "software_internet": 1
         },
         "entidades": [
           "Huawei",
-          "Honor"
+          "Vivo"
         ],
-        "cifras_detectadas": [
-          "9000 mAh",
-          "9000mAh",
-          "200 M",
-          "200M"
-        ],
+        "cifras_detectadas": [],
         "content_type": "news",
         "clickbait": {
           "detected": false,
@@ -716,13 +637,13 @@
           "signals": [],
           "url_count": 0
         },
-        "calidad": 89,
+        "calidad": 84,
         "relevancia": 75,
         "confiabilidad_fuente": 65,
         "readability": {
-          "words": 199,
-          "sentences": 5,
-          "average_words_per_sentence": 39.8
+          "words": 169,
+          "sentences": 7,
+          "average_words_per_sentence": 24.14
         },
         "duplicate": {
           "detected": false,
@@ -731,7 +652,7 @@
           "similar_to": null
         }
       },
-      "final_score": 77.4
+      "final_score": 75.65
     },
     {
       "id": "def8d0d443f637f0",
@@ -755,8 +676,8 @@
       "texto_original": "Honor 700 Pro comes with an AI-powered rear display that packs surprising features. The company started the back screen concept with the Honor 600 and continued with the new generation, but the functions are more intuitive this time! A secondary display usually helps users check notifications and take a preview of selfies directly instead of […] The post Honor 700 Pro AI rear display offers more than just popping notifications appeared first on Huawei Central .",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-23T23:34:33.258Z",
-        "index": 28,
+        "processed_at": "2026-11-24T08:52:05.636Z",
+        "index": 34,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -832,8 +753,8 @@
       "texto_original": "El guía de montaña Kurt Walde se encontraba en una ladera casi vertical en los Dolomitas italianos, a una altitud de poco más de 2.850 metros, en busca de una cueva aún inexplorada. Mientras descendía desde la cima de la montaña por una pendiente cubierta de rocas sueltas, Walde llegó a un saliente que creyó sería la cueva. Fue una falsa alarma. \"En ese momento me sentí un poco desesperado\", cuenta Walde. \"Continué descendiendo, pero al final se me acabó la cuerda\". Walde estaba convencido de que estaba cerca. Aunque no se había sentido bien esa mañana, se había cargado a la espalda su mochila de 22 kilos. En los últimos metros, prescindió de la cuerda y logró llegar a la entrada de la cueva sin ella. En su interior le esperaba un espectáculo extraordinario. En lo más profundo de la cavidad, el haz de luz de su linterna frontal iluminó un cementerio de esqueletos de la Edad de Hielo. Se sospecha que pertenecen al Ursus ladinicus , una especie de oso de las cavernas que se extinguió hace unos 24.000 años. La entrada a la cueva recién descubierta se encuentra al otro lado de la montaña respecto a otro lugar famoso: la cueva de Conturines, situada en el Parque Natural Fanes-Senes-Braies, en el norte de Italia. Hasta la fecha, ese es el único sitio donde se ha confirmado la presencia de restos de Ursus ladinicus .",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-23T23:34:33.251Z",
-        "index": 16,
+        "processed_at": "2026-11-24T08:52:05.627Z",
+        "index": 24,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -905,8 +826,8 @@
       "texto_original": "Elevated errors with GPT-6 conversations on paid ChatGPT plans OpenAI Status",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-23T23:34:33.250Z",
-        "index": 15,
+        "processed_at": "2026-11-24T08:52:05.626Z",
+        "index": 23,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -956,50 +877,129 @@
       "final_score": 74.95
     },
     {
-      "id": "012ae1203b36678b",
-      "fuente_id": "huawei_central",
+      "id": "e97244ee92eb1893",
+      "fuente_id": "huawei_google",
       "fuente_nombre": "Huawei Central",
       "tipo": "rss_web",
-      "subtipo": "medio_especializado",
+      "subtipo": "google_news",
       "grupo_fuente": "huawei",
-      "nivel_fuente": "secundaria_especializada",
+      "nivel_fuente": "agregador",
       "categoria": "moviles",
       "idioma_original": "en",
-      "prioridad_fuente": 5,
+      "prioridad_fuente": 4,
       "analizar": true,
       "resumir": true,
-      "titulo": "Se acerca la variante de color Rose Gold de la edición coleccionista de Huawei FreeClip 2",
-      "titulo_original": "Huawei FreeClip 2 Collector’s Edition Rose Gold color variant is coming",
-      "enlace": "https://www.huaweicentral.com/huawei-freeclip-2-collectors-edition-rose-gold-color-variant-is-coming/",
-      "fecha": "2026-11-23T04:36:30.000Z",
-      "resumen_corto": "Es posible que la edición de coleccionista de Huawei FreeClip 2 pronto obtenga una combinación de colores Rose Gold.",
-      "resumen_largo": "Es posible que la edición de coleccionista de Huawei FreeClip 2 pronto obtenga una combinación de colores Rose Gold. La compañía ha utilizado el tono clásico para los teléfonos de la serie Mate 90. Ahora ofrece la misma opción de color a más productos, incluido el nuevo teléfono inteligente Air y los auriculares abiertos.",
-      "texto_original": "Huawei FreeClip 2 Collector’s Edition may soon get a Rose Gold colorway. The company has used the classic shade for Mate 90 series phones. Now it is bringing the same color option to more products, including the new Air smartphone and open-back earbuds. Weibo tipster FixedFocus noted that Huawei will launch a Rose Gold FreeClip […] The post Huawei FreeClip 2 Collector’s Edition Rose Gold color variant is coming appeared first on Huawei Central .",
+      "titulo": "Se lanzó la serie Honor 700 con pantalla trasera AI, batería de 9000 mAh, monitoreo de frecuencia cardíaca y más",
+      "titulo_original": "Honor 700 series launched with AI rear screen, 9000mAh battery, heart rate monitoring, and more - Huawei Central",
+      "enlace": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5PdklHR3R3dGZoWnQxR1pqZjdKTDcxMjVWNGVmRkhJUlcwaWtteldHRlhzdEd4RWJQOUJJSmxpc09CcV9wTlgzMzFwN1NNM3R0OXp0M09TV2lDeUs0c0M1Y1BrSzc4dGPSAWxBVV95cUxNallxUW1SS3ZrRmw3akNlYW1xdzNRRTdxNlZJUTBGQU8xU1d3N3pQbDdKd1FCWXZvRm54TTR2Z0wxNzRXbXMyQ1k1dmZ5U2JMbFVXQWxGUldYN3UtV201bmliMWd1bGdva2FkVnQ?oc=5",
+      "fecha": "2026-11-23T07:31:28.000Z",
+      "resumen_corto": "Se lanzó la serie Honor 700 con pantalla trasera AI, batería de 9000 mAh, monitoreo de frecuencia cardíaca y más Huawei Central",
+      "resumen_largo": "Se lanzó la serie Honor 700 con pantalla trasera AI, batería de 9000 mAh, monitoreo de frecuencia cardíaca y más Huawei Central",
+      "texto_original": "Honor 700 series launched with AI rear screen, 9000mAh battery, heart rate monitoring, and more Huawei Central",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-23T23:34:33.263Z",
-        "index": 35,
+        "processed_at": "2026-11-24T08:52:05.639Z",
+        "index": 38,
         "resumen": {
           "generado": true,
           "origen": "translated"
         },
         "idioma_detectado": "es",
         "idioma_original": "en",
-        "categoria": "moviles",
+        "categoria": "inteligencia_artificial",
         "categorias_secundarias": [
-          "inteligencia_artificial",
-          "hardware",
-          "vehiculos_energia"
+          "moviles",
+          "baterias_energia",
+          "hardware"
         ],
         "category_scores": {
-          "moviles": 5,
           "inteligencia_artificial": 2,
+          "moviles": 2,
+          "baterias_energia": 2,
           "hardware": 1,
-          "vehiculos_energia": 1,
-          "software_internet": 1
+          "vehiculos_energia": 1
         },
         "entidades": [
-          "Huawei"
+          "Huawei",
+          "Honor"
+        ],
+        "cifras_detectadas": [
+          "9000 mAh",
+          "9000mAh"
+        ],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 87,
+        "relevancia": 75,
+        "confiabilidad_fuente": 53,
+        "readability": {
+          "words": 78,
+          "sentences": 1,
+          "average_words_per_sentence": 78
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 73.7
+    },
+    {
+      "id": "7e0ea11a1b6126c1",
+      "fuente_id": "catl_google",
+      "fuente_nombre": "CATL",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "catl",
+      "nivel_fuente": "fuente_oficial",
+      "categoria": "baterias_energia",
+      "idioma_original": "en",
+      "prioridad_fuente": 5,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "CATL une fuerzas con socios de Asia y el Pacífico para promover la transición energética",
+      "titulo_original": "CATL Joins Forces with Asia-Pacific Partners to Promote Energy Transition - CATL",
+      "enlace": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9CRkhqRkFsS3plb3hmTGlFY2pUQ3hpclk0RmJ0T2FqVlFFVTcxT210TVFBM2hPX2xWOTFrc0MteWE4MXNjelZaLURxUWdfd0k?oc=5",
+      "fecha": "2026-11-15T08:00:00.000Z",
+      "resumen_corto": "CATL une fuerzas con socios de Asia y el Pacífico para promover la transición energética CATL",
+      "resumen_largo": "CATL une fuerzas con socios de Asia y el Pacífico para promover la transición energética CATL",
+      "texto_original": "CATL Joins Forces with Asia-Pacific Partners to Promote Energy Transition CATL",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-11-24T08:52:05.642Z",
+        "index": 46,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "en",
+        "categoria": "inteligencia_artificial",
+        "categorias_secundarias": [
+          "semiconductores",
+          "moviles",
+          "baterias_energia"
+        ],
+        "category_scores": {
+          "inteligencia_artificial": 1,
+          "semiconductores": 1,
+          "moviles": 1,
+          "baterias_energia": 1
+        },
+        "entidades": [
+          "CATL"
         ],
         "cifras_detectadas": [],
         "content_type": "news",
@@ -1015,12 +1015,12 @@
           "url_count": 0
         },
         "calidad": 84,
-        "relevancia": 70,
-        "confiabilidad_fuente": 65,
+        "relevancia": 62,
+        "confiabilidad_fuente": 75,
         "readability": {
-          "words": 132,
-          "sentences": 8,
-          "average_words_per_sentence": 16.5
+          "words": 57,
+          "sentences": 1,
+          "average_words_per_sentence": 57
         },
         "duplicate": {
           "detected": false,
@@ -1029,10 +1029,10 @@
           "similar_to": null
         }
       },
-      "final_score": 73.65
+      "final_score": 72.95
     },
     {
-      "id": "74c773b4788f3bc1",
+      "id": "4cc7348a4ac323a4",
       "fuente_id": "techinsights_google",
       "fuente_nombre": "TechInsights",
       "tipo": "rss_web",
@@ -1044,39 +1044,41 @@
       "prioridad_fuente": 5,
       "analizar": true,
       "resumir": true,
-      "titulo": "Sony IMX905: la tecnología de sensores detrás del iPhone 18 Pro Max",
-      "titulo_original": "Sony IMX905: The Sensor Technology Behind the iPhone 18 Pro Max - TechInsights",
-      "enlace": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQR3QzYnpLcHJxN1g3R2lscnhNN0VhdVlpSG9yc1ktNGFNUkJTa2VjaGpUUmFMOGdic0JTbFplVlMxcjk2eVBjNzlFM1pZenhDNkxuQ1JBOW1BRTVaQVV3U09FamVpSm5BNjZ0QlVBd1VTU1lwdkN5OXg5VDA1cW5BUnFDVTB2WkJD?oc=5",
+      "titulo": "Conferencia CMC 2027 Arizona | Conferencia sobre materiales semiconductores",
+      "titulo_original": "2027 CMC Conference Arizona | Semiconductor Materials Conference - TechInsights",
+      "enlace": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOQkkzeDVtQTJCdmlzWGxqSzIzUThBSThEb2xfTXlFZG1BVmNTT0VRM0xfc0F6RjVucmxRVURGcElzZjZOQWFwcHh3NjBWY0NLYTZ3dV8wVkhsVEJGSnE2N0tEZGFCcjU5bEdCOTAtU1Bsb3FvY2owNHp0dm52WnM2dkZPNmQ3QQ?oc=5",
       "fecha": "2026-11-13T08:00:00.000Z",
-      "resumen_corto": "Sony IMX905: la tecnología de sensores detrás del iPhone 18 Pro Max TechInsights",
-      "resumen_largo": "Sony IMX905: la tecnología de sensores detrás del iPhone 18 Pro Max TechInsights",
-      "texto_original": "Sony IMX905: The Sensor Technology Behind the iPhone 18 Pro Max TechInsights",
+      "resumen_corto": "Conferencia CMC 2027 Arizona | Conferencia sobre materiales semiconductores TechInsights",
+      "resumen_largo": "Conferencia CMC 2027 Arizona | Conferencia sobre materiales semiconductores TechInsights",
+      "texto_original": "2027 CMC Conference Arizona | Semiconductor Materials Conference TechInsights",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-23T23:34:33.266Z",
-        "index": 45,
+        "processed_at": "2026-11-24T08:52:05.643Z",
+        "index": 47,
         "resumen": {
           "generado": true,
           "origen": "translated"
         },
-        "idioma_detectado": "es",
+        "idioma_detectado": "en",
         "idioma_original": "en",
-        "categoria": "tecnologia",
+        "categoria": "semiconductores",
         "categorias_secundarias": [
           "inteligencia_artificial",
-          "moviles"
+          "moviles",
+          "tecnologia"
         ],
         "category_scores": {
-          "tecnologia": 4,
+          "semiconductores": 2,
           "inteligencia_artificial": 1,
-          "moviles": 1
+          "moviles": 1,
+          "tecnologia": 1
         },
         "entidades": [
-          "iPhone",
-          "TechInsights",
-          "Sensor Technology"
+          "TechInsights"
         ],
-        "cifras_detectadas": [],
+        "cifras_detectadas": [
+          "2027"
+        ],
         "content_type": "news",
         "clickbait": {
           "detected": false,
@@ -1089,13 +1091,13 @@
           "signals": [],
           "url_count": 0
         },
-        "calidad": 84,
-        "relevancia": 67,
+        "calidad": 89,
+        "relevancia": 62,
         "confiabilidad_fuente": 65,
         "readability": {
-          "words": 51,
+          "words": 42,
           "sentences": 1,
-          "average_words_per_sentence": 51
+          "average_words_per_sentence": 42
         },
         "duplicate": {
           "detected": false,
@@ -1104,75 +1106,7 @@
           "similar_to": null
         }
       },
-      "final_score": 72.45
-    },
-    {
-      "id": "4b9937012ab014e0",
-      "fuente_id": "genbeta_google",
-      "fuente_nombre": "Genbeta",
-      "tipo": "rss_web",
-      "subtipo": "google_news",
-      "grupo_fuente": "genbeta",
-      "nivel_fuente": "medio_especializado",
-      "categoria": "software_internet",
-      "idioma_original": "es",
-      "prioridad_fuente": 4,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "Confirmado: la Justicia determina que utilizar la IA en el trabajo sin permiso de la empresa puede ser motivo de despido disciplinario y se apoya en el Estatuto de los Trabajadores",
-      "titulo_original": "Confirmado: la Justicia determina que utilizar la IA en el trabajo sin permiso de la empresa puede ser motivo de despido disciplinario y se apoya en el Estatuto de los Trabajadores - Genbeta",
-      "enlace": "https://news.google.com/rss/articles/CBMigAJBVV95cUxNWkEyWHdxcGwwN1BGTnVRc2pyLXh6dV9rZTVHU1RBVWlhT3FRYWlvczN6UExBVzc5c3pZdEFEWnNuam5xMmt2UDdBMGRCMzl4cFBlMmgzXzF5aGtzQ0NKcjE4RV9hODNfTHl3NEZaWnNkU09nemtDQjEybU02ZHFWVkZ4X0YtRFBDMkJCcHcyVmdKSGprZjczOVRuWWNpNC1ETVQ1ME85U3JzTEE1VGw1RVphX3ZEU18zTE1rN3diYi1OLV8zVjVlOFJFTTFqRkx2ajk4MHktQXNqUXNLQ3FRdzBHRFlCREtUdWNrUTZfbGhOR25BSy1vUEVJTTYzNTZj0gGGAkFVX3lxTFAzZUNYdkc3RktxZUpYSGJWT1ZvcGxwTXJ5c3VidFlyUl91OGpxbTlya3A1RTZITjExdW1GcVFrbzVULXlMd1NWLXhSQ2h4UXVhOXhFQkdpOXhyN2JMb0tRd0F0ZVY5V25hX2d3RzZZWEsxYVhOQS1rSmhtRlpkSzdmYXZ5ay1oRm9OUXJrOHpjQUZnZkQ4OFlycHhUZFNOejNnb01uVDcyTE12bURNZVRlU0I2M242TDQwYVlsSllHVzE5XzdUTmFUTnZ3N0JnWllyelVVSFpZSWliWUVlM0R1YXBlalRISU5mOUM4clZLV0JkRk1MRHAyc2dpYmttT3NncVpaZmc?oc=5",
-      "fecha": "2026-11-23T16:00:49.000Z",
-      "resumen_corto": "Confirmado: la Justicia determina que utilizar la IA en el trabajo sin permiso de la empresa puede ser motivo de despido disciplinario y se apoya en el Estatuto de los Trabajadores Genbeta",
-      "resumen_largo": "Confirmado: la Justicia determina que utilizar la IA en el trabajo sin permiso de la empresa puede ser motivo de despido disciplinario y se apoya en el Estatuto de los Trabajadores Genbeta",
-      "texto_original": "Confirmado: la Justicia determina que utilizar la IA en el trabajo sin permiso de la empresa puede ser motivo de despido disciplinario y se apoya en el Estatuto de los Trabajadores Genbeta",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-11-23T23:34:33.252Z",
-        "index": 17,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "es",
-        "categoria": "inteligencia_artificial",
-        "categorias_secundarias": [],
-        "category_scores": {
-          "inteligencia_artificial": 1
-        },
-        "entidades": [
-          "Genbeta"
-        ],
-        "cifras_detectadas": [],
-        "content_type": "report",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 90,
-        "relevancia": 63,
-        "confiabilidad_fuente": 60,
-        "readability": {
-          "words": 94,
-          "sentences": 1,
-          "average_words_per_sentence": 94
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 71.7
+      "final_score": 72.2
     },
     {
       "id": "3c7942114af0ebf8",
@@ -1196,8 +1130,8 @@
       "texto_original": "Kris Armstrong tenía poco más de veinte años y llevaba apenas dos años casada cuando sonó su teléfono. Un agente de policía le comunicó que su marido, Brandon, había sufrido un terrible accidente de automóvil. \"Fue como una experiencia extracorpórea: algo que ves en las películas cuando alguien recibe una llamada que le cambia la vida.\" Se casó con Brandon cuando solo tenía 21 años. Él era enérgico y atlético: bailarín de breakdance y practicante de snowboard , propenso a hacer declaraciones de amor espectaculares y grandes gestos románticos. De camino al hospital, Kris le preguntó a su madre qué haría si Brandon muriera. No sabía si iba a la morgue para identificar el cadáver o a una planta del hospital para verlo con vida. Cuando abrió los ojos por primera vez dos semanas después del accidente, su mirada no manifestaba comprensión.",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-23T23:34:33.253Z",
-        "index": 19,
+        "processed_at": "2026-11-24T08:52:05.628Z",
+        "index": 25,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -1246,6 +1180,77 @@
       "final_score": 71.15
     },
     {
+      "id": "7f2bbacdf8282163",
+      "fuente_id": "ia_dia",
+      "fuente_nombre": "IA al Día",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "ia_general",
+      "nivel_fuente": "agregador",
+      "categoria": "inteligencia_artificial",
+      "idioma_original": "es",
+      "prioridad_fuente": 3,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Un nuevo método matemático permite a la inteligencia artificial aprender con precisión de datos con ruido extremo - Las Provincias",
+      "titulo_original": "Un nuevo método matemático permite a la inteligencia artificial aprender con precisión de datos con ruido extremo - Las Provincias",
+      "enlace": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOTFBsdmZBSVZDVXpjbnNqNHJGYzUwQldLS1Z5R0syckViRjRnT3Y5bGpaREo4UmZyV19IM0Vnb2tUblVtOUZ4NXF0UVZXbUNkMjRLRFlwZWtoU2tUUlRaRVViMC1HQkY3WnktSjZReEFkUlZxcEhnZHVIY3RkM0RYNmFpb2s2WEJQb094djJpdjFHVEp3R2Q2UURIZzNLOTV1TTNIcdIBqgFBVV95cUxOWmZ6Z1FINFlRZTVQNXhST3FzRjJyci1PN0JhYVRrdzNxSzc4ZC16VjN1U3M1N0VSS25wWE9fNTdaX1NRN1Y2WTRDV2JFVGxRMzVQR0xmdnNlMHBtLWVqU1FGZV85R2ZPZTlvRFdGLUM1TXZuUWJDTkF0Zmt0bzc5NFl0YUNlTV9xZzBBYXgxY2V3WktaQ19oNG1BLWZwNVNDTDR2SFloSFNmdw?oc=5",
+      "fecha": "2026-11-23T07:25:33.000Z",
+      "resumen_corto": "Un nuevo método matemático permite a la inteligencia artificial aprender con precisión de datos con ruido extremo Las Provincias",
+      "resumen_largo": "Un nuevo método matemático permite a la inteligencia artificial aprender con precisión de datos con ruido extremo Las Provincias",
+      "texto_original": "Un nuevo método matemático permite a la inteligencia artificial aprender con precisión de datos con ruido extremo Las Provincias",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-11-24T08:52:05.639Z",
+        "index": 39,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "inteligencia_artificial",
+        "categorias_secundarias": [
+          "moviles",
+          "vehiculos_energia"
+        ],
+        "category_scores": {
+          "inteligencia_artificial": 3,
+          "moviles": 1,
+          "vehiculos_energia": 1
+        },
+        "entidades": [],
+        "cifras_detectadas": [],
+        "content_type": "report",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 83,
+        "relevancia": 65,
+        "confiabilidad_fuente": 63,
+        "readability": {
+          "words": 75,
+          "sentences": 1,
+          "average_words_per_sentence": 75
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 70.8
+    },
+    {
       "id": "4828e057a0db49d2",
       "fuente_id": "openai_google",
       "fuente_nombre": "OpenAI",
@@ -1267,8 +1272,8 @@
       "texto_original": "OpenAI and Cisco introduce Shirudo OpenAI",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-23T23:34:33.238Z",
-        "index": 0,
+        "processed_at": "2026-11-24T08:52:05.618Z",
+        "index": 10,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -1335,8 +1340,8 @@
       "texto_original": "Perplexity and Intelligence OpenAI",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-23T23:34:33.264Z",
-        "index": 37,
+        "processed_at": "2026-11-24T08:52:05.640Z",
+        "index": 40,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -1382,6 +1387,77 @@
       "final_score": 70.15
     },
     {
+      "id": "b55535e63457e86b",
+      "fuente_id": "catl_google",
+      "fuente_nombre": "CATL",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "catl",
+      "nivel_fuente": "fuente_oficial",
+      "categoria": "baterias_energia",
+      "idioma_original": "en",
+      "prioridad_fuente": 5,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "CATL abre el primer centro de experiencia NING SERVICE de Türkiye en Estambul",
+      "titulo_original": "CATL Opens Türkiye's First NING SERVICE Experience Center in Istanbul - CATL",
+      "enlace": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9WTnR4SW1TS2dWVWpXU0xwM3RfWk5nbkgzRTZaWDVkVURqQ3g3NTdydFVTVFBrNXBxcEh3WUs1Sl92NWt2QWdDOXBtdnh4QTA?oc=5",
+      "fecha": "2026-11-20T10:14:46.000Z",
+      "resumen_corto": "CATL abre el primer centro de experiencia NING SERVICE de Türkiye en Estambul CATL",
+      "resumen_largo": "CATL abre el primer centro de experiencia NING SERVICE de Türkiye en Estambul CATL",
+      "texto_original": "CATL Opens Türkiye's First NING SERVICE Experience Center in Istanbul CATL",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-11-24T08:52:05.642Z",
+        "index": 44,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "en",
+        "categoria": "inteligencia_artificial",
+        "categorias_secundarias": [
+          "baterias_energia"
+        ],
+        "category_scores": {
+          "inteligencia_artificial": 1,
+          "baterias_energia": 1
+        },
+        "entidades": [
+          "CATL"
+        ],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 84,
+        "relevancia": 55,
+        "confiabilidad_fuente": 75,
+        "readability": {
+          "words": 49,
+          "sentences": 1,
+          "average_words_per_sentence": 49
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 70.15
+    },
+    {
       "id": "c903e4b43f445e54",
       "fuente_id": "xiaomi_google",
       "fuente_nombre": "Xiaomi",
@@ -1403,8 +1479,8 @@
       "texto_original": "All Specs, Features of Xiaomi 18 Pro | Xiaomi Global Xiaomi",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-23T23:34:33.266Z",
-        "index": 44,
+        "processed_at": "2026-11-24T08:52:05.642Z",
+        "index": 45,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -1455,6 +1531,226 @@
       "final_score": 70.15
     },
     {
+      "id": "fc9b539fa53b87c4",
+      "fuente_id": "techinsights_google",
+      "fuente_nombre": "TechInsights",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "techinsights",
+      "nivel_fuente": "especializada_tecnica",
+      "categoria": "semiconductores",
+      "idioma_original": "en",
+      "prioridad_fuente": 5,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "TechInsights Outlook 2027: cinco tendencias que están remodelando el mercado",
+      "titulo_original": "TechInsights Outlook 2027: Five Trends Reshaping the Market - TechInsights",
+      "enlace": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5fc0RYUE5sRmR3ZVQ2YmRKT2JJeTJYMG1FemJpYmxQZC1QcWNHcmdpTzFLSmlHYXg2T1ZnUHYtdWM2Z1NsNHEwNjNGRzFrY2FKWWVtcjlQWkpFWWNhcC1JY21YMA?oc=5",
+      "fecha": "2026-11-13T08:00:00.000Z",
+      "resumen_corto": "TechInsights Outlook 2027: cinco tendencias que están remodelando el mercado TechInsights",
+      "resumen_largo": "TechInsights Outlook 2027: cinco tendencias que están remodelando el mercado TechInsights",
+      "texto_original": "TechInsights Outlook 2027: Five Trends Reshaping the Market TechInsights",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-11-24T08:52:05.643Z",
+        "index": 48,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "en",
+        "categoria": "inteligencia_artificial",
+        "categorias_secundarias": [
+          "tecnologia"
+        ],
+        "category_scores": {
+          "inteligencia_artificial": 1,
+          "tecnologia": 1
+        },
+        "entidades": [
+          "TechInsights"
+        ],
+        "cifras_detectadas": [
+          "2027"
+        ],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 89,
+        "relevancia": 55,
+        "confiabilidad_fuente": 65,
+        "readability": {
+          "words": 47,
+          "sentences": 1,
+          "average_words_per_sentence": 47
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 69.4
+    },
+    {
+      "id": "1bcadd4ef684e373",
+      "fuente_id": "techinsights_google",
+      "fuente_nombre": "TechInsights",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "techinsights",
+      "nivel_fuente": "especializada_tecnica",
+      "categoria": "semiconductores",
+      "idioma_original": "en",
+      "prioridad_fuente": 5,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Infraestructura de IA: perspectivas para 2027",
+      "titulo_original": "AI Infrastructure: Outlook for 2027 - TechInsights",
+      "enlace": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9CcFhnWTd0NTB0YkxFdFhRSWZWZmZjaV90OU9LR21GbDBlUVdhYV9EcHFsbkhZclFZUjFGd2dsd3FubVgwRmhNLWQ0ZkQ0V1NELW84UGRjSDRxNWN6QXY2RWItRWJWNWxVMkgwQ1Vmd2QwbHlueWc?oc=5",
+      "fecha": "2026-11-13T08:00:00.000Z",
+      "resumen_corto": "Infraestructura de IA: perspectivas para 2027 TechInsights",
+      "resumen_largo": "Infraestructura de IA: perspectivas para 2027 TechInsights",
+      "texto_original": "AI Infrastructure: Outlook for 2027 TechInsights",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-11-24T08:52:05.643Z",
+        "index": 49,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "en",
+        "categoria": "inteligencia_artificial",
+        "categorias_secundarias": [
+          "tecnologia"
+        ],
+        "category_scores": {
+          "inteligencia_artificial": 2,
+          "tecnologia": 1
+        },
+        "entidades": [
+          "TechInsights"
+        ],
+        "cifras_detectadas": [
+          "2027"
+        ],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 89,
+        "relevancia": 55,
+        "confiabilidad_fuente": 65,
+        "readability": {
+          "words": 24,
+          "sentences": 1,
+          "average_words_per_sentence": 24
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 69.4
+    },
+    {
+      "id": "964a12e740d88053",
+      "fuente_id": "huawei_google",
+      "fuente_nombre": "Huawei Central",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "huawei",
+      "nivel_fuente": "agregador",
+      "categoria": "moviles",
+      "idioma_original": "en",
+      "prioridad_fuente": 4,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "La pantalla trasera AI del Honor 700 Pro ofrece más que solo notificaciones emergentes",
+      "titulo_original": "Honor 700 Pro AI rear display offers more than just popping notifications - Huawei Central",
+      "enlace": "https://news.google.com/rss/articles/CBMibEFVX3lxTE0zSjVxQjZENDFBb2hUSXFyS21IZGVjekJIOXNBd3V3Ml9WcF8teFRqaEtLdWJjUmI0cjZMNWhsMzBaekg3TER2OW9XV21YQVM0cnBKblg5Sm1fQWptRlVDUkozSzZlTGUzTEdactIBckFVX3lxTE1ob0xCaXNHZzI2Q1R6UEdJQ0JrOGhzQUxZNE1KMlp5QVVHMmVKcVR2c3dqVHBjRkJ1emcxUFlicUhIQ24tOXVQUVFWb1U3clJRdUo1R05yUnlRWkhxbjJlUThhVVhtdDNLR2E1VDNVVjZTQQ?oc=5",
+      "fecha": "2026-11-23T10:26:28.000Z",
+      "resumen_corto": "La pantalla trasera con IA del Honor 700 Pro ofrece más que solo notificaciones emergentes Huawei Central",
+      "resumen_largo": "La pantalla trasera con IA del Honor 700 Pro ofrece más que solo notificaciones emergentes Huawei Central",
+      "texto_original": "Honor 700 Pro AI rear display offers more than just popping notifications Huawei Central",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-11-24T08:52:05.635Z",
+        "index": 33,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "en",
+        "categoria": "inteligencia_artificial",
+        "categorias_secundarias": [
+          "moviles",
+          "hardware"
+        ],
+        "category_scores": {
+          "inteligencia_artificial": 2,
+          "moviles": 2,
+          "hardware": 1
+        },
+        "entidades": [
+          "Huawei",
+          "Honor"
+        ],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 82,
+        "relevancia": 67,
+        "confiabilidad_fuente": 53,
+        "readability": {
+          "words": 68,
+          "sentences": 1,
+          "average_words_per_sentence": 68
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 68.75
+    },
+    {
       "id": "eda621e7a76a8c7f",
       "fuente_id": "huawei_google",
       "fuente_nombre": "Huawei Central",
@@ -1476,8 +1772,8 @@
       "texto_original": "Huawei revealed what happened after Honor separation Huawei Central",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-23T23:34:33.265Z",
-        "index": 40,
+        "processed_at": "2026-11-24T08:52:05.641Z",
+        "index": 43,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -1531,79 +1827,7 @@
       "final_score": 68.75
     },
     {
-      "id": "cae3ef1a552c7b8e",
-      "fuente_id": "huawei_google",
-      "fuente_nombre": "Huawei Central",
-      "tipo": "rss_web",
-      "subtipo": "google_news",
-      "grupo_fuente": "huawei",
-      "nivel_fuente": "agregador",
-      "categoria": "moviles",
-      "idioma_original": "en",
-      "prioridad_fuente": 4,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "Huawei lanza OSTA, una nueva submarca de teléfonos seis años después de la separación de Honor",
-      "titulo_original": "Huawei launches OSTA, a new phone sub-brand six years after Honor’s separation - Huawei Central",
-      "enlace": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9HaEF5aGdFT2VIQjhRZjRBeHNwVEpQZm10Tjdoc0xWaUMzVmZaWXMwRmV3UTVfT2wtTUlLUC15cGpmVmQtM0tuYUNCbnFvRThRVFFEY1ByQU9VM3pPR3FnUNIBZkFVX3lxTE5TNUlEMFJQcVFwWUpoWWtjNWJGckZhNFNsT1E2VkQ3enY3anNsLTVKRFByWnUwRC0zcGtlYk9qQjhqOFlBOG43ZXBLUDVqS0xPVWlzbGw2NVRSWHJIaVIwdXJMZExRQQ?oc=5",
-      "fecha": "2026-11-20T08:50:58.000Z",
-      "resumen_corto": "Huawei lanza OSTA, una nueva submarca de teléfonos seis años después de la separación de Honor Huawei Central",
-      "resumen_largo": "Huawei lanza OSTA, una nueva submarca de teléfonos seis años después de la separación de Honor Huawei Central",
-      "texto_original": "Huawei launches OSTA, a new phone sub-brand six years after Honor’s separation Huawei Central",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-11-23T23:34:33.265Z",
-        "index": 42,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "en",
-        "categoria": "moviles",
-        "categorias_secundarias": [
-          "vehiculos_energia"
-        ],
-        "category_scores": {
-          "moviles": 4,
-          "vehiculos_energia": 1
-        },
-        "entidades": [
-          "Huawei",
-          "Honor"
-        ],
-        "cifras_detectadas": [],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 82,
-        "relevancia": 67,
-        "confiabilidad_fuente": 53,
-        "readability": {
-          "words": 68,
-          "sentences": 1,
-          "average_words_per_sentence": 68
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 68.75
-    },
-    {
-      "id": "feee428be748f084",
+      "id": "43c9a9d5486af90c",
       "fuente_id": "wccftech_google",
       "fuente_nombre": "Wccftech",
       "tipo": "rss_web",
@@ -1615,33 +1839,32 @@
       "prioridad_fuente": 4,
       "analizar": true,
       "resumir": true,
-      "titulo": "NVIDIA dice que Jensen Huang no es un riesgo para la seguridad, ya que lo reinstala como CEO después de consultar a altos funcionarios de EE. UU.",
-      "titulo_original": "NVIDIA Says Jensen Huang Isn’t A Security Risk As It Reinstalls Him As CEO After Consulting Senior US Officials - Wccftech",
-      "enlace": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1Eb3VwYVhST0YxN0p2d1dBRkJucVJZUjRBZlczczFHR1RVRWd4bVgtdDVVdmJ6aGpDeWt6dm8xZG1ZaEJ1V25ldXZfNHdQM3R1a09tdFNVN3ZTOHowUFJhWXZkOVBubXJHNDVhdVdqcllVelZhVkgtTVVyVXBrUG_SAYQBQVVfeXFMTmVhcmU2STBFbVEtd3hxcHVNclV6YUVLUmVXR2IzU3hQUmhnUVg3Z29LaU5ua3ZkWHhzVkFTZTY2Qkdub1lXTC02Q2VXaDZhOWJ4WkZRTzRQc24zdWw3czQ5RmpxRDctTTZXUFhKYXRRZzdYWjdoTHhFWUNsTy1RbnJGc0NO?oc=5",
-      "fecha": "2026-11-23T14:09:25.000Z",
-      "resumen_corto": "NVIDIA dice que Jensen Huang no es un riesgo para la seguridad y lo reinstala como CEO después de consultar a altos funcionarios de EE.",
-      "resumen_largo": "NVIDIA dice que Jensen Huang no es un riesgo para la seguridad y lo reinstala como CEO después de consultar a altos funcionarios de EE.",
-      "texto_original": "NVIDIA Says Jensen Huang Isn’t A Security Risk As It Reinstalls Him As CEO After Consulting Senior US Officials Wccftech",
+      "titulo": "Los empleados de NVIDIA brindan al reintegrado CEO, Jensen, una recepción de héroe en la sede de Endeavor, espera obtener una RTX Spark para trabajar como su nueva PC",
+      "titulo_original": "NVIDIA Employees Give Reinstated CEO, Jensen, A Hero’s Reception At Endeavor HQ, Hopes To Get An RTX Spark To Work On As His New PC - Wccftech",
+      "enlace": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNQmJaMVhFWFBaV19UOXpfelZra1NDeW9lcTU1clU5YXhwdlZmT2Y4VTBnNTVaQnh1RmRnMEtaSjdGc1lHbzB3bFdCTmJwWFcxOWVBalg5QjVoRmM4eldlZmFuWnNCWFdwQlFIMjNSU0JsandQR3ItUUd2UmY1VnRaRHNKWXBJeHZ3WkVhQm1oUU1HWEd6ai1mTjU3eUMzMjjSAaQBQVVfeXFMTWZEWlV6b0VnOWhReGpDUjdRcks3dFlnR19WV0tOWnRzMkNjOG9LME1McW1Mc3FMekMtNzNzemozSHNJODlxTV9HQmIyMW9KY1AwbVRiQkNFY0hvbkRXQ2tmYkg1LVZweGVfUmpnU2ZpaUxqWWtUWnZUOXhEV1pWOThQZWlNcktJS1ZQamhNbk5PNlhURDFhRW00bm03YkFTVzdZdUI?oc=5",
+      "fecha": "2026-11-23T19:45:31.000Z",
+      "resumen_corto": "Los empleados de NVIDIA brindan al CEO reinstalado, Jensen, una recepción de héroe en la sede de Endeavor, espera obtener un RTX Spark para trabajar como su nueva PC Wccftech",
+      "resumen_largo": "Los empleados de NVIDIA brindan al CEO reinstalado, Jensen, una recepción de héroe en la sede de Endeavor, espera obtener un RTX Spark para trabajar como su nueva PC Wccftech",
+      "texto_original": "NVIDIA Employees Give Reinstated CEO, Jensen, A Hero’s Reception At Endeavor HQ, Hopes To Get An RTX Spark To Work On As His New PC Wccftech",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-23T23:34:33.254Z",
-        "index": 20,
+        "processed_at": "2026-11-24T08:52:05.621Z",
+        "index": 15,
         "resumen": {
           "generado": true,
           "origen": "translated"
         },
         "idioma_detectado": "es",
         "idioma_original": "en",
-        "categoria": "software_internet",
+        "categoria": "inteligencia_artificial",
         "categorias_secundarias": [
-          "inteligencia_artificial",
-          "moviles",
-          "vehiculos_energia"
+          "hardware",
+          "vehiculos_energia",
+          "tecnologia"
         ],
         "category_scores": {
-          "software_internet": 2,
           "inteligencia_artificial": 1,
-          "moviles": 1,
+          "hardware": 1,
           "vehiculos_energia": 1,
           "tecnologia": 1
         },
@@ -1666,9 +1889,9 @@
         "relevancia": 67,
         "confiabilidad_fuente": 50,
         "readability": {
-          "words": 76,
-          "sentences": 5,
-          "average_words_per_sentence": 15.2
+          "words": 97,
+          "sentences": 1,
+          "average_words_per_sentence": 97
         },
         "duplicate": {
           "detected": false,
@@ -1678,83 +1901,6 @@
         }
       },
       "final_score": 68
-    },
-    {
-      "id": "479d89ae6d741f23",
-      "fuente_id": "wccftech_google",
-      "fuente_nombre": "Wccftech",
-      "tipo": "rss_web",
-      "subtipo": "google_news",
-      "grupo_fuente": "wccftech",
-      "nivel_fuente": "medio_especializado",
-      "categoria": "hardware",
-      "idioma_original": "en",
-      "prioridad_fuente": 4,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "La actualización de corrección de errores Grand Theft Auto VI 01.002.002 ha comenzado a implementarse, pero, según se informa, algunos usuarios tendrán que esperar 6 horas para obtenerla",
-      "titulo_original": "Grand Theft Auto VI 01.002.002 Bug Fix Update Has Started Rolling Out, But Some Users Will Reportedly Have to Wait 6 Hours To Get It - Wccftech",
-      "enlace": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5OV3d3SGtyRnRmN19kdUtLem9uYUpMWjdVVW00bTJWODlEbi1TTDlOX1pLZ040RjVjYkpEQk1TbWlmRUlFdjNhWTdwYURncnpVcTIxMFN0Z3AwaS10QWpHVEpxN1BUb1lIOFlz0gFwQVVfeXFMTmJGcDJMX1FOXzlCU2xZSWdZVF9qSHVBUlVDRnJLWEZ4SXhNOU03ci1pY0YxUDBHcHlpWUdXV3c0SDJjV2JHYW4wWFRUOWtLU2h0RDZRV3gwSldoeTJFLWZ1UHFPaHQtQzh3RGZhMTZaVA?oc=5",
-      "fecha": "2026-11-23T15:31:30.000Z",
-      "resumen_corto": "La actualización de corrección de errores Grand Theft Auto VI 01.002.002 ha comenzado a implementarse, pero, según se informa, algunos usuarios tendrán que esperar 6 horas para obtenerla Wccftech",
-      "resumen_largo": "La actualización de corrección de errores Grand Theft Auto VI 01.002.002 ha comenzado a implementarse, pero, según se informa, algunos usuarios tendrán que esperar 6 horas para obtenerla Wccftech",
-      "texto_original": "Grand Theft Auto VI 01.002.002 Bug Fix Update Has Started Rolling Out, But Some Users Will Reportedly Have to Wait 6 Hours To Get It Wccftech",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-11-23T23:34:33.252Z",
-        "index": 18,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "en",
-        "categoria": "inteligencia_artificial",
-        "categorias_secundarias": [
-          "moviles",
-          "vehiculos_energia",
-          "tecnologia"
-        ],
-        "category_scores": {
-          "inteligencia_artificial": 1,
-          "moviles": 1,
-          "vehiculos_energia": 1,
-          "tecnologia": 1
-        },
-        "entidades": [
-          "Wccftech"
-        ],
-        "cifras_detectadas": [
-          "002.002 B"
-        ],
-        "content_type": "report",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 80,
-        "relevancia": 62,
-        "confiabilidad_fuente": 60,
-        "readability": {
-          "words": 109,
-          "sentences": 11,
-          "average_words_per_sentence": 9.91
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 67.8
     },
     {
       "id": "d1b85f24e26667a6",
@@ -1778,8 +1924,8 @@
       "texto_original": "Rockstar’s Next Game Is L.A. Noire 2, Will Be the Best-Looking Game Ever Made, Said the 2023 Leaker Who Got Most of GTA VI’s Plot Right Wccftech",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-23T23:34:33.260Z",
-        "index": 31,
+        "processed_at": "2026-11-24T08:52:05.638Z",
+        "index": 37,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -1855,8 +2001,8 @@
       "texto_original": "Introducing OpenWorks OpenAI",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-23T23:34:33.246Z",
-        "index": 7,
+        "processed_at": "2026-11-24T08:52:05.623Z",
+        "index": 19,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -1902,6 +2048,79 @@
       "final_score": 67.35
     },
     {
+      "id": "b334d9562d062f27",
+      "fuente_id": "google_news_es",
+      "fuente_nombre": "Google News ES",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "google_news",
+      "nivel_fuente": "agregador",
+      "categoria": "tecnologia",
+      "idioma_original": "es",
+      "prioridad_fuente": 3,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Los mejores cupones de Black Friday para ahorrar en tecnología de Sony, Huawei, Lenovo y más - EL PAÍS",
+      "titulo_original": "Los mejores cupones de Black Friday para ahorrar en tecnología de Sony, Huawei, Lenovo y más - EL PAÍS",
+      "enlace": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNY1d5QkQ0ZUlielBselJDM1A1LUJEdmtmN252RnZ0SHJQdk1QV2tkT3lPVVUxb0hHdkZUcHdvcHhDeFRWdDRFM3hGWjNMSGs2S2ZoVFJmUU9SR1FPdFBISEpOWFBQTFFueUFvWlZWVDNQZ0VTOVRSZnZ2YTRGZjN4SE9FS1B2c05NM1I4VzhGTnQ3ai1yWmZucS1lWEpac3BmN09rbmRB0gG6AUFVX3lxTFBiaVJldndYM05neXBhQXl1cHpUcVNzYjB2bTFlN3Y3all6SkNiTGI4NmxRaTBQR1B1UDRUdmxTcV94VXkyT3gyYUcwRFRhbmlncGFaZVJISEFSUl9PdWpmZjBPOTJJcUhSQUJvbmVvY3lMMkI2R0w4d0s2dDlIOUhaOVRBTnFZSlpoVjBSUVVFUFprZ1lVUFU5M0Q1SmxiT2NCdk1nZXFOXzhTa0xRNG9ENndBRXRES0V3Zw?oc=5",
+      "fecha": "2026-11-24T06:10:00.000Z",
+      "resumen_corto": "Los mejores cupones de Black Friday para ahorrar en tecnología de Sony, Huawei, Lenovo y más EL PAÍS",
+      "resumen_largo": "Los mejores cupones de Black Friday para ahorrar en tecnología de Sony, Huawei, Lenovo y más EL PAÍS",
+      "texto_original": "Los mejores cupones de Black Friday para ahorrar en tecnología de Sony, Huawei, Lenovo y más EL PAÍS",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-11-24T08:52:05.608Z",
+        "index": 2,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "inteligencia_artificial",
+        "categorias_secundarias": [
+          "tecnologia",
+          "moviles"
+        ],
+        "category_scores": {
+          "inteligencia_artificial": 2,
+          "tecnologia": 2,
+          "moviles": 1
+        },
+        "entidades": [
+          "Huawei"
+        ],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 80,
+        "relevancia": 62,
+        "confiabilidad_fuente": 53,
+        "readability": {
+          "words": 65,
+          "sentences": 1,
+          "average_words_per_sentence": 65
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 66.05
+    },
+    {
       "id": "3a6c5f134b5de21a",
       "fuente_id": "xataka_google",
       "fuente_nombre": "Xataka",
@@ -1923,8 +2142,8 @@
       "texto_original": "Las plataformas de streaming también se apuntan al Black Friday: ofertas y promociones de Apple TV, Disney+, Movistar Plus y más Xataka",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-23T23:34:33.242Z",
-        "index": 2,
+        "processed_at": "2026-11-24T08:52:05.619Z",
+        "index": 12,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -1992,8 +2211,8 @@
       "texto_original": "\"Los elementos distintivos del diseño se reflejan en el BYD”: prohibido vender un todoterreno de BYD por su parecido con el Land Rover Defender Xataka",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-23T23:34:33.249Z",
-        "index": 11,
+        "processed_at": "2026-11-24T08:52:05.624Z",
+        "index": 20,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -2043,6 +2262,149 @@
       "final_score": 65.2
     },
     {
+      "id": "c0bb2209dcd7f6eb",
+      "fuente_id": "google_news_es",
+      "fuente_nombre": "Google News ES",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "google_news",
+      "nivel_fuente": "agregador",
+      "categoria": "tecnologia",
+      "idioma_original": "es",
+      "prioridad_fuente": 3,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Extremadura lanza 3,5 millones en ayudas para llevar innovaciones al mercado y adaptar tecnología civil al sector de la defensa - elDiario.es",
+      "titulo_original": "Extremadura lanza 3,5 millones en ayudas para llevar innovaciones al mercado y adaptar tecnología civil al sector de la defensa - elDiario.es",
+      "enlace": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPalROQzc5d0pCaVV0c0lpWWpRNW1EdWp4YTFpa1lnQVA3S3U4VEx4UFQ3dG85U0NwSm8tMjloZDVfS0VuM3A0OUlQVWQwMS1LSVY2bXFYM2xKc09iRExJbXJlTlRiX0I5YkRPSjE0bkN3NXE2cUZ6am01QzRzbmRKLWRVNWZWVlJwUHBVTzA3bjZRakVfTWw1bW5ZNnYteFZhekdzMTNTWEhKV2NaTEZnU25tMjRjcmRzZTBfdHVQQkRycmRUMFg5QUR2aEVkU2lyanJYdHRPWnpzR2hmRzNDcS1WREVQbm5NUWUtZUNOWUkxVXVQZ0lSdUhR0gH_AUFVX3lxTFBDRlpBZ2xQbmtFVGxNWDczUmVjZjctd2ZCN25xbDRtRW5CTTlEanpIOGg4QzM3aVZhYUVreFg3Y1EyWmZ4V2piZVdHTm1jS1RhUGYxNXBvaHFXTUtCMzBpMjRPQXZ3VWZMSVFqdWRNR2hkTTQ5d1JlRXVIMDFSZ1ZqRXZHUGVtWklTcWhTY0Q2QWNBSUZiN0hhdkV4VnY5a1FSemNEN2lXMGp1S0hwdmRyU1J4NnNSQUZNd1dQR0haMWU5dkg1c0ZGMlFjc2drd0xaTnVFYUYtX2FfNEE5Z3ZMY1ZwQmhONUwySGpaM3pEbFZpTWgxRi1mQlYyTW5sWQ?oc=5",
+      "fecha": "2026-11-23T12:24:49.000Z",
+      "resumen_corto": "Extremadura lanza 3,5 millones en ayudas para llevar innovaciones al mercado y adaptar tecnología civil al sector de la defensa elDiario.es",
+      "resumen_largo": "Extremadura lanza 3,5 millones en ayudas para llevar innovaciones al mercado y adaptar tecnología civil al sector de la defensa elDiario.es",
+      "texto_original": "Extremadura lanza 3,5 millones en ayudas para llevar innovaciones al mercado y adaptar tecnología civil al sector de la defensa elDiario.es",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-11-24T08:52:05.632Z",
+        "index": 28,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "tecnologia",
+        "categorias_secundarias": [
+          "inteligencia_artificial",
+          "vehiculos_energia",
+          "militar"
+        ],
+        "category_scores": {
+          "tecnologia": 3,
+          "inteligencia_artificial": 1,
+          "vehiculos_energia": 1,
+          "militar": 1
+        },
+        "entidades": [],
+        "cifras_detectadas": [
+          "3,5 m"
+        ],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 80,
+        "relevancia": 57,
+        "confiabilidad_fuente": 53,
+        "readability": {
+          "words": 70,
+          "sentences": 6,
+          "average_words_per_sentence": 11.67
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 64.05
+    },
+    {
+      "id": "aa41b9397c6c601c",
+      "fuente_id": "google_news_es",
+      "fuente_nombre": "Google News ES",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "google_news",
+      "nivel_fuente": "agregador",
+      "categoria": "tecnologia",
+      "idioma_original": "es",
+      "prioridad_fuente": 3,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Pixel 11 Pro: el Android que mejor se siente - El Mundo",
+      "titulo_original": "Pixel 11 Pro: el Android que mejor se siente - El Mundo",
+      "enlace": "https://news.google.com/rss/articles/CBMif0FVX3lxTFAteVJXaFNDUHBuNmM4SmdQWkVwXzdhQzM3RW1LMnMyQXhGWkEwTnJoSTkyNElETjZmeWNueG41YUJsaUdHWnh3S1Z0cGhLSlY5M3YxT3RpdjhtNVF1QTZPT2tNN2NiV3RHYWJYSTFZZ0FLalBPRXVGSEpkbWpKU1HSAX9BVV95cUxQcDZ1YVBGYzIxUEV3V3U0QkFaS3ExZUVrRWNGMzg0cXpmdlF5bTNEOWlZRkhKVnhyVU4ySk9KRWhWZXZubnNIb1piYVV0ckV0MGNHME13T1JyMklJcnJ1b1VKTUh2T3puLWpXdm1aWndRRlNhTHBINHFSWmVrRVZz?oc=5",
+      "fecha": "2026-11-23T23:24:00.000Z",
+      "resumen_corto": "Pixel 11 Pro: el Android que mejor se siente El Mundo",
+      "resumen_largo": "Pixel 11 Pro: el Android que mejor se siente El Mundo",
+      "texto_original": "Pixel 11 Pro: el Android que mejor se siente El Mundo",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-11-24T08:52:05.612Z",
+        "index": 5,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "moviles",
+        "categorias_secundarias": [],
+        "category_scores": {
+          "moviles": 2
+        },
+        "entidades": [
+          "Android"
+        ],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 80,
+        "relevancia": 55,
+        "confiabilidad_fuente": 53,
+        "readability": {
+          "words": 35,
+          "sentences": 1,
+          "average_words_per_sentence": 35
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 63.25
+    },
+    {
       "id": "e1ca3945017bd127",
       "fuente_id": "ia_dia",
       "fuente_nombre": "IA al Día",
@@ -2064,8 +2426,8 @@
       "texto_original": "El regreso triunfal de Jensen Huang, creador de Nvidia, a la cima de la inteligencia artificial RTVE.es",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-23T23:34:33.245Z",
-        "index": 5,
+        "processed_at": "2026-11-24T08:52:05.621Z",
+        "index": 16,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -2111,6 +2473,77 @@
       "final_score": 63.25
     },
     {
+      "id": "0314275dbde84cb9",
+      "fuente_id": "xataka_google",
+      "fuente_nombre": "Xataka",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "xataka",
+      "nivel_fuente": "medio_especializado",
+      "categoria": "tecnologia",
+      "idioma_original": "es",
+      "prioridad_fuente": 4,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "El pack de Black Friday con PS5 y tele OLED para jugar a ‘GTA VI’: consola más televisor de 55 pulgadas, con 1.000 euros de descuento",
+      "titulo_original": "El pack de Black Friday con PS5 y tele OLED para jugar a ‘GTA VI’: consola más televisor de 55 pulgadas, con 1.000 euros de descuento - Xataka",
+      "enlace": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPWm1wdnhEcXVTQmZUcXhmRUwwek5JUVNpZVd0WTZvWFBfdTFIcmhES00weDFZdXl1Q3BNTFVhMmoxUG9zc0pWU3pFbDFoUmhROF81Q21DR2ZPSVdka0UwTVp0bmVfWTZGcklNaEY5a0tpVENBSzlYMVBSME51LXFpM2JYeVVjdnZNc1dZTmFtMVRwTzYwQmJIZVJ5WGlkNzZnQk9oNFNHenhRbkY3X1UzLVVkTTFPUDJWUjFpbTNwWEpkM2FSNmdpS09JZ2U0WEdXRkHSAdcBQVVfeXFMT3Q4b3RBYm82TUhSLXVTa1otY0tscVFXWHNTYUZ3T1p5blJnSWxXN1N1WUVQeE9PcGJXVm9GMHNOMGQ3T2sxUFpRRjNHQ3FXd0liWkt3bWVuandsWkU1MnA0RHVPZW52T3l4cFg5ZXFDVmZNSGhGXzVsclJHMnNESDBmN2NFdFg4emFRUnVIQkRfdjZwcXQ0Y0ZYOUJqTlVEN1d4Q0VESlJidkM2ZkVZR25Ya1pvaVh2UVhCdGVrQlhIRGJmWEpUdkp2LWxldWJlOHNXX0xCNWM?oc=5",
+      "fecha": "2026-11-23T19:46:50.000Z",
+      "resumen_corto": "El pack de Black Friday con PS5 y tele OLED para jugar a ‘GTA VI’: consola más televisor de 55 pulgadas, con 1.000 euros de descuento Xataka",
+      "resumen_largo": "El pack de Black Friday con PS5 y tele OLED para jugar a ‘GTA VI’: consola más televisor de 55 pulgadas, con 1.000 euros de descuento Xataka",
+      "texto_original": "El pack de Black Friday con PS5 y tele OLED para jugar a ‘GTA VI’: consola más televisor de 55 pulgadas, con 1.000 euros de descuento Xataka",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-11-24T08:52:05.620Z",
+        "index": 14,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "hardware",
+        "categorias_secundarias": [
+          "vehiculos_energia"
+        ],
+        "category_scores": {
+          "hardware": 1,
+          "vehiculos_energia": 1
+        },
+        "entidades": [
+          "Xataka"
+        ],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 82,
+        "relevancia": 55,
+        "confiabilidad_fuente": 50,
+        "readability": {
+          "words": 94,
+          "sentences": 6,
+          "average_words_per_sentence": 15.67
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 63.2
+    },
+    {
       "id": "098f7b79988fae3b",
       "fuente_id": "xataka_google",
       "fuente_nombre": "Xataka",
@@ -2132,8 +2565,8 @@
       "texto_original": "Tres helicópteros y 300 toneladas de cebo envenenado: el día que los ecologistas declararon la guerra a las ratas de una isla Xataka",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-23T23:34:33.257Z",
-        "index": 26,
+        "processed_at": "2026-11-24T08:52:05.634Z",
+        "index": 31,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -2182,29 +2615,29 @@
       "final_score": 63.2
     },
     {
-      "id": "6101a7628556fd06",
-      "fuente_id": "xataka_google",
-      "fuente_nombre": "Xataka",
+      "id": "df5ebccfd827f528",
+      "fuente_id": "genbeta_google",
+      "fuente_nombre": "Genbeta",
       "tipo": "rss_web",
       "subtipo": "google_news",
-      "grupo_fuente": "xataka",
+      "grupo_fuente": "genbeta",
       "nivel_fuente": "medio_especializado",
-      "categoria": "tecnologia",
+      "categoria": "software_internet",
       "idioma_original": "es",
       "prioridad_fuente": 4,
       "analizar": true,
       "resumir": true,
-      "titulo": "Han resuelto la conjetura de Riemann, uno de los mayores problemas matemáticos de la historia. Ahora solo nos queda entender el resultado",
-      "titulo_original": "Han resuelto la conjetura de Riemann, uno de los mayores problemas matemáticos de la historia. Ahora solo nos queda entender el resultado - Xataka",
-      "enlace": "https://news.google.com/rss/articles/CBMihwJBVV95cUxOaDdyNk5STjJ4dllNTUZVVjBKT0owVTZUblZ2OWxobDRMUDVFbUR0MUI5d0doZVRsUDVBSmE2Z0hoeG1Wdm5BdlN1SGhiZ3pSdUQ3cTUyTjRuQ21UYjZTX2FzQmhYLXBSNHpfZEhXX243NVk1b08wbEtjeFVnQ2pZVWt0bjZEcWRmaEpZblQyUlF5em51NktIVFY1NWc1Nld4OVBvNGxreXhHT1JacmEybjktTUcwRVlnV0tpUl8tRFJvNzUtRExZajdROG5nQ1NHd3FCbkE0MmhxOVpMcUZuTk5BeGVxeWRXWTBJSlVuTWVFLVdpcHdMbkl5dUJ3aGp5S2VPdS1yd9IBjAJBVV95cUxOcWhTeTJOWTJIX3E1NDlSZk1sVVFjeHlSN2hCS3Z5d1pWR1FBUkFEcEs5dXotWVYzNnNteGtpWDNsLTRMaG9zWlNua045UU5jTmcwWExUYXBZZzN3T21hRWxHOTNXczVjUWIxWElUTGNEejgtWkd6SVpjWk9hLU14NWpORnZBai1FVHl5U3UxZms2SHFEZmJNeUxlVDg4NURTZlp5MXZ5WVo5WjQtckJSOV9FYllJd2xqQjBtWmJ3SnZyeEtIMGdGLW1PTHMxZkt2STRQRnd1anc5MzlIc2V5SHltcEJGVFZXb0tROHV4bllQdXBSU3dvTFRoaXMyVVRWLW93ckRUNm15XzB6?oc=5",
-      "fecha": "2026-11-23T10:17:00.000Z",
-      "resumen_corto": "Ahora solo nos queda entender el resultado Xataka",
-      "resumen_largo": "Han resuelto la conjetura de Riemann, uno de los mayores problemas matemáticos de la historia. Ahora solo nos queda entender el resultado Xataka",
-      "texto_original": "Han resuelto la conjetura de Riemann, uno de los mayores problemas matemáticos de la historia. Ahora solo nos queda entender el resultado Xataka",
+      "titulo": "Hace 12 años, la exmujer de Elon Musk dijo que una de las mejores técnicas del multimillonario es saber usar sabiamente la psicología de la oposición",
+      "titulo_original": "Hace 12 años, la exmujer de Elon Musk dijo que una de las mejores técnicas del multimillonario es saber usar sabiamente la psicología de la oposición - Genbeta",
+      "enlace": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPM1Zwa1pLWnZoQTJfYVZ2a3IwMGh6TVFLZ3pTZGstVEpVSUI3WG5YWGhIOWkwVVZ1b1JqTXFDaElpZEJQMlZIV2VER1FnRGl0aVFKcllncnBZWWlFNF9YWUs4X2k5LTFBdTNSTGRLc2FHbW92MTRzTHJvRVdzWHVVa2NwMjg4OGtkVm5lR2JBcG5wQUtHTU9LNEVXc3NmOHJFR2dNWEFHYWg2WGJrR0Fjd1hsdnB5SFJidU1JbElCRnJZeWNTcDl6eXhYajc2Q2xNRlVSWmlhUHN3U2dnQWxQaXhSSVNCV3Rt0gHuAUFVX3lxTE9DTVBkdmpCQlNOMzAxaVdhR0J0ZFA3TXFMZlhWSFB3V0g5RDVLLVJaTWlHYkZZWXB0ZW5JVnVLVEdFNEUtV09KRmxGZkI0V2xFbGw2UWxpd1B4UkdLSEdmS1V0b1Y0SlJjNm4xWlNEQkdNaFNEdTVsZGp6MkVkRFhpdXVybjRtUnJCTzRIV2xZZkxKVFJFeHNRd0RSY1MtSjQ0eFN6UjVnMG5iZkRJQndyRWpvalFqNUhxMmhqQ1Fkb2M3WFRHNFpOTjVMRHMyam5JbHZmTjVrUjNrNWM4cUVya0hCS25UMDQtVmNkb1E?oc=5",
+      "fecha": "2026-11-23T09:00:28.000Z",
+      "resumen_corto": "Hace 12 años, la exmujer de Elon Musk dijo que una de las mejores técnicas del multimillonario es saber usar sabiamente la psicología de la oposición Genbeta",
+      "resumen_largo": "Hace 12 años, la exmujer de Elon Musk dijo que una de las mejores técnicas del multimillonario es saber usar sabiamente la psicología de la oposición Genbeta",
+      "texto_original": "Hace 12 años, la exmujer de Elon Musk dijo que una de las mejores técnicas del multimillonario es saber usar sabiamente la psicología de la oposición Genbeta",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-23T23:34:33.259Z",
-        "index": 29,
+        "processed_at": "2026-11-24T08:52:05.638Z",
+        "index": 36,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -2212,15 +2645,12 @@
         "idioma_detectado": "es",
         "idioma_original": "es",
         "categoria": "inteligencia_artificial",
-        "categorias_secundarias": [
-          "moviles"
-        ],
+        "categorias_secundarias": [],
         "category_scores": {
-          "inteligencia_artificial": 1,
-          "moviles": 1
+          "inteligencia_artificial": 1
         },
         "entidades": [
-          "Xataka"
+          "Genbeta"
         ],
         "cifras_detectadas": [],
         "content_type": "news",
@@ -2239,9 +2669,9 @@
         "relevancia": 55,
         "confiabilidad_fuente": 50,
         "readability": {
-          "words": 74,
-          "sentences": 5,
-          "average_words_per_sentence": 14.8
+          "words": 94,
+          "sentences": 1,
+          "average_words_per_sentence": 94
         },
         "duplicate": {
           "detected": false,
@@ -2274,8 +2704,8 @@
       "texto_original": "La reflexión de Arturo Pérez-Reverte sobre los perros: “Nadie que no haya convivido con ellos conocerá hasta dónde llega la lealtad” Genbeta",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-23T23:34:33.264Z",
-        "index": 38,
+        "processed_at": "2026-11-24T08:52:05.640Z",
+        "index": 41,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -2342,8 +2772,8 @@
       "texto_original": "Unos arqueólogos han desenterrado en Francia una vasija llena con decenas de miles de monedas romanas de hace 1.800 años Genbeta",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-23T23:34:33.264Z",
-        "index": 39,
+        "processed_at": "2026-11-24T08:52:05.641Z",
+        "index": 42,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -2389,7 +2819,7 @@
       "final_score": 63.2
     },
     {
-      "id": "226391fce8782a03",
+      "id": "1a3577afaf41c5eb",
       "fuente_id": "google_news_es",
       "fuente_nombre": "Google News ES",
       "tipo": "rss_web",
@@ -2401,90 +2831,17 @@
       "prioridad_fuente": 3,
       "analizar": true,
       "resumir": true,
-      "titulo": "El presidente ejecutivo de Telefónica pide que Europa cree su propia tecnología para no depender de multimillonarios \"astutos\" - Antena 3 Noticias",
-      "titulo_original": "El presidente ejecutivo de Telefónica pide que Europa cree su propia tecnología para no depender de multimillonarios \"astutos\" - Antena 3 Noticias",
-      "enlace": "https://news.google.com/rss/articles/CBMikgJBVV95cUxQWmtseG5lTmcyazVlanJoQnM3N3E2cXRyZ0NlTTdnUjlJNm5IbUJwbnRJTFBITDkxbm55QWZsN3NvREVFdUxnY0dZcmRpVTRndV8zdjVaQUZNMzFjV1R0aExlUVExdWxIem16bFVmcmx2WlVKdVRiX1Z6VVlkS2NUb3V2VC1YNHlHeDBKRnNIRVhaY2ZQQUtXZC1teXFOVF84QWlFZURfSW5pN1dXdzJIUVM0RDdIMXk5dGNhYlR5aHBLOWJ5dW9QN1JXNFJqcmt5R1lHRThqZ2JZemVmRUd6T2tZM0xfNk9zN3hYaDBlVmV1VE53OG1vUnlUVi1RN0hBZ1hOLUd3b3JINzVXQU1lb2h30gGSAkFVX3lxTFB0SVNjYm5tLWdDUVVFVFRiMTZPOVhiVlNHc0dDRWxJX0E4LURRR2RycUprZkZUY2JGYkpGODFXdUJzQWNNNjdZVHZyZ1ViTUVPaEZobVVDb2VJMXc0aWVSRlJfVFhMTDVGbUxPX0RUWXRuZS1TcEJkeHJGRjhWWWxEUWdnS0JLblF6cWpFOTZEZnkwaWhHSmF2amRodk9GNlRfR1dkYVBfVzdDbGJxRW1HaDdjVmNoYjZMc09mYWFjUmptX3dJY1FQMEtUNWhtM01welRCSmd4UF96cFg4NzlsNmEtTDd5ZmpPZmdmS2E1WEZObWcyT19KQVRwRkluTkRCRzM0VGdqdzB2TTdJVHhfZFE?oc=5",
-      "fecha": "2026-11-23T17:31:03.000Z",
-      "resumen_corto": "El presidente ejecutivo de Telefónica pide que Europa cree su propia tecnología para no depender de multimillonarios \"astutos\" Antena 3 Noticias",
-      "resumen_largo": "El presidente ejecutivo de Telefónica pide que Europa cree su propia tecnología para no depender de multimillonarios \"astutos\" Antena 3 Noticias",
-      "texto_original": "El presidente ejecutivo de Telefónica pide que Europa cree su propia tecnología para no depender de multimillonarios \"astutos\" Antena 3 Noticias",
+      "titulo": "Reversa suma nuevos inversores para crecer en el mercado de la tecnología regulatoria - Expansión",
+      "titulo_original": "Reversa suma nuevos inversores para crecer en el mercado de la tecnología regulatoria - Expansión",
+      "enlace": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNVVVmejFKMXhHLWhqX0RBSFhHaTJES1dQRXF4VXJXRERuOTJzcVZlLWlneW41d0c2bk5pSTBVOWtfUkM4bXVYVEo4YUtVTWYwa0hZaUdMUUF3WTV1R0NGdWY1VGdnZko3RDROZUk0bjRiOEVMYVo2YmY3MHpxZkU3dW5QZDNYRkRoWEFqX2lVTV8tSE9tdXUwcktlVTVJaW1EZGp0eDYya0NjU2VLc0JjQk5ySjRCR3N4WkozSE1pTEpEc3pRY1h5NHIxVnhKS213Zk5qR3NTamHSAdgBQVVfeXFMTjQ4RnJTYnJxRXpZOEFxZXpka1RqMUtjZ3RzWnlVUFlLVkRMR3U5M0RqSXluX1ZBM0VURU1CQk5BOXA0SzJQcjdNSlZpdUxYVi1aOEZMWlpZOXRlTFhCOG1BZVpYZ0VuV1BWdXE0RC1ZN05mMzhDRUZtM1dKbVBfbERSUW93Ym45OGJVZ1VkZk9ZUUVIZnFDc3A1WVlmMWhBMGNYcEd3SGlDbzMyV1d1ZUROOFJkUExLMDdUcTVHb2Y5XzVla05xeWRpY2M1NVFSd0dsb0ItQUM3?oc=5",
+      "fecha": "2026-11-24T08:00:00.000Z",
+      "resumen_corto": "Reversa suma nuevos inversores para crecer en el mercado de la tecnología regulatoria Expansión",
+      "resumen_largo": "Reversa suma nuevos inversores para crecer en el mercado de la tecnología regulatoria Expansión",
+      "texto_original": "Reversa suma nuevos inversores para crecer en el mercado de la tecnología regulatoria Expansión",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-23T23:34:33.249Z",
-        "index": 12,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "es",
-        "categoria": "actualidad",
-        "categorias_secundarias": [
-          "tecnologia",
-          "inteligencia_artificial",
-          "moviles"
-        ],
-        "category_scores": {
-          "actualidad": 3,
-          "tecnologia": 2,
-          "inteligencia_artificial": 1,
-          "moviles": 1
-        },
-        "entidades": [],
-        "cifras_detectadas": [],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 75,
-        "relevancia": 57,
-        "confiabilidad_fuente": 53,
-        "readability": {
-          "words": 75,
-          "sentences": 1,
-          "average_words_per_sentence": 75
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 62.3
-    },
-    {
-      "id": "26ec74b81b9b133e",
-      "fuente_id": "google_news_es",
-      "fuente_nombre": "Google News ES",
-      "tipo": "rss_web",
-      "subtipo": "google_news",
-      "grupo_fuente": "google_news",
-      "nivel_fuente": "agregador",
-      "categoria": "tecnologia",
-      "idioma_original": "es",
-      "prioridad_fuente": 3,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "Arranca el nuevo plan para renovar la alta tecnología del Ingesa con la firma de los dos primeros acuerdos - Redacción Médica",
-      "titulo_original": "Arranca el nuevo plan para renovar la alta tecnología del Ingesa con la firma de los dos primeros acuerdos - Redacción Médica",
-      "enlace": "https://news.google.com/rss/articles/CBMilwJBVV95cUxNa3hwbmh4NXBsbUlEUTU1NzkzaGJGeEpyc1pYaFVqRWpYcFo5RTNyaTZUdmV6MGFrbGpsOWVqZDVqVUVsc0VaRGw0QUxldGoyWUhmQUdadXhJQUtGZzJyQ2M2UEp4SHJEbnYzZGUzal84REZQYlprUVRIVjFtNFowZlp3WjY2ZTViNEFUNGlzUHBBSTZTMmdIcGdSaUo4X0lYSERjeVNDMTdYU25jMGJNQVZPVEpEN3lnUGFGTWtpeUl1RmQtSS11b2dZUGdEX3p4VTdkai0tbVA1cmlGdTFFU0dnem14SmJEUEtZODJtQlZCMTNyTm9wNGV1OFY2Y1ZydDE2TGhPVnlfQ2xnS19ZNmRXamE2R2vSAZwCQVVfeXFMUHQyZnRSTUVGWmdrekUyWFJManM0aTZScEZFd2YwaFVIQVBIYTdtTm5qYURxT1UwM0xCSG5iNVFMZ2s4bzZIWGgwVVlfNFRrY2NYeWNyOGhrUjJvYmhZbUtFRnZpbE9uTmxJNTFtUmVrODV4QmhsQXBVM0RkMm9lRzZrdnpJZE83SHkzOEFVVnlnSHd5NUF4ZTlOYWJ3c0lfbmVwd28yalhpeTRkaW5TOVV1bkNkcnkyaGtoR1B1WnRfM0FQS3JQazhqV3FXWUNUM0U0QXREM3JjczFyYjBxeFZmZWt3TjJTbWI2WHEzRHhYT1RFOFdsbDd2NFREY3ZReGhoYkE4YzRrOFp3bjZ0Vm5kUTNVQURRSnBGbUw?oc=5",
-      "fecha": "2026-11-23T17:15:57.000Z",
-      "resumen_corto": "Arranca el nuevo plan para renovar la alta tecnología del Ingesa con la firma de los dos primeros acuerdos Redacción Médica",
-      "resumen_largo": "Arranca el nuevo plan para renovar la alta tecnología del Ingesa con la firma de los dos primeros acuerdos Redacción Médica",
-      "texto_original": "Arranca el nuevo plan para renovar la alta tecnología del Ingesa con la firma de los dos primeros acuerdos Redacción Médica",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-11-23T23:34:33.250Z",
-        "index": 13,
+        "processed_at": "2026-11-24T08:52:05.605Z",
+        "index": 0,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -2519,9 +2876,80 @@
         "relevancia": 57,
         "confiabilidad_fuente": 53,
         "readability": {
-          "words": 85,
+          "words": 50,
           "sentences": 1,
-          "average_words_per_sentence": 85
+          "average_words_per_sentence": 50
+        },
+        "duplicate": {
+          "detected": false,
+          "type": null,
+          "similarity": 0,
+          "similar_to": null
+        }
+      },
+      "final_score": 62.3
+    },
+    {
+      "id": "7b1c8cd0f126a36b",
+      "fuente_id": "google_news_es",
+      "fuente_nombre": "Google News ES",
+      "tipo": "rss_web",
+      "subtipo": "google_news",
+      "grupo_fuente": "google_news",
+      "nivel_fuente": "agregador",
+      "categoria": "tecnologia",
+      "idioma_original": "es",
+      "prioridad_fuente": 3,
+      "analizar": true,
+      "resumir": true,
+      "titulo": "Un colegio sevillano, entre los 900 del mundo con mejor uso de la tecnología: «No se trata de utilizarla más, sino de hacerlo mejor» - ABC",
+      "titulo_original": "Un colegio sevillano, entre los 900 del mundo con mejor uso de la tecnología: «No se trata de utilizarla más, sino de hacerlo mejor» - ABC",
+      "enlace": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQdzRaSFVyMVdKZ3RrN1lzelRLTVpjZXpmaERKYUFoSUdjVmUxU2t6VmpnSE9OZ00xeVFMVEl3OFBkM19kZXMwMkI3bENZNVF1UVBrSWtheXVTcXQyVHNuMXpyQ05VX2haRWk5dHNDMjZ1UkRfT1p0eTMzdWMyM1FaTHFwUlFuWTBWVVhDOXNyQ21yWEt3ZUZJUFp1SmtQZmZvN2VySE1fcUxKUdIBrwFBVV95cUxPcGdhbDFRdk9KbzdBZjNaWmJ3clZfc3hDdFZXV3JpX1dvanJHeG5nQmpCS3FhU00tM3hJUTdHQVp5SnRqQ0ZJbWRMWjN2em5ydWZ3MVQwMEJPYVk5RW9kU2tGVmtKX05Hc0hWR3hoenoxNzFyRExzd2FJWU9zNVNGUTUyRkhGSDR5LUlmUWpsTXJ6ZFptR3FYTU9zMkZhNzZnbUgyVXhPZ1pFVjdrbEhr?oc=5",
+      "fecha": "2026-11-24T06:25:38.000Z",
+      "resumen_corto": "Un colegio sevillano, entre los 900 del mundo con mejor uso de la tecnología: «No se trata de utilizarla más, sino de hacerlo mejor» ABC",
+      "resumen_largo": "Un colegio sevillano, entre los 900 del mundo con mejor uso de la tecnología: «No se trata de utilizarla más, sino de hacerlo mejor» ABC",
+      "texto_original": "Un colegio sevillano, entre los 900 del mundo con mejor uso de la tecnología: «No se trata de utilizarla más, sino de hacerlo mejor» ABC",
+      "analisis": {
+        "version": 2,
+        "processed_at": "2026-11-24T08:52:05.607Z",
+        "index": 1,
+        "resumen": {
+          "generado": true,
+          "origen": "translated"
+        },
+        "idioma_detectado": "es",
+        "idioma_original": "es",
+        "categoria": "tecnologia",
+        "categorias_secundarias": [
+          "inteligencia_artificial",
+          "vehiculos_energia"
+        ],
+        "category_scores": {
+          "tecnologia": 2,
+          "inteligencia_artificial": 1,
+          "vehiculos_energia": 1
+        },
+        "entidades": [],
+        "cifras_detectadas": [],
+        "content_type": "news",
+        "clickbait": {
+          "detected": false,
+          "score": 0,
+          "signals": []
+        },
+        "spam": {
+          "detected": false,
+          "score": 0,
+          "signals": [],
+          "url_count": 0
+        },
+        "calidad": 75,
+        "relevancia": 57,
+        "confiabilidad_fuente": 53,
+        "readability": {
+          "words": 90,
+          "sentences": 1,
+          "average_words_per_sentence": 90
         },
         "duplicate": {
           "detected": false,
@@ -2554,8 +2982,8 @@
       "texto_original": "Por qué no voy a dejar las matemáticas, aunque la inteligencia artificial resuelva problemas que llevan siglos sin resolverse elDiario.es",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-23T23:34:33.250Z",
-        "index": 14,
+        "processed_at": "2026-11-24T08:52:05.624Z",
+        "index": 21,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -2604,7 +3032,7 @@
       "final_score": 62.3
     },
     {
-      "id": "9dd14724921a9a59",
+      "id": "dd48378d8c1af4f0",
       "fuente_id": "google_news_es",
       "fuente_nombre": "Google News ES",
       "tipo": "rss_web",
@@ -2616,17 +3044,17 @@
       "prioridad_fuente": 3,
       "analizar": true,
       "resumir": true,
-      "titulo": "Las imágenes del gran evento de la IA y las nuevas tecnologías - Expansión",
-      "titulo_original": "Las imágenes del gran evento de la IA y las nuevas tecnologías - Expansión",
-      "enlace": "https://news.google.com/rss/articles/CBMiowFBVV95cUxON1ZPUThsUjZtMGI5NHhXZWg3aDZtTFZEWDV5SHlzeWM3QmRtUERrY2hqUDR1aGhqQ3hKTFV0VUg1RzhwaUEwVVZoV0xWT1UzSzEyNVBXaWdwU3hscGR2SjJkRGRfLWdoYUJ2Q2d0SzJNMFd5dzdFbE5LNmV4MWN6QlFkdlAyMmFlOHFKa3o4TW9QSkdqazIwLWVnSERwdnc0VDJJ?oc=5",
-      "fecha": "2026-11-23T12:16:43.000Z",
-      "resumen_corto": "Las imágenes del gran evento de la IA y las nuevas tecnologías Expansión",
-      "resumen_largo": "Las imágenes del gran evento de la IA y las nuevas tecnologías Expansión",
-      "texto_original": "Las imágenes del gran evento de la IA y las nuevas tecnologías Expansión",
+      "titulo": "Orange apuesta por la tecnología sostenible con su nueva campaña de economía circular - Radio Intereconomía",
+      "titulo_original": "Orange apuesta por la tecnología sostenible con su nueva campaña de economía circular - Radio Intereconomía",
+      "enlace": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQOHVDSl80SWRPX1lSYlFFZ0cwbld1cTk2ZXA4MDN1RUZXT2U2VTY3bWNHeUE0SlJ6WHVHVlAtRUszZ2c0T2RTX1JnQUxCUTB6c3FRcFVtLWZhbU1JUmhQTGplV2REQktvTEtIUlZCNXhiYXN0SE1mM2t4MTg1akJ3N3E4cnpMLVF4VmhSS2lJVXAydXZqRUFmTGRXUnFMdlpaZEFJRWk0Si1vMllTX3lQZmFuVkk3TlNidUhBQ2o0SWRMQWFPalFYUnViWWlodWPSAdQBQVVfeXFMTVhaOUdFQmU4azMxWU5CQnZ4a2k4aGMzY3l5ZFc4aUFzOVdMaHpsSlFUcHFzWjVnbjY1aGZFTllEVDRKbnk1LUZVem1OaVhWZ2p1LTBqVFZJbExYX01hV2JHaFdza29pSFNremtqZHVxVjc5b19Od1NBd2xJOU1fMUN1RmtoSXoyNG9tQTNIWURQNjZQTUJzS1JqcWdvTHh1bzZnamlmbXRteVlSNXQ1VUFUbEw4akRWTTEwOF90VS1GUldEOEJzZE9Qa0FZcnVMQjV3NWg?oc=5",
+      "fecha": "2026-11-23T11:27:17.000Z",
+      "resumen_corto": "Orange apuesta por la tecnología sostenible con su nueva campaña de economía circular Radio Intereconomía",
+      "resumen_largo": "Orange apuesta por la tecnología sostenible con su nueva campaña de economía circular Radio Intereconomía",
+      "texto_original": "Orange apuesta por la tecnología sostenible con su nueva campaña de economía circular Radio Intereconomía",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-23T23:34:33.256Z",
-        "index": 23,
+        "processed_at": "2026-11-24T08:52:05.634Z",
+        "index": 30,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -2635,11 +3063,13 @@
         "idioma_original": "es",
         "categoria": "tecnologia",
         "categorias_secundarias": [
+          "actualidad",
           "inteligencia_artificial",
           "vehiculos_energia"
         ],
         "category_scores": {
           "tecnologia": 2,
+          "actualidad": 2,
           "inteligencia_artificial": 1,
           "vehiculos_energia": 1
         },
@@ -2653,17 +3083,19 @@
         },
         "spam": {
           "detected": false,
-          "score": 0,
-          "signals": [],
+          "score": 30,
+          "signals": [
+            "\\bapuesta\\b"
+          ],
           "url_count": 0
         },
         "calidad": 75,
         "relevancia": 57,
         "confiabilidad_fuente": 53,
         "readability": {
-          "words": 45,
+          "words": 60,
           "sentences": 1,
-          "average_words_per_sentence": 45
+          "average_words_per_sentence": 60
         },
         "duplicate": {
           "detected": false,
@@ -2673,77 +3105,6 @@
         }
       },
       "final_score": 62.3
-    },
-    {
-      "id": "18b09e39cd645e46",
-      "fuente_id": "google_news_es",
-      "fuente_nombre": "Google News ES",
-      "tipo": "rss_web",
-      "subtipo": "google_news",
-      "grupo_fuente": "google_news",
-      "nivel_fuente": "agregador",
-      "categoria": "tecnologia",
-      "idioma_original": "es",
-      "prioridad_fuente": 3,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "Una marca común para la tecnología sanitaria española, un sector que exporta casi 5.000 millones de euros - El Confidencial",
-      "titulo_original": "Una marca común para la tecnología sanitaria española, un sector que exporta casi 5.000 millones de euros - El Confidencial",
-      "enlace": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOVlE0T2F0czdZTWZCbXhyaE1qTDRISzB3V0dXVmJhLVV2Y0xkMGlNM0Voa2NpSzcyV2dYYmdtZGFUbFlKRk9CdHhHY1Zna013M3g4VFNWMGJuajU5M19fSEx1dkFqM1RDZFYxZHFPbFlubUFaU0l6NVdoeG42NUY2cEh5b1NwMFJWbVdaUHctR2psN2FC?oc=5",
-      "fecha": "2026-11-23T12:27:00.000Z",
-      "resumen_corto": "Una marca común para la tecnología sanitaria española, un sector que exporta casi 5.000 millones de euros El Confidencial",
-      "resumen_largo": "Una marca común para la tecnología sanitaria española, un sector que exporta casi 5.000 millones de euros El Confidencial",
-      "texto_original": "Una marca común para la tecnología sanitaria española, un sector que exporta casi 5.000 millones de euros El Confidencial",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-11-23T23:34:33.255Z",
-        "index": 22,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "es",
-        "categoria": "tecnologia",
-        "categorias_secundarias": [
-          "inteligencia_artificial"
-        ],
-        "category_scores": {
-          "tecnologia": 2,
-          "inteligencia_artificial": 1
-        },
-        "entidades": [],
-        "cifras_detectadas": [
-          "5.000 m"
-        ],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 80,
-        "relevancia": 50,
-        "confiabilidad_fuente": 53,
-        "readability": {
-          "words": 75,
-          "sentences": 6,
-          "average_words_per_sentence": 12.5
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 61.25
     },
     {
       "id": "08d7acb9908541b4",
@@ -2767,8 +3128,8 @@
       "texto_original": "PlayStation 6 Controller Could Get a Dedicated Graphics Settings Button, but Sony’s Patented Tech Would Also Adjust Settings Automatically Every Frame Wccftech",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-23T23:34:33.257Z",
-        "index": 27,
+        "processed_at": "2026-11-24T08:52:05.635Z",
+        "index": 32,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -2821,44 +3182,47 @@
       "final_score": 60.75
     },
     {
-      "id": "2aa91fd2ad995560",
-      "fuente_id": "google_news_es",
-      "fuente_nombre": "Google News ES",
+      "id": "411a80d95512b80b",
+      "fuente_id": "wccftech_google",
+      "fuente_nombre": "Wccftech",
       "tipo": "rss_web",
       "subtipo": "google_news",
-      "grupo_fuente": "google_news",
-      "nivel_fuente": "agregador",
-      "categoria": "tecnologia",
-      "idioma_original": "es",
-      "prioridad_fuente": 3,
+      "grupo_fuente": "wccftech",
+      "nivel_fuente": "medio_especializado",
+      "categoria": "hardware",
+      "idioma_original": "en",
+      "prioridad_fuente": 4,
       "analizar": true,
       "resumir": true,
-      "titulo": "Lancia Gamma: Espacio, estilo y tecnología - El Periódico",
-      "titulo_original": "Lancia Gamma: Espacio, estilo y tecnología - El Periódico",
-      "enlace": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOMHBtNVFjbzRNMkQ3YzdDc3JfYmI2aHJIR05uQ2dEREVuNzNYYTZkYmdVcVYtTmZIcHZuNjJkOTMtTU1RSzFiT3YyYUI4OFpOeGVHNkJIWnNHQ1B4NER1ME5LZk5kT2RwWFdEaWpoQXFGRUlqdVhQVXFLbmF4WE9RMENiWnZmTGowLUdmOE9ZSEktVk9XVktSLWtn0gGaAUFVX3lxTE1xSkhqVm5JcGtmTDlFNVQ0VEhMVnRQZmJnQmJ3ZXRoT3ZVSUczbmh4Sl93dHFSWTlRd0ZJTzdzUk5COTJUMkNXdkxlOUVaS2xXTXowVVd2bVEzVnYzdk1nY2xRc0NmNjVEYXU2M1Jvb1ZPRkNXS2RXQ2YxanFOMEtMNEthNU4wTGU4MHZyN0JVdWV2eWVGU3Ftenc?oc=5",
-      "fecha": "2026-11-23T11:15:06.000Z",
-      "resumen_corto": "Lancia Gamma: Espacio, estilo y tecnología El Periódico",
-      "resumen_largo": "Lancia Gamma: Espacio, estilo y tecnología El Periódico",
-      "texto_original": "Lancia Gamma: Espacio, estilo y tecnología El Periódico",
+      "titulo": "Jensen Huang fue reinstalado como director ejecutivo de NVIDIA en una decisión de la junta directiva del domingo que mantuvo a la directora ejecutiva interina, Collette Kress, fuera del circuito, dice Bloomberg",
+      "titulo_original": "Jensen Huang Was Reinstated As NVIDIA CEO In A Sunday Board Decision That Kept Interim CEO Collette Kress Out Of The Loop, Says Bloomberg - Wccftech",
+      "enlace": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9FdnVZb0hMNGNjeTNOQ0gtUVhaLTZpZEIxcmhuRkg0U3ViTENXbDNxV2hkRGg1Z2MyQl94TkhoZm1ZaktBWmM4MDVR0gFPQVVfeXFMTmI2NWhWOElLZjg2R3BnVFBvNFZ3QlZ2TElTQWl0dk1JQVV4ajNmREtYeWJpVHVrSTB1eEZkcDJJQmNGa1d3TnZ2TjNMZUVFTQ?oc=5",
+      "fecha": "2026-11-23T18:49:56.000Z",
+      "resumen_corto": "Jensen Huang fue reinstalado como director ejecutivo de NVIDIA en una decisión de la junta directiva del domingo que mantuvo a la directora ejecutiva interina, Collette Kress, fuera del circuito, dice Bloomberg Wccftech",
+      "resumen_largo": "Jensen Huang fue reinstalado como director ejecutivo de NVIDIA en una decisión de la junta directiva del domingo que mantuvo a la directora ejecutiva interina, Collette Kress, fuera del circuito, dice Bloomberg Wccftech",
+      "texto_original": "Jensen Huang Was Reinstated As NVIDIA CEO In A Sunday Board Decision That Kept Interim CEO Collette Kress Out Of The Loop, Says Bloomberg Wccftech",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-23T23:34:33.257Z",
-        "index": 25,
+        "processed_at": "2026-11-24T08:52:05.623Z",
+        "index": 18,
         "resumen": {
           "generado": true,
           "origen": "translated"
         },
         "idioma_detectado": "es",
-        "idioma_original": "es",
-        "categoria": "tecnologia",
+        "idioma_original": "en",
+        "categoria": "inteligencia_artificial",
         "categorias_secundarias": [
-          "inteligencia_artificial"
+          "tecnologia"
         ],
         "category_scores": {
-          "tecnologia": 2,
-          "inteligencia_artificial": 1
+          "inteligencia_artificial": 1,
+          "tecnologia": 1
         },
-        "entidades": [],
+        "entidades": [
+          "NVIDIA",
+          "Wccftech"
+        ],
         "cifras_detectadas": [],
         "content_type": "news",
         "clickbait": {
@@ -2872,13 +3236,13 @@
           "signals": [],
           "url_count": 0
         },
-        "calidad": 75,
-        "relevancia": 50,
-        "confiabilidad_fuente": 53,
+        "calidad": 67,
+        "relevancia": 60,
+        "confiabilidad_fuente": 50,
         "readability": {
-          "words": 30,
+          "words": 122,
           "sentences": 1,
-          "average_words_per_sentence": 30
+          "average_words_per_sentence": 122
         },
         "duplicate": {
           "detected": false,
@@ -2887,10 +3251,10 @@
           "similar_to": null
         }
       },
-      "final_score": 59.5
+      "final_score": 59.95
     },
     {
-      "id": "7ad31c2d499b1df9",
+      "id": "46f9b4239da78342",
       "fuente_id": "ia_dia",
       "fuente_nombre": "IA al Día",
       "tipo": "rss_web",
@@ -2902,17 +3266,17 @@
       "prioridad_fuente": 3,
       "analizar": true,
       "resumir": true,
-      "titulo": "La IA corporativa avanza a paso lento: la usan solo tres de cada diez empresas andaluzas - El Conciso",
-      "titulo_original": "La IA corporativa avanza a paso lento: la usan solo tres de cada diez empresas andaluzas - El Conciso",
-      "enlace": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQWEYxX1E4cDY4RlJKaG5xQjFiSjlpME9wSkJLek5fMUdadmxEWFFwaGZyeUJLeHo5UzkzcHdaUUZ1R281YXFMZmNFazcxTnd3eVlfdzMzTEVxQTkwSWlXTjdHVWFDQ0hYR3NFSVhtN0szaURnM0hETHRmSXdraTVrNkZXRmdQRWxrVWQyNjd0NNIBlAFBVV95cUxQck5zU3AyRTNGSld1VnhYZ0RkbUxDbGhLWElhbFBlbmpHaTQ1RkQ1VW1zdGd0NHFVYW5zY0g2TW55VFluU1dxbGJRRnl5ejVhbDdrdXVVb1JqdU1nZHNMUkpEeVpkZURBRHNLbmJDU0YybnN5Qno5cVNmUzZuS3ZwUzJrRktrNlJOQmo1REVRWEZDLWJs?oc=5",
-      "fecha": "2026-11-23T05:00:45.000Z",
-      "resumen_corto": "La IA corporativa avanza a paso lento: la usan solo tres de cada diez empresas andaluzas El Conciso",
-      "resumen_largo": "La IA corporativa avanza a paso lento: la usan solo tres de cada diez empresas andaluzas El Conciso",
-      "texto_original": "La IA corporativa avanza a paso lento: la usan solo tres de cada diez empresas andaluzas El Conciso",
+      "titulo": "¿Puede la IA solucionar un problema irresoluble? Un matemático de 34 años dice que sí (aunque nadie comprende los detalles) - EL PAÍS",
+      "titulo_original": "¿Puede la IA solucionar un problema irresoluble? Un matemático de 34 años dice que sí (aunque nadie comprende los detalles) - EL PAÍS",
+      "enlace": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQZ3ZGTGowWTZLRkFTTTlxbkkzcTlpeWVvcmoyZ3VTck9SY2FEV2NJRnZmdU5teGFmUXpSdEI2UW0xUlI1ZFY0SmE4Y1RHYkl3R1lneWRuay10TGlOckUtekRvZnhuSDV3T2tCV3dZQzFGam0yTlhPZGgyWG5DWjlIZXNOcml3dk5ucFlIOXl4bWxWYUVjSjlGT0NFUld5MGhPa2Zyek8yclFYQ1dDVHpiMGQ3aVZ6RkZkdi0wNUpkUk1JODd6SmNGbVZDX1dtRXY1eVZIbWZFdVYzQ0ZjRkYyRk1ORHZtYVVVR0hJbUt6NHB3STQ?oc=5",
+      "fecha": "2026-11-24T05:55:00.000Z",
+      "resumen_corto": "Un matemático de 34 años dice que sí (aunque nadie comprende los detalles) EL PAÍS",
+      "resumen_largo": "¿Puede la IA solucionar un problema irresoluble? Un matemático de 34 años dice que sí (aunque nadie comprende los detalles) EL PAÍS",
+      "texto_original": "¿Puede la IA solucionar un problema irresoluble? Un matemático de 34 años dice que sí (aunque nadie comprende los detalles) EL PAÍS",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-23T23:34:33.262Z",
-        "index": 34,
+        "processed_at": "2026-11-24T08:52:05.610Z",
+        "index": 3,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -2920,9 +3284,12 @@
         "idioma_detectado": "es",
         "idioma_original": "es",
         "categoria": "inteligencia_artificial",
-        "categorias_secundarias": [],
+        "categorias_secundarias": [
+          "moviles"
+        ],
         "category_scores": {
-          "inteligencia_artificial": 1
+          "inteligencia_artificial": 2,
+          "moviles": 1
         },
         "entidades": [],
         "cifras_detectadas": [],
@@ -2942,141 +3309,9 @@
         "relevancia": 50,
         "confiabilidad_fuente": 53,
         "readability": {
-          "words": 60,
-          "sentences": 1,
-          "average_words_per_sentence": 60
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 59.5
-    },
-    {
-      "id": "42f644142d184399",
-      "fuente_id": "google_news_es",
-      "fuente_nombre": "Google News ES",
-      "tipo": "rss_web",
-      "subtipo": "google_news",
-      "grupo_fuente": "google_news",
-      "nivel_fuente": "agregador",
-      "categoria": "tecnologia",
-      "idioma_original": "es",
-      "prioridad_fuente": 3,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "Luciano Floridi, filósofo: “La teoría del apocalipsis de la IA es la suma de desinformación, propaganda, intereses y codicia” - EL PAÍS",
-      "titulo_original": "Luciano Floridi, filósofo: “La teoría del apocalipsis de la IA es la suma de desinformación, propaganda, intereses y codicia” - EL PAÍS",
-      "enlace": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxORkoxSUthRGR2dVFzdVl3VGViNE40WkJ1ZjJTaVNiTU5ENVU2S2Y0VVhzVmFNYWJPaTNVYUdUV1I1aDg1bjJBN3F1bnpVOUpGUVlQLVgyVEduVmd3V2RaWHd1dXFldU44YndZLXFlWXYyZjhYUUNuYW9sNXBaNy1za0ozdmNFblBrald5TEF1V0pEUXBUekJ3UERCOEtxZmc1M0dIaGZQazh1ZVcwVGZ1RmZWVk0yVnNCRXJsUVlTN01MdkRFQ29PcFFxNlNVdzVSSUZWdWZTTTNHMTl6SWY1bkxGaWVwNS1iMnFGWWoyUUt5NDdZUnpFddIBjAJBVV95cUxPY2I5eWk2RUR3Q1VHeXZMNUxCMW5zYjZXc2hnbmhoVWhfWEE2ZzktZFZNdV8wb3htQzBzdnRfMnMzZ1ZpZGNFQ0VTTmU5ZnNxeThrLTBfZWhYS0ttYnpSZTl6ZmhpV01VTlE4VDRUdVViRmJYejFpTEtSZWJvYW05UXBkQkJmMEo3UEx0dmZnMzd4aFVMM1JPQnFjSkdDc1pYTUtjNzJzT3VPc0EwN0w4UldvcnJ1WVR0a1NNVmRBVnJsR2wxX0tkeDFrT2drMlJOMGctRENyR2V0Z05acnBSRkV4NUhnYjlobnk0RmdLdTZmdHpfWm9YUTJ4cEJzYnhaRTE1cTlMUXBvVkZV?oc=5",
-      "fecha": "2026-11-23T04:30:01.000Z",
-      "resumen_corto": "Luciano Floridi, filósofo: “La teoría del apocalipsis de la IA es la suma de desinformación, propaganda, intereses y codicia” EL PAÍS",
-      "resumen_largo": "Luciano Floridi, filósofo: “La teoría del apocalipsis de la IA es la suma de desinformación, propaganda, intereses y codicia” EL PAÍS",
-      "texto_original": "Luciano Floridi, filósofo: “La teoría del apocalipsis de la IA es la suma de desinformación, propaganda, intereses y codicia” EL PAÍS",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-11-23T23:34:33.263Z",
-        "index": 36,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "es",
-        "categoria": "inteligencia_artificial",
-        "categorias_secundarias": [],
-        "category_scores": {
-          "inteligencia_artificial": 2
-        },
-        "entidades": [],
-        "cifras_detectadas": [],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 75,
-        "relevancia": 50,
-        "confiabilidad_fuente": 53,
-        "readability": {
-          "words": 60,
-          "sentences": 1,
-          "average_words_per_sentence": 60
-        },
-        "duplicate": {
-          "detected": false,
-          "type": null,
-          "similarity": 0,
-          "similar_to": null
-        }
-      },
-      "final_score": 59.5
-    },
-    {
-      "id": "b72fbe7038b032c9",
-      "fuente_id": "ia_dia",
-      "fuente_nombre": "IA al Día",
-      "tipo": "rss_web",
-      "subtipo": "google_news",
-      "grupo_fuente": "ia_general",
-      "nivel_fuente": "agregador",
-      "categoria": "inteligencia_artificial",
-      "idioma_original": "es",
-      "prioridad_fuente": 3,
-      "analizar": true,
-      "resumir": true,
-      "titulo": "La inteligencia artificial eliminará muchos empleos. ¿Qué deberían estudiar tus hijos ahora? - CNN en Español",
-      "titulo_original": "La inteligencia artificial eliminará muchos empleos. ¿Qué deberían estudiar tus hijos ahora? - CNN en Español",
-      "enlace": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNS3pTQUdkX3dPUzJicTN3WEU5ZU14aXVkVGdEc2toT3AtdVdlWDRzZUQ5NlJuXzFDMVBBZTZhLXZjR3NMMDd6UlJZR0tValB4dW11MlVZOTcyVExPUEJWSHEzSW9EWFdyVm1JTVFpaVZYZmtxTzljQTBBWUd4Ym1adTVoOUx5WHlkWlVRTkZibnF0eWxZT0JabnA1MA?oc=5",
-      "fecha": "2026-11-20T15:53:00.000Z",
-      "resumen_corto": "La inteligencia artificial eliminará muchos empleos.",
-      "resumen_largo": "La inteligencia artificial eliminará muchos empleos. ¿Qué deberían estudiar tus hijos ahora?",
-      "texto_original": "La inteligencia artificial eliminará muchos empleos. ¿Qué deberían estudiar tus hijos ahora? CNN en Español",
-      "analisis": {
-        "version": 2,
-        "processed_at": "2026-11-23T23:34:33.265Z",
-        "index": 41,
-        "resumen": {
-          "generado": true,
-          "origen": "translated"
-        },
-        "idioma_detectado": "es",
-        "idioma_original": "es",
-        "categoria": "inteligencia_artificial",
-        "categorias_secundarias": [],
-        "category_scores": {
-          "inteligencia_artificial": 3
-        },
-        "entidades": [],
-        "cifras_detectadas": [],
-        "content_type": "news",
-        "clickbait": {
-          "detected": false,
-          "score": 0,
-          "signals": []
-        },
-        "spam": {
-          "detected": false,
-          "score": 0,
-          "signals": [],
-          "url_count": 0
-        },
-        "calidad": 75,
-        "relevancia": 50,
-        "confiabilidad_fuente": 53,
-        "readability": {
-          "words": 55,
-          "sentences": 10,
-          "average_words_per_sentence": 5.5
+          "words": 66,
+          "sentences": 5,
+          "average_words_per_sentence": 13.2
         },
         "duplicate": {
           "detected": false,
@@ -3109,8 +3344,8 @@
       "texto_original": "🇷🇺 🇺🇦 Удар Геранями по располаге бразильских наемников в здании школы №9 в Желтых водах Днепропетровской области 21 ноября @brigada_varyag Подписаться на канал | наш МАХ",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-23T23:34:33.244Z",
-        "index": 3,
+        "processed_at": "2026-11-24T08:52:05.620Z",
+        "index": 13,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -3152,7 +3387,7 @@
       "final_score": 55.5
     },
     {
-      "id": "83027fa07f598738",
+      "id": "8b5243d3dd04c9b9",
       "fuente_id": "resumen_militar",
       "fuente_nombre": "El Resumen Militar",
       "tipo": "telegram",
@@ -3164,17 +3399,17 @@
       "prioridad_fuente": 3,
       "analizar": true,
       "resumir": true,
-      "titulo": "🇮🇷 🇺🇦 Кстати, вчера у берегов Ливии украинцы также атаковали иранское судно «Alwan» Подписаться на канал | наш МАХ",
-      "titulo_original": "🇮🇷 🇺🇦 Кстати, вчера у берегов Ливии украинцы также атаковали иранское судно «Alwan» Подписаться на канал | наш МАХ",
-      "enlace": "https://t.me/elresumenmilitar/103934",
-      "fecha": "2026-11-23T17:48:06.000Z",
-      "resumen_corto": "🇮🇷 🇺🇦 Кстати, вчера у берегов Ливии украинцы также атаковали иранское судно «Alwan» Подписаться на канал | наш МАХ",
-      "resumen_largo": "🇮🇷 🇺🇦 Кстати, вчера у берегов Ливии украинцы также атаковали иранское судно «Alwan» Подписаться на канал | наш МАХ",
-      "texto_original": "🇮🇷 🇺🇦 Кстати, вчера у берегов Ливии украинцы также атаковали иранское судно «Alwan» Подписаться на канал | наш МАХ",
+      "titulo": "23.11.26 Покровское - Даниловка Позиционные боевые действия в Днепропетровской зоне безопасности. ВС РФ под обстрелами ВСУ удерживают занятые ранее позиции в Новоданиловке. Уточнение зоны контроля ВС РФ. 0:34 47.87497,36",
+      "titulo_original": "23.11.26 Покровское - Даниловка Позиционные боевые действия в Днепропетровской зоне безопасности. ВС РФ под обстрелами ВСУ удерживают занятые ранее позиции в Новоданиловке. Уточнение зоны контроля ВС РФ. 0:34 47.87497,36",
+      "enlace": "https://t.me/elresumenmilitar/103948",
+      "fecha": "2026-11-23T23:18:53.000Z",
+      "resumen_corto": "23.11.26 Покровское - Даниловка Позиционные боевые действия в Днепропетровской зоне безопасности.",
+      "resumen_largo": "23.11.26 Покровское - Даниловка Позиционные боевые действия в Днепропетровской зоне безопасности. ВС РФ под обстрелами ВСУ удерживают занятые ранее позиции в Новоданиловке. Уточнение зоны контроля ВС РФ.",
+      "texto_original": "23.11.26 Покровское - Даниловка Позиционные боевые действия в Днепропетровской зоне безопасности. ВС РФ под обстрелами ВСУ удерживают занятые ранее позиции в Новоданиловке. Уточнение зоны контроля ВС РФ. 0:34 47.87497,36.25656 На карте Источник 21+ Геопривязка #ru #add",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-23T23:34:33.248Z",
-        "index": 10,
+        "processed_at": "2026-11-24T08:52:05.614Z",
+        "index": 6,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -3185,7 +3420,10 @@
         "categorias_secundarias": [],
         "category_scores": {},
         "entidades": [],
-        "cifras_detectadas": [],
+        "cifras_detectadas": [
+          "8749",
+          "2565"
+        ],
         "content_type": "news",
         "clickbait": {
           "detected": false,
@@ -3198,13 +3436,13 @@
           "signals": [],
           "url_count": 0
         },
-        "calidad": 75,
+        "calidad": 65,
         "relevancia": 45,
         "confiabilidad_fuente": 45,
         "readability": {
-          "words": 70,
-          "sentences": 1,
-          "average_words_per_sentence": 70
+          "words": 92,
+          "sentences": 28,
+          "average_words_per_sentence": 3.29
         },
         "duplicate": {
           "detected": false,
@@ -3213,10 +3451,10 @@
           "similar_to": null
         }
       },
-      "final_score": 55.5
+      "final_score": 52
     },
     {
-      "id": "a0e220264beea6b8",
+      "id": "94863ed4f318c8ed",
       "fuente_id": "resumen_militar",
       "fuente_nombre": "El Resumen Militar",
       "tipo": "telegram",
@@ -3228,17 +3466,17 @@
       "prioridad_fuente": 3,
       "analizar": true,
       "resumir": true,
-      "titulo": "🇱🇾 🇺🇦 ❗️ Зампред Президентского совета Ливии (Восточной) Муса аль-Кони приравнял действия Украины к объявлению войны Ливии. По его словам, атака на порт Бенгази, ответственность за которую взяла на себя Украина, прив",
-      "titulo_original": "🇱🇾 🇺🇦 ❗️ Зампред Президентского совета Ливии (Восточной) Муса аль-Кони приравнял действия Украины к объявлению войны Ливии. По его словам, атака на порт Бенгази, ответственность за которую взяла на себя Украина, прив",
-      "enlace": "https://t.me/elresumenmilitar/103937",
-      "fecha": "2026-11-23T19:55:13.000Z",
-      "resumen_corto": "🇱🇾 🇺🇦 ❗️ Зампред Президентского совета Ливии (Восточной) Муса аль-Кони приравнял действия Украины к объявлению войны Ливии.",
-      "resumen_largo": "🇱🇾 🇺🇦 ❗️ Зампред Президентского совета Ливии (Восточной) Муса аль-Кони приравнял действия Украины к объявлению войны Ливии. По его словам, атака на порт Бенгази, ответственность за которую взяла на себя Украина, привела к материальному ущербу и ранениям среди мирных жителей.",
-      "texto_original": "🇱🇾 🇺🇦 ❗️ Зампред Президентского совета Ливии (Восточной) Муса аль-Кони приравнял действия Украины к объявлению войны Ливии. По его словам, атака на порт Бенгази, ответственность за которую взяла на себя Украина, привела к материальному ущербу и ранениям среди мирных жителей.",
+      "titulo": "23.11.26 Волчанск - Волчанские Хутора Активные боевые действия в Харьковской зоне безопасности. Группа военнослужащих ВСУ пытается занять позиции в Волчанских Хуторах под обстрелом со стороны ВС РФ. Боевые действия за ко",
+      "titulo_original": "23.11.26 Волчанск - Волчанские Хутора Активные боевые действия в Харьковской зоне безопасности. Группа военнослужащих ВСУ пытается занять позиции в Волчанских Хуторах под обстрелом со стороны ВС РФ. Боевые действия за ко",
+      "enlace": "https://t.me/elresumenmilitar/103946",
+      "fecha": "2026-11-23T23:18:51.000Z",
+      "resumen_corto": "23.11.26 Волчанск - Волчанские Хутора Активные боевые действия в Харьковской зоне безопасности.",
+      "resumen_largo": "23.11.26 Волчанск - Волчанские Хутора Активные боевые действия в Харьковской зоне безопасности. Группа военнослужащих ВСУ пытается занять позиции в Волчанских Хуторах под обстрелом со стороны ВС РФ. Боевые действия за контроль позиций в жилой застройке населенного пункта.",
+      "texto_original": "23.11.26 Волчанск - Волчанские Хутора Активные боевые действия в Харьковской зоне безопасности. Группа военнослужащих ВСУ пытается занять позиции в Волчанских Хуторах под обстрелом со стороны ВС РФ. Боевые действия за контроль позиций в жилой застройке населенного пункта. 50.29484,37.00850 На карте Источник Геопривязка #ua #add",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-23T23:34:33.244Z",
-        "index": 4,
+        "processed_at": "2026-11-24T08:52:05.615Z",
+        "index": 7,
         "resumen": {
           "generado": true,
           "origen": "translated"
@@ -3249,7 +3487,10 @@
         "categorias_secundarias": [],
         "category_scores": {},
         "entidades": [],
-        "cifras_detectadas": [],
+        "cifras_detectadas": [
+          "2948",
+          "0085"
+        ],
         "content_type": "news",
         "clickbait": {
           "detected": false,
@@ -3262,13 +3503,13 @@
           "signals": [],
           "url_count": 0
         },
-        "calidad": 60,
+        "calidad": 65,
         "relevancia": 45,
         "confiabilidad_fuente": 45,
         "readability": {
-          "words": 126,
-          "sentences": 7,
-          "average_words_per_sentence": 18
+          "words": 115,
+          "sentences": 24,
+          "average_words_per_sentence": 4.79
         },
         "duplicate": {
           "detected": false,
@@ -3277,10 +3518,10 @@
           "similar_to": null
         }
       },
-      "final_score": 50.25
+      "final_score": 52
     },
     {
-      "id": "29e687c7b16a4471",
+      "id": "0d12f4081801d126",
       "fuente_id": "resumen_militar",
       "fuente_nombre": "El Resumen Militar",
       "tipo": "telegram",
@@ -3292,16 +3533,16 @@
       "prioridad_fuente": 3,
       "analizar": true,
       "resumir": true,
-      "titulo": "‼️ 🇷🇺 🇪🇪 Эстония балансирует на грани открытого конфликта с Россией — МИД РФ ▪️ Временному поверенному в делах Эстонии заявлен официальный протест в связи с решением Таллина закрыть границу с Россией. В МИД РФ предуп",
-      "titulo_original": "‼️ 🇷🇺 🇪🇪 Эстония балансирует на грани открытого конфликта с Россией — МИД РФ ▪️ Временному поверенному в делах Эстонии заявлен официальный протест в связи с решением Таллина закрыть границу с Россией. В МИД РФ предуп",
-      "enlace": "https://t.me/elresumenmilitar/103936",
-      "fecha": "2026-11-23T17:50:46.000Z",
-      "resumen_corto": "‼️ 🇷🇺 🇪🇪 Эстония балансирует на грани открытого конфликта с Россией — МИД РФ ▪️ Временному поверенному в делах Эстонии заявлен официальный протест в связи с решением Таллина закрыть границу с Россией.",
-      "resumen_largo": "‼️ 🇷🇺 🇪🇪 Эстония балансирует на грани открытого конфликта с Россией — МИД РФ ▪️ Временному поверенному в делах Эстонии заявлен официальный протест в связи с решением Таллина закрыть границу с Россией. В МИД РФ предупредили, что ограничения ударят по эстонской экономике и её союзникам. ▪️ Российское внешнеполитическое ведомство обвинило Эстонию в негласном предоставлении воздушного пространства для пролёта украинских беспилотников, атакующих северо-западные регионы РФ.",
-      "texto_original": "‼️ 🇷🇺 🇪🇪 Эстония балансирует на грани открытого конфликта с Россией — МИД РФ ▪️ Временному поверенному в делах Эстонии заявлен официальный протест в связи с решением Таллина закрыть границу с Россией. В МИД РФ предупредили, что ограничения ударят по эстонской экономике и её союзникам. ▪️ Российское внешнеполитическое ведомство обвинило Эстонию в негласном предоставлении воздушного пространства для пролёта украинских беспилотников, атакующих северо-западные регионы РФ. ▪️ В Москве также отвергли обвинения в причастности к поджогу оборонного предприятия под Таллином, назвав их голословными и русофобскими. ▪️ По оценке МИД РФ, эстонские власти усиливают давление на русскоязычное население, прибегая к языковым ограничениям, уголовным преследованиям и депортациям. ▪️ Кроме того, российская сторона заявила о попытках Таллина препятствовать движению российских грузовых судов в Балтийском море с целью установления морской блокады. ▪️ В МИД подчеркнули, что подобные действия создают угрозу прямого военного столкновения. Россия оставляет за собой право принять комплексные политико-дипломатические меры для защиты национальных интересов. ⚠️ Подписаться на RV: MAX | t.me/RVvoenkor",
+      "titulo": "‼️ 🇩🇪 🇺🇦 Украинцы должны покинуть Германию после окончания войны — руководство АдГ ▪️ Сопредседатель партии «Альтернатива для Германии» Тино Хрупалла заявил, что после завершения украинского конфликта беженцы должны",
+      "titulo_original": "‼️ 🇩🇪 🇺🇦 Украинцы должны покинуть Германию после окончания войны — руководство АдГ ▪️ Сопредседатель партии «Альтернатива для Германии» Тино Хрупалла заявил, что после завершения украинского конфликта беженцы должны",
+      "enlace": "https://t.me/elresumenmilitar/103945",
+      "fecha": "2026-11-23T23:01:08.000Z",
+      "resumen_corto": "▪️ «С 2015 года к нам прибыли 1,2 миллиона украинцев, 900 тысяч афганцев и 500 тысяч сирийцев.",
+      "resumen_largo": "‼️ 🇩🇪 🇺🇦 Украинцы должны покинуть Германию после окончания войны — руководство АдГ ▪️ Сопредседатель партии «Альтернатива для Германии» Тино Хрупалла заявил, что после завершения украинского конфликта беженцы должны вернуться на родину. ▪️ «С 2015 года к нам прибыли 1,2 миллиона украинцев, 900 тысяч афганцев и 500 тысяч сирийцев. Как только закончится война — они должны покинуть Германию», — заявил политик.",
+      "texto_original": "‼️ 🇩🇪 🇺🇦 Украинцы должны покинуть Германию после окончания войны — руководство АдГ ▪️ Сопредседатель партии «Альтернатива для Германии» Тино Хрупалла заявил, что после завершения украинского конфликта беженцы должны вернуться на родину. ▪️ «С 2015 года к нам прибыли 1,2 миллиона украинцев, 900 тысяч афганцев и 500 тысяч сирийцев. Как только закончится война — они должны покинуть Германию», — заявил политик. ▪️ Его однопартиец Алиса Вайдель предложила отказаться от денежных пособий Bürgergeld в пользу натуральной помощи — предоставления еды, жилья и предметов первой необходимости. ▪️ По мнению Вайдель, после такой реформы до 90% получателей социальной помощи добровольно покинут Германию. ▪️ Таким образом, руководство АдГ выступает за резкое ужесточение миграционной и социальной политики страны. ⚠️ Подписаться на RV: MAX | t.me/RVvoenkor",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-23T23:34:33.247Z",
+        "processed_at": "2026-11-24T08:52:05.616Z",
         "index": 8,
         "resumen": {
           "generado": true,
@@ -3313,7 +3554,10 @@
         "categorias_secundarias": [],
         "category_scores": {},
         "entidades": [],
-        "cifras_detectadas": [],
+        "cifras_detectadas": [
+          "2015",
+          "90%"
+        ],
         "content_type": "news",
         "clickbait": {
           "detected": false,
@@ -3326,13 +3570,13 @@
           "signals": [],
           "url_count": 0
         },
-        "calidad": 60,
+        "calidad": 65,
         "relevancia": 45,
         "confiabilidad_fuente": 45,
         "readability": {
-          "words": 225,
-          "sentences": 16,
-          "average_words_per_sentence": 14.06
+          "words": 199,
+          "sentences": 12,
+          "average_words_per_sentence": 16.58
         },
         "duplicate": {
           "detected": false,
@@ -3341,10 +3585,10 @@
           "similar_to": null
         }
       },
-      "final_score": 50.25
+      "final_score": 52
     },
     {
-      "id": "8f7beccb8cb1f45f",
+      "id": "0d14f02c2eefde41",
       "fuente_id": "resumen_militar",
       "fuente_nombre": "El Resumen Militar",
       "tipo": "telegram",
@@ -3356,16 +3600,16 @@
       "prioridad_fuente": 3,
       "analizar": true,
       "resumir": true,
-      "titulo": "‼️ 🇪🇺 🇷🇺 Генсек НАТО предложил создать единую европейскую армию, опасаясь, что Россия дойдёт до Роттердама ▪️ Марк Рютте заявил, что Европа слишком сильно зависит от США в вопросах обороны и в долгосрочной перспектив",
-      "titulo_original": "‼️ 🇪🇺 🇷🇺 Генсек НАТО предложил создать единую европейскую армию, опасаясь, что Россия дойдёт до Роттердама ▪️ Марк Рютте заявил, что Европа слишком сильно зависит от США в вопросах обороны и в долгосрочной перспектив",
-      "enlace": "https://t.me/elresumenmilitar/103935",
-      "fecha": "2026-11-23T17:50:35.000Z",
-      "resumen_corto": "▪️ По его словам, 600 миллионов жителей европейских стран НАТО полагаются на американскую защиту от России с населением около 140 миллионов человек.",
-      "resumen_largo": "‼️ 🇪🇺 🇷🇺 Генсек НАТО предложил создать единую европейскую армию, опасаясь, что Россия дойдёт до Роттердама ▪️ Марк Рютте заявил, что Европа слишком сильно зависит от США в вопросах обороны и в долгосрочной перспективе такая ситуация неустойчива. ▪️ По его словам, 600 миллионов жителей европейских стран НАТО полагаются на американскую защиту от России с населением около 140 миллионов человек. ▪️ Рютте привёл в пример США, где действует единая армия, и допустил создание аналогичной структуры в Европе вместо отдельных национальных вооружённых сил.",
-      "texto_original": "‼️ 🇪🇺 🇷🇺 Генсек НАТО предложил создать единую европейскую армию, опасаясь, что Россия дойдёт до Роттердама ▪️ Марк Рютте заявил, что Европа слишком сильно зависит от США в вопросах обороны и в долгосрочной перспективе такая ситуация неустойчива. ▪️ По его словам, 600 миллионов жителей европейских стран НАТО полагаются на американскую защиту от России с населением около 140 миллионов человек. ▪️ Рютте привёл в пример США, где действует единая армия, и допустил создание аналогичной структуры в Европе вместо отдельных национальных вооружённых сил. ▪️ При этом генсек предупредил, что формирование дополнительной европейской армии поверх существующих национальных структур лишь усложнит управление. ➖️ ️️️«Если Путин нападёт, нам потребуется две-три недели, чтобы договориться, кто что будет делать, и к тому времени он, вероятно, уже окажется в Роттердаме», — заявил Рютте. ⚠️ Подписаться на RV: MAX | t.me/RVvoenkor",
+      "titulo": "‼️ 🇩🇪 🇺🇦 «Деньги своим, а не Украине»: Вайдель пообещала прекратить финансирование Киева в случае победы АдГ ▪️ Лидер партии «Альтернатива для Германии» Алиса Вайдель заявила, что в случае прихода к власти АдГ прекра",
+      "titulo_original": "‼️ 🇩🇪 🇺🇦 «Деньги своим, а не Украине»: Вайдель пообещала прекратить финансирование Киева в случае победы АдГ ▪️ Лидер партии «Альтернатива для Германии» Алиса Вайдель заявила, что в случае прихода к власти АдГ прекра",
+      "enlace": "https://t.me/elresumenmilitar/103943",
+      "fecha": "2026-11-23T23:00:53.000Z",
+      "resumen_corto": "‼️ 🇩🇪 🇺🇦 «Деньги своим, а не Украине»: Вайдель пообещала прекратить финансирование Киева в случае победы АдГ ▪️ Лидер партии «Альтернатива для Германии» Алиса Вайдель заявила, что в случае прихода к власти АдГ прекратит финансовую помощь Украине и поставки вооружений.",
+      "resumen_largo": "‼️ 🇩🇪 🇺🇦 «Деньги своим, а не Украине»: Вайдель пообещала прекратить финансирование Киева в случае победы АдГ ▪️ Лидер партии «Альтернатива для Германии» Алиса Вайдель заявила, что в случае прихода к власти АдГ прекратит финансовую помощь Украине и поставки вооружений. ▪️ Партия также намерена сократить военные расходы Германии на десятки миллиардов евро и уменьшить взносы в бюджет Евросоюза. ▪️ «Похоже, что денег хватает на всех, везде, для каждой страны и для неправительственных организаций, но не на наших собственных граждан», — заявила Вайдель.",
+      "texto_original": "‼️ 🇩🇪 🇺🇦 «Деньги своим, а не Украине»: Вайдель пообещала прекратить финансирование Киева в случае победы АдГ ▪️ Лидер партии «Альтернатива для Германии» Алиса Вайдель заявила, что в случае прихода к власти АдГ прекратит финансовую помощь Украине и поставки вооружений. ▪️ Партия также намерена сократить военные расходы Германии на десятки миллиардов евро и уменьшить взносы в бюджет Евросоюза. ▪️ «Похоже, что денег хватает на всех, везде, для каждой страны и для неправительственных организаций, но не на наших собственных граждан», — заявила Вайдель. ▪️ Политик подчеркнула, что средства должны направляться прежде всего на поддержку немецких пенсионеров, налогоплательщиков и граждан, финансирующих социальную систему. ▪️ Очередные парламентские выборы в Германии запланированы на 2029 год, однако не исключено их досрочное проведение. ⚠️ Подписаться на RV: MAX | t.me/RVvoenkor",
       "analisis": {
         "version": 2,
-        "processed_at": "2026-11-23T23:34:33.248Z",
+        "processed_at": "2026-11-24T08:52:05.617Z",
         "index": 9,
         "resumen": {
           "generado": true,
@@ -3377,7 +3621,9 @@
         "categorias_secundarias": [],
         "category_scores": {},
         "entidades": [],
-        "cifras_detectadas": [],
+        "cifras_detectadas": [
+          "2029"
+        ],
         "content_type": "news",
         "clickbait": {
           "detected": false,
@@ -3390,13 +3636,13 @@
           "signals": [],
           "url_count": 0
         },
-        "calidad": 60,
+        "calidad": 65,
         "relevancia": 45,
         "confiabilidad_fuente": 45,
         "readability": {
-          "words": 234,
+          "words": 232,
           "sentences": 11,
-          "average_words_per_sentence": 21.27
+          "average_words_per_sentence": 21.09
         },
         "duplicate": {
           "detected": false,
@@ -3405,27 +3651,27 @@
           "similar_to": null
         }
       },
-      "final_score": 50.25
+      "final_score": 52
     }
   ],
-  "analyzed_at": "2026-11-23T23:34:33.267Z",
+  "analyzed_at": "2026-11-24T08:52:05.643Z",
   "analysis_stats": {
-    "input_items": 48,
-    "valid_items": 47,
+    "input_items": 51,
+    "valid_items": 50,
     "rejected_items": 1,
     "duplicate_items": 0,
     "clickbait_items": 0,
     "spam_items": 0,
-    "summaries_generated": 47,
-    "average_quality": 81,
-    "average_relevance": 61
+    "summaries_generated": 50,
+    "average_quality": 82,
+    "average_relevance": 60
   },
   "validation": {
     "version": "1.1",
-    "executed_at": "2026-11-23T23:34:33.385Z",
-    "original_items": 47,
+    "executed_at": "2026-11-24T08:52:05.797Z",
+    "original_items": 50,
     "rejected_items": 0,
-    "final_items": 47,
+    "final_items": 50,
     "limit": 60,
     "status": "ok"
   }
